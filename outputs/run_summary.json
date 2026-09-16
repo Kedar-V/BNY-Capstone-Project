@@ -1,0 +1,13 @@
+{
+  "n_documents": 32046,
+  "n_filings": 9364,
+  "n_events": 893,
+  "date_min": "2020-01-02",
+  "date_max": "2025-12-31",
+  "pct_events_with_amendments": 97.42,
+  "n_sample_events_for_text_coverage": 38,
+  "coverage_note": "Text-field coverage percentages are inferred from regex presence on downloaded sample documents covering 38 events. They measure mention detection, not successful structured extraction. Internal-only fields are definitionally 0% public coverage.",
+  "mvp_event_count": 285,
+  "amendment_eval_simple_count": 104,
+  "amendment_eval_complex_count": 177
+}

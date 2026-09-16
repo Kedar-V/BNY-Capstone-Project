@@ -1,0 +1,11 @@
+event_id,primary_entity,primary_form_family,n_filings,n_amendment_filings,n_documents,event_span_days,first_file_date,last_file_date
+005-43608,ASURE SOFTWARE INC,issuer_tender,1,1,1,0,2020-01-29,2020-01-29
+005-81011,"Mellon Optima L/S Strategy Fund, LLC",issuer_tender,1,1,1,0,2020-02-07,2020-02-07
+005-86989,Blackstone Alternative Alpha Master Fund,issuer_tender,1,1,1,0,2020-03-09,2020-03-09
+005-86990,Blackstone Alternative Alpha Fund,issuer_tender,1,1,1,0,2020-03-09,2020-03-09
+005-87619,Blackstone Alternative Alpha Fund II,issuer_tender,1,1,1,0,2020-03-09,2020-03-09
+005-88059,Grosvenor Registered Multi-Strategy Fund,issuer_tender,1,1,1,0,2020-02-10,2020-02-10
+005-91208,"Hartman Short Term Income Properties XX, Inc.",third_party_tender,1,1,1,0,2020-01-07,2020-01-07
+005-46803,WINMARK CORP,issuer_tender,1,1,2,0,2020-01-17,2020-01-17
+005-51837,SSR MINING INC.,issuer_tender,1,1,2,0,2020-02-03,2020-02-03
+005-88918,Gannett Media Corp.,issuer_tender,1,1,2,0,2020-01-02,2020-01-02
