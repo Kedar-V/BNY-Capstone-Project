@@ -1,0 +1,6 @@
+mvp_event_type,label,corpus_status,primary_forms_in_corpus,supporting_forms_in_corpus,missing_primary_forms,n_primary_forms_present,n_primary_forms_target,primary_form_coverage_pct
+tender_offer,Tender offer,collected,"SC TO-I, SC TO-I/A, SC TO-T, SC TO-T/A","SC 14D9, SC 14D9/A",(none),4,4,100.0
+exchange_offer,Exchange offer,collected,"S-4, S-4/A, SC TO-I, SC TO-I/A, SC TO-T, SC TO-T/A","424B3, 425, 8-K, SC 14D9, SC 14D9/A",(none),6,6,100.0
+rights_issue,Rights issue,collected,"424B2, 424B3, 424B5",8-K,"S-3, S-3ASR",3,5,60.0
+merger,Merger,collected,"DEFM14A, PREM14A, S-4, S-4/A, SC 13E3, SC 13E3/A","425, 8-K",(none),6,6,100.0
+conversion,Conversion,collected,"424B2, 424B3, 8-K",(none),"S-3, S-3ASR",3,5,60.0

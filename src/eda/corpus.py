@@ -11,6 +11,7 @@ import pandas as pd
 
 from .config import (
     AMENDMENT_FORMS,
+    COLLECTION_TRACKS,
     CORPUS_DIR,
     DEFAULT_END,
     DEFAULT_START,
@@ -106,21 +107,58 @@ def collect_efts_metadata(
     client: SecClient | None = None,
     out_path: Path | None = None,
     checkpoint_path: Path | None = None,
+    tracks: list[str] | None = None,
+    q: str | None = None,
 ) -> pd.DataFrame:
-    """Collect EFTS document-level metadata for tender-related forms."""
+    """
+    Collect EFTS document-level metadata for MVP collection tracks.
+
+    Prefer `tracks` (tender / merger_exchange / rights / conversion). Legacy
+    `forms=` still works as a single ad-hoc track.
+    """
     client = client or SecClient()
-    forms = forms or TENDER_FORMS
+    tracks = tracks or (["tender"] if forms is None else ["custom"])
     checkpoint_path = checkpoint_path or (RAW_DIR / "efts_collection_checkpoint.json")
-    jsonl_path = RAW_DIR / "efts_tender_metadata.jsonl"
+    jsonl_path = RAW_DIR / "efts_mvp_metadata.jsonl"
+    legacy_jsonl = RAW_DIR / "efts_tender_metadata.jsonl"
     RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Build work items: (track, form, q)
+    work: list[tuple[str, str, str, tuple[str, ...]]] = []
+    for track_name in tracks:
+        if track_name == "custom":
+            form_list = forms or TENDER_FORMS
+            # Strip /A — EFTS returns amendments with the base form.
+            bases = []
+            for f in form_list:
+                base = f[:-2] if str(f).endswith("/A") else f
+                if base not in bases:
+                    bases.append(base)
+            for form in bases:
+                work.append(("custom", form, q or EFTS_BROAD_QUERY, ("custom",)))
+            continue
+        if track_name not in COLLECTION_TRACKS:
+            raise ValueError(f"Unknown track {track_name!r}. Choose from {sorted(COLLECTION_TRACKS)}")
+        spec = COLLECTION_TRACKS[track_name]
+        for form in spec["forms"]:
+            work.append(
+                (
+                    track_name,
+                    form,
+                    spec["q"],
+                    tuple(spec.get("mvp_event_types", [])),
+                )
+            )
 
     records: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
     done_windows: set[str] = set()
 
-    # Resume from prior partial run if present.
-    if jsonl_path.exists():
-        with jsonl_path.open("r", encoding="utf-8") as fh:
+    # Seed from prior MVP + legacy tender jsonl so we do not re-download.
+    for path in (jsonl_path, legacy_jsonl):
+        if not path.exists():
+            continue
+        with path.open("r", encoding="utf-8") as fh:
             for line in fh:
                 if not line.strip():
                     continue
@@ -128,26 +166,24 @@ def collect_efts_metadata(
                 hit_id = row.get("hit_id")
                 if hit_id and hit_id not in seen_ids:
                     seen_ids.add(hit_id)
+                    if "collection_track" not in row:
+                        row["collection_track"] = "tender"
                     records.append(row)
+
     if checkpoint_path.exists():
         done_windows = set(json.loads(checkpoint_path.read_text(encoding="utf-8")).get("done_windows", []))
 
-    families = [
-        "SC TO-T",
-        "SC TO-I",
-        "SC 14D9",
-    ]
-    # NOTE: EFTS returns both initial and /A filings when the base form is requested
-    # alone. Requesting "SC TO-T,SC TO-T/A" together unexpectedly returns mostly /A only.
     with jsonl_path.open("a", encoding="utf-8") as fh:
-        for family in families:
+        for track_name, form, query, mvp_types in work:
             for win_start, win_end in client.iter_month_windows(start, end):
-                key = f"{family}|{win_start}|{win_end}"
-                if key in done_windows:
+                key = f"{track_name}|{form}|{win_start}|{win_end}"
+                # Also honor legacy tender checkpoint keys: "SC TO-T|2020-01-01|..."
+                legacy_key = f"{form}|{win_start}|{win_end}"
+                if key in done_windows or (track_name == "tender" and legacy_key in done_windows):
                     continue
                 hits = client.efts_paginate(
-                    q=EFTS_BROAD_QUERY,
-                    forms=family,
+                    q=query,
+                    forms=form,
                     start=win_start,
                     end=win_end,
                 )
@@ -157,6 +193,9 @@ def collect_efts_metadata(
                         continue
                     seen_ids.add(hit_id)
                     rec = hit_to_record(hit)
+                    rec["collection_track"] = track_name
+                    rec["efts_query"] = query
+                    rec["mvp_event_types"] = list(mvp_types)
                     records.append(rec)
                     fh.write(json.dumps(rec, default=str) + "\n")
                 done_windows.add(key)
@@ -169,24 +208,41 @@ def collect_efts_metadata(
     df = pd.DataFrame.from_records(records)
     if not df.empty:
         df["file_date"] = pd.to_datetime(df["file_date"], errors="coerce")
-        # Deduplicate in case of resumed overlapping writes.
         if "hit_id" in df.columns:
             df = df.drop_duplicates(subset=["hit_id"], keep="last")
-        # Normalize mixed JSON scalar types for parquet friendliness.
         if "sequence" in df.columns:
             df["sequence"] = pd.to_numeric(df["sequence"], errors="coerce")
         for col in ("is_amendment", "is_exhibit", "is_primary_form_doc"):
             if col in df.columns:
                 df[col] = df[col].astype("boolean")
-        for col in ("ciks", "display_names", "tickers", "file_nums", "biz_states", "inc_states", "sics", "root_forms"):
+        for col in (
+            "ciks",
+            "display_names",
+            "tickers",
+            "file_nums",
+            "biz_states",
+            "inc_states",
+            "sics",
+            "root_forms",
+            "mvp_event_types",
+        ):
             if col in df.columns:
-                df[col] = df[col].apply(lambda x: list(x) if isinstance(x, (list, tuple)) else ([] if pd.isna(x) else [x]))
-    out_path = out_path or (RAW_DIR / "efts_tender_metadata.parquet")
+                df[col] = df[col].apply(
+                    lambda x: list(x)
+                    if isinstance(x, (list, tuple))
+                    else ([] if (x is None or (isinstance(x, float) and pd.isna(x))) else [x])
+                )
+    out_path = out_path or (RAW_DIR / "efts_mvp_metadata.parquet")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     if out_path.suffix == ".parquet":
         df.to_parquet(out_path, index=False)
     else:
         df.to_json(out_path, orient="records", date_format="iso")
+    # Keep legacy tender parquet in sync for older loaders.
+    tender_out = RAW_DIR / "efts_tender_metadata.parquet"
+    if not df.empty and "form" in df.columns:
+        tender_mask = df["form"].astype(str).str.startswith(("SC TO-", "SC 14D9"))
+        df.loc[tender_mask].to_parquet(tender_out, index=False)
     return df
 
 
@@ -281,13 +337,19 @@ def load_corpus(
                 events[col] = pd.to_datetime(events[col], errors="coerce")
         return docs, events
 
-    meta_path = meta_path or (RAW_DIR / "efts_tender_metadata.parquet")
+    meta_path = meta_path or (RAW_DIR / "efts_mvp_metadata.parquet")
     if not meta_path.exists():
-        jsonl = RAW_DIR / "efts_tender_metadata.jsonl"
+        legacy = RAW_DIR / "efts_tender_metadata.parquet"
+        if legacy.exists():
+            meta_path = legacy
+    if not meta_path.exists():
+        jsonl = RAW_DIR / "efts_mvp_metadata.jsonl"
+        if not jsonl.exists():
+            jsonl = RAW_DIR / "efts_tender_metadata.jsonl"
         if not jsonl.exists():
             raise FileNotFoundError(
                 "No corpus found. Run scripts/build_corpus.py first "
-                f"(looked for {meta_path} and {jsonl})."
+                f"(looked for efts_mvp_metadata / efts_tender_metadata under {RAW_DIR})."
             )
         meta = pd.read_json(jsonl, lines=True)
         if "file_date" in meta.columns:

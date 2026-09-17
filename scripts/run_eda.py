@@ -1,4 +1,8 @@
-"""End-to-end runner that writes outputs/ artifacts for the BNY schema EDA."""
+"""End-to-end runner that writes outputs/ artifacts for the BNY schema EDA.
+
+MVP focus: tender offers, exchange offers, rights issues, mergers, conversions.
+Current corpus is tender-centric; gap tables make that explicit.
+"""
 
 from __future__ import annotations
 
@@ -11,7 +15,6 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
@@ -19,11 +22,23 @@ sys.path.insert(0, str(ROOT / "src"))
 from eda.amendments import analyze_amendments
 from eda.config import FIGURES_DIR, PROCESSED_DIR
 from eda.corpus import load_corpus
-from eda.documents import analyze_documents, plot_format_distribution, sample_documents_for_content
-from eda.events import analyze_events, plot_event_distributions
+from eda.documents import analyze_documents, sample_documents_for_content
+from eda.events import analyze_events
 from eda.missingness import classify_missingness, ground_truth_recommendations
 from eda.mvp import recommend_mvp_design
-from eda.overview import overview_tables, plot_form_distribution, plot_temporal_volume, summarize_dataset
+from eda.mvp_viz import (
+    plot_benchmark_field_coverage,
+    plot_event_family_mix,
+    plot_event_type_coverage_heatmap,
+    plot_event_type_field_relevance_matrix,
+    plot_field_ownership_counts,
+    plot_mvp_amendment_readiness,
+    plot_mvp_event_type_readiness,
+    plot_mvp_selection_funnel,
+    plot_notification_completeness,
+    plot_schema_coverage_by_ownership,
+)
+from eda.overview import overview_tables, summarize_dataset
 from eda.quality import analyze_data_quality
 from eda.schema_coverage import analyze_schema_coverage
 
@@ -76,40 +91,29 @@ def main() -> None:
     quality = analyze_data_quality(docs, events)
     missingness = classify_missingness(coverage["schema_coverage"], coverage["event_type_coverage"])
     gt = ground_truth_recommendations(coverage["schema_coverage"])
-    mvp = recommend_mvp_design(docs, events, coverage["schema_coverage"].rename(columns={"public_coverage_pct": "pct_detected", "field": "field"}))
+    mvp = recommend_mvp_design(docs, events, coverage["schema_coverage"])
 
-    # Plots
-    plot_form_distribution(docs)
-    plot_temporal_volume(docs)
-    plot_event_distributions(events)
-    plot_format_distribution(docs)
-
-    cov = coverage["schema_coverage"].dropna(subset=["public_coverage_pct"])
-    if not cov.empty:
-        fig, ax = plt.subplots(figsize=(10, 10))
-        plot_df = cov.sort_values("public_coverage_pct", ascending=True)
-        sns.barplot(data=plot_df, y="field", x="public_coverage_pct", hue="group", dodge=False, ax=ax)
-        ax.set_xlim(0, 100)
-        ax.set_xlabel("Public coverage %")
-        ax.set_title("BNY schema field coverage from public documents")
-        fig.tight_layout()
-        fig.savefig(OUTPUTS / "figures" / "schema_coverage.png", dpi=150)
-        fig.savefig(FIGURES_DIR / "schema_coverage.png", dpi=150)
-        plt.close(fig)
-
-    etc = coverage["event_type_coverage"]
-    if not etc.empty:
-        pivot = etc.pivot_table(index="field", columns="corporate_action_type", values="coverage_pct")
-        fig, ax = plt.subplots(figsize=(10, 12))
-        sns.heatmap(pivot, annot=False, cmap="Blues", ax=ax, vmin=0, vmax=100)
-        ax.set_title("Coverage by corporate_action_type × field (sample)")
-        fig.tight_layout()
-        fig.savefig(OUTPUTS / "figures" / "event_type_coverage_heatmap.png", dpi=150)
-        plt.close(fig)
+    # --- MVP-relevant plots only ---
+    plot_event_family_mix(events)
+    plot_mvp_selection_funnel(mvp["funnel"])
+    plot_mvp_event_type_readiness(mvp["corpus_gaps"])
+    plot_event_type_field_relevance_matrix()
+    plot_schema_coverage_by_ownership(coverage["schema_coverage"])
+    plot_field_ownership_counts(coverage["schema_coverage"])
+    plot_benchmark_field_coverage(coverage["schema_coverage"], mvp["benchmark_field_subset_v1"])
+    plot_notification_completeness(mvp["datastore_field_catalog"])
+    plot_mvp_amendment_readiness(mvp["mvp_events"])
+    plot_event_type_coverage_heatmap(coverage["event_type_coverage"])
 
     # Required CSVs
     coverage["schema_coverage"].to_csv(OUTPUTS / "schema_coverage.csv", index=False)
     coverage["event_type_coverage"].to_csv(OUTPUTS / "event_type_coverage.csv", index=False)
+    mvp["taxonomy_overview"].to_csv(OUTPUTS / "mvp_event_taxonomy.csv", index=False)
+    mvp["corpus_gaps"].to_csv(OUTPUTS / "mvp_corpus_gaps.csv", index=False)
+    mvp["build_order"].to_csv(OUTPUTS / "mvp_build_order.csv", index=False)
+    mvp["datastore_field_catalog"].to_csv(OUTPUTS / "datastore_field_catalog.csv", index=False)
+    mvp["mvp_events"].to_csv(OUTPUTS / "mvp_events.csv", index=False)
+    mvp["funnel"].to_csv(OUTPUTS / "mvp_selection_funnel.csv", index=False)
 
     dq_parts = [
         quality["missing_metadata"].assign(section="missing_metadata"),
@@ -134,7 +138,6 @@ def main() -> None:
     if isinstance(amend_stats.get("field_presence_delta_summary"), pd.DataFrame):
         amend_stats["field_presence_delta_summary"].to_csv(OUTPUTS / "amendment_field_deltas.csv", index=False)
 
-    # Copy figures into outputs/
     for p in FIGURES_DIR.glob("*.png"):
         target = OUTPUTS / "figures" / p.name
         target.write_bytes(p.read_bytes())
@@ -148,7 +151,9 @@ def main() -> None:
         "pct_events_with_amendments": overview["pct_events_with_amendments"],
         "n_sample_events_for_text_coverage": coverage["n_sample_events"],
         "coverage_note": coverage["note"],
+        "target_event_types": mvp.get("target_event_types"),
         "mvp_event_count": mvp.get("mvp_event_count"),
+        "mvp_preferred_count": mvp.get("mvp_preferred_count"),
         "amendment_eval_simple_count": mvp.get("amendment_eval_simple_count"),
         "amendment_eval_complex_count": mvp.get("amendment_eval_complex_count"),
     }

@@ -1,16 +1,16 @@
 event_id,primary_entity,primary_form_family,n_documents,n_filings,n_amendment_filings,event_span_days
+333-262557,TORONTO DOMINION BANK,prospectus_supplement,3829,3829,0,1088
+333-231751,TORONTO DOMINION BANK,prospectus_supplement,1474,1474,0,792
+333-268718-01,BofA Finance LLC,prospectus_supplement,846,846,0,1071
+333-253421,GOLDMAN SACHS GROUP INC,prospectus_supplement,779,779,0,690
+333-228614,BANK OF NOVA SCOTIA,prospectus_supplement,679,679,0,727
+333-259205,ROYAL BANK OF CANADA,prospectus_supplement,457,457,0,825
+333-239610,GOLDMAN SACHS GROUP INC,prospectus_supplement,451,451,0,264
+333-273353-01,"Nomura America Finance, LLC",prospectus_supplement,398,206,0,512
+333-269296,GOLDMAN SACHS GROUP INC,prospectus_supplement,328,328,0,728
+001-41612,Asset Entities Inc.,mixed,270,242,0,560
+333-269714,PROSPECT CAPITAL CORP,prospectus_supplement,260,260,0,1050
+001-36305,"Semler Scientific, Inc.",mixed,258,250,0,1247
 005-88884,"CPG Carlyle Commitments Fund, LLC",issuer_tender,258,47,25,2077
-005-87063,AB Multi-Manager Alternative Fund,issuer_tender,248,49,25,2120
-005-88370,"NexPoint Capital, Inc.",issuer_tender,241,51,27,2180
-005-85837,Partners Group Private Equity,issuer_tender,224,48,25,2132
-005-89919,Pomona Investment Fund,issuer_tender,223,50,26,2178
-005-90234,"Carlyle Credit Solutions, Inc.",mixed,220,48,31,1357
-005-91801,Blackstone Private Credit Fund,issuer_tender,218,50,31,1682
-005-80363,Alpha Core Strategies Fund,issuer_tender,214,49,25,2127
-005-89754,Peachtree Alternative Strategies Fund,issuer_tender,212,48,24,2157
-005-89250,ABS Long/Short Strategies Fund,issuer_tender,207,47,23,2113
-005-90752,AIP Alternative Lending Fund A,issuer_tender,206,59,35,2100
-005-78754,A&Q Long/Short Strategies Fund LLC,issuer_tender,200,48,24,2104
-005-89632,"AMG Pantheon Fund, LLC",issuer_tender,200,49,25,2174
-005-86283,A&Q Multi-Strategy Fund,issuer_tender,199,48,24,2104
-005-88164,INFINITY CORE ALTERNATIVE FUND,issuer_tender,199,48,24,2095
+333-261476,BANK OF NOVA SCOTIA,prospectus_supplement,254,254,0,1049
+333-219206,GOLDMAN SACHS GROUP INC,prospectus_supplement,251,251,0,182

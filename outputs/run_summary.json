@@ -1,13 +1,21 @@
 {
-  "n_documents": 32046,
-  "n_filings": 9364,
-  "n_events": 893,
+  "n_documents": 197251,
+  "n_filings": 103944,
+  "n_events": 14518,
   "date_min": "2020-01-02",
   "date_max": "2025-12-31",
-  "pct_events_with_amendments": 97.42,
-  "n_sample_events_for_text_coverage": 38,
-  "coverage_note": "Text-field coverage percentages are inferred from regex presence on downloaded sample documents covering 38 events. They measure mention detection, not successful structured extraction. Internal-only fields are definitionally 0% public coverage.",
+  "pct_events_with_amendments": 22.14,
+  "n_sample_events_for_text_coverage": 57,
+  "coverage_note": "Text-field coverage percentages are inferred from regex presence on downloaded sample documents covering 57 events. They measure mention detection, not successful structured extraction. Internal-only fields are definitionally 0% public coverage.",
+  "target_event_types": [
+    "tender_offer",
+    "exchange_offer",
+    "rights_issue",
+    "merger",
+    "conversion"
+  ],
   "mvp_event_count": 285,
-  "amendment_eval_simple_count": 104,
-  "amendment_eval_complex_count": 177
+  "mvp_preferred_count": 272,
+  "amendment_eval_simple_count": 98,
+  "amendment_eval_complex_count": 183
 }

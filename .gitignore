@@ -5,3 +5,9 @@ __pycache__/
 .DS_Store
 data/corpus/sample_docs/
 *.atom
+.env
+*.sql.gz
+
+# Large SEC corpus dumps (rebuild via scripts/build_corpus.py)
+data/raw/*.jsonl
+data/processed/documents.csv

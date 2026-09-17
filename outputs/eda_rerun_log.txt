@@ -1,0 +1,48 @@
+Loaded docs=197,251 events=14,518
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/src/eda/mvp_viz.py:50: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=counts, y="primary_form_family", x="n_events", ax=ax, palette=colors)
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/src/eda/mvp_viz.py:228: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/src/eda/mvp_viz.py:115: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=cls, y="source_class", x="n_fields", ax=ax, palette=colors)
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/src/eda/mvp_viz.py:141: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=cov, y="field", x="public_coverage_pct", ax=ax, palette=colors)
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/src/eda/mvp_viz.py:206: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(data=counts, y="datastore_role", x="n_fields", ax=ax, palette=colors)
+{
+  "n_documents": 197251,
+  "n_filings": 103944,
+  "n_events": 14518,
+  "date_min": "2020-01-02",
+  "date_max": "2025-12-31",
+  "pct_events_with_amendments": 22.14,
+  "n_sample_events_for_text_coverage": 57,
+  "coverage_note": "Text-field coverage percentages are inferred from regex presence on downloaded sample documents covering 57 events. They measure mention detection, not successful structured extraction. Internal-only fields are definitionally 0% public coverage.",
+  "target_event_types": [
+    "tender_offer",
+    "exchange_offer",
+    "rights_issue",
+    "merger",
+    "conversion"
+  ],
+  "mvp_event_count": 285,
+  "mvp_preferred_count": 272,
+  "amendment_eval_simple_count": 98,
+  "amendment_eval_complex_count": 183
+}
+Wrote artifacts to /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs

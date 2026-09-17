@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: bny-capstone-pg
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: bny
+      POSTGRES_PASSWORD: bny
+      POSTGRES_DB: bny_capstone
+    ports:
+      - "5433:5432"
+    volumes:
+      - bny_pg_data:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bny -d bny_capstone"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  bny_pg_data:

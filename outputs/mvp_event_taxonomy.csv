@@ -1,0 +1,6 @@
+mvp_event_type,label,bny_corporate_action_type,corpus_status,primary_sec_forms,supporting_sec_forms,notes
+tender_offer,Tender offer,TENDER OFFER,collected,"SC TO-T, SC TO-T/A, SC TO-I, SC TO-I/A","SC 14D9, SC 14D9/A",Primary corpus today. Prefer third-party + 14D9 mixed events for MVP v1.
+exchange_offer,Exchange offer,EXCHANGE,collected,"SC TO-T, SC TO-T/A, SC TO-I, SC TO-I/A, S-4, S-4/A","SC 14D9, SC 14D9/A, 424B3, 8-K, 425",S-4 now collected via merger_exchange track. Some exchange offers also appear inside Schedule TO; prefer S-4 + TO narrative for exchange-specific fields.
+rights_issue,Rights issue,RIGHTS ISSUE,collected,"424B2, 424B3, 424B5, S-3, S-3ASR","8-K, 424B4",Collected via EFTS 424B2/3/5 + rights-offering text filter (not all 424B filings).
+merger,Merger,MERGER,collected,"DEFM14A, PREM14A, S-4, S-4/A, SC 13E3, SC 13E3/A","8-K, 425",Collected DEFM14A / PREM14A / S-4 / SC 13E3 / 425 via EFTS (2020–2025).
+conversion,Conversion,CONVERSION,collected,"8-K, 424B2, 424B3, S-3, S-3ASR","10-K, 10-Q",Collected via EFTS 8-K + conversion-language filter. Still noisy — manual/event-type labeling recommended before extraction eval.

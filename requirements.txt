@@ -10,3 +10,5 @@ jupyter>=1.0
 ipykernel>=6.29
 tabulate>=0.9
 scipy>=1.11
+psycopg[binary]>=3.2
+pyarrow>=14.0

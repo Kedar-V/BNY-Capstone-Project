@@ -1,0 +1,6 @@
+phase,mvp_event_type,action,corpus_ready
+1,tender_offer,Build event datastore + extraction + notification draft on SC TO-T + 14D9,True
+2,exchange_offer,Reclassify exchange language inside TO; add S-4 collection,False
+3,merger,Collect DEFM14A / S-4 / SC 13E-3; election-options benchmark,False
+4,rights_issue,Collect 424B* / S-3 rights offerings; record/ex/subscription fields,False
+5,conversion,Collect 8-K / prospectus conversion notices; ratio/price benchmark,False

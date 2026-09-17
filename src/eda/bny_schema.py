@@ -457,9 +457,23 @@ SCHEMA_BY_NAME = {f.name: f for f in BNY_SCHEMA}
 
 # Event-type relevance priors used only to separate N/A vs missing-relevant.
 # These are analytical assumptions, labeled as such in outputs.
+#
+# Keys include:
+#   - SEC form families present in the current tender corpus
+#   - MVP corporate-action classes (tender_offer / exchange_offer / rights_issue / merger / conversion)
+from .event_taxonomy import RELEVANCE_BY_MVP_TYPE
+
+_INTERNAL_NA = {
+    "eligible_quantity": "not_relevant",
+    "position_quantity": "not_relevant",
+    "debit_credit_indicator": "not_relevant",
+    "processing_status": "not_relevant",
+}
+
 RELEVANCE_BY_ACTION: dict[str, dict[str, str]] = {
     # values: relevant | optional | not_relevant
     "third_party_tender": {
+        **_INTERNAL_NA,
         "coupon_rate": "optional",
         "maturity_date": "optional",
         "old_security_description": "optional",
@@ -472,30 +486,22 @@ RELEVANCE_BY_ACTION: dict[str, dict[str, str]] = {
         "call_price": "optional",
         "record_date": "optional",
         "ex_date": "not_relevant",
-        "eligible_quantity": "not_relevant",
-        "position_quantity": "not_relevant",
-        "debit_credit_indicator": "not_relevant",
-        "processing_status": "not_relevant",
     },
     "issuer_tender": {
+        **_INTERNAL_NA,
         "coupon_rate": "optional",
         "maturity_date": "optional",
         "conversion_ratio": "optional",
         "conversion_price": "optional",
         "ex_date": "not_relevant",
-        "eligible_quantity": "not_relevant",
-        "position_quantity": "not_relevant",
-        "debit_credit_indicator": "not_relevant",
-        "processing_status": "not_relevant",
     },
     "target_recommendation": {
+        **_INTERNAL_NA,
         "conversion_ratio": "optional",
         "conversion_price": "optional",
         "coupon_rate": "not_relevant",
         "maturity_date": "not_relevant",
-        "eligible_quantity": "not_relevant",
-        "position_quantity": "not_relevant",
-        "debit_credit_indicator": "not_relevant",
-        "processing_status": "not_relevant",
     },
+    # Alias form-family rows onto MVP types where useful for heatmaps
+    **RELEVANCE_BY_MVP_TYPE,
 }

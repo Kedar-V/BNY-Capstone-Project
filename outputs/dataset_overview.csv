@@ -1,8 +1,8 @@
 metric,value
-documents,32046
-filings (unique accession),9364
-events (by SEC file number),893
+documents,197251
+filings (unique accession),103944
+events (by SEC file number),14518
 date_min,2020-01-02
 date_max,2025-12-31
-events_with_amendments,870
-pct_events_with_amendments,97.42
+events_with_amendments,3214
+pct_events_with_amendments,22.14
