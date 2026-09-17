@@ -35,7 +35,27 @@ pip install -r requirements.txt
 python scripts/init_db.py
 ```
 
-See [`db/README.md`](db/README.md) for schema (`events`, `documents`, `event_versions`, `event_field_values`).
+See [`db/README.md`](db/README.md) for schema (`events`, `documents`, `event_versions`, `event_field_values`, path-specific `*_concise_*` Concise Rep tables).
+
+## Preprocess pipeline (TO-first Concise Rep)
+
+Design: [`docs/lld-preprocess-pipeline.md`](docs/lld-preprocess-pipeline.md) · Example I/O: [`docs/preprocess-stage-io-example.md`](docs/preprocess-stage-io-example.md)
+
+```bash
+# Inventory preferred TO events into cohorts (gold / needs_otp_resolve / incomplete)
+python scripts/run_preprocess.py --path tender --stage inventory --limit 20
+
+# Full pipe on gold cohort (real GLiNER; skip DB load if Postgres not up)
+python scripts/run_preprocess.py --path tender --stage all --cohort gold --limit 3 \
+  --skip-db --viz
+
+# Single event / stage
+python scripts/run_preprocess.py --path tender --stage gliner --event-id 005-02933
+```
+
+Inspect outputs in [`notebooks/preprocess_stage_inspect.ipynb`](notebooks/preprocess_stage_inspect.ipynb).
+
+Stages are independent (`--stage inventory|download|cleanup|segment|gliner|assemble|load_db`).
 
 ## Deliverables
 

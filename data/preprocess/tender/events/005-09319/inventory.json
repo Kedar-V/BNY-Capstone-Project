@@ -1,0 +1,58 @@
+{
+  "schema_version": "1",
+  "event_id": "005-09319",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "AVX Corp",
+  "primary_cik": "0000057083",
+  "written_at": "2026-09-17T06:01:41.461393+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": false,
+  "has_14d9": true,
+  "otp_method": "inferred",
+  "cohort": "gold",
+  "n_amendments": 9,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "accession": "0001193125-20-058986",
+      "filename": "d892697dsctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2020-03-02 00:00:00",
+      "primary_cik": "0000859163",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "accession": "0001193125-20-058986",
+      "filename": "d892697dex99a1vi.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.A1VI",
+      "file_description": "EXHIBIT A(1)(VI)",
+      "file_date": "2020-03-02 00:00:00",
+      "primary_cik": "0000859163",
+      "otp_method": "inferred",
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "accession": "0001193125-20-059038",
+      "filename": "d865735dsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D-9",
+      "file_date": "2020-03-02 00:00:00",
+      "primary_cik": "0000859163",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

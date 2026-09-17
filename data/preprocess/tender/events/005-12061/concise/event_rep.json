@@ -1,0 +1,1483 @@
+{
+  "schema_version": "1",
+  "event_id": "005-12061",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "93dce07f61c69b813a6dbd98c4567f12f5d57862",
+      "hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "accession": "0001193125-20-059078",
+      "filename": "d886900dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "11ff52835d9e5c3a3a303bc44a6d7ef1eacb57b6",
+      "hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "accession": "0001193125-20-059078",
+      "filename": "d886900dex99a1f.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "b6fbf992bb103489196a8e8ba476abed13b873f2",
+      "hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "accession": "0001140361-20-004886",
+      "filename": "nt10009105x19_sc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "cusip_code",
+      "text": "428236103",
+      "score": 0.8180620074272156,
+      "rank_score": 1.5680620074272156,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$18.40",
+      "score": 0.7715762853622437,
+      "rank_score": 1.4215762853622436,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "cusip_code",
+      "text": "40434L105",
+      "score": 0.851927638053894,
+      "rank_score": 1.351927638053894,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Xerox Holdings Corporation",
+      "score": 0.9077712297439575,
+      "rank_score": 1.3077712297439577,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "APRIL\u00a021, 2020",
+      "score": 0.5805788636207581,
+      "rank_score": 1.230578863620758,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "HP",
+      "score": 0.7943592667579651,
+      "rank_score": 1.1443592667579652,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "XHC Acquisition Corp.",
+      "score": 0.7233396172523499,
+      "rank_score": 1.12333961725235,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "XHC Acquisition Corp.",
+      "score": 0.8075781464576721,
+      "rank_score": 1.1075781464576722,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.01",
+      "score": 0.6915978789329529,
+      "rank_score": 1.0915978789329528,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Wachtell, Lipton, Rosen & Katz",
+      "score": 0.7856687307357788,
+      "rank_score": 1.0856687307357789,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Citigroup Global Markets Inc.",
+      "score": 0.7785212993621826,
+      "rank_score": 1.0785212993621827,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$1.00",
+      "score": 0.656671404838562,
+      "rank_score": 1.056671404838562,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Xerox Holdings Corporation",
+      "score": 0.7527216076850891,
+      "rank_score": 1.0527216076850892,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "D.F.\nKing\u00a0& Co., Inc.",
+      "score": 0.7248365879058838,
+      "rank_score": 1.0248365879058838,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Xerox",
+      "score": 0.9200412631034851,
+      "rank_score": 1.0200412631034852,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "HP\nInc.",
+      "score": 0.6089176535606384,
+      "rank_score": 1.0089176535606386,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$22.05",
+      "score": 0.5979210138320923,
+      "rank_score": 0.9979210138320922,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "New York Stock Exchange",
+      "score": 0.8553241491317749,
+      "rank_score": 0.9553241491317749,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$4,264,235.19",
+      "score": 0.547684907913208,
+      "rank_score": 0.9476849079132079,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Harkins Kovler,\nLLC",
+      "score": 0.5908206701278687,
+      "rank_score": 0.8908206701278687,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Cash Election Consideration",
+      "score": 0.6800558567047119,
+      "rank_score": 0.8800558567047119,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Standard Election Consideration",
+      "score": 0.6727533936500549,
+      "rank_score": 0.8727533936500549,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$717,320.30",
+      "score": 0.4501999318599701,
+      "rank_score": 0.85019993185997,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Stock Election Consideration",
+      "score": 0.6198849678039551,
+      "rank_score": 0.819884967803955,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Citigroup Global Markets, Inc.",
+      "score": 0.4845011234283447,
+      "rank_score": 0.7845011234283448,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Xerox",
+      "score": 0.7684249877929688,
+      "rank_score": 0.7684249877929688,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number of Class of Securities",
+      "score": 0.7598649859428406,
+      "rank_score": 0.7598649859428406,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "5:00 P.M.",
+      "score": 0.548429012298584,
+      "rank_score": 0.698429012298584,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "proration_terms",
+      "text": "subject to proration",
+      "score": 0.6738645434379578,
+      "rank_score": 0.6738645434379578,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "proration_terms",
+      "text": "election and proration procedures",
+      "score": 0.6596775650978088,
+      "rank_score": 0.6596775650978088,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "King\u00a0& Spalding LLP",
+      "score": 0.4516976475715637,
+      "rank_score": 0.6516976475715637,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Standard Offer Consideration",
+      "score": 0.6424997448921204,
+      "rank_score": 0.6424997448921204,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "HP Common Stock",
+      "score": 0.554207444190979,
+      "rank_score": 0.554207444190979,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Securities and Exchange Commission",
+      "score": 0.4237673580646515,
+      "rank_score": 0.5237673580646515,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "trust companies",
+      "score": 0.4045887887477875,
+      "rank_score": 0.5045887887477875,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "security_name",
+      "text": "HP Common Stock",
+      "score": 0.5019146203994751,
+      "rank_score": 0.5019146203994751,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Expiration Date",
+      "score": 0.8262271285057068,
+      "rank_score": 0.4762271285057067,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Xerox Common Stock",
+      "score": 0.44968488812446594,
+      "rank_score": 0.44968488812446594,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Rights",
+      "score": 0.4457455277442932,
+      "rank_score": 0.4457455277442932,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "proration_terms",
+      "text": "conditions",
+      "score": 0.4416312873363495,
+      "rank_score": 0.4416312873363495,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.5768292546272278,
+      "rank_score": 0.27682925462722774,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.7388706207275391,
+      "rank_score": 0.18887062072753902,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "HP",
+      "score": 0.6244933605194092,
+      "rank_score": 0.12449336051940924,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "target_organization",
+      "text": "HP",
+      "score": 0.45108962059020996,
+      "rank_score": 0.10108962059020998,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.43946462869644165,
+      "rank_score": 0.08946462869644156,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Purchaser",
+      "score": 0.6854979395866394,
+      "rank_score": -0.0645020604133606,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "Common Stock",
+      "score": 0.5967360734939575,
+      "rank_score": -0.5032639265060426,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.5006569623947144,
+      "rank_score": -0.7993430376052857,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "cusip",
+      "raw": "428236103",
+      "passage": "SC TO-T\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\n(Rule\u00a014d-100)\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(D)(1) OR 13(E)(1)\nOF THE SECURITIES EXCHANGE ACT OF\u00a01934\nHP INC.\n(Name of Subject Company (Issuer))\nXEROX HOLDINGS\nCORPORATION\nXHC ACQUISITION CORP.\n(Names of Filing Persons (Offerors))\nCommon Stock,\n$0.01 par value per share\n(Title of Class\u00a0of Securities)\n428236103\n(CUSIP Number of Class\u00a0of\nSecurities (Underlying Common Stock))\nLouis J.",
+      "method": "gliner",
+      "confidence": 0.8180620074272156,
+      "rank_score": 1.5680620074272156,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        390,
+        399
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$18.40",
+      "passage": "or one or more registered brokers or dealers licensed under the laws of such jurisdiction to be designated by the Purchaser.\nNotice of Offer to Exchange\nEach Outstanding Share of Common Stock (including the Associated Rights to Purchase Preferred Stock)\nof\nHP Inc.\nfor\n$18.40 in cash and\n0.149 Common Shares of Xerox Holdings Corporation,\nsubject to the election and proration procedures described in the Offer to Exchange,\nDated March 2, 2020,\nand\nthe related Letter of Election and Transmittal\nby\nXHC Acquisition Corp.,\na wholly owned subsidiary of\nXerox Holdings Corporation\nXHC Acquisition Corp.",
+      "method": "gliner",
+      "confidence": 0.7715762853622437,
+      "rank_score": 1.4215762853622436,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1253,
+        1259
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "40434L105",
+      "passage": "TABLE OF CONTENTS\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE 14D-9\nSOLICITATION/RECOMMENDATION\nSTATEMENT UNDER SECTION 14(d)(4) OF THE\nSECURITIES EXCHANGE ACT OF 1934\nHP INC.\n(\nName of Subject Company\n)\nHP INC.\n(\nName of Persons Filing Statement\n)\nCommon Stock, $0.01 par value per share\n(\nTitle of Class of Securities\n)\n40434L105\n(\nCUSIP Number of Class of Securities\n)\nKim Rivera, Esq.",
+      "method": "gliner",
+      "confidence": 0.851927638053894,
+      "rank_score": 1.351927638053894,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        359,
+        368
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Xerox Holdings Corporation",
+      "passage": "Check the following box if the filing is a final amendment reporting the results of the tender offer:\n\u2610\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements hereto,\nthis\u00a0\u201cSchedule TO\u201d) is being filed by Xerox Holdings Corporation, a New York corporation (\u201cXerox\u201d), and XHC Acquisition Corp., a Delaware corporation (\u201cPurchaser\u201d), and relates to the third-party tender offer by\nPurchaser to exchange each issued and outstanding share of common stock, par value $0.01 per share (including the associated rights to purchase preferred stock, the \u201cHP common stock\u201d), of HP Inc., a Delaware corporation (\u201cHP\u201d),\nfor $18.40 in cash and 0",
+      "method": "gliner",
+      "confidence": 0.9077712297439575,
+      "rank_score": 1.3077712297439577,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3775,
+        3801
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "APRIL\u00a021, 2020",
+      "passage": "Stockholders who hold their Shares through a broker, dealer, commercial bank, trust company or other nominee should consult with such institution as to whether it\nwill charge any service fees or commissions.\nTHE OFFER AND WITHDRAWAL RIGHTS WILL EXPIRE AT 5:00 P.M., NEW YORK CITY TIME, ON\nAPRIL\u00a021, 2020, UNLESS THE OFFER IS EXTENDED.\nThe purpose of the Offer is to acquire all of the outstanding Shares in order to combine the\nbusinesses of Xerox and HP.",
+      "method": "gliner",
+      "confidence": 0.5805788636207581,
+      "rank_score": 1.230578863620758,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3979,
+        3993
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "expiration_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "HP",
+      "passage": "HP also announced at that time that it expects implementation of this capital return program to include the repurchase of at least $8 billion of shares of HP Common Stock over 12 months, commencing following the HP 2020 Annual Meeting.\n\u2022\nHP\u2019s strong balance sheet and financial flexibility provide multiple levers for value creation.\nHP targets a debt-to-EBITDA (as defined in Annex D to this Statement) ratio of 1.5x to 2.0x.",
+      "method": "gliner",
+      "confidence": 0.7943592667579651,
+      "rank_score": 1.1443592667579652,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79126,
+        79128
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "ticker_symbol",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "XHC Acquisition Corp.",
+      "passage": "Check the following box if the filing is a final amendment reporting the results of the tender offer:\n\u2610\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements hereto,\nthis\u00a0\u201cSchedule TO\u201d) is being filed by Xerox Holdings Corporation, a New York corporation (\u201cXerox\u201d), and XHC Acquisition Corp., a Delaware corporation (\u201cPurchaser\u201d), and relates to the third-party tender offer by\nPurchaser to exchange each issued and outstanding share of common stock, par value $0.01 per share (including the associated rights to purchase preferred stock, the \u201cHP common stock\u201d), of HP Inc., a Delaware corporation (\u201cHP\u201d),\nfor $18.40 in cash and 0.149 shares of common stock, $1.00 par value per share, of Xe",
+      "method": "gliner",
+      "confidence": 0.7233396172523499,
+      "rank_score": 1.12333961725235,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3841,
+        3862
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "XHC Acquisition Corp.",
+      "passage": "for\n$18.40 in cash and\n0.149 Common Shares of Xerox Holdings Corporation,\nsubject to the election and proration procedures described in the Offer to Exchange,\nDated March 2, 2020,\nand\nthe related Letter of Election and Transmittal\nby\nXHC Acquisition Corp.,\na wholly owned subsidiary of\nXerox Holdings Corporation\nXHC Acquisition Corp.",
+      "method": "gliner",
+      "confidence": 0.8075781464576721,
+      "rank_score": 1.1075781464576722,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1483,
+        1504
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "SC TO-T\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\n(Rule\u00a014d-100)\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(D)(1) OR 13(E)(1)\nOF THE SECURITIES EXCHANGE ACT OF\u00a01934\nHP INC.\n(Name of Subject Company (Issuer))\nXEROX HOLDINGS\nCORPORATION\nXHC ACQUISITION CORP.\n(Names of Filing Persons (Offerors))\nCommon Stock,\n$0.01 par value per share\n(Title of Class\u00a0of Securities)\n428236103\n(CUSIP Number of Class\u00a0of\nSecurities (Underlying Common Stock))\nLouis J.",
+      "method": "gliner",
+      "confidence": 0.6915978789329529,
+      "rank_score": 1.0915978789329528,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        333,
+        338
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Wachtell, Lipton, Rosen & Katz",
+      "passage": "Levine, Esq.\nWachtell, Lipton, Rosen & Katz\n51 West 52nd Street\nNew York, New York 10019\n(212) 403-1000\no\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a tender offer.",
+      "method": "gliner",
+      "confidence": 0.7856687307357788,
+      "rank_score": 1.0856687307357789,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        885,
+        915
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Citigroup Global Markets Inc.",
+      "passage": "48 Wall Street, 22nd Floor\nNew York, New York 10005\nBanks and Brokers Call Collect:\n(212)\u00a0269-5550\nAll Others Call Toll-Free:\n(866)\u00a0721-1324\nEmail:\nXRX-HPQ@dfking.com\nHarkins Kovler,\nLLC\n3 Columbus Circle, 15\nth\nFloor\nNew\u00a0York, NY\u00a010019\nBanks and Brokers Call Collect:\n(212)\u00a0468-5380\nAll Others Call\nToll-Free:\u00a0(800)\u00a0257-3995\nEmail: XRX-HPQ@harkinskovler.com\nThe Dealer Manager for the Offer is:\nCitigroup Global Markets Inc.\n388 Greenwich Street\nNew York, New York 10013\nUnited States of America\nCall Toll Free: (877)\n531-8365\nMarch\u00a02, 2020",
+      "method": "gliner",
+      "confidence": 0.7785212993621826,
+      "rank_score": 1.0785212993621827,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        15476,
+        15505
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.00",
+      "passage": "rox\u201d), and XHC Acquisition Corp., a Delaware corporation (\u201cPurchaser\u201d), and relates to the third-party tender offer by\nPurchaser to exchange each issued and outstanding share of common stock, par value $0.01 per share (including the associated rights to purchase preferred stock, the \u201cHP common stock\u201d), of HP Inc., a Delaware corporation (\u201cHP\u201d),\nfor $18.40 in cash and 0.149 shares of common stock, $1.00 par value per share, of Xerox (the \u201cXerox common stock\u201d), the Cash Election Consideration (as set forth on the cover page of the Offer to Exchange) or the Stock Election\nConsideration (as set forth on the cover page of the Offer to Exchange), subject in each case to the election and proration procedures described in (1)\u00a0the Offer to Exchange, dated March\u00a02, 2020 (the \u201cOffer to Exchange\u201d), and\n(2)",
+      "method": "gliner",
+      "confidence": 0.656671404838562,
+      "rank_score": 1.056671404838562,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4230,
+        4235
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Xerox Holdings Corporation",
+      "passage": "Check the following box if the filing is a final amendment reporting the results of the tender offer:\n\u2610\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements hereto,\nthis\u00a0\u201cSchedule TO\u201d) is being filed by Xerox Holdings Corporation, a New York corporation (\u201cXerox\u201d), and XHC Acquisition Corp., a Delaware corporation (\u201cPurchaser\u201d), and relates to the third-party tender offer by\nPurchaser to exchange each issued and outstanding share of common stock, par value $0.01 per share (including the associated rights to purchase preferred stock, the \u201cHP common stock\u201d), of HP Inc., a Delaware corporation (\u201cHP\u201d),\nfor $18.40 in cash and 0",
+      "method": "gliner",
+      "confidence": 0.7527216076850891,
+      "rank_score": 1.0527216076850892,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3775,
+        3801
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "D.F.\nKing\u00a0& Co., Inc.",
+      "passage": "Stockholders may also contact their broker, dealer,\ncommercial bank, trust company or other nominee for assistance concerning the Offer.\nThe Information Agents for the Offer are:\nD.F.\nKing\u00a0& Co., Inc.\n48 Wall Street, 22nd Floor\nNew York, New York 10005\nBanks and Brokers Call Collect:\n(212)\u00a0269-5550\nAll Others Call Toll-Free:\n(866)\u00a0721-1324\nEmail:\nXRX-HPQ@dfking.com\nHarkins Kovler,\nLLC\n3 Columbus Circle, 15\nth\nFloor\nNew\u00a0York, NY\u00a010019\nBanks and Brokers Call Collect:\n(212)\u00a0468-5380\nAll Others Call\nToll-Free:\u00a0(800)\u00a0257-3995\nEmail: XRX-HPQ@harkinskovler.com\nThe Dealer Manager for the Offer is:\nCit",
+      "method": "gliner",
+      "confidence": 0.7248365879058838,
+      "rank_score": 1.0248365879058838,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        15058,
+        15079
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Xerox",
+      "passage": "On March\u00a02, 2020, Xerox filed a Registration Statement on Form\nS-4\n(the \u201cRegistration\nStatement\u201d), of which the Offer to Exchange forms a part.",
+      "method": "gliner",
+      "confidence": 0.9200412631034851,
+      "rank_score": 1.0200412631034852,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4846,
+        4851
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "HP\nInc.",
+      "passage": "uation(1)\nAmount\u00a0of\u00a0Filing\u00a0Fee(2)\n$32,852,351,249.33\n$4,264,235.19\n(1)\nPursuant to Rule\n0-11\nunder the Securities Exchange Act of 1934, as amended, which\nwe refer to as the Exchange Act, and solely for the purpose of calculating the filing fee, the market value of the securities to be received was calculated as the product of (1) 1,490,240,474 shares of common stock, par value $0.01 per share, of HP\nInc., which we refer to as HP and which common stock we refer to as HP common stock (being the sum of (i) 1,453,187,484 shares of HP common stock outstanding (as reported in HP\u2019s Annual Report on Form\n10-K\nfor the year ended October\u00a031, 2019), (ii) 7,093,000 shares of HP common stock issuable upon the exercise of outstanding options (as reported in HP\u2019s Annual Report on Form\n10-K\nfor the year ended Oc",
+      "method": "gliner",
+      "confidence": 0.6089176535606384,
+      "rank_score": 1.0089176535606386,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1648,
+        1655
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$22.05",
+      "passage": "ted stock units (as reported in HP\u2019s Annual Report on Form\n10-K\nfor the year ended October\u00a031, 2019), less ten shares of HP common stock in which Xerox has an ownership interest (which will not be tendered in the offer and will be cancelled in any merger with HP)\nand (2)\u00a0the average of the high and low sale prices of HP common stock as reported on the New York Stock Exchange on February\u00a027, 2020 ($22.05).\n(2)\nComputed in accordance with Rule\n0-11\nunder the Exchange Act to be $4,264,235.19,\nwhich is equal to 0.0001298 multiplied by the transaction valuation of $32,852,351,249.33.\n\u2612\nCheck the box if any part of the fee is offset as provided by Rule\n0-\n11(a)(2) and\nidentify the filing with which the offsetting fee was previously paid.",
+      "method": "gliner",
+      "confidence": 0.5979210138320923,
+      "rank_score": 0.9979210138320922,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2536,
+        2542
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "New York Stock Exchange",
+      "passage": "e corporation (\u201c\nHP\n\u201d), for, at the election of the holder, $18.40 in cash and 0.149 shares of common stock (\u201c\nXerox Common\nStock\n\u201d) of Xerox (the \u201c\nStandard Election Consideration\n\u201d), an amount in cash (the \u201c\nCash Election Consideration\n\u201d) equal to the equivalent market value of the Standard Election Consideration (based on the\naverage of the closing prices of Xerox Common Stock as quoted on the New York Stock Exchange (the \u201c\nNYSE\n\u201d) on each of the five NYSE trading days ending on the 10th business day preceding the Expiration Date (as defined below)), or a\nnumber of shares of Xerox Common Stock (the \u201c\nStock Election Consideration\n\u201d) having a value equal to the equivalent market value of the Standard Election Consideration (based on the average of the closing prices of Xerox Common Stock\nas quoted on the NYSE o",
+      "method": "gliner",
+      "confidence": 0.8553241491317749,
+      "rank_score": 0.9553241491317749,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2394,
+        2417
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$4,264,235.19",
+      "passage": "(2)\nComputed in accordance with Rule\n0-11\nunder the Exchange Act to be $4,264,235.19,\nwhich is equal to 0.0001298 multiplied by the transaction valuation of $32,852,351,249.33.\n\u2612\nCheck the box if any part of the fee is offset as provided by Rule\n0-\n11(a)(2) and\nidentify the filing with which the offsetting fee was previously paid.",
+      "method": "gliner",
+      "confidence": 0.547684907913208,
+      "rank_score": 0.9476849079132079,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2616,
+        2629
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Harkins Kovler,\nLLC",
+      "passage": "Stockholders may also contact their broker, dealer,\ncommercial bank, trust company or other nominee for assistance concerning the Offer.\nThe Information Agents for the Offer are:\nD.F.\nKing\u00a0& Co., Inc.\n48 Wall Street, 22nd Floor\nNew York, New York 10005\nBanks and Brokers Call Collect:\n(212)\u00a0269-5550\nAll Others Call Toll-Free:\n(866)\u00a0721-1324\nEmail:\nXRX-HPQ@dfking.com\nHarkins Kovler,\nLLC\n3 Columbus Circle, 15\nth\nFloor\nNew\u00a0York, NY\u00a010019\nBanks and Brokers Call Collect:\n(212)\u00a0468-5380\nAll Others Call\nToll-Free:\u00a0(800)\u00a0257-3995\nEmail: XRX-HPQ@harkinskovler.com\nThe Dealer Manager for the Offer is:\nCitigroup Global Markets Inc.\n388 Greenwich Street\nNew York, New York 10013\nUnited States of America\nCall Toll Free: (877)\n531-8365\nMarch\u00a02, 2020",
+      "method": "gliner",
+      "confidence": 0.5908206701278687,
+      "rank_score": 0.8908206701278687,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        15247,
+        15266
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Cash Election Consideration",
+      "passage": "In the\nSecond-Step Merger, each remaining Share (other than Shares held by Xerox and its subsidiaries and Shares held in treasury by HP and other than Shares held by HP stockholders who properly exercise applicable dissenters\u2019 rights under Delaware\nlaw), will be cancelled and converted into the right to receive, at the election of the holder, the Standard Election Consideration, the Cash Election Consideration or the Stock Election Consideration, subject to proration.",
+      "method": "gliner",
+      "confidence": 0.6800558567047119,
+      "rank_score": 0.8800558567047119,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4965,
+        4992
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Standard Election Consideration",
+      "passage": "In the\nSecond-Step Merger, each remaining Share (other than Shares held by Xerox and its subsidiaries and Shares held in treasury by HP and other than Shares held by HP stockholders who properly exercise applicable dissenters\u2019 rights under Delaware\nlaw), will be cancelled and converted into the right to receive, at the election of the holder, the Standard Election Consideration, the Cash Election Consideration or the Stock Election Consideration, subject to proration.",
+      "method": "gliner",
+      "confidence": 0.6727533936500549,
+      "rank_score": 0.8727533936500549,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4928,
+        4959
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$717,320.30",
+      "passage": "Identify the previous filing by registration statement number, or the Form or Schedule and the date of its filing.\nAmount\u00a0Previously\u00a0Paid:\n$717,320.30\nFiling\u00a0Party:\nXerox\u00a0Holdings\u00a0Corporation\nForm or Registration No.",
+      "method": "gliner",
+      "confidence": 0.4501999318599701,
+      "rank_score": 0.85019993185997,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3017,
+        3028
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Stock Election Consideration",
+      "passage": "rger, each remaining Share (other than Shares held by Xerox and its subsidiaries and Shares held in treasury by HP and other than Shares held by HP stockholders who properly exercise applicable dissenters\u2019 rights under Delaware\nlaw), will be cancelled and converted into the right to receive, at the election of the holder, the Standard Election Consideration, the Cash Election Consideration or the Stock Election Consideration, subject to proration.",
+      "method": "gliner",
+      "confidence": 0.6198849678039551,
+      "rank_score": 0.819884967803955,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        5000,
+        5028
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offer_price_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Citigroup Global Markets, Inc.",
+      "passage": "In those jurisdictions where applicable laws require the Offer to be made by a licensed broker or dealer, the Offer will be deemed to\nbe made on behalf of the Purchaser (as defined below) by Citigroup Global Markets, Inc. or one or more registered brokers or dealers licensed under the laws of such jurisdiction to be designated by the Purchaser.",
+      "method": "gliner",
+      "confidence": 0.4845011234283447,
+      "rank_score": 0.7845011234283448,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        953,
+        983
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Xerox",
+      "passage": "The purpose of the Second-Step Merger is for Xerox to acquire all issued and outstanding Shares that are not acquired in the Offer.",
+      "method": "gliner",
+      "confidence": 0.7684249877929688,
+      "rank_score": 0.7684249877929688,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4492,
+        4497
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number of Class of Securities",
+      "passage": "TABLE OF CONTENTS\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE 14D-9\nSOLICITATION/RECOMMENDATION\nSTATEMENT UNDER SECTION 14(d)(4) OF THE\nSECURITIES EXCHANGE ACT OF 1934\nHP INC.\n(\nName of Subject Company\n)\nHP INC.\n(\nName of Persons Filing Statement\n)\nCommon Stock, $0.01 par value per share\n(\nTitle of Class of Securities\n)\n40434L105\n(\nCUSIP Number of Class of Securities\n)\nKim Rivera, Esq.",
+      "method": "gliner",
+      "confidence": 0.7598649859428406,
+      "rank_score": 0.7598649859428406,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        371,
+        406
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "5:00 P.M.",
+      "passage": "Stockholders who hold their Shares through a broker, dealer, commercial bank, trust company or other nominee should consult with such institution as to whether it\nwill charge any service fees or commissions.\nTHE OFFER AND WITHDRAWAL RIGHTS WILL EXPIRE AT 5:00 P.M., NEW YORK CITY TIME, ON\nAPRIL\u00a021, 2020, UNLESS THE OFFER IS EXTENDED.\nThe purpose of the Offer is to acquire all of the outstanding Shares in order to combine the\nbusinesses of Xerox and HP.",
+      "method": "gliner",
+      "confidence": 0.548429012298584,
+      "rank_score": 0.698429012298584,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3945,
+        3954
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "subject to proration",
+      "passage": "her than Shares held by Xerox and its subsidiaries and Shares held in treasury by HP and other than Shares held by HP stockholders who properly exercise applicable dissenters\u2019 rights under Delaware\nlaw), will be cancelled and converted into the right to receive, at the election of the holder, the Standard Election Consideration, the Cash Election Consideration or the Stock Election Consideration, subject to proration.",
+      "method": "gliner",
+      "confidence": 0.6738645434379578,
+      "rank_score": 0.6738645434379578,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        5030,
+        5050
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "proration_terms",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "election and proration procedures",
+      "passage": "Xerox Common Stock (the \u201c\nStock Election Consideration\n\u201d) having a value equal to the equivalent market value of the Standard Election Consideration (based on the average of the closing prices of Xerox Common Stock\nas quoted on the NYSE on each of the five NYSE trading days ending on the 10th business day preceding the Expiration Date), upon the terms and subject to the conditions, including the election and proration procedures, described in the Offer to\nExchange, dated March\u00a02, 2020 (the \u201c\nOffer to Exchange\n\u201d), and in the related Letter of Election and Transmittal (the \u201c\nLetter of Election and Transmittal\n\u201d which, together with the Offer to Exchange and other\nrelated materials, as each may be amended or supplemented from time to time, constitutes the \u201c\nOffer\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6596775650978088,
+      "rank_score": 0.6596775650978088,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2978,
+        3011
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "proration_terms",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "King\u00a0& Spalding LLP",
+      "passage": "Belenky\nKing\u00a0& Spalding LLP\n1185 Avenue of the Americas\nNew York,\nNew York 10036-2601\n(212)\n556-2100\nCALCULATION OF FILING FEE\nTransaction\u00a0Valuation(1)\nAmount\u00a0of\u00a0Filing\u00a0Fee(2)\n$32,852,351,249.33\n$4,264,235.19\n(1)\nPursuant to Rule\n0-11\nunder the Securities Exchange Act of 1934, as amended, which\nwe refer to as the Exchange Act, and solely for the purpose of calculating the filing fee, the market value of the securities to be",
+      "method": "gliner",
+      "confidence": 0.4516976475715637,
+      "rank_score": 0.6516976475715637,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1114,
+        1133
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Standard Offer Consideration",
+      "passage": "d Offer Consideration (based on the average of the closing prices of Xerox Common Stock as quoted on the New York Stock Exchange (the \u201cNYSE\u201d) on each of the five NYSE trading days ending on the 10th business day preceding the Expiration Date (as defined below)), or a number of shares of Xerox Common Stock (the \u201cStock Offer Consideration\u201d) having a value equal to the equivalent market value of the Standard Offer Consideration (based on the average of the closing prices of Xerox Common Stock as quoted on the NYSE on each of the five NYSE trading days ending on the 10th business day preceding the Expiration Date), subject to proration, as disclosed in the Prospectus/Offer to Exchange dated March 2, 2020 (the \u201cOffer to Exchange\u201d) and the related Letter of Transmittal.",
+      "method": "gliner",
+      "confidence": 0.6424997448921204,
+      "rank_score": 0.6424997448921204,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4151,
+        4179
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "HP Common Stock",
+      "passage": "Holders of shares of HP Common Stock whose shares are exchanged in the Offer will receive cash in lieu of any fractional shares of Xerox Common Stock to which they would otherwise be entitled.",
+      "method": "gliner",
+      "confidence": 0.554207444190979,
+      "rank_score": 0.554207444190979,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4774,
+        4789
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Securities and Exchange Commission",
+      "passage": "In addition, on March 2, 2020, Xerox filed a Tender Offer Statement on Schedule TO and a Registration Statement on Form S-4 (the \u201cForm S-4\u201d) with the Securities and Exchange Commission (the \u201cSEC\u201d) in connection with the Offer.",
+      "method": "gliner",
+      "confidence": 0.4237673580646515,
+      "rank_score": 0.5237673580646515,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4676,
+        4710
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "trust companies",
+      "passage": "Additional copies of the Offer to Exchange and the related Letter of Election and Transmittal and other tender offer materials may be\nobtained from the Information\nAgent or from brokers, dealers, commercial banks and trust companies, and such copies will be furnished promptly at Xerox\u2019s expense.",
+      "method": "gliner",
+      "confidence": 0.4045887887477875,
+      "rank_score": 0.5045887887477875,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        14799,
+        14814
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "HP Common Stock",
+      "passage": "As of March 3, 2020, there were 1,429,830,919 shares of HP Common Stock outstanding.\nItem 2.\nIdentity and Background of Filing Person\nName and Address\nThe name, business address, and business telephone number of HP, which is the subject company and the person filing this Statement, are set forth in Item 1 above.",
+      "method": "gliner",
+      "confidence": 0.5019146203994751,
+      "rank_score": 0.5019146203994751,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2759,
+        2774
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Expiration Date",
+      "passage": "ay preceding the Expiration Date (as defined below)), or a\nnumber of shares of Xerox Common Stock (the \u201c\nStock Election Consideration\n\u201d) having a value equal to the equivalent market value of the Standard Election Consideration (based on the average of the closing prices of Xerox Common Stock\nas quoted on the NYSE on each of the five NYSE trading days ending on the 10th business day preceding the Expiration Date), upon the terms and subject to the conditions, including the election and proration procedures, described in the Offer to\nExchange, dated March\u00a02, 2020 (the \u201c\nOffer to Exchange\n\u201d), and in the related Letter of Election and Transmittal (the \u201c\nLetter of Election and Transmittal\n\u201d which, together with the Offer to Exchange and other\nrelated materials, as each may be amended or supplemented from tim",
+      "method": "gliner",
+      "confidence": 0.8262271285057068,
+      "rank_score": 0.4762271285057067,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2900,
+        2915
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Xerox Common Stock",
+      "passage": "(\u201cPurchaser\u201d), a Delaware corporation and a wholly owned subsidiary of Xerox Holdings Corporation (\u201cXerox\u201d), a New York corporation, to exchange any and all of the issued and outstanding shares of HP Common Stock for, at the election of the holder, $18.40 in cash and 0.149 shares of Xerox Common Stock, par value $1.00 per share (\u201cXerox Common Stock\u201d) (together with the $18.40 in cash, the \u201cStandard Offer Consideration\u201d), an amount in cash (the \u201cCash Offer Consideration\u201d) equal to the equivalent market value of the Standard Offer Consideration (based on the average of the closing prices of Xerox Common Stock as quoted on the New York Stock Exchange (the \u201cNYSE\u201d) on each of the five NYSE trading",
+      "method": "gliner",
+      "confidence": 0.44968488812446594,
+      "rank_score": 0.44968488812446594,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3508,
+        3526
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Rights",
+      "passage": "Securities\nThe title of the class of equity securities to which this Statement relates is HP\u2019s Common Stock, par value $0.01 per share (\u201cHP Common Stock\u201d), and the associated preferred stock purchase rights (the \u201cRights\u201d) issued pursuant to the Rights Agreement, dated as of February 20, 2020, between HP and Equiniti Trust Company, as rights agent (the \u201cRights Agreement\u201d).",
+      "method": "gliner",
+      "confidence": 0.4457455277442932,
+      "rank_score": 0.4457455277442932,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2396,
+        2402
+      ],
+      "source_hit_id": "0001140361-20-004886:nt10009105x19_sc14d9.htm",
+      "source_accession": "0001140361-20-004886",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "conditions",
+      "passage": ", or a\nnumber of shares of Xerox Common Stock (the \u201c\nStock Election Consideration\n\u201d) having a value equal to the equivalent market value of the Standard Election Consideration (based on the average of the closing prices of Xerox Common Stock\nas quoted on the NYSE on each of the five NYSE trading days ending on the 10th business day preceding the Expiration Date), upon the terms and subject to the conditions, including the election and proration procedures, described in the Offer to\nExchange, dated March\u00a02, 2020 (the \u201c\nOffer to Exchange\n\u201d), and in the related Letter of Election and Transmittal (the \u201c\nLetter of Election and Transmittal\n\u201d which, together with the Offer to Exchange and other\nrelated materials, as each may be amended or supplemented from time to time, constitutes the \u201c\nOffer\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.4416312873363495,
+      "rank_score": 0.4416312873363495,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2952,
+        2962
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "proration_terms",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "20549\nSCHEDULE TO\n(Rule\u00a014d-100)\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(D)(1) OR 13(E)(1)\nOF THE SECURITIES EXCHANGE ACT OF\u00a01934\nHP INC.\n(Name of Subject Company (Issuer))\nXEROX HOLDINGS\nCORPORATION\nXHC ACQUISITION CORP.\n(Names of Filing Persons (Offerors))\nCommon Stock,\n$0.01 par value per share\n(Title of Class\u00a0of Securities)\n428236103\n(CUSIP Number of Class\u00a0of\nSecurities (Underlying Common Stock))\nLouis J.",
+      "method": "gliner",
+      "confidence": 0.5768292546272278,
+      "rank_score": 0.27682925462722774,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        401,
+        413
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "EX-99.(a)(1)(F)\nExhibit (a)(1)(F)\nThis announcement is neither an offer to purchase nor a solicitation of an offer to sell Shares (as defined below), and the provisions\nherein are subject in their entirety to the provisions of the Offer (as defined below).",
+      "method": "gliner",
+      "confidence": 0.7388706207275391,
+      "rank_score": 0.18887062072753902,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        123,
+        129
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "HP",
+      "passage": "tober\u00a031, 2019) and (iii) 29,960,000 shares of HP common stock subject to restricted stock units (as reported in HP\u2019s Annual Report on Form\n10-K\nfor the year ended October\u00a031, 2019), less ten shares of HP common stock in which Xerox has an ownership interest (which will not be tendered in the offer and will be cancelled in any merger with HP)\nand (2)\u00a0the average of the high and low sale prices of HP common stock as reported on the New York Stock Exchange on February\u00a027, 2020 ($22.05).",
+      "method": "gliner",
+      "confidence": 0.6244933605194092,
+      "rank_score": 0.12449336051940924,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2455,
+        2457
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "target",
+      "raw": "HP",
+      "passage": "ed in HP\u2019s Annual Report on Form\n10-K\nfor the year ended October\u00a031, 2019) and (iii) 29,960,000 shares of HP common stock subject to restricted stock units (as reported in HP\u2019s Annual Report on Form\n10-K\nfor the year ended October\u00a031, 2019), less ten shares of HP common stock in which Xerox has an ownership interest (which will not be tendered in the offer and will be cancelled in any merger with HP)\nand (2)\u00a0the average of the high and low sale prices of HP common stock as reported on the New York Stock Exchange on February\u00a027, 2020 ($22.05).",
+      "method": "gliner",
+      "confidence": 0.45108962059020996,
+      "rank_score": 0.10108962059020998,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2396,
+        2398
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "target_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "20549\nSCHEDULE TO\n(Rule\u00a014d-100)\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(D)(1) OR 13(E)(1)\nOF THE SECURITIES EXCHANGE ACT OF\u00a01934\nHP INC.\n(Name of Subject Company (Issuer))\nXEROX HOLDINGS\nCORPORATION\nXHC ACQUISITION CORP.\n(Names of Filing Persons (Offerors))\nCommon Stock,\n$0.01 par value per share\n(Title of Class\u00a0of Securities)\n428236103\n(CUSIP Number of Class\u00a0of\nSecurities (Underlying Common Stock))\nLouis J.",
+      "method": "gliner",
+      "confidence": 0.43946462869644165,
+      "rank_score": 0.08946462869644156,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        449,
+        461
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Purchaser",
+      "passage": "The Purchaser currently intends to seek maximum representation on the board of directors of HP (the \u201c\nHP Board\n\u201d) and, as soon as practicable after consummation of the Offer, to seek to have HP consummate a\nmerger or other similar business combination with the Purchaser (the \u201c\nSecond-Step Merger\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6854979395866394,
+      "rank_score": -0.0645020604133606,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4150,
+        4159
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Common Stock",
+      "passage": "SC TO-T\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\n(Rule\u00a014d-100)\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(D)(1) OR 13(E)(1)\nOF THE SECURITIES EXCHANGE ACT OF\u00a01934\nHP INC.\n(Name of Subject Company (Issuer))\nXEROX HOLDINGS\nCORPORATION\nXHC ACQUISITION CORP.\n(Names of Filing Persons (Offerors))\nCommon Stock,\n$0.01 par value per share\n(Title of Class\u00a0of Securities)\n428236103\n(CUSIP Number of Class\u00a0of\nSecurities (Underlying Common Stock))\nLouis J.",
+      "method": "gliner",
+      "confidence": 0.5967360734939575,
+      "rank_score": -0.5032639265060426,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        319,
+        331
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dsctot.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "The purpose of the Second-Step Merger is for Xerox to acquire all issued and outstanding Shares that are not acquired in the Offer.",
+      "method": "gliner",
+      "confidence": 0.5006569623947144,
+      "rank_score": -0.7993430376052857,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4536,
+        4542
+      ],
+      "source_hit_id": "0001193125-20-059078:d886900dex99a1f.htm",
+      "source_accession": "0001193125-20-059078",
+      "label": "security_name",
+      "chunk_id": "w6"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.807181+00:00"
+}

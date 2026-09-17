@@ -11,3 +11,8 @@ data/corpus/sample_docs/
 # Large SEC corpus dumps (rebuild via scripts/build_corpus.py)
 data/raw/*.jsonl
 data/processed/documents.csv
+
+# Preprocess artifacts (raw/clean HTML trees are large)
+data/preprocess/**/raw/
+data/preprocess/**/clean/
+outputs/preprocess_inspect/

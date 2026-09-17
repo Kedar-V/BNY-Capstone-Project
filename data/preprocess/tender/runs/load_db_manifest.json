@@ -1,0 +1,13 @@
+{
+  "stage": "load_db",
+  "path": "tender",
+  "written_at": "2026-09-17T06:33:04.061626+00:00",
+  "status": "ok",
+  "metrics": {
+    "n_reps_upserted": 2,
+    "n_facts_inserted": 525,
+    "n_entities_inserted": 525,
+    "n_failed": 0
+  },
+  "errors": []
+}

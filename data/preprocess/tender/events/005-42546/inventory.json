@@ -1,0 +1,58 @@
+{
+  "schema_version": "1",
+  "event_id": "005-42546",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "ALLIANCEBERNSTEIN HOLDING L.P.",
+  "primary_cik": "0000825313",
+  "written_at": "2026-09-17T06:01:41.505054+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": false,
+  "has_14d9": true,
+  "otp_method": "inferred",
+  "cohort": "gold",
+  "n_amendments": 7,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "accession": "0001193125-25-032774",
+      "filename": "d937480dsctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2025-02-24 00:00:00",
+      "primary_cik": "0000825313",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "accession": "0001193125-25-032774",
+      "filename": "d937480dex99a1vi.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(VI)",
+      "file_description": "EX-99.(A)(1)(VI)",
+      "file_date": "2025-02-24 00:00:00",
+      "primary_cik": "0000825313",
+      "otp_method": "inferred",
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0000825313-25-000023:ab-march2025schedule14dx9w.htm",
+      "accession": "0000825313-25-000023",
+      "filename": "ab-march2025schedule14dx9w.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "14D9 ALLIANCEBERNSTEIN HOLDING L.P.",
+      "file_date": "2025-03-17 00:00:00",
+      "primary_cik": "0000825313",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

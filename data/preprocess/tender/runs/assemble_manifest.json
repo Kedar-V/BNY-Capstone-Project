@@ -1,0 +1,15 @@
+{
+  "stage": "assemble",
+  "path": "tender",
+  "written_at": "2026-09-17T07:36:16.845655+00:00",
+  "status": "ok",
+  "metrics": {
+    "n_reps_ok": 27,
+    "n_reps_failed": 0,
+    "n_candidate_facts": 2005,
+    "n_entities": 2005,
+    "pct_method_gliner": 100.0,
+    "n_events_pending": 27
+  },
+  "errors": []
+}

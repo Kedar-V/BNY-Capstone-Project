@@ -1,0 +1,3 @@
+event_id,cohort,has_cover,has_otp,otp_method,has_lot,has_14d9,n_amendments,download_ready
+005-02933,gold,True,True,ex99_type,True,True,9,True
+005-06295,gold,True,True,ex99_type,True,True,9,True

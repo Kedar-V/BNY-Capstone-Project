@@ -1,0 +1,1213 @@
+{
+  "schema_version": "1",
+  "event_id": "005-44491",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "76c8e8ed25474e342f5c86dade0cb3bc947e4431",
+      "hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "accession": "0001104659-21-143662",
+      "filename": "tm2133715-1_sctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "88c93cc5b02f22d32e53d5acfb05b2799f5952cb",
+      "hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "accession": "0001104659-21-143662",
+      "filename": "tm2133715d2_ex99-a1vi.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "b1d72dda133f322a488ae983bb7085ffb01ac6fc",
+      "hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "accession": "0001104659-21-144524",
+      "filename": "tm2134027-1_sc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "cusip_code",
+      "text": "382410843",
+      "score": 0.8611633777618408,
+      "rank_score": 1.6111633777618408,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "PALOMA PARTNERS VI HOLDINGS, LLC",
+      "score": 0.9203615784645081,
+      "rank_score": 1.3203615784645082,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$23.00",
+      "score": 0.6062433123588562,
+      "rank_score": 1.2562433123588561,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Goodrich Petroleum Corporation",
+      "score": 0.8546849489212036,
+      "rank_score": 1.1546849489212037,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Paloma VI Merger Sub, Inc.",
+      "score": 0.8499791026115417,
+      "rank_score": 1.1499791026115418,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "DECEMBER 23, 2021",
+      "score": 0.48922979831695557,
+      "rank_score": 1.1392297983169555,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "PALOMA VI MERGER SUB, INC.",
+      "score": 0.7283593416213989,
+      "rank_score": 1.128359341621399,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.01",
+      "score": 0.4488126337528229,
+      "rank_score": 1.0988126337528228,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Paloma Partners VI Holdings, LLC",
+      "score": 0.7623918056488037,
+      "rank_score": 1.0623918056488038,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Goodrich Petroleum\nCorporation",
+      "score": 0.6700928211212158,
+      "rank_score": 0.9700928211212159,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "D.F. King & Co.,\nInc.",
+      "score": 0.6273987293243408,
+      "rank_score": 0.9273987293243409,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$15.55 per Share",
+      "score": 0.46824461221694946,
+      "rank_score": 0.9182446122169494,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "November 21, 2021",
+      "score": 0.4352094531059265,
+      "rank_score": 0.8852094531059265,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Paloma",
+      "score": 0.8736748099327087,
+      "rank_score": 0.8736748099327087,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Company F",
+      "score": 0.5640714168548584,
+      "rank_score": 0.8640714168548584,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "LS Power Development, LLC",
+      "score": 0.5605024695396423,
+      "rank_score": 0.8605024695396424,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Company E",
+      "score": 0.5489629507064819,
+      "rank_score": 0.848962950706482,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "security_name",
+      "text": "shares of common stock",
+      "score": 0.4441547989845276,
+      "rank_score": 0.8441547989845275,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "r Sub, Inc.",
+      "score": 0.5283022522926331,
+      "rank_score": 0.8283022522926331,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Parent and Purchaser",
+      "score": 0.707475483417511,
+      "rank_score": 0.807475483417511,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Goodrich",
+      "score": 0.8015242218971252,
+      "rank_score": 0.8015242218971252,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Delaware corporation",
+      "score": 0.4523119330406189,
+      "rank_score": 0.7523119330406189,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Securities and Exchange Commission",
+      "score": 0.5744888186454773,
+      "rank_score": 0.6744888186454773,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Paloma",
+      "score": 0.6035576462745667,
+      "rank_score": 0.6035576462745667,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Goodrich",
+      "score": 0.486814022064209,
+      "rank_score": 0.586814022064209,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "offerors",
+      "score": 0.4719735085964203,
+      "rank_score": 0.5719735085964203,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "EnCap Energy Capital Fund\u00a0XI",
+      "score": 0.45715537667274475,
+      "rank_score": 0.5571553766727447,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective time of the Merger",
+      "score": 0.5527382493019104,
+      "rank_score": 0.5527382493019104,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Offer Price",
+      "score": 0.7786294221878052,
+      "rank_score": 0.4286294221878051,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.800393283367157,
+      "rank_score": 0.25039328336715694,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "common stock",
+      "score": 0.6998215317726135,
+      "rank_score": 0.14982153177261348,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.4336734414100647,
+      "rank_score": 0.13367344141006465,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "TPH",
+      "score": 0.7579675912857056,
+      "rank_score": 0.10796759128570554,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Purchaser",
+      "score": 0.8044179081916809,
+      "rank_score": 0.05441790819168091,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "EXPIRATION TIME",
+      "score": 0.407168447971344,
+      "rank_score": 0.007168447971343972,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective time",
+      "score": 0.4139650762081146,
+      "rank_score": -0.13603492379188542,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "COMMON STOCK",
+      "score": 0.5694820284843445,
+      "rank_score": -0.5305179715156556,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Parent",
+      "score": 0.7375887036323547,
+      "rank_score": -0.5624112963676453,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.6732576489448547,
+      "rank_score": -0.6267423510551453,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "cusip",
+      "raw": "382410843",
+      "passage": "20549\n\u200b\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\n\u200b\nGOODRICH PETROLEUM CORPORATION\n(Name of Subject Company)\nPALOMA VI MERGER SUB, INC.\n(Name of Filing Person\u2009\u2014\u2009Offeror)\nPALOMA PARTNERS VI HOLDINGS, LLC\n(Name of Filing Person\u2009\u2014\u2009Parent of Offeror)\n\u200b\nCOMMON STOCK, $0.01 PAR VALUE\n(Title of Class of Securities)\n\u200b\n382410843\n(CUSIP Number of Class of Securities)\n\u200b\nChristopher N.",
+      "method": "gliner",
+      "confidence": 0.8611633777618408,
+      "rank_score": 1.6111633777618408,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        495,
+        504
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "PALOMA PARTNERS VI HOLDINGS, LLC",
+      "passage": "tm2133715-1_sctot - none - 1.9218915s\n\u200b\n\u200b\n\u200b\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n\u200b\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\n\u200b\nGOODRICH PETROLEUM CORPORATION\n(Name of Subject Company)\nPALOMA VI MERGER SUB, INC.\n(Name of Filing Person\u2009\u2014\u2009Offeror)\nPALOMA PARTNERS VI HOLDINGS, LLC\n(Name of Filing Person\u2009\u2014\u2009Parent of Offeror)\n\u200b\nCOMMON STOCK, $0.01 PAR VALUE\n(Title of Class of Securities)\n\u200b\n382410843\n(CUSIP Number of Class of Securities)\n\u200b\nChristopher N.",
+      "method": "gliner",
+      "confidence": 0.9203615784645081,
+      "rank_score": 1.3203615784645082,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        353,
+        385
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$23.00",
+      "passage": "Paloma VI Merger Sub, Inc., a Delaware corporation\n(\u201cPurchaser\u201d) and a wholly owned subsidiary of Paloma Partners VI Holdings, LLC, a Delaware limited liability company (\u201cPaloma\u201d),\nis offering to purchase all of the shares of common stock, par value $0.01 per share (the \u201cShares\u201d), of Goodrich Petroleum\nCorporation, a Delaware corporation (\u201cGoodrich\u201d), that are issued and outstanding at a price of $23.00 per Share, in cash\n(the \u201cOffer Price\u201d), without interest, less any applicable withholding taxes, upon the terms and subject to the conditions\nset forth in the offer to purchase, dated November 24, 2021 (as it may be amended or supplemented from time to time, the \u201cOffer\nto Purchase\u201d), and in the related letter of transmittal (as it may be amended or supplemented from time to time, the \u201cLetter\nof T",
+      "method": "gliner",
+      "confidence": 0.6062433123588562,
+      "rank_score": 1.2562433123588561,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1709,
+        1715
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Goodrich Petroleum Corporation",
+      "passage": "This Schedule\u00a0TO relates to the offer by Purchaser to purchase all of the shares of common stock, par value $0.01 per share (the \u201cShares\u201d), of Goodrich Petroleum Corporation, a Delaware corporation (\u201cGoodrich\u201d), that are issued and outstanding at a price of $23.00 per Share, without interest, less any applicable withholding taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated November\u00a024, 2021 (the \u201cOffer to Purchase\u201d), and in the related Letter of Transmittal (the \u201cLetter of Transmittal\u201d), copies of which are attached hereto",
+      "method": "gliner",
+      "confidence": 0.8546849489212036,
+      "rank_score": 1.1546849489212037,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3860,
+        3890
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Paloma VI Merger Sub, Inc.",
+      "passage": "\u200b\nThis Schedule\u00a014D-9 relates to the tender offer by Paloma VI Merger Sub, Inc., a Delaware corporation (\u201cPurchaser\u201d), a wholly-owned subsidiary of Paloma Partners VI Holdings, LLC, a Delaware limited liability company (\u201cParent\u201d), to purchase, pursuant to the Agreement and Plan of Merger, dated as of November\u00a021, 2021, by among the Company, Parent and Purchaser (as it may be amended from time to time, the \u201cMerger Agreement\u201d), any and all of the Shares of the Company that are",
+      "method": "gliner",
+      "confidence": 0.8499791026115417,
+      "rank_score": 1.1499791026115418,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2213,
+        2239
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "DECEMBER 23, 2021",
+      "passage": "MIDNIGHT, NEW YORK CITY TIME, ON DECEMBER 23, 2021 (ONE MINUTE AFTER 11:59 P.M., NEW YORK CITY TIME,\nON DECEMBER 22, 2021), UNLESS THE OFFER IS EXTENDED (SUCH DATE AND TIME, AS IT MAY BE EXTENDED, THE \u201cEXPIRATION TIME\u201d).",
+      "method": "gliner",
+      "confidence": 0.48922979831695557,
+      "rank_score": 1.1392297983169555,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2838,
+        2855
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "PALOMA VI MERGER SUB, INC.",
+      "passage": "tm2133715-1_sctot - none - 1.9218915s\n\u200b\n\u200b\n\u200b\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n\u200b\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\n\u200b\nGOODRICH PETROLEUM CORPORATION\n(Name of Subject Company)\nPALOMA VI MERGER SUB, INC.\n(Name of Filing Person\u2009\u2014\u2009Offeror)\nPALOMA PARTNERS VI HOLDINGS, LLC\n(Name of Filing Person\u2009\u2014\u2009Parent of Offeror)\n\u200b\nCOMMON STOCK, $0.01 PAR VALUE\n(Title of Class of Securities)\n\u200b\n382410843\n(CUSIP Number of Class of Securities)\n\u200b\nChristopher N.",
+      "method": "gliner",
+      "confidence": 0.7283593416213989,
+      "rank_score": 1.128359341621399,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        292,
+        318
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "ck\nof\nGOODRICH PETROLEUM CORPORATION\nat\n$23.00 per Share by\nPALOMA VI MERGER SUB, INC.,\na wholly owned subsidiary of\nPALOMA PARTNERS VI HOLDINGS, LLC\nPaloma VI Merger Sub, Inc., a Delaware corporation\n(\u201cPurchaser\u201d) and a wholly owned subsidiary of Paloma Partners VI Holdings, LLC, a Delaware limited liability company (\u201cPaloma\u201d),\nis offering to purchase all of the shares of common stock, par value $0.01 per share (the \u201cShares\u201d), of Goodrich Petroleum\nCorporation, a Delaware corporation (\u201cGoodrich\u201d), that are issued and outstanding at a price of $23.00 per Share, in cash\n(the \u201cOffer Price\u201d), without interest, less any applicable withholding taxes, upon the terms and subject to the conditions\nset forth in the offer to purchase, dated November 24, 2021 (as it may be amended or supplemented from tim",
+      "method": "gliner",
+      "confidence": 0.4488126337528229,
+      "rank_score": 1.0988126337528228,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1559,
+        1564
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Paloma Partners VI Holdings, LLC",
+      "passage": "\u200b\nThis Schedule\u00a014D-9 relates to the tender offer by Paloma VI Merger Sub, Inc., a Delaware corporation (\u201cPurchaser\u201d), a wholly-owned subsidiary of Paloma Partners VI Holdings, LLC, a Delaware limited liability company (\u201cParent\u201d), to purchase, pursuant to the Agreement and Plan of Merger, dated as of November\u00a021, 2021, by among the Company, Parent and Purchaser (as it may be amended from time to time, the \u201cMerger Agreement\u201d), any and all of the Shares of the Company that are issued and outstanding at a price of $23.00 per Share, in cash (the \u201cOffer Price\u201d), without interest",
+      "method": "gliner",
+      "confidence": 0.7623918056488037,
+      "rank_score": 1.0623918056488038,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2308,
+        2340
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Goodrich Petroleum\nCorporation",
+      "passage": "N\nat\n$23.00 per Share by\nPALOMA VI MERGER SUB, INC.,\na wholly owned subsidiary of\nPALOMA PARTNERS VI HOLDINGS, LLC\nPaloma VI Merger Sub, Inc., a Delaware corporation\n(\u201cPurchaser\u201d) and a wholly owned subsidiary of Paloma Partners VI Holdings, LLC, a Delaware limited liability company (\u201cPaloma\u201d),\nis offering to purchase all of the shares of common stock, par value $0.01 per share (the \u201cShares\u201d), of Goodrich Petroleum\nCorporation, a Delaware corporation (\u201cGoodrich\u201d), that are issued and outstanding at a price of $23.00 per Share, in cash\n(the \u201cOffer Price\u201d), without interest, less any applicable withholding taxes, upon the terms and subject to the conditions\nset forth in the offer to purchase, dated November 24, 2021 (as it may be amended or supplemented from time to time, the \u201cOffer\nto Purchase\u201d), and in the related lett",
+      "method": "gliner",
+      "confidence": 0.6700928211212158,
+      "rank_score": 0.9700928211212159,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1594,
+        1624
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "D.F. King & Co.,\nInc.",
+      "passage": "Brokers, dealers, commercial banks, trust companies or other nominees will, upon request, be reimbursed by Purchaser for\ncustomary mailing and handling expenses incurred by them in forwarding the Offer materials to their customers.\n3\nThe Information Agent for the Offer is:\nD.F. King & Co.,\nInc.\n48 Wall Street, 22nd Floor\nNew York, NY 10005\nBanks and Brokers May\nCall: (212) 269-5550\nAll Others Call Toll-Free:\n(866) 207-2356\nE-mail:\nGDP@dfking.com\nNovember 24, 2021\n4",
+      "method": "gliner",
+      "confidence": 0.6273987293243408,
+      "rank_score": 0.9273987293243409,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        17169,
+        17190
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$15.55 per Share",
+      "passage": "As of August\u00a026, the Company\u2019s closing stock price was $15.55 per Share.\nDuring August, September and October\u00a02021, representatives of TPH provided periodic updates to the Company Board and Company management regarding its conversations with each counterparty with whom TPH had engaged regarding a transaction with the Company.\nOn August\u00a031, 2021, the Company and Company F entered into a confiden",
+      "method": "gliner",
+      "confidence": 0.46824461221694946,
+      "rank_score": 0.9182446122169494,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79658,
+        79674
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "offer_price_amount",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "November 21, 2021",
+      "passage": "MIDNIGHT, NEW YORK CITY TIME, ON DECEMBER 23, 2021 (ONE MINUTE AFTER 11:59 P.M., NEW YORK CITY TIME,\nON DECEMBER 22, 2021), UNLESS THE OFFER IS EXTENDED (SUCH DATE AND TIME, AS IT MAY BE EXTENDED, THE \u201cEXPIRATION TIME\u201d).\nThe Offer is being made pursuant to the Agreement\nand Plan of Merger, dated as of November 21, 2021, by and among Paloma, Purchaser and Goodrich (as it may be amended or supplemented from\ntime to time in accordance with its terms, the \u201cMerger Agreement\u201d), pursuant to which, as soon as practicable following the\nconsummation of the Offer and subject to the satisfaction or waiver of the remaining conditions set forth in the Merger Agreement, Goodrich\nwill be merged with and into Purchaser (the \u201cMe",
+      "method": "gliner",
+      "confidence": 0.4352094531059265,
+      "rank_score": 0.8852094531059265,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3108,
+        3125
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Paloma",
+      "passage": "ce with its terms, the \u201cMerger Agreement\u201d), pursuant to which, as soon as practicable following the\nconsummation of the Offer and subject to the satisfaction or waiver of the remaining conditions set forth in the Merger Agreement, Goodrich\nwill be merged with and into Purchaser (the \u201cMerger\u201d), with Purchaser continuing as the surviving corporation in the Merger\nand as a wholly owned subsidiary of Paloma.",
+      "method": "gliner",
+      "confidence": 0.8736748099327087,
+      "rank_score": 0.8736748099327087,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3638,
+        3644
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Company F",
+      "passage": "As of August\u00a026, the Company\u2019s closing stock price was $15.55 per Share.\nDuring August, September and October\u00a02021, representatives of TPH provided periodic updates to the Company Board and Company management regarding its conversations with each counterparty with whom TPH had engaged regarding a transaction with the Company.\nOn August\u00a031, 2021, the Company and Company F entered into a confiden",
+      "method": "gliner",
+      "confidence": 0.5640714168548584,
+      "rank_score": 0.8640714168548584,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79967,
+        79976
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "LS Power Development, LLC",
+      "passage": "and Paloma.\n\u200b\n\u200b\n(d)(7)*\n\u200b\n\u200b\nStock Purchase Agreement, dated November\u00a021, 2021, between Paloma and a fund affiliated with LS Power Development, LLC.\n\u200b\n\u200b\n(g)\n\u200b\n\u200b\nNot applicable.\n\u200b\n\u200b\n(h)\n\u200b\n\u200b\nNot applicable.\n\u200b\n\u200b\n*\nFiled herewith.\n\u200b\n**\nSchedules to the Agreement and Plan of Merger have been omitted pursuant to Item 601(b)(2) of Regulation S-K. Copies of any such schedules will be furnished to the U.S. Securities and Exchange Commission upon request.\n\u200b\n3",
+      "method": "gliner",
+      "confidence": 0.5605024695396423,
+      "rank_score": 0.8605024695396424,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        7917,
+        7942
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Company E",
+      "passage": "During this time, Parent and its advisors as well as other buyers that signed confidentiality agreements with the Company were provided access to the Company\u2019s virtual data room for the purpose of conducting due diligence on the Company and received access to its reserve database.\nOn August\u00a026, 2021, representatives of Company E contacted representatives of TPH and indicated that Company E had further considered its proposal and was willing to consider an all cash deal that valued the Company at approximately $19.00 per Share.",
+      "method": "gliner",
+      "confidence": 0.5489629507064819,
+      "rank_score": 0.848962950706482,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79453,
+        79462
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "shares of common stock",
+      "passage": "This Schedule\u00a0TO relates to the offer by Purchaser to purchase all of the shares of common stock, par value $0.01 per share (the \u201cShares\u201d), of Goodrich Petroleum Corporation, a Delaware corporation (\u201cGoodrich\u201d), that are issued and outstanding at a price of $23.00 per Share, without interest, less any applicable withholding taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated November\u00a024, 2021 (the \u201cOffer to Purchase\u201d), and in the related Letter of Tr",
+      "method": "gliner",
+      "confidence": 0.4441547989845276,
+      "rank_score": 0.8441547989845275,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3791,
+        3813
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "r Sub, Inc.",
+      "passage": "\u200b\nThis Schedule\u00a014D-9 relates to the tender offer by Paloma VI Merger Sub, Inc., a Delaware corporation (\u201cPurchaser\u201d), a wholly-owned subsidiary of Paloma Partners VI Holdings, LLC, a Delaware limited liability company (\u201cParent\u201d), to purchase, pursuant to the Agreement and Plan of Merger, dated as of November\u00a021, 2021, by among the Company, Parent and Purchaser (as it may be amended from time to time, the \u201cMerger Agreement\u201d), any and all of the Shares of the Company that are",
+      "method": "gliner",
+      "confidence": 0.5283022522926331,
+      "rank_score": 0.8283022522926331,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2228,
+        2239
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Parent and Purchaser",
+      "passage": "forth in the Offer to Purchase, dated November\u00a024, 2021 (the \u201cOffer to Purchase\u201d) and the related letter of transmittal (the \u201cLetter of Transmittal\u201d), which, together with any amendments or supplements hereto and thereto, collectively constitute the \u201cOffer.\u201d The Offer is described in a Tender Offer Statement on Schedule\u00a0TO (as amended or supplemented from time to time, the \u201cSchedule\u00a0TO\u201d) filed by Parent and Purchaser with the Securities and Exchange Commission (the \u201cSEC\u201d) on November\u00a024, 2021.",
+      "method": "gliner",
+      "confidence": 0.707475483417511,
+      "rank_score": 0.807475483417511,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3230,
+        3250
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Goodrich",
+      "passage": "MIDNIGHT, NEW YORK CITY TIME, ON DECEMBER 23, 2021 (ONE MINUTE AFTER 11:59 P.M., NEW YORK CITY TIME,\nON DECEMBER 22, 2021), UNLESS THE OFFER IS EXTENDED (SUCH DATE AND TIME, AS IT MAY BE EXTENDED, THE \u201cEXPIRATION TIME\u201d).\nThe Offer is being made pursuant to the Agreement\nand Plan of Merger, dated as of November 21, 2021, by and among Paloma, Purchaser and Goodrich (as it may be amended or supplemented from\ntime to time in accordance with its terms, the \u201cMerger Agreement\u201d), pursuant to which, as soon as practicable following the\nconsummation of the Offer and subject to the satisfaction or waiver of the remaining conditions set forth in the Merger Agreement, Goodrich\nwill be merged with and into Purchaser (the \u201cMerger\u201d), with Purchaser continuing as the surv",
+      "method": "gliner",
+      "confidence": 0.8015242218971252,
+      "rank_score": 0.8015242218971252,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3162,
+        3170
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Delaware corporation",
+      "passage": "MERGER SUB, INC.,\na wholly owned subsidiary of\nPALOMA PARTNERS VI HOLDINGS, LLC\nPaloma VI Merger Sub, Inc., a Delaware corporation\n(\u201cPurchaser\u201d) and a wholly owned subsidiary of Paloma Partners VI Holdings, LLC, a Delaware limited liability company (\u201cPaloma\u201d),\nis offering to purchase all of the shares of common stock, par value $0.01 per share (the \u201cShares\u201d), of Goodrich Petroleum\nCorporation, a Delaware corporation (\u201cGoodrich\u201d), that are issued and outstanding at a price of $23.00 per Share, in cash\n(the \u201cOffer Price\u201d), without interest, less any applicable withholding taxes, upon the terms and subject to the conditions\nset forth in the offer to purchase, dated November 24, 2021 (as it may be amended or supplemented from time to time, the \u201cOffer\nto Purchase\u201d), and in the related letter of transmittal (as it",
+      "method": "gliner",
+      "confidence": 0.4523119330406189,
+      "rank_score": 0.7523119330406189,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1628,
+        1648
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Securities and Exchange Commission",
+      "passage": ", dated November\u00a024, 2021 (the \u201cOffer to Purchase\u201d) and the related letter of transmittal (the \u201cLetter of Transmittal\u201d), which, together with any amendments or supplements hereto and thereto, collectively constitute the \u201cOffer.\u201d The Offer is described in a Tender Offer Statement on Schedule\u00a0TO (as amended or supplemented from time to time, the \u201cSchedule\u00a0TO\u201d) filed by Parent and Purchaser with the Securities and Exchange Commission (the \u201cSEC\u201d) on November\u00a024, 2021.",
+      "method": "gliner",
+      "confidence": 0.5744888186454773,
+      "rank_score": 0.6744888186454773,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3260,
+        3294
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Paloma",
+      "passage": "The Supporting Stockholders and Paloma collectively own, after giving effect to conversion\nof certain convertible notes, a majority of the outstanding shares of Shares.",
+      "method": "gliner",
+      "confidence": 0.6035576462745667,
+      "rank_score": 0.6035576462745667,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        5030,
+        5036
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Goodrich",
+      "passage": "\u200b\n\u200b\n(d)(5)\n\u200b\n\u200b\nTender and Support Agreement, dated November\u00a021, 2021, by and among Paloma, Purchaser, solely as set forth in Section\u00a02.04, 6.02 and Section\u00a06.04, Goodrich, and certain directors of Goodrich and certain members of Goodrich\u2019s management (incorporated by reference to Exhibit\u00a010.1 to the Current Report on Form 8-K filed by Goodrich with the Securities and Exchange Commission on November\u00a023, 2021).\n\u200b\n\u200b\n(d)(6)*\n\u200b\n\u200b\nEquity Commitment Letter, dated November\u00a021, 2021, by and between EnCap Energy Capital Fund\u00a0XI, L.P.",
+      "method": "gliner",
+      "confidence": 0.486814022064209,
+      "rank_score": 0.586814022064209,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        7463,
+        7471
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "offerors",
+      "passage": "The foregoing figures have been provided by the issuer to the offerors and are as of November\u00a017, 2021, the most recent practicable date.\n\u200b\n**\nThe filing fee was calculated in accordance with Rule\u00a00-11 under the Exchange Act and Fee Rate Advisory No.",
+      "method": "gliner",
+      "confidence": 0.4719735085964203,
+      "rank_score": 0.5719735085964203,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1955,
+        1963
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "EnCap Energy Capital Fund\u00a0XI",
+      "passage": "\u200b\n\u200b\n(d)(6)*\n\u200b\n\u200b\nEquity Commitment Letter, dated November\u00a021, 2021, by and between EnCap Energy Capital Fund\u00a0XI, L.P.",
+      "method": "gliner",
+      "confidence": 0.45715537667274475,
+      "rank_score": 0.5571553766727447,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        7761,
+        7789
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective time of the Merger",
+      "passage": "At the effective time of the Merger,\neach Share then outstanding (other than Shares that are held by any stockholders who properly demand appraisal in connection with the\nMerger as described in the Offer to Purchase) will be converted into the right to receive the Offer Price, without interest, less any\napplicable withholding taxes, except for Shares then owned by Paloma, Purchaser or certain of their affiliates and Shares held in",
+      "method": "gliner",
+      "confidence": 0.5527382493019104,
+      "rank_score": 0.5527382493019104,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3836,
+        3864
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "effective_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Offer Price",
+      "passage": "At the effective time of the Merger,\neach Share then outstanding (other than Shares that are held by any stockholders who properly demand appraisal in connection with the\nMerger as described in the Offer to Purchase) will be converted into the right to receive the Offer Price, without interest, less any\napplicable withholding taxes, except for Shares then owned by Paloma, Purchaser or certain of their affiliates and Shares held in treasury\nby Goodrich or by any of its wholly owned subsidiaries (in each case, other than any such Shares held in a fiduciary capacity or otherwise\non behalf of third parties), which Shares (including Shares accepted for purchase by the Purc",
+      "method": "gliner",
+      "confidence": 0.7786294221878052,
+      "rank_score": 0.4286294221878051,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4094,
+        4105
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "Exhibit (a)(1)(vi)\nThis announcement is neither an offer to purchase nor a solicitation of an offer to sell Shares (as defined below).",
+      "method": "gliner",
+      "confidence": 0.800393283367157,
+      "rank_score": 0.25039328336715694,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        108,
+        114
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "common stock",
+      "passage": "\u200b\nThe title of the class of equity securities to which this Solicitation/Recommendation Statement on Schedule\u00a014D-9 (together with any exhibits and annexes attached hereto, this \u201cSchedule\u00a014D-9\u201d) relates is the Company\u2019s common stock, par value $0.01 per share (the \u201cShares\u201d).",
+      "method": "gliner",
+      "confidence": 0.6998215317726135,
+      "rank_score": 0.14982153177261348,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        1711,
+        1723
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "20549\n\u200b\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\n\u200b\nGOODRICH PETROLEUM CORPORATION\n(Name of Subject Company)\nPALOMA VI MERGER SUB, INC.\n(Name of Filing Person\u2009\u2014\u2009Offeror)\nPALOMA PARTNERS VI HOLDINGS, LLC\n(Name of Filing Person\u2009\u2014\u2009Parent of Offeror)\n\u200b\nCOMMON STOCK, $0.01 PAR VALUE\n(Title of Class of Securities)\n\u200b\n382410843\n(CUSIP Number of Class of Securities)\n\u200b\nChristopher N.",
+      "method": "gliner",
+      "confidence": 0.4336734414100647,
+      "rank_score": 0.13367344141006465,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        506,
+        518
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "TPH",
+      "passage": "As of August\u00a026, the Company\u2019s closing stock price was $15.55 per Share.\nDuring August, September and October\u00a02021, representatives of TPH provided periodic updates to the Company Board and Company management regarding its conversations with each counterparty with whom TPH had engaged regarding a transaction with the Company.\nOn August\u00a031, 2021, the Company and Company F entered into a confiden",
+      "method": "gliner",
+      "confidence": 0.7579675912857056,
+      "rank_score": 0.10796759128570554,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79738,
+        79741
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Purchaser",
+      "passage": "Brokers, dealers, commercial banks, trust companies or other nominees will, upon request, be reimbursed by Purchaser for\ncustomary mailing and handling expenses incurred by them in forwarding the Offer materials to their customers.\n3\nThe Information Agent for the Offer is:\nD.F. King & Co.,\nInc.\n48 Wall Street, 22nd Floor\nNew York, NY 10005\nBanks and Brokers May\nCall: (212) 269-5550\nAll Others Call Toll-Free:\n(866) 207-2356\nE-mail:\nGDP@dfking.com\nNovember 24, 2021\n4",
+      "method": "gliner",
+      "confidence": 0.8044179081916809,
+      "rank_score": 0.05441790819168091,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        17002,
+        17011
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "EXPIRATION TIME",
+      "passage": "MIDNIGHT, NEW YORK CITY TIME, ON DECEMBER 23, 2021 (ONE MINUTE AFTER 11:59 P.M., NEW YORK CITY TIME,\nON DECEMBER 22, 2021), UNLESS THE OFFER IS EXTENDED (SUCH DATE AND TIME, AS IT MAY BE EXTENDED, THE \u201cEXPIRATION TIME\u201d).",
+      "method": "gliner",
+      "confidence": 0.407168447971344,
+      "rank_score": 0.007168447971343972,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3007,
+        3022
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective time",
+      "passage": "At the effective time of the Merger,\neach Share then outstanding (other than Shares that are held by any stockholders who properly demand appraisal in connection with the\nMerger as described in the Offer to Purchase) will be converted into the right to receive the Offer Price, without interest, less any\napplicable withholding taxes, except for Shares then owned by Paloma, Purchaser or certain of their affiliates and S",
+      "method": "gliner",
+      "confidence": 0.4139650762081146,
+      "rank_score": -0.13603492379188542,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3836,
+        3850
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "COMMON STOCK",
+      "passage": "20549\n\u200b\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\n\u200b\nGOODRICH PETROLEUM CORPORATION\n(Name of Subject Company)\nPALOMA VI MERGER SUB, INC.\n(Name of Filing Person\u2009\u2014\u2009Offeror)\nPALOMA PARTNERS VI HOLDINGS, LLC\n(Name of Filing Person\u2009\u2014\u2009Parent of Offeror)\n\u200b\nCOMMON STOCK, $0.01 PAR VALUE\n(Title of Class of Securities)\n\u200b\n382410843\n(CUSIP Number of Class of Securities)\n\u200b\nChristopher N.",
+      "method": "gliner",
+      "confidence": 0.5694820284843445,
+      "rank_score": -0.5305179715156556,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        432,
+        444
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Parent",
+      "passage": "me, on December\u00a023, 2021 (one minute after 11:59\u00a0P.M., New York City time, on December\u00a022, 2021) (the \u201cExpiration Time,\u201d unless Purchaser extends the Offer pursuant to and in accordance with the terms of the Merger Agreement, in which event \u201cExpiration Time\u201d will mean the earliest time and date at which the Offer, as so extended, will expire) a number of Shares that, together with Shares owned by Parent, would represent more than one-half (\n1\n\u2215\n2\n) of all Shares then outstanding (the \u201cMinimum Condition\u201d) and (ii)\u00a0other customary conditions as described in the Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.7375887036323547,
+      "rank_score": -0.5624112963676453,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4485,
+        4491
+      ],
+      "source_hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "source_accession": "0001104659-21-144524",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "Tendering stockholders who have Shares registered\nin their names and who tender directly to American Stock Transfer & Trust Company, LLC (the \u201cDepositary\u201d) will not be\nobligated to pay brokerage fees, commissions or, except as set forth in the Letter of Transmittal, stock transfer taxes on the sale of\nShares to Purchaser pursuant to the Offer.",
+      "method": "gliner",
+      "confidence": 0.6732576489448547,
+      "rank_score": -0.6267423510551453,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2486,
+        2492
+      ],
+      "source_hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "source_accession": "0001104659-21-143662",
+      "label": "security_name",
+      "chunk_id": "w3"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.837737+00:00"
+}

@@ -1,0 +1,1213 @@
+{
+  "schema_version": "1",
+  "event_id": "005-39533",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "741ddbd58418307549a63c76af1c7925ea93989c",
+      "hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "accession": "0001104659-22-047591",
+      "filename": "tm2212632-1_sctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "3566fd7c58dce4194d573dd1cf33565b0c6935a3",
+      "hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "accession": "0001104659-22-047591",
+      "filename": "tm2212632d8_exh-a1v.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "7a7085323d87f98141847b94c0fb9f268f4ef59c",
+      "hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "accession": "0001104659-22-047610",
+      "filename": "tm2212877-1_sc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "cusip_code",
+      "text": "459041109",
+      "score": 0.9297711253166199,
+      "rank_score": 1.4297711253166199,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$1.74",
+      "score": 0.6914393305778503,
+      "rank_score": 1.3414393305778503,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "May\u00a019, 2022",
+      "score": 0.684950590133667,
+      "rank_score": 1.334950590133667,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$138,000",
+      "score": 0.7901932001113892,
+      "rank_score": 1.2401932001113891,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "AIC Merger Sub, Inc.",
+      "score": 0.7613438367843628,
+      "rank_score": 1.161343836784363,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "AIC Merger Sub, Inc.",
+      "score": 0.8382382988929749,
+      "rank_score": 1.138238298892975,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "April\u00a020, 2022",
+      "score": 0.47647157311439514,
+      "rank_score": 1.126471573114395,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "459041-10-9",
+      "score": 0.863866925239563,
+      "rank_score": 1.113866925239563,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.01",
+      "score": 0.6242691874504089,
+      "rank_score": 1.074269187450409,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "International Baler Corporation",
+      "score": 0.6606535911560059,
+      "rank_score": 1.060653591156006,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Avis Industrial Corporation",
+      "score": 0.7580639719963074,
+      "rank_score": 1.0580639719963074,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Avis Industrial Corporation",
+      "score": 0.5981128811836243,
+      "rank_score": 0.9981128811836243,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "International Baler Corporation",
+      "score": 0.6435142159461975,
+      "rank_score": 0.9435142159461976,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Baler",
+      "score": 0.9179659485816956,
+      "rank_score": 0.9179659485816956,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "5:00\u00a0p.m.",
+      "score": 0.7043668627738953,
+      "rank_score": 0.9043668627738952,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Fox Rothschild LLP",
+      "score": 0.6931642889976501,
+      "rank_score": 0.7931642889976501,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Tender Condition for Merger",
+      "score": 0.7813031077384949,
+      "rank_score": 0.7813031077384949,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Baler",
+      "score": 0.7766388058662415,
+      "rank_score": 0.7766388058662415,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Financial Advisor",
+      "score": 0.655790388584137,
+      "rank_score": 0.7557903885841369,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Bingham Greenebaum LLP",
+      "score": 0.5469521284103394,
+      "rank_score": 0.7469521284103393,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "INTERNATIONAL BALER CORPORATION",
+      "score": 0.5255445837974548,
+      "rank_score": 0.7255445837974548,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "federal or state securities",
+      "score": 0.4901481866836548,
+      "rank_score": 0.6901481866836547,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Special Committee",
+      "score": 0.5546600222587585,
+      "rank_score": 0.6546600222587585,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Dentons",
+      "score": 0.5500312447547913,
+      "rank_score": 0.6500312447547912,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "seller",
+      "score": 0.45007872581481934,
+      "rank_score": 0.5500787258148193,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Par Value",
+      "score": 0.429170161485672,
+      "rank_score": 0.429170161485672,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Offer Price",
+      "score": 0.7056084871292114,
+      "rank_score": 0.35560848712921134,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.652682363986969,
+      "rank_score": 0.3026823639869689,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Tender Condition",
+      "score": 0.8403131365776062,
+      "rank_score": 0.29031313657760616,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.563771665096283,
+      "rank_score": 0.2637716650962829,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.743172824382782,
+      "rank_score": 0.19317282438278194,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Avis",
+      "score": 0.8263673782348633,
+      "rank_score": 0.17636737823486326,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Purchaser",
+      "score": 0.9128219485282898,
+      "rank_score": 0.1628219485282898,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "us",
+      "score": 0.739388644695282,
+      "rank_score": 0.08938864469528196,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "We",
+      "score": 0.7350596189498901,
+      "rank_score": 0.08505961894989011,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.5483436584472656,
+      "rank_score": -0.0016563415527344194,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "us",
+      "score": 0.4719524681568146,
+      "rank_score": -0.17804753184318545,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "American Stock Transfer & Trust Company, LLC",
+      "score": 0.7269684076309204,
+      "rank_score": -0.22303159236907966,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.5307704210281372,
+      "rank_score": -0.5692295789718629,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "cusip",
+      "raw": "459041109",
+      "passage": ")\nINTERNATIONAL BALER CORPORATION\n(Name of Subject Company)\nINTERNATIONAL BALER CORPORATION\n(Name of Person Filing Statement)\nCommon Stock,\nPar Value $0.01 Per Share\n(Title of Class of Securities)\n\u200b\n459041109\n(CUSIP Number of Class of Securities)\n\u200b\nD.",
+      "method": "gliner",
+      "confidence": 0.9297711253166199,
+      "rank_score": 1.4297711253166199,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        468,
+        477
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.74",
+      "passage": "Please note carefully the following:\n1.\u00a0\u00a0\u00a0The Offer Price for the Offer is $1.74 per Share, to you in cash, without interest, less any applicable withholding taxes.",
+      "method": "gliner",
+      "confidence": 0.6914393305778503,
+      "rank_score": 1.3414393305778503,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2169,
+        2174
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May\u00a019, 2022",
+      "passage": "5.\u00a0\u00a0\u00a0The Offer and withdrawal rights will expire at 5:00\u00a0p.m., New York City time, on May\u00a019, 2022, unless the Offer is extended.\n6.\u00a0\u00a0\u00a0The Offer is not subject to any financing condition or upon any minimum number of Shares being tendered.",
+      "method": "gliner",
+      "confidence": 0.684950590133667,
+      "rank_score": 1.334950590133667,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4425,
+        4437
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "expiration_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$138,000",
+      "passage": "The Company engaged the Financial Advisor to prepare a fairness opinion in June\u00a02021 and paid over $138,000 to Financial Advisor for this work.",
+      "method": "gliner",
+      "confidence": 0.7901932001113892,
+      "rank_score": 1.2401932001113891,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79392,
+        79400
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "offer_price_amount",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AIC Merger Sub, Inc.",
+      "passage": "priate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\u00a013e-4(i) (Cross-Border Issuer Tender Offer)\n\u200b\n\u2610\nRule\u00a014d-1(d) (Cross-Border Third-Party Tender Offer)\n\u200b\n\u200b\n\u200b\n\u200b\nThis Tender Offer Statement on Schedule\u00a0TO (as it may be amended and/or supplemented from time to time, this \u201cSchedule\u00a0TO\u201d) is filed by Avis Industrial Corporation, an Indiana corporation (\u201cAvis\u201d), and AIC Merger Sub, Inc., a Delaware corporation and a wholly-owned subsidiary of Avis (\u201cMerger Sub\u201d).",
+      "method": "gliner",
+      "confidence": 0.7613438367843628,
+      "rank_score": 1.161343836784363,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1923,
+        1943
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "AIC Merger Sub, Inc.",
+      "passage": "20, 2022\n\u200b\nTo Our Clients:\nEnclosed for your consideration are the Offer to Purchase, dated April\u00a020, 2022 (as it may be amended or supplemented from time to time, the \u201cOffer to Purchase\u201d), and the related Letter of Transmittal (as it may be amended or supplemented from time to time, the \u201cLetter of Transmittal\u201d and, together with the Offer to Purchase, the \u201cOffer\u201d) in connection with the offer by AIC Merger Sub, Inc., a Delaware corporation (\u201cPurchaser\u201d) and a wholly-owned subsidiary of Avis Industrial Corporation, an Indiana corporation (\u201cAvis\u201d), to purchase all of the shares of common stock, par value $0.01 per share (\u201cShares\u201d), of International Baler Corporation, a Delaware corporation (\u201cBaler\u201d), that are issued and outstanding, other than Shares held by Avis, at a price of $1.74 per Share, in cash, withou",
+      "method": "gliner",
+      "confidence": 0.8382382988929749,
+      "rank_score": 1.138238298892975,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        820,
+        840
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "April\u00a020, 2022",
+      "passage": "\u200b\n\u200b\nApril\u00a020, 2022\n\u200b\nTo Our Clients:\nEnclosed for your consideration are the Offer to Purchase, dated April\u00a020, 2022 (as it may be amended or supplemented from time to time, the \u201cOffer to Purchase\u201d), and the related Letter of Transmittal (as it may be amended or supplemented from time to time, the \u201cLetter of Transmittal\u201d and, together with the Offer to Purchase, the \u201cOffer\u201d) in connection with the offer by AIC Merg",
+      "method": "gliner",
+      "confidence": 0.47647157311439514,
+      "rank_score": 1.126471573114395,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        414,
+        428
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "459041-10-9",
+      "passage": "(Name of Filing Persons (Offeror))\na wholly-owned subsidiary of\nAVIS INDUSTRIAL CORPORATION\n(Name of Filing Persons (Parent))\n\u200b\nCommon Stock, par value $0.01 per share\n(Title of Class of Securities)\n459041-10-9\n(CUSIP Number of Class of Securities)\n\u200b\nGregory L.",
+      "method": "gliner",
+      "confidence": 0.863866925239563,
+      "rank_score": 1.113866925239563,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        518,
+        529
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "The Company\u2019s telephone number at this address is (904) 455-3239.\nSecurities.\nThe title of the class of equity securities to which this Schedule\u00a014D-9 relates is IBAL\u2019s common stock, par value of $0.01 per share (each, a \u201c\nShare\n\u201d and collectively, the \u201c\nShares\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6242691874504089,
+      "rank_score": 1.074269187450409,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2522,
+        2527
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "International Baler Corporation",
+      "passage": "This Schedule\u00a0TO relates to the offer by Merger Sub to purchase all of the issued and outstanding shares of common stock, par value $0.01 per share, of International Baler Corporation, a Delaware corporation (\u201cBaler\u201d), owned by stockholders other than Avis (the \u201cShares\u201d), at a price of $1.74 per Share, to the seller in cash, without interest, less any applicable withholding taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated April\u00a020, 2022 (the \u201cOffer to Purchase\u201d), and in the related Letter of Transmittal (the \u201cLetter of Transmittal\u201d)",
+      "method": "gliner",
+      "confidence": 0.6606535911560059,
+      "rank_score": 1.060653591156006,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2174,
+        2205
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Avis Industrial Corporation",
+      "passage": "Unless otherwise indicated, the business address of the directors and executive officers is c/o\u00a0International Baler Corporation, 5400 Rio Grande Avenue, Jacksonville, Florida 32254.\nTender Offer and Merger.\nThis Schedule\u00a014D-9 relates to the cash tender offer (the \u201c\nOffer\n\u201d) by AIC Merger Sub, Inc., a Delaware corporation (\n\u201c\nPurchaser\n\u201d) and a wholly-owned subsidiary of Avis Industrial Corporation, an Indiana corporation (\u201c\nParent\n\u201d or \u201c\nAvis\n\u201d), to acquire all of the outstanding Shares of the Company at purchase price of $1.74 per Share in cash (the \u201c\nOffer Price\n\u201d), payable net to the seller in cash, without interest, subject to any applicable withholding taxes.",
+      "method": "gliner",
+      "confidence": 0.7580639719963074,
+      "rank_score": 1.0580639719963074,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4415,
+        4442
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Avis Industrial Corporation",
+      "passage": "he results of the tender offer:\u00a0\u00a0\u00a0\u2610\nIf applicable, check the appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\u00a013e-4(i) (Cross-Border Issuer Tender Offer)\n\u200b\n\u2610\nRule\u00a014d-1(d) (Cross-Border Third-Party Tender Offer)\n\u200b\n\u200b\n\u200b\n\u200b\nThis Tender Offer Statement on Schedule\u00a0TO (as it may be amended and/or supplemented from time to time, this \u201cSchedule\u00a0TO\u201d) is filed by Avis Industrial Corporation, an Indiana corporation (\u201cAvis\u201d), and AIC Merger Sub, Inc., a Delaware corporation and a wholly-owned subsidiary of Avis (\u201cMerger Sub\u201d).",
+      "method": "gliner",
+      "confidence": 0.5981128811836243,
+      "rank_score": 0.9981128811836243,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1857,
+        1884
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "International Baler Corporation",
+      "passage": "Unless otherwise indicated, the business address of the directors and executive officers is c/o\u00a0International Baler Corporation, 5400 Rio Grande Avenue, Jacksonville, Florida 32254.",
+      "method": "gliner",
+      "confidence": 0.6435142159461975,
+      "rank_score": 0.9435142159461976,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4137,
+        4168
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Baler",
+      "passage": "4.\u00a0\u00a0\u00a0After careful consideration, the board of directors of Baler, acting on the recommendation of a special committee of the board of directors of Baler, has: (i)\u00a0approved and declared advisable the Merger Agreement, the transactions contemplated by the Merger Agreement, including the Offer and the Merger, and the execution, delivery and performance by Baler of the Merger Agreement and the consummation of the transactions contemplated by the Merger Agreement, including the Offer and the Merger; (ii)\u00a0resolved that the Merger shall be effected under Section\u00a0253 of the DGCL; and (iii)\u00a0recommended that Baler\u2019s stockholders accept the Offer and tender their Shares in the Offer.",
+      "method": "gliner",
+      "confidence": 0.9179659485816956,
+      "rank_score": 0.9179659485816956,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4012,
+        4017
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "5:00\u00a0p.m.",
+      "passage": "5.\u00a0\u00a0\u00a0The Offer and withdrawal rights will expire at 5:00\u00a0p.m., New York City time, on May\u00a019, 2022, unless the Offer is extended.\n6.\u00a0\u00a0\u00a0The Offer is not subject to any financing condition or upon any minimum number of Shares being tendered.",
+      "method": "gliner",
+      "confidence": 0.7043668627738953,
+      "rank_score": 0.9043668627738952,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4391,
+        4400
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "expiration_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Fox Rothschild LLP",
+      "passage": "Holm, Esq.\nFox Rothschild LLP\n777 S.",
+      "method": "gliner",
+      "confidence": 0.6931642889976501,
+      "rank_score": 0.7931642889976501,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        833,
+        851
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Tender Condition for Merger",
+      "passage": "nd Plan of Merger, dated as of March\u00a023, 2022 (as it may be amended or supplemented from time to time in accordance with its terms, the \u201cMerger Agreement\u201d), by and among Avis, Purchaser and Baler, pursuant to which, as soon as practicable following the time Purchaser accepts for payment Shares validly tendered and not properly withdrawn pursuant to the Offer and subject to the satisfaction of the Minimum Tender Condition for Merger and the Purchase Condition (each as defined in the Offer to Purchase) being satisfied and satisfaction or waiver of the remaining conditions set forth in the Merger Agreement, Purchaser will merge with and into Baler (the \u201cMerger\u201d), with Baler continuing as the surviving\n\u200b\ncorporation in the Merger and as a wholly-owned subsidiary of Avis.",
+      "method": "gliner",
+      "confidence": 0.7813031077384949,
+      "rank_score": 0.7813031077384949,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2811,
+        2846
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Baler",
+      "passage": "s for payment Shares validly tendered and not properly withdrawn pursuant to the Offer and subject to the satisfaction of the Minimum Tender Condition for Merger and the Purchase Condition (each as defined in the Offer to Purchase) being satisfied and satisfaction or waiver of the remaining conditions set forth in the Merger Agreement, Purchaser will merge with and into Baler (the \u201cMerger\u201d), with Baler continuing as the surviving\n\u200b\ncorporation in the Merger and as a wholly-owned subsidiary of Avis.",
+      "method": "gliner",
+      "confidence": 0.7766388058662415,
+      "rank_score": 0.7766388058662415,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3085,
+        3090
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Financial Advisor",
+      "passage": "In January\u00a02022, the Company contacted the Financial Advisor to discuss the costs to update the work for the fairness opinion and was advised that the costs would be substantial.",
+      "method": "gliner",
+      "confidence": 0.655790388584137,
+      "rank_score": 0.7557903885841369,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79480,
+        79497
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Bingham Greenebaum LLP",
+      "passage": "Hill\nDentons Bingham Greenebaum LLP\n312 Walnut Street, Suite 2450\nCincinnati, Ohio 45202\n(513) 455-7611\n\u2610\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a tender offer.",
+      "method": "gliner",
+      "confidence": 0.5469521284103394,
+      "rank_score": 0.7469521284103393,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        875,
+        897
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "INTERNATIONAL BALER CORPORATION",
+      "passage": "tm2212877-1_sc14d9 - none - 5.3281451s\nTABLE OF CONTENTS\n\u200b\n\u200b\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE 14D-9\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the\nSecurities Exchange Act of 1934\n(Amendment No. \u2007\u2007\u2007\u2007\u2007\u2007)\nINTERNATIONAL BALER CORPORATION\n(Name of Subject Company)\nINTERNATIONAL BALER CORPORATION\n(Name of Person Filing Statement)\nCommon Stock,\nPar Value $0.01 Per Share\n(Title of Class of Securities)\n\u200b\n459041109\n(CUSIP Number of Class of Securities)\n\u200b\nD.",
+      "method": "gliner",
+      "confidence": 0.5255445837974548,
+      "rank_score": 0.7255445837974548,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        271,
+        302
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "federal or state securities",
+      "passage": "ring the past five\u00a0years, has been convicted in a criminal proceeding (excluding traffic violations or similar misdemeanors) or was a party to a civil proceeding of a judicial or administrative body of competent jurisdiction as a result of which such person was or is subject to a judgment, decree, or final order enjoining him or her from future violations of, or prohibiting activities subject to, federal or state securities laws or finding any violations of such laws.",
+      "method": "gliner",
+      "confidence": 0.4901481866836548,
+      "rank_score": 0.6901481866836547,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3842,
+        3869
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Special Committee",
+      "passage": "The Special Committee notified the Parent of the significant additional fees to issue the fairness opinion and the Parent advised the Company that it would remove the requirement to have a fairness opinion as a condition to closing the Offer and the Merger.\nThe Special Committee considered hiring a fairness advisor before proceeding with making any recommendations on the Offer or t",
+      "method": "gliner",
+      "confidence": 0.5546600222587585,
+      "rank_score": 0.6546600222587585,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79620,
+        79637
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Dentons",
+      "passage": "Hill\nDentons Bingham Greenebaum LLP\n312 Walnut Street, Suite 2450\nCincinnati, Ohio 45202\n(513) 455-7611\n\u2610\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a tender offer.",
+      "method": "gliner",
+      "confidence": 0.5500312447547913,
+      "rank_score": 0.6500312447547912,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        867,
+        874
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "seller",
+      "passage": "This Schedule\u00a0TO relates to the offer by Merger Sub to purchase all of the issued and outstanding shares of common stock, par value $0.01 per share, of International Baler Corporation, a Delaware corporation (\u201cBaler\u201d), owned by stockholders other than Avis (the \u201cShares\u201d), at a price of $1.74 per Share, to the seller in cash, without interest, less any applicable withholding taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated April\u00a020, 2022 (the \u201cOffer to Purchase\u201d), and in the related Letter of Transmittal (the \u201cLetter of Transmittal\u201d), copies of which are attached hereto as Exhibits (a)(1)(i) and (a)(1)(ii), respectively (which, together with any amendments or suppl",
+      "method": "gliner",
+      "confidence": 0.45007872581481934,
+      "rank_score": 0.5500787258148193,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2333,
+        2339
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Par Value",
+      "passage": ")\nINTERNATIONAL BALER CORPORATION\n(Name of Subject Company)\nINTERNATIONAL BALER CORPORATION\n(Name of Person Filing Statement)\nCommon Stock,\nPar Value $0.01 Per Share\n(Title of Class of Securities)\n\u200b\n459041109\n(CUSIP Number of Class of Securities)\n\u200b\nD.",
+      "method": "gliner",
+      "confidence": 0.429170161485672,
+      "rank_score": 0.429170161485672,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        409,
+        418
+      ],
+      "source_hit_id": "0001104659-22-047610:tm2212877-1_sc14d9.htm",
+      "source_accession": "0001104659-22-047610",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Offer Price",
+      "passage": "At the effective time of the Merger (the \u201cEffective Time\u201d), each Share then outstanding (other than Shares that are held by Avis, Purchaser, Baler, or the stockholders of Baler who properly demand appraisal pursuant to Section\u00a0262 of the Delaware General Corporation Law (\u201cDGCL\u201d) in connection with the Merger as described in the Offer to Purchase) will be converted into the right to receive the Offer Price, without interest, less any applicable withholding taxes.",
+      "method": "gliner",
+      "confidence": 0.7056084871292114,
+      "rank_score": 0.35560848712921134,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3586,
+        3597
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "20549\n\u200b\nSCHEDULE TO\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\n\u200b\n\u200b\nINTERNATIONAL BALER CORPORATION\n(Name of Subject Company (Issuer))\nAIC MERGER SUB, INC.\n(Name of Filing Persons (Offeror))\na wholly-owned subsidiary of\nAVIS INDUSTRIAL CORPORATION\n(Name of Filing Persons (Parent))\n\u200b\nCommon Stock, par value $0.01 per share\n(Title of Class of Securities)\n459041-10-9\n(CUSIP Number of Class of Securities)\n\u200b\nGregory L.",
+      "method": "gliner",
+      "confidence": 0.652682363986969,
+      "rank_score": 0.3026823639869689,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        447,
+        459
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Tender Condition",
+      "passage": "After the Offer Acceptance Time and subject to the satisfaction of the Minimum Tender Condition for Merger and the Purchase Condition (each as defined in the Offer to Purchase) being satisfied and satisfaction or waiver of the remaining conditions set forth in the Merger Agreement, Avis, Purchaser and Baler will cause the Merger to become effective without a meeting of the stockholders of Baler in accordance with Section\u00a0253 of the DGCL.",
+      "method": "gliner",
+      "confidence": 0.8403131365776062,
+      "rank_score": 0.29031313657760616,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4838,
+        4862
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Name of Filing Persons (Offeror))\na wholly-owned subsidiary of\nAVIS INDUSTRIAL CORPORATION\n(Name of Filing Persons (Parent))\n\u200b\nCommon Stock, par value $0.01 per share\n(Title of Class of Securities)\n459041-10-9\n(CUSIP Number of Class of Securities)\n\u200b\nGregory L.",
+      "method": "gliner",
+      "confidence": 0.563771665096283,
+      "rank_score": 0.2637716650962829,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        531,
+        543
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "At the effective time of the Merger (the \u201cEffective Time\u201d), each Share then outstanding (other than Shares that are held by Avis, Purchaser, Baler, or the stockholders of Baler who properly demand appraisal pursuant to Section\u00a0262 of the Delaware General Corporation Law (\u201cDGCL\u201d) in connection with the Merger as described in the Offer to Purchase) will be converted into the right to receive the Offer Price, without interest, less any applicable withhold",
+      "method": "gliner",
+      "confidence": 0.743172824382782,
+      "rank_score": 0.19317282438278194,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3231,
+        3245
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Avis",
+      "passage": "After the Offer Acceptance Time and subject to the satisfaction of the Minimum Tender Condition for Merger and the Purchase Condition (each as defined in the Offer to Purchase) being satisfied and satisfaction or waiver of the remaining conditions set forth in the Merger Agreement, Avis, Purchaser and Baler will cause the Merger to become effective without a meeting of the stockholders of Baler in accordance with Section\u00a0253 of the DGCL.",
+      "method": "gliner",
+      "confidence": 0.8263673782348633,
+      "rank_score": 0.17636737823486326,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        5050,
+        5054
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Purchaser",
+      "passage": "3.\u00a0\u00a0\u00a0The Offer is being made in connection with the Agreement and Plan of Merger, dated as of March\u00a023, 2022 (as it may be amended or supplemented from time to time in accordance with its terms, the \u201cMerger Agreement\u201d), by and among Avis, Purchaser and Baler, pursuant to which, as soon as practicable following the time Purchaser accepts for payment Shares validly tendered and not properly withdrawn pursuant to the Offer and subject to the satisfaction of the Minimum Tender Condition for Merger and the Purchase Condition (each as defined in the Offer to Purchase) being satisfied and satisfaction or waiver of the remaining conditions set forth in the Merger Agreement, Purchaser will merge with and into Baler (the \u201cMerger\u201d)",
+      "method": "gliner",
+      "confidence": 0.9128219485282898,
+      "rank_score": 0.1628219485282898,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2669,
+        2678
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "us",
+      "passage": "A tender of such Shares can be made only by us as the holder of record and pursuant to your instructions.",
+      "method": "gliner",
+      "confidence": 0.739388644695282,
+      "rank_score": 0.08938864469528196,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1629,
+        1631
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "We",
+      "passage": "The Letter of Transmittal accompanying this letter is furnished to you for your information only and cannot be used by you to tender Shares held by us for your account.\nWe request instructions as to whether you wish us to tender any or all of the Shares held by us for your account, upon the terms and subject to the conditions set forth in the enclosed Offer to Purchase and the Letter of Transmittal.",
+      "method": "gliner",
+      "confidence": 0.7350596189498901,
+      "rank_score": 0.08505961894989011,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1860,
+        1862
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": ", the \u201cOffer\u201d) in connection with the offer by AIC Merger Sub, Inc., a Delaware corporation (\u201cPurchaser\u201d) and a wholly-owned subsidiary of Avis Industrial Corporation, an Indiana corporation (\u201cAvis\u201d), to purchase all of the shares of common stock, par value $0.01 per share (\u201cShares\u201d), of International Baler Corporation, a Delaware corporation (\u201cBaler\u201d), that are issued and outstanding, other than Shares held by Avis, at a price of $1.74 per Share, in cash, without interest, less any applicable withholding taxes, upon the terms and subject to the conditions of the Offer.",
+      "method": "gliner",
+      "confidence": 0.5483436584472656,
+      "rank_score": -0.0016563415527344194,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1173,
+        1179
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "us",
+      "passage": "This Instruction Form should be delivered to us in ample time to permit us to submit the tender on your behalf prior to 5:00\u00a0p.m., New York City time, on May\u00a019, 2022, unless the Offer is extended.\n\u200b\n*\nUnless otherwise indicated, it will be assumed that all Shares held by us for your account are to be tendered.\n\u200b\n\u200b\n\u200b\nDated:\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n(Signature(s))\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n(Please Print Name(s))\n\u200b\n\u200b\n\u200b\n\u200b\nAddress\n(Include Zip Code)\n\u200b\n\u200b\n\u200b\n\u200b\nArea Code and Telephone No.\n\u200b\n\u200b\n\u200b\n\u200b\nTaxpayer Identification or Social Security No.\n\u200b\n\u200b\n3",
+      "method": "gliner",
+      "confidence": 0.4719524681568146,
+      "rank_score": -0.17804753184318545,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        9297,
+        9299
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "American Stock Transfer & Trust Company, LLC",
+      "passage": "7.\u00a0\u00a0\u00a0Tendering stockholders who are record owners of Shares and who tender Shares directly to American Stock Transfer & Trust Company, LLC, the depositary for the Offer, will not be obligated to pay brokerage fees, commissions or similar expenses or, except as otherwise provided in the Letter of Transmittal, stock transfer taxes with respect to the purchase of Shares by Purchaser pursuant to the Offer.",
+      "method": "gliner",
+      "confidence": 0.7269684076309204,
+      "rank_score": -0.22303159236907966,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        5303,
+        5347
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632d8_exh-a1v.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "This Schedule\u00a0TO relates to the offer by Merger Sub to purchase all of the issued and outstanding shares of common stock, par value $0.01 per share, of International Baler Corporation, a Delaware corporation (\u201cBaler\u201d), owned by stockholders other than Avis (the \u201cShares\u201d), at a price of $1.74 per Share, to the seller in cash, without interest, less any applicable withholding taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated April\u00a020, 2022 (the \u201cOffer to Purchase\u201d), and in the related Letter of Transmittal (the \u201cLetter of Transmittal\u201d), copies of which are attached hereto as Exhibits (a)(1)(i) and (a)(1)(ii), respective",
+      "method": "gliner",
+      "confidence": 0.5307704210281372,
+      "rank_score": -0.5692295789718629,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2285,
+        2291
+      ],
+      "source_hit_id": "0001104659-22-047591:tm2212632-1_sctot.htm",
+      "source_accession": "0001104659-22-047591",
+      "label": "security_name",
+      "chunk_id": "w3"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.832060+00:00"
+}

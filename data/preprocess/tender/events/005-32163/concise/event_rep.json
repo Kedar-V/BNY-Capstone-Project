@@ -1,0 +1,2241 @@
+{
+  "schema_version": "1",
+  "event_id": "005-32163",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "6bb1a7daac428e7843783cc2cfcb026a67030afb",
+      "hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "d05fc9bdd77c2d39a60cfce0f14c58265a80b3cf",
+      "hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "0ed9245cfcaa0b3c881e104098bcc6cd62cb235c",
+      "hit_id": "0001193125-23-218490:d531308dex99a1b.htm",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "a5201707c30b59aded1cbd19707cb3802d2ac29e",
+      "hit_id": "0001193125-23-218549:d528209dsc14d9.htm",
+      "accession": "0001193125-23-218549",
+      "filename": "d528209dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "August\u00a08, 2023",
+      "score": 0.9698801636695862,
+      "rank_score": 1.7498801636695862,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "September\u00a020, 2023",
+      "score": 0.9507978558540344,
+      "rank_score": 1.7307978558540345,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "August\u00a022, 2023",
+      "score": 0.9340737462043762,
+      "rank_score": 1.7140737462043762,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "February\u00a09, 2024",
+      "score": 0.9273113012313843,
+      "rank_score": 1.7073113012313843,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "October\u00a023, 2023",
+      "score": 0.9247744679450989,
+      "rank_score": 1.704774467945099,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$8.00",
+      "score": 0.9026475548744202,
+      "rank_score": 1.6826475548744202,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$10.25",
+      "score": 0.8941364884376526,
+      "rank_score": 1.6741364884376526,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "August\u00a09, 2023",
+      "score": 0.8849601149559021,
+      "rank_score": 1.6649601149559021,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Is there an agreement governing the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "August\u00a07, 2023",
+      "score": 0.8783401846885681,
+      "rank_score": 1.6583401846885681,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "August\u00a023, 2023",
+      "score": 0.8573178052902222,
+      "rank_score": 1.6373178052902222,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$180,000,000",
+      "score": 0.8498709797859192,
+      "rank_score": 1.6298709797859192,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$10.50",
+      "score": 0.8055799007415771,
+      "rank_score": 1.5855799007415772,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "How much are you offering to pay and what is the form of payment? Will I have to pay any fees or commissions?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "205477102",
+      "score": 0.6320914030075073,
+      "rank_score": 1.3820914030075073,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Computer Task Group, Incorporated",
+      "score": 0.9560489654541016,
+      "rank_score": 1.3560489654541017,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.01",
+      "score": 0.47443485260009766,
+      "rank_score": 1.2544348526000977,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Chicago Merger Sub, Inc.",
+      "score": 0.7642625570297241,
+      "rank_score": 1.1642625570297243,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "day prior to the shareholders\u2019 authorization date",
+      "score": 0.8272210359573364,
+      "rank_score": 1.1572210359573365,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "Company PSU",
+      "score": 0.7747533917427063,
+      "rank_score": 1.1247533917427064,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "CEGEKA GROEP NV",
+      "score": 0.9167354702949524,
+      "rank_score": 1.1167354702949526,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "approximately 8.8%",
+      "score": 0.7541710138320923,
+      "rank_score": 1.0841710138320924,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "CTG",
+      "score": 0.681205153465271,
+      "rank_score": 1.0812051534652711,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:2",
+      "faq_question": "Why are you making the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Supporting Shareholders",
+      "score": 0.9010438323020935,
+      "rank_score": 1.0510438323020936,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Computer Task Group, Incorporated",
+      "score": 0.7481562495231628,
+      "rank_score": 1.0481562495231629,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Merger\nSub and Parent",
+      "score": 0.8277602195739746,
+      "rank_score": 1.0277602195739746,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "available_option",
+      "text": "Top-Up Option",
+      "score": 0.9767287969589233,
+      "rank_score": 1.0267287969589234,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:19",
+      "faq_question": "What is the Top-Up Option and when can it be exercised?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.01 per\nshare",
+      "score": 0.5597313642501831,
+      "rank_score": 1.009731364250183,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "fair value",
+      "score": 0.6790041923522949,
+      "rank_score": 1.009004192352295,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Company Options",
+      "score": 0.9105338454246521,
+      "rank_score": 0.9605338454246521,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "cash",
+      "score": 0.6282836198806763,
+      "rank_score": 0.9582836198806763,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What are the United States federal income tax consequences of the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Surviving Corporation",
+      "score": 0.6001148223876953,
+      "rank_score": 0.9501148223876954,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:17",
+      "faq_question": "If the Offer is completed, will CTG continue as a public company?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "In The Money Options",
+      "score": 0.8955479264259338,
+      "rank_score": 0.9455479264259339,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Out of the Money Option",
+      "score": 0.8583120107650757,
+      "rank_score": 0.9083120107650757,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "cusip_code",
+      "text": "Transaction Code Number",
+      "score": 0.9051527380943298,
+      "rank_score": 0.9051527380943298,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Cegeka Groep NV",
+      "score": 0.7900629639625549,
+      "rank_score": 0.8900629639625549,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "In the Money Option",
+      "score": 0.8360648155212402,
+      "rank_score": 0.8860648155212403,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "ING Belgium SA/NV",
+      "score": 0.734046220779419,
+      "rank_score": 0.884046220779419,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "PARENT AND MERGER SUB",
+      "score": 0.7339690327644348,
+      "rank_score": 0.8839690327644348,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "org_name",
+      "text": "NYBCL",
+      "score": 0.8131889700889587,
+      "rank_score": 0.8631889700889588,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "NASDAQ",
+      "score": 0.8059577941894531,
+      "rank_score": 0.8559577941894532,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "KBC Bank NV",
+      "score": 0.7054786682128906,
+      "rank_score": 0.8554786682128906,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "cash payment",
+      "score": 0.5024188756942749,
+      "rank_score": 0.832418875694275,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "at least 90%",
+      "score": 0.4549712538719177,
+      "rank_score": 0.7849712538719178,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "Will there be a subsequent offering period?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "Expiration Date",
+      "score": 0.9770404100418091,
+      "rank_score": 0.7570404100418091,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "What are the conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "9:00 A.M.",
+      "score": 0.44520270824432373,
+      "rank_score": 0.7252027082443238,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Offer Price",
+      "score": 0.9437183737754822,
+      "rank_score": 0.7237183737754822,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "options",
+      "score": 0.6659941077232361,
+      "rank_score": 0.7159941077232361,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "What are the conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Company RSUs",
+      "score": 0.6544817686080933,
+      "rank_score": 0.7044817686080933,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Effective Time",
+      "score": 0.9206744432449341,
+      "rank_score": 0.7006744432449341,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "target_organization",
+      "text": "target level of performance",
+      "score": 0.504098653793335,
+      "rank_score": 0.654098653793335,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Cegeka",
+      "score": 0.6422746777534485,
+      "rank_score": 0.6422746777534485,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number\nof Class\u00a0of Securities",
+      "score": 0.6340537071228027,
+      "rank_score": 0.6340537071228027,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "commercial bank",
+      "score": 0.4676339626312256,
+      "rank_score": 0.6176339626312256,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Eastern Time",
+      "score": 0.8295539617538452,
+      "rank_score": 0.6095539617538452,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "What are the conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Company\nPSUs",
+      "score": 0.5380256772041321,
+      "rank_score": 0.5880256772041321,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "KBC Bank NV",
+      "score": 0.4334857761859894,
+      "rank_score": 0.5834857761859894,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "ING Belgium SA/NV",
+      "score": 0.4237964451313019,
+      "rank_score": 0.5737964451313019,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "warrants",
+      "score": 0.5176474452018738,
+      "rank_score": 0.5676474452018738,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "What are the conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "irrevocable option",
+      "score": 0.5156029462814331,
+      "rank_score": 0.5656029462814331,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "Will the Offer be followed by the Merger if all of the Shares are not tendered in the\nOffer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Belfius Bank SA/NV",
+      "score": 0.40209364891052246,
+      "rank_score": 0.5520936489105225,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Excluded Shares",
+      "score": 0.5442629456520081,
+      "rank_score": 0.5442629456520081,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "dealer",
+      "score": 0.4823630452156067,
+      "rank_score": 0.5323630452156067,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "How do I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Top-Up Shares",
+      "score": 0.4331464171409607,
+      "rank_score": 0.4831464171409607,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:19",
+      "faq_question": "What is the Top-Up Option and when can it be exercised?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "NYBCL",
+      "score": 0.42407190799713135,
+      "rank_score": 0.47407190799713134,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Party E",
+      "score": 0.4560592472553253,
+      "rank_score": 0.4560592472553253,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9326152205467224,
+      "rank_score": 0.43261522054672236,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "Window Ticket Number",
+      "score": 0.4311422109603882,
+      "rank_score": 0.4311422109603882,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.9227579236030579,
+      "rank_score": 0.4227579236030578,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "Will the Offer be followed by the Merger if all of the Shares are not tendered in the\nOffer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.6134890913963318,
+      "rank_score": 0.31348909139633174,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "COMMON STOCK",
+      "score": 0.5302049517631531,
+      "rank_score": 0.180204951763153,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "CTG",
+      "score": 0.750332236289978,
+      "rank_score": 0.15033223628997805,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:16",
+      "faq_question": "What does the CTG board of directors think of the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Merger\nSub",
+      "score": 0.8380187749862671,
+      "rank_score": 0.13801877498626713,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:19",
+      "faq_question": "What is the Top-Up Option and when can it be exercised?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "DTC",
+      "score": 0.5540483593940735,
+      "rank_score": -0.3959516406059266,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.5313681364059448,
+      "rank_score": -0.7686318635940552,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w4"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "August\u00a08, 2023",
+      "passage": "Subject to the terms and conditions of the Support Agreement, each of the Supporting Shareholders agreed, among other things, subject to certain\nexceptions, to tender his or her Shares (including any Shares acquired upon the exercise of Company Options (as defined below)), pursuant to the Offer, which Shares represent in the aggregate approximately 8.8% of CTG\u2019s total outstanding Shares\nas of August\u00a08, 2023, and, subject to certain exceptions, not to transfer any of the Shares that are subject to the Support Agreement. See Section\u00a011 \u2014 \u201cThe Merger Agreement; Other Agreements\u201d in this Offer to Purchase for a\ndescription of the Support Agreement.",
+      "method": "gliner",
+      "confidence": 0.9698801636695862,
+      "rank_score": 1.7498801636695862,
+      "doc_role": "otp",
+      "section": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "char_span": [
+        581,
+        595
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "September\u00a020, 2023",
+      "passage": "You will have until the end of the day, one minute after 11:59 P.M., Eastern Time, on September\u00a020, 2023, unless we extend the Offer\npursuant to the terms of the Merger Agreement (such date and time, as it may be extended in accordance with the terms of the Merger Agreement, the \u201c Expiration Date \u201d) or the Offer is earlier terminated.",
+      "method": "gliner",
+      "confidence": 0.9507978558540344,
+      "rank_score": 1.7307978558540345,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        86,
+        104
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "August\u00a022, 2023",
+      "passage": "On August\u00a08, 2023, the trading day before the public announcement of the execution of the Merger\nAgreement, the reported closing sales price of the Shares on NASDAQ was $8.00. On August\u00a022, 2023, the last full trading day before the commencement of the Offer, the reported closing sales price of the Shares on NASDAQ was $10.25.",
+      "method": "gliner",
+      "confidence": 0.9340737462043762,
+      "rank_score": 1.7140737462043762,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        179,
+        194
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a09, 2024",
+      "passage": "Yes, the Offer can be extended. In certain circumstances, we are required to extend the Offer beyond the initial Expiration Date, but we will\nnot be (i)\u00a0required to extend the Offer beyond the earliest to occur of (A)\u00a0the valid termination of the Merger Agreement and (B)\u00a0February\u00a09, 2024 (which date may be extended by up to ninety days under certain circumstances, the\n\u201c Extension Deadline \u201d) or (ii)\u00a0permitted to extend the Offer beyond the Extension Deadline without the Company\u2019s prior written consent.\n3",
+      "method": "gliner",
+      "confidence": 0.9273113012313843,
+      "rank_score": 1.7073113012313843,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        272,
+        288
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "October\u00a023, 2023",
+      "passage": "You may withdraw your previously tendered Shares at any time until the Expiration Date. In addition, pursuant to Section\u00a014(d)(5) of the\nExchange Act, Shares may be withdrawn at any time after October\u00a023, 2023, which is the first business day following the 60th day after the date of the commencement of the Offer, unless prior to that date Merger Sub has accepted for payment the\nShares validly tendered in the Offer.\nSee Section\u00a04 \u2014 \u201cWithdrawal Rights.\u201d",
+      "method": "gliner",
+      "confidence": 0.9247744679450989,
+      "rank_score": 1.704774467945099,
+      "doc_role": "otp",
+      "section": "Until what time may I withdraw previously tendered Shares?",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "char_span": [
+        193,
+        209
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$8.00",
+      "passage": "On August\u00a08, 2023, the trading day before the public announcement of the execution of the Merger\nAgreement, the reported closing sales price of the Shares on NASDAQ was $8.00.",
+      "method": "gliner",
+      "confidence": 0.9026475548744202,
+      "rank_score": 1.6826475548744202,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        169,
+        174
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$10.25",
+      "passage": "On August\u00a08, 2023, the trading day before the public announcement of the execution of the Merger\nAgreement, the reported closing sales price of the Shares on NASDAQ was $8.00. On August\u00a022, 2023, the last full trading day before the commencement of the Offer, the reported closing sales price of the Shares on NASDAQ was $10.25. The Offer\nPrice represents an approximately 31.25% premium over the closing price of the Shares on August\u00a08, 2023, the last full trading day before the announcement of the Merger Agreement, and a 44.8% premium to the trailing 90-day volume weighted average stock price as of August\u00a07, 2023.\n8",
+      "method": "gliner",
+      "confidence": 0.8941364884376526,
+      "rank_score": 1.6741364884376526,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        321,
+        327
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "August\u00a09, 2023",
+      "passage": "Yes. Parent, Merger Sub and CTG have entered into an Agreement and Plan of Merger, dated as of August\u00a09, 2023 (as it may be amended from\ntime to time, the \u201c Merger Agreement \u201d).",
+      "method": "gliner",
+      "confidence": 0.8849601149559021,
+      "rank_score": 1.6649601149559021,
+      "doc_role": "otp",
+      "section": "Is there an agreement governing the Offer?",
+      "faq_question": "Is there an agreement governing the Offer?",
+      "char_span": [
+        95,
+        109
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "August\u00a07, 2023",
+      "passage": "The Offer\nPrice represents an approximately 31.25% premium over the closing price of the Shares on August\u00a08, 2023, the last full trading day before the announcement of the Merger Agreement, and a 44.8% premium to the trailing 90-day volume weighted average stock price as of August\u00a07, 2023.\n8",
+      "method": "gliner",
+      "confidence": 0.8783401846885681,
+      "rank_score": 1.6583401846885681,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        604,
+        618
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "August\u00a023, 2023",
+      "passage": "Summary Term Sheet\n.\u201d You should read this\nentire Offer to Purchase carefully before deciding whether to tender your Shares pursuant to the Offer.\nAugust\u00a023, 2023\nIMPORTANT\nIf you desire to tender all or any portion of your Shares to Merger Sub pursuant to the Offer, you should either (a)\u00a0complete and sign\nthe Letter of Transmittal for the Offer, which is enclosed with this Offer to Purchase, in accordance with the instructions contained in the Letter of Transmittal, and mail or deliver the Letter of Transmittal (or a manually executed facsimile\nthereof) a",
+      "method": "gliner",
+      "confidence": 0.8573178052902222,
+      "rank_score": 1.6373178052902222,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "faq_question": null,
+      "char_span": [
+        147,
+        162
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$180,000,000",
+      "passage": "The total amount of funds required by Parent and Merger Sub to\nconsummate the Offer and purchase all outstanding Shares in the Offer, provide funding for the Merger, provide funding for the payment in respect of outstanding In The Money Options (as defined below), Company RSUs (as defined below) and Company\nPSUs (as defined below), and repay existing indebtedness of CTG is approximately $180,000,000, plus related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.8498709797859192,
+      "rank_score": 1.6298709797859192,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "faq_question": null,
+      "char_span": [
+        11273,
+        11285
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "money_amount",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$10.50",
+      "passage": "We are offering to pay $10.50 per Share net to the seller in cash, without interest and less any applicable withholding taxes.",
+      "method": "gliner",
+      "confidence": 0.8055799007415771,
+      "rank_score": 1.5855799007415772,
+      "doc_role": "otp",
+      "section": "How much are you offering to pay and what is the form of payment? Will I have to pay any fees or commissions?",
+      "faq_question": "How much are you offering to pay and what is the form of payment? Will I have to pay any fees or commissions?",
+      "char_span": [
+        23,
+        29
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "205477102",
+      "passage": "20549\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nCOMPUTER TASK\nGROUP, INCORPORATED\n(Name of Subject Company)\nCHICAGO MERGER SUB, INC.\n(Offeror)\nA Wholly Owned\nSubsidiary of\nCEGEKA GROEP NV\n(Offeror)\nCOMMON STOCK,\n$0.01 PAR VALUE\n(Title of Class\u00a0of Securities)\n205477102\n(CUSIP Number\nof Class\u00a0of Securities)\nStephan Daems\nCegeka\nGroep NV\nChief Financial Officer\nCorda3, Kempische Steenweg 307\nB-3500\nHasselt\nBelgium\n+32 475 62 59 70\n(Name, address and telephone number of person authorized to receive notices and communications on behalf of filing persons)\nwith copies to:\nJonathan Klein\nBrian\nWohlberg\nDLA Piper LLP (US)\n1251 6th Ave.",
+      "method": "gliner",
+      "confidence": 0.6320914030075073,
+      "rank_score": 1.3820914030075073,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        406,
+        415
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Computer Task Group, Incorporated",
+      "passage": "with the Securities and Exchange Commission on August\n9, 2023).\n(b)(1)*\nAmended and Restated Commitment Letter, dated August\u00a08, 2023, by and among Cegeka Groep NV, KBC Bank NV, Belfius Bank SA/NV and ING Belgium SA/NV\n(d)(1)\nAgreement and Plan of Merger, dated as of August\n9, 2023, by and among Computer Task Group, Incorporated, Cegeka Groep NV, and Chicago Merger Sub, Inc.",
+      "method": "gliner",
+      "confidence": 0.9560489654541016,
+      "rank_score": 1.3560489654541017,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        14342,
+        14375
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "Parent and Merger Sub have not independently verified the accuracy and completeness of such information.\nSecurities Sought\nAll issued and outstanding shares of common stock, par value $0.01 per share, of Computer Task Group, Incorporated (the \u201c\nShares\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.47443485260009766,
+      "rank_score": 1.2544348526000977,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "faq_question": null,
+      "char_span": [
+        5233,
+        5238
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "money_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Chicago Merger Sub, Inc.",
+      "passage": "g box if the filing is a final amendment reporting the results of the tender offer:\u00a0\u00a0\u2610\nIf applicable, check the appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\n13e-4(i)\n(Cross-Border Issuer Tender Offer)\n\u2610\nRule\n14d-1(d)\n(Cross-Border Third-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (this \u201cSchedule TO\u201d) relates to the tender offer by\nChicago Merger Sub, Inc. a New York corporation (\u201cMerger Sub\u201d), a wholly owned subsidiary of Cegeka Groep NV, a Belgian limited liability company (\u201cParent\u201d or \u201cCegeka\u201d), for all of the outstanding shares of common\nstock, par value $0.01 per share (\u201cShares\u201d), of Computer Task Group, Incorporated, a New York corporation (\u201cCTG\u201d), at a price of $10.50 per Share, net to the seller in cash, without interest and less any applic",
+      "method": "gliner",
+      "confidence": 0.7642625570297241,
+      "rank_score": 1.1642625570297243,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1643,
+        1667
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "day prior to the shareholders\u2019 authorization date",
+      "passage": "Such appraisal rights, if the statutory procedures are met, could lead to a judicial determination of the fair value of the Shares, as of the close of business on the day prior to the shareholders\u2019 authorization date, required to be paid in\ncash to such holders asserting appraisal rights for their Shares.\nSee Section\u00a017 \u2014 \u201cAppraisal Rights.\u201d",
+      "method": "gliner",
+      "confidence": 0.8272210359573364,
+      "rank_score": 1.1572210359573365,
+      "doc_role": "otp",
+      "section": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "faq_question": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "char_span": [
+        550,
+        599
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Company PSU",
+      "passage": "Each of the then outstanding performance vesting restricted stock units with respect to Shares that\nis outstanding at the Effective Time (each, a \u201c Company PSU \u201d) whether or not vested, will be canceled and the holder thereof will be entitled to receive (a)\u00a0a cash payment equal to the product of (i)\u00a0the Offer Price\nand (ii)\u00a0the number of Shares subject to such Company PSU immediately prior to the Effective Time (determined at the target level of performance).",
+      "method": "gliner",
+      "confidence": 0.7747533917427063,
+      "rank_score": 1.1247533917427064,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        1583,
+        1594
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "org_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "CEGEKA GROEP NV",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nCOMPUTER TASK\nGROUP, INCORPORATED\n(Name of Subject Company)\nCHICAGO MERGER SUB, INC.\n(Offeror)\nA Wholly Owned\nSubsidiary of\nCEGEKA GROEP NV\n(Offeror)\nCOMMON STOCK,\n$0.01 PAR VALUE\n(Title of Class\u00a0of Securities)\n205477102\n(CUSIP Number\nof Class\u00a0of Securities)\nStephan Daems\nCegeka\nGroep NV\nChief Financial Officer\nCorda3, Kempische Steenweg 307\nB-3500\nHasselt\nBelgium\n+32 475 62 59 70\n(Name, address and telephone number of person authorized to receive notices and communications on behalf of filing persons)\nwith copies to:\nJonathan Klein",
+      "method": "gliner",
+      "confidence": 0.9167354702949524,
+      "rank_score": 1.1167354702949526,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        319,
+        334
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "approximately 8.8%",
+      "passage": "Subject to the terms and conditions of the Support Agreement, each of the Supporting Shareholders agreed, among other things, subject to certain\nexceptions, to tender his or her Shares (including any Shares acquired upon the exercise of Company Options (as defined below)), pursuant to the Offer, which Shares represent in the aggregate approximately 8.8% of CTG\u2019s total outstanding Shares\nas of August\u00a08, 2023, and, subject to certain exceptions, not to transfer any of the Shares that are subject to the Support Agreement. See Section\u00a011 \u2014 \u201cThe Merger Agreement; Other Agreements\u201d in this Offer to Purchase for a\ndescription of the Support Agreement.",
+      "method": "gliner",
+      "confidence": 0.7541710138320923,
+      "rank_score": 1.0841710138320924,
+      "doc_role": "otp",
+      "section": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "char_span": [
+        522,
+        540
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "CTG",
+      "passage": "We are making the Offer because we want to acquire the entire equity interest in CTG. If the Offer is consummated, pursuant to the Merger\nAgreement (as defined below), Parent intends immediately thereafter to cause Merger Sub to consummate the Merger (as described below). Upon consummation of the Merger, CTG would cease to be a publicly traded company and would be a wholly owned\nsubsidiary of Parent.",
+      "method": "gliner",
+      "confidence": 0.681205153465271,
+      "rank_score": 1.0812051534652711,
+      "doc_role": "otp",
+      "section": "Why are you making the Offer?",
+      "faq_question": "Why are you making the Offer?",
+      "char_span": [
+        306,
+        309
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Supporting Shareholders",
+      "passage": "Yes. In connection with the execution of the Merger Agreement, the directors and certain executive officers of\nCTG (the \u201c Supporting Shareholders \u201d)\u00a0entered into the Support Agreement.",
+      "method": "gliner",
+      "confidence": 0.9010438323020935,
+      "rank_score": 1.0510438323020936,
+      "doc_role": "otp",
+      "section": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "char_span": [
+        122,
+        145
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Computer Task Group, Incorporated",
+      "passage": "a New York corporation (\u201cMerger Sub\u201d), a wholly owned subsidiary of Cegeka Groep NV, a Belgian limited liability company (\u201cParent\u201d or \u201cCegeka\u201d), for all of the outstanding shares of common\nstock, par value $0.01 per share (\u201cShares\u201d), of Computer Task Group, Incorporated, a New York corporation (\u201cCTG\u201d), at a price of $10.50 per Share, net to the seller in cash, without interest and less any applicable withholding\ntaxes, upon the terms and subject to the conditions set forth in the offer to purchase dated August\u00a023, 2023 (the \u201cOffer to Purchase\u201d), a copy of which is attached as Exhibit (a)(1)(A), and in the related letter of transmittal (the\n\u201cLetter of Transmittal",
+      "method": "gliner",
+      "confidence": 0.7481562495231628,
+      "rank_score": 1.0481562495231629,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1905,
+        1938
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Merger\nSub and Parent",
+      "passage": "forth in the offer to purchase dated August\u00a023, 2023 (the \u201cOffer to Purchase\u201d), a copy of which is attached as Exhibit (a)(1)(A), and in the related letter of transmittal (the\n\u201cLetter of Transmittal\u201d), a copy of which is attached as Exhibit (a)(1)(B), which, as each may be amended or supplemented from time to time, collectively constitute the \u201cOffer.\u201d This Schedule TO is being filed on behalf of Merger\nSub and Parent.",
+      "method": "gliner",
+      "confidence": 0.8277602195739746,
+      "rank_score": 1.0277602195739746,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2539,
+        2560
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Top-Up Option",
+      "passage": "Under the Merger Agreement, CTG has granted Merger\nSub the Top-Up Option, which Merger Sub may exercise in certain circumstances following the consummation of the Offer, to purchase Top-Up Shares that, when added to the\nnumber of Shares owned by Parent, Merger Sub and any of their respective subsidiaries at the time of exercise of the Top-Up Option, constitutes one Share more than 90% of the outstanding Shares on a fully\ndiluted basis after giving effect to the issuance of the Top-Up Shares.",
+      "method": "gliner",
+      "confidence": 0.9767287969589233,
+      "rank_score": 1.0267287969589234,
+      "doc_role": "otp",
+      "section": "What is the Top-Up Option and when can it be exercised?",
+      "faq_question": "What is the Top-Up Option and when can it be exercised?",
+      "char_span": [
+        337,
+        350
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01 per\nshare",
+      "passage": "Securities\nThe title of the class of equity securities to which this Solicitation/Recommendation Statement on Schedule\n14D-9\n(together with any exhibits and annexes attached hereto, this \u201c\nSchedule\n14D-9\n\u201d) relates is the Company\u2019s common stock, par value $0.01 per\nshare (the \u201c\nShares\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.5597313642501831,
+      "rank_score": 1.009731364250183,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        1622,
+        1637
+      ],
+      "source_hit_id": "0001193125-23-218549:d528209dsc14d9.htm",
+      "source_accession": "0001193125-23-218549",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "fair value",
+      "passage": "However, if the\nMerger is consummated, shareholders who do not tender their Shares in the Offer will have certain rights under Section\u00a0910 of the NYBCL to demand exercise of appraisal rights, and to receive payment in cash of the fair value of, their Shares.\nSuch appraisal rights, if the statutory procedures are met, could lead to a judicial determination of the fair value of the Shares, as of the close of business on the day prior to the shareholders\u2019 authorization date, required to be paid in\ncash to such holders asserting appraisal rights for their Shares.\nSee Section\u00a017 \u2014 \u201cAppraisal Rights.\u201d",
+      "method": "gliner",
+      "confidence": 0.6790041923522949,
+      "rank_score": 1.009004192352295,
+      "doc_role": "otp",
+      "section": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "faq_question": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "char_span": [
+        489,
+        499
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company Options",
+      "passage": "Subject to the terms and conditions of the Support Agreement, each of the Supporting Shareholders agreed, among other things, subject to certain\nexceptions, to tender his or her Shares (including any Shares acquired upon the exercise of Company Options (as defined below)), pursuant to the Offer, which Shares represent in the aggregate approximately 8.8% of CTG\u2019s total outstanding Shares\nas of August\u00a08, 2023, and, subject to certain exceptions, not to transfer any of the Shares that are subject to the Support Agreement. See Section\u00a011 \u2014 \u201cThe Merger Agreement; Other Agreements\u201d in this Offer to Purchase for a\ndescription of the Support Agreement.",
+      "method": "gliner",
+      "confidence": 0.9105338454246521,
+      "rank_score": 0.9605338454246521,
+      "doc_role": "otp",
+      "section": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "char_span": [
+        422,
+        437
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "cash",
+      "passage": "The receipt of cash in exchange for Shares pursuant to the Offer or the Merger will be a taxable transaction for U.S. federal income tax\npurposes.\nWe urge you to consult your own tax advisor as to the particular tax consequences to you of the receipt of cash in exchange for\nShares pursuant to the Offer or the Merger.\nSee Section\u00a05 \u2014 \u201cCertain U.S. Federal Income Tax Considerations\u201d for a\nmore detailed discussion of the tax consequences of the Offer and the Merger.",
+      "method": "gliner",
+      "confidence": 0.6282836198806763,
+      "rank_score": 0.9582836198806763,
+      "doc_role": "otp",
+      "section": "What are the United States federal income tax consequences of the Offer and the Merger?",
+      "faq_question": "What are the United States federal income tax consequences of the Offer and the Merger?",
+      "char_span": [
+        254,
+        258
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Surviving Corporation",
+      "passage": "No. Immediately following consummation of the Offer, we expect to complete the Merger pursuant to applicable provisions of New York law, after\nwhich the Surviving Corporation will be a wholly owned subsidiary of Parent and the Shares will no longer be publicly traded.\nSee\nSection\u00a013 \u2014 \u201cCertain Effects of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.6001148223876953,
+      "rank_score": 0.9501148223876954,
+      "doc_role": "otp",
+      "section": "If the Offer is completed, will CTG continue as a public company?",
+      "faq_question": "If the Offer is completed, will CTG continue as a public company?",
+      "char_span": [
+        153,
+        174
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "In The Money Options",
+      "passage": "Yes. Consummation of the Offer is not subject to any financing condition. The total amount of funds required by Parent and Merger Sub to\nconsummate the Offer and purchase all outstanding Shares in the Offer, provide funding for the Merger, provide funding for the payment in respect of outstanding In The Money Options (as defined below), Company RSUs (as defined below) and Company\nPSUs (as defined below), and repay existing indebtedness of CTG is approximately $180,000,000, plus related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.8955479264259338,
+      "rank_score": 0.9455479264259339,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        298,
+        318
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Out of the Money Option",
+      "passage": "Each Company Option other than an In the Money Option that is outstanding and unexercised at the Effective Time, whether or not vested (each,\nan \u201c Out of the Money Option \u201d) will be cancelled without payment of consideration and all rights with respect to such Out of the Money Option will terminate as of the Effective Time.",
+      "method": "gliner",
+      "confidence": 0.8583120107650757,
+      "rank_score": 0.9083120107650757,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        984,
+        1007
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "Transaction Code Number",
+      "passage": "\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED BY BOOK-ENTRY TRANSFER MADE TO AN ACCOUNT MAINTAINED BY THE\nDEPOSITARY WITH DTC AND COMPLETE THE FOLLOWING (NOTE THAT ONLY FINANCIAL INSTITUTIONS THAT ARE PARTICIPANTS IN THE SYSTEM OF DTC MAY DELIVER SHARES BY BOOK-ENTRY TRANSFER):\nName\u00a0of\u00a0Tendering\u00a0Institution:\nDTC Account Number:\nTransaction Code Number:\n\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED PURSUANT TO A NOTICE OF GUARANTEED DELIVERY PREVIOUSLY SENT\nTO THE DEPOSITARY AND COMPLETE THE FOLLOWING:\nName(s) of Tendering Shareholder(s):\nWindow Ticket Number (if any):\nDate of Execution of Notice of Guaranteed Delivery:\nName\u00a0of\u00a0Eligible\u00a0Institution\u00a0that\u00a0Guaranteed\u00a0Delivery:\nNOTE: SIGNATURES MUST BE PROVIDED BELOW.",
+      "method": "gliner",
+      "confidence": 0.9051527380943298,
+      "rank_score": 0.9051527380943298,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        5071,
+        5094
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1b.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "cusip_code",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Cegeka Groep NV",
+      "passage": "a New York corporation (\u201cMerger Sub\u201d), a wholly owned subsidiary of Cegeka Groep NV, a Belgian limited liability company (\u201cParent\u201d or \u201cCegeka\u201d), for all of the outstanding shares of common\nstock, par value $0.01 per share (\u201cShares\u201d), of Computer Task Group, Incorporated, a New York corporation (\u201cCTG\u201d), at a price of $10.50 per Share, net to the seller in cash, without interest and less any applicable withholding\ntaxes, upon the terms and subject to the conditions set forth in th",
+      "method": "gliner",
+      "confidence": 0.7900629639625549,
+      "rank_score": 0.8900629639625549,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1736,
+        1751
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "In the Money Option",
+      "passage": "Each Company Option other than an In the Money Option that is outstanding and unexercised at the Effective Time, whether or not vested (each,\nan \u201c Out of the Money Option \u201d) will be cancelled without payment of consideration and all rights with respect to such Out of the Money Option will terminate as of the Effective Time.",
+      "method": "gliner",
+      "confidence": 0.8360648155212402,
+      "rank_score": 0.8860648155212403,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        757,
+        776
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ING Belgium SA/NV",
+      "passage": "Parent anticipates funding such cash requirements from (i)\u00a0its cash on hand, (ii)\u00a0borrowings under additional\ncredit facilities to be obtained pursuant to a commitment letter dated August\u00a08, 2023, with KBC Bank NV, Belfius Bank SA/NV and ING Belgium SA/NV or (iii)\u00a0a combination of the foregoing.\nSee Section\u00a09 \u2014 \u201cSource and Amount of Funds.\u201d\nIs your financial condition relevant to my decision to tender my Shares in the Offer?\nNo.",
+      "method": "gliner",
+      "confidence": 0.734046220779419,
+      "rank_score": 0.884046220779419,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "faq_question": null,
+      "char_span": [
+        11557,
+        11574
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "PARENT AND MERGER SUB",
+      "passage": "Miscellaneous\n64\nSCHEDULE I \u2014 INFORMATION RELATING TO PARENT AND MERGER SUB\n65\nSUMMARY TERM SHEET\nThe information contained in this summary term sheet is a summary only and is not meant to be a substitute for the more detailed\ndescription and information contained in the Offer to Purchase, the Letter of Transmittal and other related materials.",
+      "method": "gliner",
+      "confidence": 0.7339690327644348,
+      "rank_score": 0.8839690327644348,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "faq_question": null,
+      "char_span": [
+        4076,
+        4097
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "NYBCL",
+      "passage": "No appraisal rights will be available with respect to Shares tendered and accepted for purchase in the Offer or the Merger. However, if the\nMerger is consummated, shareholders who do not tender their Shares in the Offer will have certain rights under Section\u00a0910 of the NYBCL to demand exercise of appraisal rights, and to receive payment in cash of the fair value of, their Shares.",
+      "method": "gliner",
+      "confidence": 0.8131889700889587,
+      "rank_score": 0.8631889700889588,
+      "doc_role": "otp",
+      "section": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "faq_question": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "char_span": [
+        270,
+        275
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "NASDAQ",
+      "passage": "On August\u00a08, 2023, the trading day before the public announcement of the execution of the Merger\nAgreement, the reported closing sales price of the Shares on NASDAQ was $8.00. On August\u00a022, 2023, the last full trading day before the commencement of the Offer, the reported closing sales price of the Shares on NASDAQ was $10.25. The Offer\nPrice represents an approximately 31.25% premium over the closing price of the Shares on August\u00a08, 2023, the last full trading day before the announcement of the Merger Agreement, and a 44.8% premium to the trailing 90-day volume weighted average stock price as of August\u00a07, 2023.\n8",
+      "method": "gliner",
+      "confidence": 0.8059577941894531,
+      "rank_score": 0.8559577941894532,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        310,
+        316
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "KBC Bank NV",
+      "passage": "Parent anticipates funding such cash requirements from (i)\u00a0its cash on hand, (ii)\u00a0borrowings under additional\ncredit facilities to be obtained pursuant to a commitment letter dated August\u00a08, 2023, with KBC Bank NV, Belfius Bank SA/NV and ING Belgium SA/NV or (iii)\u00a0a combination of the foregoing.\nSee Section\u00a09 \u2014 \u201cSource and Amount of Funds.\u201d\nIs your financial condition relevant to my decision to tender my Shares in the Offer?\nNo.",
+      "method": "gliner",
+      "confidence": 0.7054786682128906,
+      "rank_score": 0.8554786682128906,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "faq_question": null,
+      "char_span": [
+        11521,
+        11532
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "cash payment",
+      "passage": "Each of the then outstanding performance vesting restricted stock units with respect to Shares that\nis outstanding at the Effective Time (each, a \u201c Company PSU \u201d) whether or not vested, will be canceled and the holder thereof will be entitled to receive (a)\u00a0a cash payment equal to the product of (i)\u00a0the Offer Price\nand (ii)\u00a0the number of Shares subject to such Company PSU immediately prior to the Effective Time (determined at the target level of performance).\nSee Section\u00a011 \u2014 \u201cThe Merger Agreement; Other Agreements \u2014 Merger Agreement \u2014 Treatment of Equity Awards.\u201d",
+      "method": "gliner",
+      "confidence": 0.5024188756942749,
+      "rank_score": 0.832418875694275,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        1695,
+        1707
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "at least 90%",
+      "passage": "No. The Merger Agreement does not contemplate a subsequent offering period for the Offer and we expect the Merger to occur as promptly as\npracticable after the consummation of the Offer and we acquire at least 90% of the Shares in the Offer (including pursuant to the Top-Up Option), without a subsequent offering period.",
+      "method": "gliner",
+      "confidence": 0.4549712538719177,
+      "rank_score": 0.7849712538719178,
+      "doc_role": "otp",
+      "section": "Will there be a subsequent offering period?",
+      "faq_question": "Will there be a subsequent offering period?",
+      "char_span": [
+        201,
+        213
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Expiration Date",
+      "passage": "The Offer is conditioned upon the satisfaction or waiver of the following conditions (the \u201c Offer Conditions \u201d):\n\u2022 the number of Shares validly tendered in accordance with the terms of the Offer and not validly withdrawn on or\nprior to one minute after 11:59 P.M., Eastern Time on the Expiration Date, together with all other Shares (if any) beneficially owned by Parent and its affiliates, equals one Share more than 66 2/3% of the sum of (i)\u00a0the total number of Shares\noutstanding at the time of the expiration of the Offer, plus (ii)\u00a0the total number of Shares that the Company is required to issue upon conversion, settlement, exchange or exercise of all options, warrants, rights or securities f",
+      "method": "gliner",
+      "confidence": 0.9770404100418091,
+      "rank_score": 0.7570404100418091,
+      "doc_role": "otp",
+      "section": "What are the conditions to the Offer?",
+      "faq_question": "What are the conditions to the Offer?",
+      "char_span": [
+        285,
+        300
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "9:00 A.M.",
+      "passage": "If we extend the Offer, we will inform Computershare Trust Company, N.A., which is the depositary and paying agent for the Offer (the\n\u201c Depositary \u201d), of any extension and will issue a press release announcing the extension not later than 9:00 A.M., Eastern Time, on the next business day after the previously scheduled Expiration Date.\nSee Section\u00a01 \u2014 \u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.44520270824432373,
+      "rank_score": 0.7252027082443238,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        239,
+        248
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Offer Price",
+      "passage": "ursuant to the Merger Agreement, at the Effective Time, each stock option to purchase Shares (\u201c Company Option \u201d) that\nis outstanding and unexercised, whether or not vested and which has a per share exercise price that is less than the Offer Price (each, an \u201c In The Money Option \u201d) will be cancelled and converted into the right to receive a\ncash payment equal to (i)\u00a0the excess, if any, of (x)\u00a0the Offer Price over (y)\u00a0the exercise price payable per Share under such In the Money Option, (ii)\u00a0multiplied by the total number of Shares subject to such In the Money Option\nimmediately prior to the Effective Time (without regard to vesting), subject to any applicable withholding or other taxes required by applicable law.",
+      "method": "gliner",
+      "confidence": 0.9437183737754822,
+      "rank_score": 0.7237183737754822,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        401,
+        412
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "options",
+      "passage": "P.M., Eastern Time on the Expiration Date, together with all other Shares (if any) beneficially owned by Parent and its affiliates, equals one Share more than 66 2/3% of the sum of (i)\u00a0the total number of Shares\noutstanding at the time of the expiration of the Offer, plus (ii)\u00a0the total number of Shares that the Company is required to issue upon conversion, settlement, exchange or exercise of all options, warrants, rights or securities for which the\nholder has, at the time of the expiration of the Offer, elected to convert, settle, exchange or exercise or for which the conversion, settlement, exchange or exercise date has already occurred (but without duplication) (the \u201c Minimum\nCondition \u201d);\n\u2022 (i) any waiting period (or any extension thereof) applicable to the Offer under the HSR Act has expired",
+      "method": "gliner",
+      "confidence": 0.6659941077232361,
+      "rank_score": 0.7159941077232361,
+      "doc_role": "otp",
+      "section": "What are the conditions to the Offer?",
+      "faq_question": "What are the conditions to the Offer?",
+      "char_span": [
+        659,
+        666
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company RSUs",
+      "passage": "The total amount of funds required by Parent and Merger Sub to\nconsummate the Offer and purchase all outstanding Shares in the Offer, provide funding for the Merger, provide funding for the payment in respect of outstanding In The Money Options (as defined below), Company RSUs (as defined below) and Company\nPSUs (as defined below), and repay existing indebtedness of CTG is approximately $180,000,000, plus related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.6544817686080933,
+      "rank_score": 0.7044817686080933,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "faq_question": null,
+      "char_span": [
+        11148,
+        11160
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Effective Time",
+      "passage": "Each of the then outstanding performance vesting restricted stock units with respect to Shares that\nis outstanding at the Effective Time (each, a \u201c Company PSU \u201d) whether or not vested, will be canceled and the holder thereof will be entitled to receive (a)\u00a0a cash payment equal to the product of (i)\u00a0the Offer Price\nand (ii)\u00a0the number of Shares subject to such Company PSU immediately prior to the Effective Time (determined at the target level of performance).",
+      "method": "gliner",
+      "confidence": 0.9206744432449341,
+      "rank_score": 0.7006744432449341,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        1557,
+        1571
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "target",
+      "raw": "target level of performance",
+      "passage": "rmance vesting restricted stock units with respect to Shares that\nis outstanding at the Effective Time (each, a \u201c Company PSU \u201d) whether or not vested, will be canceled and the holder thereof will be entitled to receive (a)\u00a0a cash payment equal to the product of (i)\u00a0the Offer Price\nand (ii)\u00a0the number of Shares subject to such Company PSU immediately prior to the Effective Time (determined at the target level of performance).\nSee Section\u00a011 \u2014 \u201cThe Merger Agreement; Other Agreements \u2014 Merger Agreement \u2014 Treatment of Equity Awards.\u201d",
+      "method": "gliner",
+      "confidence": 0.504098653793335,
+      "rank_score": 0.654098653793335,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        1869,
+        1896
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Cegeka",
+      "passage": "Subject Company Information \u2014\nName and Address\n.\u201d\nTender Offer\nThis Schedule\n14D-9\nrelates to a tender offer by Chicago Merger Sub, Inc., a New York corporation\n(\u201c\nMerger Sub\n\u201d), a wholly-owned subsidiary of Cegeka Groep NV, a Belgian limited liability company (\u201c\nCegeka\n\u201d or \u201c\nParent\n\u201d), to purchase all of the outstanding Shares of the Company for (i) $10.50 per\nShare, net to the seller in cash (the \u201c\nOffer Price\n\u201d), without interest and less any applicable withholding taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated August\u00a023, 2023 (as\namended or supplemented from time to time, the \u201c\nOffer to Purchase\n\u201d), and in the",
+      "method": "gliner",
+      "confidence": 0.6422746777534485,
+      "rank_score": 0.6422746777534485,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2244,
+        2250
+      ],
+      "source_hit_id": "0001193125-23-218549:d528209dsc14d9.htm",
+      "source_accession": "0001193125-23-218549",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number\nof Class\u00a0of Securities",
+      "passage": "20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSOLICITATION/RECOMMENDATION STATEMENT\nUNDER SECTION 14(d)(4) OF THE SECURITIES EXCHANGE ACT OF 1934\nCOMPUTER TASK GROUP, INCORPORATED\n(Name of Subject Company)\nCOMPUTER TASK\nGROUP, INCORPORATED\n(Name of Person(s) Filing Statement)\nCommon Stock, par value $0.01 per share\n(Title of Class\u00a0of Securities)\n205477102\n(CUSIP Number\nof Class\u00a0of Securities)\nPeter Radetich\n(Senior Vice President, General Counsel\u00a0& Secretary)\n300 Corporate Parkway\nSuite 214N\nAmherst, New\nYork\n716\n882-8000\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications\non Behalf of the Person(s) Filing Statement)\nWith a copy to:\nAmar Budarapu\nRoger\nBivans\nBaker\u00a0& McKenzie LLP\n1900 North Pearl\nSuite\n1500\nDallas, TX 75201\nUnited States\nTel",
+      "method": "gliner",
+      "confidence": 0.6340537071228027,
+      "rank_score": 0.6340537071228027,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        423,
+        458
+      ],
+      "source_hit_id": "0001193125-23-218549:d528209dsc14d9.htm",
+      "source_accession": "0001193125-23-218549",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "commercial bank",
+      "passage": "If you cannot deliver\neverything required to make a valid tender to the Depositary (as described below) prior to such time, you may be able to use a guaranteed delivery procedure, which is described in Section\u00a03 \u2014 \u201cProcedures for Accepting the Offer and\nTendering Shares.\u201d Please give your broker, dealer, commercial bank, trust company or other nominee instructions with sufficient time to permit such nominee to tender your Shares by the Expiration Date.\nAcceptance and payment for Shares pursuant to and subject to the conditions to the Offer is referred to as the \u201c Offer\nClosing ,\u201d and the date and time at which such Offer Closing occurs is referred to as the \u201c Offer Acceptance Time.",
+      "method": "gliner",
+      "confidence": 0.4676339626312256,
+      "rank_score": 0.6176339626312256,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        643,
+        658
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Eastern Time",
+      "passage": "The Offer is conditioned upon the satisfaction or waiver of the following conditions (the \u201c Offer Conditions \u201d):\n\u2022 the number of Shares validly tendered in accordance with the terms of the Offer and not validly withdrawn on or\nprior to one minute after 11:59 P.M., Eastern Time on the Expiration Date, together with all other Shares (if any) beneficially owned by Parent and its affiliates, equals one Share more than 66 2/3% of the sum of (i)\u00a0the total number of Shares\noutstanding at the time of the expiration of the Offer, plus (ii)\u00a0the total number of Shares that the Company is required to issue upon conversion, settlement, exchange or exercise of all options, warrants,",
+      "method": "gliner",
+      "confidence": 0.8295539617538452,
+      "rank_score": 0.6095539617538452,
+      "doc_role": "otp",
+      "section": "What are the conditions to the Offer?",
+      "faq_question": "What are the conditions to the Offer?",
+      "char_span": [
+        265,
+        277
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company\nPSUs",
+      "passage": "The total amount of funds required by Parent and Merger Sub to\nconsummate the Offer and purchase all outstanding Shares in the Offer, provide funding for the Merger, provide funding for the payment in respect of outstanding In The Money Options (as defined below), Company RSUs (as defined below) and Company\nPSUs (as defined below), and repay existing indebtedness of CTG is approximately $180,000,000, plus related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.5380256772041321,
+      "rank_score": 0.5880256772041321,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\n.\u201d You should read th",
+      "faq_question": null,
+      "char_span": [
+        11184,
+        11196
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "KBC Bank NV",
+      "passage": "Parent anticipates funding such cash requirements from (i)\u00a0its cash on hand, (ii)\u00a0borrowings under additional\ncredit facilities to be obtained pursuant to a commitment letter dated August\u00a08, 2023, with KBC Bank NV, Belfius Bank SA/NV and ING Belgium SA/NV or (iii)\u00a0a combination of the foregoing.\nSee Section\u00a09 \u2014 \u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.4334857761859894,
+      "rank_score": 0.5834857761859894,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        712,
+        723
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "ING Belgium SA/NV",
+      "passage": "Parent anticipates funding such cash requirements from (i)\u00a0its cash on hand, (ii)\u00a0borrowings under additional\ncredit facilities to be obtained pursuant to a commitment letter dated August\u00a08, 2023, with KBC Bank NV, Belfius Bank SA/NV and ING Belgium SA/NV or (iii)\u00a0a combination of the foregoing.\nSee Section\u00a09 \u2014 \u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.4237964451313019,
+      "rank_score": 0.5737964451313019,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        748,
+        765
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "warrants",
+      "passage": "tern Time on the Expiration Date, together with all other Shares (if any) beneficially owned by Parent and its affiliates, equals one Share more than 66 2/3% of the sum of (i)\u00a0the total number of Shares\noutstanding at the time of the expiration of the Offer, plus (ii)\u00a0the total number of Shares that the Company is required to issue upon conversion, settlement, exchange or exercise of all options, warrants, rights or securities for which the\nholder has, at the time of the expiration of the Offer, elected to convert, settle, exchange or exercise or for which the conversion, settlement, exchange or exercise date has already occurred (but without duplication) (the \u201c Minimum\nCondition \u201d);\n\u2022 (i) any waiting period (or any extension thereof) applicable to the Offer under the HSR Act has expired or been\nt",
+      "method": "gliner",
+      "confidence": 0.5176474452018738,
+      "rank_score": 0.5676474452018738,
+      "doc_role": "otp",
+      "section": "What are the conditions to the Offer?",
+      "faq_question": "What are the conditions to the Offer?",
+      "char_span": [
+        668,
+        676
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "irrevocable option",
+      "passage": "If the Minimum Condition is satisfied but we have not acquired more than 90% of outstanding Shares, then CTG has granted Merger Sub an\nirrevocable option (the \u201c Top-Up Option \u201d) which Merger Sub may exercise in certain circumstances to purchase from CTG such number of authorized and unissued Shares equal to the lesser of\n(i)\u00a0the lowest number of Shares that, when added to the number of Shares\n7",
+      "method": "gliner",
+      "confidence": 0.5156029462814331,
+      "rank_score": 0.5656029462814331,
+      "doc_role": "otp",
+      "section": "Will the Offer be followed by the Merger if all of the Shares are not tendered in the\nOffer?",
+      "faq_question": "Will the Offer be followed by the Merger if all of the Shares are not tendered in the\nOffer?",
+      "char_span": [
+        605,
+        623
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Belfius Bank SA/NV",
+      "passage": "Parent anticipates funding such cash requirements from (i)\u00a0its cash on hand, (ii)\u00a0borrowings under additional\ncredit facilities to be obtained pursuant to a commitment letter dated August\u00a08, 2023, with KBC Bank NV, Belfius Bank SA/NV and ING Belgium SA/NV or (iii)\u00a0a combination of the foregoing.\nSee Section\u00a09 \u2014 \u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.40209364891052246,
+      "rank_score": 0.5520936489105225,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        725,
+        743
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Excluded Shares",
+      "passage": "At the effective time of the Merger (the \u201c\nEffective Time\n\u201d), the Shares not tendered pursuant to the Offer (other than (i)\u00a0Shares held by CTG (or in CTG\u2019s treasury), (ii) Shares held by Cegeka,\nMerger Sub or any subsidiary of Cegeka or (iii)\u00a0by shareholders of CTG who have perfected their statutory rights of appraisal under Section\u00a0623 of the NYBCL (collectively, the \u201c\nExcluded Shares\n\u201d)) will each be converted\ninto the right to receive the Offer Price (the \u201c\nMerger Consideration\n\u201d), in cash, without interest, and subject to any withholding of taxes.\nThe treatment of equity awards under CTG\u2019s benefit plans, including stock options, is discussed below in \u201c\nItem 3.",
+      "method": "gliner",
+      "confidence": 0.5442629456520081,
+      "rank_score": 0.5442629456520081,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4548,
+        4563
+      ],
+      "source_hit_id": "0001193125-23-218549:d528209dsc14d9.htm",
+      "source_accession": "0001193125-23-218549",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "dealer",
+      "passage": "To withdraw previously tendered Shares, you must deliver a written notice of withdrawal, or a facsimile of one, with the required information\nto the Depositary while you still have the right to withdraw Shares. If you tendered Shares by giving instructions to a broker, dealer, commercial bank, trust company or other nominee, you must instruct the broker, dealer, commercial bank, trust\ncompany or other nominee to arrange for the withdrawal of your Shares.\nSee Section\u00a04 \u2014 \u201cWithdrawal Rights.\u201d",
+      "method": "gliner",
+      "confidence": 0.4823630452156067,
+      "rank_score": 0.5323630452156067,
+      "doc_role": "otp",
+      "section": "How do I withdraw previously tendered Shares?",
+      "faq_question": "How do I withdraw previously tendered Shares?",
+      "char_span": [
+        357,
+        363
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Top-Up Shares",
+      "passage": "Under the Merger Agreement, CTG has granted Merger\nSub the Top-Up Option, which Merger Sub may exercise in certain circumstances following the consummation of the Offer, to purchase Top-Up Shares that, when added to the\nnumber of Shares owned by Parent, Merger Sub and any of their respective subsidiaries at the time of exercise of the Top-Up Option, constitutes one Share more than 90% of the outstanding Shares on a fully\ndiluted basis after giving effect to the issuance of the Top-Up Shares.",
+      "method": "gliner",
+      "confidence": 0.4331464171409607,
+      "rank_score": 0.4831464171409607,
+      "doc_role": "otp",
+      "section": "What is the Top-Up Option and when can it be exercised?",
+      "faq_question": "What is the Top-Up Option and when can it be exercised?",
+      "char_span": [
+        182,
+        195
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "NYBCL",
+      "passage": "No appraisal rights will be available with respect to Shares tendered and accepted for purchase in the Offer or the Merger. However, if the\nMerger is consummated, shareholders who do not tender their Shares in the Offer will have certain rights under Section\u00a0910 of the NYBCL to demand exercise of appraisal rights, and to receive payment in cash of the fair value of, their Shares.",
+      "method": "gliner",
+      "confidence": 0.42407190799713135,
+      "rank_score": 0.47407190799713134,
+      "doc_role": "otp",
+      "section": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "faq_question": "Will I have appraisal rights in connection with the Offer or the Merger?",
+      "char_span": [
+        270,
+        275
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Party E",
+      "passage": "It was the\nconsensus of the Board that the financial forecasts had been prepared on a reasonable basis and should be provided to Cegeka and Party E for their",
+      "method": "gliner",
+      "confidence": 0.4560592472553253,
+      "rank_score": 0.4560592472553253,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79983,
+        79990
+      ],
+      "source_hit_id": "0001193125-23-218549:d528209dsc14d9.htm",
+      "source_accession": "0001193125-23-218549",
+      "label": "ticker_symbol",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "Subject to the terms and conditions of the Support Agreement, each of the Supporting Shareholders agreed, among other things, subject to certain\nexceptions, to tender his or her Shares (including any Shares acquired upon the exercise of Company Options (as defined below)), pursuant to the Offer, which Shares represent in the aggregate approximately 8.8% of CTG\u2019s total outstanding Shares\nas of August\u00a08, 2023, and, subject to certain exceptions, not to transfer any of the Shares that are subject to the Support Agreement. See Section\u00a011 \u2014 \u201cThe Merger Agreement; Other Agreements\u201d in this Offer to Purchase for a\ndescription of the Support Agreement.",
+      "method": "gliner",
+      "confidence": 0.9326152205467224,
+      "rank_score": 0.43261522054672236,
+      "doc_role": "otp",
+      "section": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "faq_question": "Have any CTG shareholders entered into agreements with Parent, Merger Sub or their affiliates requiring them to tender their Shares\npursuant to the Offer?",
+      "char_span": [
+        488,
+        494
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "Window Ticket Number",
+      "passage": "NG (NOTE THAT ONLY FINANCIAL INSTITUTIONS THAT ARE PARTICIPANTS IN THE SYSTEM OF DTC MAY DELIVER SHARES BY BOOK-ENTRY TRANSFER):\nName\u00a0of\u00a0Tendering\u00a0Institution:\nDTC Account Number:\nTransaction Code Number:\n\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED PURSUANT TO A NOTICE OF GUARANTEED DELIVERY PREVIOUSLY SENT\nTO THE DEPOSITARY AND COMPLETE THE FOLLOWING:\nName(s) of Tendering Shareholder(s):\nWindow Ticket Number (if any):\nDate of Execution of Notice of Guaranteed Delivery:\nName\u00a0of\u00a0Eligible\u00a0Institution\u00a0that\u00a0Guaranteed\u00a0Delivery:\nNOTE: SIGNATURES MUST BE PROVIDED BELOW.",
+      "method": "gliner",
+      "confidence": 0.4311422109603882,
+      "rank_score": 0.4311422109603882,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        5291,
+        5311
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1b.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "cusip_code",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "Pursuant to the Merger Agreement, if the Minimum Condition is not satisfied, we are not required (nor are we permitted) to\naccept the Shares for purchase in the Offer, nor will we consummate the Merger. If the Minimum Condition is satisfied and we have acquired more than 90% of outstanding Shares, then, in accordance with the terms of the Merger Agreement, we will\ncomplete the Merger without a vote of the shareholders of CTG pursuant to Section\u00a0905(a) of the NYBCL.",
+      "method": "gliner",
+      "confidence": 0.9227579236030579,
+      "rank_score": 0.4227579236030578,
+      "doc_role": "otp",
+      "section": "Will the Offer be followed by the Merger if all of the Shares are not tendered in the\nOffer?",
+      "faq_question": "Will the Offer be followed by the Merger if all of the Shares are not tendered in the\nOffer?",
+      "char_span": [
+        210,
+        227
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "20549\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nCOMPUTER TASK\nGROUP, INCORPORATED\n(Name of Subject Company)\nCHICAGO MERGER SUB, INC.\n(Offeror)\nA Wholly Owned\nSubsidiary of\nCEGEKA GROEP NV\n(Offeror)\nCOMMON STOCK,\n$0.01 PAR VALUE\n(Title of Class\u00a0of Securities)\n205477102\n(CUSIP Number\nof Class\u00a0of Securities)\nStephan Daems\nCegeka\nGroep NV\nChief Financial Officer\nCorda3, Kempische Steenweg 307\nB-3500\nHasselt\nBelgium\n+32 475 62 59 70\n(Name, address and telephone number of person authorized to receive notices and communications on behalf of filing persons)\nwith copies to:\nJonathan Klein\nBrian\nWohlberg\nDLA Piper LLP (US)\n1251 6th Ave.",
+      "method": "gliner",
+      "confidence": 0.6134890913963318,
+      "rank_score": 0.31348909139633174,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        417,
+        429
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "COMMON STOCK",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nCOMPUTER TASK\nGROUP, INCORPORATED\n(Name of Subject Company)\nCHICAGO MERGER SUB, INC.\n(Offeror)\nA Wholly Owned\nSubsidiary of\nCEGEKA GROEP NV\n(Offeror)\nCOMMON STOCK,\n$0.01 PAR VALUE\n(Title of Class\u00a0of Securities)\n205477102\n(CUSIP Number\nof Class\u00a0of Securities)\nStephan Daems\nCegeka\nGroep NV\nChief Financial Officer\nCorda3, Kempische Steenweg 307\nB-3500\nHasselt\nBelgium\n+32 475 62 59 70\n(Name, address and telephone number of person authorized to receive notices and communications on behalf of filing persons)\nwith copies to:\nJonathan Klein\nBrian\nWohlberg\nDLA Pipe",
+      "method": "gliner",
+      "confidence": 0.5302049517631531,
+      "rank_score": 0.180204951763153,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        345,
+        357
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "CTG",
+      "passage": "See the \u201cIntroduction\u201d and\nSection\u00a010 \u2014 \u201cBackground of the Offer; Past Contacts or Negotiations with CTG.\u201d A more complete description of the reasons for the CTG Board\u2019s approval of the Offer and the Merger is set forth in a\nSolicitation/Recommendation Statement on Schedule 14D-9 that is being mailed to all CTG shareholders together with this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.750332236289978,
+      "rank_score": 0.15033223628997805,
+      "doc_role": "otp",
+      "section": "What does the CTG board of directors think of the Offer?",
+      "faq_question": "What does the CTG board of directors think of the Offer?",
+      "char_span": [
+        836,
+        839
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Merger\nSub",
+      "passage": "Under the Merger Agreement, CTG has granted Merger\nSub the Top-Up Option, which Merger Sub may exercise in certain circumstances following the consummation of the Offer, to purchase Top-Up Shares that, when added to the\nnumber of Shares owned by Parent, Merger Sub and any of their respective subsidiaries at the time of exercise of the Top-Up Option, constitutes one Share more than 90% of the outstanding Shares on a fully\ndiluted basis after giving ef",
+      "method": "gliner",
+      "confidence": 0.8380187749862671,
+      "rank_score": 0.13801877498626713,
+      "doc_role": "otp",
+      "section": "What is the Top-Up Option and when can it be exercised?",
+      "faq_question": "What is the Top-Up Option and when can it be exercised?",
+      "char_span": [
+        44,
+        54
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "DTC",
+      "passage": "See Instruction 2.\nDelivery of documents to DTC\ndoes not\nconstitute delivery to the Depositary.",
+      "method": "gliner",
+      "confidence": 0.5540483593940735,
+      "rank_score": -0.3959516406059266,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3784,
+        3787
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1b.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "Shareholders whose Share Certificates are not immediately available, or who\ncannot complete the procedure for book-entry transfer on a timely basis, or who cannot deliver all other required documents to the Depositary prior to the Expiration Date, must tender their Shares according to the guaranteed delivery procedure set\nforth in Section\u00a03 of the Offer to Purchase in order to participate in the Offer.",
+      "method": "gliner",
+      "confidence": 0.5313681364059448,
+      "rank_score": -0.7686318635940552,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3323,
+        3329
+      ],
+      "source_hit_id": "0001193125-23-218490:d531308dex99a1b.htm",
+      "source_accession": "0001193125-23-218490",
+      "label": "security_name",
+      "chunk_id": "w4"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.816050+00:00"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-45693",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "INCOME OPPORTUNITY REALTY INVESTORS INC /TX/",
+  "primary_cik": "0000733590",
+  "written_at": "2026-09-17T06:01:41.517110+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "file_description",
+  "cohort": "gold",
+  "n_amendments": 15,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "accession": "0001839882-24-045335",
+      "filename": "tci_sctot-121624.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "THIRD PARTY TENDER OFFER STATEMENT",
+      "file_date": "2024-12-16 00:00:00",
+      "primary_cik": "0000949961",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "accession": "0001839882-24-045335",
+      "filename": "ex99-a1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "OFFER TO PURCHASE, DATED DECEMBER 16, 2024",
+      "file_date": "2024-12-16 00:00:00",
+      "primary_cik": "0000949961",
+      "otp_method": "file_description",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "accession": "0001839882-24-045335",
+      "filename": "ex99-a1b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": "FORM OF LETTER OF TRANSMITTAL",
+      "file_date": "2024-12-16 00:00:00",
+      "primary_cik": "0000949961",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001839882-24-045339:ior_sc14d9-121624.htm",
+      "accession": "0001839882-24-045339",
+      "filename": "ior_sc14d9-121624.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "TENDER OFFER",
+      "file_date": "2024-12-16 00:00:00",
+      "primary_cik": "0000949961",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-02933",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "VOLT INFORMATION SCIENCES, INC.",
+  "primary_cik": "0000103872",
+  "written_at": "2026-09-17T06:12:57.673660+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 9,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001104659-22-037820:tm229994-1_sctot.htm",
+      "accession": "0001104659-22-037820",
+      "filename": "tm229994-1_sctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2022-03-25 00:00:00",
+      "primary_cik": "0000103872",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001104659-22-037820:tm229994d1_exh-a1a.htm",
+      "accession": "0001104659-22-037820",
+      "filename": "tm229994d1_exh-a1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "EX-99.(A)(1)(A)",
+      "file_date": "2022-03-25 00:00:00",
+      "primary_cik": "0000103872",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001104659-22-037820:tm229994d1_exh-a1b.htm",
+      "accession": "0001104659-22-037820",
+      "filename": "tm229994d1_exh-a1b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": "EX-99.(A)(1)(B)",
+      "file_date": "2022-03-25 00:00:00",
+      "primary_cik": "0000103872",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001193125-22-085107:d317321dsc14d9.htm",
+      "accession": "0001193125-22-085107",
+      "filename": "d317321dsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2022-03-25 00:00:00",
+      "primary_cik": "0000103872",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

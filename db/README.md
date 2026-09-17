@@ -10,7 +10,12 @@ documents              EFTS filing/document hits (+ optional downloads)
 event_versions         initial → amendment timeline per event
 event_field_values     extracted/derived BNY fields with evidence columns
 notification_drafts    optional BNY-shaped draft payloads
+*_concise_*            Concise Rep handoff (GLiNER candidates) per event path
 ```
+
+**SEC-only notification field contract** (what the LLM agent may fill vs must leave null):
+
+→ [`docs/schema.md`](../docs/schema.md) (derived from `docs/DBSchema.pdf`, internal/email/account fields excluded)
 
 ## Start database
 

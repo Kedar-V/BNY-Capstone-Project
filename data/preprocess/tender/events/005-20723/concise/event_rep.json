@@ -1,0 +1,1033 @@
+{
+  "schema_version": "1",
+  "event_id": "005-20723",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "b4a4151c5c69fcb9588a0abffbb8a65558bcfc1b",
+      "hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "accession": "0001047469-20-000910",
+      "filename": "a2240761zscto-i.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "e4292653b261029fed932e1c2e17fa55476c14af",
+      "hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "accession": "0001047469-20-001087",
+      "filename": "a2240844zex-99_a1v.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "c42a96c105345038015b64c69f9ae1ba8c4df1b7",
+      "hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "accession": "0001047469-20-001178",
+      "filename": "a2240887zsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "offer_price_amount",
+      "text": "$9.50",
+      "score": 0.816214919090271,
+      "rank_score": 1.466214919090271,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Bee Street Holdings\u00a0LLC",
+      "score": 0.9846674203872681,
+      "rank_score": 1.3846674203872682,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "211615307",
+      "score": 0.5978164076805115,
+      "rank_score": 1.3478164076805115,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "February\u00a018, 2020",
+      "score": 0.6176345944404602,
+      "rank_score": 1.2676345944404601,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ow43001_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Bee Street Holdings\u00a0LLC",
+      "score": 0.9518619775772095,
+      "rank_score": 1.2518619775772095,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Continental\nMaterials Corporation",
+      "score": 0.7230331301689148,
+      "rank_score": 1.2230331301689148,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "March\u00a017, 2020",
+      "score": 0.5643917322158813,
+      "rank_score": 1.2143917322158813,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.25",
+      "score": 0.802779495716095,
+      "rank_score": 1.2027794957160949,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Continental Materials Corporation",
+      "score": 0.817619800567627,
+      "rank_score": 1.117619800567627,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Bee Street",
+      "score": 0.9643447995185852,
+      "rank_score": 1.0643447995185853,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.25 per\nshare",
+      "score": 0.493264377117157,
+      "rank_score": 0.9432643771171569,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "CHK",
+      "score": 0.5450135469436646,
+      "rank_score": 0.8950135469436645,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ow43001_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "5:00\u00a0P.M.",
+      "score": 0.6696547865867615,
+      "rank_score": 0.8696547865867614,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "SCHEDULE TO\nCUSIP NO. 211615307",
+      "score": 0.5729190111160278,
+      "rank_score": 0.8229190111160278,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Continental Materials Corporation",
+      "score": 0.46375805139541626,
+      "rank_score": 0.7637580513954163,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Delaware corporation",
+      "score": 0.43548592925071716,
+      "rank_score": 0.7354859292507172,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "CIBC Bank USA",
+      "score": 0.6331386566162109,
+      "rank_score": 0.7331386566162109,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "Continental Materials Corporation",
+      "score": 0.48842376470565796,
+      "rank_score": 0.6884237647056579,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Continental Materials",
+      "score": 0.4881163239479065,
+      "rank_score": 0.6881163239479064,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number of Class of Securities",
+      "score": 0.6324828863143921,
+      "rank_score": 0.6324828863143921,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Taft Stettinius\u00a0& Hollister\u00a0LLP",
+      "score": 0.5266528725624084,
+      "rank_score": 0.6266528725624084,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Issuer",
+      "score": 0.5042197108268738,
+      "rank_score": 0.6042197108268738,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "the undersigned",
+      "score": 0.40834227204322815,
+      "rank_score": 0.5083422720432281,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ow43001_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Tender Condition",
+      "score": 0.9089257717132568,
+      "rank_score": 0.3589257717132568,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ow43001_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "common stock",
+      "score": 0.8232333064079285,
+      "rank_score": 0.2732333064079284,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Purchaser",
+      "score": 0.9145731925964355,
+      "rank_score": 0.16457319259643555,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.49741053581237793,
+      "rank_score": 0.14741053581237784,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "CMC",
+      "score": 0.743385374546051,
+      "rank_score": 0.093385374546051,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "CMC",
+      "score": 0.7360292077064514,
+      "rank_score": 0.0860292077064514,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "you",
+      "score": 0.5403479933738708,
+      "rank_score": -0.10965200662612917,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ow43001_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Financing Condition",
+      "score": 0.4059029519557953,
+      "rank_score": -0.14409704804420476,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ow43001_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "us",
+      "score": 0.45645612478256226,
+      "rank_score": -0.19354387521743777,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.7670661807060242,
+      "rank_score": -0.5329338192939759,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ow43001_1",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(v)",
+      "chunk_id": "w3"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "offer_price",
+      "raw": "$9.50",
+      "passage": "ted February\u00a018, 2020 (the \"Offer to Purchase\"), and the related Letter of Transmittal in connection with the offer by\nBee Street Holdings\u00a0LLC, a Delaware limited liability company (\"Purchaser\"), to purchase all of the issued and outstanding shares of common stock, par value $0.25 per share (the \"Shares\") of\nContinental Materials Corporation, a Delaware corporation (\"CMC\"), at a purchase price of $9.50 per Share, net to the seller in cash, without interest thereon and subject to any required tax\nwithholding, upon the terms and subject to the conditions of the Offer to Purchase and the related Letter of Transmittal (which, together with the Offer to Purchase, as they may be amended or\nsupplemented from time to time, collectively constitute the \"Offer\").",
+      "method": "gliner",
+      "confidence": 0.816214919090271,
+      "rank_score": 1.466214919090271,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        845,
+        850
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Bee Street Holdings\u00a0LLC",
+      "passage": "QuickLinks\n-- Click here to rapidly navigate through this document\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\nSCHEDULE TO\n(RULE 14d-100)\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(d)(1) or 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF\u00a01934\nContinental Materials Corporation\n(Name of Subject Company (Issuer))\nBee Street Holdings\u00a0LLC\n(Offeror)\n(Names\nof Filing Persons)\nCommon Stock Par Value $0.25\n(Titles of Class of Securities)\n211615307\n(CUSIP Numbers of Class of Securities)\nSCHEDULE 13E-3\nRULE 13E-3 TRANSACTION STATEMENT\nUNDER SECTION\u00a013(E) OF THE SECURITIES EXCHANGE ACT OF\u00a01934\nBee Street Holdings\u00a0LLC\n(Offeror)\n(Names\nof Filing Persons)\nCommon Stock Par Value $0.25\n(Titles of Class of Securities)\n211615307\n(CUSIP Numbers",
+      "method": "gliner",
+      "confidence": 0.9846674203872681,
+      "rank_score": 1.3846674203872682,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        318,
+        341
+      ],
+      "source_hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "source_accession": "0001047469-20-000910",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "211615307",
+      "passage": ")\nBee Street Holdings\u00a0LLC\n(Offeror)\n(Names\nof Filing Persons)\nCommon Stock Par Value $0.25\n(Titles of Class of Securities)\n211615307\n(CUSIP Numbers of Class of Securities)\nSCHEDULE 13E-3\nRULE 13E-3 TRANSACTION STATEMENT\nUNDER SECTION\u00a013(E) OF THE SECURITIES EXCHANGE ACT OF\u00a01934\nBee Street Holdings\u00a0LLC\n(Offeror)\n(Names\nof Filing Persons)\nCommon Stock Par Value $0.25\n(Titles of Class of Securities)\n211615307\n(CUSIP Numbers of Class of Securities)\nKevin J.",
+      "method": "gliner",
+      "confidence": 0.5978164076805115,
+      "rank_score": 1.3478164076805115,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        716,
+        725
+      ],
+      "source_hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "source_accession": "0001047469-20-000910",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a018, 2020",
+      "passage": "Section\u00a012\nof the Offer to Purchase (collectively, the \"Offer Conditions\"). Among the Offer Conditions are: (i)\u00a0the Minimum Tender Condition (as defined in the Offer to Purchase), and\n(ii)\u00a0the Financing Condition, and (iii)\u00a0on or after February\u00a018, 2020, and at or prior to the expiration of the Offer, that certain events shall not incur, including any action\nchallenging the transactions related to the Offer or certain changes occurring that result or could reasonably be expected to result in adverse effects on CMC and its subsidiaries.",
+      "method": "gliner",
+      "confidence": 0.6176345944404602,
+      "rank_score": 1.2676345944404601,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        236,
+        253
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Bee Street Holdings\u00a0LLC",
+      "passage": "February\u00a018, 2020\nTo\nOur Clients:\nEnclosed\nfor your consideration are the Offer to Purchase, dated February\u00a018, 2020 (the \"Offer to Purchase\"), and the related Letter of Transmittal in connection with the offer by\nBee Street Holdings\u00a0LLC, a Delaware limited liability company (\"Purchaser\"), to purchase all of the issued and outstanding shares of common stock, par value $0.25 per share (the \"Shares\") of\nContinental Materials Corporation, a Delaware corporation (\"CMC\"), at a purchase price of $9.50 per Share, net to the seller in cash, without interest thereon and subject to any required tax\nwithholding, upon the terms and subject t",
+      "method": "gliner",
+      "confidence": 0.9518619775772095,
+      "rank_score": 1.2518619775772095,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        564,
+        587
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Continental\nMaterials Corporation",
+      "passage": "o\nRule\u00a014d-1(d) (Cross-Border Third-Party Tender Offer)\no\nThis\nTender Offer Statement and Rule\u00a013e-3 Transaction Statement filed under cover of Schedule\u00a0TO (as amended and supplemented, this \"Schedule TO\") by Bee Street\nHoldings\u00a0LLC, a Delaware limited liability company (\"Bee Street\"), relates to the offer by Bee Street to purchase all outstanding common stock, par value $0.25 (the \"Shares\"), of Continental\nMaterials Corporation, a Delaware corporation (\"CMC\"), not currently held by Bee Street, upon the terms and subject to the conditions set forth in the Offer to Purchase dated February\u00a018, 2020\n(the \"Offer to Purchase\"), the related letter of transmittal and the related notice of guaranteed delivery (which, together with any amendments or supplements thereto, collectively constitute the\n\"Offer\").",
+      "method": "gliner",
+      "confidence": 0.7230331301689148,
+      "rank_score": 1.2230331301689148,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3546,
+        3579
+      ],
+      "source_hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "source_accession": "0001047469-20-000910",
+      "label": "target_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "March\u00a017, 2020",
+      "passage": "CMC is required to\nmake a recommendation, or state that it is neutral or is unable to take a position with respect to the Offer, and to publish such recommendation or send it to holders of Shares within ten business\ndays from the date of the Offer to Purchase.\n4.\u00a0\u00a0\u00a0\u00a0\u00a0The\nOffer and withdrawal rights will expire at 5:00\u00a0P.M., New York City Time, on March\u00a017, 2020, unless the Offer is extended by Purchaser.\n5.\u00a0\u00a0\u00a0\u00a0\u00a0The\nOffer is contingent upon the receipt by Purchaser of net proceeds of debt financing which are adequate to fund the Offer, the related Merger, as defined in the Offer\nto Purchase (if applicable), and the Purchaser's expenses (as further defined in the Offer to Purchase, the \"Financing Condition\").",
+      "method": "gliner",
+      "confidence": 0.5643917322158813,
+      "rank_score": 1.2143917322158813,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        2675,
+        2689
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.25",
+      "passage": "rder Issuer Tender Offer)\no\nRule\u00a014d-1(d) (Cross-Border Third-Party Tender Offer)\no\nThis\nTender Offer Statement and Rule\u00a013e-3 Transaction Statement filed under cover of Schedule\u00a0TO (as amended and supplemented, this \"Schedule TO\") by Bee Street\nHoldings\u00a0LLC, a Delaware limited liability company (\"Bee Street\"), relates to the offer by Bee Street to purchase all outstanding common stock, par value $0.25 (the \"Shares\"), of Continental\nMaterials Corporation, a Delaware corporation (\"CMC\"), not currently held by Bee Street, upon the terms and subject to the conditions set forth in the Offer to Purchase dated February\u00a018, 2020\n(the \"Offer to Purchase\"), the related letter of transmittal and the related notice of guaranteed delivery (which, together with any amendments or supplements thereto, collect",
+      "method": "gliner",
+      "confidence": 0.802779495716095,
+      "rank_score": 1.2027794957160949,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3521,
+        3526
+      ],
+      "source_hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "source_accession": "0001047469-20-000910",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Continental Materials Corporation",
+      "passage": "ary\u00a018, 2020\nTo\nOur Clients:\nEnclosed\nfor your consideration are the Offer to Purchase, dated February\u00a018, 2020 (the \"Offer to Purchase\"), and the related Letter of Transmittal in connection with the offer by\nBee Street Holdings\u00a0LLC, a Delaware limited liability company (\"Purchaser\"), to purchase all of the issued and outstanding shares of common stock, par value $0.25 per share (the \"Shares\") of\nContinental Materials Corporation, a Delaware corporation (\"CMC\"), at a purchase price of $9.50 per Share, net to the seller in cash, without interest thereon and subject to any required tax\nwithholding, upon the terms and subject to the conditions of the Offer to Purchase and the related Letter of Transmittal (which, together with the Offer to Purchase, as they may be amended or\nsupplemented from time to time, collectively const",
+      "method": "gliner",
+      "confidence": 0.817619800567627,
+      "rank_score": 1.117619800567627,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        755,
+        788
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Bee Street",
+      "passage": "The Offer to Purchase provides\nthat Bee Street does not intend to waive the Majority Minority Condition.",
+      "method": "gliner",
+      "confidence": 0.9643447995185852,
+      "rank_score": 1.0643447995185853,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4411,
+        4421
+      ],
+      "source_hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "source_accession": "0001047469-20-001178",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.25 per\nshare",
+      "passage": "The telephone number of the Company's principal executive office is (312)\u00a0541-7200.\nThe\nclass of equity securities to which this Solicitation/ Recommendation Statement on Schedule\u00a014D-9 (this \"Statement\") relates is the Company's common stock, par value $0.25 per\nshare.",
+      "method": "gliner",
+      "confidence": 0.493264377117157,
+      "rank_score": 0.9432643771171569,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2053,
+        2068
+      ],
+      "source_hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "source_accession": "0001047469-20-001178",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "CHK",
+      "passage": "2\nZEQ.=2,SEQ=2,EFW=\"2240844\",CP=\"BEE STREET HOLDINGS LLC\",DN=\"6\",CHK=543716,FOLIO='2',FILE='DISK108:[20ZBH1.20ZBH43001]OW43001A.;4',USER='CHE108069',CD='26-FEB-2020;14:13'\nTHIS IS THE END OF A COMPOSITION COMPONENT\nCOMMAND=ADD_BASECOLOR,\"#000000\"\nCOMMAND=ADD_DEFAULTFONT,\"font-family:times;\"\nCOMMAND=ADD_TABLESHADECOLOR,\"#CCEEFF\"\nCOMMAND=ADD_STABLERULES,\"border-bottom:solid #000000 1.0pt;\"\nCOMMAND=ADD_DTABLERULES,\"border-bottom:double #000000 2.25pt;\"\nCOMMAND=ADD_SC",
+      "method": "gliner",
+      "confidence": 0.5450135469436646,
+      "rank_score": 0.8950135469436645,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        1397,
+        1400
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "5:00\u00a0P.M.",
+      "passage": "CMC is required to\nmake a recommendation, or state that it is neutral or is unable to take a position with respect to the Offer, and to publish such recommendation or send it to holders of Shares within ten business\ndays from the date of the Offer to Purchase.\n4.\u00a0\u00a0\u00a0\u00a0\u00a0The\nOffer and withdrawal rights will expire at 5:00\u00a0P.M., New York City Time, on March\u00a017, 2020, unless the Offer is extended by Purchaser.\n5.\u00a0\u00a0\u00a0\u00a0\u00a0The\nOffer is contingent upon the receipt by Purchaser of net proceeds of debt financing which are adequate to fund the Offer, the related Merger, as defined in the Offer\nto Purchase (if applicable), and the Purchaser's expenses (as further defined in the Offer to Purchase, the \"Financing Condition\").",
+      "method": "gliner",
+      "confidence": 0.6696547865867615,
+      "rank_score": 0.8696547865867614,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        2641,
+        2650
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "SCHEDULE TO\nCUSIP NO. 211615307",
+      "passage": "Identify the previous filing by registration statement number, or the Form or Schedule and the date of its filing.\nAmount previously paid:\n[n/a]\nFiling party:\n[n/a]\nForm or registration No.:\n[n/a]\nDate filed:\n[n/a]\n(Continued on following page(s))\n(Page 1 of 2 Pages)\nSCHEDULE TO\nCUSIP NO. 211615307\nPage 2 of 2 Pages\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a tender offer.",
+      "method": "gliner",
+      "confidence": 0.5729190111160278,
+      "rank_score": 0.8229190111160278,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2422,
+        2453
+      ],
+      "source_hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "source_accession": "0001047469-20-000910",
+      "label": "cusip_code",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Continental Materials Corporation",
+      "passage": "The name of the subject company is Continental Materials Corporation, a Delaware corporation (\"CMC\" or the \"Company\").",
+      "method": "gliner",
+      "confidence": 0.46375805139541626,
+      "rank_score": 0.7637580513954163,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        1603,
+        1636
+      ],
+      "source_hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "source_accession": "0001047469-20-001178",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Delaware corporation",
+      "passage": "for your consideration are the Offer to Purchase, dated February\u00a018, 2020 (the \"Offer to Purchase\"), and the related Letter of Transmittal in connection with the offer by\nBee Street Holdings\u00a0LLC, a Delaware limited liability company (\"Purchaser\"), to purchase all of the issued and outstanding shares of common stock, par value $0.25 per share (the \"Shares\") of\nContinental Materials Corporation, a Delaware corporation (\"CMC\"), at a purchase price of $9.50 per Share, net to the seller in cash, without interest thereon and subject to any required tax\nwithholding, upon the terms and subject to the conditions of the Offer to Purchase and the related Letter of Transmittal (which, together with the Offer to Purchase, as they may be amended or\nsupplemented from time to time, collectively constitute the \"Offer\").",
+      "method": "gliner",
+      "confidence": 0.43548592925071716,
+      "rank_score": 0.7354859292507172,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        792,
+        812
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "CIBC Bank USA",
+      "passage": "As described in the Offer to Purchase and disclosed in the Schedule\u00a0TO, Bee Street has obtained a\ncommitment letter from CIBC Bank USA, the Company's current senior lender, committing to provide such financing on certain conditions as stated therein.",
+      "method": "gliner",
+      "confidence": 0.6331386566162109,
+      "rank_score": 0.7331386566162109,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        5185,
+        5198
+      ],
+      "source_hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "source_accession": "0001047469-20-001178",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Continental Materials Corporation",
+      "passage": "Use these links to rapidly review the document\nTABLE OF CONTENTS\nTable of Contents\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE 14D-9\nSOLICITATION/ RECOMMENDATION STATEMENT UNDER\nSECTION\u00a014(d)(4) OF THE SECURITIES EXCHANGE ACT OF\u00a01934\nContinental Materials Corporation\n(Name of Subject Company)\nContinental Materials Corporation\n(Name of Person(s) Filing Statement)\nCommon Stock, Par Value $0.25 Per Share\n(Title of Class of Securities)\n211615307\n(CUSIP Number of Class of Securities)\nPaul Ainsworth\nChief Financial Officer\nContinental Materials Corporation\n440 S.",
+      "method": "gliner",
+      "confidence": 0.48842376470565796,
+      "rank_score": 0.6884237647056579,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        257,
+        290
+      ],
+      "source_hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "source_accession": "0001047469-20-001178",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Continental Materials",
+      "passage": "The name of the subject company is Continental Materials Corporation, a Delaware corporation (\"CMC\" or the \"Company\").",
+      "method": "gliner",
+      "confidence": 0.4881163239479065,
+      "rank_score": 0.6881163239479064,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        1603,
+        1624
+      ],
+      "source_hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "source_accession": "0001047469-20-001178",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number of Class of Securities",
+      "passage": "20549\nSCHEDULE 14D-9\nSOLICITATION/ RECOMMENDATION STATEMENT UNDER\nSECTION\u00a014(d)(4) OF THE SECURITIES EXCHANGE ACT OF\u00a01934\nContinental Materials Corporation\n(Name of Subject Company)\nContinental Materials Corporation\n(Name of Person(s) Filing Statement)\nCommon Stock, Par Value $0.25 Per Share\n(Title of Class of Securities)\n211615307\n(CUSIP Number of Class of Securities)\nPaul Ainsworth\nChief Financial Officer\nContinental Materials Corporation\n440 S.",
+      "method": "gliner",
+      "confidence": 0.6324828863143921,
+      "rank_score": 0.6324828863143921,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        470,
+        505
+      ],
+      "source_hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "source_accession": "0001047469-20-001178",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Taft Stettinius\u00a0& Hollister\u00a0LLP",
+      "passage": "McMahon, III\nTaft Stettinius\u00a0& Hollister\u00a0LLP\n425 Walnut Street, Suite\u00a01800\nCincinnati, OH 45202-3957\nTel: (513)\u00a0357-9607\nCALCULATION OF FILING FEE\nTRANSACTION VALUATION*\nAMOUNT OF FILING FEE+\n$6,158,973.50\n$799.43\n*\nEstimated\nfor purposes of calculating the amount of the filing fee only.",
+      "method": "gliner",
+      "confidence": 0.5266528725624084,
+      "rank_score": 0.6266528725624084,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1014,
+        1045
+      ],
+      "source_hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "source_accession": "0001047469-20-000910",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Issuer",
+      "passage": "o\nCheck the following box if the filing is a final amendment reporting the results of the tender offer:\no\nIf applicable, check the appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\nRule\u00a013e-4(i) (Cross-Border Issuer Tender Offer)\no\nRule\u00a014d-1(d) (Cross-Border Third-Party Tender Offer)\no\nThis\nTender Offer Statement and Rule\u00a013e-3 Transaction Statement filed under cover of Schedule\u00a0TO (as amended and supplemented, this \"Schedule TO\") by Bee Street\nHoldings\u00a0LLC, a Delaware limited liability company (\"Bee Street\"), relates to the offer by Bee Street to purchase all outstanding common stock, par value $0.25 (the",
+      "method": "gliner",
+      "confidence": 0.5042197108268738,
+      "rank_score": 0.6042197108268738,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3126,
+        3132
+      ],
+      "source_hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "source_accession": "0001047469-20-000910",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "the undersigned",
+      "passage": "The\nundersigned hereby instruct(s) you to tender to Purchaser the number of Shares indicated below (or, if no number is indicated, all Shares) which are held by you for the account of\nthe undersigned, upon the terms and subject to the conditions set forth in the Offer.\nThe method of delivery of this document is at the election and risk of the tendering stockholder.",
+      "method": "gliner",
+      "confidence": 0.40834227204322815,
+      "rank_score": 0.5083422720432281,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        3257,
+        3272
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Tender Condition",
+      "passage": "Section\u00a012\nof the Offer to Purchase (collectively, the \"Offer Conditions\"). Among the Offer Conditions are: (i)\u00a0the Minimum Tender Condition (as defined in the Offer to Purchase), and\n(ii)\u00a0the Financing Condition, and (iii)\u00a0on or after February\u00a018, 2020, and at or prior to the expiration of the Offer, that certain events shall not incur, including any action\nchallenging the transactions related to the Offer or certain changes occurring that result or could reasonably be expected to result in adverse effects on CMC and its subsidiaries",
+      "method": "gliner",
+      "confidence": 0.9089257717132568,
+      "rank_score": 0.3589257717132568,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        116,
+        140
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "common stock",
+      "passage": "The telephone number of the Company's principal executive office is (312)\u00a0541-7200.\nThe\nclass of equity securities to which this Solicitation/ Recommendation Statement on Schedule\u00a014D-9 (this \"Statement\") relates is the Company's common stock, par value $0.25 per\nshare.",
+      "method": "gliner",
+      "confidence": 0.8232333064079285,
+      "rank_score": 0.2732333064079284,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2029,
+        2041
+      ],
+      "source_hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "source_accession": "0001047469-20-001178",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Purchaser",
+      "passage": "The obligation of Purchaser to accept for payment and pay for Shares\nvalidly tendered (and not withdrawn) pursuant to the Offer is subject to the conditions set forth in\nZEQ.=1,SEQ=1,EFW=\"2240844\",CP=\"BEE STREET HOLDINGS LLC\",DN=\"6\",CHK=618939,FOLIO='blank',FILE='DISK108:[20ZBH1.20ZBH43001]OW43001A.;4',USER='CHE108069',CD='26-FEB-2020;14:13'",
+      "method": "gliner",
+      "confidence": 0.9145731925964355,
+      "rank_score": 0.16457319259643555,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        3061,
+        3070
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "Tender Offer)\no\nRule\u00a014d-1(d) (Cross-Border Third-Party Tender Offer)\no\nThis\nTender Offer Statement and Rule\u00a013e-3 Transaction Statement filed under cover of Schedule\u00a0TO (as amended and supplemented, this \"Schedule TO\") by Bee Street\nHoldings\u00a0LLC, a Delaware limited liability company (\"Bee Street\"), relates to the offer by Bee Street to purchase all outstanding common stock, par value $0.25 (the \"Shares\"), of Continental\nMaterials Corporation, a Delaware corporation (\"CMC\"), not currently held by Bee Street, upon the terms and subject to the conditions set forth in the Offer to Purchase dated February\u00a018, 2020\n(the \"Offer to Purchase\"), the related letter of transmittal and the related notice of guaranteed delivery (which, together with any amendments or supplements thereto, collectively constit",
+      "method": "gliner",
+      "confidence": 0.49741053581237793,
+      "rank_score": 0.14741053581237784,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3533,
+        3539
+      ],
+      "source_hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "source_accession": "0001047469-20-000910",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "CMC",
+      "passage": "CMC is required to\nmake a recommendation, or state that it is neutral or is unable to take a position with respect to the Offer, and to publish such recommendation or send it to holders of Shares within ten business\ndays from the date of the Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.743385374546051,
+      "rank_score": 0.093385374546051,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        2326,
+        2329
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "CMC",
+      "passage": "CMC is required to\nmake a recommendation, or state that it is neutral or is unable to take a position with respect to the Offer, and to publish such recommendation or send it to holders of Shares within ten business\ndays from the date of the Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.7360292077064514,
+      "rank_score": 0.0860292077064514,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        2326,
+        2329
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "you",
+      "passage": "The\nundersigned hereby instruct(s) you to tender to Purchaser the number of Shares indicated below (or, if no number is indicated, all Shares) which are held by you for the account of\nthe undersigned, upon the terms and subject to the conditions set forth in the Offer.\nThe method of delivery of this document is at the election and risk of the tendering stockholder.",
+      "method": "gliner",
+      "confidence": 0.5403479933738708,
+      "rank_score": -0.10965200662612917,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        3108,
+        3111
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Financing Condition",
+      "passage": "Section\u00a012\nof the Offer to Purchase (collectively, the \"Offer Conditions\"). Among the Offer Conditions are: (i)\u00a0the Minimum Tender Condition (as defined in the Offer to Purchase), and\n(ii)\u00a0the Financing Condition, and (iii)\u00a0on or after February\u00a018, 2020, and at or prior to the expiration of the Offer, that certain events shall not incur, including any action\nchallenging the transactions related to the Offer or certain changes occurring that result or could reasonably be expected to result in adverse effects on CMC and its subsidiaries.",
+      "method": "gliner",
+      "confidence": 0.4059029519557953,
+      "rank_score": -0.14409704804420476,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        193,
+        212
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "us",
+      "passage": "A tender of such Shares can be made only by us as the holder of record and pursuant to your instructions.\nThe Letter of Transmittal is furnished to you\nfor your information only and cannot be used by you to tender Shares held by us for your account.\nWe request instructions as to whether you wish us to tender any or all of the Shares held by us for your account, upon the terms and subject to the conditions set\nforth in the enclosed Offer to Purchase and the Letter of Transmittal.",
+      "method": "gliner",
+      "confidence": 0.45645612478256226,
+      "rank_score": -0.19354387521743777,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        1776,
+        1778
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "The obligation of Purchaser to accept for payment and pay for Shares\nvalidly tendered (and not withdrawn) pursuant to the Offer is subject to the conditions set forth in\nZEQ.=1,SEQ=1,EFW=\"2240844\",CP=\"BEE STREET HOLDINGS LLC\",DN=\"6\",CHK=618939,FOLIO='blank',FILE='DISK108:[20ZBH1.20ZBH43001]OW43001A.;4',USER='CHE108069',CD='26-FEB-2020;14:13'",
+      "method": "gliner",
+      "confidence": 0.7670661807060242,
+      "rank_score": -0.5329338192939759,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(v)",
+      "faq_question": null,
+      "char_span": [
+        3105,
+        3111
+      ],
+      "source_hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "source_accession": "0001047469-20-001087",
+      "label": "security_name",
+      "chunk_id": "w3"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.811506+00:00"
+}

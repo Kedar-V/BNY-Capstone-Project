@@ -1,0 +1,2631 @@
+{
+  "schema_version": "1",
+  "event_id": "005-38281",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "324090e06615623b481d9745412344c8b94fbb31",
+      "hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "accession": "0001193125-22-012503",
+      "filename": "d255477dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "43f73475230d8484b61a10d24c3529601e8af6d7",
+      "hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "accession": "0001193125-22-012503",
+      "filename": "d255477dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "5a92ee8bb05c798407e09db61aee33ec0b4dc6ef",
+      "hit_id": "0001193125-22-012503:d255477dex99a1b.htm",
+      "accession": "0001193125-22-012503",
+      "filename": "d255477dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "39f3db6702b4ccc73cc2cd22c77614d4884c28d0",
+      "hit_id": "0001193125-22-012548:d289699dsc14d9.htm",
+      "accession": "0001193125-22-012548",
+      "filename": "d289699dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "December\u00a020, 2021",
+      "score": 0.9652642607688904,
+      "rank_score": 1.7452642607688904,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "February\u00a015, 2022",
+      "score": 0.9420562982559204,
+      "rank_score": 1.7220562982559204,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "January 18, 2022",
+      "score": 0.936292290687561,
+      "rank_score": 1.716292290687561,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "December\u00a016, 2021",
+      "score": 0.9347423911094666,
+      "rank_score": 1.7147423911094666,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$79.49",
+      "score": 0.9337071180343628,
+      "rank_score": 1.7137071180343628,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "March 19, 2022",
+      "score": 0.9237876534461975,
+      "rank_score": 1.7037876534461975,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "June\u00a021, 2022",
+      "score": 0.9004659056663513,
+      "rank_score": 1.6804659056663513,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "$92.03",
+      "score": 0.8928300738334656,
+      "rank_score": 1.6728300738334656,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$95.00",
+      "score": 0.8765628337860107,
+      "rank_score": 1.6565628337860108,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "How much are you offering to pay?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$28.48 billion",
+      "score": 0.8516027927398682,
+      "rank_score": 1.6316027927398682,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\u201d below. You should re",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.01",
+      "score": 0.7812151908874512,
+      "rank_score": 1.5612151908874512,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:1",
+      "faq_question": "What is the class and amount of securities sought pursuant to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "156782104",
+      "score": 0.8393774628639221,
+      "rank_score": 1.3393774628639221,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$92.00",
+      "score": 0.6750357151031494,
+      "rank_score": 1.3250357151031493,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_10",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$89.77",
+      "score": 0.6553828120231628,
+      "rank_score": 1.3053828120231628,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_6",
+      "faq_question": null,
+      "section": "6.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "CEDAR ACQUISITION CORPORATION",
+      "score": 0.879840612411499,
+      "rank_score": 1.2798406124114992,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Cedar Acquisition Corporation",
+      "score": 0.9087941646575928,
+      "rank_score": 1.2587941646575929,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:0",
+      "faq_question": "Who is offering to buy my securities?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "12:00 midnight",
+      "score": 0.9159075617790222,
+      "rank_score": 1.2459075617790223,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Oracle Corporation",
+      "score": 0.8278639316558838,
+      "rank_score": 1.227863931655884,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Cerner Corporation",
+      "score": 0.8267053961753845,
+      "rank_score": 1.2267053961753847,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "January\u00a01, 2019",
+      "score": 0.7641104459762573,
+      "rank_score": 1.2141104459762573,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_6",
+      "faq_question": null,
+      "section": "6.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "12:00 midnight",
+      "score": 0.8773333430290222,
+      "rank_score": 1.1573333430290222,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "CERN",
+      "score": 0.7907251119613647,
+      "rank_score": 1.1407251119613648,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_6",
+      "faq_question": null,
+      "section": "6.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "OC ACQUISITION\nLLC",
+      "score": 0.7360734343528748,
+      "rank_score": 1.136073434352875,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "less than 1%",
+      "score": 0.7964215874671936,
+      "rank_score": 1.1264215874671937,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Cerner Corporation",
+      "score": 0.8207581639289856,
+      "rank_score": 1.1207581639289856,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "OC Acquisition LLC",
+      "score": 0.7951212525367737,
+      "rank_score": 1.0951212525367737,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "tendering stockholders",
+      "score": 0.9170095324516296,
+      "rank_score": 1.0670095324516298,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:17",
+      "faq_question": "If I accept the Offer, how will I get paid?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "fair value",
+      "score": 0.7302475571632385,
+      "rank_score": 1.0602475571632386,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:27",
+      "faq_question": "Will I have appraisal rights in connection with the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$28,477,199,240.00",
+      "score": 0.6561062335968018,
+      "rank_score": 1.0561062335968017,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and Purchaser",
+      "score": 0.8995459675788879,
+      "rank_score": 1.0495459675788879,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet\u201d below. You should re",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "org_name",
+      "text": "Cerner",
+      "score": 0.9786270260810852,
+      "rank_score": 1.0286270260810852,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What will happen to my stock options, restricted stock awards, time-based restricted stock\nunits and performance-based restricted stock units (if any) in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Goldman Sachs",
+      "score": 0.9097049832344055,
+      "rank_score": 1.0097049832344056,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "ORACLE CORPORATION",
+      "score": 0.6832911372184753,
+      "rank_score": 0.9832911372184754,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Latham\u00a0& Watkins",
+      "score": 0.8808824419975281,
+      "rank_score": 0.980882441997528,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "cash",
+      "score": 0.6348913908004761,
+      "rank_score": 0.9648913908004761,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Oracle",
+      "score": 0.9119887948036194,
+      "rank_score": 0.9619887948036194,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Cerner Board",
+      "score": 0.8407067656517029,
+      "rank_score": 0.9407067656517029,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_11",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "org_name",
+      "text": "Oracle",
+      "score": 0.886237621307373,
+      "rank_score": 0.9362376213073731,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "employee stock options",
+      "score": 0.934783399105072,
+      "rank_score": 0.934783399105072,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_5",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Citigroup Inc.",
+      "score": 0.6339011788368225,
+      "rank_score": 0.9339011788368226,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_19",
+      "faq_question": null,
+      "section": "19.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Cerner",
+      "score": 0.8780412077903748,
+      "rank_score": 0.9280412077903748,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Is there an agreement governing the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "scheduled Expiration",
+      "score": 0.5914091467857361,
+      "rank_score": 0.9214091467857362,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "acquiring corporation",
+      "score": 0.5666012763977051,
+      "rank_score": 0.9166012763977052,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Will a meeting of Cerner\u2019s stockholders be required to approve the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Certificate Stockholders",
+      "score": 0.8141114115715027,
+      "rank_score": 0.9141114115715027,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "Cerner",
+      "score": 0.8687849044799805,
+      "rank_score": 0.8687849044799805,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_10",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$2,639,836.37",
+      "score": 0.46668484807014465,
+      "rank_score": 0.8666848480701446,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "constituent corporation",
+      "score": 0.49114665389060974,
+      "rank_score": 0.8411466538906098,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Will a meeting of Cerner\u2019s stockholders be required to approve the Merger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "11:59 pm",
+      "score": 0.6378240585327148,
+      "rank_score": 0.8378240585327148,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_16",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "S-ii",
+      "score": 0.7852627635002136,
+      "rank_score": 0.8352627635002137,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "What are the material U.S. federal income tax consequences of tendering my Shares in the Offer or having my\nShares exchanged for cash pursuant to the Merger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Nasdaq",
+      "score": 0.7776412963867188,
+      "rank_score": 0.8276412963867188,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "If Shares tendered pursuant to the Offer are purchased by Purchaser, will Cerner continue as a public company?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "withdrawal",
+      "score": 0.5304040312767029,
+      "rank_score": 0.8104040312767029,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:27",
+      "faq_question": "Will I have appraisal rights in connection with the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash",
+      "score": 0.7547817230224609,
+      "rank_score": 0.804781723022461,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "9:00 a.m.",
+      "score": 0.46582120656967163,
+      "rank_score": 0.7958212065696717,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "immediately prior to the Acceptance Time",
+      "score": 0.45946455001831055,
+      "rank_score": 0.7894645500183106,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "surviving corporation",
+      "score": 0.47968941926956177,
+      "rank_score": 0.7796894192695618,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_17",
+      "faq_question": null,
+      "section": "17.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "stock options",
+      "score": 0.7776236534118652,
+      "rank_score": 0.7776236534118652,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_7",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "calendar_date",
+      "text": "next Business Day",
+      "score": 0.42476898431777954,
+      "rank_score": 0.7547689843177796,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Eligible Institution",
+      "score": 0.6511605978012085,
+      "rank_score": 0.7511605978012085,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_4",
+      "faq_question": null,
+      "section": "4.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "multi-national financial institution",
+      "score": 0.6239309310913086,
+      "rank_score": 0.7239309310913086,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_8",
+      "faq_question": null,
+      "section": "8.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "target_organization",
+      "text": "constituent corporation",
+      "score": 0.41688022017478943,
+      "rank_score": 0.7168802201747895,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_12",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "stock appreciation rights",
+      "score": 0.7112040519714355,
+      "rank_score": 0.7112040519714355,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_5",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number\nof Class\u00a0of Securities",
+      "score": 0.7110496759414673,
+      "rank_score": 0.7110496759414673,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective date of the Merger",
+      "score": 0.6800811886787415,
+      "rank_score": 0.6800811886787415,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_17",
+      "faq_question": null,
+      "section": "17.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "proration_terms",
+      "text": "Extensions of the Offer",
+      "score": 0.6572049260139465,
+      "rank_score": 0.6572049260139465,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_11",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "available_option",
+      "text": "restricted stock awards",
+      "score": 0.5513826608657837,
+      "rank_score": 0.6013826608657837,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What will happen to my stock options, restricted stock awards, time-based restricted stock\nunits and performance-based restricted stock units (if any) in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "stock\npurchase rights",
+      "score": 0.5975876450538635,
+      "rank_score": 0.5975876450538635,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_5",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "Acceptance Time",
+      "score": 0.8515238165855408,
+      "rank_score": 0.5815238165855408,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Cerner",
+      "score": 0.5156533718109131,
+      "rank_score": 0.5656533718109131,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:2",
+      "faq_question": "Why are you making the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificates",
+      "score": 0.517486572265625,
+      "rank_score": 0.517486572265625,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_2",
+      "faq_question": null,
+      "section": "2.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "S-iv",
+      "score": 0.46121013164520264,
+      "rank_score": 0.5112101316452027,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "S-v",
+      "score": 0.4411791265010834,
+      "rank_score": 0.49117912650108336,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificate",
+      "score": 0.48509639501571655,
+      "rank_score": 0.48509639501571655,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_3",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9579987525939941,
+      "rank_score": 0.4579987525939941,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Cerner",
+      "score": 0.42233359813690186,
+      "rank_score": 0.42233359813690186,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_6",
+      "faq_question": null,
+      "section": "6.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.927290141582489,
+      "rank_score": 0.37729014158248897,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_17",
+      "faq_question": null,
+      "section": "17.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.8580436706542969,
+      "rank_score": 0.3580436706542968,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.6549102663993835,
+      "rank_score": 0.3549102663993835,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.6758096218109131,
+      "rank_score": 0.325809621810913,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash on\nhand",
+      "score": 0.5478345155715942,
+      "rank_score": 0.29783451557159424,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "United States dollar",
+      "score": 0.46168196201324463,
+      "rank_score": 0.16168196201324464,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_5",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Acceptance Time",
+      "score": 0.7106325626373291,
+      "rank_score": 0.16063256263732906,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_9",
+      "faq_question": null,
+      "section": "9.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Share",
+      "score": 0.4536833167076111,
+      "rank_score": -0.04631668329238896,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "SEC",
+      "score": 0.5722813606262207,
+      "rank_score": -0.12771863937377925,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_7",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "DTC",
+      "score": 0.5452061295509338,
+      "rank_score": -0.40479387044906623,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_3",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.8374291062355042,
+      "rank_score": -0.4625708937644959,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_5",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "target_organization",
+      "text": "Depositary",
+      "score": 0.4649592936038971,
+      "rank_score": -0.48504070639610297,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1a255477_3",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w2"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a020, 2021",
+      "passage": "The Supporting Stockholders collectively beneficially owned, in the aggregate, less than 1% of the outstanding Shares as of December\u00a020, 2021.\nSee Section\u00a011 \u2013\u00a0\u201cThe Merger Agreement; Other Agreements \u2013\u00a0Tender and Support Agreements.\u201d",
+      "method": "gliner",
+      "confidence": 0.9652642607688904,
+      "rank_score": 1.7452642607688904,
+      "doc_role": "otp",
+      "section": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "char_span": [
+        1066,
+        1083
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a015, 2022",
+      "passage": "You will have until 12:00 midnight, Eastern Time, at the end of the day on the Expiration Date to tender your Shares in the Offer. The term\n\u201cExpiration Date\u201d means February\u00a015, 2022, unless the expiration of the Offer is extended to a subsequent date in accordance with the terms of the Merger Agreement, in which event the term \u201cExpiration Date\u201d means such\nsubsequent date.",
+      "method": "gliner",
+      "confidence": 0.9420562982559204,
+      "rank_score": 1.7220562982559204,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        164,
+        181
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January 18, 2022",
+      "passage": "On December\u00a016, 2021, the last full trading day before a media report was published speculating about a potential agreement between Oracle and\nCerner, the reported closing sales price of the Shares on Nasdaq was $79.49. On January 18, 2022, the last full day of trading before commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $92.03 per Share. We\nencourage you to obtain a recent market quotation for Shares before deciding whether to tender your Shares.\nSee Section\u00a06\n\u2013\u00a0\u201cPrice Range of Shares; Dividends.\u201d\nS-viii",
+      "method": "gliner",
+      "confidence": 0.936292290687561,
+      "rank_score": 1.716292290687561,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        223,
+        239
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a016, 2021",
+      "passage": "On December\u00a016, 2021, the last full trading day before a media report was published speculating about a potential agreement between Oracle and\nCerner, the reported closing sales price of the Shares on Nasdaq was $79.49.",
+      "method": "gliner",
+      "confidence": 0.9347423911094666,
+      "rank_score": 1.7147423911094666,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        3,
+        20
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$79.49",
+      "passage": "On December\u00a016, 2021, the last full trading day before a media report was published speculating about a potential agreement between Oracle and\nCerner, the reported closing sales price of the Shares on Nasdaq was $79.49. On January 18, 2022, the last full day of trading before commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $92.03 per Share. We\nencourage you to obtain a recent market quotation for Shares before deciding whether to tender your Shares.\nSee Section\u00a06\n\u2013\u00a0\u201cPrice Range of Shares; Dividends.\u201d\nS-viii",
+      "method": "gliner",
+      "confidence": 0.9337071180343628,
+      "rank_score": 1.7137071180343628,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        212,
+        218
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "March 19, 2022",
+      "passage": "You may withdraw your previously tendered Shares at any time until 12:00 midnight, Eastern Time, at the end of the day on the Expiration Date. In\naddition, if we have not accepted your Shares for payment by the end of March 19, 2022, you may withdraw them at any time after that date until we accept your Shares for payment.\nSee Section\u00a04 \u2013\u00a0\u201cWithdrawal Rights.\u201d\nS-v",
+      "method": "gliner",
+      "confidence": 0.9237876534461975,
+      "rank_score": 1.7037876534461975,
+      "doc_role": "otp",
+      "section": "Until what time may I withdraw previously tendered Shares?",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "char_span": [
+        218,
+        232
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "June\u00a021, 2022",
+      "passage": "The \u201cEnd Date\u201d means June\u00a021, 2022, as it may be extended as provided in the Merger Agreement and summarized below in Section\u00a011\n\u2013\u00a0\u201cThe Merger Agreement; Other Agreements\u00a0\u2013\u00a0Termination of the Merger Agreement.\u201d\nSee Section\u00a01\n\u2013\u00a0\u201cTerms of the Offer\u201d and Section\u00a011 \u2013\u00a0\u201cThe Merger Agreement; Other Agreements.\u201d",
+      "method": "gliner",
+      "confidence": 0.9004659056663513,
+      "rank_score": 1.6804659056663513,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        1631,
+        1644
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$92.03",
+      "passage": "On December\u00a016, 2021, the last full trading day before a media report was published speculating about a potential agreement between Oracle and\nCerner, the reported closing sales price of the Shares on Nasdaq was $79.49. On January 18, 2022, the last full day of trading before commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $92.03 per Share. We\nencourage you to obtain a recent market quotation for Shares before deciding whether to tender your Shares.\nSee Section\u00a06\n\u2013\u00a0\u201cPrice Range of Shares; Dividends.\u201d\nS-viii",
+      "method": "gliner",
+      "confidence": 0.8928300738334656,
+      "rank_score": 1.6728300738334656,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        365,
+        371
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$95.00",
+      "passage": "Purchaser is offering to\npay $95.00 per Share, net to the seller in cash, without interest thereon and subject to any required tax withholding.\nSee the\n\u201cIntroduction\u201d to this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.8765628337860107,
+      "rank_score": 1.6565628337860108,
+      "doc_role": "otp",
+      "section": "How much are you offering to pay?",
+      "faq_question": "How much are you offering to pay?",
+      "char_span": [
+        29,
+        35
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$28.48 billion",
+      "passage": "We estimate that we will need approximately $28.48 billion to purchase all of the Shares pursuant to the Offer and to complete the\nMerger, and that Oracle, Purchaser\u2019s ultimate parent company, will provide sufficient funds for this purpose.",
+      "method": "gliner",
+      "confidence": 0.8516027927398682,
+      "rank_score": 1.6316027927398682,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\u201d below. You should re",
+      "faq_question": null,
+      "char_span": [
+        11178,
+        11192
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "money_amount",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "Purchaser is offering to purchase all of the issued and outstanding shares of common stock, par value $0.01 per share, of Cerner on the terms and subject\nto the conditions set forth in this Offer to Purchase.\nSee Section\u00a01 \u2013\u00a0\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.7812151908874512,
+      "rank_score": 1.5612151908874512,
+      "doc_role": "otp",
+      "section": "What is the class and amount of securities sought pursuant to the Offer?",
+      "faq_question": "What is the class and amount of securities sought pursuant to the Offer?",
+      "char_span": [
+        102,
+        107
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "156782104",
+      "passage": "SC 14D9\nTable of Contents\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the Securities Exchange Act of 1934\nCerner Corporation\n(Name of Subject Company)\nCerner\nCorporation\n(Name of Person(s) Filing Statement)\nCommon Stock, par value $0.01 per share\n(Title of Class\u00a0of Securities)\n156782104\n(CUSIP Number\nof Class\u00a0of Securities)\nDaniel P.",
+      "method": "gliner",
+      "confidence": 0.8393774628639221,
+      "rank_score": 1.3393774628639221,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        400,
+        409
+      ],
+      "source_hit_id": "0001193125-22-012548:d289699dsc14d9.htm",
+      "source_accession": "0001193125-22-012548",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$92.00",
+      "passage": "Following discussion, the Oracle Board approved the submission of a non-binding proposal to acquire all of the outstanding Shares.\nOn November 12, 2021, a representative of Oracle submitted to Cerner a non-binding indication of interest to acquire all of the outstanding Shares for\n$92.00 per Share in cash, together with a request to enter into an exclusivity agreement for exclusive negotiations through December 13, 2021 (the \u201cInitial Proposal\u201d).",
+      "method": "gliner",
+      "confidence": 0.6750357151031494,
+      "rank_score": 1.3250357151031493,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        3686,
+        3692
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$89.77",
+      "passage": "On December\u00a017, 2021, the last full day of trading before the public announcement of the execution of the Merger Agreement, the closing price of the\nShares on Nasdaq was $89.77 per Share.",
+      "method": "gliner",
+      "confidence": 0.6553828120231628,
+      "rank_score": 1.3053828120231628,
+      "doc_role": "otp",
+      "section": "6.",
+      "faq_question": null,
+      "char_span": [
+        993,
+        999
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "CEDAR ACQUISITION CORPORATION",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSchedule TO\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nCERNER CORPORATION\n(Name of Subject Company (Issuer))\nCEDAR ACQUISITION CORPORATION\n(Offeror)\na subsidiary of\nOC ACQUISITION\nLLC\n(Parent of Offeror)\na\nsubsidiary of\nORACLE CORPORATION\n(Parent of Offeror)\n(Names of Filing\nPersons)\nCommon Stock, Par Value $0.01 per share\n(Title of Class\u00a0of Securities)\n156782104\n(CUSIP Number of Class\u00a0of\nSecurities)\nBrian S.",
+      "method": "gliner",
+      "confidence": 0.879840612411499,
+      "rank_score": 1.2798406124114992,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        243,
+        272
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Cedar Acquisition Corporation",
+      "passage": "We use the term \u201cPurchaser\u201d to refer to Cedar Acquisition Corporation\nalone, the term \u201cParent\u201d to refer to OC Acquisition LLC alone, the term \u201cOracle\u201d to refer to Oracle Corporation alone and the term \u201cCerner\u201d to refer to Cerner Corporation, a Delaware corporation.\nSee Section\u00a08 \u2013\u00a0\u201cCertain Information Concerning Oracle, Parent and Purchaser.\u201d",
+      "method": "gliner",
+      "confidence": 0.9087941646575928,
+      "rank_score": 1.2587941646575929,
+      "doc_role": "otp",
+      "section": "Who is offering to buy my securities?",
+      "faq_question": "Who is offering to buy my securities?",
+      "char_span": [
+        461,
+        490
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "12:00 midnight",
+      "passage": "The\nobligation of Purchaser to accept for payment and pay for Shares validly tendered (and not withdrawn) pursuant to the Offer is subject to the satisfaction or waiver of a number of conditions by 12:00 midnight,\nS-iv\nTable of Contents",
+      "method": "gliner",
+      "confidence": 0.9159075617790222,
+      "rank_score": 1.2459075617790223,
+      "doc_role": "otp",
+      "section": "What are the most significant conditions to the Offer?",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "char_span": [
+        198,
+        212
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Oracle Corporation",
+      "passage": "(d)(4)\nExclusivity Agreement, dated as of December\u00a04, 2021, between Cerner Corporation and Oracle Corporation (incorporated by reference to Exhibit (e)(4) to the Schedule\n14D-9\nfiled by Cerner Corporation on January\u00a019, 2022).",
+      "method": "gliner",
+      "confidence": 0.8278639316558838,
+      "rank_score": 1.227863931655884,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        13545,
+        13563
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Cerner Corporation",
+      "passage": "(d)(4)\nExclusivity Agreement, dated as of December\u00a04, 2021, between Cerner Corporation and Oracle Corporation (incorporated by reference to Exhibit (e)(4) to the Schedule\n14D-9\nfiled by Cerner Corporation on January\u00a019, 2022).",
+      "method": "gliner",
+      "confidence": 0.8267053961753845,
+      "rank_score": 1.2267053961753847,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        13522,
+        13540
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "January\u00a01, 2019",
+      "passage": "Agreement to the effective time of the Merger, without the prior written consent of Parent, Cerner will not declare, set aside or pay any dividends on, or make any other distributions (whether in cash, stock, property\n11\nTable of Contents\nor otherwise) in respect of any capital stock of Cerner (except for distributions under Cerner\u2019s 2001 Associate Stock Purchase Plan, as amended and restated on January\u00a01, 2019 (the\n\u201cESPP\u201d), in the ordinary course of business and for distributions resulting from the vesting or exercise of Cerner compensatory awards).",
+      "method": "gliner",
+      "confidence": 0.7641104459762573,
+      "rank_score": 1.2141104459762573,
+      "doc_role": "otp",
+      "section": "6.",
+      "faq_question": null,
+      "char_span": [
+        2636,
+        2651
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "effective_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "12:00 midnight",
+      "passage": "The\nobligation of Purchaser to accept for payment and pay for Shares validly tendered (and not withdrawn) pursuant to the Offer is subject to the satisfaction or waiver of a number of conditions by 12:00 midnight,\nS-iv\nTable of Contents",
+      "method": "gliner",
+      "confidence": 0.8773333430290222,
+      "rank_score": 1.1573333430290222,
+      "doc_role": "otp",
+      "section": "What are the most significant conditions to the Offer?",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "char_span": [
+        198,
+        212
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "CERN",
+      "passage": "6.\nPrice Range of Shares; Dividends\nThe Shares currently trade on The Nasdaq Global Select Market (\u201cNasdaq\u201d) under the symbol \u201cCERN.\u201d The following table sets forth the\nhigh and low sale prices per Share for each quarterly period within the two preceding fiscal years, as reported by Nasdaq:\nHigh\nLow\nFiscal Year Ending December\u00a031, 2021\nFirst Quarter\n$\n84.20\n$\n67.96\nSecond Quarter\n$\n81.57\n$\n71.75\nThird Quarter\n$\n82.00\n$\n70.15\nFourth Quarter\n$\n93.44\n$\n69.08\nFiscal Year Ended December\u00a031, 2020\nFirst Quarter\n$\n80.90\n$\n53.08\nSecon",
+      "method": "gliner",
+      "confidence": 0.7907251119613647,
+      "rank_score": 1.1407251119613648,
+      "doc_role": "otp",
+      "section": "6.",
+      "faq_question": null,
+      "char_span": [
+        127,
+        131
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "OC ACQUISITION\nLLC",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSchedule TO\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nCERNER CORPORATION\n(Name of Subject Company (Issuer))\nCEDAR ACQUISITION CORPORATION\n(Offeror)\na subsidiary of\nOC ACQUISITION\nLLC\n(Parent of Offeror)\na\nsubsidiary of\nORACLE CORPORATION\n(Parent of Offeror)\n(Names of Filing\nPersons)\nCommon Stock, Par Value $0.01 per share\n(Title of Class\u00a0of Securities)\n156782104\n(CUSIP Number of Class\u00a0of\nSecurities)\nBrian S.",
+      "method": "gliner",
+      "confidence": 0.7360734343528748,
+      "rank_score": 1.136073434352875,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        299,
+        317
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "less than 1%",
+      "passage": "The Supporting Stockholders collectively beneficially owned, in the aggregate, less than 1% of the outstanding Shares as of December\u00a020, 2021.\nSee Section\u00a011 \u2013\u00a0\u201cThe Merger Agreement; Other Agreements \u2013\u00a0Tender and Support Agreements.\u201d",
+      "method": "gliner",
+      "confidence": 0.7964215874671936,
+      "rank_score": 1.1264215874671937,
+      "doc_role": "otp",
+      "section": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "char_span": [
+        1021,
+        1033
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Cerner Corporation",
+      "passage": "o you in connection with the offer by Cedar Acquisition Corporation, a Delaware corporation (\u201cPurchaser\u201d), which is a wholly owned subsidiary of OC Acquisition LLC, a Delaware limited liability company, which is a wholly owned subsidiary\nof Oracle Corporation, a Delaware corporation, to purchase all of the issued and outstanding shares of common stock, par value $0.01 per share (the \u201cShares\u201d), of Cerner Corporation, a Delaware corporation (\u201cCerner\u201d), at a\npurchase price of $95.00 per Share, net to the seller in cash, without interest thereon and subject to any required tax withholding, upon the terms and subject to the conditions set forth in this Letter of Transmittal and the related Offer to\nPurchase by Purchaser, dated January\u00a019, 2022 (the \u201cOffer to Purchase,\u201d which, together with this Letter of Transmi",
+      "method": "gliner",
+      "confidence": 0.8207581639289856,
+      "rank_score": 1.1207581639289856,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3027,
+        3045
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1b.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "OC Acquisition LLC",
+      "passage": "The information on Cerner\u2019s website is not considered a part of this Schedule\n14D-9.\nTender Offer and Merger\nThis Schedule\n14D-9\nrelates to the cash tender offer (the \u201c\nOffer\n\u201d) by Cedar\nAcquisition Corporation, a Delaware corporation (\u201c\nPurchaser\n\u201d), a wholly owned subsidiary of OC Acquisition LLC, a Delaware limited liability company (\u201c\nParent\n\u201d), a wholly owned subsidiary of Oracle Corporation, a\nDelaware corporation (\u201c\nOracle\n\u201d), to purchase all of the issued and outstanding Shares at a price per Share equal to $95.00 (the \u201c\nOffer Price\n\u201d), net to the seller in cash, without interest thereon and subject to any\nrequired tax withholding.",
+      "method": "gliner",
+      "confidence": 0.7951212525367737,
+      "rank_score": 1.0951212525367737,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3007,
+        3025
+      ],
+      "source_hit_id": "0001193125-22-012548:d289699dsc14d9.htm",
+      "source_accession": "0001193125-22-012548",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "tendering stockholders",
+      "passage": "If the Offer\nConditions set forth in Section 15 \u2013 \u201cConditions of the Offer\u201d are satisfied or waived and we consummate the Offer and accept your Shares for payment, payment will be made by deposit of the Offer Price for such Shares with the\nDepositary, which will act as agent for tendering stockholders for the purpose of receiving payment from us and transmitting such payments to tendering stockholders whose Shares have been accepted for payment.\nSee Section\u00a01 \u2013 \u201cTerms of the Offer\u201d and Section\u00a02 \u2013 \u201cAcceptance for Payment and Payment for Shares.\u201d",
+      "method": "gliner",
+      "confidence": 0.9170095324516296,
+      "rank_score": 1.0670095324516298,
+      "doc_role": "otp",
+      "section": "If I accept the Offer, how will I get paid?",
+      "faq_question": "If I accept the Offer, how will I get paid?",
+      "char_span": [
+        382,
+        404
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "fair value",
+      "passage": "The \u201cfair value\u201d could be greater than, less than or the same as the Offer Price.\nSee Section\u00a017 \u2013\u00a0\u201cAppraisal Rights.\u201d",
+      "method": "gliner",
+      "confidence": 0.7302475571632385,
+      "rank_score": 1.0602475571632386,
+      "doc_role": "otp",
+      "section": "Will I have appraisal rights in connection with the Offer?",
+      "faq_question": "Will I have appraisal rights in connection with the Offer?",
+      "char_span": [
+        741,
+        751
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$28,477,199,240.00",
+      "passage": "Posil\nHogan Lovells\nUS LLP\n4085 Campbell Avenue, Suite 100\nMenlo Park, California 94025\nTelephone:\n(650)\n463-4000\nCALCULATION OF FILING\nFEE\nTransaction Valuation*\nAmount of Filing Fee**\n$28,477,199,240.00\n$2,639,836.37\n*\nEstimated solely for purposes of calculating the filing fee.",
+      "method": "gliner",
+      "confidence": 0.6561062335968018,
+      "rank_score": 1.0561062335968017,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1072,
+        1090
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and Purchaser",
+      "passage": "Parent and Purchaser have not independently verified the accuracy and completeness of such information.",
+      "method": "gliner",
+      "confidence": 0.8995459675788879,
+      "rank_score": 1.0495459675788879,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet\u201d below. You should re",
+      "faq_question": null,
+      "char_span": [
+        5069,
+        5089
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Cerner",
+      "passage": "e sufficient time to comply with the procedures for tendering Shares described below in Section\u00a03 \u2013 \u201cProcedures for Accepting the Offer and Tendering Shares.\u201d\nAt the effective time of the Merger and without any action on the part of the holders thereof, the unvested portion of each stock option, restricted\nstock award, time-based restricted stock unit or performance-based restricted stock unit of Cerner (each, a \u201cCerner Compensatory Award\u201d) that is outstanding immediately\nS-vii",
+      "method": "gliner",
+      "confidence": 0.9786270260810852,
+      "rank_score": 1.0286270260810852,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options, restricted stock awards, time-based restricted stock\nunits and performance-based restricted stock units (if any) in the Offer?",
+      "faq_question": "What will happen to my stock options, restricted stock awards, time-based restricted stock\nunits and performance-based restricted stock units (if any) in the Offer?",
+      "char_span": [
+        1497,
+        1503
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "org_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Goldman Sachs",
+      "passage": "Also on\nDecember\u00a01, 2021, the Transaction Working Group met via videoconference, with members of management and representatives of Latham\u00a0& Watkins, Goldman Sachs and Centerview present, to discuss the merits of the Revised Proposal and the\ntelephone calls between a member of Cerner\u2019s management and Oracle\u2019s management during the course of the day.",
+      "method": "gliner",
+      "confidence": 0.9097049832344055,
+      "rank_score": 1.0097049832344056,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79387,
+        79400
+      ],
+      "source_hit_id": "0001193125-22-012548:d289699dsc14d9.htm",
+      "source_accession": "0001193125-22-012548",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "ORACLE CORPORATION",
+      "passage": "EX-(a)(1)(B)\nExhibit (a)(1)(B)\nLETTER OF TRANSMITTAL\nTo Tender Shares of\nCommon Stock\nof\nCERNER CORPORATION\nat\n$95.00 Per Share, Net in Cash\nPursuant to the Offer to Purchase dated January\u00a019, 2022\nby\nCEDAR ACQUISITION CORPORATION\na subsidiary\nof\nOC ACQUISITION LLC\na subsidiary\nof\nORACLE CORPORATION\nTHE OFFER AND WITHDRAWAL RIGHTS WILL EXPIRE AT 12:00 MIDNIGHT,\nEASTERN TIME, AT THE END OF THE DAY ON FEBRUARY\u00a015, 2022, UNLESS THE OFFER IS EXTENDED.",
+      "method": "gliner",
+      "confidence": 0.6832911372184753,
+      "rank_score": 0.9832911372184754,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        282,
+        300
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1b.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Latham\u00a0& Watkins",
+      "passage": "Also on\nDecember\u00a01, 2021, the Transaction Working Group met via videoconference, with members of management and representatives of Latham\u00a0& Watkins, Goldman Sachs and Centerview present, to discuss the merits of the Revised Proposal and the\ntelephone calls between a member of Cerner\u2019s management and Oracle\u2019s management during the course of the day.",
+      "method": "gliner",
+      "confidence": 0.8808824419975281,
+      "rank_score": 0.980882441997528,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79369,
+        79385
+      ],
+      "source_hit_id": "0001193125-22-012548:d289699dsc14d9.htm",
+      "source_accession": "0001193125-22-012548",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "cash",
+      "passage": "cause:\n\u2022 the Offer is being made for all issued and outstanding Shares solely for cash;\n\u2022 if we consummate the Offer, we intend to complete the Merger, in which all Shares (subject to limited exceptions for Shares\nsubject to appraisal rights and any Shares held by us, Cerner or its subsidiaries) that then remain issued and outstanding will be converted into the right to receive the Offer Price in cash;",
+      "method": "gliner",
+      "confidence": 0.6348913908004761,
+      "rank_score": 0.9648913908004761,
+      "doc_role": "otp",
+      "section": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "faq_question": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "char_span": [
+        529,
+        533
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Oracle",
+      "passage": "Yes. We estimate that we will need approximately $28.48 billion to purchase all of the Shares pursuant to the Offer and to complete the\nMerger, and that Oracle, Purchaser\u2019s ultimate parent company, will provide sufficient funds for this purpose.",
+      "method": "gliner",
+      "confidence": 0.9119887948036194,
+      "rank_score": 0.9619887948036194,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "faq_question": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "char_span": [
+        153,
+        159
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Cerner Board",
+      "passage": "t paragraph of subsection entitled\n\u201cNo Solicitation and Superior Proposal Provisions\u201d), may (i)\u00a0make an Adverse Recommendation Change, or (ii)\u00a0terminate the Merger Agreement to enter into a definitive agreement with respect to such Superior Proposal in accordance\nwith the Fiduciary Termination Provision summarized below under \u201cTermination of the Merger Agreement,\u201d but only if, in either case, the Cerner Board determines in good faith after consultation with outside legal counsel to the Cerner\nBoard, that the failure to take such ac",
+      "method": "gliner",
+      "confidence": 0.8407067656517029,
+      "rank_score": 0.9407067656517029,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        49863,
+        49875
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Oracle",
+      "passage": "Yes. We estimate that we will need approximately $28.48 billion to purchase all of the Shares pursuant to the Offer and to complete the\nMerger, and that Oracle, Purchaser\u2019s ultimate parent company, will provide sufficient funds for this purpose.",
+      "method": "gliner",
+      "confidence": 0.886237621307373,
+      "rank_score": 0.9362376213073731,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "faq_question": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "char_span": [
+        153,
+        159
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "employee stock options",
+      "passage": "States dollar,\ndealers in securities, traders that\nmark-to-market\ntheir securities, expatriates and former long-term residents of the United States, persons subject to the alternative\nminimum tax, stockholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, stockholders who received Shares in compensatory transactions, pursuant to the exercise of employee stock options, stock\npurchase rights or stock appreciation rights, as restricted stock or otherwise as compensation, and stockholders that beneficially own (actually or constructively) more than 5% of the total fair market value of the Shares).",
+      "method": "gliner",
+      "confidence": 0.934783399105072,
+      "rank_score": 0.934783399105072,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        2566,
+        2588
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Citigroup Inc.",
+      "passage": "He joined Oracle after working as Managing Director in Corporate M&A\u00a0& Strategy for Citigroup Inc. and the law firm of Skadden, Arps, Meagher\u00a0& Flom LLP.\nDorian E.",
+      "method": "gliner",
+      "confidence": 0.6339011788368225,
+      "rank_score": 0.9339011788368226,
+      "doc_role": "otp",
+      "section": "19.",
+      "faq_question": null,
+      "char_span": [
+        2901,
+        2915
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Cerner",
+      "passage": "Yes. Cerner, Parent, Purchaser and (solely with respect to performance of its obligations set forth in certain specified sections thereof) Oracle have\nentered into an Agreement and Plan of Merger, dated as of December\u00a020, 2021 (as it may be amended from time to time, the \u201cMerger Agreement\u201d).",
+      "method": "gliner",
+      "confidence": 0.8780412077903748,
+      "rank_score": 0.9280412077903748,
+      "doc_role": "otp",
+      "section": "Is there an agreement governing the Offer?",
+      "faq_question": "Is there an agreement governing the Offer?",
+      "char_span": [
+        5,
+        11
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "scheduled Expiration",
+      "passage": "to permit such Offer Condition to be satisfied; provided , however , that if, at any scheduled Expiration Date, each of the Offer\nConditions (other than the Minimum Condition) is satisfied or has been waived and the Minimum Condition is not satisfied, Purchaser shall not be required to (but shall, in its sole discretion, be entitled to) extend the Offer for more than 20\nBusiness Days beyond such scheduled Expiration Date; (ii) Purchaser shall extend the Offer from time to time until the later of (A)\u00a0two Business Days after the last day of any then-pending Notice Period (as defined below in Section\u00a011\n\u2013 \u201cThe Merger Agreement; Other Agreements\u201d) and (B)\u00a0two Business Days after the last day of any then-pending Shelf Notice Period (as defined below in Section\u00a011 \u2013 \u201cThe Merger Agreement; Other Agreements\u201d), and\n(",
+      "method": "gliner",
+      "confidence": 0.5914091467857361,
+      "rank_score": 0.9214091467857362,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        876,
+        896
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "acquiring corporation",
+      "passage": "000 holders immediately prior to the execution of the applicable\nagreement of merger by such constituent corporation if, subject to certain statutory provisions:\n\u2022 the agreement of merger expressly permits or requires that the merger shall be effected by Section\u00a0251(h) of the DGCL\nand provides that such merger be effected as soon as practicable following the consummation of the tender offer;\n\u2022 an acquiring corporation consummates an offer for all of the outstanding stock of such constituent corporation; provided, however , such offer may be conditioned upon the tender of a minimum number or percentage of shares of stock of the constituent corporation or any class or series thereof, and may exclude certain shares of stock;",
+      "method": "gliner",
+      "confidence": 0.5666012763977051,
+      "rank_score": 0.9166012763977052,
+      "doc_role": "otp",
+      "section": "Will a meeting of Cerner\u2019s stockholders be required to approve the Merger?",
+      "faq_question": "Will a meeting of Cerner\u2019s stockholders be required to approve the Merger?",
+      "char_span": [
+        722,
+        743
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Certificate Stockholders",
+      "passage": "In this Letter of\nTransmittal, stockholders who deliver certificates representing their Shares are referred to as \u201cCertificate Stockholders.\u201d\nIf\ncertificates representing your Shares are not immediately available or you cannot deliver such certificates (if any) and all other required documents to the Depositary on or prior to the Expiration Date or you cannot complete the book-entry transfer\nprocedures on or prior to the Expiration Date, you may nevertheless tender your Shares according to the guaranteed delivery procedures set forth",
+      "method": "gliner",
+      "confidence": 0.8141114115715027,
+      "rank_score": 0.9141114115715027,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        4499,
+        4523
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1b.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Cerner",
+      "passage": "Following discussion, the Oracle Board approved the submission of a non-binding proposal to acquire all of the outstanding Shares.\nOn November 12, 2021, a representative of Oracle submitted to Cerner a non-binding indication of interest to acquire all of the outstanding Shares for\n$92.00 per Share in cash, together with a request to enter into an exclusivity agreement for exclusive negotiations through December 13, 2021 (the \u201cInitial Proposal\u201d).",
+      "method": "gliner",
+      "confidence": 0.8687849044799805,
+      "rank_score": 0.8687849044799805,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        3597,
+        3603
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "target_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$2,639,836.37",
+      "passage": "Posil\nHogan Lovells\nUS LLP\n4085 Campbell Avenue, Suite 100\nMenlo Park, California 94025\nTelephone:\n(650)\n463-4000\nCALCULATION OF FILING\nFEE\nTransaction Valuation*\nAmount of Filing Fee**\n$28,477,199,240.00\n$2,639,836.37\n*\nEstimated solely for purposes of calculating the filing fee.",
+      "method": "gliner",
+      "confidence": 0.46668484807014465,
+      "rank_score": 0.8666848480701446,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1091,
+        1104
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "constituent corporation",
+      "passage": "by such constituent corporation if, subject to certain statutory provisions:\n\u2022 the agreement of merger expressly permits or requires that the merger shall be effected by Section\u00a0251(h) of the DGCL\nand provides that such merger be effected as soon as practicable following the consummation of the tender offer;\n\u2022 an acquiring corporation consummates an offer for all of the outstanding stock of such constituent corporation; provided, however , such offer may be conditioned upon the tender of a minimum number or percentage of shares of stock of the constituent corporation or any class or series thereof, and may exclude certain shares of stock;",
+      "method": "gliner",
+      "confidence": 0.49114665389060974,
+      "rank_score": 0.8411466538906098,
+      "doc_role": "otp",
+      "section": "Will a meeting of Cerner\u2019s stockholders be required to approve the Merger?",
+      "faq_question": "Will a meeting of Cerner\u2019s stockholders be required to approve the Merger?",
+      "char_span": [
+        806,
+        829
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "11:59 pm",
+      "passage": "Oracle and Cerner filed their respective Premerger Notification and Report Forms with the FTC and the Antitrust\nDivision on January\u00a018, 2022.\nUnder the HSR Act, Purchaser\u2019s purchase of the Shares pursuant to the Offer is subject to an initial\nwaiting period that will expire at 11:59 pm, Eastern Time, on the date that is 15 days after the date that the Premerger Notification and Report Forms are filed with the FTC and the Antitrust Division.",
+      "method": "gliner",
+      "confidence": 0.6378240585327148,
+      "rank_score": 0.8378240585327148,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        2904,
+        2912
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "S-ii",
+      "passage": "Federal Income Tax Consequences of the Offer\u201d)).\nWe urge you to consult with your own tax advisor as to the particular tax consequences to you of the Offer and the Merger.\nS-ii",
+      "method": "gliner",
+      "confidence": 0.7852627635002136,
+      "rank_score": 0.8352627635002137,
+      "doc_role": "otp",
+      "section": "What are the material U.S. federal income tax consequences of tendering my Shares in the Offer or having my\nShares exchanged for cash pursuant to the Merger?",
+      "faq_question": "What are the material U.S. federal income tax consequences of tendering my Shares in the Offer or having my\nShares exchanged for cash pursuant to the Merger?",
+      "char_span": [
+        1287,
+        1291
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Nasdaq",
+      "passage": "No. We expect to complete the Merger as promptly as practicable following the consummation of the Offer. Once the Merger takes place, Cerner will be a\nsubsidiary of Oracle. Following the Merger, we intend to cause Cerner to be delisted from Nasdaq and deregistered under the Exchange Act.\nSee\nSection\u00a013 \u2013\u00a0\u201cCertain Effects of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.7776412963867188,
+      "rank_score": 0.8276412963867188,
+      "doc_role": "otp",
+      "section": "If Shares tendered pursuant to the Offer are purchased by Purchaser, will Cerner continue as a public company?",
+      "faq_question": "If Shares tendered pursuant to the Offer are purchased by Purchaser, will Cerner continue as a public company?",
+      "char_span": [
+        241,
+        247
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "withdrawal",
+      "passage": "However, if Purchaser purchases Shares pursuant to the Offer, and the Merger\nis completed, holders of Shares immediately prior to the effective time of the Merger who (i)\u00a0did not tender their Shares in the Offer, (ii)\u00a0follow the procedures set forth in Section\u00a0262 of the DGCL and (iii)\u00a0do not thereafter\nlose such holders\u2019 appraisal rights (by withdrawal, failure to perfect or otherwise), will be entitled to have their Shares appraised by the Delaware Court of Chancery and to receive payment of the \u201cfair value\u201d of such shares,\nexclusive of any element of value arising from the accomplishment or expectation of the Merger, together with interest, thereon.",
+      "method": "gliner",
+      "confidence": 0.5304040312767029,
+      "rank_score": 0.8104040312767029,
+      "doc_role": "otp",
+      "section": "Will I have appraisal rights in connection with the Offer?",
+      "faq_question": "Will I have appraisal rights in connection with the Offer?",
+      "char_span": [
+        420,
+        430
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash",
+      "passage": "cause:\n\u2022 the Offer is being made for all issued and outstanding Shares solely for cash;\n\u2022 if we consummate the Offer, we intend to complete the Merger, in which all Shares (subject to limited exceptions for Shares\nsubject to appraisal rights and any Shares held by us, Cerner or its subsidiaries) that then remain issued and outstanding will be converted into the right to receive the Offer Price in cash;",
+      "method": "gliner",
+      "confidence": 0.7547817230224609,
+      "rank_score": 0.804781723022461,
+      "doc_role": "otp",
+      "section": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "faq_question": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "char_span": [
+        529,
+        533
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "9:00 a.m.",
+      "passage": "If we extend the Offer, we will inform American Stock Transfer\u00a0& Trust Company, LLC, which is the depositary for the Offer (the\n\u201cDepositary\u201d), of any extension, and will issue a press release announcing the extension no later than 9:00 a.m., Eastern Time, on the next Business Day after the previously scheduled Expiration Date.\nSee Section\u00a01 \u2013\u00a0\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.46582120656967163,
+      "rank_score": 0.7958212065696717,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        231,
+        240
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "immediately prior to the Acceptance Time",
+      "passage": "be\nvalidly tendered (and not withdrawn) a number of Shares (excluding Shares tendered pursuant to guaranteed delivery procedures that have not yet been delivered in settlement or satisfaction of such guarantee) that, together with any Shares owned by\nOracle, Parent or Purchaser immediately prior to the Acceptance Time, represents a majority of the aggregate number of Shares issued and outstanding immediately prior to the Acceptance Time.",
+      "method": "gliner",
+      "confidence": 0.45946455001831055,
+      "rank_score": 0.7894645500183106,
+      "doc_role": "otp",
+      "section": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "faq_question": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "char_span": [
+        758,
+        798
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "surviving corporation",
+      "passage": "Moreover, we may argue in an appraisal proceeding that, for purposes of such proceeding, the fair value of such\nShares is less than the Offer Price.\nSection\u00a0262 of the DGCL provides that, if a merger was approved pursuant to Section\u00a0251(h), either a\nconstituent corporation before the effective date of the merger or the surviving corporation within 10 days thereafter shall notify each of the holders of any class or series of stock of such constituent corporation who are entitled to appraisal\nrights of the approval of the merger and that appraisal rights are available for any or all shares of such class or series of stock of such constituent corporation, and shall include in such notice a copy of Section\u00a0262 of the DGCL.",
+      "method": "gliner",
+      "confidence": 0.47968941926956177,
+      "rank_score": 0.7796894192695618,
+      "doc_role": "otp",
+      "section": "17.",
+      "faq_question": null,
+      "char_span": [
+        1873,
+        1894
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock options",
+      "passage": "Information as of particular\ndates concerning Cerner\u2019s directors and officers, their remuneration, stock options and other compensatory awards granted to them, the principal holders of Cerner\u2019s securities, any material interests of such persons in transactions with\nCerner and other matters is required to be disclosed in proxy statements, the last one having been filed with the SEC on April\u00a02, 2021 and distributed to Cerner\u2019s stockholders.",
+      "method": "gliner",
+      "confidence": 0.7776236534118652,
+      "rank_score": 0.7776236534118652,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        2523,
+        2536
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "next Business Day",
+      "passage": "If we extend the Offer, we will inform American Stock Transfer\u00a0& Trust Company, LLC, which is the depositary for the Offer (the\n\u201cDepositary\u201d), of any extension, and will issue a press release announcing the extension no later than 9:00 a.m., Eastern Time, on the next Business Day after the previously scheduled Expiration Date.\nSee Section\u00a01 \u2013\u00a0\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.42476898431777954,
+      "rank_score": 0.7547689843177796,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        263,
+        280
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Eligible Institution",
+      "passage": "The signature(s) on the notice of withdrawal must be guaranteed by an Eligible Institution, unless such Shares have been tendered for the account of an Eligible\nInstitution.",
+      "method": "gliner",
+      "confidence": 0.6511605978012085,
+      "rank_score": 0.7511605978012085,
+      "doc_role": "otp",
+      "section": "4.",
+      "faq_question": null,
+      "char_span": [
+        979,
+        999
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "multi-national financial institution",
+      "passage": "Using Oracle technologies, Oracle\u2019s customers build, deploy, run, manage and support their internal and external products, services and business operations including, for example, a global cloud application supplier that\nutilizes Oracle Cloud\nInfrastructure-as-a-Service\nto provide its\nSoftware-as-a-Service\nofferings; a multi-national financial institution that runs its banking applications using the Oracle\nExadata Database Machine; and a global consumer products company that leverages Oracle Fusion Cloud Enterprise Resource Planning for its accounting processes, consolidation and financial planning functions.",
+      "method": "gliner",
+      "confidence": 0.6239309310913086,
+      "rank_score": 0.7239309310913086,
+      "doc_role": "otp",
+      "section": "8.",
+      "faq_question": null,
+      "char_span": [
+        2403,
+        2439
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "target",
+      "raw": "constituent corporation",
+      "passage": "f the acquirer holds at least the amount of shares of each class of\nstock of the constituent corporation that would otherwise be required to approve a merger for the constituent corporation, and the other stockholders receive the same consideration for their stock in the merger as was payable in the tender offer,\nthe acquirer can effect a merger without the action of the other stockholders of the constituent corporation.",
+      "method": "gliner",
+      "confidence": 0.41688022017478943,
+      "rank_score": 0.7168802201747895,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        1926,
+        1949
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock appreciation rights",
+      "passage": "at\nmark-to-market\ntheir securities, expatriates and former long-term residents of the United States, persons subject to the alternative\nminimum tax, stockholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, stockholders who received Shares in compensatory transactions, pursuant to the exercise of employee stock options, stock\npurchase rights or stock appreciation rights, as restricted stock or otherwise as compensation, and stockholders that beneficially own (actually or constructively) more than 5% of the total fair market value of the Shares).",
+      "method": "gliner",
+      "confidence": 0.7112040519714355,
+      "rank_score": 0.7112040519714355,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        2615,
+        2640
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number\nof Class\u00a0of Securities",
+      "passage": "20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the Securities Exchange Act of 1934\nCerner Corporation\n(Name of Subject Company)\nCerner\nCorporation\n(Name of Person(s) Filing Statement)\nCommon Stock, par value $0.01 per share\n(Title of Class\u00a0of Securities)\n156782104\n(CUSIP Number\nof Class\u00a0of Securities)\nDaniel P.",
+      "method": "gliner",
+      "confidence": 0.7110496759414673,
+      "rank_score": 0.7110496759414673,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        411,
+        446
+      ],
+      "source_hit_id": "0001193125-22-012548:d289699dsc14d9.htm",
+      "source_accession": "0001193125-22-012548",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective date of the Merger",
+      "passage": "Unless the Delaware Court of\nChancery in its discretion determines otherwise for good cause shown, interest from the effective date of the Merger through the date of payment of the judgment will be compounded quarterly and will accrue at 5% over the Federal Reserve discount\nrate (including any surcharge) as established from time to time during the period between the effective date of the Merger and the date of payment of the judgment.",
+      "method": "gliner",
+      "confidence": 0.6800811886787415,
+      "rank_score": 0.6800811886787415,
+      "doc_role": "otp",
+      "section": "17.",
+      "faq_question": null,
+      "char_span": [
+        963,
+        991
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "effective_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "Extensions of the Offer",
+      "passage": "at:\n\u2022\nchanges the form of consideration to be delivered by Purchaser pursuant to the Offer;\n\u2022\ndecreases the Offer Price or the number of Shares sought to be purchased by Purchaser in the Offer;\n\u2022\nimposes conditions to the Offer in addition to the Offer Conditions;\n\u2022\nextends the Expiration Date other than in the manner permitted or required by the Merger Agreement, which is summarized\nbelow under \u201cExtensions of the Offer;\u201d or\n\u2022\namends, changes or modifies any of the Offer Conditions in a manner that adversely affects any holder of Shares.",
+      "method": "gliner",
+      "confidence": 0.6572049260139465,
+      "rank_score": 0.6572049260139465,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        3606,
+        3629
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "proration_terms",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "restricted stock awards",
+      "passage": "The Offer is being made only for Shares, and not for outstanding stock\noptions, restricted stock awards, time-based restricted stock units or performance-based stock units issued by Cerner.",
+      "method": "gliner",
+      "confidence": 0.5513826608657837,
+      "rank_score": 0.6013826608657837,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options, restricted stock awards, time-based restricted stock\nunits and performance-based restricted stock units (if any) in the Offer?",
+      "faq_question": "What will happen to my stock options, restricted stock awards, time-based restricted stock\nunits and performance-based restricted stock units (if any) in the Offer?",
+      "char_span": [
+        80,
+        103
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock\npurchase rights",
+      "passage": "in securities, traders that\nmark-to-market\ntheir securities, expatriates and former long-term residents of the United States, persons subject to the alternative\nminimum tax, stockholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, stockholders who received Shares in compensatory transactions, pursuant to the exercise of employee stock options, stock\npurchase rights or stock appreciation rights, as restricted stock or otherwise as compensation, and stockholders that beneficially own (actually or constructively) more than 5% of the total fair market value of the Shares).",
+      "method": "gliner",
+      "confidence": 0.5975876450538635,
+      "rank_score": 0.5975876450538635,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        2590,
+        2611
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "Acceptance Time",
+      "passage": "not withdrawn) a number of Shares (excluding Shares tendered pursuant to guaranteed delivery procedures that have not yet been delivered in settlement or satisfaction of such guarantee) that, together with any Shares owned by\nOracle, Parent or Purchaser immediately prior to the Acceptance Time, represents a majority of the aggregate number of Shares issued and outstanding immediately prior to the Acceptance Time.",
+      "method": "gliner",
+      "confidence": 0.8515238165855408,
+      "rank_score": 0.5815238165855408,
+      "doc_role": "otp",
+      "section": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "faq_question": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "char_span": [
+        783,
+        798
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Cerner",
+      "passage": "We are making the Offer\nbecause we want to acquire control of, and ultimately the entire equity interest in, Cerner. Following consummation of the Offer, we intend to complete the merger of Purchaser with and into\nS-i\nTable of Contents",
+      "method": "gliner",
+      "confidence": 0.5156533718109131,
+      "rank_score": 0.5656533718109131,
+      "doc_role": "otp",
+      "section": "Why are you making the Offer?",
+      "faq_question": "Why are you making the Offer?",
+      "char_span": [
+        109,
+        115
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificates",
+      "passage": "If any tendered Shares are not accepted for payment\npursuant to the terms and conditions of the Offer for any reason, or if Share Certificates are submitted evidencing more Shares than are tendered, Share Certificates representing unpurchased shares will be returned, without expense to the tendering\nstockholder (or, in the case of Shares tendered by book-entry transfer into the Depositary\u2019s account at DTC pursuant to the procedure set forth in Section\u00a03 \u2013\u00a0\u201cProcedures for Accepting the Offer and Tendering Shares,\u201d\nsuch Shares will be cre",
+      "method": "gliner",
+      "confidence": 0.517486572265625,
+      "rank_score": 0.517486572265625,
+      "doc_role": "otp",
+      "section": "2.",
+      "faq_question": null,
+      "char_span": [
+        3959,
+        3977
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "S-iv",
+      "passage": "The\nobligation of Purchaser to accept for payment and pay for Shares validly tendered (and not withdrawn) pursuant to the Offer is subject to the satisfaction or waiver of a number of conditions by 12:00 midnight,\nS-iv\nTable of Contents",
+      "method": "gliner",
+      "confidence": 0.46121013164520264,
+      "rank_score": 0.5112101316452027,
+      "doc_role": "otp",
+      "section": "What are the most significant conditions to the Offer?",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "char_span": [
+        214,
+        218
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "S-v",
+      "passage": "You may withdraw your previously tendered Shares at any time until 12:00 midnight, Eastern Time, at the end of the day on the Expiration Date. In\naddition, if we have not accepted your Shares for payment by the end of March 19, 2022, you may withdraw them at any time after that date until we accept your Shares for payment.\nSee Section\u00a04 \u2013\u00a0\u201cWithdrawal Rights.\u201d\nS-v",
+      "method": "gliner",
+      "confidence": 0.4411791265010834,
+      "rank_score": 0.49117912650108336,
+      "doc_role": "otp",
+      "section": "Until what time may I withdraw previously tendered Shares?",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "char_span": [
+        362,
+        365
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificate",
+      "passage": "See Instruction 1 of the Letter of Transmittal.\nIf a Share Certificate is registered in the name of a person or persons other than the signers of the Letter of Transmittal, or if payment is to be made\nor delivered to, or a Share Certificate not accepted for payment or not tendered is to be issued in, the name(s) of a person or persons other than the registered holder(s), then the Share Certificate must be endorsed or accompanied by appropriate\nduly executed stock po",
+      "method": "gliner",
+      "confidence": 0.48509639501571655,
+      "rank_score": 0.48509639501571655,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        3369,
+        3386
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "No. We do not think Purchaser\u2019s financial condition is relevant to your decision whether to tender Shares and accept the Offer because:\n\u2022 the Offer is being made for all issued and outstanding Shares solely for cash;\n\u2022 if we consummate the Offer, we intend to complete the Merger, in which all Shares (subject to limited exceptions for Shares\nsubject to appraisal rights and any Shares held by us, Cerner or its subsidiaries) that then remain issued and outstanding will be converted into the right to receive the Offer Price in cash;",
+      "method": "gliner",
+      "confidence": 0.9579987525939941,
+      "rank_score": 0.4579987525939941,
+      "doc_role": "otp",
+      "section": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "faq_question": "Is Purchaser\u2019s financial condition relevant to my decision to tender my Shares in the Offer?",
+      "char_span": [
+        193,
+        199
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Cerner",
+      "passage": "dividend paid by Cerner on each Share then outstanding for each of the periods indicated:\nAmount\u00a0Per\u00a0Share\nFiscal Year Ending December 31, 2021\nFirst Quarter\n$\n0.22\nSecond Quarter\n$\n0.22\nThird Quarter\n$\n0.22\nFourth Quarter\n$\n0.27\nFiscal Year Ended December 31, 2020\nFirst Quarter\n$\n0.18\nSecond Quarter\n$\n0.18\nThird Quarter\n$\n0.18\nFourth Quarter\n$\n0.22\nThe Merger Agreement provides that, except for Cerner\u2019s regular quarterly dividend, from the date of the Merger\nAgreement to the effective time of the Merger, without the prior written consent of Parent, Cerner will not declare, set aside or pay any dividends on, or make any other distributions (whether in cash, stock, property\n11\nTable of Contents\nor otherwise) in respect of any capital stock of Cerner (except for distributions under Cerner\u2019s 2001",
+      "method": "gliner",
+      "confidence": 0.42233359813690186,
+      "rank_score": 0.42233359813690186,
+      "doc_role": "otp",
+      "section": "6.",
+      "faq_question": null,
+      "char_span": [
+        2172,
+        2178
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "ormal notice of appraisal rights,\ndeliver to Cerner a written demand for appraisal of Shares held, which demand must reasonably inform Cerner of the identity of the stockholder and that the stockholder is demanding appraisal;\n\u2022\nnot tender such stockholder\u2019s Shares in the Offer; and\n\u2022\ncontinuously hold of record the Shares from the date on which the written demand for appraisal is made through the\nEffective Time.",
+      "method": "gliner",
+      "confidence": 0.927290141582489,
+      "rank_score": 0.37729014158248897,
+      "doc_role": "otp",
+      "section": "17.",
+      "faq_question": null,
+      "char_span": [
+        3139,
+        3153
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "has not been waived, Purchaser shall extend the Offer on one or more occasions, for an\nadditional period of up to 20 Business Days (as defined in the Merger Agreement) per extension, to permit such Offer Condition to be satisfied; provided , however , that if, at any scheduled Expiration Date, each of the Offer\nConditions (other than the Minimum Condition) is satisfied or has been waived and the Minimum Condition is not satisfied, Purchaser shall not be required to (but shall, in its sole discretion, be entitled to) extend the Offer for more than 20\nBusiness Days beyond such scheduled Expiration Date; (ii) Purchaser shall extend the Offer from time to time until the later of (A)\u00a0two Business Days after the last day of any then-pending Notice Period (as defined below in Section\u00a011\n\u2013 \u201cThe Merger Agreement;",
+      "method": "gliner",
+      "confidence": 0.8580436706542969,
+      "rank_score": 0.3580436706542968,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        693,
+        710
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "fer Statement under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nCERNER CORPORATION\n(Name of Subject Company (Issuer))\nCEDAR ACQUISITION CORPORATION\n(Offeror)\na subsidiary of\nOC ACQUISITION\nLLC\n(Parent of Offeror)\na\nsubsidiary of\nORACLE CORPORATION\n(Parent of Offeror)\n(Names of Filing\nPersons)\nCommon Stock, Par Value $0.01 per share\n(Title of Class\u00a0of Securities)\n156782104\n(CUSIP Number of Class\u00a0of\nSecurities)\nBrian S.",
+      "method": "gliner",
+      "confidence": 0.6549102663993835,
+      "rank_score": 0.3549102663993835,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        501,
+        513
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "20549\nSchedule TO\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nCERNER CORPORATION\n(Name of Subject Company (Issuer))\nCEDAR ACQUISITION CORPORATION\n(Offeror)\na subsidiary of\nOC ACQUISITION\nLLC\n(Parent of Offeror)\na\nsubsidiary of\nORACLE CORPORATION\n(Parent of Offeror)\n(Names of Filing\nPersons)\nCommon Stock, Par Value $0.01 per share\n(Title of Class\u00a0of Securities)\n156782104\n(CUSIP Number of Class\u00a0of\nSecurities)\nBrian S.",
+      "method": "gliner",
+      "confidence": 0.6758096218109131,
+      "rank_score": 0.325809621810913,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        419,
+        431
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash on\nhand",
+      "passage": "Oracle expects to obtain the necessary funds to pay for Shares validly tendered, and not withdrawn, pursuant to the Offer from cash on\nhand at or about the first time as of which Purchaser accepts any Shares for payment pursuant to the Offer (such time, the \u201cAcceptance Time\u201d) and to obtain the necessary funds to pay for Shares exchanged for cash in the Merger from cash on\nhand at or about the time of the closing of the Merger.\nSee Section\u00a09 \u2013\u00a0\u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.5478345155715942,
+      "rank_score": 0.29783451557159424,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "faq_question": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase pursuant to the\nOffer?",
+      "char_span": [
+        613,
+        625
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "United States dollar",
+      "passage": "federal income tax purposes, United States persons whose functional currency is not the United States dollar,\ndealers in securities, traders that\nmark-to-market\ntheir securities, expatriates and former long-term residents of the United States, persons subject to the alternative\nminimum tax, stockholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, stockholders who received Shares in compensatory transactions, pursuant to the exercise of employee stock",
+      "method": "gliner",
+      "confidence": 0.46168196201324463,
+      "rank_score": 0.16168196201324464,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        2160,
+        2180
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "currency_code",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Acceptance Time",
+      "passage": "Oracle expects to obtain the necessary funds to\npay for Shares validly tendered, and not withdrawn, pursuant to the Offer from cash on hand at or about the Acceptance Time and to obtain the necessary funds to pay for Shares exchanged for cash in the Merger from cash on hand at or about the time\nof the closing of the Merger.",
+      "method": "gliner",
+      "confidence": 0.7106325626373291,
+      "rank_score": 0.16063256263732906,
+      "doc_role": "otp",
+      "section": "9.",
+      "faq_question": null,
+      "char_span": [
+        775,
+        790
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "settlement_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Share",
+      "passage": "On December\u00a016, 2021, the last full trading day before a media report was published speculating about a potential agreement between Oracle and\nCerner, the reported closing sales price of the Shares on Nasdaq was $79.49. On January 18, 2022, the last full day of trading before commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $92.03 per Share. We\nencourage you to obtain a recent market quotation for Shares before deciding whether to tender your Shares.\nSee Section\u00a06\n\u2013\u00a0\u201cPrice Range of Shares; Dividends.\u201d\nS-viii",
+      "method": "gliner",
+      "confidence": 0.4536833167076111,
+      "rank_score": -0.04631668329238896,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        376,
+        381
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "SEC",
+      "passage": "7.\nCertain Information Concerning Cerner\nThe summary information set forth below is qualified in its entirety by reference to Cerner\u2019s public filings with the SEC (which may be obtained and\ninspected as described below under \u201cAdditional Information\u201d) and should be considered in conjunction with the financial and other information in such filings and other publicly available information.",
+      "method": "gliner",
+      "confidence": 0.5722813606262207,
+      "rank_score": -0.12771863937377925,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        159,
+        162
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "DTC",
+      "passage": "Any financial institution that is a participant in the system of DTC may make a book-entry delivery of Shares by causing DTC to transfer such Shares into the Depositary\u2019s account at DTC in\naccordance with DTC\u2019s procedures for such transfer.\n5\nTable of Contents\nHowever, although delivery of Shares may be effected through book-entry transfer at DTC, either the Letter of Transmittal (or a manually signed facsimile thereof), properly completed and duly\nexecuted, together with any required signature guarantees, or an Agent\u2019s Message in lieu of the Letter of Transmittal, and any other required documents, must, in any case, be received by the Depositary at one of its addresses set forth on the\nback cover of this Offer to Purchase on or prior to",
+      "method": "gliner",
+      "confidence": 0.5452061295509338,
+      "rank_score": -0.40479387044906623,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        1612,
+        1615
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "Holders.\nThe exchange of\nShares for cash pursuant to the Offer or the Merger will be a taxable transaction to U.S.",
+      "method": "gliner",
+      "confidence": 0.8374291062355042,
+      "rank_score": -0.4625708937644959,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        5048,
+        5054
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Depositary",
+      "passage": "ransmittal, and any other required documents, must, in any case, be received by the Depositary at one of its addresses set forth on the\nback cover of this Offer to Purchase on or prior to the Expiration Date, or the tendering stockholder must comply with the guaranteed delivery procedures described below under \u201cGuaranteed Delivery.\u201d Delivery of documents to DTC does not\nconstitute delivery to the Depositary.\nSignature Guarantees\n.",
+      "method": "gliner",
+      "confidence": 0.4649592936038971,
+      "rank_score": -0.48504070639610297,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        2227,
+        2237
+      ],
+      "source_hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "source_accession": "0001193125-22-012503",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.826610+00:00"
+}

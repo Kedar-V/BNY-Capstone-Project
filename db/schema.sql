@@ -191,3 +191,368 @@ SELECT
 FROM events e
 JOIN event_field_values v ON v.event_id = e.event_id AND v.is_current
 JOIN schema_fields f ON f.field_name = v.field_name;
+
+-- ---------------------------------------------------------------------------
+-- Concise Rep tables (path-isolated preprocess handoff)
+-- Generated pattern: {path}_concise_{reps|docs|segments|entities|facts}
+-- ---------------------------------------------------------------------------
+
+
+-- === tender concise rep ===
+CREATE TABLE IF NOT EXISTS tender_concise_reps (
+    concise_rep_id    BIGSERIAL PRIMARY KEY,
+    event_id          TEXT NOT NULL REFERENCES events (event_id) ON DELETE CASCADE,
+    version_id        BIGINT REFERENCES event_versions (version_id) ON DELETE SET NULL,
+    schema_version    TEXT NOT NULL DEFAULT '1',
+    pipeline          TEXT NOT NULL DEFAULT 'to_preprocess_gliner',
+    gliner_model      TEXT,
+    preprocess_status TEXT NOT NULL,
+    exception_flags   TEXT[],
+    cohort            TEXT,
+    artifact_path     TEXT,
+    nlp_versions      JSONB NOT NULL DEFAULT '{}'::jsonb,
+    payload_json      JSONB,
+    created_at        TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_tender_concise_reps_event ON tender_concise_reps (event_id);
+
+CREATE TABLE IF NOT EXISTS tender_concise_docs (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES tender_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    filename          TEXT,
+    download_status   TEXT,
+    content_sha1      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS tender_concise_segments (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES tender_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    segment_id        TEXT,
+    doc_role          TEXT,
+    kind              TEXT,
+    heading           TEXT,
+    question          TEXT,
+    text_preview      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS tender_concise_entities (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES tender_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    label             TEXT,
+    text              TEXT,
+    confidence        REAL,
+    doc_role          TEXT,
+    segment_id        TEXT,
+    faq_question      TEXT,
+    section           TEXT
+);
+
+CREATE TABLE IF NOT EXISTS tender_concise_facts (
+    fact_id           BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES tender_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    field_hint        TEXT NOT NULL,
+    raw_text          TEXT NOT NULL,
+    passage           TEXT,
+    method            TEXT NOT NULL CHECK (method = 'gliner'),
+    confidence        REAL,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    section           TEXT,
+    faq_question      TEXT,
+    char_start        INTEGER,
+    char_end          INTEGER,
+    label             TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_tender_concise_facts_hint ON tender_concise_facts (field_hint);
+
+
+-- === exchange concise rep ===
+CREATE TABLE IF NOT EXISTS exchange_concise_reps (
+    concise_rep_id    BIGSERIAL PRIMARY KEY,
+    event_id          TEXT NOT NULL REFERENCES events (event_id) ON DELETE CASCADE,
+    version_id        BIGINT REFERENCES event_versions (version_id) ON DELETE SET NULL,
+    schema_version    TEXT NOT NULL DEFAULT '1',
+    pipeline          TEXT NOT NULL DEFAULT 'to_preprocess_gliner',
+    gliner_model      TEXT,
+    preprocess_status TEXT NOT NULL,
+    exception_flags   TEXT[],
+    cohort            TEXT,
+    artifact_path     TEXT,
+    nlp_versions      JSONB NOT NULL DEFAULT '{}'::jsonb,
+    payload_json      JSONB,
+    created_at        TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_exchange_concise_reps_event ON exchange_concise_reps (event_id);
+
+CREATE TABLE IF NOT EXISTS exchange_concise_docs (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES exchange_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    filename          TEXT,
+    download_status   TEXT,
+    content_sha1      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS exchange_concise_segments (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES exchange_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    segment_id        TEXT,
+    doc_role          TEXT,
+    kind              TEXT,
+    heading           TEXT,
+    question          TEXT,
+    text_preview      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS exchange_concise_entities (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES exchange_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    label             TEXT,
+    text              TEXT,
+    confidence        REAL,
+    doc_role          TEXT,
+    segment_id        TEXT,
+    faq_question      TEXT,
+    section           TEXT
+);
+
+CREATE TABLE IF NOT EXISTS exchange_concise_facts (
+    fact_id           BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES exchange_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    field_hint        TEXT NOT NULL,
+    raw_text          TEXT NOT NULL,
+    passage           TEXT,
+    method            TEXT NOT NULL CHECK (method = 'gliner'),
+    confidence        REAL,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    section           TEXT,
+    faq_question      TEXT,
+    char_start        INTEGER,
+    char_end          INTEGER,
+    label             TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_exchange_concise_facts_hint ON exchange_concise_facts (field_hint);
+
+
+-- === rights concise rep ===
+CREATE TABLE IF NOT EXISTS rights_concise_reps (
+    concise_rep_id    BIGSERIAL PRIMARY KEY,
+    event_id          TEXT NOT NULL REFERENCES events (event_id) ON DELETE CASCADE,
+    version_id        BIGINT REFERENCES event_versions (version_id) ON DELETE SET NULL,
+    schema_version    TEXT NOT NULL DEFAULT '1',
+    pipeline          TEXT NOT NULL DEFAULT 'to_preprocess_gliner',
+    gliner_model      TEXT,
+    preprocess_status TEXT NOT NULL,
+    exception_flags   TEXT[],
+    cohort            TEXT,
+    artifact_path     TEXT,
+    nlp_versions      JSONB NOT NULL DEFAULT '{}'::jsonb,
+    payload_json      JSONB,
+    created_at        TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_rights_concise_reps_event ON rights_concise_reps (event_id);
+
+CREATE TABLE IF NOT EXISTS rights_concise_docs (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES rights_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    filename          TEXT,
+    download_status   TEXT,
+    content_sha1      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS rights_concise_segments (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES rights_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    segment_id        TEXT,
+    doc_role          TEXT,
+    kind              TEXT,
+    heading           TEXT,
+    question          TEXT,
+    text_preview      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS rights_concise_entities (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES rights_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    label             TEXT,
+    text              TEXT,
+    confidence        REAL,
+    doc_role          TEXT,
+    segment_id        TEXT,
+    faq_question      TEXT,
+    section           TEXT
+);
+
+CREATE TABLE IF NOT EXISTS rights_concise_facts (
+    fact_id           BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES rights_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    field_hint        TEXT NOT NULL,
+    raw_text          TEXT NOT NULL,
+    passage           TEXT,
+    method            TEXT NOT NULL CHECK (method = 'gliner'),
+    confidence        REAL,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    section           TEXT,
+    faq_question      TEXT,
+    char_start        INTEGER,
+    char_end          INTEGER,
+    label             TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_rights_concise_facts_hint ON rights_concise_facts (field_hint);
+
+
+-- === merger concise rep ===
+CREATE TABLE IF NOT EXISTS merger_concise_reps (
+    concise_rep_id    BIGSERIAL PRIMARY KEY,
+    event_id          TEXT NOT NULL REFERENCES events (event_id) ON DELETE CASCADE,
+    version_id        BIGINT REFERENCES event_versions (version_id) ON DELETE SET NULL,
+    schema_version    TEXT NOT NULL DEFAULT '1',
+    pipeline          TEXT NOT NULL DEFAULT 'to_preprocess_gliner',
+    gliner_model      TEXT,
+    preprocess_status TEXT NOT NULL,
+    exception_flags   TEXT[],
+    cohort            TEXT,
+    artifact_path     TEXT,
+    nlp_versions      JSONB NOT NULL DEFAULT '{}'::jsonb,
+    payload_json      JSONB,
+    created_at        TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_merger_concise_reps_event ON merger_concise_reps (event_id);
+
+CREATE TABLE IF NOT EXISTS merger_concise_docs (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES merger_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    filename          TEXT,
+    download_status   TEXT,
+    content_sha1      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS merger_concise_segments (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES merger_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    segment_id        TEXT,
+    doc_role          TEXT,
+    kind              TEXT,
+    heading           TEXT,
+    question          TEXT,
+    text_preview      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS merger_concise_entities (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES merger_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    label             TEXT,
+    text              TEXT,
+    confidence        REAL,
+    doc_role          TEXT,
+    segment_id        TEXT,
+    faq_question      TEXT,
+    section           TEXT
+);
+
+CREATE TABLE IF NOT EXISTS merger_concise_facts (
+    fact_id           BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES merger_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    field_hint        TEXT NOT NULL,
+    raw_text          TEXT NOT NULL,
+    passage           TEXT,
+    method            TEXT NOT NULL CHECK (method = 'gliner'),
+    confidence        REAL,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    section           TEXT,
+    faq_question      TEXT,
+    char_start        INTEGER,
+    char_end          INTEGER,
+    label             TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_merger_concise_facts_hint ON merger_concise_facts (field_hint);
+
+
+-- === conversion concise rep ===
+CREATE TABLE IF NOT EXISTS conversion_concise_reps (
+    concise_rep_id    BIGSERIAL PRIMARY KEY,
+    event_id          TEXT NOT NULL REFERENCES events (event_id) ON DELETE CASCADE,
+    version_id        BIGINT REFERENCES event_versions (version_id) ON DELETE SET NULL,
+    schema_version    TEXT NOT NULL DEFAULT '1',
+    pipeline          TEXT NOT NULL DEFAULT 'to_preprocess_gliner',
+    gliner_model      TEXT,
+    preprocess_status TEXT NOT NULL,
+    exception_flags   TEXT[],
+    cohort            TEXT,
+    artifact_path     TEXT,
+    nlp_versions      JSONB NOT NULL DEFAULT '{}'::jsonb,
+    payload_json      JSONB,
+    created_at        TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_conversion_concise_reps_event ON conversion_concise_reps (event_id);
+
+CREATE TABLE IF NOT EXISTS conversion_concise_docs (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES conversion_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    filename          TEXT,
+    download_status   TEXT,
+    content_sha1      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS conversion_concise_segments (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES conversion_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    segment_id        TEXT,
+    doc_role          TEXT,
+    kind              TEXT,
+    heading           TEXT,
+    question          TEXT,
+    text_preview      TEXT
+);
+
+CREATE TABLE IF NOT EXISTS conversion_concise_entities (
+    id                BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES conversion_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    label             TEXT,
+    text              TEXT,
+    confidence        REAL,
+    doc_role          TEXT,
+    segment_id        TEXT,
+    faq_question      TEXT,
+    section           TEXT
+);
+
+CREATE TABLE IF NOT EXISTS conversion_concise_facts (
+    fact_id           BIGSERIAL PRIMARY KEY,
+    concise_rep_id    BIGINT NOT NULL REFERENCES conversion_concise_reps (concise_rep_id) ON DELETE CASCADE,
+    field_hint        TEXT NOT NULL,
+    raw_text          TEXT NOT NULL,
+    passage           TEXT,
+    method            TEXT NOT NULL CHECK (method = 'gliner'),
+    confidence        REAL,
+    doc_role          TEXT,
+    source_hit_id     TEXT REFERENCES documents (hit_id) ON DELETE SET NULL,
+    source_accession  TEXT,
+    section           TEXT,
+    faq_question      TEXT,
+    char_start        INTEGER,
+    char_end          INTEGER,
+    label             TEXT
+);
+CREATE INDEX IF NOT EXISTS idx_conversion_concise_facts_hint ON conversion_concise_facts (field_hint);

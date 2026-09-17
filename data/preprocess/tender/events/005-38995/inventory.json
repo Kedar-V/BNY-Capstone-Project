@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-38995",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "ABIOMED INC",
+  "primary_cik": "0000200406",
+  "written_at": "2026-09-17T06:01:41.495681+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 12,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "accession": "0001193125-22-285216",
+      "filename": "d411777dsctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2022-11-15 00:00:00",
+      "primary_cik": "0000815094",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "accession": "0001193125-22-285216",
+      "filename": "d411777dex99a1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "EX-99.(A)(1)(A)",
+      "file_date": "2022-11-15 00:00:00",
+      "primary_cik": "0000815094",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001193125-22-285216:d411777dex99a1b.htm",
+      "accession": "0001193125-22-285216",
+      "filename": "d411777dex99a1b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": "EX-99.(A)(1)(B)",
+      "file_date": "2022-11-15 00:00:00",
+      "primary_cik": "0000815094",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001193125-22-285225:d359247dsc14d9.htm",
+      "accession": "0001193125-22-285225",
+      "filename": "d359247dsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2022-11-15 00:00:00",
+      "primary_cik": "0000815094",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

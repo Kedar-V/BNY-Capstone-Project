@@ -1,0 +1,50 @@
+{
+  "event_id": "005-45693",
+  "docs": [
+    {
+      "role": "cover",
+      "accession": "0001839882-24-045335",
+      "filename": "tci_sctot-121624.htm",
+      "hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-45693/raw/0001839882-24-045335__tci_sctot-121624.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/949961/000183988224045335/tci_sctot-121624.htm",
+      "status": "ok",
+      "bytes": 59947,
+      "sha1": "d2f6d5603c0eeee9e14e9fef61e20400198df3c9"
+    },
+    {
+      "role": "otp",
+      "accession": "0001839882-24-045335",
+      "filename": "ex99-a1a.htm",
+      "hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-45693/raw/0001839882-24-045335__ex99-a1a.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/949961/000183988224045335/ex99-a1a.htm",
+      "status": "ok",
+      "bytes": 331051,
+      "sha1": "b0d383867f6b288178fabebc9174fe6ee1a7d391"
+    },
+    {
+      "role": "lot",
+      "accession": "0001839882-24-045335",
+      "filename": "ex99-a1b.htm",
+      "hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-45693/raw/0001839882-24-045335__ex99-a1b.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/949961/000183988224045335/ex99-a1b.htm",
+      "status": "ok",
+      "bytes": 111815,
+      "sha1": "27653eb49db84e6d90ed50a6eafded9699fe598e"
+    },
+    {
+      "role": "sc_14d9",
+      "accession": "0001839882-24-045339",
+      "filename": "ior_sc14d9-121624.htm",
+      "hit_id": "0001839882-24-045339:ior_sc14d9-121624.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-45693/raw/0001839882-24-045339__ior_sc14d9-121624.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/949961/000183988224045339/ior_sc14d9-121624.htm",
+      "status": "ok",
+      "bytes": 51567,
+      "sha1": "bea1f676a18b13557c9db3ee7884f6581a6acb38"
+    }
+  ],
+  "updated_at": "2026-09-17T07:22:43.407367+00:00"
+}

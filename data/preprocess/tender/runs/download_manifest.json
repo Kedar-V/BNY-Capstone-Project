@@ -1,0 +1,15 @@
+{
+  "stage": "download",
+  "path": "tender",
+  "written_at": "2026-09-17T07:22:43.408661+00:00",
+  "status": "ok",
+  "metrics": {
+    "n_docs_attempted": 101,
+    "n_ok": 101,
+    "n_skipped_cached": 0,
+    "n_http_error": 0,
+    "n_empty": 0,
+    "n_events_pending": 27
+  },
+  "errors": []
+}

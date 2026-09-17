@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-32163",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "COMPUTER TASK GROUP INC",
+  "primary_cik": "0000023111",
+  "written_at": "2026-09-17T06:01:41.479982+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 20,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dsctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2023-08-23 00:00:00",
+      "primary_cik": "0000023111",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dex99a1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "EXHIBIT (A)(1)(A)",
+      "file_date": "2023-08-23 00:00:00",
+      "primary_cik": "0000023111",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001193125-23-218490:d531308dex99a1b.htm",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dex99a1b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": "EXHIBIT (A)(1)(B)",
+      "file_date": "2023-08-23 00:00:00",
+      "primary_cik": "0000023111",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001193125-23-218549:d528209dsc14d9.htm",
+      "accession": "0001193125-23-218549",
+      "filename": "d528209dsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2023-08-23 00:00:00",
+      "primary_cik": "0000023111",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

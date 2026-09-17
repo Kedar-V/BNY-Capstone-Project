@@ -1,0 +1,39 @@
+{
+  "event_id": "005-09319",
+  "docs": [
+    {
+      "role": "cover",
+      "accession": "0001193125-20-058986",
+      "filename": "d892697dsctot.htm",
+      "hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-09319/raw/0001193125-20-058986__d892697dsctot.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/859163/000119312520058986/d892697dsctot.htm",
+      "status": "ok",
+      "bytes": 34197,
+      "sha1": "0dd65466e8cfe5b88c66de0b67bccfdc58ca5bd9"
+    },
+    {
+      "role": "otp",
+      "accession": "0001193125-20-058986",
+      "filename": "d892697dex99a1vi.htm",
+      "hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-09319/raw/0001193125-20-058986__d892697dex99a1vi.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/859163/000119312520058986/d892697dex99a1vi.htm",
+      "status": "ok",
+      "bytes": 23888,
+      "sha1": "edc29a5736d1591592975067324e87d6f392b261"
+    },
+    {
+      "role": "sc_14d9",
+      "accession": "0001193125-20-059038",
+      "filename": "d865735dsc14d9.htm",
+      "hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-09319/raw/0001193125-20-059038__d865735dsc14d9.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/859163/000119312520059038/d865735dsc14d9.htm",
+      "status": "ok",
+      "bytes": 450138,
+      "sha1": "85840d92f0238c530c26a7c85ce12148ca275bf5"
+    }
+  ],
+  "updated_at": "2026-09-17T07:21:48.189119+00:00"
+}

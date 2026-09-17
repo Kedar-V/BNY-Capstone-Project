@@ -1,0 +1,3081 @@
+{
+  "schema_version": "1",
+  "event_id": "005-06295",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "d664eb2ef273584a8397a435da73c8904ff74c2b",
+      "hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "accession": "0001104659-24-096937",
+      "filename": "tm2422218-2_sctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "ad777e763592679a63970f9b941f4e4f1cd17889",
+      "hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "accession": "0001104659-24-096937",
+      "filename": "tm2422218d2_ex99-a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "9f731afe2595d393f4c09fcaac20cbe12393dcfb",
+      "hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1b.htm",
+      "accession": "0001104659-24-096937",
+      "filename": "tm2422218d2_ex99-a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "fe042563391efbbdca0bcbf62a14ced52c6a54dd",
+      "hit_id": "0001193125-24-213237:d855994dsc14d9.htm",
+      "accession": "0001193125-24-213237",
+      "filename": "d855994dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "cusip_code",
+      "text": "92240M108",
+      "score": 0.7810561060905457,
+      "rank_score": 1.5310561060905457,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$15.00",
+      "score": 0.7695801854133606,
+      "rank_score": 1.4195801854133605,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "September\u00a016, 2024",
+      "score": 0.6993921995162964,
+      "rank_score": 1.3493921995162963,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1LMR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$4,300,000,000",
+      "score": 0.6845630407333374,
+      "rank_score": 1.3345630407333373,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t9AAO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$126.2\u00a0million",
+      "score": 0.6828349828720093,
+      "rank_score": 1.3328349828720092,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Vector Group Ltd.",
+      "score": 0.8321368098258972,
+      "rank_score": 1.2321368098258974,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "November\u00a02, 2024",
+      "score": 0.6216358542442322,
+      "rank_score": 1.221635854244232,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t4WRI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$15.01",
+      "score": 0.5679031610488892,
+      "rank_score": 1.217903161048889,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Group Ltd.",
+      "score": 0.8776206374168396,
+      "rank_score": 1.1776206374168396,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$13.99",
+      "score": 0.5275196433067322,
+      "rank_score": 1.177519643306732,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "VGR",
+      "score": 0.827456533908844,
+      "rank_score": 1.177456533908844,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "October\u00a01, 2024",
+      "score": 0.514653742313385,
+      "rank_score": 1.164653742313385,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "September\u00a012, 2024",
+      "score": 0.6850352883338928,
+      "rank_score": 1.1350352883338928,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO3",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.20",
+      "score": 0.47924360632896423,
+      "rank_score": 1.1292436063289641,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Liggett Group LLC",
+      "score": 0.825597882270813,
+      "rank_score": 1.125597882270813,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO1",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE",
+      "score": 0.7703375816345215,
+      "rank_score": 1.1203375816345216,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1MAO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "August\u00a030, 2024",
+      "score": 0.4406566023826599,
+      "rank_score": 1.0906566023826598,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1LMR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.10",
+      "score": 0.4267522692680359,
+      "rank_score": 1.0767522692680358,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Vapor Merger Sub Inc.",
+      "score": 0.6715266108512878,
+      "rank_score": 1.071526610851288,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "New Valley LLC",
+      "score": 0.7451769709587097,
+      "rank_score": 1.0451769709587098,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO1",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Vector Group Ltd.",
+      "score": 0.7184522747993469,
+      "rank_score": 1.018452274799347,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Liggett Vector Brands LLC",
+      "score": 0.7131954431533813,
+      "rank_score": 1.0131954431533814,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO1",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "JTI (US) HOLDING INC.",
+      "score": 0.7040399312973022,
+      "rank_score": 1.0040399312973023,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "August\u00a020, 2024",
+      "score": 0.5445399284362793,
+      "rank_score": 0.9945399284362793,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO3",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "JTI",
+      "score": 0.6072061657905579,
+      "rank_score": 0.9572061657905578,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "JTI (US) Holding Inc.",
+      "score": 0.6491020917892456,
+      "rank_score": 0.9491020917892456,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Parent and Merger Sub",
+      "score": 0.8440009355545044,
+      "rank_score": 0.9440009355545044,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "In-the-Money Options",
+      "score": 0.9425432085990906,
+      "rank_score": 0.9425432085990906,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t4WRI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "LD",
+      "score": 0.5778573751449585,
+      "rank_score": 0.9278573751449585,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ICJ",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "employee stock options",
+      "score": 0.9249671101570129,
+      "rank_score": 0.9249671101570129,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t5UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Sullivan & Cromwell",
+      "score": 0.8056638240814209,
+      "rank_score": 0.9056638240814209,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1MAO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "11:59\u00a0p.m.",
+      "score": 0.7023623585700989,
+      "rank_score": 0.9023623585700988,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1LMR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Freshfields Bruckhaus Deringer US LLP",
+      "score": 0.6993881464004517,
+      "rank_score": 0.8993881464004516,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Surviving Corporation",
+      "score": 0.5724976658821106,
+      "rank_score": 0.8724976658821106,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Japan Tobacco Inc.",
+      "score": 0.5623118281364441,
+      "rank_score": 0.8623118281364441,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number of Class of Securities",
+      "score": 0.6042323112487793,
+      "rank_score": 0.8542323112487793,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Company Options",
+      "score": 0.8446915149688721,
+      "rank_score": 0.8446915149688721,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t9AAO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Sullivan & Cromwell",
+      "score": 0.7404698729515076,
+      "rank_score": 0.8404698729515075,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO1",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "constituent corporation",
+      "score": 0.5082283616065979,
+      "rank_score": 0.808228361606598,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t17RI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and Merger Sub",
+      "score": 0.6941341757774353,
+      "rank_score": 0.7941341757774353,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "surviving corporation",
+      "score": 0.4927603304386139,
+      "rank_score": 0.7927603304386139,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t17RI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "available_option",
+      "text": "In-the-Money Option",
+      "score": 0.7866320610046387,
+      "rank_score": 0.7866320610046387,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "available_option",
+      "text": "Company TRSAs",
+      "score": 0.7786241173744202,
+      "rank_score": 0.7786241173744202,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t9AAO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "available_option",
+      "text": "Out-of-the-Money Option",
+      "score": 0.7558094263076782,
+      "rank_score": 0.7558094263076782,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "available_option",
+      "text": "stock options",
+      "score": 0.7528716921806335,
+      "rank_score": 0.7528716921806335,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ICJ",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "11:59\u00a0PM",
+      "score": 0.5495010614395142,
+      "rank_score": 0.7495010614395141,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1LMR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "fair value",
+      "score": 0.5438811182975769,
+      "rank_score": 0.7438811182975769,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t17RI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "Winston",
+      "score": 0.7387821674346924,
+      "rank_score": 0.7387821674346924,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Camel",
+      "score": 0.7034820318222046,
+      "rank_score": 0.7034820318222046,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "available_option",
+      "text": "Company PRSAs",
+      "score": 0.7005091309547424,
+      "rank_score": 0.7005091309547424,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t9AAO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Company PRSA",
+      "score": 0.4808078408241272,
+      "rank_score": 0.6808078408241272,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t4WRI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "MEVUIS",
+      "score": 0.6671624183654785,
+      "rank_score": 0.6671624183654785,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Camel",
+      "score": 0.6657779812812805,
+      "rank_score": 0.6657779812812805,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ICJ",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Winston",
+      "score": 0.6571155190467834,
+      "rank_score": 0.6571155190467834,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ICJ",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Merger Consideration",
+      "score": 0.44586294889450073,
+      "rank_score": 0.6458629488945007,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective",
+      "score": 0.6304798126220703,
+      "rank_score": 0.6304798126220703,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "MEVUIS",
+      "score": 0.608644425868988,
+      "rank_score": 0.608644425868988,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ICJ",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "commercial bank",
+      "score": 0.5040248036384583,
+      "rank_score": 0.6040248036384582,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Offer Conditions",
+      "score": 0.6022300720214844,
+      "rank_score": 0.6022300720214844,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2FPA",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Company common stock",
+      "score": 0.40200093388557434,
+      "rank_score": 0.6020009338855743,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Expiration Time",
+      "score": 0.9475697875022888,
+      "rank_score": 0.5975697875022887,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "governmental organization",
+      "score": 0.48996227979660034,
+      "rank_score": 0.5899622797966003,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t5UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Federal Reserve Board",
+      "score": 0.4680071175098419,
+      "rank_score": 0.5680071175098419,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1EOT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective date of the Merger",
+      "score": 0.5643454790115356,
+      "rank_score": 0.5643454790115356,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t17RI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Offer Price",
+      "score": 0.9104177951812744,
+      "rank_score": 0.5604177951812743,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t5UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Antitrust Division",
+      "score": 0.4530496299266815,
+      "rank_score": 0.5530496299266815,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1LMR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificates",
+      "score": 0.49444690346717834,
+      "rank_score": 0.49444690346717834,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "available_option",
+      "text": "stock appreciation rights",
+      "score": 0.4486682116985321,
+      "rank_score": 0.4486682116985321,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t5UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Dissenting Shares",
+      "score": 0.43716961145401,
+      "rank_score": 0.43716961145401,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "stock purchase rights",
+      "score": 0.4311526119709015,
+      "rank_score": 0.4311526119709015,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t5UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9543611407279968,
+      "rank_score": 0.4043611407279968,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO2",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.8853621482849121,
+      "rank_score": 0.33536214828491206,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "currency_code",
+      "text": "$\n8.84",
+      "score": 0.580993115901947,
+      "rank_score": 0.28099311590194703,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.8229221701622009,
+      "rank_score": 0.2729221701622009,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t5UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "currency_code",
+      "text": "$\n10.11",
+      "score": 0.5396925210952759,
+      "rank_score": 0.2396925210952759,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Acceptance Time",
+      "score": 0.5873547196388245,
+      "rank_score": 0.23735471963882437,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO3",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.5846077799797058,
+      "rank_score": 0.23460777997970572,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Acceptance Time",
+      "score": 0.7717792987823486,
+      "rank_score": 0.2217792987823486,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1EOT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "currency_code",
+      "text": "$\n8.64",
+      "score": 0.49983566999435425,
+      "rank_score": 0.19983566999435426,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "currency_code",
+      "text": "$\n11.95",
+      "score": 0.46834149956703186,
+      "rank_score": 0.16834149956703187,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "currency_code",
+      "text": "$\n13.38",
+      "score": 0.44429609179496765,
+      "rank_score": 0.14429609179496766,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "currency_code",
+      "text": "$\n11.50",
+      "score": 0.443083256483078,
+      "rank_score": 0.14308325648307801,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Acceptance Time",
+      "score": 0.679869532585144,
+      "rank_score": 0.129869532585144,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t17RI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "Depository",
+      "score": 0.6562495231628418,
+      "rank_score": 0.10624952316284175,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "target_organization",
+      "text": "Company",
+      "score": 0.443643718957901,
+      "rank_score": 0.09364371895790102,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO2",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "DTC",
+      "score": 0.5984143018722534,
+      "rank_score": 0.048414301872253374,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Termination Date",
+      "score": 0.5788565278053284,
+      "rank_score": 0.028856527805328325,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO2",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "LD",
+      "score": 0.6844580173492432,
+      "rank_score": -0.015541982650756792,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "No Legal Restraint Condition",
+      "score": 0.5342442393302917,
+      "rank_score": -0.015755760669708296,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "No Antitrust Proceedings Condition",
+      "score": 0.501659095287323,
+      "rank_score": -0.048340904712677046,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "acquiring company",
+      "score": 0.6998562812805176,
+      "rank_score": -0.05014371871948242,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t17RI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "TRSA",
+      "score": 0.6288191676139832,
+      "rank_score": -0.0711808323860168,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Termination Condition",
+      "score": 0.47357144951820374,
+      "rank_score": -0.07642855048179631,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Share",
+      "score": 0.4559277892112732,
+      "rank_score": -0.09407221078872685,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ICT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Jefferies LLC",
+      "score": 0.8462187647819519,
+      "rank_score": -0.10378123521804816,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Antitrust Clearance Condition",
+      "score": 0.4443254768848419,
+      "rank_score": -0.10567452311515813,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "Parent",
+      "score": 0.4327085316181183,
+      "rank_score": -0.11729146838188176,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t5UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "proration_terms",
+      "text": "No Legal Restraint Condition",
+      "score": 0.42236602306365967,
+      "rank_score": -0.12763397693634038,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "PRSA",
+      "score": 0.554433286190033,
+      "rank_score": -0.145566713809967,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "JTI",
+      "score": 0.5010279417037964,
+      "rank_score": -0.19897205829620357,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO1",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.860916256904602,
+      "rank_score": -0.439083743095398,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1LMR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "cusip",
+      "raw": "92240M108",
+      "passage": "(Names of Filing Persons\u2009\u2014\u2009Offerors)\nCommon Stock, par value $0.10 per share\n(Title of Class of Securities)\n92240M108\n(CUSIP Number of Class of Securities)\nChristopher Hill\nc/o\u00a0JTI (US) Holding Inc.\n501 Brickell Key Dr., Suite 402\nMiami, Florida 33131\nUnited States\nTelephone: +1 201 871 1210\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nWith copies to:\nSebastian L.",
+      "method": "gliner",
+      "confidence": 0.7810561060905457,
+      "rank_score": 1.5310561060905457,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        530,
+        539
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$15.00",
+      "passage": "How much are you offering to pay?\nMerger Sub is offering to pay $15.00 per Share in cash, subject to applicable withholding taxes and without interest.",
+      "method": "gliner",
+      "confidence": 0.7695801854133606,
+      "rank_score": 1.4195801854133605,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        5260,
+        5266
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "September\u00a016, 2024",
+      "passage": "Parent and the Company filed their respective HSR Notification Forms with the FTC and the Antitrust Division on August\u00a030, 2024.\nUnder the HSR Act, Merger Sub\u2019s purchase of the Shares pursuant to the Offer is subject to an initial waiting period that will expire at 11:59\u00a0p.m., Eastern time, on September\u00a016, 2024.",
+      "method": "gliner",
+      "confidence": 0.6993921995162964,
+      "rank_score": 1.3493921995162963,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3077,
+        3095
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$4,300,000,000",
+      "passage": "JTI and JT International SA, an affiliate of JTI, each as borrower, have entered into a bridge term loan facility with aggregate commitments of $4,300,000,000 from certain lender(s) in connection with the Merger (including the Offer), described in more detail in the section titled \u201c\nDebt Financing\n\u201d immediately below.",
+      "method": "gliner",
+      "confidence": 0.6845630407333374,
+      "rank_score": 1.3345630407333373,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4016,
+        4030
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$126.2\u00a0million",
+      "passage": "We encourage you to obtain a recent market quotation for Shares before deciding whether to tender your Shares.\nAccording to the Company\u2019s Annual Report on Form 10-K for the fiscal year ended December\u00a031, 2023, the Company issued dividends and distributions on its Shares in 2023 in an amount of $126.2\u00a0million and anticipates issuing dividends and distributions on its Shares in 2024 at an assumed quarterly cash dividend of $0.20 per share.",
+      "method": "gliner",
+      "confidence": 0.6828349828720093,
+      "rank_score": 1.3328349828720092,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2707,
+        2721
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Vector Group Ltd.",
+      "passage": "(a)\u00a0\u00a0\u00a0The name of the subject company and the issuer of the securities to which this Schedule\u00a0TO relates is Vector Group Ltd., a Delaware corporation.",
+      "method": "gliner",
+      "confidence": 0.8321368098258972,
+      "rank_score": 1.2321368098258974,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4062,
+        4079
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "November\u00a02, 2024",
+      "passage": "Thereafter, tenders are irrevocable, except that if we have not accepted your Shares for payment within 60\u00a0days after commencement of the Offer, you may withdraw them at any time after November\u00a02, 2024, the 60th day after commencement of the Offer, until Merger Sub accepts your Shares for payment.\nFor a withdrawal of Shares to be effective, the Depository must timely receive a written or facsimile transmission notice of withdrawal at one of its addresses set forth on the back cover of this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.6216358542442322,
+      "rank_score": 1.221635854244232,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2231,
+        2247
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$15.01",
+      "passage": "On September\u00a03, 2024, the last full day of trading before commencement of the Offer, the reported closing sales price of the Shares on NYSE was $15.01 per Share.",
+      "method": "gliner",
+      "confidence": 0.5679031610488892,
+      "rank_score": 1.217903161048889,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2394,
+        2400
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Group Ltd.",
+      "passage": "This Letter of Transmittal is being delivered to you in connection with the tender offer by Vapor Merger Sub Inc., a Delaware corporation (\u201c\nMerger Sub\n\u201d) and a wholly owned subsidiary of JTI (US) Holding Inc., a Delaware corporation (\u201c\nParent\n\u201d), to purchase all of the outstanding shares of common stock, par value $0.10 per share (the \u201c\nShares\n\u201d), of Vector Group Ltd., a Delaware corporation (the \u201c\nCompany\n\u201d), for $15.00 per Share in cash, subject to applicable withholding taxes and without interest (the \u201c\nOffer Price\n\u201d), on the terms and subject to the conditions set forth in the Offer to Purchase (as it may be amended, supplemented or otherwise modified from time to time, the \u201c\nOffer to Purchase\n\u201d) and in this Letter of Transmittal (as it may be amended, sup",
+      "method": "gliner",
+      "confidence": 0.8776206374168396,
+      "rank_score": 1.1776206374168396,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3722,
+        3732
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1b.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$13.99",
+      "passage": "d Quarter\n\u200b\n\u200b\n\u200b\n$\n13.11\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.56\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n14.39\n\u200b\n\u200b\n\u200b\n\u200b\n$\n11.24\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2024\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n11.33\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.28\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n11.79\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.80\n\u200b\n\u200b\nOn August\u00a020, 2024, the last full day of trading before we announced the Merger Agreement, the reported closing sales price of the Shares on NYSE was $13.99 per Share.",
+      "method": "gliner",
+      "confidence": 0.5275196433067322,
+      "rank_score": 1.177519643306732,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2232,
+        2238
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "VGR",
+      "passage": "Holders should consult their own tax advisors to determine their qualification for exemption from backup withholding and the procedure for obtaining such exemption.\n6.\nblacklining:none;\nPrice Range of Shares; Dividends on the Shares\n\u200b\nThe Shares currently trade on NYSE under the symbol \u201cVGR\u201d.",
+      "method": "gliner",
+      "confidence": 0.827456533908844,
+      "rank_score": 1.177456533908844,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1128,
+        1131
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "October\u00a01, 2024",
+      "passage": "\u200b\n\u200b\nScheduled Expiration of Offer\n\u200b\n\u200b\nOne minute after 11:59\u00a0p.m., New York City time, on\nOctober\u00a01, 2024\nunless otherwise extended or earlier terminated (the \u201c\nExpiration Time\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.514653742313385,
+      "rank_score": 1.164653742313385,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2217,
+        2232
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "September\u00a012, 2024",
+      "passage": "reement provides that from the date of the Merger Agreement to the Effective Time, without the prior written consent of Parent, the Company will not declare, set aside, make or pay any dividend or distribution (whether in cash, stock or property) on any shares of its capital stock (other than a quarterly cash dividend of $0.20 per Share declared on August\u00a020, 2024 and to be paid by the Company on September\u00a012, 2024, and thereafter, regular quarterly cash dividends of $0.20 per Share, as set forth in the Company Disclosure Letter).",
+      "method": "gliner",
+      "confidence": 0.6850352883338928,
+      "rank_score": 1.1350352883338928,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1375,
+        1393
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "effective_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.20",
+      "passage": "According to the Company\u2019s Annual Report on Form 10-K for the fiscal year ended December\u00a031, 2023, the Company issued dividends and distributions on its Shares in 2023 in an amount of $126.2\u00a0million and anticipates issuing dividends and distributions on its Shares in 2024 at an assumed quarterly cash dividend of $0.20 per share.",
+      "method": "gliner",
+      "confidence": 0.47924360632896423,
+      "rank_score": 1.1292436063289641,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2837,
+        2842
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Liggett Group LLC",
+      "passage": "At that time, Mr.\u00a0Ronald Bernstein, then President and Chief Executive Officer, Liggett Group LLC and Liggett Vector Brands LLC and a member of the Company Board, engaged with Mr.\u00a0Eddy Pirard, the President and Chief Executive Officer of JT International SA, an affiliate of JTI.",
+      "method": "gliner",
+      "confidence": 0.825597882270813,
+      "rank_score": 1.125597882270813,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3776,
+        3793
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE",
+      "passage": "Prior to the opening of trading on the NYSE, the Company and Japan Tobacco International each issued separate press releases announcing the execution of the Merger Agreement.\nOn August\u00a026 and August\u00a027, 2024, the Company and JTI negotiated a confidentiality agreement in respect of information to be shared by JTI to the Company for purposes of consummating the Transactions and reasonable integration planning.",
+      "method": "gliner",
+      "confidence": 0.7703375816345215,
+      "rank_score": 1.1203375816345216,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3301,
+        3305
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "August\u00a030, 2024",
+      "passage": "Parent and the Company filed their respective HSR Notification Forms with the FTC and the Antitrust Division on August\u00a030, 2024.\nUnder the HSR Act, Merger Sub\u2019s purchase of the Shares pursuant to the Offer is subject to an initial waiting period that will expire at 11:59\u00a0p.m., Eastern time, on September\u00a016, 2024.",
+      "method": "gliner",
+      "confidence": 0.4406566023826599,
+      "rank_score": 1.0906566023826598,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2894,
+        2909
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.10",
+      "passage": "See the back cover of this Offer to Purchase for additional contact information.\nINTRODUCTION\nVapor Merger Sub Inc., a Delaware corporation (\u201c\nMerger Sub\n\u201d) and a wholly owned subsidiary of JTI (US) Holding Inc., a Delaware corporation (\u201c\nParent\n\u201d), is offering to purchase all of the outstanding shares of common stock, par value $0.10 per share (the \u201c\nShares\n\u201d), of Vector Group Ltd., a Delaware corporation (the \u201c\nCompany\n\u201d), in exchange for $15.00 per Share in cash, subject to applicable withholding taxes and without interest (the \u201c\nOffer Price\n\u201d), on the terms and subject to the conditions set forth in this Offer to Purchase (as it may be amended, supplemented or otherwise modified from time to time, the \u201c\nOffer to Purchase\n\u201d",
+      "method": "gliner",
+      "confidence": 0.4267522692680359,
+      "rank_score": 1.0767522692680358,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        522,
+        527
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Vapor Merger Sub Inc.",
+      "passage": "\u2610\nIf applicable, check the appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\u00a013e-4(i) (Cross-Border Issuer Tender Offer)\n\u200b\n\u2610\nRule\u00a014d-1(d) (Cross-Border Third-Party Tender Offer)\n\u200b\n\u200b\n\u200b\n\u200b\nThis Tender Offer Statement on Schedule\u00a0TO (together with any amendments and supplements hereto, this \u201c\nSchedule\u00a0TO\n\u201d) is filed by Vapor Merger Sub Inc., a Delaware corporation (\u201c\nMerger Sub\n\u201d), a wholly owned subsidiary of JTI (US) Holding Inc., a Delaware corporation (\u201c\nParent\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6715266108512878,
+      "rank_score": 1.071526610851288,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1904,
+        1925
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "New Valley LLC",
+      "passage": "relation to: (i)\u00a0the net proceeds received in excess of $400,000,000 as a result of JTI or a member of JTI\u2019s group issuing further debt (by way of one or more syndicated loan or capital markets debt issuances but excluding any commercial paper issuance) and (ii)\u00a0the net proceeds received as a result of any disposal of any real estate of the real estate investment business operated and managed by New Valley LLC and its subsidiaries.\nInterest Rate.\nThe Bridge Facility has a floating rate of interest based on compounded SOFR plus a margin.\nOther Terms.\nThe Bridge Facility contains customary representations and undertakings, including (with certain agreed carve-outs) a negative pledge and Merger-related undertakings.",
+      "method": "gliner",
+      "confidence": 0.7451769709587097,
+      "rank_score": 1.0451769709587098,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2513,
+        2527
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Vector Group Ltd.",
+      "passage": "See the back cover of this Offer to Purchase for additional contact information.\nINTRODUCTION\nVapor Merger Sub Inc., a Delaware corporation (\u201c\nMerger Sub\n\u201d) and a wholly owned subsidiary of JTI (US) Holding Inc., a Delaware corporation (\u201c\nParent\n\u201d), is offering to purchase all of the outstanding shares of common stock, par value $0.10 per share (the \u201c\nShares\n\u201d), of Vector Group Ltd., a Delaware corporation (the \u201c\nCompany\n\u201d), in exchange for $15.00 per Share in cash, subject to applicable withholding taxes and without interest (the \u201c\nOffer Price\n\u201d), on the terms and subject to the conditions set forth in this Offer to Purchase (as it may be amended, supplemented or otherwise modified from time to time, the \u201c\nOffer to Purchase\n\u201d) and in the related Letter of Transmittal (as it",
+      "method": "gliner",
+      "confidence": 0.7184522747993469,
+      "rank_score": 1.018452274799347,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        559,
+        576
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Liggett Vector Brands LLC",
+      "passage": "At that time, Mr.\u00a0Ronald Bernstein, then President and Chief Executive Officer, Liggett Group LLC and Liggett Vector Brands LLC and a member of the Company Board, engaged with Mr.\u00a0Eddy Pirard, the President and Chief Executive Officer of JT International SA, an affiliate of JTI.",
+      "method": "gliner",
+      "confidence": 0.7131954431533813,
+      "rank_score": 1.0131954431533814,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3798,
+        3823
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "JTI (US) HOLDING INC.",
+      "passage": "tm2422218-2_sctot_DIV_52-exh_a1b - none - 2.6875315s\n\u200b\nExhibit (a)(1)(B)\n\u200b\nLetter of Transmittal\nto Tender Shares of Common Stock\nof\nVECTOR GROUP LTD.\nAt\n$15.00 per share in cash\nTo\nVAPOR MERGER SUB INC.\na wholly owned subsidiary of\nJTI (US) HOLDING INC.\nan indirect wholly owned subsidiary of\nJT INTERNATIONAL HOLDING B.V.\n\u200b\n\u200b\nTHE OFFER AND WITHDRAWAL RIGHTS WILL EXPIRE AT ONE MINUTE AFTER 11:59\u00a0P.M., NEW YORK CITY TIME, ON OCTOBER 1, 2024, UNLESS THE OFFER IS EXTENDED OR EARLIER TERMINATED.\n\u200b\n\u200b\nThe Depository for the Offer is:\nMethod of delivery of the certificate(s) is at the option and risk of the owner thereof.",
+      "method": "gliner",
+      "confidence": 0.7040399312973022,
+      "rank_score": 1.0040399312973023,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        233,
+        254
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1b.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "August\u00a020, 2024",
+      "passage": "none;\nDividends and Distributions\n\u200b\nThe Merger Agreement provides that from the date of the Merger Agreement to the Effective Time, without the prior written consent of Parent, the Company will not declare, set aside, make or pay any dividend or distribution (whether in cash, stock or property) on any shares of its capital stock (other than a quarterly cash dividend of $0.20 per Share declared on August\u00a020, 2024 and to be paid by the Company on September\u00a012, 2024, and thereafter, regular quarterly cash dividends of $0.20 per Share, as set forth in the Company Disclosure Letter).",
+      "method": "gliner",
+      "confidence": 0.5445399284362793,
+      "rank_score": 0.9945399284362793,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1326,
+        1341
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "effective_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "JTI",
+      "passage": "alone and the phrase \u201c\nthe Company\n\u201d to refer to Vector Group Ltd.\nSee Section\u00a08\u2009\u2014\u2009\u201c\nCertain Information Concerning JTI, Parent and Merger Sub\n.\u201d\nWhat is the class and amount of securities sought pursuant to the Offer?\nMerger Sub is offering to purchase all of the outstanding Shares of the Company on the terms and subject to the conditions set forth in this Offer to Purchase, the related Letter of Transmittal and Notice of Guaranteed Delivery.",
+      "method": "gliner",
+      "confidence": 0.6072061657905579,
+      "rank_score": 0.9572061657905578,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3956,
+        3959
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "JTI (US) Holding Inc.",
+      "passage": "\u200b\nWhom should I call if I have questions about the Offer?\nYou may call MacKenzie Partners, Inc., the information agent for the Offer (the \u201c\nInformation Agent\n\u201d), toll free at (800) 322-2885. See the back cover of this Offer to Purchase for additional contact information.\nINTRODUCTION\nVapor Merger Sub Inc., a Delaware corporation (\u201c\nMerger Sub\n\u201d) and a wholly owned subsidiary of JTI (US) Holding Inc., a Delaware corporation (\u201c\nParent\n\u201d), is offering to purchase all of the outstanding shares of common stock, par value $0.10 per share (the \u201c\nShares\n\u201d), of Vector Group Ltd., a Delaware corporation (the \u201c\nCompany\n\u201d), in exchange for $15.00 per Share in cash, subject to applicable withholding taxes and without interest (the \u201c\nOffer Price\n\u201d), on the terms and subject to the conditions set forth in",
+      "method": "gliner",
+      "confidence": 0.6491020917892456,
+      "rank_score": 0.9491020917892456,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        381,
+        402
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Parent and Merger Sub",
+      "passage": "Parent and Merger Sub expressly reserve the right, at any time and from time to time, to waive, in whole or in part, any of the conditions to the Offer, to make any change in the terms of or conditions to the Offer in a manner consistent with the terms of the Merger Agreement or to increase the Offer Price, except that, without the prior written consent of the Company, Parent and Merger Sub may not:\n\u2022\nblacklining:none",
+      "method": "gliner",
+      "confidence": 0.8440009355545044,
+      "rank_score": 0.9440009355545044,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2100,
+        2121
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "In-the-Money Options",
+      "passage": "Payments made to holders of In-the-Money Options, Company TRSAs and Company PRSAs will be subject to information reporting and withholding of taxes required by applicable law.",
+      "method": "gliner",
+      "confidence": 0.9425432085990906,
+      "rank_score": 0.9425432085990906,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1616,
+        1636
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "LD",
+      "passage": "Within the tobacco business, the largest segment products are sold in over 130 markets and its global flagship brands include Winston, Camel, MEVUIS and LD.\nThe address of JTI\u2019s principal executive offices and JTI\u2019s phone number at its principal executive offices are as set forth below:\nBella Donna 4\n1181 RM Amstelveen, the Netherlands\n+31 20 7 213 500\nParent is a Delaware corporation and a direct wholly owned subsidiary of JTI.",
+      "method": "gliner",
+      "confidence": 0.5778573751449585,
+      "rank_score": 0.9278573751449585,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1993,
+        1995
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "employee stock options",
+      "passage": "e;\na holder that holds or has held, directly, indirectly or constructively by attribution, more than 5\u00a0% of the Shares;\n\u200b\n\u2022\nblacklining:none;\na holder that holds Shares as qualified small business stock for purposes of Sections\u00a01045 or 1202 of the Code;\n\u200b\n\u2022\nblacklining:none;\na holder that exercises appraisal rights in the Merger, or received the Shares as compensation, pursuant to the exercise of employee stock options, stock purchase rights or stock appreciation rights, or as restricted stock; and\n\u200b\n\u2022\nblacklining:none;\na U.S.",
+      "method": "gliner",
+      "confidence": 0.9249671101570129,
+      "rank_score": 0.9249671101570129,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2959,
+        2981
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Sullivan & Cromwell",
+      "passage": "Representatives of Freshfields also delivered a revised draft of the Guarantee to representatives of Sullivan & Cromwell.\nOn August\u00a019 and August\u00a020, 2024, representatives of Sullivan & Cromwell and representatives of Freshfields exchanged and finalized drafts of the Merger Agreement, Support Agreement and Guarantee.",
+      "method": "gliner",
+      "confidence": 0.8056638240814209,
+      "rank_score": 0.9056638240814209,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2791,
+        2810
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "11:59\u00a0p.m.",
+      "passage": "Parent and the Company filed their respective HSR Notification Forms with the FTC and the Antitrust Division on August\u00a030, 2024.\nUnder the HSR Act, Merger Sub\u2019s purchase of the Shares pursuant to the Offer is subject to an initial waiting period that will expire at 11:59\u00a0p.m., Eastern time, on September\u00a016, 2024.",
+      "method": "gliner",
+      "confidence": 0.7023623585700989,
+      "rank_score": 0.9023623585700988,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3048,
+        3058
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "expiration_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Freshfields Bruckhaus Deringer US LLP",
+      "passage": "Humphreys, Esq.\nFreshfields Bruckhaus Deringer US LLP\n3 World Trade Center\n175 Greenwich Street\nNew York, NY 10007\nTelephone: +1 212 277 4000\n\u2610\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a tender offer.",
+      "method": "gliner",
+      "confidence": 0.6993881464004517,
+      "rank_score": 0.8993881464004516,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        903,
+        940
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Surviving Corporation",
+      "passage": "With respect to Continuing Employees whose terms and conditions of\nemployment are subject to a Collective Bargaining Agreement, the Surviving Corporation will be required to comply with the terms and conditions of such applicable Collective Bargaining Agreement, in a manner consistent with applicable law.",
+      "method": "gliner",
+      "confidence": 0.5724976658821106,
+      "rank_score": 0.8724976658821106,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79178,
+        79199
+      ],
+      "source_hit_id": "0001193125-24-213237:d855994dsc14d9.htm",
+      "source_accession": "0001193125-24-213237",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Japan Tobacco Inc.",
+      "passage": "Parent is an indirect wholly owned subsidiary of Japan Tobacco Inc., a global company headquartered in Tokyo, Japan, which, together with its affiliates (the \u201c\nJT Group\n\u201d), operates in three business segments: tobacco, pharmaceuticals and processed food.",
+      "method": "gliner",
+      "confidence": 0.5623118281364441,
+      "rank_score": 0.8623118281364441,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2829,
+        2847
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number of Class of Securities",
+      "passage": "(Names of Filing Persons\u2009\u2014\u2009Offerors)\nCommon Stock, par value $0.10 per share\n(Title of Class of Securities)\n92240M108\n(CUSIP Number of Class of Securities)\nChristopher Hill\nc/o\u00a0JTI (US) Holding Inc.\n501 Brickell Key Dr., Suite 402\nMiami, Florida 33131\nUnited States\nTelephone: +1 201 871 1210\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nWith copies to:\nSebastian L.",
+      "method": "gliner",
+      "confidence": 0.6042323112487793,
+      "rank_score": 0.8542323112487793,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        541,
+        576
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company Options",
+      "passage": "blacklining:none;\nSource and Amount of Funds\n\u200b\nWe estimate that we will need approximately $2,400,000,000 to purchase all of the Shares pursuant to the Offer, to complete the Merger and to make payments in respect of outstanding Company Options, Company TRSAs, and Company PRSAs required to be made in connection with the closing of the Merger pursuant to the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.8446915149688721,
+      "rank_score": 0.8446915149688721,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3723,
+        3738
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Sullivan & Cromwell",
+      "passage": "Also on August\u00a013, 2024, representatives of Freshfields delivered an initial draft of the Tender and Support Agreement to representatives of Sullivan & Cromwell.",
+      "method": "gliner",
+      "confidence": 0.7404698729515076,
+      "rank_score": 0.8404698729515075,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        28924,
+        28943
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "constituent corporation",
+      "passage": "Moreover, we may argue in an appraisal proceeding that, for purposes of such proceeding, the fair value of such Shares is less than the Offer Price.\nSection\u00a0262 of the DGCL provides that, if a merger was approved pursuant to Section\u00a0251(h) of the DGCL, either a constituent corporation before the effective date of the merger or the surviving corporation within ten days thereafter shall notify each of the holders of any class or series of stock of such constituent corporation who are entitled to appraisal rights of the approval of the merger and that appraisal rights are available for any or all shares of such class or series of stock of such constituent corporation, and shall i",
+      "method": "gliner",
+      "confidence": 0.5082283616065979,
+      "rank_score": 0.808228361606598,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3440,
+        3463
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and Merger Sub",
+      "passage": "The Company has advised Parent and Merger Sub that, as of the close of business on September\u00a03, 2024, (i)\u00a0157,420,597 Shares were issued and outstanding (including 1,757,000 shares of Company common stock subject to awards of shares of Company common stock that are subject to a transfer restriction, repurchase option or obligation, risk of forfeiture or other condition (other than those that are performance-based) and 1,860,500 shares of Com",
+      "method": "gliner",
+      "confidence": 0.6941341757774353,
+      "rank_score": 0.7941341757774353,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4345,
+        4366
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "surviving corporation",
+      "passage": "Moreover, we may argue in an appraisal proceeding that, for purposes of such proceeding, the fair value of such Shares is less than the Offer Price.\nSection\u00a0262 of the DGCL provides that, if a merger was approved pursuant to Section\u00a0251(h) of the DGCL, either a constituent corporation before the effective date of the merger or the surviving corporation within ten days thereafter shall notify each of the holders of any class or series of stock of such constituent corporation who are entitled to appraisal rights of the approval of the merger and that appraisal rights are available for any or all shares of such class or series of stock of such constituent corporation, and shall include in such notice a copy of Section\u00a0262 of the DGCL or informatio",
+      "method": "gliner",
+      "confidence": 0.4927603304386139,
+      "rank_score": 0.7927603304386139,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3511,
+        3532
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "In-the-Money Option",
+      "passage": "As a result of the Merger, the Company will cease to be a publicly traded company and will become a wholly owned subsidiary of Parent.\nPursuant to the terms of the Merger Agreement, at the Effective Time, (i)\u00a0each outstanding and unexercised In-the-Money Option as of immediately prior to the Effective Time, whether vested or unvested, will be canceled and converted into the right to receive the Option Consideration applicable to such In-the-Money Option, (ii)\u00a0each outstanding and unexercised Out-of-the-Money Option will be canceled for no consideration payable therefor and (iii)\u00a0each outstanding Company TRSA and Company PRSA as of immediately prior to t",
+      "method": "gliner",
+      "confidence": 0.7866320610046387,
+      "rank_score": 0.7866320610046387,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4192,
+        4211
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company TRSAs",
+      "passage": "blacklining:none;\nSource and Amount of Funds\n\u200b\nWe estimate that we will need approximately $2,400,000,000 to purchase all of the Shares pursuant to the Offer, to complete the Merger and to make payments in respect of outstanding Company Options, Company TRSAs, and Company PRSAs required to be made in connection with the closing of the Merger pursuant to the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.7786241173744202,
+      "rank_score": 0.7786241173744202,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3740,
+        3753
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Out-of-the-Money Option",
+      "passage": "Pursuant to the terms of the Merger Agreement, at the Effective Time, (i)\u00a0each outstanding and unexercised In-the-Money Option as of immediately prior to the Effective Time, whether vested or unvested, will be canceled and converted into the right to receive the Option Consideration applicable to such In-the-Money Option, (ii)\u00a0each outstanding and unexercised Out-of-the-Money Option will be canceled for no consideration payable therefor and (iii)\u00a0each outstanding Company TRSA and Company PRSA as of immediately prior to the Effective Time, whether vested or unvested, will be canceled and terminated as of immediately prior to the Effective Time and converted into the right to receive the TRSA/PRSA Consideration.",
+      "method": "gliner",
+      "confidence": 0.7558094263076782,
+      "rank_score": 0.7558094263076782,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4447,
+        4470
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock options",
+      "passage": "Information as of particular dates concerning the Company\u2019s directors and officers, their compensation, stock options granted to them, the principal holders of the Company\u2019s securities any material interests of such persons in transactions with the Company and other matters is required to be disclosed in proxy statements distributed to Company stockholders and filed with the SEC.",
+      "method": "gliner",
+      "confidence": 0.7528716921806335,
+      "rank_score": 0.7528716921806335,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1092,
+        1105
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "11:59\u00a0PM",
+      "passage": "If the FTC or the Antitrust Division issue Second Requests, the waiting period with respect to the Offer will be extended to 11:59\u00a0PM, Eastern time, on the 10th day after Merger Sub\u2019s certification of substantial compliance with its Second Request.",
+      "method": "gliner",
+      "confidence": 0.5495010614395142,
+      "rank_score": 0.7495010614395141,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3911,
+        3919
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "expiration_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "fair value",
+      "passage": "holders of Shares who: (i)\u00a0did not tender their Shares pursuant to the Offer, (ii)\u00a0follow the procedures set forth in Section\u00a0262 of the DGCL and (iii)\u00a0do not thereafter lose their appraisal rights (by withdrawal, failure to perfect or otherwise), in each case in accordance with the DGCL, will be entitled to have their Shares appraised by the Delaware Court of Chancery and receive payment of the \u201cfair value\u201d of such Shares in accordance with Section\u00a0262, together with interest thereon, if any, as determined by such court.",
+      "method": "gliner",
+      "confidence": 0.5438811182975769,
+      "rank_score": 0.7438811182975769,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2007,
+        2017
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Winston",
+      "passage": "Within the tobacco business, the largest segment products are sold in over 130 markets and its global flagship brands include Winston, Camel, MEVUIS and LD.",
+      "method": "gliner",
+      "confidence": 0.7387821674346924,
+      "rank_score": 0.7387821674346924,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3161,
+        3168
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Camel",
+      "passage": "Within the tobacco business, the largest segment products are sold in over 130 markets and its global flagship brands include Winston, Camel, MEVUIS and LD.",
+      "method": "gliner",
+      "confidence": 0.7034820318222046,
+      "rank_score": 0.7034820318222046,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3170,
+        3175
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company PRSAs",
+      "passage": "blacklining:none;\nSource and Amount of Funds\n\u200b\nWe estimate that we will need approximately $2,400,000,000 to purchase all of the Shares pursuant to the Offer, to complete the Merger and to make payments in respect of outstanding Company Options, Company TRSAs, and Company PRSAs required to be made in connection with the closing of the Merger pursuant to the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.7005091309547424,
+      "rank_score": 0.7005091309547424,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3759,
+        3772
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Company PRSA",
+      "passage": "\u200b\nwill be canceled for no consideration therefor and (iii)\u00a0each outstanding Company TRSA and Company PRSA as of immediately prior to the Effective Time, whether vested or unvested, will be canceled and converted into the right to receive the TRSA/PRSA Consideration applicable to such Company TRSA or Company PRSA.",
+      "method": "gliner",
+      "confidence": 0.4808078408241272,
+      "rank_score": 0.6808078408241272,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        93,
+        105
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "MEVUIS",
+      "passage": "Within the tobacco business, the largest segment products are sold in over 130 markets and its global flagship brands include Winston, Camel, MEVUIS and LD.",
+      "method": "gliner",
+      "confidence": 0.6671624183654785,
+      "rank_score": 0.6671624183654785,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3177,
+        3183
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Camel",
+      "passage": "Within the tobacco business, the largest segment products are sold in over 130 markets and its global flagship brands include Winston, Camel, MEVUIS and LD.\nThe address of JTI\u2019s principal executive offices and JTI\u2019s phone number at its principal executive offices are as set forth below:\nBella Donna 4\n1181 RM Amstelveen, the Netherlands\n+31 20 7 213 500\nParent is a Delaware corporation and a direct wholly owned subsidiary of JTI.",
+      "method": "gliner",
+      "confidence": 0.6657779812812805,
+      "rank_score": 0.6657779812812805,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1975,
+        1980
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Winston",
+      "passage": "Within the tobacco business, the largest segment products are sold in over 130 markets and its global flagship brands include Winston, Camel, MEVUIS and LD.\nThe address of JTI\u2019s principal executive offices and JTI\u2019s phone number at its principal executive offices are as set forth below:\nBella Donna 4\n1181 RM Amstelveen, the Netherlands\n+31 20 7 213 500\nParent is a Delaware corporation and a direct wholly owned subsidiary of JTI.",
+      "method": "gliner",
+      "confidence": 0.6571155190467834,
+      "rank_score": 0.6571155190467834,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1966,
+        1973
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Merger Consideration",
+      "passage": ", any Shares irrevocably accepted for payment pursuant to the Offer, and any Shares held by stockholders who are entitled to demand, and who shall have properly and validly demanded their statutory rights of appraisal in respect of such Shares in compliance with Section\u00a0262 of the DGCL) shall be canceled and extinguished and automatically converted into the right to receive the Offer Price (the \u201c\nMerger Consideration\n\u201d), without interest thereon and subject to any applicable withholding tax.",
+      "method": "gliner",
+      "confidence": 0.44586294889450073,
+      "rank_score": 0.6458629488945007,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3853,
+        3873
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective",
+      "passage": "of immediately prior to the Effective Time, whether vested or unvested, will be canceled and converted into the right to receive the Option Consideration applicable to such In-the-Money Option, (ii)\u00a0each outstanding and unexercised Out-of-the-Money Option will be canceled for no consideration payable therefor and (iii)\u00a0each outstanding Company TRSA and Company PRSA as of immediately prior to the Effective Time, whether vested or unvested, will be canceled and terminated as of immediately prior to the Effective Time and converted into the right to receive the TRSA/PRSA Consideration.",
+      "method": "gliner",
+      "confidence": 0.6304798126220703,
+      "rank_score": 0.6304798126220703,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4614,
+        4623
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "effective_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "MEVUIS",
+      "passage": "Within the tobacco business, the largest segment products are sold in over 130 markets and its global flagship brands include Winston, Camel, MEVUIS and LD.\nThe address of JTI\u2019s principal executive offices and JTI\u2019s phone number at its principal executive offices are as set forth below:\nBella Donna 4\n1181 RM Amstelveen, the Netherlands\n+31 20 7 213 500\nParent is a Delaware corporation and a direct wholly owned subsidiary of JTI.",
+      "method": "gliner",
+      "confidence": 0.608644425868988,
+      "rank_score": 0.608644425868988,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1982,
+        1988
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "commercial bank",
+      "passage": "\u200b\n\u2022\nblacklining:none;\nIf you hold Shares through a broker, dealer, commercial bank, trust company or other nominee, you must contact your broker, dealer, commercial bank, trust company or other nominee and give instructions that your Shares be tendered.\n\u200b\nBook-Entry Transfer\n.\u00a0\u00a0\u00a0The Depository will establish an account with respect to the Shares at DTC for purposes of the Offer within two business days after the date of this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.5040248036384583,
+      "rank_score": 0.6040248036384582,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3654,
+        3669
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Offer Conditions",
+      "passage": "\u200b\nThe obligation of Merger Sub to accept for payment and pay for Shares validly tendered (and not validly withdrawn) pursuant to the Offer is subject to the satisfaction of the Offer Conditions.",
+      "method": "gliner",
+      "confidence": 0.6022300720214844,
+      "rank_score": 0.6022300720214844,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        177,
+        193
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Company common stock",
+      "passage": "The Company has advised Parent and Merger Sub that, as of the close of business on September\u00a03, 2024, (i)\u00a0157,420,597 Shares were issued and outstanding (including 1,757,000 shares of Company common stock subject to awards of shares of Company common stock that are subject to a transfer restriction, repurchase option or obligation, risk of forfeiture or other condition (other than those that are performance-based) and 1,860,500 shares of Company common stock subject to a performance-based transfer restriction, performance-based repurchase option or obligation, performance-based risk of forfeiture",
+      "method": "gliner",
+      "confidence": 0.40200093388557434,
+      "rank_score": 0.6020009338855743,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4505,
+        4525
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Expiration Time",
+      "passage": "If, on or before the Expiration Time, we increase the consideration being paid for Shares accepted for payment in the Offer, such increased consideration will be paid to all holders whose Shares are purchased in the Offer, whether or not such Shares were tendered before the announcement of the increase in consideration.\n12\nTABLE OF CONTENTS",
+      "method": "gliner",
+      "confidence": 0.9475697875022888,
+      "rank_score": 0.5975697875022887,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        8775,
+        8790
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "expiration_datetime",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "governmental organization",
+      "passage": "federal income tax laws, including, but not limited to:\n\u2022\nblacklining:none;\na holder that is a regulated investment company, real estate investment trust, cooperative, bank or certain other financial institutions, insurance company, tax-exempt organization (including a private foundation), governmental organization, retirement or pension plan, dealer in securities or foreign currency, trader that uses the mark-to-market method of accounting with respect to its securities, expatriate or former long-term resident of the United States;\n\u200b\n\u2022\nblacklining:none;\na holder that is, or holds Shares through, a partnership, S corporation or other pass-through entity for U.S.",
+      "method": "gliner",
+      "confidence": 0.48996227979660034,
+      "rank_score": 0.5899622797966003,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1800,
+        1825
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Federal Reserve Board",
+      "passage": "Depending upon factors similar to those described above regarding the market for the Shares and stock quotations, it is possible that, following the Offer, the Shares would no longer constitute \u201cmargin securities\u201d for the purposes of the margin regulations of the Federal Reserve Board and, therefore, could no longer be used as collateral for loans made by brokers.",
+      "method": "gliner",
+      "confidence": 0.4680071175098419,
+      "rank_score": 0.5680071175098419,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2944,
+        2965
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective date of the Merger",
+      "passage": "Unless the Delaware Court of Chancery in its discretion determines otherwise for good cause shown, interest from the effective date of the Merger through the date of payment of the judgment will be compounded quarterly and will accrue at 5% over the Federal Reserve discount rate (including any surcharge) as established from time to time during the period between the effective date of the Merger and the date of payment of the judgment.",
+      "method": "gliner",
+      "confidence": 0.5643454790115356,
+      "rank_score": 0.5643454790115356,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2252,
+        2280
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "effective_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Offer Price",
+      "passage": "\u200b\n5.\nblacklining:none;\nMaterial U.S. Federal Income Tax Consequences\n\u200b\nThe following is a discussion of the material U.S. federal income tax consequences of the Offer and the Merger to holders that tender their Shares, and whose tender of the Shares is accepted, in exchange for the Offer Price pursuant to the Offer and holders whose Shares are converted into the right to receive the Offer Price pursuant to the Merger.",
+      "method": "gliner",
+      "confidence": 0.9104177951812744,
+      "rank_score": 0.5604177951812743,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        386,
+        397
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Antitrust Division",
+      "passage": "During the initial waiting period the FTC and the Antitrust Division can choose to shorten the waiting period by granting early termination or may extend the waiting period by issuing a Request for Additional Information or Documentary Material (a \u201c\nSecond Request\n\u201d) to the parties.",
+      "method": "gliner",
+      "confidence": 0.4530496299266815,
+      "rank_score": 0.5530496299266815,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3147,
+        3165
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificates",
+      "passage": "blacklining:none;\nProcedures for Accepting the Offer and Tendering Shares\n\u200b\nValid Tenders\n.\u00a0\u00a0\u00a0In order for a stockholder to validly tender Shares pursuant to the Offer, you must follow these instructions:\n\u2022\nblacklining:none;\nIf you hold your Shares directly as the registered owner and such Shares are represented by Share Certificates, you may tender your Shares in the Offer by delivering the Share Certificates representing your Shares, together with a properly completed and signed Letter of Transmittal and any other documents required by the Letter of Transmittal, to the Depository before the Offer expires, or, prior to the Expiration Time, comply with the guaranteed delivery procedures set forth below.",
+      "method": "gliner",
+      "confidence": 0.49444690346717834,
+      "rank_score": 0.49444690346717834,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2377,
+        2395
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock appreciation rights",
+      "passage": "irectly or constructively by attribution, more than 5\u00a0% of the Shares;\n\u200b\n\u2022\nblacklining:none;\na holder that holds Shares as qualified small business stock for purposes of Sections\u00a01045 or 1202 of the Code;\n\u200b\n\u2022\nblacklining:none;\na holder that exercises appraisal rights in the Merger, or received the Shares as compensation, pursuant to the exercise of employee stock options, stock purchase rights or stock appreciation rights, or as restricted stock; and\n\u200b\n\u2022\nblacklining:none;\na U.S.",
+      "method": "gliner",
+      "confidence": 0.4486682116985321,
+      "rank_score": 0.4486682116985321,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3008,
+        3033
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Dissenting Shares",
+      "passage": "\u200b\nand qualifications on the review undertaken as described in its opinion, the Offer Price to be received by holders of Shares (other than holders of Canceled Shares and Dissenting Shares, each as defined below) pursuant to the Merger Agreement was fair, from a financial point of view, to such holders.",
+      "method": "gliner",
+      "confidence": 0.43716961145401,
+      "rank_score": 0.43716961145401,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        170,
+        187
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock purchase rights",
+      "passage": "r has held, directly, indirectly or constructively by attribution, more than 5\u00a0% of the Shares;\n\u200b\n\u2022\nblacklining:none;\na holder that holds Shares as qualified small business stock for purposes of Sections\u00a01045 or 1202 of the Code;\n\u200b\n\u2022\nblacklining:none;\na holder that exercises appraisal rights in the Merger, or received the Shares as compensation, pursuant to the exercise of employee stock options, stock purchase rights or stock appreciation rights, or as restricted stock; and\n\u200b\n\u2022\nblacklining:none;\na U.S.",
+      "method": "gliner",
+      "confidence": 0.4311526119709015,
+      "rank_score": 0.4311526119709015,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2983,
+        3004
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "Accordingly, if we consummate the Offer, we are required pursuant to the Merger Agreement to complete the Merger without a vote of the Company stockholders in accordance with Section\u00a0251(h) of the DGCL.\nPlans for the Company\nAt the Effective Time, (a)\u00a0by virtue of the Merger, the certificate of incorporation of the Company will be amended and restated in its entirety to read as set forth on Exhibit\u00a0B to the Merger Agreement and (b)\u00a0the bylaws of the Company will be amended and restated in their entirety to be in the form of the bylaws of Merger Sub as in effect immediately prior to the Effective Time (except that the name of the Surviving",
+      "method": "gliner",
+      "confidence": 0.9543611407279968,
+      "rank_score": 0.4043611407279968,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3004,
+        3018
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "The Offer is subject to the Offer Conditions set forth in Section\u00a015\u2009\u2014\u2009\u201c\nConditions of the Offer\n,\u201d including, but not limited to, the Antitrust Clearance Condition, No Antitrust Proceedings Condition, the Minimum Condition and the No Legal Restraint Condition (each as defined therein).",
+      "method": "gliner",
+      "confidence": 0.8853621482849121,
+      "rank_score": 0.33536214828491206,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2018,
+        2035
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "$\n8.84",
+      "passage": "The following table sets forth, for the periods indicated, the high and low sale prices per Share for each quarterly period during which the Shares were listed publicly on a national stock exchange within the two preceding fiscal\u00a0years, as reported by NYSE:\n\u200b\n\u200b\n\u200b\nHigh\n\u200b\n\u200b\nLow\n\u200b\nFiscal Year Ending December\u00a031, 2022\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.95\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.84\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n11.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.64\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.38\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.11\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n12.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.03\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2023\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.88\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.86\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n13.43\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.18\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.11\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.56\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n14.39\n\u200b\n\u200b\n\u200b\n\u200b\n$\n11.24",
+      "method": "gliner",
+      "confidence": 0.580993115901947,
+      "rank_score": 0.28099311590194703,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1513,
+        1519
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "currency_code",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "federal income tax purposes;\n\u200b\n\u2022\nblacklining:none;\na holder that holds Shares as part of a straddle, hedging, constructive sale, conversion or other integrated transaction, or that is required to recognize income or gain with respect to the Offer or the Merger no later than such income or gain is required to be reported on an applicable financial statement;\n\u200b\n\u2022\nblacklining:none;\na holder that holds or has held, directly, indirectly or constructively by attribution, more th",
+      "method": "gliner",
+      "confidence": 0.8229221701622009,
+      "rank_score": 0.2729221701622009,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2251,
+        2257
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "$\n10.11",
+      "passage": "w sale prices per Share for each quarterly period during which the Shares were listed publicly on a national stock exchange within the two preceding fiscal\u00a0years, as reported by NYSE:\n\u200b\n\u200b\n\u200b\nHigh\n\u200b\n\u200b\nLow\n\u200b\nFiscal Year Ending December\u00a031, 2022\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.95\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.84\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n11.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.64\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.38\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.11\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n12.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.03\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2023\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.88\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.86\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n13.43\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.18\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.11\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.56\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n14.39\n\u200b\n\u200b\n\u200b\n\u200b\n$\n11.24\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2024\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n11.33",
+      "method": "gliner",
+      "confidence": 0.5396925210952759,
+      "rank_score": 0.2396925210952759,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1608,
+        1615
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "currency_code",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Acceptance Time",
+      "passage": "\u200b\nThe foregoing conditions are for the sole benefit of Parent and Merger Sub, may be asserted by Parent or Merger Sub and may be waived by Parent or Merger Sub in whole or in part at any time and from time to time prior to the Acceptance Time in the sole discretion of Parent or Merger Sub, subject, in each case, to the terms of the Merger Agreement and the applicable rules and regulations of the SEC.",
+      "method": "gliner",
+      "confidence": 0.5873547196388245,
+      "rank_score": 0.23735471963882437,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        8795,
+        8810
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "expiration_datetime",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "20549\nSCHEDULE TO\n\u200b\nTENDER OFFER STATEMENT UNDER\nSECTION 14(D)(1) OR 13(E)(1) OF\nTHE SECURITIES EXCHANGE ACT OF 1934\nVECTOR GROUP LTD.\n(Name of Subject Company\u2009\u2014\u2009Issuer)\nVAPOR MERGER SUB INC.\na wholly owned subsidiary of\nJTI (US) HOLDING INC.\nan indirect wholly owned subsidiary of\nJT INTERNATIONAL HOLDING B.V.\n(Names of Filing Persons\u2009\u2014\u2009Offerors)\nCommon Stock, par value $0.10 per share\n(Title of Class of Securities)\n92240M108\n(CUSIP Number of Class of Securities)\nChristopher Hill\nc/o\u00a0JTI (US) Holding Inc.\n501 Brickell Key Dr., Suite 402\nMiami, Florida 33131\nUnited States\nTelephone: +1 201 871 1210\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nWith copies to:\nSebastian L.",
+      "method": "gliner",
+      "confidence": 0.5846077799797058,
+      "rank_score": 0.23460777997970572,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        459,
+        471
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218-2_sctot.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Acceptance Time",
+      "passage": "NYSE Listing\n.\u00a0\u00a0\u00a0If the Offer is consummated, Merger Sub will complete the Merger on the day following the Acceptance Time, subject to the satisfaction or waiver of certain conditions set forth in the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.7717792987823486,
+      "rank_score": 0.2217792987823486,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3489,
+        3504
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "settlement_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "$\n8.64",
+      "passage": "orth, for the periods indicated, the high and low sale prices per Share for each quarterly period during which the Shares were listed publicly on a national stock exchange within the two preceding fiscal\u00a0years, as reported by NYSE:\n\u200b\n\u200b\n\u200b\nHigh\n\u200b\n\u200b\nLow\n\u200b\nFiscal Year Ending December\u00a031, 2022\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.95\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.84\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n11.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.64\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.38\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.11\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n12.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.03\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2023\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.88\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.86\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n13.43\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.18\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.11\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.56\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n14.39\n\u200b\n\u200b\n\u200b\n\u200b\n$\n11.24\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2024\n\u200b\n\u200b\n\u200b",
+      "method": "gliner",
+      "confidence": 0.49983566999435425,
+      "rank_score": 0.19983566999435426,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1560,
+        1566
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "currency_code",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "$\n11.95",
+      "passage": "The following table sets forth, for the periods indicated, the high and low sale prices per Share for each quarterly period during which the Shares were listed publicly on a national stock exchange within the two preceding fiscal\u00a0years, as reported by NYSE:\n\u200b\n\u200b\n\u200b\nHigh\n\u200b\n\u200b\nLow\n\u200b\nFiscal Year Ending December\u00a031, 2022\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.95\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.84\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n11.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.64\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.38\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.11\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n12.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.03\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2023\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.88\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.86\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n13.43\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.18\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.11\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.56\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n14.39",
+      "method": "gliner",
+      "confidence": 0.46834149956703186,
+      "rank_score": 0.16834149956703187,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1497,
+        1504
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "currency_code",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "$\n13.38",
+      "passage": "the high and low sale prices per Share for each quarterly period during which the Shares were listed publicly on a national stock exchange within the two preceding fiscal\u00a0years, as reported by NYSE:\n\u200b\n\u200b\n\u200b\nHigh\n\u200b\n\u200b\nLow\n\u200b\nFiscal Year Ending December\u00a031, 2022\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.95\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.84\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n11.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.64\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.38\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.11\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n12.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.03\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2023\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.88\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.86\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n13.43\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.18\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.11\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.56\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n14.39\n\u200b\n\u200b\n\u200b\n\u200b\n$\n11.24\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2024\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nSecond Quart",
+      "method": "gliner",
+      "confidence": 0.44429609179496765,
+      "rank_score": 0.14429609179496766,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1592,
+        1599
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "currency_code",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "$\n11.50",
+      "passage": "ing table sets forth, for the periods indicated, the high and low sale prices per Share for each quarterly period during which the Shares were listed publicly on a national stock exchange within the two preceding fiscal\u00a0years, as reported by NYSE:\n\u200b\n\u200b\n\u200b\nHigh\n\u200b\n\u200b\nLow\n\u200b\nFiscal Year Ending December\u00a031, 2022\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.95\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.84\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n11.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n8.64\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.38\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.11\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n12.50\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.03\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2023\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nFourth Quarter\n\u200b\n\u200b\n\u200b\n$\n11.88\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.86\n\u200b\n\u200b\nThird Quarter\n\u200b\n\u200b\n\u200b\n$\n13.43\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.18\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n13.11\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.56\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n14.39\n\u200b\n\u200b\n\u200b\n\u200b\n$\n11.24\n\u200b\n\u200b\nFiscal Year Ending December",
+      "method": "gliner",
+      "confidence": 0.443083256483078,
+      "rank_score": 0.14308325648307801,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1544,
+        1551
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "currency_code",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Acceptance Time",
+      "passage": "Following the consummation of the Offer and subject to the satisfaction of the remaining conditions set forth in the Merger Agreement, Parent, Merger Sub and the Company will take all necessary action to cause the Merger to become effective as soon as practicable following the Acceptance Time without a vote of the Company stockholders, as provided in Section\u00a0251(h) of the DGCL.\n17.\nblacklining:none;\nAppraisal Rights\n\u200b\nNo appraisal rights are available to the holders of Shares who tender such Shares in connection with the Offer.",
+      "method": "gliner",
+      "confidence": 0.679869532585144,
+      "rank_score": 0.129869532585144,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1223,
+        1238
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "effective_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Depository",
+      "passage": "14\nTABLE OF CONTENTS\nGuaranteed Delivery\n.\u00a0\u00a0\u00a0A stockholder who desires to tender Shares pursuant to the Offer and whose certificates for Shares are not immediately available and cannot be delivered to the Depository prior to the expiration of the Offer, or who cannot complete the procedure for book-entry transfer prior to the expiration of the Offer, or who cannot deliver all required documents to the Depository prior to the expiration of the Offer, may tender such Shares by satisfying all of the requirements set forth below:\n\u2022\nblacklining:none;\nsuch tender is made by or through an Eligible Institution (as d",
+      "method": "gliner",
+      "confidence": 0.6562495231628418,
+      "rank_score": 0.10624952316284175,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        5116,
+        5126
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Company",
+      "passage": "The Offer, as the first step in the acquisition of the Company, is intended to facilitate the acquisition of all outstanding Shares.",
+      "method": "gliner",
+      "confidence": 0.443643718957901,
+      "rank_score": 0.09364371895790102,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        516,
+        523
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "DTC",
+      "passage": "Delivery of documents to DTC does not constitute delivery to the Depository.",
+      "method": "gliner",
+      "confidence": 0.5984143018722534,
+      "rank_score": 0.048414301872253374,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4859,
+        4862
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Termination Date",
+      "passage": "If the Offer is consummated, Merger Sub is required to complete the Merger as soon as practicable following (but in any event no later than one business day after) the Acceptance Time and the satisfaction (or waiver, if permitted by applicable Law) of the closing conditions to complete the Merger as soon as practicable following (and in any event no later than the Termination Date (as it may be extended)).",
+      "method": "gliner",
+      "confidence": 0.5788565278053284,
+      "rank_score": 0.028856527805328325,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1074,
+        1090
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "settlement_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "LD",
+      "passage": "Within the tobacco business, the largest segment products are sold in over 130 markets and its global flagship brands include Winston, Camel, MEVUIS and LD.",
+      "method": "gliner",
+      "confidence": 0.6844580173492432,
+      "rank_score": -0.015541982650756792,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3188,
+        3190
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "No Legal Restraint Condition",
+      "passage": "The Offer is subject to the Offer Conditions set forth in Section\u00a015\u2009\u2014\u2009\u201c\nConditions of the Offer\n,\u201d including, but not limited to, the Antitrust Clearance Condition, No Antitrust Proceedings Condition, the Minimum Condition and the No Legal Restraint Condition (each as defined therein).",
+      "method": "gliner",
+      "confidence": 0.5342442393302917,
+      "rank_score": -0.015755760669708296,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2044,
+        2072
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "No Antitrust Proceedings Condition",
+      "passage": "The Offer is subject to the Offer Conditions set forth in Section\u00a015\u2009\u2014\u2009\u201c\nConditions of the Offer\n,\u201d including, but not limited to, the Antitrust Clearance Condition, No Antitrust Proceedings Condition, the Minimum Condition and the No Legal Restraint Condition (each as defined therein).",
+      "method": "gliner",
+      "confidence": 0.501659095287323,
+      "rank_score": -0.048340904712677046,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1978,
+        2012
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "acquiring company",
+      "passage": "at stockholder approval of a merger is not required if certain requirements are met, including that (i)\u00a0the acquiring company consummates a tender offer for any and all of the outstanding common stock of the company to be acquired that, absent Section\u00a0251(h) of the DGCL, would be entitled to vote on the adoption of the merger agreement and (ii)\u00a0following the consummation of such tender offer, the acquiring company owns at least such\u00a0percentage of the stock of the company to be acquired that, absent Section\u00a0251(h) of the DGCL, would be required to adopt the merger.",
+      "method": "gliner",
+      "confidence": 0.6998562812805176,
+      "rank_score": -0.05014371871948242,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        484,
+        501
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "TRSA",
+      "passage": "to such In-the-Money Option, (ii)\u00a0each outstanding and unexercised Out-of-the-Money Option will be canceled for no consideration payable therefor and (iii)\u00a0each outstanding Company TRSA and Company PRSA as of immediately prior to the Effective Time, whether vested or unvested, will be canceled and terminated as of immediately prior to the Effective Time and converted into the right to receive the TRSA/PRSA Consideration.",
+      "method": "gliner",
+      "confidence": 0.6288191676139832,
+      "rank_score": -0.0711808323860168,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4780,
+        4784
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Termination Condition",
+      "passage": "rms of or conditions to the Offer in a manner consistent with the terms of the Merger Agreement or to increase the Offer Price, except that, without the prior written consent of the Company, Parent and Merger Sub may not:\n\u2022\nblacklining:none;\nwaive or modify specified Offer Conditions, including the Minimum Condition, the No Antitrust Proceedings Condition, the No Legal Restraint Condition and the Termination Condition;\n\u200b\n\u2022\nblacklining:none;\nmake any change in the terms of or conditions to the Offer that:\n\u200b\n\u2022\nblacklining:none;\nchanges the form of consideration to be paid in the Offer;\n\u200b\n\u2022\nblacklining:none;\ndecreases the Offer Price or the number of Shares sought in the Offer;\n\u200b\n\u2022\nblacklining:none;\nextends the Offer or the Expiration Time or terminates the Offer, except as permitted or required by the Merger Agr",
+      "method": "gliner",
+      "confidence": 0.47357144951820374,
+      "rank_score": -0.07642855048179631,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2681,
+        2702
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Share",
+      "passage": "\u200b\n\u200b\n$\n13.11\n\u200b\n\u200b\n\u200b\n\u200b\n$\n10.56\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n14.39\n\u200b\n\u200b\n\u200b\n\u200b\n$\n11.24\n\u200b\n\u200b\nFiscal Year Ending December\u00a031, 2024\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nSecond Quarter\n\u200b\n\u200b\n\u200b\n$\n11.33\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.28\n\u200b\n\u200b\nFirst Quarter\n\u200b\n\u200b\n\u200b\n$\n11.79\n\u200b\n\u200b\n\u200b\n\u200b\n$\n9.80\n\u200b\n\u200b\nOn August\u00a020, 2024, the last full day of trading before we announced the Merger Agreement, the reported closing sales price of the Shares on NYSE was $13.99 per Share.",
+      "method": "gliner",
+      "confidence": 0.4559277892112732,
+      "rank_score": -0.09407221078872685,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2243,
+        2248
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "ticker_symbol",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Jefferies LLC",
+      "passage": "Stockholders should carefully read the information set forth in the Schedule\u00a014D-9, including the information set forth in Item\u00a04 under the sub-headings \u201c\nBackground of the Offer and the Merger\n\u201d and \u201c\nThe Company Board\u2019s Reasons for the Offer and the Merger\n.\u201d\nThe Company has advised Parent that at a meeting of the Company Board held on August\u00a020, 2024, Jefferies LLC (\u201c\nJefferies\n\u201d) rendered its opinion to the Company Board to the effect that, as of that date and based on and subject to various assumptions made, procedures followed, matters considered and limitations\n10\nTABLE OF CONTENTS",
+      "method": "gliner",
+      "confidence": 0.8462187647819519,
+      "rank_score": -0.10378123521804816,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        9975,
+        9988
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Antitrust Clearance Condition",
+      "passage": "The Offer is subject to the Offer Conditions set forth in Section\u00a015\u2009\u2014\u2009\u201c\nConditions of the Offer\n,\u201d including, but not limited to, the Antitrust Clearance Condition, No Antitrust Proceedings Condition, the Minimum Condition and the No Legal Restraint Condition (each as defined therein).",
+      "method": "gliner",
+      "confidence": 0.4443254768848419,
+      "rank_score": -0.10567452311515813,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1947,
+        1976
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Parent",
+      "passage": "dollar.\n\u200b\n\u2022\nblacklining:none;\na holder that directly, indirectly or constructively owns an equity interest in Parent.\n\u200b\nIn addition, this discussion does not address the corporate or individual alternative minimum tax, the net investment income tax, or any tax considerations under state, local or non-U.S.",
+      "method": "gliner",
+      "confidence": 0.4327085316181183,
+      "rank_score": -0.11729146838188176,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3270,
+        3276
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "No Legal Restraint Condition",
+      "passage": "e Offer, to make any change in the terms of or conditions to the Offer in a manner consistent with the terms of the Merger Agreement or to increase the Offer Price, except that, without the prior written consent of the Company, Parent and Merger Sub may not:\n\u2022\nblacklining:none;\nwaive or modify specified Offer Conditions, including the Minimum Condition, the No Antitrust Proceedings Condition, the No Legal Restraint Condition and the Termination Condition;\n\u200b\n\u2022\nblacklining:none;\nmake any change in the terms of or conditions to the Offer that:\n\u200b\n\u2022\nblacklining:none;\nchanges the form of consideration to be paid in the Offer;\n\u200b\n\u2022\nblacklining:none;\ndecreases the Offer Price or the number of Shares sought in the Offer;\n\u200b\n\u2022\nblacklining:none;\nextends the Offer or the Expiration Time or terminates the Offer, except as permitted",
+      "method": "gliner",
+      "confidence": 0.42236602306365967,
+      "rank_score": -0.12763397693634038,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2644,
+        2672
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "proration_terms",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "PRSA",
+      "passage": "ch In-the-Money Option, (ii)\u00a0each outstanding and unexercised Out-of-the-Money Option will be canceled for no consideration payable therefor and (iii)\u00a0each outstanding Company TRSA and Company PRSA as of immediately prior to the Effective Time, whether vested or unvested, will be canceled and terminated as of immediately prior to the Effective Time and converted into the right to receive the TRSA/PRSA Consideration.",
+      "method": "gliner",
+      "confidence": 0.554433286190033,
+      "rank_score": -0.145566713809967,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4785,
+        4789
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "JTI",
+      "passage": "The obligations of JTI and JT International SA as borrowers under the Bridge Facility are guaranteed by Japan Tobacco Inc.",
+      "method": "gliner",
+      "confidence": 0.5010279417037964,
+      "rank_score": -0.19897205829620357,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1553,
+        1556
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "there can be no assurance that, in the event that such approvals were not obtained or such other actions were not taken, adverse consequences might not result to the Company\u2019s business or that certain parts of the Company\u2019s business might not have to be disposed of or held separate, any of which may give us the right to terminate the Offer at any Expiration Time without accepting for payment any Shares validly tendered (and not properly withdrawn) pursuant to the Offer.",
+      "method": "gliner",
+      "confidence": 0.860916256904602,
+      "rank_score": -0.439083743095398,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1976,
+        1982
+      ],
+      "source_hit_id": "0001104659-24-096937:tm2422218d2_ex99-a1a.htm",
+      "source_accession": "0001104659-24-096937",
+      "label": "security_name",
+      "chunk_id": "w2"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:09:55.627695+00:00"
+}

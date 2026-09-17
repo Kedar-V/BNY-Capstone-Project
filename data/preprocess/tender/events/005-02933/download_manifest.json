@@ -1,0 +1,46 @@
+{
+  "event_id": "005-02933",
+  "docs": [
+    {
+      "role": "cover",
+      "accession": "0001104659-22-037820",
+      "filename": "tm229994-1_sctot.htm",
+      "hit_id": "0001104659-22-037820:tm229994-1_sctot.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-02933/raw/0001104659-22-037820__tm229994-1_sctot.htm",
+      "status": "skipped",
+      "bytes": 92941,
+      "sha1": "e35658e352be62d2af336c30f1ab46041c9bd54c"
+    },
+    {
+      "role": "otp",
+      "accession": "0001104659-22-037820",
+      "filename": "tm229994d1_exh-a1a.htm",
+      "hit_id": "0001104659-22-037820:tm229994d1_exh-a1a.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-02933/raw/0001104659-22-037820__tm229994d1_exh-a1a.htm",
+      "status": "skipped",
+      "bytes": 644995,
+      "sha1": "f25ccb083511a0831b358b2b55612109ec78c8d5"
+    },
+    {
+      "role": "lot",
+      "accession": "0001104659-22-037820",
+      "filename": "tm229994d1_exh-a1b.htm",
+      "hit_id": "0001104659-22-037820:tm229994d1_exh-a1b.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-02933/raw/0001104659-22-037820__tm229994d1_exh-a1b.htm",
+      "status": "skipped",
+      "bytes": 180628,
+      "sha1": "f27964f87f9b5482efd4e25be70ed7aed3b4fbfe"
+    },
+    {
+      "role": "sc_14d9",
+      "accession": "0001193125-22-085107",
+      "filename": "d317321dsc14d9.htm",
+      "hit_id": "0001193125-22-085107:d317321dsc14d9.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-02933/raw/0001193125-22-085107__d317321dsc14d9.htm",
+      "status": "skipped",
+      "bytes": 364627,
+      "sha1": "59797be019356ce89da3b52c71a35854ed44935d"
+    }
+  ],
+  "updated_at": "2026-09-17T06:12:57.687599+00:00"
+}

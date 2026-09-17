@@ -1,0 +1,39 @@
+{
+  "event_id": "005-42546",
+  "docs": [
+    {
+      "role": "cover",
+      "accession": "0001193125-25-032774",
+      "filename": "d937480dsctot.htm",
+      "hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-42546/raw/0001193125-25-032774__d937480dsctot.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/825313/000119312525032774/d937480dsctot.htm",
+      "status": "ok",
+      "bytes": 60075,
+      "sha1": "078099831172212fec6420eccf8cdf463b0b48ad"
+    },
+    {
+      "role": "otp",
+      "accession": "0001193125-25-032774",
+      "filename": "d937480dex99a1vi.htm",
+      "hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-42546/raw/0001193125-25-032774__d937480dex99a1vi.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/825313/000119312525032774/d937480dex99a1vi.htm",
+      "status": "ok",
+      "bytes": 21760,
+      "sha1": "bea4b3dcffe5506640179b1f73ce661b97cab26b"
+    },
+    {
+      "role": "sc_14d9",
+      "accession": "0000825313-25-000023",
+      "filename": "ab-march2025schedule14dx9w.htm",
+      "hit_id": "0000825313-25-000023:ab-march2025schedule14dx9w.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-42546/raw/0000825313-25-000023__ab-march2025schedule14dx9w.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/825313/000082531325000023/ab-march2025schedule14dx9w.htm",
+      "status": "ok",
+      "bytes": 70527,
+      "sha1": "309412c34134b7140cc3cc16cb917b85192a3889"
+    }
+  ],
+  "updated_at": "2026-09-17T07:22:29.844598+00:00"
+}

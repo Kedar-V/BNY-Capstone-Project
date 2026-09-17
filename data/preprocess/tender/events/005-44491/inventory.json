@@ -1,0 +1,58 @@
+{
+  "schema_version": "1",
+  "event_id": "005-44491",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "GOODRICH PETROLEUM CORP",
+  "primary_cik": "0000943861",
+  "written_at": "2026-09-17T06:01:41.512449+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": false,
+  "has_14d9": true,
+  "otp_method": "inferred",
+  "cohort": "gold",
+  "n_amendments": 3,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001104659-21-143662:tm2133715-1_sctot.htm",
+      "accession": "0001104659-21-143662",
+      "filename": "tm2133715-1_sctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2021-11-24 00:00:00",
+      "primary_cik": "0000943861",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001104659-21-143662:tm2133715d2_ex99-a1vi.htm",
+      "accession": "0001104659-21-143662",
+      "filename": "tm2133715d2_ex99-a1vi.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(VI)",
+      "file_description": "EXHIBIT 99.(A)(1)(VI)",
+      "file_date": "2021-11-24 00:00:00",
+      "primary_cik": "0000943861",
+      "otp_method": "inferred",
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001104659-21-144524:tm2134027-1_sc14d9.htm",
+      "accession": "0001104659-21-144524",
+      "filename": "tm2134027-1_sc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2021-11-29 00:00:00",
+      "primary_cik": "0000943861",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

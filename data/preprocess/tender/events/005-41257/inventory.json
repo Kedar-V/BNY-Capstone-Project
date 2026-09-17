@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-41257",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "ICONIX BRAND GROUP, INC.",
+  "primary_cik": "0000857737",
+  "written_at": "2026-09-17T06:01:41.502359+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 5,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "accession": "0001104659-21-088757",
+      "filename": "tm2121070d1_sctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2021-07-02 00:00:00",
+      "primary_cik": "0000857737",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "accession": "0001104659-21-088757",
+      "filename": "tm2121070d1_exa-1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "EXHIBIT (A)(1)(A)",
+      "file_date": "2021-07-02 00:00:00",
+      "primary_cik": "0000857737",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001104659-21-088757:tm2121070d1_exa1b2.htm",
+      "accession": "0001104659-21-088757",
+      "filename": "tm2121070d1_exa1b2.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B2)",
+      "file_description": "EXHIBIT (A)(1)(B)-2",
+      "file_date": "2021-07-02 00:00:00",
+      "primary_cik": "0000857737",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "accession": "0001140361-21-023317",
+      "filename": "nt10026447x1_14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2021-07-02 00:00:00",
+      "primary_cik": "0000857737",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

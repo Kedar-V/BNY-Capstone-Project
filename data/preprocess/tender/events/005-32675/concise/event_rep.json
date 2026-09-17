@@ -1,0 +1,2541 @@
+{
+  "schema_version": "1",
+  "event_id": "005-32675",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "19a5f6c8ed5662417feb89d5b5a0d3e8786cb9de",
+      "hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "accession": "0001193125-25-132796",
+      "filename": "d949575dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "43403ab27f84b99a4a1116f7d0750004c23e91cb",
+      "hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "accession": "0001193125-25-132796",
+      "filename": "d949575dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "f31b8b39f5f2416c54b0339a0e9ebcf388a490cd",
+      "hit_id": "0001193125-25-132796:d949575dex99a1b.htm",
+      "accession": "0001193125-25-132796",
+      "filename": "d949575dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "250185abb8271e6ad9f72944dd2ad438fbff394a",
+      "hit_id": "0001193125-25-132807:d833449dsc14d9.htm",
+      "accession": "0001193125-25-132807",
+      "filename": "d833449dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "June\u00a030, 2025",
+      "score": 0.953881561756134,
+      "rank_score": 1.733881561756134,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "November\u00a018, 2025",
+      "score": 0.9475919604301453,
+      "rank_score": 1.7275919604301453,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "Can the Offer be extended and, if so, under what circumstances?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "March\u00a029, 2025",
+      "score": 0.9432848691940308,
+      "rank_score": 1.7232848691940308,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May\u00a030, 2025",
+      "score": 0.9418240189552307,
+      "rank_score": 1.7218240189552307,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Have any\nServotronics stockholders agreed to tender their Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May\u00a016, 2025",
+      "score": 0.9371074438095093,
+      "rank_score": 1.7171074438095093,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "August\u00a01, 2025",
+      "score": 0.9351595044136047,
+      "rank_score": 1.7151595044136048,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:16",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$46.68",
+      "score": 0.914763867855072,
+      "rank_score": 1.694763867855072,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$10.29",
+      "score": 0.8946786522865295,
+      "rank_score": 1.6746786522865296,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$47.00",
+      "score": 0.8555541038513184,
+      "rank_score": 1.6355541038513184,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "$2.4\u00a0billion",
+      "score": 0.7787459492683411,
+      "rank_score": 1.558745949268341,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May\u00a018, 2025",
+      "score": 0.777167022228241,
+      "rank_score": 1.557167022228241,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "$132\u00a0million",
+      "score": 0.7579366564750671,
+      "rank_score": 1.5379366564750672,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May\u00a028, 2025",
+      "score": 0.7260110974311829,
+      "rank_score": 1.5060110974311829,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.20",
+      "score": 0.6645339131355286,
+      "rank_score": 1.4445339131355286,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$25.00",
+      "score": 0.7879058122634888,
+      "rank_score": 1.4379058122634887,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_14",
+      "faq_question": null,
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$38.50",
+      "score": 0.6989992260932922,
+      "rank_score": 1.3489992260932921,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_14",
+      "faq_question": null,
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "cusip_code",
+      "text": "817732100",
+      "score": 0.5532680153846741,
+      "rank_score": 1.303268015384674,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "TDG RISE MERGER SUB, INC.",
+      "score": 0.8558434844017029,
+      "rank_score": 1.255843484401703,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "SERVOTRONICS, INC.",
+      "score": 0.8429629802703857,
+      "rank_score": 1.2429629802703859,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "target corporation",
+      "score": 0.8971471190452576,
+      "rank_score": 1.1971471190452576,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_16",
+      "faq_question": null,
+      "section": "13. Purpose of the Offer and Plans for Servotronics; No Stockholder Approval;",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Warburg Pincus LLC",
+      "score": 0.8843607902526855,
+      "rank_score": 1.1843607902526856,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$7.5\u00a0million",
+      "score": 0.5320648550987244,
+      "rank_score": 1.1820648550987243,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_14",
+      "faq_question": null,
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "TDG",
+      "score": 0.8317375779151917,
+      "rank_score": 1.1817375779151917,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_12",
+      "faq_question": null,
+      "section": "9. Certain Information Concerning TD Group, TransDigm and Purchaser.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "SVT",
+      "score": 0.8311594724655151,
+      "rank_score": 1.1811594724655152,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_9",
+      "faq_question": null,
+      "section": "6. Price Range of Shares.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "The Sherwin-Williams Company",
+      "score": 0.8572938442230225,
+      "rank_score": 1.1572938442230225,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Warburg Pincus\u00a0& Co.",
+      "score": 0.840217649936676,
+      "rank_score": 1.140217649936676,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "TDG Rise\nMerger Sub, Inc.",
+      "score": 0.7841962575912476,
+      "rank_score": 1.1341962575912476,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "NYSE American",
+      "score": 0.9701225757598877,
+      "rank_score": 1.1201225757598878,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Builders FirstSource, Inc.",
+      "score": 0.8176851868629456,
+      "rank_score": 1.1176851868629456,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "TRANSDIGM INC.",
+      "score": 0.711349368095398,
+      "rank_score": 1.111349368095398,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "TRANSDIGM GROUP INCORPORATED",
+      "score": 0.9099923372268677,
+      "rank_score": 1.1099923372268679,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Servotronics, Inc.",
+      "score": 0.780660092830658,
+      "rank_score": 1.080660092830658,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "money_amount",
+      "text": "Merger Consideration",
+      "score": 0.7506163716316223,
+      "rank_score": 1.0806163716316224,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "How will outstanding Restricted Shares and PSUs be treated?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "517,644 Shares",
+      "score": 0.7433897852897644,
+      "rank_score": 1.0733897852897645,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Have any\nServotronics stockholders agreed to tender their Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "9:00 a.m.",
+      "score": 0.7340725064277649,
+      "rank_score": 1.064072506427765,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "How will I be notified if the Offer is\nextended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Tyson Foods, Inc.",
+      "score": 0.7617308497428894,
+      "rank_score": 1.0617308497428894,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_19",
+      "faq_question": null,
+      "section": "16. Certain Legal Matters; Regulatory Approvals.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Baker\u00a0& Hostetler LLP",
+      "score": 0.8614447712898254,
+      "rank_score": 1.0614447712898254,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "TD Group",
+      "score": 0.9468950629234314,
+      "rank_score": 1.0468950629234315,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_12",
+      "faq_question": null,
+      "section": "9. Certain Information Concerning TD Group, TransDigm and Purchaser.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "The Sherwin Williams Company",
+      "score": 0.7282387614250183,
+      "rank_score": 1.0282387614250184,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "TD Group",
+      "score": 0.8710220456123352,
+      "rank_score": 1.0210220456123351,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "TransDigm Inc.",
+      "score": 0.6891183853149414,
+      "rank_score": 0.9891183853149415,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Servotronics, Inc.",
+      "score": 0.5834616422653198,
+      "rank_score": 0.9834616422653197,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "calendar_date",
+      "text": "2022",
+      "score": 0.6524438858032227,
+      "rank_score": 0.9824438858032227,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "How will outstanding Restricted Shares and PSUs be treated?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Servotronics",
+      "score": 0.9675461649894714,
+      "rank_score": 0.9675461649894714,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_14",
+      "faq_question": null,
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "fair value",
+      "score": 0.6285816431045532,
+      "rank_score": 0.9585816431045533,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Are appraisal rights available in either the Offer or the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "options",
+      "score": 0.8837000131607056,
+      "rank_score": 0.9337000131607056,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "How will participants in Servotronics\u2019 ESOP be treated in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Grand Metropolitan PLC",
+      "score": 0.631635308265686,
+      "rank_score": 0.9316353082656861,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_19",
+      "faq_question": null,
+      "section": "16. Certain Legal Matters; Regulatory Approvals.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "TransDigm",
+      "score": 0.8726341724395752,
+      "rank_score": 0.9226341724395752,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:2",
+      "faq_question": "Why is Purchaser making this Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "TransDigm Group Incorporated",
+      "score": 0.7608752250671387,
+      "rank_score": 0.9108752250671387,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "Transaction Code Number",
+      "score": 0.9106988310813904,
+      "rank_score": 0.9106988310813904,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number\nof Class\u00a0of Securities",
+      "score": 0.6519400477409363,
+      "rank_score": 0.9019400477409363,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "employee stock options",
+      "score": 0.8932276368141174,
+      "rank_score": 0.8932276368141174,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_8",
+      "faq_question": null,
+      "section": "5. Material U.S. Federal Income Tax Consequences.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "CTS Corp.",
+      "score": 0.5544752478599548,
+      "rank_score": 0.8544752478599549,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_19",
+      "faq_question": null,
+      "section": "16. Certain Legal Matters; Regulatory Approvals.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Servotronics",
+      "score": 0.8493931293487549,
+      "rank_score": 0.8493931293487549,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_7",
+      "faq_question": null,
+      "section": "4. Withdrawal Rights.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "trust companies",
+      "score": 0.739770233631134,
+      "rank_score": 0.839770233631134,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_20",
+      "faq_question": null,
+      "section": "17. Fees and Expenses.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Eligible Institution",
+      "score": 0.7390337586402893,
+      "rank_score": 0.8390337586402893,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_4",
+      "faq_question": null,
+      "section": "1. Terms of the Offer.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "The Shares",
+      "score": 0.7945825457572937,
+      "rank_score": 0.7945825457572937,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_10",
+      "faq_question": null,
+      "section": "7. Certain Effects of the Offer.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "11:59 p.m.",
+      "score": 0.4481355547904968,
+      "rank_score": 0.7781355547904969,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "target_organization",
+      "text": "Telex Corp.",
+      "score": 0.47157764434814453,
+      "rank_score": 0.7715776443481446,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_19",
+      "faq_question": null,
+      "section": "16. Certain Legal Matters; Regulatory Approvals.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "calendar_date",
+      "text": "Expiration Date",
+      "score": 0.9590601921081543,
+      "rank_score": 0.7390601921081543,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "London Stock Exchange",
+      "score": 0.730565071105957,
+      "rank_score": 0.730565071105957,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE American",
+      "score": 0.672875165939331,
+      "rank_score": 0.672875165939331,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_12",
+      "faq_question": null,
+      "section": "9. Certain Information Concerning TD Group, TransDigm and Purchaser.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "Servotronics",
+      "score": 0.44201162457466125,
+      "rank_score": 0.6420116245746612,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "TransDigm",
+      "score": 0.6235593557357788,
+      "rank_score": 0.6235593557357788,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_14",
+      "faq_question": null,
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificate",
+      "score": 0.6076037883758545,
+      "rank_score": 0.6076037883758545,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_6",
+      "faq_question": null,
+      "section": "3. Procedures for Accepting the Offer",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "Effective Time",
+      "score": 0.8476395606994629,
+      "rank_score": 0.5776395606994629,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "How will participants in Servotronics\u2019 ESOP be treated in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE-listed",
+      "score": 0.5392091870307922,
+      "rank_score": 0.5392091870307922,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificates",
+      "score": 0.4860231578350067,
+      "rank_score": 0.4860231578350067,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_5",
+      "faq_question": null,
+      "section": "2. Acceptance for Purchase and Payment for Shares.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "capital stock",
+      "score": 0.4709174931049347,
+      "rank_score": 0.4709174931049347,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_17",
+      "faq_question": null,
+      "section": "14. Dividends and Distributions.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares underlying such PSU",
+      "score": 0.41367435455322266,
+      "rank_score": 0.46367435455322265,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "How will outstanding Restricted Shares and PSUs be treated?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "TransDigm",
+      "score": 0.4049842357635498,
+      "rank_score": 0.4549842357635498,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "available_option",
+      "text": "loan or option arrangements",
+      "score": 0.4330480694770813,
+      "rank_score": 0.4330480694770813,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_12",
+      "faq_question": null,
+      "section": "9. Certain Information Concerning TD Group, TransDigm and Purchaser.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9325117468833923,
+      "rank_score": 0.4325117468833923,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "If I decide not to tender, how will the Offer affect my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Servotronics common stock",
+      "score": 0.4243708550930023,
+      "rank_score": 0.4243708550930023,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_20",
+      "faq_question": null,
+      "section": "17. Fees and Expenses.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9472053647041321,
+      "rank_score": 0.39720536470413204,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_15",
+      "faq_question": null,
+      "section": "12. The Merger Agreement; Other Agreements.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.8411252498626709,
+      "rank_score": 0.34112524986267084,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "Can the Offer be extended and, if so, under what circumstances?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.5923773050308228,
+      "rank_score": 0.24237730503082267,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "Acceptance Time",
+      "score": 0.5703102350234985,
+      "rank_score": 0.1703102350234985,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_5",
+      "faq_question": null,
+      "section": "2. Acceptance for Purchase and Payment for Shares.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Acceptance Time",
+      "score": 0.7192528247833252,
+      "rank_score": 0.16925282478332515,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Termination Condition",
+      "score": 0.4845739006996155,
+      "rank_score": -0.06542609930038457,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_18",
+      "faq_question": null,
+      "section": "15. Certain Conditions of the Offer.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "SEC",
+      "score": 0.5531297922134399,
+      "rank_score": -0.14687020778656001,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_21",
+      "faq_question": null,
+      "section": "18. Miscellaneous.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.9098707437515259,
+      "rank_score": -0.39012925624847417,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa_1a949575_8",
+      "faq_question": null,
+      "section": "5. Material U.S. Federal Income Tax Consequences.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "Share",
+      "score": 0.4183018207550049,
+      "rank_score": -0.8816981792449952,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "June\u00a030, 2025",
+      "passage": "Unless we extend or terminate the Offer in accordance with the Merger Agreement, you will have until one minute following 11:59 p.m., New York City Time, on\nJune\u00a030, 2025, to tender your Shares in the Offer.",
+      "method": "gliner",
+      "confidence": 0.953881561756134,
+      "rank_score": 1.733881561756134,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        157,
+        170
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "November\u00a018, 2025",
+      "passage": "Further, no extension of the Offer may extend past November\u00a018, 2025 (as it may be extended, the \u201cOutside Date\u201d) without Servotronics\u2019 consent (provided, if all Offer Conditions, other than the condition described in paragraph\n(c)(i) of Annex I related to legal restraints, has been satisfied or is capable of being satisfied as of such date, the Outside Date may be extended by either Servotronics or TransDigm for a period of up to three months).",
+      "method": "gliner",
+      "confidence": 0.9475919604301453,
+      "rank_score": 1.7275919604301453,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and, if so, under what circumstances?",
+      "faq_question": "Can the Offer be extended and, if so, under what circumstances?",
+      "char_span": [
+        800,
+        817
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "March\u00a029, 2025",
+      "passage": "As of March\u00a029, 2025, TD Group had $2.4\u00a0billion in cash and cash equivalents on a consolidated basis. The Offer is not subject to any financing condition. See Section\u00a010\u2014\u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.9432848691940308,
+      "rank_score": 1.7232848691940308,
+      "doc_role": "otp",
+      "section": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "faq_question": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "char_span": [
+        653,
+        667
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May\u00a030, 2025",
+      "passage": "Yes. Concurrently with the execution of the Merger Agreement, certain stockholders of\nServotronics, including all of the directors and certain executive officers of Servotronics (collectively, the \u201cSupporting Stockholders\u201d), entered into a tender and support agreement (the \u201cTender and Support Agreement\u201d). As of\nMay\u00a030, 2025, the Supporting Stockholders beneficially owned, in the aggregate, 517,644 Shares (or approximately 20.25% of all outstanding Shares as of such date).",
+      "method": "gliner",
+      "confidence": 0.9418240189552307,
+      "rank_score": 1.7218240189552307,
+      "doc_role": "otp",
+      "section": "Have any\nServotronics stockholders agreed to tender their Shares?",
+      "faq_question": "Have any\nServotronics stockholders agreed to tender their Shares?",
+      "char_span": [
+        313,
+        325
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May\u00a016, 2025",
+      "passage": "On May\u00a016, 2025, the last full trading day prior to the public announcement of the execution of the Merger Agreement, the closing price per Share reported\non the NYSE American was $10.29.",
+      "method": "gliner",
+      "confidence": 0.9371074438095093,
+      "rank_score": 1.7171074438095093,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        3,
+        15
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "August\u00a01, 2025",
+      "passage": "You can withdraw your previously tendered Shares at any time prior to the Expiration Date, and, if we have not agreed to accept your Shares for\npayment within 60 days after commencement of the Offer (i.e., by August\u00a01, 2025), you can withdraw them at any time after that time until we accept Shares for payment. For a complete discussion of the procedures for withdrawing your Shares, see\nSection\u00a04\u2014\u201cWithdrawal Rights.\u201d",
+      "method": "gliner",
+      "confidence": 0.9351595044136047,
+      "rank_score": 1.7151595044136048,
+      "doc_role": "otp",
+      "section": "Until what time can I withdraw previously tendered Shares?",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "char_span": [
+        209,
+        223
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$46.68",
+      "passage": "On May\u00a016, 2025, the last full trading day prior to the public announcement of the execution of the Merger Agreement, the closing price per Share reported\non the NYSE American was $10.29. On May\u00a030, 2025, the last full trading day prior to our commencement of the Offer, the closing price per Share reported on the NYSE American was $46.68. You are encouraged to obtain a recent quotation for the\nShares before deciding whether to tender your Shares. See Section\u00a06\u2014\u201cPrice Range of Shares.\u201d",
+      "method": "gliner",
+      "confidence": 0.914763867855072,
+      "rank_score": 1.694763867855072,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        333,
+        339
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$10.29",
+      "passage": "On May\u00a016, 2025, the last full trading day prior to the public announcement of the execution of the Merger Agreement, the closing price per Share reported\non the NYSE American was $10.29. On May\u00a030, 2025, the last full trading day prior to our commencement of the Offer, the closing price per Share reported on the NYSE American was $46.68. You are encouraged to obtain a recent quotation for the\nShares before deciding whether to tender your Shares. See Section\u00a06\u2014\u201cPrice Range of Shares.\u201d",
+      "method": "gliner",
+      "confidence": 0.8946786522865295,
+      "rank_score": 1.6746786522865296,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        180,
+        186
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$47.00",
+      "passage": "Price Offered Per Share\n$47.00, in cash, without interest, subject to any applicable withholding taxes (the \u201cOffer Price\u201d).",
+      "method": "gliner",
+      "confidence": 0.8555541038513184,
+      "rank_score": 1.6355541038513184,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2152,
+        2158
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$2.4\u00a0billion",
+      "passage": "As of March\u00a029, 2025, TD Group had $2.4\u00a0billion in cash and cash equivalents on a consolidated basis. The Offer is not subject to any financing condition. See Section\u00a010\u2014\u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.7787459492683411,
+      "rank_score": 1.558745949268341,
+      "doc_role": "otp",
+      "section": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "faq_question": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "char_span": [
+        682,
+        694
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May\u00a018, 2025",
+      "passage": "We have not independently verified the accuracy or completeness of such information.\nThe Offer is being made pursuant to the Agreement and Plan of Merger, dated as of May\u00a018, 2025, as amended by Amendment No.\u00a01 to Agreement and Plan\nof Merger, dated as of May\u00a028, 2025 (as amended, the \u201cMerger Agreement\u201d), by and among Servotronics, TransDigm and Purchaser.",
+      "method": "gliner",
+      "confidence": 0.777167022228241,
+      "rank_score": 1.557167022228241,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1798,
+        1810
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$132\u00a0million",
+      "passage": "Yes. We estimate that the total amount of cash required to complete the transactions contemplated by the Offer and the Merger, including payment of any fees,\nexpenses and other related amounts incurred in connection with the Offer and the Merger, will be approximately $132\u00a0million.",
+      "method": "gliner",
+      "confidence": 0.7579366564750671,
+      "rank_score": 1.5379366564750672,
+      "doc_role": "otp",
+      "section": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "faq_question": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "char_span": [
+        269,
+        281
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May\u00a028, 2025",
+      "passage": "We have not independently verified the accuracy or completeness of such information.\nThe Offer is being made pursuant to the Agreement and Plan of Merger, dated as of May\u00a018, 2025, as amended by Amendment No.\u00a01 to Agreement and Plan\nof Merger, dated as of May\u00a028, 2025 (as amended, the \u201cMerger Agreement\u201d), by and among Servotronics, TransDigm and Purchaser.",
+      "method": "gliner",
+      "confidence": 0.7260110974311829,
+      "rank_score": 1.5060110974311829,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1887,
+        1899
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.20",
+      "passage": "SUMMARY TERM SHEET\nBelow are some of the questions that you as a holder of shares of common stock, par value $0.20 per share (the \u201cShares\u201d), of Servotronics, Inc.\n(\u201cServotronics\u201d) may have regarding the Offer (as defined below) and answers to those questions.",
+      "method": "gliner",
+      "confidence": 0.6645339131355286,
+      "rank_score": 1.4445339131355286,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        109,
+        114
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$25.00",
+      "passage": "The Initial IOI proposed a cash purchase price of $25.00 per share and identified key information requests, including a customary request for site visit and management meeting.\nOn April\u00a022, 2025, at the direction of the Servotronics Board, representatives of Houlihan informed representatives of TransDigm that, based on the\nInitial IOI, additional information would be made available to TransDigm to continue the process.",
+      "method": "gliner",
+      "confidence": 0.7879058122634888,
+      "rank_score": 1.4379058122634887,
+      "doc_role": "otp",
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "faq_question": null,
+      "char_span": [
+        2240,
+        2246
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$38.50",
+      "passage": "The Revised IOI proposed a cash purchase price of $38.50 per share and identified key remaining information requests.",
+      "method": "gliner",
+      "confidence": 0.6989992260932922,
+      "rank_score": 1.3489992260932921,
+      "doc_role": "otp",
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "faq_question": null,
+      "char_span": [
+        4543,
+        4549
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "817732100",
+      "passage": "(Parent of Offeror)\nA\nWholly Owned Subsidiary of\nTRANSDIGM GROUP INCORPORATED\n(Parent of Offeror)\n(Name\nof Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $.20 per share\n(Title of Class\u00a0of Securities)\n817732100\n(CUSIP Number\nof Class\u00a0of Securities)\nJessica L.",
+      "method": "gliner",
+      "confidence": 0.5532680153846741,
+      "rank_score": 1.303268015384674,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        572,
+        581
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "TDG RISE MERGER SUB, INC.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER\nSTATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nSERVOTRONICS, INC.\n(Name\nof Subject Company (Issuer))\nTDG RISE MERGER SUB, INC.\n(Offeror)\nA Wholly Owned\nSubsidiary of\nTRANSDIGM INC.\n(Parent of Offeror)\nA\nWholly Owned Subsidiary of\nTRANSDIGM GROUP INCORPORATED\n(Parent of Offeror)\n(Name\nof Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $.20 per share\n(Title of Class\u00a0of Securities)\n817732100\n(CUSIP Number\nof Class\u00a0of Securities)\nJessica L.",
+      "method": "gliner",
+      "confidence": 0.8558434844017029,
+      "rank_score": 1.255843484401703,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        243,
+        268
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "SERVOTRONICS, INC.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER\nSTATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nSERVOTRONICS, INC.\n(Name\nof Subject Company (Issuer))\nTDG RISE MERGER SUB, INC.",
+      "method": "gliner",
+      "confidence": 0.8429629802703857,
+      "rank_score": 1.2429629802703859,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        189,
+        207
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "target corporation",
+      "passage": "tion, the acquirer holds at least the amount of shares of each class of stock of the target corporation\nthat would otherwise be required to approve a merger involving the target corporation, and the other stockholders receive the same consideration for their stock in the merger as was payable in the tender offer, the acquirer can effect a merger\nwithout any action by the other stockholders of the target corporation.",
+      "method": "gliner",
+      "confidence": 0.8971471190452576,
+      "rank_score": 1.1971471190452576,
+      "doc_role": "otp",
+      "section": "13. Purpose of the Offer and Plans for Servotronics; No Stockholder Approval;",
+      "faq_question": null,
+      "char_span": [
+        4113,
+        4131
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "target_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Warburg Pincus LLC",
+      "passage": "Mr.\u00a0Graff has served as a senior advisor, since 2020, as a member and\nmanaging director of Warburg Pincus LLC and as a general partner of Warburg Pincus\u00a0& Co., a private equity firm, since October 2003.",
+      "method": "gliner",
+      "confidence": 0.8843607902526855,
+      "rank_score": 1.1843607902526856,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        3080,
+        3098
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$7.5\u00a0million",
+      "passage": "Representatives of BakerHostetler thereafter communicated a revised proposal whereby the additional $7.5\u00a0million termination fee would not be due\nunless and until the consummation of a transaction pursuant to a Superior Proposal.",
+      "method": "gliner",
+      "confidence": 0.5320648550987244,
+      "rank_score": 1.1820648550987243,
+      "doc_role": "otp",
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "faq_question": null,
+      "char_span": [
+        10447,
+        10459
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offer_price_amount",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "TDG",
+      "passage": "TD Group\u2019s common stock is listed on the NYSE American under the symbol \u201cTDG.\u201d\nTD Group, through its wholly owned subsidiaries, is a leading global designer, producer and supplier of highly engineered aircraft components for use on\nnearly all commercial and military aircraft in service today.",
+      "method": "gliner",
+      "confidence": 0.8317375779151917,
+      "rank_score": 1.1817375779151917,
+      "doc_role": "otp",
+      "section": "9. Certain Information Concerning TD Group, TransDigm and Purchaser.",
+      "faq_question": null,
+      "char_span": [
+        1147,
+        1150
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "SVT",
+      "passage": "6. Price Range of Shares.\nThe Shares are listed and principally traded on NYSE American under the symbol \u201cSVT.\u201d The following table sets forth, for each of the periods\nindicated, the high and low sale prices per Share on the NYSE American, as reported in published financial sources:\nHigh\nLow\nFiscal Year Ended December\u00a031, 2023\nFirst Quarter\n$\n12.30\n$\n10.27\nSecond Quarter\n14.32\n10.66\nThird Quarter\n14.00\n11.01\nFourth Quarter\n13.10\n8.80\nFiscal Year Ended December\u00a031, 2024\nFirst Quarter\n$\n14.10\n$\n11.64\nSecon",
+      "method": "gliner",
+      "confidence": 0.8311594724655151,
+      "rank_score": 1.1811594724655152,
+      "doc_role": "otp",
+      "section": "6. Price Range of Shares.",
+      "faq_question": null,
+      "char_span": [
+        106,
+        109
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "The Sherwin-Williams Company",
+      "passage": "Mr.\u00a0Hennessy was the Senior Vice President, Corporate Planning, Development\u00a0& Administration of The Sherwin-Williams Company, a manufacturer,\ndeveloper, distributor, and seller of paint, coatings, and related products, serving in that role from January 2017 to March 2018 in connection with the company\u2019s integration of its Valspar acquisition.\u00a0Prior to that, he served as the\nChief Financial Officer of The Sherwin Williams Company, a manufacturer and distributor of coatings and related products,\n46\nName\nCurrent Principal",
+      "method": "gliner",
+      "confidence": 0.8572938442230225,
+      "rank_score": 1.1572938442230225,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        3593,
+        3621
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Warburg Pincus\u00a0& Co.",
+      "passage": "Mr.\u00a0Graff has served as a senior advisor, since 2020, as a member and\nmanaging director of Warburg Pincus LLC and as a general partner of Warburg Pincus\u00a0& Co., a private equity firm, since October 2003.",
+      "method": "gliner",
+      "confidence": 0.840217649936676,
+      "rank_score": 1.140217649936676,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        3127,
+        3147
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "TDG Rise\nMerger Sub, Inc.",
+      "passage": "(\u201cTransDigm\u201d) and TDG Rise\nMerger Sub, Inc. (\u201cPurchaser\u201d and together with TD Group and TransDigm, \u201cwe,\u201d \u201cus\u201d or \u201cour\u201d) urge you to read carefully the remainder of this Offer to Purchase and the letter of transmittal that accompanies\nthis Offer to Purchase (the \u201cLetter of Transmittal\u201d) in their entirety because additional important information is contained in the remainder of this Offer to Purchase and the related Letter of Transmittal.",
+      "method": "gliner",
+      "confidence": 0.7841962575912476,
+      "rank_score": 1.1341962575912476,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        622,
+        647
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "NYSE American",
+      "passage": "On May\u00a016, 2025, the last full trading day prior to the public announcement of the execution of the Merger Agreement, the closing price per Share reported\non the NYSE American was $10.29. On May\u00a030, 2025, the last full trading day prior to our commencement of the Offer, the closing price per Share reported on the NYSE American was $46.68. You are encouraged to obtain a recent quotation for the\nShares before deciding whether to tender your Shares. See Section\u00a06\u2014\u201cPrice Range of Shares.\u201d",
+      "method": "gliner",
+      "confidence": 0.9701225757598877,
+      "rank_score": 1.1201225757598878,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        315,
+        328
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Builders FirstSource, Inc.",
+      "passage": "He formerly served as a director of Builders FirstSource, Inc., a NYSE-listed supplier\nof building products and services, through December 2020.\n*Jane M.",
+      "method": "gliner",
+      "confidence": 0.8176851868629456,
+      "rank_score": 1.1176851868629456,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        1879,
+        1905
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "TRANSDIGM INC.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER\nSTATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nSERVOTRONICS, INC.\n(Name\nof Subject Company (Issuer))\nTDG RISE MERGER SUB, INC.\n(Offeror)\nA Wholly Owned\nSubsidiary of\nTRANSDIGM INC.\n(Parent of Offeror)\nA\nWholly Owned Subsidiary of\nTRANSDIGM GROUP INCORPORATED\n(Parent of Offeror)\n(Name\nof Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $.20 per share\n(Title of Class\u00a0of Securities)\n817732100\n(CUSIP Number\nof Class\u00a0of Securities)\nJessica L.",
+      "method": "gliner",
+      "confidence": 0.711349368095398,
+      "rank_score": 1.111349368095398,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        308,
+        322
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "TRANSDIGM GROUP INCORPORATED",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER\nSTATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nSERVOTRONICS, INC.\n(Name\nof Subject Company (Issuer))\nTDG RISE MERGER SUB, INC.\n(Offeror)\nA Wholly Owned\nSubsidiary of\nTRANSDIGM INC.\n(Parent of Offeror)\nA\nWholly Owned Subsidiary of\nTRANSDIGM GROUP INCORPORATED\n(Parent of Offeror)\n(Name\nof Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $.20 per share\n(Title of Class\u00a0of Securities)\n817732100\n(CUSIP Number\nof Class\u00a0of Securities)\nJessica L.",
+      "method": "gliner",
+      "confidence": 0.9099923372268677,
+      "rank_score": 1.1099923372268679,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        372,
+        400
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Servotronics, Inc.",
+      "passage": "This Schedule TO relates to the offer by Purchaser to purchase (the \u201cOffer\u201d) all outstanding shares of common stock, par\nvalue $0.20 per share (the \u201cShares\u201d), of Servotronics, Inc., a Delaware corporation (\u201cServotronics\u201d), at a price of $47.00 per Share, net to the seller in cash, without interest and less any applicable withholding taxes (the\n\u201cOffer Price\u201d), upon the terms and subject to the conditions set forth in the Offer to Purchase, dated June\u00a02, 2025 (the \u201cOffer to Purchase\u201d), and in the related letter of transmittal (the \u201cLetter of Transmittal\u201d),\ncopies of which are",
+      "method": "gliner",
+      "confidence": 0.780660092830658,
+      "rank_score": 1.080660092830658,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2391,
+        2409
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Merger Consideration",
+      "passage": "Rather, immediately prior to the Effective Time, Restricted Shares will vest in\nfull, become free of restrictions and become cancelled and converted at the Effective Time into the right to receive an amount in cash equal to the per share Merger Consideration (as defined below), without interest and less all applicable tax\nwithholdings.\nPerformance share units (\u201cPSUs\u201d) are not outstanding Shares and thus cannot be tendered in the Offer.",
+      "method": "gliner",
+      "confidence": 0.7506163716316223,
+      "rank_score": 1.0806163716316224,
+      "doc_role": "otp",
+      "section": "How will outstanding Restricted Shares and PSUs be treated?",
+      "faq_question": "How will outstanding Restricted Shares and PSUs be treated?",
+      "char_span": [
+        537,
+        557
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "517,644 Shares",
+      "passage": "Yes. Concurrently with the execution of the Merger Agreement, certain stockholders of\nServotronics, including all of the directors and certain executive officers of Servotronics (collectively, the \u201cSupporting Stockholders\u201d), entered into a tender and support agreement (the \u201cTender and Support Agreement\u201d). As of\nMay\u00a030, 2025, the Supporting Stockholders beneficially owned, in the aggregate, 517,644 Shares (or approximately 20.25% of all outstanding Shares as of such date).",
+      "method": "gliner",
+      "confidence": 0.7433897852897644,
+      "rank_score": 1.0733897852897645,
+      "doc_role": "otp",
+      "section": "Have any\nServotronics stockholders agreed to tender their Shares?",
+      "faq_question": "Have any\nServotronics stockholders agreed to tender their Shares?",
+      "char_span": [
+        393,
+        407
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "9:00 a.m.",
+      "passage": "If we extend the Offer, we will so inform Computershare Trust Company, N.A., the depositary for the Offer (the \u201cDepositary\u201d), and\nwill make a public announcement of the extension not later than 9:00 a.m., Eastern Time, on the business day after the day on which the Offer was scheduled to expire. See Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.7340725064277649,
+      "rank_score": 1.064072506427765,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is\nextended?",
+      "faq_question": "How will I be notified if the Offer is\nextended?",
+      "char_span": [
+        194,
+        203
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Tyson Foods, Inc.",
+      "passage": "Similarly, in\nTyson Foods, Inc. v.",
+      "method": "gliner",
+      "confidence": 0.7617308497428894,
+      "rank_score": 1.0617308497428894,
+      "doc_role": "otp",
+      "section": "16. Certain Legal Matters; Regulatory Approvals.",
+      "faq_question": null,
+      "char_span": [
+        4589,
+        4606
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Baker\u00a0& Hostetler LLP",
+      "passage": "Pasiadis\nBaker\u00a0& Hostetler LLP\n127 Public Square, Suite 2000\nCleveland, Ohio 44114\n(216)\n621-0200\n\u2610\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a\ntender offer.",
+      "method": "gliner",
+      "confidence": 0.8614447712898254,
+      "rank_score": 1.0614447712898254,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        984,
+        1005
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "TD Group",
+      "passage": "The telephone number of TD Group\u2019s and\nTransDigm\u2019s principal executive offices is (216)\n706-2960.\nTransDigm is a wholly owned subsidiary of TD Group.",
+      "method": "gliner",
+      "confidence": 0.9468950629234314,
+      "rank_score": 1.0468950629234315,
+      "doc_role": "otp",
+      "section": "9. Certain Information Concerning TD Group, TransDigm and Purchaser.",
+      "faq_question": null,
+      "char_span": [
+        1064,
+        1072
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "The Sherwin Williams Company",
+      "passage": "Hennessy was the Senior Vice President, Corporate Planning, Development\u00a0& Administration of The Sherwin-Williams Company, a manufacturer,\ndeveloper, distributor, and seller of paint, coatings, and related products, serving in that role from January 2017 to March 2018 in connection with the company\u2019s integration of its Valspar acquisition.\u00a0Prior to that, he served as the\nChief Financial Officer of The Sherwin Williams Company, a manufacturer and distributor of coatings and related products,\n46\nName\nCurrent Principal Occupation or Employment\nand Five-Year Employment History\nfrom 2001 to 2016.",
+      "method": "gliner",
+      "confidence": 0.7282387614250183,
+      "rank_score": 1.0282387614250184,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        3901,
+        3929
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "TD Group",
+      "passage": "As of March\u00a029, 2025, TD Group had $2.4\u00a0billion in cash and cash equivalents on a consolidated basis. The Offer is not subject to any financing condition. See Section\u00a010\u2014\u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.8710220456123352,
+      "rank_score": 1.0210220456123351,
+      "doc_role": "otp",
+      "section": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "faq_question": "Does Purchaser have the financial resources to complete the Offer and the Merger?",
+      "char_span": [
+        669,
+        677
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "TransDigm Inc.",
+      "passage": "You have received this Letter of Transmittal in connection with the offer of TDG Rise Merger Sub, Inc., a\nDelaware corporation (\u201cPurchaser\u201d) and a wholly owned subsidiary of TransDigm Inc., a Delaware corporation (\u201cTransDigm\u201d) and a wholly owned subsidiary of TransDigm Group Incorporated, to purchase all outstanding shares of common\nstock, par value $0.20 per share (the \u201cShares\u201d), of Servotronics, Inc., a Delaware corporation (\u201cServotronics\u201d), at a price of $47.00 per Share, net to the seller in cash, without interest and less any applicable withholding\ntaxes, upon the terms and su",
+      "method": "gliner",
+      "confidence": 0.6891183853149414,
+      "rank_score": 0.9891183853149415,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2910,
+        2924
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1b.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Servotronics, Inc.",
+      "passage": "Subject Company Information\n(a) The name of the subject company and the issuer of the securities to which this Schedule TO relates is Servotronics, Inc., a Delaware corporation.\nServotronics\u2019 principal executive offices are located at 1110 Maple Street, Elma, New York 14059.",
+      "method": "gliner",
+      "confidence": 0.5834616422653198,
+      "rank_score": 0.9834616422653197,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3959,
+        3977
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "2022",
+      "passage": "Each Share subject to vesting, repurchase or other lapse of restrictions (a \u201cRestricted Share\u201d) that is outstanding under Servotronics\u2019 2022\nEquity Incentive Plan (the \u201cServotronics Equity Incentive Plan\u201d) is subject to transfer restrictions by their terms and thus cannot be tendered in the Offer.",
+      "method": "gliner",
+      "confidence": 0.6524438858032227,
+      "rank_score": 0.9824438858032227,
+      "doc_role": "otp",
+      "section": "How will outstanding Restricted Shares and PSUs be treated?",
+      "faq_question": "How will outstanding Restricted Shares and PSUs be treated?",
+      "char_span": [
+        136,
+        140
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Servotronics",
+      "passage": "A preliminary teleconference between representatives of Houlihan and TransDigm representatives\nwas held on March\u00a012, 2025, during which representatives of Houlihan confidentially identified Servotronics as the target company.",
+      "method": "gliner",
+      "confidence": 0.9675461649894714,
+      "rank_score": 0.9675461649894714,
+      "doc_role": "otp",
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "faq_question": null,
+      "char_span": [
+        863,
+        875
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "fair value",
+      "passage": "The \u201cfair value\u201d of such Shares as of the Effective Time could be more than, the same as or less than the consideration to be received pursuant to the Merger.",
+      "method": "gliner",
+      "confidence": 0.6285816431045532,
+      "rank_score": 0.9585816431045533,
+      "doc_role": "otp",
+      "section": "Are appraisal rights available in either the Offer or the Merger?",
+      "faq_question": "Are appraisal rights available in either the Offer or the Merger?",
+      "char_span": [
+        740,
+        750
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "options",
+      "passage": "Participants\nare urged to consult with their own advisors with respect to these options and the tax and other consequences thereof.",
+      "method": "gliner",
+      "confidence": 0.8837000131607056,
+      "rank_score": 0.9337000131607056,
+      "doc_role": "otp",
+      "section": "How will participants in Servotronics\u2019 ESOP be treated in the Offer?",
+      "faq_question": "How will participants in Servotronics\u2019 ESOP be treated in the Offer?",
+      "char_span": [
+        2154,
+        2161
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "available_option",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Grand Metropolitan PLC",
+      "passage": "Federal district court in Florida held, in\nGrand Metropolitan PLC v.",
+      "method": "gliner",
+      "confidence": 0.631635308265686,
+      "rank_score": 0.9316353082656861,
+      "doc_role": "otp",
+      "section": "16. Certain Legal Matters; Regulatory Approvals.",
+      "faq_question": null,
+      "char_span": [
+        4941,
+        4963
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "TransDigm",
+      "passage": "The purpose of the\nOffer is for TD Group and TransDigm to acquire control of Servotronics and ultimately all of the outstanding Shares.",
+      "method": "gliner",
+      "confidence": 0.8726341724395752,
+      "rank_score": 0.9226341724395752,
+      "doc_role": "otp",
+      "section": "Why is Purchaser making this Offer?",
+      "faq_question": "Why is Purchaser making this Offer?",
+      "char_span": [
+        45,
+        54
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "TransDigm Group Incorporated",
+      "passage": "This\nsummary term sheet is not meant to be a substitute for the more detailed information contained in the remainder of this Offer to Purchase, and TransDigm Group Incorporated (\u201cTD Group\u201d), TransDigm Inc.",
+      "method": "gliner",
+      "confidence": 0.7608752250671387,
+      "rank_score": 0.9108752250671387,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        546,
+        574
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "Transaction Code Number",
+      "passage": "\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED BY BOOK-ENTRY TRANSFER TO THE ACCOUNT MAINTAINED BY THE DEPOSITARY WITH THE\nBOOK-ENTRY TRANSFER FACILITY AND COMPLETE THE FOLLOWING (ONLY FINANCIAL INSTITUTIONS THAT ARE PARTICIPANTS IN THE BOOK-ENTRY TRANSFER FACILITY MAY DELIVER SHARES BY BOOK-ENTRY TRANSFER):\nName of Tendering Institution:\nDTC Participant Number:\nTransaction Code Number:\nNOTE: SIGNATURES MUST BE PROVIDED BELOW.",
+      "method": "gliner",
+      "confidence": 0.9106988310813904,
+      "rank_score": 0.9106988310813904,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        5252,
+        5275
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1b.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "cusip_code",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number\nof Class\u00a0of Securities",
+      "passage": "(Parent of Offeror)\nA\nWholly Owned Subsidiary of\nTRANSDIGM GROUP INCORPORATED\n(Parent of Offeror)\n(Name\nof Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $.20 per share\n(Title of Class\u00a0of Securities)\n817732100\n(CUSIP Number\nof Class\u00a0of Securities)\nJessica L.",
+      "method": "gliner",
+      "confidence": 0.6519400477409363,
+      "rank_score": 0.9019400477409363,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        583,
+        618
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "employee stock options",
+      "passage": "dollar; (xiii)\n\u201ccontrolled foreign corporations\u201d; (xiv) \u201cpassive foreign investment companies\u201d; (xv)\ntax-qualified\nretirement plans; and (xvi)\u00a0stockholders that acquired (or will acquire) Shares\nthrough exercise of employee stock options or otherwise as compensation.\nFor purposes of the Offer and the Merger, a \u201cU.S.",
+      "method": "gliner",
+      "confidence": 0.8932276368141174,
+      "rank_score": 0.8932276368141174,
+      "doc_role": "otp",
+      "section": "5. Material U.S. Federal Income Tax Consequences.",
+      "faq_question": null,
+      "char_span": [
+        2742,
+        2764
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "CTS Corp.",
+      "passage": "However, in 1987, in\nCTS Corp. v.",
+      "method": "gliner",
+      "confidence": 0.5544752478599548,
+      "rank_score": 0.8544752478599549,
+      "doc_role": "otp",
+      "section": "16. Certain Legal Matters; Regulatory Approvals.",
+      "faq_question": null,
+      "char_span": [
+        3892,
+        3901
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Servotronics",
+      "passage": "None of TransDigm, Purchaser, Servotronics, the Depositary, the Information Agent or any other person will be under any duty to give notification of any defects or irregularities in any notice of withdrawal or incur any\nliability for failure to give any such notification.",
+      "method": "gliner",
+      "confidence": 0.8493931293487549,
+      "rank_score": 0.8493931293487549,
+      "doc_role": "otp",
+      "section": "4. Withdrawal Rights.",
+      "faq_question": null,
+      "char_span": [
+        2645,
+        2657
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "trust companies",
+      "passage": "TransDigm or Purchaser will reimburse brokers, dealers, commercial banks and\ntrust companies and other nominees, upon request, for customary clerical and mailing expenses incurred by them in forwarding offering materials to their customers.",
+      "method": "gliner",
+      "confidence": 0.739770233631134,
+      "rank_score": 0.839770233631134,
+      "doc_role": "otp",
+      "section": "17. Fees and Expenses.",
+      "faq_question": null,
+      "char_span": [
+        1519,
+        1534
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Eligible Institution",
+      "passage": "If Share Certificates (as defined below) evidencing Shares to be withdrawn have been delivered or otherwise identified\nto the Depositary, then, prior to the physical release of those Share Certificates, the serial numbers shown on the Share Certificates must be submitted to the Depositary and the signatures on the notice of withdrawal must be guaranteed by an\nEligible Institution (as defined in Section\u00a03\u2014\u201cProcedures for Accepting the Offer and Tendering Shares\u201d below), unless the Shares have been tendered for the account of an Eligible Institution.",
+      "method": "gliner",
+      "confidence": 0.7390337586402893,
+      "rank_score": 0.8390337586402893,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer.",
+      "faq_question": null,
+      "char_span": [
+        4077,
+        4097
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "The Shares",
+      "passage": "We do not\nexpect there to be a significant period of time between the consummation of the Offer and the consummation of the Merger.\n24\nMarket for the Shares\nIf the Offer is successful, there will be no market for the Shares because we expect to complete the Merger as soon as practicable after the Acceptance Time.\nNYSE American Listing\nThe Shares are listed on the\nNYSE American.",
+      "method": "gliner",
+      "confidence": 0.7945825457572937,
+      "rank_score": 0.7945825457572937,
+      "doc_role": "otp",
+      "section": "7. Certain Effects of the Offer.",
+      "faq_question": null,
+      "char_span": [
+        745,
+        755
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "11:59 p.m.",
+      "passage": "Scheduled Expiration of Offer\nOne minute following 11:59 p.m., New York City time, on June\u00a030, 2025, unless the Offer is extended pursuant to the terms of the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.4481355547904968,
+      "rank_score": 0.7781355547904969,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2303,
+        2313
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Telex Corp.",
+      "passage": "Telex Corp.\n, a U.S.",
+      "method": "gliner",
+      "confidence": 0.47157764434814453,
+      "rank_score": 0.7715776443481446,
+      "doc_role": "otp",
+      "section": "16. Certain Legal Matters; Regulatory Approvals.",
+      "faq_question": null,
+      "char_span": [
+        4333,
+        4344
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "target_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Expiration Date",
+      "passage": "Therefore, Servotronics stockholders must allow sufficient time for the necessary tender\nprocedures to be completed during normal business hours of the Book-Entry Transfer Facility (as defined below), which end earlier than the time of expiration on the Expiration Date. Normal business hours of\nthe Book-Entry Transfer Facility are between 8:00 a.m. and 5:00 p.m., Eastern Time, Monday through Friday, other than holidays.",
+      "method": "gliner",
+      "confidence": 0.9590601921081543,
+      "rank_score": 0.7390601921081543,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        900,
+        915
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "London Stock Exchange",
+      "passage": "Through November 2021, Mr.\u00a0Howley was a director of EverArc Holdings Limited, a cash shell company listed on the London Stock Exchange, when it merged with Perimeter Solutions, SA.\n*Gary E.",
+      "method": "gliner",
+      "confidence": 0.730565071105957,
+      "rank_score": 0.730565071105957,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        5300,
+        5321
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE American",
+      "passage": "TD Group\u2019s common stock is listed on the NYSE American under the symbol \u201cTDG.\u201d\nTD Group, through its wholly owned subsidiaries, is a leading global designer, producer and supplier of highly engineered aircraft components for use on\nnearly all commercial and military aircraft in service today.",
+      "method": "gliner",
+      "confidence": 0.672875165939331,
+      "rank_score": 0.672875165939331,
+      "doc_role": "otp",
+      "section": "9. Certain Information Concerning TD Group, TransDigm and Purchaser.",
+      "faq_question": null,
+      "char_span": [
+        1115,
+        1128
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Servotronics",
+      "passage": "Servotronics has advised TransDigm and Purchaser that, as of May\u00a030, 2025, the most recent\npracticable date, there were an aggregate of (i) 2,556,502 Shares issued and outstanding (including restricted shares, but not including shares held in treasury), (ii) 72,550 Shares issued and held by Servotronics in its treasury, and (iii) 52,689\nShares reserved for issuance pursuant to outstanding Company performance",
+      "method": "gliner",
+      "confidence": 0.44201162457466125,
+      "rank_score": 0.6420116245746612,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4230,
+        4242
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "TransDigm",
+      "passage": "A preliminary teleconference between representatives of Houlihan and TransDigm representatives\nwas held on March\u00a012, 2025, during which representatives of Houlihan confidentially identified Servotronics as the target company.",
+      "method": "gliner",
+      "confidence": 0.6235593557357788,
+      "rank_score": 0.6235593557357788,
+      "doc_role": "otp",
+      "section": "11. Background of the Offer; Past Contacts or Negotiations with",
+      "faq_question": null,
+      "char_span": [
+        742,
+        751
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificate",
+      "passage": "If a Share Certificate is registered in the name of a person or persons other than the signatory of the\nLetter of Transmittal, or if payment is to be made or delivered to, or a Share Certificate not accepted for purchase or not tendered is to be issued in the name of, a person other than the registered holder of the Share Certificate surrendered, then\nthe Share Certificate must be endorsed or accompanied by appropriate duly executed stock powers, in either case signed exactly as the name of the registered holder appears on the Share Certificate, with the signature on that Share Certifica",
+      "method": "gliner",
+      "confidence": 0.6076037883758545,
+      "rank_score": 0.6076037883758545,
+      "doc_role": "otp",
+      "section": "3. Procedures for Accepting the Offer",
+      "faq_question": null,
+      "char_span": [
+        4298,
+        4315
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "Effective Time",
+      "passage": "The Merger Agreement provides that the ESOP will be terminated as of immediately prior to the Effective Time, which is expected to result in a distribution of\nall participants\u2019 accounts.",
+      "method": "gliner",
+      "confidence": 0.8476395606994629,
+      "rank_score": 0.5776395606994629,
+      "doc_role": "otp",
+      "section": "How will participants in Servotronics\u2019 ESOP be treated in the Offer?",
+      "faq_question": "How will participants in Servotronics\u2019 ESOP be treated in the Offer?",
+      "char_span": [
+        1787,
+        1801
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE-listed",
+      "passage": "He formerly served as a director of Builders FirstSource, Inc., a NYSE-listed supplier\nof building products and services, through December 2020.\n*Jane M.",
+      "method": "gliner",
+      "confidence": 0.5392091870307922,
+      "rank_score": 0.5392091870307922,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        1909,
+        1920
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificates",
+      "passage": "If any tendered Shares are not accepted for purchase for any reason pursuant to the terms and conditions of the Offer, or if Share\nCertificates are submitted evidencing more Shares than are tendered, Share Certificates evidencing unpurchased Shares will be returned, without expense to the tendering stockholder (or, Shares tendered by book-entry transfer into the\nDepositary\u2019s account at the Book-Entry Transfer Facility pursuant to the procedure set forth in Section\u00a03\u2014\u201cProcedures for Accepting the Offer and Tendering Shares\u201d will be credited to an account maintained at the Book-Entry\nTransfer Facility), promptly",
+      "method": "gliner",
+      "confidence": 0.4860231578350067,
+      "rank_score": 0.4860231578350067,
+      "doc_role": "otp",
+      "section": "2. Acceptance for Purchase and Payment for Shares.",
+      "faq_question": null,
+      "char_span": [
+        4214,
+        4232
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "capital stock",
+      "passage": "14. Dividends and Distributions.\nThe Merger Agreement provides that from the date of the Merger Agreement to the Effective Time or the date, if any, on which the Merger Agreement is\nterminated, except with the prior written consent of TransDigm or as specifically contemplated or permitted by the Merger Agreement, Servotronics will not reclassify, combine, split, subdivide or amend its capital stock, will not declare, set aside,\nmake or pay any dividend, and will not make any other distribution on, or directly or indirectly redeem, purchase or otherwise acquire any shares of its capital stock or any equity interests.",
+      "method": "gliner",
+      "confidence": 0.4709174931049347,
+      "rank_score": 0.4709174931049347,
+      "doc_role": "otp",
+      "section": "14. Dividends and Distributions.",
+      "faq_question": null,
+      "char_span": [
+        388,
+        401
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares underlying such PSU",
+      "passage": "Rather, each PSU that is\noutstanding immediately prior to the Effective Time will, whether vested or unvested, be cancelled and entitle the holder of such PSU to receive an amount in cash, with respect to the Shares underlying such PSU (at target level of attainment of the\napplicable performance criteria) equal to the product of (i)\u00a0the per share Merger Consideration and (ii)\u00a0the number of Shares underlying such PSU payable in accordance with the terms of the Merger Agreement, without interest and less all\napplicable tax withholdings.",
+      "method": "gliner",
+      "confidence": 0.41367435455322266,
+      "rank_score": 0.46367435455322265,
+      "doc_role": "otp",
+      "section": "How will outstanding Restricted Shares and PSUs be treated?",
+      "faq_question": "How will outstanding Restricted Shares and PSUs be treated?",
+      "char_span": [
+        1132,
+        1158
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "TransDigm",
+      "passage": "Participants\nare urged to consult with their own advisors with respect to these options and the tax and other consequences thereof.\nWhere can I find more\ninformation about Servotronics and TransDigm?\nYou can find more information about Servotronics and TransDigm from various sources described in\nSection\u00a08\u2014\u201cCertain Information Concerning Servotronics\u201d and Section\u00a09\u2014\u201cCertain Information Concerning TD Group, TransDigm and Purchaser.\u201d\nWho should I call if I have questions about the Offer?\nYou may call Okapi Partners LLC at (844)\n203-3605\nor email Okapi Partners LLC at info@okapipartners.com.",
+      "method": "gliner",
+      "confidence": 0.4049842357635498,
+      "rank_score": 0.4549842357635498,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        34557,
+        34566
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "loan or option arrangements",
+      "passage": "TD Group, TransDigm and Purchaser, any of the persons listed in Schedule I to this Offer to Purchase,\nhas any contract, arrangement, understanding or relationship with any other person with respect to any securities of Servotronics (including, but not limited to, any contract, arrangement, understanding or relationship concerning the transfer or the\nvoting of any such securities, joint ventures, loan or option arrangements, puts or calls, guarantees of loans, guarantees against loss or the giving or withholding of proxies, consents or authorizations); (iv) during the two years before the date\nof this Offer to Purchase, there have been no transactions between TD Group, TransDigm, Purchaser, their subsidiaries or, after due inquiry and to the best knowledge and belief of TD Group, TransDigm and Purchaser, any of the",
+      "method": "gliner",
+      "confidence": 0.4330480694770813,
+      "rank_score": 0.4330480694770813,
+      "doc_role": "otp",
+      "section": "9. Certain Information Concerning TD Group, TransDigm and Purchaser.",
+      "faq_question": null,
+      "char_span": [
+        4177,
+        4204
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "available_option",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "If you decide not to tender your Shares in the Offer and we accept and purchase Shares pursuant to the Offer, we expect that the Merger will be completed as\nsoon as practicable following the Acceptance Time. In the Merger, Shares will be converted into the right to receive an amount equal to the Offer Price.",
+      "method": "gliner",
+      "confidence": 0.9325117468833923,
+      "rank_score": 0.4325117468833923,
+      "doc_role": "otp",
+      "section": "If I decide not to tender, how will the Offer affect my Shares?",
+      "faq_question": "If I decide not to tender, how will the Offer affect my Shares?",
+      "char_span": [
+        223,
+        229
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Servotronics common stock",
+      "passage": "17. Fees and Expenses.\nTransDigm has retained Okapi Partners LLC as Information Agent in connection with the Offer, for which services Okapi Partners LLC will receive customary\ncompensation. The Information Agent may contact holders of Servotronics common stock by mail, telephone, telex, telegraph and personal interview and may request brokers, dealers, commercial banks, trust companies and other nominees to forward\nmaterial relating to the Offer to beneficial owners of Shares.",
+      "method": "gliner",
+      "confidence": 0.4243708550930023,
+      "rank_score": 0.4243708550930023,
+      "doc_role": "otp",
+      "section": "17. Fees and Expenses.",
+      "faq_question": null,
+      "char_span": [
+        236,
+        261
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "ervotronics Restricted Shares and Performance Share Units Awards\nEach Share subject to vesting, repurchase or other lapse of restrictions (a \u201cRestricted Share\u201d) that is outstanding under Servotronics\u2019 2022\nEquity Incentive Plan (the \u201cServotronics Equity Incentive Plan\u201d) immediately prior to the Effective Time will vest in full, become free of restrictions and become cancelled and converted at the Effective Time into the right to receive an\namount in cash equal to the per share Merger Consideration, without interest and less all applicable tax withholdings.",
+      "method": "gliner",
+      "confidence": 0.9472053647041321,
+      "rank_score": 0.39720536470413204,
+      "doc_role": "otp",
+      "section": "12. The Merger Agreement; Other Agreements.",
+      "faq_question": null,
+      "char_span": [
+        4162,
+        4176
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "effective_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "of up to 10 business days if at any then scheduled\nExpiration Date any of the conditions to our obligation to accept for purchase and pay for the Shares validly tendered and not properly withdrawn pursuant to the Offer (the \u201cOffer Conditions\u201d) is not satisfied or, if permitted under the\nMerger Agreement, waived, but if at any scheduled Expiration Date the only Offer Condition not satisfied is the Minimum Condition, then we are not required to extend the Offer for more than two subsequent extension periods of 10 business days each.",
+      "method": "gliner",
+      "confidence": 0.8411252498626709,
+      "rank_score": 0.34112524986267084,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and, if so, under what circumstances?",
+      "faq_question": "Can the Offer be extended and, if so, under what circumstances?",
+      "char_span": [
+        612,
+        629
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "(Parent of Offeror)\nA\nWholly Owned Subsidiary of\nTRANSDIGM GROUP INCORPORATED\n(Parent of Offeror)\n(Name\nof Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $.20 per share\n(Title of Class\u00a0of Securities)\n817732100\n(CUSIP Number\nof Class\u00a0of Securities)\nJessica L.",
+      "method": "gliner",
+      "confidence": 0.5923773050308228,
+      "rank_score": 0.24237730503082267,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        502,
+        514
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dsctot.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "Acceptance Time",
+      "passage": "2. Acceptance for Purchase and Payment for Shares.\nUpon the terms and subject to the conditions of the Offer (including, if the Offer is extended or amended, the terms and conditions of any such extension or\namendment), Purchaser will, promptly following the Expiration Date, accept for payment (such time of acceptance, the \u201cAcceptance Time\u201d) and, promptly following the Acceptance Time, pay for, all Shares validly tendered and not properly\nwithdrawn prior to the Expiration Date.",
+      "method": "gliner",
+      "confidence": 0.5703102350234985,
+      "rank_score": 0.1703102350234985,
+      "doc_role": "otp",
+      "section": "2. Acceptance for Purchase and Payment for Shares.",
+      "faq_question": null,
+      "char_span": [
+        372,
+        387
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Acceptance Time",
+      "passage": "The Merger will become effective as soon as practicable following the Acceptance Time without a vote of Servotronics\u2019\nstockholders in accordance with Section\u00a0251(h) of the DGCL, upon the terms and subject to the satisfaction or waiver of the conditions to the Merger.",
+      "method": "gliner",
+      "confidence": 0.7192528247833252,
+      "rank_score": 0.16925282478332515,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        3030,
+        3045
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "effective_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Termination Condition",
+      "passage": "SEC, may be asserted by Purchaser or TransDigm regardless of the circumstances giving rise to any such condition or may be waived by Purchaser or TransDigm in whole or in part at any time and from\ntime to time in their sole discretion, but nothing in the Merger Agreement will relieve any party from any obligation or liability that party has under the Merger Agreement and the Minimum Condition and Termination Condition may not be waived.",
+      "method": "gliner",
+      "confidence": 0.4845739006996155,
+      "rank_score": -0.06542609930038457,
+      "doc_role": "otp",
+      "section": "15. Certain Conditions of the Offer.",
+      "faq_question": null,
+      "char_span": [
+        4893,
+        4914
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "SEC",
+      "passage": "A copy of those documents, and any amendments thereto, may be examined at, and copies may be obtained from,\nthe SEC in the manner set forth under Section\u00a08\u2014\u201cCertain Information Concerning Servotronics\u201d above.\nTDG RISE MERGER SUB, INC.\nJune\u00a02, 2025\n45",
+      "method": "gliner",
+      "confidence": 0.5531297922134399,
+      "rank_score": -0.14687020778656001,
+      "doc_role": "otp",
+      "section": "18. Miscellaneous.",
+      "faq_question": null,
+      "char_span": [
+        2348,
+        2351
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "federal income tax purposes) holds\nShares, the tax treatment of a partner will generally depend upon the status of the partner and upon the activities of the partnership.",
+      "method": "gliner",
+      "confidence": 0.9098707437515259,
+      "rank_score": -0.39012925624847417,
+      "doc_role": "otp",
+      "section": "5. Material U.S. Federal Income Tax Consequences.",
+      "faq_question": null,
+      "char_span": [
+        3836,
+        3842
+      ],
+      "source_hit_id": "0001193125-25-132796:d949575dex99a1a.htm",
+      "source_accession": "0001193125-25-132796",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share",
+      "passage": "The title of the class of equity securities to which this Solicitation/Recommendation Statement on Schedule\n14D-9\n(together with any exhibits and annexes attached hereto, this \u201cSchedule\n14D-9\u201d)\nrelates is the Company\u2019s common stock, par value $0.20 per share (each such share, a \u201cShare,\u201d and\ncollectively, the \u201cShares\u201d).",
+      "method": "gliner",
+      "confidence": 0.4183018207550049,
+      "rank_score": -0.8816981792449952,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2266,
+        2271
+      ],
+      "source_hit_id": "0001193125-25-132807:d833449dsc14d9.htm",
+      "source_accession": "0001193125-25-132807",
+      "label": "security_name",
+      "chunk_id": "w3"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.818753+00:00"
+}

@@ -1,0 +1,913 @@
+{
+  "schema_version": "1",
+  "event_id": "005-12857",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "5de7a19bced1add54036b8f523389fbe5da0825a",
+      "hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "accession": "0001398344-20-010619",
+      "filename": "fp0053929_sctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "c33cb42f36a9c4de6ce0d289779f48115516051e",
+      "hit_id": "0001104659-20-092031:tm2026050d2_exa1vi.htm",
+      "accession": "0001104659-20-092031",
+      "filename": "tm2026050d2_exa1vi.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "0c83577ae416af5ecfbccc3cc5fc0c5daabd952f",
+      "hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "accession": "0001104659-20-065488",
+      "filename": "tm2020713-2_sc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "cusip_code",
+      "text": "00548F105",
+      "score": 0.8621533513069153,
+      "rank_score": 1.6121533513069153,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Ancora Advisors, LLC",
+      "score": 0.8569046258926392,
+      "rank_score": 1.2569046258926393,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "ANCORA INVESTORS, LLC",
+      "score": 0.8298042416572571,
+      "rank_score": 1.2298042416572572,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "BULLDOG INVESTORS, LLC",
+      "score": 0.8102201819419861,
+      "rank_score": 1.2102201819419862,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Adams Natural Resources Fund, Inc.",
+      "score": 0.8889302611351013,
+      "rank_score": 1.1889302611351014,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "The Bulldog-Ancora Group",
+      "score": 0.9436125755310059,
+      "rank_score": 1.143612575531006,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$70,000,000.00",
+      "score": 0.7303491234779358,
+      "rank_score": 1.1303491234779357,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$9,086.00",
+      "score": 0.7249743938446045,
+      "rank_score": 1.1249743938446044,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$70,000,000",
+      "score": 0.6472658514976501,
+      "rank_score": 1.09726585149765,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.001",
+      "score": 0.6938389539718628,
+      "rank_score": 1.0938389539718627,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.001 per share",
+      "score": 0.6077824831008911,
+      "rank_score": 1.057782483100891,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "lldog Investors, LLC",
+      "score": 0.7357227802276611,
+      "rank_score": 1.0357227802276612,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Bulldog-Ancora Group",
+      "score": 0.863427460193634,
+      "rank_score": 0.963427460193634,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Commercial Banks",
+      "score": 0.7058240175247192,
+      "rank_score": 0.9058240175247192,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "social security number",
+      "score": 0.6049233078956604,
+      "rank_score": 0.8049233078956604,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Ronon Stevens & Young, LLP",
+      "score": 0.4959404170513153,
+      "rank_score": 0.7959404170513154,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Adams Natural Resources Fund, Inc.",
+      "score": 0.4654148817062378,
+      "rank_score": 0.7654148817062378,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE",
+      "score": 0.4032433331012726,
+      "rank_score": 0.7532433331012726,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Commercial Banks",
+      "score": 0.6257604360580444,
+      "rank_score": 0.7257604360580444,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Trust Companies",
+      "score": 0.5996719002723694,
+      "rank_score": 0.6996719002723694,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Dealers",
+      "score": 0.536744236946106,
+      "rank_score": 0.6367442369461059,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Social Security Numbers",
+      "score": 0.4053236246109009,
+      "rank_score": 0.6053236246109008,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Nominees",
+      "score": 0.4926568567752838,
+      "rank_score": 0.5926568567752838,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Bulldog-Ancora",
+      "score": 0.584273099899292,
+      "rank_score": 0.584273099899292,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "financial institution",
+      "score": 0.456760436296463,
+      "rank_score": 0.556760436296463,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "par value",
+      "score": 0.4094226360321045,
+      "rank_score": 0.4094226360321045,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.6372828483581543,
+      "rank_score": 0.33728284835815425,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.7712320685386658,
+      "rank_score": 0.22123206853866573,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "PEO",
+      "score": 0.4093565344810486,
+      "rank_score": -0.24064346551895144,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "cusip",
+      "raw": "00548F105",
+      "passage": "(Name of Subject Company (Issuer))\nAncora Advisors, LLC\nBulldog Investors, LLC\n(d/b/a The Bulldog-Ancora Group)\n(Names of Filing Person (Offerer))\nCommon Stock, $0.001 par value\n(Title of Class of Securities)\n00548F105\n(CUSIP Number of Class of Securities)\nPhillip Goldstein\nBulldog Investors, LLC\nPark 80 West\u2014Plaza Two\n250 Pehle Avenue, Suite 708\nSaddle Brook, NJ 07663\nTelephone: (201) 556-0092\n(Name, Address and Telephone Number of a Person\nAuthorized to Receive Notices and Communications\non Behalf of Filing Persons)\nCopies to:\nFredrick DiSanto\nAncora Advisors, LLC\n6060 Parkland Boulevard,\nSuite 200\nCleveland,",
+      "method": "gliner",
+      "confidence": 0.8621533513069153,
+      "rank_score": 1.6121533513069153,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        499,
+        508
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Ancora Advisors, LLC",
+      "passage": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n____________________________\nSCHEDULE TO\n(Rule 14-d-100)\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1)\nOR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\n____________________________\nAdams Natural Resources Fund, Inc.\n(Name of Subject Company (Issuer))\nAncora Advisors, LLC\nBulldog Investors, LLC\n(d/b/a The Bulldog-Ancora Group)\n(Names of Filing Person (Offerer))\nCommon Stock, $0.001 par value\n(Title of Class of Securities)\n00548F105\n(CUSIP Number of Class of Securities)\nPhillip Goldstein\nBulldog Investors, LLC\nPark 80 West\u2014Plaza Two\n250 Pehle Avenue, Suite 708\nSaddle Brook, NJ 07663\nTelephone: (201) 556-0092\n(Name, Address and Telephone Number of a Person\nAuthorize",
+      "method": "gliner",
+      "confidence": 0.8569046258926392,
+      "rank_score": 1.2569046258926393,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        325,
+        345
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ANCORA INVESTORS, LLC",
+      "passage": "Dated: May 15, 2020\nTHE BULLDOG-ANCORA GROUP\nBy: BULLDOG INVESTORS, LLC\nTitle: Group Member\nBy:\n/s/ PHILLIP GOLDSTEIN\nName: Phillip Goldstein\nTitle: Member and Manager\nBY: ANCORA INVESTORS, LLC\nTitle: Group Member\nBy:\n/s/ FREDRICK DISANTO\nName: Fredrick DiSanto\nTitle: Chairman and CEO\nINDEX TO EXHIBITS\nEXHIBIT NO.",
+      "method": "gliner",
+      "confidence": 0.8298042416572571,
+      "rank_score": 1.2298042416572572,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4436,
+        4457
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "BULLDOG INVESTORS, LLC",
+      "passage": "Dated: May 15, 2020\nTHE BULLDOG-ANCORA GROUP\nBy: BULLDOG INVESTORS, LLC\nTitle: Group Member\nBy:\n/s/ PHILLIP GOLDSTEIN\nName: Phillip Goldstein\nTitle: Member and Manager\nBY: ANCORA INVESTORS, LLC\nTitle: Group Member\nBy:\n/s/ FREDRICK DISANTO\nName: Fredrick DiSanto\nTitle: Chairman and CEO\nINDEX TO EXHIBITS\nEXHIBIT NO.",
+      "method": "gliner",
+      "confidence": 0.8102201819419861,
+      "rank_score": 1.2102201819419862,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4313,
+        4335
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Adams Natural Resources Fund, Inc.",
+      "passage": "The name of the subject company to which\nthis Solicitation/Recommendation Statement on Schedule 14D-9 (together with the Exhibits hereto, this \u201cStatement\u201d)\nrelates is Adams Natural Resources Fund, Inc., a Maryland corporation.",
+      "method": "gliner",
+      "confidence": 0.8889302611351013,
+      "rank_score": 1.1889302611351014,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        1426,
+        1460
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "The Bulldog-Ancora Group",
+      "passage": "hird-party tender offer subject to Rule 14d-1\n[\u00a0\u00a0] issuer tender offer subject to Rule 13e-4\n[\u00a0\u00a0] going-private transaction subject to Rule 13e-3\n[\u00a0\u00a0] amendment to Schedule 13D under Rule 13d-2\nCheck the following box if the filing is a final amendment reporting\nthe results of the tender offer: [\u00a0\u00a0]\nSCHEDULE TO\nThis Tender Offer Statement on Schedule TO\n(the \u201cSchedule TO\u201d) relates to the offer by The Bulldog-Ancora Group (the \u201cGroup\u201d), on behalf of certain\nclients of its members, to purchase up to $70,000,000 of the outstanding shares of common stock, $0.001 par value (the \u201cShares\u201d),\nof Adams Natural Resources Fund, Inc., a Maryland corporation (\u201cPEO\u201d), for cash at a price per Share not less than\n83% of net asset value (\u201cNAV\u201d) per Share and not more than 88% of NAV per Share, based on the NAV per Share at the\nclo",
+      "method": "gliner",
+      "confidence": 0.9436125755310059,
+      "rank_score": 1.143612575531006,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2291,
+        2315
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$70,000,000.00",
+      "passage": "Two\n250 Pehle Avenue, Suite 708\nSaddle Brook, NJ 07663\nTelephone: (201) 556-0092\n(Name, Address and Telephone Number of a Person\nAuthorized to Receive Notices and Communications\non Behalf of Filing Persons)\nCopies to:\nFredrick DiSanto\nAncora Advisors, LLC\n6060 Parkland Boulevard,\nSuite 200\nCleveland, Ohio 44124\n(216) 825-4000\nCalculation of Filing Fee\nTransaction valuation*\nAmount of filing fee**\n$70,000,000.00\n$9,086.00\n*\nThis amount represents the maximum amount of the offer.",
+      "method": "gliner",
+      "confidence": 0.7303491234779358,
+      "rank_score": 1.1303491234779357,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1007,
+        1021
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$9,086.00",
+      "passage": "venue, Suite 708\nSaddle Brook, NJ 07663\nTelephone: (201) 556-0092\n(Name, Address and Telephone Number of a Person\nAuthorized to Receive Notices and Communications\non Behalf of Filing Persons)\nCopies to:\nFredrick DiSanto\nAncora Advisors, LLC\n6060 Parkland Boulevard,\nSuite 200\nCleveland, Ohio 44124\n(216) 825-4000\nCalculation of Filing Fee\nTransaction valuation*\nAmount of filing fee**\n$70,000,000.00\n$9,086.00\n*\nThis amount represents the maximum amount of the offer.",
+      "method": "gliner",
+      "confidence": 0.7249743938446045,
+      "rank_score": 1.1249743938446044,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1022,
+        1031
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$70,000,000",
+      "passage": "This Statement relates to the tender offer\nby Ancora Advisors, LLC and Bulldog Investors, LLC (together, \u201cThe Bulldog-Ancora Group\u201d), as described in the Schedule\nTO filed on May 15, 2020 (the \u201cBulldog-Ancora Schedule TO\u201d), to purchase up to $70,000,000 of the Shares, for cash\nat a price per Share of not less than 83% of NAV per Share and not more than 88% of NAV per Share, based on the NAV per Share at\nthe close of the regular trading session of the NYSE, on the Expiration Date, as defined in the Bulldog-Ancora Schedule TO, net\nto the seller in cash (subject to a $50 processing fee that the Bulldog-Ancora Group will charge for processing each L",
+      "method": "gliner",
+      "confidence": 0.6472658514976501,
+      "rank_score": 1.09726585149765,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2405,
+        2416
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.001",
+      "passage": "20549\n____________________________\nSCHEDULE TO\n(Rule 14-d-100)\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1)\nOR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\n____________________________\nAdams Natural Resources Fund, Inc.\n(Name of Subject Company (Issuer))\nAncora Advisors, LLC\nBulldog Investors, LLC\n(d/b/a The Bulldog-Ancora Group)\n(Names of Filing Person (Offerer))\nCommon Stock, $0.001 par value\n(Title of Class of Securities)\n00548F105\n(CUSIP Number of Class of Securities)\nPhillip Goldstein\nBulldog Investors, LLC\nPark 80 West\u2014Plaza Two\n250 Pehle Avenue, Suite 708\nSaddle Brook, NJ 07663\nTelephone: (201) 556-0092\n(Name, Address and Telephone Number of a Person\nAuthorized to Receive Notices and Communications\non Behalf of Filing Persons)\nCopies to:\nFredrick DiSanto\nAncora Advisors",
+      "method": "gliner",
+      "confidence": 0.6938389539718628,
+      "rank_score": 1.0938389539718627,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        451,
+        457
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.001 per share",
+      "passage": "The tender offer relates to outstanding Common Stock, par value $0.001 per share, of Adams Natural Resources Fund,\nInc.",
+      "method": "gliner",
+      "confidence": 0.6077824831008911,
+      "rank_score": 1.057782483100891,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3271,
+        3287
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "lldog Investors, LLC",
+      "passage": "As of March 31,\n2020, there were 29,777,752 Shares issued and outstanding.\nItem 2.\nIdentity and Background of Filing Person.\nThe filing person is the subject company.\nThe Fund's name, business address and business telephone number are set forth in Item 1 above.\nThis Statement relates to the tender offer\nby Ancora Advisors, LLC and Bulldog Investors, LLC (together, \u201cThe Bulldog-Ancora Group\u201d), as described in the Schedule\nTO filed on May 15, 2020 (the \u201cBulldog-Ancora Schedule TO\u201d), to purchase up to $70,000,000 of the Shares, for cash\nat a price per Share of not less than 83% of NAV per Share and not more than 88% of NAV per Share, based on the NAV per Share at\nthe close of the regular trading session of the NYSE, on the Expiration Date, as defin",
+      "method": "gliner",
+      "confidence": 0.7357227802276611,
+      "rank_score": 1.0357227802276612,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2236,
+        2256
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Bulldog-Ancora Group",
+      "passage": "After careful consideration of the Fund's potential responses, the Board determined that the Bulldog-Ancora Offer\nwas not in the best interests of shareholders and unanimously determined to recommend that the Fund's shareholders reject\nthe Bulldog-Ancora Offer and not tender their shares to the Bulldog-Ancora Group.\nThe following discussion of the information\nand factors considered by the Board is not meant to be exhaustive, but includes material information, factors and analyses considered\nby the Board in reaching its conclusions and recommendations.",
+      "method": "gliner",
+      "confidence": 0.863427460193634,
+      "rank_score": 0.963427460193634,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4411,
+        4431
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Commercial Banks",
+      "passage": "(a)(1)(D)\nForm of Letter to Clients for Use by Brokers, Dealers, Commercial Banks, Trust Companies and Nominees\n(a)(1)(E)\nGuidelines for Certification of Taxpayer Identification Number on Substitute Form W-9.",
+      "method": "gliner",
+      "confidence": 0.7058240175247192,
+      "rank_score": 0.9058240175247192,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3852,
+        3868
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "social security number",
+      "passage": "If only one person on a joint account has a social security\nnumber, that person\u2019s number must be furnished.\n(2)\nCircle the minor\u2019s name and furnish the minor\u2019s social security number.\n(3)\nCircle the ward\u2019s, minor\u2019s or incompetent person\u2019s name and furnish such person\u2019s social security number.\n(4)\nYou must show your individual name, but you may also enter your business or \u201cdoing business\nas\u201d name.",
+      "method": "gliner",
+      "confidence": 0.6049233078956604,
+      "rank_score": 0.8049233078956604,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2255,
+        2277
+      ],
+      "source_hit_id": "0001104659-20-092031:tm2026050d2_exa1vi.htm",
+      "source_accession": "0001104659-20-092031",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Ronon Stevens & Young, LLP",
+      "passage": "Mabry\nStradley Ronon Stevens & Young, LLP\n2600 One Commerce Square\nPhiladelphia, Pennsylvania 19103\n(215) 564-8000\n\u00a8\nCheck the box if the filing relates solely to preliminary\ncommunications made before the commencement of a Tender Offer.",
+      "method": "gliner",
+      "confidence": 0.4959404170513153,
+      "rank_score": 0.7959404170513154,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        999,
+        1025
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Adams Natural Resources Fund, Inc.",
+      "passage": "Check the following box if the filing is a final amendment reporting\nthe results of the tender offer: [\u00a0\u00a0]\nSCHEDULE TO\nThis Tender Offer Statement on Schedule TO\n(the \u201cSchedule TO\u201d) relates to the offer by The Bulldog-Ancora Group (the \u201cGroup\u201d), on behalf of certain\nclients of its members, to purchase up to $70,000,000 of the outstanding shares of common stock, $0.001 par value (the \u201cShares\u201d),\nof Adams Natural Resources Fund, Inc., a Maryland corporation (\u201cPEO\u201d), for cash at a price per Share not less than\n83% of net asset value (\u201cNAV\u201d) per Share and not more than 88% of NAV per Share, based on the NAV per Share at the\nclose of the regular trading session of the New York Stock Exchange (the \u201cNYSE\u201d), on the Expiration Date (the \u201cPricing\nDate\u201d), less any applicable withholding taxes and any brokerage fees that may apply, and",
+      "method": "gliner",
+      "confidence": 0.4654148817062378,
+      "rank_score": 0.7654148817062378,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2485,
+        2519
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE",
+      "passage": "visors, LLC and Bulldog Investors, LLC (together, \u201cThe Bulldog-Ancora Group\u201d), as described in the Schedule\nTO filed on May 15, 2020 (the \u201cBulldog-Ancora Schedule TO\u201d), to purchase up to $70,000,000 of the Shares, for cash\nat a price per Share of not less than 83% of NAV per Share and not more than 88% of NAV per Share, based on the NAV per Share at\nthe close of the regular trading session of the NYSE, on the Expiration Date, as defined in the Bulldog-Ancora Schedule TO, net\nto the seller in cash (subject to a $50 processing fee that the Bulldog-Ancora Group will charge for processing each Letter of\nTransmittal, applicable withholding taxes and any brokerage fees that may apply), without interest upon the terms and subject to\nthe conditions set forth in the Offer to Purchase, dated May 15, 202",
+      "method": "gliner",
+      "confidence": 0.4032433331012726,
+      "rank_score": 0.7532433331012726,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2618,
+        2622
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "ticker_symbol",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Commercial Banks",
+      "passage": "(a)(1)(C)\nLetter to Brokers, Dealers, Commercial Banks, Trust Companies and other Nominees.\n(a)(1)(D)\nForm of Letter to Clients for Use by Brokers, Dealers, Commercial Banks, Trust Companies and Nominees.\n(a)(1)(E)\nGuidelines for Certification of Taxpayer Identification Number on Substitute Form W-9.\n(a)(1)(F)\nPress Release Issued by the Group, dated May 15, 2020, Announcing the Commencement of the Offer.",
+      "method": "gliner",
+      "confidence": 0.6257604360580444,
+      "rank_score": 0.7257604360580444,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4712,
+        4728
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Trust Companies",
+      "passage": "(a)(1)(D)\nForm of Letter to Clients for Use by Brokers, Dealers, Commercial Banks, Trust Companies and Nominees.\n(a)(1)(E)\nGuidelines for Certification of Taxpayer Identification Number on Substitute Form W-9.\n(a)(1)(F)\nPress Release Issued by the Group, dated May 15, 2020, Announcing the Commencement of the Offer.",
+      "method": "gliner",
+      "confidence": 0.5996719002723694,
+      "rank_score": 0.6996719002723694,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4849,
+        4864
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Dealers",
+      "passage": "(a)(1)(C)\nLetter to Brokers, Dealers, Commercial Banks, Trust Companies\nand other Nominees.",
+      "method": "gliner",
+      "confidence": 0.536744236946106,
+      "rank_score": 0.6367442369461059,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3724,
+        3731
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Social Security Numbers",
+      "passage": "Exhibit (a)(1)(vi)\nGUIDELINES FOR CERTIFICATION OF TAXPAYER\nIDENTIFICATION\nNUMBER ON SUBSTITUTE FORM W-9\nGuidelines for Determining the Proper\nIdentification Number to Give the Payer \u2014\nSocial Security Numbers have nine digits separated by two hyphens: i.e., 000-00-0000.\nEmployer Identification Numbers have nine digits separated by only one hyphen: i.e., 00-0000000.",
+      "method": "gliner",
+      "confidence": 0.4053236246109009,
+      "rank_score": 0.6053236246109008,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        185,
+        208
+      ],
+      "source_hit_id": "0001104659-20-092031:tm2026050d2_exa1vi.htm",
+      "source_accession": "0001104659-20-092031",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Nominees",
+      "passage": "(a)(1)(C)\nLetter to Brokers, Dealers, Commercial Banks, Trust Companies and other Nominees.\n(a)(1)(D)\nForm of Letter to Clients for Use by Brokers, Dealers, Commercial Banks, Trust Companies and Nominees.\n(a)(1)(E)\nGuidelines for Certification of Taxpayer Identification Number on Substitute Form W-9.\n(a)(1)(F)\nPress Release Issued by the Group, dated May 15, 2020, Announcing the Commencement of the Offer.",
+      "method": "gliner",
+      "confidence": 0.4926568567752838,
+      "rank_score": 0.5926568567752838,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4756,
+        4764
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Bulldog-Ancora",
+      "passage": "This Statement relates to the tender offer\nby Ancora Advisors, LLC and Bulldog Investors, LLC (together, \u201cThe Bulldog-Ancora Group\u201d), as described in the Schedule\nTO filed on May 15, 2020 (the \u201cBulldog-Ancora Schedule TO\u201d), to purchase up to $70,000,000 of the Shares, for cash\nat a price per Share of not less than 83% of NAV per Share and not more than 88% of NAV per Share, based on the NAV per Share at\nthe close of the regular trading session of the NYSE, on the Expiration Date, as defined in the Bulldog-Ancora Schedule TO, net\nto the seller in cash (subject to a $50 processing fee that the Bulldog-A",
+      "method": "gliner",
+      "confidence": 0.584273099899292,
+      "rank_score": 0.584273099899292,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2357,
+        2371
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "financial institution",
+      "passage": "\u00b7\nA financial institution.",
+      "method": "gliner",
+      "confidence": 0.456760436296463,
+      "rank_score": 0.556760436296463,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4147,
+        4168
+      ],
+      "source_hit_id": "0001104659-20-092031:tm2026050d2_exa1vi.htm",
+      "source_accession": "0001104659-20-092031",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "par value",
+      "passage": "The title of the subject class of equity securities\nto which this Schedule 14D-9 relates is Common Stock at a par value of $0.001 per share (\u201cShares\u201d).",
+      "method": "gliner",
+      "confidence": 0.4094226360321045,
+      "rank_score": 0.4094226360321045,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        1859,
+        1868
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Name of Subject Company (Issuer))\nAncora Advisors, LLC\nBulldog Investors, LLC\n(d/b/a The Bulldog-Ancora Group)\n(Names of Filing Person (Offerer))\nCommon Stock, $0.001 par value\n(Title of Class of Securities)\n00548F105\n(CUSIP Number of Class of Securities)\nPhillip Goldstein\nBulldog Investors, LLC\nPark 80 West\u2014Plaza Two\n250 Pehle Avenue, Suite 708\nSaddle Brook, NJ 07663\nTelephone: (201) 556-0092\n(Name, Address and Telephone Number of a Person\nAuthorized to Receive Notices and Communications\non Behalf of Filing Persons)\nCopies to:\nFredrick DiSanto\nAncora Advisors, LLC\n6060 Parkland Boulevard,\nSuite 200\nCleveland, Ohio 44124\n(2",
+      "method": "gliner",
+      "confidence": 0.6372828483581543,
+      "rank_score": 0.33728284835815425,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        510,
+        522
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "The title of the subject class of equity securities\nto which this Schedule 14D-9 relates is Common Stock at a par value of $0.001 per share (\u201cShares\u201d).",
+      "method": "gliner",
+      "confidence": 0.7712320685386658,
+      "rank_score": 0.22123206853866573,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        1841,
+        1853
+      ],
+      "source_hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "source_accession": "0001104659-20-065488",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "PEO",
+      "passage": "porting\nthe results of the tender offer: [\u00a0\u00a0]\nSCHEDULE TO\nThis Tender Offer Statement on Schedule TO\n(the \u201cSchedule TO\u201d) relates to the offer by The Bulldog-Ancora Group (the \u201cGroup\u201d), on behalf of certain\nclients of its members, to purchase up to $70,000,000 of the outstanding shares of common stock, $0.001 par value (the \u201cShares\u201d),\nof Adams Natural Resources Fund, Inc., a Maryland corporation (\u201cPEO\u201d), for cash at a price per Share not less than\n83% of net asset value (\u201cNAV\u201d) per Share and not more than 88% of NAV per Share, based on the NAV per Share at the\nclose of the regular trading session of the New York Stock Exchange (the \u201cNYSE\u201d), on the Expiration Date (the \u201cPricing\nDate\u201d), less any applicable withholding taxes and any brokerage fees that may apply, and without interest thereon (the",
+      "method": "gliner",
+      "confidence": 0.4093565344810486,
+      "rank_score": -0.24064346551895144,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2546,
+        2549
+      ],
+      "source_hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "source_accession": "0001398344-20-010619",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.808243+00:00"
+}

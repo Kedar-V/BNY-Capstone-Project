@@ -1,0 +1,2571 @@
+{
+  "schema_version": "1",
+  "event_id": "005-32746",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "0aa18bf15ac7ad48b0aab4165d6d9d93b36b58ee",
+      "hit_id": "0001193125-22-159695:d296065dsctot.htm",
+      "accession": "0001193125-22-159695",
+      "filename": "d296065dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "7f51587a7a166888815e727206ae7ac3e3a0fa16",
+      "hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "accession": "0001193125-22-159695",
+      "filename": "d296065dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "2446e3ca150c374597c41b2b49a54ce1691be48a",
+      "hit_id": "0001193125-22-159695:d296065dex99a1b.htm",
+      "accession": "0001193125-22-159695",
+      "filename": "d296065dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "db331a7bae6e77381959ca1dcbceb7e92d398136",
+      "hit_id": "0001193125-22-160461:d294385dsc14d9.htm",
+      "accession": "0001193125-22-160461",
+      "filename": "d294385dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "January\u00a020, 2023",
+      "score": 0.9680400490760803,
+      "rank_score": 1.7480400490760803,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What will happen to my restricted stock units that vest based upon continued service in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May\u00a011, 2022",
+      "score": 0.9610926508903503,
+      "rank_score": 1.7410926508903504,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Have any\nstockholders already agreed to tender their Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May 24, 2022",
+      "score": 0.9343315362930298,
+      "rank_score": 1.7143315362930298,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "July\u00a024, 2022",
+      "score": 0.9324735999107361,
+      "rank_score": 1.712473599910736,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "June\u00a023, 2022",
+      "score": 0.9258278012275696,
+      "rank_score": 1.7058278012275696,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "June\u00a024, 2022",
+      "score": 0.9224674105644226,
+      "rank_score": 1.7024674105644226,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May\u00a010, 2022",
+      "score": 0.9183645248413086,
+      "rank_score": 1.6983645248413086,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$165.75\u00a0million",
+      "score": 0.8988984823226929,
+      "rank_score": 1.678898482322693,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$233.1\u00a0million",
+      "score": 0.8748579025268555,
+      "rank_score": 1.6548579025268555,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$9.81",
+      "score": 0.8605883121490479,
+      "rank_score": 1.6405883121490479,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "If I tender my Shares, when and how will I get paid?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$123.0\u00a0million",
+      "score": 0.820567786693573,
+      "rank_score": 1.600567786693573,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "894648104",
+      "score": 0.748251736164093,
+      "rank_score": 1.498251736164093,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.10",
+      "score": 0.6467181444168091,
+      "rank_score": 1.426718144416809,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Balmoral Swan MergerSub, Inc.",
+      "score": 0.9648288488388062,
+      "rank_score": 1.3648288488388063,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$123\u00a0million",
+      "score": 0.7147725820541382,
+      "rank_score": 1.364772582054138,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_11",
+      "faq_question": null,
+      "section": "9. Certain Information Concerning the Offeror, Parent and Balmoral",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$9.17",
+      "score": 0.7105657458305359,
+      "rank_score": 1.3605657458305358,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_12",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Contacts with the Company",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "money_amount",
+      "text": "$7.55",
+      "score": 0.5731303095817566,
+      "rank_score": 1.3531303095817566,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$9.66 per Share",
+      "score": 0.5608812570571899,
+      "rank_score": 1.34088125705719,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$10 per Share",
+      "score": 0.6726069450378418,
+      "rank_score": 1.3226069450378417,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_12",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Contacts with the Company",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$9.50",
+      "score": 0.6636548042297363,
+      "rank_score": 1.3136548042297362,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_12",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Contacts with the Company",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Balmoral Funds LLC",
+      "score": 0.8989500403404236,
+      "rank_score": 1.2989500403404237,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "January 2023",
+      "score": 0.9418882131576538,
+      "rank_score": 1.2718882131576539,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What will happen to my restricted stock units that vest based upon continued service in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$10",
+      "score": 0.6105043292045593,
+      "rank_score": 1.2605043292045592,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_12",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Contacts with the Company",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Balmoral Swan Parent, Inc.",
+      "score": 0.822184681892395,
+      "rank_score": 1.2221846818923952,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "TREC",
+      "score": 0.8548254370689392,
+      "rank_score": 1.2048254370689393,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_9",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Surviving Corporation",
+      "score": 0.8373239636421204,
+      "rank_score": 1.1873239636421205,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:19",
+      "faq_question": "What are your plans for the Company after the\nMerger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Guggenheim Securities, LLC",
+      "score": 0.8267233967781067,
+      "rank_score": 1.1767233967781068,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Epsilyte LLC",
+      "score": 0.839506208896637,
+      "rank_score": 1.139506208896637,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_22",
+      "faq_question": null,
+      "section": "Schedule A",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Trecora Resources",
+      "score": 0.9301308393478394,
+      "rank_score": 1.1301308393478395,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "9:00 A.M.",
+      "score": 0.779637336730957,
+      "rank_score": 1.109637336730957,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "11:59 p.m.",
+      "score": 0.7766004204750061,
+      "rank_score": 1.1066004204750062,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Company related parties",
+      "score": 0.7999966144561768,
+      "rank_score": 1.0999966144561768,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_14",
+      "faq_question": null,
+      "section": "Company 401(k) Plan",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "calendar_date",
+      "text": "trading\nday",
+      "score": 0.7229810953140259,
+      "rank_score": 1.052981095314026,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "How long do I have to decide whether to tender in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "org_name",
+      "text": "Company Board",
+      "score": 0.6831613183021545,
+      "rank_score": 1.0331613183021546,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "Delaware corporation",
+      "score": 0.6805930137634277,
+      "rank_score": 1.0305930137634278,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Axiom Materials",
+      "score": 0.922939658164978,
+      "rank_score": 1.0229396581649781,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_22",
+      "faq_question": null,
+      "section": "Schedule A",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Parent and the Offeror",
+      "score": 0.8721676468849182,
+      "rank_score": 1.0221676468849181,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Balmoral Swan Parent, Inc.",
+      "score": 0.719822883605957,
+      "rank_score": 1.019822883605957,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_2",
+      "faq_question": null,
+      "section": "Introduction",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "12:00 Midnight",
+      "score": 0.6873911619186401,
+      "rank_score": 1.0173911619186402,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "BALMORAL FUNDS LLC",
+      "score": 0.7114865779876709,
+      "rank_score": 1.011486577987671,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Balmoral Swan MergerSub, Inc.",
+      "score": 0.7062889933586121,
+      "rank_score": 1.006288993358612,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_2",
+      "faq_question": null,
+      "section": "Introduction",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number\nof Class\u00a0of Securities",
+      "score": 0.7273640632629395,
+      "rank_score": 0.9773640632629395,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "July\u00a024, 2022",
+      "score": 0.5267044305801392,
+      "rank_score": 0.9767044305801391,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_6",
+      "faq_question": null,
+      "section": "4. Withdrawal Rights",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Surviving Corporation",
+      "score": 0.6114171743392944,
+      "rank_score": 0.9614171743392945,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "Transaction\nCode Number",
+      "score": 0.9359038472175598,
+      "rank_score": 0.9359038472175598,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Company Board",
+      "score": 0.5804610848426819,
+      "rank_score": 0.930461084842682,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "New York Stock Exchange LLC",
+      "score": 0.5679652690887451,
+      "rank_score": 0.9179652690887452,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "How long do I have to decide whether to tender in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "Company Shares",
+      "score": 0.6882039904594421,
+      "rank_score": 0.8882039904594421,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Balmoral\nFunds LLC.",
+      "score": 0.5211867690086365,
+      "rank_score": 0.8211867690086365,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "tendering stockholders",
+      "score": 0.6817076206207275,
+      "rank_score": 0.7817076206207275,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_4",
+      "faq_question": null,
+      "section": "2. Acceptance for Payment and Payment for",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Antitrust Division",
+      "score": 0.6779016852378845,
+      "rank_score": 0.7779016852378845,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "Company Option",
+      "score": 0.7182259559631348,
+      "rank_score": 0.7682259559631348,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my stock options in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Trecora Resources",
+      "score": 0.6601406931877136,
+      "rank_score": 0.7601406931877136,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Delaware corporation",
+      "score": 0.40888309478759766,
+      "rank_score": 0.7588830947875977,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:0",
+      "faq_question": "Who is offering to buy my securities?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "trust companies",
+      "score": 0.6586443781852722,
+      "rank_score": 0.7586443781852722,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_3",
+      "faq_question": null,
+      "section": "1. Terms of the Offer",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "security_name",
+      "text": "Guggenheim Securities",
+      "score": 0.5157470703125,
+      "rank_score": 0.7157470703125,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective date of the Merger",
+      "score": 0.6860551834106445,
+      "rank_score": 0.6860551834106445,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Trecora Resources",
+      "score": 0.5959154963493347,
+      "rank_score": 0.5959154963493347,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S. dollar",
+      "score": 0.5774486660957336,
+      "rank_score": 0.5774486660957336,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_7",
+      "faq_question": null,
+      "section": "5. Certain U.S. Federal Income Tax Consequences",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum",
+      "score": 0.5685172080993652,
+      "rank_score": 0.5685172080993652,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "available_option",
+      "text": "alternative",
+      "score": 0.5564465522766113,
+      "rank_score": 0.5564465522766113,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_5",
+      "faq_question": null,
+      "section": "3. Procedures for Tendering Shares",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "target_organization",
+      "text": "TRECORA RESOURCES",
+      "score": 0.4372505843639374,
+      "rank_score": 0.5372505843639374,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "de minimis",
+      "score": 0.5231031179428101,
+      "rank_score": 0.5231031179428101,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_2",
+      "faq_question": null,
+      "section": "Introduction",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "proration_terms",
+      "text": "terms",
+      "score": 0.5213649272918701,
+      "rank_score": 0.5213649272918701,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificates",
+      "score": 0.49230676889419556,
+      "rank_score": 0.49230676889419556,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "voting stock",
+      "score": 0.48365214467048645,
+      "rank_score": 0.48365214467048645,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "proration_terms",
+      "text": "Conditions of the Offer",
+      "score": 0.45612800121307373,
+      "rank_score": 0.45612800121307373,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "isin_code",
+      "text": "poly-iso",
+      "score": 0.45094040036201477,
+      "rank_score": 0.45094040036201477,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_10",
+      "faq_question": null,
+      "section": "8. Certain Information Concerning the Company",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "shares of common stock",
+      "score": 0.4392862617969513,
+      "rank_score": 0.4392862617969513,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9312245845794678,
+      "rank_score": 0.4312245845794677,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash",
+      "score": 0.42297595739364624,
+      "rank_score": 0.42297595739364624,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Offer Conditions",
+      "score": 0.4185344874858856,
+      "rank_score": 0.4185344874858856,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_4",
+      "faq_question": null,
+      "section": "2. Acceptance for Payment and Payment for",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9134279489517212,
+      "rank_score": 0.36342794895172115,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_14",
+      "faq_question": null,
+      "section": "Company 401(k) Plan",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.8624769449234009,
+      "rank_score": 0.3624769449234008,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Date",
+      "score": 0.880074679851532,
+      "rank_score": 0.33007467985153194,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "common stock",
+      "score": 0.7987726926803589,
+      "rank_score": 0.29877269268035883,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Share",
+      "score": 0.7919095158576965,
+      "rank_score": 0.2919095158576965,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Company",
+      "score": 0.4096379280090332,
+      "rank_score": 0.10963792800903323,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Closing Date",
+      "score": 0.4972352981567383,
+      "rank_score": -0.05276470184326176,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_14",
+      "faq_question": null,
+      "section": "Company 401(k) Plan",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Capitalization Date",
+      "score": 0.49076047539711,
+      "rank_score": -0.05923952460289006,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective\nas of the Closing Date",
+      "score": 0.4619649350643158,
+      "rank_score": -0.08803506493568425,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_14",
+      "faq_question": null,
+      "section": "Company 401(k) Plan",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "DTC",
+      "score": 0.42073002457618713,
+      "rank_score": -0.1292699754238129,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_5",
+      "faq_question": null,
+      "section": "3. Procedures for Tendering Shares",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "SEC",
+      "score": 0.5457744002342224,
+      "rank_score": -0.15422559976577754,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_10",
+      "faq_question": null,
+      "section": "8. Certain Information Concerning the Company",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.901323676109314,
+      "rank_score": -0.3986763238906861,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc296065_7",
+      "faq_question": null,
+      "section": "5. Certain U.S. Federal Income Tax Consequences",
+      "chunk_id": "w0"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a020, 2023",
+      "passage": "The holder of an RSU Replacement Award need not be employed on\nJanuary\u00a020, 2023 to be eligible to receive the cash payment in respect of such RSU Replacement Award.\nAny RSU Awards held by non-employee directors will receive the same treatment as vested RSU Awards described above.\n8",
+      "method": "gliner",
+      "confidence": 0.9680400490760803,
+      "rank_score": 1.7480400490760803,
+      "doc_role": "otp",
+      "section": "What will happen to my restricted stock units that vest based upon continued service in the Offer and the Merger?",
+      "faq_question": "What will happen to my restricted stock units that vest based upon continued service in the Offer and the Merger?",
+      "char_span": [
+        1902,
+        1918
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May\u00a011, 2022",
+      "passage": "Yes. In connection with the execution of the Merger Agreement, Parent\nand the Offeror have entered into a tender and support agreement with the Company\u2019s current directors and executive officers (collectively, the \u201c Supporting Stockholders \u201d), who collectively held Shares representing approximately\n4.5% of the voting power represented by the issued and outstanding Shares as of May\u00a011, 2022 (the \u201c Tender and Support Agreement \u201d).",
+      "method": "gliner",
+      "confidence": 0.9610926508903503,
+      "rank_score": 1.7410926508903504,
+      "doc_role": "otp",
+      "section": "Have any\nstockholders already agreed to tender their Shares in the Offer?",
+      "faq_question": "Have any\nstockholders already agreed to tender their Shares in the Offer?",
+      "char_span": [
+        380,
+        392
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May 24, 2022",
+      "passage": "The Offer Price of $9.81 per Share represents a premium of approximately 29.9% over the closing price of\n$7.55 per Share reported on NYSE on May\u00a010, 2022, the last full trading day prior to the public announcement of the signing of the Merger Agreement, and a 14.2% premium to the\u00a090-day\u00a0volume weighted average price as of such date. On May 24, 2022, the last full trading day before the Offeror commenced the Offer, the closing price of the Shares reported on the NYSE was $9.66 per Share.\nWe advise you to obtain a recent quotation for Shares in deciding whether to tender your Shares in the Offer. See\nSection\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.9343315362930298,
+      "rank_score": 1.7143315362930298,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        338,
+        350
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "July\u00a024, 2022",
+      "passage": "Yes. You may withdraw previously tendered Shares any time prior to the Expiration Time, and, if not previously accepted for payment, at any\ntime after July\u00a024, 2022, the date that is 60 days after the date of the commencement of the Offer, pursuant to SEC regulations, by following the procedures for withdrawing your Shares in a timely manner.",
+      "method": "gliner",
+      "confidence": 0.9324735999107361,
+      "rank_score": 1.712473599910736,
+      "doc_role": "otp",
+      "section": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "faq_question": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "char_span": [
+        151,
+        164
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "June\u00a023, 2022",
+      "passage": "Scheduled Expiration Time\n12:00 Midnight, New York City time, on June\u00a024, 2022 (one minute after 11:59\u00a0P.M., New York City time, on June\u00a023, 2022), unless the offer is extended or earlier terminated (the \u201c\nExpiration Time\n\u201d).\nOfferor\nBalmoral Swan MergerSub, Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d) and a wholly owned subsidiary of Balmoral Swan Parent, Inc., a Delaware corporation (\u201c\nParent\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.9258278012275696,
+      "rank_score": 1.7058278012275696,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        2307,
+        2320
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "June\u00a024, 2022",
+      "passage": "Scheduled Expiration Time\n12:00 Midnight, New York City time, on June\u00a024, 2022 (one minute after 11:59\u00a0P.M., New York City time, on June\u00a023, 2022), unless the offer is extended or earlier terminated (the \u201c\nExpiration Time\n\u201d).\nOfferor\nBalmoral Swan MergerSub, Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d) and a wholly owned subsidiary of Balmoral Swan Parent, Inc., a Delaware corporation (\u201c\nParent\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.9224674105644226,
+      "rank_score": 1.7024674105644226,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        2240,
+        2253
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May\u00a010, 2022",
+      "passage": "The Offer Price of $9.81 per Share represents a premium of approximately 29.9% over the closing price of\n$7.55 per Share reported on NYSE on May\u00a010, 2022, the last full trading day prior to the public announcement of the signing of the Merger Agreement, and a 14.2% premium to the\u00a090-day\u00a0volume weighted average price as of such date.",
+      "method": "gliner",
+      "confidence": 0.9183645248413086,
+      "rank_score": 1.6983645248413086,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        141,
+        153
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$165.75\u00a0million",
+      "passage": "quity investment\ncontemplated pursuant to an equity commitment letter, dated May\u00a011, 2022, that Parent has entered into in connection with the execution of the Merger Agreement (the \u201c Equity Commitment Letter \u201d) which provides for up to\n$123.0\u00a0million in equity financing (\u201c Equity Financing \u201d) and (ii)\u00a0debt commitment letters, dated May\u00a011, 2022 (the \u201c Debt Commitment Letters \u201d) which provide for $165.75\u00a0million in aggregate debt\nfinancing (\u201cDebt Financing\u201d). The Equity Financing contemplated by the Equity Commitment Letter and the Debt Financing contemplated by the Debt Commitment Letters are subject to the satisfaction of various customary conditions. See\nSection\u00a012\u2014\u201cSources and Amount of Funds\u201d of this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.8988984823226929,
+      "rank_score": 1.678898482322693,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        758,
+        773
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$233.1\u00a0million",
+      "passage": "Yes. The consummation of the Offer is not subject to any financing condition. The total amount of funds required by the Offeror and Parent to\nconsummate the Offer and to provide funding for the Merger is approximately $233.1\u00a0million, plus related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.8748579025268555,
+      "rank_score": 1.6548579025268555,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        218,
+        232
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$9.81",
+      "passage": "If the conditions to the Offer, as set forth in Section\u00a013\u2014\u201cConditions of the Offer,\u201d are satisfied or, to the extent\npermitted, waived and we consummate the Offer and accept your Shares for payment, we will pay you an amount in cash equal to the number of Shares you tendered multiplied by $9.81, without interest and less any applicable withholding taxes, promptly\nfollowing the Expiration Time. See Section\u00a01\u2014\u201cTerms of the Offer\u201d and Section\u00a02\u2014\u201cAcceptance for Payment and Payment for Shares.\u201d\n7",
+      "method": "gliner",
+      "confidence": 0.8605883121490479,
+      "rank_score": 1.6405883121490479,
+      "doc_role": "otp",
+      "section": "If I tender my Shares, when and how will I get paid?",
+      "faq_question": "If I tender my Shares, when and how will I get paid?",
+      "char_span": [
+        291,
+        296
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$123.0\u00a0million",
+      "passage": "The Offeror and Parent expect to fund such cash requirements from the proceeds from: (i)an equity investment\ncontemplated pursuant to an equity commitment letter, dated May\u00a011, 2022, that Parent has entered into in connection with the execution of the Merger Agreement (the \u201c Equity Commitment Letter \u201d) which provides for up to\n$123.0\u00a0million in equity financing (\u201c Equity Financing \u201d) and (ii)\u00a0debt commitment letters, dated May\u00a011, 2022 (the \u201c Debt Commitment Letters \u201d) which provide for $165.75\u00a0million in aggregate debt\nfinancing (\u201cDebt Financing\u201d).",
+      "method": "gliner",
+      "confidence": 0.820567786693573,
+      "rank_score": 1.600567786693573,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        595,
+        609
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "894648104",
+      "passage": "(Name of Filing Person (Offeror))\nBalmoral Funds LLC\n(Name\nof Filing Person (Offeror))\n(Names of Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $0.10 per share\n(Title of Class\u00a0of Securities)\n894648104\n(CUSIP Number\nof Class\u00a0of Securities)\nBalmoral Swan MergerSub, Inc.\nc/o Balmoral Funds LLC\n11150 Santa Monica Blvd., Suite 825\nAttention: David Shainberg\nTelephone:\u00a0(310) 473-3065\n(Name, address, and telephone numbers of person authorized to receive notices and communications on behalf of filing persons)\nWith copies to:\nKipp B.",
+      "method": "gliner",
+      "confidence": 0.748251736164093,
+      "rank_score": 1.498251736164093,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        609,
+        618
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dsctot.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.10",
+      "passage": "Securities Sought\nAll issued and outstanding shares (the \u201c\nShares\n\u201d) of common stock, par value $0.10 per share (the \u201c\nCommon Stock\n\u201d), of Trecora Resources, a Delaware corporation (the \u201c\nCompany\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6467181444168091,
+      "rank_score": 1.426718144416809,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        1903,
+        1908
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Balmoral Swan MergerSub, Inc.",
+      "passage": "eporting the results of the tender offer:\u00a0\u00a0\u2610\nIf applicable, check the appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\u00a013e-4(i)\u00a0(Cross-Border\nIssuer Tender Offer)\n\u2610\nRule\u00a014d-1(d)\u00a0(Cross-Border\nThird-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements\nhereto, this \u201c\nSchedule TO\n\u201d) is being filed by Balmoral Swan MergerSub, Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d) and Balmoral Swan Parent, Inc., a Delaware corporation (\u201c\nParent\n\u201d), and Balmoral\nFunds LLC., a Delaware limited company (\u201c\nBalmoral\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.9648288488388062,
+      "rank_score": 1.3648288488388063,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2295,
+        2324
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dsctot.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$123\u00a0million",
+      "passage": "The telephone number at the principal office is (310)\u00a0473-3065.\nPursuant to the Equity Commitment Letter dated May\u00a011, 2022 (the \u201c\nEquity Commitment Letter\n\u201d) a certain fund managed by\nBalmoral (the \u201c\nEquity Investor\n\u201d) has committed up to $123\u00a0million in aggregate of equity financing to Parent in connection with completion of the Offer and the Merger, subject to the applicable conditions set forth in the\nMerger Agreement and the Equity Commitment Letter.",
+      "method": "gliner",
+      "confidence": 0.7147725820541382,
+      "rank_score": 1.364772582054138,
+      "doc_role": "otp",
+      "section": "9. Certain Information Concerning the Offeror, Parent and Balmoral",
+      "faq_question": null,
+      "char_span": [
+        1487,
+        1499
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$9.17",
+      "passage": "On April\u00a015, 2022, representatives of\nBalmoral contacted representatives of Guggenheim by telephone and indicated that Balmoral was revising its bid to $9.17 per Share for all outstanding Shares of the Company\u2019s common stock.",
+      "method": "gliner",
+      "confidence": 0.7105657458305359,
+      "rank_score": 1.3605657458305358,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Contacts with the Company",
+      "faq_question": null,
+      "char_span": [
+        3440,
+        3445
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$7.55",
+      "passage": "The Offer Price of $9.81 per Share represents a premium of approximately 29.9% over the closing price of\n$7.55 per Share reported on NYSE on May\u00a010, 2022, the last full trading day prior to the public announcement of the signing of the Merger Agreement, and a 14.2% premium to the\u00a090-day\u00a0volume weighted average price as of such date.",
+      "method": "gliner",
+      "confidence": 0.5731303095817566,
+      "rank_score": 1.3531303095817566,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        105,
+        110
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$9.66 per Share",
+      "passage": "On May 24, 2022, the last full trading day before the Offeror commenced the Offer, the closing price of the Shares reported on the NYSE was $9.66 per Share.\nWe advise you to obtain a recent quotation for Shares in deciding whether to tender your Shares in the Offer. See\nSection\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.5608812570571899,
+      "rank_score": 1.34088125705719,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        475,
+        490
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$10 per Share",
+      "passage": "Representatives from Balmoral indicated that a price of $10 per Share would not be possible.\nOn April\u00a025, 2022, representatives of Guggenheim held a call with representatives of Balmoral to indicate that the Board was not interested in providing\na counterproposal at a price below $10 per Share and did not intend to provide a revised draft of the Merger Agreement absent an oral agreement on in improved valuation for the Company.\nOn April\u00a027, 2022, representatives of Balmoral sent a letter to the Board indicating that its due diligence review of the Company was complete, and its\nfinancing was fully committed.",
+      "method": "gliner",
+      "confidence": 0.6726069450378418,
+      "rank_score": 1.3226069450378417,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Contacts with the Company",
+      "faq_question": null,
+      "char_span": [
+        4354,
+        4367
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$9.50",
+      "passage": "On January\u00a026, 2022, representatives\nof Balmoral submitted an initial\nnon-binding\nindication of interest that contemplated an\nall-cash\ntransaction at $9.50 per Share.",
+      "method": "gliner",
+      "confidence": 0.6636548042297363,
+      "rank_score": 1.3136548042297362,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Contacts with the Company",
+      "faq_question": null,
+      "char_span": [
+        1966,
+        1971
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Balmoral Funds LLC",
+      "passage": "20549\nSCHEDULE TO\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nTrecora\nResources\n(Name of Subject Company (Issuer))\nBalmoral Swan MergerSub, Inc.\n(Name of Filing Person (Offeror))\na direct wholly owned subsidiary of\nBalmoral Swan Parent, Inc.\n(Name of Filing Person (Offeror))\nBalmoral Funds LLC\n(Name\nof Filing Person (Offeror))\n(Names of Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $0.10 per share\n(Title of Class\u00a0of Securities)\n894648104\n(CUSIP Number\nof Class\u00a0of Securities)\nBalmoral Swan MergerSub, Inc.",
+      "method": "gliner",
+      "confidence": 0.8989500403404236,
+      "rank_score": 1.2989500403404237,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        403,
+        421
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dsctot.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January 2023",
+      "passage": "Each RSU Replacement Award will be governed by an individual agreement between the Company and the holder, representing the right to receive a cash payment payable on the earlier of January\u00a020, 2023 or on qualifying termination\nas prescribed in the Merger Agreement, and paid, less any applicable without taxes, on the earlier of (a)\u00a0January 2023 or (b)\u00a0within 60 days following a qualifying termination. The holder of an RSU Replacement Award need not be employed on\nJanuary\u00a020, 2023 to be eligible to receive the cash payment in respect of such RSU Replacement Award.\nAny RSU Awards held by non-employee directors will receive the same treatment as vested RSU Awards described above.\n8",
+      "method": "gliner",
+      "confidence": 0.9418882131576538,
+      "rank_score": 1.2718882131576539,
+      "doc_role": "otp",
+      "section": "What will happen to my restricted stock units that vest based upon continued service in the Offer and the Merger?",
+      "faq_question": "What will happen to my restricted stock units that vest based upon continued service in the Offer and the Merger?",
+      "char_span": [
+        1768,
+        1780
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$10",
+      "passage": "On April\u00a019, 2022, representatives of Guggenheim held a call with representatives of Balmoral to convey that the Company\u2019s Board was not willing to\ngrant an exclusivity period and that Balmoral\u2019s offer would need to improve to at least $10 per share if the parties were to continue discussions.",
+      "method": "gliner",
+      "confidence": 0.6105043292045593,
+      "rank_score": 1.2605043292045592,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Contacts with the Company",
+      "faq_question": null,
+      "char_span": [
+        4014,
+        4017
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Balmoral Swan Parent, Inc.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nTrecora\nResources\n(Name of Subject Company (Issuer))\nBalmoral Swan MergerSub, Inc.\n(Name of Filing Person (Offeror))\na direct wholly owned subsidiary of\nBalmoral Swan Parent, Inc.\n(Name of Filing Person (Offeror))\nBalmoral Funds LLC\n(Name\nof Filing Person (Offeror))\n(Names of Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $0.10 per share\n(Title of Class\u00a0of Securities)\n894648104\n(CUSIP Number\nof Class\u00a0of Securities)\nBalmoral Swan MergerSub, Inc.",
+      "method": "gliner",
+      "confidence": 0.822184681892395,
+      "rank_score": 1.2221846818923952,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        342,
+        368
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dsctot.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "TREC",
+      "passage": "The Shares are currently listed on the NYSE and trade under the symbol \u201cTREC\u201d.\nImmediately following the consummation of the Merger (which is expected to occur as soon as practicable following the consummation of the Offer), the Shares will no longer meet the requirements for continued listing on the NYSE because the only\nstockholder will be Parent.",
+      "method": "gliner",
+      "confidence": 0.8548254370689392,
+      "rank_score": 1.2048254370689393,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        969,
+        973
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Surviving Corporation",
+      "passage": "the Surviving Corporation to\ndetermine what changes, if any, would be desirable following the Offer and the Merger to enhance the business and operations of the Surviving Corporation and may cause the Surviving Corporation to engage in certain extraordinary corporate\ntransactions, such as reorganizations, mergers or sales or purchases of assets, if the management and/or board of directors of the Surviving Corporation decide that such transactions are in the best interest of the Surviving Corporation upon such\nreview. See Section\u00a011\u2014\u201cPurpose of the Offer and Plans for the Company; Transaction Documents.\u201d",
+      "method": "gliner",
+      "confidence": 0.8373239636421204,
+      "rank_score": 1.1873239636421205,
+      "doc_role": "otp",
+      "section": "What are your plans for the Company after the\nMerger?",
+      "faq_question": "What are your plans for the Company after the\nMerger?",
+      "char_span": [
+        1060,
+        1081
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Guggenheim Securities, LLC",
+      "passage": "Guggenheim Securities, LLC (\u201c Guggenheim \u201d), the financial advisor to the Company Board, has rendered to the Company Board an\noral opinion, on May 11, 2022, which was subsequently confirmed by a written opinion, dated May 11, 2022, to the effect that, as of May 11, 2022 and based on and subject to the matters considered, the procedures followed, the assumptions made and\nvarious limitations of and qualifications to the revi",
+      "method": "gliner",
+      "confidence": 0.8267233967781067,
+      "rank_score": 1.1767233967781068,
+      "doc_role": "otp",
+      "section": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "faq_question": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "char_span": [
+        0,
+        26
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Epsilyte LLC",
+      "passage": "Name and Position\nBusiness Office Address and\nTelephone Number\nPresent Principal Occupation or Employment and\nEmployment\nHistory\nBradley Crocker\nPresident\nDirector\n1330 Lake Robbins Dr Suite 310,\nThe Woodlands,\nTX 77380\n(815) 224-1525\nBradley Crocker currently serves as the CEO of Epsilyte LLC, starting in 2020, and has previously served as CEO of Americas Styrenics from\n2012 to 2020.",
+      "method": "gliner",
+      "confidence": 0.839506208896637,
+      "rank_score": 1.139506208896637,
+      "doc_role": "otp",
+      "section": "Schedule A",
+      "faq_question": null,
+      "char_span": [
+        1461,
+        1473
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Trecora Resources",
+      "passage": "in favor of Trecora Resources.\n(d)(6)\nConfidentiality Agreement, dated as of December\u00a016, 2021, between Trecora Resources and Balmoral Funds LLC.\n(d)(7)\nTender and Support Agreement, dated as of May\u00a0\n11, 2022, among Parent, the Offeror and the stockholders listed therein (incorporated by reference to Exhibit 99.2 to Trecora Resources\u2019\nForm\u00a08-K,\u00a0filed\non May\u00a012, 2022).\n(g)\nNone.\n(h)\nNone.\n107\nFiling Fee Exhibit",
+      "method": "gliner",
+      "confidence": 0.9301308393478394,
+      "rank_score": 1.1301308393478395,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        13478,
+        13495
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dsctot.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "9:00 A.M.",
+      "passage": "If we extend the Offer, we will inform the Depositary and Paying Agent for the Offer, of that fact and will make a public announcement of the\nextension no later than 9:00 A.M., New York City time, on the business day after the day on which the Offer was scheduled to expire.",
+      "method": "gliner",
+      "confidence": 0.779637336730957,
+      "rank_score": 1.109637336730957,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        166,
+        175
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "11:59 p.m.",
+      "passage": "Documents);\n\u2022 If, as of any then-scheduled Expiration Time, any of the conditions to the Offer set forth in Annex A of\nthe Merger Agreement are not satisfied or waived (if permitted hereunder), we may (and, if requested by the Company, shall, and Parent shall cause us to), extend the Offer for one or more successive extension periods of up to 10 Business Days each\n(with each such period to end at 11:59 p.m. (New York City time) on the last Business Day of such period) (or any other period as may be approved in advance by the Company) in order to permit the satisfaction of all of the conditions to the Offer; provided , however , that if the sole then-unsatisfied condition to the Offer is the Minimum Condition, we shall not be required (but in its sole discretion may elect) to extend the Offer for mor",
+      "method": "gliner",
+      "confidence": 0.7766004204750061,
+      "rank_score": 1.1066004204750062,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        897,
+        907
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "expiration_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Company related parties",
+      "passage": "Notwithstanding anything in the Merger Agreement to the contrary, in no event will the parent related parties\nor the Company related parties, in each case collectively, have any liability for monetary damages (including damages for fraud or breach, whether willful, intentional, unintentional or otherwise (including for willful breach as defined in the\nMerger Agreement) or monetary damages in lieu of specific performance) in the aggregate in excess of the Parent Termination Fee, as defined below, and the amount of fees and expenses own",
+      "method": "gliner",
+      "confidence": 0.7999966144561768,
+      "rank_score": 1.0999966144561768,
+      "doc_role": "otp",
+      "section": "Company 401(k) Plan",
+      "faq_question": null,
+      "char_span": [
+        49401,
+        49424
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "trading\nday",
+      "passage": "As used in this Offer to Purchase, \u201c trading\nday \u201d means any day on which NYSE is open for business. See Section\u00a01\u2014\u201cTerms of the Offer\u201d and Section\u00a03\u2014\u201cProcedures for Tendering Shares.\u201d\n4",
+      "method": "gliner",
+      "confidence": 0.7229810953140259,
+      "rank_score": 1.052981095314026,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender in the Offer?",
+      "char_span": [
+        1588,
+        1599
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Company Board",
+      "passage": "Guggenheim Securities, LLC (\u201c Guggenheim \u201d), the financial advisor to the Company Board, has rendered to the Company Board an\noral opinion, on May 11, 2022, which was subsequently confirmed by a written opinion, dated May 11, 2022, to the effect that, as of May 11, 2022 and based on and subject to the matters considered, the procedures followed, the assumptions made and\nvarious limitations of and qualifications to the review undertaken, the Offer Price to be received by the holders",
+      "method": "gliner",
+      "confidence": 0.6831613183021545,
+      "rank_score": 1.0331613183021546,
+      "doc_role": "otp",
+      "section": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "faq_question": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "char_span": [
+        74,
+        87
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Delaware corporation",
+      "passage": "Securities Sought\nAll issued and outstanding shares (the \u201c\nShares\n\u201d) of common stock, par value $0.10 per share (the \u201c\nCommon Stock\n\u201d), of Trecora Resources, a Delaware corporation (the \u201c\nCompany\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6805930137634277,
+      "rank_score": 1.0305930137634278,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        1967,
+        1987
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "org_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Axiom Materials",
+      "passage": "Lincoln serves on the boards of Epsilyte, Aerodine Composites, LifePort, Axiom Materials, Microtex Composites, and the WISDOM Institute at the University of California.\n2.",
+      "method": "gliner",
+      "confidence": 0.922939658164978,
+      "rank_score": 1.0229396581649781,
+      "doc_role": "otp",
+      "section": "Schedule A",
+      "faq_question": null,
+      "char_span": [
+        5242,
+        5257
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Parent and the Offeror",
+      "passage": "Although Parent and the Offeror have no knowledge that would indicate that any such statements contained herein relating to the Company provided to Parent and the Offeror or taken from, or based\nupon, such documents and records filed with the SEC are inaccurate, Parent and the Offeror have not independently verified the accuracy and completeness of such information.",
+      "method": "gliner",
+      "confidence": 0.8721676468849182,
+      "rank_score": 1.0221676468849181,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        1179,
+        1201
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Balmoral Swan Parent, Inc.",
+      "passage": "Introduction\nBalmoral Swan MergerSub, Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d), a wholly owned subsidiary of\nBalmoral Swan Parent, Inc., a Delaware corporation (\u201c\nParent\n\u201d), which is controlled by certain funds managed by Balmoral Funds LLC (\u201c\nBalmoral\n\u201d), hereby offers to purchase any and all of the outstanding shares (the\n\u201c\nShares\n\u201d) of common stock, par value $0.10 per share (the \u201c\nCommon Stock\n\u201d), of Trecora Resources, a Delaware corporation (\u201c\nTrecora\n\u201d or the \u201c\nCompany\n\u201d), at a purchase price of $9.81\nper Share, net to the",
+      "method": "gliner",
+      "confidence": 0.719822883605957,
+      "rank_score": 1.019822883605957,
+      "doc_role": "otp",
+      "section": "Introduction",
+      "faq_question": null,
+      "char_span": [
+        115,
+        141
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "12:00 Midnight",
+      "passage": "Scheduled Expiration Time\n12:00 Midnight, New York City time, on June\u00a024, 2022 (one minute after 11:59\u00a0P.M., New York City time, on June\u00a023, 2022), unless the offer is extended or earlier terminated (the \u201c\nExpiration Time\n\u201d).\nOfferor\nBalmoral Swan MergerSub, Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d) and a wholly owned subsidiary of Balmoral Swan Parent, Inc., a Delaware corporation (\u201c\nParent\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6873911619186401,
+      "rank_score": 1.0173911619186402,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        2201,
+        2215
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "BALMORAL FUNDS LLC",
+      "passage": "Exhibit (a)(1)(B)\nExhibit (a)(1)(B)\nLETTER OF TRANSMITTAL\nto Tender Shares of Common Stock\nof\nTRECORA RESOURCES\nat\n$9.81 PER SHARE,\nNET IN CASH\nPursuant to the Offer to Purchase dated May\u00a025, 2022\nby\nBALMORAL SWAN\nMERGERSUB, INC.\na wholly owned subsidiary of\nBALMORAL SWAN PARENT, INC.\nand\nBALMORAL FUNDS LLC\nTHE OFFER AND WITHDRAWAL RIGHTS WILL EXPIRE AT 12:00 MIDNIGHT, NEW YORK CITY TIME, ON JUNE 24, 2022 (ONE MINUTE AFTER 11:59 P.M., NEW YORK CITY\nTIME, ON JUNE\u00a023, 2022) UNLESS THE OFFER IS EXTENDED OR EARLIER TERMINATED.",
+      "method": "gliner",
+      "confidence": 0.7114865779876709,
+      "rank_score": 1.011486577987671,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        290,
+        308
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1b.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Balmoral Swan MergerSub, Inc.",
+      "passage": "Introduction\nBalmoral Swan MergerSub, Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d), a wholly owned subsidiary of\nBalmoral Swan Parent, Inc., a Delaware corporation (\u201c\nParent\n\u201d), which is controlled by certain funds managed by Balmoral Funds LLC (\u201c\nBalmoral\n\u201d), hereby offers to purchase any and all of the outstanding shares (the\n\u201c\nShares\n\u201d) of common stock, par value $0.10 per share (the \u201c\nCommon Stock\n\u201d), of Trecora Resources, a Delawar",
+      "method": "gliner",
+      "confidence": 0.7062889933586121,
+      "rank_score": 1.006288993358612,
+      "doc_role": "otp",
+      "section": "Introduction",
+      "faq_question": null,
+      "char_span": [
+        13,
+        42
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number\nof Class\u00a0of Securities",
+      "passage": "(Name of Filing Person (Offeror))\nBalmoral Funds LLC\n(Name\nof Filing Person (Offeror))\n(Names of Filing Persons (identifying status as offeror, issuer or other person))\nCommon Stock, par value $0.10 per share\n(Title of Class\u00a0of Securities)\n894648104\n(CUSIP Number\nof Class\u00a0of Securities)\nBalmoral Swan MergerSub, Inc.\nc/o Balmoral Funds LLC\n11150 Santa Monica Blvd., Suite 825\nAttention: David Shainberg\nTelephone:\u00a0(310) 473-3065\n(Name, address, and telephone numbers of person authorized to receive notices and communications on behalf of filing persons)\nWith copies to:\nKipp B.",
+      "method": "gliner",
+      "confidence": 0.7273640632629395,
+      "rank_score": 0.9773640632629395,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        620,
+        655
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dsctot.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "July\u00a024, 2022",
+      "passage": "4. Withdrawal Rights\nA stockholder may withdraw Shares tendered pursuant to the Offer at any time on or prior to the Expiration Time and, if not previously accepted\nfor payment, at any time after July\u00a024, 2022, the date that is 60 days after the date of the commencement of the Offer, pursuant to SEC regulations, but only in accordance with the procedures described in this Section\u00a04; otherwise, the\ntender of Shares pursuant to the Offer is irrevocable.",
+      "method": "gliner",
+      "confidence": 0.5267044305801392,
+      "rank_score": 0.9767044305801391,
+      "doc_role": "otp",
+      "section": "4. Withdrawal Rights",
+      "faq_question": null,
+      "char_span": [
+        196,
+        209
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "effective_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Surviving Corporation",
+      "passage": "However, pursuant to the Merger Agreement, immediately prior to the Effective Time, each Company Option that is outstanding and unexercised, whether vested or unvested, will by virtue of the Merger automatically and without any\naction on the part of the Company, Parent or any holder thereof, be cancelled and terminated and converted into the right to receive from the Surviving Corporation as promptly as practicable after the Effective Time an amount in cash equal to the\nproduct of (a)\u00a0the aggregate number of Shares underlying such Company Option immediately prior to the Effective Time multiplied by (b)\u00a0an amount equal to (i)\u00a0the Merger Consideration less (ii)\u00a0the exercise price per share of such\nCompany Option, without interest and less any applicable withholding taxes.",
+      "method": "gliner",
+      "confidence": 0.6114171743392944,
+      "rank_score": 0.9614171743392945,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer and the Merger?",
+      "faq_question": "What will happen to my stock options in the Offer and the Merger?",
+      "char_span": [
+        503,
+        524
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "Transaction\nCode Number",
+      "passage": "\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED BY BOOK-ENTRY TRANSFER MADE TO AN ACCOUNT MAINTAINED BY THE\nDEPOSITARY WITH DTC AND COMPLETE THE FOLLOWING (NOTE THAT ONLY FINANCIAL INSTITUTIONS THAT ARE PARTICIPANTS IN THE SYSTEM OF DTC MAY DELIVER SHARES BY BOOK-ENTRY TRANSFER):\nName of Tendering Institution:\nDTC Account Number:\nTransaction\nCode Number:\n\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED PURSUANT TO A NOTICE OF GUARANTEED DELIVERY PREVIOUSLY SENT\nTO THE DEPOSITARY AND COMPLETE THE FOLLOWING:\nName(s) of Tendering Stockholder(s):\nDTC/VOI Ticket Number (if any):\nDate of Execution of Notice of\nGuaranteed Delivery:\nName of Eligible Institution that Guaranteed Delivery:\nNOTE: SIGNATURES MUST BE PROVIDED BELOW.",
+      "method": "gliner",
+      "confidence": 0.9359038472175598,
+      "rank_score": 0.9359038472175598,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        5162,
+        5185
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1b.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "cusip_code",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Company Board",
+      "passage": "Guggenheim Securities, LLC (\u201c Guggenheim \u201d), the financial advisor to the Company Board, has rendered to the Company Board an\noral opinion, on May 11, 2022, which was subsequently confirmed by a written opinion, dated May 11, 2022, to the effect that, as of May 11, 2022 and based on and subject to the matters considered, the procedures followed, the assumptions made and\nvarious limitations of and qualifications to the review undertaken, the Offer Price to be received by the holders",
+      "method": "gliner",
+      "confidence": 0.5804610848426819,
+      "rank_score": 0.930461084842682,
+      "doc_role": "otp",
+      "section": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "faq_question": "Has the Company Board received a fairness opinion in connection with the Offer and the Merger?",
+      "char_span": [
+        74,
+        87
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "New York Stock Exchange LLC",
+      "passage": "h a broker, a bank\nor a recognized Medallion Program approved by the Securities Transfer Association, Inc., including the Security Transfer Agents Medallion Program, the New York Stock Exchange Medallion Signature Program and the Stock Exchanges Medallion Program\n(each, an \u201c Eligible Institution \u201d) may guarantee that the missing items will be received by the Depositary and Paying Agent within two New York Stock Exchange LLC (\u201c NYSE \u201d) trading days. For the tender to be valid,\nhowever, the Depositary and Paying Agent must receive the missing items within such\u00a0two-trading-day\u00a0period. As used in this Offer to Purchase, \u201c trading\nday \u201d means any day on which NYSE is open for business. See Section\u00a01\u2014\u201cTerms of the Offer\u201d and Section\u00a03\u2014\u201cProcedures for Tendering Shares.\u201d\n4",
+      "method": "gliner",
+      "confidence": 0.5679652690887451,
+      "rank_score": 0.9179652690887452,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender in the Offer?",
+      "char_span": [
+        1362,
+        1389
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Company Shares",
+      "passage": "acquisition of Company Shares by Parent or Offeror, or the Merger, or (ii)\u00a0issued or granted any order that is in effect as of immediately prior to the Expiration Time and has the effect of making the Offer, the\nacquisition of Company Shares by Parent or Offeror, or the Merger illegal or which has the effect of prohibiting or otherwise preventing the consummation of the Offer, the acquisition of Company Shares by Parent or Offeror, or the Merger;\n(2)\nthe representations and warranties of the Company set forth in the Merger Agreement (i)\u00a0are not true and\ncorrect in all respects as of the Capitalization Date, except for de minimis inaccuracies, (ii)\u00a0are not true and correct in all material respects on the date hereof and at and as of immediately prior to the Expiration Time, as though made at\nand as of s",
+      "method": "gliner",
+      "confidence": 0.6882039904594421,
+      "rank_score": 0.8882039904594421,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        1693,
+        1707
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Balmoral\nFunds LLC.",
+      "passage": "lied upon:\n\u2610\nRule\u00a013e-4(i)\u00a0(Cross-Border\nIssuer Tender Offer)\n\u2610\nRule\u00a014d-1(d)\u00a0(Cross-Border\nThird-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements\nhereto, this \u201c\nSchedule TO\n\u201d) is being filed by Balmoral Swan MergerSub, Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d) and Balmoral Swan Parent, Inc., a Delaware corporation (\u201c\nParent\n\u201d), and Balmoral\nFunds LLC., a Delaware limited company (\u201c\nBalmoral\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.5211867690086365,
+      "rank_score": 0.8211867690086365,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2440,
+        2459
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dsctot.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "tendering stockholders",
+      "passage": "Payment for Shares accepted for payment pursuant to the Offer will be\nmade by deposit of the purchase price therefore with the Depositary and Paying Agent, which will act as agent for the tendering stockholders for purposes of receiving\n16\nTable of Contents\npayments from the Offeror and transmitting those payments to the tendering stockholders.",
+      "method": "gliner",
+      "confidence": 0.6817076206207275,
+      "rank_score": 0.7817076206207275,
+      "doc_role": "otp",
+      "section": "2. Acceptance for Payment and Payment for",
+      "faq_question": null,
+      "char_span": [
+        3570,
+        3592
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Antitrust Division",
+      "passage": "consumers, the FTC and the Antitrust Division have the authority to challenge the Transactions by seeking a federal court order enjoining the Transactions or, if Shares have already been acquired, requiring disposition of those\nShares, or the divestiture of substantial assets of the Offeror, the Company, or any of their respective subsidiaries or affiliates, or seek other conduct relief.",
+      "method": "gliner",
+      "confidence": 0.6779016852378845,
+      "rank_score": 0.7779016852378845,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        2139,
+        2157
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company Option",
+      "passage": "Any Company Option which has an exercise price per share that is greater than the Merger Consideration will be cancelled without consideration.",
+      "method": "gliner",
+      "confidence": 0.7182259559631348,
+      "rank_score": 0.7682259559631348,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer and the Merger?",
+      "faq_question": "What will happen to my stock options in the Offer and the Merger?",
+      "char_span": [
+        918,
+        932
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Trecora Resources",
+      "passage": "See Instruction 4.\nThe Offer\nis not being made to (and no tenders will be accepted from or on behalf of) holders of Shares (as defined below) in any jurisdiction in which the making of the Offer or acceptance thereof would not be in compliance with the securities, \u201cblue\nsky\u201d or other laws of such jurisdiction.\nThis Letter of Transmittal is to be used by stockholders of Trecora Resources (the \u201cCompany\u201d), if\ncertificates (the \u201cShare Certificates\u201d) for shares of common stock, par value $0.10 per share, of the Company (the \u201cShares\u201d) are to be forwarded herewith or, unless an Agent\u2019s Message (as defined in Section\u00a03 of the\nOffer to Purchase) is utilized, if delivery of Shares is to be made by book-entry transfer to an account maintained by Computershare Trust Company, N.A.",
+      "method": "gliner",
+      "confidence": 0.6601406931877136,
+      "rank_score": 0.7601406931877136,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2569,
+        2586
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1b.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Delaware corporation",
+      "passage": "The Offeror is offering to purchase for cash all of the outstanding Shares. The Offeror is a Delaware corporation that was formed for the sole\npurpose of making the Offer and effecting the transaction in which Offeror will be merged with and into the Company, with the Company surviving as a wholly owned subsidiary of Parent (the \u201c Merger \u201d) pursuant to that certain Agreement\nand Plan of Merger, dated as of May\u00a011, 2022, by and among the Company, Parent and the Offeror (as it may be amended from time to time,",
+      "method": "gliner",
+      "confidence": 0.40888309478759766,
+      "rank_score": 0.7588830947875977,
+      "doc_role": "otp",
+      "section": "Who is offering to buy my securities?",
+      "faq_question": "Who is offering to buy my securities?",
+      "char_span": [
+        93,
+        113
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "trust companies",
+      "passage": "This Offer to Purchase and the related Letter of Transmittal will be mailed to record holders of Shares whose names appear on the Company\u2019s stockholder list and will be\nfurnished to brokers, dealers, commercial banks, trust companies or other nominees whose names, or the names of whose nominees, appear on the stockholder list or, if applicable, who are listed as participants in a clearing agency\u2019s security\nposition listing, for subsequent transmittal to beneficial owners of Shares.",
+      "method": "gliner",
+      "confidence": 0.6586443781852722,
+      "rank_score": 0.7586443781852722,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer",
+      "faq_question": null,
+      "char_span": [
+        11006,
+        11021
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Guggenheim Securities",
+      "passage": "The Board discussed the risks and potential benefits to each alternative based on the Company\u2019s experience in implementing certain of such strategic alternatives and in light of market, financial and other information contained in\nthe Guggenheim Securities presentation.",
+      "method": "gliner",
+      "confidence": 0.5157470703125,
+      "rank_score": 0.7157470703125,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79258,
+        79279
+      ],
+      "source_hit_id": "0001193125-22-160461:d294385dsc14d9.htm",
+      "source_accession": "0001193125-22-160461",
+      "label": "security_name",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective date of the Merger",
+      "passage": "ddress indicated in the Schedule\n14D-9,\na demand in writing for appraisal of such Shares , which demand must reasonably inform the Company of the identity of the stockholder and that the\nstockholder is demanding appraisal for such Shares;\n\u2022\nnot tender such Shares in the Offer; and\n\u2022\ncontinuously hold of record such Shares from the date on which the written demand for appraisal is made through\nthe effective date of the Merger.\nThe foregoing summary of the rights of the Company\u2019s stockholders to seek\nappraisal rights under Delaware law does not purport to be a complete statement of the procedures to be followed by stockholders desiring to exercise appraisal rights and is qualified in its entirety by reference to Section\u00a0262 of the DGCL.",
+      "method": "gliner",
+      "confidence": 0.6860551834106445,
+      "rank_score": 0.6860551834106445,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        3506,
+        3534
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Trecora Resources",
+      "passage": "SC 14D9\nTable of Contents\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the Securities Exchange Act of 1934\nTrecora Resources\n(Name\nof Subject Company)\nTrecora Resources\n(Names of Persons Filing Statement)\nCommon Stock,\n$0.10 par value per share\n(Title of Class\u00a0of Securities)\n894648104\n(CUSIP Number\nof Class\u00a0of Securities)\nPatrick D.",
+      "method": "gliner",
+      "confidence": 0.5959154963493347,
+      "rank_score": 0.5959154963493347,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        272,
+        289
+      ],
+      "source_hit_id": "0001193125-22-160461:d294385dsc14d9.htm",
+      "source_accession": "0001193125-22-160461",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S. dollar",
+      "passage": "Holders (as defined below) that have a \u201cfunctional currency\u201d\nother than the U.S. dollar, U.S.",
+      "method": "gliner",
+      "confidence": 0.5774486660957336,
+      "rank_score": 0.5774486660957336,
+      "doc_role": "otp",
+      "section": "5. Certain U.S. Federal Income Tax Consequences",
+      "faq_question": null,
+      "char_span": [
+        1629,
+        1640
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "currency_code",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum",
+      "passage": "The foregoing conditions are for the sole benefit of Parent and the Offeror and, subject to the terms and conditions of the Merger Agreement\nand applicable law, may be waived by Parent and the Offeror, in whole or in part, at any time and from time to time (other than the Minimum Condition) prior to the Expiration Time. The failure by Parent or the Offeror at any time to exercise any of\nthe foregoing rights will not be deemed a waiver of any such right and each such right will be deemed an ongoing right that may be asserted at any time and from time to time.",
+      "method": "gliner",
+      "confidence": 0.5685172080993652,
+      "rank_score": 0.5685172080993652,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        4611,
+        4618
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "alternative",
+      "passage": "The Offeror\u2019s interpretation of the terms of the Offer and subject to the\nOffer Conditions (including the Letter of Transmittal and the Instructions thereto and any other documents related to the Offer) will be final and binding.\nNo alternative, conditional or contingent tenders will be accepted.",
+      "method": "gliner",
+      "confidence": 0.5564465522766113,
+      "rank_score": 0.5564465522766113,
+      "doc_role": "otp",
+      "section": "3. Procedures for Tendering Shares",
+      "faq_question": null,
+      "char_span": [
+        14105,
+        14116
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "available_option",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "target",
+      "raw": "TRECORA RESOURCES",
+      "passage": "Exhibit (a)(1)(B)\nExhibit (a)(1)(B)\nLETTER OF TRANSMITTAL\nto Tender Shares of Common Stock\nof\nTRECORA RESOURCES\nat\n$9.81 PER SHARE,\nNET IN CASH\nPursuant to the Offer to Purchase dated May\u00a025, 2022\nby\nBALMORAL SWAN\nMERGERSUB, INC.",
+      "method": "gliner",
+      "confidence": 0.4372505843639374,
+      "rank_score": 0.5372505843639374,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        94,
+        111
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1b.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "de minimis",
+      "passage": "he effect of making the Offer, the acquisition of the Shares by Parent or the Offeror, or the Merger illegal or which has the effect of prohibiting or otherwise preventing the consummation of the Offer, the acquisition of Shares by Parent or\nthe Offeror, or the Merger; (c)\u00a0the accuracy of the Company\u2019s representations and warranties contained in the Merger Agreement (subject, in certain cases, to\nde minimis\n, materiality and Company Material Adverse Effect\nqualifiers) (the \u201c\nRepresentations Condition\n\u201d); (d) the Company\u2019s performance or compliance with its agreements, obligations and covenants as required under the Merger Agreement in all material respects and such failure to\ncomply or perform shall not have been cured by the Expiration Time (the \u201c\nCovenants Condition\n\u201d); (e) the absence, since\n10\nT",
+      "method": "gliner",
+      "confidence": 0.5231031179428101,
+      "rank_score": 0.5231031179428101,
+      "doc_role": "otp",
+      "section": "Introduction",
+      "faq_question": null,
+      "char_span": [
+        4077,
+        4087
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "terms",
+      "passage": "If you tender your shares in the Offer, you will not be entitled to exercise appraisal rights with respect to your shares but, instead, upon the terms and subject to the conditions\nto the Offer, you will receive the Offer Price for your Shares.",
+      "method": "gliner",
+      "confidence": 0.5213649272918701,
+      "rank_score": 0.5213649272918701,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        4569,
+        4574
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "proration_terms",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificates",
+      "passage": "(the \u201cDepositary\u201d) at The Depository Trust Company (\u201cDTC\u201d) (as described in\nSection\u00a02 of the Offer to Purchase and pursuant to the procedures set forth in Section\u00a03 thereof).\nStockholders whose Share Certificates are\nnot immediately available, or who cannot complete the procedure for book-entry transfer on a timely basis, or who cannot deliver all other required documents to the Depositary prior to the Expiration Time, must tender their Shares according to the\nguaranteed delivery procedure set forth in Section\u00a03 of the Offer to Purchase in order to participate in the Offer.",
+      "method": "gliner",
+      "confidence": 0.49230676889419556,
+      "rank_score": 0.49230676889419556,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3170,
+        3188
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1b.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "voting stock",
+      "passage": "transaction in which the interested stockholder became an interested stockholder or the\nbusiness combination; (ii)\u00a0upon consummation of the transaction which resulted in the stockholder becoming an interested stockholder, the interested stockholder owned at least 85% of the voting stock of the corporation outstanding at the time\nthe transaction commenced, excluding for purposes of determining the voting stock outstanding (but not the outstanding voting stock owned by the interested stockholder) those shares owned by (A)\u00a0persons who are directors and also officers and\n(B)\u00a0employee stock plans in which employee participants do not have the right to determine confidentially whether shares held subject to the plan will be tendered in a tender or exchange offer; or (iii)\u00a0at or subsequent to such time that",
+      "method": "gliner",
+      "confidence": 0.48365214467048645,
+      "rank_score": 0.48365214467048645,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        4773,
+        4785
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "Conditions of the Offer",
+      "passage": "13.\nConditions of the Offer\nCapitalized terms used in this Section\u00a013\u2014\u201cConditions of the Offer,\u201d but not defined herein have the respective meanings\ngiven to them in the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.45612800121307373,
+      "rank_score": 0.45612800121307373,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        71,
+        94
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "proration_terms",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "isin",
+      "raw": "poly-iso",
+      "passage": "The Company\u2019s products are used in applications including\npolyethelene,\u00a0poly-iso\u00a0and\nexpandable / extruded polystyrene.",
+      "method": "gliner",
+      "confidence": 0.45094040036201477,
+      "rank_score": 0.45094040036201477,
+      "doc_role": "otp",
+      "section": "8. Certain Information Concerning the Company",
+      "faq_question": null,
+      "char_span": [
+        598,
+        606
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "isin_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "shares of common stock",
+      "passage": "This Letter of Transmittal is to be used by stockholders of Trecora Resources (the \u201cCompany\u201d), if\ncertificates (the \u201cShare Certificates\u201d) for shares of common stock, par value $0.10 per share, of the Company (the \u201cShares\u201d) are to be forwarded herewith or, unless an Agent\u2019s Message (as defined in Section\u00a03 of the\nOffer to Purchase) is utilized, if delivery of Shares is to be made by book-entry transfer to an account maintained by Computershare Trust Company, N.A.",
+      "method": "gliner",
+      "confidence": 0.4392862617969513,
+      "rank_score": 0.4392862617969513,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2651,
+        2673
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1b.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "ticker_symbol",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "On May 24, 2022, the last full trading day before the Offeror commenced the Offer, the closing price of the Shares reported on the NYSE was $9.66 per Share.\nWe advise you to obtain a recent quotation for Shares in deciding whether to tender your Shares in the Offer. See\nSection\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.9312245845794678,
+      "rank_score": 0.4312245845794677,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        539,
+        545
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash",
+      "passage": "ing made for any and all of the issued and outstanding Shares solely for cash, (c)\u00a0the Offer is not subject to any financing condition, (d)\u00a0the\nOffer is being made for any and all of the outstanding Shares of the Company, (e)\u00a0if we consummate the Offer, subject to the satisfaction or waiver of certain conditions, we have agreed to acquire all remaining Shares (other than the Cancelled\nShares) for cash at the same price per share as the Offer Price in the Merger and (f)\u00a0we have all of the financial resources, including committed equity and debt financing, sufficient to finance the Offer and the Merger.",
+      "method": "gliner",
+      "confidence": 0.42297595739364624,
+      "rank_score": 0.42297595739364624,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        1510,
+        1514
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "currency_code",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Offer Conditions",
+      "passage": "2. Acceptance for Payment and Payment for\nShares\nUpon the terms and subject to the Offer Conditions (including, if the Offer is extended or amended in accordance with the terms\nof the Merger Agreement, the terms and conditions of any such extension or amendment), including satisfaction or waiver of all of the Offer Conditions, the Offeror will, and Parent will cause the Offeror to, at, or promptly after, the Expiration\nTime, irrevocably accept for payment (but in any event within one business d",
+      "method": "gliner",
+      "confidence": 0.4185344874858856,
+      "rank_score": 0.4185344874858856,
+      "doc_role": "otp",
+      "section": "2. Acceptance for Payment and Payment for",
+      "faq_question": null,
+      "char_span": [
+        83,
+        99
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "Notwithstanding anything herein to the contrary, if any actions, suits, claims (or counterclaims), hearings, arbitrations, investigations, inquiries, litigations, mediations, grievances, audits, examinations or other proceedings, in each case, by or\nbefore any governmental entity (collectively, \u201c\nProceedings\n\u201d) (whether arising before, at or after the Effective Time) is made against such persons with respect to matters subject to indemnification, expense advancement or\nexculpation hereunder on or prior to the sixth anniversary of the Effective Time, the applicable provisions of the Merger Agreement will continue in effect until the final disposition of such Proceeding or investigation.",
+      "method": "gliner",
+      "confidence": 0.9134279489517212,
+      "rank_score": 0.36342794895172115,
+      "doc_role": "otp",
+      "section": "Company 401(k) Plan",
+      "faq_question": null,
+      "char_span": [
+        5093,
+        5107
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "effective_datetime",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "(New York City time) on the last Business Day of such period) (or any other period as may be approved in advance by the Company) in order to permit the satisfaction of all of the conditions to the Offer; provided , however , that if the sole then-unsatisfied condition to the Offer is the Minimum Condition, we shall not be required (but in its sole discretion may elect) to extend the Offer for more than three occasions in consecutive\nperiods of 10 Business Days each (each such period to end at 11:59 p.m. (New York City time) on the last Business Day of such period) (or such other period as may be approved in advance by the parties); and",
+      "method": "gliner",
+      "confidence": 0.8624769449234009,
+      "rank_score": 0.3624769449234008,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        1197,
+        1214
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Date",
+      "passage": "as of the Capitalization Date, except for de minimis inaccuracies, (ii)\u00a0are not true and correct in all material respects on the date hereof and at and as of immediately prior to the Expiration Time, as though made at\nand as of such time (except to the extent expressly made as of an earlier date, in which case, at and as of such earlier date), (iii) are not true and correct in all respects on the Effective Date and at and as of immediately prior to the Expiration\nTime, as though made at and as of such time (except to the extent expressly made as of an earlier date, in which case, at and as of such earlier date), and (iv)\u00a0are not true and correct in all respects at and as of immediately prior to the\nExpiration Time as though made at and as of such time (except to the extent expressly made as of an earlie",
+      "method": "gliner",
+      "confidence": 0.880074679851532,
+      "rank_score": 0.33007467985153194,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        2278,
+        2292
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "effective_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "common stock",
+      "passage": "Securities Sought\nAll issued and outstanding shares (the \u201c\nShares\n\u201d) of common stock, par value $0.10 per share (the \u201c\nCommon Stock\n\u201d), of Trecora Resources, a Delaware corporation (the \u201c\nCompany\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.7987726926803589,
+      "rank_score": 0.29877269268035883,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        1879,
+        1891
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Share",
+      "passage": "The Offer Price of $9.81 per Share represents a premium of approximately 29.9% over the closing price of\n$7.55 per Share reported on NYSE on May\u00a010, 2022, the last full trading day prior to the public announcement of the signing of the Merger Agreement, and a 14.2% premium to the\u00a090-day\u00a0volume weighted average price as of such date.",
+      "method": "gliner",
+      "confidence": 0.7919095158576965,
+      "rank_score": 0.2919095158576965,
+      "doc_role": "otp",
+      "section": "What is the market value of my\nShares as of a recent date?",
+      "faq_question": "What is the market value of my\nShares as of a recent date?",
+      "char_span": [
+        29,
+        34
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Company",
+      "passage": "Although Parent and the Offeror have no knowledge that would indicate that any such statements contained herein relating to the Company provided to Parent and the Offeror or taken from, or based\nupon, such documents and records filed with the SEC are inaccurate, Parent and the Offeror have not independently verified the accuracy and completeness of such information.",
+      "method": "gliner",
+      "confidence": 0.4096379280090332,
+      "rank_score": 0.10963792800903323,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        1044,
+        1051
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Closing Date",
+      "passage": "To the extent the Company 401(k) Plan is terminated pursuant to Parent\u2019s request, the affected Employees will be eligible to participate in a 401(k) plan maintained by Parent or one of its Subsidiaries effective\nas of the Closing Date, and such affected Employees will be entitled to effect a direct rollover of any eligible rollover distributions (as defined in Section\u00a0402(c)(4) of the Code), including any outstanding loans, to such 401(k) plan\nmaintained by Parent or its Subsidiaries.",
+      "method": "gliner",
+      "confidence": 0.4972352981567383,
+      "rank_score": -0.05276470184326176,
+      "doc_role": "otp",
+      "section": "Company 401(k) Plan",
+      "faq_question": null,
+      "char_span": [
+        797,
+        809
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "effective_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Capitalization Date",
+      "passage": "ng the Offer, the\nacquisition of Company Shares by Parent or Offeror, or the Merger illegal or which has the effect of prohibiting or otherwise preventing the consummation of the Offer, the acquisition of Company Shares by Parent or Offeror, or the Merger;\n(2)\nthe representations and warranties of the Company set forth in the Merger Agreement (i)\u00a0are not true and\ncorrect in all respects as of the Capitalization Date, except for de minimis inaccuracies, (ii)\u00a0are not true and correct in all material respects on the date hereof and at and as of immediately prior to the Expiration Time, as though made at\nand as of such time (except to the extent expressly made as of an earlier date, in which case, at and as of such earlier date), (iii) are not true and correct in all respects on the Effective Date and at and as",
+      "method": "gliner",
+      "confidence": 0.49076047539711,
+      "rank_score": -0.05923952460289006,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        1888,
+        1907
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "effective_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective\nas of the Closing Date",
+      "passage": "To the extent the Company 401(k) Plan is terminated pursuant to Parent\u2019s request, the affected Employees will be eligible to participate in a 401(k) plan maintained by Parent or one of its Subsidiaries effective\nas of the Closing Date, and such affected Employees will be entitled to effect a direct rollover of any eligible rollover distributions (as defined in Section\u00a0402(c)(4) of the Code), including any outstanding loans, to such 401(k) plan\nmaintained by Parent or its Subsidiaries.",
+      "method": "gliner",
+      "confidence": 0.4619649350643158,
+      "rank_score": -0.08803506493568425,
+      "doc_role": "otp",
+      "section": "Company 401(k) Plan",
+      "faq_question": null,
+      "char_span": [
+        777,
+        809
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "effective_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "DTC",
+      "passage": "Any financial institution that is a participant in DTC\u2019s systems may make a book-entry transfer of Shares by causing DTC to transfer\nthose Shares into the Depositary and Paying Agent\u2019s account in accordance with DTC\u2019s procedures for that transfer using DTC\u2019s ATOP system.",
+      "method": "gliner",
+      "confidence": 0.42073002457618713,
+      "rank_score": -0.1292699754238129,
+      "doc_role": "otp",
+      "section": "3. Procedures for Tendering Shares",
+      "faq_question": null,
+      "char_span": [
+        2272,
+        2275
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "target_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "SEC",
+      "passage": "8. Certain Information Concerning the Company\nGeneral.\nThe description of the Company and its business set forth in the following paragraph has been derived\nfrom information contained in the Company\u2019s Annual Report on\nForm\u00a010-K\u00a0for\nthe fiscal year ended December\u00a031, 2021 (the \u201c\nAnnual Report\n\u201d) publicly available documents and\nrecords on file with the SEC and other public sources.\nThe Company is a leading provider of specialty hydrocarbons, specialty waxes and\ncustom processing services for a broad array of end markets.",
+      "method": "gliner",
+      "confidence": 0.5457744002342224,
+      "rank_score": -0.15422559976577754,
+      "doc_role": "otp",
+      "section": "8. Certain Information Concerning the Company",
+      "faq_question": null,
+      "char_span": [
+        354,
+        357
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "5. Certain U.S. Federal Income Tax Consequences\nThe following summary describes certain U.S. federal income tax consequences to holders of Shares with respect to the disposition of Shares\npursuant to the Offer or the Merger. It addresses only holders that hold Shares as capital assets (generally, property held for investment) within the meaning of Section\u00a01221 of the Internal Revenue Code of 1986, as amended (the\n\u201c\nCode\n\u201d).\nThe following summary does not purport to be a complete analysis of all of the potential U.S.",
+      "method": "gliner",
+      "confidence": 0.901323676109314,
+      "rank_score": -0.3986763238906861,
+      "doc_role": "otp",
+      "section": "5. Certain U.S. Federal Income Tax Consequences",
+      "faq_question": null,
+      "char_span": [
+        261,
+        267
+      ],
+      "source_hit_id": "0001193125-22-159695:d296065dex99a1a.htm",
+      "source_accession": "0001193125-22-159695",
+      "label": "security_name",
+      "chunk_id": "w0"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.820307+00:00"
+}

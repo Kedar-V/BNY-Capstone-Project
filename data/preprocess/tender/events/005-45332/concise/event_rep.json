@@ -1,0 +1,2841 @@
+{
+  "schema_version": "1",
+  "event_id": "005-45332",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "55f329c766808ecdadfb4adb6e9f16d60c61a6c9",
+      "hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "accession": "0001104659-21-026270",
+      "filename": "tm217453-1_sctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "7352c522f2d2b72a3f37f6eb60b8ec5e381715d6",
+      "hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "accession": "0001104659-21-026270",
+      "filename": "tm217453-1_exa1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "a005ff275db778fd49109f24d1278993aabd1047",
+      "hit_id": "0001104659-21-036065:tm217453-4_exa1b.htm",
+      "accession": "0001104659-21-036065",
+      "filename": "tm217453-4_exa1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "9b3a443d4d2ec24b1f4e1eb49532f166540fe38d",
+      "hit_id": "0001104659-21-042151:tm2110733d1_sc14d9.htm",
+      "accession": "0001104659-21-042151",
+      "filename": "tm2110733d1_sc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "money_amount",
+      "text": "Ch$140",
+      "score": 0.6571304798126221,
+      "rank_score": 1.437130479812622,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Ch$112.01",
+      "score": 0.6859720349311829,
+      "rank_score": 1.3359720349311828,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3EOT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "January\u00a017, 2021",
+      "score": 0.6826671957969666,
+      "rank_score": 1.3326671957969665,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Ch$7,000",
+      "score": 0.6719369292259216,
+      "rank_score": 1.3219369292259215,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8PT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Ch$1,065\u00a0billion",
+      "score": 0.6703249216079712,
+      "rank_score": 1.320324921607971,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3EOT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$140",
+      "score": 0.5115933418273926,
+      "rank_score": 1.2915933418273926,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "December\u00a018, 2020",
+      "score": 0.6226493120193481,
+      "rank_score": 1.272649312019348,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Ch$109.79",
+      "score": 0.6030503511428833,
+      "rank_score": 1.2530503511428832,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$7,000",
+      "score": 0.5903370976448059,
+      "rank_score": 1.2403370976448058,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tQAA",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "cusip_code",
+      "text": "29274F104",
+      "score": 0.7225452065467834,
+      "rank_score": 1.2225452065467834,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "2021",
+      "score": 0.8338810205459595,
+      "rank_score": 1.1638810205459595,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "US$60,000",
+      "score": 0.5079203248023987,
+      "rank_score": 1.1579203248023986,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t9UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "US$ 1,495\u00a0million",
+      "score": 0.4815816879272461,
+      "rank_score": 1.131581687927246,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3EOT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "US$7.79",
+      "score": 0.48028257489204407,
+      "rank_score": 1.130282574892044,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3EOT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "February\u00a01, 2021",
+      "score": 0.6790130734443665,
+      "rank_score": 1.1290130734443664,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Citibank N.A.",
+      "score": 0.8205398917198181,
+      "rank_score": 1.1205398917198182,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tABET",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "approximately US$1,495\u00a0million",
+      "score": 0.467072457075119,
+      "rank_score": 1.117072457075119,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1AAO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Citibank, N.A.",
+      "score": 0.8168579936027527,
+      "rank_score": 1.1168579936027527,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1AE",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "January\u00a01, 2017",
+      "score": 0.46059730648994446,
+      "rank_score": 1.1105973064899444,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t9UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "ENIA",
+      "score": 0.754266619682312,
+      "rank_score": 1.104266619682312,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ONT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Enel S.p.A.",
+      "score": 0.8916568756103516,
+      "rank_score": 1.0916568756103515,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "January\u00a029, 2021",
+      "score": 0.42218533158302307,
+      "rank_score": 1.072185331583023,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ONT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "January\u00a023, 2021",
+      "score": 0.41548076272010803,
+      "rank_score": 1.065480762720108,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ONT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP No.\n29274F104",
+      "score": 0.8021878004074097,
+      "rank_score": 1.0521878004074097,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "December\u00a018, 2020",
+      "score": 0.4368205666542053,
+      "rank_score": 1.0368205666542052,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Enel Am\u00e9ricas S.A.",
+      "score": 0.81438148021698,
+      "rank_score": 1.01438148021698,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "Chilean peso amounts",
+      "score": 0.6784934401512146,
+      "rank_score": 1.0084934401512147,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Enel Am\u00e9ricas",
+      "score": 0.9069085121154785,
+      "rank_score": 1.0069085121154786,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "currency_code",
+      "text": "US$",
+      "score": 0.885113000869751,
+      "rank_score": 0.985113000869751,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t17M",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "February\u00a03, 2021",
+      "score": 0.5230462551116943,
+      "rank_score": 0.9730462551116943,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "McKinsey & Company",
+      "score": 0.6514315605163574,
+      "rank_score": 0.9514315605163575,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tAADA",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S. dollars",
+      "score": 0.8829330205917358,
+      "rank_score": 0.9329330205917359,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Encourage Capital LLC",
+      "score": 0.6089033484458923,
+      "rank_score": 0.9089033484458924,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tAADA",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Santiago Stock Exchange",
+      "score": 0.8052977323532104,
+      "rank_score": 0.9052977323532104,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "American Depositary Shares",
+      "score": 0.503822922706604,
+      "rank_score": 0.9038229227066039,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Enel S.p.A.",
+      "score": 0.7524281740188599,
+      "rank_score": 0.9024281740188599,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Enel Am\u00e9ricas",
+      "score": 0.7959541082382202,
+      "rank_score": 0.8959541082382202,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Offer Administrator",
+      "score": 0.7894412875175476,
+      "rank_score": 0.8894412875175476,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tABET",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Eligible Institution",
+      "score": 0.7541468143463135,
+      "rank_score": 0.8541468143463135,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t6TCO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "U.S. Holders",
+      "score": 0.7483379244804382,
+      "rank_score": 0.8483379244804382,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t6TCO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares represented by ADSs",
+      "score": 0.7895114421844482,
+      "rank_score": 0.8395114421844483,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Enel Am\u00e9ricas S.A.",
+      "score": 0.7356642484664917,
+      "rank_score": 0.8356642484664917,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "ENELAM",
+      "score": 0.8300063014030457,
+      "rank_score": 0.8300063014030457,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ROS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "proration_terms",
+      "text": "proration",
+      "score": 0.8213578462600708,
+      "rank_score": 0.8213578462600708,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number of Class of Securities",
+      "score": 0.5698704719543457,
+      "rank_score": 0.8198704719543457,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Book-Entry Transfer Facility",
+      "score": 0.7141810655593872,
+      "rank_score": 0.8141810655593872,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t6TCO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "EGP",
+      "score": 0.4629087746143341,
+      "rank_score": 0.8129087746143341,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "p.m.",
+      "score": 0.6027299761772156,
+      "rank_score": 0.8027299761772155,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTU",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "U.S. Internal Revenue Service",
+      "score": 0.6844438314437866,
+      "rank_score": 0.7844438314437866,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t4FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "EGP Am\u00e9ricas",
+      "score": 0.6735520362854004,
+      "rank_score": 0.7735520362854004,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S dollars",
+      "score": 0.7718942761421204,
+      "rank_score": 0.7718942761421204,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTU",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "calendar_date",
+      "text": "business day prior to the date of settlement of the Offers",
+      "score": 0.4090186655521393,
+      "rank_score": 0.7390186655521394,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "currency_code",
+      "text": "Chilean peso",
+      "score": 0.6761978268623352,
+      "rank_score": 0.7261978268623352,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "isin_code",
+      "text": "SUNAT",
+      "score": 0.7055132389068604,
+      "rank_score": 0.7055132389068604,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "ADSs",
+      "score": 0.6502360105514526,
+      "rank_score": 0.7002360105514527,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "proration_terms",
+      "text": "renewable terms",
+      "score": 0.6916293501853943,
+      "rank_score": 0.6916293501853943,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t9UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Enel Rinnovabili",
+      "score": 0.5869686007499695,
+      "rank_score": 0.6869686007499695,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares or ADSs",
+      "score": 0.6826109886169434,
+      "rank_score": 0.6826109886169434,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8ONT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "DCV Registros",
+      "score": 0.5755887627601624,
+      "rank_score": 0.6755887627601623,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares or ADSs",
+      "score": 0.6721210479736328,
+      "rank_score": 0.6721210479736328,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1AE",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Inversiones Santa Ver\u00f3nica Limitada",
+      "score": 0.5711458921432495,
+      "rank_score": 0.6711458921432495,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1ICE",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Commercial Banks",
+      "score": 0.555573582649231,
+      "rank_score": 0.6555735826492309,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Trust Companies",
+      "score": 0.5348606109619141,
+      "rank_score": 0.634860610961914,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "U.S. Share Tender Agent",
+      "score": 0.5340909361839294,
+      "rank_score": 0.6340909361839294,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t6TCO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Book-Entry Transfer Facility",
+      "score": 0.5229049324989319,
+      "rank_score": 0.6229049324989319,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t4FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "expiration date",
+      "score": 0.8347023129463196,
+      "rank_score": 0.6147023129463196,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "currency_code",
+      "text": "Chilean pesos",
+      "score": 0.8778272867202759,
+      "rank_score": 0.5778272867202758,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t7ROS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares and ADSs",
+      "score": 0.5739771723747253,
+      "rank_score": 0.5739771723747253,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3EOT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "at their option",
+      "score": 0.5518450736999512,
+      "rank_score": 0.5518450736999512,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t4FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S. dollar",
+      "score": 0.5275964140892029,
+      "rank_score": 0.5275964140892029,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t6TCO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "American Depository Shares",
+      "score": 0.5213937759399414,
+      "rank_score": 0.5213937759399414,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "T\u00edtulo",
+      "score": 0.5158023834228516,
+      "rank_score": 0.5158023834228516,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "security_name",
+      "text": "t\u00edtulo(s)",
+      "score": 0.5031348466873169,
+      "rank_score": 0.5031348466873169,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares and ADSs",
+      "score": 0.4891068637371063,
+      "rank_score": 0.4891068637371063,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "EGP Am\u00e9ricas",
+      "score": 0.4848804473876953,
+      "rank_score": 0.4848804473876953,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "minimum period",
+      "score": 0.46912267804145813,
+      "rank_score": 0.46912267804145813,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2FP",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S.",
+      "score": 0.46289125084877014,
+      "rank_score": 0.46289125084877014,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8PT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "proration_terms",
+      "text": "proration factor",
+      "score": 0.45880740880966187,
+      "rank_score": 0.45880740880966187,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1OTU",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Kraftvaerksvej 53",
+      "score": 0.44962674379348755,
+      "rank_score": 0.44962674379348755,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tAADA",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "Enel",
+      "score": 0.6891733407974243,
+      "rank_score": 0.4391733407974243,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t1AAO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Enel Am\u00e9ricas",
+      "score": 0.4228198230266571,
+      "rank_score": 0.4228198230266571,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t8PT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "ENEL S.P.A.",
+      "score": 0.4063948690891266,
+      "rank_score": 0.4063948690891266,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tAADA",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.8914082646369934,
+      "rank_score": 0.39140826463699335,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "currency_code",
+      "text": "United States dollars",
+      "score": 0.6836757659912109,
+      "rank_score": 0.38367576599121095,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tINT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "target_organization",
+      "text": "DCV",
+      "score": 0.5639086365699768,
+      "rank_score": 0.3139086365699768,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t3FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "target_organization",
+      "text": "U.S.",
+      "score": 0.542131245136261,
+      "rank_score": 0.292131245136261,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t9UFI",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.4052124619483948,
+      "rank_score": 0.10521246194839473,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "ADSs",
+      "score": 0.7965997457504272,
+      "rank_score": 0.09659974575042729,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t6TCO",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.5118228793144226,
+      "rank_score": -0.03817712068557744,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Share",
+      "score": 0.4453909993171692,
+      "rank_score": -0.10460900068283085,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t2OAR",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "Enel",
+      "score": 0.5688035488128662,
+      "rank_score": -0.13119645118713374,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tAADA",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "ADS",
+      "score": 0.5186560153961182,
+      "rank_score": -0.1813439846038818,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tSTS",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.8516887426376343,
+      "rank_score": -0.44831125736236577,
+      "doc_role": "otp",
+      "segment_id": "otp:section:t4FAT",
+      "faq_question": null,
+      "section": "\u200b",
+      "chunk_id": "w3"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "offer_price",
+      "raw": "Ch$140",
+      "passage": "Offer, Enel is offering to purchase up to 7,608,631,104 of the outstanding Shares for Ch$140 per Share. That offer is referred to as the \u201cChilean Offer,\u201d and the U.S. Offer and Chilean Offer together are referred to as the \u201cOffers.\u201d\nHow many Shares will you purchase?\nWe will purchase up to 7,608,631,104 Shares, which represents 10% of the outstanding capital stock of Enel A",
+      "method": "gliner",
+      "confidence": 0.6571304798126221,
+      "rank_score": 1.437130479812622,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        11710,
+        11716
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "money_amount",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Ch$112.01",
+      "passage": "\u200b\nThe most recent closing price of Enel Am\u00e9ricas Shares and ADSs as of February\u00a019, 2021 was Ch$112.01 per Share and US$7.79 per ADS, which is below the Tender Offer Price.\nAs of February\u00a019, 2021, there are 76,086,311,036 issued and outstanding Shares (including 2,560,377,050 Shares underlying 51,207,541 issued and outstanding ADSs).\n3.\nCertain Effects of the Offers\n\u200b\nWe expect that Ch$1,065\u00a0billion, or approximately US$ 1,495\u00a0million, will be required to purchase the Shares and ADSs in the U.S.",
+      "method": "gliner",
+      "confidence": 0.6859720349311829,
+      "rank_score": 1.3359720349311828,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        93,
+        102
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a017, 2021",
+      "passage": "On January\u00a017, 2021, the period for Enel Am\u00e9ricas shareholders to exercise their statutory merger dissenters\u2019 withdrawal rights in connection with the Merger expired.",
+      "method": "gliner",
+      "confidence": 0.6826671957969666,
+      "rank_score": 1.3326671957969665,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2556,
+        2572
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Ch$7,000",
+      "passage": "\u200b\nEnel is offering to pay to U.S. holders who tender into the U.S. Offer the U.S. dollar equivalent of Ch$140 per Share and Ch$7,000 per ADS (less any applicable withholding taxes and distribution fees).",
+      "method": "gliner",
+      "confidence": 0.6719369292259216,
+      "rank_score": 1.3219369292259215,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        124,
+        132
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Ch$1,065\u00a0billion",
+      "passage": "\u200b\nThe most recent closing price of Enel Am\u00e9ricas Shares and ADSs as of February\u00a019, 2021 was Ch$112.01 per Share and US$7.79 per ADS, which is below the Tender Offer Price.\nAs of February\u00a019, 2021, there are 76,086,311,036 issued and outstanding Shares (including 2,560,377,050 Shares underlying 51,207,541 issued and outstanding ADSs).\n3.\nCertain Effects of the Offers\n\u200b\nWe expect that Ch$1,065\u00a0billion, or approximately US$ 1,495\u00a0million, will be required to purchase the Shares and ADSs in the U.S.",
+      "method": "gliner",
+      "confidence": 0.6703249216079712,
+      "rank_score": 1.320324921607971,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        387,
+        403
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$140",
+      "passage": "Offer excludes any Shares and ADSs held by Enel, including any Shares issues to Enel as part of the Merger.\nShare Offer Price\nCh$140 per Share in cash, without any interest, payable in U.S.",
+      "method": "gliner",
+      "confidence": 0.5115933418273926,
+      "rank_score": 1.2915933418273926,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        2848,
+        2852
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "money_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a018, 2020",
+      "passage": "The tender offer was designed to allow shareholders to participate in the Merger but receive cash for a portion of their ownership interest in Enel Am\u00e9ricas, at a fixed cash value higher than the price of Ch$109.79 per share offered under Chilean law to dissenting shareholders who exercised their withdrawal rights in connection with the Merger.\nOn December\u00a018, 2020, the ESM was held and the Enel Am\u00e9ricas shareholders approved the Merger (with a merger exchange ratio of 0.41 Enel Am\u00e9ricas shares for each EGP Am\u00e9ricas share), the Merger as an RPT and the Bylaw Amendment.\nOn January\u00a017, 2021, the period for Enel Am\u00e9ricas shareholders to exercise their statutory merger dissenters\u2019 withdrawal rights in connection with the Merger expired.",
+      "method": "gliner",
+      "confidence": 0.6226493120193481,
+      "rank_score": 1.272649312019348,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2327,
+        2344
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Ch$109.79",
+      "passage": "The tender offer was designed to allow shareholders to participate in the Merger but receive cash for a portion of their ownership interest in Enel Am\u00e9ricas, at a fixed cash value higher than the price of Ch$109.79 per share offered under Chilean law to dissenting shareholders who exercised their withdrawal rights in connection with the Merger.",
+      "method": "gliner",
+      "confidence": 0.6030503511428833,
+      "rank_score": 1.2530503511428832,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2182,
+        2191
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$7,000",
+      "passage": "dollars and Ch$7,000 per ADS payable in U.S.",
+      "method": "gliner",
+      "confidence": 0.5903370976448059,
+      "rank_score": 1.2403370976448058,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        758,
+        764
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "29274F104",
+      "passage": "Enrico Viale\n(Name of Person Filing Statement)\nAmerican Depository Shares (ADS) each representing\n50 shares of Common Stock, no par value\n(Title of Class\u00a0of Securities)\n29274F104\n(CUSIP Number of Class\u00a0of Securities)\nCommon Stock, no par value\n(Title of Class\u00a0of Securities)\nN/A\n(CUSIP Number of Class\u00a0of Securities)\nAurelio Bustilho\nEnel Am\u00e9ricas S.A.",
+      "method": "gliner",
+      "confidence": 0.7225452065467834,
+      "rank_score": 1.2225452065467834,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        542,
+        551
+      ],
+      "source_hit_id": "0001104659-21-042151:tm2110733d1_sc14d9.htm",
+      "source_accession": "0001104659-21-042151",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "2021",
+      "passage": "Offer.\nExpiration Date of the U.S.\nOffer\np.m., New York City time on \u2007\u2007\u2007\u2007\u2007\u2007\u2007\u2007 \u2007\u2007, 2021 (the \u201cExpiration Date\u201d).\nProration\nIn no event will Enel purchase more than 7,608,631,104 Shares (including Shares represented by ADSs) in total in the Offers.",
+      "method": "gliner",
+      "confidence": 0.8338810205459595,
+      "rank_score": 1.1638810205459595,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        3996,
+        4000
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "calendar_date",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "US$60,000",
+      "passage": "The intercompany services contracts are valid for five\u00a0years, with renewable terms as of January\u00a01, 2017.\nTo the knowledge of Enel, there were no transactions of any executive officer, director or affiliate of Enel Am\u00e9ricas that is a natural person with Enel having an aggregate value as a single transaction or series of similar transactions that exceeds US$60,000.\nWith regard to the appointment of directors of Enel Am\u00e9ricas, Enel proposes directors which are then elected in the Ordinary Shareholder Meeting of Enel Am\u00e9ricas.",
+      "method": "gliner",
+      "confidence": 0.5079203248023987,
+      "rank_score": 1.1579203248023986,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        512,
+        521
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "US$ 1,495\u00a0million",
+      "passage": "Certain Effects of the Offers\n\u200b\nWe expect that Ch$1,065\u00a0billion, or approximately US$ 1,495\u00a0million, will be required to purchase the Shares and ADSs in the U.S.",
+      "method": "gliner",
+      "confidence": 0.4815816879272461,
+      "rank_score": 1.131581687927246,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        422,
+        439
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "US$7.79",
+      "passage": "\u200b\nThe most recent closing price of Enel Am\u00e9ricas Shares and ADSs as of February\u00a019, 2021 was Ch$112.01 per Share and US$7.79 per ADS, which is below the Tender Offer Price.\nAs of February\u00a019, 2021, there are 76,086,311,036 issued and outstanding Shares (including 2,560,377,050 Shares underlying 51,207,541 issued and outstanding ADSs).\n3.\nCertain Effects of the Offers\n\u200b\nWe expect that Ch$1,065\u00a0billion, or approximately US$ 1,495\u00a0million, will be required to purchase the Shares and ADSs in the U.S.",
+      "method": "gliner",
+      "confidence": 0.48028257489204407,
+      "rank_score": 1.130282574892044,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        117,
+        124
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "February\u00a01, 2021",
+      "passage": "Pursuant to relevant Chilean laws and regulations and in accordance with the terms and conditions approved at the ESM, Enel Am\u00e9ricas currently expects to pay the purchase price of such Shares from the date on which the Merger is effective upon the shareholders\u2019 delivery of the Shares to DCV Registros.\nOn February\u00a01, 2021, the Cross-Border Merger was completed and EGP Am\u00e9ricas acquired all of the assets and liabilities of Enel Rinnovabili, including the non-conventional renewable energy generation businesses and ownership interests that EGP previously held in Argentina, Brazil, Colombia, Costa Rica, Guatemala, Panama, and Peru.",
+      "method": "gliner",
+      "confidence": 0.6790130734443665,
+      "rank_score": 1.1290130734443664,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3228,
+        3244
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Citibank N.A.",
+      "passage": "Offer is:\nCitibank N.A.\n\u200b\nBy Mail:\n\u200b\n\u200b\nBy Overnight Delivery:\n\u200b\n\u200b\nCitibank, N.A.",
+      "method": "gliner",
+      "confidence": 0.8205398917198181,
+      "rank_score": 1.1205398917198182,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        8012,
+        8025
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "approximately US$1,495\u00a0million",
+      "passage": "Enel is not subject to the informational requirements of the SEC or the CMF .\n11.\nSource and Amount of Funds.\n\u200b\nFunding\nWe expect that approximately US$1,495\u00a0million will be required to purchase the Shares and ADSs tendered in the U.S. Offer, if the U.S. Offer is fully subscribed at the Tender Offer Price of Ch$140 per\n38\nTABLE OF CONTENTS",
+      "method": "gliner",
+      "confidence": 0.467072457075119,
+      "rank_score": 1.117072457075119,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4289,
+        4319
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Citibank, N.A.",
+      "passage": "Share Tender Agent and Citibank, N.A. to act as ADS Tender Agent in connection with the U.S. Offer. The Information Agent may contact holders of Shares or ADSs by mail, facsimile and personal\n40\nTABLE OF CONTENTS",
+      "method": "gliner",
+      "confidence": 0.8168579936027527,
+      "rank_score": 1.1168579936027527,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        5080,
+        5094
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a01, 2017",
+      "passage": "\u200b\nprices if there is a comparable reference service. If there are no similar services in the market, they are provided at cost plus a specified\u00a0percentage. The intercompany services contracts are valid for five\u00a0years, with renewable terms as of January\u00a01, 2017.",
+      "method": "gliner",
+      "confidence": 0.46059730648994446,
+      "rank_score": 1.1105973064899444,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        245,
+        260
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "ENIA",
+      "passage": "You should obtain current market quotations for the Shares before deciding whether to tender your Shares.\nPrice Range of ADSs\nThe Enel Am\u00e9ricas\u2019 ADSs are listed and traded on the NYSE under the symbol \u201cENIA.\u201d The NYSE is the principal trading market for ADSs.",
+      "method": "gliner",
+      "confidence": 0.754266619682312,
+      "rank_score": 1.104266619682312,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        629,
+        633
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Enel S.p.A.",
+      "passage": "r offer: \u2610\nIf applicable, check the appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\u00a013e-4(i) (Cross-Border Issuer Tender Offer)\n\u200b\n\u2612\nRule\u00a014d-1(d) (Cross-Border Third-Party Tender Offer)\n\u200b\n\u200b\n\u200b\n\u200b\nAs permitted by General Instruction G to Schedule\u00a0TO, this Schedule\u00a0TO is also amendment no.\u00a017 to the statement on Schedule\u00a013D, as amended, initially filed by Enel S.p.A. on November\u00a03, 2014 and last amended on December\u00a021, 2020 (the \u201cSchedule\u00a013D\u201d).",
+      "method": "gliner",
+      "confidence": 0.8916568756103516,
+      "rank_score": 1.0916568756103515,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3470,
+        3481
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a029, 2021",
+      "passage": "Enel Am\u00e9ricas paid interim dividends of approximately Ch$0.686 per share on January\u00a029, 2021 to holders of record of Shares on January\u00a023, 2021 and interim dividends of approximately US$0.048 per ADS (each ADS representing 50 common shares) on January\u00a029, 2021 to holders of record of ADSs on January\u00a023, 2021 in respect of fiscal year 2020.\n8.\nEffect of Not Tendering Shares or ADSs\n\u200b\nThe Offers are not conditioned on a minimum number of Shares or ADSs having been tendered.",
+      "method": "gliner",
+      "confidence": 0.42218533158302307,
+      "rank_score": 1.072185331583023,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2751,
+        2767
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a023, 2021",
+      "passage": "Enel Am\u00e9ricas paid interim dividends of approximately Ch$0.686 per share on January\u00a029, 2021 to holders of record of Shares on January\u00a023, 2021 and interim dividends of approximately US$0.048 per ADS (each ADS representing 50 common shares) on January\u00a029, 2021 to holders of record of ADSs on January\u00a023, 2021 in respect of fiscal year 2020.\n8.\nEffect of Not Tendering Shares or ADSs\n\u200b\nThe Offers are not conditioned on a minimum number of Shares or ADSs having been tendered.",
+      "method": "gliner",
+      "confidence": 0.41548076272010803,
+      "rank_score": 1.065480762720108,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2800,
+        2816
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP No.\n29274F104",
+      "passage": "References to \u201cItem\u00a05\u201d in the tables below refer to \u201cItem\u00a05\u201d of Schedule\u00a013D.\n\u200b\n\u200b\nCUSIP No.\n29274F104\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\n\u200b\nNAMES OF REPORTING PERSONS\nI.R.S.",
+      "method": "gliner",
+      "confidence": 0.8021878004074097,
+      "rank_score": 1.0521878004074097,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3644,
+        3663
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "cusip_code",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "December\u00a018, 2020",
+      "passage": "The tender offer was designed to allow shareholders to participate in the Merger but receive cash for a portion of their ownership interest in Enel Am\u00e9ricas, at a fixed cash value higher than the price of Ch$109.79 per share offered under Chilean law to dissenting shareholders who exercised their withdrawal rights in connection with the Merger.\nOn December\u00a018, 2020, the ESM was held and the Enel Am\u00e9ricas shareholders approved the Merger (with a merger exchange ratio of 0.41 Enel Am\u00e9ricas shares for each EGP Am\u00e9ricas share), the Merger as an RPT and the Bylaw Amendment.\nOn January\u00a017, 2021, the period for Enel Am\u00e9ricas shareholders to exercise their statutory merger dissenters\u2019 withdrawal rights in connection with the Merger expired.",
+      "method": "gliner",
+      "confidence": 0.4368205666542053,
+      "rank_score": 1.0368205666542052,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2327,
+        2344
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Enel Am\u00e9ricas S.A.",
+      "passage": "tm217453-1_sctot - none - 1.6875079s\n\u200b\n\u200b\n\u200b\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n\u200b\nSCHEDULE TO\n(Rule\u00a014d-100)\n\u200b\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(3)\nof the Securities Exchange Act of 1934\nEnel Am\u00e9ricas S.A.\n(Name of Subject Company (Issuer))\n\u200b\nEnel S.p.A.",
+      "method": "gliner",
+      "confidence": 0.81438148021698,
+      "rank_score": 1.01438148021698,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        243,
+        261
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Chilean peso amounts",
+      "passage": "dollars, Chilean peso amounts will be converted to U.S.",
+      "method": "gliner",
+      "confidence": 0.6784934401512146,
+      "rank_score": 1.0084934401512147,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        3025,
+        3045
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "money_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Enel Am\u00e9ricas",
+      "passage": "However, the Board of Directors of Enel Am\u00e9ricas intends to take action at the time of the formal commencement of the U.S.",
+      "method": "gliner",
+      "confidence": 0.9069085121154785,
+      "rank_score": 1.0069085121154786,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        5119,
+        5132
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "US$",
+      "passage": "Share Tender Agent\n\u200b\n\u200b\nUS$\n\u200b\n\u200b\nInformation Agent\n\u200b\n\u200b\nUS$\n\u200b\n\u200b\nLegal Fees and Related Expenses\n\u200b\n\u200b\nUS$\n\u200b\n\u200b\nFiling Fees and Related Fees\n\u200b\n\u200b\nUS$161,458\n\u200b\n\u200b\nPrinting, Mailing and Distribution Expenses\n\u200b\n\u200b\nUS$\n\u200b\n\u200b\nMiscellaneous\n\u200b\n\u200b\nUS$\n\u200b\n\u200b\nTotal\n\u200b\n\u200b\nUS$\n\u200b\nWe will not pay any fees or commissions to brokers, dealers or other persons (other than fees to the Information Agent as described above) for soliciting tenders of Shares or",
+      "method": "gliner",
+      "confidence": 0.885113000869751,
+      "rank_score": 0.985113000869751,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        709,
+        712
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "February\u00a03, 2021",
+      "passage": "On February\u00a03, 2021, Enel Am\u00e9ricas submitted the filing to the National Superintendency of Customs and Tax Administration (\nSuperintendencia Nacional de Aduanas y de Administraci\u00f3n Tributaria\n) in Peru (\u201cSUNAT\u201d) that will certify the cost of its interest in EGP Am\u00e9ricas, which is required as a condition to effectiveness of the Merger.",
+      "method": "gliner",
+      "confidence": 0.5230462551116943,
+      "rank_score": 0.9730462551116943,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3560,
+        3576
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "McKinsey & Company",
+      "passage": "\u200b\n\u2022\nDirector Emeritus of McKinsey & Company (consulting firm)\n(2020\u2009\u2013\u2009Present).",
+      "method": "gliner",
+      "confidence": 0.6514315605163574,
+      "rank_score": 0.9514315605163575,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4076,
+        4094
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S. dollars",
+      "passage": "dollars, Chilean peso amounts will be converted to U.S. dollars based upon the Observed Exchange Rate published by the Central Bank of Chile for the business day prior to the date of settlement of the Offers.\nADS Offer Price\nCh$7,000 per ADS in cash, without any interest, payable in U.S.",
+      "method": "gliner",
+      "confidence": 0.8829330205917358,
+      "rank_score": 0.9329330205917359,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        3067,
+        3079
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "currency_code",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Encourage Capital LLC",
+      "passage": "\u200b\n\u200b\nA-1\nTABLE OF CONTENTS\nName and Citizenship\n\u200b\n\u200b\nPresent and Material Occupations, Positions, Offices or\nEmployment During the Past Five Years and Addresses\n\u200b\n\u200b\n\u200b\n\u200b\n\u2022\nPartner and Managing Director of Encourage Capital LLC (investment management firm)\n(October\u00a02006\u2009\u2013\u2009Present).\n156 Fifth Avenue, #804, New York, NY, 10010.\n\u200b\n\u2022\nPartner of Encourage Solar Finance LP (private equity firm)\n(2019\u2009\u2013\u2009Present).\n156 Fifth Avenue, #804, New York, NY, 10010.\n\u200b\n\u2022\nDirector of Terna S.p.A.",
+      "method": "gliner",
+      "confidence": 0.6089033484458923,
+      "rank_score": 0.9089033484458924,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2495,
+        2516
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Santiago Stock Exchange",
+      "passage": "Offer.\nThe \u201cChilean Stock Exchanges\u201d \u200b(\nbolsas de valores\n) means, collectively, the Santiago Stock Exchange and the Electronic Stock Exchange in Chile.\nThe U.S.",
+      "method": "gliner",
+      "confidence": 0.8052977323532104,
+      "rank_score": 0.9052977323532104,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2586,
+        2609
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "American Depositary Shares",
+      "passage": "tm217453-1_sctot - none - 1.6875079s\n\u200b\n\u200b\n\u200b\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n\u200b\nSCHEDULE TO\n(Rule\u00a014d-100)\n\u200b\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(3)\nof the Securities Exchange Act of 1934\nEnel Am\u00e9ricas S.A.\n(Name of Subject Company (Issuer))\n\u200b\nEnel S.p.A.\n(Name of Filing Persons (Offeror))\n\u200b\nAmerican Depositary Shares (ADS) Representing\n50 shares of Common Stock, no par value\n(Title of Class of Securities)\n29274F104\n(CUSIP Number of Class of Securities)\n\u200b\nCommon Stock, no par value\n(Title of Class of Securities)\nN/A\n(CUSIP Number of Class of Securities)\n\u200b\nEnel S.p.A.",
+      "method": "gliner",
+      "confidence": 0.503822922706604,
+      "rank_score": 0.9038229227066039,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        348,
+        374
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Enel S.p.A.",
+      "passage": "dollars based upon the Observed Exchange Rate published by the Central Bank of Chile for the business day prior to the date of settlement of the Offers.\nPurchaser\nEnel S.p.A.\nDual Offer Structure\nConcurrently with the U.S.",
+      "method": "gliner",
+      "confidence": 0.7524281740188599,
+      "rank_score": 0.9024281740188599,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        3630,
+        3641
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Enel Am\u00e9ricas",
+      "passage": "Pursuant to relevant Chilean laws and regulations and in accordance with the terms and conditions approved at the ESM, Enel Am\u00e9ricas currently expects to pay the purchase price of such Shares from the date on which the Merger is effective upon the shareholders\u2019 delivery of the Shares to DCV Registros.",
+      "method": "gliner",
+      "confidence": 0.7959541082382202,
+      "rank_score": 0.8959541082382202,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3041,
+        3054
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Offer Administrator",
+      "passage": "(ii)\u00a0\u00a0\u00a0A certificate issued by the Share Department of the Company which is administered by DCV Registros, issued no later than 10\u00a0days from the date of delivery to the Offer Administrator or the relevant participating broker certifying that in its records the shares are not affected by any Encumbrance and therefore the shares may be registered under the name of the Offer Administrator or the relevant participating broker.",
+      "method": "gliner",
+      "confidence": 0.7894412875175476,
+      "rank_score": 0.8894412875175476,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2585,
+        2604
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Eligible Institution",
+      "passage": "Share Tender Agent or the ADS Tender Agent, as applicable, a signed notice of tender withdrawal (with such signature guaranteed by an Eligible Institution in the case of ADSs except for ADSs tendered by an Eligible Institution) must be submitted prior to the release of such Shares or ADSs.",
+      "method": "gliner",
+      "confidence": 0.7541468143463135,
+      "rank_score": 0.8541468143463135,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1701,
+        1721
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "U.S. Holders",
+      "passage": "federal income tax consequences to U.S. Holders, as defined below, of the tender of their Shares, or to U.S.",
+      "method": "gliner",
+      "confidence": 0.7483379244804382,
+      "rank_score": 0.8483379244804382,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4086,
+        4098
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares represented by ADSs",
+      "passage": "We have included references to the sections of this Offer to Purchase where you will find a more complete description of the topics addressed in this summary term sheet.\nSecurities Sought\nUp to 7,608,631,104 of the Shares of Enel Am\u00e9ricas (including Shares represented by ADSs), each representing 50 Shares of Enel Am\u00e9ricas), from holders of Shares resident in the United States and holders of ADSs wherever located.",
+      "method": "gliner",
+      "confidence": 0.7895114421844482,
+      "rank_score": 0.8395114421844483,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        2544,
+        2570
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Enel Am\u00e9ricas S.A.",
+      "passage": "tm217453-4_sctota_DIV_11-exa1b - none - 2.062501s\n\u200b\nExhibit (a)(1)(B)\n\u200b\nTHIS DOCUMENT IS IMPORTANT AND REQUIRES YOUR IMMEDIATE ATTENTION. If you are in any doubt about what action to take, you should immediately consult your stockbroker, bank manager, lawyer, accountant or other professional or investment advisor.\nIf you have sold all your shares of common stock in Enel Am\u00e9ricas S.A. (\u201cEnel Am\u00e9ricas\u201d), please send this Form of Acceptance together with the accompanying documents as soon as possible to the purchaser or to the stockbroker, bank or other agent through whom the sale was effected for transmission to the purchaser.\nThis document should be read in conjunction with the Offer to Purchase dated March\u00a015, 2021 (the \u201cOffer to Purchase\u201d).",
+      "method": "gliner",
+      "confidence": 0.7356642484664917,
+      "rank_score": 0.8356642484664917,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        368,
+        386
+      ],
+      "source_hit_id": "0001104659-21-036065:tm217453-4_exa1b.htm",
+      "source_accession": "0001104659-21-036065",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "ENELAM",
+      "passage": "Offer.\n7.\nPrice Range of Shares and ADSs; Dividends\n\u200b\nPrice Range of Shares\nThe Shares are listed and traded on the Chilean Stock Exchanges under the symbol \u201cENELAM.\u201d The Chilean Stock Exchanges are the principal trading market for shares not represented by ADSs.",
+      "method": "gliner",
+      "confidence": 0.8300063014030457,
+      "rank_score": 0.8300063014030457,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3329,
+        3335
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "proration",
+      "passage": "If more than 7,608,631,104 Shares (including Shares represented by ADSs) are tendered in the Offers, Shares and ADSs properly and timely tendered in the Offers and not properly withdrawn will be subject to proration as described in \u201cThe U.S.",
+      "method": "gliner",
+      "confidence": 0.8213578462600708,
+      "rank_score": 0.8213578462600708,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2112,
+        2121
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "proration_terms",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number of Class of Securities",
+      "passage": "20549\n\u200b\nSCHEDULE TO\n(Rule\u00a014d-100)\n\u200b\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(3)\nof the Securities Exchange Act of 1934\nEnel Am\u00e9ricas S.A.\n(Name of Subject Company (Issuer))\n\u200b\nEnel S.p.A.\n(Name of Filing Persons (Offeror))\n\u200b\nAmerican Depositary Shares (ADS) Representing\n50 shares of Common Stock, no par value\n(Title of Class of Securities)\n29274F104\n(CUSIP Number of Class of Securities)\n\u200b\nCommon Stock, no par value\n(Title of Class of Securities)\nN/A\n(CUSIP Number of Class of Securities)\n\u200b\nEnel S.p.A.\nViale Regina Margherita 137\n00198 Rome\nItaly\nAttn: Fabio Bonomo\nHead of Corporate Affairs\nTel: +39 06 8305 2081\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\n\u200b\nWith copies to:\nJ.",
+      "method": "gliner",
+      "confidence": 0.5698704719543457,
+      "rank_score": 0.8198704719543457,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        476,
+        511
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Book-Entry Transfer Facility",
+      "passage": "ADSs tendered by the book-entry transfer may be withdrawn only by means of the tender withdrawal procedures made available by the Book-Entry Transfer Facility and must comply with the Book-Entry Transfer Facility\u2019s procedures.",
+      "method": "gliner",
+      "confidence": 0.7141810655593872,
+      "rank_score": 0.8141810655593872,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2484,
+        2512
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "EGP",
+      "passage": "The transaction was structured so that the Merger would be subject to the condition that the effectiveness of the following had occurred:\n\u2022\nthe separation of the non-conventional renewable energy generation businesses of EGP in Argentina, Brazil, Colombia, Costa Rica, Guatemala, Panama, and Peru through the transfer of the ownership interests that EGP held to a newly created Italian entity, Enel Rinnovabili Srl (\u201cEnel Rinnovabili\u201d), and the subsequent distribution of the shares of Enel Rinnovabili to Enel, EGP\u2019s sole shareholder (the \u201cSpin-Off\u201d); and\n\u200b\n\u2022\nthe merger of Enel Rinnovabili with and into EGP Am\u00e9ricas (the \u201cCross-Border Merger\u201d).",
+      "method": "gliner",
+      "confidence": 0.4629087746143341,
+      "rank_score": 0.8129087746143341,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2773,
+        2776
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "p.m.",
+      "passage": "Offer will expire at\u2007\u2007\u2007\u2007\u2007\u2007p.m., New York City time, on\u2007\u2007\u2007\u2007\u2007\u2007\u2007\u2007 \u2007\u2007, 2021, or such later time and date to which we may extend the U.S.",
+      "method": "gliner",
+      "confidence": 0.6027299761772156,
+      "rank_score": 0.8027299761772155,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2328,
+        2332
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "U.S. Internal Revenue Service",
+      "passage": "Holder does not provide its correct TIN or fails to provide the certifications described above, the U.S. Internal Revenue Service may impose a penalty on the holder, and any payment made to the holder pursuant to the U.S.",
+      "method": "gliner",
+      "confidence": 0.6844438314437866,
+      "rank_score": 0.7844438314437866,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1556,
+        1585
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "EGP Am\u00e9ricas",
+      "passage": "Pursuant to relevant Chilean laws and regulations and in accordance with the terms and conditions approved at the ESM, Enel Am\u00e9ricas currently expects to pay the purchase price of such Shares from the date on which the Merger is effective upon the shareholders\u2019 delivery of the Shares to DCV Registros.\nOn February\u00a01, 2021, the Cross-Border Merger was completed and EGP Am\u00e9ricas acquired all of the assets and liabilities of Enel Rinnovabili, including the non-conventional renewable energy generation businesses and ownership interests that EGP previously held in Argentina, Brazil, Colombia, Costa Rica, Guatemala, Panama, and Peru.",
+      "method": "gliner",
+      "confidence": 0.6735520362854004,
+      "rank_score": 0.7735520362854004,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3288,
+        3300
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S dollars",
+      "passage": "Offer\u201d.\nTender Offer Price\nThe Tender Offer Price is Ch$140 per Share or Ch$7,000 per ADS, in cash, payable in U.S dollars, without any interest and less any applicable withholding taxes and distribution fees, properly tendered pursuant to the U.S.",
+      "method": "gliner",
+      "confidence": 0.7718942761421204,
+      "rank_score": 0.7718942761421204,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2961,
+        2972
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "currency_code",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "business day prior to the date of settlement of the Offers",
+      "passage": "dollars based upon the Observed Exchange Rate published by the Central Bank of Chile for the business day prior to the date of settlement of the Offers.\nPurchaser\nEnel S.p.A.\nDual Offer Structure\nConcurrently with the U.S.",
+      "method": "gliner",
+      "confidence": 0.4090186655521393,
+      "rank_score": 0.7390186655521394,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        3560,
+        3618
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "calendar_date",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "Chilean peso",
+      "passage": "dollars, Chilean peso amounts will be converted to U.S.",
+      "method": "gliner",
+      "confidence": 0.6761978268623352,
+      "rank_score": 0.7261978268623352,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        3025,
+        3037
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "currency_code",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "isin",
+      "raw": "SUNAT",
+      "passage": "The filing is currently pending SUNAT review.\n2.\nPurpose of and Reasons for the Offers.\n\u200b\nNone of Enel, the Board of Directors of Enel, Georgeson LLC (the \u201cInformation Agent\u201d), the U.S.",
+      "method": "gliner",
+      "confidence": 0.7055132389068604,
+      "rank_score": 0.7055132389068604,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3926,
+        3931
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "isin_code",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "ADSs",
+      "passage": "holder\u201d), you will not be permitted to tender your Shares (including Shares withdrawn from ADSs) in the U.S.",
+      "method": "gliner",
+      "confidence": 0.6502360105514526,
+      "rank_score": 0.7002360105514527,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        11362,
+        11366
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "renewable terms",
+      "passage": "\u200b\nprices if there is a comparable reference service. If there are no similar services in the market, they are provided at cost plus a specified\u00a0percentage. The intercompany services contracts are valid for five\u00a0years, with renewable terms as of January\u00a01, 2017.",
+      "method": "gliner",
+      "confidence": 0.6916293501853943,
+      "rank_score": 0.6916293501853943,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        223,
+        238
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "proration_terms",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Enel Rinnovabili",
+      "passage": "On February\u00a01, 2021, the Cross-Border Merger was completed and EGP Am\u00e9ricas acquired all of the assets and liabilities of Enel Rinnovabili, including the non-conventional renewable energy generation businesses and ownership interests that EGP previously held in Argentina, Brazil, Colombia, Costa Rica, Guatemala, Panama, and Peru.",
+      "method": "gliner",
+      "confidence": 0.5869686007499695,
+      "rank_score": 0.6869686007499695,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3347,
+        3363
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares or ADSs",
+      "passage": "If you do not tender your Shares or ADSs, you will continue to own your Shares or ADSs, as applicable, and will retain your rights thereunder.",
+      "method": "gliner",
+      "confidence": 0.6826109886169434,
+      "rank_score": 0.6826109886169434,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3181,
+        3195
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "DCV Registros",
+      "passage": "Pursuant to relevant Chilean laws and regulations and in accordance with the terms and conditions approved at the ESM, Enel Am\u00e9ricas currently expects to pay the purchase price of such Shares from the date on which the Merger is effective upon the shareholders\u2019 delivery of the Shares to DCV Registros.",
+      "method": "gliner",
+      "confidence": 0.5755887627601624,
+      "rank_score": 0.6755887627601623,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3210,
+        3223
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares or ADSs",
+      "passage": "Our reservation of the right to delay payment for Shares or ADSs which we have accepted for payment is limited by the Tier II exemption under Rule\u00a014d-1(d), which requires that we must pay the consideration offered or return the Shares or ADSs tendered promptly after termination or withdrawal of a tender offer.",
+      "method": "gliner",
+      "confidence": 0.6721210479736328,
+      "rank_score": 0.6721210479736328,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1986,
+        2000
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Inversiones Santa Ver\u00f3nica Limitada",
+      "passage": "In addition, Hern\u00e1n Somerville\u00a0S., a director of Enel Am\u00e9ricas, is the controlling shareholder of\nInversiones Santa Ver\u00f3nica Limitada\n, a Chilean entity that currently holds 6,689,400 Shares.",
+      "method": "gliner",
+      "confidence": 0.5711458921432495,
+      "rank_score": 0.6711458921432495,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1882,
+        1917
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Commercial Banks",
+      "passage": "\u200b\n\u200b\n(a)(1)(E)*\n\u200b\n\u200b\nForm of Shares Letter to Brokers, Dealers, Commercial Banks, Trust Companies and Other Nominees.\n\u200b\n\u200b\n(a)(1)(F)*\n\u200b\n\u200b\nForm of ADS Letter to Clients.\n\u200b\n\u200b\n(a)(1)(G)*\n\u200b\n\u200b\nForm of Shares Letter to Clients.\n\u200b\n\u200b\n(a)(1)(H)*\n\u200b\n\u200b\nEnglish Translation of Chilean Prospectus (\nProspecto\n).\n\u200b\n\u200b\n(a)(1)(I)*\n\u200b\n\u200b\nSummary Advertisement Published on \u2007\u2007\u2007\u2007\u2007\u2007\u2007\u2007 \u2007\u2007, 2021.\n\u200b\n\u200b\n*\nTo be filed by amendment.\n\u200b",
+      "method": "gliner",
+      "confidence": 0.555573582649231,
+      "rank_score": 0.6555735826492309,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        16821,
+        16837
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Trust Companies",
+      "passage": "\u200b\n\u200b\n(a)(1)(E)*\n\u200b\n\u200b\nForm of Shares Letter to Brokers, Dealers, Commercial Banks, Trust Companies and Other Nominees.\n\u200b\n\u200b\n(a)(1)(F)*\n\u200b\n\u200b\nForm of ADS Letter to Clients.\n\u200b\n\u200b\n(a)(1)(G)*\n\u200b\n\u200b\nForm of Shares Letter to Clients.\n\u200b\n\u200b\n(a)(1)(H)*\n\u200b\n\u200b\nEnglish Translation of Chilean Prospectus (\nProspecto\n).\n\u200b\n\u200b\n(a)(1)(I)*\n\u200b\n\u200b\nSummary Advertisement Published on \u2007\u2007\u2007\u2007\u2007\u2007\u2007\u2007 \u2007\u2007, 2021.\n\u200b\n\u200b\n*\nTo be filed by amendment.\n\u200b",
+      "method": "gliner",
+      "confidence": 0.5348606109619141,
+      "rank_score": 0.634860610961914,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        16839,
+        16854
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "U.S. Share Tender Agent",
+      "passage": "Tender Withdrawal Rights\u201d otherwise provides, tenders of Shares or ADSs are irrevocable.\nFor a tender withdrawal to be effective, a written or facsimile transmission notice of tender withdrawal must be timely received by the U.S. Share Tender Agent or the ADS Tender Agent, as applicable, at one of their respective addresses set forth on the back cover of this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.5340909361839294,
+      "rank_score": 0.6340909361839294,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        990,
+        1013
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Book-Entry Transfer Facility",
+      "passage": "The term \u201cAgent\u2019s Message\u201d means a message, transmitted by the Book-Entry Transfer Facility (as defined below) to and received by the ADS Tender Agent and forming a part of a book-entry confirmation which states that the Book-Entry Transfer Facility has received an express acknowledgment from the participant tendering the ADSs which are the subject of such book-entry confirmation that such participant has received and agrees to be bound by the terms of the ADS Letter of Transmittal and that Enel may enforce such agreement against such participant.",
+      "method": "gliner",
+      "confidence": 0.5229049324989319,
+      "rank_score": 0.6229049324989319,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4957,
+        4985
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "expiration date",
+      "passage": "Offer is the same as the expiration date of the Chilean Offer to the extent that it is extended in accordance with Chilean law.\nIf you are not a U.S.",
+      "method": "gliner",
+      "confidence": 0.8347023129463196,
+      "rank_score": 0.6147023129463196,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        11107,
+        11122
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "expiration_datetime",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "Chilean pesos",
+      "passage": "The following table sets forth, for the periods indicated, the quarterly high and low closing prices of the common stock in Chilean pesos as reported by the Chilean Stock Exchanges.",
+      "method": "gliner",
+      "confidence": 0.8778272867202759,
+      "rank_score": 0.5778272867202758,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3559,
+        3572
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "currency_code",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares and ADSs",
+      "passage": "dollars, without any interest and less any applicable withholding taxes or distribution fees).\nUpon consummation of the Offers, holders of Shares and ADSs that are purchased pursuant to the Offers will either no longer have an interest or have a reduced interest in Enel Am\u00e9ricas, as the case may be, and a corresponding decreased opportunity to participate in the future earnings, profits and growth of Enel Am\u00e9ricas and to vote on Enel Am\u00e9ricas\u2019 corporate matters.",
+      "method": "gliner",
+      "confidence": 0.5739771723747253,
+      "rank_score": 0.5739771723747253,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        837,
+        852
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "at their option",
+      "passage": "Holders who hold Shares may, at their option, tender their Shares into the Chilean Offer instead of the U.S.",
+      "method": "gliner",
+      "confidence": 0.5518450736999512,
+      "rank_score": 0.5518450736999512,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2956,
+        2971
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S. dollar",
+      "passage": "federal income tax purposes is not the U.S. dollar, partnerships or other entities classified as partnerships for U.S.",
+      "method": "gliner",
+      "confidence": 0.5275964140892029,
+      "rank_score": 0.5275964140892029,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        5234,
+        5245
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "currency_code",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "American Depository Shares",
+      "passage": "20549\nSCHEDULE 14D-9\n(Rule\u00a014d-101)\nSOLICITATION/RECOMMENDATION STATEMENT\nUNDER SECTION\u00a014(D)(4)\u00a0OF THE SECURITIES\nEXCHANGE ACT OF 1934\nEnel Am\u00e9ricas S.A.\n(Name of Subject Company)\nEnel Am\u00e9ricas S.A.\nFrancisco de Borja Acha B.\nDomingo Cruzat A.\nPatricio G\u00f3mez S.\nHern\u00e1n Somerville S.\nJos\u00e9 Antonio Vargas L.\nEnrico Viale\n(Name of Person Filing Statement)\nAmerican Depository Shares (ADS) each representing\n50 shares of Common Stock, no par value\n(Title of Class\u00a0of Securities)\n29274F104\n(CUSIP Number of Class\u00a0of Securities)\nCommon Stock, no par value\n(Title of Class\u00a0of Securities)\nN/A\n(CUSIP Number of Class\u00a0of Securities)\nAurelio Bustilho\nEnel Am\u00e9ricas S.A.",
+      "method": "gliner",
+      "confidence": 0.5213937759399414,
+      "rank_score": 0.5213937759399414,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        420,
+        446
+      ],
+      "source_hit_id": "0001104659-21-042151:tm2110733d1_sc14d9.htm",
+      "source_accession": "0001104659-21-042151",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "T\u00edtulo",
+      "passage": "This transfer is intended to fulfill a mandate.\n\u200b\n\u200b\nFOR INTERNAL USE OF THE COMPANY\n\u200b\n\u200b\n\u200b\n\u200b\nCANCELLED\u2009\u2014\u2009PAID\n\u200b\n\u200b\n\u200b\nISSUED\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nT\u00edtulo\n(shares certificate) No.\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nfor\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nshares\n\u200b\n\u200b\n\u200b\n\u200b\nT\u00edtulo\n(share certificate) No.\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nfor\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\n\u200b\nshares\n\u200b\n\u200b\n\u200b\n18",
+      "method": "gliner",
+      "confidence": 0.5158023834228516,
+      "rank_score": 0.5158023834228516,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        31190,
+        31196
+      ],
+      "source_hit_id": "0001104659-21-036065:tm217453-4_exa1b.htm",
+      "source_accession": "0001104659-21-036065",
+      "label": "security_name",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "t\u00edtulo(s)",
+      "passage": "Share Tender Agent at the address set forth on the back cover of this Offer to Purchase:\n(a)\u00a0\u00a0\u00a0original\nt\u00edtulo(s)\n(share certificates) evidencing ownership of Shares, if the\nt\u00edtulo(s)\nof the Shares are held by you, or a certificate from the share department of Enel Am\u00e9ricas which is administered by DCV Registros, evidencing that the\nt\u00edtulo(s)\nare held at the share department of Enel Am\u00e9ricas;\n(b)\u00a0\u00a0\u00a0a certificate from the share department of Enel Am\u00e9ricas which is administered by DCV Registros, issued no later than ten days prior to the deliver to the U.S.",
+      "method": "gliner",
+      "confidence": 0.5031348466873169,
+      "rank_score": 0.5031348466873169,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2989,
+        2998
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares and ADSs",
+      "passage": "Offer\u2009\u2014\u2009Holders of ADSs.\u201d Under no circumstances will interest be paid by Enel on the purchase price paid for Shares and ADSs pursuant to the U.S.",
+      "method": "gliner",
+      "confidence": 0.4891068637371063,
+      "rank_score": 0.4891068637371063,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        859,
+        874
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "EGP Am\u00e9ricas",
+      "passage": "On February\u00a03, 2021, Enel Am\u00e9ricas submitted the filing to the National Superintendency of Customs and Tax Administration (\nSuperintendencia Nacional de Aduanas y de Administraci\u00f3n Tributaria\n) in Peru (\u201cSUNAT\u201d) that will certify the cost of its interest in EGP Am\u00e9ricas, which is required as a condition to effectiveness of the Merger.",
+      "method": "gliner",
+      "confidence": 0.4848804473876953,
+      "rank_score": 0.4848804473876953,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3815,
+        3827
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "minimum period",
+      "passage": "The minimum period during which an offer must remain open following material changes in the terms of the offer or information concerning the offer, other than a change in price or a change in\u00a0percentage of securities sought, will depend upon the facts and circumstances, including the relative materiality of the terms or information changes.",
+      "method": "gliner",
+      "confidence": 0.46912267804145813,
+      "rank_score": 0.46912267804145813,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        512,
+        526
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S.",
+      "passage": "Furthermore, it is possible that, due to requirements of applicable law or market practice, holders of Shares tendering in the Chilean Offer will be paid either before or after holders tendering Shares and/or ADSs in the U.S. Offer, although the price paid per share will be the same.",
+      "method": "gliner",
+      "confidence": 0.46289125084877014,
+      "rank_score": 0.46289125084877014,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        843,
+        847
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "proration factor",
+      "passage": "As an example, if the proration factor would result in a tendering holder of Shares selling 9.5 Shares and a tendering ADS holder selling ADSs representing 99.5\u00a0Shares, application of the rounding convention would mean that Enel would purchase 9 Shares from the holder of Shares and an ADS representing 50 Shares from the ADS holder.",
+      "method": "gliner",
+      "confidence": 0.45880740880966187,
+      "rank_score": 0.45880740880966187,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        7535,
+        7551
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "proration_terms",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Kraftvaerksvej 53",
+      "passage": "Kraftvaerksvej 53, DK-7000 Fredericia.",
+      "method": "gliner",
+      "confidence": 0.44962674379348755,
+      "rank_score": 0.44962674379348755,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3933,
+        3950
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Enel",
+      "passage": "holders of Shares and/or all holders of ADSs wherever located because (i)\u00a0immediately prior to the Merger and Offers, Enel Am\u00e9ricas is controlled by its majority shareholder, Enel, which holds 65% of Enel Am\u00e9ricas Shares and thus possesses control over Enel Am\u00e9ricas and (ii)\u00a0immediately following the consummation of the Merger and the Offers, if completed at the maximum amount, Enel Am\u00e9ricas will remain controlled by its majority shareholder, Enel, whose ownership\u00a0percentage of Enel Am\u00e9ricas will be approximately 82.2% and thus Enel will continue to have control over Enel Am\u00e9ricas.",
+      "method": "gliner",
+      "confidence": 0.6891733407974243,
+      "rank_score": 0.4391733407974243,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2865,
+        2869
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "target_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Enel Am\u00e9ricas",
+      "passage": "\u200b\nTransactions between Enel and Enel Am\u00e9ricas or any of its Affiliates\nIn May\u00a02020, Enel Am\u00e9ricas entered into a revolving credit agreement with Enel Finance International N.V.",
+      "method": "gliner",
+      "confidence": 0.4228198230266571,
+      "rank_score": 0.4228198230266571,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2746,
+        2759
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ENEL S.P.A.",
+      "passage": "\u200b\nANNEX A: DIRECTORS AND EXECUTIVE OFFICERS OF ENEL S.P.A. AND DIRECTORS OF ENEL AM\u00c9RICAS S.A.\nThe following tables sets forth certain information regarding each director and executive officer of Enel S.p.A.",
+      "method": "gliner",
+      "confidence": 0.4063948690891266,
+      "rank_score": 0.4063948690891266,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        47,
+        58
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "However, such holders may tender their Shares in the Chilean Offer.",
+      "method": "gliner",
+      "confidence": 0.8914082646369934,
+      "rank_score": 0.39140826463699335,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n\u200b\n\u200b\n\u200b\n\u200b\n1\n\u200b\n\u200b\nQUESTIO",
+      "faq_question": null,
+      "char_span": [
+        4942,
+        4948
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "United States dollars",
+      "passage": "Offer will, in each case, be paid in United States dollars, with the dollar amount thereof based upon the Observed Exchange Rate published by the Central Bank of Chile for the business day prior to the date of settlement of the Offers.\nIn the event that the price per Share to be paid in the Chilean Offer is increased, Enel will make a corresponding increase to the price paid per Share and ADS in the U.S.",
+      "method": "gliner",
+      "confidence": 0.6836757659912109,
+      "rank_score": 0.38367576599121095,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        3184,
+        3205
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "currency_code",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "target",
+      "raw": "DCV",
+      "passage": "Offer.\u201d\nBook-Entry Transfer\nThe DCV Custodial Account has been established with respect to the Shares at the DCV for purposes of the U.S.",
+      "method": "gliner",
+      "confidence": 0.5639086365699768,
+      "rank_score": 0.3139086365699768,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        5000,
+        5003
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "target",
+      "raw": "U.S.",
+      "passage": "Federal Income Tax Consequences\u201d in this Offer to Purchase for a more complete discussion of certain material U.S. federal income tax consequences of the U.S. Offer.\nThis tax treatment may not apply to all shareholders. Determining the actual tax consequences of the U.S. offer to you can be complex. U.S. Holders are urged to consult their own U.S. tax advisors on the potential U.S. tax consequences of the U.S. Offer.\n20\nTABLE OF CONTENTS",
+      "method": "gliner",
+      "confidence": 0.542131245136261,
+      "rank_score": 0.292131245136261,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2493,
+        2497
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "target_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Name of Filing Persons (Offeror))\n\u200b\nAmerican Depositary Shares (ADS) Representing\n50 shares of Common Stock, no par value\n(Title of Class of Securities)\n29274F104\n(CUSIP Number of Class of Securities)\n\u200b\nCommon Stock, no par value\n(Title of Class of Securities)\nN/A\n(CUSIP Number of Class of Securities)\n\u200b\nEnel S.p.A.\nViale Regina Margherita 137\n00198 Rome\nItaly\nAttn: Fabio Bonomo\nHead of Corporate Affairs\nTel: +39 06 8305 2081\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\n\u200b\nWith copies to:\nJ.",
+      "method": "gliner",
+      "confidence": 0.4052124619483948,
+      "rank_score": 0.10521246194839473,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        578,
+        590
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ADSs",
+      "passage": "Holders, as defined below, of the tender of their ADSs, pursuant to the U.S.",
+      "method": "gliner",
+      "confidence": 0.7965997457504272,
+      "rank_score": 0.09659974575042729,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        4231,
+        4235
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "Enrico Viale\n(Name of Person Filing Statement)\nAmerican Depository Shares (ADS) each representing\n50 shares of Common Stock, no par value\n(Title of Class\u00a0of Securities)\n29274F104\n(CUSIP Number of Class\u00a0of Securities)\nCommon Stock, no par value\n(Title of Class\u00a0of Securities)\nN/A\n(CUSIP Number of Class\u00a0of Securities)\nAurelio Bustilho\nEnel Am\u00e9ricas S.A.",
+      "method": "gliner",
+      "confidence": 0.5118228793144226,
+      "rank_score": -0.03817712068557744,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        590,
+        602
+      ],
+      "source_hit_id": "0001104659-21-042151:tm2110733d1_sc14d9.htm",
+      "source_accession": "0001104659-21-042151",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Share",
+      "passage": "The offering price for the Shares in the tender offer would be Ch$140 per Share and Ch$7,000 per ADS (paid in U.S.",
+      "method": "gliner",
+      "confidence": 0.4453909993171692,
+      "rank_score": -0.10460900068283085,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1549,
+        1554
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Enel",
+      "passage": "\u200b\nANNEX A: DIRECTORS AND EXECUTIVE OFFICERS OF ENEL S.P.A. AND DIRECTORS OF ENEL AM\u00c9RICAS S.A.\nThe following tables sets forth certain information regarding each director and executive officer of Enel S.p.A. (\u201cEnel\u201d) and the directors of Enel Am\u00e9ricas S.A. (\u201cEnel Am\u00e9ricas\u201d).\nTo the best knowledge of Enel, neither Enel nor any of the persons listed in this Annex A has been, during the past five (5)\u00a0years, (i)\u00a0convicted in a criminal proceeding (excluding traffic violations or similar misdemeanors) or (ii)\u00a0a party to any judicial or administrative proceeding during the past five\u00a0years (except for matters that were dismissed without sanction or settlement) that resulted in a judgment, decree or fina",
+      "method": "gliner",
+      "confidence": 0.5688035488128662,
+      "rank_score": -0.13119645118713374,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        301,
+        305
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ADS",
+      "passage": "dollars based upon the Observed Exchange Rate published by the Central Bank of Chile for the business day prior to the date of settlement of the Offers.\nADS Offer Price\nCh$7,000 per ADS in cash, without any interest, payable in U.S.",
+      "method": "gliner",
+      "confidence": 0.5186560153961182,
+      "rank_score": -0.1813439846038818,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        1328,
+        1331
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "Internal Revenue Service.\nEnel\u2019s acceptance for payment of the Shares tendered pursuant to the U.S.",
+      "method": "gliner",
+      "confidence": 0.8516887426376343,
+      "rank_score": -0.44831125736236577,
+      "doc_role": "otp",
+      "section": "\u200b",
+      "faq_question": null,
+      "char_span": [
+        2521,
+        2527
+      ],
+      "source_hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "source_accession": "0001104659-21-026270",
+      "label": "security_name",
+      "chunk_id": "w3"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.843790+00:00"
+}

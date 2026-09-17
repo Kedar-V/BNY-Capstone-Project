@@ -1,0 +1,58 @@
+{
+  "schema_version": "1",
+  "event_id": "005-20723",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "CONTINENTAL MATERIALS CORP",
+  "primary_cik": "0000024104",
+  "written_at": "2026-09-17T06:01:41.474470+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": false,
+  "has_14d9": true,
+  "otp_method": "inferred",
+  "cohort": "gold",
+  "n_amendments": 20,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001047469-20-000910:a2240761zscto-i.htm",
+      "accession": "0001047469-20-000910",
+      "filename": "a2240761zscto-i.htm",
+      "form": "SC TO-I",
+      "file_type": "SC TO-I",
+      "file_description": "SC TO-I",
+      "file_date": "2020-02-18 00:00:00",
+      "primary_cik": "0000024104",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001047469-20-001087:a2240844zex-99_a1v.htm",
+      "accession": "0001047469-20-001087",
+      "filename": "a2240844zex-99_a1v.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(V)",
+      "file_description": "EX-99.(A)(1)(V)",
+      "file_date": "2020-02-27 00:00:00",
+      "primary_cik": "0000024104",
+      "otp_method": "inferred",
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001047469-20-001178:a2240887zsc14d9.htm",
+      "accession": "0001047469-20-001178",
+      "filename": "a2240887zsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2020-03-03 00:00:00",
+      "primary_cik": "0000024104",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

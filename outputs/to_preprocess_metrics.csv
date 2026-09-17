@@ -1,0 +1,8 @@
+path,stage,status,written_at,n_reps_ok,n_reps_failed,n_candidate_facts,n_entities,pct_method_gliner,n_events_pending,n_docs_cleaned,n_empty_text,n_failed,n_skipped_cached,n_docs_attempted,n_ok,n_http_error,n_empty,n_events_ok,n_segments_scored,n_spans,n_pass2_events,gliner_unavailable,gliner_model,n_events,n_gold,n_needs_otp_resolve,n_incomplete,otp_method_mix,coverage_csv,n_reps_upserted,n_facts_inserted,n_entities_inserted,n_events_segmented,n_otp_toc_docs,n_otp_faq_only_docs,n_fallback_full_doc
+tender,assemble,ok,2026-09-17T07:36:16.845655+00:00,27.0,0.0,2005.0,2005.0,100.0,27.0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+tender,cleanup,ok,2026-09-17T07:22:45.894338+00:00,,,,,,27.0,101.0,0.0,0.0,0.0,,,,,,,,,,,,,,,,,,,,,,,
+tender,download,ok,2026-09-17T07:22:43.408661+00:00,,,,,,27.0,,,,0.0,101.0,101.0,0.0,0.0,,,,,,,,,,,,,,,,,,,
+tender,gliner,ok,2026-09-17T07:36:16.696003+00:00,,,,,,27.0,,,0.0,,,,,,27.0,1568.0,2005.0,22.0,False,urchade/gliner_medium-v2.1,,,,,,,,,,,,,
+tender,inventory,ok,2026-09-17T06:12:57.678203+00:00,,,,,,,,,,,,,,,,,,,,,2.0,2.0,0.0,0.0,"{""ex99_type"": 2}",outputs/to_source_coverage.csv,,,,,,,
+tender,load_db,ok,2026-09-17T06:33:04.061626+00:00,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,2.0,525.0,525.0,,,,
+tender,segment,ok,2026-09-17T07:22:47.454452+00:00,,,,,,27.0,,,0.0,,,,,,,,,,,,,,,,,,,,,27.0,21.0,0.0,80.0

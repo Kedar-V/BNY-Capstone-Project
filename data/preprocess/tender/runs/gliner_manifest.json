@@ -1,0 +1,17 @@
+{
+  "stage": "gliner",
+  "path": "tender",
+  "written_at": "2026-09-17T07:36:16.696003+00:00",
+  "status": "ok",
+  "metrics": {
+    "n_events_ok": 27,
+    "n_failed": 0,
+    "n_segments_scored": 1568,
+    "n_spans": 2005,
+    "n_pass2_events": 22,
+    "gliner_unavailable": false,
+    "gliner_model": "urchade/gliner_medium-v2.1",
+    "n_events_pending": 27
+  },
+  "errors": []
+}

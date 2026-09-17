@@ -1,0 +1,50 @@
+{
+  "event_id": "005-43486",
+  "docs": [
+    {
+      "role": "cover",
+      "accession": "0001387131-23-000130",
+      "filename": "eghsf-sctot_010523.htm",
+      "hit_id": "0001387131-23-000130:eghsf-sctot_010523.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-43486/raw/0001387131-23-000130__eghsf-sctot_010523.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/892482/000138713123000130/eghsf-sctot_010523.htm",
+      "status": "ok",
+      "bytes": 26311,
+      "sha1": "d64087a778bed6b9a7b2f488f2bbfd49fbcbde76"
+    },
+    {
+      "role": "otp",
+      "accession": "0001387131-23-000130",
+      "filename": "ex99-a1i.htm",
+      "hit_id": "0001387131-23-000130:ex99-a1i.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-43486/raw/0001387131-23-000130__ex99-a1i.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/892482/000138713123000130/ex99-a1i.htm",
+      "status": "ok",
+      "bytes": 697244,
+      "sha1": "a1bc4e8a06ed9347579b41d5602335f511709801"
+    },
+    {
+      "role": "lot",
+      "accession": "0001387131-23-000130",
+      "filename": "ex99-a1ii.htm",
+      "hit_id": "0001387131-23-000130:ex99-a1ii.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-43486/raw/0001387131-23-000130__ex99-a1ii.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/892482/000138713123000130/ex99-a1ii.htm",
+      "status": "ok",
+      "bytes": 147511,
+      "sha1": "2041bda3b0f17f55f968b9ceb1d988a570e6b3ea"
+    },
+    {
+      "role": "sc_14d9",
+      "accession": "0001493152-23-000738",
+      "filename": "formsc14d9.htm",
+      "hit_id": "0001493152-23-000738:formsc14d9.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-43486/raw/0001493152-23-000738__formsc14d9.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/892482/000149315223000738/formsc14d9.htm",
+      "status": "ok",
+      "bytes": 517238,
+      "sha1": "465da78417ffb2de710cd7e380aa9f8decf675a6"
+    }
+  ],
+  "updated_at": "2026-09-17T07:22:34.690838+00:00"
+}

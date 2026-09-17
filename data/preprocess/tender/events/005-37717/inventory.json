@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-37717",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "DAWSON GEOPHYSICAL CO",
+  "primary_cik": "0000799165",
+  "written_at": "2026-09-17T06:01:41.488531+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 11,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001193125-21-315370:d249038dsctot.htm",
+      "accession": "0001193125-21-315370",
+      "filename": "d249038dsctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2021-11-01 00:00:00",
+      "primary_cik": "0000799165",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001193125-21-315370:d249038dex99a1a.htm",
+      "accession": "0001193125-21-315370",
+      "filename": "d249038dex99a1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.A1A",
+      "file_description": "EX-99.A1A",
+      "file_date": "2021-11-01 00:00:00",
+      "primary_cik": "0000799165",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001193125-21-315370:d249038dex99a1b.htm",
+      "accession": "0001193125-21-315370",
+      "filename": "d249038dex99a1b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.A1B",
+      "file_description": "EX-99.A1B",
+      "file_date": "2021-11-01 00:00:00",
+      "primary_cik": "0000799165",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001104659-21-132359:tm2131460d1_sc14d9.htm",
+      "accession": "0001104659-21-132359",
+      "filename": "tm2131460d1_sc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2021-11-01 00:00:00",
+      "primary_cik": "0000799165",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

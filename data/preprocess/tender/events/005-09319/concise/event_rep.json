@@ -1,0 +1,1243 @@
+{
+  "schema_version": "1",
+  "event_id": "005-09319",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "0dd65466e8cfe5b88c66de0b67bccfdc58ca5bd9",
+      "hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "accession": "0001193125-20-058986",
+      "filename": "d892697dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "edc29a5736d1591592975067324e87d6f392b261",
+      "hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "accession": "0001193125-20-058986",
+      "filename": "d892697dex99a1vi.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "85840d92f0238c530c26a7c85ce12148ca275bf5",
+      "hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "accession": "0001193125-20-059038",
+      "filename": "d865735dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "March 2, 2020",
+      "score": 0.9620652794837952,
+      "rank_score": 1.612065279483795,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "February\u00a021, 2020",
+      "score": 0.9084415435791016,
+      "rank_score": 1.5584415435791015,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "002444107",
+      "score": 0.748185396194458,
+      "rank_score": 1.498185396194458,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$21.75",
+      "score": 0.7971189022064209,
+      "rank_score": 1.4471189022064208,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "MARCH 27, 2020",
+      "score": 0.7763850092887878,
+      "rank_score": 1.4263850092887878,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "KYOCERA CORPORATION",
+      "score": 0.8983116745948792,
+      "rank_score": 1.2983116745948793,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "AVX Corporation",
+      "score": 0.9590994715690613,
+      "rank_score": 1.2590994715690613,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.01",
+      "score": 0.5913852453231812,
+      "rank_score": 1.241385245323181,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "ARCH MERGER SUB INC.",
+      "score": 0.8173144459724426,
+      "rank_score": 1.2173144459724428,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Arch\nMerger Sub Inc.",
+      "score": 0.7987326383590698,
+      "rank_score": 1.0987326383590699,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$13.24",
+      "score": 0.6809718012809753,
+      "rank_score": 1.0809718012809753,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "KYOCERA CORPORATION",
+      "score": 0.7662546634674072,
+      "rank_score": 1.0662546634674073,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Wachtell,\nLipton, Rosen\u00a0& Katz",
+      "score": 0.7556359171867371,
+      "rank_score": 1.055635917186737,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$8.51",
+      "score": 0.6162457466125488,
+      "rank_score": 1.0162457466125487,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "D.F. King & Co., Inc.",
+      "score": 0.6883267164230347,
+      "rank_score": 0.9883267164230347,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "org_name",
+      "text": "D.F. King & Co., Inc.",
+      "score": 0.6706898808479309,
+      "rank_score": 0.970689880847931,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "AVX Corporation",
+      "score": 0.6637278199195862,
+      "rank_score": 0.9637278199195862,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "AVX CORPORATION",
+      "score": 0.669542133808136,
+      "rank_score": 0.8695421338081359,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Alston\u00a0& Bird LLP",
+      "score": 0.7300093770027161,
+      "rank_score": 0.830009377002716,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "AVX",
+      "score": 0.4501263201236725,
+      "rank_score": 0.8001263201236725,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Securities and Exchange Commission",
+      "score": 0.5410521030426025,
+      "rank_score": 0.7410521030426025,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "org_name",
+      "text": "Delaware corporation",
+      "score": 0.41770851612091064,
+      "rank_score": 0.7177085161209107,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number\nof Class\u00a0of Securities",
+      "score": 0.6770784258842468,
+      "rank_score": 0.6770784258842468,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "ONE MINUTE AFTER 11:59 P.M.",
+      "score": 0.518483579158783,
+      "rank_score": 0.668483579158783,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "money_amount",
+      "text": "cash",
+      "score": 0.46649378538131714,
+      "rank_score": 0.6664937853813171,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Davis Polk\u00a0& Wardwell LLP",
+      "score": 0.4165904223918915,
+      "rank_score": 0.6165904223918914,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Par Value",
+      "score": 0.5746716260910034,
+      "rank_score": 0.5246716260910034,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "commercial banks",
+      "score": 0.4201532304286957,
+      "rank_score": 0.5201532304286957,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "Offer Price",
+      "score": 0.7878621816635132,
+      "rank_score": 0.4378621816635131,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.5721222758293152,
+      "rank_score": 0.27212227582931514,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "AVX",
+      "score": 0.8850162625312805,
+      "rank_score": 0.2350162625312805,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "AVX",
+      "score": 0.8808490037918091,
+      "rank_score": 0.23084900379180906,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Purchaser",
+      "score": 0.9142245054244995,
+      "rank_score": 0.1642245054244995,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.4809543192386627,
+      "rank_score": -0.06904568076133732,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Company",
+      "score": 0.6403127312660217,
+      "rank_score": -0.10968726873397827,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "AVX",
+      "score": 0.49832668900489807,
+      "rank_score": -0.20167331099510188,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Company",
+      "score": 0.4939355254173279,
+      "rank_score": -0.2560644745826721,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent",
+      "score": 0.8423073291778564,
+      "rank_score": -0.4576926708221436,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "security_name",
+      "text": "Common Stock",
+      "score": 0.6341993808746338,
+      "rank_score": -0.46580061912536624,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.7824888229370117,
+      "rank_score": -0.5175111770629883,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w0"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "March 2, 2020",
+      "passage": "anding shares of common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (\u201c\nAVX\n\u201d), that Parent does not already own for $21.75 per Share (the \u201c\nOffer\nPrice\n\u201d), net to the seller in cash, without interest and subject to deduction for any required withholding taxes and upon the terms and subject to the conditions set forth in the Offer to Purchase dated March 2, 2020 (as it may be amended\nor supplemented from time to time, the \u201c\nOffer to Purchase\n\u201d), and in the related letter of transmittal (as it may be amended or supplemented from time to time, the \u201c\nLetter of Transmittal\n\u201d and which, together with the\nOffer to Purchase, constitutes the \u201c\nOffer\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.9620652794837952,
+      "rank_score": 1.612065279483795,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1898,
+        1911
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a021, 2020",
+      "passage": "The Offer is being made pursuant to the Agreement and\nPlan of Merger, dated as of February\u00a021, 2020 (as amended from time to time, the \u201c\nMerger Agreement\n\u201d), among AVX, Parent and Purchaser.",
+      "method": "gliner",
+      "confidence": 0.9084415435791016,
+      "rank_score": 1.5584415435791015,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2661,
+        2678
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "calendar_date",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "002444107",
+      "passage": "20549\nSCHEDULE TO\nTender Offer Statement Under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nAVX\nCORPORATION\n(Name of Subject Company)\nARCH MERGER SUB INC.\n(Offeror)\nA Wholly\nOwned Subsidiary of\nKYOCERA CORPORATION\n(Parent of Offeror)\n(Names of Filing Persons\u2014Offeror)\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number of Class\u00a0of Securities)\nShoichi Aoki\nKyocera\nCorporation\n6, Takeda\nTobadono-cho\nFushimi-ku, Kyoto\n612-8501,\nJapan\nTelephone:\n+81-75-604-3500\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nCopies to:\nGeorge R.",
+      "method": "gliner",
+      "confidence": 0.748185396194458,
+      "rank_score": 1.498185396194458,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        436,
+        445
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$21.75",
+      "passage": "Arch\nMerger Sub Inc., a Delaware corporation (\u201c\nPurchaser\n\u201d) and a wholly owned subsidiary of Kyocera Corporation, a joint stock corporation incorporated under the laws of Japan (\u201c\nParent\n\u201d), is offering to purchase any and\nall outstanding shares of common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (\u201c\nAVX\n\u201d), that Parent does not already own for $21.75 per Share (the \u201c\nOffer\nPrice\n\u201d), net to the seller in cash, without interest and subject to deduction for any required withholding taxes and upon the terms and subject to the conditions set forth in the Offer to Purchase dated March 2, 2020 (as it may be amended\nor supplemented from time to time, the \u201c\nOffer to Purchase\n\u201d), and in the related letter of transmittal (as it may be amended or supplem",
+      "method": "gliner",
+      "confidence": 0.7971189022064209,
+      "rank_score": 1.4471189022064208,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1664,
+        1670
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "MARCH 27, 2020",
+      "passage": "THE OFFER AND WITHDRAWAL RIGHTS EXPIRE AT ONE MINUTE AFTER 11:59 P.M., NEW YORK CITY TIME, AT THE END OF THE DAY ON FRIDAY, MARCH 27, 2020,\nUNLESS THE OFFER IS EXTENDED OR EARLIER TERMINATED.",
+      "method": "gliner",
+      "confidence": 0.7763850092887878,
+      "rank_score": 1.4263850092887878,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3189,
+        3203
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "calendar_date",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "KYOCERA CORPORATION",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTender Offer Statement Under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nAVX\nCORPORATION\n(Name of Subject Company)\nARCH MERGER SUB INC.\n(Offeror)\nA Wholly\nOwned Subsidiary of\nKYOCERA CORPORATION\n(Parent of Offeror)\n(Names of Filing Persons\u2014Offeror)\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number of Class\u00a0of Securities)\nShoichi Aoki\nKyocera\nCorporation\n6, Takeda\nTobadono-cho\nFushimi-ku, Kyoto\n612-8501,\nJapan\nTelephone:\n+81-75-604-3500\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of F",
+      "method": "gliner",
+      "confidence": 0.8983116745948792,
+      "rank_score": 1.2983116745948793,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        291,
+        310
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AVX Corporation",
+      "passage": "a wholly owned subsidiary of\nKyocera Corporation\nArch\nMerger Sub Inc., a Delaware corporation (\u201c\nPurchaser\n\u201d) and a wholly owned subsidiary of Kyocera Corporation, a joint stock corporation incorporated under the laws of Japan (\u201c\nParent\n\u201d), is offering to purchase any and\nall outstanding shares of common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (\u201c\nAVX\n\u201d), that Parent does not already own for $21.75 per Share (the \u201c\nOffer\nPrice\n\u201d), net to the seller in cash, without interest and subject to deduction for any required withholding taxes and upon the terms and subject to the conditions set forth in the Offer to Purchase dated March 2, 2020 (as it may be amended\nor supplemented from time to time, the \u201c\nOffer to Purchas",
+      "method": "gliner",
+      "confidence": 0.9590994715690613,
+      "rank_score": 1.2590994715690613,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1576,
+        1591
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "org_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "a wholly owned subsidiary of\nKyocera Corporation\nArch\nMerger Sub Inc., a Delaware corporation (\u201c\nPurchaser\n\u201d) and a wholly owned subsidiary of Kyocera Corporation, a joint stock corporation incorporated under the laws of Japan (\u201c\nParent\n\u201d), is offering to purchase any and\nall outstanding shares of common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (\u201c\nAVX\n\u201d), that Parent does not already own for $21.75 per Share (the \u201c\nOffer\nPrice\n\u201d), net to the seller in cash, without interest and subject to deduction for any required withholding taxes and upon the terms and subject to the conditions set forth in the Offer to Purchase dated March 2, 2020 (as it may be amended\nor supplem",
+      "method": "gliner",
+      "confidence": 0.5913852453231812,
+      "rank_score": 1.241385245323181,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1539,
+        1544
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ARCH MERGER SUB INC.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTender Offer Statement Under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nAVX\nCORPORATION\n(Name of Subject Company)\nARCH MERGER SUB INC.\n(Offeror)\nA Wholly\nOwned Subsidiary of\nKYOCERA CORPORATION\n(Parent of Offeror)\n(Names of Filing Persons\u2014Offeror)\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number of Class\u00a0of Securities)\nShoichi Aoki\nKyocera\nCorporation\n6, Takeda\nTobadono-cho\nFushimi-ku, Kyoto\n612-8501,\nJapan\nTelephone:\n+81-75-604-3500\n(Name, Address and Telephone Number of Person Auth",
+      "method": "gliner",
+      "confidence": 0.8173144459724426,
+      "rank_score": 1.2173144459724428,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        231,
+        251
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Arch\nMerger Sub Inc.",
+      "passage": "a wholly owned subsidiary of\nKyocera Corporation\nArch\nMerger Sub Inc., a Delaware corporation (\u201c\nPurchaser\n\u201d) and a wholly owned subsidiary of Kyocera Corporation, a joint stock corporation incorporated under the laws of Japan (\u201c\nParent\n\u201d), is offering to purchase any and\nall outstanding shares of common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (\u201c\nAVX\n\u201d), that Parent does not already own for $21.75 per Share (the",
+      "method": "gliner",
+      "confidence": 0.7987326383590698,
+      "rank_score": 1.0987326383590699,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1265,
+        1285
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$13.24",
+      "passage": "121,800,000, the number of Shares beneficially\nowned by Kyocera Corporation as of the date hereof) and (B) $21.75, which is the per Share tender offer price, (ii)\u00a0the product of (A) 621,360, which is the number of Shares issuable upon the exercise of\n\u201cin-the-money\u201d\noptions to purchase the Shares, and (B) $8.51, which is the difference between $21.75, which is the per Share tender offer price, and $13.24, which is the weighted average per share\nexercise price of such options, and (iii)\u00a0the product of (A) 436,910, which is the total number of Shares subject to restricted stock units, and (B) $21.75, which is the per Share tender offer price.",
+      "method": "gliner",
+      "confidence": 0.6809718012809753,
+      "rank_score": 1.0809718012809753,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1895,
+        1901
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "KYOCERA CORPORATION",
+      "passage": "By:\n/s/ Junichi Jinno\nName:\nJunichi Jinno\nTitle:\nPresident\nKYOCERA CORPORATION\nBy:\n/s/ Shoichi Aoki\nName:\nShoichi Aoki\nTitle:\nDirector,\nManaging Executive Officer and\nGeneral Manager of Corporate\nManagement Control\nGroup",
+      "method": "gliner",
+      "confidence": 0.7662546634674072,
+      "rank_score": 1.0662546634674073,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        8382,
+        8401
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Wachtell,\nLipton, Rosen\u00a0& Katz",
+      "passage": "Levine\nWachtell,\nLipton, Rosen\u00a0& Katz\n51 West 52nd Street\nNew York, New York 10019\n(212)\n403-1000\nDennis O.",
+      "method": "gliner",
+      "confidence": 0.7556359171867371,
+      "rank_score": 1.055635917186737,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        775,
+        805
+      ],
+      "source_hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "source_accession": "0001193125-20-059038",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$8.51",
+      "passage": "calculated as the difference between 169,216,825, the total number of outstanding Shares, and 121,800,000, the number of Shares beneficially\nowned by Kyocera Corporation as of the date hereof) and (B) $21.75, which is the per Share tender offer price, (ii)\u00a0the product of (A) 621,360, which is the number of Shares issuable upon the exercise of\n\u201cin-the-money\u201d\noptions to purchase the Shares, and (B) $8.51, which is the difference between $21.75, which is the per Share tender offer price, and $13.24, which is the weighted average per share\nexercise price of such options, and (iii)\u00a0the product of (A) 436,910, which is the total number of Shares subject to restricted stock units, and (B) $21.75, which is the per Share tender offer price.",
+      "method": "gliner",
+      "confidence": 0.6162457466125488,
+      "rank_score": 1.0162457466125487,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1801,
+        1806
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "D.F. King & Co., Inc.",
+      "passage": "Brokers, dealers, commercial banks, trust companies and other\nnominees will, upon request, be reimbursed by Purchaser for reasonable and necessary costs and expenses incurred by them in forwarding materials to their customers.\nThe Information Agent for the Offer is:\nD.F. King & Co., Inc.\n48 Wall Street, 22nd Floor\nNew\nYork, New York 10005\nShareholders (toll-free): (800)\n249-7120\nBanks and Brokers: (212)\n269-5550\nEmail:\nAVX@dfking.com\nMarch 2, 2020",
+      "method": "gliner",
+      "confidence": 0.6883267164230347,
+      "rank_score": 0.9883267164230347,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        17065,
+        17086
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "D.F. King & Co., Inc.",
+      "passage": "Brokers, dealers, commercial banks, trust companies and other\nnominees will, upon request, be reimbursed by Purchaser for reasonable and necessary costs and expenses incurred by them in forwarding materials to their customers.\nThe Information Agent for the Offer is:\nD.F. King & Co., Inc.\n48 Wall Street, 22nd Floor\nNew\nYork, New York 10005\nShareholders (toll-free): (800)\n249-7120\nBanks and Brokers: (212)\n269-5550\nEmail:\nAVX@dfking.com\nMarch 2, 2020",
+      "method": "gliner",
+      "confidence": 0.6706898808479309,
+      "rank_score": 0.970689880847931,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        17065,
+        17086
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "org_name",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "AVX Corporation",
+      "passage": "This Tender Offer Statement on Schedule TO (the \u201c\nSchedule TO\n\u201d) relates to the offer by Arch Merger Sub Inc., a Delaware\ncorporation and a wholly owned subsidiary of Kyocera Corporation, a joint stock corporation incorporated under the laws of Japan (\u201c\nParent\n\u201d), to purchase any and all outstanding shares of common stock, par value $0.01 per share (the\n\u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (the \u201c\nCompany\n\u201d), that Parent does not already own for $21.75 per Share, net to the seller in cash, without interest and subject to deduction for any required\nwithholding taxes and upon the terms and subject to the conditions set forth in the Offer to Purchase, dated March 2, 2020 (as it may be amended from time to time, the \u201c\nOffer to Purchase\n\u201d), and in the related Lett",
+      "method": "gliner",
+      "confidence": 0.6637278199195862,
+      "rank_score": 0.9637278199195862,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3901,
+        3916
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "AVX CORPORATION",
+      "passage": "SC 14D-9\nTable of Contents\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the Securities Exchange Act of 1934\nAVX CORPORATION\n(Name\nof Subject Company)\nAVX CORPORATION\n(Names\nof Persons Filing Statement)\nCommon Stock, par value $0.01 per share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number\nof Class\u00a0of Securities)\nMichael E.",
+      "method": "gliner",
+      "confidence": 0.669542133808136,
+      "rank_score": 0.8695421338081359,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        271,
+        286
+      ],
+      "source_hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "source_accession": "0001193125-20-059038",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Alston\u00a0& Bird LLP",
+      "passage": "Valentino\nAlston\u00a0& Bird LLP\n950 F Street NW\nWashington, DC 20004-1404\n(202)\n239-3300\n\u2610\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a tender\noffer.\nTable of Contents\nTable of Contents\nPage\nItem 1.",
+      "method": "gliner",
+      "confidence": 0.7300093770027161,
+      "rank_score": 0.830009377002716,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        904,
+        921
+      ],
+      "source_hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "source_accession": "0001193125-20-059038",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "AVX",
+      "passage": "The parties to the Merger Agreement have agreed that, subject to the conditions specified in the Merger Agreement, the Merger\nwill become effective as soon as practicable after and on the same date as the consummation of the Offer, without a vote of AVX\u2019s stockholders, in accordance with Section\u00a0251(h) of the DGCL.",
+      "method": "gliner",
+      "confidence": 0.4501263201236725,
+      "rank_score": 0.8001263201236725,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4776,
+        4779
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Securities and Exchange Commission",
+      "passage": "The calculation of the Transaction Valuation\nis based on information provided by AVX Corporation as of February\u00a013, 2020, the most recent practicable date.\n**\nThe amount of the filing fee was calculated in accordance with Rule\n0-11\nof the Exchange Act and Fee Rate Advisory # 1 for Fiscal Year 2020 issued by the Securities and Exchange Commission (the \u201c\nCommission\n\u201d), by multiplying the Transaction Valuation by\n0.0001298.\n\u2610\nCheck box if any part of the fee is offset as provided by Rule\n0-11(a)(2)\nand identify the filing with which the offsetting fee was previously paid.",
+      "method": "gliner",
+      "confidence": 0.5410521030426025,
+      "rank_score": 0.7410521030426025,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2456,
+        2490
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Delaware corporation",
+      "passage": "a wholly owned subsidiary of\nKyocera Corporation\nArch\nMerger Sub Inc., a Delaware corporation (\u201c\nPurchaser\n\u201d) and a wholly owned subsidiary of Kyocera Corporation, a joint stock corporation incorporated under the laws of Japan (\u201c\nParent\n\u201d), is offering to purchase any and\nall outstanding shares of common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (\u201c\nAVX\n\u201d), that Parent does not already own for $21.75 per Share (the \u201c\nOffer\nPrice\n\u201d), net to the seller in cash, without interest and subject to deduction for any required withholding taxes and upon the terms and subject to the conditions set forth in the Offer to Purchase dated March 2, 2020 (as it may be amended\nor supplemented from time to time, the \u201c\nOffer to Purchase\n\u201d), and in the related",
+      "method": "gliner",
+      "confidence": 0.41770851612091064,
+      "rank_score": 0.7177085161209107,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1595,
+        1615
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "org_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number\nof Class\u00a0of Securities",
+      "passage": "20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the Securities Exchange Act of 1934\nAVX CORPORATION\n(Name\nof Subject Company)\nAVX CORPORATION\n(Names\nof Persons Filing Statement)\nCommon Stock, par value $0.01 per share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number\nof Class\u00a0of Securities)\nMichael E.",
+      "method": "gliner",
+      "confidence": 0.6770784258842468,
+      "rank_score": 0.6770784258842468,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        405,
+        440
+      ],
+      "source_hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "source_accession": "0001193125-20-059038",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "ONE MINUTE AFTER 11:59 P.M.",
+      "passage": "The Merger Agreement provides, among other things, that as soon as practicable after and on\nthe same date as the consummation of the Offer, and under the terms of the Merger Agreement as described in the Offer to Purchase, Purchaser will effect the Merger (as defined below) as described below.\nTHE OFFER AND WITHDRAWAL RIGHTS EXPIRE AT ONE MINUTE AFTER 11:59 P.M., NEW YORK CITY TIME, AT THE END OF THE DAY ON FRIDAY, MARCH 27, 2020,\nUNLESS THE OFFER IS EXTENDED OR EARLIER TERMINATED.",
+      "method": "gliner",
+      "confidence": 0.518483579158783,
+      "rank_score": 0.668483579158783,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3107,
+        3134
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "cash",
+      "passage": "and a wholly owned subsidiary of Kyocera Corporation, a joint stock corporation incorporated under the laws of Japan (\u201c\nParent\n\u201d), is offering to purchase any and\nall outstanding shares of common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (\u201c\nAVX\n\u201d), that Parent does not already own for $21.75 per Share (the \u201c\nOffer\nPrice\n\u201d), net to the seller in cash, without interest and subject to deduction for any required withholding taxes and upon the terms and subject to the conditions set forth in the Offer to Purchase dated March 2, 2020 (as it may be amended\nor supplemented from time to time, the \u201c\nOffer to Purchase\n\u201d), and in the related letter of transmittal (as it may be amended or supplemented from time to time, the \u201c\nLetter of Transmittal\n\u201d and",
+      "method": "gliner",
+      "confidence": 0.46649378538131714,
+      "rank_score": 0.6664937853813171,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1725,
+        1729
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Davis Polk\u00a0& Wardwell LLP",
+      "passage": "Lebrun, Esq.\nDavis Polk\u00a0& Wardwell LLP\n450 Lexington Avenue\nNew\nYork, New York 10017\nTelephone: (212)\n450-4000\nCALCULATION OF FILING FEE\nTransaction Valuation*\nAmount of Filing Fee**\n$1,046,106,509.85\n$135,784.63\n*\nEstimated solely for purposes of calculating the filing fee pursuant to Rule\n0-11(d)\nunder the Securities Exchange Act of 1934, as amended (the \u201c\nExchange Act\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.4165904223918915,
+      "rank_score": 0.6165904223918914,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        807,
+        832
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Par Value",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTender Offer Statement Under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nAVX\nCORPORATION\n(Name of Subject Company)\nARCH MERGER SUB INC.\n(Offeror)\nA Wholly\nOwned Subsidiary of\nKYOCERA CORPORATION\n(Parent of Offeror)\n(Names of Filing Persons\u2014Offeror)\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number of Class\u00a0of Securities)\nShoichi Aoki\nKyocera\nCorporation\n6, Takeda\nTobadono-cho\nFushimi-ku, Kyoto\n612-8501,\nJapan\nTelephone:\n+81-75-604-3500\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nCopies to:\nGeorge R.",
+      "method": "gliner",
+      "confidence": 0.5746716260910034,
+      "rank_score": 0.5246716260910034,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        379,
+        388
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "commercial banks",
+      "passage": "Brokers, dealers, commercial banks, trust companies and other\nnominees will, upon request, be reimbursed by Purchaser for reasonable and necessary costs and expenses incurred by them in forwarding materials to their customers.\nThe Information Agent for the Offer is:\nD.F.",
+      "method": "gliner",
+      "confidence": 0.4201532304286957,
+      "rank_score": 0.5201532304286957,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        16816,
+        16832
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Offer Price",
+      "passage": "At the effective time of the Merger, each outstanding Share (other than Shares held by AVX, any of its subsidiaries, Parent, Purchaser or any subsidiary of Parent,\nor any stockholders who have properly exercised their appraisal rights under Section\u00a0262 of the Delaware General Corporation Law (the \u201c\nDGCL\n\u201d)) will be converted into the right to receive the Offer Price, net to the seller in\ncash, without interest and subject to deduction for any required withholding taxes.",
+      "method": "gliner",
+      "confidence": 0.7878621816635132,
+      "rank_score": 0.4378621816635131,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4026,
+        4037
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "money_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "20549\nSCHEDULE TO\nTender Offer Statement Under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nAVX\nCORPORATION\n(Name of Subject Company)\nARCH MERGER SUB INC.\n(Offeror)\nA Wholly\nOwned Subsidiary of\nKYOCERA CORPORATION\n(Parent of Offeror)\n(Names of Filing Persons\u2014Offeror)\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number of Class\u00a0of Securities)\nShoichi Aoki\nKyocera\nCorporation\n6, Takeda\nTobadono-cho\nFushimi-ku, Kyoto\n612-8501,\nJapan\nTelephone:\n+81-75-604-3500\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nCopies to:\nGeorge R.",
+      "method": "gliner",
+      "confidence": 0.5721222758293152,
+      "rank_score": 0.27212227582931514,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        447,
+        459
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AVX",
+      "passage": "The Offer is being made pursuant to the Agreement and\nPlan of Merger, dated as of February\u00a021, 2020 (as amended from time to time, the \u201c\nMerger Agreement\n\u201d), among AVX, Parent and Purchaser.",
+      "method": "gliner",
+      "confidence": 0.8850162625312805,
+      "rank_score": 0.2350162625312805,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2743,
+        2746
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "org_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "AVX",
+      "passage": "The Offer is being made pursuant to the Agreement and\nPlan of Merger, dated as of February\u00a021, 2020 (as amended from time to time, the \u201c\nMerger Agreement\n\u201d), among AVX, Parent and Purchaser.",
+      "method": "gliner",
+      "confidence": 0.8808490037918091,
+      "rank_score": 0.23084900379180906,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2743,
+        2746
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Purchaser",
+      "passage": "The Merger Agreement provides, among other things, that as soon as practicable after and on\nthe same date as the consummation of the Offer, and under the terms of the Merger Agreement as described in the Offer to Purchase, Purchaser will effect the Merger (as defined below) as described below.",
+      "method": "gliner",
+      "confidence": 0.9142245054244995,
+      "rank_score": 0.1642245054244995,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2993,
+        3002
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "SC 14D-9\nTable of Contents\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the Securities Exchange Act of 1934\nAVX CORPORATION\n(Name\nof Subject Company)\nAVX CORPORATION\n(Names\nof Persons Filing Statement)\nCommon Stock, par value $0.01 per share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number\nof Class\u00a0of Securities)\nMichael E.",
+      "method": "gliner",
+      "confidence": 0.4809543192386627,
+      "rank_score": -0.06904568076133732,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        323,
+        335
+      ],
+      "source_hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "source_accession": "0001193125-20-059038",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Company",
+      "passage": "IDENTITY AND BACKGROUND OF FILING PERSON.\nName and Address.\nThe name, business address and\nbusiness telephone number of the Company, which is both the person filing this Schedule\n14D-9\nand the subject company, are set forth above under the heading \u201c\nName and Address\n\u201d in Item 1.",
+      "method": "gliner",
+      "confidence": 0.6403127312660217,
+      "rank_score": -0.10968726873397827,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3344,
+        3351
+      ],
+      "source_hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "source_accession": "0001193125-20-059038",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "AVX",
+      "passage": "Hufnagel\nSenior Vice President, Chief Financial Officer, and Treasurer\n1 AVX Boulevard\nFountain\nInn, South Carolina 29644\n(864)\n967-2150\n(Name, address and telephone numbers of person authorized to receive notices and communications\non behalf of the persons filing statement)\nWith\ncopies to:\nDavid A.",
+      "method": "gliner",
+      "confidence": 0.49832668900489807,
+      "rank_score": -0.20167331099510188,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        526,
+        529
+      ],
+      "source_hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "source_accession": "0001193125-20-059038",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Company",
+      "passage": "tatement on Schedule TO (the \u201c\nSchedule TO\n\u201d) relates to the offer by Arch Merger Sub Inc., a Delaware\ncorporation and a wholly owned subsidiary of Kyocera Corporation, a joint stock corporation incorporated under the laws of Japan (\u201c\nParent\n\u201d), to purchase any and all outstanding shares of common stock, par value $0.01 per share (the\n\u201c\nShares\n\u201d), of AVX Corporation, a Delaware corporation (the \u201c\nCompany\n\u201d), that Parent does not already own for $21.75 per Share, net to the seller in cash, without interest and subject to deduction for any required\nwithholding taxes and upon the terms and subject to the conditions set forth in the Offer to Purchase, dated March 2, 2020 (as it may be amended from time to time, the \u201c\nOffer to Purchase\n\u201d), and in the related Letter of Transmittal\n(as it may be amended",
+      "method": "gliner",
+      "confidence": 0.4939355254173279,
+      "rank_score": -0.2560644745826721,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3948,
+        3955
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent",
+      "passage": "In the morning of February\u00a021, 2020 (Japan time), the board of directors of Parent convened and approved the Merger Agreement and the transactions\ncontemplated by the Merger Agreement, with Mr.\u00a0Sarvis abstaining from the deliberations regarding and the voting on such approval. Later that morning, the Company, Parent and Purchaser executed the Merger Agreement. Later that day, each of the\nCo",
+      "method": "gliner",
+      "confidence": 0.8423073291778564,
+      "rank_score": -0.4576926708221436,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79683,
+        79689
+      ],
+      "source_hit_id": "0001193125-20-059038:d865735dsc14d9.htm",
+      "source_accession": "0001193125-20-059038",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Common Stock",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTender Offer Statement Under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nAVX\nCORPORATION\n(Name of Subject Company)\nARCH MERGER SUB INC.\n(Offeror)\nA Wholly\nOwned Subsidiary of\nKYOCERA CORPORATION\n(Parent of Offeror)\n(Names of Filing Persons\u2014Offeror)\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n002444107\n(CUSIP Number of Class\u00a0of Securities)\nShoichi Aoki\nKyocera\nCorporation\n6, Takeda\nTobadono-cho\nFushimi-ku, Kyoto\n612-8501,\nJapan\nTelephone:\n+81-75-604-3500\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nCopies to:\nGeorge R.",
+      "method": "gliner",
+      "confidence": 0.6341993808746338,
+      "rank_score": -0.46580061912536624,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        365,
+        377
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dsctot.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "EXHIBIT A(1)(VI)\nExhibit (a)(1)(vi)\nThis announcement is neither an offer to purchase nor a solicitation of an offer to sell Shares (as defined below) and the provisions herein\nare subject in their entirety to the provision of the Offer (as defined below).",
+      "method": "gliner",
+      "confidence": 0.7824888229370117,
+      "rank_score": -0.5175111770629883,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        125,
+        131
+      ],
+      "source_hit_id": "0001193125-20-058986:d892697dex99a1vi.htm",
+      "source_accession": "0001193125-20-058986",
+      "label": "security_name",
+      "chunk_id": "w0"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.803393+00:00"
+}

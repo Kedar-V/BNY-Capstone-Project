@@ -1,0 +1,1251 @@
+{
+  "schema_version": "1",
+  "event_id": "005-30797",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "af9734875e3d0bed53cb9f5505487e890bbfee69",
+      "hit_id": "0001493152-24-023284:formscto-t.htm",
+      "accession": "0001493152-24-023284",
+      "filename": "formscto-t.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "3f1b0c21c8f72fbbe5870e5cf268b121a8cfd24f",
+      "hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "accession": "0001493152-24-023284",
+      "filename": "exa-1_a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "75181c02c28b6db08582996545188e498866ee4f",
+      "hit_id": "0001493152-24-023284:exa-1_b.htm",
+      "accession": "0001493152-24-023284",
+      "filename": "exa-1_b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "3aea7d46c54664896060d0ce2a3ddcfd88272d5d",
+      "hit_id": "0001493152-24-023286:formsc14d9.htm",
+      "accession": "0001493152-24-023286",
+      "filename": "formsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "July 9, 2024",
+      "score": 0.9526545405387878,
+      "rank_score": 1.7326545405387879,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May 16, 2024",
+      "score": 0.9330638647079468,
+      "rank_score": 1.7130638647079468,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "cusip_code",
+      "text": "69036R863",
+      "score": 0.8920114636421204,
+      "rank_score": 1.6420114636421204,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$8.50",
+      "score": 0.8005436658859253,
+      "rank_score": 1.5805436658859253,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "SALTCHUK\nRESOURCES, INC.",
+      "score": 0.8973916172981262,
+      "rank_score": 1.2973916172981264,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Overseas Shipholding Group, Inc.",
+      "score": 0.8795595765113831,
+      "rank_score": 1.2795595765113832,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.01",
+      "score": 0.4455447196960449,
+      "rank_score": 1.225544719696045,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Overseas Shipholding\n    Group, Inc.",
+      "score": 0.8657456040382385,
+      "rank_score": 1.2157456040382386,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "SEAHAWK\n    MERGECO., INC.",
+      "score": 0.7482563257217407,
+      "rank_score": 1.1482563257217409,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE",
+      "score": 0.7829161286354065,
+      "rank_score": 1.1329161286354066,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Seahawk MergeCo., Inc.",
+      "score": 0.7676320672035217,
+      "rank_score": 1.1176320672035218,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Saltchuk Resources, Inc.",
+      "score": 0.7437090873718262,
+      "rank_score": 1.0937090873718263,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE: OSG",
+      "score": 0.8331818580627441,
+      "rank_score": 1.033181858062744,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "OSG",
+      "score": 0.6245488524436951,
+      "rank_score": 1.024548852443695,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Internal Revenue Service",
+      "score": 0.909759521484375,
+      "rank_score": 1.009759521484375,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "K&L\nGates LLP",
+      "score": 0.7786615490913391,
+      "rank_score": 0.9786615490913391,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Saltchuk Holdings, Inc.",
+      "score": 0.5620735883712769,
+      "rank_score": 0.9620735883712769,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "money_amount",
+      "text": "15,203,554 Shares",
+      "score": 0.5227386355400085,
+      "rank_score": 0.8527386355400086,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Class\nA Common Stock",
+      "score": 0.642071545124054,
+      "rank_score": 0.8420715451240539,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Fried Frank",
+      "score": 0.7192741632461548,
+      "rank_score": 0.8192741632461548,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "72,030,977 Shares",
+      "score": 0.48327115178108215,
+      "rank_score": 0.8132711517810822,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "Class A common stock",
+      "score": 0.5998427867889404,
+      "rank_score": 0.7998427867889404,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Fried,\nFrank, Harris, Shriver & Jacobson LLP",
+      "score": 0.440785676240921,
+      "rank_score": 0.7407856762409211,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "approximately 21.1%",
+      "score": 0.40899547934532166,
+      "rank_score": 0.7389954793453217,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Evercore",
+      "score": 0.7203015089035034,
+      "rank_score": 0.7203015089035034,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "PARENT AND PURCHASER",
+      "score": 0.4317184388637543,
+      "rank_score": 0.5817184388637543,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Expiration Date",
+      "score": 0.7817666530609131,
+      "rank_score": 0.5617666530609131,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Securities and Exchange Commission",
+      "score": 0.4379841089248657,
+      "rank_score": 0.5379841089248657,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP\nNumber",
+      "score": 0.6579235792160034,
+      "rank_score": 0.3579235792160034,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "OSG",
+      "score": 0.9123660326004028,
+      "rank_score": 0.31236603260040285,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.7626292705535889,
+      "rank_score": 0.2626292705535888,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "OSG",
+      "score": 0.887890636920929,
+      "rank_score": 0.23789063692092893,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.7130778431892395,
+      "rank_score": 0.21307784318923945,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Purchaser",
+      "score": 0.9417115449905396,
+      "rank_score": 0.19171154499053955,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "IRS",
+      "score": 0.8176608085632324,
+      "rank_score": 0.1676608085632324,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Company",
+      "score": 0.7804436087608337,
+      "rank_score": 0.13044360876083372,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Offer Price",
+      "score": 0.5990444421768188,
+      "rank_score": -0.0009555578231812412,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Computershare\n                                            Trust Company, N.A.",
+      "score": 0.5794805288314819,
+      "rank_score": -0.37051947116851813,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent",
+      "score": 0.906400203704834,
+      "rank_score": -0.39359979629516606,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.5847743153572083,
+      "rank_score": -0.7152256846427918,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w5"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "July 9, 2024",
+      "passage": "Eastern Time on July 9, 2024, unless extended in accordance with the terms of the\n    Merger Agreement and the applicable rules and regulations of the Securities and Exchange Commission, in which event the term \u201c\nExpiration\n    Date\n\u201d will mean the date to which the Expiration Date is so extended.",
+      "method": "gliner",
+      "confidence": 0.9526545405387878,
+      "rank_score": 1.7326545405387879,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        2801,
+        2813
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "calendar_date",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May 16, 2024",
+      "passage": "R OR ANY OF THEIR RESPECTIVE AFFILIATES ALREADY BENEFICIALLY OWN SHARES?\n\u25cf\nAs\n                                            of May 16, 2024, Parent was the beneficial owner of 15,203,554 Shares of OSG, representing\n                                            approximately 21.1% of the outstanding Shares of OSG, based on 72,030,977 Shares outstanding\n                                            as of May 16, 2024, excluding the Company Warrants (as defined below) exercisable for 507,535\n                                            Shares as of May 16, 2024.",
+      "method": "gliner",
+      "confidence": 0.9330638647079468,
+      "rank_score": 1.7130638647079468,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        5289,
+        5301
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "calendar_date",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "69036R863",
+      "passage": "20549\nSCHEDULE\nTO\nTENDER\nOFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF\nTHE SECURITIES EXCHANGE ACT OF 1934\nOVERSEAS\nSHIPHOLDING GROUP, INC.\n(Name\nof Subject Company (Issuer))\nSEAHAWK\nMERGECO., INC.\n(Name\nof Filing Persons (Offeror))\nSALTCHUK\nRESOURCES, INC.\n(Name\nof Filing Persons (Parent of Offeror))\nClass\nA Common Stock, par value $0.01 per share\n(Title\nof Class of Securities)\n69036R863\n(CUSIP\nNumber of Class of Securities)\nJerald\nW.",
+      "method": "gliner",
+      "confidence": 0.8920114636421204,
+      "rank_score": 1.6420114636421204,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        456,
+        465
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$8.50",
+      "passage": "Price\n    Offered Per Share\n$8.50\n    per Share in cash (the \u201c\nOffer Price\n\u201d), upon the terms and subject to the conditions described in this Offer to\n    Purchase (together with any amendments or supplements hereto, this \u201c\nOffer to Purchase\n\u201d) and in the related Letter\n    of Transmittal (together with any amendments or supplements thereto, the \u201c\nLetter of Transmittal\n\u201d), subject to\n    any applicable withholding tax and without",
+      "method": "gliner",
+      "confidence": 0.8005436658859253,
+      "rank_score": 1.5805436658859253,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        2283,
+        2288
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "money_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "SALTCHUK\nRESOURCES, INC.",
+      "passage": "UNITED\nSTATES\nSECURITIES\nAND EXCHANGE COMMISSION\nWashington,\nD.C. 20549\nSCHEDULE\nTO\nTENDER\nOFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF\nTHE SECURITIES EXCHANGE ACT OF 1934\nOVERSEAS\nSHIPHOLDING GROUP, INC.\n(Name\nof Subject Company (Issuer))\nSEAHAWK\nMERGECO., INC.\n(Name\nof Filing Persons (Offeror))\nSALTCHUK\nRESOURCES, INC.\n(Name\nof Filing Persons (Parent of Offeror))\nClass\nA Common Stock, par value $0.01 per share\n(Title\nof Class of Securities)\n69036R863\n(CUSIP\nNumber of Class of Securities)\nJerald\nW.",
+      "method": "gliner",
+      "confidence": 0.8973916172981262,
+      "rank_score": 1.2973916172981264,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        307,
+        331
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Overseas Shipholding Group, Inc.",
+      "passage": "(a)\nThe subject company and the issuer of the securities subject to the Offer is Overseas Shipholding Group, Inc. Its principal executive\noffice is located at Two Harbour Place, 302 Knights Run Avenue, Tampa, Florida, 33602, and its telephone number is (813) 209-0600.\n(b)\nThis Schedule TO relates to the Shares.",
+      "method": "gliner",
+      "confidence": 0.8795595765113831,
+      "rank_score": 1.2795595765113832,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3429,
+        3461
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "Unless otherwise indicated in this Offer to Purchase or the context otherwise requires, all references in this\nOffer to Purchase to \u201cwe,\u201d \u201cour,\u201d or \u201cus\u201d refer to Purchaser or Parent as the context requires.\nSecurities\n    Sought\nAll\n    issued and outstanding shares of Class A common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of Overseas Shipholding\n    Group, Inc., a Delaware corporation (\u201c\nOSG\n\u201d), other than Shares owned by Parent, Purchaser or any of their respective\n    affiliates.",
+      "method": "gliner",
+      "confidence": 0.4455447196960449,
+      "rank_score": 1.225544719696045,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        2058,
+        2063
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Overseas Shipholding\n    Group, Inc.",
+      "passage": "Unless otherwise indicated in this Offer to Purchase or the context otherwise requires, all references in this\nOffer to Purchase to \u201cwe,\u201d \u201cour,\u201d or \u201cus\u201d refer to Purchaser or Parent as the context requires.\nSecurities\n    Sought\nAll\n    issued and outstanding shares of Class A common stock, par value $0.01 per share (the \u201c\nShares\n\u201d), of Overseas Shipholding\n    Group, Inc., a Delaware corporation (\u201c\nOSG\n\u201d), other than Shares owned by Parent, Purchaser or any of their respective\n    affiliates.",
+      "method": "gliner",
+      "confidence": 0.8657456040382385,
+      "rank_score": 1.2157456040382386,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        2095,
+        2131
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "SEAHAWK\n    MERGECO., INC.",
+      "passage": "Dated:\nJune 10, 2024\nSEAHAWK\n    MERGECO., INC.\nBy:\n/s/\n    Jerald W. Richards\nName:\nJerald\n    W. Richards\nTitle:\nTreasurer\nSALTCHUK\n    RESOURCES, INC.\nBy:\n/s/\n    Jerald W. Richards\nName:\nJerald\n    W. Richards\nTitle:\nSenior\n    V.P. and CFO",
+      "method": "gliner",
+      "confidence": 0.7482563257217407,
+      "rank_score": 1.1482563257217409,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        10769,
+        10795
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE",
+      "passage": "(NYSE: OSG) (\u201c\nOSG\n\u201d), for $8.50 per Share in cash, subject to applicable tax withholding and without interest\n(the \u201c\nOffer Price\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.7829161286354065,
+      "rank_score": 1.1329161286354066,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        5059,
+        5063
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_b.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Seahawk MergeCo., Inc.",
+      "passage": "Certain Information\n                                            Concerning Parent and Purchaser\n.\u201d\n\u25cf\nPurchaser\n                                            is Seahawk MergeCo., Inc. See \u201c\nThe Tender Offer\u2014Section 8.",
+      "method": "gliner",
+      "confidence": 0.7676320672035217,
+      "rank_score": 1.1176320672035218,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        4432,
+        4454
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Saltchuk Resources, Inc.",
+      "passage": "Certain Information Concerning Parent and Purchaser\n.\u201d\n\u25cf\nParent\n                                            is Saltchuk Resources, Inc. See \u201c\nThe Tender Offer\u2014Section 8.",
+      "method": "gliner",
+      "confidence": 0.7437090873718262,
+      "rank_score": 1.0937090873718263,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        4215,
+        4239
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE: OSG",
+      "passage": "(NYSE: OSG) (\u201c\nOSG\n\u201d),\nother than the Shares owned by Parent, Purchaser or any of their respective affiliates, for $8.50 per Share in cash (the \u201c\nOffer\nPrice\n\u201d) upon the terms and subject to the conditions described in the Offer to Purchase and in the related Letter of Transmittal,\ncopies of which are attached hereto as exhibits (a)(1)(A) and (a)(1)(B), respectively.",
+      "method": "gliner",
+      "confidence": 0.8331818580627441,
+      "rank_score": 1.033181858062744,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2045,
+        2054
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "OSG",
+      "passage": "DOES\nPARENT, PURCHASER OR ANY OF THEIR RESPECTIVE AFFILIATES ALREADY BENEFICIALLY OWN SHARES?\n\u25cf\nAs\n                                            of May 16, 2024, Parent was the beneficial owner of 15,203,554 Shares of OSG, representing\n                                            approximately 21.1% of the outstanding Shares of OSG, based on 72,030,977 Shares outstanding\n                                            as of May 16, 2024, excluding the Company Warrants (as defined below) exercisable for 507,535\n                                            Shares as of May 16, 2024.",
+      "method": "gliner",
+      "confidence": 0.6245488524436951,
+      "rank_score": 1.024548852443695,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        5084,
+        5087
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Internal Revenue Service",
+      "passage": "You must sign this Letter of Transmittal in the appropriate space provided therefor below, with signature guaranteed, if required, and\ncomplete and sign the Internal Revenue Service (the \u201c\nIRS\n\u201d) Form W-9 included in this Letter of Transmittal, if the\nstockholder is a United States person.",
+      "method": "gliner",
+      "confidence": 0.909759521484375,
+      "rank_score": 1.009759521484375,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2300,
+        2324
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_b.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "K&L\nGates LLP",
+      "passage": "McCreery\nK&L\nGates LLP\n925\nFourth Avenue\nSeattle,\nWA 98104\n(206)\n623-7580\n\u2610\nCheck\n    the box if the filing relates solely to preliminary communications made before the commencement of a tender offer.",
+      "method": "gliner",
+      "confidence": 0.7786615490913391,
+      "rank_score": 0.9786615490913391,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        802,
+        815
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Saltchuk Holdings, Inc.",
+      "passage": "Certain Information Concerning\nParent and Purchaser\u201d and \u201cSchedule A\u2014Information Concerning Members of the Boards of Directors and the Executive Officers\nof Purchaser, Parent, Saltchuk Holdings, Inc. and their Respective Controlling Corporations\u201d of the Offer to Purchase is incorporated\nherein by reference.",
+      "method": "gliner",
+      "confidence": 0.5620735883712769,
+      "rank_score": 0.9620735883712769,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        5203,
+        5226
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "15,203,554 Shares",
+      "passage": "DOES\nPARENT, PURCHASER OR ANY OF THEIR RESPECTIVE AFFILIATES ALREADY BENEFICIALLY OWN SHARES?\n\u25cf\nAs\n                                            of May 16, 2024, Parent was the beneficial owner of 15,203,554 Shares of OSG, representing\n                                            approximately 21.1% of the outstanding Shares of OSG, based on 72,030,977 Shares outstanding\n                                            as of May 16, 2024, excluding the Company Warrants (as defined below) exercisable for 507,535\n                                            Shares as of May 16, 2024.",
+      "method": "gliner",
+      "confidence": 0.5227386355400085,
+      "rank_score": 0.8527386355400086,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        5063,
+        5080
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "money_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Class\nA Common Stock",
+      "passage": "UNITED\nSTATES\nSECURITIES\nAND EXCHANGE COMMISSION\nWashington,\nD.C. 20549\nSCHEDULE\nTO\nTENDER\nOFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF\nTHE SECURITIES EXCHANGE ACT OF 1934\nOVERSEAS\nSHIPHOLDING GROUP, INC.\n(Name\nof Subject Company (Issuer))\nSEAHAWK\nMERGECO., INC.\n(Name\nof Filing Persons (Offeror))\nSALTCHUK\nRESOURCES, INC.\n(Name\nof Filing Persons (Parent of Offeror))\nClass\nA Common Stock, par value $0.01 per share\n(Title\nof Class of Securities)\n69036R863\n(CUSIP\nNumber of Class of Securities)\nJerald\nW.",
+      "method": "gliner",
+      "confidence": 0.642071545124054,
+      "rank_score": 0.8420715451240539,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        377,
+        397
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Fried Frank",
+      "passage": "A representative of Fried Frank then provided an overview of a key terms and conditions proposed to be reflected\nin the draft merger agreement that would be provided to potential counterparties.",
+      "method": "gliner",
+      "confidence": 0.7192741632461548,
+      "rank_score": 0.8192741632461548,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79540,
+        79551
+      ],
+      "source_hit_id": "0001493152-24-023286:formsc14d9.htm",
+      "source_accession": "0001493152-24-023286",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "72,030,977 Shares",
+      "passage": "DOES\nPARENT, PURCHASER OR ANY OF THEIR RESPECTIVE AFFILIATES ALREADY BENEFICIALLY OWN SHARES?\n\u25cf\nAs\n                                            of May 16, 2024, Parent was the beneficial owner of 15,203,554 Shares of OSG, representing\n                                            approximately 21.1% of the outstanding Shares of OSG, based on 72,030,977 Shares outstanding\n                                            as of May 16, 2024, excluding the Company Warrants (as defined below) exercisable for 507,535\n                                            Shares as of May 16, 2024.",
+      "method": "gliner",
+      "confidence": 0.48327115178108215,
+      "rank_score": 0.8132711517810822,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        5209,
+        5226
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "money_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Class A common stock",
+      "passage": "suer Tender Offer)\n\u2610\nRule\n    14d-1(d) (Cross-Border Third Party Tender Offer)\nThis\nTender Offer Statement on Schedule TO (this \u201c\nSchedule TO\n\u201d) relates to the offer (the \u201c\nOffer\n\u201d) by\nSeahawk MergeCo., Inc., a Delaware corporation (\u201c\nPurchaser\n\u201d) and a wholly owned subsidiary of Saltchuk Resources,\nInc., a Delaware corporation (\u201c\nParent\n\u201d), to purchase all of the issued and outstanding shares of Class A common stock,\npar value $0.01 per share (the \u201c\nShares\n\u201d), of Overseas Shipholding Group, Inc.",
+      "method": "gliner",
+      "confidence": 0.5998427867889404,
+      "rank_score": 0.7998427867889404,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1942,
+        1962
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Fried,\nFrank, Harris, Shriver & Jacobson LLP",
+      "passage": "Norton\nChief\nExecutive Officer\nOverseas\nShipholding Group, Inc.\nTwo\nHarbour Place\n302\nKnights Run Avenue, Suite 1200\nTampa,\nFlorida 33602\n(813)\n209-0600\n(Name,\nAddress and Telephone Number of Person Authorized\nto\nReceive Notices and Communications on Behalf of the Person(s) Filing Statement)\nWith\ncopies to:\nPhilip\nRichter\nRyan\nMessier\nFried,\nFrank, Harris, Shriver & Jacobson LLP\nOne\nNew York Plaza\nNew\nYork, New York 10004\n(212)\n859-8000\n\u2610\nCheck the box if the filing\n  relates solely to preliminary communications made before the commencement of a tender offer.\nTABLE\nOF CONTENTS\nITEM\n1.",
+      "method": "gliner",
+      "confidence": 0.440785676240921,
+      "rank_score": 0.7407856762409211,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        798,
+        842
+      ],
+      "source_hit_id": "0001493152-24-023286:formsc14d9.htm",
+      "source_accession": "0001493152-24-023286",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "approximately 21.1%",
+      "passage": "DOES\nPARENT, PURCHASER OR ANY OF THEIR RESPECTIVE AFFILIATES ALREADY BENEFICIALLY OWN SHARES?\n\u25cf\nAs\n                                            of May 16, 2024, Parent was the beneficial owner of 15,203,554 Shares of OSG, representing\n                                            approximately 21.1% of the outstanding Shares of OSG, based on 72,030,977 Shares outstanding\n                                            as of May 16, 2024, excluding the Company Warrants (as defined below) exercisable for 507,535\n                                            Shares as of May 16, 2024.",
+      "method": "gliner",
+      "confidence": 0.40899547934532166,
+      "rank_score": 0.7389954793453217,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        5146,
+        5165
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "money_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Evercore",
+      "passage": "After discussion,\na representative of Evercore presented to the Company Board certain financial information and discussed a potential timeline for next\nsteps in the process.",
+      "method": "gliner",
+      "confidence": 0.7203015089035034,
+      "rank_score": 0.7203015089035034,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79384,
+        79392
+      ],
+      "source_hit_id": "0001493152-24-023286:formsc14d9.htm",
+      "source_accession": "0001493152-24-023286",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "PARENT AND PURCHASER",
+      "passage": "FEDERAL INCOME TAX CONSEQUENCES OF THE OFFER AND THE MERGER.\n18\n6.\nPRICE\n    RANGE OF SHARES.\n21\n7.\nCERTAIN\n    INFORMATION CONCERNING OSG.\n21\n8.\nCERTAIN\n    INFORMATION CONCERNING PARENT AND PURCHASER.",
+      "method": "gliner",
+      "confidence": 0.4317184388637543,
+      "rank_score": 0.5817184388637543,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        417,
+        437
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Expiration Date",
+      "passage": "Eastern Time on July 9, 2024, unless extended in accordance with the terms of the\n    Merger Agreement and the applicable rules and regulations of the Securities and Exchange Commission, in which event the term \u201c\nExpiration\n    Date\n\u201d will mean the date to which the Expiration Date is so extended.\nPurchaser\nSeahawk\n    MergeCo., Inc., a Delaware corporation (\u201c\nPurchaser\n\u201d) and a wholly owned subsidiary of Saltchuk Resources, Inc.,\n    a Washington corporation (\u201c\nParent\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.7817666530609131,
+      "rank_score": 0.5617666530609131,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        3052,
+        3067
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Securities and Exchange Commission",
+      "passage": "The\nOffer is described in the Tender Offer Statement on Schedule TO (as amended or supplemented from time to time, the \u201c\nSchedule\nTO\n\u201d) filed by Purchaser and Parent with the Securities and Exchange Commission (the \u201c\nSEC\n\u201d) on June 10, 2024.\nThe Offer to Purchase and the form of Letter of Transmittal are filed as Exhibits (a)(1)(A) and (a)(1)(B) to the Schedule TO, respectively,\nare included as Exhibits (a)(1)(i) and (a)(1)(ii) to this Schedule 14D-9, respectively, and are incorporated herein by reference.",
+      "method": "gliner",
+      "confidence": 0.4379841089248657,
+      "rank_score": 0.5379841089248657,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4291,
+        4325
+      ],
+      "source_hit_id": "0001493152-24-023286:formsc14d9.htm",
+      "source_accession": "0001493152-24-023286",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP\nNumber",
+      "passage": "(Name\nof Filing Persons (Parent of Offeror))\nClass\nA Common Stock, par value $0.01 per share\n(Title\nof Class of Securities)\n69036R863\n(CUSIP\nNumber of Class of Securities)\nJerald\nW.",
+      "method": "gliner",
+      "confidence": 0.6579235792160034,
+      "rank_score": 0.3579235792160034,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        467,
+        479
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "OSG",
+      "passage": "DGCL)), together with any Shares owned by Parent, Purchaser, or any of their respective affiliates\n                                            as of the Expiration Date, equals at least one (1) Share more than a majority of all issued\n                                            and outstanding Shares as of the expiration of the Offer, other than any Shares held by OSG\n                                            in treasury as of the expiration of the Offer or any other Shares acquired by OSG prior to\n                                            the expiration of the Offer.",
+      "method": "gliner",
+      "confidence": 0.9123660326004028,
+      "rank_score": 0.31236603260040285,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        11277,
+        11280
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "org_name",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "\u25cf\nA\n                                            more detailed discussion of the Minimum Condition is contained in the \u201c\nIntroduction\n,\u201d\n                                            \u201c\nThe Tender Offer\u2014Section 1.",
+      "method": "gliner",
+      "confidence": 0.7626292705535889,
+      "rank_score": 0.2626292705535888,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        11569,
+        11586
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "OSG",
+      "passage": "The Offer is being made pursuant to the Agreement\nand Plan of Merger, dated as of May 19, 2024, by and among OSG, Parent and Purchaser (together with any amendments or supplements thereto,\nthe \u201c\nMerger Agreement\n\u201d), a copy of which is attached as Exhibit (d)(1) hereto and incorporated herein by reference\nwith respect to Items 4 through 11 of this Schedule TO.",
+      "method": "gliner",
+      "confidence": 0.887890636920929,
+      "rank_score": 0.23789063692092893,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2523,
+        2526
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "DOES\nPARENT, PURCHASER OR ANY OF THEIR RESPECTIVE AFFILIATES ALREADY BENEFICIALLY OWN SHARES?\n\u25cf\nAs\n                                            of May 16, 2024, Parent was the beneficial owner of 15,203,554 Shares of OSG, representing\n                                            approximately 21.1% of the outstanding Shares of OSG, based on 72,030,977 Shares outstanding\n                                            as of May 16, 2024, excluding the Company Warrants (as defined below) exercisable for 507,535\n                                            Shares as of May 16, 2024.",
+      "method": "gliner",
+      "confidence": 0.7130778431892395,
+      "rank_score": 0.21307784318923945,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET\n1\nINTRODUCTION\n10\nTHE",
+      "faq_question": null,
+      "char_span": [
+        5220,
+        5226
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Purchaser",
+      "passage": "Purchaser is not aware of any jurisdiction in which the making of the Offer or the\nacceptance thereof would be prohibited by securities, \u201cblue sky\u201d or other valid laws or regulations of such jurisdiction.\nIf Purchaser becomes aware of any U.S.",
+      "method": "gliner",
+      "confidence": 0.9417115449905396,
+      "rank_score": 0.19171154499053955,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3818,
+        3827
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_b.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "IRS",
+      "passage": "Stockholders who are not United States persons should submit a properly completed and signed IRS\nForm W-8BEN or IRS Form W-8BEN-E, as applicable, or other appropriate IRS Form W-8.",
+      "method": "gliner",
+      "confidence": 0.8176608085632324,
+      "rank_score": 0.1676608085632324,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2527,
+        2530
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_b.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Company",
+      "passage": "According to OSG, as of the close of business on June 6, 2024 there were: (i) 72,030,977 Shares\nissued and outstanding; (ii) 1,478,756 Shares subject to outstanding Company Stock Options, all of which were Company Stock Options with\nan exercise price per Share that is lower than the Offer Price; (iii) 3,310,622 Shares subject to Company RSU Awards (determined\nat the maximum level of performance for any Company RSU Award subject to performance-based vesting conditions for which the applicable\nperformance period has not ended prior to June 6, 2024); and (iv) outstanding Company Warrants to acquire a total of",
+      "method": "gliner",
+      "confidence": 0.7804436087608337,
+      "rank_score": 0.13044360876083372,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3867,
+        3874
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Offer Price",
+      "passage": "According to OSG, as of the close of business on June 6, 2024 there were: (i) 72,030,977 Shares\nissued and outstanding; (ii) 1,478,756 Shares subject to outstanding Company Stock Options, all of which were Company Stock Options with\nan exercise price per Share that is lower than the Offer Price; (iii) 3,310,622 Shares subject to Company RSU Awards (determined\nat the maximum level of performance for any Company RSU Award subject to performance-based vesting conditions for which the applicable\nperformance period has not ended prior to June 6, 2024); and (iv) outstanding Company Warrants to acquire a total of 507,535 Shares.",
+      "method": "gliner",
+      "confidence": 0.5990444421768188,
+      "rank_score": -0.0009555578231812412,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3945,
+        3956
+      ],
+      "source_hit_id": "0001493152-24-023284:formscto-t.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Computershare\n                                            Trust Company, N.A.",
+      "passage": "The\nDepositary and Paying Agent for the Offer Is\n:\nBy\n    First Class, Registered or Certified Mail\n:\nBy\n    Express or Overnight Delivery\n:\nComputershare\n                                            Trust Company, N.A.\nc/o\n    Voluntary Corporate Actions\nPO\n    Box 43011\nProvidence,\n    RI 02940-3011\nComputershare\n                                            Trust Company, N.A.",
+      "method": "gliner",
+      "confidence": 0.5794805288314819,
+      "rank_score": -0.37051947116851813,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        633,
+        710
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_b.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent",
+      "passage": "Pursuant\nto the Offer, subject to the satisfaction (or to the extent permitted, waiver) of conditions to the Offer, under the terms set forth\nin the Merger Agreement, the Purchaser is required to, and Parent is required to cause the Purchaser to, consummate the Offer, accept\nfor payment and thereafter pay for all Shares validly tendered and not validly withdrawn pursuant to the Offer, at the Offer Price.",
+      "method": "gliner",
+      "confidence": 0.906400203704834,
+      "rank_score": -0.39359979629516606,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        5160,
+        5166
+      ],
+      "source_hit_id": "0001493152-24-023286:formsc14d9.htm",
+      "source_accession": "0001493152-24-023286",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "state in which the making of the Offer or the acceptance of Shares pursuant thereto would not\nbe in compliance with an administrative or judicial action taken pursuant to a U.S.",
+      "method": "gliner",
+      "confidence": 0.5847743153572083,
+      "rank_score": -0.7152256846427918,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3914,
+        3920
+      ],
+      "source_hit_id": "0001493152-24-023284:exa-1_b.htm",
+      "source_accession": "0001493152-24-023284",
+      "label": "security_name",
+      "chunk_id": "w5"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.812855+00:00"
+}

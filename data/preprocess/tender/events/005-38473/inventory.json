@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-38473",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "TSR INC",
+  "primary_cik": "0000098338",
+  "written_at": "2026-09-17T06:01:41.494174+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "file_description",
+  "cohort": "gold",
+  "n_amendments": 6,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001174947-24-000769:ea0207075-sctot_vienna.htm",
+      "accession": "0001174947-24-000769",
+      "filename": "ea0207075-sctot_vienna.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "TENDER OFFER STATEMENT",
+      "file_date": "2024-05-30 00:00:00",
+      "primary_cik": "0000098338",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001174947-24-000769:ea020707501ex99-a1a_vienna.htm",
+      "accession": "0001174947-24-000769",
+      "filename": "ea020707501ex99-a1a_vienna.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.A1A",
+      "file_description": "OFFER TO PURCHASE, DATED MAY 30, 2024",
+      "file_date": "2024-05-30 00:00:00",
+      "primary_cik": "0000098338",
+      "otp_method": "file_description",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001174947-24-000769:ea020707501ex99-a1b_vienna.htm",
+      "accession": "0001174947-24-000769",
+      "filename": "ea020707501ex99-a1b_vienna.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.A1B",
+      "file_description": "FORM OF LETTER OF TRANSMITTAL (INCLUDING INTERNAL REVENUE SERVICE FORM W-9)",
+      "file_date": "2024-05-30 00:00:00",
+      "primary_cik": "0000098338",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001213900-24-047718:ea020700901sc14d9_tsrinc.htm",
+      "accession": "0001213900-24-047718",
+      "filename": "ea020700901sc14d9_tsrinc.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SCHEDULE 14D-9",
+      "file_date": "2024-05-30 00:00:00",
+      "primary_cik": "0000098338",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

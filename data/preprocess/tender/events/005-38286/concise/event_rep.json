@@ -1,0 +1,2841 @@
+{
+  "schema_version": "1",
+  "event_id": "005-38286",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "213991e2e7fabaabe6a5f5fa1538cd8f7cfe222e",
+      "hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "accession": "0001193125-20-269800",
+      "filename": "d18965dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "28dd842869f3632d11d089727ba11438d2707065",
+      "hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "accession": "0001193125-20-269800",
+      "filename": "d18965dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "7a69ee118a05eb078ea79fce34db71c8e3b2cae5",
+      "hit_id": "0001193125-20-269800:d18965dex99a1b.htm",
+      "accession": "0001193125-20-269800",
+      "filename": "d18965dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "fb78f481ad2056f07d2c704d666975b27e8c6bd6",
+      "hit_id": "0001104659-20-115117:tm2033066-2_sc14d9.htm",
+      "accession": "0001104659-20-115117",
+      "filename": "tm2033066-2_sc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "money_amount",
+      "text": "$320\u00a0million",
+      "score": 0.9670475721359253,
+      "rank_score": 1.7470475721359253,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$584.5 million",
+      "score": 0.9660979509353638,
+      "rank_score": 1.7460979509353638,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w3"
+    },
+    {
+      "label": "calendar_date",
+      "text": "October\u00a01, 2020",
+      "score": 0.9621205925941467,
+      "rank_score": 1.7421205925941468,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$13.75",
+      "score": 0.9470155835151672,
+      "rank_score": 1.7270155835151673,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "November 12, 2020",
+      "score": 0.9466692805290222,
+      "rank_score": 1.7266692805290222,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "$498 million",
+      "score": 0.935581386089325,
+      "rank_score": 1.715581386089325,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$25\u00a0million",
+      "score": 0.9343678951263428,
+      "rank_score": 1.7143678951263428,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "October 14, 2020",
+      "score": 0.9292227029800415,
+      "rank_score": 1.7092227029800415,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$460\u00a0million",
+      "score": 0.9243489503860474,
+      "rank_score": 1.7043489503860474,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "September\u00a030, 2020",
+      "score": 0.9175246953964233,
+      "rank_score": 1.6975246953964234,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "December 14, 2020",
+      "score": 0.9160199165344238,
+      "rank_score": 1.6960199165344239,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$140\u00a0million",
+      "score": 0.8903436660766602,
+      "rank_score": 1.6703436660766602,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$502.513",
+      "score": 0.8848456740379333,
+      "rank_score": 1.6648456740379334,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "$250\u00a0million",
+      "score": 0.8754607439041138,
+      "rank_score": 1.6554607439041138,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "$30\u00a0million",
+      "score": 0.8661671280860901,
+      "rank_score": 1.6461671280860901,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$170.5 million",
+      "score": 0.864558219909668,
+      "rank_score": 1.644558219909668,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "$55\u00a0million",
+      "score": 0.8533943891525269,
+      "rank_score": 1.6333943891525269,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "00163U106",
+      "score": 0.8555433750152588,
+      "rank_score": 1.6055433750152588,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May\u00a010, 2017",
+      "score": 0.7482555508613586,
+      "rank_score": 1.5282555508613587,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Covis Mergerco Inc.",
+      "score": 0.9115464091300964,
+      "rank_score": 1.3115464091300966,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "AMAG Pharmaceuticals, Inc.",
+      "score": 0.904872715473175,
+      "rank_score": 1.2548727154731751,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "AMAG",
+      "score": 0.889628529548645,
+      "rank_score": 1.239628529548645,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_10",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Surviving Corporation",
+      "score": 0.8874592185020447,
+      "rank_score": 1.2374592185020448,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "TSX",
+      "score": 0.8649918437004089,
+      "rank_score": 1.214991843700409,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_22",
+      "faq_question": null,
+      "section": "Schedule A",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Caligan Partners LP",
+      "score": 0.8016638159751892,
+      "rank_score": 1.1516638159751893,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:13",
+      "faq_question": "Have any\nstockholders already agreed to tender their Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "January\u00a028, 2021",
+      "score": 0.5432759523391724,
+      "rank_score": 1.1432759523391722,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Apollo Management IX, L.P.",
+      "score": 0.7426183819770813,
+      "rank_score": 1.1426183819770814,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "The Flowr Corporation",
+      "score": 0.8026095032691956,
+      "rank_score": 1.1026095032691956,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_22",
+      "faq_question": null,
+      "section": "Schedule A",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "9:00 A.M.",
+      "score": 0.7701368927955627,
+      "rank_score": 1.1001368927955628,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Apollo Management IX, L.P",
+      "score": 0.7974000573158264,
+      "rank_score": 1.0974000573158265,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Apollo Global Management, Inc.",
+      "score": 0.7943935394287109,
+      "rank_score": 1.094393539428711,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "calendar_date",
+      "text": "business day immediately preceding the Fundamental\nChange Repurchase Date",
+      "score": 0.7529022693634033,
+      "rank_score": 1.0829022693634034,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "org_name",
+      "text": "Goldman Sachs",
+      "score": 0.923102080821991,
+      "rank_score": 1.073102080821991,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Management IX",
+      "score": 0.9607195258140564,
+      "rank_score": 1.0607195258140565,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_12",
+      "faq_question": null,
+      "section": "9.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "December\u00a031, 2019",
+      "score": 0.4010760486125946,
+      "rank_score": 1.0510760486125945,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_11",
+      "faq_question": null,
+      "section": "8.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "HPS Investment Partners, LLC",
+      "score": 0.6500722765922546,
+      "rank_score": 1.0500722765922548,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "12:00 Midnight",
+      "score": 0.7170328497886658,
+      "rank_score": 1.0470328497886658,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_1",
+      "faq_question": null,
+      "section": "Summary Term Sheet",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Covis Mergerco Inc.",
+      "score": 0.7441675662994385,
+      "rank_score": 1.0441675662994385,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_2",
+      "faq_question": null,
+      "section": "Introduction",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Wilmington Trust, National Association",
+      "score": 0.66819167137146,
+      "rank_score": 1.01819167137146,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Covis Finco S.\u00e0 r.l.",
+      "score": 0.8173559904098511,
+      "rank_score": 1.017355990409851,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "PRSU",
+      "score": 0.5989787578582764,
+      "rank_score": 0.9989787578582764,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Apollo Management IX, L.P.",
+      "score": 0.6668601632118225,
+      "rank_score": 0.9668601632118226,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "RSU",
+      "score": 0.561513364315033,
+      "rank_score": 0.961513364315033,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Surviving Corporation",
+      "score": 0.5870346426963806,
+      "rank_score": 0.9370346426963807,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What will happen to my stock options in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Company Options",
+      "score": 0.8822077512741089,
+      "rank_score": 0.9322077512741089,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Management IX",
+      "score": 0.8196991086006165,
+      "rank_score": 0.9196991086006164,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_12",
+      "faq_question": null,
+      "section": "9.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NASDAQ",
+      "score": 0.8973739743232727,
+      "rank_score": 0.8973739743232727,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_22",
+      "faq_question": null,
+      "section": "Schedule A",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "October\u00a01, 2020",
+      "score": 0.4232613742351532,
+      "rank_score": 0.8732613742351532,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "date of the Merger",
+      "score": 0.5387177467346191,
+      "rank_score": 0.8687177467346192,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "Repurchase Right",
+      "score": 0.8148336410522461,
+      "rank_score": 0.8648336410522461,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "section": null,
+      "chunk_id": "w4"
+    },
+    {
+      "label": "calendar_date",
+      "text": "business day",
+      "score": 0.4945523142814636,
+      "rank_score": 0.8245523142814637,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Convertible Notes",
+      "score": 0.8240525722503662,
+      "rank_score": 0.8240525722503662,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_10",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "AMAG PHARMACEUTICALS, INC.",
+      "score": 0.5050451755523682,
+      "rank_score": 0.8050451755523682,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Conversion Right",
+      "score": 0.7408221960067749,
+      "rank_score": 0.790822196006775,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "section": null,
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "TSX-V",
+      "score": 0.7889692187309265,
+      "rank_score": 0.7889692187309265,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_22",
+      "faq_question": null,
+      "section": "Schedule A",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Covis",
+      "score": 0.7874608039855957,
+      "rank_score": 0.7874608039855957,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Covis Group S.\u00e0\nr.l.",
+      "score": 0.6786767840385437,
+      "rank_score": 0.7786767840385437,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_2",
+      "faq_question": null,
+      "section": "Introduction",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash",
+      "score": 0.7209640741348267,
+      "rank_score": 0.7709640741348267,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Is your financial condition material to my decision to tender in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "AMAG Pharmaceuticals, Inc.",
+      "score": 0.5575379133224487,
+      "rank_score": 0.7575379133224487,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and Management IX",
+      "score": 0.6451898813247681,
+      "rank_score": 0.745189881324768,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_12",
+      "faq_question": null,
+      "section": "9.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Offer Conditions",
+      "score": 0.731829047203064,
+      "rank_score": 0.731829047203064,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_4",
+      "faq_question": null,
+      "section": "1.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "AMAG Common Stock",
+      "score": 0.6805956363677979,
+      "rank_score": 0.7305956363677979,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "commercial bank",
+      "score": 0.5756736993789673,
+      "rank_score": 0.7256736993789673,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Goldman Sachs",
+      "score": 0.6189078688621521,
+      "rank_score": 0.7189078688621521,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "commercial banks",
+      "score": 0.6164854764938354,
+      "rank_score": 0.7164854764938354,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_4",
+      "faq_question": null,
+      "section": "1.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "isin_code",
+      "text": "ions",
+      "score": 0.6873556971549988,
+      "rank_score": 0.6873556971549988,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "USRPHC",
+      "score": 0.6132709980010986,
+      "rank_score": 0.6632709980010987,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What are the U.S. federal income tax consequences of participating in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "target",
+      "score": 0.6103395819664001,
+      "rank_score": 0.6603395819664002,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Company Option",
+      "score": 0.5822755694389343,
+      "rank_score": 0.6322755694389344,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What will happen to my stock options in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective date of the merger",
+      "score": 0.5663425326347351,
+      "rank_score": 0.5663425326347351,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "available_option",
+      "text": "alternative",
+      "score": 0.5413287878036499,
+      "rank_score": 0.5413287878036499,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_6",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "available_option",
+      "text": "RSUs",
+      "score": 0.4318089783191681,
+      "rank_score": 0.4818089783191681,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "proration_terms",
+      "text": "Conditions of the Offer",
+      "score": 0.4317820370197296,
+      "rank_score": 0.4317820370197296,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9296331405639648,
+      "rank_score": 0.4296331405639648,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.9451330900192261,
+      "rank_score": 0.39513309001922603,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9182082414627075,
+      "rank_score": 0.3682082414627075,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.5907790064811707,
+      "rank_score": 0.2907790064811706,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Share",
+      "score": 0.7777746915817261,
+      "rank_score": 0.277774691581726,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "HSR Condition",
+      "score": 0.8040377497673035,
+      "rank_score": 0.2540377497673034,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S.\ndollar",
+      "score": 0.5536240935325623,
+      "rank_score": 0.25362409353256227,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.5566629767417908,
+      "rank_score": 0.20666297674179068,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "PRSU",
+      "score": 0.5894936919212341,
+      "rank_score": 0.08949369192123413,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "AMAG",
+      "score": 0.6142663359642029,
+      "rank_score": 0.06426633596420289,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Covenants Condition",
+      "score": 0.6089516878128052,
+      "rank_score": 0.05895168781280513,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Representations Condition",
+      "score": 0.5585407018661499,
+      "rank_score": 0.008540701866149858,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Closing Date",
+      "score": 0.5121519565582275,
+      "rank_score": -0.037848043441772505,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Depositary and Paying Agent",
+      "score": 0.4148781895637512,
+      "rank_score": -0.08512181043624882,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "How do I tender my Shares?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "MAE Condition",
+      "score": 0.46325764060020447,
+      "rank_score": -0.08674235939979558,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "DTC",
+      "score": 0.41877782344818115,
+      "rank_score": -0.1312221765518189,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_6",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Parent",
+      "score": 0.40354907512664795,
+      "rank_score": -0.1464509248733521,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_22",
+      "faq_question": null,
+      "section": "Schedule A",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "AMAG",
+      "score": 0.5442907810211182,
+      "rank_score": -0.1557092189788818,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_12",
+      "faq_question": null,
+      "section": "9.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.901323676109314,
+      "rank_score": -0.3986763238906861,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Common Stock",
+      "score": 0.5395892262458801,
+      "rank_score": -0.7604107737541199,
+      "doc_role": "otp",
+      "segment_id": "otp:section:rom18965_17",
+      "faq_question": null,
+      "section": "14.",
+      "chunk_id": "w0"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "offer_price",
+      "raw": "$320\u00a0million",
+      "passage": "cing Borrower has entered into in connection with the execution of the Merger Agreement (the \u201c Debt Commitment\nLetter \u201d), which provides for (i)\u00a0up to $460\u00a0million of incremental senior secured term loans, of which $140\u00a0million will be available to consummate the Offer and the Merger (such incremental senior secured term loans, the\n\u201c Initial Incremental Term Loans \u201d or the \u201c Debt Financing \u201d) and $320\u00a0million will be available after the Closing Date in the form of delayed draw term loans to fund the repurchase, retirement or redemption of the\nConvertible Notes (the \u201c Delayed Draw Incremental Term Loans \u201d), and (ii)\u00a0a $25\u00a0million incremental senior secured revolving loan facility, the proceeds of which are not expected to be used to consummate the Offer or the\nMerger, but which may be used by the Survi",
+      "method": "gliner",
+      "confidence": 0.9670475721359253,
+      "rank_score": 1.7470475721359253,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        878,
+        890
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$584.5 million",
+      "passage": "On the Closing Date, after giving effect to the Transactions, the Debt Financing Borrower\u2019s credit agreement will provide for (i) $584.5 million of\noutstanding term loans (including the Initial Incremental Term Loans), (ii) commitments for $320\u00a0million of Delayed Draw Incremental Term Loans and (iii)\u00a0a $55\u00a0million revolving loan facility. See Section\u00a012\u2014\u201cSources\nand Amount of Funds\u201d of this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.9660979509353638,
+      "rank_score": 1.7460979509353638,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        2394,
+        2408
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "October\u00a01, 2020",
+      "passage": "The Offeror and Parent expect to fund such cash requirements from the proceeds from\n(1)\u00a0debt facilities contemplated by a debt commitment letter, dated as of October\u00a01, 2020, that the Debt Financing Borrower has entered into in connection with the execution of the Merger Agreement (the \u201c Debt Commitment\nLetter \u201d), which provides for (i)\u00a0up to $460\u00a0million of incremental senior secured term loans, of which $140\u00a0million will be available to consummate the Offer and the Merger (such incremental senior secured term loans, the\n\u201c Initial Incremental Term Loans \u201d or the \u201c D",
+      "method": "gliner",
+      "confidence": 0.9621205925941467,
+      "rank_score": 1.7421205925941468,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        442,
+        457
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$13.75",
+      "passage": "Yes. Goldman Sachs\u00a0& Co. LLC (\u201c Goldman Sachs \u201d), the financial advisor to AMAG, has rendered to the AMAG\nBoard, on October\u00a01, 2020, which was subsequently confirmed by delivery of its written opinion, dated October\u00a01, 2020, that, as of such date and based upon and subject to the factors and assumptions set forth therein, the $13.75 in cash\nper Share of AMAG Common Stock to be paid to the holders of Shares of AMAG Common Stock (other than Parent and its affiliates) pursuant to the Merger Agreement was fair from a financial point of view to such holders.",
+      "method": "gliner",
+      "confidence": 0.9470155835151672,
+      "rank_score": 1.7270155835151673,
+      "doc_role": "otp",
+      "section": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "faq_question": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "char_span": [
+        328,
+        334
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "November 12, 2020",
+      "passage": "Scheduled Expiration Date\n12:00 Midnight, New York City time, on November 12, 2020 (one minute after 11:59 P.M., New York City time, on November 12, 2020), unless the offer is extended or earlier terminated.\nOfferor\nCovis Mergerco Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d) and an indirect wholly owned subsidiary of Covis Group S.\u00e0 r.l., a Luxembourg private limited liability company (\u201c\nParent\n\u201d).\nParent is controlled by certain equity funds managed by Apollo Management IX, L.P.",
+      "method": "gliner",
+      "confidence": 0.9466692805290222,
+      "rank_score": 1.7266692805290222,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        2318,
+        2335
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$498 million",
+      "passage": "Yes. Consummation of the Offer (the \u201c Offer Closing \u201d) is not subject to any financing condition. The total amount of funds\nrequired by the Offeror and Parent to consummate the Offer and to provide funding for the Merger is approximately $498 million, plus related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.935581386089325,
+      "rank_score": 1.715581386089325,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        238,
+        250
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$25\u00a0million",
+      "passage": "on will be available to consummate the Offer and the Merger (such incremental senior secured term loans, the\n\u201c Initial Incremental Term Loans \u201d or the \u201c Debt Financing \u201d) and $320\u00a0million will be available after the Closing Date in the form of delayed draw term loans to fund the repurchase, retirement or redemption of the\nConvertible Notes (the \u201c Delayed Draw Incremental Term Loans \u201d), and (ii)\u00a0a $25\u00a0million incremental senior secured revolving loan facility, the proceeds of which are not expected to be used to consummate the Offer or the\nMerger, but which may be used by the Surviving Corporation, together with the Debt Financing Borrower\u2019s existing $30\u00a0million revolving loan facility, for general corporate purposes after completion of the Transactions, and (2)\u00a0an\nequity investment contemplated pursu",
+      "method": "gliner",
+      "confidence": 0.9343678951263428,
+      "rank_score": 1.7143678951263428,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        1103,
+        1114
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "October 14, 2020",
+      "passage": "The Offer Price of $13.75 per Share represents a premium of approximately 46% over the closing price of $9.40 per Share reported on NASDAQ on\nSeptember\u00a030, 2020, the last full trading day prior to the public announcement of the signing of the Merger Agreement. On October 14, 2020, the last full trading day before the Offeror commenced the Offer, the closing price of the Shares\nreported on the NASDAQ was $13.45 per Share.\nWe advise you to obtain a recent quotation for Shares in deciding whether to tender your\nShares in the Offer. See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.9292227029800415,
+      "rank_score": 1.7092227029800415,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        264,
+        280
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$460\u00a0million",
+      "passage": "The Offeror and Parent expect to fund such cash requirements from the proceeds from\n(1)\u00a0debt facilities contemplated by a debt commitment letter, dated as of October\u00a01, 2020, that the Debt Financing Borrower has entered into in connection with the execution of the Merger Agreement (the \u201c Debt Commitment\nLetter \u201d), which provides for (i)\u00a0up to $460\u00a0million of incremental senior secured term loans, of which $140\u00a0million will be available to consummate the Offer and the Merger (such incremental senior secured term loans, the\n\u201c Initial Incremental Term Loans \u201d or the \u201c Debt Financing \u201d) and $320\u00a0million will be available after the Closing Date in the form of delayed draw term loans to fund the repurchase, retirement or redemption of the\nConvertible No",
+      "method": "gliner",
+      "confidence": 0.9243489503860474,
+      "rank_score": 1.7043489503860474,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        629,
+        641
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "September\u00a030, 2020",
+      "passage": "The Offer Price of $13.75 per Share represents a premium of approximately 46% over the closing price of $9.40 per Share reported on NASDAQ on\nSeptember\u00a030, 2020, the last full trading day prior to the public announcement of the signing of the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.9175246953964233,
+      "rank_score": 1.6975246953964234,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        142,
+        160
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December 14, 2020",
+      "passage": "Yes. You may withdraw previously tendered Shares any time prior to the Expiration Date, and, if not previously accepted for payment, at any\ntime after December 14, 2020, the date that is sixty days after the date of the commencement of the Offer, pursuant to SEC regulations, by following the procedures for withdrawing your Shares in a timely manner.",
+      "method": "gliner",
+      "confidence": 0.9160199165344238,
+      "rank_score": 1.6960199165344239,
+      "doc_role": "otp",
+      "section": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "faq_question": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "char_span": [
+        151,
+        168
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$140\u00a0million",
+      "passage": "or and Parent expect to fund such cash requirements from the proceeds from\n(1)\u00a0debt facilities contemplated by a debt commitment letter, dated as of October\u00a01, 2020, that the Debt Financing Borrower has entered into in connection with the execution of the Merger Agreement (the \u201c Debt Commitment\nLetter \u201d), which provides for (i)\u00a0up to $460\u00a0million of incremental senior secured term loans, of which $140\u00a0million will be available to consummate the Offer and the Merger (such incremental senior secured term loans, the\n\u201c Initial Incremental Term Loans \u201d or the \u201c Debt Financing \u201d) and $320\u00a0million will be available after the Closing Date in the form of delayed draw term loans to fund the repurchase, retirement or redemption of the\nConvertible Notes (the \u201c Delayed Draw Incremental Term Loans \u201d), and (ii)\u00a0a $2",
+      "method": "gliner",
+      "confidence": 0.8903436660766602,
+      "rank_score": 1.6703436660766602,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        693,
+        705
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$502.513",
+      "passage": "e terms of the Indenture, also enter into a supplemental indenture providing that the right to convert each $1,000 principal amount of Convertible Notes shall be changed into a right to convert such principal amount of Convertible Notes into\nthe amount of cash that a holder of Shares equal to the conversion rate immediately prior to the Merger would have been entitled to receive in the Merger, or $502.513 (with no further right to convert into shares of AMAG or any other entity).",
+      "method": "gliner",
+      "confidence": 0.8848456740379333,
+      "rank_score": 1.6648456740379334,
+      "doc_role": "otp",
+      "section": "What will happen to my Convertible Notes in the Merger?",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "char_span": [
+        1945,
+        1953
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$250\u00a0million",
+      "passage": "of the Transactions, and (2)\u00a0an\nequity investment contemplated pursuant to an equity commitment letter, dated October\u00a01, 2020, that Parent has entered into with limited partnerships that comprise Apollo Investment Fund IX, a private equity investment fund managed by\nManagement IX, in connection with the execution of the Merger Agreement (the \u201c Equity Commitment Letter \u201d), which provides for up to $250\u00a0million in aggregate of equity financing and (3)\u00a0Parent\u2019s, AMAG\u2019s and their\nrespective subsidiaries\u2019 available cash which, as at September\u00a030, 2020, totaled approximately $170.5 million in the aggregate.",
+      "method": "gliner",
+      "confidence": 0.8754607439041138,
+      "rank_score": 1.6554607439041138,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        1846,
+        1858
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$30\u00a0million",
+      "passage": "erm loans to fund the repurchase, retirement or redemption of the\nConvertible Notes (the \u201c Delayed Draw Incremental Term Loans \u201d), and (ii)\u00a0a $25\u00a0million incremental senior secured revolving loan facility, the proceeds of which are not expected to be used to consummate the Offer or the\nMerger, but which may be used by the Surviving Corporation, together with the Debt Financing Borrower\u2019s existing $30\u00a0million revolving loan facility, for general corporate purposes after completion of the Transactions, and (2)\u00a0an\nequity investment contemplated pursuant to an equity commitment letter, dated October\u00a01, 2020, that Parent has entered into with limited partnerships that comprise Apollo Investment Fund IX, a private equity investment fund managed by\nManagement IX, in connection with the execution of the Merg",
+      "method": "gliner",
+      "confidence": 0.8661671280860901,
+      "rank_score": 1.6461671280860901,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        1361,
+        1372
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$170.5 million",
+      "passage": "ships that comprise Apollo Investment Fund IX, a private equity investment fund managed by\nManagement IX, in connection with the execution of the Merger Agreement (the \u201c Equity Commitment Letter \u201d), which provides for up to $250\u00a0million in aggregate of equity financing and (3)\u00a0Parent\u2019s, AMAG\u2019s and their\nrespective subsidiaries\u2019 available cash which, as at September\u00a030, 2020, totaled approximately $170.5 million in the aggregate.",
+      "method": "gliner",
+      "confidence": 0.864558219909668,
+      "rank_score": 1.644558219909668,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        2022,
+        2036
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$55\u00a0million",
+      "passage": "On the Closing Date, after giving effect to the Transactions, the Debt Financing Borrower\u2019s credit agreement will provide for (i) $584.5 million of\noutstanding term loans (including the Initial Incremental Term Loans), (ii) commitments for $320\u00a0million of Delayed Draw Incremental Term Loans and (iii)\u00a0a $55\u00a0million revolving loan facility. See Section\u00a012\u2014\u201cSources\nand Amount of Funds\u201d of this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.8533943891525269,
+      "rank_score": 1.6333943891525269,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        2568,
+        2579
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "money_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "00163U106",
+      "passage": "(Name of Filing Persons (Other Person))\nCommon Stock,\n$0.01 par value\n(Title of Class\u00a0of Securities)\n00163U106\n(CUSIP Number of\nClass\u00a0of Securities)\nCovis Mergerco Inc.\nc/o Covis Group S.\u00e0 r.l.\n2, avenue Charles de Gaulle\nL-1653\nLuxembourg, Grand Duchy of Luxembourg\nAttention: Francesco Tallarico\nTelephone: +41 41 748 04 04\nFax: +41 41 748 04 09\n(Name, address, and telephone numbers of person authorized to receive notices and communications on behalf of filing persons)\nWith a copy to:\nDavid K.",
+      "method": "gliner",
+      "confidence": 0.8555433750152588,
+      "rank_score": 1.6055433750152588,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        529,
+        538
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May\u00a010, 2017",
+      "passage": "However, pursuant to the Merger Agreement, following the Effective Time, Parent has agreed to cause the Surviving\nCorporation to take all actions required by the indenture dated as of May\u00a010, 2017 by and between AMAG and Wilmington Trust, National Association, as supplemented by the first supplemental indenture dated as of May\u00a010, 2017, governing the\nConvertible Notes (as supplemented, the \u201c Indenture \u201d) with respect to any Convertible Notes then outstanding.",
+      "method": "gliner",
+      "confidence": 0.7482555508613586,
+      "rank_score": 1.5282555508613587,
+      "doc_role": "otp",
+      "section": "What will happen to my Convertible Notes in the Merger?",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "char_span": [
+        440,
+        452
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Covis Mergerco Inc.",
+      "passage": "eporting the results of the tender offer:\u00a0\u00a0\u2610\nIf applicable, check the appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\n13e-4(i)\n(Cross-Border Issuer Tender Offer)\n\u2610\nRule\n14d-1(d)\n(Cross-Border Third-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements\nhereto, this \u201c\nSchedule TO\n\u201d) is being filed by Covis Mergerco Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d), Covis Group S.\u00e0\u00a0r.l., a Luxembourg private limited liability company\n(\u201c\nParent\n\u201d), and Apollo Management IX, L.P., a Delaware limited partnership (\u201c\nManagement IX\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.9115464091300964,
+      "rank_score": 1.3115464091300966,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3621,
+        3640
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AMAG Pharmaceuticals, Inc.",
+      "passage": "Securities Sought\nAll issued and outstanding shares (the \u201c\nShares\n\u201d) of common stock, par value $0.01 per share (the \u201c\nCo\nmmon Stock\n\u201d), of AMAG Pharmaceuticals, Inc., a Delaware corporation\n(\u201c\nAMAG\n\u201d or the \u201c\nCompany\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.904872715473175,
+      "rank_score": 1.2548727154731751,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        1932,
+        1958
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "AMAG",
+      "passage": "The Shares are currently listed on the NASDAQ and trade under\nthe symbol \u201cAMAG\u201d.",
+      "method": "gliner",
+      "confidence": 0.889628529548645,
+      "rank_score": 1.239628529548645,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        1881,
+        1885
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Surviving Corporation",
+      "passage": "If the Offeror accepts Shares for payment pursuant to the Offer and the Merger is consummated, the Surviving Corporation will, in accordance\nwith the terms of the Indenture, also enter into a supplemental indenture providing that the right to convert each $1,000 principal amount of Convertible Notes shall be changed into a right to convert such principal amount of Convertible Notes into\nthe amount of cash that a holder of Shares equal to the conversion rate immediately prior to the Merger would have been entitled t",
+      "method": "gliner",
+      "confidence": 0.8874592185020447,
+      "rank_score": 1.2374592185020448,
+      "doc_role": "otp",
+      "section": "What will happen to my Convertible Notes in the Merger?",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "char_span": [
+        1496,
+        1517
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "TSX",
+      "passage": "(now Advanz Pharma), a global\nspecialty pharmaceutical company previously listed on the TSX and NASDAQ.",
+      "method": "gliner",
+      "confidence": 0.8649918437004089,
+      "rank_score": 1.214991843700409,
+      "doc_role": "otp",
+      "section": "Schedule A",
+      "faq_question": null,
+      "char_span": [
+        4132,
+        4135
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Caligan Partners LP",
+      "passage": "Yes. On October\u00a01, 2020, certain of AMAG\u2019s stockholders,\nincluding its current directors and executive officers and Caligan Partners LP, one of the significant stockholders in AMAG, who collectively beneficially own 3,704,184 Shares (excluding Shares issuable upon exercise of Company Options and Shares\nissuable with respect to Company Restricted Stock Awards (as defined below)), have entered into a support agreement (the \u201c Support Agreement \u201d) with Parent and the Offeror, pursuant to which they agreed, among other things, to\n5",
+      "method": "gliner",
+      "confidence": 0.8016638159751892,
+      "rank_score": 1.1516638159751893,
+      "doc_role": "otp",
+      "section": "Have any\nstockholders already agreed to tender their Shares in the Offer?",
+      "faq_question": "Have any\nstockholders already agreed to tender their Shares in the Offer?",
+      "char_span": [
+        116,
+        135
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "January\u00a028, 2021",
+      "passage": "In the event that (a)\u00a0the Closing Date does not occur on or before 11:59, New York\nCity Time, on January\u00a028, 2021, (b) the Merger Agreement is validly terminated without the consummation of the Merger having occurred, (c)\u00a0the Offer lapses or is withdrawn or (d)\u00a0the Merger closes without the use of the Incremental\nFacilities, then the Debt Commitment Letter and the commitment of the lenders with respect to the Incremental Facilities will automatically terminate, unless the lenders, in their discretion, agree",
+      "method": "gliner",
+      "confidence": 0.5432759523391724,
+      "rank_score": 1.1432759523391722,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        4041,
+        4057
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Apollo Management IX, L.P.",
+      "passage": "upon:\n\u2610\nRule\n13e-4(i)\n(Cross-Border Issuer Tender Offer)\n\u2610\nRule\n14d-1(d)\n(Cross-Border Third-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements\nhereto, this \u201c\nSchedule TO\n\u201d) is being filed by Covis Mergerco Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d), Covis Group S.\u00e0\u00a0r.l., a Luxembourg private limited liability company\n(\u201c\nParent\n\u201d), and Apollo Management IX, L.P., a Delaware limited partnership (\u201c\nManagement IX\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.7426183819770813,
+      "rank_score": 1.1426183819770814,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3771,
+        3797
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "The Flowr Corporation",
+      "passage": "Mr.\u00a0Kilic is a Chartered Management Accountant (CIMA UK).\nFrancesco Tallarico, General Counsel, Secretary\n250 West 55th Street, New York, New York, 25th Floor, 10019\nCanadian\nMr.\u00a0Tallarico is the General Counsel and Group Corporate Secretary of Covis Pharma.\nPrior to joining Covis, Mr.\u00a0Tallarico served as the Chief Legal Officer and\nCorporate Secretary at The Flowr Corporation, a federally licensed global cannabis producer listed on the\nTSX-V.\nAt Flowr, Mr.\u00a0Tallarico managed all aspects of the legal and regulatory function of the\ncompany, including having led the company\u2019s M&A and corporate finance transactions valued at over CAD$340\u00a0million.\nPrior to Flowr, Mr.\u00a0Tallarico served as the Chief Legal Officer and Corporate Secretary at Concordia International Corp.",
+      "method": "gliner",
+      "confidence": 0.8026095032691956,
+      "rank_score": 1.1026095032691956,
+      "doc_role": "otp",
+      "section": "Schedule A",
+      "faq_question": null,
+      "char_span": [
+        3630,
+        3651
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "9:00 A.M.",
+      "passage": "If we extend the Offer, we will inform the Depositary and Paying Agent for the Offer of that fact and will make a public announcement of the\nextension no later than 9:00 A.M., New York City time, on the business day after the day on which the Offer was scheduled to expire.",
+      "method": "gliner",
+      "confidence": 0.7701368927955627,
+      "rank_score": 1.1001368927955628,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        165,
+        174
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Apollo Management IX, L.P",
+      "passage": "Parent and Merger Sub are owned by certain equity funds (the \u201c\nApollo Funds\n\u201d) managed by Apollo Management IX, L.P (\u201c\nApollo Management IX\n\u201d), a Delaware limited partnership and a subsidiary of Apollo Global Management, Inc.",
+      "method": "gliner",
+      "confidence": 0.7974000573158264,
+      "rank_score": 1.0974000573158265,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4313,
+        4338
+      ],
+      "source_hit_id": "0001104659-20-115117:tm2033066-2_sc14d9.htm",
+      "source_accession": "0001104659-20-115117",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Apollo Global Management, Inc.",
+      "passage": "Parent and Merger Sub are owned by certain equity funds (the \u201c\nApollo Funds\n\u201d) managed by Apollo Management IX, L.P (\u201c\nApollo Management IX\n\u201d), a Delaware limited partnership and a subsidiary of Apollo Global Management, Inc. (\u201c\nApollo Global Management\n\u201d and, together with its other consolidated subsidiaries, \u201c\nApollo\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.7943935394287109,
+      "rank_score": 1.094393539428711,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4418,
+        4448
+      ],
+      "source_hit_id": "0001104659-20-115117:tm2033066-2_sc14d9.htm",
+      "source_accession": "0001104659-20-115117",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "business day immediately preceding the Fundamental\nChange Repurchase Date",
+      "passage": "If the\nOfferor accepts Shares for payment pursuant to the Offer, holders will have a right, which right must be exercised during the period from the date of the Merger until the close of business on the business day immediately preceding the Fundamental\nChange Repurchase Date, to convert such holder\u2019s Convertible Notes (the \u201c Conversion Right \u201d) into cash as described above.",
+      "method": "gliner",
+      "confidence": 0.7529022693634033,
+      "rank_score": 1.0829022693634034,
+      "doc_role": "otp",
+      "section": "What will happen to my Convertible Notes in the Merger?",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "char_span": [
+        2233,
+        2306
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Goldman Sachs",
+      "passage": "The full text of Goldman\nSachs\u2019s written opinion, which describes the various assumptions made, procedures followed, matters considered and limitations upon the review undertaken by Goldman Sachs in connection with its opinion, will be included as an annex to the\nSchedule 14D-9. Stockholders are urged to read the full text of that opinion carefully and in its entirety.",
+      "method": "gliner",
+      "confidence": 0.923102080821991,
+      "rank_score": 1.073102080821991,
+      "doc_role": "otp",
+      "section": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "faq_question": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "char_span": [
+        742,
+        755
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "org_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Management IX",
+      "passage": "Except as set forth elsewhere in this Offer to Purchase, (i)\u00a0none of Parent, the Offeror,\nManagement IX or, to the knowledge of each of Parent, the Offeror and Management IX, any of the entities or persons listed in Schedule A has, during the past five years, been convicted in a criminal proceeding (excluding traffic violations or\nsimilar misdemeanors), and (ii)\u00a0none of Parent, the Offeror, Management IX or, to the best of their knowledge, any of the entities or persons listed in Schedule A has, du",
+      "method": "gliner",
+      "confidence": 0.9607195258140564,
+      "rank_score": 1.0607195258140565,
+      "doc_role": "otp",
+      "section": "9.",
+      "faq_question": null,
+      "char_span": [
+        3022,
+        3035
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a031, 2019",
+      "passage": "The address of that site is\nhttp://www.sec.gov\n.\nSources of Information.\nExcept as otherwise set forth herein, the information concerning AMAG and its business has been taken\nfrom AMAG\u2019s Annual Report on Form\n10-K\nfor its fiscal year ended December\u00a031, 2019, as amended, publicly available documents and records on file with the SEC and other public sources and is qualified\nin its entirety by such records.",
+      "method": "gliner",
+      "confidence": 0.4010760486125946,
+      "rank_score": 1.0510760486125945,
+      "doc_role": "otp",
+      "section": "8.",
+      "faq_question": null,
+      "char_span": [
+        2280,
+        2297
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "HPS Investment Partners, LLC",
+      "passage": "(a)(5)(D)\nText of press release announcing launch of Tender Offer, dated October 15, 2020.*\n(b)(1)\nDebt Commitment Letter, dated as of October\u00a01, 2020, among Covis Finco S.\u00e0\u00a0r.l., HPS Investment Partners, LLC, and Capital One, National Association.*\n(d)(1)\nAgreement and Plan of Merger, dated as of October\u00a01, 2020, by and among AMAG, Parent, the Offeror, and Covis Finco S.\u00e0 r.l.",
+      "method": "gliner",
+      "confidence": 0.6500722765922546,
+      "rank_score": 1.0500722765922548,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        14449,
+        14477
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "12:00 Midnight",
+      "passage": "Scheduled Expiration Date\n12:00 Midnight, New York City time, on November 12, 2020 (one minute after 11:59 P.M., New York City time, on November 12, 2020), unless the offer is extended or earlier terminated.",
+      "method": "gliner",
+      "confidence": 0.7170328497886658,
+      "rank_score": 1.0470328497886658,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet",
+      "faq_question": null,
+      "char_span": [
+        2208,
+        2222
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Covis Mergerco Inc.",
+      "passage": "Introduction\nCovis Mergerco Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d) and a wholly owned indirect subsidiary of Covis Group S.\u00e0\nr.l., a Luxembourg private limited liability company (\u201c\nParent\n\u201d), which is controlled by certain equity funds managed by Apollo Management IX, L.P.",
+      "method": "gliner",
+      "confidence": 0.7441675662994385,
+      "rank_score": 1.0441675662994385,
+      "doc_role": "otp",
+      "section": "Introduction",
+      "faq_question": null,
+      "char_span": [
+        13,
+        32
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Wilmington Trust, National Association",
+      "passage": "However, pursuant to the Merger Agreement, following the Effective Time, Parent has agreed to cause the Surviving\nCorporation to take all actions required by the indenture dated as of May\u00a010, 2017 by and between AMAG and Wilmington Trust, National Association, as supplemented by the first supplemental indenture dated as of May\u00a010, 2017, governing the\nConvertible Notes (as supplemented, the \u201c Indenture \u201d) with respect to any Convertible Notes then outstanding.",
+      "method": "gliner",
+      "confidence": 0.66819167137146,
+      "rank_score": 1.01819167137146,
+      "doc_role": "otp",
+      "section": "What will happen to my Convertible Notes in the Merger?",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "char_span": [
+        477,
+        515
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Covis Finco S.\u00e0 r.l.",
+      "passage": "(a)(5)(D)\nText of press release announcing launch of Tender Offer, dated October 15, 2020.*\n(b)(1)\nDebt Commitment Letter, dated as of October\u00a01, 2020, among Covis Finco S.\u00e0\u00a0r.l., HPS Investment Partners, LLC, and Capital One, National Association.*\n(d)(1)\nAgreement and Plan of Merger, dated as of October\u00a01, 2020, by and among AMAG, Parent, the Offeror, and Covis Finco S.\u00e0 r.l. (solely with respect to certain sections thereof) (incorporated by reference to Exhibit 2.1 to\nAMAG\u2019s Form\n8-K,\nfiled on October\u00a01, 2020).",
+      "method": "gliner",
+      "confidence": 0.8173559904098511,
+      "rank_score": 1.017355990409851,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        14629,
+        14649
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "PRSU",
+      "passage": "In addition, immediately\nprior to the Effective Time, each PRSU that is outstanding immediately prior to the Effective Time, whether vested or unvested, shall be cancelled and automatically converted into the right to receive for each Share underlying such PRSU that would\nvest at the higher of (i) 100% target performance level, multiplied by a fraction, the numerator of which shall be the number of calendar days from the first day of the PRSU\u2019s performance me",
+      "method": "gliner",
+      "confidence": 0.5989787578582764,
+      "rank_score": 0.9989787578582764,
+      "doc_role": "otp",
+      "section": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "faq_question": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "char_span": [
+        644,
+        648
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Apollo Management IX, L.P.",
+      "passage": "upon:\n\u2610\nRule\n13e-4(i)\n(Cross-Border Issuer Tender Offer)\n\u2610\nRule\n14d-1(d)\n(Cross-Border Third-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements\nhereto, this \u201c\nSchedule TO\n\u201d) is being filed by Covis Mergerco Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d), Covis Group S.\u00e0\u00a0r.l., a Luxembourg private limited liability company\n(\u201c\nParent\n\u201d), and Apollo Management IX, L.P., a Delaware limited partnership (\u201c\nManagement IX\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6668601632118225,
+      "rank_score": 0.9668601632118226,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3771,
+        3797
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "RSU",
+      "passage": "Time-vesting\nCompany restricted stock units (each, an \u201c RSU \u201d) and performance-vesting restricted stock units (each, a \u201c PRSU \u201d) are not sought in the Offer.",
+      "method": "gliner",
+      "confidence": 0.561513364315033,
+      "rank_score": 0.961513364315033,
+      "doc_role": "otp",
+      "section": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "faq_question": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "char_span": [
+        56,
+        59
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Surviving Corporation",
+      "passage": "xercise price per Share is less than the Merger Consideration, whether vested or unvested, that is outstanding and unexercised immediately prior to the\nEffective Time shall be cancelled and automatically converted into the right to receive for each Share underlying such Company Option, without interest and subject to deduction for any required tax withholding, an amount in cash from Parent or the\nSurviving Corporation equal to the excess of the Merger Consideration over the per Share exercise price of such Company Option.",
+      "method": "gliner",
+      "confidence": 0.5870346426963806,
+      "rank_score": 0.9370346426963807,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer and the Merger?",
+      "faq_question": "What will happen to my stock options in the Offer and the Merger?",
+      "char_span": [
+        619,
+        640
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company Options",
+      "passage": "and its affiliates (excluding any Shares tendered pursuant to guaranteed delivery procedures that have not yet been \u201creceived\u201d (as such term is defined in\nSection\u00a0251(h)(6)(f) of the DGCL)), representing at least one more than 50% of the sum of (x)\u00a0the total number of Shares outstanding at the time of the expiration of the Offer, plus (y)\u00a0the aggregate number of Shares then issuable to\nholders of Company Options (as defined below) from which AMAG has received notices of exercise prior to the expiration of the Offer (and as to which such shares have not yet been issued to such exercising holders of Company Options), it being\nunderstood that Company Options, RSUs (as defined below) and PRSUs (as defined below) (collectively, the \u201c Company Compensatory Awards \u201d) cancelled in accordance with the terms of the",
+      "method": "gliner",
+      "confidence": 0.8822077512741089,
+      "rank_score": 0.9322077512741089,
+      "doc_role": "otp",
+      "section": "What are the most significant conditions to the Offer?",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "char_span": [
+        627,
+        642
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Management IX",
+      "passage": "Except as set forth elsewhere in\nthis Offer to Purchase (including Schedule A), (i) none of Parent, the Offeror, Management IX or, to the knowledge of each of Parent, the Offeror and Management IX, any of the entities or persons listed on Schedule A, has any contract, arrangement,\nunderstanding or relationship with any other person with respect to any securities of AMAG, including, but not limited to, any contract, arrangement, understanding or relationship concerning the transfer or voting of such securities, finder\u2019s\nf",
+      "method": "gliner",
+      "confidence": 0.8196991086006165,
+      "rank_score": 0.9196991086006164,
+      "doc_role": "otp",
+      "section": "9.",
+      "faq_question": null,
+      "char_span": [
+        4582,
+        4595
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NASDAQ",
+      "passage": "(now Advanz Pharma), a global\nspecialty pharmaceutical company previously listed on the TSX and NASDAQ.",
+      "method": "gliner",
+      "confidence": 0.8973739743232727,
+      "rank_score": 0.8973739743232727,
+      "doc_role": "otp",
+      "section": "Schedule A",
+      "faq_question": null,
+      "char_span": [
+        4140,
+        4146
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "October\u00a01, 2020",
+      "passage": "Parent has received a\nDebt Commitment Letter, dated as of October\u00a01, 2020, (the \u201c\nDebt Commitment Letter\n\u201d), from certain lenders to provide, subject to the satisfaction (or waiver by the lenders) of the conditions set forth therein, to the Debt\nFinancing Borrower up to $485\u00a0million of senior secured financing, comprised of the Incremental Term Loans and a $25\u00a0million incremental senior secured revolving loan facility (the proceeds of which are not expected to be used",
+      "method": "gliner",
+      "confidence": 0.4232613742351532,
+      "rank_score": 0.8732613742351532,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        2324,
+        2339
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "effective_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "date of the Merger",
+      "passage": "If the\nOfferor accepts Shares for payment pursuant to the Offer, holders will have a right, which right must be exercised during the period from the date of the Merger until the close of business on the business day immediately preceding the Fundamental\nChange Repurchase Date, to convert such holder\u2019s Convertible Notes (the \u201c Conversion Right \u201d) into cash as described above.",
+      "method": "gliner",
+      "confidence": 0.5387177467346191,
+      "rank_score": 0.8687177467346192,
+      "doc_role": "otp",
+      "section": "What will happen to my Convertible Notes in the Merger?",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "char_span": [
+        2179,
+        2197
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Repurchase Right",
+      "passage": "Since the amount of cash that would be received upon conversion of the Convertible\nNotes is materially less than the cash that may be received pursuant to the Repurchase Right, it is not expected that any holders of Convertible Notes will elect to exercise their Conversion Right.",
+      "method": "gliner",
+      "confidence": 0.8148336410522461,
+      "rank_score": 0.8648336410522461,
+      "doc_role": "otp",
+      "section": "What will happen to my Convertible Notes in the Merger?",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "char_span": [
+        3088,
+        3104
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "available_option",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "business day",
+      "passage": "If we extend the Offer, we will inform the Depositary and Paying Agent for the Offer of that fact and will make a public announcement of the\nextension no later than 9:00 A.M., New York City time, on the business day after the day on which the Offer was scheduled to expire.",
+      "method": "gliner",
+      "confidence": 0.4945523142814636,
+      "rank_score": 0.8245523142814637,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        203,
+        215
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Convertible Notes",
+      "passage": "The Convertible Notes are not currently convertible, and are not expected to become convertible during the pendency of the Offer.",
+      "method": "gliner",
+      "confidence": 0.8240525722503662,
+      "rank_score": 0.8240525722503662,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        4300,
+        4317
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "AMAG PHARMACEUTICALS, INC.",
+      "passage": "EX-(a)(1)(B)\nExhibit (a)(1)(B)\nLETTER OF TRANSMITTAL\nto Tender Shares of Common Stock\nof\nAMAG PHARMACEUTICALS, INC.\nat\n$13.75 PER SHARE, NET\nIN CASH\nPursuant to the Offer to Purchase dated October 15, 2020\nby\nCOVIS MERGERCO INC.",
+      "method": "gliner",
+      "confidence": 0.5050451755523682,
+      "rank_score": 0.8050451755523682,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        89,
+        115
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1b.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Conversion Right",
+      "passage": "Since the amount of cash that would be received upon conversion of the Convertible\nNotes is materially less than the cash that may be received pursuant to the Repurchase Right, it is not expected that any holders of Convertible Notes will elect to exercise their Conversion Right.",
+      "method": "gliner",
+      "confidence": 0.7408221960067749,
+      "rank_score": 0.790822196006775,
+      "doc_role": "otp",
+      "section": "What will happen to my Convertible Notes in the Merger?",
+      "faq_question": "What will happen to my Convertible Notes in the Merger?",
+      "char_span": [
+        3192,
+        3208
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "available_option",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "TSX-V",
+      "passage": "Prior to joining Covis, Mr.\u00a0Tallarico served as the Chief Legal Officer and\nCorporate Secretary at The Flowr Corporation, a federally licensed global cannabis producer listed on the\nTSX-V.\nAt Flowr, Mr.\u00a0Tallarico managed all aspects of the legal and regulatory function of the\ncompany, including having led the company\u2019s M&A and corporate finance transactions valued at over CAD$340\u00a0million.\nPrior to Flowr, Mr.\u00a0Tallarico served as the Chief Legal Officer and Corporate Secretary at Concordia International Corp.",
+      "method": "gliner",
+      "confidence": 0.7889692187309265,
+      "rank_score": 0.7889692187309265,
+      "doc_role": "otp",
+      "section": "Schedule A",
+      "faq_question": null,
+      "char_span": [
+        3713,
+        3718
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Covis",
+      "passage": "On April\u00a03, 2020, Alexander Mironov, Parent\u2019s Chief Business Officer, contacted Gino Santini, chair of the AMAG Board, to express Covis\u2019s interest in a potential acquisition of AMAG and, on\nApril\u00a07, 2020, Parent approached AMAG with a written\nnon-binding\nacquisition proposal to acquire AMAG for an indicative purchase price of $11.00 per Share, based on its review of AMAG\u2019s publicly\navailable information.",
+      "method": "gliner",
+      "confidence": 0.7874608039855957,
+      "rank_score": 0.7874608039855957,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        1252,
+        1257
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Covis Group S.\u00e0\nr.l.",
+      "passage": "Introduction\nCovis Mergerco Inc., a Delaware corporation (the \u201c\nOfferor\n\u201d) and a wholly owned indirect subsidiary of Covis Group S.\u00e0\nr.l., a Luxembourg private limited liability company (\u201c\nParent\n\u201d), which is controlled by certain equity funds managed by Apollo Management IX, L.P.",
+      "method": "gliner",
+      "confidence": 0.6786767840385437,
+      "rank_score": 0.7786767840385437,
+      "doc_role": "otp",
+      "section": "Introduction",
+      "faq_question": null,
+      "char_span": [
+        117,
+        137
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash",
+      "passage": "We do not believe our financial condition is material to your decision whether to tender your Shares and accept the Offer because (a)\u00a0the\nOffer is being made for all of the issued and outstanding Shares solely for cash,\n2",
+      "method": "gliner",
+      "confidence": 0.7209640741348267,
+      "rank_score": 0.7709640741348267,
+      "doc_role": "otp",
+      "section": "Is your financial condition material to my decision to tender in the Offer?",
+      "faq_question": "Is your financial condition material to my decision to tender in the Offer?",
+      "char_span": [
+        214,
+        218
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "AMAG Pharmaceuticals, Inc.",
+      "passage": "tm2033066-2_sc14d9 - none - 5.7951444s\nTABLE OF CONTENTS\n\u200b\n\u200b\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n\u200b\nSCHEDULE 14D-9\n(Rule\u00a014d-101)\nSOLICITATION/RECOMMENDATION STATEMENT\nUNDER SECTION 14(d)(4) OF THE SECURITIES EXCHANGE ACT OF 1934\n\u200b\nAMAG Pharmaceuticals, Inc.\n(Name of Subject Company)\n\u200b\nAMAG Pharmaceuticals, Inc.\n(Name of Person(s) Filing Statement)\n\u200b\nCOMMON STOCK, PAR VALUE $0.01 PER SHARE\n(Title of Class of Securities)\n00163U106\n(CUSIP Number of Class of Securities)\nJoseph D.",
+      "method": "gliner",
+      "confidence": 0.5575379133224487,
+      "rank_score": 0.7575379133224487,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        267,
+        293
+      ],
+      "source_hit_id": "0001104659-20-115117:tm2033066-2_sc14d9.htm",
+      "source_accession": "0001104659-20-115117",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and Management IX",
+      "passage": "26\nTable of Contents\nPursuant to Rule\n14d-3\nunder the Exchange Act, the\nOfferor, Parent and Management IX have filed with the SEC a Tender Offer Statement on Schedule TO (as amended, the \u201c\nSchedule TO\n\u201d), of which this Offer to Purchase forms a part, and exhibits to the Schedule TO.",
+      "method": "gliner",
+      "confidence": 0.6451898813247681,
+      "rank_score": 0.745189881324768,
+      "doc_role": "otp",
+      "section": "9.",
+      "faq_question": null,
+      "char_span": [
+        6480,
+        6504
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Offer Conditions",
+      "passage": "If on any then scheduled Expiration Date (i)\u00a0all of the Offer\nConditions have been satisfied (other than those Offer Conditions that by their nature are to be satisfied at the Acceptance Time, but which conditions would be capable of being satisfied as of such scheduled Expiration Date) and (ii)\u00a0the full\namount of the Debt Financing has not been funded and will not be available to be funded at the Offer Closing and the Closing, other than as a result of a breach or failure to perform by any of Parent, the Offeror or Debt",
+      "method": "gliner",
+      "confidence": 0.731829047203064,
+      "rank_score": 0.731829047203064,
+      "doc_role": "otp",
+      "section": "1.",
+      "faq_question": null,
+      "char_span": [
+        4722,
+        4738
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "AMAG Common Stock",
+      "passage": "LLC (\u201c Goldman Sachs \u201d), the financial advisor to AMAG, has rendered to the AMAG\nBoard, on October\u00a01, 2020, which was subsequently confirmed by delivery of its written opinion, dated October\u00a01, 2020, that, as of such date and based upon and subject to the factors and assumptions set forth therein, the $13.75 in cash\nper Share of AMAG Common Stock to be paid to the holders of Shares of AMAG Common Stock (other than Parent and its affiliates) pursuant to the Merger Agreement was fair from a financial point of view to such holders.",
+      "method": "gliner",
+      "confidence": 0.6805956363677979,
+      "rank_score": 0.7305956363677979,
+      "doc_role": "otp",
+      "section": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "faq_question": "Has the AMAG Board received a fairness opinion in connection with the Offer and the Merger?",
+      "char_span": [
+        413,
+        430
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "commercial bank",
+      "passage": "If you tendered your Shares by giving instructions to a broker,\ndealer, commercial bank, trust company or other nominee, you must instruct your broker, dealer, commercial bank, trust company or other nominee prior to the Expiration Date to arrange for the withdrawal of your Shares in a timely manner. See\nSection\u00a04\u2014\u201cWithdrawal Rights.\u201d",
+      "method": "gliner",
+      "confidence": 0.5756736993789673,
+      "rank_score": 0.7256736993789673,
+      "doc_role": "otp",
+      "section": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "faq_question": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "char_span": [
+        733,
+        748
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Goldman Sachs",
+      "passage": "The revised\nnon-binding\nindication of interest requested a limited period of exclusivity.\nThat offer led to further\ndiscussions between senior management of Parent and AMAG, as well as representatives of Management IX and Goldman Sachs, about both price and process.",
+      "method": "gliner",
+      "confidence": 0.6189078688621521,
+      "rank_score": 0.7189078688621521,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        3356,
+        3369
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "commercial banks",
+      "passage": "This Offer to Purchase and the related Letter of Transmittal will be mailed to record holders of Shares whose names appear\non AMAG\u2019s stockholder list and will be furnished to brokers, dealers, commercial banks, trust companies or other nominees whose names, or the names of whose nominees, appear on the stockholder list or, if applicable, who are listed as\nparticipants in a clearing agency\u2019s security position listing, for subsequent transmittal to beneficial owners of Shares.",
+      "method": "gliner",
+      "confidence": 0.6164854764938354,
+      "rank_score": 0.7164854764938354,
+      "doc_role": "otp",
+      "section": "1.",
+      "faq_question": null,
+      "char_span": [
+        10899,
+        10915
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "isin",
+      "raw": "ions",
+      "passage": "rised of the Incremental Term Loans and a $25\u00a0million incremental senior secured revolving loan facility (the proceeds of which are not expected to be used to\nconsummate the Offer or the Merger, but which may be used by the Surviving Corporation, together with the Debt Financing Borrower\u2019s existing $30\u00a0million revolving loan facility, for general corporate purposes after completion of the\nTransactions) (collectively, the \u201c\nIncremental Facilities\n\u201d), for the purpose of financing the Offer and the Merger, purchasing any Convertible Notes that are repurchased, retired or redeemed, paying fees and expenses in connection\ntherewith and providing ongoing working capital and for other general corporate purposes of the Debt Financing Borrower and its subsidiaries.",
+      "method": "gliner",
+      "confidence": 0.6873556971549988,
+      "rank_score": 0.6873556971549988,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        2983,
+        2987
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "isin_code",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "USRPHC",
+      "passage": "Holder is\nnot present in the United States for one hundred eighty-three days or more during the taxable year of the disposition.\nIf, contrary to\nour belief, AMAG is or, during certain periods, has been, a USRPHC, a Non-U.S.",
+      "method": "gliner",
+      "confidence": 0.6132709980010986,
+      "rank_score": 0.6632709980010987,
+      "doc_role": "otp",
+      "section": "What are the U.S. federal income tax consequences of participating in the Offer?",
+      "faq_question": "What are the U.S. federal income tax consequences of participating in the Offer?",
+      "char_span": [
+        1170,
+        1176
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "target",
+      "passage": "In addition, immediately\nprior to the Effective Time, each PRSU that is outstanding immediately prior to the Effective Time, whether vested or unvested, shall be cancelled and automatically converted into the right to receive for each Share underlying such PRSU that would\nvest at the higher of (i) 100% target performance level, multiplied by a fraction, the numerator of which shall be the number of calendar days from the first day of the PRSU\u2019s performance measurement period to the Expiration Date and the\ndenominator of which shall be the number of days in the PRSU\u2019s performance measurement period, or (ii)\u00a0the actual level of achievement of\n8",
+      "method": "gliner",
+      "confidence": 0.6103395819664001,
+      "rank_score": 0.6603395819664002,
+      "doc_role": "otp",
+      "section": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "faq_question": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "char_span": [
+        889,
+        895
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company Option",
+      "passage": "Options to purchase Shares (each, a \u201c Company Option \u201d) are not sought in or affected by the Offer.",
+      "method": "gliner",
+      "confidence": 0.5822755694389343,
+      "rank_score": 0.6322755694389344,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer and the Merger?",
+      "faq_question": "What will happen to my stock options in the Offer and the Merger?",
+      "char_span": [
+        38,
+        52
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective date of the merger",
+      "passage": "Moreover, the Surviving Corporation may argue in an appraisal proceeding that, for purposes of such a proceeding, the fair value of such Shares is less than the\nprice paid in the Offer and the Merger.\nUnder Section\u00a0262 of the DGCL, where a merger is approved under Section\u00a0251(h) of the\nDGCL, either a constituent corporation before the effective date of the merger, or the Surviving Corporation within ten days thereafter, will notify each of the holders of any class or series of stock of such constituent corporation who are entitled\nto appraisal rights of the approval of the merger and that appraisal rights are available for any or all shares of such class or series of stock of such constituent corporation, and will include in such notice a copy of Section",
+      "method": "gliner",
+      "confidence": 0.5663425326347351,
+      "rank_score": 0.5663425326347351,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        1309,
+        1337
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "effective_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "alternative",
+      "passage": "The Offeror\u2019s interpretation of the terms\nand conditions of the Offer (including the Letter of Transmittal and the Instructions thereto and any other documents related to the Offer) will be final and binding.\nNo alternative, conditional or contingent tenders will be accepted.",
+      "method": "gliner",
+      "confidence": 0.5413287878036499,
+      "rank_score": 0.5413287878036499,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        14070,
+        14081
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "available_option",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "RSUs",
+      "passage": "of Shares outstanding at the time of the expiration of the Offer, plus (y)\u00a0the aggregate number of Shares then issuable to\nholders of Company Options (as defined below) from which AMAG has received notices of exercise prior to the expiration of the Offer (and as to which such shares have not yet been issued to such exercising holders of Company Options), it being\nunderstood that Company Options, RSUs (as defined below) and PRSUs (as defined below) (collectively, the \u201c Company Compensatory Awards \u201d) cancelled in accordance with the terms of the Merger Agreement shall not be included in such\ncalculation, plus (z)\u00a0the aggregate number of Shares issuable to holders of Convertible Notes (as defined below) from which AMAG has received valid notices of conversion to Shares in accordance with the Con",
+      "method": "gliner",
+      "confidence": 0.4318089783191681,
+      "rank_score": 0.4818089783191681,
+      "doc_role": "otp",
+      "section": "What are the most significant conditions to the Offer?",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "char_span": [
+        892,
+        896
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "Conditions of the Offer",
+      "passage": "13.\nConditions of the Offer\nCapitalized terms used in this Section\u00a013\u2014\u201cConditions of the Offer,\u201d but not defined herein have the respective meanings\ngiven to them in the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.4317820370197296,
+      "rank_score": 0.4317820370197296,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        71,
+        94
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "proration_terms",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "On October 14, 2020, the last full trading day before the Offeror commenced the Offer, the closing price of the Shares\nreported on the NASDAQ was $13.45 per Share.\nWe advise you to obtain a recent quotation for Shares in deciding whether to tender your\nShares in the Offer. See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.9296331405639648,
+      "rank_score": 0.4296331405639648,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        472,
+        478
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "Except for the Minimum Condition and the HSR Condition, the foregoing conditions are for the sole benefit of Parent and the Offeror and,\nsubject to the terms and conditions of the Merger Agreement and applicable law, may be waived by Parent and the Offeror, in whole or in part, at any time and from time to time (other than the Minimum Condition and HSR Condition) prior to the\nExpiration Date.",
+      "method": "gliner",
+      "confidence": 0.9451330900192261,
+      "rank_score": 0.39513309001922603,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        3891,
+        3908
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "at the address indicated in the Schedule\n14D-9,\na demand in writing for appraisal of such Shares, which demand must reasonably inform AMAG of the identity of the\nstockholder and that the stockholder is demanding appraisal for such Shares;\n\u2022\nnot tender such Shares in the Offer; and\n\u2022\ncontinuously hold of record such Shares from the date on which the written demand for appraisal is made through\nthe Effective Time.\nThe foregoing summary of the rights of AMAG\u2019s stockholders to seek appraisal rights under\nDelaware law does not purport to be a complete statement of the procedures to be followed by stockholders desiring to exercise appraisal rights and is qualified in its entirety by reference to Section\u00a0262 of the DGCL.",
+      "method": "gliner",
+      "confidence": 0.9182082414627075,
+      "rank_score": 0.3682082414627075,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        3398,
+        3412
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Name of Filing Persons (Other Person))\nCommon Stock,\n$0.01 par value\n(Title of Class\u00a0of Securities)\n00163U106\n(CUSIP Number of\nClass\u00a0of Securities)\nCovis Mergerco Inc.\nc/o Covis Group S.\u00e0 r.l.\n2, avenue Charles de Gaulle\nL-1653\nLuxembourg, Grand Duchy of Luxembourg\nAttention: Francesco Tallarico\nTelephone: +41 41 748 04 04\nFax: +41 41 748 04 09\n(Name, address, and telephone numbers of person authorized to receive notices and communications on behalf of filing persons)\nWith a copy to:\nDavid K.",
+      "method": "gliner",
+      "confidence": 0.5907790064811707,
+      "rank_score": 0.2907790064811706,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        540,
+        552
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Share",
+      "passage": "On October 14, 2020, the last full trading day before the Offeror commenced the Offer, the closing price of the Shares\nreported on the NASDAQ was $13.45 per Share.\nWe advise you to obtain a recent quotation for Shares in deciding whether to tender your\nShares in the Offer. See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.7777746915817261,
+      "rank_score": 0.277774691581726,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        418,
+        423
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "HSR Condition",
+      "passage": "Except for the Minimum Condition and the HSR Condition, the foregoing conditions are for the sole benefit of Parent and the Offeror and,\nsubject to the terms and conditions of the Merger Agreement and applicable law, may be waived by Parent and the Offeror, in whole or in part, at any time and from time to time (other than the Minimum Condition and HSR Condition) prior to the\nExpiration Date.",
+      "method": "gliner",
+      "confidence": 0.8040377497673035,
+      "rank_score": 0.2540377497673034,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        3917,
+        3930
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S.\ndollar",
+      "passage": "Holders (as defined below) that have a \u201cfunctional currency\u201d other than the U.S.\ndollar, U.S.",
+      "method": "gliner",
+      "confidence": 0.5536240935325623,
+      "rank_score": 0.25362409353256227,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        1761,
+        1772
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "currency_code",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "20549\nSCHEDULE TO\nTender Offer Statement under Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nAMAG\nPharmaceuticals, Inc.\n(Name of Subject Company (Issuer))\nCovis Mergerco Inc.\n(Name\nof Filing Persons (Offeror))\na wholly-owned subsidiary of\nCovis Group S.\u00e0 r.l.\n(Name of Filing Persons (Parent of Offeror))\nApollo Management IX, L.P.\n(Name of Filing Persons (Other Person))\nCommon Stock,\n$0.01 par value\n(Title of Class\u00a0of Securities)\n00163U106\n(CUSIP Number of\nClass\u00a0of Securities)\nCovis Mergerco Inc.",
+      "method": "gliner",
+      "confidence": 0.5566629767417908,
+      "rank_score": 0.20666297674179068,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        468,
+        480
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dsctot.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "PRSU",
+      "passage": "In addition, immediately\nprior to the Effective Time, each PRSU that is outstanding immediately prior to the Effective Time, whether vested or unvested, shall be cancelled and automatically converted into the right to receive for each Share underlying such PRSU that would\nvest at the higher of (i) 100% target performance level, multiplied by a fraction, the numerator of which shall be the number of calendar days from the first day of the PRSU\u2019s performance measurement period to the Expiration Date and the\ndenominator of which shall be the number of days in the PRSU\u2019s performance measurement period, or (ii)\u00a0the actual level of achievement of\n8",
+      "method": "gliner",
+      "confidence": 0.5894936919212341,
+      "rank_score": 0.08949369192123413,
+      "doc_role": "otp",
+      "section": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "faq_question": "What will happen to my\noutstanding time-based restricted stock units and performance-based restricted stock units in the Offer and the Merger?",
+      "char_span": [
+        842,
+        846
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "AMAG",
+      "passage": "On April\u00a03, 2020, Alexander Mironov, Parent\u2019s Chief Business Officer, contacted Gino Santini, chair of the AMAG Board, to express Covis\u2019s interest in a potential acquisition of AMAG and, on\nApril\u00a07, 2020, Parent approached AMAG with a written\nnon-binding\nacquisition proposal to acquire AMAG for an indicative purchase price of $11.00 per Share, based on its review of AMAG\u2019s publicly\navailable information.",
+      "method": "gliner",
+      "confidence": 0.6142663359642029,
+      "rank_score": 0.06426633596420289,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        1345,
+        1349
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Covenants Condition",
+      "passage": "ger Agreement, there has occurred any event, change, effect, occurrence circumstance or\ndevelopment that, individually or in the aggregate, has had or would reasonably be expected to have a Company Material Adverse Effect (the \u201c\nMAE Condition\n\u201d); and\n\u2022\nParent failed to receive from AMAG a certificate, executed by a duly authorized officer thereof, to the effect\nthat the Representations Condition, Covenants Condition and MAE Condition are continuing as of the Expiration Date.",
+      "method": "gliner",
+      "confidence": 0.6089516878128052,
+      "rank_score": 0.05895168781280513,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        3796,
+        3815
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Representations Condition",
+      "passage": "\u2022\nsince the date of the Merger Agreement, there has occurred any event, change, effect, occurrence circumstance or\ndevelopment that, individually or in the aggregate, has had or would reasonably be expected to have a Company Material Adverse Effect (the \u201c\nMAE Condition\n\u201d); and\n\u2022\nParent failed to receive from AMAG a certificate, executed by a duly authorized officer thereof, to the effect\nthat the Representations Condition, Covenants Condition and MAE Condition are continuing as of the Expiration Date.",
+      "method": "gliner",
+      "confidence": 0.5585407018661499,
+      "rank_score": 0.008540701866149858,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        3769,
+        3794
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Closing Date",
+      "passage": "ng Borrower has received a commitment from certain lenders to provide the Debt Financing Borrower with senior secured incremental term loans in an\naggregate principal amount of $460\u00a0million, of which $140\u00a0million will be available to consummate the Offer and the Merger (such incremental senior secured term loans, the \u201c\nInitial Incremental Term Loans\n\u201d) and\n$320\u00a0million will be available after the Closing Date in the form of delayed draw term loans to fund the repurchase, retirement or redemption of the Convertible Notes (the \u201c\nDelayed Draw Incremental Term Loans\n\u201d and, together\nwith the Initial Incremental Term Loans, the \u201c\nIncremental Term Loans\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.5121519565582275,
+      "rank_score": -0.037848043441772505,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        667,
+        679
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "settlement_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Depositary and Paying Agent",
+      "passage": "These materials must reach the Depositary and Paying Agent\nbefore the Offer expires; or",
+      "method": "gliner",
+      "confidence": 0.4148781895637512,
+      "rank_score": -0.08512181043624882,
+      "doc_role": "otp",
+      "section": "How do I tender my Shares?",
+      "faq_question": "How do I tender my Shares?",
+      "char_span": [
+        1157,
+        1184
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "MAE Condition",
+      "passage": "occurred any event, change, effect, occurrence circumstance or\ndevelopment that, individually or in the aggregate, has had or would reasonably be expected to have a Company Material Adverse Effect (the \u201c\nMAE Condition\n\u201d); and\n\u2022\nParent failed to receive from AMAG a certificate, executed by a duly authorized officer thereof, to the effect\nthat the Representations Condition, Covenants Condition and MAE Condition are continuing as of the Expiration Date.",
+      "method": "gliner",
+      "confidence": 0.46325764060020447,
+      "rank_score": -0.08674235939979558,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        3820,
+        3833
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "DTC",
+      "passage": "Any financial institution that is a participant in DTC\u2019s systems may make a book-entry transfer of Shares by causing DTC to transfer those Shares into the\nDepositary and Paying Agent\u2019s account in accordance with DTC\u2019s procedures for that transfer using DTC\u2019s ATOP system.",
+      "method": "gliner",
+      "confidence": 0.41877782344818115,
+      "rank_score": -0.1312221765518189,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        2272,
+        2275
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "target_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Parent",
+      "passage": "The telephone number at the principal office is +352 2088 1300.\nA-2\nTable of Contents\nDirectors and Executive Officers of Parent\nThe name, position, business address, citizenship, present principal occupation or employment and material occupations, positions, offices or employment for\nthe past five years of each of the directors and executive officers of Parent are set forth below.",
+      "method": "gliner",
+      "confidence": 0.40354907512664795,
+      "rank_score": -0.1464509248733521,
+      "doc_role": "otp",
+      "section": "Schedule A",
+      "faq_question": null,
+      "char_span": [
+        5265,
+        5271
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "AMAG",
+      "passage": "Except as set forth elsewhere in\nthis Offer to Purchase (including Schedule A), (i) none of Parent, the Offeror, Management IX or, to the knowledge of each of Parent, the Offeror and Management IX, any of the entities or persons listed on Schedule A, has any contract, arrangement,\nunderstanding or relationship with any other person with respect to any securities of AMAG, including, but not limited to, any contract, arrangement, understanding or relationship concerning the transfer or voting of such securities, finder\u2019s\nfees, joint ventures, loan or option arrangements, puts or calls, guarantees of loans, guarantees against loss, guarantees of profits, division of profits or loss or the giving or withholding of proxies, (ii)\u00a0during the two years prior to the\ndate",
+      "method": "gliner",
+      "confidence": 0.5442907810211182,
+      "rank_score": -0.1557092189788818,
+      "doc_role": "otp",
+      "section": "9.",
+      "faq_question": null,
+      "char_span": [
+        4837,
+        4841
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "5.\nCertain U.S. Federal Income Tax Consequences\nThe following summary describes certain U.S. federal income tax consequences to holders of Shares with respect to the disposition of Shares\npursuant to the Offer or the Merger. It addresses only holders that hold Shares as capital assets (generally, property held for investment) within the meaning of Section\u00a01221 of the Internal Revenue Code of 1986, as amended (the\n\u201c\nCode\n\u201d).\nThe following summary does not purport to be a complete analysis of all of the potential U.S.",
+      "method": "gliner",
+      "confidence": 0.901323676109314,
+      "rank_score": -0.3986763238906861,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        261,
+        267
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Common Stock",
+      "passage": "14.\nDividends and Distributions\nAMAG has not declared or paid cash dividends on the Common Stock since its initial public offering in 2010.\nUnder the terms of the Merger Agreement, AMAG is not permitted, without the prior written consent of Parent, to declare, set aside or pay\ndividends, or make any other distributions (whether in cash, stock, property or otherwise), with respect to the Shares.",
+      "method": "gliner",
+      "confidence": 0.5395892262458801,
+      "rank_score": -0.7604107737541199,
+      "doc_role": "otp",
+      "section": "14.",
+      "faq_question": null,
+      "char_span": [
+        84,
+        96
+      ],
+      "source_hit_id": "0001193125-20-269800:d18965dex99a1a.htm",
+      "source_accession": "0001193125-20-269800",
+      "label": "security_name",
+      "chunk_id": "w0"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.828070+00:00"
+}

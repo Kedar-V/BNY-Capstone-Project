@@ -1,0 +1,3351 @@
+{
+  "schema_version": "1",
+  "event_id": "005-09915",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "496d7e05ea7aaa5422c31efa0bac837dbd8a1a8f",
+      "hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zscto-t.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "70ae52724e47769d820e90cabf714cbe76a4d4d8",
+      "hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zex-99_a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "e65ce162aaf144d0a0c17b11106d5380a8186e1c",
+      "hit_id": "0001047469-20-001067:a2240819zex-99_a1b.htm",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zex-99_a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "58766732d61c9099775b35ddb526fcfc86a7b6a0",
+      "hit_id": "0001445866-20-000112:escc_sc14d9.htm",
+      "accession": "0001445866-20-000112",
+      "filename": "escc_sc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "money_amount",
+      "text": "$250,000",
+      "score": 0.9636927247047424,
+      "rank_score": 1.7436927247047425,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:61",
+      "faq_question": "\u2022?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "February\u00a09, 2020",
+      "score": 0.9569083452224731,
+      "rank_score": 1.7369083452224732,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "June\u00a030, 2020",
+      "score": 0.9545049071311951,
+      "rank_score": 1.734504907131195,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:104",
+      "faq_question": "\u2022?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "March\u00a025, 2020",
+      "score": 0.9504354596138,
+      "rank_score": 1.7304354596138,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_li14701_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$500,000",
+      "score": 0.9409945607185364,
+      "rank_score": 1.7209945607185364,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:61",
+      "faq_question": "\u2022?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "February\u00a026, 2020",
+      "score": 0.9271114468574524,
+      "rank_score": 1.7071114468574524,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$14,500,000",
+      "score": 0.9229145050048828,
+      "rank_score": 1.7029145050048828,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase\npursuant to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$350,000",
+      "score": 0.9219967722892761,
+      "rank_score": 1.7019967722892761,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:66",
+      "faq_question": "\u2022?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "February\u00a07, 2020",
+      "score": 0.9180989861488342,
+      "rank_score": 1.6980989861488343,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "April\u00a026, 2020",
+      "score": 0.9159740805625916,
+      "rank_score": 1.6959740805625916,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:17",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$150,000",
+      "score": 0.9088455438613892,
+      "rank_score": 1.6888455438613892,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:128",
+      "faq_question": "\u2022?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.58",
+      "score": 0.8563196063041687,
+      "rank_score": 1.6363196063041687,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$1.19",
+      "score": 0.8296355605125427,
+      "rank_score": 1.6096355605125428,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_li14701_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.20",
+      "score": 0.8264992833137512,
+      "rank_score": 1.6064992833137512,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:1",
+      "faq_question": "What is the class and amount of securities sought pursuant to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$1.18",
+      "score": 0.7815160155296326,
+      "rank_score": 1.5615160155296326,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$1.20",
+      "score": 0.8326378464698792,
+      "rank_score": 1.482637846469879,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_16",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$75,000",
+      "score": 0.7663324475288391,
+      "rank_score": 1.416332447528839,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_18",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$1.10",
+      "score": 0.7561936974525452,
+      "rank_score": 1.406193697452545,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_16",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "end of April\u00a026, 2020",
+      "score": 0.5373154878616333,
+      "rank_score": 1.3173154878616333,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:17",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "299096107",
+      "score": 0.5585317015647888,
+      "rank_score": 1.3085317015647888,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "ELEVATE ENTERTAINMENT\u00a0INC.",
+      "score": 0.8862752914428711,
+      "rank_score": 1.2862752914428712,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "ELEVATE ACQUISITION CORPORATION",
+      "score": 0.8477156758308411,
+      "rank_score": 1.2477156758308412,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Elevate Acquisition Corporation",
+      "score": 0.8863155245780945,
+      "rank_score": 1.2363155245780946,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:0",
+      "faq_question": "Who is offering to buy my securities?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "ESCC",
+      "score": 0.852531909942627,
+      "rank_score": 1.202531909942627,
+      "doc_role": "otp",
+      "segment_id": "otp:section:6",
+      "faq_question": null,
+      "section": "6.\u00a0\u00a0Price Range of Shares; Dividends.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Boenning\u00a0& Scattergood,\u00a0Inc.",
+      "score": 0.870074450969696,
+      "rank_score": 1.170074450969696,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lk14701_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Evans\u00a0& Sutherland Computer Corporation",
+      "score": 0.7649024128913879,
+      "rank_score": 1.164902412891388,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "12:00 midnight",
+      "score": 0.81862473487854,
+      "rank_score": 1.14862473487854,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_li14701_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "ELEVATE ENTERTAINMENT INC.",
+      "score": 0.8166487812995911,
+      "rank_score": 1.116648781299591,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_lk14701_1",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Thomson Reuters Corporation",
+      "score": 0.8072826266288757,
+      "rank_score": 1.1072826266288758,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lw14701_1_4",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "RP",
+      "score": 0.7440420389175415,
+      "rank_score": 1.0940420389175416,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_lw14701_1",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "January\u00a01, 2020",
+      "score": 0.43236950039863586,
+      "rank_score": 1.0823695003986358,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_17",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "February\u00a028,\n2020",
+      "score": 0.41750049591064453,
+      "rank_score": 1.0675004959106444,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_17",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "CHK",
+      "score": 0.6645725965499878,
+      "rank_score": 1.064572596549988,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:2",
+      "faq_question": "Why are you making the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Company to be sent to the Company",
+      "score": 0.7642296552658081,
+      "rank_score": 1.0642296552658081,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lq14701_1_32",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "date of the Merger Agreement",
+      "score": 0.7168750762939453,
+      "rank_score": 1.0468750762939454,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:54",
+      "faq_question": "\u2022?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "12:00 midnight",
+      "score": 0.7653427124023438,
+      "rank_score": 1.0453427124023438,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Thomson Reuters Corporation",
+      "score": 0.7450071573257446,
+      "rank_score": 1.0450071573257447,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lw14701_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Mirasol Capital",
+      "score": 0.9442363381385803,
+      "rank_score": 1.0442363381385804,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_16",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Mirasol Capital",
+      "score": 0.9418457746505737,
+      "rank_score": 1.0418457746505738,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lu14701_1_42",
+      "faq_question": null,
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Evans\u00a0& Sutherland Computer\nCorporation",
+      "score": 0.6907006502151489,
+      "rank_score": 1.040700650215149,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_li14701_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Utah corporation",
+      "score": 0.7350481748580933,
+      "rank_score": 1.0350481748580933,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Surviving Corporation",
+      "score": 0.7237881422042847,
+      "rank_score": 1.0237881422042847,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ma14701_2",
+      "faq_question": null,
+      "section": "PLAN OF MERGER",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "ZEQ",
+      "score": 0.6204884052276611,
+      "rank_score": 1.020488405227661,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "If I do not tender my Shares but the Offer is consummated, what will happen to my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "tendering shareholder",
+      "score": 0.9163719415664673,
+      "rank_score": 1.0163719415664674,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lm14701_1_8",
+      "faq_question": null,
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "26-FEB-2020",
+      "score": 0.6821153163909912,
+      "rank_score": 1.0121153163909913,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "Will I have dissenters' rights in either the Offer or the Merger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and Purchaser",
+      "score": 0.8475795388221741,
+      "rank_score": 0.9975795388221741,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Mirasol Capital,\u00a0LLC",
+      "score": 0.6967698931694031,
+      "rank_score": 0.9967698931694031,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ls14701_1_41",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "available_option",
+      "text": "Company Options",
+      "score": 0.9444863200187683,
+      "rank_score": 0.9944863200187684,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Bermuda Partners\u00a0LP",
+      "score": 0.6920289993286133,
+      "rank_score": 0.9920289993286133,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ls14701_1_40",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Weil, Gotshal\u00a0& Manges,\u00a0LLP",
+      "score": 0.6881763339042664,
+      "rank_score": 0.9881763339042664,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_15",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Supporting Shareholders",
+      "score": 0.880118191242218,
+      "rank_score": 0.980118191242218,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_li14701_1_8",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "available_option",
+      "text": "Top-Up Option",
+      "score": 0.9696599841117859,
+      "rank_score": 0.9696599841117859,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_22",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Bermuda Partners\u00a0LP",
+      "score": 0.6570296883583069,
+      "rank_score": 0.9570296883583069,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Company Board",
+      "score": 0.6563675403594971,
+      "rank_score": 0.9563675403594971,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_16",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent or Purchaser",
+      "score": 0.8544195294380188,
+      "rank_score": 0.9544195294380188,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_22",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Surviving Corporation",
+      "score": 0.6416937112808228,
+      "rank_score": 0.9416937112808228,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_23",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "available_option",
+      "text": "employee stock options",
+      "score": 0.9370944499969482,
+      "rank_score": 0.9370944499969482,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lm14701_1_10",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "EFW",
+      "score": 0.5336922407150269,
+      "rank_score": 0.9336922407150269,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_li14701_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "February\u00a09, 2020",
+      "score": 0.4527367949485779,
+      "rank_score": 0.9027367949485778,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_13",
+      "faq_question": null,
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "S-vi",
+      "score": 0.8446223139762878,
+      "rank_score": 0.8946223139762879,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "If I do not tender my Shares but the Offer is consummated, what will happen to my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Nasdaq",
+      "score": 0.8925910592079163,
+      "rank_score": 0.8925910592079163,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_lw14701_1",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "S-viii",
+      "score": 0.8310195207595825,
+      "rank_score": 0.8810195207595826,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "Will I have dissenters' rights in either the Offer or the Merger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "S-iii",
+      "score": 0.8266717195510864,
+      "rank_score": 0.8766717195510865,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "control shares",
+      "score": 0.8743365406990051,
+      "rank_score": 0.8743365406990051,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lu14701_1_47",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "S-ix",
+      "score": 0.8208101987838745,
+      "rank_score": 0.8708101987838746,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:27",
+      "faq_question": "Whom should I call if I have questions about the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "SEQ",
+      "score": 0.5165794491767883,
+      "rank_score": 0.8665794491767883,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_15",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Uncertificated Shares",
+      "score": 0.6579486131668091,
+      "rank_score": 0.857948613166809,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ma14701_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "EVANS & SUTHERLAND COMPUTER CORPORATION",
+      "score": 0.655692994594574,
+      "rank_score": 0.8556929945945739,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "S-i",
+      "score": 0.8040029406547546,
+      "rank_score": 0.8540029406547547,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:2",
+      "faq_question": "Why are you making the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Company Common Stock",
+      "score": 0.6516185998916626,
+      "rank_score": 0.8516185998916626,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ma14701_1_4",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "options",
+      "score": 0.83072829246521,
+      "rank_score": 0.83072829246521,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ls14701_1_40",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Dissenting Shares",
+      "score": 0.806312620639801,
+      "rank_score": 0.806312620639801,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_21",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "target_organization",
+      "text": "Telex Corp.",
+      "score": 0.4971403479576111,
+      "rank_score": 0.7971403479576111,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lu14701_1_47",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "target_organization",
+      "text": "target corporation",
+      "score": 0.4554122984409332,
+      "rank_score": 0.7554122984409333,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lu14701_1_47",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "stock appreciation rights",
+      "score": 0.7474467158317566,
+      "rank_score": 0.7474467158317566,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lm14701_1_10",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "available_option",
+      "text": "stock options",
+      "score": 0.7168765664100647,
+      "rank_score": 0.7168765664100647,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lm14701_1_12",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash",
+      "score": 0.6607340574264526,
+      "rank_score": 0.7107340574264527,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:29",
+      "faq_question": "\u2022?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Cashed Out Compensatory Award",
+      "score": 0.5066402554512024,
+      "rank_score": 0.7066402554512023,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_22",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Subject Shares",
+      "score": 0.6919206380844116,
+      "rank_score": 0.6919206380844116,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ls14701_1_41",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Cashed Out Compensatory\nAward",
+      "score": 0.6401313543319702,
+      "rank_score": 0.6901313543319703,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my Company Options in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "available_option",
+      "text": "Company Compensatory Award",
+      "score": 0.6348504424095154,
+      "rank_score": 0.6848504424095154,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my Company Options in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "available_option",
+      "text": "warrants",
+      "score": 0.5933033227920532,
+      "rank_score": 0.6433033227920533,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Certificates",
+      "score": 0.6361699104309082,
+      "rank_score": 0.6361699104309082,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ma14701_1_2",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number of Class\u00a0of Securities",
+      "score": 0.6352357268333435,
+      "rank_score": 0.6352357268333435,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "ELEVATE ENTERTAINMENT",
+      "score": 0.4204729199409485,
+      "rank_score": 0.6204729199409484,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_22",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "available_option",
+      "text": "stock purchase rights",
+      "score": 0.6157295107841492,
+      "rank_score": 0.6157295107841492,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lm14701_1_10",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Company Compensatory Award",
+      "score": 0.4103452265262604,
+      "rank_score": 0.6103452265262603,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_li14701_1_7",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "available_option",
+      "text": "top-up",
+      "score": 0.5632311701774597,
+      "rank_score": 0.5632311701774597,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_li14701_1_6",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "top-up\"\noption",
+      "score": 0.5063645839691162,
+      "rank_score": 0.5563645839691163,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "Will a meeting of the Company's shareholders be required to approve the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificates",
+      "score": 0.5197159051895142,
+      "rank_score": 0.5197159051895142,
+      "doc_role": "otp",
+      "segment_id": "otp:section:3",
+      "faq_question": null,
+      "section": "3.\u00a0\u00a0Procedures for Accepting the Offer and Tendering Shares.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "proration_terms",
+      "text": "Conditions of the\nOffer",
+      "score": 0.5017263889312744,
+      "rank_score": 0.5017263889312744,
+      "doc_role": "otp",
+      "segment_id": "otp:section:1",
+      "faq_question": null,
+      "section": "1.\u00a0\u00a0Terms of the Offer.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "voting\nsecurities",
+      "score": 0.482512891292572,
+      "rank_score": 0.482512891292572,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ma14701_1_5",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "12:00 pm Eastern Time",
+      "score": 0.4652814567089081,
+      "rank_score": 0.4652814567089081,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc_ma14701_2",
+      "faq_question": null,
+      "section": "PLAN OF MERGER",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "proration_terms",
+      "text": "Terms of the Offer",
+      "score": 0.4487845003604889,
+      "rank_score": 0.4487845003604889,
+      "doc_role": "otp",
+      "segment_id": "otp:section:1",
+      "faq_question": null,
+      "section": "1.\u00a0\u00a0Terms of the Offer.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Offer Expiration Termination Provision",
+      "score": 0.4446636438369751,
+      "rank_score": 0.4446636438369751,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ls14701_1_36",
+      "faq_question": null,
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum",
+      "score": 0.442691832780838,
+      "rank_score": 0.442691832780838,
+      "doc_role": "otp",
+      "segment_id": "otp:section:1",
+      "faq_question": null,
+      "section": "1.\u00a0\u00a0Terms of the Offer.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9768948554992676,
+      "rank_score": 0.42689485549926753,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lq14701_1_34",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective time of the Merger",
+      "score": 0.4122050702571869,
+      "rank_score": 0.4122050702571869,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_li14701_1_6",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.886950671672821,
+      "rank_score": 0.386950671672821,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.6473267674446106,
+      "rank_score": 0.34732676744461055,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Acceptance Time",
+      "score": 0.8730788826942444,
+      "rank_score": 0.32307888269424434,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_23",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Acceptance Time",
+      "score": 0.8318801522254944,
+      "rank_score": 0.28188015222549434,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_li14701_1_3",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective date",
+      "score": 0.6952037215232849,
+      "rank_score": 0.14520372152328487,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_mi14701_1_4",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Offer Condition",
+      "score": 0.5983830094337463,
+      "rank_score": 0.0983830094337463,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:43",
+      "faq_question": "\u2022?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Outside Date",
+      "score": 0.5658535957336426,
+      "rank_score": 0.015853595733642534,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_ls14701_1_36",
+      "faq_question": null,
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Eastern Time",
+      "score": 0.4836191236972809,
+      "rank_score": -0.06638087630271916,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_li14701_1_3",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "target_organization",
+      "text": "Company",
+      "score": 0.6630197167396545,
+      "rank_score": -0.08698028326034546,
+      "doc_role": "otp",
+      "segment_id": "otp:section:page_lo14701_1_16",
+      "faq_question": null,
+      "section": "Exhibit (a)(1)(A)",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "DTC",
+      "score": 0.4816957414150238,
+      "rank_score": -0.46830425858497626,
+      "doc_role": "otp",
+      "segment_id": "otp:section:3",
+      "faq_question": null,
+      "section": "3.\u00a0\u00a0Procedures for Accepting the Offer and Tendering Shares.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "target_organization",
+      "text": "Continental Stock Transfer\u00a0& Trust Company",
+      "score": 0.41256535053253174,
+      "rank_score": -0.5374346494674683,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "target_organization",
+      "text": "The Depository Trust Company",
+      "score": 0.40149515867233276,
+      "rank_score": -0.5485048413276673,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "offer_price",
+      "raw": "$250,000",
+      "passage": "issue, incur, assume or guarantee any indebtedness (other than letters of credit entered into by the Company to satisfy obligations to existing\ncustomers in the Ordinary Course of Business, which do not exceed $250,000 individually and $500,000 in the aggregate);",
+      "method": "gliner",
+      "confidence": 0.9636927247047424,
+      "rank_score": 1.7436927247047425,
+      "doc_role": "otp",
+      "section": "\u2022?",
+      "faq_question": "\u2022?",
+      "char_span": [
+        210,
+        218
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a09, 2020",
+      "passage": "Excluding Shares underlying Company\nOptions, as of February\u00a09, 2020, the Supporting Shareholders collectively beneficially owned, in the aggregate, 5,864,362 Shares (or approximately 51.1% of all Shares outstanding as of\nFebruary\u00a09, 2020).",
+      "method": "gliner",
+      "confidence": 0.9569083452224731,
+      "rank_score": 1.7369083452224732,
+      "doc_role": "otp",
+      "section": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "faq_question": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "char_span": [
+        879,
+        895
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "June\u00a030, 2020",
+      "passage": "by either Parent or the Company if the Acceptance Time has not occurred on or prior to June\u00a030, 2020 (the \"Outside Date\" and, the\ntermination provision of the Merger Agreement summarized in this bullet point, the \"Outside Date Termination Provision\"); provided that (i)\u00a0a party may not terminate under this provision if\n(a)\u00a0the failure of the Acceptance Time to occur on or prior to the Outside Date is attributable to the failure of an Offer Condition to be satisfied and (b)\u00a0the failure of such Off",
+      "method": "gliner",
+      "confidence": 0.9545049071311951,
+      "rank_score": 1.734504907131195,
+      "doc_role": "otp",
+      "section": "\u2022?",
+      "faq_question": "\u2022?",
+      "char_span": [
+        87,
+        100
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "March\u00a025, 2020",
+      "passage": "Scheduled Expiration of Offer\n12:00 midnight, Eastern Time, at the end of March\u00a025, 2020, unless the Offer is otherwise extended.",
+      "method": "gliner",
+      "confidence": 0.9504354596138,
+      "rank_score": 1.7304354596138,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1495,
+        1509
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$500,000",
+      "passage": "issue, incur, assume or guarantee any indebtedness (other than letters of credit entered into by the Company to satisfy obligations to existing\ncustomers in the Ordinary Course of Business, which do not exceed $250,000 individually and $500,000 in the aggregate);",
+      "method": "gliner",
+      "confidence": 0.9409945607185364,
+      "rank_score": 1.7209945607185364,
+      "doc_role": "otp",
+      "section": "\u2022?",
+      "faq_question": "\u2022?",
+      "char_span": [
+        236,
+        244
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a026, 2020",
+      "passage": "On February\u00a07, 2020, the last full day of trading before we announced the Merger Agreement, the reported closing sales price of the\nShares was $0.58 per Share. On February\u00a026, 2020, the last full day of trading before commencement of the Offer, the reported closing sales price of the Shares was $1.18 per Share. We encourage\nyou to obtain a recent market quotation for Shares before deciding whether to tender your Shares.\nSee\nSection\u00a06\u2014\"Price Range of Shares; Dividends.\"",
+      "method": "gliner",
+      "confidence": 0.9271114468574524,
+      "rank_score": 1.7071114468574524,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        163,
+        180
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$14,500,000",
+      "passage": "Yes. We estimate that we will need approximately $14,500,000 to purchase all of the Shares pursuant to the Offer and to complete the Merger, and\nthat Parent will provide Purchaser with sufficient funds for this purpose.",
+      "method": "gliner",
+      "confidence": 0.9229145050048828,
+      "rank_score": 1.7029145050048828,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase\npursuant to the Offer?",
+      "faq_question": "Do you have the financial resources to pay for all of the Shares that Purchaser is offering to purchase\npursuant to the Offer?",
+      "char_span": [
+        49,
+        60
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$350,000",
+      "passage": "enter into commitments for capital expenditures of the Company or any of its subsidiaries in excess of $350,000 in the aggregate;",
+      "method": "gliner",
+      "confidence": 0.9219967722892761,
+      "rank_score": 1.7019967722892761,
+      "doc_role": "otp",
+      "section": "\u2022?",
+      "faq_question": "\u2022?",
+      "char_span": [
+        103,
+        111
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a07, 2020",
+      "passage": "On February\u00a07, 2020, the last full day of trading before we announced the Merger Agreement, the reported closing sales price of the\nShares was $0.58 per Share.",
+      "method": "gliner",
+      "confidence": 0.9180989861488342,
+      "rank_score": 1.6980989861488343,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        3,
+        19
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "April\u00a026, 2020",
+      "passage": "You may withdraw your previously tendered Shares at any time until 12:00 midnight, Eastern Time, at the end of the Expiration Date. In addition,\nif we have not accepted your Shares for payment by the end of April\u00a026, 2020, you may withdraw them at any time after that date until we accept your Shares for payment. This right to withdraw\nwill not, however, apply to Shares tendered in any subsequent offering period, if one is provided.\nSee\nSection\u00a04\u2014\"Withdrawal Rights.\"",
+      "method": "gliner",
+      "confidence": 0.9159740805625916,
+      "rank_score": 1.6959740805625916,
+      "doc_role": "otp",
+      "section": "Until what time may I withdraw previously tendered Shares?",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "char_span": [
+        207,
+        221
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$150,000",
+      "passage": "event of a willful and intentional breach) and (b)\u00a0at or prior to the time of such\ntermination an Acquisition Proposal will have been disclosed, announced, commenced, submitted or made or (iii)\u00a0by Parent pursuant to the Triggering Event Termination Provision, then, in each of\nclauses \"(i),\" \"(ii)\" and \"(iii)\" of this sentence, the Company will be required to pay Parent a fee in an amount equal to $150,000, subject to certain adjustments (or, if higher, the aggregate amount\nof all fees and expenses (including all attorneys' fees, accountants' fees, financial advisory fees, financing commitment fees, consultant fees, filing fees and travel expenses) that have been paid or\nmay become payable by or on behalf of Parent in connection with the preparation and negotiation of the Merger Agreement and the T",
+      "method": "gliner",
+      "confidence": 0.9088455438613892,
+      "rank_score": 1.6888455438613892,
+      "doc_role": "otp",
+      "section": "\u2022?",
+      "faq_question": "\u2022?",
+      "char_span": [
+        831,
+        839
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.58",
+      "passage": "On February\u00a07, 2020, the last full day of trading before we announced the Merger Agreement, the reported closing sales price of the\nShares was $0.58 per Share. On February\u00a026, 2020, the last full day of trading before commencement of the Offer, the reported closing sales price of the Shares was $1.18 per Share. We encourage\nyou to obtain a recent market quotation for Shares before deciding whether to tender your Shares.\nSee\nSection\u00a06\u2014\"Price Range of Shares; Dividends.\"",
+      "method": "gliner",
+      "confidence": 0.8563196063041687,
+      "rank_score": 1.6363196063041687,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        143,
+        148
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.19",
+      "passage": "Parent and Purchaser have not independently verified the accuracy and completeness of such information.\nCOMMAND=ADD_TABLEWIDTH,\"100%\"\nUser-specified TAGGED TABLE\nTABLE COLUMN WIDTHS SET\nTABLE COLUMN WIDTHS END\nSecurities Sought\nAll of the issued and outstanding shares of common stock, par value $0.20 per share, of the Company (the \"Shares\").\nPrice Offered Per Share\n$1.19, net to the seller in cash, without interest thereon and subject to any applicable tax withholding.",
+      "method": "gliner",
+      "confidence": 0.8296355605125427,
+      "rank_score": 1.6096355605125428,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1315,
+        1320
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.20",
+      "passage": "Purchaser is offering to purchase all of the issued and outstanding shares of common stock, par value $0.20 per share, of the Company on the\nterms and subject to the conditions set forth in this Offer to Purchase. In this Offer to Purchase, we use the term \"Offer\" to refer to this offer and the term \"Shares\" to refer to the shares of the\nCompany's common stock that are the subject of the Offer.\nSee\nSection\u00a01\u2014\"Terms of the Offer.\"",
+      "method": "gliner",
+      "confidence": 0.8264992833137512,
+      "rank_score": 1.6064992833137512,
+      "doc_role": "otp",
+      "section": "What is the class and amount of securities sought pursuant to the Offer?",
+      "faq_question": "What is the class and amount of securities sought pursuant to the Offer?",
+      "char_span": [
+        102,
+        107
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.18",
+      "passage": "On February\u00a07, 2020, the last full day of trading before we announced the Merger Agreement, the reported closing sales price of the\nShares was $0.58 per Share. On February\u00a026, 2020, the last full day of trading before commencement of the Offer, the reported closing sales price of the Shares was $1.18 per Share. We encourage\nyou to obtain a recent market quotation for Shares before deciding whether to tender your Shares.\nSee\nSection\u00a06\u2014\"Price Range of Shares; Dividends.\"",
+      "method": "gliner",
+      "confidence": 0.7815160155296326,
+      "rank_score": 1.5615160155296326,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        296,
+        301
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.20",
+      "passage": "On\nOctober\u00a02, 2019, Mirasol Capital delivered a revised indication of interest to the Company for an acquisition of all outstanding common stock of the Company that increased the\noffer price to $1.20 in cash per Share.",
+      "method": "gliner",
+      "confidence": 0.8326378464698792,
+      "rank_score": 1.482637846469879,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2875,
+        2880
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$75,000",
+      "passage": "On\nJanuary\u00a024, 2020, DJP delivered a draft transaction bonus letter to Weil, which contemplated that each of Messrs.\u00a0Shaw, Dailey and Johnson would be paid a $75,000\ntransaction bonus (the \"Transaction Bonus\") contingent on their continued employment with the Company and the consummation of the contemplated transactions.",
+      "method": "gliner",
+      "confidence": 0.7663324475288391,
+      "rank_score": 1.416332447528839,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        1769,
+        1776
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.10",
+      "passage": "On\nAugust\u00a030, 2019, Mirasol Capital sent the Company a revised indication of interest (the \"August\u00a030th\u00a0Proposal\"), setting forth Mirasol Capital's proposal to\nacquire all of the outstanding common stock of the Company for $1.10 in cash per Share.",
+      "method": "gliner",
+      "confidence": 0.7561936974525452,
+      "rank_score": 1.406193697452545,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        1024,
+        1029
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "end of April\u00a026, 2020",
+      "passage": "You may withdraw your previously tendered Shares at any time until 12:00 midnight, Eastern Time, at the end of the Expiration Date. In addition,\nif we have not accepted your Shares for payment by the end of April\u00a026, 2020, you may withdraw them at any time after that date until we accept your Shares for payment. This right to withdraw\nwill not, however, apply to Shares tendered in any subsequent offering period, if one is provided.\nSee\nSection\u00a04\u2014\"Withdrawal Rights.\"",
+      "method": "gliner",
+      "confidence": 0.5373154878616333,
+      "rank_score": 1.3173154878616333,
+      "doc_role": "otp",
+      "section": "Until what time may I withdraw previously tendered Shares?",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "char_span": [
+        200,
+        221
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "299096107",
+      "passage": "20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(D)(1)\nOR 13(E)(1) OF THE SECURITIES EXCHANGE ACT OF\u00a01934\nEVANS\u00a0& SUTHERLAND COMPUTER CORPORATION\n(Name of Subject Company (Issuer))\nELEVATE ACQUISITION CORPORATION\n(Offeror)\na subsidiary of\nELEVATE ENTERTAINMENT\u00a0INC.\n(Parent of Offeror)\n(Names of Filing Persons)\nCommon Stock, Par Value $0.20 Per Share\n(Title of Class of Securities)\n299096107\n(CUSIP Number of Class of Securities)\nShaun Miller\nCorporate Secretary\nElevate Entertainment\u00a0Inc.\n4143 Maple Avenue, Suite\u00a0400\nDallas, Texas 75219\nTelephone: (214)\u00a0301-4250\n(Name, Address and Telephone Number of Person Authorized\nto Receive Notices and Communications on Behalf of Filing Persons)\nCopy to:\nJames R.",
+      "method": "gliner",
+      "confidence": 0.5585317015647888,
+      "rank_score": 1.3085317015647888,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        525,
+        534
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ELEVATE ENTERTAINMENT\u00a0INC.",
+      "passage": "QuickLinks\n-- Click here to rapidly navigate through this document\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(D)(1)\nOR 13(E)(1) OF THE SECURITIES EXCHANGE ACT OF\u00a01934\nEVANS\u00a0& SUTHERLAND COMPUTER CORPORATION\n(Name of Subject Company (Issuer))\nELEVATE ACQUISITION CORPORATION\n(Offeror)\na subsidiary of\nELEVATE ENTERTAINMENT\u00a0INC.\n(Parent of Offeror)\n(Names of Filing Persons)\nCommon Stock, Par Value $0.20 Per Share\n(Title of Class of Securities)\n299096107\n(CUSIP Number of Class of Securities)\nShaun Miller\nCorporate Secretary\nElevate Entertainment\u00a0Inc.",
+      "method": "gliner",
+      "confidence": 0.8862752914428711,
+      "rank_score": 1.2862752914428712,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        381,
+        407
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ELEVATE ACQUISITION CORPORATION",
+      "passage": "QuickLinks\n-- Click here to rapidly navigate through this document\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION\u00a014(D)(1)\nOR 13(E)(1) OF THE SECURITIES EXCHANGE ACT OF\u00a01934\nEVANS\u00a0& SUTHERLAND COMPUTER CORPORATION\n(Name of Subject Company (Issuer))\nELEVATE ACQUISITION CORPORATION\n(Offeror)\na subsidiary of\nELEVATE ENTERTAINMENT\u00a0INC.",
+      "method": "gliner",
+      "confidence": 0.8477156758308411,
+      "rank_score": 1.2477156758308412,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        323,
+        354
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Elevate Acquisition Corporation",
+      "passage": "We use the term \"Purchaser\"\nto refer to Elevate Acquisition Corporation alone, the term \"Parent\" to refer to Elevate Entertainment\u00a0Inc. alone and the term \"the Company\" to refer to Evans\u00a0& Sutherland Computer\nCorporation, a Utah corporation.\nSee\nSection\u00a08\u2014\"Certain Information Concerning Parent, Purchaser and Mirasol Capital.\"",
+      "method": "gliner",
+      "confidence": 0.8863155245780945,
+      "rank_score": 1.2363155245780946,
+      "doc_role": "otp",
+      "section": "Who is offering to buy my securities?",
+      "faq_question": "Who is offering to buy my securities?",
+      "char_span": [
+        447,
+        478
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "ESCC",
+      "passage": "6.\u00a0\u00a0Price Range of Shares; Dividends.\nThe Shares currently trade on the Over-the-Counter Market under the symbol \"ESCC.\" The following table sets forth the high and low sale prices per Share for each\nquarterly period within the two preceding fiscal years, as reported by Bloomberg Finance based on published financial sources:\nCOMMAND=ADD_TABLEWIDTH,\"100%\"\nUser-specified TAGGED TABLE\nTABLE COLUMN WIDTHS SET\nTABLE COLUMN WIDTHS END\nHigh\nLow\nFiscal Year Ended December\u00a031, 2018\nFirst Quarter\n$\n1.25\n$\n0.89\nSecond Quart",
+      "method": "gliner",
+      "confidence": 0.852531909942627,
+      "rank_score": 1.202531909942627,
+      "doc_role": "otp",
+      "section": "6.\u00a0\u00a0Price Range of Shares; Dividends.",
+      "faq_question": null,
+      "char_span": [
+        114,
+        118
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Boenning\u00a0& Scattergood,\u00a0Inc.",
+      "passage": "The full text of the written opinion of Boenning\u00a0& Scattergood,\u00a0Inc., dated as of\nFebruary\u00a07, 2020, which sets forth the assumptions made, procedures followed, matters considered and limitations on the review undertaken in connection with such opinion, is attached as\nAnnex\u00a0I to the Schedule\u00a014D-9.",
+      "method": "gliner",
+      "confidence": 0.870074450969696,
+      "rank_score": 1.170074450969696,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        766,
+        794
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Evans\u00a0& Sutherland Computer Corporation",
+      "passage": "(a)\nThe\nname of the subject company and the issuer of the securities to which this Schedule\u00a0TO relates is Evans\u00a0& Sutherland Computer Corporation, a Utah\ncorporation.",
+      "method": "gliner",
+      "confidence": 0.7649024128913879,
+      "rank_score": 1.164902412891388,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        5144,
+        5183
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "12:00 midnight",
+      "passage": "Scheduled Expiration of Offer\n12:00 midnight, Eastern Time, at the end of March\u00a025, 2020, unless the Offer is otherwise extended.",
+      "method": "gliner",
+      "confidence": 0.81862473487854,
+      "rank_score": 1.14862473487854,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1451,
+        1465
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "expiration_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "ELEVATE ENTERTAINMENT INC.",
+      "passage": "1\nZEQ.=1,SEQ=13,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=746756,FOLIO='1',FILE='DISK121:[20ZBD1.20ZBD14701]LK14701A.;10',USER='CHE108057',CD='26-FEB-2020;07:14'",
+      "method": "gliner",
+      "confidence": 0.8166487812995911,
+      "rank_score": 1.116648781299591,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        4342,
+        4368
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Thomson Reuters Corporation",
+      "passage": "Winn founded RealPage and has served as RealPage chief executive officer, chairman of the board, and a member of the RealPage board of directors since November 1998.\nPrior to RealPage, Mr.\u00a0Winn served in various executive positions, including president of Research Institute of America, a provider of information services to the accounting industry and a wholly owned subsidiary\nof Thomson Reuters Corporation, and president and chief executive officer of Computer Language Research Inc., a publicly traded company focused on tax compliance, tax research and accounting software, which was acquired by Thomson Reuters\nCorporation.\nMr.",
+      "method": "gliner",
+      "confidence": 0.8072826266288757,
+      "rank_score": 1.1072826266288758,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        880,
+        907
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "RP",
+      "passage": "(Nasdaq: RP) (\"RealPage\") and has served as RealPage chief executive officer, chairman of the board, and a member of the RealPage board of directors since November 1998.",
+      "method": "gliner",
+      "confidence": 0.7440420389175415,
+      "rank_score": 1.0940420389175416,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        906,
+        908
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a01, 2020",
+      "passage": "The Exclusivity\nAgreement provided for, among other things, exclusive negotiations through and including January\u00a01, 2020.",
+      "method": "gliner",
+      "confidence": 0.43236950039863586,
+      "rank_score": 1.0823695003986358,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2222,
+        2237
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a028,\n2020",
+      "passage": "The exclusivity period was extended on December\u00a018, 2019 to February\u00a028,\n2020.",
+      "method": "gliner",
+      "confidence": 0.41750049591064453,
+      "rank_score": 1.0675004959106444,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2299,
+        2316
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "CHK",
+      "passage": "In addition, we intend to\ncause the Company to be deregistered under the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), after completion of the Merger.\nS-i\nZEQ.=1,SEQ=4,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=825498,FOLIO='S-i',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'",
+      "method": "gliner",
+      "confidence": 0.6645725965499878,
+      "rank_score": 1.064572596549988,
+      "doc_role": "otp",
+      "section": "Why are you making the Offer?",
+      "faq_question": "Why are you making the Offer?",
+      "char_span": [
+        559,
+        562
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Company to be sent to the Company",
+      "passage": "the Company\nshareholders meeting (the \"Required Company Shareholder Vote\"), is required by the URBCA in order to consummate the Merger, then:\n\u2022\nas promptly as reasonably practicable after the later of the Acceptance Time or the expiration of any subsequent offering period provided in\naccordance with Rule\u00a014d-11 under the Exchange Act, the Company will file with the SEC the proxy statement of the Company to be sent to the Company's shareholders in connection with the Company\nShareholders Meeting (the \"Proxy Statement\") to be sent to the shareholders of the Company relating to the Company Shareholders Meeting (as defined below);\n\u2022\nthe Company will use its reasonable best efforts to cause the SEC to clear the Proxy Statement as promptly as practicable after such filing\n(including by responding to comments of the SEC);\n\u2022\nas",
+      "method": "gliner",
+      "confidence": 0.7642296552658081,
+      "rank_score": 1.0642296552658081,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        624,
+        657
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "date of the Merger Agreement",
+      "passage": "mercially reasonable efforts, consistent with past practices, to maintain (i)\u00a0all material assets and properties of the Company\nand its subsidiaries in their current condition, ordinary wear and tear, casualty and condemnation excepted, and (ii)\u00a0insurance upon all of the properties and assets of the Company and its\nsubsidiaries in such amounts and of such kinds comparable to that in effect on the date of the Merger Agreement; and",
+      "method": "gliner",
+      "confidence": 0.7168750762939453,
+      "rank_score": 1.0468750762939454,
+      "doc_role": "otp",
+      "section": "\u2022?",
+      "faq_question": "\u2022?",
+      "char_span": [
+        407,
+        435
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "12:00 midnight",
+      "passage": "The obligation of Purchaser to accept for payment and pay for Shares validly tendered (and not withdrawn) pursuant to the Offer is subject to\nthe satisfaction of a number of conditions by 12:00 midnight, Eastern Time, at the end of the scheduled Expiration Date of the Offer, including, among other\nconditions:\n\u2022 the Minimum Condition; and \u2022 the accuracy of the Company's representations and warranties set forth in the Merger Agreement, and the performance of the Company's covenants\nset forth in the Merger Agreement, to specified standards of materiality.",
+      "method": "gliner",
+      "confidence": 0.7653427124023438,
+      "rank_score": 1.0453427124023438,
+      "doc_role": "otp",
+      "section": "What are the most significant conditions to the Offer?",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "char_span": [
+        188,
+        202
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Thomson Reuters Corporation",
+      "passage": "Winn served in various executive positions, including president of Research Institute of America, a provider of information services to the accounting industry and a wholly owned subsidiary of\nThomson Reuters Corporation, and president and chief executive officer of Computer Language Research Inc., a publicly traded company focused on tax compliance, tax research and accounting software, which was acquired by Thomson Reuters\nCorporation.\nMr.",
+      "method": "gliner",
+      "confidence": 0.7450071573257446,
+      "rank_score": 1.0450071573257447,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2775,
+        2802
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Mirasol Capital",
+      "passage": "On\nAugust\u00a016, 2019, Mirasol Capital delivered a non-binding indication of interest to the Company Board (the \"August\u00a016 Proposal\"), outlining potential investment options\nranging from an equity investment by Mirasol Capital in the Company, to Mirasol Capital's acquisition of all of the outstanding Shares.",
+      "method": "gliner",
+      "confidence": 0.9442363381385803,
+      "rank_score": 1.0442363381385804,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        20,
+        35
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Mirasol Capital",
+      "passage": "EEFF\"\nCOMMAND=ADD_STABLERULES,\"border-bottom:solid #000000 1.0pt;\"\nCOMMAND=ADD_DTABLERULES,\"border-bottom:double #000000 2.25pt;\"\nCOMMAND=ADD_SCRTABLERULES,\"border-bottom:solid #000000 1.0pt;margin-bottom:0pt;\"\nCOMMAND=ADD_DCRTABLERULES,\"border-bottom:double #000000 2.25pt;margin-bottom:0pt;\"\nCOMMAND=STYLE_ADDED,\"margin-left:10.0pt;text-indent:-10.0pt;\"\nDome Product Purchase Order\nThe Company and Mirasol Capital entered into a purchase order on November\u00a027, 2019 (the \"Dome Product Purchase Order\"), whereby the\nCompany would design a demonstration dome for Mirasol Capital.",
+      "method": "gliner",
+      "confidence": 0.9418457746505737,
+      "rank_score": 1.0418457746505738,
+      "doc_role": "otp",
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "faq_question": null,
+      "char_span": [
+        509,
+        524
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Evans\u00a0& Sutherland Computer\nCorporation",
+      "passage": "alone and the term \"the Company\" to refer to Evans\u00a0& Sutherland Computer\nCorporation, a Utah corporation.",
+      "method": "gliner",
+      "confidence": 0.6907006502151489,
+      "rank_score": 1.040700650215149,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2412,
+        2451
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Utah corporation",
+      "passage": "This\nLetter of Transmittal is being delivered to you in connection with the offer by Elevate Acquisition Corporation, a Delaware corporation (\"Purchaser\"), a subsidiary of Elevate\nEntertainment\u00a0Inc., a Delaware corporation, to purchase all of the issued and outstanding shares of common stock, par value $0.20 per share (the \"Shares\"), of Evans\u00a0& Sutherland Computer\nCorporation, a Utah corporation (the \"Company\"), at a purchase price of $1.19 per Share, net to the seller in cash, without interest thereon and subject to any applicable tax withholding, upon the\nterms and subject to the conditions set forth in this Letter of Transmittal and the related Offer to Purchase by Purchaser, dated February\u00a027, 2020 (the \"Offer to Purchase,\" which, together\nwith this Letter of Transmittal, as they may",
+      "method": "gliner",
+      "confidence": 0.7350481748580933,
+      "rank_score": 1.0350481748580933,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3582,
+        3598
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1b.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Surviving Corporation",
+      "passage": "aware corporation (the \"\nMerger Sub\n\") and wholly owned subsidiary of\nElevate Entertainment\u00a0Inc., a Delaware corporation (\"\nParent\n\"), shall be merged (the \"\nMerger\n\")\nwith and into Evans\u00a0& Sutherland Computer Corporation, a Utah corporation (the \"\nCompany\n\"), and the separate existence of the Merger Sub shall\nthereupon cease and the Company shall be the surviving corporation in the Merger (the \"\nSurviving Corporation\n\").\n2.\nEffective Time.\nThe Surviving Corporation shall file with the Utah Department of Commerce, Division of\nCorporations and Commercial Code (the \"\nDivision\n\") articles of merger (the \"\nArticles of Merger\n\") executed\nin accordance with, and containing such information as is required by, Section\u00a01105 of the URBCA.",
+      "method": "gliner",
+      "confidence": 0.7237881422042847,
+      "rank_score": 1.0237881422042847,
+      "doc_role": "otp",
+      "section": "PLAN OF MERGER",
+      "faq_question": null,
+      "char_span": [
+        775,
+        796
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "ZEQ",
+      "passage": "At the effective time of the Merger, all of the then issued and outstanding Shares (other than Shares held by the Company as treasury stock, by any subsidiary of the Company or\nby Parent, Purchaser or any of their respective subsidiaries or Shares for which the holder thereof properly exercised dissenters' rights) will be\nS-vi\nZEQ.=6,SEQ=9,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=307986,FOLIO='S-vi',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'",
+      "method": "gliner",
+      "confidence": 0.6204884052276611,
+      "rank_score": 1.020488405227661,
+      "doc_role": "otp",
+      "section": "If I do not tender my Shares but the Offer is consummated, what will happen to my Shares?",
+      "faq_question": "If I do not tender my Shares but the Offer is consummated, what will happen to my Shares?",
+      "char_span": [
+        494,
+        497
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "tendering shareholder",
+      "passage": "Our acceptance for payment of\nShares tendered pursuant to the Offer will constitute a binding agreement between the tendering shareholder and us upon the terms and subject to the conditions of the Offer.",
+      "method": "gliner",
+      "confidence": 0.9163719415664673,
+      "rank_score": 1.0163719415664674,
+      "doc_role": "otp",
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "faq_question": null,
+      "char_span": [
+        870,
+        891
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "26-FEB-2020",
+      "passage": "If you do not tender your Shares pursuant to the Offer,\nS-viii\nZEQ.=8,SEQ=11,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=677769,FOLIO='S-viii',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'",
+      "method": "gliner",
+      "confidence": 0.6821153163909912,
+      "rank_score": 1.0121153163909913,
+      "doc_role": "otp",
+      "section": "Will I have dissenters' rights in either the Offer or the Merger?",
+      "faq_question": "Will I have dissenters' rights in either the Offer or the Merger?",
+      "char_span": [
+        1167,
+        1178
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and Purchaser",
+      "passage": "Yes. Concurrently with entering into the Merger Agreement, Parent and Purchaser entered into Tender and Support Agreements with each of the\nSupporting Shareholders (as defined below in Section\u00a011\u2014\"The Merger Agreement; Other Agreements\u2014Tender and Support Agreements\"), which provide that each Supporting\nShareholder will tender into the Offer, and not withdraw, all outstanding Shares such Supporting Shareholder owns of record or beneficially (within the meaning of Rule\u00a013d-3 u",
+      "method": "gliner",
+      "confidence": 0.8475795388221741,
+      "rank_score": 0.9975795388221741,
+      "doc_role": "otp",
+      "section": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "faq_question": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "char_span": [
+        59,
+        79
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Mirasol Capital,\u00a0LLC",
+      "passage": "COMMAND=STYLE_ADDED,\"margin-left:10.0pt;text-indent:-10.0pt;\"\nConfidentiality Agreement\nMirasol Capital,\u00a0LLC, a Delaware limited liability company and an affiliate of Parent (\"Mirasol Capital\"), and the Company entered into a\nMutual Non-Disclosure Agreement dated as of October\u00a021, 2019 (the \"Confidentiality Agreement\").",
+      "method": "gliner",
+      "confidence": 0.6967698931694031,
+      "rank_score": 0.9967698931694031,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        1013,
+        1033
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company Options",
+      "passage": "Including Shares which may be issued under Company Options which are exercisable for, or may become vested and settled in, Shares within 60\u00a0days of February\u00a09,\n2020, the Supporting Shareholders collectively beneficially owned, in the aggregate, 7,017,362 Shares as of February\u00a09, 2020 (or approximately 55.5% of the total of all Shares that are\noutstanding and all additional Shares that are deemed outstanding for purposes of calculating the Supporting Shar",
+      "method": "gliner",
+      "confidence": 0.9444863200187683,
+      "rank_score": 0.9944863200187684,
+      "doc_role": "otp",
+      "section": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "faq_question": "Have any shareholders already agreed to tender their Shares in the Offer or to otherwise support the\nOffer?",
+      "char_span": [
+        941,
+        956
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Bermuda Partners\u00a0LP",
+      "passage": "Kellogg Revocable Trust, Bermuda Partners\u00a0LP, Stuart Sternberg, David Bateman, Paul Dailey, Kirk Johnson, L.\u00a0Tim Pierce and Jonathan Shaw\n(each a \"Supporting Shareholder\").",
+      "method": "gliner",
+      "confidence": 0.6920289993286133,
+      "rank_score": 0.9920289993286133,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2406,
+        2425
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Weil, Gotshal\u00a0& Manges,\u00a0LLP",
+      "passage": "On\nJuly\u00a017, 2019, Mirasol Capital engaged Weil, Gotshal\u00a0& Manges,\u00a0LLP (\"Weil\") as M&A counsel to assist them in evaluating a potential investment in, or the\nacquisition of, the Company.",
+      "method": "gliner",
+      "confidence": 0.6881763339042664,
+      "rank_score": 0.9881763339042664,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        3024,
+        3051
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Supporting Shareholders",
+      "passage": "Company Options which are exercisable for, or may become vested and settled in, Shares within 60\u00a0days of February\u00a09,\n2020, the Supporting Shareholders collectively beneficially owned, in the aggregate, 7,017,362 Shares as of February\u00a09, 2020 (or approximately 55.5% of the total of all Shares that are\noutstanding and all additional Shares that are deemed outstanding for purposes of calculating the Supporting Shareholders' percentage ownership in accordance with Rule\u00a013d-3(d)(1)(i) under the\nExchange Act as of February\u00a09, 2020).",
+      "method": "gliner",
+      "confidence": 0.880118191242218,
+      "rank_score": 0.980118191242218,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2649,
+        2672
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Top-Up Option",
+      "passage": "COMMAND=STYLE_ADDED,\"margin-left:10.0pt;text-indent:-10.0pt;\"\nTop-Up Option\nPursuant to the Merger Agreement, the Company granted to Parent and Purchaser an assignable and irrevocable option (the \"Top-Up Option\") to\npurchase from the Company the number of newly-issued, fully-paid and non-assessable Shares equal to the lesser of (i)\u00a0the number of Shares that, when added to the number of Shares owned by\nParent or Purchaser at the time of\nexercise of the Top-Up Option, cons",
+      "method": "gliner",
+      "confidence": 0.9696599841117859,
+      "rank_score": 0.9696599841117859,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2714,
+        2727
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Bermuda Partners\u00a0LP",
+      "passage": "Kellogg, Bermuda Partners\u00a0LP, Cynthia K.",
+      "method": "gliner",
+      "confidence": 0.6570296883583069,
+      "rank_score": 0.9570296883583069,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4568,
+        4587
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Company Board",
+      "passage": "On\nAugust\u00a028, 2019, the Company Board sent a response letter to Mirasol Capital, formally advising Mirasol Capital in writing that the Company Board was not interested in pursuing\nan investment by Mirasol Capital in the Company, but would entertain discussions concerning a potential acquisition of the Company.",
+      "method": "gliner",
+      "confidence": 0.6563675403594971,
+      "rank_score": 0.9563675403594971,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        442,
+        455
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent or Purchaser",
+      "passage": "The Top-Up Option may be exercised by Parent or Purchaser, in whole or in part, at any time at or after the Acceptance\nTime.",
+      "method": "gliner",
+      "confidence": 0.8544195294380188,
+      "rank_score": 0.9544195294380188,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        3599,
+        3618
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Surviving Corporation",
+      "passage": "The\nMerger Agreement also provides that, unless otherwise designated by Parent, from and after the Effective Time, the directors of Purchaser immediately prior to the Effective Time will\nbe the directors of the Surviving Corporation, and the officers of Purchaser immediately prior to the Effective Time will be the officers of the Surviving Corporation, in each case, until their\nrespective successors are duly elected or appointed and qualified or their earlier death, resignation or removal in accordance with the articles of incorporation and bylaws of the Surviving\nCorporation.",
+      "method": "gliner",
+      "confidence": 0.6416937112808228,
+      "rank_score": 0.9416937112808228,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        3509,
+        3530
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "employee stock options",
+      "passage": "ers in securities or foreign currency, traders that mark-to-market their securities, expatriates and former long-term residents of the United\nStates, persons subject to the alternative minimum tax, shareholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, shareholders who received Shares\nin compensatory transactions, pursuant to the exercise of employee stock options, stock purchase rights or stock appreciation rights, as restricted stock or otherwise as compensation, and shareholders\nthat beneficially own (actually or constructively), more than 5% of the total fair market value of the Shares).",
+      "method": "gliner",
+      "confidence": 0.9370944499969482,
+      "rank_score": 0.9370944499969482,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2407,
+        2429
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "EFW",
+      "passage": "In addition, we intend to\ncause the Company to be deregistered under the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), after completion of the Merger.\nS-i\nZEQ.=1,SEQ=4,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=825498,FOLIO='S-i',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'",
+      "method": "gliner",
+      "confidence": 0.5336922407150269,
+      "rank_score": 0.9336922407150269,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        3726,
+        3729
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "February\u00a09, 2020",
+      "passage": "As\na result of the Tender and Support Agreements (as defined below in Section\u00a011\u2014\"The Merger Agreement; Other Agreements\u2014Tender and Support Agreements\"),\nPurchaser and Parent may each be deemed to be the beneficial owner of an aggregate of 7,017,362 Shares as of February\u00a09, 2020 (including Shares that may be issued under Company Options that are\nexercisable for, or may become vested and settled in, Shares within 60\u00a0days of February\u00a09, 2020) (or approximately 55.5% of the total of all Shares that are outstanding and all\nadditional Shares that are deemed outstanding for purposes of calculating the Supporting Shareholders' percentage ownership in accordance with Rule\u00a013d-3(",
+      "method": "gliner",
+      "confidence": 0.4527367949485779,
+      "rank_score": 0.9027367949485778,
+      "doc_role": "otp",
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "faq_question": null,
+      "char_span": [
+        2928,
+        2944
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "settlement_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "S-vi",
+      "passage": "ive time of the Merger, all of the then issued and outstanding Shares (other than Shares held by the Company as treasury stock, by any subsidiary of the Company or\nby Parent, Purchaser or any of their respective subsidiaries or Shares for which the holder thereof properly exercised dissenters' rights) will be\nS-vi\nZEQ.=6,SEQ=9,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=307986,FOLIO='S-vi',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'",
+      "method": "gliner",
+      "confidence": 0.8446223139762878,
+      "rank_score": 0.8946223139762879,
+      "doc_role": "otp",
+      "section": "If I do not tender my Shares but the Offer is consummated, what will happen to my Shares?",
+      "faq_question": "If I do not tender my Shares but the Offer is consummated, what will happen to my Shares?",
+      "char_span": [
+        578,
+        582
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Nasdaq",
+      "passage": "(Nasdaq: RP) (\"RealPage\") and has served as RealPage chief executive officer, chairman of the board, and a member of the RealPage board of directors since November 1998.",
+      "method": "gliner",
+      "confidence": 0.8925910592079163,
+      "rank_score": 0.8925910592079163,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        898,
+        904
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "S-viii",
+      "passage": "If you do not tender your Shares pursuant to the Offer,\nS-viii\nZEQ.=8,SEQ=11,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=677769,FOLIO='S-viii',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'",
+      "method": "gliner",
+      "confidence": 0.8310195207595825,
+      "rank_score": 0.8810195207595826,
+      "doc_role": "otp",
+      "section": "Will I have dissenters' rights in either the Offer or the Merger?",
+      "faq_question": "Will I have dissenters' rights in either the Offer or the Merger?",
+      "char_span": [
+        999,
+        1005
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "S-iii",
+      "passage": "In addition, if, pursuant to the Merger Agreement we decide to, or are required to, extend the Offer or we decide to provide a subsequent offering period for the Offer as\ndescribed below, you will have an additional opportunity to tender your Shares.\nS-iii\nZEQ.=3,SEQ=6,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=861232,FOLIO='S-iii',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'",
+      "method": "gliner",
+      "confidence": 0.8266717195510864,
+      "rank_score": 0.8766717195510865,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        702,
+        707
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "control shares",
+      "passage": "COMMAND=STYLE_ADDED,\"margin-left:10.0pt;text-indent:-10.0pt;\"\nUtah Control Shares Acquisitions Act\nThe Utah Control Shares Acquisitions Act (the \"Control Shares Act\") provides that \"control shares\" of a corporation acquired in a control share\nacquisition have no voting rights except as granted by the shareholders of the corporation.",
+      "method": "gliner",
+      "confidence": 0.8743365406990051,
+      "rank_score": 0.8743365406990051,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        182,
+        196
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "S-ix",
+      "passage": "You may call Innisfree M&A Incorporated, the information agent for the Offer (the \"Information Agent\") toll free at (888)\u00a0750-5834. See\nthe back cover of this Offer to Purchase for additional contact information.\nS-ix\nZEQ.=9,SEQ=12,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=950695,FOLIO='S-ix',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'\nTHIS IS THE END OF A COMPOSITION COMPONENT",
+      "method": "gliner",
+      "confidence": 0.8208101987838745,
+      "rank_score": 0.8708101987838746,
+      "doc_role": "otp",
+      "section": "Whom should I call if I have questions about the Offer?",
+      "faq_question": "Whom should I call if I have questions about the Offer?",
+      "char_span": [
+        213,
+        217
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "SEQ",
+      "passage": "15\nZEQ.=3,SEQ=27,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=830952,FOLIO='15',FILE='DISK121:[20ZBD1.20ZBD14701]LO14701A.;18',USER='CHE108068',CD='26-FEB-2020;19:48'",
+      "method": "gliner",
+      "confidence": 0.5165794491767883,
+      "rank_score": 0.8665794491767883,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        3808,
+        3811
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Uncertificated Shares",
+      "passage": "Promptly after the Effective Time (and in no event later than three Business Days following the Effective Time), Parent shall deposit, or cause to be deposited, with\nthe Payment Agent, the aggregate Merger Consideration to be paid in respect of the Certificates and Uncertificated Shares (the \"\nPayment Fund\n\").",
+      "method": "gliner",
+      "confidence": 0.6579486131668091,
+      "rank_score": 0.857948613166809,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2855,
+        2876
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "EVANS & SUTHERLAND COMPUTER CORPORATION",
+      "passage": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE 14D-9\n(Rule\u00a014d-101)\nSolicitation/Recommendation Statement\nUnder\nSection\u00a014(d)(4)\u00a0of the Securities Exchange Act of 1934\nEVANS & SUTHERLAND COMPUTER CORPORATION\n(Name of Subject Company)\nEVANS & SUTHERLAND COMPUTER CORPORATION\n(Name of Persons Filing Statement)\nCommon\nStock, par value $0.20 per share\n(Title of Class\u00a0of Securities)\n299096107\n(CUSIP Number of Class\u00a0of Securities)\nJonathan A.",
+      "method": "gliner",
+      "confidence": 0.655692994594574,
+      "rank_score": 0.8556929945945739,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        202,
+        241
+      ],
+      "source_hit_id": "0001445866-20-000112:escc_sc14d9.htm",
+      "source_accession": "0001445866-20-000112",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "S-i",
+      "passage": "In addition, we intend to\ncause the Company to be deregistered under the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), after completion of the Merger.\nS-i\nZEQ.=1,SEQ=4,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=825498,FOLIO='S-i',FILE='DISK121:[20ZBD1.20ZBD14701]LI14701A.;12',USER='CHE111667',CD='26-FEB-2020;16:49'",
+      "method": "gliner",
+      "confidence": 0.8040029406547546,
+      "rank_score": 0.8540029406547547,
+      "doc_role": "otp",
+      "section": "Why are you making the Offer?",
+      "faq_question": "Why are you making the Offer?",
+      "char_span": [
+        577,
+        580
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Company Common Stock",
+      "passage": "(a)\u00a0\u00a0\u00a0Shares\nof Company Common Stock held by a holder who has made a proper demand for appraisal of such shares of Company Common Stock in accordance with Part\u00a013 of\nthe URBCA and who has otherwise complied with all applicable provisions of Part\u00a013 of the URBCA (any such shares being referred to as \"\nDissenting\nShares\n\" until such time as such holder loses such holder's dissenter's rights under Part\u00a013 of the URBCA with respect to such shares) shall not be converted into or\nrepresent the right to receive the Merger Consideration",
+      "method": "gliner",
+      "confidence": 0.6516185998916626,
+      "rank_score": 0.8516185998916626,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        549,
+        569
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "options",
+      "passage": "Including Shares which may be issued under options which are exercisable for, or may become vested and settled in,\nShares within 60\u00a0days of February\u00a09, 2020, the Supporting Shareholders collectively beneficially owned, in the aggregate, 7,017,362 Shares as of February\u00a09, 2020 (or approximately\n55.5% of the total of all Shares that are outstanding and all additional Shares that are deemed outstanding for purposes of calculating the Supporting Shar",
+      "method": "gliner",
+      "confidence": 0.83072829246521,
+      "rank_score": 0.83072829246521,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2829,
+        2836
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Dissenting Shares",
+      "passage": "If any Dissenting Shares will lose their status as such, then such shares will be deemed automatically to\nhave been converted into, as of the Effective Time, and to represent only, the right to receive the Merger Consideration in accordance with the Merger Agreement, without interest thereon, upon\nsurrender of a Certificate or Uncertificated Share representing such shares in accordance with the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.806312620639801,
+      "rank_score": 0.806312620639801,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        3450,
+        3467
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Telex Corp.",
+      "passage": "Telex Corp.\n, a U.S.",
+      "method": "gliner",
+      "confidence": 0.4971403479576111,
+      "rank_score": 0.7971403479576111,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2284,
+        2295
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "target",
+      "raw": "target corporation",
+      "passage": "of America\n, the Supreme Court\nheld that the State of Indiana could, as a matter of corporate law, constitutionally disqualify a potential acquirer from voting shares of a target corporation without the prior approval of the\nremaining shareholders where, among other things, the corporation is incorporated, and has a substantial number of shareholders, in the state.",
+      "method": "gliner",
+      "confidence": 0.4554122984409332,
+      "rank_score": 0.7554122984409333,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2046,
+        2064
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock appreciation rights",
+      "passage": "at mark-to-market their securities, expatriates and former long-term residents of the United\nStates, persons subject to the alternative minimum tax, shareholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, shareholders who received Shares\nin compensatory transactions, pursuant to the exercise of employee stock options, stock purchase rights or stock appreciation rights, as restricted stock or otherwise as compensation, and shareholders\nthat beneficially own (actually or constructively), more than 5% of the total fair market value of the Shares).",
+      "method": "gliner",
+      "confidence": 0.7474467158317566,
+      "rank_score": 0.7474467158317566,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2456,
+        2481
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock options",
+      "passage": "Information as of particular dates concerning the Company's directors and officers, their remuneration, stock options granted to them, the principal holders of the Company's\nsecurities, any material interests of such persons in transactions with the Company and other matters is required to be disclosed in proxy statements, the last one having been filed with the SEC on\nApril\u00a01, 2019 and distributed to the Company's shareholders.",
+      "method": "gliner",
+      "confidence": 0.7168765664100647,
+      "rank_score": 0.7168765664100647,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2002,
+        2015
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash",
+      "passage": "if we consummate the Offer, we intend to complete the Merger, in which all Shares (subject to limited exceptions for Shares held by us, our\nsubsidiaries, the Company or its subsidiaries) that then remain issued and outstanding will be converted into the right to receive the Offer Price in cash;",
+      "method": "gliner",
+      "confidence": 0.6607340574264526,
+      "rank_score": 0.7107340574264527,
+      "doc_role": "otp",
+      "section": "\u2022?",
+      "faq_question": "\u2022?",
+      "char_span": [
+        290,
+        294
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Cashed Out Compensatory Award",
+      "passage": "contemplated\nby the Merger Agreement) of each Company Compensatory Award that is outstanding immediately prior to the Effective Time (each such vested portion of a Company Compensatory Award, a\n\"Cashed Out Compensatory Award\") will, immediately prior to the Effective Time, be cancelled and extinguished and, in exchange therefor, each former holder of any such Cashed Out Compensatory Award\nwill have the right to receive an amount in cash equal to the product of (i)\u00a0the aggregate number of Shares subject to such Cashed Out Compensatory Award immediately prior to the Effective Time\nand (ii)\u00a0the Merger Consideration less any per share exercise or purchase price of such Cashed Out Compensatory Award immediately prior to such cancellation (such amounts payable hereunder\nbeing referred t",
+      "method": "gliner",
+      "confidence": 0.5066402554512024,
+      "rank_score": 0.7066402554512023,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        362,
+        391
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Subject Shares",
+      "passage": "eneficially or of record by, each such Supporting Shareholder until the\nearlier to occur of the Effective Time, the termination of the Tender and Support Agreement or the termination of the Merger Agreement (the \"Agreement Period\"), including through the exercise of any\nstock options, warrants, convertible or exchangeable securities or other similar instruments of the Company) (collectively, the \"Subject Shares\").",
+      "method": "gliner",
+      "confidence": 0.6919206380844116,
+      "rank_score": 0.6919206380844116,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        523,
+        537
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Cashed Out Compensatory\nAward",
+      "passage": "rtion (including any portion\nthat pursuant to the applicable equity incentive plan or its terms becomes vested solely as a result of the transactions contemplated by the Merger Agreement) of each outstanding and unexercised\nCompany Option (each, a \"Company Compensatory Award\") that is outstanding immediately prior to the Effective Time (each such vested portion of a Company Compensatory Award, a \"Cashed Out Compensatory\nAward\") will, immediately prior to the Effective Time, be cancelled and extinguished and, in exchange therefor, each former holder of any such Cashed Out Compensatory Award will have the right to\nreceive an amount in cash equal to the product of (i)\u00a0the aggregate number of Shares subject to such Cashed Out Compensatory Award immediately prior to the Effective Time and (ii)\u00a0the\nMerger Consideration (as",
+      "method": "gliner",
+      "confidence": 0.6401313543319702,
+      "rank_score": 0.6901313543319703,
+      "doc_role": "otp",
+      "section": "What will happen to my Company Options in the Offer?",
+      "faq_question": "What will happen to my Company Options in the Offer?",
+      "char_span": [
+        1396,
+        1425
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company Compensatory Award",
+      "passage": "Merger Agreement provides that, at the Effective Time by virtue of the Merger and without any action on the part of the holders thereof, the vested portion (including any portion\nthat pursuant to the applicable equity incentive plan or its terms becomes vested solely as a result of the transactions contemplated by the Merger Agreement) of each outstanding and unexercised\nCompany Option (each, a \"Company Compensatory Award\") that is outstanding immediately prior to the Effective Time (each such vested portion of a Company Compensatory Award, a \"Cashed Out Compensatory\nAward\") will, immediately prior to the Effective Time, be cancelled and extinguished and, in exchange therefor, each former holder of any such Cashed Out Compensatory Award will have the right to\nreceive an amount in cash equal to the product of (i)\u00a0t",
+      "method": "gliner",
+      "confidence": 0.6348504424095154,
+      "rank_score": 0.6848504424095154,
+      "doc_role": "otp",
+      "section": "What will happen to my Company Options in the Offer?",
+      "faq_question": "What will happen to my Company Options in the Offer?",
+      "char_span": [
+        1245,
+        1271
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "warrants",
+      "passage": "owned by Parent or Purchaser\nimmediately prior to the Acceptance Time, represents a majority of the sum of (i)\u00a0the aggregate number of Shares issued and outstanding immediately prior to the Acceptance Time plus\n(ii)\u00a0an additional number of Shares up to (but not exceeding) the aggregate number of Shares issuable upon the conversion, exchange, settlement or exercise, as applicable, of all\noptions, warrants and other rights to acquire, or securities convertible into or exchangeable for, Shares that are outstanding immediately prior to the Acceptance Time (other than potential (but not\nactual) dilution attributable to the \"top-up\" option described below) (the \"Minimum Condition\").",
+      "method": "gliner",
+      "confidence": 0.5933033227920532,
+      "rank_score": 0.6433033227920533,
+      "doc_role": "otp",
+      "section": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "faq_question": "Is there a minimum number of Shares that must be tendered in order for you to purchase any securities?",
+      "char_span": [
+        887,
+        895
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Certificates",
+      "passage": "(a)\u00a0\u00a0\u00a0Prior\nto the Effective Time, Parent shall appoint a payment agent reasonably acceptable to the Company (the \"\nPayment\nAgent\n\") for the purpose of paying the Merger Consideration in exchange for: (i)\u00a0certificates representing shares of Company Common Stock (the\n\"\nCertificates\n\") and (ii)\u00a0uncertificated shares of Company Common Stock (the \"\nUncertificated\nShares\n\").",
+      "method": "gliner",
+      "confidence": 0.6361699104309082,
+      "rank_score": 0.6361699104309082,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2485,
+        2497
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number of Class\u00a0of Securities",
+      "passage": "20549\nSCHEDULE 14D-9\n(Rule\u00a014d-101)\nSolicitation/Recommendation Statement\nUnder\nSection\u00a014(d)(4)\u00a0of the Securities Exchange Act of 1934\nEVANS & SUTHERLAND COMPUTER CORPORATION\n(Name of Subject Company)\nEVANS & SUTHERLAND COMPUTER CORPORATION\n(Name of Persons Filing Statement)\nCommon\nStock, par value $0.20 per share\n(Title of Class\u00a0of Securities)\n299096107\n(CUSIP Number of Class\u00a0of Securities)\nJonathan A.",
+      "method": "gliner",
+      "confidence": 0.6352357268333435,
+      "rank_score": 0.6352357268333435,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        425,
+        460
+      ],
+      "source_hit_id": "0001445866-20-000112:escc_sc14d9.htm",
+      "source_accession": "0001445866-20-000112",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ELEVATE ENTERTAINMENT",
+      "passage": "Parent, Purchaser and the Company\nacknowledge and agree that, in any\n22\nZEQ.=10,SEQ=34,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=770351,FOLIO='22',FILE='DISK121:[20ZBD1.20ZBD14701]LO14701A.;18',USER='CHE108068',CD='26-FEB-2020;19:48'",
+      "method": "gliner",
+      "confidence": 0.4204729199409485,
+      "rank_score": 0.6204729199409484,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        4542,
+        4563
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock purchase rights",
+      "passage": "eign currency, traders that mark-to-market their securities, expatriates and former long-term residents of the United\nStates, persons subject to the alternative minimum tax, shareholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, shareholders who received Shares\nin compensatory transactions, pursuant to the exercise of employee stock options, stock purchase rights or stock appreciation rights, as restricted stock or otherwise as compensation, and shareholders\nthat beneficially own (actually or constructively), more than 5% of the total fair market value of the Shares).",
+      "method": "gliner",
+      "confidence": 0.6157295107841492,
+      "rank_score": 0.6157295107841492,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2431,
+        2452
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Company Compensatory Award",
+      "passage": "holders thereof, the vested portion (including any portion\nthat pursuant to the applicable equity incentive plan or its terms becomes vested solely as a result of the transactions contemplated by the Merger Agreement) of each outstanding and unexercised\nCompany Option (each, a \"Company Compensatory Award\") that is outstanding immediately prior to the Effective Time (each such vested portion of a Company Compensatory Award, a \"Cashed Out Compensatory\nAward\") will, immediately prior to the Effective Time, be cancelled and extinguished and, in exchange therefor, each former holder of any such Cashed Out Compensatory Award will have the right to\nreceive an amount in cash equal to the product of (i)\u00a0the aggregate number of Shares subject to such Cashed Out Compensatory Award immediately prior to the Effective Time and",
+      "method": "gliner",
+      "confidence": 0.4103452265262604,
+      "rank_score": 0.6103452265262603,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2847,
+        2873
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "top-up",
+      "passage": "See\nSection\u00a013\u2014\"Certain Effects of the Offer.\"\nCOMMAND=STYLE_ADDED,\"margin-left:10.0pt;text-indent:-10.0pt;\"\nWill a meeting of the Company's shareholders be required to approve the Merger?\nUnder the URBCA, if we acquire, pursuant to the Offer or otherwise, at least 90% of the outstanding Shares (including pursuant to the \"top-up\"\noption), we believe we could, and we intend to, consummate the Merger under the short-form merger provisions of the URBCA without any action by any other shareholder of the Company.",
+      "method": "gliner",
+      "confidence": 0.5632311701774597,
+      "rank_score": 0.5632311701774597,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2088,
+        2094
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "top-up\"\noption",
+      "passage": "Under the URBCA, if we acquire, pursuant to the Offer or otherwise, at least 90% of the outstanding Shares (including pursuant to the \"top-up\"\noption), we believe we could, and we intend to, consummate the Merger under the short-form merger provisions of the URBCA without any action by any other shareholder of the Company.",
+      "method": "gliner",
+      "confidence": 0.5063645839691162,
+      "rank_score": 0.5563645839691163,
+      "doc_role": "otp",
+      "section": "Will a meeting of the Company's shareholders be required to approve the Merger?",
+      "faq_question": "Will a meeting of the Company's shareholders be required to approve the Merger?",
+      "char_span": [
+        135,
+        149
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificates",
+      "passage": "See Instructions\u00a01 and 5 of the Letter of Transmittal.\nGuaranteed Delivery.\nIf a shareholder desires to tender Shares pursuant to the Offer and the Share Certificates evidencing such\nshareholder's Shares\nare not immediately available or such shareholder cannot deliver the Share Certificates and all other required documents to the Depositary on or prior to the Expiration Date, or such shareholder\ncannot complete the procedure for delivery by\n6\nZEQ.=6,SEQ=18,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=279362,FOLIO='6',FILE='DISK121:[20ZBD1.20ZBD1470",
+      "method": "gliner",
+      "confidence": 0.5197159051895142,
+      "rank_score": 0.5197159051895142,
+      "doc_role": "otp",
+      "section": "3.\u00a0\u00a0Procedures for Accepting the Offer and Tendering Shares.",
+      "faq_question": null,
+      "char_span": [
+        4403,
+        4421
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "Conditions of the\nOffer",
+      "passage": "procedures that have not yet been delivered in settlement or satisfaction of such guarantee) validly tendered prior to 12:00 midnight,\nEastern Time, at the end of the Expiration Date and not validly withdrawn as described in Section\u00a04\u2014\"Withdrawal Rights.\"\nThe\nOffer is conditioned upon, among other things, the satisfaction of the Minimum Condition and the other conditions described in Section\u00a015\u2014\"Conditions of the\nOffer.\"\nThe\nMerger Agreement provides that (i)\u00a0if, as of the scheduled Expiration Date, any of the conditions to Purchaser's obligation to accept for payment and pay for Shares validly\ntendered (and not withdrawn) pursuant to the Offer set forth in Exhibit\u00a0C to the Merger Agreement (collectively, the \"Offer Conditions\") is not satisfied and has not been waived, Purchaser may,\nin its discretion (and wit",
+      "method": "gliner",
+      "confidence": 0.5017263889312744,
+      "rank_score": 0.5017263889312744,
+      "doc_role": "otp",
+      "section": "1.\u00a0\u00a0Terms of the Offer.",
+      "faq_question": null,
+      "char_span": [
+        829,
+        852
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "proration_terms",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "voting\nsecurities",
+      "passage": "(i)\u00a0\u00a0\u00a0\u00a0\"\nSubsidiary\n\" means , with respect to any Person, an Entity shall be deemed to be a\n\"\nSubsidiary\n\" of another Person if such Person directly or indirectly owns or purports to own, beneficially or of record: (a)\u00a0an amount of voting\nsecurities of other interests in such Entity that is sufficient to enable such Person to elect at least a majority of the members of such Entity's board of directors or other governing body; or\n(b)\u00a0at least 50% of the outstanding equity, voting or financial interests in such Entity.",
+      "method": "gliner",
+      "confidence": 0.482512891292572,
+      "rank_score": 0.482512891292572,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        1724,
+        1741
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "12:00 pm Eastern Time",
+      "passage": "As specified in\nthe Articles of Merger and the Certificate of Merger, the Merger shall become effective at 12:00 pm Eastern Time on the date of filing of the Articles of Merger with the Division (the\n\"\nEffective Time\n\").\n3.\nEffect of the Merger.\nAt the Effective Time, the effect of the Merger shall be as provided in this Plan of\nMerger, the Articles of Merger, the Certificate of Merger and the applicable provisions of the URBCA and the DGCL.",
+      "method": "gliner",
+      "confidence": 0.4652814567089081,
+      "rank_score": 0.4652814567089081,
+      "doc_role": "otp",
+      "section": "PLAN OF MERGER",
+      "faq_question": null,
+      "char_span": [
+        1427,
+        1448
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "effective_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "Terms of the Offer",
+      "passage": "1.\u00a0\u00a0Terms of the Offer.\nPurchaser is offering to purchase all of the issued and outstanding Shares at the Offer Price.",
+      "method": "gliner",
+      "confidence": 0.4487845003604889,
+      "rank_score": 0.4487845003604889,
+      "doc_role": "otp",
+      "section": "1.\u00a0\u00a0Terms of the Offer.",
+      "faq_question": null,
+      "char_span": [
+        4,
+        22
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "proration_terms",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Offer Expiration Termination Provision",
+      "passage": "formed by such party at or prior\nto the Effective Time;\n\u2022\nby either Parent or the Company at any time prior to the Acceptance Time if the Offer has expired or has been terminated in accordance with the\nterms of the Merger Agreement without Purchaser having accepted the Shares for payment pursuant to the Offer (the termination provision of the Merger Agreement summarized in this bullet point, the\n\"Offer Expiration Termination Provision\"); provided that (i)\u00a0a party will not be permitted to terminate under this provision if (a)\u00a0the failure of Purchaser to accept the Shares is\ncaused by or resulted from the failure of an Offer Condition to be satisfied and (b)\u00a0the failure of such Offer Condition to be satisfied is caused by or resulted from a failure, on the part of\nthe party seeking to terminate, to perform its obligations under",
+      "method": "gliner",
+      "confidence": 0.4446636438369751,
+      "rank_score": 0.4446636438369751,
+      "doc_role": "otp",
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "faq_question": null,
+      "char_span": [
+        3224,
+        3262
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum",
+      "passage": "the Offer Conditions is satisfied or has been waived as of\nthe scheduled Expiration Date and (b)\u00a0the Minimum Condition is not satisfied on such date, then, to the extent requested in writing by the Company prior to 5:00\u00a0p.m., Dallas, Texas time,\non such date, Purchaser will extend the Offer on one or more occasions, for an additional period of up to 20 business days per extension, to permit such Minimum Condition to be satisfied, but in no\nevent will Purchaser be required to extend the Offer to a date later than the Outside Date. The \"Outside Date\" means\n2\nZEQ.=2,SEQ=14,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=459356,FOLIO='2',FILE='DISK121:[20ZBD1.20ZBD14701]LK14701A.;10',USER='CHE108057',CD='26-FEB-2020;07:14'",
+      "method": "gliner",
+      "confidence": 0.442691832780838,
+      "rank_score": 0.442691832780838,
+      "doc_role": "otp",
+      "section": "1.\u00a0\u00a0Terms of the Offer.",
+      "faq_question": null,
+      "char_span": [
+        2369,
+        2376
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "s under such plan to the extent such were waived or\nsatisfied under the analogous health or welfare benefit plan of the Company or its applicable subsidiary immediately prior to the Effective Time, and (ii)\u00a0cause each Continuing Employee to be\ngiven credit under such plan for all amounts paid by such Continuing Employee under any analogous employee benefit plan for the plan year that includes the Effective Time for purposes of applying\nreimbursement amounts or limits, deductibles, co-payments and out-of-pocket maximums as though such amounts had been paid in accordance with the terms and conditions of the plans maintained by Parent\nor the Surviving Corporation, as applicable, for the plan year in which the Effective Time occurs.",
+      "method": "gliner",
+      "confidence": 0.9768948554992676,
+      "rank_score": 0.42689485549926753,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        3384,
+        3398
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective time of the Merger",
+      "passage": "At the effective time of the Merger, all of the then issued and outstanding Shares (other than Shares held by the Company as treasury stock, by any subsidiary of the Company or\nby Parent, Purchaser or any of their respective subsidiaries or Shares for which the holder thereof properly exercised dissenters' rights) will be\nS-vi\nZEQ.=6,SEQ=9,EFW=\"2240819\",CP=\"ELEVATE ENTERTAINMENT INC.\",DN=\"2\",CHK=307986,FOLIO='S-vi',FILE='DISK121:[2",
+      "method": "gliner",
+      "confidence": 0.4122050702571869,
+      "rank_score": 0.4122050702571869,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        3834,
+        3862
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "effective_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "the Offer Conditions is satisfied or has been waived as of the scheduled\nExpiration Date and (b)\u00a0the Minimum Condition is not satisfied on such date, then, to the extent requested in writing by the Company prior to 5:00\u00a0p.m., Dallas, Texas time, on such date,\nPurchaser will extend the Offer on one or more occasions, for an additional period of up to 20 business days per extension, to permit such Minimum Condition to be satisfied, but in no event will\nPurchaser be required to extend the Offer to a date later than the Outside Date. The \"Outside Date\" means June\u00a030, 2020. See Section\u00a011\u2014\"The Merger Agreement; Other\nAgreements\u2014Termination of the Merger Agreement.\"\nSee\nSection\u00a01\u2014\"Terms of the Offer\" and Section\u00a011\u2014\"The Merger Agreement; Other Agreements.\"",
+      "method": "gliner",
+      "confidence": 0.886950671672821,
+      "rank_score": 0.386950671672821,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        1576,
+        1593
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Parent of Offeror)\n(Names of Filing Persons)\nCommon Stock, Par Value $0.20 Per Share\n(Title of Class of Securities)\n299096107\n(CUSIP Number of Class of Securities)\nShaun Miller\nCorporate Secretary\nElevate Entertainment\u00a0Inc.\n4143 Maple Avenue, Suite\u00a0400\nDallas, Texas 75219\nTelephone: (214)\u00a0301-4250\n(Name, Address and Telephone Number of Person Authorized\nto Receive Notices and Communications on Behalf of Filing Persons)\nCopy to:\nJames R.",
+      "method": "gliner",
+      "confidence": 0.6473267674446106,
+      "rank_score": 0.34732676744461055,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        536,
+        548
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Acceptance Time",
+      "passage": "The Merger Agreement provides that, effective upon the Acceptance Time and from time to time thereafter, Parent will be entitled to designate to\nserve on the Company Board a number of directors rounded up to the next whole number, calculated by multiplying (i)\u00a0the total number of directors on the Company Board (giving effect to any\nincrease in the size of the Company Board contemplated by the Merger Agreement) by (ii)\u00a0a fraction, the numerator of which is equal to t",
+      "method": "gliner",
+      "confidence": 0.8730788826942444,
+      "rank_score": 0.32307888269424434,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        1909,
+        1924
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "effective_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Acceptance Time",
+      "passage": "ithdrawal, of a number of Shares (excluding\nShares tendered pursuant to guaranteed delivery procedures that are not yet delivered in settlement or satisfaction of such guarantee) that, together with any Shares owned by Parent or Purchaser\nimmediately prior to the Acceptance Time, represents a majority of the sum of (i)\u00a0the aggregate number of Shares issued and outstanding immediately prior to the Acceptance Time plus\n(ii)\u00a0an additional number of Shares up to (but not exceeding) the aggregate number of Shares issuable upon the conversion, exchange, settlement or exercise, as applicable, of all\noptions, warrants and other rights to acquire, or securities convertible into or exchangeable for, Shares that are outstanding immediately prior to the Acceptance Time (other than potential (but not\nactual) dilution",
+      "method": "gliner",
+      "confidence": 0.8318801522254944,
+      "rank_score": 0.28188015222549434,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2375,
+        2390
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "settlement_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective date",
+      "passage": "The written consent may be signed or delivered by electronic transmission.\nAction taken under this section shall be effective when the last director signs the consent unless the consent specifies a different effective date. A director's consent to an action may be revoked in\na writing signed by the director and delivered to the Company prior to the action becoming effective.\n2.11\u00a0\u00a0\u00a0\u00a0Compensation.\nThe Board of Directors may fix the compensation of directors and may provide for the payment\nof all expenses incurred by them in attending meetings of the Board of Directors.",
+      "method": "gliner",
+      "confidence": 0.6952037215232849,
+      "rank_score": 0.14520372152328487,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        2839,
+        2853
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "effective_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Offer Condition",
+      "passage": "if, at any scheduled expiration of the Offer, any Offer Condition is not satisfied and has not been waived, Purchaser may, in its discretion\n(and without the consent of the Company or any other Person) extend the Offer on one or more occasions for an additional period of up to 20 business days per extension, to permit such Offer Condition\nto be satisfied, except that no such extension of the Offer may be made to a date beyond the Outside Date;",
+      "method": "gliner",
+      "confidence": 0.5983830094337463,
+      "rank_score": 0.0983830094337463,
+      "doc_role": "otp",
+      "section": "\u2022?",
+      "faq_question": "\u2022?",
+      "char_span": [
+        325,
+        340
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Outside Date",
+      "passage": "to terminate, to perform its obligations under the Merger Agreement required to be performed by such party at or prior to the Acceptance Time and (ii)\u00a0the Company may not\nterminate the Merger Agreement under this provisions unless the Company has made any required termination fee payment;\n\u2022\nby either Parent or the Company if the Acceptance Time has not occurred on or prior to June\u00a030, 2020 (the \"Outside Date\" and, the\ntermination provision of the Merger Agreement summarized in this bullet point, the \"Outside Date Termination Provision\"); provided that (i)\u00a0a party may not terminate under this provision if\n(a)\u00a0the failure of the Acceptance Time to occur on or prior to the Outside Date is attributable to the failure of an Offer Condition to be satisfied and (b)\u00a0the failure of such Offer\nCondition to be",
+      "method": "gliner",
+      "confidence": 0.5658535957336426,
+      "rank_score": 0.015853595733642534,
+      "doc_role": "otp",
+      "section": "COMMAND=ADD_BASECOLOR,\"#000000\"",
+      "faq_question": null,
+      "char_span": [
+        4014,
+        4026
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "settlement_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Eastern Time",
+      "passage": "COMMAND=STYLE_ADDED,\"margin-left:10.0pt;text-indent:-10.0pt;\"\nHow long do I have to decide whether to tender my Shares in the Offer?\nYou will have until 12:00 midnight, Eastern Time, at the end of the Expiration Date to tender your Shares in the Offer.",
+      "method": "gliner",
+      "confidence": 0.4836191236972809,
+      "rank_score": -0.06638087630271916,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        3040,
+        3052
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "settlement_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Company",
+      "passage": "On\nAugust\u00a028, 2019, the Company Board sent a response letter to Mirasol Capital, formally advising Mirasol Capital in writing that the Company Board was not interested in pursuing\nan investment by Mirasol Capital in the Company, but would entertain discussions concerning a potential acquisition of the Company.",
+      "method": "gliner",
+      "confidence": 0.6630197167396545,
+      "rank_score": -0.08698028326034546,
+      "doc_role": "otp",
+      "section": "Exhibit (a)(1)(A)",
+      "faq_question": null,
+      "char_span": [
+        610,
+        617
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "DTC",
+      "passage": "Any financial institution that is a participant in the system of DTC may make a book-entry delivery of Shares by causing DTC to transfer such Shares into the\nDepositary's account at DTC in accordance with DTC's procedures for such transfer.",
+      "method": "gliner",
+      "confidence": 0.4816957414150238,
+      "rank_score": -0.46830425858497626,
+      "doc_role": "otp",
+      "section": "3.\u00a0\u00a0Procedures for Accepting the Offer and Tendering Shares.",
+      "faq_question": null,
+      "char_span": [
+        1533,
+        1536
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Continental Stock Transfer\u00a0& Trust Company",
+      "passage": "\"Expiration Date\" means 12:00\nmidnight, Eastern Time, at the end of March\u00a025, 2020, unless we, in accordance with the Offer, extend the period during which the Offer is open, in which event the term \"Expiration Date\" means\nthe latest time and date at which the Offer, as so extended, expires.\nYou\nshould use this Letter of Transmittal to deliver to Continental Stock Transfer\u00a0& Trust Company (the \"Depositary\") Shares represented by stock certificates, or held in\nbook-entry form on the books of the Company, for tender.",
+      "method": "gliner",
+      "confidence": 0.41256535053253174,
+      "rank_score": -0.5374346494674683,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        4474,
+        4516
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1b.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "target",
+      "raw": "The Depository Trust Company",
+      "passage": "If you are delivering your Shares by book-entry transfer to an account maintained by the Depositary at The Depository Trust Company (\"DTC\"),\nyou must use an Agent's Message (as defined in Instruction\u00a02 below).",
+      "method": "gliner",
+      "confidence": 0.40149515867233276,
+      "rank_score": -0.5485048413276673,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        4749,
+        4777
+      ],
+      "source_hit_id": "0001047469-20-001067:a2240819zex-99_a1b.htm",
+      "source_accession": "0001047469-20-001067",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.805095+00:00"
+}

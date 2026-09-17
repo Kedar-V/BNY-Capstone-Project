@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-31632",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "GOLDFIELD CORP",
+  "primary_cik": "0000042316",
+  "written_at": "2026-09-17T06:01:41.478258+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 18,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "accession": "0001193125-20-306324",
+      "filename": "d29868dsctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2020-12-01 00:00:00",
+      "primary_cik": "0000042316",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "accession": "0001193125-20-306324",
+      "filename": "d29868dex99a1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "EXHIBIT (A)(1)(A)",
+      "file_date": "2020-12-01 00:00:00",
+      "primary_cik": "0000042316",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001193125-20-306324:d29868dex99a1b.htm",
+      "accession": "0001193125-20-306324",
+      "filename": "d29868dex99a1b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": "EXHIBIT (A)(1)(B)",
+      "file_date": "2020-12-01 00:00:00",
+      "primary_cik": "0000042316",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001193125-20-306390:d32196dsc14d9.htm",
+      "accession": "0001193125-20-306390",
+      "filename": "d32196dsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D-9",
+      "file_date": "2020-12-01 00:00:00",
+      "primary_cik": "0000042316",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

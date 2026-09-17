@@ -1,0 +1,15 @@
+{
+  "stage": "segment",
+  "path": "tender",
+  "written_at": "2026-09-17T07:22:47.454452+00:00",
+  "status": "ok",
+  "metrics": {
+    "n_events_segmented": 27,
+    "n_otp_toc_docs": 21,
+    "n_otp_faq_only_docs": 0,
+    "n_fallback_full_doc": 80,
+    "n_failed": 0,
+    "n_events_pending": 27
+  },
+  "errors": []
+}

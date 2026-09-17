@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-30797",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "OVERSEAS SHIPHOLDING GROUP INC",
+  "primary_cik": "0000075208",
+  "written_at": "2026-09-17T06:01:41.476351+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 16,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001493152-24-023284:formscto-t.htm",
+      "accession": "0001493152-24-023284",
+      "filename": "formscto-t.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": NaN,
+      "file_date": "2024-06-10 00:00:00",
+      "primary_cik": "0000075208",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001493152-24-023284:exa-1_a.htm",
+      "accession": "0001493152-24-023284",
+      "filename": "exa-1_a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": NaN,
+      "file_date": "2024-06-10 00:00:00",
+      "primary_cik": "0000075208",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001493152-24-023284:exa-1_b.htm",
+      "accession": "0001493152-24-023284",
+      "filename": "exa-1_b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": NaN,
+      "file_date": "2024-06-10 00:00:00",
+      "primary_cik": "0000075208",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001493152-24-023286:formsc14d9.htm",
+      "accession": "0001493152-24-023286",
+      "filename": "formsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": NaN,
+      "file_date": "2024-06-10 00:00:00",
+      "primary_cik": "0000075208",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

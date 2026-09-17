@@ -1,0 +1,3261 @@
+{
+  "schema_version": "1",
+  "event_id": "005-44849",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "acc36bba7a3b6954d6a9a226211a01d0f0854817",
+      "hit_id": "0001193125-22-200490:d382789dsctot.htm",
+      "accession": "0001193125-22-200490",
+      "filename": "d382789dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "29d7b0351865d3198eabe6da0bfbf0a59b4c031d",
+      "hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "accession": "0001193125-22-200490",
+      "filename": "d382789dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "d524e6695eac4ddd1d060070a5fb95101a28f89e",
+      "hit_id": "0001193125-22-200490:d382789dex99a1b.htm",
+      "accession": "0001193125-22-200490",
+      "filename": "d382789dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "9f83a732742825dfa4fd78226a2e860626dfe1e9",
+      "hit_id": "0001193125-22-200492:d346919dsc14d9.htm",
+      "accession": "0001193125-22-200492",
+      "filename": "d346919dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "July\u00a08, 2022",
+      "score": 0.9542078375816345,
+      "rank_score": 1.7342078375816345,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "July 22, 2022",
+      "score": 0.9439645409584045,
+      "rank_score": 1.7239645409584046,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "August\u00a019, 2022",
+      "score": 0.9372766017913818,
+      "rank_score": 1.7172766017913819,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "September\u00a023, 2022",
+      "score": 0.9150513410568237,
+      "rank_score": 1.6950513410568238,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:13",
+      "faq_question": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$3.39",
+      "score": 0.9117559790611267,
+      "rank_score": 1.6917559790611267,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$6.19",
+      "score": 0.884514570236206,
+      "rank_score": 1.664514570236206,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "July\u00a010, 2022",
+      "score": 0.8814000487327576,
+      "rank_score": 1.6614000487327576,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "What does La Jolla\u2019s Board think of the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "approximately $217\u00a0million",
+      "score": 0.865203857421875,
+      "rank_score": 1.645203857421875,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "Will you have the financial resources to\nmake payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$6.23",
+      "score": 0.8338626027107239,
+      "rank_score": 1.613862602710724,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "cusip_code",
+      "text": "503459604",
+      "score": 0.822849452495575,
+      "rank_score": 1.572849452495575,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.0001",
+      "score": 0.6832312345504761,
+      "rank_score": 1.463231234550476,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:1",
+      "faq_question": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$60,000",
+      "score": 0.749485969543457,
+      "rank_score": 1.399485969543457,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_26",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "October, 9, 2022",
+      "score": 0.9382322430610657,
+      "rank_score": 1.2682322430610657,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Innoviva Acquisition Sub, Inc.",
+      "score": 0.9143299460411072,
+      "rank_score": 1.2643299460411073,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "D.F. King\u00a0& Co., Inc.",
+      "score": 0.9007782936096191,
+      "rank_score": 1.2507782936096192,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "September\u00a023, 2022",
+      "score": 0.5049444437026978,
+      "rank_score": 1.2349444437026977,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:13",
+      "faq_question": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "INNOVIVA ACQUISITION SUB, INC.",
+      "score": 0.8279242515563965,
+      "rank_score": 1.2279242515563966,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$217\u00a0million",
+      "score": 0.5765789747238159,
+      "rank_score": 1.2265789747238158,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_12",
+      "faq_question": null,
+      "section": "9.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "target corporation",
+      "score": 0.9187577962875366,
+      "rank_score": 1.2187577962875367,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "La Jolla Pharmaceutical Company",
+      "score": 0.8130927681922913,
+      "rank_score": 1.2130927681922914,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "LJPC",
+      "score": 0.8607652187347412,
+      "rank_score": 1.2107652187347413,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_9",
+      "faq_question": null,
+      "section": "6.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "par value $0.0001 per share",
+      "score": 0.4189458191394806,
+      "rank_score": 1.1989458191394806,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "December\u00a031, 2021",
+      "score": 0.5167798399925232,
+      "rank_score": 1.166779839992523,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_9",
+      "faq_question": null,
+      "section": "6.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Innoviva, Inc.",
+      "score": 0.8634980320930481,
+      "rank_score": 1.1634980320930481,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_26",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "M.M. Dillon & Co., LLC",
+      "score": 0.8474172353744507,
+      "rank_score": 1.1474172353744507,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_26",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "D.F. King\u00a0& Co.",
+      "score": 0.7949555516242981,
+      "rank_score": 1.1449555516242982,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "lump-sum amount",
+      "score": 0.8049547672271729,
+      "rank_score": 1.134954767227173,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my Options in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "La Jolla",
+      "score": 0.9482001066207886,
+      "rank_score": 1.0982001066207887,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "What does La Jolla\u2019s Board think of the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "American Stock Transfer\u00a0& Trust Co., LLC",
+      "score": 0.7897565960884094,
+      "rank_score": 1.0897565960884095,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Tang Capital Partners, LP",
+      "score": 0.7371198534965515,
+      "rank_score": 1.0871198534965516,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "Have any La Jolla stockholders agreed to tender their Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and\nPurchaser",
+      "score": 0.9154524207115173,
+      "rank_score": 1.0654524207115175,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Tetraphase Pharmaceuticals, Inc.",
+      "score": 0.7652844190597534,
+      "rank_score": 1.0652844190597535,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Advanced Medicine, Inc.",
+      "score": 0.7616249322891235,
+      "rank_score": 1.0616249322891236,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_11",
+      "faq_question": null,
+      "section": "8.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Theravance, Inc.",
+      "score": 0.7475874423980713,
+      "rank_score": 1.0475874423980713,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_11",
+      "faq_question": null,
+      "section": "8.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "9:00 a.m.",
+      "score": 0.7150792479515076,
+      "rank_score": 1.0450792479515076,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:16",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Entasis Therapeutics Holdings Inc.",
+      "score": 0.7388527989387512,
+      "rank_score": 1.0388527989387513,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_11",
+      "faq_question": null,
+      "section": "8.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "La Jolla",
+      "score": 0.8788539171218872,
+      "rank_score": 1.0288539171218871,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:1",
+      "faq_question": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "La Jolla Pharmaceutical Company",
+      "score": 0.6689367890357971,
+      "rank_score": 1.0189367890357972,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Company H",
+      "score": 0.7181029319763184,
+      "rank_score": 1.0181029319763184,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Innoviva, Inc.",
+      "score": 0.7145262956619263,
+      "rank_score": 1.0145262956619263,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Target Companies",
+      "score": 0.9061071872711182,
+      "rank_score": 1.0061071872711183,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "CareDx, Inc.",
+      "score": 0.7059226632118225,
+      "rank_score": 1.0059226632118226,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_26",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Surviving Corporation",
+      "score": 0.7052072286605835,
+      "rank_score": 1.0052072286605835,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "August\u00a019, 2022",
+      "score": 0.40401512384414673,
+      "rank_score": 1.0040151238441466,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_7",
+      "faq_question": null,
+      "section": "4.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Model N, Inc.",
+      "score": 0.6984174251556396,
+      "rank_score": 0.9984174251556397,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_26",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "target_organization",
+      "text": "Company A",
+      "score": 0.6896006464958191,
+      "rank_score": 0.9896006464958191,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "money_amount",
+      "text": "Shares outstanding",
+      "score": 0.6267514824867249,
+      "rank_score": 0.9567514824867249,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:19",
+      "faq_question": "If\nI decide not to tender, how will the Offer affect my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Company F",
+      "score": 0.6508002281188965,
+      "rank_score": 0.9508002281188965,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Tang Capital Partners, L.P.",
+      "score": 0.6424856781959534,
+      "rank_score": 0.9424856781959534,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "available_option",
+      "text": "La Jolla stock options",
+      "score": 0.9328601956367493,
+      "rank_score": 0.9328601956367493,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "available_option",
+      "text": "employee stock options",
+      "score": 0.9244056940078735,
+      "rank_score": 0.9244056940078735,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "Transaction Code\nNumber",
+      "score": 0.922722339630127,
+      "rank_score": 0.922722339630127,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "target_organization",
+      "text": "La Jolla",
+      "score": 0.8181242942810059,
+      "rank_score": 0.9181242942810058,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "target_organization",
+      "text": "Company B",
+      "score": 0.6140550374984741,
+      "rank_score": 0.9140550374984742,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "available_option",
+      "text": "in-the-money options",
+      "score": 0.8552489876747131,
+      "rank_score": 0.9052489876747132,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "Will you have the financial resources to\nmake payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.0001 per share",
+      "score": 0.4448712468147278,
+      "rank_score": 0.8948712468147277,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "money_amount",
+      "text": "cash",
+      "score": 0.5484519600868225,
+      "rank_score": 0.8784519600868226,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "What will happen to my Preferred Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "next business day",
+      "score": 0.5445822477340698,
+      "rank_score": 0.8745822477340699,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:16",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Company C",
+      "score": 0.5632855296134949,
+      "rank_score": 0.8632855296134949,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "target_organization",
+      "text": "Company D",
+      "score": 0.5468961596488953,
+      "rank_score": 0.8468961596488953,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "One minute after 11:59 p.m.",
+      "score": 0.501019299030304,
+      "rank_score": 0.831019299030304,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Subject Shares",
+      "score": 0.7743909955024719,
+      "rank_score": 0.824390995502472,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "Have any La Jolla stockholders agreed to tender their Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "shares of common stock",
+      "score": 0.7700716853141785,
+      "rank_score": 0.8200716853141785,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:1",
+      "faq_question": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Options",
+      "score": 0.8140252828598022,
+      "rank_score": 0.8140252828598022,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_9",
+      "faq_question": null,
+      "section": "6.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "stock appreciation rights",
+      "score": 0.8093094229698181,
+      "rank_score": 0.8093094229698181,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Dissenting Shares",
+      "score": 0.798678457736969,
+      "rank_score": 0.798678457736969,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_21",
+      "faq_question": null,
+      "section": "18.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "available_option",
+      "text": "stock purchase rights",
+      "score": 0.7951341271400452,
+      "rank_score": 0.7951341271400452,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective",
+      "score": 0.7561609745025635,
+      "rank_score": 0.7561609745025635,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_23",
+      "faq_question": null,
+      "section": "20.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Expiration Time",
+      "score": 0.9509515762329102,
+      "rank_score": 0.7309515762329102,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number\nof Class\u00a0of Securities",
+      "score": 0.7220541834831238,
+      "rank_score": 0.7220541834831238,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "Effective Time",
+      "score": 0.9097647666931152,
+      "rank_score": 0.6897647666931153,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my Options in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares on Nasdaq",
+      "score": 0.620417594909668,
+      "rank_score": 0.670417594909668,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Preferred Shares",
+      "score": 0.6180719137191772,
+      "rank_score": 0.6180719137191772,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_21",
+      "faq_question": null,
+      "section": "18.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "LA JOLLA\nPHARMACEUTICAL COMPANY",
+      "score": 0.4010564386844635,
+      "rank_score": 0.6010564386844635,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "La Jolla",
+      "score": 0.5837445855140686,
+      "rank_score": 0.5837445855140686,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "proration_terms",
+      "text": "extension of the Offer",
+      "score": 0.5601602792739868,
+      "rank_score": 0.5601602792739868,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_5",
+      "faq_question": null,
+      "section": "2.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "within 10 days thereafter",
+      "score": 0.4067814350128174,
+      "rank_score": 0.5567814350128174,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_21",
+      "faq_question": null,
+      "section": "18.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "available_option",
+      "text": "Option",
+      "score": 0.46283772587776184,
+      "rank_score": 0.5128377258777619,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "What will happen to my Options in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares of La Jolla",
+      "score": 0.5078182816505432,
+      "rank_score": 0.5078182816505432,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "strategic alternatives",
+      "score": 0.5016945004463196,
+      "rank_score": 0.5016945004463196,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "XERAVA\n\u00ae",
+      "score": 0.4956151843070984,
+      "rank_score": 0.4956151843070984,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_10",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "Preferred Shares",
+      "score": 0.44115108251571655,
+      "rank_score": 0.49115108251571654,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "Will you have the financial resources to\nmake payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares of La Jolla",
+      "score": 0.48961687088012695,
+      "rank_score": 0.48961687088012695,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash",
+      "score": 0.4380669891834259,
+      "rank_score": 0.4880669891834259,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:2",
+      "faq_question": "How many Shares are you offering to purchase in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares on\nNasdaq Global Market",
+      "score": 0.42021986842155457,
+      "rank_score": 0.47021986842155455,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "shares of stock",
+      "score": 0.46798935532569885,
+      "rank_score": 0.46798935532569885,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_27",
+      "faq_question": null,
+      "section": "SCHEDULE II",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "street name",
+      "score": 0.4153657853603363,
+      "rank_score": 0.4653657853603363,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How do I tender my Shares?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "eravacycline",
+      "score": 0.45644429326057434,
+      "rank_score": 0.45644429326057434,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_10",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective time of the Merger",
+      "score": 0.4291766881942749,
+      "rank_score": 0.4291766881942749,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "proration_terms",
+      "text": "Extension Deadline",
+      "score": 0.4266851544380188,
+      "rank_score": 0.4266851544380188,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_4",
+      "faq_question": null,
+      "section": "1.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9724282026290894,
+      "rank_score": 0.4224282026290893,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_23",
+      "faq_question": null,
+      "section": "20.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S. dollar",
+      "score": 0.41429153084754944,
+      "rank_score": 0.41429153084754944,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.8781836032867432,
+      "rank_score": 0.3781836032867431,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:13",
+      "faq_question": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.6602219939231873,
+      "rank_score": 0.3602219939231872,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.8858561515808105,
+      "rank_score": 0.3358561515808105,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_4",
+      "faq_question": null,
+      "section": "1.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.8818548321723938,
+      "rank_score": 0.33185483217239375,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Acceptance Time",
+      "score": 0.8483602404594421,
+      "rank_score": 0.2983602404594421,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Offer Condition",
+      "score": 0.6863558292388916,
+      "rank_score": 0.18635582923889155,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Expiration Time",
+      "score": 0.7206923365592957,
+      "rank_score": 0.1706923365592956,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "HSR Condition",
+      "score": 0.6930587291717529,
+      "rank_score": 0.14305872917175289,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Closing Date",
+      "score": 0.5264984369277954,
+      "rank_score": -0.023501563072204634,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_23",
+      "faq_question": null,
+      "section": "20.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "stock",
+      "score": 0.7031683325767517,
+      "rank_score": -0.04683166742324829,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_27",
+      "faq_question": null,
+      "section": "SCHEDULE II",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "SEC",
+      "score": 0.6254233121871948,
+      "rank_score": -0.07457668781280513,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_10",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Acceptance Time",
+      "score": 0.4480997323989868,
+      "rank_score": -0.10190026760101323,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Termination Condition",
+      "score": 0.42848703265190125,
+      "rank_score": -0.1215129673480988,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_4",
+      "faq_question": null,
+      "section": "1.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "target_organization",
+      "text": "U.S.",
+      "score": 0.40022435784339905,
+      "rank_score": -0.24977564215660097,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.8432310819625854,
+      "rank_score": -0.4567689180374146,
+      "doc_role": "otp",
+      "segment_id": "otp:section:tx382789_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w6"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "July\u00a08, 2022",
+      "passage": "On July\u00a08, 2022, which was the last trading day prior to the date Parent\u2019s offer was made public, the reported closing sales price of the Shares on\nNasdaq Global Market (\u201cNasdaq\u201d) was $3.39.",
+      "method": "gliner",
+      "confidence": 0.9542078375816345,
+      "rank_score": 1.7342078375816345,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        3,
+        15
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "July 22, 2022",
+      "passage": "On July\u00a08, 2022, which was the last trading day prior to the date Parent\u2019s offer was made public, the reported closing sales price of the Shares on\nNasdaq Global Market (\u201cNasdaq\u201d) was $3.39. On July 22, 2022, the last full trading day before the commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $6.19. The Offer Price represents a premium of\napproximately 83.8% over the July\u00a08, 2022 closing stock price and a premium of approximately 0.6% over the July 22, 2022 stock price.\nSee\nSection\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.9439645409584045,
+      "rank_score": 1.7239645409584046,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        194,
+        207
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "August\u00a019, 2022",
+      "passage": "You will have until one minute after 11:59 p.m., New York City time, on August\u00a019, 2022, unless we extend the Offer pursuant to the terms of the Merger\nAgreement (such date and time, as it may be extended in accordance with the terms of the Merger Agreement, the \u201cExpiration Time\u201d) or the Offer is earlier terminated.",
+      "method": "gliner",
+      "confidence": 0.9372766017913818,
+      "rank_score": 1.7172766017913819,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        72,
+        87
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "September\u00a023, 2022",
+      "passage": "You may withdraw your previously tendered Shares at any time until the Expiration Time. Pursuant\nto Section\u00a014(d)(5) of the Securities Exchange Act of 1934, as amended (\u201cExchange Act\u201d), Shares also may be withdrawn at any time after September\u00a023, 2022, which is the 60th day after the date of the commencement of the Offer,\nunless prior to that date Purchaser has accepted for payment the Shares validly tendered in the Offer.\nSee Section\u00a04\u2014\u201cWithdrawal\nRights.\u201d",
+      "method": "gliner",
+      "confidence": 0.9150513410568237,
+      "rank_score": 1.6950513410568238,
+      "doc_role": "otp",
+      "section": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "faq_question": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "char_span": [
+        233,
+        251
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$3.39",
+      "passage": "On July\u00a08, 2022, which was the last trading day prior to the date Parent\u2019s offer was made public, the reported closing sales price of the Shares on\nNasdaq Global Market (\u201cNasdaq\u201d) was $3.39. On July 22, 2022, the last full trading day before the commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $6.19. The Offer Price represents a premium of\napproximately 83.8% over the July\u00a08, 2022 closing stock price and a premium of approximately 0.6% over the July 22, 2022 stock price.\nSee\nSection\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.9117559790611267,
+      "rank_score": 1.6917559790611267,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        184,
+        189
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$6.19",
+      "passage": "On July\u00a08, 2022, which was the last trading day prior to the date Parent\u2019s offer was made public, the reported closing sales price of the Shares on\nNasdaq Global Market (\u201cNasdaq\u201d) was $3.39. On July 22, 2022, the last full trading day before the commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $6.19. The Offer Price represents a premium of\napproximately 83.8% over the July\u00a08, 2022 closing stock price and a premium of approximately 0.6% over the July 22, 2022 stock price.\nSee\nSection\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.884514570236206,
+      "rank_score": 1.664514570236206,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        334,
+        339
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "July\u00a010, 2022",
+      "passage": "At a\nmeeting of the La Jolla Board held on July\u00a010, 2022, the La Jolla Board unanimously:\n\u2022 determined that the Merger Agreement and the Transactions, including the Offer and the Merger, on the terms and\nsubject to the conditions set forth in the Merger Agreement, are advisable and in the best interests of La Jolla and its stockholders and that the Offer, the Merger and the terms and conditions of the Merger Agreement are fair to La Jolla and La\nJolla\u2019",
+      "method": "gliner",
+      "confidence": 0.8814000487327576,
+      "rank_score": 1.6614000487327576,
+      "doc_role": "otp",
+      "section": "What does La Jolla\u2019s Board think of the Offer?",
+      "faq_question": "What does La Jolla\u2019s Board think of the Offer?",
+      "char_span": [
+        43,
+        56
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "approximately $217\u00a0million",
+      "passage": "Yes, we currently have, and expect at the conclusion of the Offer will have, sufficient resources available to us. We estimate that we\nwill need approximately $217\u00a0million to purchase all of the Shares pursuant to the Offer, to consummate the Merger (which estimate includes, among other things, payment in respect of outstanding in-the-money options and Preferred Shares), and to pay related transaction fees and expenses at the Merger Closing.\nSee Section\u00a09\u2014\u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.865203857421875,
+      "rank_score": 1.645203857421875,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to\nmake payment?",
+      "faq_question": "Will you have the financial resources to\nmake payment?",
+      "char_span": [
+        145,
+        171
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$6.23",
+      "passage": "Securities Sought\nAll issued and outstanding shares of common stock, par value $0.0001 per share, of La Jolla Pharmaceutical Company\nPrice Offered Per Share\n$6.23 (the \u201cOffer Price\u201d), net to the seller in cash, without interest thereon and less any applicable withholding taxes\nScheduled\u00a0Expiration\u00a0of Offer\nOne minute after 11:59 p.m., New York City time, on August\u00a019, 2022, unless the Offer is extended or earlier terminated.",
+      "method": "gliner",
+      "confidence": 0.8338626027107239,
+      "rank_score": 1.613862602710724,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1504,
+        1509
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "503459604",
+      "passage": "(Name of\nFiling Persons (Parent of Offeror))\nCommon Stock, par value $0.0001 Per Share\n(Title of Class\u00a0of Securities)\n503459604\n(CUSIP Number of Class\u00a0of Securities)\nInnoviva Acquisition Sub, Inc.",
+      "method": "gliner",
+      "confidence": 0.822849452495575,
+      "rank_score": 1.572849452495575,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        484,
+        493
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dsctot.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.0001",
+      "passage": "Unless the context otherwise requires, in this Offer to Purchase we use the term\n\u201cOffer\u201d to refer to this offer and the term \u201cShares\u201d to refer to shares of common stock, par value $0.0001 per share, of La Jolla that are the subject of the Offer.\nSee the \u201cIntroduction\u201d to this Offer to Purchase and Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.6832312345504761,
+      "rank_score": 1.463231234550476,
+      "doc_role": "otp",
+      "section": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "faq_question": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "char_span": [
+        452,
+        459
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$60,000",
+      "passage": "Except as disclosed on this Schedule I or otherwise in this Offer to Purchase, none of the listed persons has engaged in any transaction or series of transactions with Innoviva over the past\ntwo years that had an aggregate value that exceeds $60,000.",
+      "method": "gliner",
+      "confidence": 0.749485969543457,
+      "rank_score": 1.399485969543457,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        1220,
+        1227
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "October, 9, 2022",
+      "passage": "urchaser to, extend the Offer for additional periods specified by La Jolla of up to ten business days per extension (or such other period\nas the parties may agree), to permit such Offer Condition to be satisfied; provided, however, that in no event shall Parent or Purchaser (1)\u00a0be required to extend the Offer beyond the earlier to occur of (x)\u00a0the valid termination of the\nMerger Agreement and (y)\u00a0October, 9, 2022 (the \u201cEnd Date\u201d) (such earlier occurrence, the \u201cExtension Deadline\u201d) or (2)\u00a0be permitted to extend the Offer beyond the Extension Deadline without the prior written consent of\nLa Jolla.\nSee Section\u00a01\u2014\u201cTerms of the Offer\u201d of this Offer to Purchase for more details on our obligation and\nability to extend the Offer.",
+      "method": "gliner",
+      "confidence": 0.9382322430610657,
+      "rank_score": 1.2682322430610657,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        1238,
+        1254
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Innoviva Acquisition Sub, Inc.",
+      "passage": "Purchaser\nInnoviva Acquisition Sub, Inc., a Delaware corporation and a wholly owned subsidiary of Innoviva, Inc., a Delaware corporation.",
+      "method": "gliner",
+      "confidence": 0.9143299460411072,
+      "rank_score": 1.2643299460411073,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1786,
+        1816
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "D.F. King\u00a0& Co., Inc.",
+      "passage": "Who should I call if I have questions about the\nOffer?\nYou may call D.F. King\u00a0& Co., Inc. at (888)\n644-6071\n(Toll Free). D.F. King\u00a0& Co. is\nacting as the information agent for our tender offer (the \u201cInformation Agent\u201d). See the back cover of this Offer to Purchase for additional contact information.\n9\nTo the Holders of\nShares of Common Stock of La Jolla",
+      "method": "gliner",
+      "confidence": 0.9007782936096191,
+      "rank_score": 1.2507782936096192,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        28593,
+        28614
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "September\u00a023, 2022",
+      "passage": "You may withdraw your previously tendered Shares at any time until the Expiration Time. Pursuant\nto Section\u00a014(d)(5) of the Securities Exchange Act of 1934, as amended (\u201cExchange Act\u201d), Shares also may be withdrawn at any time after September\u00a023, 2022, which is the 60th day after the date of the commencement of the Offer,\nunless prior to that date Purchaser has accepted for payment the Shares validly tendered in the Offer.\nSee Section\u00a04\u2014\u201cWithdrawal\nRights.\u201d",
+      "method": "gliner",
+      "confidence": 0.5049444437026978,
+      "rank_score": 1.2349444437026977,
+      "doc_role": "otp",
+      "section": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "faq_question": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "char_span": [
+        233,
+        251
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "INNOVIVA ACQUISITION SUB, INC.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1) or 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nLA JOLLA\nPHARMACEUTICAL COMPANY\n(Name of Subject Company (Issuer))\nINNOVIVA ACQUISITION SUB, INC.\n(Name of Filing Persons (Offeror)) a wholly owned subsidiary of\nINNOVIVA, INC.",
+      "method": "gliner",
+      "confidence": 0.8279242515563965,
+      "rank_score": 1.2279242515563966,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        256,
+        286
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dsctot.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$217\u00a0million",
+      "passage": "Parent and Purchaser estimate that the total funds required to\ncomplete the Offer and the Merger and to pay related transaction fees and expenses will be approximately $217\u00a0million. Parent will provide Purchaser with the funds necessary to complete the Offer and the Merger and to pay related transaction\nfees and expenses at the Merger Closing. Parent will supply the needed funds from its working capital. Parent currently has, and expects at the conclusion of the Offer will have, sufficient resources available to consummate the Merger.\n22",
+      "method": "gliner",
+      "confidence": 0.5765789747238159,
+      "rank_score": 1.2265789747238158,
+      "doc_role": "otp",
+      "section": "9.",
+      "faq_question": null,
+      "char_span": [
+        1159,
+        1171
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "target corporation",
+      "passage": "he acquirer holds at least the amount of shares of each class of stock of the target corporation that would otherwise be required to approve a merger for the\ntarget corporation, and the other stockholders receive the same consideration for their stock in the merger as was payable in the tender offer, then the acquirer can effect a merger without the action of the\nnon-tendering\nstockholders of the target corporation.",
+      "method": "gliner",
+      "confidence": 0.9187577962875366,
+      "rank_score": 1.2187577962875367,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        2190,
+        2208
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "La Jolla Pharmaceutical Company",
+      "passage": "The name,\naddress, and telephone number of the subject company\u2019s principal executive offices are as follows:\nLa Jolla Pharmaceutical Company\n201 Jones Road\nSuite 400\nWaltham, MA 02451\n(617)\n715-3600\nSecurities\n.",
+      "method": "gliner",
+      "confidence": 0.8130927681922913,
+      "rank_score": 1.2130927681922914,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3361,
+        3392
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dsctot.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "LJPC",
+      "passage": "6.\nPrice Range of Shares; Dividends.\nThe Shares currently trade on The Nasdaq under the symbol \u201cLJPC\u201d and have been traded since June\u00a03, 1994.",
+      "method": "gliner",
+      "confidence": 0.8607652187347412,
+      "rank_score": 1.2107652187347413,
+      "doc_role": "otp",
+      "section": "6.",
+      "faq_question": null,
+      "char_span": [
+        96,
+        100
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "par value $0.0001 per share",
+      "passage": "(\u201cPurchaser\u201d), a wholly owned subsidiary of Innoviva, Inc.,\n(\u201cParent\u201d and, together with Purchaser, the \u201cPurchaser Parties\u201d), is offering to purchase for cash any and all of the outstanding shares of common stock, par value $0.0001 per share, of La Jolla.",
+      "method": "gliner",
+      "confidence": 0.4189458191394806,
+      "rank_score": 1.1989458191394806,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        3800,
+        3827
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "money_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a031, 2021",
+      "passage": "The Offer Price represents a premium of\napproximately 83.8% over the July\u00a08, 2022 closing stock price and a premium of approximately 0.6% over the July 22, 2022 stock price.\nAccording to\nLa Jolla\u2019s Annual Report on Form\n10-K\nfor the fiscal year ended December\u00a031, 2021, La Jolla has never declared cash dividends on its Shares. Stockholders are urged to obtain a current market\nquotation for the Shares.",
+      "method": "gliner",
+      "confidence": 0.5167798399925232,
+      "rank_score": 1.166779839992523,
+      "doc_role": "otp",
+      "section": "6.",
+      "faq_question": null,
+      "char_span": [
+        1580,
+        1597
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Innoviva, Inc.",
+      "passage": "SCHEDULE I\nCertain Information Concerning the Directors and Executive Officers of Innoviva, Inc.\nThe information presented on this Schedule I sets forth the name, current business address, present principal occupation or employment, and\nthe material occupations, positions, offices, or employment for the past five years of each executive officer of Innoviva, Inc. (\u201cInnoviva,\u201d \u201cwe,\u201d \u201cus,\u201d or \u201cour\u201d) and each member of the board of directors of\nInnoviva (the \u201cBoard of Directors\u201d).",
+      "method": "gliner",
+      "confidence": 0.8634980320930481,
+      "rank_score": 1.1634980320930481,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        350,
+        364
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "M.M. Dillon & Co., LLC",
+      "passage": "He currently serves as a Managing Director of M.M. Dillon & Co., LLC, an investment banking firm.",
+      "method": "gliner",
+      "confidence": 0.8474172353744507,
+      "rank_score": 1.1474172353744507,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        3618,
+        3640
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "D.F. King\u00a0& Co.",
+      "passage": "D.F. King\u00a0& Co. is\nacting as the information agent for our tender offer (the \u201cInformation Agent\u201d). See the back cover of this Offer to Purchase for additional contact information.\n9\nTo the Holders of\nShares of Common Stock of La Jolla",
+      "method": "gliner",
+      "confidence": 0.7949555516242981,
+      "rank_score": 1.1449555516242982,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        28646,
+        28661
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "lump-sum amount",
+      "passage": "Pursuant to the Merger Agreement, prior to the Effective Time, La Jolla will take all actions necessary or appropriate to cause each option to purchase Shares (an\n\u201cOption\u201d), whether vested or unvested, to be terminated and cancelled immediately prior to the Effective Time in exchange for the right of the holder thereof to receive a lump-sum amount in cash,\nwithout interest, equal to the excess, if any, of the Offer Price over the exercise price per share thereof, net of any taxes withheld pursuant to the Merger Agreement. For the avoidance of doubt, with respect to\n8",
+      "method": "gliner",
+      "confidence": 0.8049547672271729,
+      "rank_score": 1.134954767227173,
+      "doc_role": "otp",
+      "section": "What will happen to my Options in the Offer?",
+      "faq_question": "What will happen to my Options in the Offer?",
+      "char_span": [
+        426,
+        441
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "La Jolla",
+      "passage": "At a\nmeeting of the La Jolla Board held on July\u00a010, 2022, the La Jolla Board unanimously:\n\u2022 determined that the Merger Agreement and the Transactions, including the Offer and the Merger, on the terms and\nsubject to the conditions set forth in the Merger Agreement, are advisable and in the best interests of La Jolla and its stockholders and that the Offer, the Merger and the terms and conditions of the Merger Agreement are fair to La Jolla and La\nJolla\u2019s stockholders",
+      "method": "gliner",
+      "confidence": 0.9482001066207886,
+      "rank_score": 1.0982001066207887,
+      "doc_role": "otp",
+      "section": "What does La Jolla\u2019s Board think of the Offer?",
+      "faq_question": "What does La Jolla\u2019s Board think of the Offer?",
+      "char_span": [
+        62,
+        70
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "American Stock Transfer\u00a0& Trust Co., LLC",
+      "passage": "Mail or deliver this Letter of Transmittal, together with the certificate(s) representing your shares, to:\nIf delivering by hand, express mail, courier,\nor other expedited service:\nAmerican Stock Transfer\u00a0& Trust Co., LLC\nOperations Center\nAttn:\nReorganization Department\n6201 15\nth\nAvenue\nBrooklyn, New York 11219\nBy mail:\nAmerican Stock Transfer\u00a0& Trust Co., LLC\nOperations Center\nAttn:\nReorganization Department\n6201 15\nth\nAvenue\nBrooklyn, New York 11219\nPursuant to the offer of Innoviva Acquisition Sub, Inc.",
+      "method": "gliner",
+      "confidence": 0.7897565960884094,
+      "rank_score": 1.0897565960884095,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        1737,
+        1777
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1b.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Tang Capital Partners, LP",
+      "passage": "Yes. As a condition to Parent\u2019s and Purchaser\u2019s willingness to enter into the Merger Agreement, Parent and Purchaser entered into the Support\nAgreement, dated as of the date of the Merger Agreement, with Tang Capital Partners, LP and the Kevin C.",
+      "method": "gliner",
+      "confidence": 0.7371198534965515,
+      "rank_score": 1.0871198534965516,
+      "doc_role": "otp",
+      "section": "Have any La Jolla stockholders agreed to tender their Shares?",
+      "faq_question": "Have any La Jolla stockholders agreed to tender their Shares?",
+      "char_span": [
+        204,
+        229
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and\nPurchaser",
+      "passage": "Parent and\nPurchaser have included cross-references in this summary term sheet to other sections of the Offer to Purchase where you will find more complete descriptions of the topics mentioned below.",
+      "method": "gliner",
+      "confidence": 0.9154524207115173,
+      "rank_score": 1.0654524207115175,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        403,
+        423
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Tetraphase Pharmaceuticals, Inc.",
+      "passage": "In July 2020, La Jolla completed its acquisition of\nTetraphase Pharmaceuticals, Inc., which provided La Jolla with a second commercial product (XERAVA) in addition to GIAPREZA, which La Jolla started to commercialize in 2018.",
+      "method": "gliner",
+      "confidence": 0.7652844190597534,
+      "rank_score": 1.0652844190597535,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        995,
+        1027
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Advanced Medicine, Inc.",
+      "passage": "8.\nCertain Information Concerning Parent and Purchaser.\nParent is a Delaware corporation formed on November\u00a019, 1996 under the name Advanced Medicine, Inc., and began operations in May 1997.",
+      "method": "gliner",
+      "confidence": 0.7616249322891235,
+      "rank_score": 1.0616249322891236,
+      "doc_role": "otp",
+      "section": "8.",
+      "faq_question": null,
+      "char_span": [
+        132,
+        155
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Theravance, Inc.",
+      "passage": "8.\nCertain Information Concerning Parent and Purchaser.\nParent is a Delaware corporation formed on November\u00a019, 1996 under the name Advanced Medicine, Inc., and began operations in May 1997. Parent later\nchanged its name to Theravance, Inc. in April 2002, and to Innoviva, Inc.",
+      "method": "gliner",
+      "confidence": 0.7475874423980713,
+      "rank_score": 1.0475874423980713,
+      "doc_role": "otp",
+      "section": "8.",
+      "faq_question": null,
+      "char_span": [
+        224,
+        240
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "9:00 a.m.",
+      "passage": "If we extend the Offer, we will inform American Stock Transfer\u00a0& Trust Company, LLC, (the \u201cDepositary\u201d), of any extension and will issue a\npress release announcing the extension not later than 9:00 a.m., New York City time, on the next business day after the day on which the Offer was scheduled to expire.\nSee Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.7150792479515076,
+      "rank_score": 1.0450792479515076,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        193,
+        202
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Entasis Therapeutics Holdings Inc.",
+      "passage": "Parent recently acquired Entasis Therapeutics Holdings Inc., an advanced late-stage clinical biopharmaceutical company focused\non the discovery and development of novel antibacterial products.",
+      "method": "gliner",
+      "confidence": 0.7388527989387512,
+      "rank_score": 1.0388527989387513,
+      "doc_role": "otp",
+      "section": "8.",
+      "faq_question": null,
+      "char_span": [
+        1495,
+        1529
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "La Jolla",
+      "passage": "Unless the context otherwise requires, in this Offer to Purchase we use the term\n\u201cOffer\u201d to refer to this offer and the term \u201cShares\u201d to refer to shares of common stock, par value $0.0001 per share, of La Jolla that are the subject of the Offer.\nSee the \u201cIntroduction\u201d to this Offer to Purchase and Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.8788539171218872,
+      "rank_score": 1.0288539171218871,
+      "doc_role": "otp",
+      "section": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "faq_question": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "char_span": [
+        474,
+        482
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "La Jolla Pharmaceutical Company",
+      "passage": "alone and\nthe terms the \u201cCompany\u201d or \u201cLa Jolla\u201d to refer to La Jolla Pharmaceutical Company alone.\nWhat are the classes and amounts of\nsecurities sought in the Offer?\nWe are offering to purchase any and all of the outstanding shares of common stock, par value $0.0001 per share, of La\nJolla on the terms and subject to the conditions set forth in this Offer to Purchase and the related Letter of Transmittal (the \u201cLetter of Transmittal\u201d).",
+      "method": "gliner",
+      "confidence": 0.6689367890357971,
+      "rank_score": 1.0189367890357972,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        4681,
+        4712
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Company H",
+      "passage": "Representatives of Cowen told Company H\u2019s advisor that this would not be sufficient to receive exclusivity or gain the support of the La Jolla Board, but that they could advance in diligence and negotiation of a merger agreement.\nOn June\u00a024, 2022, counsel for Company H circulated a markup of the draft merger agreement posted to the data room.",
+      "method": "gliner",
+      "confidence": 0.7181029319763184,
+      "rank_score": 1.0181029319763184,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        79559,
+        79568
+      ],
+      "source_hit_id": "0001193125-22-200492:d346919dsc14d9.htm",
+      "source_accession": "0001193125-22-200492",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Innoviva, Inc.",
+      "passage": "Exhibit (a)(1)(B)\nExhibit (a)(1)(B)\nLetter of Transmittal to Tender Shares of Common Stock\nof\nLA JOLLA\nPHARMACEUTICAL COMPANY\nat $6.23 Net Per Share in Cash Pursuant to the Offer to Purchase dated July\u00a025, 2022 by\nInnoviva Acquisition Sub, Inc., a wholly owned subsidiary of Innoviva, Inc.\nThe undersigned represents that I (we) have full authority to surrender without restriction the certificate(s) listed below.",
+      "method": "gliner",
+      "confidence": 0.7145262956619263,
+      "rank_score": 1.0145262956619263,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        275,
+        289
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1b.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Target Companies",
+      "passage": "quisition of securities, reorganization, recapitalization or other similar transaction for more than 35% of the voting securities of La Jolla or the consolidated assets of the Target Companies, taken as a whole;\n(iv)\u00a0any sale, lease, exchange, transfer, exclusive license or disposition, in each case, other than in the ordinary course of business, of more than 35% of the consolidated assets of the Target Companies, taken as a whole (measured by the\nlesser of book or fair market value thereof); (v) liquidation, dissolution (or the adoption of a plan of liquidation or dissolution),",
+      "method": "gliner",
+      "confidence": 0.9061071872711182,
+      "rank_score": 1.0061071872711183,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        49814,
+        49830
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "target_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "CareDx, Inc.",
+      "passage": "Bickerstaff currently serves on the board of directors of CareDx, Inc. Mr.",
+      "method": "gliner",
+      "confidence": 0.7059226632118225,
+      "rank_score": 1.0059226632118226,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        4081,
+        4093
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Surviving Corporation",
+      "passage": "It is possible that certain members of La Jolla\u2019s current management team will enter into new or additional\nemployment arrangements with La Jolla or the Surviving Corporation following the Acceptance Time and prior to the Effective Time.",
+      "method": "gliner",
+      "confidence": 0.7052072286605835,
+      "rank_score": 1.0052072286605835,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        4590,
+        4611
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "August\u00a019, 2022",
+      "passage": "4.\nWithdrawal Rights.\nExcept as otherwise provided in this Section\u00a04, tenders of Shares made pursuant to the Offer are irrevocable.\nShares tendered pursuant to the Offer may be withdrawn at any time prior to one minute after 11:59 p.m., New York City time, on August\u00a019, 2022 and,\nunless theretofore accepted for payment by Purchaser pursuant to the Offer, may also be withdrawn at any time after September\u00a023, 2022, which is the 60th day after the date of the commencement of the Offer.",
+      "method": "gliner",
+      "confidence": 0.40401512384414673,
+      "rank_score": 1.0040151238441466,
+      "doc_role": "otp",
+      "section": "4.",
+      "faq_question": null,
+      "char_span": [
+        260,
+        275
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Model N, Inc.",
+      "passage": "from 2012 to 2014, Intelmate from 2011 to 2012 and Model N, Inc. from 2007 to 2011.",
+      "method": "gliner",
+      "confidence": 0.6984174251556396,
+      "rank_score": 0.9984174251556397,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        2756,
+        2769
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Company A",
+      "passage": "Representatives of Cowen and members\nof La Jolla management engaged in discussions from March\u00a02, 2022 through July\u00a010, 2022 regarding a potential acquisition of La Jolla with the remaining eight counterparties, including Innoviva, Entasis (now a wholly owned subsidiary of\nInnoviva), and six others, which we refer to as Company A, Company B, Company C, Company D, Company E and Company F.",
+      "method": "gliner",
+      "confidence": 0.6896006464958191,
+      "rank_score": 0.9896006464958191,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        5223,
+        5232
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Shares outstanding",
+      "passage": "If the Offer is consummated and certain other conditions are met, the Merger will occur\nand each of the Shares outstanding prior to the Effective Time (other than Shares held by Parent, Purchaser, La Jolla or any other wholly\n7",
+      "method": "gliner",
+      "confidence": 0.6267514824867249,
+      "rank_score": 0.9567514824867249,
+      "doc_role": "otp",
+      "section": "If\nI decide not to tender, how will the Offer affect my Shares?",
+      "faq_question": "If\nI decide not to tender, how will the Offer affect my Shares?",
+      "char_span": [
+        104,
+        122
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Company F",
+      "passage": "(\u201cEntasis\u201d) (subsequently acquired by Innoviva on July\u00a011, 2022) and a private equity fund (Company F) for the potential acquisition of one of its portfolio companies.\nNotwithstanding these business development efforts, La Jolla was unable to identify commercial hospital-based assets to potentially acquire or\nin-license\nat acceptable valuations.",
+      "method": "gliner",
+      "confidence": 0.6508002281188965,
+      "rank_score": 0.9508002281188965,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        2184,
+        2193
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Tang Capital Partners, L.P.",
+      "passage": "(d)(2)\nSupport Agreement, dated July\u00a010, 2022, by and among Parent, Purchaser, La Jolla, Tang Capital Partners, L.P., and Kevin C.",
+      "method": "gliner",
+      "confidence": 0.6424856781959534,
+      "rank_score": 0.9424856781959534,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        11017,
+        11044
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dsctot.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "La Jolla stock options",
+      "passage": "The Merger Agreement is more fully described in Section\u00a011\u2014\u201cThe Merger Agreement; Other Agreements,\u201d which also contains a discussion of the treatment of La Jolla stock options.",
+      "method": "gliner",
+      "confidence": 0.9328601956367493,
+      "rank_score": 0.9328601956367493,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        4016,
+        4038
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "employee stock options",
+      "passage": "currency, traders that\nmark-to-market\ntheir securities, expatriates and former long-term residents of the United States,\npersons subject to the alternative minimum tax, stockholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, and stockholders who received Shares in compensatory transactions, pursuant to the\nexercise of employee stock options, stock purchase rights, or stock appreciation rights, as restricted stock, or otherwise as compensation).\nFor purposes\nof this summary, the term \u201cU.S.",
+      "method": "gliner",
+      "confidence": 0.9244056940078735,
+      "rank_score": 0.9244056940078735,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        2830,
+        2852
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "Transaction Code\nNumber",
+      "passage": "heir Shares through book-entry transfer are referred to as \u201cBook-Entry Stockholders.\u201d\n2\n\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED BY BOOK-ENTRY TRANSFER TO THE ACCOUNT MAINTAINED BY THE DEPOSITARY WITH DTC AND COMPLETE THE FOLLOWING (ONLY FINANCIAL INSTITUTIONS THAT ARE PARTICIPANTS IN DTC MAY DELIVER\nSHARES BY BOOK-ENTRY TRANSFER):\nName of Tendering\nInstitution:\nDTC Participant\nNumber:\nTransaction Code\nNumber:\nNOTE: SIGNATURES MUST BE PROVIDED BELOW.",
+      "method": "gliner",
+      "confidence": 0.922722339630127,
+      "rank_score": 0.922722339630127,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        4977,
+        5000
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1b.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "cusip_code",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "target",
+      "raw": "La Jolla",
+      "passage": "of the total outstanding voting securities of any class (or instruments convertible into or exercisable or exchangeable for more than 35% of any such class) of La Jolla; (iii)\u00a0any merger, consolidation, business combination, share exchange,\nissuance of securities, acquisition of securities, reorganization, recapitalization or other similar transaction for more than 35% of the voting securities of La Jolla or the consolidated assets of the Target Companies, taken as a whole;\n(iv)\u00a0any sale, lease, exchange, transfer, exclusive license or disposition, in each case, other than in the ordinary course of business, of more than 35% of the consolidated assets of the Target Companies, taken as a whole (measured by the\nlesser of book or fair market value thereof); (v) liquidation, dissolution (or the adopti",
+      "method": "gliner",
+      "confidence": 0.8181242942810059,
+      "rank_score": 0.9181242942810058,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        49547,
+        49555
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "target_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Company B",
+      "passage": "Representatives of Cowen and members\nof La Jolla management engaged in discussions from March\u00a02, 2022 through July\u00a010, 2022 regarding a potential acquisition of La Jolla with the remaining eight counterparties, including Innoviva, Entasis (now a wholly owned subsidiary of\nInnoviva), and six others, which we refer to as Company A, Company B, Company C, Company D, Company E and Company F.",
+      "method": "gliner",
+      "confidence": 0.6140550374984741,
+      "rank_score": 0.9140550374984742,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        5234,
+        5243
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "in-the-money options",
+      "passage": "Yes, we currently have, and expect at the conclusion of the Offer will have, sufficient resources available to us. We estimate that we\nwill need approximately $217\u00a0million to purchase all of the Shares pursuant to the Offer, to consummate the Merger (which estimate includes, among other things, payment in respect of outstanding in-the-money options and Preferred Shares), and to pay related transaction fees and expenses at the Merger Closing.\nSee Section\u00a09\u2014\u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.8552489876747131,
+      "rank_score": 0.9052489876747132,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to\nmake payment?",
+      "faq_question": "Will you have the financial resources to\nmake payment?",
+      "char_span": [
+        330,
+        350
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.0001 per share",
+      "passage": "The telephone number of La Jolla\u2019s principal executive office is (617)\n715-3600.\nSecurities.\nThe title of the class of equity securities\nto which this Schedule\n14D-9\nrelates is La Jolla\u2019s common stock, par value $0.0001 per share (\u201cCommon Stock\u201d).",
+      "method": "gliner",
+      "confidence": 0.4448712468147278,
+      "rank_score": 0.8948712468147277,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2340,
+        2357
+      ],
+      "source_hit_id": "0001193125-22-200492:d346919dsc14d9.htm",
+      "source_accession": "0001193125-22-200492",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "cash",
+      "passage": "wholly owned subsidiary of Innoviva; and\n(iii)\u00a0Preferred Shares owned by stockholders who validly exercise appraisal rights under the DGCL with respect to such Shares, will be automatically converted into the right to receive the Preferred Share Price, which represents the conversion\nprice of the Preferred Shares in accordance with La Jolla\u2019s amended and restated certificate of incorporation, in cash, without interest and subject to any applicable withholding taxes.\nSee Section\u00a011\u2014\u201cThe Merger Agreement; Other Agreements\u2014The Merger Agreement\u2014Effect on Capital Stock.\u201d",
+      "method": "gliner",
+      "confidence": 0.5484519600868225,
+      "rank_score": 0.8784519600868226,
+      "doc_role": "otp",
+      "section": "What will happen to my Preferred Shares in the Offer?",
+      "faq_question": "What will happen to my Preferred Shares in the Offer?",
+      "char_span": [
+        746,
+        750
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "next business day",
+      "passage": "If we extend the Offer, we will inform American Stock Transfer\u00a0& Trust Company, LLC, (the \u201cDepositary\u201d), of any extension and will issue a\npress release announcing the extension not later than 9:00 a.m., New York City time, on the next business day after the day on which the Offer was scheduled to expire.\nSee Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.5445822477340698,
+      "rank_score": 0.8745822477340699,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        231,
+        248
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Company C",
+      "passage": "Representatives of Cowen and members\nof La Jolla management engaged in discussions from March\u00a02, 2022 through July\u00a010, 2022 regarding a potential acquisition of La Jolla with the remaining eight counterparties, including Innoviva, Entasis (now a wholly owned subsidiary of\nInnoviva), and six others, which we refer to as Company A, Company B, Company C, Company D, Company E and Company F.",
+      "method": "gliner",
+      "confidence": 0.5632855296134949,
+      "rank_score": 0.8632855296134949,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        5245,
+        5254
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Company D",
+      "passage": "Representatives of Cowen and members\nof La Jolla management engaged in discussions from March\u00a02, 2022 through July\u00a010, 2022 regarding a potential acquisition of La Jolla with the remaining eight counterparties, including Innoviva, Entasis (now a wholly owned subsidiary of\nInnoviva), and six others, which we refer to as Company A, Company B, Company C, Company D, Company E and Company F.",
+      "method": "gliner",
+      "confidence": 0.5468961596488953,
+      "rank_score": 0.8468961596488953,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        5256,
+        5265
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "One minute after 11:59 p.m.",
+      "passage": "Securities Sought\nAll issued and outstanding shares of common stock, par value $0.0001 per share, of La Jolla Pharmaceutical Company\nPrice Offered Per Share\n$6.23 (the \u201cOffer Price\u201d), net to the seller in cash, without interest thereon and less any applicable withholding taxes\nScheduled\u00a0Expiration\u00a0of Offer\nOne minute after 11:59 p.m., New York City time, on August\u00a019, 2022, unless the Offer is extended or earlier terminated.",
+      "method": "gliner",
+      "confidence": 0.501019299030304,
+      "rank_score": 0.831019299030304,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1655,
+        1682
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Subject Shares",
+      "passage": "In addition, the Supporting Stockholders have agreed, subject to certain exceptions, to refrain from disposing of the Subject Shares and soliciting alternative acquisition proposals to the Merger.",
+      "method": "gliner",
+      "confidence": 0.7743909955024719,
+      "rank_score": 0.824390995502472,
+      "doc_role": "otp",
+      "section": "Have any La Jolla stockholders agreed to tender their Shares?",
+      "faq_question": "Have any La Jolla stockholders agreed to tender their Shares?",
+      "char_span": [
+        732,
+        746
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "shares of common stock",
+      "passage": "We are offering to purchase any and all of the outstanding shares of common stock, par value $0.0001 per share, of La\nJolla on the terms and subject to the conditions set forth in this Offer to Purchase and the related Letter of Transmittal (the \u201cLetter of Transmittal\u201d).",
+      "method": "gliner",
+      "confidence": 0.7700716853141785,
+      "rank_score": 0.8200716853141785,
+      "doc_role": "otp",
+      "section": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "faq_question": "What are the classes and amounts of\nsecurities sought in the Offer?",
+      "char_span": [
+        59,
+        81
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Options",
+      "passage": "6.\nPrice Range of Shares; Dividends.\nThe Shares currently trade on The Nasdaq under the symbol \u201cLJPC\u201d and have been traded since June\u00a03, 1994. La Jolla advised Purchaser that, as of\nJuly\u00a07, 2022, (i) 24,902,080 Shares were issued and outstanding and (ii) 6,452,960 Shares were issuable upon the exercise of Options.",
+      "method": "gliner",
+      "confidence": 0.8140252828598022,
+      "rank_score": 0.8140252828598022,
+      "doc_role": "otp",
+      "section": "6.",
+      "faq_question": null,
+      "char_span": [
+        307,
+        314
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock appreciation rights",
+      "passage": "rk-to-market\ntheir securities, expatriates and former long-term residents of the United States,\npersons subject to the alternative minimum tax, stockholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, and stockholders who received Shares in compensatory transactions, pursuant to the\nexercise of employee stock options, stock purchase rights, or stock appreciation rights, as restricted stock, or otherwise as compensation).\nFor purposes\nof this summary, the term \u201cU.S.",
+      "method": "gliner",
+      "confidence": 0.8093094229698181,
+      "rank_score": 0.8093094229698181,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        2880,
+        2905
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Dissenting Shares",
+      "passage": "Each holder of Dissenting Shares will be entitled\nto receive a judicial determination of the fair value of such Dissenting Shares (exclusive of any element of value arising from the accomplishment or expectation of the merger or similar business combination), and to receive payment of such fair\nvalue in cash, together with a fair rate of interest, if any, of such Dissenting Shares.",
+      "method": "gliner",
+      "confidence": 0.798678457736969,
+      "rank_score": 0.798678457736969,
+      "doc_role": "otp",
+      "section": "18.",
+      "faq_question": null,
+      "char_span": [
+        1093,
+        1110
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock purchase rights",
+      "passage": "currency, traders that\nmark-to-market\ntheir securities, expatriates and former long-term residents of the United States,\npersons subject to the alternative minimum tax, stockholders holding Shares that are part of a straddle, hedging, constructive sale or conversion transaction, and stockholders who received Shares in compensatory transactions, pursuant to the\nexercise of employee stock options, stock purchase rights, or stock appreciation rights, as restricted stock, or otherwise as compensation).\nFor purposes\nof this summary, the term \u201cU.S.",
+      "method": "gliner",
+      "confidence": 0.7951341271400452,
+      "rank_score": 0.7951341271400452,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        2854,
+        2875
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective",
+      "passage": "ursuant to the Merger Agreement, with respect to\neach \u201cemployee benefit plan\u201d as defined in Section\u00a03(3) of ERISA and each vacation or paid\ntime-off\nand severance plan (that is not an \u201cemployee benefit\n63\nplan\u201d as defined in Section\u00a03(3) of ERISA) maintained by Parent or any Subsidiary of Parent (collectively, the \u201cParent Benefit Plans\u201d) in which any Continuing Employee will\nparticipate after the Effective Time, Parent shall, or shall cause La Jolla to, use commercially reasonable efforts to recognize all service of the Continuing Employees prior to the Closing Date with La Jolla or a subsidiary, as the case may be, for\npurposes of eligibility, vesting, participation and level of benefits (but not for purposes of benefit accrual other than with respect to vacation, paid time off, or severance), in",
+      "method": "gliner",
+      "confidence": 0.7561609745025635,
+      "rank_score": 0.7561609745025635,
+      "doc_role": "otp",
+      "section": "20.",
+      "faq_question": null,
+      "char_span": [
+        3116,
+        3125
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "effective_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Expiration Time",
+      "passage": "The Offer is conditioned upon (collectively, the \u201cOffer Conditions\u201d):\n(a) there having been validly tendered and not validly withdrawn in accordance with the terms of the Offer on or\nprior to the Expiration Time (as defined below) that number of Shares which represent at least one more Share than fifty percent (50%) of the Shares outstanding at the time of the expiration of the Offer (the \u201cMinimum Condition\u201d);\n3",
+      "method": "gliner",
+      "confidence": 0.9509515762329102,
+      "rank_score": 0.7309515762329102,
+      "doc_role": "otp",
+      "section": "What are the most significant conditions to the Offer?",
+      "faq_question": "What are the most significant conditions to the Offer?",
+      "char_span": [
+        196,
+        211
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number\nof Class\u00a0of Securities",
+      "passage": "20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the Securities Exchange Act of 1934\nLa Jolla Pharmaceutical Company\n(Name of Subject Company)\nLa Jolla\nPharmaceutical Company\n(Name of Person Filing Statement)\nCommon Stock, $0.0001 par value per share\n(Title of Class\u00a0of Securities)\n503459604\n(CUSIP Number\nof Class\u00a0of Securities)\nLarry Edwards\nDirector, President and Chief Executive Officer\nLa Jolla Pharmaceutical Company\n201 Jones Road, Suite 400\nWaltham, Massachusetts 02451\n(617)\n715-3600\n(Name, address and telephone number of person authorized to receive notices and communications\non behalf of the persons filing statement)\nWith copies to:\nRyan A.",
+      "method": "gliner",
+      "confidence": 0.7220541834831238,
+      "rank_score": 0.7220541834831238,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        436,
+        471
+      ],
+      "source_hit_id": "0001193125-22-200492:d346919dsc14d9.htm",
+      "source_accession": "0001193125-22-200492",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Effective Time",
+      "passage": "The Offer\nis made only for Shares and is not made for any stock options to purchase Shares. Pursuant to the Merger Agreement, prior to the Effective Time, La Jolla will take all actions necessary or appropriate to cause each option to purchase Shares (an\n\u201cOption\u201d), whether vested or unvested, to be terminated and cancelled immediately prior to the Effective Time in exchange for the right of the holder thereof to receive a lump-sum amount in cash,\nwithout interest, equal to the excess, if any, of the Offer Price over the exercise price per share th",
+      "method": "gliner",
+      "confidence": 0.9097647666931152,
+      "rank_score": 0.6897647666931153,
+      "doc_role": "otp",
+      "section": "What will happen to my Options in the Offer?",
+      "faq_question": "What will happen to my Options in the Offer?",
+      "char_span": [
+        139,
+        153
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares on Nasdaq",
+      "passage": "On July\u00a08, 2022, which was the last trading day prior to the date Parent\u2019s offer was made public, the reported closing sales price of the Shares on\nNasdaq Global Market (\u201cNasdaq\u201d) was $3.39. On July 22, 2022, the last full trading day before the commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $6.19. The Offer Price represents a premium of\napproximately 83.8% over the July\u00a08, 2022 closing stock price and a premium of approximately 0.6% over the July 22, 2022 stock price.\nSee\nSection\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.620417594909668,
+      "rank_score": 0.670417594909668,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        313,
+        329
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Preferred Shares",
+      "passage": "In addition, if the Merger is consummated, the holders of record of shares of Preferred Shares who have properly and validly perfected their statutory rights of\nappraisal in respect of such Shares in accordance with Section\u00a0262 of the DGCL will similarly be entitled to a judicial determination of the fair value of such Preferred Shares (exclusive of any element of value arising from the accomplishment\nor expectation of the merger or similar business combination), and to receive payment of",
+      "method": "gliner",
+      "confidence": 0.6180719137191772,
+      "rank_score": 0.6180719137191772,
+      "doc_role": "otp",
+      "section": "18.",
+      "faq_question": null,
+      "char_span": [
+        1541,
+        1557
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "LA JOLLA\nPHARMACEUTICAL COMPANY",
+      "passage": "Exhibit (a)(1)(B)\nExhibit (a)(1)(B)\nLetter of Transmittal to Tender Shares of Common Stock\nof\nLA JOLLA\nPHARMACEUTICAL COMPANY\nat $6.23 Net Per Share in Cash Pursuant to the Offer to Purchase dated July\u00a025, 2022 by\nInnoviva Acquisition Sub, Inc., a wholly owned subsidiary of Innoviva, Inc.\nThe undersigned represents that I (we) have full authority to surrender without restriction the certificate(s) listed below.",
+      "method": "gliner",
+      "confidence": 0.4010564386844635,
+      "rank_score": 0.6010564386844635,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        94,
+        125
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1b.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "La Jolla",
+      "passage": "12.\nPurpose of the Offer; Plans for La Jolla\nPurpose of the Offer.\nThe purpose of the Offer is for Parent to acquire control of, and all of the equity interests in, La Jolla.",
+      "method": "gliner",
+      "confidence": 0.5837445855140686,
+      "rank_score": 0.5837445855140686,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        165,
+        173
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "extension of the Offer",
+      "passage": "Under no circumstances will we pay interest on the purchase price for Shares by reason of any extension of the Offer or any delay in making\nsuch payment for Shares.",
+      "method": "gliner",
+      "confidence": 0.5601602792739868,
+      "rank_score": 0.5601602792739868,
+      "doc_role": "otp",
+      "section": "2.",
+      "faq_question": null,
+      "char_span": [
+        3314,
+        3336
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "proration_terms",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "within 10 days thereafter",
+      "passage": "Section\u00a0262 of the DGCL provides that, if a merger was approved pursuant to Section\u00a0251(h) of\nthe DGCL, either a constituent corporation before the effective date of the merger, or the surviving corporation within 10 days thereafter, shall notify each of the holders of any class or series of stock of such constituent corporation who are\nentitled to appraisal rights of the approval of the merger and that appraisal rights are available for any or all shares of such class or series of stock of such constituent corporation, and shall include in such notice a copy of Section\u00a0262 of\nthe DGCL.",
+      "method": "gliner",
+      "confidence": 0.4067814350128174,
+      "rank_score": 0.5567814350128174,
+      "doc_role": "otp",
+      "section": "18.",
+      "faq_question": null,
+      "char_span": [
+        3730,
+        3755
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Option",
+      "passage": "The Offer\nis made only for Shares and is not made for any stock options to purchase Shares. Pursuant to the Merger Agreement, prior to the Effective Time, La Jolla will take all actions necessary or appropriate to cause each option to purchase Shares (an\n\u201cOption\u201d), whether vested or unvested, to be terminated and cancelled immediately prior to the Effective Time in exchange for the right of the holder thereof to receive a lump-sum amount in cash,\nwithout interest, equal to the excess, if any, of the Offer Price over the exercise price per share thereof, net of any taxes withheld pursuant to the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.46283772587776184,
+      "rank_score": 0.5128377258777619,
+      "doc_role": "otp",
+      "section": "What will happen to my Options in the Offer?",
+      "faq_question": "What will happen to my Options in the Offer?",
+      "char_span": [
+        256,
+        262
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares of La Jolla",
+      "passage": "(\u201cPurchaser\u201d) to purchase all outstanding\nShares of La Jolla, the undersigned encloses herewith and surrenders the following certificate(s) representing Shares of La Jolla:\nDESCRIPTION OF SHARES SURRENDERED\nName(s)\u00a0and\u00a0Address(es)\u00a0of\u00a0Registered\u00a0Owner(s)\n(If\u00a0blank,\u00a0please\u00a0fill\u00a0in\u00a0exactly\u00a0as\u00a0name(s)\u00a0appear(s)\u00a0on\u00a0share\u00a0certificate(s))\nShares\nSurrendered\n(attached additional list if necessary)\nCertificated Shares**\nCertificate\nNumber(s)*\nTotal\u00a0Number\nof Shares",
+      "method": "gliner",
+      "confidence": 0.5078182816505432,
+      "rank_score": 0.5078182816505432,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2112,
+        2130
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1b.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "strategic alternatives",
+      "passage": "The La Jolla Board, together with members of the La Jolla management team, regularly reviews and assesses the performance, future growth prospects, business\nplans and overall strategic direction of La Jolla and considers a variety of strategic alternatives that may be available to La Jolla including continuing to pursue La Jolla\u2019s strategy as a standalone company or pursuing strategic or financing\ntransactions with third parties, in each case, with the goal of maximizing stockholder value.",
+      "method": "gliner",
+      "confidence": 0.5016945004463196,
+      "rank_score": 0.5016945004463196,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        682,
+        704
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "XERAVA\n\u00ae",
+      "passage": "XERAVA\n\u00ae\n(eravacycline) for injection is approved by the FDA as a tetracycline class antibacterial indicated for the\ntreatment of complicated intra-abdominal infections in patients 18 years of age and older.\n20\nAvailable Information.\nThe Shares are registered under the Exchange Act.",
+      "method": "gliner",
+      "confidence": 0.4956151843070984,
+      "rank_score": 0.4956151843070984,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        1601,
+        1609
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Preferred Shares",
+      "passage": "Yes, we currently have, and expect at the conclusion of the Offer will have, sufficient resources available to us. We estimate that we\nwill need approximately $217\u00a0million to purchase all of the Shares pursuant to the Offer, to consummate the Merger (which estimate includes, among other things, payment in respect of outstanding in-the-money options and Preferred Shares), and to pay related transaction fees and expenses at the Merger Closing.\nSee Section\u00a09\u2014\u201cSource and Amount of Funds.\u201d",
+      "method": "gliner",
+      "confidence": 0.44115108251571655,
+      "rank_score": 0.49115108251571654,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to\nmake payment?",
+      "faq_question": "Will you have the financial resources to\nmake payment?",
+      "char_span": [
+        355,
+        371
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares of La Jolla",
+      "passage": "(\u201cPurchaser\u201d) to purchase all outstanding\nShares of La Jolla, the undersigned encloses herewith and surrenders the following certificate(s) representing Shares of La Jolla:\nDESCRIPTION OF SHARES SURRENDERED\nName(s)\u00a0and\u00a0Address(es)\u00a0of\u00a0Registered\u00a0Owner(s)\n(If\u00a0blank,\u00a0please\u00a0fill\u00a0in\u00a0exactly\u00a0as\u00a0name(s)\u00a0appear(s)\u00a0on\u00a0share\u00a0certificate(s))\nShares\nSurrendered\n(attached additional list if necessary)\nCertificated Shares**\nCertificate\nNumber(s)*\nTotal\u00a0Number\nof Shares\nRepresented\u00a0by\nCertificate(s)*\nNumber\u00a0of\u00a0Shares\nSurrendered**\nBook\u00a0Entry\nShares\nSurrendered\nTotal\u00a0Shares\n*\u2003\u2009\u2009N",
+      "method": "gliner",
+      "confidence": 0.48961687088012695,
+      "rank_score": 0.48961687088012695,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2223,
+        2241
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1b.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash",
+      "passage": "We are making an offer to purchase for cash any and all of the outstanding Shares on the terms and subject to the conditions set forth in this Offer to\nPurchase and the related Letter of Transmittal.\nSee the \u201cIntroduction\u201d and Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.4380669891834259,
+      "rank_score": 0.4880669891834259,
+      "doc_role": "otp",
+      "section": "How many Shares are you offering to purchase in the Offer?",
+      "faq_question": "How many Shares are you offering to purchase in the Offer?",
+      "char_span": [
+        39,
+        43
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares on\nNasdaq Global Market",
+      "passage": "On July\u00a08, 2022, which was the last trading day prior to the date Parent\u2019s offer was made public, the reported closing sales price of the Shares on\nNasdaq Global Market (\u201cNasdaq\u201d) was $3.39. On July 22, 2022, the last full trading day before the commencement of the Offer, the reported closing sales price of the Shares on Nasdaq was $6.19. The Offer Price represents a premium of\napproximately 83.8% over the July\u00a08, 2022 closing stock price and a premium of approximately 0.6% over the July 22, 2022 stock price.\nSee\nSection\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.42021986842155457,
+      "rank_score": 0.47021986842155455,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        138,
+        168
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "shares of stock",
+      "passage": "Any combination of the shares of stock, depository receipts and cash in lieu of fractional shares or fractional depository receipts described in the\nforegoing paragraphs (b)(2) a., b.",
+      "method": "gliner",
+      "confidence": 0.46798935532569885,
+      "rank_score": 0.46798935532569885,
+      "doc_role": "otp",
+      "section": "SCHEDULE II",
+      "faq_question": null,
+      "char_span": [
+        3396,
+        3411
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "street name",
+      "passage": "If you hold your\nShares in street name through a broker, dealer, commercial bank, trust company or other nominee, you must contact the institution that holds your Shares and give instructions that your Shares be tendered. You should contact the institution that\nholds your Shares for more details.",
+      "method": "gliner",
+      "confidence": 0.4153657853603363,
+      "rank_score": 0.4653657853603363,
+      "doc_role": "otp",
+      "section": "How do I tender my Shares?",
+      "faq_question": "How do I tender my Shares?",
+      "char_span": [
+        772,
+        783
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "eravacycline",
+      "passage": "XERAVA\n\u00ae\n(eravacycline) for injection is approved by the FDA as a tetracycline class antibacterial indicated for the\ntreatment of complicated intra-abdominal infections in patients 18 years of age and older.\n20\nAvailable Information.\nThe Shares are registered under the Exchange Act.",
+      "method": "gliner",
+      "confidence": 0.45644429326057434,
+      "rank_score": 0.45644429326057434,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        1611,
+        1623
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective time of the Merger",
+      "passage": "In the Merger, each Share issued and outstanding immediately prior to the effective time of the Merger (the\n\u201cEffective Time\u201d), other than (i)\u00a0Shares owned by Parent, Purchaser, La Jolla or any other direct or indirect wholly owned subsidiary of Parent, Purchaser or La Jolla, and (ii)\u00a0Shares owned by stockholders who validly exercise\nappraisal rights under the DGCL with respect to such Shares, will be automatically converted into the right to receive an amount in cash equal to the Offer Price witho",
+      "method": "gliner",
+      "confidence": 0.4291766881942749,
+      "rank_score": 0.4291766881942749,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        2475,
+        2503
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "effective_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "Extension Deadline",
+      "passage": "by La Jolla of up to 10 business days per extension (or such other period\nas the parties may agree), to permit such Offer Condition to be satisfied; provided, however, that in no event shall Parent or Purchaser (1)\u00a0be required to extend the Offer beyond the earlier to occur of (x)\u00a0the valid termination of the\nMerger Agreement and (y)\u00a0the End Date or (2)\u00a0be permitted to extend the Offer beyond the Extension Deadline without the prior written consent of the Company.",
+      "method": "gliner",
+      "confidence": 0.4266851544380188,
+      "rank_score": 0.4266851544380188,
+      "doc_role": "otp",
+      "section": "1.",
+      "faq_question": null,
+      "char_span": [
+        2260,
+        2278
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "proration_terms",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "requirements applicable to the Continuing Employees under any Parent Benefit\nPlan that is a welfare benefit plan in which such Continuing Employees are eligible to participate after the Effective Time, other than preexisting condition limitations, exclusions or waiting periods that are already in effect with respect to such\nContinuing Employees and that have not been satisfied or waived as of the Effective Time under any welfare benefit plan maintained for the Continuing Employees immediately prior to the Effective Time; and (ii)\u00a0provide each Continuing Employee\nwith credit for any\nco-payments\nand deductibles paid prior to the Effective Time during the plan year in which the Closing Date occurs in satisfying any applicable deductible or\nout-of-pocket\nrequirements under any Parent Benefit Plan that is a",
+      "method": "gliner",
+      "confidence": 0.9724282026290894,
+      "rank_score": 0.4224282026290893,
+      "doc_role": "otp",
+      "section": "20.",
+      "faq_question": null,
+      "char_span": [
+        4897,
+        4911
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "effective_datetime",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S. dollar",
+      "passage": "Holders whose functional currency\nis not the U.S. dollar, corporations that accumulate earnings to avoid U.S.",
+      "method": "gliner",
+      "confidence": 0.41429153084754944,
+      "rank_score": 0.41429153084754944,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        2223,
+        2234
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "currency_code",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "You may withdraw your previously tendered Shares at any time until the Expiration Time. Pursuant\nto Section\u00a014(d)(5) of the Securities Exchange Act of 1934, as amended (\u201cExchange Act\u201d), Shares also may be withdrawn at any time after September\u00a023, 2022, which is the 60th day after the date of the commencement of the Offer,\nunless prior to that date Purchaser has accepted for payment the Shares validly tendered in the Offer.\nSee Section\u00a04\u2014\u201cWithdrawal\nRights.\u201d",
+      "method": "gliner",
+      "confidence": 0.8781836032867432,
+      "rank_score": 0.3781836032867431,
+      "doc_role": "otp",
+      "section": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "faq_question": "Until\nwhat time may I withdraw previously tendered Shares?",
+      "char_span": [
+        389,
+        395
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Name of\nFiling Persons (Parent of Offeror))\nCommon Stock, par value $0.0001 Per Share\n(Title of Class\u00a0of Securities)\n503459604\n(CUSIP Number of Class\u00a0of Securities)\nInnoviva Acquisition Sub, Inc.",
+      "method": "gliner",
+      "confidence": 0.6602219939231873,
+      "rank_score": 0.3602219939231872,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        495,
+        507
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dsctot.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "The Offer is conditioned upon, among other\nthings, the satisfaction of the Minimum Condition, the HSR Condition and the other conditions described in Section\u00a016\u2014\u201cCertain Conditions to the Offer.\u201d\nThe Expiration Time may be extended in certain circumstances in accordance with the Merger Agreement, including (i)\u00a0if, as of the then-scheduled\nExpiration Time, any Offer Condition is not satisfied (unless such condition is waivable by Purchaser or Parent and has been waived), Purchaser may, in",
+      "method": "gliner",
+      "confidence": 0.8858561515808105,
+      "rank_score": 0.3358561515808105,
+      "doc_role": "otp",
+      "section": "1.",
+      "faq_question": null,
+      "char_span": [
+        932,
+        949
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "As of the close of business on July\u00a021, 2022, there were 24,926,469 shares of\nCommon Stock issued and outstanding.",
+      "method": "gliner",
+      "confidence": 0.8818548321723938,
+      "rank_score": 0.33185483217239375,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2454,
+        2466
+      ],
+      "source_hit_id": "0001193125-22-200492:d346919dsc14d9.htm",
+      "source_accession": "0001193125-22-200492",
+      "label": "ticker_symbol",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Acceptance Time",
+      "passage": "If the Minimum Condition is met, Purchaser will have acquired a sufficient number of Shares after the Acceptance Time\nto approve the Merger without a vote of the stockholders of La Jolla pursuant to Section\u00a0251(h) of the DGCL.",
+      "method": "gliner",
+      "confidence": 0.8483602404594421,
+      "rank_score": 0.2983602404594421,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        8949,
+        8964
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "effective_datetime",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Offer Condition",
+      "passage": ", any Offer Condition is not satisfied (unless such condition is waivable by Purchaser or Parent and has been waived), Purchaser may, in its discretion (and without the consent of La Jolla or any other person), extend the Offer for\nadditional periods of up to ten business days per extension, to permit such Offer Condition to be satisfied; and (ii)\u00a0if, as of the then-scheduled Expiration Time, any Offer Condition is not satisfied (unless such condition is waivable by\nPurchaser or Parent and has been waived), at the request of La Jolla, Purchaser shall, and Parent shall cause Purchaser to, extend the Offer for additional periods specified by La Jolla of up to ten business days per extension (or such other period\nas the parties may agree), to permit such Offer Condition to be satisfied; provided, however, t",
+      "method": "gliner",
+      "confidence": 0.6863558292388916,
+      "rank_score": 0.18635582923889155,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended and under what circumstances?",
+      "faq_question": "Can the Offer be extended and under what circumstances?",
+      "char_span": [
+        656,
+        671
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Expiration Time",
+      "passage": "e Acceptance Time shall occur promptly following the\nexpiration of the Offer (which is expected to be on or prior to one minute after 11:59 p.m., New York City time, on August\u00a019, 2022, unless Purchaser extends the Offer pursuant to the terms of the Merger Agreement, such date and time of the\nexpiration of the Offer, as it may be extended in accordance with the terms of the Merger Agreement, the \u201cExpiration Time\u201d).",
+      "method": "gliner",
+      "confidence": 0.7206923365592957,
+      "rank_score": 0.1706923365592956,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        2382,
+        2397
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "effective_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "HSR Condition",
+      "passage": "Stockholders who hold their Shares through a broker, banker or other nominee should consult such institution as to whether it charges any service fees or commissions.\nThe Offer is not subject to any financing condition.\nThe Offer is conditioned upon, among other things, the satisfaction of (i)\u00a0the Minimum\nCondition (as described below) and (ii)\u00a0the HSR Condition (as described below).",
+      "method": "gliner",
+      "confidence": 0.6930587291717529,
+      "rank_score": 0.14305872917175289,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        4823,
+        4836
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Closing Date",
+      "passage": "ce plan (that is not an \u201cemployee benefit\n63\nplan\u201d as defined in Section\u00a03(3) of ERISA) maintained by Parent or any Subsidiary of Parent (collectively, the \u201cParent Benefit Plans\u201d) in which any Continuing Employee will\nparticipate after the Effective Time, Parent shall, or shall cause La Jolla to, use commercially reasonable efforts to recognize all service of the Continuing Employees prior to the Closing Date with La Jolla or a subsidiary, as the case may be, for\npurposes of eligibility, vesting, participation and level of benefits (but not for purposes of benefit accrual other than with respect to vacation, paid time off, or severance), in any such Parent Benefit Plan to the extent such service was credited\nunder the applicable Company Employee Plan or La Jolla policy; provided, however, that such se",
+      "method": "gliner",
+      "confidence": 0.5264984369277954,
+      "rank_score": -0.023501563072204634,
+      "doc_role": "otp",
+      "section": "20.",
+      "faq_question": null,
+      "char_span": [
+        3276,
+        3288
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "stock",
+      "passage": "As used in this section, the word\n\u201cstockholder\u201d means a holder of record of stock in a corporation; the words \u201cstock\u201d and \u201cshare\u201d mean and include what is ordinarily meant by those words; and the words \u201cdepository receipt\u201d mean a receipt or\nother instrument issued by a depository representing an interest in 1 or more shares, or fractions thereof, solely of stock of a corporation, which stock is deposited with the depository.",
+      "method": "gliner",
+      "confidence": 0.7031683325767517,
+      "rank_score": -0.04683166742324829,
+      "doc_role": "otp",
+      "section": "SCHEDULE II",
+      "faq_question": null,
+      "char_span": [
+        1103,
+        1108
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "SEC",
+      "passage": "7.\nCertain Information Concerning La Jolla.\nExcept as specifically set forth herein, the information concerning La Jolla contained in this Offer to Purchase has been taken from or is based upon\ninformation furnished by La Jolla or its representatives or upon publicly available documents and records on file with the SEC and other public sources.",
+      "method": "gliner",
+      "confidence": 0.6254233121871948,
+      "rank_score": -0.07457668781280513,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        317,
+        320
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Acceptance Time",
+      "passage": "The purpose of the Merger is to acquire all of the outstanding Shares not tendered and purchased pursuant to the Offer.\nThe Merger Closing shall take place as soon as practicable following the Acceptance Time, and in any case no later than the third business day after the satisfaction of the last to be satisfied of the conditions set forth in Section\u00a06 of the\nMerger Agreement (other than those conditions that, by their nature, are to be satisfied at the Merger Closing, but subject to the satisfaction (or waiver, if permitted by applicable law) of those conditions), or at such other date and time as\nPa",
+      "method": "gliner",
+      "confidence": 0.4480997323989868,
+      "rank_score": -0.10190026760101323,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        510,
+        525
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "settlement_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Termination Condition",
+      "passage": "er shall not,\nunless otherwise provided in the Merger Agreement or previously approved by La Jolla in writing: (i)\u00a0reduce the Offer Price or increase the Offer Price by an increment of less than $0.25 per share; (ii)\u00a0change the form of consideration\npayable in the Offer; (iii)\u00a0reduce the number of Shares sought to be purchased in the Offer; (iv)\u00a0waive, amend or change the Minimum Condition or the Termination Condition; (v)\u00a0add to the Offer Conditions; (vi)\u00a0extend the\nexpiration of the Offer except as required or permitted by the Merger Agreement; (vii)\u00a0provide for any \u201csubsequent offering period\u201d within the meaning of Rule\n14d-11\npromulgated under the\nExchange Act; or (viii)\u00a0amend, modify or supplement any Offer Condition or any term of the Offer set forth in the Merger Agreement in a manner adverse to the hol",
+      "method": "gliner",
+      "confidence": 0.42848703265190125,
+      "rank_score": -0.1215129673480988,
+      "doc_role": "otp",
+      "section": "1.",
+      "faq_question": null,
+      "char_span": [
+        3109,
+        3130
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "target",
+      "raw": "U.S.",
+      "passage": "We have not sought, and do not intend to seek, any ruling from the IRS with\nrespect to the statements made and the conclusions reached in the following summary, and no assurance can be given that the IRS will agree with the views expressed herein, or that a court will not sustain any challenge by the IRS in the event of\nlitigation.\nThe summary applies only to U.S. Holders of La Jolla in whose hands Shares are capital assets within the meaning of Section\u00a01221 of the\nCode (generally property held for investment).",
+      "method": "gliner",
+      "confidence": 0.40022435784339905,
+      "rank_score": -0.24977564215660097,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        1233,
+        1237
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "The exchange of Shares for cash pursuant to\nthe Offer or the Merger will be a taxable transaction to U.S.",
+      "method": "gliner",
+      "confidence": 0.8432310819625854,
+      "rank_score": -0.4567689180374146,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        4957,
+        4963
+      ],
+      "source_hit_id": "0001193125-22-200490:d382789dex99a1a.htm",
+      "source_accession": "0001193125-22-200490",
+      "label": "security_name",
+      "chunk_id": "w6"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.841757+00:00"
+}

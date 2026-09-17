@@ -1,0 +1,58 @@
+{
+  "schema_version": "1",
+  "event_id": "005-12857",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "ADAMS NATURAL RESOURCES FUND, INC.",
+  "primary_cik": "0000216851",
+  "written_at": "2026-09-17T06:01:41.469554+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": false,
+  "has_14d9": true,
+  "otp_method": "inferred",
+  "cohort": "gold",
+  "n_amendments": 21,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001398344-20-010619:fp0053929_sctot.htm",
+      "accession": "0001398344-20-010619",
+      "filename": "fp0053929_sctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": NaN,
+      "file_date": "2020-05-15 00:00:00",
+      "primary_cik": "0000216851",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001104659-20-092031:tm2026050d2_exa1vi.htm",
+      "accession": "0001104659-20-092031",
+      "filename": "tm2026050d2_exa1vi.htm",
+      "form": "SC TO-I",
+      "file_type": "EX-99.A1VI",
+      "file_description": "EXHIBIT (A)(1)(VI)",
+      "file_date": "2020-08-07 00:00:00",
+      "primary_cik": "0000216851",
+      "otp_method": "inferred",
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001104659-20-065488:tm2020713-2_sc14d9.htm",
+      "accession": "0001104659-20-065488",
+      "filename": "tm2020713-2_sc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2020-05-26 00:00:00",
+      "primary_cik": "0000216851",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

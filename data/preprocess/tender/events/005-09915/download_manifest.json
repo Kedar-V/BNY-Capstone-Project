@@ -1,0 +1,50 @@
+{
+  "event_id": "005-09915",
+  "docs": [
+    {
+      "role": "cover",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zscto-t.htm",
+      "hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-09915/raw/0001047469-20-001067__a2240819zscto-t.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/276283/000104746920001067/a2240819zscto-t.htm",
+      "status": "ok",
+      "bytes": 60722,
+      "sha1": "496d7e05ea7aaa5422c31efa0bac837dbd8a1a8f"
+    },
+    {
+      "role": "otp",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zex-99_a1a.htm",
+      "hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-09915/raw/0001047469-20-001067__a2240819zex-99_a1a.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/276283/000104746920001067/a2240819zex-99_a1a.htm",
+      "status": "ok",
+      "bytes": 468953,
+      "sha1": "70ae52724e47769d820e90cabf714cbe76a4d4d8"
+    },
+    {
+      "role": "lot",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zex-99_a1b.htm",
+      "hit_id": "0001047469-20-001067:a2240819zex-99_a1b.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-09915/raw/0001047469-20-001067__a2240819zex-99_a1b.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/276283/000104746920001067/a2240819zex-99_a1b.htm",
+      "status": "ok",
+      "bytes": 525345,
+      "sha1": "e65ce162aaf144d0a0c17b11106d5380a8186e1c"
+    },
+    {
+      "role": "sc_14d9",
+      "accession": "0001445866-20-000112",
+      "filename": "escc_sc14d9.htm",
+      "hit_id": "0001445866-20-000112:escc_sc14d9.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-09915/raw/0001445866-20-000112__escc_sc14d9.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/276283/000144586620000112/escc_sc14d9.htm",
+      "status": "ok",
+      "bytes": 10819,
+      "sha1": "58766732d61c9099775b35ddb526fcfc86a7b6a0"
+    }
+  ],
+  "updated_at": "2026-09-17T07:21:50.573406+00:00"
+}

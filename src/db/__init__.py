@@ -1,6 +1,15 @@
-"""Postgres datastore package for BNY corporate-action events."""
+"""Postgres helpers for the BNY capstone event datastore."""
 
-from .connection import DEFAULT_DSN, connect, get_dsn
-from .load import load_all
+from __future__ import annotations
 
-__all__ = ["DEFAULT_DSN", "connect", "get_dsn", "load_all"]
+from .connection import connect, get_dsn
+
+__all__ = ["connect", "get_dsn", "load_all"]
+
+
+def __getattr__(name: str):
+    if name == "load_all":
+        from .load import load_all
+
+        return load_all
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")

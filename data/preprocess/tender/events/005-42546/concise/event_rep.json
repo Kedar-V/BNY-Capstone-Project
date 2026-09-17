@@ -1,0 +1,1033 @@
+{
+  "schema_version": "1",
+  "event_id": "005-42546",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "078099831172212fec6420eccf8cdf463b0b48ad",
+      "hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "accession": "0001193125-25-032774",
+      "filename": "d937480dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "bea4b3dcffe5506640179b1f73ce661b97cab26b",
+      "hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "accession": "0001193125-25-032774",
+      "filename": "d937480dex99a1vi.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "309412c34134b7140cc3cc16cb917b85192a3889",
+      "hit_id": "0000825313-25-000023:ab-march2025schedule14dx9w.htm",
+      "accession": "0000825313-25-000023",
+      "filename": "ab-march2025schedule14dx9w.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "cusip_code",
+      "text": "01881G106",
+      "score": 0.8688033223152161,
+      "rank_score": 1.618803322315216,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$38.50",
+      "score": 0.7833414077758789,
+      "rank_score": 1.4333414077758788,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "MARCH\u00a024, 2025",
+      "score": 0.7286587953567505,
+      "rank_score": 1.3786587953567504,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Equitable Holdings, Inc.",
+      "score": 0.9603510499000549,
+      "rank_score": 1.360351049900055,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Up to approximately $1.8 billion",
+      "score": 0.6787737607955933,
+      "rank_score": 1.3287737607955932,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "AB",
+      "score": 0.9269964694976807,
+      "rank_score": 1.2769964694976808,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$1.8\u00a0billion",
+      "score": 0.5175360441207886,
+      "rank_score": 1.1675360441207885,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "February\u00a024, 2025",
+      "score": 0.4763205051422119,
+      "rank_score": 1.1263205051422118,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "AllianceBernstein Holding L.P.",
+      "score": 0.6986655592918396,
+      "rank_score": 1.0986655592918397,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Equitable Holdings, Inc.",
+      "score": 0.79407799243927,
+      "rank_score": 1.09407799243927,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Barclays Capital Inc.",
+      "score": 0.7625822424888611,
+      "rank_score": 1.0625822424888611,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Willkie Farr\u00a0& Gallagher LLP",
+      "score": 0.8556426167488098,
+      "rank_score": 1.0556426167488098,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "approximately $1.8\u00a0billion",
+      "score": 0.6404438614845276,
+      "rank_score": 1.0404438614845275,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "AllianceBernstein Holding L.P.",
+      "score": 0.6424151062965393,
+      "rank_score": 0.9424151062965394,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "proration_terms",
+      "text": "proration\nprovisions",
+      "score": 0.9318078756332397,
+      "rank_score": 0.9318078756332397,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Equitable",
+      "score": 0.9297260642051697,
+      "rank_score": 0.9297260642051697,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Equitable",
+      "score": 0.8929861187934875,
+      "rank_score": 0.8929861187934875,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "AllianceBernstein Holding L.P.",
+      "score": 0.6886155605316162,
+      "rank_score": 0.8886155605316162,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP\u00a0No.\n01881G106",
+      "score": 0.6205629706382751,
+      "rank_score": 0.8705629706382751,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "5:00 p.m.",
+      "score": 0.6652510762214661,
+      "rank_score": 0.865251076221466,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "AB Holding",
+      "score": 0.6416793465614319,
+      "rank_score": 0.8416793465614318,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "unitholders",
+      "score": 0.8378720879554749,
+      "rank_score": 0.8378720879554749,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE",
+      "score": 0.4761456251144409,
+      "rank_score": 0.8261456251144409,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "AllianceBernstein L.P.",
+      "score": 0.5007883310317993,
+      "rank_score": 0.8007883310317994,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "beneficial owners",
+      "score": 0.4504523277282715,
+      "rank_score": 0.5504523277282715,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Expiration Time",
+      "score": 0.8977510333061218,
+      "rank_score": 0.5477510333061217,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Unitholders",
+      "score": 0.4641047418117523,
+      "rank_score": 0.4641047418117523,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "Units",
+      "score": 0.41639232635498047,
+      "rank_score": 0.41639232635498047,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.6189696192741394,
+      "rank_score": 0.31896961927413936,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Purchase Price",
+      "score": 0.5853219628334045,
+      "rank_score": 0.23532196283340445,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Aggregate Purchase Price",
+      "score": 0.41248342394828796,
+      "rank_score": 0.062483423948287875,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Company",
+      "score": 0.4243936836719513,
+      "rank_score": -0.3256063163280487,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "trust company",
+      "score": 0.42981770634651184,
+      "rank_score": -0.5201822936534882,
+      "doc_role": "otp",
+      "segment_id": "otp:full",
+      "faq_question": null,
+      "section": "otp",
+      "chunk_id": "w6"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "cusip",
+      "raw": "01881G106",
+      "passage": "20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nAllianceBernstein Holding L.P.\n(Name of Subject Company (Issuer))\nEquitable Holdings, Inc.\n(Name of Filing Person (Offeror))\nUnits\nRepresenting Assignments of Beneficial Ownership of Limited Partnership Interests\n(Title of Class\u00a0of Securities)\n01881G106\n(CUSIP Number\nof Class\u00a0of Securities)\nRobin M.",
+      "method": "gliner",
+      "confidence": 0.8688033223152161,
+      "rank_score": 1.618803322315216,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        433,
+        442
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$38.50",
+      "passage": "Equitable Holdings, Inc., a Delaware corporation (\u201cEquitable\u201d), is offering to purchase up to 46,000,000 units representing\nassignments of beneficial ownership of limited partnership interests (\u201cUnits\u201d) in AllianceBernstein Holding L.P., a Delaware limited partnership (\u201cAB Holding\u201d), at a price of $38.50 per Unit (the \u201cPurchase Price\u201d), net\nto the seller in cash, for an aggregate Purchase Price of up to approximately $1.8\u00a0billion, less any applicable tax withholding, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated February\u00a024, 2025 (the\n\u201cOffer to Purchase\u201d), and the related Letter of Transmittal (which together, as each may be amended or supplemented from ti",
+      "method": "gliner",
+      "confidence": 0.7833414077758789,
+      "rank_score": 1.4333414077758788,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1516,
+        1522
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "MARCH\u00a024, 2025",
+      "passage": "THE OFFER AND WITHDRAWAL RIGHTS WILL EXPIRE AT 5:00 P.M., NEW YORK CITY TIME, ON\nMARCH\u00a024, 2025 UNLESS THE OFFER IS EXTENDED (SUCH DATE AND TIME, AS THEY MAY BE EXTENDED, THE \u201cEXPIRATION TIME\u201d).\nEquitable is making this Offer in order to increase its economic ownership in AllianceBernstein L.P.\n(\u201cAB\u201d), a Delaware limited partnership and the operating partnership of AB Holding, and to provide unitholders with liquidity.",
+      "method": "gliner",
+      "confidence": 0.7286587953567505,
+      "rank_score": 1.3786587953567504,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2040,
+        2054
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Equitable Holdings, Inc.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nAllianceBernstein Holding L.P.\n(Name of Subject Company (Issuer))\nEquitable Holdings, Inc.\n(Name of Filing Person (Offeror))\nUnits\nRepresenting Assignments of Beneficial Ownership of Limited Partnership Interests\n(Title of Class\u00a0of Securities)\n01881G106\n(CUSIP Number\nof Class\u00a0of Securities)\nRobin M.",
+      "method": "gliner",
+      "confidence": 0.9603510499000549,
+      "rank_score": 1.360351049900055,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        255,
+        279
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Up to approximately $1.8 billion",
+      "passage": "In making the Offer, we will comply with the\nrequirements of Rule\n14d-10\nunder the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d).\nNotice of Offer to Purchase for Cash\nUp to 46,000,000\nUnits\nin\nAllianceBernstein\nHolding L.P.\nat\n$38.50 per Unit\n(For an\nAggregate Purchase Price of Up to approximately $1.8 billion)\nby\nEquitable Holdings, Inc.",
+      "method": "gliner",
+      "confidence": 0.6787737607955933,
+      "rank_score": 1.3287737607955932,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1155,
+        1187
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "AB",
+      "passage": "Equitable reserves the right, in its sole discretion, to change the Purchase Price and to increase or decrease the number of Units sought in the Offer, subject to applicable\nlaw.\nThe Units are listed and traded on the NYSE under the symbol \u201cAB.\u201d\nUnitholders are urged to obtain current market\nquotations for the Units before deciding whether to tender their Units.\nThe Offer will expire at 5:00 p.m., New York City time, on March\u00a024, 2025, unless\nEquitable exercises the right, in its sole discretion, to extend the Offer, subject to applicable law.",
+      "method": "gliner",
+      "confidence": 0.9269964694976807,
+      "rank_score": 1.2769964694976808,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3749,
+        3751
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.8\u00a0billion",
+      "passage": "nc., a Delaware corporation (\u201cEquitable\u201d), is offering to purchase up to 46,000,000 units representing\nassignments of beneficial ownership of limited partnership interests (\u201cUnits\u201d) in AllianceBernstein Holding L.P., a Delaware limited partnership (\u201cAB Holding\u201d), at a price of $38.50 per Unit (the \u201cPurchase Price\u201d), net\nto the seller in cash, for an aggregate Purchase Price of up to approximately $1.8\u00a0billion, less any applicable tax withholding, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated February\u00a024, 2025 (the\n\u201cOffer to Purchase\u201d), and the related Letter of Transmittal (which together, as each may be amended or supplemented from time to time, constitute the \u201cOffer\u201d).",
+      "method": "gliner",
+      "confidence": 0.5175360441207886,
+      "rank_score": 1.1675360441207885,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1638,
+        1650
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a024, 2025",
+      "passage": "of limited partnership interests (\u201cUnits\u201d) in AllianceBernstein Holding L.P., a Delaware limited partnership (\u201cAB Holding\u201d), at a price of $38.50 per Unit (the \u201cPurchase Price\u201d), net\nto the seller in cash, for an aggregate Purchase Price of up to approximately $1.8\u00a0billion, less any applicable tax withholding, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated February\u00a024, 2025 (the\n\u201cOffer to Purchase\u201d), and the related Letter of Transmittal (which together, as each may be amended or supplemented from time to time, constitute the \u201cOffer\u201d).",
+      "method": "gliner",
+      "confidence": 0.4763205051422119,
+      "rank_score": 1.1263205051422118,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1776,
+        1793
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AllianceBernstein Holding L.P.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nAllianceBernstein Holding L.P.\n(Name of Subject Company (Issuer))\nEquitable Holdings, Inc.\n(Name of Filing Person (Offeror))\nUnits\nRepresenting Assignments of Beneficial Ownership of Limited Partnership Interests\n(Title of Class\u00a0of Securities)\n01881G106\n(CUSIP Number\nof Class\u00a0of Securities)\nRobin M.",
+      "method": "gliner",
+      "confidence": 0.6986655592918396,
+      "rank_score": 1.0986655592918397,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        189,
+        219
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Equitable Holdings, Inc.",
+      "passage": "10\nShared Dispositive Power\n0\n11\nAggregate\namount beneficially owned by each reporting person\n0\n12\nCheck if\nthe aggregate amount in Row (11)\u00a0excludes certain shares (See Instructions)\n13\nPercent\nof class represented by amount in Row (11)\n0.00%\n14\nType of\nReporting Person (See Instructions)\nHC, CO\n2\nSCHEDULE TO\nThis Tender Offer Statement on Schedule TO (this \u201cSchedule TO\u201d) relates to the offer by Equitable Holdings, Inc., a Delaware corporation\n(\u201cEquitable\u201d), to purchase up to 46,000,000 units representing assignments of beneficial ownership of limited partnership interests (\u201cUnits\u201d) in AllianceBernstein Holding L.P., a Delaware limited partnership (\u201cAB\nHolding\u201d), at a price of $38.50 per Unit (the \u201cPurchase Price\u201d), net to the seller in cash, for an aggregate Purchase Price of up to approximately $1.8\u00a0billion, l",
+      "method": "gliner",
+      "confidence": 0.79407799243927,
+      "rank_score": 1.09407799243927,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2669,
+        2693
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Barclays Capital Inc.",
+      "passage": "The\nInformation Agent for the Offer is:\n3\n48 Wall Street\n22nd Floor\nNew York, New York\n10005\nAttn: Corporate Actions\nUnitholders please call toll free: (800)\n848-3402\nAll other calls: (212)\n269-5550\nEmail: AB@dfking.com\nThe\nDealer Manager for the Offer is:\nBarclays Capital Inc.\n745 Seventh Avenue, 5th Floor\nNew\nYork, New York 10019\nBanks and Brokers Call: (212)\n528-7581\nAll others call Toll-Free: (800)\n438-3242\nFebruary\u00a024, 2025\n4",
+      "method": "gliner",
+      "confidence": 0.7625822424888611,
+      "rank_score": 1.0625822424888611,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        13449,
+        13470
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Willkie Farr\u00a0& Gallagher LLP",
+      "passage": "Carlson\nWillkie Farr\u00a0& Gallagher LLP\n787 Seventh Avenue\nNew\nYork, NY 10019-6099\n(212)\n728-8000\n\u2610\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a\ntender offer.",
+      "method": "gliner",
+      "confidence": 0.8556426167488098,
+      "rank_score": 1.0556426167488098,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        783,
+        811
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "approximately $1.8\u00a0billion",
+      "passage": "r by Equitable Holdings, Inc., a Delaware corporation\n(\u201cEquitable\u201d), to purchase up to 46,000,000 units representing assignments of beneficial ownership of limited partnership interests (\u201cUnits\u201d) in AllianceBernstein Holding L.P., a Delaware limited partnership (\u201cAB\nHolding\u201d), at a price of $38.50 per Unit (the \u201cPurchase Price\u201d), net to the seller in cash, for an aggregate Purchase Price of up to approximately $1.8\u00a0billion, less any applicable tax withholding.",
+      "method": "gliner",
+      "confidence": 0.6404438614845276,
+      "rank_score": 1.0404438614845275,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3064,
+        3090
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "AllianceBernstein Holding L.P.",
+      "passage": "of class represented by amount in Row (11)\n0.00%\n14\nType of\nReporting Person (See Instructions)\nHC, CO\n2\nSCHEDULE TO\nThis Tender Offer Statement on Schedule TO (this \u201cSchedule TO\u201d) relates to the offer by Equitable Holdings, Inc., a Delaware corporation\n(\u201cEquitable\u201d), to purchase up to 46,000,000 units representing assignments of beneficial ownership of limited partnership interests (\u201cUnits\u201d) in AllianceBernstein Holding L.P., a Delaware limited partnership (\u201cAB\nHolding\u201d), at a price of $38.50 per Unit (the \u201cPurchase Price\u201d), net to the seller in cash, for an aggregate Purchase Price of up to approximately $1.8\u00a0billion, less any applicable tax withholding.",
+      "method": "gliner",
+      "confidence": 0.6424151062965393,
+      "rank_score": 0.9424151062965394,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2863,
+        2893
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "proration\nprovisions",
+      "passage": "Unitholders wishing to tender Units must follow the procedures set forth in the Offer to Purchase and the related Letter of Transmittal.\nFor purposes of the Offer, Equitable will be deemed to have accepted for payment (and therefore purchased), subject to the proration\nprovisions of the Offer, Units that are properly tendered and not properly withdrawn only if and when Equitable gives oral or written notice to Computershare Trust Company, N.A.",
+      "method": "gliner",
+      "confidence": 0.9318078756332397,
+      "rank_score": 0.9318078756332397,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        5208,
+        5228
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "proration_terms",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Equitable",
+      "passage": "If Equitable extends the Offer, Equitable will issue a press release announcing the extension and the new Expiration Time no later than\n9:00\u00a0a.m., New York City time, on the next business day after the previously scheduled Expiration Time.",
+      "method": "gliner",
+      "confidence": 0.9297260642051697,
+      "rank_score": 0.9297260642051697,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4061,
+        4070
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Equitable",
+      "passage": "The Offer is, however, subject to\nother conditions as set forth in the Offer to Purchase.\nIf more than 46,000,000 Units are properly tendered, upon the terms and subject\nto the conditions of the Offer, Equitable will purchase an aggregate of 46,000,000 Units from the tendering unitholders on a pro rata basis as described in the Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.8929861187934875,
+      "rank_score": 0.8929861187934875,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3219,
+        3228
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "AllianceBernstein Holding L.P.",
+      "passage": "Exhibits.\n5\nItem 1.\nSubject Company Information.\nName and Address.\nThe name of the subject company is AllianceBernstein Holding L.P., a Delaware limited partnership (the \u201c\nCompany\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.6886155605316162,
+      "rank_score": 0.8886155605316162,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        1584,
+        1614
+      ],
+      "source_hit_id": "0000825313-25-000023:ab-march2025schedule14dx9w.htm",
+      "source_accession": "0000825313-25-000023",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP\u00a0No.\n01881G106",
+      "passage": "CUSIP\u00a0No.\n01881G106\n1\nName of reporting person\nEquitable Holdings, Inc.",
+      "method": "gliner",
+      "confidence": 0.6205629706382751,
+      "rank_score": 0.8705629706382751,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1786,
+        1805
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "cusip_code",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "5:00 p.m.",
+      "passage": "Equitable reserves the right, in its sole discretion, to change the Purchase Price and to increase or decrease the number of Units sought in the Offer, subject to applicable\nlaw.\nThe Units are listed and traded on the NYSE under the symbol \u201cAB.\u201d\nUnitholders are urged to obtain current market\nquotations for the Units before deciding whether to tender their Units.\nThe Offer will expire at 5:00 p.m., New York City time, on March\u00a024, 2025, unless\nEquitable exercises the right, in its sole discretion, to extend the Offer, subject to applicable law.",
+      "method": "gliner",
+      "confidence": 0.6652510762214661,
+      "rank_score": 0.865251076221466,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3898,
+        3907
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "expiration_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AB Holding",
+      "passage": "SUBJECT COMPANY INFORMATION\nItem 1002(a) through (c)\u00a0of Regulation\nM-A:\n(a)\nThe information set forth in Section\u00a09 (\u201c\nCertain Information About AB Holding\n\u201d) of the\nOffer to Purchase is incorporated herein by reference.",
+      "method": "gliner",
+      "confidence": 0.6416793465614319,
+      "rank_score": 0.8416793465614318,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4248,
+        4258
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "unitholders",
+      "passage": "Any Units not purchased in the Offer will be returned to the tendering\nunitholders at Equitable\u2019s expense promptly after the Expiration Time.",
+      "method": "gliner",
+      "confidence": 0.8378720879554749,
+      "rank_score": 0.8378720879554749,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3437,
+        3448
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE",
+      "passage": "Equitable reserves the right, in its sole discretion, to change the Purchase Price and to increase or decrease the number of Units sought in the Offer, subject to applicable\nlaw.\nThe Units are listed and traded on the NYSE under the symbol \u201cAB.\u201d\nUnitholders are urged to obtain current market\nquotations for the Units before deciding whether to tender their Units.\nThe Offer will expire at 5:00 p.m., New York City time, on March\u00a024, 2025, unless\nEquitable exercises the right, in its sole discretion, to extend the Offer, subject to applicable law.",
+      "method": "gliner",
+      "confidence": 0.4761456251144409,
+      "rank_score": 0.8261456251144409,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3726,
+        3730
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AllianceBernstein L.P.",
+      "passage": "Equitable is making this Offer in order to increase its economic ownership in AllianceBernstein L.P.\n(\u201cAB\u201d), a Delaware limited partnership and the operating partnership of AB Holding, and to provide unitholders with liquidity.",
+      "method": "gliner",
+      "confidence": 0.5007883310317993,
+      "rank_score": 0.8007883310317994,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        2232,
+        2254
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "beneficial owners",
+      "passage": "Accordingly, beneficial owners wishing to participate in the Offer should contact their broker, dealer, commercial bank, trust company or other nominee as soon as possible in order to determine the times by\nwhich such owner must take action in order to participate in the Offer.\nEquitable does not currently anticipate that there will be a\nsubsequent offering period.",
+      "method": "gliner",
+      "confidence": 0.4504523277282715,
+      "rank_score": 0.5504523277282715,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4593,
+        4610
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Expiration Time",
+      "passage": "Any Units not purchased in the Offer will be returned to the tendering\nunitholders at Equitable\u2019s expense promptly after the Expiration Time.",
+      "method": "gliner",
+      "confidence": 0.8977510333061218,
+      "rank_score": 0.5477510333061217,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3491,
+        3506
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "expiration_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Unitholders",
+      "passage": "Equitable reserves the right, in its sole discretion, to change the Purchase Price and to increase or decrease the number of Units sought in the Offer, subject to applicable\nlaw.\nThe Units are listed and traded on the NYSE under the symbol \u201cAB.\u201d\nUnitholders are urged to obtain current market\nquotations for the Units before deciding whether to tender their Units.\nThe Offer will expire at 5:00 p.m., New York City time, on March\u00a024, 2025, unless\nEquitable exercises the right, in its sole discretion, to extend the Offer, subject to applicable law.",
+      "method": "gliner",
+      "confidence": 0.4641047418117523,
+      "rank_score": 0.4641047418117523,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3754,
+        3765
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Units",
+      "passage": "Equitable reserves the right, in its sole discretion, to change the Purchase Price and to increase or decrease the number of Units sought in the Offer, subject to applicable\nlaw.\nThe Units are listed and traded on the NYSE under the symbol \u201cAB.\u201d\nUnitholders are urged to obtain current market\nquotations for the Units before deciding whether to tender their Units.\nThe Offer will expire at 5:00 p.m., New York City time, on March\u00a024, 2025, unless\nEquitable exercises the right, in its sole discretion, to extend the Offer, subject to applicable law.",
+      "method": "gliner",
+      "confidence": 0.41639232635498047,
+      "rank_score": 0.41639232635498047,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        3820,
+        3825
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nAllianceBernstein Holding L.P.\n(Name of Subject Company (Issuer))\nEquitable Holdings, Inc.\n(Name of Filing Person (Offeror))\nUnits\nRepresenting Assignments of Beneficial Ownership of Limited Partnership Interests\n(Title of Class\u00a0of Securities)\n01881G106\n(CUSIP Number\nof Class\u00a0of Securities)\nRobin M.",
+      "method": "gliner",
+      "confidence": 0.6189696192741394,
+      "rank_score": 0.31896961927413936,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        444,
+        456
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dsctot.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Purchase Price",
+      "passage": "Equitable Holdings, Inc., a Delaware corporation (\u201cEquitable\u201d), is offering to purchase up to 46,000,000 units representing\nassignments of beneficial ownership of limited partnership interests (\u201cUnits\u201d) in AllianceBernstein Holding L.P., a Delaware limited partnership (\u201cAB Holding\u201d), at a price of $38.50 per Unit (the \u201cPurchase Price\u201d), net\nto the seller in cash, for an aggregate Purchase Price of up to approximately $1.8\u00a0billion, less any applicable tax withholding, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated February\u00a024, 2025 (the\n\u201cOffer to Purchase\u201d), and the related Letter of Transmittal (which together, as each may be amended or supplemented from time to time, constitute the \u201cOf",
+      "method": "gliner",
+      "confidence": 0.5853219628334045,
+      "rank_score": 0.23532196283340445,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1538,
+        1552
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offer_price_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Aggregate Purchase Price",
+      "passage": "In making the Offer, we will comply with the\nrequirements of Rule\n14d-10\nunder the Securities Exchange Act of 1934, as amended (the \u201cExchange Act\u201d).\nNotice of Offer to Purchase for Cash\nUp to 46,000,000\nUnits\nin\nAllianceBernstein\nHolding L.P.\nat\n$38.50 per Unit\n(For an\nAggregate Purchase Price of Up to approximately $1.8 billion)\nby\nEquitable Holdings, Inc.",
+      "method": "gliner",
+      "confidence": 0.41248342394828796,
+      "rank_score": 0.062483423948287875,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        1127,
+        1151
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Company",
+      "passage": "The Company has filed this Schedule 14D-9 with the SEC, and these documents are available free of charge at the website maintained by the SEC at\nwww.sec.gov\n.\nItem 3.\nPast Contacts, Transactions, Negotiations and Agreements.\nExcept as set forth in this Schedule 14D-9 or as otherwise incorporated herein by reference, as of the date of this Schedule 14D-9, to the knowledge of the Company, there are no material agreements, arrangements or understandings and no actual or potential conflicts of interest between the Company or its affiliates, on the one hand, and (i) its executive officers, directors or affiliates, or (ii) Equitable or its executive officers, directors or affiliates, on the other hand.",
+      "method": "gliner",
+      "confidence": 0.4243936836719513,
+      "rank_score": -0.3256063163280487,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4228,
+        4235
+      ],
+      "source_hit_id": "0000825313-25-000023:ab-march2025schedule14dx9w.htm",
+      "source_accession": "0000825313-25-000023",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "trust company",
+      "passage": "Accordingly, beneficial owners wishing to participate in the Offer should contact their broker, dealer, commercial bank, trust company or other nominee as soon as possible in order to determine the times by\nwhich such owner must take action in order to participate in the Offer.\nEquitable does not currently anticipate that there will be a\nsubsequent offering period.",
+      "method": "gliner",
+      "confidence": 0.42981770634651184,
+      "rank_score": -0.5201822936534882,
+      "doc_role": "otp",
+      "section": "otp",
+      "faq_question": null,
+      "char_span": [
+        4701,
+        4714
+      ],
+      "source_hit_id": "0001193125-25-032774:d937480dex99a1vi.htm",
+      "source_accession": "0001193125-25-032774",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.833692+00:00"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-45332",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "ENEL AMERICAS S.A.",
+  "primary_cik": "0000912505",
+  "written_at": "2026-09-17T06:01:41.515377+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 19,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001104659-21-026270:tm217453-1_sctot.htm",
+      "accession": "0001104659-21-026270",
+      "filename": "tm217453-1_sctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2021-02-22 00:00:00",
+      "primary_cik": "0000912505",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001104659-21-026270:tm217453-1_exa1a.htm",
+      "accession": "0001104659-21-026270",
+      "filename": "tm217453-1_exa1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "EX-99.(A)(1)(A)",
+      "file_date": "2021-02-22 00:00:00",
+      "primary_cik": "0000912505",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001104659-21-036065:tm217453-4_exa1b.htm",
+      "accession": "0001104659-21-036065",
+      "filename": "tm217453-4_exa1b.htm",
+      "form": "SC TO-T/A",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": "EX-99.(A)(1)(B)",
+      "file_date": "2021-03-15 00:00:00",
+      "primary_cik": "0000912505",
+      "otp_method": null,
+      "is_amendment": true
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001104659-21-042151:tm2110733d1_sc14d9.htm",
+      "accession": "0001104659-21-042151",
+      "filename": "tm2110733d1_sc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2021-03-26 00:00:00",
+      "primary_cik": "0000912505",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

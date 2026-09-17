@@ -1,0 +1,45 @@
+{
+  "schema_version": "1",
+  "event_id": "005-40533",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "ZIX CORP",
+  "primary_cik": "0000855612",
+  "written_at": "2026-09-17T06:01:41.500908+00:00",
+  "has_cover": true,
+  "has_otp": false,
+  "has_lot": false,
+  "has_14d9": true,
+  "otp_method": null,
+  "cohort": "needs_otp_resolve",
+  "n_amendments": 11,
+  "download_ready": false,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001193125-21-336066:d250883dsctot.htm",
+      "accession": "0001193125-21-336066",
+      "filename": "d250883dsctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2021-11-22 00:00:00",
+      "primary_cik": "0000855612",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001193125-21-337043:d266065dsc14d9.htm",
+      "accession": "0001193125-21-337043",
+      "filename": "d266065dsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2021-11-23 00:00:00",
+      "primary_cik": "0000855612",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

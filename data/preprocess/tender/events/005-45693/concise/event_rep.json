@@ -1,0 +1,2031 @@
+{
+  "schema_version": "1",
+  "event_id": "005-45693",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "d2f6d5603c0eeee9e14e9fef61e20400198df3c9",
+      "hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "accession": "0001839882-24-045335",
+      "filename": "tci_sctot-121624.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "b0d383867f6b288178fabebc9174fe6ee1a7d391",
+      "hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "accession": "0001839882-24-045335",
+      "filename": "ex99-a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "27653eb49db84e6d90ed50a6eafded9699fe598e",
+      "hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "accession": "0001839882-24-045335",
+      "filename": "ex99-a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "bea1f676a18b13557c9db3ee7884f6581a6acb38",
+      "hit_id": "0001839882-24-045339:ior_sc14d9-121624.htm",
+      "accession": "0001839882-24-045339",
+      "filename": "ior_sc14d9-121624.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "December 13, 2024",
+      "score": 0.9659607410430908,
+      "rank_score": 1.7459607410430908,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$18.35",
+      "score": 0.9608343839645386,
+      "rank_score": 1.7408343839645386,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "January 15, 2025",
+      "score": 0.9346055388450623,
+      "rank_score": 1.7146055388450623,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "May 31, 2025",
+      "score": 0.9175931215286255,
+      "rank_score": 1.6975931215286255,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.01",
+      "score": 0.8184899687767029,
+      "rank_score": 1.598489968776703,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:1",
+      "faq_question": "What\nsecurities are you offering to purchase?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$18",
+      "score": 0.8051530122756958,
+      "rank_score": 1.5851530122756958,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:2",
+      "faq_question": "How\nmuch are you offering to pay for my securities, what is the form of payment and will I have to pay any fees or commissions?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "452926108",
+      "score": 0.7974968552589417,
+      "rank_score": 1.5474968552589417,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "approximately $1,800,000 million",
+      "score": 0.6538029313087463,
+      "rank_score": 1.4338029313087464,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Do\nyou have the financial resources to make the payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "TCI",
+      "score": 0.9706242084503174,
+      "rank_score": 1.3706242084503175,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:0",
+      "faq_question": "Who\nis offering to buy my securities?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "January 15, 2025",
+      "score": 0.6115370392799377,
+      "rank_score": 1.3415370392799377,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "TRANSCONTINENTAL\nREALTY INVESTORS, INC.",
+      "score": 0.929509162902832,
+      "rank_score": 1.3295091629028322,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "approximately $140,000",
+      "score": 0.5446880459785461,
+      "rank_score": 1.3246880459785462,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Do\nyou have the financial resources to make the payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "IOR",
+      "score": 0.8886799216270447,
+      "rank_score": 1.2886799216270448,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "Jaunuary 15, 2025",
+      "score": 0.9444223642349243,
+      "rank_score": 1.2744223642349244,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "D.F. King & Co., Inc.",
+      "score": 0.8617571592330933,
+      "rank_score": 1.2117571592330934,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "Who\ncan I talk to if I have questions about the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Income Opportunity Realty Investors,\nInc.",
+      "score": 0.7582942247390747,
+      "rank_score": 1.1582942247390748,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Transcontinental Realty Investors, Inc.",
+      "score": 0.852891206741333,
+      "rank_score": 1.152891206741333,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "Expiration Time of the Offer",
+      "score": 0.8167580366134644,
+      "rank_score": 1.1467580366134644,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Until\nwhat time can I withdraw the validly tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "D.\n               F. King & Co., Inc.",
+      "score": 0.828079342842102,
+      "rank_score": 1.128079342842102,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Transcontinental\nRealty Investors, Inc",
+      "score": 0.7188645005226135,
+      "rank_score": 1.1188645005226137,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE",
+      "score": 0.7149029970169067,
+      "rank_score": 1.1149029970169069,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How\ndo I tender my Shares?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Income Investors, Inc.",
+      "score": 0.7559507489204407,
+      "rank_score": 1.0559507489204407,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Income Opportunity\nRealty Investors, Inc.",
+      "score": 0.7221912145614624,
+      "rank_score": 1.0221912145614624,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "org_name",
+      "text": "Reality Advisors, Inc.",
+      "score": 0.6711555123329163,
+      "rank_score": 1.0211555123329163,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "calendar_date",
+      "text": "next Business Day",
+      "score": 0.676787257194519,
+      "rank_score": 1.0067872571945191,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How\nwill I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "IOR Common Stock",
+      "score": 0.9464668035507202,
+      "rank_score": 0.9964668035507203,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:1",
+      "faq_question": "What\nsecurities are you offering to purchase?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP\nNumber of Class of Securities",
+      "score": 0.7321012616157532,
+      "rank_score": 0.9821012616157532,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$18, net",
+      "score": 0.5256639122962952,
+      "rank_score": 0.9756639122962951,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "9:00 a.m.",
+      "score": 0.6272011399269104,
+      "rank_score": 0.9572011399269105,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How\nwill I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "5:00\n                                         pm",
+      "score": 0.6095773577690125,
+      "rank_score": 0.9395773577690125,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.01 per share",
+      "score": 0.5341048240661621,
+      "rank_score": 0.934104824066162,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "org_name",
+      "text": "NYSE American Exchange",
+      "score": 0.7752249240875244,
+      "rank_score": 0.9252249240875244,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "3,381,570 Shares",
+      "score": 0.5842134356498718,
+      "rank_score": 0.9142134356498719,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "NYSE American Exchange",
+      "score": 0.7623857259750366,
+      "rank_score": 0.9123857259750366,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Book-Entry Stockholders",
+      "score": 0.7886399626731873,
+      "rank_score": 0.8886399626731872,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "org_name",
+      "text": "Nevada corporation",
+      "score": 0.5364784598350525,
+      "rank_score": 0.8864784598350526,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "three NYSE trading days",
+      "score": 0.5479123592376709,
+      "rank_score": 0.877912359237671,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How\ndo I tender my Shares?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Certificate\nStockholders",
+      "score": 0.7707224488258362,
+      "rank_score": 0.8707224488258362,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "5:00 pm",
+      "score": 0.5798130631446838,
+      "rank_score": 0.8598130631446839,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "cusip_code",
+      "text": "452926-10-8",
+      "score": 0.8337595462799072,
+      "rank_score": 0.8337595462799072,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Pillar Income Asset Management, Inc.",
+      "score": 0.5004451274871826,
+      "rank_score": 0.8004451274871827,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "IOR\nstockholders",
+      "score": 0.6220217943191528,
+      "rank_score": 0.7720217943191529,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "If\nI decide not to tender, how will the Offer affect my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "IOR\nstockholders",
+      "score": 0.6136717200279236,
+      "rank_score": 0.7636717200279236,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:19",
+      "faq_question": "What\nare the U.S. Federal income tax consequences of exchanging my Shares pursuant to the Offer for cash?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "3,700,222 shares",
+      "score": 0.42726925015449524,
+      "rank_score": 0.7572692501544953,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "calendar_date",
+      "text": "sixty calendar days",
+      "score": 0.4169265329837799,
+      "rank_score": 0.74692653298378,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Until\nwhat time can I withdraw the validly tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "269,299 Shares",
+      "score": 0.4086768925189972,
+      "rank_score": 0.7386768925189973,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "initial expiration time",
+      "score": 0.9366329312324524,
+      "rank_score": 0.7166329312324524,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "broker",
+      "score": 0.6593973636627197,
+      "rank_score": 0.7093973636627198,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "dealer",
+      "score": 0.6479033827781677,
+      "rank_score": 0.6979033827781678,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "scheduled expiration time",
+      "score": 0.8890502452850342,
+      "rank_score": 0.6690502452850342,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "purchase price",
+      "score": 0.8209713697433472,
+      "rank_score": 0.6009713697433472,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "When\nand how will I be paid for my validly tendered Shares?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "U.S.\nHolder",
+      "score": 0.444149911403656,
+      "rank_score": 0.594149911403656,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:19",
+      "faq_question": "What\nare the U.S. Federal income tax consequences of exchanging my Shares pursuant to the Offer for cash?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "Offer Price",
+      "score": 0.7734608054161072,
+      "rank_score": 0.5534608054161072,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "When\nand how will I be paid for my validly tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9564303755760193,
+      "rank_score": 0.45643037557601923,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.9320621490478516,
+      "rank_score": 0.4320621490478515,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "If\nall Shares are not tendered in the Offer or if the Minimum Condition is not met, will the Offer be followed by another transaction?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "IOR",
+      "score": 0.5485872626304626,
+      "rank_score": 0.3985872626304627,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common\nStock",
+      "score": 0.6585005521774292,
+      "rank_score": 0.3085005521774291,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "TCI",
+      "score": 0.8772681355476379,
+      "rank_score": 0.27726813554763796,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "When\nand how will I be paid for my validly tendered Shares?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "NYSE",
+      "score": 0.6006602048873901,
+      "rank_score": 0.0006602048873901034,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "summary term sheet highlights material p",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "financing condition",
+      "score": 0.47409552335739136,
+      "rank_score": -0.025904476642608684,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Do\nyou have the financial resources to make the payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Depository",
+      "score": 0.46472445130348206,
+      "rank_score": -0.035275548696517986,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How\nwill I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "bank",
+      "score": 0.5241824984550476,
+      "rank_score": -0.07581750154495243,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:7",
+      "faq_question": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "Depositary",
+      "score": 0.42053961753845215,
+      "rank_score": -0.0794603824615479,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How\ndo I tender my Shares?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Equiniti\nTrust Company, LLC",
+      "score": 0.8133351802825928,
+      "rank_score": -0.1366648197174073,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "common stock",
+      "score": 0.4843677282333374,
+      "rank_score": -0.26563227176666265,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.4830330014228821,
+      "rank_score": -0.266966998577118,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "December 13, 2024",
+      "passage": "On\nDecember 13, 2024, the last full trading day prior to the date of this Offer to Purchase, the reported closing price for the Shares\non the NYSE American Exchange was $18.35. Before deciding whether to tender your Shares into and accept the Offer, you should\nobtain a current market quotation for the Shares.",
+      "method": "gliner",
+      "confidence": 0.9659607410430908,
+      "rank_score": 1.7459607410430908,
+      "doc_role": "otp",
+      "section": "What\nis the market value of my Shares as of a recent date?",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "char_span": [
+        3,
+        20
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$18.35",
+      "passage": "On\nDecember 13, 2024, the last full trading day prior to the date of this Offer to Purchase, the reported closing price for the Shares\non the NYSE American Exchange was $18.35. Before deciding whether to tender your Shares into and accept the Offer, you should\nobtain a current market quotation for the Shares.",
+      "method": "gliner",
+      "confidence": 0.9608343839645386,
+      "rank_score": 1.7408343839645386,
+      "doc_role": "otp",
+      "section": "What\nis the market value of my Shares as of a recent date?",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "char_span": [
+        169,
+        175
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January 15, 2025",
+      "passage": "You\nhave until 5:00 pm local New York City time, on January 15, 2025 to decide whether to tender your Shares in the Offer, unless\nthe Offer is extended as described below.",
+      "method": "gliner",
+      "confidence": 0.9346055388450623,
+      "rank_score": 1.7146055388450623,
+      "doc_role": "otp",
+      "section": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        52,
+        68
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "May 31, 2025",
+      "passage": "However, in no event will TCI be required to extend the Offer beyond (1) the\ndate on which all of the conditions and requirements of the Offer are satisfied or waived, or (2) May 31, 2025 (such date, the\n\u201c Outside Date \u201d. Notwithstanding the foregoing, TCI will extend the Offer for any period required by\nany rule, regulation, interpretation,or position of the SEC, or its staff, or the NYSE. See \u201cSection 1 \u2013 Terms of\nthe Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.9175931215286255,
+      "rank_score": 1.6975931215286255,
+      "doc_role": "otp",
+      "section": "Can\nthe Offer be extended and under what circumstances?",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "char_span": [
+        1000,
+        1012
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "TCI\nis offering to purchase up to 100,000 issued and outstanding shares of IOR Common Stock, par value $0.01 per share (collectively\nthe \u201c Shares \u201d or the \u201c IOR Common Stock \u201d. See the \u201cIntroduction\u201d\nto this Offer to Purchase and \u201cSection 1 \u2013 Terms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.8184899687767029,
+      "rank_score": 1.598489968776703,
+      "doc_role": "otp",
+      "section": "What\nsecurities are you offering to purchase?",
+      "faq_question": "What\nsecurities are you offering to purchase?",
+      "char_span": [
+        103,
+        108
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$18",
+      "passage": "TCI\nis offering to pay you $18 per Share in cash, without interest, less the applicable withholding taxes, if any.",
+      "method": "gliner",
+      "confidence": 0.8051530122756958,
+      "rank_score": 1.5851530122756958,
+      "doc_role": "otp",
+      "section": "How\nmuch are you offering to pay for my securities, what is the form of payment and will I have to pay any fees or commissions?",
+      "faq_question": "How\nmuch are you offering to pay for my securities, what is the form of payment and will I have to pay any fees or commissions?",
+      "char_span": [
+        27,
+        30
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "452926108",
+      "passage": "20549\nSCHEDULE\nTO\nTENDER\nOFFER STATEMENT UNDER SECTION 14(D)(1) OR SECTION 13(E)(1) OF THE\nSECURITIES\nEXCHANGES ACT OF 1934\n(AMENDMENT\nNO.________)\nINCOME\nOPPORTUNITY REALTY INVESTORS, INC.\n(Name\nof Subject Company)\nTRANSCONTINENTAL\nREALTY INVESTORS, INC.\n(Offeror)\n(Names of Filing Persons)\nCommon\nStock, Par Value $0.01 per share\n(Title\nof Class of Securities)\n452926108\n(CUSIP\nNumber of Class of Securities)\nErik\nL.",
+      "method": "gliner",
+      "confidence": 0.7974968552589417,
+      "rank_score": 1.5474968552589417,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        429,
+        438
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "approximately $1,800,000 million",
+      "passage": "Yes,\nwe estimate that approximately $1,800,000 million will be needed to purchase 100,000 Shares validly tendered in the Offer, and\napproximately $140,000 to pay related fees and expenses (all such payments, collectively referred to as the \u201c Necessary\nPayments \u201d).",
+      "method": "gliner",
+      "confidence": 0.6538029313087463,
+      "rank_score": 1.4338029313087464,
+      "doc_role": "otp",
+      "section": "Do\nyou have the financial resources to make the payment?",
+      "faq_question": "Do\nyou have the financial resources to make the payment?",
+      "char_span": [
+        22,
+        54
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "TCI",
+      "passage": "The\nentity offering to purchase your Shares is Transcontinental Realty Investors, Inc., a Nevada corporation which has its common\nstock listed and traded on the NYSE under the symbol \u201c TCI \u201d. TCI is a Nevada corporation engaged in the real\nestate industry, primarily development and operation of multi-family residential properties. See \u201cIntroduction\u201d to\nthis Offer to Purchase and \u201cSection 9 \u2013 Certain Information Concerning the Offeror.\u201d",
+      "method": "gliner",
+      "confidence": 0.9706242084503174,
+      "rank_score": 1.3706242084503175,
+      "doc_role": "otp",
+      "section": "Who\nis offering to buy my securities?",
+      "faq_question": "Who\nis offering to buy my securities?",
+      "char_span": [
+        185,
+        188
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "January 15, 2025",
+      "passage": "The\n                                         Offer will expire at 5:00 pm local New York City Time, on January 15, 2025, (the \u201c\nInitial\n                                         Expiration Time\n\u201d unless the Offer is extended, the Initial Expiration Time\n                                         of the Offer as extended is the \u201c\nExpiration Time.\n\u201d) for any period\n                                         required by any rule, regulation, interpretation or position of the U.S.",
+      "method": "gliner",
+      "confidence": 0.6115370392799377,
+      "rank_score": 1.3415370392799377,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        4048,
+        4064
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "TRANSCONTINENTAL\nREALTY INVESTORS, INC.",
+      "passage": "UNITED\nSTATES\nSECURITIES\nAND EXCHANGE COMMISSION\nWashington,\nD.C. 20549\nSCHEDULE\nTO\nTENDER\nOFFER STATEMENT UNDER SECTION 14(D)(1) OR SECTION 13(E)(1) OF THE\nSECURITIES\nEXCHANGES ACT OF 1934\n(AMENDMENT\nNO.________)\nINCOME\nOPPORTUNITY REALTY INVESTORS, INC.\n(Name\nof Subject Company)\nTRANSCONTINENTAL\nREALTY INVESTORS, INC.\n(Offeror)\n(Names of Filing Persons)\nCommon\nStock, Par Value $0.01 per share\n(Title\nof Class of Securities)\n452926108\n(CUSIP\nNumber of Class of Securities)\nErik\nL.",
+      "method": "gliner",
+      "confidence": 0.929509162902832,
+      "rank_score": 1.3295091629028322,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        282,
+        321
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "approximately $140,000",
+      "passage": "Yes,\nwe estimate that approximately $1,800,000 million will be needed to purchase 100,000 Shares validly tendered in the Offer, and\napproximately $140,000 to pay related fees and expenses (all such payments, collectively referred to as the \u201c Necessary\nPayments \u201d).",
+      "method": "gliner",
+      "confidence": 0.5446880459785461,
+      "rank_score": 1.3246880459785462,
+      "doc_role": "otp",
+      "section": "Do\nyou have the financial resources to make the payment?",
+      "faq_question": "Do\nyou have the financial resources to make the payment?",
+      "char_span": [
+        132,
+        154
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "IOR",
+      "passage": "Section references are included to direct you to a more\ncomplete description of the topics discusses in the Offer to Purchase.\nSECURITIES\n                                         SOUGHT:\nUp\n                                         to 100,000 Issued and Outstanding Shares of IOR Common Stock, Par Value $0.01 per share\n                                         (collectively the \u201cShares\u201d or the \u201cIOR Common Stock\u201d).",
+      "method": "gliner",
+      "confidence": 0.8886799216270447,
+      "rank_score": 1.2886799216270448,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        1303,
+        1306
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Jaunuary 15, 2025",
+      "passage": "SCHEDULED\n                                         INITIAL EXPIRATION TIME:\n5:00\n                                         pm local New York City Time, on Jaunuary 15, 2025.",
+      "method": "gliner",
+      "confidence": 0.9444223642349243,
+      "rank_score": 1.2744223642349244,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        2055,
+        2072
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "D.F. King & Co., Inc.",
+      "passage": "You\ncan call D.F. King & Co., Inc., the Information Agent for the Offer at (212) 269-5550 (for banks and brokers) or (800) 431-9643\ntoll free with any questions you may have. See the back cover of this Offer to Purchase.\nField: Page; Sequence: 14\n- 14 -",
+      "method": "gliner",
+      "confidence": 0.8617571592330933,
+      "rank_score": 1.2117571592330934,
+      "doc_role": "otp",
+      "section": "Who\ncan I talk to if I have questions about the Offer?",
+      "faq_question": "Who\ncan I talk to if I have questions about the Offer?",
+      "char_span": [
+        13,
+        34
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Income Opportunity Realty Investors,\nInc.",
+      "passage": "SUBJECT COMPANY INFORMATION\n(a)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0The\nname of the subject company and the issuer of securities to which this Schedule TO relates is Income Opportunity Realty Investors,\nInc., a Nevada corporation (\u201c\nIOR\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.7582942247390747,
+      "rank_score": 1.1582942247390748,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3356,
+        3397
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Transcontinental Realty Investors, Inc.",
+      "passage": "AT (800) 431-9643 OR THE DEPOSITARY, EQUINITI TRUST COMPANY LLC AT (877) 248-6417.\nYou have received this Letter of Transmittal\nin connection with the offer of Transcontinental Realty Investors, Inc., a Nevada corporation (\u201cPurchaser\u201d), to purchase\nup to 100,000 outstanding shares of common stock, par value $0.01 per share, of Income Investors, Inc., a Nevada corporation (\u201cIOR\u201d)\n(collectively, the \u201cShares\u201d), at a price of $18 per Share, net to the seller in cash, without interest and less any applicable\nwithholding taxes, as described in the Offer to Purchase, dated [Month] [Day],2024 (as it",
+      "method": "gliner",
+      "confidence": 0.852891206741333,
+      "rank_score": 1.152891206741333,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3334,
+        3373
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "Expiration Time of the Offer",
+      "passage": "You\ncan withdraw some or all of the Shares that you previously tendered in the Offer at any time prior to the Expiration Time of the\nOffer (as may be extended in accordance with the terms of the Offer) by instructing the Depositary in writing on or prior to the\nExpiration Time of the Offer.",
+      "method": "gliner",
+      "confidence": 0.8167580366134644,
+      "rank_score": 1.1467580366134644,
+      "doc_role": "otp",
+      "section": "Until\nwhat time can I withdraw the validly tendered Shares?",
+      "faq_question": "Until\nwhat time can I withdraw the validly tendered Shares?",
+      "char_span": [
+        262,
+        290
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "D.\n               F. King & Co., Inc.",
+      "passage": "You may also contact your broker,\ndealer, commercial bank or trust company or other nominee for assistance concerning the Offer.\nThe\nInformation Agent for the Offer is:\nD.\n               F. King & Co., Inc.\n48 Wall\n               Street, 22\nnd\nFloor\nNew York,\n               New York 10005\nToll Free\n               (800) 431-9643\nEmail:\u00a0ior@dfking.com",
+      "method": "gliner",
+      "confidence": 0.828079342842102,
+      "rank_score": 1.128079342842102,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        42101,
+        42138
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Transcontinental\nRealty Investors, Inc",
+      "passage": "Johnson, President\nTranscontinental\nRealty Investors, Inc\n1603\nLBJ Freeway, Suite 800\nDallas,\nTexas 75234\nTelephone:\n(469) 522-4200\n(Name,\nAddress and Telephone Number of Persons Authorized\nto Receive Notices and Communications on Behalf of Filing Persons\nWith\na copy to:\nSteven\nC.",
+      "method": "gliner",
+      "confidence": 0.7188645005226135,
+      "rank_score": 1.1188645005226137,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        504,
+        542
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE",
+      "passage": "e or you cannot deliver\n                                         it to the Depositary before the Offer expires, you may have a limited amount of additional\n                                         time by having a broker, bank or other fiduciary that is an eligible institution guarantee\n                                         that the missing items will be received by the Depositary within three NYSE trading days.\n                                         For the tender to be valid, however, the Depositary must receive the missing items within\n                                         that three trading-day period.",
+      "method": "gliner",
+      "confidence": 0.7149029970169067,
+      "rank_score": 1.1149029970169069,
+      "doc_role": "otp",
+      "section": "How\ndo I tender my Shares?",
+      "faq_question": "How\ndo I tender my Shares?",
+      "char_span": [
+        1584,
+        1588
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Income Investors, Inc.",
+      "passage": "AT (800) 431-9643 OR THE DEPOSITARY, EQUINITI TRUST COMPANY LLC AT (877) 248-6417.\nYou have received this Letter of Transmittal\nin connection with the offer of Transcontinental Realty Investors, Inc., a Nevada corporation (\u201cPurchaser\u201d), to purchase\nup to 100,000 outstanding shares of common stock, par value $0.01 per share, of Income Investors, Inc., a Nevada corporation (\u201cIOR\u201d)\n(collectively, the \u201cShares\u201d), at a price of $18 per Share, net to the seller in cash, without interest and less any applicable\nwithholding taxes, as described in the Offer to Purchase, dated [Month] [Day],2024 (as it may be amended or supplemented from time\nto time, the \u201cOffer to Purchase\u201d and, together with this Letter of Transmittal, as it may be amended or supplem",
+      "method": "gliner",
+      "confidence": 0.7559507489204407,
+      "rank_score": 1.0559507489204407,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3503,
+        3525
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Income Opportunity\nRealty Investors, Inc.",
+      "passage": "tement on Schedule TO (which, together with any amendments and supplements thereto, collectively constitute this\n\u201c\nSchedule TO\n\u201d) is filed by Transcontinental Realty Investors, Inc., a Nevada corporation (\u201c\nOfferor\n\u201d)\nwith respect to its offer to purchase up to 100,000 shares of the outstanding shares of common stock, par value $0.01 per share\n(each a \u201c\nShare\n\u201d\nand collectively the \u201c\nShares\n\u201d) of Income Opportunity\nRealty Investors, Inc., a Nevada corporation (\u201c\nIOR\n\u201d), at a purchase price of $18 per Share, net to the\nseller in cash, without interest (the \u201c\nOffer Price\n\u201d) and less any taxes required to be withheld, upon\nthe terms and subject to the conditions set forth in the Offer to Purchase dated December 16, 2024 (the \u201c\nOffer to\nPurchase\n\u201d) and the related Letter of Transmittal (the\nLetter of Transmittal\n\u201d which, together\nwit",
+      "method": "gliner",
+      "confidence": 0.7221912145614624,
+      "rank_score": 1.0221912145614624,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2047,
+        2088
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Reality Advisors, Inc.",
+      "passage": "ion is referred to as the \u201c\nMinimum Condition\n.\u201d\n-\n4\n-\nOTHER\n    INFORMATION:\nThe\n                                         Offer is intended by TCI to increase its ownership of IOR Common Stock to over 91% of\n                                         the issued and outstanding IOR Common Stock, when TCI\u2019s current ownership is added\n                                         to that of its Affiliate, Reality Advisors, Inc., a Nevada corporation (\u201c\nRAI\n\u201d).\n                                         TCI currently owns 3,381,570 Shares (approximately 83.16% of the IOR Common Stock outstanding)\n                                         and RAI currently owns 269,299 Shares (approximately 6.62% of the IOR stock outstanding)\n                                         out of current IOR Common Stock outstanding of 4,066,178.",
+      "method": "gliner",
+      "confidence": 0.6711555123329163,
+      "rank_score": 1.0211555123329163,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        3164,
+        3186
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "org_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "next Business Day",
+      "passage": "If\nTCI decides to extend the Offer, TCI will inform the Depository of that fact and will make a public announcement of the extension\nno later than 9:00 a.m. New York City time, on the next Business Day after the date on which the Offer was scheduled to expire.\nField: Page; Sequence: 12; Value: 1\n- 12 -",
+      "method": "gliner",
+      "confidence": 0.676787257194519,
+      "rank_score": 1.0067872571945191,
+      "doc_role": "otp",
+      "section": "How\nwill I be notified if the Offer is extended?",
+      "faq_question": "How\nwill I be notified if the Offer is extended?",
+      "char_span": [
+        184,
+        201
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "IOR Common Stock",
+      "passage": "TCI\nis offering to purchase up to 100,000 issued and outstanding shares of IOR Common Stock, par value $0.01 per share (collectively\nthe \u201c Shares \u201d or the \u201c IOR Common Stock \u201d. See the \u201cIntroduction\u201d\nto this Offer to Purchase and \u201cSection 1 \u2013 Terms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.9464668035507202,
+      "rank_score": 0.9964668035507203,
+      "doc_role": "otp",
+      "section": "What\nsecurities are you offering to purchase?",
+      "faq_question": "What\nsecurities are you offering to purchase?",
+      "char_span": [
+        75,
+        91
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP\nNumber of Class of Securities",
+      "passage": "20549\nSCHEDULE\nTO\nTENDER\nOFFER STATEMENT UNDER SECTION 14(D)(1) OR SECTION 13(E)(1) OF THE\nSECURITIES\nEXCHANGES ACT OF 1934\n(AMENDMENT\nNO.________)\nINCOME\nOPPORTUNITY REALTY INVESTORS, INC.\n(Name\nof Subject Company)\nTRANSCONTINENTAL\nREALTY INVESTORS, INC.\n(Offeror)\n(Names of Filing Persons)\nCommon\nStock, Par Value $0.01 per share\n(Title\nof Class of Securities)\n452926108\n(CUSIP\nNumber of Class of Securities)\nErik\nL.",
+      "method": "gliner",
+      "confidence": 0.7321012616157532,
+      "rank_score": 0.9821012616157532,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        440,
+        475
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$18, net",
+      "passage": "This\nSchedule 14D-9 relates to the limited cash tender offer for up to 100,000 Shares (the \u201c\nOffer\n\u201d) by Transcontinental\nRealty Investors, Inc., a Nevada corporation (\u201c\nTCI\n\u201d) which is for TCI to acquire up to 100,000 of the issued\nand outstanding Shares at a price per share equal to $18, net to the seller of such Shares in cash, without interest (the \u201c\nOffer\nPrice\n\u201d), subject to any withholding of taxes required by applicable law.",
+      "method": "gliner",
+      "confidence": 0.5256639122962952,
+      "rank_score": 0.9756639122962951,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2881,
+        2889
+      ],
+      "source_hit_id": "0001839882-24-045339:ior_sc14d9-121624.htm",
+      "source_accession": "0001839882-24-045339",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "9:00 a.m.",
+      "passage": "If\nTCI decides to extend the Offer, TCI will inform the Depository of that fact and will make a public announcement of the extension\nno later than 9:00 a.m. New York City time, on the next Business Day after the date on which the Offer was scheduled to expire.\nField: Page; Sequence: 12; Value: 1\n- 12 -",
+      "method": "gliner",
+      "confidence": 0.6272011399269104,
+      "rank_score": 0.9572011399269105,
+      "doc_role": "otp",
+      "section": "How\nwill I be notified if the Offer is extended?",
+      "faq_question": "How\nwill I be notified if the Offer is extended?",
+      "char_span": [
+        147,
+        156
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "5:00\n                                         pm",
+      "passage": "SCHEDULED\n                                         INITIAL EXPIRATION TIME:\n5:00\n                                         pm local New York City Time, on Jaunuary 15, 2025.",
+      "method": "gliner",
+      "confidence": 0.6095773577690125,
+      "rank_score": 0.9395773577690125,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        1977,
+        2025
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01 per share",
+      "passage": "The information set forth in Section 8 \u201cCertain\nInformation Concerning IOR\u201d of the Offer to Purchase is incorporated herein by reference.\n(b)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0This\nSchedule TO relates to the outstanding shares of common stock, par stock, par value $0.01 per share, of IOR.",
+      "method": "gliner",
+      "confidence": 0.5341048240661621,
+      "rank_score": 0.934104824066162,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3810,
+        3825
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "NYSE American Exchange",
+      "passage": "On\nDecember 13, 2024, the last full trading day prior to the date of this Offer to Purchase, the reported closing price for the Shares\non the NYSE American Exchange was $18.35. Before deciding whether to tender your Shares into and accept the Offer, you should\nobtain a current market quotation for the Shares.",
+      "method": "gliner",
+      "confidence": 0.7752249240875244,
+      "rank_score": 0.9252249240875244,
+      "doc_role": "otp",
+      "section": "What\nis the market value of my Shares as of a recent date?",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "char_span": [
+        142,
+        164
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "3,381,570 Shares",
+      "passage": "TCI currently owns 3,381,570 Shares (approximately 83.16% of the IOR Common Stock outstanding)\n                                         and RAI currently owns 269,299 Shares (approximately 6.62% of the IOR stock outstanding)\n                                         out of current IOR Common Stock outstanding of 4,066,178.",
+      "method": "gliner",
+      "confidence": 0.5842134356498718,
+      "rank_score": 0.9142134356498719,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        3280,
+        3296
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "NYSE American Exchange",
+      "passage": "On\nDecember 13, 2024, the last full trading day prior to the date of this Offer to Purchase, the reported closing price for the Shares\non the NYSE American Exchange was $18.35. Before deciding whether to tender your Shares into and accept the Offer, you should\nobtain a current market quotation for the Shares.",
+      "method": "gliner",
+      "confidence": 0.7623857259750366,
+      "rank_score": 0.9123857259750366,
+      "doc_role": "otp",
+      "section": "What\nis the market value of my Shares as of a recent date?",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "char_span": [
+        142,
+        164
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Book-Entry Stockholders",
+      "passage": "In this Letter of Transmittal, stockholders who deliver certificates representing their Shares are referred to as \u201cCertificate\nStockholders,\u201d and stockholders who deliver their Shares through book-entry transfer are referred to as \u201cBook-Entry Stockholders.\u201d\nIf certificates for your Shares are not immediately\navailable or you cannot deliver your certificates and all other required documents to the Depositary prior to the Expiration Date\nor you cannot complete the book-entry transfer procedures prior to the Expiration Date, you may nevertheless tender your Shares\naccording to the guaranteed delivery procedures set forth in Section\u00a03 of the Offer to",
+      "method": "gliner",
+      "confidence": 0.7886399626731873,
+      "rank_score": 0.8886399626731872,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        4611,
+        4634
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Nevada corporation",
+      "passage": "OFFEROR:\nTranscontinental\n                                         Realty Investors, Inc., a Nevada corporation.",
+      "method": "gliner",
+      "confidence": 0.5364784598350525,
+      "rank_score": 0.8864784598350526,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        2167,
+        2185
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "org_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "three NYSE trading days",
+      "passage": "ailable or you cannot deliver\n                                         it to the Depositary before the Offer expires, you may have a limited amount of additional\n                                         time by having a broker, bank or other fiduciary that is an eligible institution guarantee\n                                         that the missing items will be received by the Depositary within three NYSE trading days.\n                                         For the tender to be valid, however, the Depositary must receive the missing items within\n                                         that three trading-day period.",
+      "method": "gliner",
+      "confidence": 0.5479123592376709,
+      "rank_score": 0.877912359237671,
+      "doc_role": "otp",
+      "section": "How\ndo I tender my Shares?",
+      "faq_question": "How\ndo I tender my Shares?",
+      "char_span": [
+        1578,
+        1601
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "expiration_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Certificate\nStockholders",
+      "passage": "In this Letter of Transmittal, stockholders who deliver certificates representing their Shares are referred to as \u201cCertificate\nStockholders,\u201d and stockholders who deliver their Shares through book-entry transfer are referred to as \u201cBook-Entry Stockholders.\u201d\nIf certificates for your Shares are not immediately\navailable or you cannot deliver your certificates and all other required documents to the Depositary prior to the Expiration Date\nor you cannot complete the book-entry transfer procedures prior to the Expiration Date, you may nev",
+      "method": "gliner",
+      "confidence": 0.7707224488258362,
+      "rank_score": 0.8707224488258362,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        4494,
+        4518
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "5:00 pm",
+      "passage": "The\n                                         Offer will expire at 5:00 pm local New York City Time, on January 15, 2025, (the \u201c\nInitial\n                                         Expiration Time\n\u201d unless the Offer is extended, the Initial Expiration Time\n                                         of the Offer as extended is the \u201c\nExpiration Time.",
+      "method": "gliner",
+      "confidence": 0.5798130631446838,
+      "rank_score": 0.8598130631446839,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        4011,
+        4018
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "452926-10-8",
+      "passage": "20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSOLICITATION/RECOMMENDATION\nSTATEMENT\nUNDER\nSECTION 14(d) (4) OF THE SECURITIES EXCHANGES ACT OF 1934\nINCOME OPPORTUNITY REALTY INVESTORS, INC.\n(Name\nof Subject Company)\nINCOME\nOPPORTUNITY REALTY INVESTORS, INC.\n(Name\nof Person(s) Filing Statement)\nCommon\nStock, Par Value $0.01 per share\n(Title\nof Class of Securities)\n452926-10-8\n(CUSIP\nNumber of Class of Securities)\nErik\nL.",
+      "method": "gliner",
+      "confidence": 0.8337595462799072,
+      "rank_score": 0.8337595462799072,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        422,
+        433
+      ],
+      "source_hit_id": "0001839882-24-045339:ior_sc14d9-121624.htm",
+      "source_accession": "0001839882-24-045339",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Pillar Income Asset Management, Inc.",
+      "passage": "Each of the members of the Board\nof Directors of the Company is also a member of the Board of Directors of TCI and the executive officers of the Company are also\nthe executive officers of TCI, but are employed by Pillar Income Asset Management, Inc., a Nevada corporation (\u201c\nPillar\n\u201d)\nwhich serves as the advisor to each of the Company and TCI (and American Realty Investors, Inc., a Nevada corporation [\u201c\nARL\n\u201d]\nwhich has its common stock listed and traded on the New York Stock Exchange [\u201c\nNYSE\n\u201d]) and other entities pursuant\nto separate written Advisory Agreements.",
+      "method": "gliner",
+      "confidence": 0.5004451274871826,
+      "rank_score": 0.8004451274871827,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        5227,
+        5263
+      ],
+      "source_hit_id": "0001839882-24-045339:ior_sc14d9-121624.htm",
+      "source_accession": "0001839882-24-045339",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "IOR\nstockholders",
+      "passage": "IOR\nstockholders not tendering their Shares in the Offer will simply continue to own their Shares. However, there are possible effects\nof the Offer on the Market for the Shares, Stock Exchange listing, Margin Regulations and other matters. See \u201cSection 7\n\u2013 Possible Effects of the Offer on the Market for the Shares.\u201d",
+      "method": "gliner",
+      "confidence": 0.6220217943191528,
+      "rank_score": 0.7720217943191529,
+      "doc_role": "otp",
+      "section": "If\nI decide not to tender, how will the Offer affect my Shares?",
+      "faq_question": "If\nI decide not to tender, how will the Offer affect my Shares?",
+      "char_span": [
+        0,
+        16
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "IOR\nstockholders",
+      "passage": "IOR\nstockholders who exchange Shares for cash pursuant to the Offer will incur a taxable transaction for U.S.",
+      "method": "gliner",
+      "confidence": 0.6136717200279236,
+      "rank_score": 0.7636717200279236,
+      "doc_role": "otp",
+      "section": "What\nare the U.S. Federal income tax consequences of exchanging my Shares pursuant to the Offer for cash?",
+      "faq_question": "What\nare the U.S. Federal income tax consequences of exchanging my Shares pursuant to the Offer for cash?",
+      "char_span": [
+        0,
+        16
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "3,700,222 shares",
+      "passage": "91% of the current IOR Common\n                                         Stock outstanding would be 3,700,222 shares which means that only 49,353 Shares need\n                                         be validly tendered and not withdrawn prior to the initial expiration time in order to\n                                         satisfy the \u201c\nMinimum Condition\u201d\n.",
+      "method": "gliner",
+      "confidence": 0.42726925015449524,
+      "rank_score": 0.7572692501544953,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        3683,
+        3699
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "sixty calendar days",
+      "passage": "You\ncan withdraw some or all of the Shares that you previously tendered in the Offer at any time prior to the Expiration Time of the\nOffer (as may be extended in accordance with the terms of the Offer) by instructing the Depositary in writing on or prior to the\nExpiration Time of the Offer. Further, if TCI has not accepted your Shares for payment within sixty calendar days of the commencement\nof the Offer, you may withdraw them at any time after the sixty-day period until TCI does accept your Shares for payment.",
+      "method": "gliner",
+      "confidence": 0.4169265329837799,
+      "rank_score": 0.74692653298378,
+      "doc_role": "otp",
+      "section": "Until\nwhat time can I withdraw the validly tendered Shares?",
+      "faq_question": "Until\nwhat time can I withdraw the validly tendered Shares?",
+      "char_span": [
+        356,
+        375
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "269,299 Shares",
+      "passage": "TCI currently owns 3,381,570 Shares (approximately 83.16% of the IOR Common Stock outstanding)\n                                         and RAI currently owns 269,299 Shares (approximately 6.62% of the IOR stock outstanding)\n                                         out of current IOR Common Stock outstanding of 4,066,178.",
+      "method": "gliner",
+      "confidence": 0.4086768925189972,
+      "rank_score": 0.7386768925189973,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        3420,
+        3434
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "initial expiration time",
+      "passage": "91% of the current IOR Common\n                                         Stock outstanding would be 3,700,222 shares which means that only 49,353 Shares need\n                                         be validly tendered and not withdrawn prior to the initial expiration time in order to\n                                         satisfy the \u201c\nMinimum Condition\u201d\n.",
+      "method": "gliner",
+      "confidence": 0.9366329312324524,
+      "rank_score": 0.7166329312324524,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        3833,
+        3856
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "expiration_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "broker",
+      "passage": "Please be aware that if your Shares are held by a broker, dealer, trust company, bank or other nominee, you\nshould promptly contact your broker, dealer, trust company, bank or other nominee as they may require advance notification before\nthe expiration time of the Offer (as may be extended accordance with the Offer to Purchase.\nField: Page; Sequence: 11; Value: 1\n- 11 -",
+      "method": "gliner",
+      "confidence": 0.6593973636627197,
+      "rank_score": 0.7093973636627198,
+      "doc_role": "otp",
+      "section": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        862,
+        868
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "dealer",
+      "passage": "Please be aware that if your Shares are held by a broker, dealer, trust company, bank or other nominee, you\nshould promptly contact your broker, dealer, trust company, bank or other nominee as they may require advance notification before\nthe expiration time of the Offer (as may be extended accordance with the Offer to Purchase.\nField: Page; Sequence: 11; Value: 1\n- 11 -",
+      "method": "gliner",
+      "confidence": 0.6479033827781677,
+      "rank_score": 0.6979033827781678,
+      "doc_role": "otp",
+      "section": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        783,
+        789
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "scheduled expiration time",
+      "passage": "Yes,\nif on the scheduled expiration time of the Offer, including following a prior extension, (i) any of the conditions of the Offer\nhave not been satisfied or waived (other than any condition of the Offer that by its nature cannot be satisfied until the closing\nof the Offer, which will be required to be satisfied or waived at the closing of the Offer, TCI may extend the Offer for one or\nmore periods of not more than ten business days e",
+      "method": "gliner",
+      "confidence": 0.8890502452850342,
+      "rank_score": 0.6690502452850342,
+      "doc_role": "otp",
+      "section": "Can\nthe Offer be extended and under what circumstances?",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "char_span": [
+        15,
+        40
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "purchase price",
+      "passage": "Since the Offer is to purchase a limited\nnumber of Shares of IOR, Shares tendered may be subject to pro-ration if more than 100,000 Shares are tendered, unless TCI elects\nto purchase all Shares validly tendered.\nTCI\nwill pay for your validly tendered and not properly withdrawn Shares by depositing the purchase price with the Depository, which\nwill act as your agent for the purpose of receiving payments from us and transmitting such payments to you.",
+      "method": "gliner",
+      "confidence": 0.8209713697433472,
+      "rank_score": 0.6009713697433472,
+      "doc_role": "otp",
+      "section": "When\nand how will I be paid for my validly tendered Shares?",
+      "faq_question": "When\nand how will I be paid for my validly tendered Shares?",
+      "char_span": [
+        893,
+        907
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "U.S.\nHolder",
+      "passage": "IOR\nstockholders who exchange Shares for cash pursuant to the Offer will incur a taxable transaction for U.S. Federal income tax purposes\nand may also have a taxable transaction under applicable state, local or non-U.S. income or other tax laws. In general, a U.S.\nHolder (as defined in \u201cSection 5 \u2013 Material U.S.",
+      "method": "gliner",
+      "confidence": 0.444149911403656,
+      "rank_score": 0.594149911403656,
+      "doc_role": "otp",
+      "section": "What\nare the U.S. Federal income tax consequences of exchanging my Shares pursuant to the Offer for cash?",
+      "faq_question": "What\nare the U.S. Federal income tax consequences of exchanging my Shares pursuant to the Offer for cash?",
+      "char_span": [
+        260,
+        271
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Offer Price",
+      "passage": "If\nthe conditions to the Offer is set forth in \u201cSection 15 \u2013 Conditions of the Offer\u201d are satisfied or waived and\nwe consummate the Offer and accept your Shares for payment, TCI will pay you the Offer Price for each validly tendered and not\nproperly withdrawn Share promptly following the expiration of the Offer.",
+      "method": "gliner",
+      "confidence": 0.7734608054161072,
+      "rank_score": 0.5534608054161072,
+      "doc_role": "otp",
+      "section": "When\nand how will I be paid for my validly tendered Shares?",
+      "faq_question": "When\nand how will I be paid for my validly tendered Shares?",
+      "char_span": [
+        195,
+        206
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "On\nDecember 13, 2024, the last full trading day prior to the date of this Offer to Purchase, the reported closing price for the Shares\non the NYSE American Exchange was $18.35. Before deciding whether to tender your Shares into and accept the Offer, you should\nobtain a current market quotation for the Shares.",
+      "method": "gliner",
+      "confidence": 0.9564303755760193,
+      "rank_score": 0.45643037557601923,
+      "doc_role": "otp",
+      "section": "What\nis the market value of my Shares as of a recent date?",
+      "faq_question": "What\nis the market value of my Shares as of a recent date?",
+      "char_span": [
+        216,
+        222
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "If\nTCI purchases Shares in the Offer and the other conditions are satisfied including the Minimum Condition, TCI will consider its\nalternatives for the future with respect to IOR.",
+      "method": "gliner",
+      "confidence": 0.9320621490478516,
+      "rank_score": 0.4320621490478515,
+      "doc_role": "otp",
+      "section": "If\nall Shares are not tendered in the Offer or if the Minimum Condition is not met, will the Offer be followed by another transaction?",
+      "faq_question": "If\nall Shares are not tendered in the Offer or if the Minimum Condition is not met, will the Offer be followed by another transaction?",
+      "char_span": [
+        90,
+        107
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "IOR",
+      "passage": "SUBJECT COMPANY INFORMATION\n(a)\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0The\nname of the subject company and the issuer of securities to which this Schedule TO relates is Income Opportunity Realty Investors,\nInc., a Nevada corporation (\u201c\nIOR\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.5485872626304626,
+      "rank_score": 0.3985872626304627,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3423,
+        3426
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common\nStock",
+      "passage": "UNITED\nSTATES\nSECURITIES\nAND EXCHANGE COMMISSION\nWashington,\nD.C. 20549\nSCHEDULE\nTO\nTENDER\nOFFER STATEMENT UNDER SECTION 14(D)(1) OR SECTION 13(E)(1) OF THE\nSECURITIES\nEXCHANGES ACT OF 1934\n(AMENDMENT\nNO.________)\nINCOME\nOPPORTUNITY REALTY INVESTORS, INC.\n(Name\nof Subject Company)\nTRANSCONTINENTAL\nREALTY INVESTORS, INC.\n(Offeror)\n(Names of Filing Persons)\nCommon\nStock, Par Value $0.01 per share\n(Title\nof Class of Securities)\n452926108\n(CUSIP\nNumber of Class of Securities)\nErik\nL.",
+      "method": "gliner",
+      "confidence": 0.6585005521774292,
+      "rank_score": 0.3085005521774291,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        358,
+        370
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "TCI",
+      "passage": "Since the Offer is to purchase a limited\nnumber of Shares of IOR, Shares tendered may be subject to pro-ration if more than 100,000 Shares are tendered, unless TCI elects\nto purchase all Shares validly tendered.\nTCI\nwill pay for your validly tendered and not properly withdrawn Shares by depositing the purchase price with the Depository, which\nwill act as your agent for the purpose of receiving payments from us and transmitting such payments to you.",
+      "method": "gliner",
+      "confidence": 0.8772681355476379,
+      "rank_score": 0.27726813554763796,
+      "doc_role": "otp",
+      "section": "When\nand how will I be paid for my validly tendered Shares?",
+      "faq_question": "When\nand how will I be paid for my validly tendered Shares?",
+      "char_span": [
+        802,
+        805
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "NYSE",
+      "passage": "Securities and\n                                         Exchange Commission (the \u201c\nSEC\n\u201d) or its staff, or the NYSE.",
+      "method": "gliner",
+      "confidence": 0.6006602048873901,
+      "rank_score": 0.0006602048873901034,
+      "doc_role": "otp",
+      "section": "summary term sheet highlights material p",
+      "faq_question": null,
+      "char_span": [
+        4533,
+        4537
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "financing condition",
+      "passage": "Consummation of the Offer is not subject to any financing condition. See \u201cSection 10 \u2013\nSource and Amount of Funds.\u201d\nField: Page; Sequence: 10; Value: 1\n- 10 -",
+      "method": "gliner",
+      "confidence": 0.47409552335739136,
+      "rank_score": -0.025904476642608684,
+      "doc_role": "otp",
+      "section": "Do\nyou have the financial resources to make the payment?",
+      "faq_question": "Do\nyou have the financial resources to make the payment?",
+      "char_span": [
+        445,
+        464
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Depository",
+      "passage": "If\nTCI decides to extend the Offer, TCI will inform the Depository of that fact and will make a public announcement of the extension\nno later than 9:00 a.m. New York City time, on the next Business Day after the date on which the Offer was scheduled to expire.\nField: Page; Sequence: 12; Value: 1\n- 12 -",
+      "method": "gliner",
+      "confidence": 0.46472445130348206,
+      "rank_score": -0.035275548696517986,
+      "doc_role": "otp",
+      "section": "How\nwill I be notified if the Offer is extended?",
+      "faq_question": "How\nwill I be notified if the Offer is extended?",
+      "char_span": [
+        56,
+        66
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "bank",
+      "passage": "Please be aware that if your Shares are held by a broker, dealer, trust company, bank or other nominee, you\nshould promptly contact your broker, dealer, trust company, bank or other nominee as they may require advance notification before\nthe expiration time of the Offer (as may be extended accordance with the Offer to Purchase.\nField: Page; Sequence: 11; Value: 1\n- 11 -",
+      "method": "gliner",
+      "confidence": 0.5241824984550476,
+      "rank_score": -0.07581750154495243,
+      "doc_role": "otp",
+      "section": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How\nlong do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        806,
+        810
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Depositary",
+      "passage": "tificate is not available or you cannot deliver\n                                         it to the Depositary before the Offer expires, you may have a limited amount of additional\n                                         time by having a broker, bank or other fiduciary that is an eligible institution guarantee\n                                         that the missing items will be received by the Depositary within three NYSE trading days.\n                                         For the tender to be valid, however, the Depositary must receive the missing items within\n                                         that three trading-day period.",
+      "method": "gliner",
+      "confidence": 0.42053961753845215,
+      "rank_score": -0.0794603824615479,
+      "doc_role": "otp",
+      "section": "How\ndo I tender my Shares?",
+      "faq_question": "How\ndo I tender my Shares?",
+      "char_span": [
+        1560,
+        1570
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1a.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Equiniti\nTrust Company, LLC",
+      "passage": "Mail or deliver this Letter of Transmittal,\ntogether with the certificate(s) representing your shares, to:\nIf delivering by hand, express mail,\n        courier,\nor other expedited service:\nEquiniti\nTrust Company, LLC\n55 Challenger\nRoad\nSuite # 200\nRidgefield\nPark, New Jersey 07660\nAttn: Reorganization\nDepartment\nBy mail:\nEquiniti Trust Company, LLC\nOperations Center\nAttn: Reorganization Department\nP.O.",
+      "method": "gliner",
+      "confidence": 0.8133351802825928,
+      "rank_score": -0.1366648197174073,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        1742,
+        1769
+      ],
+      "source_hit_id": "0001839882-24-045335:ex99-a1b.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "common stock",
+      "passage": "Based on information\nprovided by IOR, as of November 7, 2024, there were 4,066,178 Shares of common stock, par value $0.01 per shares, of IOR issued\nand outstanding.",
+      "method": "gliner",
+      "confidence": 0.4843677282333374,
+      "rank_score": -0.26563227176666265,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3928,
+        3940
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "TERMS OF THE TRANSACTION\nThe\ninformation set forth in the \u201c\nSUMMARY TERM SHEET\n,\u201d \u201c\nFREQUENTLY ASKED QUESTIONS\n,\u201d Section\n1 \u201c\nTerms of the Offer\n,\u201d Section 2 \u201c\nAcceptance for Payment and Payment for Shares\n,\u201d Section\n3 \u201c\nProcedure for Accepting the Offer and Tendering Shares\n,\u201d Section 4 \u201c\nWithdrawal Rights\n,\u201d\nSection 5 \u201c\nMaterial U.S.",
+      "method": "gliner",
+      "confidence": 0.4830330014228821,
+      "rank_score": -0.266966998577118,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4740,
+        4746
+      ],
+      "source_hit_id": "0001839882-24-045335:tci_sctot-121624.htm",
+      "source_accession": "0001839882-24-045335",
+      "label": "security_name",
+      "chunk_id": "w6"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.845155+00:00"
+}

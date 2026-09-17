@@ -1,0 +1,50 @@
+{
+  "event_id": "005-32163",
+  "docs": [
+    {
+      "role": "cover",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dsctot.htm",
+      "hit_id": "0001193125-23-218490:d531308dsctot.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-32163/raw/0001193125-23-218490__d531308dsctot.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/23111/000119312523218490/d531308dsctot.htm",
+      "status": "ok",
+      "bytes": 66125,
+      "sha1": "6bb1a7daac428e7843783cc2cfcb026a67030afb"
+    },
+    {
+      "role": "otp",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dex99a1a.htm",
+      "hit_id": "0001193125-23-218490:d531308dex99a1a.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-32163/raw/0001193125-23-218490__d531308dex99a1a.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/23111/000119312523218490/d531308dex99a1a.htm",
+      "status": "ok",
+      "bytes": 512458,
+      "sha1": "d05fc9bdd77c2d39a60cfce0f14c58265a80b3cf"
+    },
+    {
+      "role": "lot",
+      "accession": "0001193125-23-218490",
+      "filename": "d531308dex99a1b.htm",
+      "hit_id": "0001193125-23-218490:d531308dex99a1b.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-32163/raw/0001193125-23-218490__d531308dex99a1b.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/23111/000119312523218490/d531308dex99a1b.htm",
+      "status": "ok",
+      "bytes": 180208,
+      "sha1": "0ed9245cfcaa0b3c881e104098bcc6cd62cb235c"
+    },
+    {
+      "role": "sc_14d9",
+      "accession": "0001193125-23-218549",
+      "filename": "d528209dsc14d9.htm",
+      "hit_id": "0001193125-23-218549:d528209dsc14d9.htm",
+      "local_path": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/data/preprocess/tender/events/005-32163/raw/0001193125-23-218549__d528209dsc14d9.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/23111/000119312523218549/d528209dsc14d9.htm",
+      "status": "ok",
+      "bytes": 425659,
+      "sha1": "a5201707c30b59aded1cbd19707cb3802d2ac29e"
+    }
+  ],
+  "updated_at": "2026-09-17T07:22:05.002246+00:00"
+}

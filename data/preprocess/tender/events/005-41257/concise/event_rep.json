@@ -1,0 +1,1281 @@
+{
+  "schema_version": "1",
+  "event_id": "005-41257",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "3e37b28b1f152d39898abb7e0416988882580b7c",
+      "hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "accession": "0001104659-21-088757",
+      "filename": "tm2121070d1_sctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "9d79ceeec52561d76c55cd3dcb7c260c618585ea",
+      "hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "accession": "0001104659-21-088757",
+      "filename": "tm2121070d1_exa-1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "0eb60bd063e9240ade2a48190a4a7936f3a7e5ee",
+      "hit_id": "0001104659-21-088757:tm2121070d1_exa1b2.htm",
+      "accession": "0001104659-21-088757",
+      "filename": "tm2121070d1_exa1b2.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "846c952d6d4e3cc7eb1d334e14d9f80690a7b768",
+      "hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "accession": "0001140361-21-023317",
+      "filename": "nt10026447x1_14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "money_amount",
+      "text": "$220 million",
+      "score": 0.8679373264312744,
+      "rank_score": 1.6479373264312744,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "$160 million",
+      "score": 0.8139589428901672,
+      "rank_score": 1.5939589428901673,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "cusip_code",
+      "text": "451055AG2",
+      "score": 0.9002217054367065,
+      "rank_score": 1.4002217054367065,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Iconix Acquisition LLC",
+      "score": 0.9363682866096497,
+      "rank_score": 1.3363682866096498,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$3.15",
+      "score": 0.8109346628189087,
+      "rank_score": 1.2609346628189086,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Iconix Brand Group, Inc.",
+      "score": 0.8381081819534302,
+      "rank_score": 1.2381081819534303,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Iconix Merger Sub Inc.",
+      "score": 0.821944534778595,
+      "rank_score": 1.221944534778595,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "451055305",
+      "score": 0.4054218828678131,
+      "rank_score": 1.155421882867813,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Iconix Acquisition LLC",
+      "score": 0.8119034171104431,
+      "rank_score": 1.1119034171104432,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Alliance Advisors, LLC",
+      "score": 0.7503668665885925,
+      "rank_score": 1.1003668665885926,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Iconix Merger Sub Inc.",
+      "score": 0.7988356351852417,
+      "rank_score": 1.0988356351852417,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Allianz Global Investors U.S. LLC",
+      "score": 0.7984898090362549,
+      "rank_score": 1.098489809036255,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and Purchaser",
+      "score": 0.9469085335731506,
+      "rank_score": 1.0969085335731508,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$0.001",
+      "score": 0.6448289155960083,
+      "rank_score": 1.0448289155960082,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "commercial bank",
+      "score": 0.8421218395233154,
+      "rank_score": 0.9921218395233155,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Lancer Capital, LLC",
+      "score": 0.674487829208374,
+      "rank_score": 0.9744878292083741,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "org_name",
+      "text": "Iconix",
+      "score": 0.8948242664337158,
+      "rank_score": 0.9448242664337159,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Holleder Capital LLC",
+      "score": 0.6215317249298096,
+      "rank_score": 0.9215317249298096,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "ICONIX BRAND\nGROUP,\u00a0INC.",
+      "score": 0.600980281829834,
+      "rank_score": 0.900980281829834,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Lancer Capital, LLC",
+      "score": 0.4931384325027466,
+      "rank_score": 0.8931384325027466,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Parent and Merger Sub",
+      "score": 0.7912654876708984,
+      "rank_score": 0.8912654876708984,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Iconix",
+      "score": 0.8537958860397339,
+      "rank_score": 0.8537958860397339,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "dealer",
+      "score": 0.7771353721618652,
+      "rank_score": 0.8271353721618653,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Iconix",
+      "score": 0.7624537944793701,
+      "rank_score": 0.8124537944793702,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "cash",
+      "score": 0.46635380387306213,
+      "rank_score": 0.7963538038730622,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:0",
+      "faq_question": "What are the material United States federal\nincome tax consequences of the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "ommercial banks",
+      "score": 0.6112099885940552,
+      "rank_score": 0.7612099885940552,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number of Class of Securities",
+      "score": 0.7230531573295593,
+      "rank_score": 0.7230531573295593,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "broker",
+      "score": 0.6634594798088074,
+      "rank_score": 0.7134594798088074,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Delaware corporation",
+      "score": 0.4062187075614929,
+      "rank_score": 0.706218707561493,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Woods Oviatt Gilman LLP",
+      "score": 0.42214205861091614,
+      "rank_score": 0.6221420586109161,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "issued and outstanding Shares",
+      "score": 0.4733733832836151,
+      "rank_score": 0.5233733832836152,
+      "doc_role": "otp",
+      "segment_id": "otp:priority:sts",
+      "faq_question": null,
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "PAR VALUE",
+      "score": 0.5330260992050171,
+      "rank_score": 0.4830260992050171,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Certificates",
+      "score": 0.46289339661598206,
+      "rank_score": 0.46289339661598206,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Purchaser",
+      "score": 0.9522886872291565,
+      "rank_score": 0.2022886872291565,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.6874499320983887,
+      "rank_score": 0.13744993209838863,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.6348944306373596,
+      "rank_score": 0.08489443063735957,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "COMMON STOCK",
+      "score": 0.6391234993934631,
+      "rank_score": -0.11087650060653692,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "Offer\nPrice",
+      "score": 0.4121638834476471,
+      "rank_score": -0.18783611655235294,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.7370835542678833,
+      "rank_score": -0.21291644573211677,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "security_name",
+      "text": "Share",
+      "score": 0.5522226691246033,
+      "rank_score": -0.3977773308753968,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent",
+      "score": 0.870485782623291,
+      "rank_score": -0.42951421737670903,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w6"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "offer_price",
+      "raw": "$220 million",
+      "passage": "See\nSection 15\u2014\u201cConditions of the\nOffer.\u201d\nDo you have the financial\nresources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate the Merger\nand the other transactions contemplated by the Merger Agreement?\nWe estimate that we will\nneed up to approximately $220 million to purchase all of the issued and outstanding Shares in the Offer, to provide funding for the\nconsideration to be paid in the Merger, to refinance Iconix\u2019s existing indebtedness and to pay related fees and expenses at\nthe Closing (as defined below) of the Transactions (the \u201cRequired Amount\u201d).",
+      "method": "gliner",
+      "confidence": 0.8679373264312744,
+      "rank_score": 1.6479373264312744,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        11560,
+        11572
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "money_amount",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$160 million",
+      "passage": "We have received debt commitments pursuant\nto which our lenders have agreed to provide us with a $160 million senior secured credit f",
+      "method": "gliner",
+      "confidence": 0.8139589428901672,
+      "rank_score": 1.5939589428901673,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        11964,
+        11976
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "money_amount",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "451055AG2",
+      "passage": "TABLE OF CONTENTS\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE 14D-9\n(Rule 14d-101)\nSolicitation/Recommendation Statement\nUnder Section 14(d)(4) of the Securities Exchange Act of 1934\nICONIX BRAND GROUP, INC.\n(Name of Subject Company)\nICONIX BRAND GROUP, INC.\n(Name of Persons Filing Statement)\nCommon Stock, par value $0.001 per share\n(Title of Class of Securities)\n451055AG2\n(CUSIP Number of Class of Securities)\nJohn McClain\nChief Financial Officer\nIconix Brand Group, Inc.",
+      "method": "gliner",
+      "confidence": 0.9002217054367065,
+      "rank_score": 1.4002217054367065,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        389,
+        398
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Iconix Acquisition LLC",
+      "passage": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\u00a0TO\n(RULE 14d-100)\nTender Offer Statement under Section\u00a014(d)(1)\nor 13(e)(1)\nof the Securities Exchange Act of 1934\nIconix Brand Group, Inc.\n(Name of Subject Company)\nIconix Merger Sub Inc.\n(Offeror)\na wholly-owned subsidiary of\nIconix Acquisition LLC\n(Offeror)\n(Name of Filing Persons and Offerors)\nCOMMON STOCK, $0.001 PAR VALUE\n(Title of Class of Securities)\n451055305\n(Cusip Number of Class of Securities)\nIconix Acquisition LLC\nc/o Woods Oviatt Gilman LLP\n1900 Bausch & Lomb Place\nRochester, New York 14604\n(585) 987-2820\n(Name, Address and Telephone Number of Person Authorized\nto Receive Notices and Communications on Behalf of Filing Persons)",
+      "method": "gliner",
+      "confidence": 0.9363682866096497,
+      "rank_score": 1.3363682866096498,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        309,
+        331
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$3.15",
+      "passage": "Inc., a Delaware corporation and wholly-owned subsidiary of Parent (\u201c\nPurchaser\n\u201d), to purchase all of the issued and outstanding Shares (other than Shares held in the Company\u2019s treasury or owned by any subsidiary of the Company, Parent, Purchaser or any other wholly-owned subsidiary of Parent, in each case, as of immediately prior to the commencement of the Offer) at an offer price per Share of $3.15 (such amount as may be increased, decreased or adjusted in accordance with the Merger Agreement (defined below), the \u201c\nOffer Price\n\u201d), net to the holder of such Share, in cash, without interest and subject to any applicable withholding taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated July\u00a02, 2021 (as it may be amended or supplemented from time to time,",
+      "method": "gliner",
+      "confidence": 0.8109346628189087,
+      "rank_score": 1.2609346628189086,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3414,
+        3419
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Iconix Brand Group, Inc.",
+      "passage": "Regulation M-A Item 1002(a) through (c)\n(a) The name of the subject\ncompany and the issuer of the securities to which this Schedule TO relates is Iconix Brand Group, Inc., a Delaware corporation.",
+      "method": "gliner",
+      "confidence": 0.8381081819534302,
+      "rank_score": 1.2381081819534303,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        5054,
+        5078
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Iconix Merger Sub Inc.",
+      "passage": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\u00a0TO\n(RULE 14d-100)\nTender Offer Statement under Section\u00a014(d)(1)\nor 13(e)(1)\nof the Securities Exchange Act of 1934\nIconix Brand Group, Inc.\n(Name of Subject Company)\nIconix Merger Sub Inc.\n(Offeror)\na wholly-owned subsidiary of\nIconix Acquisition LLC\n(Offeror)\n(Name of Filing Persons and Offerors)\nCOMMON STOCK, $0.001 PAR VALUE\n(Title of Class of Securities)\n451055305\n(Cusip Number of Class of Securities)\nIconix Acquisition LLC\nc/o Woods Oviatt Gilman LLP\n1900 Bausch & Lomb Place\nRochester, New York 14604\n(585) 987-2820\n(Name, Address and Telephone Number of Person Authorized\nto Re",
+      "method": "gliner",
+      "confidence": 0.821944534778595,
+      "rank_score": 1.221944534778595,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        247,
+        269
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "451055305",
+      "passage": "20549\nSCHEDULE\u00a0TO\n(RULE 14d-100)\nTender Offer Statement under Section\u00a014(d)(1)\nor 13(e)(1)\nof the Securities Exchange Act of 1934\nIconix Brand Group, Inc.\n(Name of Subject Company)\nIconix Merger Sub Inc.\n(Offeror)\na wholly-owned subsidiary of\nIconix Acquisition LLC\n(Offeror)\n(Name of Filing Persons and Offerors)\nCOMMON STOCK, $0.001 PAR VALUE\n(Title of Class of Securities)\n451055305\n(Cusip Number of Class of Securities)\nIconix Acquisition LLC\nc/o Woods Oviatt Gilman LLP\n1900 Bausch & Lomb Place\nRochester, New York 14604\n(585) 987-2820\n(Name, Address and Telephone Number of Person Authorized\nto Receive Notices and Communications on Behalf of Filing Persons)\nWith a copy to:\nRobert M.",
+      "method": "gliner",
+      "confidence": 0.4054218828678131,
+      "rank_score": 1.155421882867813,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        442,
+        451
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Iconix Acquisition LLC",
+      "passage": "Subject Company Information\u2014Name and\nAddress\n\u201d above.\nTender Offer and Merger\nThis Schedule 14D-9 relates to the tender offer by Iconix Acquisition LLC, a Delaware limited liability company (\u201c\nParent\n\u201d), and Iconix Merger Sub Inc., a Delaware corporation and wholly-owned subsidiary of Parent (\u201c\nPurchaser\n\u201d), to purchase all of the issued and outstanding Shares (other than Shares held in the Company\u2019s treasury or owned by any subsidiary of the Company, Parent, Purchaser or any other wholly-owned subsidiary of Parent, in each case, as of immediate",
+      "method": "gliner",
+      "confidence": 0.8119034171104431,
+      "rank_score": 1.1119034171104432,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2918,
+        2940
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Alliance Advisors, LLC",
+      "passage": "Summary Term Sheet.\u201d You should read this Offer to Purchase and the other documents to which\nthis Offer to Purchase refers carefully before deciding whether to tender your Shares.\nThe Information\nAgent for the Offer is:\nAlliance Advisors, LLC\n200 Broadacres Drive\nBloomfield, New Jersey 07003\nShareholders, Banks and Brokers\nCall Toll-Free: 833-501-4701\nE-Mail - ICON@allianceadvisors.com\nIMPORTANT\nIf you desire to tender all or any portion of\nyour Shares to Purchaser pursuant to the Offer, you must (a) follow the procedures described in\nSection 3\u2014\u201cProcedures for\nAccepting the Offer and Tendering Shares\u201d\nbelow or (b)\u00a0if your Shares are h",
+      "method": "gliner",
+      "confidence": 0.7503668665885925,
+      "rank_score": 1.1003668665885926,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        220,
+        242
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Iconix Merger Sub Inc.",
+      "passage": "Subject Company Information\u2014Name and\nAddress\n\u201d above.\nTender Offer and Merger\nThis Schedule 14D-9 relates to the tender offer by Iconix Acquisition LLC, a Delaware limited liability company (\u201c\nParent\n\u201d), and Iconix Merger Sub Inc., a Delaware corporation and wholly-owned subsidiary of Parent (\u201c\nPurchaser\n\u201d), to purchase all of the issued and outstanding Shares (other than Shares held in the Company\u2019s treasury or owned by any subsidiary of the Company, Parent, Purchaser or any other wholly-owned subsidiary of Parent, in each case, as of immediately prior to the commencement of the Offer) at an offer price per Share of $3.15",
+      "method": "gliner",
+      "confidence": 0.7988356351852417,
+      "rank_score": 1.0988356351852417,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2997,
+        3019
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Allianz Global Investors U.S. LLC",
+      "passage": "with the SEC on June 11, 2021\n).\n(d)(2)\nNondisclosure and Restrictive Covenant Agreement, dated December 15, 2020, by and between Lancer Capital, LLC and Iconix\nBrand Group, Inc.\n(d)(3)\nNote Purchase Agreement, dated June 11, 2021, by and between Iconix Acquisition LLC and Allianz Global Investors U.S. LLC.\n(d)(4)\nEquity Commitment Letter, dated June 11, 2021, by and between Lancer Capital, LLC and Iconix Acquisition LLC.\n(d)(5)\nLimited Guarantee, dated June 11, 2021, by Lancer Capital, LLC in favor of Iconix Brand Group, Inc.\n(d)(6)\nExclusivity Agreement, dated as of December 18, 2020, between Iconix Brand Group, Inc.",
+      "method": "gliner",
+      "confidence": 0.7984898090362549,
+      "rank_score": 1.098489809036255,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        12940,
+        12973
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and Purchaser",
+      "passage": "Parent and Purchaser have no knowledge that would indicate that\nany statements contained herein relating to Iconix provided to Parent and Purchaser or taken from or based upon such documents and records\nfiled with the SEC are untrue or incomplete in any material respect.",
+      "method": "gliner",
+      "confidence": 0.9469085335731506,
+      "rank_score": 1.0969085335731508,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        5121,
+        5141
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.001",
+      "passage": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\u00a0TO\n(RULE 14d-100)\nTender Offer Statement under Section\u00a014(d)(1)\nor 13(e)(1)\nof the Securities Exchange Act of 1934\nIconix Brand Group, Inc.\n(Name of Subject Company)\nIconix Merger Sub Inc.\n(Offeror)\na wholly-owned subsidiary of\nIconix Acquisition LLC\n(Offeror)\n(Name of Filing Persons and Offerors)\nCOMMON STOCK, $0.001 PAR VALUE\n(Title of Class of Securities)\n451055305\n(Cusip Number of Class of Securities)\nIconix Acquisition LLC\nc/o Woods Oviatt Gilman LLP\n1900 Bausch & Lomb Place\nRochester, New York 14604\n(585) 987-2820\n(Name, Address and Telephone Number of Person Authorized\nto Receive Notices and Communications on Behalf of Filing Persons)\nWith a copy to:\nRobert M.",
+      "method": "gliner",
+      "confidence": 0.6448289155960083,
+      "rank_score": 1.0448289155960082,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        394,
+        400
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "commercial bank",
+      "passage": "Beneficial owners of Shares holding their Shares\nthrough nominees should be aware that their broker, dealer, commercial bank, trust company or other nominee may establish its own earlier\ndeadline for participation in the Offer.",
+      "method": "gliner",
+      "confidence": 0.8421218395233154,
+      "rank_score": 0.9921218395233155,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        923,
+        938
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Lancer Capital, LLC",
+      "passage": "suer Tender Offer)\n\u00a8\nRule 14d-1(d) (Cross-Border Third-Party Tender Offer)\nThis\nTender Offer Statement on Schedule TO (together with any amendments and supplements hereto, this \u201cSchedule TO\u201d) is being filed\nby (i)\u00a0Iconix Acquisition LLC, a Delaware limited liability company (\u201cParent\u201d), (ii) Iconix Merger Sub Inc., a Delaware\ncorporation and a wholly owned subsidiary of Parent (\u201cPurchaser\u201d), (iii)\u00a0Lancer Capital, LLC, a Delaware limited liability\ncompany (\u201cLancer\u201d), (iv) Avram Glazer Irrevocable Exempt Trust (the \u201cTrust\u201d) and (v) Avram Glazer.",
+      "method": "gliner",
+      "confidence": 0.674487829208374,
+      "rank_score": 0.9744878292083741,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3296,
+        3315
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Iconix",
+      "passage": "Parent and Purchaser have no knowledge that would indicate that\nany statements contained herein relating to Iconix provided to Parent and Purchaser or taken from or based upon such documents and records\nfiled with the SEC are untrue or incomplete in any material respect.",
+      "method": "gliner",
+      "confidence": 0.8948242664337158,
+      "rank_score": 0.9448242664337159,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        5229,
+        5235
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "org_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Holleder Capital LLC",
+      "passage": "and Holleder Capital LLC\n(d)(7)\nStandstill Agreement, dated as of May 19, 2021, between Lancer Capital LLC and Iconix Brand Group, Inc.\n(g)\nNot Applicable.\n(h)\nNot Applicable.",
+      "method": "gliner",
+      "confidence": 0.6215317249298096,
+      "rank_score": 0.9215317249298096,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        13297,
+        13317
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "ICONIX BRAND\nGROUP,\u00a0INC.",
+      "passage": "Exhibit\u00a0(a)(1)(B)-2\nLETTER OF TRANSMITTAL FOR UNEXCHANGED HOLDERS\nTo Tender Shares of Common Stock\nof\nICONIX BRAND\nGROUP,\u00a0INC.\nat\n$3.15 Per Share in Cash\nPursuant to the Offer to Purchase dated July\u00a02,\n2021\nby\nICONIX MERGER\nSUB INC.",
+      "method": "gliner",
+      "confidence": 0.600980281829834,
+      "rank_score": 0.900980281829834,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        102,
+        126
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa1b2.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Lancer Capital, LLC",
+      "passage": "LLC.\n(d)(4)\nEquity Commitment Letter, dated June 11, 2021, by and between Lancer Capital, LLC and Iconix Acquisition LLC.\n(d)(5)\nLimited Guarantee, dated June 11, 2021, by Lancer Capital, LLC in favor of Iconix Brand Group, Inc.\n(d)(6)\nExclusivity Agreement, dated as of December 18, 2020, between Iconix Brand Group, Inc.",
+      "method": "gliner",
+      "confidence": 0.4931384325027466,
+      "rank_score": 0.8931384325027466,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        13044,
+        13063
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Parent and Merger Sub",
+      "passage": "The Offer is described in a Tender Offer Statement on Schedule TO, dated July\u00a02, 2021 (together with the exhibits thereto, as it or they may be amended or supplemented from time to time, the \u201c\nSchedule TO\n\u201d), filed by Parent and Merger Sub with the U.S.",
+      "method": "gliner",
+      "confidence": 0.7912654876708984,
+      "rank_score": 0.8912654876708984,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4350,
+        4371
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Iconix",
+      "passage": "In those jurisdictions, if any, where applicable laws require\nthat the Offer be made by a licensed broker or dealer, the Offer will be deemed to be made on behalf of Purchaser by one or more registered\nbrokers or dealers licensed under the laws of such jurisdiction to be designated by Purchaser.\nOn March\u00a014, 2019,\u00a0Iconix\neffected a one-for-ten reverse stock split of its Shares.",
+      "method": "gliner",
+      "confidence": 0.8537958860397339,
+      "rank_score": 0.8537958860397339,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        3466,
+        3472
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa1b2.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "dealer",
+      "passage": "Beneficial owners of Shares holding their Shares\nthrough nominees should be aware that their broker, dealer, commercial bank, trust company or other nominee may establish its own earlier\ndeadline for participation in the Offer.",
+      "method": "gliner",
+      "confidence": 0.7771353721618652,
+      "rank_score": 0.8271353721618653,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        915,
+        921
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Iconix",
+      "passage": "The information concerning Iconix contained herein and elsewhere in this Offer to Purchase has been provided to Parent and Purchaser\nby Iconix or has been taken from or is based upon publicly available documents or records of Iconix on file with the SEC or other public\nsources at the time of the Offer (as defined in the \u201cIntroduction\u201d to this Offer to Purchase).",
+      "method": "gliner",
+      "confidence": 0.7624537944793701,
+      "rank_score": 0.8124537944793702,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        4679,
+        4685
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "ticker_symbol",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "cash",
+      "passage": "Federal Income Tax Consequences of the Offer\u201d ),\nyou generally will not be subject to United States federal income tax with respect to the exchange of Shares for cash pursuant to the\nOffer or the Merger unless you have certain connections to the United States.",
+      "method": "gliner",
+      "confidence": 0.46635380387306213,
+      "rank_score": 0.7963538038730622,
+      "doc_role": "otp",
+      "section": "What are the material United States federal\nincome tax consequences of the Offer?",
+      "faq_question": "What are the material United States federal\nincome tax consequences of the Offer?",
+      "char_span": [
+        503,
+        507
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ommercial banks",
+      "passage": "Brokers,\ndealers, commercial banks, trust companies or other nominees will, upon request, be reimbursed by Purchaser for customary mailing and\nhandling expenses incurred by them in forwarding the Offer materials to their customers.",
+      "method": "gliner",
+      "confidence": 0.6112099885940552,
+      "rank_score": 0.7612099885940552,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        2241,
+        2256
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number of Class of Securities",
+      "passage": "TABLE OF CONTENTS\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE 14D-9\n(Rule 14d-101)\nSolicitation/Recommendation Statement\nUnder Section 14(d)(4) of the Securities Exchange Act of 1934\nICONIX BRAND GROUP, INC.\n(Name of Subject Company)\nICONIX BRAND GROUP, INC.\n(Name of Persons Filing Statement)\nCommon Stock, par value $0.001 per share\n(Title of Class of Securities)\n451055AG2\n(CUSIP Number of Class of Securities)\nJohn McClain\nChief Financial Officer\nIconix Brand Group, Inc.",
+      "method": "gliner",
+      "confidence": 0.7230531573295593,
+      "rank_score": 0.7230531573295593,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        400,
+        435
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "broker",
+      "passage": "Beneficial owners of Shares holding their Shares\nthrough nominees should be aware that their broker, dealer, commercial bank, trust company or other nominee may establish its own earlier\ndeadline for participation in the Offer.",
+      "method": "gliner",
+      "confidence": 0.6634594798088074,
+      "rank_score": 0.7134594798088074,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        907,
+        913
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Delaware corporation",
+      "passage": "This Schedule TO relates to the tender offer for all of the issued and outstanding\nshares of common stock, par value $0.001 per share (\u201cShares\u201d), of Iconix Brand Group, Inc., a Delaware corporation (\u201cIconix\u201d),\nat a price of $3.15 per Share, net to the seller in cash without interest and less any applicable withholding taxes (the \u201cOffer\nPrice\u201d), upon the terms and conditions set forth in the offer to purchase, dated July 2, 2021 (together with any amendments or\nsupplements thereto, the \u201cOffer to Purchase\u201d), a copy of which is attached as Exhibit (a)(1)(A), and in the related letter\nof transm",
+      "method": "gliner",
+      "confidence": 0.4062187075614929,
+      "rank_score": 0.706218707561493,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3832,
+        3852
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Woods Oviatt Gilman LLP",
+      "passage": "(Offeror)\na wholly-owned subsidiary of\nIconix Acquisition LLC\n(Offeror)\n(Name of Filing Persons and Offerors)\nCOMMON STOCK, $0.001 PAR VALUE\n(Title of Class of Securities)\n451055305\n(Cusip Number of Class of Securities)\nIconix Acquisition LLC\nc/o Woods Oviatt Gilman LLP\n1900 Bausch & Lomb Place\nRochester, New York 14604\n(585) 987-2820\n(Name, Address and Telephone Number of Person Authorized\nto Receive Notices and Communications on Behalf of Filing Persons)\nWith a copy to:\nRobert M.",
+      "method": "gliner",
+      "confidence": 0.42214205861091614,
+      "rank_score": 0.6221420586109161,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        517,
+        540
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "issued and outstanding Shares",
+      "passage": "See\nSection 15\u2014\u201cConditions of the\nOffer.\u201d\nDo you have the financial\nresources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate the Merger\nand the other transactions contemplated by the Merger Agreement?\nWe estimate that we will\nneed up to approximately $220 million to purchase all of the issued and outstanding Shares in the Offer, to provide funding for the\nconsideration to be paid in the Merger, to refinance Iconix\u2019s existing indebtedness and to pay related fees and expenses at\nthe Closing (as defined below) of the Transactions (the \u201cRequired Amount\u201d). We have received debt commitments pursuant\nto which our lenders have agreed to provide us with a $160 million senior secured credit f",
+      "method": "gliner",
+      "confidence": 0.4733733832836151,
+      "rank_score": 0.5233733832836152,
+      "doc_role": "otp",
+      "section": "Summary Term Sheet.\u201d You should read thi",
+      "faq_question": null,
+      "char_span": [
+        11596,
+        11625
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa-1a.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "ticker_symbol",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "PAR VALUE",
+      "passage": "20549\nSCHEDULE\u00a0TO\n(RULE 14d-100)\nTender Offer Statement under Section\u00a014(d)(1)\nor 13(e)(1)\nof the Securities Exchange Act of 1934\nIconix Brand Group, Inc.\n(Name of Subject Company)\nIconix Merger Sub Inc.\n(Offeror)\na wholly-owned subsidiary of\nIconix Acquisition LLC\n(Offeror)\n(Name of Filing Persons and Offerors)\nCOMMON STOCK, $0.001 PAR VALUE\n(Title of Class of Securities)\n451055305\n(Cusip Number of Class of Securities)\nIconix Acquisition LLC\nc/o Woods Oviatt Gilman LLP\n1900 Bausch & Lomb Place\nRochester, New York 14604\n(585) 987-2820\n(Name, Address and Telephone Number of Person Authorized\nto Receive Notices and Communications on Behalf of Filing Persons)\nWith a copy to:\nRobert M.",
+      "method": "gliner",
+      "confidence": 0.5330260992050171,
+      "rank_score": 0.4830260992050171,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        401,
+        410
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offer_price_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Certificates",
+      "passage": "Those shareholders who surrendered their pre-split certificates for Shares (\u201cCertificates\u201d)\nto Iconix\u2019s transfer agent in connection with the reverse stock split were issued new Certificates representing the new Shares\ninto which the pre-split Shares were reclassified.",
+      "method": "gliner",
+      "confidence": 0.46289339661598206,
+      "rank_score": 0.46289339661598206,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        4105,
+        4117
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa1b2.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Purchaser",
+      "passage": "Upon the terms of and subject to the conditions to the Merger Agreement, Purchaser shall, and Parent shall cause Purchaser to, (i)\u00a0as soon as practicable (and in any event within two business days) after the Expiration Time (as defined below) accept for payment all Shares validly tendered pursuant to the Offer (the time of such acceptance, the \u201c\nOffer Acceptance Time\n\u201d), and (ii)\u00a0as soon as practicable after the Offer Acceptance Time (and in any event within three business days) pay for all such Shares.",
+      "method": "gliner",
+      "confidence": 0.9522886872291565,
+      "rank_score": 0.2022886872291565,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4894,
+        4903
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "As of June\u00a010, 2021, there were (1) 14,480,623 Shares issued and outstanding, and (2) 282,541 Shares underlying outstanding restricted stock units (231,160 of which were performance-based restricted stock units and 51,381 of which were time-based restricted stock units).\nItem 2.\nIdentity and Background of Filing Person.\nName and Address\nIconix, the subject company, is the person filing this Schedule 14D-9.",
+      "method": "gliner",
+      "confidence": 0.6874499320983887,
+      "rank_score": 0.13744993209838863,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2379,
+        2385
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "ticker_symbol",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "TABLE OF CONTENTS\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE 14D-9\n(Rule 14d-101)\nSolicitation/Recommendation Statement\nUnder Section 14(d)(4) of the Securities Exchange Act of 1934\nICONIX BRAND GROUP, INC.\n(Name of Subject Company)\nICONIX BRAND GROUP, INC.\n(Name of Persons Filing Statement)\nCommon Stock, par value $0.001 per share\n(Title of Class of Securities)\n451055AG2\n(CUSIP Number of Class of Securities)\nJohn McClain\nChief Financial Officer\nIconix Brand Group, Inc.",
+      "method": "gliner",
+      "confidence": 0.6348944306373596,
+      "rank_score": 0.08489443063735957,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        317,
+        329
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "COMMON STOCK",
+      "passage": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\u00a0TO\n(RULE 14d-100)\nTender Offer Statement under Section\u00a014(d)(1)\nor 13(e)(1)\nof the Securities Exchange Act of 1934\nIconix Brand Group, Inc.\n(Name of Subject Company)\nIconix Merger Sub Inc.\n(Offeror)\na wholly-owned subsidiary of\nIconix Acquisition LLC\n(Offeror)\n(Name of Filing Persons and Offerors)\nCOMMON STOCK, $0.001 PAR VALUE\n(Title of Class of Securities)\n451055305\n(Cusip Number of Class of Securities)\nIconix Acquisition LLC\nc/o Woods Oviatt Gilman LLP\n1900 Bausch & Lomb Place\nRochester, New York 14604\n(585) 987-2820\n(Name, Address and Telephone Number of Person Authorized\nto Receive Notices and Communications on Behalf of Filing Persons)\nWith a copy to:\nRobert M.",
+      "method": "gliner",
+      "confidence": 0.6391234993934631,
+      "rank_score": -0.11087650060653692,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        380,
+        392
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Offer\nPrice",
+      "passage": "This Schedule TO relates to the tender offer for all of the issued and outstanding\nshares of common stock, par value $0.001 per share (\u201cShares\u201d), of Iconix Brand Group, Inc., a Delaware corporation (\u201cIconix\u201d),\nat a price of $3.15 per Share, net to the seller in cash without interest and less any applicable withholding taxes (the \u201cOffer\nPrice\u201d), upon the terms and conditions set forth in the offer to purchase, dated July 2, 2021 (together with any amendments or\nsupplements thereto, the \u201cOffer to Purchase\u201d), a copy of which is attached as Exhibit (a)(1)(A), and in the related letter\nof transmittal (together with any amendments or supplements thereto, the \u201cLetter of Transmittal\u201d and, together with the Offer\nto Purchase, the \u201cOffer\u201d), a",
+      "method": "gliner",
+      "confidence": 0.4121638834476471,
+      "rank_score": -0.18783611655235294,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3987,
+        3998
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_sctot.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "Stockholders submitting Certificates representing Shares\nto be tendered must deliver such Certificates together with this Letter of Transmittal and any other required documents by mail or overnight\ncourier.",
+      "method": "gliner",
+      "confidence": 0.7370835542678833,
+      "rank_score": -0.21291644573211677,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        79213,
+        79219
+      ],
+      "source_hit_id": "0001104659-21-088757:tm2121070d1_exa1b2.htm",
+      "source_accession": "0001104659-21-088757",
+      "label": "security_name",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share",
+      "passage": "The telephone number of Iconix\u2019s principal executive office is (212) 730-0030.\nSecurities\nThe title of the class of equity securities to which this Solicitation/Recommendation Statement on Schedule\u00a014D-9 (together with any exhibits and annexes attached hereto, this \u201c\nSchedule 14D-9\n\u201d) relates is Iconix\u2019s common stock, par value $0.001 per share (each such share, a \u201c\nShare\n,\u201d and, collectively, the \u201c\nShares\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.5522226691246033,
+      "rank_score": -0.3977773308753968,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2240,
+        2245
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent",
+      "passage": "Upon the terms of and subject to the conditions to the Merger Agreement, Purchaser shall, and Parent shall cause Purchaser to, (i)\u00a0as soon as practicable (and in any event within two business days) after the Expiration Time (as defined below) accept for payment all Shares validly tendered pursuant to the Offer (the time of such acceptance, the \u201c\nOffer Acceptance Time\n\u201d), and (ii)\u00a0as soon as practicable after the Offer Acceptance Time (and in any event within three business days) pay for all such",
+      "method": "gliner",
+      "confidence": 0.870485782623291,
+      "rank_score": -0.42951421737670903,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        4875,
+        4881
+      ],
+      "source_hit_id": "0001140361-21-023317:nt10026447x1_14d9.htm",
+      "source_accession": "0001140361-21-023317",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.832897+00:00"
+}

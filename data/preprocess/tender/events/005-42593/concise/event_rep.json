@@ -1,0 +1,2751 @@
+{
+  "schema_version": "1",
+  "event_id": "005-42593",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "9259e11534782b3039eb3e8d2f615986777fc0cd",
+      "hit_id": "0001193125-20-320705:d44934dsctot.htm",
+      "accession": "0001193125-20-320705",
+      "filename": "d44934dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "4fc400971665ed8848217ea2f7efb988321d7920",
+      "hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "accession": "0001193125-20-320705",
+      "filename": "d44934dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "b8cc61a4e1f8fec886d23e778657a22014279de6",
+      "hit_id": "0001193125-20-320705:d44934dex99a1b.htm",
+      "accession": "0001193125-20-320705",
+      "filename": "d44934dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "446cc50e451bf5c691d58c01bf07c3294e75f984",
+      "hit_id": "0001437749-20-025596:seah20201215_sc14d9.htm",
+      "accession": "0001437749-20-025596",
+      "filename": "seah20201215_sc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "January\u00a020, 2021",
+      "score": 0.957709789276123,
+      "rank_score": 1.737709789276123,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "How long do I have to decide whether to tender in\nthe Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "April\u00a05, 2021",
+      "score": 0.9413890838623047,
+      "rank_score": 1.7213890838623047,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Can the Offer be extended, and under what circumstances?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "December\u00a04, 2020",
+      "score": 0.9308790564537048,
+      "rank_score": 1.7108790564537049,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "December\u00a017, 2020",
+      "score": 0.9195759296417236,
+      "rank_score": 1.6995759296417237,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "February\u00a016, 2021",
+      "score": 0.9125367403030396,
+      "rank_score": 1.6925367403030396,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "December\u00a018, 2020",
+      "score": 0.9057467579841614,
+      "rank_score": 1.6857467579841614,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "What does SEACOR\u2019s board of directors think of the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$41.50",
+      "score": 0.8226936459541321,
+      "rank_score": 1.602693645954132,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:19",
+      "faq_question": "If I accept\nthe Offer, when and how will I get paid?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$41.56",
+      "score": 0.8142499327659607,
+      "rank_score": 1.5942499327659607,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$565\u00a0million",
+      "score": 0.8079755902290344,
+      "rank_score": 1.5879755902290345,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$36.29",
+      "score": 0.8073764443397522,
+      "rank_score": 1.5873764443397522,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$31.69",
+      "score": 0.8023452758789062,
+      "rank_score": 1.5823452758789063,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$1.06 billion",
+      "score": 0.7740374207496643,
+      "rank_score": 1.5540374207496643,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "up to $100\u00a0million",
+      "score": 0.7350890636444092,
+      "rank_score": 1.5150890636444092,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$580\u00a0million",
+      "score": 0.7175757884979248,
+      "rank_score": 1.4975757884979248,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.01",
+      "score": 0.7031072974205017,
+      "rank_score": 1.4831072974205017,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "cusip_code",
+      "text": "811904101",
+      "score": 0.8939403295516968,
+      "rank_score": 1.3939403295516968,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "up to $565\u00a0million",
+      "score": 0.5994582772254944,
+      "rank_score": 1.3794582772254944,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "February\u00a016, 2021",
+      "score": 0.6086018085479736,
+      "rank_score": 1.3386018085479736,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$395.60\u00a0million",
+      "score": 0.640256941318512,
+      "rank_score": 1.2902569413185119,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "CKH",
+      "score": 0.8962094187736511,
+      "rank_score": 1.2462094187736512,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_9",
+      "faq_question": null,
+      "section": "6.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$40",
+      "score": 0.5795390009880066,
+      "rank_score": 1.2295390009880065,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "SEACOR Holdings Inc.",
+      "score": 0.7948065996170044,
+      "rank_score": 1.1948065996170045,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "target_organization",
+      "text": "target corporation",
+      "score": 0.8907368779182434,
+      "rank_score": 1.1907368779182435,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "The American Original Corporation",
+      "score": 0.8794728517532349,
+      "rank_score": 1.179472851753235,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_21",
+      "faq_question": null,
+      "section": "SCHEDULE A",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "org_name",
+      "text": "American Stock Transfer\u00a0& Trust Co., LLC",
+      "score": 0.8147183060646057,
+      "rank_score": 1.1647183060646058,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "AIPCF VII, LLC",
+      "score": 0.7390894889831543,
+      "rank_score": 1.1390894889831544,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "org_name",
+      "text": "D.F. King\u00a0& Co., Inc.",
+      "score": 0.782981276512146,
+      "rank_score": 1.132981276512146,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "With whom may I talk if I have questions about the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Safari Merger Subsidiary, Inc.",
+      "score": 0.7768742442131042,
+      "rank_score": 1.1268742442131043,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "American Stock Transfer\u00a0& Trust Co., LLC",
+      "score": 0.8266057372093201,
+      "rank_score": 1.1266057372093201,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Parent, Inc.",
+      "score": 0.7260144948959351,
+      "rank_score": 1.1260144948959352,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "AMERICAN INDUSTRIAL PARTNERS CAPITAL FUND VII, L.P.",
+      "score": 0.7158557772636414,
+      "rank_score": 1.1158557772636415,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Safari Parent, Inc.",
+      "score": 0.7332800626754761,
+      "rank_score": 1.0832800626754762,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Chilton Investment Company",
+      "score": 0.7714430093765259,
+      "rank_score": 1.071443009376526,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_21",
+      "faq_question": null,
+      "section": "SCHEDULE A",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Safari Merger Subsidiary, Inc.",
+      "score": 0.7660472393035889,
+      "rank_score": 1.066047239303589,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "9:00 a.m.",
+      "score": 0.7334899306297302,
+      "rank_score": 1.0634899306297303,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "SAFARI PARENT, INC.",
+      "score": 0.65855473279953,
+      "rank_score": 1.0585547327995302,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "D.F. King\u00a0& Co., In.",
+      "score": 0.6852902173995972,
+      "rank_score": 1.0352902173995973,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Surviving Corporation",
+      "score": 0.6731643676757812,
+      "rank_score": 1.0231643676757813,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:16",
+      "faq_question": "If the Offer is completed, will SEACOR continue as a public company?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "SEACOR Holdings Inc.",
+      "score": 0.6672664284706116,
+      "rank_score": 1.0172664284706117,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and Purchaser",
+      "score": 0.88382488489151,
+      "rank_score": 0.98382488489151,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "D.F. King\u00a0& Co.",
+      "score": 0.5827234983444214,
+      "rank_score": 0.9327234983444215,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "effective time of the Merger",
+      "score": 0.6016494631767273,
+      "rank_score": 0.9316494631767274,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "Will the Offer be followed by a merger if all the Shares are not tendered?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "SEACOR",
+      "score": 0.8799816370010376,
+      "rank_score": 0.9299816370010376,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:3",
+      "faq_question": "Why is Purchaser making the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent or Purchaser",
+      "score": 0.8210365176200867,
+      "rank_score": 0.9210365176200866,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "SEACOR",
+      "score": 0.8665255904197693,
+      "rank_score": 0.9165255904197693,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Is there an agreement governing the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Purchaser and Parent",
+      "score": 0.8130984902381897,
+      "rank_score": 0.9130984902381897,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_21",
+      "faq_question": null,
+      "section": "SCHEDULE A",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "acquiring corporation",
+      "score": 0.6099253296852112,
+      "rank_score": 0.9099253296852112,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "expiration of the Offer",
+      "score": 0.5677204132080078,
+      "rank_score": 0.8977204132080079,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How do I tender my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Apollo\nGlobal Management",
+      "score": 0.7912846803665161,
+      "rank_score": 0.8912846803665161,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_21",
+      "faq_question": null,
+      "section": "SCHEDULE A",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "American Industrial Partners",
+      "score": 0.7801731824874878,
+      "rank_score": 0.8801731824874878,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_21",
+      "faq_question": null,
+      "section": "SCHEDULE A",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "11:59 p.m.",
+      "score": 0.6556599736213684,
+      "rank_score": 0.8556599736213684,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "available_option",
+      "text": "stock options",
+      "score": 0.836328387260437,
+      "rank_score": 0.836328387260437,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "SEACOR Holdings Inc.",
+      "score": 0.6004683971405029,
+      "rank_score": 0.8004683971405029,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "Company Option",
+      "score": 0.7336806654930115,
+      "rank_score": 0.7836806654930115,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:20",
+      "faq_question": "If I am an employee of SEACOR, how will my outstanding equity awards be treated in the Offer and the\nMerger?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "available_option",
+      "text": "options",
+      "score": 0.7300177812576294,
+      "rank_score": 0.7800177812576294,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S. dollars",
+      "score": 0.7767094969749451,
+      "rank_score": 0.7767094969749451,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "calendar_date",
+      "text": "next business day",
+      "score": 0.42917314171791077,
+      "rank_score": 0.7591731417179108,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "11:59 p.m.",
+      "score": 0.43102067708969116,
+      "rank_score": 0.7110206770896912,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "one minute after 11:59 p.m.",
+      "score": 0.48622822761535645,
+      "rank_score": 0.6862282276153564,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "iod",
+      "score": 0.6497048735618591,
+      "rank_score": 0.6497048735618591,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "currency_code",
+      "text": "United States dollars",
+      "score": 0.8820725679397583,
+      "rank_score": 0.6320725679397583,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "SEACOR",
+      "score": 0.5627286434173584,
+      "rank_score": 0.6127286434173584,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "Will the Offer be followed by a merger if all the Shares are not tendered?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "dollars",
+      "score": 0.538695216178894,
+      "rank_score": 0.5886952161788941,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "With whom may I talk if I have questions about the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "certain\ncustomary conditions",
+      "score": 0.5001165866851807,
+      "rank_score": 0.5501165866851807,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "SEACOR",
+      "score": 0.5296326279640198,
+      "rank_score": 0.5296326279640198,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_20",
+      "faq_question": null,
+      "section": "17.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash",
+      "score": 0.5223684310913086,
+      "rank_score": 0.5223684310913086,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares in the Offer",
+      "score": 0.49828311800956726,
+      "rank_score": 0.49828311800956726,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "isin_code",
+      "text": "ion",
+      "score": 0.48396679759025574,
+      "rank_score": 0.48396679759025574,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_6",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares of SEACOR",
+      "score": 0.4585569500923157,
+      "rank_score": 0.4585569500923157,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Tender Condition",
+      "score": 0.95588219165802,
+      "rank_score": 0.45588219165801996,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:4",
+      "faq_question": "What are the most significant conditions of the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.7549159526824951,
+      "rank_score": 0.4549159526824951,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S. dollar",
+      "score": 0.4511631429195404,
+      "rank_score": 0.4511631429195404,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number of Class of Securities",
+      "score": 0.43762853741645813,
+      "rank_score": 0.43762853741645813,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9365817904472351,
+      "rank_score": 0.43658179044723505,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "proration_terms",
+      "text": "Terms of the Offer",
+      "score": 0.4100634753704071,
+      "rank_score": 0.4100634753704071,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_4",
+      "faq_question": null,
+      "section": "1.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "margin securities",
+      "score": 0.40349647402763367,
+      "rank_score": 0.40349647402763367,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_10",
+      "faq_question": null,
+      "section": "7.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "proration_terms",
+      "text": "terms of the\nMerger Agreement",
+      "score": 0.4015650153160095,
+      "rank_score": 0.4015650153160095,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_4",
+      "faq_question": null,
+      "section": "1.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9359944462776184,
+      "rank_score": 0.38599444627761836,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Common Stock",
+      "score": 0.5969748497009277,
+      "rank_score": 0.24697484970092765,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Termination\nCondition",
+      "score": 0.7785356640815735,
+      "rank_score": 0.22853566408157344,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "HSR Condition",
+      "score": 0.6963058114051819,
+      "rank_score": 0.14630581140518184,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Offer Acceptance Time",
+      "score": 0.6614875793457031,
+      "rank_score": 0.11148757934570308,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "target_organization",
+      "text": "U.S.",
+      "score": 0.5323273539543152,
+      "rank_score": -0.06767264604568485,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What are the principal U.S. federal income tax consequences of tendering my Shares in the Offer or having my Shares exchanged for\ncash pursuant to the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Governmental Impediment Condition",
+      "score": 0.4778454899787903,
+      "rank_score": -0.07215451002120976,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "Rand",
+      "score": 0.4533084034919739,
+      "rank_score": -0.19669159650802615,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "target_organization",
+      "text": "Depository",
+      "score": 0.6687145233154297,
+      "rank_score": -0.2312854766845704,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "How do I tender my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "stock",
+      "score": 0.4215105473995209,
+      "rank_score": -0.3284894526004791,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_17",
+      "faq_question": null,
+      "section": "14.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "DTC",
+      "score": 0.5800846815109253,
+      "rank_score": -0.3699153184890748,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_6",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.8852038979530334,
+      "rank_score": -0.4147961020469666,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc44934_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "Parent",
+      "score": 0.5191006064414978,
+      "rank_score": -0.7308993935585022,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a020, 2021",
+      "passage": "\u2022 You will have until one minute after 11:59 p.m., Eastern Time, on January\u00a020, 2021, to tender your Shares in\nthe Offer, unless Purchaser extends the Offer, in which event you will have until the expiration date of the Offer as so extended.",
+      "method": "gliner",
+      "confidence": 0.957709789276123,
+      "rank_score": 1.737709789276123,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender in\nthe Offer?",
+      "faq_question": "How long do I have to decide whether to tender in\nthe Offer?",
+      "char_span": [
+        68,
+        84
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "April\u00a05, 2021",
+      "passage": "ion\u00a013\u2014\u201cConditions of the Offer\u201d) have not been satisfied or waived by Parent or Purchaser, Purchaser has agreed to, and Parent has agreed to cause Purchaser\nto, extend the Offer for additional periods of up to ten business days per extension to permit such condition to the Offer to be satisfied, until the earlier of (i)\u00a0the termination of the Merger Agreement in accordance with its terms or\n(ii)\u00a0April\u00a05, 2021 (the \u201cEnd Date\u201d).",
+      "method": "gliner",
+      "confidence": 0.9413890838623047,
+      "rank_score": 1.7213890838623047,
+      "doc_role": "otp",
+      "section": "Can the Offer be extended, and under what circumstances?",
+      "faq_question": "Can the Offer be extended, and under what circumstances?",
+      "char_span": [
+        584,
+        597
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a04, 2020",
+      "passage": "\u2022 The volume weighted average price per Share for the 90 days prior to December\u00a04, 2020 was $31.69. The Offer\nPrice represents an approximately 31% premium over the volume weighted average price for the 90 days prior to December\u00a04, 2020. See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d\n\u2022 On December\u00a04, 2020, the last full trading day before we announced our intention to make an Offer for all of\nthe outstanding Shares, the last reported closing price per Share reported on the NYSE was $36.29.",
+      "method": "gliner",
+      "confidence": 0.9308790564537048,
+      "rank_score": 1.7108790564537049,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        293,
+        309
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a017, 2020",
+      "passage": "See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d\n\u2022 On December\u00a017, 2020, the last full trading day before we commenced the Offer, the last reported closing\nprice per Share reported on the NYSE was $41.56. See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.9195759296417236,
+      "rank_score": 1.6995759296417237,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        553,
+        570
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a016, 2021",
+      "passage": "\u2022 You may withdraw previously tendered Shares any time prior to one minute after 11:59 p.m., Eastern Time, on\nJanuary\u00a020, 2021, unless Purchaser extends the Offer. See Section\u00a04\u2014\u201cWithdrawal Rights.\u201d In addition, pursuant to Section\u00a014(d)(5) of the Securities Exchange Act of 1934, as amended, Shares may be withdrawn at any time\nafter February\u00a016, 2021, which is the 60th day after the date of the commencement of the Offer, unless prior to that date Purchaser has accepted for payment the Shares validly tendered in the Offer. See Section\u00a04\u2014\u201cWithdrawal\nRights.\u201d",
+      "method": "gliner",
+      "confidence": 0.9125367403030396,
+      "rank_score": 1.6925367403030396,
+      "doc_role": "otp",
+      "section": "Until what time can I withdraw previously tendered Shares?",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "char_span": [
+        335,
+        352
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a018, 2020",
+      "passage": "\u2022 SEACOR\u2019s board of directors has recommended that you accept the Offer. SEACOR\u2019s full statement on the\nOffer is set forth in its Schedule 14D-9, which it has filed with the SEC concurrently with the filing of our Schedule TO dated December\u00a018, 2020. See also the Introduction.",
+      "method": "gliner",
+      "confidence": 0.9057467579841614,
+      "rank_score": 1.6857467579841614,
+      "doc_role": "otp",
+      "section": "What does SEACOR\u2019s board of directors think of the Offer?",
+      "faq_question": "What does SEACOR\u2019s board of directors think of the Offer?",
+      "char_span": [
+        232,
+        249
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$41.50",
+      "passage": "\u2022 If the conditions to the Offer as set forth in the Introduction and Section\u00a013\u2014\u201cConditions of the\nOffer\u201d are satisfied or waived and Purchaser consummates the Offer and accepts your Shares for payment, we will pay you a dollar amount equal to the number of Shares you tendered multiplied by $41.50 in cash, without interest, and subject to\nany withholding of taxes, promptly following the time at which Purchaser accepts for payment Shares tendered in the Offer (and in any event within three business days). See Section\u00a01\u2014\u201cTerms of the Offer\u201d and\nSection\u00a02\u2014\u201cAcceptance for Payment and Payment for Shares.\u201d\n6",
+      "method": "gliner",
+      "confidence": 0.8226936459541321,
+      "rank_score": 1.602693645954132,
+      "doc_role": "otp",
+      "section": "If I accept\nthe Offer, when and how will I get paid?",
+      "faq_question": "If I accept\nthe Offer, when and how will I get paid?",
+      "char_span": [
+        293,
+        299
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$41.56",
+      "passage": "See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d\n\u2022 On December\u00a017, 2020, the last full trading day before we commenced the Offer, the last reported closing\nprice per Share reported on the NYSE was $41.56. See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.8142499327659607,
+      "rank_score": 1.5942499327659607,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        696,
+        702
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$565\u00a0million",
+      "passage": "\u2022 Pursuant to a debt commitment letter (the \u201cDebt Commitment Letter\u201d) from Ally Bank and HPS Investment\nPartners, LLC (the \u201cLenders\u201d), the Lenders have committed to (i)\u00a0provide to Parent substantially concurrently with the Effective Time senior secured term loans in an aggregate principal amount of up to $565\u00a0million (the\n\u201cTerm Loan Facility\u201d) and (ii)\u00a0to make available to Parent senior secured revolving commitments in an aggregate principal amount of up to $100\u00a0million (the \u201cABL Facility\u201d), in each case, on the terms and subject to the\nconditions set forth in the Debt Commitment Letter.",
+      "method": "gliner",
+      "confidence": 0.8079755902290344,
+      "rank_score": 1.5879755902290345,
+      "doc_role": "otp",
+      "section": "Do you have financial resources to make payments in the Offer?",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "char_span": [
+        1203,
+        1215
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$36.29",
+      "passage": "See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d\n\u2022 On December\u00a04, 2020, the last full trading day before we announced our intention to make an Offer for all of\nthe outstanding Shares, the last reported closing price per Share reported on the NYSE was $36.29. See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d\n\u2022 On December\u00a017, 2020, the last full trading day before we commenced the Offer, the last reported closing\nprice per Share reported on the NYSE was $41.56. See Section\u00a06\u2014\u201cPrice Range of Shares; Dividends.\u201d",
+      "method": "gliner",
+      "confidence": 0.8073764443397522,
+      "rank_score": 1.5873764443397522,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        490,
+        496
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$31.69",
+      "passage": "\u2022 The volume weighted average price per Share for the 90 days prior to December\u00a04, 2020 was $31.69.",
+      "method": "gliner",
+      "confidence": 0.8023452758789062,
+      "rank_score": 1.5823452758789063,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        92,
+        98
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.06 billion",
+      "passage": "\u2022 Yes. Parent and Purchaser estimate that the total amount of funds required to consummate the Merger (including\npayments for options, restricted shares and other payments referred to in the Merger Agreement) pursuant to the Merger Agreement and to purchase all of the Shares pursuant to the Offer and the Merger Agreement will be approximately $1.06 billion.\nPurchaser and Parent expect to fund such cash requirements with committed equity and debt financing, as further described below.\n\u2022 Parent and Purchaser are each affiliated with AIP Fund VII.",
+      "method": "gliner",
+      "confidence": 0.7740374207496643,
+      "rank_score": 1.5540374207496643,
+      "doc_role": "otp",
+      "section": "Do you have financial resources to make payments in the Offer?",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "char_span": [
+        345,
+        358
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "up to $100\u00a0million",
+      "passage": "ment Letter\u201d) from Ally Bank and HPS Investment\nPartners, LLC (the \u201cLenders\u201d), the Lenders have committed to (i)\u00a0provide to Parent substantially concurrently with the Effective Time senior secured term loans in an aggregate principal amount of up to $565\u00a0million (the\n\u201cTerm Loan Facility\u201d) and (ii)\u00a0to make available to Parent senior secured revolving commitments in an aggregate principal amount of up to $100\u00a0million (the \u201cABL Facility\u201d), in each case, on the terms and subject to the\nconditions set forth in the Debt Commitment Letter.",
+      "method": "gliner",
+      "confidence": 0.7350890636444092,
+      "rank_score": 1.5150890636444092,
+      "doc_role": "otp",
+      "section": "Do you have financial resources to make payments in the Offer?",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "char_span": [
+        1353,
+        1371
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$580\u00a0million",
+      "passage": "AIP Fund VII has provided Parent with an equity\ncommitment letter (the \u201cEquity Commitment Letter\u201d) pursuant to which AIP Fund VII has agreed to contribute to Parent up to $580\u00a0million to purchase equity securities of Parent or its affiliates, subject to the satisfaction of certain\ncustomary conditions set forth in the Equity Commitment Letter.",
+      "method": "gliner",
+      "confidence": 0.7175757884979248,
+      "rank_score": 1.4975757884979248,
+      "doc_role": "otp",
+      "section": "Do you have financial resources to make payments in the Offer?",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "char_span": [
+        722,
+        734
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "Securities Sought\nSubject to certain conditions, including the satisfaction of the Minimum Tender Condition (as defined below), all issued and outstanding shares of common stock, par value $0.01 per share of SEACOR.",
+      "method": "gliner",
+      "confidence": 0.7031072974205017,
+      "rank_score": 1.4831072974205017,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2134,
+        2139
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "money_amount",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "811904101",
+      "passage": "20549\n_____________________\nSCHEDULE 14D-9\n(Rule 14d-101)\nSOLICITATION/RECOMMENDATION STATEMENT\nUNDER SECTION 14(d)(4) OF THE SECURITIES EXCHANGE ACT OF 1934\n_____________________\nSEACOR Holdings Inc.\n(Name of Subject Company)\n_____________________\nSEACOR Holdings Inc.\n(Name of Person Filing Statement)\n_____________________\nCOMMON STOCK, PAR VALUE $0.01 PER SHARE\n(Title of Class of Securities)\n811904101\n(CUSIP Number of Class of Securities)\nWilliam C.",
+      "method": "gliner",
+      "confidence": 0.8939403295516968,
+      "rank_score": 1.3939403295516968,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        487,
+        496
+      ],
+      "source_hit_id": "0001437749-20-025596:seah20201215_sc14d9.htm",
+      "source_accession": "0001437749-20-025596",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "up to $565\u00a0million",
+      "passage": "\u2022 Pursuant to a debt commitment letter (the \u201cDebt Commitment Letter\u201d) from Ally Bank and HPS Investment\nPartners, LLC (the \u201cLenders\u201d), the Lenders have committed to (i)\u00a0provide to Parent substantially concurrently with the Effective Time senior secured term loans in an aggregate principal amount of up to $565\u00a0million (the\n\u201cTerm Loan Facility\u201d) and (ii)\u00a0to make available to Parent senior secured revolving commitments in an aggregate principal amount of up to $100\u00a0million (the \u201cABL Facility\u201d), in each case, on the terms and subject to the\nconditions set forth in the Debt Commitment Letter.",
+      "method": "gliner",
+      "confidence": 0.5994582772254944,
+      "rank_score": 1.3794582772254944,
+      "doc_role": "otp",
+      "section": "Do you have financial resources to make payments in the Offer?",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "char_span": [
+        1197,
+        1215
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "February\u00a016, 2021",
+      "passage": "\u2022 You may withdraw previously tendered Shares any time prior to one minute after 11:59 p.m., Eastern Time, on\nJanuary\u00a020, 2021, unless Purchaser extends the Offer. See Section\u00a04\u2014\u201cWithdrawal Rights.\u201d In addition, pursuant to Section\u00a014(d)(5) of the Securities Exchange Act of 1934, as amended, Shares may be withdrawn at any time\nafter February\u00a016, 2021, which is the 60th day after the date of the commencement of the Offer, unless prior to that date Purchaser has accepted for payment the Shares validly tendered in the Offer. See Section\u00a04\u2014\u201cWithdrawal\nRights.\u201d",
+      "method": "gliner",
+      "confidence": 0.6086018085479736,
+      "rank_score": 1.3386018085479736,
+      "doc_role": "otp",
+      "section": "Until what time can I withdraw previously tendered Shares?",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "char_span": [
+        335,
+        352
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$395.60\u00a0million",
+      "passage": "December\u00a04, 2020, Parent entered into a commitment letter (the \u201cDebt Commitment Letter\u201d) with Ally Bank and HPS Investment Partners, LLC (the\n\u201cLenders\u201d) pursuant to which the Lenders have committed to provide (i)\u00a0up to $100\u00a0million in commitments under a senior secured asset-based revolving credit facility (the \u201cABL Facility\u201d) and (ii) a term loan facility\n(the \u201cTerm Loan Facility\u201d), comprising a $395.60\u00a0million closing date term loan facility and a $169.40\u00a0million delayed draw facility.",
+      "method": "gliner",
+      "confidence": 0.640256941318512,
+      "rank_score": 1.2902569413185119,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        1154,
+        1169
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offer_price_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "CKH",
+      "passage": "6.\nPrice Range of Shares; Dividends.\nAccording to SEACOR\u2019s Annual Report on Form\n10-K\nfor the fiscal year ended December\u00a031, 2019, the Shares are\ntraded on the NYSE under the symbol \u201cCKH.\u201d SEACOR has advised Parent that, as of the close of business\n19\nTable of Contents\non December\u00a017, 2020, 20,372,799 Shares were outstanding.",
+      "method": "gliner",
+      "confidence": 0.8962094187736511,
+      "rank_score": 1.2462094187736512,
+      "doc_role": "otp",
+      "section": "6.",
+      "faq_question": null,
+      "char_span": [
+        183,
+        186
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$40",
+      "passage": "The parties did not discuss the terms of any potential transaction at this telephonic meeting.\nOn September 14, 2020, AIP submitted a letter indicating interest in a potential transaction in which AIP would acquire SEACOR through either (i) a standalone\nacquisition of SEACOR, which would be a full take-private transaction, with a purchase price of $40 per Share in cash; or (ii) a merger between AIP\u2019s Jones Act marine services portfolio company Rand Logistics (\u201cRand\u201d) and SEACOR, with\nboth cash and equity proceeds, with a purchase price of $40 per Share in cash.",
+      "method": "gliner",
+      "confidence": 0.5795390009880066,
+      "rank_score": 1.2295390009880065,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        3204,
+        3207
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offer_price_amount",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "SEACOR Holdings Inc.",
+      "passage": "(a)\u00a0\u00a0\u00a0\u00a0The subject company and the issuer of the securities subject to the Offer is SEACOR Holdings Inc. Its principal\nexecutive office is located at 2200 Eller Drive, Fort Lauderdale, FL 33316, and its telephone number is (954)\n523-2200.\n(b)\u00a0\u00a0\u00a0\u00a0This Schedule TO relates to Shares.",
+      "method": "gliner",
+      "confidence": 0.7948065996170044,
+      "rank_score": 1.1948065996170045,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4628,
+        4648
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dsctot.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "target",
+      "raw": "target corporation",
+      "passage": "ng corporation owns at least the amount of shares of each class of stock of the target corporation that would otherwise be required to adopt a merger agreement for the target corporation, and the other\nstockholders receive the same consideration for their stock in the merger as was payable in the tender offer, the acquiring corporation can effect a merger without a vote of the stockholders of the target corporation.",
+      "method": "gliner",
+      "confidence": 0.8907368779182434,
+      "rank_score": 1.1907368779182435,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        1367,
+        1385
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "The American Original Corporation",
+      "passage": "Prior to that, he served as\nChief Operating Officer of The American Original Corporation where he was employed from 1985 through 1991.",
+      "method": "gliner",
+      "confidence": 0.8794728517532349,
+      "rank_score": 1.179472851753235,
+      "doc_role": "otp",
+      "section": "SCHEDULE A",
+      "faq_question": null,
+      "char_span": [
+        4400,
+        4433
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "American Stock Transfer\u00a0& Trust Co., LLC",
+      "passage": "\u2022 If Purchaser extends the Offer, we will inform American Stock Transfer\u00a0& Trust Co., LLC, the depository\nfor this Offer (the \u201cDepository\u201d), of that fact and will issue a press release giving the new expiration date no later than 9:00 a.m., Eastern Time on the next business day after the day on which the Offer was previously scheduled to\nexpire. See Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.8147183060646057,
+      "rank_score": 1.1647183060646058,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        49,
+        89
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AIPCF VII, LLC",
+      "passage": "By: AIPCF VII, LLC, its general partner\nBy:\n/s/ STANLEY EDME\nName:\u00a0Stanley Edme\nTitle:\u00a0\u00a0\u00a0Managing Member\n5\nTable of Contents\nITEM\u00a01.\u2003\u2002SUMMARY TERM SHEET.",
+      "method": "gliner",
+      "confidence": 0.7390894889831543,
+      "rank_score": 1.1390894889831544,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        11221,
+        11235
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dsctot.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "D.F. King\u00a0& Co., Inc.",
+      "passage": "\u2022 You can call D.F. King\u00a0& Co., Inc., the Information Agent, toll-free at (212) 269-5550 or (866) 745-0267. See the back cover of this Offer to Purchase.\nExcept as otherwise set forth in this Offer to Purchase, references to \u201cdollars\u201d and \u201c$\u201d shall be to United States dollars.\n8",
+      "method": "gliner",
+      "confidence": 0.782981276512146,
+      "rank_score": 1.132981276512146,
+      "doc_role": "otp",
+      "section": "With whom may I talk if I have questions about the Offer?",
+      "faq_question": "With whom may I talk if I have questions about the Offer?",
+      "char_span": [
+        15,
+        36
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Safari Merger Subsidiary, Inc.",
+      "passage": "Scheduled Expiration of Offer\nOne minute after 11:59 P.M., Eastern Time, on January 20, 2021 (the \u201cExpiration Date\u201d), unless the Offer is extended in accordance with the terms of the Merger Agreement; See Section\u00a01\u2014\u201cTerms of the\nOffer.\u201d\nPurchaser\nSafari Merger Subsidiary, Inc., a recently formed Delaware corporation and a wholly owned subsidiary of Safari Parent, Inc., which is controlled by affiliates of AIP Fund VII.",
+      "method": "gliner",
+      "confidence": 0.7768742442131042,
+      "rank_score": 1.1268742442131043,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2589,
+        2619
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "American Stock Transfer\u00a0& Trust Co., LLC",
+      "passage": "Mail or deliver this Letter of\nTransmittal, together with the certificate(s) representing your shares, to:\nIf delivering by hand, express mail, courier,\nor other expedited service:\nAmerican Stock Transfer\u00a0& Trust Co., LLC\nOperations Center\nAttn:\nReorganization Department\n6201 15\nth\nAvenue\nBrooklyn, New York 11219\nBy mail:\nAmerican Stock Transfer\u00a0& Trust Co., LLC\nOperations Center\nAttn:\nReorganization Department\n6201 15\nth\nAvenue\nBrooklyn, New York 11219\nPursuant to the offer of Safari Merger Subsidiary, Inc.",
+      "method": "gliner",
+      "confidence": 0.8266057372093201,
+      "rank_score": 1.1266057372093201,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        1843,
+        1883
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1b.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Parent, Inc.",
+      "passage": "Check the following box if the filing is a final amendment reporting the results of the tender offer.\u00a0\u00a0\u2610\nThis Tender Offer Statement on Schedule TO (this \u201cSchedule TO\u201d) relates to the offer by Safari Merger Subsidiary, Inc., a Delaware\ncorporation (\u201cPurchaser\u201d), and Safari Parent, Inc., a Delaware corporation (\u201cParent\u201d), which is controlled by affiliates of American Industrial Partners Capital Fund VII, L.P., a Delaware limited partnership (\u201cAIP Fund\nVII\u201d), to purchase all outstanding shares of common stock, $0.01 par value per share (\u201cShares\u201d), of SEACOR Holdings Inc., a Delaware corporation (\u201cSEACOR\u201d), at a price of $41.50 per Share, net to the holder in cash, without\ninteres",
+      "method": "gliner",
+      "confidence": 0.7260144948959351,
+      "rank_score": 1.1260144948959352,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        2979,
+        2991
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dsctot.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "AMERICAN INDUSTRIAL PARTNERS CAPITAL FUND VII, L.P.",
+      "passage": "20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(D)(1) OR 13(E)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nSEACOR\nHOLDINGS INC.\n(Name of Subject Company (Issuer))\nSAFARI MERGER SUBSIDIARY, INC.\n(Names of Filing Persons (Offeror))\na wholly owned subsidiary of\nSAFARI PARENT, INC.\n(Names of Filing Persons (Parent of Offeror))\nAMERICAN INDUSTRIAL PARTNERS CAPITAL FUND VII, L.P.\n(Names of Filing Persons (Other Persons))\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n811904101\n(CUSIP Number\nof Class\u00a0of Securities)\nc/o American Industrial Partners\nJason Perri\n450\nLexington Avenue, 40th Floor\nNew York, NY, 10017\nnotices@americanindustrial.com\n(212)\n916-8171\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications",
+      "method": "gliner",
+      "confidence": 0.7158557772636414,
+      "rank_score": 1.1158557772636415,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        407,
+        458
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dsctot.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Safari Parent, Inc.",
+      "passage": "Scheduled Expiration of Offer\nOne minute after 11:59 P.M., Eastern Time, on January 20, 2021 (the \u201cExpiration Date\u201d), unless the Offer is extended in accordance with the terms of the Merger Agreement; See Section\u00a01\u2014\u201cTerms of the\nOffer.\u201d\nPurchaser\nSafari Merger Subsidiary, Inc., a recently formed Delaware corporation and a wholly owned subsidiary of Safari Parent, Inc., which is controlled by affiliates of AIP Fund VII.\nSEACOR\u2019s Board of Directors Recommendation\nThe board of directors of SEACOR (the \u201cSEACOR Board\u201d) recommends that the stockholders of SEACOR tender their Shares in the Offer.\nWho is offering to buy my securities?\n\u2022\nPurchaser is offering to buy your securities.",
+      "method": "gliner",
+      "confidence": 0.7332800626754761,
+      "rank_score": 1.0832800626754762,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2693,
+        2712
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Chilton Investment Company",
+      "passage": "Prior to that, he served as an investment associate for Chilton Investment Company.",
+      "method": "gliner",
+      "confidence": 0.7714430093765259,
+      "rank_score": 1.071443009376526,
+      "doc_role": "otp",
+      "section": "SCHEDULE A",
+      "faq_question": null,
+      "char_span": [
+        1383,
+        1409
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Safari Merger Subsidiary, Inc.",
+      "passage": "Exhibit (a)(1)(B)\nExhibit (a)(1)(B)\nLetter of Transmittal to Tender Shares of Common Stock\nof\nSEACOR HOLDINGS INC.\nat $41.50 Net Per Share in Cash Pursuant to the Offer to Purchase dated December\u00a018, 2020 by\nSafari Merger Subsidiary, Inc., a wholly-owned subsidiary of Safari Parent, Inc.\nThe undersigned represents that I (we) have full authority to surrender without restriction the certificate(s) listed below.",
+      "method": "gliner",
+      "confidence": 0.7660472393035889,
+      "rank_score": 1.066047239303589,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        208,
+        238
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1b.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "9:00 a.m.",
+      "passage": "\u2022 If Purchaser extends the Offer, we will inform American Stock Transfer\u00a0& Trust Co., LLC, the depository\nfor this Offer (the \u201cDepository\u201d), of that fact and will issue a press release giving the new expiration date no later than 9:00 a.m., Eastern Time on the next business day after the day on which the Offer was previously scheduled to\nexpire. See Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.7334899306297302,
+      "rank_score": 1.0634899306297303,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        230,
+        239
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "expiration_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "SAFARI PARENT, INC.",
+      "passage": "By:\n/s/ TONI RINNEVAARA\nName:\u00a0Toni Rinnevaara\nTitle:\u00a0\u00a0\u00a0Vice President\nSAFARI PARENT, INC.\nBy:\n/s/ TONI RINNEVAARA\nName:\u00a0Toni Rinnevaara\nTitle:\u00a0\u00a0\u00a0Vice President\nAMERICAN INDUSTRIAL PARTNERS CAPITAL FUND VII, L.P.",
+      "method": "gliner",
+      "confidence": 0.65855473279953,
+      "rank_score": 1.0585547327995302,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        11075,
+        11094
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dsctot.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "D.F. King\u00a0& Co., In.",
+      "passage": "Questions or requests\nfor assistance may be directed to D.F. King\u00a0& Co., In. (the \u201cInformation Agent\u201d) at its address and telephone numbers, as set forth on the back cover of this Offer to Purchase.",
+      "method": "gliner",
+      "confidence": 0.6852902173995972,
+      "rank_score": 1.0352902173995973,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1590,
+        1610
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Surviving Corporation",
+      "passage": "\u2022 No. Immediately following consummation of the Offer and satisfaction or waiver (to the extent permitted by\napplicable legal requirements) of the limited conditions to the Merger, we expect to complete the Merger pursuant to applicable provisions of the DGCL, after which the Surviving Corporation will be a wholly owned subsidiary of Parent and the Shares\nwill no longer be publicly traded. See Section\u00a07\u2014\u201cPossible Effects of the Offer on the Market for the Shares; NYSE Listing; Exchange Act Registration and Margin Regulations.\u201d",
+      "method": "gliner",
+      "confidence": 0.6731643676757812,
+      "rank_score": 1.0231643676757813,
+      "doc_role": "otp",
+      "section": "If the Offer is completed, will SEACOR continue as a public company?",
+      "faq_question": "If the Offer is completed, will SEACOR continue as a public company?",
+      "char_span": [
+        277,
+        298
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "SEACOR Holdings Inc.",
+      "passage": "(\u201cAIP Fund VII\u201d), is offering to purchase (the \u201cOffer\u201d) all issued and outstanding shares of\ncommon stock, par value $0.01 per share (the \u201cShares\u201d), of SEACOR Holdings Inc., a Delaware corporation (\u201cSEACOR\u201d), at a price per Share of $41.50, net to the holder in cash, without interest (the \u201cOffer Price\u201d) and\nsubject to any withholding taxes, upon the terms and subject to the conditions set forth in this Offer to Purchase (together with any amendments or supplements hereto, this \u201cOffer to Purchase\u201d) and in the related Letter of Transmittal\n(together with any amendment",
+      "method": "gliner",
+      "confidence": 0.6672664284706116,
+      "rank_score": 1.0172664284706117,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        434,
+        454
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and Purchaser",
+      "passage": "The foregoing conditions are for the sole benefit of Parent and Purchaser, may be asserted by Parent or Purchaser regardless of\nthe circumstances giving rise to any such conditions (including any action or inaction by Parent or Purchaser) and (except for the Minimum Tender Condition) may be waived by Parent and Purchaser, in whole or in part, at any time and from time to\ntime, in the sole and absolute discretion of Parent and Purchaser. The failure by Parent or Purchaser at any time to exercise any of the foregoing rights shall not be deemed a waiver of any such right and each such right shall be deemed an ongoing\nright which may be asserted at any time and from time to time.",
+      "method": "gliner",
+      "confidence": 0.88382488489151,
+      "rank_score": 0.98382488489151,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        5665,
+        5685
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "D.F. King\u00a0& Co.",
+      "passage": "Questions or requests\nfor assistance may be directed to D.F. King\u00a0& Co., In.",
+      "method": "gliner",
+      "confidence": 0.5827234983444214,
+      "rank_score": 0.9327234983444215,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1590,
+        1605
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "effective time of the Merger",
+      "passage": "t, each of which will be canceled without any conversion thereof and no consideration will be delivered in\nexchange therefor and (iii)\u00a0Shares held by stockholders who are entitled to appraisal rights under Section\u00a0262 of the DGCL and have properly exercised and perfected their respective demands for appraisal of such Shares in the time and\nmanner provided in Section\u00a0262 of the DGCL and, as of the effective time of the Merger, have neither effectively withdrawn nor lost\n5",
+      "method": "gliner",
+      "confidence": 0.6016494631767273,
+      "rank_score": 0.9316494631767274,
+      "doc_role": "otp",
+      "section": "Will the Offer be followed by a merger if all the Shares are not tendered?",
+      "faq_question": "Will the Offer be followed by a merger if all the Shares are not tendered?",
+      "char_span": [
+        1110,
+        1138
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "SEACOR",
+      "passage": "\u2022 Purchaser is making the Offer because Purchaser and Parent wish to acquire SEACOR. See\nSection\u00a01\u2014\u201cTerms of the Offer\u201d and Section\u00a011\u2014\u201cPurpose of the Offer and Plans for SEACOR; Summary of the Merger Agreement and Certain Other Agreements.\u201d",
+      "method": "gliner",
+      "confidence": 0.8799816370010376,
+      "rank_score": 0.9299816370010376,
+      "doc_role": "otp",
+      "section": "Why is Purchaser making the Offer?",
+      "faq_question": "Why is Purchaser making the Offer?",
+      "char_span": [
+        77,
+        83
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent or Purchaser",
+      "passage": "The failure by Parent or Purchaser at any time to exercise any of the foregoing rights shall not be deemed a waiver of any such right and each such right shall be deemed an ongoing\nright which may be asserted at any time and from time to time.",
+      "method": "gliner",
+      "confidence": 0.8210365176200867,
+      "rank_score": 0.9210365176200866,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        5819,
+        5838
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "SEACOR",
+      "passage": "\u2022 Yes. SEACOR, Parent and Purchaser have entered into the Merger Agreement. The Merger Agreement provides, among\nother things, for the terms and conditions of the Offer and, following consummation of the Offer, the Merger. See Section\u00a011\u2014\u201cPurpose of the Offer and Plans for SEACOR; Summary of the Merger Agreement and Certain Other\nAgreements.\u201d",
+      "method": "gliner",
+      "confidence": 0.8665255904197693,
+      "rank_score": 0.9165255904197693,
+      "doc_role": "otp",
+      "section": "Is there an agreement governing the Offer?",
+      "faq_question": "Is there an agreement governing the Offer?",
+      "char_span": [
+        7,
+        13
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Purchaser and Parent",
+      "passage": "SCHEDULE A\nINFORMATION CONCERNING MEMBERS OF THE BOARDS OF DIRECTORS AND\nTHE EXECUTIVE OFFICERS OF PURCHASER, PARENT, AIP FUND VII AND AIP FUND VII GP.\n1. Directors and Executive Officers of Purchaser and Parent.\nThe following table sets forth information about the directors and executive officers of Purchaser and Parent as of December\u00a018, 2020.\nName, Country of Citizenship, Position\nPresent Principal Occupation or Employment; Material Positions\nHeld During the\nPast Five Years; Certain Other Information\nJason Perri\nUnited States of America\nPresident; Director\nMr.",
+      "method": "gliner",
+      "confidence": 0.8130984902381897,
+      "rank_score": 0.9130984902381897,
+      "doc_role": "otp",
+      "section": "SCHEDULE A",
+      "faq_question": null,
+      "char_span": [
+        302,
+        322
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "acquiring corporation",
+      "passage": "Section\u00a0251(h) of the DGCL provides that following consummation of a successful tender offer for a public corporation, and subject to\ncertain statutory provisions, if the acquiring corporation owns at least the amount of shares of each class of stock of the target corporation that would otherwise be required to adopt a merger agreement for the target corporation, and the other\nstockholders receive the same consideration for their stock in the merger as was payable in the tender offer, the acquiring corporation can effect a merger without a vote of the stockholders of the target corpora",
+      "method": "gliner",
+      "confidence": 0.6099253296852112,
+      "rank_score": 0.9099253296852112,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        960,
+        981
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "expiration of the Offer",
+      "passage": "s the registered owner, you can (i)\u00a0tender your Shares in the Offer by\ndelivering the certificates representing your Shares, together with a completed Letter of Transmittal and any other documents required by the Letter of Transmittal, to the Depository or (ii)\u00a0tender your Shares by following the procedure for\nbook-entry set forth in Section\u00a03\u2014\u201cProcedures for Tendering Shares,\u201d not later than the expiration of the Offer. If you are unable to deliver any required document or instrument to the Depository by the expiration of the Offer,\nyou may gain some extra time by having\n4",
+      "method": "gliner",
+      "confidence": 0.5677204132080078,
+      "rank_score": 0.8977204132080079,
+      "doc_role": "otp",
+      "section": "How do I tender my Shares?",
+      "faq_question": "How do I tender my Shares?",
+      "char_span": [
+        436,
+        459
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Apollo\nGlobal Management",
+      "passage": "Previously he spent seven years at Apollo\nGlobal Management where he was a Senior Principal leading investments in public and private special situations in the Strategic Value Fund.",
+      "method": "gliner",
+      "confidence": 0.7912846803665161,
+      "rank_score": 0.8912846803665161,
+      "doc_role": "otp",
+      "section": "SCHEDULE A",
+      "faq_question": null,
+      "char_span": [
+        783,
+        807
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "American Industrial Partners",
+      "passage": "Perri joined American Industrial Partners in 2015.",
+      "method": "gliner",
+      "confidence": 0.7801731824874878,
+      "rank_score": 0.8801731824874878,
+      "doc_role": "otp",
+      "section": "SCHEDULE A",
+      "faq_question": null,
+      "char_span": [
+        583,
+        611
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "11:59 p.m.",
+      "passage": "Under the HSR Act, the required waiting\nperiod will expire at 11:59 p.m., Eastern Time on the 15th calendar day after the filing by Parent, unless earlier terminated by the FTC or Parent receives a request for additional information or documentary material (\u201cSecond Request\u201d)\nfrom either the FTC prior to that time.",
+      "method": "gliner",
+      "confidence": 0.6556599736213684,
+      "rank_score": 0.8556599736213684,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        3375,
+        3385
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "expiration_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock options",
+      "passage": "dollar, and persons who acquired their Shares upon the exercise of stock options or otherwise as compensation.",
+      "method": "gliner",
+      "confidence": 0.836328387260437,
+      "rank_score": 0.836328387260437,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        1964,
+        1977
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "available_option",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "SEACOR Holdings Inc.",
+      "passage": "seah20201215_sc14d9.htm\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n_____________________\nSCHEDULE 14D-9\n(Rule 14d-101)\nSOLICITATION/RECOMMENDATION STATEMENT\nUNDER SECTION 14(d)(4) OF THE SECURITIES EXCHANGE ACT OF 1934\n_____________________\nSEACOR Holdings Inc.\n(Name of Subject Company)\n_____________________\nSEACOR Holdings Inc.\n(Name of Person Filing Statement)\n_____________________\nCOMMON STOCK, PAR VALUE $0.01 PER SHARE\n(Title of Class of Securities)\n811904101\n(CUSIP Number of Class of Securities)\nWilliam C.",
+      "method": "gliner",
+      "confidence": 0.6004683971405029,
+      "rank_score": 0.8004683971405029,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        270,
+        290
+      ],
+      "source_hit_id": "0001437749-20-025596:seah20201215_sc14d9.htm",
+      "source_accession": "0001437749-20-025596",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Company Option",
+      "passage": "rger, (i)\u00a0each option to purchase Shares\n(each, a \u201cCompany Option\u201d) that is then outstanding and unexercised, whether or not vested, will be canceled and converted into the right to receive a cash payment equal to (a)\u00a0the excess (if any) of (x)\u00a0the Offer Price over\n(y)\u00a0the exercise price payable per Share subject to that Company Option, multiplied by (b)\u00a0the total number of Shares subject to that Company Option immediately prior to the effective time of the Merger and (ii)\u00a0each restricted stock\nunit to acquire Shares (each, a \u201cCompany RSU\u201d) that is then outstanding, whether or not vested, will be canceled and converted into the right to receive a cash payment equal to (a)\u00a0the Offer Price multiplied by (b)\u00a0the total\nnumber of Shares subject to that Company RSU immediately prior to the effective time of t",
+      "method": "gliner",
+      "confidence": 0.7336806654930115,
+      "rank_score": 0.7836806654930115,
+      "doc_role": "otp",
+      "section": "If I am an employee of SEACOR, how will my outstanding equity awards be treated in the Offer and the\nMerger?",
+      "faq_question": "If I am an employee of SEACOR, how will my outstanding equity awards be treated in the Offer and the\nMerger?",
+      "char_span": [
+        806,
+        820
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "options",
+      "passage": "\u2022 Yes. Parent and Purchaser estimate that the total amount of funds required to consummate the Merger (including\npayments for options, restricted shares and other payments referred to in the Merger Agreement) pursuant to the Merger Agreement and to purchase all of the Shares pursuant to the Offer and the Merger Agreement will be approximately $1.06 billion.",
+      "method": "gliner",
+      "confidence": 0.7300177812576294,
+      "rank_score": 0.7800177812576294,
+      "doc_role": "otp",
+      "section": "Do you have financial resources to make payments in the Offer?",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "char_span": [
+        126,
+        133
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S. dollars",
+      "passage": "he ABL Facility and Term Loan Facility will bear interest at a rate per annum equal to, at the option of Parent,\neither (i)\u00a0the highest of (a)\u00a0the rate equal to the Federal Funds Rate plus 0.50%, (b) the prime rate as quoted by the Wall Street Journal and (c)\u00a0the adjusted\none-month\nLondon Interbank Offered\nRate, or (ii)\u00a0a rate equal to the adjusted London Interbank Offered Rate for the deposit of U.S. dollars, in each case plus an applicable margin, and subject to an interest rate floor.",
+      "method": "gliner",
+      "confidence": 0.7767094969749451,
+      "rank_score": 0.7767094969749451,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        2655,
+        2667
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "currency_code",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "next business day",
+      "passage": "\u2022 If Purchaser extends the Offer, we will inform American Stock Transfer\u00a0& Trust Co., LLC, the depository\nfor this Offer (the \u201cDepository\u201d), of that fact and will issue a press release giving the new expiration date no later than 9:00 a.m., Eastern Time on the next business day after the day on which the Offer was previously scheduled to\nexpire. See Section\u00a01\u2014\u201cTerms of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.42917314171791077,
+      "rank_score": 0.7591731417179108,
+      "doc_role": "otp",
+      "section": "How will I be notified if the Offer is extended?",
+      "faq_question": "How will I be notified if the Offer is extended?",
+      "char_span": [
+        261,
+        278
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "11:59 p.m.",
+      "passage": "\u2022 You may withdraw previously tendered Shares any time prior to one minute after 11:59 p.m., Eastern Time, on\nJanuary\u00a020, 2021, unless Purchaser extends the Offer.",
+      "method": "gliner",
+      "confidence": 0.43102067708969116,
+      "rank_score": 0.7110206770896912,
+      "doc_role": "otp",
+      "section": "Until what time can I withdraw previously tendered Shares?",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "char_span": [
+        81,
+        91
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "one minute after 11:59 p.m.",
+      "passage": "See Section\u00a013\u2014\u201cConditions of the Offer.\u201d\nThe Offer will expire at one minute after 11:59 p.m., Eastern\nTime, on January\u00a020, 2021, unless the Offer is extended.",
+      "method": "gliner",
+      "confidence": 0.48622822761535645,
+      "rank_score": 0.6862282276153564,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        5305,
+        5332
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "expiration_datetime",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "iod",
+      "passage": "er order (whether temporary, preliminary or\n9\nTable of Contents\npermanent) to prohibit, restrain, enjoin or make illegal the consummation of the Offer or the Merger that remains in effect (the \u201cGovernmental Impediment Condition\u201d) and (ii)\u00a0each\nother consent, approval or clearance with respect to the Offer and the Merger has been obtained, and termination or expiration of any applicable waiting period (or any extension thereof) under the Hart-Scott-Rodino Antitrust Improvements Act of\n1976, as amended (the \u201cHSR Act\u201d), has been obtained (the \u201cHSR Condition\u201d);\n3.",
+      "method": "gliner",
+      "confidence": 0.6497048735618591,
+      "rank_score": 0.6497048735618591,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        4465,
+        4468
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "United States dollars",
+      "passage": "King\u00a0& Co., Inc., the Information Agent, toll-free at (212)\n269-5550\nor (866)\n745-0267.\nSee the back cover of this Offer to Purchase.\nExcept as otherwise set forth in this Offer to Purchase, references to \u201cdollars\u201d and \u201c$\u201d shall be to United States dollars.\n8\nTable of Contents",
+      "method": "gliner",
+      "confidence": 0.8820725679397583,
+      "rank_score": 0.6320725679397583,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        27292,
+        27313
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "currency_code",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "SEACOR",
+      "passage": "\u2022 Yes, if the Offer is consummated. If we accept Shares for payment pursuant to the Offer, we will hold a\nsufficient number of Shares to complete the Merger without any vote of SEACOR\u2019s stockholders under Section\u00a0251(h) of the General Corporation Law of the State of Delaware (the \u201cDGCL\u201d). If the Merger occurs, SEACOR will become a\nwholly owned subsidiary of Parent and each issued and then outstanding Share (other than (i)\u00a0Shares held by SEACOR (or held in the treasury of SEACOR), each of which will be canceled without any conversion thereof and no consideration will be\ndelivered in exchange therefor, (ii)\u00a0Shares held by Parent, Purchaser or any other direct or indirect wholly owned subsidiary of Parent, each",
+      "method": "gliner",
+      "confidence": 0.5627286434173584,
+      "rank_score": 0.6127286434173584,
+      "doc_role": "otp",
+      "section": "Will the Offer be followed by a merger if all the Shares are not tendered?",
+      "faq_question": "Will the Offer be followed by a merger if all the Shares are not tendered?",
+      "char_span": [
+        312,
+        318
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "dollars",
+      "passage": "\u2022 You can call D.F. King\u00a0& Co., Inc., the Information Agent, toll-free at (212) 269-5550 or (866) 745-0267. See the back cover of this Offer to Purchase.\nExcept as otherwise set forth in this Offer to Purchase, references to \u201cdollars\u201d and \u201c$\u201d shall be to United States dollars.\n8",
+      "method": "gliner",
+      "confidence": 0.538695216178894,
+      "rank_score": 0.5886952161788941,
+      "doc_role": "otp",
+      "section": "With whom may I talk if I have questions about the Offer?",
+      "faq_question": "With whom may I talk if I have questions about the Offer?",
+      "char_span": [
+        226,
+        233
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "certain\ncustomary conditions",
+      "passage": "AIP Fund VII has provided Parent with an equity\ncommitment letter (the \u201cEquity Commitment Letter\u201d) pursuant to which AIP Fund VII has agreed to contribute to Parent up to $580\u00a0million to purchase equity securities of Parent or its affiliates, subject to the satisfaction of certain\ncustomary conditions set forth in the Equity Commitment Letter.",
+      "method": "gliner",
+      "confidence": 0.5001165866851807,
+      "rank_score": 0.5501165866851807,
+      "doc_role": "otp",
+      "section": "Do you have financial resources to make payments in the Offer?",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "char_span": [
+        825,
+        853
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "SEACOR",
+      "passage": "The Schedule TO and any amendments thereto, including exhibits, may be examined and copies may be obtained from\nthe SEC in the manner set forth in Section\u00a08\u2014\u201cCertain Information Concerning SEACOR\u201d under \u201cAvailable Information.\u201d\nThe\nOffer does not constitute a solicitation of proxies for any meeting of SEACOR\u2019s stockholders.",
+      "method": "gliner",
+      "confidence": 0.5296326279640198,
+      "rank_score": 0.5296326279640198,
+      "doc_role": "otp",
+      "section": "17.",
+      "faq_question": null,
+      "char_span": [
+        1489,
+        1495
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash",
+      "passage": "n a potential transaction in which AIP would acquire SEACOR through either (i) a standalone\nacquisition of SEACOR, which would be a full take-private transaction, with a purchase price of $40 per Share in cash; or (ii) a merger between AIP\u2019s Jones Act marine services portfolio company Rand Logistics (\u201cRand\u201d) and SEACOR, with\nboth cash and equity proceeds, with a purchase price of $40 per Share in cash.\nOn September 22, 2020, Foros contacted AIP to inform AIP that SEACOR was\ninterested in continuing discussions with AIP and that AIP was invited to submit another bid in the second (and final) phase of the bid process.",
+      "method": "gliner",
+      "confidence": 0.5223684310913086,
+      "rank_score": 0.5223684310913086,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        3416,
+        3420
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "currency_code",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares in the Offer",
+      "passage": "These requirements apply\nto Parent by virtue of Purchaser\u2019s acquisition of the Shares in the Offer (and the Merger).\nUnder the HSR Act, the purchase of Shares in the Offer\nmay not be completed until the expiration of a\n15-calendar-day\nwaiting period following the filing of certain required information and documentary material concerning\nthe Offer (and the Merger) with the FTC and the Antitrust Division, unless the waiting period is earlier terminated by the FTC.",
+      "method": "gliner",
+      "confidence": 0.49828311800956726,
+      "rank_score": 0.49828311800956726,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        2675,
+        2694
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "isin",
+      "raw": "ion",
+      "passage": "Signatures on a Letter of Transmittal need not be guaranteed\n(i)\u00a0if the Letter of Transmittal is signed by the registered owner(s) (which term, for purposes of this section, includes any participant in any of DTC\u2019s systems whose name appears on a security position listing as the owner of the Shares)\nof Shares tendered therewith and such registered owner has not completed the box entitled \u201cSpecial Payment Instructions\u201d or the box entitled \u201cSpecial Delivery Instructions\u201d on the Letter of Transmittal or (ii)\u00a0if such Shares\nare tendered for the account of an Eligible In",
+      "method": "gliner",
+      "confidence": 0.48396679759025574,
+      "rank_score": 0.48396679759025574,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        3720,
+        3723
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "isin_code",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares of SEACOR",
+      "passage": "(\u201cPurchaser\u201d) to purchase all outstanding Shares of SEACOR,\nthe undersigned encloses herewith and surrenders the following certificate(s) representing Shares of SEACOR:\nDESCRIPTION OF SHARES SURRENDERED\nName(s) and Address(es) of Registered Owner(s)\n(If blank, please fill in exactly as name(s) appear(s) on share certificate(s))\nShares Surrendered\n(attached additional list if necessary)\nCertificated Shares**\nCertificate\nNumber(s)*\nTotal\u00a0Number\u00a0of\nShares\nRepresented\u00a0by\nCertificate(s)*\nNumber\u00a0of\u00a0Shares\nSurrendered**\nBook\u00a0Entry\nShares\nSurrendered\nTotal\u00a0Shares\n*\u2003\u2009\u2009N",
+      "method": "gliner",
+      "confidence": 0.4585569500923157,
+      "rank_score": 0.4585569500923157,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2184,
+        2200
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1b.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Tender Condition",
+      "passage": "\u2022 The Offer is subject to, among others, the following conditions:\n\u2022 there shall have been validly tendered and not validly withdrawn Shares that, considered together with all other\nShares (if any) beneficially owned by Parent and its affiliates, represent one more Share than 66 2/3% of the total number of Shares outstanding at the time of the expiration of the Offer (the \u201cMinimum Tender Condition\u201d); provided,\nhowever, that for purposes of determining whether the Minimum Tender Condition has been satisfied, Shares tendered in the Offer pursuant to guaranteed delivery procedures that have not yet been \u201creceived\u201d (as such term is defined in\nSection\u00a0251(h)(6)(f) of the DGCL) are not treated as tendered;\n\u2022 (i) no governmental entity of competent jurisdiction has enacted or promulgated any law,",
+      "method": "gliner",
+      "confidence": 0.95588219165802,
+      "rank_score": 0.45588219165801996,
+      "doc_role": "otp",
+      "section": "What are the most significant conditions of the Offer?",
+      "faq_question": "What are the most significant conditions of the Offer?",
+      "char_span": [
+        376,
+        400
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Names of Filing Persons (Other Persons))\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n811904101\n(CUSIP Number\nof Class\u00a0of Securities)\nc/o American Industrial Partners\nJason Perri\n450\nLexington Avenue, 40th Floor\nNew York, NY, 10017\nnotices@americanindustrial.com\n(212)\n916-8171\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nWith a copy to:\nDaniel S.",
+      "method": "gliner",
+      "confidence": 0.7549159526824951,
+      "rank_score": 0.4549159526824951,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        583,
+        595
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dsctot.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S. dollar",
+      "passage": "federal income tax\npurposes, stockholders that have a functional currency other than the U.S. dollar, and persons who acquired their Shares upon the exercise of stock options or otherwise as compensation.",
+      "method": "gliner",
+      "confidence": 0.4511631429195404,
+      "rank_score": 0.4511631429195404,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        1892,
+        1903
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "currency_code",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number of Class of Securities",
+      "passage": "(Name of Person Filing Statement)\n_____________________\nCOMMON STOCK, PAR VALUE $0.01 PER SHARE\n(Title of Class of Securities)\n811904101\n(CUSIP Number of Class of Securities)\nWilliam C.",
+      "method": "gliner",
+      "confidence": 0.43762853741645813,
+      "rank_score": 0.43762853741645813,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        498,
+        533
+      ],
+      "source_hit_id": "0001437749-20-025596:seah20201215_sc14d9.htm",
+      "source_accession": "0001437749-20-025596",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "See Section\u00a04\u2014\u201cWithdrawal Rights.\u201d In addition, pursuant to Section\u00a014(d)(5) of the Securities Exchange Act of 1934, as amended, Shares may be withdrawn at any time\nafter February\u00a016, 2021, which is the 60th day after the date of the commencement of the Offer, unless prior to that date Purchaser has accepted for payment the Shares validly tendered in the Offer. See Section\u00a04\u2014\u201cWithdrawal\nRights.\u201d",
+      "method": "gliner",
+      "confidence": 0.9365817904472351,
+      "rank_score": 0.43658179044723505,
+      "doc_role": "otp",
+      "section": "Until what time can I withdraw previously tendered Shares?",
+      "faq_question": "Until what time can I withdraw previously tendered Shares?",
+      "char_span": [
+        490,
+        496
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "Terms of the Offer",
+      "passage": "1.\nTerms of the Offer.",
+      "method": "gliner",
+      "confidence": 0.4100634753704071,
+      "rank_score": 0.4100634753704071,
+      "doc_role": "otp",
+      "section": "1.",
+      "faq_question": null,
+      "char_span": [
+        3,
+        21
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "proration_terms",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "margin securities",
+      "passage": "Depending upon factors similar to those described above regarding listing and market quotations, following the\nOffer, the Shares may no longer constitute \u201cmargin securities\u201d for the purposes of the margin regulations of the Federal Reserve Board, in which event the Shares would be ineligible as collateral for margin loans made by brokers.",
+      "method": "gliner",
+      "confidence": 0.40349647402763367,
+      "rank_score": 0.40349647402763367,
+      "doc_role": "otp",
+      "section": "7.",
+      "faq_question": null,
+      "char_span": [
+        3417,
+        3434
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "terms of the\nMerger Agreement",
+      "passage": "Eastern Time on January\u00a020, 2021 (the \u201cExpiration Date\u201d), unless we have extended the Offer in accordance with the terms of the\nMerger Agreement, in which event the term \u201cExpiration Date\u201d will mean the date to which the initial expiration date of the Offer is so extended.",
+      "method": "gliner",
+      "confidence": 0.4015650153160095,
+      "rank_score": 0.4015650153160095,
+      "doc_role": "otp",
+      "section": "1.",
+      "faq_question": null,
+      "char_span": [
+        610,
+        639
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "proration_terms",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "Accordingly, we do not expect there to be a significant period of time between the consummation of the Offer and the consummation of the Merger.\nPlans for SEACOR.\nAt the Effective Time, the certificate of incorporation of SEACOR will be amended and restated in its entirety pursuant to the terms\nof the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.9359944462776184,
+      "rank_score": 0.38599444627761836,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        1902,
+        1916
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "effective_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Common Stock",
+      "passage": "(Names of Filing Persons (Other Persons))\nCommon Stock, Par Value $0.01 Per Share\n(Title of Class\u00a0of Securities)\n811904101\n(CUSIP Number\nof Class\u00a0of Securities)\nc/o American Industrial Partners\nJason Perri\n450\nLexington Avenue, 40th Floor\nNew York, NY, 10017\nnotices@americanindustrial.com\n(212)\n916-8171\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)\nWith a copy to:\nDaniel S.",
+      "method": "gliner",
+      "confidence": 0.5969748497009277,
+      "rank_score": 0.24697484970092765,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        501,
+        513
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dsctot.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Termination\nCondition",
+      "passage": "the Merger Agreement shall not have been terminated in accordance with its terms (the \u201cTermination\nCondition\u201d).\nPurchaser and Parent have the right to waive certain of the conditions to the Offer in their sole and absolute\ndiscretion (to the extent permitted under applicable legal requirement); provided that Parent and Purchaser may not waive the Minimum Tender Condition, the Termination Condition, the HSR Condition or the Governmental Impediment Condition without the\nconsent of SEACOR.",
+      "method": "gliner",
+      "confidence": 0.7785356640815735,
+      "rank_score": 0.22853566408157344,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        4833,
+        4854
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "HSR Condition",
+      "passage": "fer or the Merger that remains in effect (the \u201cGovernmental Impediment Condition\u201d) and (ii)\u00a0each\nother consent, approval or clearance with respect to the Offer and the Merger has been obtained, and termination or expiration of any applicable waiting period (or any extension thereof) under the Hart-Scott-Rodino Antitrust Improvements Act of\n1976, as amended (the \u201cHSR Act\u201d), has been obtained (the \u201cHSR Condition\u201d);\n3.",
+      "method": "gliner",
+      "confidence": 0.6963058114051819,
+      "rank_score": 0.14630581140518184,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        4612,
+        4625
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Offer Acceptance Time",
+      "passage": "e true and correct in all respects and (iv)\u00a0set\nforth in the remaining sections of Article IV of the Merger Agreement shall be true and correct in all respects (without giving effect to any \u201cmateriality,\u201d \u201cMaterial Adverse Effect\u201d or similar qualifiers contained in any such\nrepresentations and warranties) as of the date of the Merger Agreement and as of the Offer Acceptance Time as if made of the Offer Acceptance Time (except to the extent such representation or warranty speaks as of an earlier date, in which case such\nrepresentation and warranty shall be true and correct as of such earlier date), except where the failures of any such representations and warranties to be so true and correct, individually or in the aggregate, would not be reasonably expected to\nhave a Material Adverse Effect;\nc.",
+      "method": "gliner",
+      "confidence": 0.6614875793457031,
+      "rank_score": 0.11148757934570308,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        3078,
+        3099
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "settlement_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "target",
+      "raw": "U.S.",
+      "passage": "See Section\u00a05\u2014\u201cCertain U.S. Federal Income Tax Consequences of the Offer and the Merger to U.S. Holders\u201d for a more detailed\ndiscussion of certain U.S. federal income tax consequences of the Offer and the Merger.",
+      "method": "gliner",
+      "confidence": 0.5323273539543152,
+      "rank_score": -0.06767264604568485,
+      "doc_role": "otp",
+      "section": "What are the principal U.S. federal income tax consequences of tendering my Shares in the Offer or having my Shares exchanged for\ncash pursuant to the Merger?",
+      "faq_question": "What are the principal U.S. federal income tax consequences of tendering my Shares in the Offer or having my Shares exchanged for\ncash pursuant to the Merger?",
+      "char_span": [
+        447,
+        451
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Governmental Impediment Condition",
+      "passage": "es, and, to the extent permitted by the\nMerger Agreement, may terminate the Offer: (i)\u00a0upon termination of the Merger Agreement; and (ii)\u00a0at any scheduled Expiration Date (subject to any extensions of the Offer), if: (A)\u00a0the Minimum Tender Condition (described in clause\n(a)\u00a0below), the Termination Condition (described in clause (h)\u00a0below), the HSR Condition (described in clause (e)\u00a0below), or the Governmental Impediment Condition (described in clause (e)\u00a0below) shall not be satisfied by one\nminute after 11:59 p.m., Eastern Time on the Expiration Date; or (B)\u00a0any of the additional conditions described below has not been satisfied or waived in writing by Parent:\na.",
+      "method": "gliner",
+      "confidence": 0.4778454899787903,
+      "rank_score": -0.07215451002120976,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        998,
+        1031
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Rand",
+      "passage": "Foros also informed AIP that SEACOR was only interested in a standalone take-private transaction and\nwould not be considering the proposed merger with Rand included in AIP\u2019s preliminary indication of interest.",
+      "method": "gliner",
+      "confidence": 0.4533084034919739,
+      "rank_score": -0.19669159650802615,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        3791,
+        3795
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "target_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Depository",
+      "passage": "If you are unable to deliver any required document or instrument to the Depository by the expiration of the Offer,\nyou may gain some extra time by having\n4",
+      "method": "gliner",
+      "confidence": 0.6687145233154297,
+      "rank_score": -0.2312854766845704,
+      "doc_role": "otp",
+      "section": "How do I tender my Shares?",
+      "faq_question": "How do I tender my Shares?",
+      "char_span": [
+        533,
+        543
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "target_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "stock",
+      "passage": "14.\nDividends and Distributions.\nThe Merger Agreement provides that SEACOR will not, between the date of the Merger Agreement and the Effective Time, declare, set aside, establish a record\ndate for, authorize, make or pay any dividends or other distribution, payable in cash, stock, property or otherwise, with respect to any of its or its subsidiary\u2019s capital stock (except for any dividend or distribution by a subsidiary of SEACOR\nto SEACOR or any wholly-owned subsidiary of SEACOR). See Section\u00a011\u2014\u201cPurpose of the Offer and Plans for SEACOR; Summary of the Merger Agreement and Certain Other Agreements\u2014Summary of the Merger Agreement\u2014Conduct of Business\nPending the Merger.\u201d",
+      "method": "gliner",
+      "confidence": 0.4215105473995209,
+      "rank_score": -0.3284894526004791,
+      "doc_role": "otp",
+      "section": "14.",
+      "faq_question": null,
+      "char_span": [
+        276,
+        281
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "DTC",
+      "passage": "The confirmation of a book-entry transfer of Shares into the Depository\u2019s account at DTC as described above is referred to herein as a \u201cBook-Entry\nConfirmation\u201d.",
+      "method": "gliner",
+      "confidence": 0.5800846815109253,
+      "rank_score": -0.3699153184890748,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        2798,
+        2801
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "target_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "Holder\u2019s holding period in the Shares exchanged is more than one year.",
+      "method": "gliner",
+      "confidence": 0.8852038979530334,
+      "rank_score": -0.4147961020469666,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        4432,
+        4438
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Parent",
+      "passage": "AIP Fund VII has provided Parent with an equity\ncommitment letter (the \u201cEquity Commitment Letter\u201d) pursuant to which AIP Fund VII has agreed to contribute to Parent up to $580\u00a0million to purchase equity securities of Parent or its affiliates, subject to the satisfaction of certain\ncustomary conditions set forth in the Equity Commitment Letter.",
+      "method": "gliner",
+      "confidence": 0.5191006064414978,
+      "rank_score": -0.7308993935585022,
+      "doc_role": "otp",
+      "section": "Do you have financial resources to make payments in the Offer?",
+      "faq_question": "Do you have financial resources to make payments in the Offer?",
+      "char_span": [
+        768,
+        774
+      ],
+      "source_hit_id": "0001193125-20-320705:d44934dex99a1a.htm",
+      "source_accession": "0001193125-20-320705",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.834975+00:00"
+}

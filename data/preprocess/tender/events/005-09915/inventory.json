@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-09915",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "EVANS & SUTHERLAND COMPUTER CORP",
+  "primary_cik": "0000276283",
+  "written_at": "2026-09-17T06:01:41.463120+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 7,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001047469-20-001067:a2240819zscto-t.htm",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zscto-t.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2020-02-27 00:00:00",
+      "primary_cik": "0000276283",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001047469-20-001067:a2240819zex-99_a1a.htm",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zex-99_a1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "EX-99.(A)(1)(A)",
+      "file_date": "2020-02-27 00:00:00",
+      "primary_cik": "0000276283",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001047469-20-001067:a2240819zex-99_a1b.htm",
+      "accession": "0001047469-20-001067",
+      "filename": "a2240819zex-99_a1b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": "EX-99.(A)(1)(B)",
+      "file_date": "2020-02-27 00:00:00",
+      "primary_cik": "0000276283",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001445866-20-000112:escc_sc14d9.htm",
+      "accession": "0001445866-20-000112",
+      "filename": "escc_sc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SCHEDULE 14D-9",
+      "file_date": "2020-02-10 00:00:00",
+      "primary_cik": "0000276283",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

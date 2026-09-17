@@ -1,0 +1,18 @@
+{
+  "stage": "inventory",
+  "path": "tender",
+  "written_at": "2026-09-17T06:12:57.678203+00:00",
+  "status": "ok",
+  "metrics": {
+    "n_events": 2,
+    "n_gold": 2,
+    "n_needs_otp_resolve": 0,
+    "n_incomplete": 0,
+    "otp_method_mix": {
+      "ex99_type": 2
+    },
+    "coverage_csv": "outputs/to_source_coverage.csv"
+  },
+  "n_failed": 0,
+  "errors": []
+}

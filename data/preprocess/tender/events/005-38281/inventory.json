@@ -1,0 +1,71 @@
+{
+  "schema_version": "1",
+  "event_id": "005-38281",
+  "path": "tender",
+  "mvp_event_type": "tender_offer",
+  "primary_entity": "CERNER Corp",
+  "primary_cik": "0000804753",
+  "written_at": "2026-09-17T06:01:41.490609+00:00",
+  "has_cover": true,
+  "has_otp": true,
+  "has_lot": true,
+  "has_14d9": true,
+  "otp_method": "ex99_type",
+  "cohort": "gold",
+  "n_amendments": 37,
+  "download_ready": true,
+  "docs": [
+    {
+      "role": "cover",
+      "hit_id": "0001193125-22-012503:d255477dsctot.htm",
+      "accession": "0001193125-22-012503",
+      "filename": "d255477dsctot.htm",
+      "form": "SC TO-T",
+      "file_type": "SC TO-T",
+      "file_description": "SC TO-T",
+      "file_date": "2022-01-19 00:00:00",
+      "primary_cik": "0000804753",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "otp",
+      "hit_id": "0001193125-22-012503:d255477dex99a1a.htm",
+      "accession": "0001193125-22-012503",
+      "filename": "d255477dex99a1a.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(A)",
+      "file_description": "EX-(A)(1)(A)",
+      "file_date": "2022-01-19 00:00:00",
+      "primary_cik": "0000804753",
+      "otp_method": "ex99_type",
+      "is_amendment": false
+    },
+    {
+      "role": "lot",
+      "hit_id": "0001193125-22-012503:d255477dex99a1b.htm",
+      "accession": "0001193125-22-012503",
+      "filename": "d255477dex99a1b.htm",
+      "form": "SC TO-T",
+      "file_type": "EX-99.(A)(1)(B)",
+      "file_description": "EX-(A)(1)(B)",
+      "file_date": "2022-01-19 00:00:00",
+      "primary_cik": "0000804753",
+      "otp_method": null,
+      "is_amendment": false
+    },
+    {
+      "role": "sc_14d9",
+      "hit_id": "0001193125-22-012548:d289699dsc14d9.htm",
+      "accession": "0001193125-22-012548",
+      "filename": "d289699dsc14d9.htm",
+      "form": "SC 14D9",
+      "file_type": "SC 14D9",
+      "file_description": "SC 14D9",
+      "file_date": "2022-01-19 00:00:00",
+      "primary_cik": "0000804753",
+      "otp_method": null,
+      "is_amendment": false
+    }
+  ]
+}

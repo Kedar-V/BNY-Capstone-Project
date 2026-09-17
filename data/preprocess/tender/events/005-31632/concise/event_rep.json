@@ -1,0 +1,2751 @@
+{
+  "schema_version": "1",
+  "event_id": "005-31632",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "dab3bbafc59f95c11fd422478a06ccaeed5818d7",
+      "hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "accession": "0001193125-20-306324",
+      "filename": "d29868dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "1ba7240e824452a5052ad4b39e3fa5d91753f77d",
+      "hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "accession": "0001193125-20-306324",
+      "filename": "d29868dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "b4d4bbad1a716d7c67651b0fa51babe05dfd0d96",
+      "hit_id": "0001193125-20-306324:d29868dex99a1b.htm",
+      "accession": "0001193125-20-306324",
+      "filename": "d29868dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "549555a33ce14ab773e7f9b42b662f66f5c62c56",
+      "hit_id": "0001193125-20-306390:d32196dsc14d9.htm",
+      "accession": "0001193125-20-306390",
+      "filename": "d32196dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "November\u00a030, 2020",
+      "score": 0.9624765515327454,
+      "rank_score": 1.7424765515327454,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "money_amount",
+      "text": "$125\u00a0million",
+      "score": 0.9608154892921448,
+      "rank_score": 1.7408154892921448,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "February\u00a019, 2021",
+      "score": 0.9521552920341492,
+      "rank_score": 1.7321552920341492,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "November 23, 2020",
+      "score": 0.9519469738006592,
+      "rank_score": 1.7319469738006592,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "December\u00a029, 2020",
+      "score": 0.9441991448402405,
+      "rank_score": 1.7241991448402405,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "calendar_date",
+      "text": "November\u00a022, 2020",
+      "score": 0.9396167397499084,
+      "rank_score": 1.7196167397499085,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Has the Goldfield Board received a fairness\nopinion in connection with the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "January\u00a030, 2021",
+      "score": 0.9320436120033264,
+      "rank_score": 1.7120436120033264,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:14",
+      "faq_question": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$7.00",
+      "score": 0.8923256397247314,
+      "rank_score": 1.6723256397247315,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:24",
+      "faq_question": "What will happen to my restricted stock units in the Offer and the Merger?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$172\u00a0million",
+      "score": 0.8118568062782288,
+      "rank_score": 1.5918568062782288,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$210\u00a0million",
+      "score": 0.8011488914489746,
+      "rank_score": 1.5811488914489746,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.10",
+      "score": 0.7847393751144409,
+      "rank_score": 1.564739375114441,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "381370105",
+      "score": 0.763092041015625,
+      "rank_score": 1.513092041015625,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$4.27",
+      "score": 0.7257956266403198,
+      "rank_score": 1.5057956266403199,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$5.75",
+      "score": 0.8416031002998352,
+      "rank_score": 1.4916031002998351,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "money_amount",
+      "text": "$4.46",
+      "score": 0.6907733082771301,
+      "rank_score": 1.4707733082771302,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$6.97",
+      "score": 0.6834337711334229,
+      "rank_score": 1.4634337711334229,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$174\u00a0million",
+      "score": 0.7915939092636108,
+      "rank_score": 1.4415939092636108,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$205\u00a0million",
+      "score": 0.7438557147979736,
+      "rank_score": 1.3938557147979735,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "FR UTILITY SERVICES MERGER SUB, INC.",
+      "score": 0.9340677261352539,
+      "rank_score": 1.334067726135254,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$10.8 million",
+      "score": 0.5296027660369873,
+      "rank_score": 1.3096027660369873,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "FR UTILITY SERVICES, INC.",
+      "score": 0.8542400002479553,
+      "rank_score": 1.2542400002479555,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "The Goldfield Corporation",
+      "score": 0.8310563564300537,
+      "rank_score": 1.2310563564300538,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "GV",
+      "score": 0.8717931509017944,
+      "rank_score": 1.2217931509017945,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_16",
+      "faq_question": null,
+      "section": "13.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "October\u00a028, 2020",
+      "score": 0.5591456890106201,
+      "rank_score": 1.20914568901062,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "December\u00a08, 2020",
+      "score": 0.5454621315002441,
+      "rank_score": 1.195462131500244,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "target corporation",
+      "score": 0.8886452913284302,
+      "rank_score": 1.1886452913284302,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "The Goldfield Corporation",
+      "score": 0.8879367709159851,
+      "rank_score": 1.1879367709159852,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "American Stock Transfer\u00a0& Trust Co., LLC",
+      "score": 0.876545786857605,
+      "rank_score": 1.176545786857605,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "FR Utility Services, Inc.",
+      "score": 0.8705796599388123,
+      "rank_score": 1.1705796599388123,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "FR Utility Services Merger Sub, Inc.",
+      "score": 0.8657011985778809,
+      "rank_score": 1.165701198577881,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "January\u00a029, 2021",
+      "score": 0.5002040863037109,
+      "rank_score": 1.1502040863037108,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "September\u00a02, 2020",
+      "score": 0.49369123578071594,
+      "rank_score": 1.1436912357807159,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "org_name",
+      "text": "NYSE American",
+      "score": 0.9536087512969971,
+      "rank_score": 1.1036087512969972,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "date of the closing of the Merger",
+      "score": 0.7675238251686096,
+      "rank_score": 1.0975238251686097,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:5",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and Purchaser",
+      "score": 0.9354965686798096,
+      "rank_score": 1.0854965686798097,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "11:59 P.M.",
+      "score": 0.7481138706207275,
+      "rank_score": 1.0781138706207276,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "FR Utility Service, Inc.",
+      "score": 0.760626494884491,
+      "rank_score": 1.060626494884491,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "First Reserve",
+      "score": 0.8916496634483337,
+      "rank_score": 1.0416496634483337,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "FIRST RESERVE FUND XIV, L.P.",
+      "score": 0.6369261741638184,
+      "rank_score": 1.0369261741638185,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "vice, Inc.",
+      "score": 0.7263761758804321,
+      "rank_score": 1.0263761758804322,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "The Purchaser",
+      "score": 0.8657567501068115,
+      "rank_score": 1.0157567501068114,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:0",
+      "faq_question": "Who is offering to buy my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "Delaware corporation",
+      "score": 0.6539671421051025,
+      "rank_score": 1.0039671421051026,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:0",
+      "faq_question": "Who is offering to buy my Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "K&L Gates",
+      "score": 0.8940362334251404,
+      "rank_score": 0.9940362334251404,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Surviving\nCorporation",
+      "score": 0.6926328539848328,
+      "rank_score": 0.9926328539848328,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_15",
+      "faq_question": null,
+      "section": "12.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "target_organization",
+      "text": "Tyson Foods, Inc.",
+      "score": 0.6874135732650757,
+      "rank_score": 0.9874135732650757,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "First\nReserve Fund XIV, L.P.",
+      "score": 0.6873390078544617,
+      "rank_score": 0.9873390078544617,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Simpson Thacher",
+      "score": 0.8844871520996094,
+      "rank_score": 0.9844871520996094,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Goldfield",
+      "score": 0.9251622557640076,
+      "rank_score": 0.9751622557640076,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "First Reserve",
+      "score": 0.8567378520965576,
+      "rank_score": 0.9567378520965576,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_23",
+      "faq_question": null,
+      "section": "SCHEDULE 1",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Grand Metropolitan PLC",
+      "score": 0.6543360948562622,
+      "rank_score": 0.9543360948562623,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "commercial bank",
+      "score": 0.8001108765602112,
+      "rank_score": 0.9501108765602112,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Parent and the Purchaser",
+      "score": 0.7933005690574646,
+      "rank_score": 0.9433005690574646,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "available_option",
+      "text": "employee stock options",
+      "score": 0.8978900909423828,
+      "rank_score": 0.8978900909423828,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "TLX Acquisition Corp.",
+      "score": 0.5792983770370483,
+      "rank_score": 0.8792983770370484,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "Goldfield",
+      "score": 0.8764793872833252,
+      "rank_score": 0.8764793872833252,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "target_organization",
+      "text": "Telex Corp.",
+      "score": 0.5734907388687134,
+      "rank_score": 0.8734907388687134,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "CTS Corp.",
+      "score": 0.5711899399757385,
+      "rank_score": 0.8711899399757386,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "THE GOLDFIELD CORPORATION",
+      "score": 0.6009748578071594,
+      "rank_score": 0.8009748578071594,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "United States",
+      "score": 0.5643987655639648,
+      "rank_score": 0.7143987655639649,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What are the material United States federal income tax consequences of the Offer and the Merger to a\nUnited States Holder?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number\nof Class\u00a0of Securities",
+      "score": 0.6983046531677246,
+      "rank_score": 0.6983046531677246,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE American",
+      "score": 0.5838258266448975,
+      "rank_score": 0.6338258266448975,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "First Reserve",
+      "score": 0.5188268423080444,
+      "rank_score": 0.6188268423080444,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_13",
+      "faq_question": null,
+      "section": "10.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares of Goldfield",
+      "score": 0.5969844460487366,
+      "rank_score": 0.5969844460487366,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "The New York Stock Exchange American",
+      "score": 0.5438565611839294,
+      "rank_score": 0.5938565611839295,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "effective date of the merger",
+      "score": 0.5811790227890015,
+      "rank_score": 0.5811790227890015,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_20",
+      "faq_question": null,
+      "section": "17.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash",
+      "score": 0.490407794713974,
+      "rank_score": 0.540407794713974,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Is\nyour financial condition relevant to my decision to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "alternative",
+      "score": 0.5395938754081726,
+      "rank_score": 0.5395938754081726,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_6",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "target_organization",
+      "text": "Goldfield\u2019s business",
+      "score": 0.4006958305835724,
+      "rank_score": 0.5006958305835724,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_19",
+      "faq_question": null,
+      "section": "16.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "available_option",
+      "text": "puts or calls",
+      "score": 0.45854949951171875,
+      "rank_score": 0.45854949951171875,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_11",
+      "faq_question": null,
+      "section": "8.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9577593207359314,
+      "rank_score": 0.45775932073593134,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "United States",
+      "score": 0.45494890213012695,
+      "rank_score": 0.45494890213012695,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "common stock",
+      "score": 0.9294872879981995,
+      "rank_score": 0.4294872879981994,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:16",
+      "faq_question": "If the Offer is successfully completed, will Goldfield continue as a public company?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "proration_terms",
+      "text": "terms",
+      "score": 0.4239073693752289,
+      "rank_score": 0.4239073693752289,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_20",
+      "faq_question": null,
+      "section": "17.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "certificates",
+      "score": 0.41681969165802,
+      "rank_score": 0.41681969165802,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_6",
+      "faq_question": null,
+      "section": "3.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9559069275856018,
+      "rank_score": 0.40590692758560176,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "de minimis",
+      "score": 0.40434521436691284,
+      "rank_score": 0.40434521436691284,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.6957944631576538,
+      "rank_score": 0.39579446315765376,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.8498754501342773,
+      "rank_score": 0.2998754501342773,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "Offer Acceptance Time",
+      "score": 0.5661066770553589,
+      "rank_score": 0.16610667705535886,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Share",
+      "score": 0.600182831287384,
+      "rank_score": 0.10018283128738399,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:21",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Representations\nCondition",
+      "score": 0.624977707862854,
+      "rank_score": 0.07497770786285396,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Covenants Condition",
+      "score": 0.6148541569709778,
+      "rank_score": 0.06485415697097774,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Termination\nCondition",
+      "score": 0.5935453772544861,
+      "rank_score": 0.04354537725448604,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "Offer Expiration Time",
+      "score": 0.4433774948120117,
+      "rank_score": 0.0433774948120117,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Offer Price",
+      "score": 0.5635682344436646,
+      "rank_score": 0.013568234443664506,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_14",
+      "faq_question": null,
+      "section": "11.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Regulatory Condition",
+      "score": 0.4980914890766144,
+      "rank_score": -0.051908510923385665,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_18",
+      "faq_question": null,
+      "section": "15.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.8884372115135193,
+      "rank_score": -0.41156278848648076,
+      "doc_role": "otp",
+      "segment_id": "otp:section:exa1arom29868_8",
+      "faq_question": null,
+      "section": "5.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Depositary and Paying Agent",
+      "score": 0.4061449468135834,
+      "rank_score": -0.4938550531864167,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:13",
+      "faq_question": "How do I tender my Shares?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "COMMON STOCK",
+      "score": 0.49338090419769287,
+      "rank_score": -0.6066190958023072,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "Parent",
+      "score": 0.5086495876312256,
+      "rank_score": -0.7413504123687744,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w2"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "November\u00a030, 2020",
+      "passage": "Goldfield has informed us that, as of November\u00a030, 2020, the non-employee directors and executive officers of Goldfield beneficially owned, in the aggregate, 194,180 Shares (excluding any restricted stock units) and that such non-employee directors and executive officers of Goldfield have informed Goldfield that they intend to tender all Shares, if any, beneficially owned by them pursuant to the Offer.",
+      "method": "gliner",
+      "confidence": 0.9624765515327454,
+      "rank_score": 1.7424765515327454,
+      "doc_role": "otp",
+      "section": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "char_span": [
+        1187,
+        1204
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$125\u00a0million",
+      "passage": "Parent\nhas received the Debt Commitment Letter, pursuant to which its lenders have agreed to provide it with $125\u00a0million (the \u201cDebt Financing\u201d).",
+      "method": "gliner",
+      "confidence": 0.9608154892921448,
+      "rank_score": 1.7408154892921448,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "char_span": [
+        852,
+        864
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "February\u00a019, 2021",
+      "passage": "ity Time, on the day before such date (or such other date and time as the parties to the Merger\nAgreement may agree) (each such extension period, an \u201cAdditional Offer Period\u201d); provided that, without Goldfield\u2019s written consent, Purchaser shall not extend the Offer, and without Parent\u2019s prior written consent, Purchaser\nshall not be required to extend the Offer, in each case, beyond the earlier of February\u00a019, 2021 or the valid termination of the Merger Agreement in accordance with its terms;",
+      "method": "gliner",
+      "confidence": 0.9521552920341492,
+      "rank_score": 1.7321552920341492,
+      "doc_role": "otp",
+      "section": "Can\nthe Offer be extended and under what circumstances?",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "char_span": [
+        1704,
+        1721
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "November 23, 2020",
+      "passage": "As of November 23, 2020, the estate directly or indirectly owned approximately 8.5% of all Shares\nissued and outstanding.",
+      "method": "gliner",
+      "confidence": 0.9519469738006592,
+      "rank_score": 1.7319469738006592,
+      "doc_role": "otp",
+      "section": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "char_span": [
+        532,
+        549
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a029, 2020",
+      "passage": "Scheduled Expiration of Offer\n11:59 P.M., New York City time, on December\u00a029, 2020 (\u201cOffer Expiration Time\u201d), unless the Offer is extended or terminated.",
+      "method": "gliner",
+      "confidence": 0.9441991448402405,
+      "rank_score": 1.7241991448402405,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2927,
+        2944
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "calendar_date",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "November\u00a022, 2020",
+      "passage": "Yes. Stifel, Nicolaus\u00a0& Company, Incorporated (\u201cStifel\u201d), the\nfinancial advisor to Goldfield, delivered an oral opinion to the Goldfield Board on November\u00a022, 2020 and subsequently confirmed by delivery of a written opinion dated as of November\u00a022, 2020 to the effect that, as of such date and subject\nto and based on the assumptions made, procedures followed, matters considered, limitations of the review undertaken and qualifications contained in such opinion, the Offer Price to be received by holders of Shares (other than Parent, Purchaser and\ntheir respect",
+      "method": "gliner",
+      "confidence": 0.9396167397499084,
+      "rank_score": 1.7196167397499085,
+      "doc_role": "otp",
+      "section": "Has the Goldfield Board received a fairness\nopinion in connection with the Offer and the Merger?",
+      "faq_question": "Has the Goldfield Board received a fairness\nopinion in connection with the Offer and the Merger?",
+      "char_span": [
+        146,
+        163
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a030, 2021",
+      "passage": "Yes. You may withdraw previously tendered Shares any time prior to the Expiration Date and, if not previously accepted for payment, at any time\nafter January\u00a030, 2021, the date that is 60 days after the date of the commencement of the Offer, pursuant to SEC regulations, by following the procedures for withdrawing your Shares in a timely manner.",
+      "method": "gliner",
+      "confidence": 0.9320436120033264,
+      "rank_score": 1.7120436120033264,
+      "doc_role": "otp",
+      "section": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "faq_question": "May I withdraw Shares I previously tendered in the Offer? Until what time may I withdraw tendered Shares?",
+      "char_span": [
+        150,
+        166
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$7.00",
+      "passage": "tricted stock units, each restricted stock unit granted under a\nGoldfield equity plan that is outstanding will, automatically and without any required action on the part of the holder thereof, become fully vested as of immediately prior to, and contingent upon, the\nEffective Time and in consideration of such cancellation, the holder will be entitled to receive a cash payment in an amount equal to $7.00, without interest\nand less any applicable withholding taxes. See Section\u00a011 \u2013 \u201cThe Merger Agreement; Other Agreements.\u201d\n8",
+      "method": "gliner",
+      "confidence": 0.8923256397247314,
+      "rank_score": 1.6723256397247315,
+      "doc_role": "otp",
+      "section": "What will happen to my restricted stock units in the Offer and the Merger?",
+      "faq_question": "What will happen to my restricted stock units in the Offer and the Merger?",
+      "char_span": [
+        474,
+        479
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$172\u00a0million",
+      "passage": "The Purchaser estimates that it will need up to\napproximately $172\u00a0million to purchase all of the issued and outstanding Shares in the Offer, to provide funding for the consideration to be paid in the Merger, to refinance Goldfield\u2019s existing indebtedness and to pay related fees and\nexpenses at the closing of the Transactions.",
+      "method": "gliner",
+      "confidence": 0.8118568062782288,
+      "rank_score": 1.5918568062782288,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "char_span": [
+        62,
+        74
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$210\u00a0million",
+      "passage": "The Purchaser estimates that it will need up to\napproximately $172\u00a0million to purchase all of the issued and outstanding Shares in the Offer, to provide funding for the consideration to be paid in the Merger, to refinance Goldfield\u2019s existing indebtedness and to pay related fees and\nexpenses at the closing of the Transactions. First Reserve has provided to Purchaser an equity commitment equal to $210\u00a0million (the \u201cEquity Financing\u201d), the proceeds of which, together with Purchaser\u2019s and Goldfield\u2019s\napproximately $10.8 million of available cash following the Merger, will be sufficient to pay the Offer Price for all Shares tendered in the Offer, to pay the consideration to be paid in the Merger and to pay all related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.8011488914489746,
+      "rank_score": 1.5811488914489746,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "char_span": [
+        399,
+        411
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.10",
+      "passage": "Unless the context indicates otherwise, in this Offer to Purchase, we use the terms \u201cus,\u201d \u201cwe\u201d and \u201cour\u201d to refer to the Purchaser and where appropriate, Parent and the Purchaser, collectively.\nSecurities Sought\nAll issued and outstanding shares of common stock, par value $0.10 per share of The Goldfield Corporation.\nPrice Offered Per Share\n$7.00 per Share, net to the seller in cash, without interest and less any applicable withholding taxes.\nScheduled Expiration of Offer\n11:59 P.M., New York City time, on December\u00a029, 2020 (\u201cOffer Expiration Time\u201d), unless the Offer is extended or terminated.",
+      "method": "gliner",
+      "confidence": 0.7847393751144409,
+      "rank_score": 1.564739375114441,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2688,
+        2693
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "381370105",
+      "passage": "(Other Person)\n(Names of\nFiling Persons (identifying status as Offeror, Issuer or Other Person))\nCOMMON STOCK, PAR VALUE $0.10 PER SHARE\n(Title of Class\u00a0of Securities)\n381370105\n(CUSIP Number\nof Class\u00a0of Securities)\nAnne E.",
+      "method": "gliner",
+      "confidence": 0.763092041015625,
+      "rank_score": 1.513092041015625,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        576,
+        585
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$4.27",
+      "passage": "On November\u00a023, 2020, the last NYSE American trading day before Parent and Goldfield announced that they had entered into the Merger\nAgreement, the closing price of Shares reported on NYSE American was $4.27 per Share; therefore, the Offer Price of $7.00 per Share represents a premium of approximately 64% over such price and a 57% premium over the 30-day volume-weighted average price of $4.46 as of the same date. On November\u00a030, 2020, the last NYSE American trading day prior to the commencement of this Offer, the closing price of Shares reported on\nthe NYSE American was $6.97 per Share.",
+      "method": "gliner",
+      "confidence": 0.7257956266403198,
+      "rank_score": 1.5057956266403199,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        202,
+        207
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$5.75",
+      "passage": "31\nOn September\u00a02, 2020, First Reserve submitted a preliminary\nnon-binding\nindication of interest with respect to an acquisition of all of the equity of Goldfield at a total enterprise value of $174\u00a0million and a per Share price of $5.75 (or $6.43 per Share when excluding\noperating leases from net debt like items in the calculation).",
+      "method": "gliner",
+      "confidence": 0.8416031002998352,
+      "rank_score": 1.4916031002998351,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        2647,
+        2652
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$4.46",
+      "passage": "On November\u00a023, 2020, the last NYSE American trading day before Parent and Goldfield announced that they had entered into the Merger\nAgreement, the closing price of Shares reported on NYSE American was $4.27 per Share; therefore, the Offer Price of $7.00 per Share represents a premium of approximately 64% over such price and a 57% premium over the 30-day volume-weighted average price of $4.46 as of the same date. On November\u00a030, 2020, the last NYSE American trading day prior to the commencement of this Offer, the closing price of Shares reported on\nthe NYSE American was $6.97 per Share.",
+      "method": "gliner",
+      "confidence": 0.6907733082771301,
+      "rank_score": 1.4707733082771302,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        390,
+        395
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$6.97",
+      "passage": "On November\u00a030, 2020, the last NYSE American trading day prior to the commencement of this Offer, the closing price of Shares reported on\nthe NYSE American was $6.97 per Share.",
+      "method": "gliner",
+      "confidence": 0.6834337711334229,
+      "rank_score": 1.4634337711334229,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        577,
+        582
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$174\u00a0million",
+      "passage": "31\nOn September\u00a02, 2020, First Reserve submitted a preliminary\nnon-binding\nindication of interest with respect to an acquisition of all of the equity of Goldfield at a total enterprise value of $174\u00a0million and a per Share price of $5.75 (or $6.43 per Share when excluding\noperating leases from net debt like items in the calculation).",
+      "method": "gliner",
+      "confidence": 0.7915939092636108,
+      "rank_score": 1.4415939092636108,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        2609,
+        2621
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$205\u00a0million",
+      "passage": "On October\u00a028, 2020, First Reserve submitted a\nnon-binding\nletter of intent with respect to an acquisition of all of the equity of Goldfield with a per Share price of $7.00 and a total enterprise value of approximately $205\u00a0million.",
+      "method": "gliner",
+      "confidence": 0.7438557147979736,
+      "rank_score": 1.3938557147979735,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        5090,
+        5102
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offer_price_amount",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "FR UTILITY SERVICES MERGER SUB, INC.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nTHE GOLDFIELD\nCORPORATION\n(Name of Subject Company (Issuer))\nFR UTILITY SERVICES MERGER SUB, INC.\n(Offeror)\nA direct\nwholly owned subsidiary of\nFR UTILITY SERVICES, INC.\n(Parent of Offeror)\nFIRST RESERVE FUND XIV, L.P.\n(Other Person)\n(Names of\nFiling Persons (identifying status as Offeror, Issuer or Other Person))\nCOMMON STOCK, PAR VALUE $0.10 PER SHARE\n(Title of Class\u00a0of Securities)\n381370105\n(CUSIP Number\nof Class\u00a0of Securities)\nAnne E.",
+      "method": "gliner",
+      "confidence": 0.9340677261352539,
+      "rank_score": 1.334067726135254,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        250,
+        286
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$10.8 million",
+      "passage": "First Reserve has provided to Purchaser an equity commitment equal to $210\u00a0million (the \u201cEquity Financing\u201d), the proceeds of which, together with Purchaser\u2019s and Goldfield\u2019s\napproximately $10.8 million of available cash following the Merger, will be sufficient to pay the Offer Price for all Shares tendered in the Offer, to pay the consideration to be paid in the Merger and to pay all related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.5296027660369873,
+      "rank_score": 1.3096027660369873,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "char_span": [
+        517,
+        530
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "FR UTILITY SERVICES, INC.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nTHE GOLDFIELD\nCORPORATION\n(Name of Subject Company (Issuer))\nFR UTILITY SERVICES MERGER SUB, INC.\n(Offeror)\nA direct\nwholly owned subsidiary of\nFR UTILITY SERVICES, INC.\n(Parent of Offeror)\nFIRST RESERVE FUND XIV, L.P.\n(Other Person)\n(Names of\nFiling Persons (identifying status as Offeror, Issuer or Other Person))\nCOMMON STOCK, PAR VALUE $0.10 PER SHARE\n(Title of Class\u00a0of Securities)\n381370105\n(CUSIP Number\nof Class\u00a0of Securities)\nAnne E.",
+      "method": "gliner",
+      "confidence": 0.8542400002479553,
+      "rank_score": 1.2542400002479555,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        333,
+        358
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "The Goldfield Corporation",
+      "passage": "The transaction valuation was\ncalculated by adding the sum of (i) 24,522,534 shares of common stock, par value $0.10 per share (\u201cShares\u201d), of The Goldfield Corporation, a Delaware corporation (\u201cGoldfield\u201d) issued and outstanding\nmultiplied\nby the offer\nprice of $7.00 per share, and (ii) 330,000 Shares issuable pursuant to outstanding restricted stock units\nmultiplied\nby the offer price of $7.00 per share.",
+      "method": "gliner",
+      "confidence": 0.8310563564300537,
+      "rank_score": 1.2310563564300538,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        1290,
+        1315
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "GV",
+      "passage": "13.\nCertain Effects of the Offer.\nMarket for the Shares\n. If the Offer is successful, there will be no market for the Shares because Parent and the Purchaser intend to\nconsummate the Merger at the Effective Time.\nStock Quotation\n. The Shares are currently listed on the NYSE American and trade under\nthe symbol \u201cGV\u201d.",
+      "method": "gliner",
+      "confidence": 0.8717931509017944,
+      "rank_score": 1.2217931509017945,
+      "doc_role": "otp",
+      "section": "13.",
+      "faq_question": null,
+      "char_span": [
+        312,
+        314
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "October\u00a028, 2020",
+      "passage": "The process letter established October\u00a028, 2020 as the deadline to submit a\nnon-binding\nletter of intent.",
+      "method": "gliner",
+      "confidence": 0.5591456890106201,
+      "rank_score": 1.20914568901062,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        3701,
+        3717
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "expiration_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a08, 2020",
+      "passage": "Stockholders of Goldfield and other interested parties should read the Merger Agreement for a more complete description of the provisions summarized below.\nThe Offer.\nThe Merger Agreement provides\nthat the Purchaser will commence the Offer to purchase all Shares at a price per share equal to the Offer Price by December\u00a08, 2020, and that, subject only to the satisfaction, or waiver by the Purchaser or Parent, of the Offer Conditions that\nare described in Section\u00a015 \u2013 \u201cCertain Conditions of the Offer,\u201d the Purchaser will (and Parent will cause the Purchaser) to consummate the Offer in accordance with its\n34\nterms and accept for payment and promptly pay (or cause the Depositary and Paying Agent to pay) for all such Shares",
+      "method": "gliner",
+      "confidence": 0.5454621315002441,
+      "rank_score": 1.195462131500244,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        1003,
+        1019
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "expiration_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "target corporation",
+      "passage": "ns, if the acquirer holds at least the amount of shares of each class of stock of the target corporation that would otherwise be required to approve a merger for the target corporation, and the other stockholders receive\nthe same consideration for their stock in the merger as was payable in the tender offer, then the acquirer can effect a merger without the action of the other stockholders of the target corporation.",
+      "method": "gliner",
+      "confidence": 0.8886452913284302,
+      "rank_score": 1.1886452913284302,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        1464,
+        1482
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "The Goldfield Corporation",
+      "passage": "(a)\u00a0\u00a0\u00a0\u00a0The name, address, and telephone number of the subject company\u2019s principal executive offices are as follows:\nThe Goldfield Corporation\n1684\nWest Hibiscus Blvd.\nMelbourne, FL 32901\n(321)\n724-1700\n(b)\u00a0\u00a0\u00a0\u00a0This Schedule TO relates to the Offer by the Purchaser to purchase all issued and outstanding Shares.",
+      "method": "gliner",
+      "confidence": 0.8879367709159851,
+      "rank_score": 1.1879367709159852,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4897,
+        4922
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "American Stock Transfer\u00a0& Trust Co., LLC",
+      "passage": "Mail or deliver this Letter of Transmittal, together with the certificate(s)\nrepresenting your Shares, to:\nIf delivering by hand, express mail, courier,\nor other expedited service:\nBy mail:\nAmerican Stock Transfer\u00a0& Trust Co., LLC\nOperations Center\nAttn:\nReorganization Department\n6201 15th Avenue\nBrooklyn, New York 11219\nAmerican Stock Transfer\u00a0& Trust Co., LLC\nOperations Center\nAttn:\nReorganization Department\n6201 15th Avenue\nBrooklyn, New York 11219\nPursuant to the Offer of FR Utility Services Merger Sub, Inc.",
+      "method": "gliner",
+      "confidence": 0.876545786857605,
+      "rank_score": 1.176545786857605,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2310,
+        2350
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1b.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "FR Utility Services, Inc.",
+      "passage": "actions to which the statement relates:\u00a0\u00a0\u2610\nIf applicable, check the appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\n13e-4(i)\n(Cross-Border Issuer Tender Offer)\n\u2610\nRule\n14d-1(d)\n(Cross-Border Third-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements hereto, this \u201cSchedule TO\u201d) is being\nfiled by (i)\u00a0FR Utility Services, Inc., a Delaware corporation (\u201cParent\u201d), (ii) FR Utility Services Merger Sub, Inc., a Delaware corporation and a wholly owned subsidiary of Parent (the \u201cPurchaser\u201d), and (iii)\u00a0First\nReserve Fund XIV, L.P., a Cayman Islands limited partnership, or an affiliate thereof, which is the controlling stockholder of both Parent and the Purchaser.",
+      "method": "gliner",
+      "confidence": 0.8705796599388123,
+      "rank_score": 1.1705796599388123,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3193,
+        3218
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "FR Utility Services Merger Sub, Inc.",
+      "passage": "appropriate box(es) below to designate the appropriate rule provision(s) relied upon:\n\u2610\nRule\n13e-4(i)\n(Cross-Border Issuer Tender Offer)\n\u2610\nRule\n14d-1(d)\n(Cross-Border Third-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements hereto, this \u201cSchedule TO\u201d) is being\nfiled by (i)\u00a0FR Utility Services, Inc., a Delaware corporation (\u201cParent\u201d), (ii) FR Utility Services Merger Sub, Inc., a Delaware corporation and a wholly owned subsidiary of Parent (the \u201cPurchaser\u201d), and (iii)\u00a0First\nReserve Fund XIV, L.P., a Cayman Islands limited partnership, or an affiliate thereof, which is the controlling stockholder of both Parent and the Purchaser.",
+      "method": "gliner",
+      "confidence": 0.8657011985778809,
+      "rank_score": 1.165701198577881,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3260,
+        3296
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a029, 2021",
+      "passage": "oldfield, signed by an officer of Goldfield, dated the\ndate on which the Offer expires certifying that the MAE Condition, the Representations Condition and the Covenants Condition have been satisfied (the \u201cCompliance Certificate Condition\u201d);\n(viii)\nthe Merger Agreement having not been terminated in accordance with its terms (such condition, the\n\u201cTermination Condition\u201d); and\n(ix)\nthe occurrence of January\u00a029, 2021 (the \u201cInside Date\u201d) (such condition, the \u201cInside Date\nCondition\u201d).",
+      "method": "gliner",
+      "confidence": 0.5002040863037109,
+      "rank_score": 1.1502040863037108,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        3190,
+        3206
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "expiration_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "September\u00a02, 2020",
+      "passage": "The process letter established September\u00a02, 2020 as the deadline to submit a preliminary\nnon-binding\nindication of interest.",
+      "method": "gliner",
+      "confidence": 0.49369123578071594,
+      "rank_score": 1.1436912357807159,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        2101,
+        2118
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "NYSE American",
+      "passage": "On November\u00a030, 2020, the last NYSE American trading day prior to the commencement of this Offer, the closing price of Shares reported on\nthe NYSE American was $6.97 per Share.",
+      "method": "gliner",
+      "confidence": 0.9536087512969971,
+      "rank_score": 1.1036087512969972,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        448,
+        461
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "date of the closing of the Merger",
+      "passage": "Subject to certain conditions, the indebtedness provided under the Debt Commitment Letter will\nbe fully drawn on the date of the closing of the Merger and available to the Borrowers (as the term is defined in the Debt Commitment Letter), to refinance a portion of Parent\u2019s existing indebtedness. Funding of the Debt Financing and the\nEquity Financing is subject to the satisfaction of various conditions set forth in the Debt Commitment Letter and the Equity Commitment Letter.",
+      "method": "gliner",
+      "confidence": 0.7675238251686096,
+      "rank_score": 1.0975238251686097,
+      "doc_role": "otp",
+      "section": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "faq_question": "Do you have the financial resources to pay for all of the issued and outstanding Shares that you are offering to purchase in the Offer and to consummate\nthe Merger and the other transactions contemplated by the Merger Agreement?",
+      "char_span": [
+        1006,
+        1039
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and Purchaser",
+      "passage": "Parent and Purchaser expressly disclaim beneficial ownership of all Shares covered by the Tender and Support Agreement.",
+      "method": "gliner",
+      "confidence": 0.9354965686798096,
+      "rank_score": 1.0854965686798097,
+      "doc_role": "otp",
+      "section": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "faq_question": "Have any stockholders already agreed to tender their Shares in the Offer or to otherwise support the Offer?",
+      "char_span": [
+        648,
+        668
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "11:59 P.M.",
+      "passage": "Scheduled Expiration of Offer\n11:59 P.M., New York City time, on December\u00a029, 2020 (\u201cOffer Expiration Time\u201d), unless the Offer is extended or terminated.",
+      "method": "gliner",
+      "confidence": 0.7481138706207275,
+      "rank_score": 1.0781138706207276,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2892,
+        2902
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "FR Utility Service, Inc.",
+      "passage": "Subject Company Information\u2014Name and Address\n\u201d\nabove.\nTender Offer.\nThis Schedule\n14D-9\nrelates to the tender offer by FR Utility Services Merger Sub, Inc., a Delaware corporation (\u201c\nAcquisition Sub\n\u201d) and a wholly owned subsidiary of FR Utility Service, Inc., a Delaware\ncorporation (\u201c\nFR Utility\n\u201d), as disclosed in the Tender Offer Statement on Schedule TO (together with the exhibits thereto, as amended, the \u201c\nSchedule TO\n\u201d), filed by Acquisition Sub with the Securities and Exchange\nCommission (the \u201c\nSEC\n\u201d) on December\u00a01, 2020 pursuant to which Acquisition Sub has offered to purchase all of the outstanding Shares for a purchase price of $7.00 per Sha",
+      "method": "gliner",
+      "confidence": 0.760626494884491,
+      "rank_score": 1.060626494884491,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2973,
+        2997
+      ],
+      "source_hit_id": "0001193125-20-306390:d32196dsc14d9.htm",
+      "source_accession": "0001193125-20-306390",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "First Reserve",
+      "passage": "First Reserve, or an affiliate thereof, is the controlling\nstockholder of Parent.",
+      "method": "gliner",
+      "confidence": 0.8916496634483337,
+      "rank_score": 1.0416496634483337,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        3893,
+        3906
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "FIRST RESERVE FUND XIV, L.P.",
+      "passage": "SC TO-T\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE TO\nTENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)\nOF THE SECURITIES EXCHANGE ACT OF 1934\nTHE GOLDFIELD\nCORPORATION\n(Name of Subject Company (Issuer))\nFR UTILITY SERVICES MERGER SUB, INC.\n(Offeror)\nA direct\nwholly owned subsidiary of\nFR UTILITY SERVICES, INC.\n(Parent of Offeror)\nFIRST RESERVE FUND XIV, L.P.\n(Other Person)\n(Names of\nFiling Persons (identifying status as Offeror, Issuer or Other Person))\nCOMMON STOCK, PAR VALUE $0.10 PER SHARE\n(Title of Class\u00a0of Securities)\n381370105\n(CUSIP Number\nof Class\u00a0of Securities)\nAnne E.",
+      "method": "gliner",
+      "confidence": 0.6369261741638184,
+      "rank_score": 1.0369261741638185,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        379,
+        407
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "vice, Inc.",
+      "passage": "Subject Company Information\u2014Name and Address\n\u201d\nabove.\nTender Offer.\nThis Schedule\n14D-9\nrelates to the tender offer by FR Utility Services Merger Sub, Inc., a Delaware corporation (\u201c\nAcquisition Sub\n\u201d) and a wholly owned subsidiary of FR Utility Service, Inc., a Delaware\ncorporation (\u201c\nFR Utility\n\u201d), as disclosed in the Tender Offer Statement on Schedule TO (together with the exhibits thereto, as amended, the \u201c\nSchedule TO\n\u201d), filed by Acquisition Sub with the Securities and Exchange\nCommission (the \u201c\nSEC\n\u201d) on December\u00a01, 2020 pursuant to which Acquisition Sub has offered to purchase all of the outstanding Shares for a purchase price of $7.00 per Sha",
+      "method": "gliner",
+      "confidence": 0.7263761758804321,
+      "rank_score": 1.0263761758804322,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        2987,
+        2997
+      ],
+      "source_hit_id": "0001193125-20-306390:d32196dsc14d9.htm",
+      "source_accession": "0001193125-20-306390",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "The Purchaser",
+      "passage": "The Purchaser is offering to purchase all of the issued and outstanding Shares. The Purchaser is a Delaware corporation which was formed for\nthe sole purpose of making the Offer and completing the process by which\n1",
+      "method": "gliner",
+      "confidence": 0.8657567501068115,
+      "rank_score": 1.0157567501068114,
+      "doc_role": "otp",
+      "section": "Who is offering to buy my Shares?",
+      "faq_question": "Who is offering to buy my Shares?",
+      "char_span": [
+        80,
+        93
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Delaware corporation",
+      "passage": "The Purchaser is offering to purchase all of the issued and outstanding Shares. The Purchaser is a Delaware corporation which was formed for\nthe sole purpose of making the Offer and completing the process by which\n1",
+      "method": "gliner",
+      "confidence": 0.6539671421051025,
+      "rank_score": 1.0039671421051026,
+      "doc_role": "otp",
+      "section": "Who is offering to buy my Shares?",
+      "faq_question": "Who is offering to buy my Shares?",
+      "char_span": [
+        99,
+        119
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "K&L Gates",
+      "passage": "Further on November\u00a022, 2020, representatives of K&L Gates sent a revised draft of the Merger Agreement to representatives of Simpson Thacher.\nThroughout the day on November 23, 2020, representatives of Simpson Thacher and representatives of K&L Gates had discussions and exchanged\ndraft documentation to finalize the Merger Agreement and related documents, including the disclosure schedules.",
+      "method": "gliner",
+      "confidence": 0.8940362334251404,
+      "rank_score": 0.9940362334251404,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        12588,
+        12597
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Surviving\nCorporation",
+      "passage": "Nevertheless, the management and/or the board of directors of Parent or the Surviving\nCorporation may initiate a review of the Surviving Corporation to determine what changes, if any, would be desirable following the Offer and the Merger to enhance the business and operations of the Surviving Corporation and may cause the Surviving\nCorporation to engage in certain extraordinary corporate transactions, such as reorganizations, mergers or sales or purchases of assets, if the management and/or board of directors of Parent or the Surviving Corporation decide that such transactions\nare in the best interest of Parent or the Surviving Corporation upon such review.",
+      "method": "gliner",
+      "confidence": 0.6926328539848328,
+      "rank_score": 0.9926328539848328,
+      "doc_role": "otp",
+      "section": "12.",
+      "faq_question": null,
+      "char_span": [
+        2418,
+        2439
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Tyson Foods, Inc.",
+      "passage": "Similarly, in\nTyson Foods, Inc. v.",
+      "method": "gliner",
+      "confidence": 0.6874135732650757,
+      "rank_score": 0.9874135732650757,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        4415,
+        4432
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "First\nReserve Fund XIV, L.P.",
+      "passage": "Offer)\n\u2610\nRule\n14d-1(d)\n(Cross-Border Third-Party Tender Offer)\nThis Tender Offer Statement on Schedule TO (together with any amendments and supplements hereto, this \u201cSchedule TO\u201d) is being\nfiled by (i)\u00a0FR Utility Services, Inc., a Delaware corporation (\u201cParent\u201d), (ii) FR Utility Services Merger Sub, Inc., a Delaware corporation and a wholly owned subsidiary of Parent (the \u201cPurchaser\u201d), and (iii)\u00a0First\nReserve Fund XIV, L.P., a Cayman Islands limited partnership, or an affiliate thereof, which is the controlling stockholder of both Parent and the Purchaser.",
+      "method": "gliner",
+      "confidence": 0.6873390078544617,
+      "rank_score": 0.9873390078544617,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        3390,
+        3418
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Simpson Thacher",
+      "passage": "Further on November\u00a022, 2020, representatives of K&L Gates sent a revised draft of the Merger Agreement to representatives of Simpson Thacher.\nThroughout the day on November 23, 2020, representatives of Simpson Thacher and representatives of K&L Gates had discussions and exchanged\ndraft documentation to finalize the Merger Agreement and related documents, including the disclosure schedules.",
+      "method": "gliner",
+      "confidence": 0.8844871520996094,
+      "rank_score": 0.9844871520996094,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        12742,
+        12757
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Goldfield",
+      "passage": "The information concerning\nGoldfield contained herein and elsewhere in this Offer to Purchase has been provided to Parent and the Purchaser by Goldfield or has been taken from or is based upon publicly available documents or records of Goldfield on file with the SEC or other\npublic sources at the time of the Offer (as defined in the \u201cIntroduction\u201d to this Offer to Purchase).",
+      "method": "gliner",
+      "confidence": 0.9251622557640076,
+      "rank_score": 0.9751622557640076,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1405,
+        1414
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "First Reserve",
+      "passage": "from the Wharton School of Business.\n65\nName\nPosition\nBusiness\u00a0Address\u00a0and\nCitizenship\nPresent Principal Occupation\nor Employment; Material\nPositions\nHeld During the Past Five Years\nJuan\u00a0Diego Vargas\nTreasurer\n600\u00a0Travis,\u00a0Suite\u00a06000, Houston, TX 77002\nUnited States\nJuan Diego Vargas, Director, joined First Reserve in 2007 as an Associate and returned to First Reserve as a Vice President in 2012 after earning his M.B.A.",
+      "method": "gliner",
+      "confidence": 0.8567378520965576,
+      "rank_score": 0.9567378520965576,
+      "doc_role": "otp",
+      "section": "SCHEDULE 1",
+      "faq_question": null,
+      "char_span": [
+        3296,
+        3309
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Grand Metropolitan PLC",
+      "passage": "federal district court in Florida held in\nGrand Metropolitan PLC v.",
+      "method": "gliner",
+      "confidence": 0.6543360948562622,
+      "rank_score": 0.9543360948562623,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        4772,
+        4794
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "commercial bank",
+      "passage": "See Section\u00a01 \u2013 \u201cTerms of the Offer\u201d and Section\u00a03 \u2013\n\u201cProcedures for Accepting the Offer and Tendering Shares.\u201d\nIf you hold Shares registered in the name of a broker, dealer,\ncommercial bank, trust company or other nominee, you should be aware that such institutions may establish their own earlier deadline for tendering Shares in the Offer.",
+      "method": "gliner",
+      "confidence": 0.8001108765602112,
+      "rank_score": 0.9501108765602112,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        1958,
+        1973
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "offeror_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Parent and the Purchaser",
+      "passage": "Parent and the Purchaser have not independently verified the accuracy and completeness of such information.",
+      "method": "gliner",
+      "confidence": 0.7933005690574646,
+      "rank_score": 0.9433005690574646,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1547,
+        1571
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "employee stock options",
+      "passage": "a partnership or other pass-through entity (or an investor in a partnership or other pass-through entity);\n\u2022\nan insurance company;\n\u2022\na mutual fund;\n\u2022\na dealer or broker in stocks and securities, or currencies;\n\u2022\na trader in securities that elects\nmark-to-market\ntreatment;\n\u2022\na regulated investment company;\n20\n\u2022\na real estate investment trust;\n\u2022\na person who acquired Shares through the exercise of employee stock options, or in other compensatory\ntransactions or who holds Shares that are subject to vesting restrictions;\n\u2022\na United States Holder (as defined below) that has a functional currency other than the United States dollar;\n\u2022\na person that holds Shares as part of a hedge, straddle, constructive sale, conversion or other integrated or\nrisk reduction transaction;\n\u2022\npersons who own or owned (actually or constr",
+      "method": "gliner",
+      "confidence": 0.8978900909423828,
+      "rank_score": 0.8978900909423828,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        1501,
+        1523
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "TLX Acquisition Corp.",
+      "passage": "Subsequently, in\nTLX Acquisition Corp. v.",
+      "method": "gliner",
+      "confidence": 0.5792983770370483,
+      "rank_score": 0.8792983770370484,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        4134,
+        4155
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Goldfield",
+      "passage": "However, due to the effect of and circumstances around\nCOVID-19,\nthe Goldfield Board decided that it would put the acquisition process on hold and First\nReserve\u2019s management team decided that they would reevaluate the opportunity with Goldfield at a later date.",
+      "method": "gliner",
+      "confidence": 0.8764793872833252,
+      "rank_score": 0.8764793872833252,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        1497,
+        1506
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Telex Corp.",
+      "passage": "Telex Corp.\n, a U.S.",
+      "method": "gliner",
+      "confidence": 0.5734907388687134,
+      "rank_score": 0.8734907388687134,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        4159,
+        4170
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "CTS Corp.",
+      "passage": "However, in 1987, in\nCTS Corp. v.",
+      "method": "gliner",
+      "confidence": 0.5711899399757385,
+      "rank_score": 0.8711899399757386,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        3545,
+        3554
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "THE GOLDFIELD CORPORATION",
+      "passage": "SC 14D-9\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSOLICITATION/RECOMMENDATION STATEMENT\nUNDER SECTION 14(d)(4) OF THE SECURITIES EXCHANGE ACT OF 1934\nTHE GOLDFIELD CORPORATION\n(Name of Subject Company)\nTHE GOLDFIELD\nCORPORATION\n(Name of Person Filing Statement)\nCommon Stock,\npar value $0.10 per share\n(Title of Class\u00a0of Securities)\n381370105\n(CUSIP Number\nof Class\u00a0of Securities)\nStephen R.",
+      "method": "gliner",
+      "confidence": 0.6009748578071594,
+      "rank_score": 0.8009748578071594,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        211,
+        236
+      ],
+      "source_hit_id": "0001193125-20-306390:d32196dsc14d9.htm",
+      "source_accession": "0001193125-20-306390",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "United States",
+      "passage": "See Section\u00a05 \u2013 \u201cMaterial United States Federal Income Tax Consequences\u201d for a summary of the material United States federal income tax consequences of tendering Shares pursuant to the Offer or\nexchanging Shares in the Merger.\nYou are urged to consult your own tax advisors to determine the tax consequences to you of the Offer\nand the Merger in light of your particular circumstances, including the application and effect of any state, local or non-United States tax laws.",
+      "method": "gliner",
+      "confidence": 0.5643987655639648,
+      "rank_score": 0.7143987655639649,
+      "doc_role": "otp",
+      "section": "What are the material United States federal income tax consequences of the Offer and the Merger to a\nUnited States Holder?",
+      "faq_question": "What are the material United States federal income tax consequences of the Offer and the Merger to a\nUnited States Holder?",
+      "char_span": [
+        1145,
+        1158
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number\nof Class\u00a0of Securities",
+      "passage": "20549\nSCHEDULE\n14D-9\n(Rule\n14d-101)\nSOLICITATION/RECOMMENDATION STATEMENT\nUNDER SECTION 14(d)(4) OF THE SECURITIES EXCHANGE ACT OF 1934\nTHE GOLDFIELD CORPORATION\n(Name of Subject Company)\nTHE GOLDFIELD\nCORPORATION\n(Name of Person Filing Statement)\nCommon Stock,\npar value $0.10 per share\n(Title of Class\u00a0of Securities)\n381370105\n(CUSIP Number\nof Class\u00a0of Securities)\nStephen R.",
+      "method": "gliner",
+      "confidence": 0.6983046531677246,
+      "rank_score": 0.6983046531677246,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        405,
+        440
+      ],
+      "source_hit_id": "0001193125-20-306390:d32196dsc14d9.htm",
+      "source_accession": "0001193125-20-306390",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE American",
+      "passage": "oved by the Securities Transfer Association, Inc., including the Security Transfer Agents Medallion Program, the New York Stock Exchange Medallion Signature Program and the Stock Exchanges Medallion Program (each, an \u201cEligible\nInstitution\u201d) may guarantee that the missing items will be received by the Depositary and Paying Agent within two trading days on The New York Stock Exchange American (the \u201cNYSE American\u201d).",
+      "method": "gliner",
+      "confidence": 0.5838258266448975,
+      "rank_score": 0.6338258266448975,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        1399,
+        1412
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "First Reserve",
+      "passage": "On October\u00a05, 2020, First Reserve\u2019s management team and\nrepresentatives of Stifel had a telephonic meeting to debrief and discuss thoughts and\nfollow-up\nquestions from the initial management presentation.\nOn October\u00a08, 2020, Stifel informed First Reserve that it had been invited to the second round of the process.",
+      "method": "gliner",
+      "confidence": 0.5188268423080444,
+      "rank_score": 0.6188268423080444,
+      "doc_role": "otp",
+      "section": "10.",
+      "faq_question": null,
+      "char_span": [
+        3201,
+        3214
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares of Goldfield",
+      "passage": "(the \u201cPurchaser\u201d) to purchase all of the issued and\noutstanding Shares of Goldfield, the undersigned encloses herewith and surrenders the certificate(s) representing Shares of Goldfield set forth above.\nDELIVERY OF THIS LETTER OF TRANSMITTAL TO AN ADDRESS OTHER THAN AS SET FORTH ABOVE OR TRANSMISSION OF INSTRUCTIONS VIA FACSIMILE TO A\nNUMBER OTHER THAN AS SET FORTH ABOVE WILL NOT CONSTITUTE A VALID DELIVERY.",
+      "method": "gliner",
+      "confidence": 0.5969844460487366,
+      "rank_score": 0.5969844460487366,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        2702,
+        2721
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1b.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "security_name",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "The New York Stock Exchange American",
+      "passage": "bank or a recognized Medallion\nProgram approved by the Securities Transfer Association, Inc., including the Security Transfer Agents Medallion Program, the New York Stock Exchange Medallion Signature Program and the Stock Exchanges Medallion Program (each, an \u201cEligible\nInstitution\u201d) may guarantee that the missing items will be received by the Depositary and Paying Agent within two trading days on The New York Stock Exchange American (the \u201cNYSE American\u201d).",
+      "method": "gliner",
+      "confidence": 0.5438565611839294,
+      "rank_score": 0.5938565611839295,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        1356,
+        1392
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "effective date of the merger",
+      "passage": "Moreover, the Purchaser may argue in an appraisal proceeding\nthat, for purposes of such a proceeding, the fair value of such Shares is less than the price paid in the Offer and the Merger.\nUnder\nSection\u00a0262 of the DGCL, where a merger is approved under Section\u00a0251(h) of the DGCL, either a constituent corporation before the effective date of the merger, or the surviving corporation within ten days\n62\nthereafter, shall notify each of the holders of any class or series of stock of such constituent corporation who are entitled to appraisal rights of the approval of the merger and that appraisal\nrights are available for any or all shares of such class or series of stock of such constituent corporation, and shall include in such notice a copy of Sec",
+      "method": "gliner",
+      "confidence": 0.5811790227890015,
+      "rank_score": 0.5811790227890015,
+      "doc_role": "otp",
+      "section": "17.",
+      "faq_question": null,
+      "char_span": [
+        1156,
+        1184
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "effective_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash",
+      "passage": "We do not think that our financial condition is\nrelevant to your decision whether to tender Shares and accept the Offer because:\n\u2022 the consideration offered in the Offer consists solely of cash;\n\u2022 the Offer is being made for all issued and outstanding Shares;",
+      "method": "gliner",
+      "confidence": 0.490407794713974,
+      "rank_score": 0.540407794713974,
+      "doc_role": "otp",
+      "section": "Is\nyour financial condition relevant to my decision to tender my Shares in the Offer?",
+      "faq_question": "Is\nyour financial condition relevant to my decision to tender my Shares in the Offer?",
+      "char_span": [
+        189,
+        193
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "alternative",
+      "passage": "See Instruction 9 of the Letter of\nTransmittal.\nNo alternative, conditional or contingent tenders will be accepted.",
+      "method": "gliner",
+      "confidence": 0.5395938754081726,
+      "rank_score": 0.5395938754081726,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        16120,
+        16131
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "available_option",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Goldfield\u2019s business",
+      "passage": "currently intend to delay acceptance for payment of Shares tendered pursuant to the Offer pending the outcome of any such matter, there can be no assurance\nthat any such approval or other action, if needed, would be obtained or would be obtained without substantial conditions or that if such approvals were not obtained or such other actions were not taken, adverse consequences might not result to\nGoldfield\u2019s business, or certain parts of Goldfield\u2019s business might not have to be disposed of, any of which could cause the Purchaser to elect to terminate the Offer without the purchase of Shares thereunder under certain conditions.",
+      "method": "gliner",
+      "confidence": 0.4006958305835724,
+      "rank_score": 0.5006958305835724,
+      "doc_role": "otp",
+      "section": "16.",
+      "faq_question": null,
+      "char_span": [
+        1481,
+        1501
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "puts or calls",
+      "passage": "er of the Participant Group, any of the persons listed in Schedule I, has any contract, arrangement, understanding or relationship with any other person with respect to any securities of Goldfield, including, but not limited to, any contract,\narrangement, understanding or relationship concerning the transfer or voting of such securities, finder\u2019s fees, joint ventures, loan or option arrangements, puts or calls, guarantees of loans, guarantees against loss, guarantees of profits,\ndivision of profits or loss or the giving or withholding of proxies, (ii)\u00a0during the two years prior to the date of this Offer to Purchase, there have been no transactions that would require reporting under the rules and regulations of the SEC\nbetween any member of the Participant Group or, to the knowledge of the members of th",
+      "method": "gliner",
+      "confidence": 0.45854949951171875,
+      "rank_score": 0.45854949951171875,
+      "doc_role": "otp",
+      "section": "8.",
+      "faq_question": null,
+      "char_span": [
+        3417,
+        3430
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "available_option",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "Accordingly, if you hold Shares registered in the name of a broker, dealer, commercial bank, trust company or other nominee, you should\ncontact such institution as soon as possible in order to determine the times by which you must take action in order to tender Shares in the Offer.",
+      "method": "gliner",
+      "confidence": 0.9577593207359314,
+      "rank_score": 0.45775932073593134,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        2388,
+        2394
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "ticker_symbol",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "United States",
+      "passage": "For\npurposes of this discussion, the term \u201cUnited States Holder\u201d means a beneficial owner of Shares that is, for United States federal income tax purposes:\n\u2022\na citizen or resident of the United States;\n\u2022\na corporation (or any other entity or arrangement treated as a corporation for United States federal income tax\npurposes) organized in or under the laws of the United States or any state thereof or the District of Columbia;\n21\n\u2022\nan estate, the income o",
+      "method": "gliner",
+      "confidence": 0.45494890213012695,
+      "rank_score": 0.45494890213012695,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        4345,
+        4358
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "common stock",
+      "passage": "Upon consummation of the Merger, Goldfield\u2019s common stock will no longer be eligible to be traded on the NYSE American or any other securities\nexchange, there will not be a public trading market for the common stock of Goldfield, and Goldfield will no longer be required to make filings with the SEC or otherwise comply with the rules of the SEC relating to publicly-held companies. See\nSection\u00a013 \u2013 \u201cCertain Effects of the Offer.\u201d",
+      "method": "gliner",
+      "confidence": 0.9294872879981995,
+      "rank_score": 0.4294872879981994,
+      "doc_role": "otp",
+      "section": "If the Offer is successfully completed, will Goldfield continue as a public company?",
+      "faq_question": "If the Offer is successfully completed, will Goldfield continue as a public company?",
+      "char_span": [
+        778,
+        790
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "ticker_symbol",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "terms",
+      "passage": "If you tender your Shares in the Offer, you will not be entitled to exercise appraisal rights with respect to your Shares but, instead, upon the terms\nand subject to the conditions to the Offer, you will receive the Offer Price for your Shares.",
+      "method": "gliner",
+      "confidence": 0.4239073693752289,
+      "rank_score": 0.4239073693752289,
+      "doc_role": "otp",
+      "section": "17.",
+      "faq_question": null,
+      "char_span": [
+        4048,
+        4053
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "proration_terms",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "certificates",
+      "passage": "If the Letter of Transmittal is signed\nby a person other than the registered owner(s) of such Shares listed, or if payment is to be made to or certificates for Shares representing Shares not tendered or accepted for payment are to be issued in the name of a person other than the\nregistered owners(s), then the tendered certificates must be endorsed or accompanied by appropriate stock powers, in either case, signed exactly as the name or names of the registered owner(s) or holder(s) appear on the certificates, with the\nsignatures on the certificates or stock powers guaranteed as described above.",
+      "method": "gliner",
+      "confidence": 0.41681969165802,
+      "rank_score": 0.41681969165802,
+      "doc_role": "otp",
+      "section": "3.",
+      "faq_question": null,
+      "char_span": [
+        4799,
+        4811
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "The Merger shall become effective upon the filing of the Certificate of\nMerger with the Secretary of State of the State of Delaware or at such other date or time as is agreed and specified in the Certificate of Merger (the \u201cEffective Time\u201d).",
+      "method": "gliner",
+      "confidence": 0.9559069275856018,
+      "rank_score": 0.40590692758560176,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        2649,
+        2663
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "effective_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "de minimis",
+      "passage": ", there has not been any Effect that has had or would reasonably be\nexpected to have a Company Material Adverse Effect (as defined in the Merger Agreement and described in Section\u00a011 \u2013 \u201cThe Merger Agreement; Other Agreements\u201d of the Offer to Purchase) (such condition, the \u201cMAE\nCondition\u201d);\n(v)\nthe accuracy of Goldfield\u2019s representations and warranties contained in the Merger Agreement (subject to\nde minimis\n, materiality and Company Material Adverse Effect (as defined in the Merger Agreement and described in Section\u00a011 \u2013 \u201cThe Merger Agreement; Other Agreements\u201d) qualifiers) (such condition, the \u201cRepresentations\nCondition\u201d);\n(vi)\nGoldfield having complied in all material respects with each of the covenants, obligations and agreements it is\nrequired to comply with or perform at or prior to the Effecti",
+      "method": "gliner",
+      "confidence": 0.40434521436691284,
+      "rank_score": 0.40434521436691284,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        2266,
+        2276
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Other Person)\n(Names of\nFiling Persons (identifying status as Offeror, Issuer or Other Person))\nCOMMON STOCK, PAR VALUE $0.10 PER SHARE\n(Title of Class\u00a0of Securities)\n381370105\n(CUSIP Number\nof Class\u00a0of Securities)\nAnne E.",
+      "method": "gliner",
+      "confidence": 0.6957944631576538,
+      "rank_score": 0.39579446315765376,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        587,
+        599
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "The obligations of Purchaser to, and of Parent to cause Purchaser to, accept for payment, and pay for, any Shares validly tendered (and not\nwithdrawn) pursuant to the Offer are subject only to the terms and conditions set forth in the Merger Agreement, including the prior satisfaction of or waiver by Parent or Purchaser in their sole discretion of the Minimum Condition, the Termination\nCondition and the other Offer Conditions.",
+      "method": "gliner",
+      "confidence": 0.8498754501342773,
+      "rank_score": 0.2998754501342773,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        1978,
+        1995
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "Offer Acceptance Time",
+      "passage": "d by Parent and its affiliates and excluding any Shares tendered pursuant to guaranteed delivery procedures that have not yet been \u201creceived\u201d (as such term is defined in\nSection\u00a0251(h)(6)(f) of the DGCL)) at least one share more than\none-half\nof the number of the Shares outstanding at the first time, irrevocably accepts for payment Shares validly tendered and not validly\nwithdrawn pursuant to the Offer Acceptance Time (such condition, the \u201cMinimum Condition\u201d);\n(ii)\nany waiting period (or any extension thereof) under the HSR Act applicable to the Transactions shall have\nexpired or been terminated (such condition, the \u201cRegulatory Condition\u201d);\n(iii)\nno governmental authority having jurisdiction over any party to the Merger Agreement has issued any order, nor\nany applicable law or other legal restraint, injunction",
+      "method": "gliner",
+      "confidence": 0.5661066770553589,
+      "rank_score": 0.16610667705535886,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        1170,
+        1191
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Share",
+      "passage": "On November\u00a030, 2020, the last NYSE American trading day prior to the commencement of this Offer, the closing price of Shares reported on\nthe NYSE American was $6.97 per Share.",
+      "method": "gliner",
+      "confidence": 0.600182831287384,
+      "rank_score": 0.10018283128738399,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        587,
+        592
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Representations\nCondition",
+      "passage": "ent; Other Agreements\u201d of the Offer to Purchase) (such condition, the \u201cMAE\nCondition\u201d);\n(v)\nthe accuracy of Goldfield\u2019s representations and warranties contained in the Merger Agreement (subject to\nde minimis\n, materiality and Company Material Adverse Effect (as defined in the Merger Agreement and described in Section\u00a011 \u2013 \u201cThe Merger Agreement; Other Agreements\u201d) qualifiers) (such condition, the \u201cRepresentations\nCondition\u201d);\n(vi)\nGoldfield having complied in all material respects with each of the covenants, obligations and agreements it is\nrequired to comply with or perform at or prior to the Effective Time (such condition, the \u201cCovenants Condition\u201d);\n(vii)\nParent and Purchaser having received a certificate of Goldfield, signed by an officer of Goldfield, dated the\ndate on which the Offer expires certifying that t",
+      "method": "gliner",
+      "confidence": 0.624977707862854,
+      "rank_score": 0.07497770786285396,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        2469,
+        2494
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Covenants Condition",
+      "passage": "erial Adverse Effect (as defined in the Merger Agreement and described in Section\u00a011 \u2013 \u201cThe Merger Agreement; Other Agreements\u201d) qualifiers) (such condition, the \u201cRepresentations\nCondition\u201d);\n(vi)\nGoldfield having complied in all material respects with each of the covenants, obligations and agreements it is\nrequired to comply with or perform at or prior to the Effective Time (such condition, the \u201cCovenants Condition\u201d);\n(vii)\nParent and Purchaser having received a certificate of Goldfield, signed by an officer of Goldfield, dated the\ndate on which the Offer expires certifying that the MAE Condition, the Representations Condition and the Covenants Condition have been satisfied (the \u201cCompliance Certificate Condition\u201d);\n(viii)\nthe Merger Agreement having not been terminated in accordance with its terms (such con",
+      "method": "gliner",
+      "confidence": 0.6148541569709778,
+      "rank_score": 0.06485415697097774,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        2706,
+        2725
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Termination\nCondition",
+      "passage": "The obligations of Purchaser to, and of Parent to cause Purchaser to, accept for payment, and pay for, any Shares validly tendered (and not\nwithdrawn) pursuant to the Offer are subject only to the terms and conditions set forth in the Merger Agreement, including the prior satisfaction of or waiver by Parent or Purchaser in their sole discretion of the Minimum Condition, the Termination\nCondition and the other Offer Conditions.",
+      "method": "gliner",
+      "confidence": 0.5935453772544861,
+      "rank_score": 0.04354537725448604,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        2001,
+        2022
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "Offer Expiration Time",
+      "passage": "The\nOffer and withdrawal rights will expire at 11:59 P.M., New York City time, on December\n29, 2020 (the \u201cOffer Expiration Time\u201d), unless the Offer is extended in accordance with the terms of the Merger Agreement.\nThe Offer is being made pursuant to the Agreement and Plan of Merger, dated as of November\u00a023, 2020, by and among Parent, the Purchaser\nand Goldfield (together with any amendments or supplements thereto, the \u201cMerger Agreement\u201d).",
+      "method": "gliner",
+      "confidence": 0.4433774948120117,
+      "rank_score": 0.0433774948120117,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        1317,
+        1338
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Offer Price",
+      "passage": "See Section\u00a015\u00a0\u2013 \u201cCertain Conditions of the Offer.\u201d Under the terms of the Merger Agreement, Purchaser has the right, but not the obligation, to at any time and from time to time in\nits sole discretion waive, in whole or in part, any Offer Condition or modify the terms of the Offer (including by increasing the Offer Price), except that without the prior written consent of Goldfield, Purchaser may not (i)\u00a0reduce the number\nof Shares subject to the Offer, (ii)\u00a0reduce the Offer Price (except as expressly required or permitted by the Merger Agreement), (iii) amend, modify, supplement or waive the Minimum Condition or the Termination Condition, (iv)\u00a0amend,\nmodify or supplement any Offer Condition, (v)\u00a0amend, modify or",
+      "method": "gliner",
+      "confidence": 0.5635682344436646,
+      "rank_score": 0.013568234443664506,
+      "doc_role": "otp",
+      "section": "11.",
+      "faq_question": null,
+      "char_span": [
+        2367,
+        2378
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Regulatory Condition",
+      "passage": "ore than\none-half\nof the number of the Shares outstanding at the first time, irrevocably accepts for payment Shares validly tendered and not validly\nwithdrawn pursuant to the Offer Acceptance Time (such condition, the \u201cMinimum Condition\u201d);\n(ii)\nany waiting period (or any extension thereof) under the HSR Act applicable to the Transactions shall have\nexpired or been terminated (such condition, the \u201cRegulatory Condition\u201d);\n(iii)\nno governmental authority having jurisdiction over any party to the Merger Agreement has issued any order, nor\nany applicable law or other legal restraint, injunction or prohibition is in effect, that makes consummation of the Offer, the acquisition of Shares by Parent or Purchaser, the Merger or the other Transactions illegal or otherwise prohibited (such\ncondition, the \u201cRestraint Condi",
+      "method": "gliner",
+      "confidence": 0.4980914890766144,
+      "rank_score": -0.051908510923385665,
+      "doc_role": "otp",
+      "section": "15.",
+      "faq_question": null,
+      "char_span": [
+        1395,
+        1415
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "This summary deals only with Shares held as capital assets, and does not address tax considerations applicable to any holder of Shares that may be subject to special treatment\nunder the United States federal income tax laws, including, without limitation:\n\u2022\na bank or other financial institution;\n\u2022\na\ntax-exempt\norganization;\n\u2022\na retirement plan or other\ntax-deferred\naccount;\n\u2022\na partnership or other pass-through entity (or an invest",
+      "method": "gliner",
+      "confidence": 0.8884372115135193,
+      "rank_score": -0.41156278848648076,
+      "doc_role": "otp",
+      "section": "5.",
+      "faq_question": null,
+      "char_span": [
+        752,
+        758
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Depositary and Paying Agent",
+      "passage": "These materials must\nreach the Depositary and Paying Agent before the Offer expires; or",
+      "method": "gliner",
+      "confidence": 0.4061449468135834,
+      "rank_score": -0.4938550531864167,
+      "doc_role": "otp",
+      "section": "How do I tender my Shares?",
+      "faq_question": "How do I tender my Shares?",
+      "char_span": [
+        1188,
+        1215
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "COMMON STOCK",
+      "passage": "(Other Person)\n(Names of\nFiling Persons (identifying status as Offeror, Issuer or Other Person))\nCOMMON STOCK, PAR VALUE $0.10 PER SHARE\n(Title of Class\u00a0of Securities)\n381370105\n(CUSIP Number\nof Class\u00a0of Securities)\nAnne E.",
+      "method": "gliner",
+      "confidence": 0.49338090419769287,
+      "rank_score": -0.6066190958023072,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        505,
+        517
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dsctot.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "Parent",
+      "passage": "then-scheduled Offer Expiration Time is five or less business days before February\u00a019, 2021, until 11:59 p.m., New York City Time, on the day before such date (or such other date and time as the parties to the Merger\nAgreement may agree) (each such extension period, an \u201cAdditional Offer Period\u201d); provided that, without Goldfield\u2019s written consent, Purchaser shall not extend the Offer, and without Parent\u2019s prior written consent, Purchaser\nshall not be required to extend the Offer, in each case, beyond the earlier of February\u00a019, 2021 or the valid termination of the Merger Agreement in accordance with its terms;",
+      "method": "gliner",
+      "confidence": 0.5086495876312256,
+      "rank_score": -0.7413504123687744,
+      "doc_role": "otp",
+      "section": "Can\nthe Offer be extended and under what circumstances?",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "char_span": [
+        1583,
+        1589
+      ],
+      "source_hit_id": "0001193125-20-306324:d29868dex99a1a.htm",
+      "source_accession": "0001193125-20-306324",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.814158+00:00"
+}

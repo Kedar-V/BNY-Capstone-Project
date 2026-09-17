@@ -1,0 +1,3111 @@
+{
+  "schema_version": "1",
+  "event_id": "005-38995",
+  "mvp_event_type": "tender_offer",
+  "cohort": "gold",
+  "preprocess_status": "ok",
+  "nlp_versions": {
+    "pipeline": "to_preprocess_gliner",
+    "gliner_model": "urchade/gliner_medium-v2.1"
+  },
+  "doc_inventory": [
+    {
+      "role": "cover",
+      "status": "ok",
+      "sha1": "8ce3e8c3d0d230b150f46f5b19f8e6f038516ea5",
+      "hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "accession": "0001193125-22-285216",
+      "filename": "d411777dsctot.htm"
+    },
+    {
+      "role": "otp",
+      "status": "ok",
+      "sha1": "8e1a0ff2e44ee4978ccafe1201e6adc69c63e79d",
+      "hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "accession": "0001193125-22-285216",
+      "filename": "d411777dex99a1a.htm"
+    },
+    {
+      "role": "lot",
+      "status": "ok",
+      "sha1": "81a72b7a26f3db79e4b56ac2326d476c17dc9da9",
+      "hit_id": "0001193125-22-285216:d411777dex99a1b.htm",
+      "accession": "0001193125-22-285216",
+      "filename": "d411777dex99a1b.htm"
+    },
+    {
+      "role": "sc_14d9",
+      "status": "ok",
+      "sha1": "872afa84aaeb80ec589628f23c2ab4aefe1eeb11",
+      "hit_id": "0001193125-22-285225:d359247dsc14d9.htm",
+      "accession": "0001193125-22-285225",
+      "filename": "d359247dsc14d9.htm"
+    }
+  ],
+  "entities": [
+    {
+      "label": "calendar_date",
+      "text": "December\u00a013, 2022",
+      "score": 0.9492958188056946,
+      "rank_score": 1.7292958188056946,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "October\u00a031, 2022",
+      "score": 0.9470574855804443,
+      "rank_score": 1.7270574855804444,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "December\u00a014, 2022",
+      "score": 0.9404220581054688,
+      "rank_score": 1.7204220581054688,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "November\u00a014, 2022",
+      "score": 0.9363815784454346,
+      "rank_score": 1.7163815784454346,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$40\u00a0million",
+      "score": 0.9269461631774902,
+      "rank_score": 1.7069461631774903,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$85\u00a0million",
+      "score": 0.9248508214950562,
+      "rank_score": 1.7048508214950562,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$380.00",
+      "score": 0.8966094255447388,
+      "rank_score": 1.6766094255447388,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "cusip_code",
+      "text": "003654100",
+      "score": 0.9227551221847534,
+      "rank_score": 1.6727551221847534,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "March\u00a031, 2022",
+      "score": 0.8645196557044983,
+      "rank_score": 1.6445196557044983,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:23",
+      "faq_question": "Will I be paid a dividend on my Shares during the pendency of the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$252.08",
+      "score": 0.823742151260376,
+      "rank_score": 1.603742151260376,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$374.10",
+      "score": 0.8164665102958679,
+      "rank_score": 1.596466510295868,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "calendar_date",
+      "text": "January\u00a013, 2023",
+      "score": 0.7975717186927795,
+      "rank_score": 1.5775717186927796,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$35.00",
+      "score": 0.7916667461395264,
+      "rank_score": 1.5716667461395264,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "money_amount",
+      "text": "$17.5\u00a0billion",
+      "score": 0.753344714641571,
+      "rank_score": 1.533344714641571,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "money_amount",
+      "text": "$1.6\u00a0billion",
+      "score": 0.6370736360549927,
+      "rank_score": 1.4170736360549927,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$355.00",
+      "score": 0.7450969219207764,
+      "rank_score": 1.3950969219207763,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_13",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "offer_price_amount",
+      "text": "$50.00 to $100.00",
+      "score": 0.6969891786575317,
+      "rank_score": 1.3469891786575316,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_13",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "money_amount",
+      "text": "Cash Amount",
+      "score": 0.9822596311569214,
+      "rank_score": 1.3122596311569215,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "September 1, 2023",
+      "score": 0.657579243183136,
+      "rank_score": 1.307579243183136,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_4",
+      "faq_question": null,
+      "section": "1. Terms of the Offer",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "ABMD",
+      "score": 0.9564915895462036,
+      "rank_score": 1.3064915895462037,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_10",
+      "faq_question": null,
+      "section": "7. Certain Information Concerning ABIOMED.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "July\u00a01, 2023",
+      "score": 0.6351069808006287,
+      "rank_score": 1.2851069808006286,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_4",
+      "faq_question": null,
+      "section": "1. Terms of the Offer",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "December\u00a013, 2022",
+      "score": 0.548531711101532,
+      "rank_score": 1.278531711101532,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "ABIOMED, Inc.",
+      "score": 0.8179165720939636,
+      "rank_score": 1.2179165720939638,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "money_amount",
+      "text": "$0.01",
+      "score": 0.4287322461605072,
+      "rank_score": 1.2087322461605072,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Athos Merger Sub, Inc.",
+      "score": 0.8538566827774048,
+      "rank_score": 1.2038566827774049,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Athos Merger Sub, Inc.",
+      "score": 0.8034186363220215,
+      "rank_score": 1.2034186363220216,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "January\u00a013, 2023",
+      "score": 0.4449448883533478,
+      "rank_score": 1.1749448883533478,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:15",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Cravath, Swaine\u00a0& Moore LLP",
+      "score": 0.7272607684135437,
+      "rank_score": 1.1272607684135438,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "date of the Merger Agreement",
+      "score": 0.7917356491088867,
+      "rank_score": 1.1217356491088868,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:6",
+      "faq_question": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Novartis Pharmaceuticals Corporation",
+      "score": 0.8180754780769348,
+      "rank_score": 1.1180754780769349,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "target corporation",
+      "score": 0.8064624667167664,
+      "rank_score": 1.1064624667167664,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_15",
+      "faq_question": null,
+      "section": "12. Purpose of",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "expiration_datetime",
+      "text": "11:59 p.m.",
+      "score": 0.762972354888916,
+      "rank_score": 1.092972354888916,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Johnson\u00a0& Johnson",
+      "score": 0.9391590356826782,
+      "rank_score": 1.0891590356826784,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:13",
+      "faq_question": "What are the conditions to the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Johnson\u00a0& Johnson",
+      "score": 0.9324490427970886,
+      "rank_score": 1.0824490427970888,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Janssen Pharmaceutical Inc.",
+      "score": 0.7321840524673462,
+      "rank_score": 1.0321840524673462,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_22",
+      "faq_question": null,
+      "section": "SCHEDULE I",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "org_name",
+      "text": "NASDAQ",
+      "score": 0.9651368856430054,
+      "rank_score": 1.0151368856430054,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:22",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "org_name",
+      "text": "ABIOMED",
+      "score": 0.9602013230323792,
+      "rank_score": 1.0102013230323792,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:27",
+      "faq_question": "What will happen to my restricted stock units in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "ABIOMED stockholders",
+      "score": 0.8752657175064087,
+      "rank_score": 0.9752657175064087,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "ABIOMED, Inc.",
+      "score": 0.6223539710044861,
+      "rank_score": 0.9723539710044862,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Robert I. Townsend, III",
+      "score": 0.5705186128616333,
+      "rank_score": 0.9705186128616333,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NYSE",
+      "score": 0.6184818744659424,
+      "rank_score": 0.9684818744659424,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_13",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "acquiring corporation",
+      "score": 0.6644589304924011,
+      "rank_score": 0.9644589304924012,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_15",
+      "faq_question": null,
+      "section": "12. Purpose of",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Surviving Corporation",
+      "score": 0.6444636583328247,
+      "rank_score": 0.9444636583328248,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_15",
+      "faq_question": null,
+      "section": "12. Purpose of",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "offeror_organization",
+      "text": "Eligible Institution",
+      "score": 0.8433225750923157,
+      "rank_score": 0.9433225750923157,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_6",
+      "faq_question": null,
+      "section": "3. Procedures for Accepting the Offer and Tendering Shares.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "cusip_code",
+      "text": "Transaction\u00a0Code\u00a0Number",
+      "score": 0.9264101982116699,
+      "rank_score": 0.9264101982116699,
+      "doc_role": "lot",
+      "segment_id": "lot:full",
+      "faq_question": null,
+      "section": "lot",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "available_option",
+      "text": "Out-of-the-Money Option",
+      "score": 0.8486879467964172,
+      "rank_score": 0.8986879467964173,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "calendar_date",
+      "text": "next business day",
+      "score": 0.556254506111145,
+      "rank_score": 0.8862545061111451,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:12",
+      "faq_question": "How will I be notified if the\nOffer is extended?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "commercial bank",
+      "score": 0.7222880721092224,
+      "rank_score": 0.8722880721092224,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:10",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "employee\n22\nTable of Contents\nstock options",
+      "score": 0.8639522194862366,
+      "rank_score": 0.8639522194862366,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_8",
+      "faq_question": null,
+      "section": "5. Material",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "ABIOMED Options",
+      "score": 0.8636781573295593,
+      "rank_score": 0.8636781573295593,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_12",
+      "faq_question": null,
+      "section": "9. Source and Amount of Funds.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "ABIOMED",
+      "score": 0.8591683506965637,
+      "rank_score": 0.8591683506965637,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "calendar_date",
+      "text": "date hereof",
+      "score": 0.5146026611328125,
+      "rank_score": 0.8446026611328126,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "J.P.\nMorgan Securities LLC",
+      "score": 0.49977239966392517,
+      "rank_score": 0.7997723996639252,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_13",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "target_organization",
+      "text": "ABIOMED",
+      "score": 0.5994731187820435,
+      "rank_score": 0.7994731187820434,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "currency_code",
+      "text": "CVRs",
+      "score": 0.7432189583778381,
+      "rank_score": 0.7932189583778382,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "currency_code",
+      "text": "CVR",
+      "score": 0.7393540740013123,
+      "rank_score": 0.7893540740013123,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Surviving\nCorporation",
+      "score": 0.466286301612854,
+      "rank_score": 0.766286301612854,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_15",
+      "faq_question": null,
+      "section": "12. Purpose of",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "New Jersey corporation",
+      "score": 0.4564622640609741,
+      "rank_score": 0.7564622640609742,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number\nof Class\u00a0of Securities",
+      "score": 0.7553831338882446,
+      "rank_score": 0.7553831338882446,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "ABIOMED PSUs",
+      "score": 0.743960440158844,
+      "rank_score": 0.743960440158844,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_12",
+      "faq_question": null,
+      "section": "9. Source and Amount of Funds.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "NASDAQ",
+      "score": 0.7352676391601562,
+      "rank_score": 0.7352676391601562,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_13",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "chunk_id": "w7"
+    },
+    {
+      "label": "available_option",
+      "text": "stock options",
+      "score": 0.7188206315040588,
+      "rank_score": 0.7188206315040588,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_10",
+      "faq_question": null,
+      "section": "7. Certain Information Concerning ABIOMED.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "available_option",
+      "text": "short-term financing",
+      "score": 0.6629350781440735,
+      "rank_score": 0.7129350781440735,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w1"
+    },
+    {
+      "label": "security_name",
+      "text": "ABIOMED, Inc.",
+      "score": 0.4842490255832672,
+      "rank_score": 0.6842490255832672,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "Offeror\nPurchaser",
+      "score": 0.5197536945343018,
+      "rank_score": 0.6697536945343018,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "ABIOMED Options",
+      "score": 0.6598990559577942,
+      "rank_score": 0.6598990559577942,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_12",
+      "faq_question": null,
+      "section": "9. Source and Amount of Funds.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "financial institution",
+      "score": 0.5391741394996643,
+      "rank_score": 0.6391741394996643,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_6",
+      "faq_question": null,
+      "section": "3. Procedures for Accepting the Offer and Tendering Shares.",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "available_option",
+      "text": "In-the-Money Option",
+      "score": 0.5883258581161499,
+      "rank_score": 0.63832585811615,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:25",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "currency_code",
+      "text": "cash",
+      "score": 0.580776572227478,
+      "rank_score": 0.6307765722274781,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "purchaser_organization",
+      "text": "U.S. Department of Justice",
+      "score": 0.519285261631012,
+      "rank_score": 0.6192852616310119,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_2",
+      "faq_question": null,
+      "section": "INTRODUCTION",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "available_option",
+      "text": "ABIOMED stock options",
+      "score": 0.5597884654998779,
+      "rank_score": 0.609788465499878,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:8",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "ABIOMED RSUs",
+      "score": 0.59955233335495,
+      "rank_score": 0.59955233335495,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_12",
+      "faq_question": null,
+      "section": "9. Source and Amount of Funds.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "ABIOMED",
+      "score": 0.5434860587120056,
+      "rank_score": 0.5934860587120057,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_1",
+      "faq_question": null,
+      "section": "SUMMARY TERM SHEET",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "ABIOMED PSUs",
+      "score": 0.5886009931564331,
+      "rank_score": 0.5886009931564331,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_12",
+      "faq_question": null,
+      "section": "9. Source and Amount of Funds.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "ABIOMED",
+      "score": 0.575770914554596,
+      "rank_score": 0.575770914554596,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_11",
+      "faq_question": null,
+      "section": "8. Certain Information Concerning Johnson\u00a0& Johnson and Purchaser.",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "ABIOMED PSUs",
+      "score": 0.5255881547927856,
+      "rank_score": 0.5755881547927857,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:26",
+      "faq_question": "What will happen to my performance stock units in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "ABIOMED RSUs",
+      "score": 0.5731737613677979,
+      "rank_score": 0.5731737613677979,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_12",
+      "faq_question": null,
+      "section": "9. Source and Amount of Funds.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "Acceptance Time",
+      "score": 0.829376220703125,
+      "rank_score": 0.559376220703125,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:18",
+      "faq_question": "When and how will I be paid\nfor my tendered Shares?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificates",
+      "score": 0.5478116869926453,
+      "rank_score": 0.5478116869926453,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_5",
+      "faq_question": null,
+      "section": "2. Acceptance for Payment and Payment for Shares.",
+      "chunk_id": "w1"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Company ESPP",
+      "score": 0.5359519124031067,
+      "rank_score": 0.5359519124031067,
+      "doc_role": "sc_14d9",
+      "segment_id": "sc_14d9:full",
+      "faq_question": null,
+      "section": "sc_14d9",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "CVRs",
+      "score": 0.46949630975723267,
+      "rank_score": 0.5194963097572327,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "available_option",
+      "text": "contingent value right",
+      "score": 0.4907589256763458,
+      "rank_score": 0.4907589256763458,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_13",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "security_name",
+      "text": "Share Certificate",
+      "score": 0.48041313886642456,
+      "rank_score": 0.48041313886642456,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_6",
+      "faq_question": null,
+      "section": "3. Procedures for Accepting the Offer and Tendering Shares.",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Minimum Condition",
+      "score": 0.9696084260940552,
+      "rank_score": 0.4696084260940551,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:11",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "target_organization",
+      "text": "AdvaMed",
+      "score": 0.459743469953537,
+      "rank_score": 0.459743469953537,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_13",
+      "faq_question": null,
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "proration_terms",
+      "text": "Offer\nConditions",
+      "score": 0.4527489244937897,
+      "rank_score": 0.4527489244937897,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_4",
+      "faq_question": null,
+      "section": "1. Terms of the Offer",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "currency_code",
+      "text": "U.S. dollar",
+      "score": 0.4469972550868988,
+      "rank_score": 0.4469972550868988,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_8",
+      "faq_question": null,
+      "section": "5. Material",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "security_name",
+      "text": "capital stock",
+      "score": 0.4381151795387268,
+      "rank_score": 0.4381151795387268,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_17",
+      "faq_question": null,
+      "section": "14. Dividends and Distributions.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "withdrawal_datetime",
+      "text": "Expiration Time",
+      "score": 0.8221144676208496,
+      "rank_score": 0.4221144676208496,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_7",
+      "faq_question": null,
+      "section": "4. Withdrawal Rights",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "cusip_code",
+      "text": "CUSIP Number",
+      "score": 0.7204134464263916,
+      "rank_score": 0.42041344642639156,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Effective Time",
+      "score": 0.9642264246940613,
+      "rank_score": 0.41422642469406123,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_15",
+      "faq_question": null,
+      "section": "12. Purpose of",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "Shares",
+      "score": 0.9093645811080933,
+      "rank_score": 0.4093645811080932,
+      "doc_role": "otp",
+      "segment_id": "otp:faq:9",
+      "faq_question": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "section": null,
+      "chunk_id": "w0"
+    },
+    {
+      "label": "settlement_datetime",
+      "text": "Acceptance Time",
+      "score": 0.8114380240440369,
+      "rank_score": 0.2614380240440368,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_16",
+      "faq_question": null,
+      "section": "13. Certain Effects of the Offer.",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "ticker_symbol",
+      "text": "COMMON STOCK",
+      "score": 0.5410288572311401,
+      "rank_score": 0.19102885723114005,
+      "doc_role": "cover",
+      "segment_id": "cover:full",
+      "faq_question": null,
+      "section": "cover",
+      "chunk_id": "w0"
+    },
+    {
+      "label": "effective_datetime",
+      "text": "Acceptance Time",
+      "score": 0.6925172209739685,
+      "rank_score": 0.14251722097396846,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_16",
+      "faq_question": null,
+      "section": "13. Certain Effects of the Offer.",
+      "chunk_id": "w2"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "No Legal Restraint Condition",
+      "score": 0.6210510730743408,
+      "rank_score": 0.07105107307434078,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_4",
+      "faq_question": null,
+      "section": "1. Terms of the Offer",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Antitrust Clearance Condition",
+      "score": 0.5769603848457336,
+      "rank_score": 0.026960384845733598,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_4",
+      "faq_question": null,
+      "section": "1. Terms of the Offer",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "No Antitrust Proceedings Condition",
+      "score": 0.5029768943786621,
+      "rank_score": -0.047023105621337935,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_4",
+      "faq_question": null,
+      "section": "1. Terms of the Offer",
+      "chunk_id": "w3"
+    },
+    {
+      "label": "minimum_tender_condition",
+      "text": "Termination Condition",
+      "score": 0.40856310725212097,
+      "rank_score": -0.14143689274787907,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_4",
+      "faq_question": null,
+      "section": "1. Terms of the Offer",
+      "chunk_id": "w4"
+    },
+    {
+      "label": "security_name",
+      "text": "CVRs",
+      "score": 0.45402154326438904,
+      "rank_score": -0.24597845673561092,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_8",
+      "faq_question": null,
+      "section": "5. Material",
+      "chunk_id": "w6"
+    },
+    {
+      "label": "security_name",
+      "text": "Shares",
+      "score": 0.9041980504989624,
+      "rank_score": -0.39580194950103764,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_8",
+      "faq_question": null,
+      "section": "5. Material",
+      "chunk_id": "w5"
+    },
+    {
+      "label": "target_organization",
+      "text": "DTC",
+      "score": 0.4807235598564148,
+      "rank_score": -0.46927644014358527,
+      "doc_role": "otp",
+      "segment_id": "otp:section:toc411777_5",
+      "faq_question": null,
+      "section": "2. Acceptance for Payment and Payment for Shares.",
+      "chunk_id": "w6"
+    }
+  ],
+  "candidate_facts": [
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a013, 2022",
+      "passage": "You will have until 11:59 p.m., New York City time, on December\u00a013, 2022, which is the date that is 20 business days after the commencement of the Offer\n(the \u201c Expiration Time \u201d), unless Purchaser has extended the Offer pursuant to and in accordance with the Merger Agreement (in which event the \u201cExpiration Time\u201d will mean the latest time and date at which the Offer, as so\nextended by Purchaser, will expire) or the Offer is earlier terminated pursuant to and in accorda",
+      "method": "gliner",
+      "confidence": 0.9492958188056946,
+      "rank_score": 1.7292958188056946,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        55,
+        72
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "October\u00a031, 2022",
+      "passage": "On October\u00a031, 2022, the last full trading day before the public announcement of the execution of the Merger Agreement, the closing sale price per Share\nreported on NASDAQ was $252.08 per Share. On November\u00a014, 2022, the last full trading day before the commencement of the Offer, the reported closing sale price on NASDAQ was $374.10 per Share.\nSee Section\u00a06\u2014\u201cPrice Range of Shares; Dividends\u201d.",
+      "method": "gliner",
+      "confidence": 0.9470574855804443,
+      "rank_score": 1.7270574855804444,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        3,
+        19
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "December\u00a014, 2022",
+      "passage": "Scheduled Expiration of Offer\nExpiration of the Offer will occur at 11:59 p.m., New York City time, on December\u00a013, 2022, unless the Offer is extended or earlier terminated in accordance with the Merger Agreement (as defined below); acceptance and payment\nfor Shares is expected to occur on December\u00a014, 2022 unless the Offer is extended pursuant to the terms of the Merger Agreement.\nOfferor\nPurchaser.\nWho is offering to purchase my Shares?\nPurchaser, which is a wholly owned subsidiary of Johnson\u00a0& Johnson, is offering to purchase for cash all of the outstanding Shares.",
+      "method": "gliner",
+      "confidence": 0.9404220581054688,
+      "rank_score": 1.7204220581054688,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2253,
+        2270
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "November\u00a014, 2022",
+      "passage": "On October\u00a031, 2022, the last full trading day before the public announcement of the execution of the Merger Agreement, the closing sale price per Share\nreported on NASDAQ was $252.08 per Share. On November\u00a014, 2022, the last full trading day before the commencement of the Offer, the reported closing sale price on NASDAQ was $374.10 per Share.\nSee Section\u00a06\u2014\u201cPrice Range of Shares; Dividends\u201d.",
+      "method": "gliner",
+      "confidence": 0.9363815784454346,
+      "rank_score": 1.7163815784454346,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        198,
+        215
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$40\u00a0million",
+      "passage": "The CVR Agreement requires Johnson\u00a0& Johnson to, with respect to each of (a)\u00a0the STEMI Recommendation\nMilestone and the FDA Approval Milestone, (b)\u00a0the HRPCI Milestone and (c)\u00a0the Cardiogenic Shock Milestone, expend at least $40\u00a0million, $85\u00a0million and $40\u00a0million, respectively (with each such amount to be adjusted prior to\nentry into the CVR Agreement to deduct any amounts actually incurred or spent by ABIOMED with respect to the foregoing following the date of the Merger Agreement), towards the achievement of such Milestone(s), subject to certain exceptions specified\nin the CVR Agreement.\u00a0Other than with respect to these commitments, Johnson\u00a0& Johnson (i",
+      "method": "gliner",
+      "confidence": 0.9269461631774902,
+      "rank_score": 1.7069461631774903,
+      "doc_role": "otp",
+      "section": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "faq_question": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "char_span": [
+        543,
+        554
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$85\u00a0million",
+      "passage": "The CVR Agreement requires Johnson\u00a0& Johnson to, with respect to each of (a)\u00a0the STEMI Recommendation\nMilestone and the FDA Approval Milestone, (b)\u00a0the HRPCI Milestone and (c)\u00a0the Cardiogenic Shock Milestone, expend at least $40\u00a0million, $85\u00a0million and $40\u00a0million, respectively (with each such amount to be adjusted prior to\nentry into the CVR Agreement to deduct any amounts actually incurred or spent by ABIOMED with respect to the foregoing following the date of the Merger Agreement), towards the achievement of such Milestone(s), subject to certain exceptions specified\nin the CVR Agreement.\u00a0Other than with respect to these commitments, John",
+      "method": "gliner",
+      "confidence": 0.9248508214950562,
+      "rank_score": 1.7048508214950562,
+      "doc_role": "otp",
+      "section": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "faq_question": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "char_span": [
+        527,
+        538
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$380.00",
+      "passage": "Upon consummation of the Merger, ABIOMED would cease to be a publicly traded company and would be a\nwholly owned subsidiary of Johnson\u00a0& Johnson.\nSee Section\u00a012\u2014\u201cPurpose of the Offer; Plans for ABIOMED\u201d.\nHow much are you offering to pay and what is the form of payment? Will I have to pay any fees or commissions?\nWe are offering to pay $380.00 per Share, net to the seller in cash, without interest and less any required withholding taxes, plus one CVR representing the\nright to receive contingent cash payments of up to $35.00 per Share in the aggregate, without interest and less any required withholding taxes, if specified milestones are achieved.",
+      "method": "gliner",
+      "confidence": 0.8966094255447388,
+      "rank_score": 1.6766094255447388,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        4187,
+        4194
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "003654100",
+      "passage": "(Offeror)\nA Wholly Owned\nSubsidiary of\nJOHNSON\u00a0& JOHNSON\n(Parent of Offeror)\n(Names of Filing Persons (identifying status as offeror, issuer or other person))\nCOMMON STOCK, PAR VALUE $0.01 PER SHARE\n(Title of Class\u00a0of Securities)\n003654100\n(CUSIP Number\nof Class\u00a0of Securities)\nNicholas Antoun\nJohnson\u00a0& Johnson\nOne Johnson\u00a0& Johnson Plaza\nNew Brunswick, NJ 08933\n(732)\n524-0400\n(Name, address and telephone number of person authorized to receive notices and communications on behalf of filing persons)\nwith copies to:\nRobert I.",
+      "method": "gliner",
+      "confidence": 0.9227551221847534,
+      "rank_score": 1.6727551221847534,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        497,
+        506
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "March\u00a031, 2022",
+      "passage": "No. The Merger Agreement provides that from the date of the Merger Agreement to the Effective Time, without the prior written consent of Johnson\u00a0&\nJohnson, ABIOMED will not declare, set aside, make or pay any dividend or distribution (whether in cash, stock or property) on the Shares. According to ABIOMED\u2019s Annual Report on Form 10-K for the year\nended March\u00a031, 2022 filed with the SEC, ABIOMED has never declared or paid any cash dividend on the Shares.\nSee Section\u00a06\u2014\u201cPrice\nRange of Shares; Dividends\u201d.",
+      "method": "gliner",
+      "confidence": 0.8645196557044983,
+      "rank_score": 1.6445196557044983,
+      "doc_role": "otp",
+      "section": "Will I be paid a dividend on my Shares during the pendency of the Offer?",
+      "faq_question": "Will I be paid a dividend on my Shares during the pendency of the Offer?",
+      "char_span": [
+        355,
+        369
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$252.08",
+      "passage": "On October\u00a031, 2022, the last full trading day before the public announcement of the execution of the Merger Agreement, the closing sale price per Share\nreported on NASDAQ was $252.08 per Share. On November\u00a014, 2022, the last full trading day before the commencement of the Offer, the reported closing sale price on NASDAQ was $374.10 per Share.\nSee Section\u00a06\u2014\u201cPrice Range of Shares; Dividends\u201d.",
+      "method": "gliner",
+      "confidence": 0.823742151260376,
+      "rank_score": 1.603742151260376,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        176,
+        183
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$374.10",
+      "passage": "On October\u00a031, 2022, the last full trading day before the public announcement of the execution of the Merger Agreement, the closing sale price per Share\nreported on NASDAQ was $252.08 per Share. On November\u00a014, 2022, the last full trading day before the commencement of the Offer, the reported closing sale price on NASDAQ was $374.10 per Share.\nSee Section\u00a06\u2014\u201cPrice Range of Shares; Dividends\u201d.",
+      "method": "gliner",
+      "confidence": 0.8164665102958679,
+      "rank_score": 1.596466510295868,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        327,
+        334
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "January\u00a013, 2023",
+      "passage": "Shares tendered pursuant to the Offer may be withdrawn at any time prior to the Expiration Time and, unless accepted for payment by Purchaser pursuant to the Offer, may also be\nwithdrawn at any time after January\u00a013, 2023, which is the 60th day after the date of the commencement of the Offer.\nSee\nSection\u00a04\u2014\u201cWithdrawal Rights\u201d.\nWill there be a subsequent offering period ?\nNo.",
+      "method": "gliner",
+      "confidence": 0.7975717186927795,
+      "rank_score": 1.5775717186927796,
+      "doc_role": "otp",
+      "section": "Until what time may I withdraw previously tendered Shares?",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "char_span": [
+        420,
+        436
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$35.00",
+      "passage": "How much are you offering to pay and what is the form of payment? Will I have to pay any fees or commissions?\nWe are offering to pay $380.00 per Share, net to the seller in cash, without interest and less any required withholding taxes, plus one CVR representing the\nright to receive contingent cash payments of up to $35.00 per Share in the aggregate, without interest and less any required withholding taxes, if specified milestones are achieved.",
+      "method": "gliner",
+      "confidence": 0.7916667461395264,
+      "rank_score": 1.5716667461395264,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        4372,
+        4378
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$17.5\u00a0billion",
+      "passage": "The total amount of funds estimated to be required by\nJohnson\u00a0& Johnson and Purchaser to consummate the Offer and purchase all outstanding Shares in the Offer, to complete the Merger and to fund payments in respect of outstanding ABIOMED stock options, outstanding ABIOMED restricted stock\nunits and outstanding ABIOMED performance-based stock units is approximately $17.5\u00a0billion, excluding related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.753344714641571,
+      "rank_score": 1.533344714641571,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        464,
+        477
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$1.6\u00a0billion",
+      "passage": "In addition, Johnson\u00a0& Johnson would need approximately $1.6\u00a0billion to pay the maximum aggregate\namount that the holders of CVRs and holders of certain options would be entitled to if all of the specified milestones are achieved. Johnson\u00a0& Johnson and Purchaser anticipate funding these cash requirements through a combination of\nJohnson\u00a0& Johnson\u2019s available cash on hand and short-term financing.\nSee Section\u00a09\u2014\u201cSource and Amount of Funds\u201d.\n4",
+      "method": "gliner",
+      "confidence": 0.6370736360549927,
+      "rank_score": 1.4170736360549927,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        572,
+        584
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$355.00",
+      "passage": "Following the call, Ms.\u00a0McEvoy sent Mr.\u00a0Minogue a preliminary,\nnon-binding\nproposal letter (the \u201c\nAugust\n15\nProposal\n\u201d), pursuant to which Johnson\u00a0& Johnson proposed to acquire all of the outstanding equity interests of ABIOMED for a purchase price of $355.00 per Share in cash, based on certain assumptions with respect to ABIOMED\u2019s\nfully diluted share count and expected net cash position, and proposed to meet\nin-person\nlater that week.",
+      "method": "gliner",
+      "confidence": 0.7450969219207764,
+      "rank_score": 1.3950969219207763,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        2424,
+        2431
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offer_price_amount",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$50.00 to $100.00",
+      "passage": "On the call, Mr.\u00a0Minogue proposed to Mr.\u00a0Duato a contingent value\nright with a maximum total payment in the range of $50.00 to $100.00.",
+      "method": "gliner",
+      "confidence": 0.6969891786575317,
+      "rank_score": 1.3469891786575316,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        4383,
+        4400
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offer_price_amount",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "Cash Amount",
+      "passage": "Stock options to purchase Shares (\u201c ABIOMED Options \u201d) are not sought in or affected by the Offer. However, pursuant to the terms of the Merger\nAgreement, at the Effective Time, each ABIOMED Option outstanding as of immediately prior to the Effective Time with an exercise price that is less than the Cash Amount (an\n\u201c In-the-Money Option \u201d), will be canceled in exchange for the Cash Amount (less the applicable exercise price) plus one CVR, in each case, multiplied by\nthe number of Shares underlying such In-the-Money Option.",
+      "method": "gliner",
+      "confidence": 0.9822596311569214,
+      "rank_score": 1.3122596311569215,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        380,
+        391
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "September 1, 2023",
+      "passage": "However, in no event will Purchaser be required to extend the Offer beyond July\u00a01, 2023 (or, in the event\nthat any of the Antitrust Clearance Condition, the No Legal Restraint Condition (solely in respect of any antitrust law) or the No Antitrust Proceedings Condition (each as defined below) has not been satisfied or waived as of that\ndate,\u00a0September 1, 2023).",
+      "method": "gliner",
+      "confidence": 0.657579243183136,
+      "rank_score": 1.307579243183136,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer",
+      "faq_question": null,
+      "char_span": [
+        2995,
+        3012
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "ABMD",
+      "passage": "7. Certain Information Concerning ABIOMED.\nGeneral.\nABIOMED was founded in 1981 and is incorporated under the laws of the State of Delaware. ABIOMED\u2019s common stock is listed on NASDAQ under\nthe symbol \u201cABMD\u201d.",
+      "method": "gliner",
+      "confidence": 0.9564915895462036,
+      "rank_score": 1.3064915895462037,
+      "doc_role": "otp",
+      "section": "7. Certain Information Concerning ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        202,
+        206
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "July\u00a01, 2023",
+      "passage": "However, in no event will Purchaser be required to extend the Offer beyond July\u00a01, 2023 (or, in the event\nthat any of the Antitrust Clearance Condition, the No Legal Restraint Condition (solely in respect of any antitrust law) or the No Antitrust Proceedings Condition (each as defined below) has not been satisfied or waived as of that\ndate,\u00a0September 1, 2023).",
+      "method": "gliner",
+      "confidence": 0.6351069808006287,
+      "rank_score": 1.2851069808006286,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer",
+      "faq_question": null,
+      "char_span": [
+        2727,
+        2739
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "expiration_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "December\u00a013, 2022",
+      "passage": "You may withdraw your previously tendered Shares at any time prior to 11:59 p.m., New York City time, on December\u00a013, 2022, unless we extend the Offer\npursuant to the Merger Agreement ( i.e.",
+      "method": "gliner",
+      "confidence": 0.548531711101532,
+      "rank_score": 1.278531711101532,
+      "doc_role": "otp",
+      "section": "Until what time may I withdraw previously tendered Shares?",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "char_span": [
+        105,
+        122
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ABIOMED, Inc.",
+      "passage": "and Andrew Greenfield (incorporated herein by reference to Exhibit 10.1 to Form\n8-K\nfiled by ABIOMED, Inc. with\nthe SEC on November\u00a01, 2022).\n(d)(5)\nLetter Agreement, dated as of October\u00a031, 2022, between ABIOMED, Inc.",
+      "method": "gliner",
+      "confidence": 0.8179165720939636,
+      "rank_score": 1.2179165720939638,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        11645,
+        11658
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "offer_price",
+      "raw": "$0.01",
+      "passage": "Johnson\u00a0& Johnson and Purchaser have not independently verified the\naccuracy and completeness of such information.\nSecurities Sought\nAll outstanding shares of common stock, par value $0.01 per share, of ABIOMED (the \u201c\nShares\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.4287322461605072,
+      "rank_score": 1.2087322461605072,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1394,
+        1399
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "money_amount",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Athos Merger Sub, Inc.",
+      "passage": "Johnson\u00a0& Johnson, a New Jersey corporation (\u201c\nJohnson\n& Johnson\n\u201d), and Athos Merger Sub, Inc., a Delaware corporation and a wholly owned subsidiary of Johnson\u00a0&\nJohnson (\u201c\nPurchaser\n\u201d), have included cross-references in this summary term sheet to other sections of this Offer to Purchase where you will find more complete descriptions of the topics mentioned below.",
+      "method": "gliner",
+      "confidence": 0.8538566827774048,
+      "rank_score": 1.2038566827774049,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        510,
+        532
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Athos Merger Sub, Inc.",
+      "passage": "(a)-(c) This Schedule\u00a0TO is filed by Johnson\u00a0& Johnson, a New Jersey corporation, and Athos Merger Sub, Inc., a Delaware\ncorporation and a wholly owned subsidiary of Johnson\u00a0& Johnson.",
+      "method": "gliner",
+      "confidence": 0.8034186363220215,
+      "rank_score": 1.2034186363220216,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        5204,
+        5226
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "January\u00a013, 2023",
+      "passage": "Shares tendered pursuant to the Offer may be withdrawn at any time prior to the Expiration Time and, unless accepted for payment by Purchaser pursuant to the Offer, may also be\nwithdrawn at any time after January\u00a013, 2023, which is the 60th day after the date of the commencement of the Offer.\nSee\nSection\u00a04\u2014\u201cWithdrawal Rights\u201d.\nWill there be a subsequent offering period ?\nNo.",
+      "method": "gliner",
+      "confidence": 0.4449448883533478,
+      "rank_score": 1.1749448883533478,
+      "doc_role": "otp",
+      "section": "Until what time may I withdraw previously tendered Shares?",
+      "faq_question": "Until what time may I withdraw previously tendered Shares?",
+      "char_span": [
+        420,
+        436
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Cravath, Swaine\u00a0& Moore LLP",
+      "passage": "Schoen\nSanjay\nMurti\nCravath, Swaine\u00a0& Moore LLP\n825 Eighth Avenue\nNew\nYork, NY 10019\n(212)\n474-1000\n\u2610\nCheck the box if the filing relates solely to preliminary communications made before the commencement of a\ntender offer.",
+      "method": "gliner",
+      "confidence": 0.7272607684135437,
+      "rank_score": 1.1272607684135438,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        840,
+        867
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "date of the Merger Agreement",
+      "passage": "t to each of (a)\u00a0the STEMI Recommendation\nMilestone and the FDA Approval Milestone, (b)\u00a0the HRPCI Milestone and (c)\u00a0the Cardiogenic Shock Milestone, expend at least $40\u00a0million, $85\u00a0million and $40\u00a0million, respectively (with each such amount to be adjusted prior to\nentry into the CVR Agreement to deduct any amounts actually incurred or spent by ABIOMED with respect to the foregoing following the date of the Merger Agreement), towards the achievement of such Milestone(s), subject to certain exceptions specified\nin the CVR Agreement.\u00a0Other than with respect to these commitments, Johnson\u00a0& Johnson (i)\u00a0has the right, in its sole and absolute discretion, to direct and control the development, marketing, commercialization and sale of the\nProducts in all respects and (ii)\u00a0is not otherwise required (expressly or implicitly)",
+      "method": "gliner",
+      "confidence": 0.7917356491088867,
+      "rank_score": 1.1217356491088868,
+      "doc_role": "otp",
+      "section": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "faq_question": "Is it possible that no payment will become payable to the holders of CVRs?",
+      "char_span": [
+        749,
+        777
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Novartis Pharmaceuticals Corporation",
+      "passage": "Mr.\u00a0Gorsky left Johnson\u00a0& Johnson in 2004 to join Novartis Pharmaceuticals Corporation, where he served as\nhead of the pharmaceutical business in North America.",
+      "method": "gliner",
+      "confidence": 0.8180754780769348,
+      "rank_score": 1.1180754780769349,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        3987,
+        4023
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "target corporation",
+      "passage": "Section\u00a0251(h) of the DGCL generally provides that following consummation of a successful tender offer for a public corporation, and\nsubject to certain statutory provisions, if the acquiring corporation and its affiliates own at least such percentage of the shares of stock, and each class or series thereof of the target corporation that, absent Section\u00a0251(f) of the DGCL,\nwould be required to adopt a merger agreement under the DGCL and the target corporation\u2019s certificate of incorporation, and the other stockholders are entitled to receive the same consideration for their stock in the merger as was payable in\nthe tender offer, the acquiring corporation can effect a merger without a vote of the stockholders of the target cor",
+      "method": "gliner",
+      "confidence": 0.8064624667167664,
+      "rank_score": 1.1064624667167664,
+      "doc_role": "otp",
+      "section": "12. Purpose of",
+      "faq_question": null,
+      "char_span": [
+        2026,
+        2044
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "11:59 p.m.",
+      "passage": "Scheduled Expiration of Offer\nExpiration of the Offer will occur at 11:59 p.m., New York City time, on December\u00a013, 2022, unless the Offer is extended or earlier terminated in accordance with the Merger Agreement (as defined below); acceptance and payment\nfor Shares is expected to occur on December\u00a014, 2022 unless the Offer is extended pursuant to the terms of the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.762972354888916,
+      "rank_score": 1.092972354888916,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2030,
+        2040
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "expiration_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Johnson\u00a0& Johnson",
+      "passage": "ffer Conditions \u201d):\n\u2022 the expiration or termination of any waiting period applicable to the transactions contemplated by the Merger\nAgreement and the CVR Agreement (collectively, the \u201c Transactions \u201d) under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended (the \u201c HSR Act \u201d), and the rules and regulations promulgated thereunder,\nand the absence of any voluntary agreement between Johnson\u00a0& Johnson and ABIOMED, on the one hand, and the U.S.",
+      "method": "gliner",
+      "confidence": 0.9391590356826782,
+      "rank_score": 1.0891590356826784,
+      "doc_role": "otp",
+      "section": "What are the conditions to the Offer?",
+      "faq_question": "What are the conditions to the Offer?",
+      "char_span": [
+        507,
+        524
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Johnson\u00a0& Johnson",
+      "passage": "The information concerning\nABIOMED, Inc., a Delaware corporation (\u201c\nABIOMED\n\u201d), contained herein and elsewhere in this Offer to Purchase has been provided to Johnson\u00a0& Johnson and Purchaser by ABIOMED or has been taken from or is based upon publicly\navailable documents or records of ABIOMED on file with the U.S.",
+      "method": "gliner",
+      "confidence": 0.9324490427970886,
+      "rank_score": 1.0824490427970888,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        963,
+        980
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Janssen Pharmaceutical Inc.",
+      "passage": "In 2001, Mr.\u00a0Gorsky was appointed President of Janssen Pharmaceutical Inc., and in 2003 he was\nnamed Company Group Chairman of the Johnson\u00a0& Johnson pharmaceutical business in Europe, the Middle East and Africa.",
+      "method": "gliner",
+      "confidence": 0.7321840524673462,
+      "rank_score": 1.0321840524673462,
+      "doc_role": "otp",
+      "section": "SCHEDULE I",
+      "faq_question": null,
+      "char_span": [
+        3772,
+        3799
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "NASDAQ",
+      "passage": "On October\u00a031, 2022, the last full trading day before the public announcement of the execution of the Merger Agreement, the closing sale price per Share\nreported on NASDAQ was $252.08 per Share. On November\u00a014, 2022, the last full trading day before the commencement of the Offer, the reported closing sale price on NASDAQ was $374.10 per Share.\nSee Section\u00a06\u2014\u201cPrice Range of Shares; Dividends\u201d.",
+      "method": "gliner",
+      "confidence": 0.9651368856430054,
+      "rank_score": 1.0151368856430054,
+      "doc_role": "otp",
+      "section": "What is the market value of my Shares as of a recent date?",
+      "faq_question": "What is the market value of my Shares as of a recent date?",
+      "char_span": [
+        165,
+        171
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ABIOMED",
+      "passage": "Restricted stock units in respect of Shares (\u201c ABIOMED RSUs \u201d) are not sought in or affected by the Offer.",
+      "method": "gliner",
+      "confidence": 0.9602013230323792,
+      "rank_score": 1.0102013230323792,
+      "doc_role": "otp",
+      "section": "What will happen to my restricted stock units in the Offer?",
+      "faq_question": "What will happen to my restricted stock units in the Offer?",
+      "char_span": [
+        47,
+        54
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "org_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "ABIOMED stockholders",
+      "passage": "ABIOMED stockholders\nmust properly and validly demand their right to seek appraisal under the DGCL in\nconnection with the Merger in order to exercise appraisal rights. See Section\u00a016\u2014\u201cCertain Legal Matters; Regulatory Approvals\u201d.\nThis Offer to Purchase and the Letter of Transmittal contain important information that should be read carefully before any decision is made with respect\nto the Offer.\n15\nTable of Contents",
+      "method": "gliner",
+      "confidence": 0.8752657175064087,
+      "rank_score": 0.9752657175064087,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        10314,
+        10334
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "ABIOMED, Inc.",
+      "passage": "The information concerning\nABIOMED, Inc., a Delaware corporation (\u201c\nABIOMED\n\u201d), contained herein and elsewhere in this Offer to Purchase has been provided to Johnson\u00a0& Johnson and Purchaser by ABIOMED or has been taken from or is based upon publicly\navailable documents or records of ABIOMED on file with the U.S.",
+      "method": "gliner",
+      "confidence": 0.6223539710044861,
+      "rank_score": 0.9723539710044862,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        832,
+        845
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Robert I. Townsend, III",
+      "passage": "us as offeror, issuer or other person))\nCOMMON STOCK, PAR VALUE $0.01 PER SHARE\n(Title of Class\u00a0of Securities)\n003654100\n(CUSIP Number\nof Class\u00a0of Securities)\nNicholas Antoun\nJohnson\u00a0& Johnson\nOne Johnson\u00a0& Johnson Plaza\nNew Brunswick, NJ 08933\n(732)\n524-0400\n(Name, address and telephone number of person authorized to receive notices and communications on behalf of filing persons)\nwith copies to:\nRobert I. Townsend, III\nGeorge F.",
+      "method": "gliner",
+      "confidence": 0.5705186128616333,
+      "rank_score": 0.9705186128616333,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        786,
+        809
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NYSE",
+      "passage": "On the morning of November\u00a01, 2022, prior to the opening of trading on the NYSE and NASDAQ, Johnson\u00a0& Johnson\nand ABIOMED issued a joint press release announcing the execution of the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.6184818744659424,
+      "rank_score": 0.9684818744659424,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        28433,
+        28437
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "ticker_symbol",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "acquiring corporation",
+      "passage": "percentage of the shares of stock, and each class or series thereof of the target corporation that, absent Section\u00a0251(f) of the DGCL,\nwould be required to adopt a merger agreement under the DGCL and the target corporation\u2019s certificate of incorporation, and the other stockholders are entitled to receive the same consideration for their stock in the merger as was payable in\nthe tender offer, the acquiring corporation can effect a merger without a vote of the stockholders of the target corporation.",
+      "method": "gliner",
+      "confidence": 0.6644589304924011,
+      "rank_score": 0.9644589304924012,
+      "doc_role": "otp",
+      "section": "12. Purpose of",
+      "faq_question": null,
+      "char_span": [
+        2350,
+        2371
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Surviving Corporation",
+      "passage": "val in\naccordance with the certificate of incorporation and bylaws of the Surviving Corporation, the directors of Purchaser immediately prior to the Effective Time will be, from and after the Effective Time, the initial directors of the Surviving\nCorporation, and the officers of ABIOMED immediately prior to the Effective Time will be, from and after the Effective Time, the initial officers of the Surviving Corporation.",
+      "method": "gliner",
+      "confidence": 0.6444636583328247,
+      "rank_score": 0.9444636583328248,
+      "doc_role": "otp",
+      "section": "12. Purpose of",
+      "faq_question": null,
+      "char_span": [
+        3894,
+        3915
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "offeror",
+      "raw": "Eligible Institution",
+      "passage": "See Instructions 1 and 5 of the Letter of Transmittal.\nGuaranteed\nDelivery.\nShares may also be tendered if all the following conditions are satisfied:\n\u2022\nthe tender is made by or through an Eligible Institution;\n\u2022\na properly completed and duly executed notice of guaranteed delivery (the \u201c\nNotice of Guaranteed\nDelivery\n\u201d), substantially in the form made available by Purchaser, must be received by the Depositary at one of its addresses set forth in the Letter of Transmittal before the Offer expires; and\n\u2022\nthe certificates for all tendered Shares, in proper form for transfer (or a Book-Entry Confirmation w",
+      "method": "gliner",
+      "confidence": 0.8433225750923157,
+      "rank_score": 0.9433225750923157,
+      "doc_role": "otp",
+      "section": "3. Procedures for Accepting the Offer and Tendering Shares.",
+      "faq_question": null,
+      "char_span": [
+        4463,
+        4483
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "offeror_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "Transaction\u00a0Code\u00a0Number",
+      "passage": "\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED BY BOOK-ENTRY TRANSFER TO THE ACCOUNT MAINTAINED BY THE DEPOSITARY WITH DTC AND COMPLETE THE FOLLOWING (ONLY FINANCIAL INSTITUTIONS THAT ARE PARTICIPANTS IN DTC MAY\nDELIVER SHARES BY BOOK-ENTRY TRANSFER):\nName\u00a0of\u00a0Tendering\u00a0Institution:\nDTC\u00a0Participant\u00a0Number:\nTransaction\u00a0Code\u00a0Number:\n\u2610\nCHECK HERE IF TENDERED SHARES ARE BEING DELIVERED PURSUANT TO A NOTICE OF GUARANTEED DELIVERY PREVIOUSLY SENT TO THE DEPOSITARY AND COMPLETE THE FOLLOWING (PLEASE ENCLOSE A PHOTOCOPY OF SUCH NOTICE OF GUARANTEED\nDELIVERY):\nName(s)\u00a0of\u00a0Registered\u00a0Owner(s):\nWindow\u00a0Ticket\u00a0Number\u00a0(if\u00a0any)\u00a0or\u00a0DTC\u00a0Participant\u00a0Number:\nDate\u00a0of\u00a0Execution\u00a0of\u00a0Notice\u00a0of\u00a0Guaranteed\u00a0Delivery:\nName\u00a0of\u00a0Institution\u00a0which\u00a0Guaran",
+      "method": "gliner",
+      "confidence": 0.9264101982116699,
+      "rank_score": 0.9264101982116699,
+      "doc_role": "lot",
+      "section": "lot",
+      "faq_question": null,
+      "char_span": [
+        5239,
+        5262
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1b.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "cusip_code",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "Out-of-the-Money Option",
+      "passage": "price that is\nequal to or greater than the Cash Amount (an \u201c Out-of-the-Money Option \u201d), will instead be canceled in exchange\nfor the right to receive cash payments equal to the total amount of the Milestone Payments actually payable in connection with a CVR (if any), less the amount (if any) by which such exercise price exceeds the Cash Amount, multiplied by the number of\nShares underlying such Out-of-the-Money Option.\nSee Section\u00a011\u2014\u201cThe Transaction Agreements\u2014The Merger Agreement\u2014Treatment of ABIOMED Equity Awards\u201d.",
+      "method": "gliner",
+      "confidence": 0.8486879467964172,
+      "rank_score": 0.8986879467964173,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        1022,
+        1045
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "next business day",
+      "passage": "If we extend the Offer, we will inform the Depositary of any extension and will make a public announcement of the extension no\nlater than 9:00 a.m., New York City time, on the next business day after the previously scheduled Expiration Time.\nSee Section\u00a01\u2014\u201cTerms of\nthe Offer\u201d.",
+      "method": "gliner",
+      "confidence": 0.556254506111145,
+      "rank_score": 0.8862545061111451,
+      "doc_role": "otp",
+      "section": "How will I be notified if the\nOffer is extended?",
+      "faq_question": "How will I be notified if the\nOffer is extended?",
+      "char_span": [
+        176,
+        193
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "commercial bank",
+      "passage": "Please give your broker, dealer, commercial bank, trust company or other nominee instructions with sufficient time to permit your\nnominee to tender your Shares by the Expiration Time.",
+      "method": "gliner",
+      "confidence": 0.7222880721092224,
+      "rank_score": 0.8722880721092224,
+      "doc_role": "otp",
+      "section": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "faq_question": "How long do I have to decide whether to tender my Shares in the Offer?",
+      "char_span": [
+        768,
+        783
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "employee\n22\nTable of Contents\nstock options",
+      "passage": "dollar; (m)\u00a0stockholders that acquired (or will acquire) Shares through exercise of employee\n22\nTable of Contents\nstock options or otherwise as compensation; and\u00a0(n) persons required to accelerate the recognition of any item of gross income as a result of such income being recognized on an applicable\nfinancial statement.\nThis summary is not a complete analysis of all potential U.S.",
+      "method": "gliner",
+      "confidence": 0.8639522194862366,
+      "rank_score": 0.8639522194862366,
+      "doc_role": "otp",
+      "section": "5. Material",
+      "faq_question": null,
+      "char_span": [
+        1828,
+        1871
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "ABIOMED Options",
+      "passage": "Johnson\u00a0& Johnson and Purchaser have represented to ABIOMED that Johnson\u00a0& Johnson and Purchaser will have sufficient\nfunds for the satisfaction of all of their obligations under the Merger Agreement, including the payment of the aggregate Offer Price, the aggregate Merger Consideration and the\n29\nTable of Contents\nconsideration in respect of the ABIOMED Options, the ABIOMED PSUs and the ABIOMED RSUs, and to pay all related fees and expenses required to be paid by Johnson\u00a0& Johnson or Purchaser\npursuant to the terms of the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.8636781573295593,
+      "rank_score": 0.8636781573295593,
+      "doc_role": "otp",
+      "section": "9. Source and Amount of Funds.",
+      "faq_question": null,
+      "char_span": [
+        610,
+        625
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "ABIOMED",
+      "passage": ", that as soon as practicable following (but in no event later than\nthe business day after) the consummation of the Offer and subject to the satisfaction or waiver of specified conditions, Purchaser will be merged with and into ABIOMED (the \u201c\nMerger\n\u201d) in accordance with Section\u00a0251(h) of the\nDelaware General Corporation Law (the \u201c\nDGCL\n\u201d) without a vote on the adoption of the Merger Agreement by ABIOMED stockholders, with ABIOMED continuing as the surviving corporation in the Merger and thereby becoming a wholly owned\nsubsidiary of Johnson\u00a0& Johnson (the \u201c\nSurviving Corporation\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.8591683506965637,
+      "rank_score": 0.8591683506965637,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        1932,
+        1939
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "expiration_date",
+      "raw": "date hereof",
+      "passage": "Securities and Exchange Commission (\u201c\nSEC\n\u201d) or other public sources as of the date hereof.",
+      "method": "gliner",
+      "confidence": 0.5146026611328125,
+      "rank_score": 0.8446026611328126,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        1198,
+        1209
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "calendar_date",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "J.P.\nMorgan Securities LLC",
+      "passage": "Among other things, representatives of senior management reviewed with the\nJohnson\u00a0& Johnson Board various acquisition opportunities for Johnson\u00a0& Johnson\u2019s MedTech business, including a potential acquisition of ABIOMED.\nSubsequent to the discussion with the Johnson\u00a0& Johnson Board on April\u00a028, 2022, senior management of Johnson\u00a0& Johnson engaged J.P.\nMorgan Securities LLC (\u201c\nJ.P.",
+      "method": "gliner",
+      "confidence": 0.49977239966392517,
+      "rank_score": 0.7997723996639252,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        1027,
+        1053
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "target",
+      "raw": "ABIOMED",
+      "passage": "Shares, (iii)\u00a0311,749 Shares subject to issuance upon the\nvesting and settlement of ABIOMED\u2019s performance-based restricted stock units (based on the levels of performance specified in the Agreement and Plan of Merger, dated October\u00a031, 2022, by and among Johnson & Johnson, Purchaser and\nABIOMED (the \u201c\nMerger Agreement\n\u201d)), (iv)\u00a0267,987 Shares subject to issuance upon the vesting and settlement of ABIOMED\u2019s restricted stock units and (v)\u00a04,631\u00a0Shares estimated to be subject to outstanding rights\nunder ABIOMED\u2019s 1988 Employee Stock Purchase Plan, as amended and restated on February\u00a05, 2019 (the \u201c\nCompany ESPP\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.5994731187820435,
+      "rank_score": 0.7994731187820434,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        4571,
+        4578
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "target_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "CVRs",
+      "passage": "We\nurge you to consult your own tax advisor as to the particular tax consequences to you of the receipt of cash and CVRs in exchange for Shares pursuant to the Offer or the Merger.\nSee Section\u00a05\u2014\u201cMaterial U.S.",
+      "method": "gliner",
+      "confidence": 0.7432189583778381,
+      "rank_score": 0.7932189583778382,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        42392,
+        42396
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "currency_code",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "CVR",
+      "passage": "However, pursuant to the terms of the Merger\nAgreement, at the Effective Time, each ABIOMED Option outstanding as of immediately prior to the Effective Time with an exercise price that is less than the Cash Amount (an\n\u201c In-the-Money Option \u201d), will be canceled in exchange for the Cash Amount (less the applicable exercise price) plus one CVR, in each case, multiplied by\nthe number of Shares underlying such In-the-Money Option.",
+      "method": "gliner",
+      "confidence": 0.7393540740013123,
+      "rank_score": 0.7893540740013123,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        438,
+        441
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Surviving\nCorporation",
+      "passage": "Pursuant to the Merger Agreement, until their successors are duly elected or appointed and qualified or until their earlier death, resignation or removal in\naccordance with the certificate of incorporation and bylaws of the Surviving Corporation, the directors of Purchaser immediately prior to the Effective Time will be, from and after the Effective Time, the initial directors of the Surviving\nCorporation, and the officers of ABIOMED immediately prior to the Effective Time will be, from and after the Effective Time, the initial officers of the Surviving Corporation.",
+      "method": "gliner",
+      "confidence": 0.466286301612854,
+      "rank_score": 0.766286301612854,
+      "doc_role": "otp",
+      "section": "12. Purpose of",
+      "faq_question": null,
+      "char_span": [
+        3731,
+        3752
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "New Jersey corporation",
+      "passage": "Subject Company Information\u2014Name and\nAddress\n\u201d above and incorporated herein by reference.\nTender Offer\nThis Schedule\n14D-9\nrelates to the tender offer by Athos Merger Sub, Inc., a Delaware corporation\n(\u201c\nMerger Sub\n\u201d) and a wholly owned subsidiary of Johnson\u00a0& Johnson, a New Jersey corporation (\u201c\nParent\n\u201d), to purchase all of the outstanding Shares at a price of (i) $380.00 per Share, net to the seller in\ncash, without interest and less any required withholding taxes (the \u201c\nCash Amount\n\u201d),\nplus\n(ii)\u00a0one\nnon-tradeable\ncontractual contingent value right per Share (each, a\n\u201c\nCVR\n\u201d), which CVR represents the right to receive contingent payments of up to $35.00 per Share, in cash, without i",
+      "method": "gliner",
+      "confidence": 0.4564622640609741,
+      "rank_score": 0.7564622640609742,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3805,
+        3827
+      ],
+      "source_hit_id": "0001193125-22-285225:d359247dsc14d9.htm",
+      "source_accession": "0001193125-22-285225",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number\nof Class\u00a0of Securities",
+      "passage": "SC 14D9\nTable of Contents\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nSCHEDULE\n14D-9\nSolicitation/Recommendation Statement\nUnder Section\u00a014(d)(4) of the Securities Exchange Act of 1934\nABIOMED, Inc.\n(Name of\nSubject Company)\nABIOMED, Inc.\n(Name of\nPerson Filing Statement)\nCommon Stock, $0.01 par value per share\n(Title of Class\u00a0of Securities)\n003654100\n(CUSIP Number\nof Class\u00a0of Securities)\nMarc A.",
+      "method": "gliner",
+      "confidence": 0.7553831338882446,
+      "rank_score": 0.7553831338882446,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        383,
+        418
+      ],
+      "source_hit_id": "0001193125-22-285225:d359247dsc14d9.htm",
+      "source_accession": "0001193125-22-285225",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "ABIOMED PSUs",
+      "passage": "Johnson\u00a0& Johnson and Purchaser have represented to ABIOMED that Johnson\u00a0& Johnson and Purchaser will have sufficient\nfunds for the satisfaction of all of their obligations under the Merger Agreement, including the payment of the aggregate Offer Price, the aggregate Merger Consideration and the\n29\nTable of Contents\nconsideration in respect of the ABIOMED Options, the ABIOMED PSUs and the ABIOMED RSUs, and to pay all related fees and expenses required to be paid by Johnson\u00a0& Johnson or Purchaser\npursuant to the terms of the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.743960440158844,
+      "rank_score": 0.743960440158844,
+      "doc_role": "otp",
+      "section": "9. Source and Amount of Funds.",
+      "faq_question": null,
+      "char_span": [
+        631,
+        643
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "NASDAQ",
+      "passage": "On the morning of November\u00a01, 2022, prior to the opening of trading on the NYSE and NASDAQ, Johnson\u00a0& Johnson\nand ABIOMED issued a joint press release announcing the execution of the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.7352676391601562,
+      "rank_score": 0.7352676391601562,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        28442,
+        28448
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "ticker_symbol",
+      "chunk_id": "w7"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "stock options",
+      "passage": "Information as of particular dates concerning ABIOMED\u2019s directors and officers, their remuneration, stock options granted to them, the principal holders of ABIOMED\u2019s\nsecurities, any material interests of those persons in transactions with ABIOMED and other matters is required to be disclosed in proxy statements, the most recent one having been filed with the SEC on June\u00a028, 2022.",
+      "method": "gliner",
+      "confidence": 0.7188206315040588,
+      "rank_score": 0.7188206315040588,
+      "doc_role": "otp",
+      "section": "7. Certain Information Concerning ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        1744,
+        1757
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "short-term financing",
+      "passage": "Johnson\u00a0& Johnson and Purchaser anticipate funding these cash requirements through a combination of\nJohnson\u00a0& Johnson\u2019s available cash on hand and short-term financing.\nSee Section\u00a09\u2014\u201cSource and Amount of Funds\u201d.\n4",
+      "method": "gliner",
+      "confidence": 0.6629350781440735,
+      "rank_score": 0.7129350781440735,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        894,
+        914
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ABIOMED, Inc.",
+      "passage": "Began\nExecutive Vice President, General Counsel and Secretary\nABIOMED, Inc.\n22 Cherry\nHill Dr.\nDanvers, Massachusetts 01923\n(978)\n646-1400\n(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications\non Behalf of the Person Filing Statement)\nWith copies to:\nRobert W.",
+      "method": "gliner",
+      "confidence": 0.4842490255832672,
+      "rank_score": 0.6842490255832672,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        490,
+        503
+      ],
+      "source_hit_id": "0001193125-22-285225:d359247dsc14d9.htm",
+      "source_accession": "0001193125-22-285225",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "Offeror\nPurchaser",
+      "passage": "Offeror\nPurchaser.\nWho is offering to purchase my Shares?\nPurchaser, which is a wholly owned subsidiary of Johnson\u00a0& Johnson, is offering to purchase for cash all of the outstanding Shares.",
+      "method": "gliner",
+      "confidence": 0.5197536945343018,
+      "rank_score": 0.6697536945343018,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        2347,
+        2364
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ABIOMED Options",
+      "passage": "Johnson\u00a0& Johnson estimates that the total amount of funds required by Johnson\u00a0& Johnson and Purchaser to consummate the\nOffer and the Merger and to fund payments in respect of outstanding ABIOMED Options, ABIOMED PSUs and ABIOMED RSUs is approximately $17.5\u00a0billion, excluding related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.6598990559577942,
+      "rank_score": 0.6598990559577942,
+      "doc_role": "otp",
+      "section": "9. Source and Amount of Funds.",
+      "faq_question": null,
+      "char_span": [
+        1727,
+        1742
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "financial institution",
+      "passage": "3,\nincludes any participant in the DTC\u2019s systems whose name appears on a security position\n19\nTable of Contents\nlisting as the owner of Shares) of Shares tendered therewith, unless the registered holder has completed either the box entitled \u201cSpecial Delivery Instructions\u201d or the box entitled\n\u201cSpecial Payment Instructions\u201d on the Letter of Transmittal; or\n\u2022\nShares are tendered for the account of a financial institution (including most commercial banks, savings and loan\nassociations and brokerage houses) that is a participant in the Securities Transfer Agents Medallion Program or any other \u201celigible guarantor institution\u201d, as that term is defined in Rule\n17Ad-15\nof\nthe Exchange Act (each, an \u201c\nEligible Institution\n\u201d and collectively, \u201c\nEligible Institutions\n\u201d).",
+      "method": "gliner",
+      "confidence": 0.5391741394996643,
+      "rank_score": 0.6391741394996643,
+      "doc_role": "otp",
+      "section": "3. Procedures for Accepting the Offer and Tendering Shares.",
+      "faq_question": null,
+      "char_span": [
+        3079,
+        3100
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "In-the-Money Option",
+      "passage": "Stock options to purchase Shares (\u201c ABIOMED Options \u201d) are not sought in or affected by the Offer. However, pursuant to the terms of the Merger\nAgreement, at the Effective Time, each ABIOMED Option outstanding as of immediately prior to the Effective Time with an exercise price that is less than the Cash Amount (an\n\u201c In-the-Money Option \u201d), will be canceled in exchange for the Cash Amount (less the applicable exercise price) plus one CVR, in each case, multiplied by\nthe number of Shares underlying such In-the-Money Option.",
+      "method": "gliner",
+      "confidence": 0.5883258581161499,
+      "rank_score": 0.63832585811615,
+      "doc_role": "otp",
+      "section": "What will happen to my stock options in the Offer?",
+      "faq_question": "What will happen to my stock options in the Offer?",
+      "char_span": [
+        319,
+        338
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "cash",
+      "passage": "er Shares and accept the Offer because:\n\u2022 we have sufficient cash on hand to finance the Offer and the Merger, as well as the funds available to pay the\nmaximum aggregate amount that the holders of CVRs may be entitled to receive;\n\u2022 the Offer is being made for all outstanding Shares solely for cash (including the right to receive any amounts\npayable with respect to the CVRs, which will be paid in cash);",
+      "method": "gliner",
+      "confidence": 0.580776572227478,
+      "rank_score": 0.6307765722274781,
+      "doc_role": "otp",
+      "section": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "faq_question": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "char_span": [
+        488,
+        492
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "currency_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "purchaser",
+      "raw": "U.S. Department of Justice",
+      "passage": "Federal Trade Commission (the \u201c\nFTC\n\u201d) or the U.S. Department of Justice (the \u201c\nDOJ\n\u201d), on the other hand, pursuant to which Johnson\u00a0&\nJohnson and ABIOMED have agreed not to consummate the Offer or the Merger, and (ii)\u00a0the receipt of approvals under the antitrust laws of the Federal Republic of Germany, the Republic of\n13\nTable of Contents\nAustria and Japan, (b)\u00a0that, as of immediately prior to the Expiration Time (as defined below), the number of Shares validly tende",
+      "method": "gliner",
+      "confidence": 0.519285261631012,
+      "rank_score": 0.6192852616310119,
+      "doc_role": "otp",
+      "section": "INTRODUCTION",
+      "faq_question": null,
+      "char_span": [
+        4373,
+        4399
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "purchaser_organization",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "ABIOMED stock options",
+      "passage": "Yes. Neither the consummation of the Offer nor the Merger is subject to any financing condition. The total amount of funds estimated to be required by\nJohnson\u00a0& Johnson and Purchaser to consummate the Offer and purchase all outstanding Shares in the Offer, to complete the Merger and to fund payments in respect of outstanding ABIOMED stock options, outstanding ABIOMED restricted stock\nunits and outstanding ABIOMED performance-based stock units is approximately $17.5\u00a0billion, excluding related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.5597884654998779,
+      "rank_score": 0.609788465499878,
+      "doc_role": "otp",
+      "section": "Will you have the financial resources to make payment?",
+      "faq_question": "Will you have the financial resources to make payment?",
+      "char_span": [
+        327,
+        348
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "ABIOMED RSUs",
+      "passage": "Johnson\u00a0& Johnson and Purchaser have represented to ABIOMED that Johnson\u00a0& Johnson and Purchaser will have sufficient\nfunds for the satisfaction of all of their obligations under the Merger Agreement, including the payment of the aggregate Offer Price, the aggregate Merger Consideration and the\n29\nTable of Contents\nconsideration in respect of the ABIOMED Options, the ABIOMED PSUs and the ABIOMED RSUs, and to pay all related fees and expenses required to be paid by Johnson\u00a0& Johnson or Purchaser\npursuant to the terms of the Merger Agreement.",
+      "method": "gliner",
+      "confidence": 0.59955233335495,
+      "rank_score": 0.59955233335495,
+      "doc_role": "otp",
+      "section": "9. Source and Amount of Funds.",
+      "faq_question": null,
+      "char_span": [
+        652,
+        664
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "ABIOMED",
+      "passage": "Upon consummation of the Merger, ABIOMED would cease to be a publicly traded company and would be a\nwholly owned subsidiary of Johnson\u00a0& Johnson.\nSee Section\u00a012\u2014\u201cPurpose of the Offer; Plans for ABIOMED\u201d.",
+      "method": "gliner",
+      "confidence": 0.5434860587120056,
+      "rank_score": 0.5934860587120057,
+      "doc_role": "otp",
+      "section": "SUMMARY TERM SHEET",
+      "faq_question": null,
+      "char_span": [
+        4044,
+        4051
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "ticker_symbol",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ABIOMED PSUs",
+      "passage": "Johnson\u00a0& Johnson estimates that the total amount of funds required by Johnson\u00a0& Johnson and Purchaser to consummate the\nOffer and the Merger and to fund payments in respect of outstanding ABIOMED Options, ABIOMED PSUs and ABIOMED RSUs is approximately $17.5\u00a0billion, excluding related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.5886009931564331,
+      "rank_score": 0.5886009931564331,
+      "doc_role": "otp",
+      "section": "9. Source and Amount of Funds.",
+      "faq_question": null,
+      "char_span": [
+        1744,
+        1756
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ABIOMED",
+      "passage": "Except as provided in the Merger Agreement or as otherwise described in this Offer to Purchase, none of Johnson\u00a0& Johnson or Purchaser or, to the best knowledge of\nJohnson\u00a0& Johnson and Purchaser, any of the persons listed in Schedule I to this Offer to Purchase, has any material contract, arrangement, understanding or relationship with any other person with respect to any securities of ABIOMED\n(including, but not limited to, any contract, arrangement, understanding or relationship concerning the transfer or the voting of any such securities, joint ventures, loan or option arrangements, puts or calls, guaranties of loans, guaranties\nagainst loss, or the giving or withholding of proxies, consents or authorizations).",
+      "method": "gliner",
+      "confidence": 0.575770914554596,
+      "rank_score": 0.575770914554596,
+      "doc_role": "otp",
+      "section": "8. Certain Information Concerning Johnson\u00a0& Johnson and Purchaser.",
+      "faq_question": null,
+      "char_span": [
+        4660,
+        4667
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "ABIOMED PSUs",
+      "passage": "Performance stock units in respect of Shares (\u201c ABIOMED PSUs \u201d) are not sought in or affected by the Offer.",
+      "method": "gliner",
+      "confidence": 0.5255881547927856,
+      "rank_score": 0.5755881547927857,
+      "doc_role": "otp",
+      "section": "What will happen to my performance stock units in the Offer?",
+      "faq_question": "What will happen to my performance stock units in the Offer?",
+      "char_span": [
+        48,
+        60
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "ABIOMED RSUs",
+      "passage": "Johnson\u00a0& Johnson estimates that the total amount of funds required by Johnson\u00a0& Johnson and Purchaser to consummate the\nOffer and the Merger and to fund payments in respect of outstanding ABIOMED Options, ABIOMED PSUs and ABIOMED RSUs is approximately $17.5\u00a0billion, excluding related fees and expenses.",
+      "method": "gliner",
+      "confidence": 0.5731737613677979,
+      "rank_score": 0.5731737613677979,
+      "doc_role": "otp",
+      "section": "9. Source and Amount of Funds.",
+      "faq_question": null,
+      "char_span": [
+        1761,
+        1773
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "Acceptance Time",
+      "passage": "Upon the terms and subject to the satisfaction or waiver of the Offer Conditions (as defined below), we will pay you a dollar\namount equal to the number of Shares you tendered multiplied by the Cash Amount, plus one CVR per Share, in each case without interest and less any required withholding taxes, promptly following the Acceptance Time.\nWe will pay the upfront cash consideration for Shares that are validly tendered and not validly withdrawn by depositing the aggregate Cash Amount with the\nDepositary, which will act as your agent for the purpose of receiving such payments from us and transmitting such payments to you.",
+      "method": "gliner",
+      "confidence": 0.829376220703125,
+      "rank_score": 0.559376220703125,
+      "doc_role": "otp",
+      "section": "When and how will I be paid\nfor my tendered Shares?",
+      "faq_question": "When and how will I be paid\nfor my tendered Shares?",
+      "char_span": [
+        325,
+        340
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificates",
+      "passage": "Accordingly, tendering stockholders may be paid at different times depending upon when the Share Certificates or Book-Entry Confirmations with respect to Shares are actually received by the Depositary.",
+      "method": "gliner",
+      "confidence": 0.5478116869926453,
+      "rank_score": 0.5478116869926453,
+      "doc_role": "otp",
+      "section": "2. Acceptance for Payment and Payment for Shares.",
+      "faq_question": null,
+      "char_span": [
+        1578,
+        1596
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w1"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Company ESPP",
+      "passage": "ce upon the vesting and settlement of\nCompany RSU Awards (as defined below), (iv) 565,707 Shares issuable pursuant to the exercise of Company Options (as defined below) and (v)\u00a04,631 Shares estimated to be subject to outstanding rights under ABIOMED\u2019s 1988 Employee Stock\nPurchase Plan, as Amended and Restated on February\u00a05, 2019 (the \u201c\nCompany ESPP\n\u201d) (based on total employee contributions to the Company ESPP from October\u00a01, 2022 through November\u00a07, 2022 and assuming the closing price\nper Share as reported by The NASDAQ Global Select Market on the purchase date for the current offering period was equal to the Offer Price (as defined below)).\nItem\u00a02.",
+      "method": "gliner",
+      "confidence": 0.5359519124031067,
+      "rank_score": 0.5359519124031067,
+      "doc_role": "sc_14d9",
+      "section": "sc_14d9",
+      "faq_question": null,
+      "char_span": [
+        3048,
+        3060
+      ],
+      "source_hit_id": "0001193125-22-285225:d359247dsc14d9.htm",
+      "source_accession": "0001193125-22-285225",
+      "label": "ticker_symbol",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "CVRs",
+      "passage": "our decision whether to tender Shares and accept the Offer because:\n\u2022 we have sufficient cash on hand to finance the Offer and the Merger, as well as the funds available to pay the\nmaximum aggregate amount that the holders of CVRs may be entitled to receive;\n\u2022 the Offer is being made for all outstanding Shares solely for cash (including the right to receive any amounts\npayable with respect to the CVRs, which will be paid in cash);",
+      "method": "gliner",
+      "confidence": 0.46949630975723267,
+      "rank_score": 0.5194963097572327,
+      "doc_role": "otp",
+      "section": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "faq_question": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "char_span": [
+        460,
+        464
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "available_option",
+      "raw": "contingent value right",
+      "passage": "In response, Mr.\u00a0Duato noted that these values were too high and informed Mr.\u00a0Minogue that Johnson\u00a0& Johnson could offer $380.00 per Share and provide specific\nterms of a proposed contingent value right if it were provided with certain information about ABIOMED that would assist Johnson\u00a0& Johnson in assessing its valuation of ABIOMED.",
+      "method": "gliner",
+      "confidence": 0.4907589256763458,
+      "rank_score": 0.4907589256763458,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        4582,
+        4604
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "available_option",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Share Certificate",
+      "passage": "If a Share Certificate is registered in the name of a person or persons other than the signer of\nthe Letter of Transmittal, or if payment is to be made or delivered to, or a Share Certificate not accepted for payment or not tendered is to be issued in, the name(s) of a person other than the registered holder(s), then the Share Certificate must\nbe endorsed or accompanied by appropriate duly executed stock powers, in either case signed exactly as the name(s) of the registered holder(s) appear(s) on the Share Certificate, with the signature(s) on the Share Certificate or stock powers\ngua",
+      "method": "gliner",
+      "confidence": 0.48041313886642456,
+      "rank_score": 0.48041313886642456,
+      "doc_role": "otp",
+      "section": "3. Procedures for Accepting the Offer and Tendering Shares.",
+      "faq_question": null,
+      "char_span": [
+        3780,
+        3797
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Minimum Condition",
+      "passage": "\u2022 If, as of the then-scheduled Expiration Time, all of the Offer Conditions except the Minimum Condition are\nsatisfied or have been waived, such that the Minimum Condition is the only Offer",
+      "method": "gliner",
+      "confidence": 0.9696084260940552,
+      "rank_score": 0.4696084260940551,
+      "doc_role": "otp",
+      "section": "Can\nthe Offer be extended and under what circumstances?",
+      "faq_question": "Can\nthe Offer be extended and under what circumstances?",
+      "char_span": [
+        762,
+        779
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "target",
+      "raw": "AdvaMed",
+      "passage": "Morgan were also in attendance during the July 18, 2022 meeting.\nIn June 2022, Ms.\u00a0Ashley McEvoy, Johnson\u00a0& Johnson\u2019s Executive Vice President and Worldwide Chairman of MedTech and Mr.\u00a0Michael\nMinogue, ABIOMED\u2019s Chairman, President and Chief Executive Officer, met at a trade industry conference and discussed their mutual involvement in AdvaMed, a trade association (\u201c\nAdvaMed\n\u201d), and the transition of the AdvaMed\nChairman role.",
+      "method": "gliner",
+      "confidence": 0.459743469953537,
+      "rank_score": 0.459743469953537,
+      "doc_role": "otp",
+      "section": "10. Background of the Offer; Past Contacts or Negotiations with ABIOMED.",
+      "faq_question": null,
+      "char_span": [
+        1697,
+        1704
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "target_organization",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "proration_terms",
+      "raw": "Offer\nConditions",
+      "passage": "If we extend the Offer, the extension will extend the time that you will have to tender (or withdraw) your Shares.\nPurchaser expressly reserves the right to waive any of the Offer Conditions and make any changes to the terms and conditions of the Offer, including the Offer\nConditions.",
+      "method": "gliner",
+      "confidence": 0.4527489244937897,
+      "rank_score": 0.4527489244937897,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer",
+      "faq_question": null,
+      "char_span": [
+        3283,
+        3299
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "proration_terms",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "currency",
+      "raw": "U.S. dollar",
+      "passage": "ockholders subject to the alternative minimum tax; (h)\u00a0regulated investment companies; (i)\u00a0real estate investment trusts; (j)\u00a0persons that\nown (or are deemed to own) 5% or more of the outstanding Shares;\u00a0(k) partnerships and other pass-through entities and persons who hold Shares through such partnerships or other pass-through entities; (l)\u00a0persons that have a\n\u201cfunctional currency\u201d other than the U.S. dollar; (m)\u00a0stockholders that acquired (or will acquire) Shares through exercise of employee\n22\nTable of Contents\nstock options or otherwise as compensation; and\u00a0(n) persons required to accelerate the recognition of any item of gross income as a result of such income being recognized on an applicable\nfinancial statement.\nThis summary is not a complete analysis of all potential U.S.",
+      "method": "gliner",
+      "confidence": 0.4469972550868988,
+      "rank_score": 0.4469972550868988,
+      "doc_role": "otp",
+      "section": "5. Material",
+      "faq_question": null,
+      "char_span": [
+        1739,
+        1750
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "currency_code",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "capital stock",
+      "passage": "14. Dividends and Distributions.\nThe Merger Agreement provides that, from the date of the Merger Agreement until the earlier of the Effective Time and the termination of the Merger Agreement,\nneither ABIOMED nor any of its subsidiaries will declare, set aside, make or pay any dividend or distribution (whether in cash, stock or property) on any shares of its capital stock, except (a)\u00a0dividends paid to ABIOMED or one of its wholly\nowned subsidiaries by another of ABIOMED\u2019s wholly owned subsidiaries with respect to its capital stock or other equity interests or (b)\u00a0with the prior written consent of Johnson\u00a0& Johnson (which consent shall not be unreasonably\nwithheld, conditioned or delayed).",
+      "method": "gliner",
+      "confidence": 0.4381151795387268,
+      "rank_score": 0.4381151795387268,
+      "doc_role": "otp",
+      "section": "14. Dividends and Distributions.",
+      "faq_question": null,
+      "char_span": [
+        360,
+        373
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "withdrawal_deadline",
+      "raw": "Expiration Time",
+      "passage": "However, withdrawn Shares may be\nre-tendered\nfollowing one of the procedures described in Section\u00a03\u2014\u201cProcedures for Accepting the Offer and Tendering Shares\u201d at any time prior to the\nExpiration Time.\nAll questions as to the form and validity (including time of receipt) of any notice of withdrawal will be determined by Purchaser, in\nits sole discretion, whose determination will be final and binding.",
+      "method": "gliner",
+      "confidence": 0.8221144676208496,
+      "rank_score": 0.4221144676208496,
+      "doc_role": "otp",
+      "section": "4. Withdrawal Rights",
+      "faq_question": null,
+      "char_span": [
+        2297,
+        2312
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "withdrawal_datetime",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "cusip",
+      "raw": "CUSIP Number",
+      "passage": "(Offeror)\nA Wholly Owned\nSubsidiary of\nJOHNSON\u00a0& JOHNSON\n(Parent of Offeror)\n(Names of Filing Persons (identifying status as offeror, issuer or other person))\nCOMMON STOCK, PAR VALUE $0.01 PER SHARE\n(Title of Class\u00a0of Securities)\n003654100\n(CUSIP Number\nof Class\u00a0of Securities)\nNicholas Antoun\nJohnson\u00a0& Johnson\nOne Johnson\u00a0& Johnson Plaza\nNew Brunswick, NJ 08933\n(732)\n524-0400\n(Name, address and telephone number of person authorized to receive notices and communications on behalf of filing persons)\nwith copies to:\nRobert I.",
+      "method": "gliner",
+      "confidence": 0.7204134464263916,
+      "rank_score": 0.42041344642639156,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        508,
+        520
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "cusip_code",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Effective Time",
+      "passage": "til their earlier death, resignation or removal in\naccordance with the certificate of incorporation and bylaws of the Surviving Corporation, the directors of Purchaser immediately prior to the Effective Time will be, from and after the Effective Time, the initial directors of the Surviving\nCorporation, and the officers of ABIOMED immediately prior to the Effective Time will be, from and after the Effective Time, the initial officers of the Surviving Corporation.",
+      "method": "gliner",
+      "confidence": 0.9642264246940613,
+      "rank_score": 0.41422642469406123,
+      "doc_role": "otp",
+      "section": "12. Purpose of",
+      "faq_question": null,
+      "char_span": [
+        3850,
+        3864
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "effective_datetime",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "Shares",
+      "passage": "No. We do not think our financial condition is relevant to your decision whether to tender Shares and accept the Offer because:\n\u2022 we have sufficient cash on hand to finance the Offer and the Merger, as well as the funds available to pay the\nmaximum aggregate amount that the holders of CVRs may be entitled to receive;\n\u2022 the Offer is being made for all outstanding Shares solely for cash (including the right to receive any amounts\npayable with respect to the CVRs, which will be paid in cash);",
+      "method": "gliner",
+      "confidence": 0.9093645811080933,
+      "rank_score": 0.4093645811080932,
+      "doc_role": "otp",
+      "section": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "faq_question": "Is your financial condition relevant to my decision to tender my Shares in the Offer?",
+      "char_span": [
+        365,
+        371
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "settlement_date",
+      "raw": "Acceptance Time",
+      "passage": "13. Certain Effects of the Offer.\nBecause the Merger will be effected in accordance with Section\u00a0251(h) of the DGCL, no stockholder vote will be required to consummate the Merger.\nFollowing the Acceptance Time and subject to the satisfaction of the remaining conditions set forth in the Merger Agreement, we and ABIOMED will consummate the Merger as soon as practicable.",
+      "method": "gliner",
+      "confidence": 0.8114380240440369,
+      "rank_score": 0.2614380240440368,
+      "doc_role": "otp",
+      "section": "13. Certain Effects of the Offer.",
+      "faq_question": null,
+      "char_span": [
+        194,
+        209
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "settlement_datetime",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "ticker",
+      "raw": "COMMON STOCK",
+      "passage": "20549\nSCHEDULE TO\nTender Offer Statement Pursuant to Section\u00a014(d)(1) or 13(e)(1)\nof the Securities Exchange Act of 1934\nABIOMED, INC.\n(Name of Subject Company (Issuer))\nATHOS MERGER SUB, INC.\n(Offeror)\nA Wholly Owned\nSubsidiary of\nJOHNSON\u00a0& JOHNSON\n(Parent of Offeror)\n(Names of Filing Persons (identifying status as offeror, issuer or other person))\nCOMMON STOCK, PAR VALUE $0.01 PER SHARE\n(Title of Class\u00a0of Securities)\n003654100\n(CUSIP Number\nof Class\u00a0of Securities)\nNicholas Antoun\nJohnson\u00a0& Johnson\nOne Johnson\u00a0& Johnson Plaza\nNew Brunswick, NJ 08933\n(732)\n524-0400\n(Name, address and telephone number of person authorized to receive notices and communications on behalf of filing persons)\nwith copies to:\nRobert I.",
+      "method": "gliner",
+      "confidence": 0.5410288572311401,
+      "rank_score": 0.19102885723114005,
+      "doc_role": "cover",
+      "section": "cover",
+      "faq_question": null,
+      "char_span": [
+        426,
+        438
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dsctot.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "ticker_symbol",
+      "chunk_id": "w0"
+    },
+    {
+      "field_hint": "effective_date",
+      "raw": "Acceptance Time",
+      "passage": "We expect to consummate the Merger as soon as practicable following the Acceptance Time and,\nif the Merger takes place, ABIOMED will no longer be publicly traded.",
+      "method": "gliner",
+      "confidence": 0.6925172209739685,
+      "rank_score": 0.14251722097396846,
+      "doc_role": "otp",
+      "section": "13. Certain Effects of the Offer.",
+      "faq_question": null,
+      "char_span": [
+        1780,
+        1795
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "effective_datetime",
+      "chunk_id": "w2"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "No Legal Restraint Condition",
+      "passage": "However, in no event will Purchaser be required to extend the Offer beyond July\u00a01, 2023 (or, in the event\nthat any of the Antitrust Clearance Condition, the No Legal Restraint Condition (solely in respect of any antitrust law) or the No Antitrust Proceedings Condition (each as defined below) has not been satisfied or waived as of that\ndate,\u00a0September 1, 2023).",
+      "method": "gliner",
+      "confidence": 0.6210510730743408,
+      "rank_score": 0.07105107307434078,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer",
+      "faq_question": null,
+      "char_span": [
+        2809,
+        2837
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Antitrust Clearance Condition",
+      "passage": "However, in no event will Purchaser be required to extend the Offer beyond July\u00a01, 2023 (or, in the event\nthat any of the Antitrust Clearance Condition, the No Legal Restraint Condition (solely in respect of any antitrust law) or the No Antitrust Proceedings Condition (each as defined below) has not been satisfied or waived as of that\ndate,\u00a0September 1, 2023).",
+      "method": "gliner",
+      "confidence": 0.5769603848457336,
+      "rank_score": 0.026960384845733598,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer",
+      "faq_question": null,
+      "char_span": [
+        2774,
+        2803
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "No Antitrust Proceedings Condition",
+      "passage": "However, in no event will Purchaser be required to extend the Offer beyond July\u00a01, 2023 (or, in the event\nthat any of the Antitrust Clearance Condition, the No Legal Restraint Condition (solely in respect of any antitrust law) or the No Antitrust Proceedings Condition (each as defined below) has not been satisfied or waived as of that\ndate,\u00a0September 1, 2023).",
+      "method": "gliner",
+      "confidence": 0.5029768943786621,
+      "rank_score": -0.047023105621337935,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer",
+      "faq_question": null,
+      "char_span": [
+        2886,
+        2920
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w3"
+    },
+    {
+      "field_hint": "minimum_tender_condition",
+      "raw": "Termination Condition",
+      "passage": "However, without the prior written consent of ABIOMED, we are not permitted to (a)\u00a0waive or modify the Minimum Condition, the No Legal Restraint Condition, the No Antitrust Proceedings Condition or the Termination Condition (each as\ndefined in Section\u00a015\u2014\u201cConditions to the Offer\u201d), (b) change the form of consideration payable in the Offer, (c)\u00a0decrease the Cash Amount, (d)\u00a0decrease the number of Shares sought to be purchased in the Offer,\n(e)\u00a0extend the Offer or the Expiration Time or terminate the Offer, except as permitted under the Merger Agreement, (f)\u00a0impose conditions to the Offer other than the Offer Conditio",
+      "method": "gliner",
+      "confidence": 0.40856310725212097,
+      "rank_score": -0.14143689274787907,
+      "doc_role": "otp",
+      "section": "1. Terms of the Offer",
+      "faq_question": null,
+      "char_span": [
+        3503,
+        3524
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "minimum_tender_condition",
+      "chunk_id": "w4"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "CVRs",
+      "passage": "federal income tax treatment of the receipt of the CVRs in connection with the Offer or the Merger.",
+      "method": "gliner",
+      "confidence": 0.45402154326438904,
+      "rank_score": -0.24597845673561092,
+      "doc_role": "otp",
+      "section": "5. Material",
+      "faq_question": null,
+      "char_span": [
+        5208,
+        5212
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w6"
+    },
+    {
+      "field_hint": "security_description",
+      "raw": "Shares",
+      "passage": "federal income tax purposes) holds Shares, the tax treatment of a partner will generally depend upon the status of the partner and upon the activities of the partnership.",
+      "method": "gliner",
+      "confidence": 0.9041980504989624,
+      "rank_score": -0.39580194950103764,
+      "doc_role": "otp",
+      "section": "5. Material",
+      "faq_question": null,
+      "char_span": [
+        3779,
+        3785
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "security_name",
+      "chunk_id": "w5"
+    },
+    {
+      "field_hint": "target",
+      "raw": "DTC",
+      "passage": "tendered Shares are not accepted for payment for any reason pursuant to the terms and conditions of the Offer, or if Share Certificates are submitted\nevidencing more Shares than are tendered, Share Certificates evidencing unpurchased Shares will be returned, without expense to the tendering stockholder (or, in the case of Shares tendered by book-entry transfer into the Depositary\u2019s account\nat the DTC pursuant to the procedure set forth in Section\u00a03\u2014\u201cProcedures for Accepting the Offer and Tendering Shares\u201d, such Shares will be credited to an account maintained at the DTC), promptly following the expiration or\ntermination of the Offer.",
+      "method": "gliner",
+      "confidence": 0.4807235598564148,
+      "rank_score": -0.46927644014358527,
+      "doc_role": "otp",
+      "section": "2. Acceptance for Payment and Payment for Shares.",
+      "faq_question": null,
+      "char_span": [
+        4867,
+        4870
+      ],
+      "source_hit_id": "0001193125-22-285216:d411777dex99a1a.htm",
+      "source_accession": "0001193125-22-285216",
+      "label": "target_organization",
+      "chunk_id": "w6"
+    }
+  ],
+  "exception_flags": [],
+  "written_at": "2026-09-17T07:36:16.830741+00:00"
+}
