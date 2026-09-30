@@ -4,11 +4,19 @@ Exploratory analysis of **public SEC filings** against the **BNY client-notifica
 
 **Tender offers · Exchange offers · Rights issues · Mergers · Conversions**
 
-Current downloaded corpus is **tender-centric** (Schedule TO + SC 14D9). Other types are defined in `src/eda/event_taxonomy.py` with explicit corpus-gap tracking.
+## Repo map
 
-## Question
-
-How well can public corporate-action documents populate the fields required in a real BNY client notification — enough to power a **versioned event datastore → notification draft** MVP?
+| Path | Role |
+|------|------|
+| `dataloader/` | Sample SEC downloads → `data/samples/` ([README](dataloader/README.md)) |
+| `preprocess/` | GLiNER-on-samples demo notebook ([README](preprocess/README.md)) |
+| `scripts/` | Corpus build, EDA run, preprocess CLI, DB init |
+| `src/eda/` | EFTS client, corpus, coverage / MVP analysis |
+| `src/preprocess/` | TO Concise Rep pipeline (inventory → download → …) |
+| `notebooks/` | EDA / inspect notebooks (analysis, not download) |
+| `docs/` | Schema, preprocess LLD, ROI notes |
+| `data/` | Local artifacts (**gitignored**) |
+| `db/` | Postgres schema |
 
 ## Quick start
 
@@ -17,58 +25,49 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# Build public corpus from SEC EFTS (requires network + descriptive User-Agent)
+# Build public corpus from SEC EFTS
 python scripts/build_corpus.py --start 2020-01-01 --end 2025-12-31 --sample-per-form 6
 
-# Run analyses and write outputs/ + MVP figures
+# Pattern-hunting sample PDFs + HTML (TO / 14D9 / OTP / 8-K + exhibits)
+python dataloader/download_samples.py
+
+# Run analyses → outputs/ + MVP figures
 python scripts/run_eda.py
 
-# Open the notebook
+# Open an analysis notebook
 jupyter notebook notebooks/tender_offer_eda.ipynb
 ```
+
+SEC User-Agent is auto-generated per run (see [`dataloader/README.md`](dataloader/README.md)).
 
 ## Postgres event datastore
 
 ```bash
 docker compose up -d
-pip install -r requirements.txt
 python scripts/init_db.py
 ```
 
-See [`db/README.md`](db/README.md) for schema (`events`, `documents`, `event_versions`, `event_field_values`, path-specific `*_concise_*` Concise Rep tables).
+See [`db/README.md`](db/README.md).
 
 ## Preprocess pipeline (TO-first Concise Rep)
 
-Design: [`docs/lld-preprocess-pipeline.md`](docs/lld-preprocess-pipeline.md) · Example I/O: [`docs/preprocess-stage-io-example.md`](docs/preprocess-stage-io-example.md)
+Design: [`docs/lld-preprocess-pipeline.md`](docs/lld-preprocess-pipeline.md)
 
 ```bash
-# Inventory preferred TO events into cohorts (gold / needs_otp_resolve / incomplete)
 python scripts/run_preprocess.py --path tender --stage inventory --limit 20
-
-# Full pipe on gold cohort (real GLiNER; skip DB load if Postgres not up)
-python scripts/run_preprocess.py --path tender --stage all --cohort gold --limit 3 \
-  --skip-db --viz
-
-# Single event / stage
-python scripts/run_preprocess.py --path tender --stage gliner --event-id 005-02933
+python scripts/run_preprocess.py --path tender --stage all --cohort gold --limit 3 --skip-db --viz
 ```
 
-Inspect outputs in [`notebooks/preprocess_stage_inspect.ipynb`](notebooks/preprocess_stage_inspect.ipynb).
-
-Stages are independent (`--stage inventory|download|cleanup|segment|gliner|assemble|load_db`).
+Inspect: [`notebooks/preprocess_stage_inspect.ipynb`](notebooks/preprocess_stage_inspect.ipynb).
 
 ## Deliverables
 
 | Path | Description |
 |------|-------------|
-| `notebooks/tender_offer_eda.ipynb` | MVP-oriented EDA (datastore → notification) |
+| `notebooks/tender_offer_eda.ipynb` | MVP-oriented EDA |
 | `src/eda/event_taxonomy.py` | Five event types + SEC form map + gaps |
-| `outputs/mvp_corpus_gaps.csv` | Which types are collected vs missing |
-| `outputs/datastore_field_catalog.csv` | Field roles for the event store |
-| `outputs/mvp_events.csv` | Tender v1 MVP event pool |
-| `outputs/schema_coverage.csv` | Field coverage matrix |
-| `EDA_SUMMARY.md` | Findings + Implications for MVP Design |
-| `outputs/figures/mvp_*.png` | Decision-relevant plots only |
+| `outputs/` | Coverage CSVs + MVP figures |
+| `EDA_SUMMARY.md` | Findings + MVP implications |
 
 ## Evidence discipline
 

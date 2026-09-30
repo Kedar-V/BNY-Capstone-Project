@@ -250,11 +250,10 @@ def plot_event_type_field_relevance_matrix(save: bool = True) -> plt.Figure:
     from .bny_schema import BNY_SCHEMA
     from .event_taxonomy import MVP_EVENT_TYPE_KEYS, RELEVANCE_BY_MVP_TYPE
 
-    # Short labels keep x-axis text horizontal (viz principles: prefer horizontal text)
     type_labels = {
-        "tender_offer": "Tender",
-        "exchange_offer": "Exchange",
-        "rights_issue": "Rights",
+        "tender_offer": "Tender offer",
+        "exchange_offer": "Exchange offer",
+        "rights_issue": "Rights issue",
         "merger": "Merger",
         "conversion": "Conversion",
     }
@@ -272,7 +271,7 @@ def plot_event_type_field_relevance_matrix(save: bool = True) -> plt.Figure:
     cols = [type_labels[k] for k in MVP_EVENT_TYPE_KEYS if type_labels[k] in mat.columns]
     mat = mat[cols]
 
-    fig, ax = plt.subplots(figsize=(7.5, 11))
+    fig, ax = plt.subplots(figsize=(8.5, 11))
     sns.heatmap(
         mat,
         cmap="Blues",
@@ -290,7 +289,7 @@ def plot_event_type_field_relevance_matrix(save: bool = True) -> plt.Figure:
     )
     ax.set_xlabel("Event type")
     ax.set_ylabel("")
-    plt.setp(ax.get_xticklabels(), rotation=0, ha="center")
+    plt.setp(ax.get_xticklabels(), rotation=40, ha="right", rotation_mode="anchor")
     plt.setp(ax.get_yticklabels(), rotation=0)
     fig.tight_layout()
     _save(fig, "mvp_field_relevance_by_event_type.png", save)
@@ -307,12 +306,12 @@ def plot_event_type_coverage_heatmap(
     pivot = event_type_coverage.pivot_table(
         index="field", columns="corporate_action_type", values="coverage_pct"
     )
-    # Human-readable index/columns; keep tick text horizontal
+    # Human-readable index/columns
     pivot = pivot.copy()
     pivot.index = [str(i).replace("_", " ") for i in pivot.index]
     pivot.columns = [str(c).replace("_", " ").title() for c in pivot.columns]
 
-    fig, ax = plt.subplots(figsize=(8, 11))
+    fig, ax = plt.subplots(figsize=(9, 11))
     sns.heatmap(pivot, annot=False, cmap="Blues", ax=ax, vmin=0, vmax=100)
     ax.set_title(
         "Sample mention coverage is tender-heavy until other form families are collected",
@@ -323,7 +322,7 @@ def plot_event_type_coverage_heatmap(
     )
     ax.set_xlabel("Form family / event type in sample")
     ax.set_ylabel("")
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=0, ha="center")
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right", rotation_mode="anchor")
     ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
     fig.tight_layout()
     _save(fig, "mvp_event_type_coverage_heatmap.png", save)

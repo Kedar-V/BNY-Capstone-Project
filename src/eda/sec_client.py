@@ -10,16 +10,17 @@ import urllib.parse
 import urllib.request
 from typing import Any, Iterable
 
-from .config import SEC_REQUEST_PAUSE_SEC, SEC_USER_AGENT
+from .config import SEC_REQUEST_PAUSE_SEC, default_sec_user_agent
 
 
 class SecClient:
     def __init__(
         self,
-        user_agent: str = SEC_USER_AGENT,
+        user_agent: str | None = None,
         pause_sec: float = SEC_REQUEST_PAUSE_SEC,
     ) -> None:
-        self.user_agent = user_agent
+        # Fresh random client id on every SecClient() construction.
+        self.user_agent = user_agent or default_sec_user_agent()
         self.pause_sec = pause_sec
         self._last_request = 0.0
 

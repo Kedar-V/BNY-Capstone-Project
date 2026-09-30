@@ -146,9 +146,18 @@ MVP_CORPORATE_ACTION_TYPES = [
     "conversion",
 ]
 
-# SEC requires a descriptive User-Agent with contact information.
-SEC_USER_AGENT = "BNY Capstone Research kedartvaidya@gmail.com"
+# SEC EDGAR User-Agent: random per SecClient() so the repo ships no personal identity.
 SEC_REQUEST_PAUSE_SEC = 0.25
+
+
+def default_sec_user_agent() -> str:
+    import uuid
+
+    rid = uuid.uuid4().hex[:10]
+    return f"BNYCapstoneResearch/1.0 (client-{rid}; research+{rid}@example.invalid)"
+
+
+SEC_USER_AGENT = default_sec_user_agent()
 
 DEFAULT_START = "2020-01-01"
 DEFAULT_END = "2025-12-31"
