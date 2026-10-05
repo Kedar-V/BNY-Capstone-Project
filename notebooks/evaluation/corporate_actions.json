@@ -1,0 +1,7 @@
+{
+  "tender_offer": {"primary": ["SC TO-T", "SC TO-T/A", "SC TO-I", "SC TO-I/A"], "supporting": ["SC 14D9", "SC 14D9/A"], "conditional": [], "query": "\"tender offer\" OR \"offer to purchase\""},
+  "exchange_offer": {"primary": ["SC TO-T", "SC TO-T/A", "SC TO-I", "SC TO-I/A", "S-4", "S-4/A", "F-4", "F-4/A", "424B3"], "supporting": ["SC 14D9", "SC 14D9/A", "SC TO-C", "425", "8-K", "6-K"], "conditional": ["SC 13E3", "SC 13E3/A"], "query": "\"exchange offer\" OR \"offer to exchange\""},
+  "rights_issue": {"primary": ["424B2", "424B3", "424B5", "S-3", "S-3ASR"], "supporting": ["8-K", "424B4"], "conditional": [], "query": "\"rights offering\" OR \"subscription rights\" OR \"rights issue\""},
+  "merger": {"primary": ["DEFM14A", "PREM14A", "S-4", "S-4/A", "SC 13E3", "SC 13E3/A"], "supporting": ["8-K", "425"], "conditional": [], "query": "\"merger\" OR \"business combination\""},
+  "conversion": {"primary": ["8-K", "424B2", "424B3", "S-3", "S-3ASR"], "supporting": ["10-K", "10-Q"], "conditional": [], "query": "\"conversion rate\" OR \"conversion price\" OR \"mandatory conversion\" OR \"convertible notes\""}
+}
