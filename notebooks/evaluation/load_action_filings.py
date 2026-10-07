@@ -19,6 +19,9 @@ from urllib.parse import urljoin, urlparse, parse_qs
 
 import pandas as pd
 from bs4 import BeautifulSoup
+import warnings, XMLParsedAsHTMLWarning
+
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
