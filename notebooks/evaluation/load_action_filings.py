@@ -127,6 +127,10 @@ def load_action(action, start, end, n=10, include_supporting=True, include_condi
     """Return a DataFrame with one row per filing; use its "text" column for the LLM.
 
     Choose action, start/end filing dates (YYYY-MM-DD), and n (maximum filings).
+    Each row includes filing/event IDs, SEC form and registrant metadata, source URL,
+    document count, text size, content hash, processing status, and extracted text.
+    event_id starts as action_accession-number; assign the same ID to related filings
+    during review when they represent one corporate-action event.
     Supporting forms are included; conditional forms are optional.
     metadata_path can supply a saved filing list instead of a new SEC search.
     Review results: a matching form or keyword does not confirm the action.
@@ -209,8 +213,13 @@ def load_action(action, start, end, n=10, include_supporting=True, include_condi
         input_path = output / 'input_text' / f'{acc}.txt'
         input_path.parent.mkdir(exist_ok=True)
         input_path.write_text(text)
-        results.append({**base, 'text': text, 'input_text_path': str(input_path),
-                        'input_hash': hashlib.sha256(text.encode()).hexdigest(), 'document_count': len(chunks),
+        text_bytes = text.encode('utf-8')
+        results.append({**base, 'filing_id': acc, 'event_id': f'{action}_{acc}',
+                        'text': text, 'input_text_path': str(input_path),
+                        'input_hash': hashlib.sha256(text_bytes).hexdigest(),
+                        'document_count': len(chunks), 'text_char_count': len(text),
+                        'text_byte_count': len(text_bytes),
+                        'text_size_mb': round(len(text_bytes) / 1_000_000, 3),
                         'status': 'failed' if not chunks else 'partial' if errors else 'ok',
                         'input_coverage': 'selected filing and attached exhibits only; incorporated references not followed',
                         'error': ' | '.join(errors)})
