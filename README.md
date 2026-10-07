@@ -53,6 +53,8 @@ The partial January–September 2026 merger-candidate archive is in `data/merger
 
 Use [`dataloader/collect_merger_candidates.py`](dataloader/collect_merger_candidates.py) to search EDGAR by filing date and save source HTML, parsed text, a manifest, and a portable ZIP under gitignored `data/`. Start with the [download and review guide](docs/merger-data-download.md); results are unreviewed candidates, not confirmed merger deals.
 
+For the January–September 2026 candidate dataset, follow the [2026 mergers README](docs/README-mergers-2026.md) to collect, screen, export, and review the filings.
+
 ## Postgres event datastore
 
 ```bash
