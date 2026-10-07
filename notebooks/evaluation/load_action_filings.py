@@ -31,7 +31,7 @@ from download_samples import diversify
 from eda.sec_client import SecClient
 from eda.corpus import hit_to_record
 
-ACTIONS = json.loads((HERE / 'corporate_actions.json').read_text())
+ACTIONS = json.loads((HERE / 'corporate_actions.json').read_text(encoding='utf-8'))
 
 
 def cached_bytes(client, url, path):
@@ -84,13 +84,13 @@ def discover(client, spec, forms, start, end, cap, output):
             key = hashlib.sha256(json.dumps(params, sort_keys=True).encode()).hexdigest()
             path = output / 'search' / f'{key}.json'
             if path.exists():
-                payload = json.loads(path.read_text())
+                payload = json.loads(path.read_text(encoding='utf-8'))
             else:
                 payload = client.efts_search(params)
                 if 'hits' not in payload:
                     raise ValueError(f'Invalid search response for {form}')
                 path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_text(json.dumps(payload))
+                path.write_text(json.dumps(payload), encoding='utf-8')
             hits = payload['hits']
             reported = hits.get('total', 0)
             total = reported.get('value', 0) if isinstance(reported, dict) else reported
@@ -212,7 +212,7 @@ def load_action(action, start, end, n=None, include_supporting=True, include_con
                         if not text.strip():
                             raise ValueError('No text extracted')
                         text_path = path.with_name(path.name + '.txt')
-                        text_path.write_text(text)
+                        text_path.write_text(text, encoding='utf-8')
                         info.update(status='ok', text_path=str(text_path))
                         chunks.append(f"=== DOCUMENT {doc['filename']} | {doc['document_type']} | {doc['url']} ===\n{text}")
                     except Exception as exc:
@@ -225,7 +225,7 @@ def load_action(action, start, end, n=None, include_supporting=True, include_con
         text = '\n\n'.join(chunks)
         input_path = output / 'input_text' / f'{acc}.txt'
         input_path.parent.mkdir(exist_ok=True)
-        input_path.write_text(text)
+        input_path.write_text(text, encoding='utf-8')
         text_bytes = text.encode('utf-8')
         results.append({**base, 'filing_id': acc, 'event_id': f'{action}_{acc}',
                         'text': text, 'input_text_path': str(input_path),
@@ -246,7 +246,7 @@ def load_action(action, start, end, n=None, include_supporting=True, include_con
     frame.drop(columns='text').to_csv(output / 'filings.csv', index=False)
     (output / 'run.json').write_text(json.dumps(dict(action=action, start=start, end=end, n=n,
         forms=forms, query=spec['query'] if not metadata_path else None, metadata_path=str(metadata_path),
-        max_hits_per_form=max_hits_per_form, selected_filings=len(frame)), indent=2))
+        max_hits_per_form=max_hits_per_form, selected_filings=len(frame)), indent=2), encoding='utf-8')
     return frame
 
 
