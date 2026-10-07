@@ -1,0 +1,317 @@
+[
+  {
+    "accession": "0001104659-20-000348",
+    "filename": "a20-1110_1425.htm",
+    "form": "425",
+    "entity_name": "SRC Energy Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1413507/000110465920000348/a20-1110_1425.htm",
+    "raw_path": "data/mergers/raw/0001104659-20-000348__a20-1110_1425.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001213900-19-027320",
+    "filename": "prem14a1219_sorlautoparts.htm",
+    "form": "PREM14A",
+    "entity_name": "SORL Auto Parts Inc",
+    "url": "https://www.sec.gov/Archives/edgar/data/714284/000121390019027320/prem14a1219_sorlautoparts.htm",
+    "raw_path": "data/mergers/raw/0001213900-19-027320__prem14a1219_sorlautoparts.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-000591",
+    "filename": "d832453d425.htm",
+    "form": "425",
+    "entity_name": "Steadfast Apartment REIT III, Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1651286/000119312520000591/d832453d425.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-000591__d832453d425.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-000590",
+    "filename": "d862325d425.htm",
+    "form": "425",
+    "entity_name": "Steadfast Income REIT, Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1468010/000119312520000590/d862325d425.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-000590__d862325d425.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-000570",
+    "filename": "d860914d425.htm",
+    "form": "425",
+    "entity_name": "Steadfast Apartment REIT III, Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1651286/000119312520000570/d860914d425.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-000570__d860914d425.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-000113",
+    "filename": "d812272ddefm14a.htm",
+    "form": "DEFM14A",
+    "entity_name": "INSTRUCTURE INC",
+    "url": "https://www.sec.gov/Archives/edgar/data/1355754/000119312520000113/d812272ddefm14a.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-000113__d812272ddefm14a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-000576",
+    "filename": "d860778d425.htm",
+    "form": "425",
+    "entity_name": "Steadfast Income REIT, Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1468010/000119312520000576/d860778d425.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-000576__d860778d425.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001213900-20-000002",
+    "filename": "sc13e31219_sorlautoparts.htm",
+    "form": "SC 13E3",
+    "entity_name": "SORL Auto Parts Inc",
+    "url": "https://www.sec.gov/Archives/edgar/data/714284/000121390020000002/sc13e31219_sorlautoparts.htm",
+    "raw_path": "data/mergers/raw/0001213900-20-000002__sc13e31219_sorlautoparts.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001104659-20-000535",
+    "filename": "tm1924637-2_defm14a.htm",
+    "form": "DEFM14A",
+    "entity_name": "PB Bancorp, Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652106/000110465920000535/tm1924637-2_defm14a.htm",
+    "raw_path": "data/mergers/raw/0001104659-20-000535__tm1924637-2_defm14a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001104659-20-000548",
+    "filename": "a19-24123_2sc13e3a.htm",
+    "form": "SC 13E3/A",
+    "entity_name": "CRAFT BREW ALLIANCE, INC.",
+    "url": "https://www.sec.gov/Archives/edgar/data/892222/000110465920000548/a19-24123_2sc13e3a.htm",
+    "raw_path": "data/mergers/raw/0001104659-20-000548__a19-24123_2sc13e3a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-000960",
+    "filename": "d843250ddefm14a.htm",
+    "form": "DEFM14A",
+    "entity_name": "ANIXTER INTERNATIONAL INC",
+    "url": "https://www.sec.gov/Archives/edgar/data/52795/000119312520000960/d843250ddefm14a.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-000960__d843250ddefm14a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001047469-20-000032",
+    "filename": "a2240382zs-4.htm",
+    "form": "S-4",
+    "entity_name": "Prologis, L.P.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045610/000104746920000032/a2240382zs-4.htm",
+    "raw_path": "data/mergers/raw/0001047469-20-000032__a2240382zs-4.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001206774-20-000008",
+    "filename": "sfb3688591-s4a.htm",
+    "form": "S-4/A",
+    "entity_name": "SOUTHERN FIRST BANCSHARES INC",
+    "url": "https://www.sec.gov/Archives/edgar/data/1090009/000120677420000008/sfb3688591-s4a.htm",
+    "raw_path": "data/mergers/raw/0001206774-20-000008__sfb3688591-s4a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-001590",
+    "filename": "d841743ddefm14a.htm",
+    "form": "DEFM14A",
+    "entity_name": "TIFFANY & CO",
+    "url": "https://www.sec.gov/Archives/edgar/data/98246/000119312520001590/d841743ddefm14a.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-001590__d841743ddefm14a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001062993-20-000033",
+    "filename": "forms4a.htm",
+    "form": "S-4/A",
+    "entity_name": "ALKALINE WATER Co INC",
+    "url": "https://www.sec.gov/Archives/edgar/data/1532390/000106299320000033/forms4a.htm",
+    "raw_path": "data/mergers/raw/0001062993-20-000033__forms4a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-002234",
+    "filename": "d834396ds4a.htm",
+    "form": "S-4/A",
+    "entity_name": "Menlo Therapeutics Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1566044/000119312520002234/d834396ds4a.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-002234__d834396ds4a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001104659-20-001249",
+    "filename": "tv535007-s4.htm",
+    "form": "S-4",
+    "entity_name": "DEAC NV Merger Corp.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1797122/000110465920001249/tv535007-s4.htm",
+    "raw_path": "data/mergers/raw/0001104659-20-001249__tv535007-s4.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-003085",
+    "filename": "d834396ddefm14a.htm",
+    "form": "DEFM14A",
+    "entity_name": "Foamix Pharmaceuticals Ltd.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1606645/000119312520003085/d834396ddefm14a.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-003085__d834396ddefm14a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-003137",
+    "filename": "d820721ds4a.htm",
+    "form": "S-4/A",
+    "entity_name": "DIGITAL REALTY TRUST, INC.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1297996/000119312520003137/d820721ds4a.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-003137__d820721ds4a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001558370-20-000070",
+    "filename": "prem14a.htm",
+    "form": "PREM14A",
+    "entity_name": "STREAMLINE HEALTH SOLUTIONS INC.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1008586/000155837020000070/prem14a.htm",
+    "raw_path": "data/mergers/raw/0001558370-20-000070__prem14a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-003772",
+    "filename": "d835535ds4a.htm",
+    "form": "S-4/A",
+    "entity_name": "FB Financial Corp",
+    "url": "https://www.sec.gov/Archives/edgar/data/1649749/000119312520003772/d835535ds4a.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-003772__d835535ds4a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-003953",
+    "filename": "d846586ds4.htm",
+    "form": "S-4",
+    "entity_name": "CLEVELAND-CLIFFS INC.",
+    "url": "https://www.sec.gov/Archives/edgar/data/764065/000119312520003953/d846586ds4.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-003953__d846586ds4.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001047469-20-000135",
+    "filename": "a2240338zs-4.htm",
+    "form": "S-4",
+    "entity_name": "NGL Energy Partners LP",
+    "url": "https://www.sec.gov/Archives/edgar/data/1504461/000104746920000135/a2240338zs-4.htm",
+    "raw_path": "data/mergers/raw/0001047469-20-000135__a2240338zs-4.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001213900-20-000588",
+    "filename": "prem14a0120_edtechxholdings.htm",
+    "form": "PREM14A",
+    "entity_name": "EdtechX Holdings Acquisition Corp.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1746468/000121390020000588/prem14a0120_edtechxholdings.htm",
+    "raw_path": "data/mergers/raw/0001213900-20-000588__prem14a0120_edtechxholdings.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-004680",
+    "filename": "d844387ds4.htm",
+    "form": "S-4",
+    "entity_name": "Fox Corp",
+    "url": "https://www.sec.gov/Archives/edgar/data/1754301/000119312520004680/d844387ds4.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-004680__d844387ds4.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001140361-20-000861",
+    "filename": "nt10006718x2_sc13e3a.htm",
+    "form": "SC 13E3/A",
+    "entity_name": "Aircastle LTD",
+    "url": "https://www.sec.gov/Archives/edgar/data/1362988/000114036120000861/nt10006718x2_sc13e3a.htm",
+    "raw_path": "data/mergers/raw/0001140361-20-000861__nt10006718x2_sc13e3a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-009276",
+    "filename": "d870318dprem14a.htm",
+    "form": "PREM14A",
+    "entity_name": "LogMeIn, Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1420302/000119312520009276/d870318dprem14a.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-009276__d870318dprem14a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001047469-20-000305",
+    "filename": "a2240492zprem14a.htm",
+    "form": "PREM14A",
+    "entity_name": "WPX ENERGY, INC.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1518832/000104746920000305/a2240492zprem14a.htm",
+    "raw_path": "data/mergers/raw/0001047469-20-000305__a2240492zprem14a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001104659-20-005596",
+    "filename": "a19-24123_2sc13e3a.htm",
+    "form": "SC 13E3/A",
+    "entity_name": "CRAFT BREW ALLIANCE, INC.",
+    "url": "https://www.sec.gov/Archives/edgar/data/892222/000110465920005596/a19-24123_2sc13e3a.htm",
+    "raw_path": "data/mergers/raw/0001104659-20-005596__a19-24123_2sc13e3a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-011134",
+    "filename": "d874077dsc13e3.htm",
+    "form": "SC 13E3",
+    "entity_name": "Tallgrass Energy, LP",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633651/000119312520011134/d874077dsc13e3.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-011134__d874077dsc13e3.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001104659-20-006066",
+    "filename": "a20-3486_1sc13e3a.htm",
+    "form": "SC 13E3/A",
+    "entity_name": "Teekay Offshore Partners L.P.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1382298/000110465920006066/a20-3486_1sc13e3a.htm",
+    "raw_path": "data/mergers/raw/0001104659-20-006066__a20-3486_1sc13e3a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001140361-20-001377",
+    "filename": "nt10006718x3_sc13e3a.htm",
+    "form": "SC 13E3/A",
+    "entity_name": "Aircastle LTD",
+    "url": "https://www.sec.gov/Archives/edgar/data/1362988/000114036120001377/nt10006718x3_sc13e3a.htm",
+    "raw_path": "data/mergers/raw/0001140361-20-001377__nt10006718x3_sc13e3a.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001104659-20-022026",
+    "filename": "tm207907-2_sc13e3.htm",
+    "form": "SC 13E3",
+    "entity_name": "Centurium Capital Partners 2018, L.P.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1740904/000110465920022026/tm207907-2_sc13e3.htm",
+    "raw_path": "data/mergers/raw/0001104659-20-022026__tm207907-2_sc13e3.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001193125-20-041295",
+    "filename": "d887828dsc13e3.htm",
+    "form": "SC 13E3",
+    "entity_name": "Changyou.com Ltd",
+    "url": "https://www.sec.gov/Archives/edgar/data/1458696/000119312520041295/d887828dsc13e3.htm",
+    "raw_path": "data/mergers/raw/0001193125-20-041295__d887828dsc13e3.htm",
+    "status": "ok"
+  },
+  {
+    "accession": "0001104659-20-025370",
+    "filename": "tm2010783-6_sc13e3.htm",
+    "form": "SC 13E3",
+    "entity_name": "Jumei International Holding Ltd",
+    "url": "https://www.sec.gov/Archives/edgar/data/1597680/000110465920025370/tm2010783-6_sc13e3.htm",
+    "raw_path": "data/mergers/raw/0001104659-20-025370__tm2010783-6_sc13e3.htm",
+    "status": "ok"
+  }
+]

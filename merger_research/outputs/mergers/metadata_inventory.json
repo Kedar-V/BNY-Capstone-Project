@@ -1,0 +1,110 @@
+[
+  {
+    "form": "425",
+    "metadata_rows": 40758,
+    "unique_accessions": 27835,
+    "unique_documents": 40758,
+    "primary_document_rows": 27731,
+    "earliest": "2020-01-02",
+    "latest": "2025-12-31",
+    "tracks": [
+      "merger_exchange"
+    ]
+  },
+  {
+    "form": "8-K",
+    "metadata_rows": 49227,
+    "unique_accessions": 31232,
+    "unique_documents": 49227,
+    "primary_document_rows": 10064,
+    "earliest": "2020-01-02",
+    "latest": "2025-12-31",
+    "tracks": [
+      "conversion"
+    ]
+  },
+  {
+    "form": "8-K/A",
+    "metadata_rows": 1851,
+    "unique_accessions": 1172,
+    "unique_documents": 1851,
+    "primary_document_rows": 308,
+    "earliest": "2020-01-03",
+    "latest": "2025-12-23",
+    "tracks": [
+      "conversion"
+    ]
+  },
+  {
+    "form": "DEFM14A",
+    "metadata_rows": 1448,
+    "unique_accessions": 1443,
+    "unique_documents": 1448,
+    "primary_document_rows": 1443,
+    "earliest": "2020-01-02",
+    "latest": "2025-12-31",
+    "tracks": [
+      "merger_exchange"
+    ]
+  },
+  {
+    "form": "PREM14A",
+    "metadata_rows": 1392,
+    "unique_accessions": 861,
+    "unique_documents": 1392,
+    "primary_document_rows": 861,
+    "earliest": "2020-01-02",
+    "latest": "2025-12-31",
+    "tracks": [
+      "merger_exchange"
+    ]
+  },
+  {
+    "form": "S-4",
+    "metadata_rows": 17478,
+    "unique_accessions": 1580,
+    "unique_documents": 17478,
+    "primary_document_rows": 1566,
+    "earliest": "2020-01-03",
+    "latest": "2025-12-30",
+    "tracks": [
+      "merger_exchange"
+    ]
+  },
+  {
+    "form": "S-4/A",
+    "metadata_rows": 23086,
+    "unique_accessions": 3113,
+    "unique_documents": 23086,
+    "primary_document_rows": 3079,
+    "earliest": "2020-01-03",
+    "latest": "2025-12-30",
+    "tracks": [
+      "merger_exchange"
+    ]
+  },
+  {
+    "form": "SC 13E3",
+    "metadata_rows": 1698,
+    "unique_accessions": 227,
+    "unique_documents": 1698,
+    "primary_document_rows": 227,
+    "earliest": "2020-01-02",
+    "latest": "2025-12-31",
+    "tracks": [
+      "merger_exchange"
+    ]
+  },
+  {
+    "form": "SC 13E3/A",
+    "metadata_rows": 1522,
+    "unique_accessions": 798,
+    "unique_documents": 1522,
+    "primary_document_rows": 798,
+    "earliest": "2020-01-03",
+    "latest": "2025-12-31",
+    "tracks": [
+      "merger_exchange"
+    ]
+  }
+]

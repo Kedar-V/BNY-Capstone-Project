@@ -123,6 +123,7 @@ def save_doc(
                     ],
                     check=True,
                     capture_output=True,
+                    timeout=45,
                 )
                 if not pdf_path.exists() or pdf_path.stat().st_size < 1000:
                     raise RuntimeError("pdf missing/too small")
