@@ -17,9 +17,10 @@ import re
 import sys
 from urllib.parse import urljoin, urlparse, parse_qs
 
+import warnings
+
 import pandas as pd
-from bs4 import BeautifulSoup
-import warnings, XMLParsedAsHTMLWarning
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
@@ -79,34 +80,38 @@ def discover(client, spec, forms, start, end, cap, output):
     """Search SEC by forms, keywords and dates; save results and search limits."""
     records, counts = [], []
     for form in sorted({f.removesuffix('/A') for f in forms}):
-        offset, total, relation = 0, 0, 'eq'
-        while cap is None or offset < cap:
-            page_size = 100 if cap is None else min(100, cap - offset)
-            params = dict(q=spec['query'], forms=form, dateRange='custom', startdt=start,
-                          enddt=end, **{'from': offset, 'size': page_size})
-            key = hashlib.sha256(json.dumps(params, sort_keys=True).encode()).hexdigest()
-            path = output / 'search' / f'{key}.json'
-            if path.exists():
-                payload = json.loads(path.read_text())
-            else:
-                payload = client.efts_search(params)
-                if 'hits' not in payload:
-                    raise ValueError(f'Invalid search response for {form}')
-                path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_text(json.dumps(payload))
-            hits = payload['hits']
-            reported = hits.get('total', 0)
-            total = reported.get('value', 0) if isinstance(reported, dict) else reported
-            relation = reported.get('relation', 'eq') if isinstance(reported, dict) else 'eq'
-            remaining = None if cap is None else cap - offset
-            batch = hits.get('hits', []) if remaining is None else hits.get('hits', [])[:remaining]
-            records.extend(hit_to_record(hit) for hit in batch)
-            offset += len(batch)
-            if not batch or (relation == 'eq' and offset >= total):
-                break
-        counts.append(dict(form=form, loaded_hits=offset, reported_hits=total,
-                           total_relation=relation,
-                           truncated=(cap is not None and offset < total) or relation != 'eq'))
+        # Optional per-form query, or a list of queries searched separately and merged (EDGAR full-text
+        # search does not group "A B" OR "C D"). Default: the action's query.
+        queries = spec.get('form_queries', {}).get(form, spec['query'])
+        for query in [queries] if isinstance(queries, str) else queries:
+            offset, total, relation = 0, 0, 'eq'
+            while cap is None or offset < cap:
+                page_size = 100 if cap is None else min(100, cap - offset)
+                params = dict(q=query, forms=form, dateRange='custom', startdt=start,
+                              enddt=end, **{'from': offset, 'size': page_size})
+                key = hashlib.sha256(json.dumps(params, sort_keys=True).encode()).hexdigest()
+                path = output / 'search' / f'{key}.json'
+                if path.exists():
+                    payload = json.loads(path.read_text())
+                else:
+                    payload = client.efts_search(params)
+                    if 'hits' not in payload:
+                        raise ValueError(f'Invalid search response for {form}')
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    path.write_text(json.dumps(payload))
+                hits = payload['hits']
+                reported = hits.get('total', 0)
+                total = reported.get('value', 0) if isinstance(reported, dict) else reported
+                relation = reported.get('relation', 'eq') if isinstance(reported, dict) else 'eq'
+                remaining = None if cap is None else cap - offset
+                batch = hits.get('hits', []) if remaining is None else hits.get('hits', [])[:remaining]
+                records.extend(hit_to_record(hit) for hit in batch)
+                offset += len(batch)
+                if not batch or (relation == 'eq' and offset >= total):
+                    break
+            counts.append(dict(form=form, query=query, loaded_hits=offset, reported_hits=total,
+                               total_relation=relation,
+                               truncated=(cap is not None and offset < total) or relation != 'eq'))
     pd.DataFrame(counts).to_csv(output / 'search_counts.csv', index=False)
     # a document found by several queries is listed once
     frame = pd.DataFrame(records)

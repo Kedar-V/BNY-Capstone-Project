@@ -17,3 +17,4 @@ protobuf>=4.0
 sentencepiece>=0.2
 torch
 gliner>=0.2.0
+edgartools>=4.0
