@@ -21,10 +21,10 @@ SEC_USER_AGENT="Your Project your-contact@example.com"
 No SEC API key or Chrome is needed. To run the script instead, use this from the repository root:
 
 ```bash
-python notebooks/evaluation/load_action_filings.py --action exchange_offer --start 2023-07-01 --end 2023-08-31 --n 10
+python notebooks/evaluation/load_action_filings.py --action exchange_offer --start 2023-07-01 --end 2023-08-31
 ```
 
-The loader downloads main documents and attached exhibits, cleans HTML and returns a pandas table. Use each row's `text` for the LLM. It reuses saved downloads and can read an existing filing list with `--metadata-path`. Supporting forms are included; conditional forms require `--include-conditional`.
+When `--n` is omitted, the loader downloads every matching filing in the date range. Add a value such as `--n 100` when you want a smaller diversified sample. The loader downloads main documents and attached exhibits, cleans HTML and returns a pandas table. Use each row's `text` for the LLM. It reuses saved downloads and can read an existing filing list with `--metadata-path`. Supporting forms are included; conditional forms require `--include-conditional`.
 
 Outputs are under `notebooks/evaluation/data/<action>_<start>_<end>/`:
 
