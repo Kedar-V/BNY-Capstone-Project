@@ -2,7 +2,7 @@
 
 Set SEC_USER_AGENT to your name/project and contact email before running.
 Example from the repository root:
-    python notebooks/evaluation/load_action_filings.py --action exchange_offer --start 2023-07-01 --end 2023-08-31 --n 10
+    python notebooks/evaluation/load_action_filings.py --action exchange_offer --start 2023-07-01 --end 2023-08-31
 
 Forms are listed in corporate_actions.json. Files are saved in evaluation/data/.
 This script prepares text; it does not call an LLM.
@@ -24,6 +24,9 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT / 'dataloader'))
 sys.path.insert(0, str(ROOT / 'src'))
+sys.path.insert(0, str(HERE))
+
+import config
 from download_samples import diversify
 from eda.sec_client import SecClient
 from eda.corpus import hit_to_record
@@ -73,35 +76,34 @@ def discover(client, spec, forms, start, end, cap, output):
     """Search SEC by forms, keywords and dates; save results and search limits."""
     records, counts = [], []
     for form in sorted({f.removesuffix('/A') for f in forms}):
-        # Optional per-form query, or a list of queries searched separately and merged (EDGAR full-text
-        # search does not group "A B" OR "C D" the way one would expect). Default: the action's query.
-        queries = spec.get('form_queries', {}).get(form, spec['query'])
-        for query in [queries] if isinstance(queries, str) else queries:
-            offset, total, relation = 0, 0, 'eq'
-            while offset < cap:
-                params = dict(q=query, forms=form, dateRange='custom', startdt=start,
-                              enddt=end, **{'from': offset, 'size': min(100, cap-offset)})
-                key = hashlib.sha256(json.dumps(params, sort_keys=True).encode()).hexdigest()
-                path = output / 'search' / f'{key}.json'
-                if path.exists():
-                    payload = json.loads(path.read_text())
-                else:
-                    payload = client.efts_search(params)
-                    if 'hits' not in payload:
-                        raise ValueError(f'Invalid search response for {form}')
-                    path.parent.mkdir(parents=True, exist_ok=True)
-                    path.write_text(json.dumps(payload))
-                hits = payload['hits']
-                reported = hits.get('total', 0)
-                total = reported.get('value', 0) if isinstance(reported, dict) else reported
-                relation = reported.get('relation', 'eq') if isinstance(reported, dict) else 'eq'
-                batch = hits.get('hits', [])[:cap-offset]
-                records.extend(hit_to_record(hit) for hit in batch)
-                offset += len(batch)
-                if not batch or (relation == 'eq' and offset >= total):
-                    break
-            counts.append(dict(form=form, query=query, loaded_hits=offset, reported_hits=total,
-                               total_relation=relation, truncated=offset < total or relation != 'eq'))
+        offset, total, relation = 0, 0, 'eq'
+        while cap is None or offset < cap:
+            page_size = 100 if cap is None else min(100, cap - offset)
+            params = dict(q=spec['query'], forms=form, dateRange='custom', startdt=start,
+                          enddt=end, **{'from': offset, 'size': page_size})
+            key = hashlib.sha256(json.dumps(params, sort_keys=True).encode()).hexdigest()
+            path = output / 'search' / f'{key}.json'
+            if path.exists():
+                payload = json.loads(path.read_text())
+            else:
+                payload = client.efts_search(params)
+                if 'hits' not in payload:
+                    raise ValueError(f'Invalid search response for {form}')
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(payload))
+            hits = payload['hits']
+            reported = hits.get('total', 0)
+            total = reported.get('value', 0) if isinstance(reported, dict) else reported
+            relation = reported.get('relation', 'eq') if isinstance(reported, dict) else 'eq'
+            remaining = None if cap is None else cap - offset
+            batch = hits.get('hits', []) if remaining is None else hits.get('hits', [])[:remaining]
+            records.extend(hit_to_record(hit) for hit in batch)
+            offset += len(batch)
+            if not batch or (relation == 'eq' and offset >= total):
+                break
+        counts.append(dict(form=form, loaded_hits=offset, reported_hits=total,
+                           total_relation=relation,
+                           truncated=(cap is not None and offset < total) or relation != 'eq'))
     pd.DataFrame(counts).to_csv(output / 'search_counts.csv', index=False)
     # a document found by several queries is listed once
     frame = pd.DataFrame(records)
@@ -128,11 +130,12 @@ def index_documents(raw, index_url):
     return docs
 
 
-def load_action(action, start, end, n=10, include_supporting=True, include_conditional=False,
-                max_hits_per_form=100, metadata_path=None, output_dir=None, user_agent=None, client=None):
+def load_action(action, start, end, n=None, include_supporting=True, include_conditional=False,
+                max_hits_per_form=None, metadata_path=None, output_dir=None, user_agent=None, client=None):
     """Return a DataFrame with one row per filing; use its "text" column for the LLM.
 
-    Choose action, start/end filing dates (YYYY-MM-DD), and n (maximum filings).
+    Choose action and start/end filing dates (YYYY-MM-DD). When n is omitted,
+    every matching filing is loaded. Pass n to select a smaller diversified sample.
     Each row includes filing/event IDs, SEC form and registrant metadata, source URL,
     document count, text size, content hash, processing status, and extracted text.
     event_id starts as action_accession-number; assign the same ID to related filings
@@ -144,8 +147,10 @@ def load_action(action, start, end, n=10, include_supporting=True, include_condi
     """
     if action not in ACTIONS:
         raise ValueError(f'Choose an action from {list(ACTIONS)}')
-    if date.fromisoformat(start) > date.fromisoformat(end) or n < 1 or not 1 <= max_hits_per_form <= 10000:
-        raise ValueError('Start must be on/before end; n must be at least 1; max_hits_per_form must be 1–10000')
+    invalid_n = n is not None and n < 1
+    invalid_cap = max_hits_per_form is not None and not 1 <= max_hits_per_form <= 10000
+    if date.fromisoformat(start) > date.fromisoformat(end) or invalid_n or invalid_cap:
+        raise ValueError('Start must be on/before end; n must be at least 1 when set; max_hits_per_form must be 1–10000 when set')
     if client is None:
         identity = user_agent or os.getenv('SEC_USER_AGENT')
         if not identity:
@@ -168,7 +173,9 @@ def load_action(action, start, end, n=10, include_supporting=True, include_condi
         pool = pool[dates.between(pd.Timestamp(start), pd.Timestamp(end))].copy()
         pool['year'] = pd.to_datetime(pool['file_date']).dt.year
         pool['entity_key'] = pool['primary_cik'].astype(str)
-        pool = diversify(pool, n)
+        pool = pool.sort_values('file_date').drop_duplicates('accession', keep='first')
+        if n is not None:
+            pool = diversify(pool, n)
     pool.to_csv(output / 'selected_filings.csv', index=False)
     # Download each filing and its attached exhibits.
     for row in pool.to_dict('records'):
@@ -246,12 +253,12 @@ def load_action(action, start, end, n=10, include_supporting=True, include_condi
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--action', choices=ACTIONS, required=True, help='Corporate action to load')
-    parser.add_argument('--start', required=True, help='First filing date: YYYY-MM-DD')
-    parser.add_argument('--end', required=True, help='Last filing date: YYYY-MM-DD')
-    parser.add_argument('--n', type=int, default=10, help='Maximum filings to select (default: 10)')
+    parser.add_argument('--start', default=config.START, help='First filing date: YYYY-MM-DD (default: config.START)')
+    parser.add_argument('--end', default=config.END, help='Last filing date: YYYY-MM-DD (default: config.END)')
+    parser.add_argument('--n', type=int, help='Optional maximum filings; omit to load all matches')
     parser.add_argument('--primary-only', action='store_true', help='Search primary forms only')
     parser.add_argument('--include-conditional', action='store_true', help='Also search conditional forms from the configuration')
-    parser.add_argument('--max-hits-per-form', type=int, default=100, help='Maximum search results per base form (default: 100)')
+    parser.add_argument('--max-hits-per-form', type=int, help='Optional SEC search-result cap per base form')
     parser.add_argument('--metadata-path', type=Path, help='Optional saved filing list (.parquet or .csv)')
     parser.add_argument('--output-dir', type=Path, help='Optional folder for downloads and text')
     args = parser.parse_args()
