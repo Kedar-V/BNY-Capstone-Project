@@ -1,0 +1,282 @@
+[
+  {
+    "accession": "0001104659-20-000348",
+    "entity_name": "SRC Energy Inc.",
+    "form": "425",
+    "all_dollar_mentions": 0,
+    "context_cash_candidates": 0,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001213900-19-027320",
+    "entity_name": "SORL Auto Parts Inc",
+    "form": "PREM14A",
+    "all_dollar_mentions": 250,
+    "context_cash_candidates": 37,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-000591",
+    "entity_name": "Steadfast Apartment REIT III, Inc.",
+    "form": "425",
+    "all_dollar_mentions": 1,
+    "context_cash_candidates": 0,
+    "detection": "review_no_strong_merger_cue"
+  },
+  {
+    "accession": "0001193125-20-000590",
+    "entity_name": "Steadfast Income REIT, Inc.",
+    "form": "425",
+    "all_dollar_mentions": 17,
+    "context_cash_candidates": 0,
+    "detection": "review_no_strong_merger_cue"
+  },
+  {
+    "accession": "0001193125-20-000570",
+    "entity_name": "Steadfast Apartment REIT III, Inc.",
+    "form": "425",
+    "all_dollar_mentions": 1,
+    "context_cash_candidates": 0,
+    "detection": "review_no_strong_merger_cue"
+  },
+  {
+    "accession": "0001193125-20-000113",
+    "entity_name": "INSTRUCTURE INC",
+    "form": "DEFM14A",
+    "all_dollar_mentions": 277,
+    "context_cash_candidates": 10,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-000576",
+    "entity_name": "Steadfast Income REIT, Inc.",
+    "form": "425",
+    "all_dollar_mentions": 1,
+    "context_cash_candidates": 0,
+    "detection": "review_no_strong_merger_cue"
+  },
+  {
+    "accession": "0001213900-20-000002",
+    "entity_name": "SORL Auto Parts Inc",
+    "form": "SC 13E3",
+    "all_dollar_mentions": 8,
+    "context_cash_candidates": 2,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001104659-20-000535",
+    "entity_name": "PB Bancorp, Inc.",
+    "form": "DEFM14A",
+    "all_dollar_mentions": 163,
+    "context_cash_candidates": 9,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001104659-20-000548",
+    "entity_name": "CRAFT BREW ALLIANCE, INC.",
+    "form": "SC 13E3/A",
+    "all_dollar_mentions": 10,
+    "context_cash_candidates": 4,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-000960",
+    "entity_name": "ANIXTER INTERNATIONAL INC",
+    "form": "DEFM14A",
+    "all_dollar_mentions": 406,
+    "context_cash_candidates": 71,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001047469-20-000032",
+    "entity_name": "Prologis, L.P.",
+    "form": "S-4",
+    "all_dollar_mentions": 584,
+    "context_cash_candidates": 0,
+    "detection": "review_exchange_offer_overlap"
+  },
+  {
+    "accession": "0001206774-20-000008",
+    "entity_name": "SOUTHERN FIRST BANCSHARES INC",
+    "form": "S-4/A",
+    "all_dollar_mentions": 31,
+    "context_cash_candidates": 0,
+    "detection": "review_exchange_offer_overlap"
+  },
+  {
+    "accession": "0001193125-20-001590",
+    "entity_name": "TIFFANY & CO",
+    "form": "DEFM14A",
+    "all_dollar_mentions": 388,
+    "context_cash_candidates": 44,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001062993-20-000033",
+    "entity_name": "ALKALINE WATER Co INC",
+    "form": "S-4/A",
+    "all_dollar_mentions": 1008,
+    "context_cash_candidates": 30,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-002234",
+    "entity_name": "Menlo Therapeutics Inc.",
+    "form": "S-4/A",
+    "all_dollar_mentions": 611,
+    "context_cash_candidates": 2,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001104659-20-001249",
+    "entity_name": "DEAC NV Merger Corp.",
+    "form": "S-4",
+    "all_dollar_mentions": 1240,
+    "context_cash_candidates": 15,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-003085",
+    "entity_name": "Foamix Pharmaceuticals Ltd.",
+    "form": "DEFM14A",
+    "all_dollar_mentions": 603,
+    "context_cash_candidates": 2,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-003137",
+    "entity_name": "DIGITAL REALTY TRUST, INC.",
+    "form": "S-4/A",
+    "all_dollar_mentions": 326,
+    "context_cash_candidates": 12,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001558370-20-000070",
+    "entity_name": "STREAMLINE HEALTH SOLUTIONS INC.",
+    "form": "PREM14A",
+    "all_dollar_mentions": 128,
+    "context_cash_candidates": 0,
+    "detection": "review_no_strong_merger_cue"
+  },
+  {
+    "accession": "0001193125-20-003772",
+    "entity_name": "FB Financial Corp",
+    "form": "S-4/A",
+    "all_dollar_mentions": 224,
+    "context_cash_candidates": 16,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-003953",
+    "entity_name": "CLEVELAND-CLIFFS INC.",
+    "form": "S-4",
+    "all_dollar_mentions": 748,
+    "context_cash_candidates": 8,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001047469-20-000135",
+    "entity_name": "NGL Energy Partners LP",
+    "form": "S-4",
+    "all_dollar_mentions": 55,
+    "context_cash_candidates": 0,
+    "detection": "review_exchange_offer_overlap"
+  },
+  {
+    "accession": "0001213900-20-000588",
+    "entity_name": "EdtechX Holdings Acquisition Corp.",
+    "form": "PREM14A",
+    "all_dollar_mentions": 666,
+    "context_cash_candidates": 27,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-004680",
+    "entity_name": "Fox Corp",
+    "form": "S-4",
+    "all_dollar_mentions": 62,
+    "context_cash_candidates": 0,
+    "detection": "review_exchange_offer_overlap"
+  },
+  {
+    "accession": "0001140361-20-000861",
+    "entity_name": "Aircastle LTD",
+    "form": "SC 13E3/A",
+    "all_dollar_mentions": 10,
+    "context_cash_candidates": 0,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-009276",
+    "entity_name": "LogMeIn, Inc.",
+    "form": "PREM14A",
+    "all_dollar_mentions": 282,
+    "context_cash_candidates": 29,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001047469-20-000305",
+    "entity_name": "WPX ENERGY, INC.",
+    "form": "PREM14A",
+    "all_dollar_mentions": 984,
+    "context_cash_candidates": 4,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001104659-20-005596",
+    "entity_name": "CRAFT BREW ALLIANCE, INC.",
+    "form": "SC 13E3/A",
+    "all_dollar_mentions": 10,
+    "context_cash_candidates": 4,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-011134",
+    "entity_name": "Tallgrass Energy, LP",
+    "form": "SC 13E3",
+    "all_dollar_mentions": 5,
+    "context_cash_candidates": 0,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001104659-20-006066",
+    "entity_name": "Teekay Offshore Partners L.P.",
+    "form": "SC 13E3/A",
+    "all_dollar_mentions": 7,
+    "context_cash_candidates": 0,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001140361-20-001377",
+    "entity_name": "Aircastle LTD",
+    "form": "SC 13E3/A",
+    "all_dollar_mentions": 10,
+    "context_cash_candidates": 0,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001104659-20-022026",
+    "entity_name": "Centurium Capital Partners 2018, L.P.",
+    "form": "SC 13E3",
+    "all_dollar_mentions": 44,
+    "context_cash_candidates": 0,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001193125-20-041295",
+    "entity_name": "Changyou.com Ltd",
+    "form": "SC 13E3",
+    "all_dollar_mentions": 123,
+    "context_cash_candidates": 28,
+    "detection": "merger_candidate"
+  },
+  {
+    "accession": "0001104659-20-025370",
+    "entity_name": "Jumei International Holding Ltd",
+    "form": "SC 13E3",
+    "all_dollar_mentions": 16,
+    "context_cash_candidates": 0,
+    "detection": "merger_candidate"
+  }
+]

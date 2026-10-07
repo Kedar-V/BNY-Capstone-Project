@@ -40,6 +40,19 @@ jupyter notebook notebooks/tender_offer_eda.ipynb
 
 SEC User-Agent is auto-generated per run (see [`dataloader/README.md`](dataloader/README.md)).
 
+## 2025 SEC merger candidate data
+
+A local 8,638-document SEC merger-candidate archive, manifest, and 28-filer sample are stored under the gitignored `data/mergers/sec_2025/`. See [`merger_research/README.md`](merger_research/README.md) for the offline importer, output, and validation limits.
+
+The [mergers-only review workflow](merger_research/README.md#build-a-reviewed-mergers-only-filing-set) screens all archived documents and exports only filings confirmed by review.
+
+
+The partial January–September 2026 merger-candidate archive is in `data/mergers/sec_2026/` (2,787 downloaded filing documents). Its `coverage_summary.json` gives monthly counts; `review_queue.csv` contains unreviewed evidence-ranked candidates. This archive is separate from `dataloader/download_samples.py`, whose source corpus currently ends in 2025.
+
+## Rebuild SEC merger-candidate data
+
+Use [`dataloader/collect_merger_candidates.py`](dataloader/collect_merger_candidates.py) to search EDGAR by filing date and save source HTML, parsed text, a manifest, and a portable ZIP under gitignored `data/`. Start with the [download and review guide](docs/merger-data-download.md); results are unreviewed candidates, not confirmed merger deals.
+
 ## Postgres event datastore
 
 ```bash

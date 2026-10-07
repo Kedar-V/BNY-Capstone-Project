@@ -1,0 +1,67 @@
+[
+  {
+    "accession": "0001193125-20-000113",
+    "entity_name": "INSTRUCTURE INC",
+    "url": "https://www.sec.gov/Archives/edgar/data/1355754/000119312520000113/d812272ddefm14a.htm",
+    "field": "cash_amount",
+    "observed_value": "47.60",
+    "note": "Proposed cash consideration in this filing; not eventual closing terms.",
+    "quote": "cease, with Instructure continuing as the surviving\ncorporation (the \u201cMerger\u201d) and a wholly owned subsidiary of Parent.\nIf the Merger is completed, you will be entitled to receive\n$47.60 in cash, less any applicable withholding taxes, for each share of Instructure common stock that you own (unless you have properly exercised your appraisal rights).\nThe Board of Directors of Instructure (the \u201cBoard of Directors\u201d), after considering the factors more fully described in\nthe enclosed proxy statement, has unanimously: (i) determined that it is in the best interests of Instructure and its stockholders, and declared it advisable,",
+    "evidence_start": 3336,
+    "evidence_end": 3965,
+    "extractor_found_value": true,
+    "review_status": "assistant_inspected_development_example_not_independent_gold"
+  },
+  {
+    "accession": "0001193125-20-001590",
+    "entity_name": "TIFFANY & CO",
+    "url": "https://www.sec.gov/Archives/edgar/data/98246/000119312520001590/d841743ddefm14a.htm",
+    "field": "cash_amount",
+    "observed_value": "135.00",
+    "note": "Proposed cash consideration; exclude par value and historical trading prices.",
+    "quote": "th the Company continuing as the surviving corporation in the merger and an indirect wholly owned subsidiary of Parent.\nIf the merger is completed, you will be entitled to receive $135.00 in cash, without interest, less any required withholding taxes, for each\nshare of the common stock, par value $0.01 per share, of the Company (our \u201ccommon stock\u201d) owned by you immediately prior to completion of the merger (unless you have properly exercised, and not lost, your appraisal rights with respect to\nsuch shares of our common stock), which represents a premium of approximately 37% to the Company\u2019s closing price on October 25, 20",
+    "evidence_start": 2281,
+    "evidence_end": 2910,
+    "extractor_found_value": true,
+    "review_status": "assistant_inspected_development_example_not_independent_gold"
+  },
+  {
+    "accession": "0001104659-20-000535",
+    "entity_name": "PB Bancorp, Inc.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652106/000110465920000535/tm1924637-2_defm14a.htm",
+    "field": "cash_amount",
+    "observed_value": "15.25",
+    "note": "Per target common share, conditional on completion.",
+    "quote": " Bancorp with PB Bancorp as the surviving entity. If the merger is completed, at the closing, your shares of PB Bancorp\ncommon stock will be converted into the right to receive $15.25 in cash for each share, without interest. Upon completion of the\nmerger, you will no longer own any stock or have any other interest in PB Bancorp.\nAt the annual meeting,\nyou will be asked to approve: (1) the election of three directors to the Board of Directors; (2) the Agreement and Plan of Merger,\ndated as of October 22, 2019, by and among Centreville Bank, PB Bancorp and Putnam Bank (the \u201cMerger Agreement\u201d), and\nthe merger; (3) a non-",
+    "evidence_start": 3166,
+    "evidence_end": 3792,
+    "extractor_found_value": true,
+    "review_status": "assistant_inspected_development_example_not_independent_gold"
+  },
+  {
+    "accession": "0001193125-20-003953",
+    "entity_name": "CLEVELAND-CLIFFS INC.",
+    "url": "https://www.sec.gov/Archives/edgar/data/764065/000119312520003953/d846586ds4.htm",
+    "field": "conversion_ratio",
+    "observed_value": "0.400",
+    "note": "Cliffs shares per AK Steel share; fractional-share cash is separate.",
+    "quote": "cted shares and any shares of AK Steel common stock owned by Cliffs, Merger Sub or AK Steel, unless held on behalf of third parties) will be\nconverted into the right to receive 0.400 Cliffs common shares, which is referred to as the merger consideration, and, if applicable, cash in lieu of any fractional shares. For more details on the merger consideration, see the section entitled\n\u201c The Merger\u2014Consideration to AK Steel Stockholders \u201d beginning on page [ ] of the accompanying joint proxy statement/prospectus.\nThe market value of the merger consideration will fluctuate with the market price of Cliffs common shares and w",
+    "evidence_start": 8610,
+    "evidence_end": 9236,
+    "extractor_found_value": true,
+    "review_status": "assistant_inspected_development_example_not_independent_gold"
+  },
+  {
+    "accession": "0001193125-20-003085",
+    "entity_name": "Foamix Pharmaceuticals Ltd.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1606645/000119312520003085/d834396ddefm14a.htm",
+    "field": "conversion_ratio",
+    "observed_value": "0.5924",
+    "note": "Base ratio only: may adjust to 1.2739 or 1.8006. Do not resolve as unconditional.",
+    "quote": " Each ordinary share of Foamix that is issued and\noutstanding (other than certain excluded shares) will be deemed transferred to Menlo in consideration for the right to receive 0.5924 of a share of Menlo common stock subject to upwards adjustment to 1.2739 or 1.8006 shares of Menlo common stock if\none or both of Menlo\u2019s Phase III double-blinded, placebo-controlled trials of serlopitant for the treatment of pruritus associated with prurigo nodularis, referenced by Protocol Numbers MTI-105 (United\nStates) and MTI-106 (Europe) (each, a \u201cPhase III PN Trial\u201d), respectively, fail to demonstrate Serlopitant Significance (as d",
+    "evidence_start": 3098,
+    "evidence_end": 3724,
+    "extractor_found_value": true,
+    "review_status": "assistant_inspected_development_example_not_independent_gold"
+  }
+]

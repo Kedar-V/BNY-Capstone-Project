@@ -9,6 +9,13 @@ __pycache__/
 *.sql.gz
 
 # Local data (corpus, samples, preprocess artifacts) — rebuild via scripts/dataloader
-data/
+/data/
 
 outputs/preprocess_inspect/
+
+# Rebuildable merger-research source caches and large review outputs
+/merger_research/data/mergers/raw/
+/merger_research/data/mergers/normalized/
+/merger_research/data/processed/
+/merger_research/outputs/mergers/sec_2025/
+/merger_research/outputs/mergers/sec_2026/
