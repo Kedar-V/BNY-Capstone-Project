@@ -24,6 +24,9 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT / 'dataloader'))
 sys.path.insert(0, str(ROOT / 'src'))
+sys.path.insert(0, str(HERE))
+
+import config
 from download_samples import diversify
 from eda.sec_client import SecClient
 from eda.corpus import hit_to_record
@@ -248,8 +251,8 @@ def load_action(action, start, end, n=None, include_supporting=True, include_con
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--action', choices=ACTIONS, required=True, help='Corporate action to load')
-    parser.add_argument('--start', required=True, help='First filing date: YYYY-MM-DD')
-    parser.add_argument('--end', required=True, help='Last filing date: YYYY-MM-DD')
+    parser.add_argument('--start', default=config.START, help='First filing date: YYYY-MM-DD (default: config.START)')
+    parser.add_argument('--end', default=config.END, help='Last filing date: YYYY-MM-DD (default: config.END)')
     parser.add_argument('--n', type=int, help='Optional maximum filings; omit to load all matches')
     parser.add_argument('--primary-only', action='store_true', help='Search primary forms only')
     parser.add_argument('--include-conditional', action='store_true', help='Also search conditional forms from the configuration')
