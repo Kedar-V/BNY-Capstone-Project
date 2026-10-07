@@ -105,7 +105,9 @@ def discover(client, spec, forms, start, end, cap, output):
                            total_relation=relation,
                            truncated=(cap is not None and offset < total) or relation != 'eq'))
     pd.DataFrame(counts).to_csv(output / 'search_counts.csv', index=False)
-    return pd.DataFrame(records)
+    # a document found by several queries is listed once
+    frame = pd.DataFrame(records)
+    return frame.drop_duplicates("hit_id").reset_index(drop=True) if "hit_id" in frame else frame
 
 
 def index_documents(raw, index_url):
