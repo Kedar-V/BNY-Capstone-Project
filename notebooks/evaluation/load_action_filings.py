@@ -18,8 +18,8 @@ import sys
 from urllib.parse import urljoin, urlparse, parse_qs
 
 import pandas as pd
-from bs4 import BeautifulSoup
-import warnings, XMLParsedAsHTMLWarning
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+import warnings
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
