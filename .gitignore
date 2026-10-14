@@ -13,6 +13,9 @@ __pycache__/
 
 outputs/preprocess_inspect/
 
+# Downloaded evaluation filings (~1.5 GB) — rebuild via notebooks/evaluation/load_action_filings
+/notebooks/evaluation/data/
+
 # Rebuildable merger-research source caches and large review outputs
 /merger_research/data/mergers/raw/
 /merger_research/data/mergers/normalized/

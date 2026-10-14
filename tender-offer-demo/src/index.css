@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-slate-50 text-slate-800 antialiased; }
+
+@keyframes flash {
+  0%, 100% { background-color: #fffbeb; }
+  50% { background-color: #fcd34d; }
+}
+.flash { animation: flash 1.1s ease-in-out 3; }
+
+@keyframes slide-in { from { transform: translateX(100%); } to { transform: translateX(0); } }
+.slide-in { animation: slide-in .2s ease-out; }
+
+@keyframes fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.fade-up { animation: fade-up .25s ease-out; }
