@@ -1,0 +1,7 @@
+form,loaded_hits,reported_hits,total_relation,truncated
+425,500,4278,eq,True
+8-K,500,10000,gte,True
+DEFM14A,199,199,eq,False
+PREM14A,194,194,eq,False
+S-4,500,2394,eq,True
+SC 13E3,251,251,eq,False
