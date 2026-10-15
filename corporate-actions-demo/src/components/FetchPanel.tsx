@@ -46,7 +46,7 @@ export function FetchPanel() {
                       <div className="h-1.5 overflow-hidden rounded-full bg-slate-100">
                         <div className="h-full rounded-full bg-brand-500 transition-all duration-200" style={{ width: `${Math.round(p.progress * 100)}%` }} />
                       </div>
-                      {s.id === 'extract' && p.current && <div className="mt-1.5 truncate text-xs font-medium text-navy-700">{p.current}</div>}
+                      {p.current && <div className="mt-1.5 truncate text-xs font-medium text-navy-700">{p.current}</div>}
                     </div>
                   )}
                 </div>
@@ -56,7 +56,7 @@ export function FetchPanel() {
         </ol>
       </div>
       <div className="flex items-center justify-between border-t border-slate-100 bg-slate-50 px-6 py-3.5">
-        <span className="text-xs text-slate-500">{p.running ? 'This usually takes under a minute…' : p.foundCount ? `${p.foundCount} new filings are now in the Filings Monitor.` : 'No action needed.'}</span>
+        <span className="text-xs text-slate-500">{p.running ? 'This usually takes about a minute…' : p.foundCount ? `${p.foundCount} new filings are now in the Filings Monitor.` : 'No action needed.'}</span>
         <Button variant="primary" onClick={closePipeline} disabled={p.running}>
           {p.finished && p.foundCount ? 'View new filings' : 'Close'}
         </Button>

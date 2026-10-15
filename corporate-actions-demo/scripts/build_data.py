@@ -94,18 +94,129 @@ for f in filings:
         f['fields'].setdefault('bidder', f['counterparty'] or f['subject'])
         f['fields']['subject_company'] = f['subject']
 
-# One record per accession number (a few filings were extracted twice)
+# One record per accession number (co-registrants and multi-instrument filings were extracted several times)
 seen = set()
-filings = [f for f in filings if not ((f['id'], f['eventKey']) in seen or seen.add((f['id'], f['eventKey'])))]
-counts = {}
+filings = [f for f in filings if not (f['id'] in seen or seen.add(f['id']))]
 for f in filings:
     f['accession'] = f['id']
-    counts[f['id']] = counts.get(f['id'], 0) + 1
-    if counts[f['id']] > 1:
-        f['id'] = f"{f['accession']}_{counts[f['accession']]}"
 
-# Order within each event and mark the latest few filings as "incoming" for the live-fetch walkthrough
-filings.sort(key=lambda f: (f['filedDate'], f['id']))
+# ---------------------------------------------------------------- Linking evidence
+FILE_NUMBERS = json.loads((Path(__file__).resolve().parent / 'cache' / 'file_numbers.json').read_text())
+AGREEMENT = re.compile(
+    r"(?P<sent>[^.]{0,160}?\b(?:Agreement and Plan of (?:Merger|Reorganization)|Merger Agreement|Business Combination Agreement|Plan of Merger)\b[^.]{0,60}?"
+    r"(?:dated|entered into)(?: as of| on)?,? (?P<date>(?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, ?\d{4})[^.]{0,200})")
+FILENO_CITE = re.compile(r"(?<!\d)(333-\d{5,6}|001-\d{5,6}|000-\d{5,6}|005-\d{5})(?!\d)")
+MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+
+
+def iso(d):
+    m = re.match(r'([A-Za-z]+) (\d{1,2}), ?(\d{4})', d)
+    return f"{m.group(3)}-{MONTHS.index(m.group(1).lower()) + 1:02d}-{int(m.group(2)):02d}"
+
+
+def filing_text(f):
+    folder = 'merger_2026-01-01_2026-09-30' if f['action'] == 'merger' else 'tender_offer_2026-01-01_2026-09-30'
+    p = EVAL / 'data' / folder / 'input_text' / f"{f['accession']}.txt"
+    return p.read_text(errors='ignore') if p.exists() else ''
+
+
+for f in filings:
+    f['fileNo'] = FILE_NUMBERS.get(f['accession'])
+    t = filing_text(f)
+    f['agreement'] = None
+    f['cites'] = []
+    if f['action'] == 'merger' and t:
+        m = AGREEMENT.search(t[:400000])
+        if m:
+            f['agreement'] = {'date': iso(m.group('date')), 'quote': clean(m.group('sent'), 420)}
+    if t:
+        f['cites'] = sorted(set(FILENO_CITE.findall(t[:300000])) - {f['fileNo']})
+    f['_acq'] = norm(f['fields'].get('acquirer') or f['fields'].get('bidder') or '')
+    f['_tgt'] = norm(f['fields'].get('target') or f['fields'].get('subject_company') or f['subject'])
+
+FORM_ORDER = {'425': 0, '8-K': 0, 'PREM14A': 1, 'S-4': 1, 'SC 13E3': 1, 'S-4/A': 2, 'SC 13E3/A': 2, 'DEFM14A': 3,
+              'SC TO-I': 1, 'SC TO-T': 1, 'SC 14D9': 2, 'SC TO-I/A': 2, 'SC TO-T/A': 2, 'SC 14D9/A': 2}
+
+
+def signals(a, b):
+    """Evidence that filing b belongs to the same event as filing a."""
+    sig = []
+    same_no = bool(a['fileNo'] and a['fileNo'] == b['fileNo'])
+    sig.append({'id': 'file_no', 'label': 'Same SEC file number', 'ok': same_no, 'strong': True,
+                'detail': f"{a['form']}: {a['fileNo'] or 'n/a'} · {b['form']}: {b['fileNo'] or 'n/a'}" + ('' if same_no else ' (different registrants filed these)' if a['fileNo'] and b['fileNo'] else '')})
+    cross = [n for n in (a['fileNo'], b['fileNo']) if n and (n in b['cites'] or n in a['cites'])]
+    sig.append({'id': 'cross_ref', 'label': 'One filing cites the other\'s file number', 'ok': bool(cross), 'strong': True,
+                'detail': f"Cited in text: {', '.join(cross)}" if cross else 'No file-number citation found in either filing text'})
+    ag_ok = bool(a['agreement'] and b['agreement'] and a['agreement']['date'] == b['agreement']['date'])
+    sig.append({'id': 'agreement', 'label': 'Same merger agreement (date)', 'ok': ag_ok,
+                'detail': (f"Both filings reference the agreement dated {a['agreement']['date']}" if ag_ok else
+                           'Merger agreement date not found in one or both filings'),
+                'quotes': [{'source': f"{x['form']} · {x['accession']}", 'quote': x['agreement']['quote']} for x in (a, b) if x['agreement']] if ag_ok else []})
+    acq_ok = bool(a['_acq'] and a['_acq'] == b['_acq'])
+    tgt_ok = bool(a['_tgt'] and a['_tgt'] == b['_tgt'])
+    ra = a['fields'].get('acquirer') or a['fields'].get('bidder') or '—'
+    rb = b['fields'].get('acquirer') or b['fields'].get('bidder') or '—'
+    sig.append({'id': 'parties', 'label': 'Same acquirer and target (extracted)', 'ok': acq_ok and tgt_ok,
+                'detail': f"Acquirer: {ra.rstrip('.')} → {rb.rstrip('.')} · Target: {a['subject'].rstrip('.')} → {b['subject'].rstrip('.')}"})
+    order_ok = FORM_ORDER.get(b['form'], 1) >= FORM_ORDER.get(a['form'], 1) and b['filedDate'] >= a['filedDate']
+    sig.append({'id': 'sequence', 'label': 'Filing sequence is consistent', 'ok': order_ok,
+                'detail': f"{a['form']} ({a['filedDate']}) → {b['form']} ({b['filedDate']})"})
+    strong = same_no or bool(cross)
+    if a['action'] == 'tender_offer':
+        rule = 'Same SEC file number' if same_no else None
+        conf = 'High' if same_no else None
+    elif strong:
+        rule, conf = 'SEC file-number match or citation', 'High'
+    elif ag_ok and acq_ok and tgt_ok:
+        rule, conf = 'Same merger agreement + same acquirer and target', 'High'
+    elif ag_ok and (acq_ok or tgt_ok):
+        rule, conf = 'Same merger agreement + one matching party', 'Medium'
+    else:
+        rule, conf = None, None
+    return sig, rule, conf
+
+
+# Union-find over filings; a link needs a rule (name equality alone is never enough)
+parent = {f['accession']: f['accession'] for f in filings}
+
+
+def find(x):
+    while parent[x] != x:
+        parent[x] = parent[parent[x]]
+        x = parent[x]
+    return x
+
+
+filings.sort(key=lambda f: (f['filedDate'], f['accession']))
+for i, b in enumerate(filings):
+    for a in filings[:i]:
+        if a['action'] != b['action']:
+            continue
+        if signals(a, b)[1]:
+            parent[find(b['accession'])] = find(a['accession'])
+
+groups = {}
+for f in filings:
+    groups.setdefault(find(f['accession']), []).append(f)
+for members in groups.values():
+    anchor = members[0]
+    for f in members:
+        f['eventKey'] = f"{f['action']}:{anchor['accession']}"
+        f['link'] = None
+        if f is not anchor:
+            sig, rule, conf = signals(anchor, f)
+            if not rule:  # joined through a chain of other filings
+                prev = members[members.index(f) - 1]
+                sig, rule, conf = signals(prev, f)
+                anchor_ref = prev
+            else:
+                anchor_ref = anchor
+            f['link'] = {'to': anchor_ref['accession'], 'toForm': anchor_ref['form'], 'toDate': anchor_ref['filedDate'],
+                         'rule': rule, 'confidence': conf, 'signals': sig}
+for f in filings:
+    for k in ('_acq', '_tgt'):
+        f.pop(k, None)
+
 by_event = {}
 for f in filings:
     by_event.setdefault(f['eventKey'], []).append(f)

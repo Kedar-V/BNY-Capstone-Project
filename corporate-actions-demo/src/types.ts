@@ -5,6 +5,24 @@ export interface Quote {
   location: string
 }
 
+export interface LinkSignal {
+  id: string
+  label: string
+  ok: boolean
+  strong?: boolean
+  detail: string
+  quotes?: { source: string; quote: string }[]
+}
+
+export interface LinkEvidence {
+  to: string
+  toForm: string
+  toDate: string
+  rule: string | null
+  confidence: 'High' | 'Medium' | null
+  signals: LinkSignal[]
+}
+
 export interface Filing {
   id: string
   accession: string
@@ -22,6 +40,10 @@ export interface Filing {
   fields: Record<string, string>
   passages: Record<string, Quote[]>
   incoming: boolean
+  fileNo: string | null
+  agreement: { date: string; quote: string } | null
+  cites: string[]
+  link: LinkEvidence | null
 }
 
 export interface FieldChange {
@@ -29,6 +51,9 @@ export interface FieldChange {
   label: string
   previous?: string
   current: string
+  kind: 'added' | 'list' | 'changed' | 'reworded'
+  addedItems?: string[]
+  removedItems?: string[]
 }
 
 export interface Version {

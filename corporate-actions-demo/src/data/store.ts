@@ -107,7 +107,7 @@ export function buildEvents(filings: Filing[]): CorporateEvent[] {
       const changes: FieldChange[] = []
       if (i > 0) {
         for (const [k, v] of Object.entries(filing.fields)) {
-          if (acc[k] !== v) changes.push({ key: k, label: labelOf(action, k), previous: acc[k], current: v })
+          if (acc[k] !== v) changes.push(classify(k, labelOf(action, k), acc[k], v))
         }
       }
       acc = { ...acc, ...filing.fields }
@@ -135,6 +135,25 @@ export function buildEvents(filings: Filing[]): CorporateEvent[] {
   })
 }
 
+const normText = (s: string) => s.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim()
+
+function classify(key: string, label: string, previous: string | undefined, current: string): FieldChange {
+  if (!previous) return { key, label, current, kind: 'added' }
+  if (previous.includes(' | ') || current.includes(' | ')) {
+    const p = previous.split(' | ').map((x) => x.trim())
+    const c = current.split(' | ').map((x) => x.trim())
+    const pn = new Set(p.map(normText))
+    const cn = new Set(c.map(normText))
+    const addedItems = c.filter((x) => !pn.has(normText(x)))
+    const removedItems = p.filter((x) => !cn.has(normText(x)))
+    return { key, label, previous, current, kind: addedItems.length || removedItems.length ? 'list' : 'reworded', addedItems, removedItems }
+  }
+  const a = new Set(normText(previous).split(' '))
+  const b = new Set(normText(current).split(' '))
+  const overlap = [...a].filter((w) => b.has(w)).length / new Set([...a, ...b]).size
+  return { key, label, previous, current, kind: overlap >= 0.6 ? 'reworded' : 'changed' }
+}
+
 function shorten(s: string, n = 48) {
   const first = s.split(/[,;(]/)[0].trim()
   return first.length > n ? first.slice(0, n - 1) + '…' : first
@@ -145,6 +164,7 @@ export function buildNotifications(events: CorporateEvent[], subscribed: Set<str
   for (const e of events) {
     if (!subscribed.has(e.id)) continue
     for (const v of e.versions) {
+      const material = v.changes.filter((c) => c.kind !== 'reworded')
       const first = v.number === 1
       const kind = first ? (e.action === 'tender_offer' ? 'New Tender Offer' : 'New Merger') : 'Amendment'
       out.push({
@@ -154,8 +174,8 @@ export function buildNotifications(events: CorporateEvent[], subscribed: Set<str
         title: first ? `${e.title}` : `${e.title} — ${v.filing.form} filed`,
         body: first
           ? `${v.filing.form} filed. ${headline(e.action, v.fields)}`
-          : v.changes.length
-            ? `${v.changes.length} term${v.changes.length > 1 ? 's' : ''} updated: ${v.changes.slice(0, 3).map((c) => c.label).join(', ')}${v.changes.length > 3 ? '…' : ''}`
+          : material.length
+            ? `${material.length} term${material.length > 1 ? 's' : ''} updated: ${material.slice(0, 3).map((c) => c.label).join(', ')}${material.length > 3 ? '…' : ''}`
             : 'No term changes detected.',
         date: v.filing.filedDate,
         filing: v.filing,
