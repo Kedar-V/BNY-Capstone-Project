@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-slate-50 text-slate-800 antialiased; font-feature-settings: 'cv11', 'ss01'; }
+
+@keyframes slide-in { from { transform: translateX(100%); } to { transform: translateX(0); } }
+.slide-in { animation: slide-in .22s cubic-bezier(.2,.8,.2,1); }
+
+@keyframes fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.fade-up { animation: fade-up .28s ease-out; }
+
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+.fade-in { animation: fade-in .2s ease-out; }
+
+@keyframes pop { from { opacity: 0; transform: scale(.97) translateY(6px); } to { opacity: 1; transform: none; } }
+.pop { animation: pop .22s cubic-bezier(.2,.8,.2,1); }
+
+@keyframes highlight { 0% { background-color: #d1f0f5; } 100% { background-color: transparent; } }
+.row-new { animation: highlight 3.5s ease-out; }
