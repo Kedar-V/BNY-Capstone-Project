@@ -238,7 +238,7 @@ function LinkExplainer({ event }: { event: CorporateEvent }) {
       </section>
 
       <p className="rounded-lg bg-slate-50 p-3 text-xs text-slate-600">
-        <strong className="font-semibold text-slate-800">Linking rules.</strong> High confidence: same SEC file number, or one filing cites the other's file number, or both reference the same merger agreement (date) and the same acquirer and target. Medium: same agreement with one matching party. Company name on its own never creates a link — two unrelated deals can share a name, and one deal's filings often carry different names and file numbers (as with a registration statement and a definitive proxy filed by different companies).
+        <strong className="font-semibold text-slate-800">Linking rules.</strong> A filing is attached to an event when it shares a deal-specific SEC file number (a registration statement or tender-offer number), when one filing cites the other's file number, or when both reference the same merger agreement (date) with a matching acquirer and target. If only one party matches, the link is marked Medium confidence. Company name on its own never creates a link.
       </p>
     </div>
   )

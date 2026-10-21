@@ -141,7 +141,9 @@ FORM_ORDER = {'425': 0, '8-K': 0, 'PREM14A': 1, 'S-4': 1, 'SC 13E3': 1, 'S-4/A':
 def signals(a, b):
     """Evidence that filing b belongs to the same event as filing a."""
     sig = []
-    same_no = bool(a['fileNo'] and a['fileNo'] == b['fileNo'])
+    # 333- (registration statement) and 005- (tender offer / going-private) numbers are deal-specific.
+    # 001-/000- numbers belong to the company and are shared by all of its 8-Ks, proxies and reports.
+    same_no = bool(a['fileNo'] and a['fileNo'] == b['fileNo'] and a['fileNo'][:3] in ('333', '005'))
     sig.append({'id': 'file_no', 'label': 'Same SEC file number', 'ok': same_no, 'strong': True,
                 'detail': f"{a['form']}: {a['fileNo'] or 'n/a'} · {b['form']}: {b['fileNo'] or 'n/a'}" + ('' if same_no else ' (different registrants filed these)' if a['fileNo'] and b['fileNo'] else '')})
     cross = [n for n in (a['fileNo'], b['fileNo']) if n and (n in b['cites'] or n in a['cites'])]
