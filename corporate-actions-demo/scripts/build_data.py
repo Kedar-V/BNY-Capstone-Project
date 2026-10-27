@@ -14,7 +14,7 @@ TENDER_FIELDS = ['bidder', 'parent', 'acquisition_subsidiary', 'dealer_manager',
                  'effective_date', 'minimum_tender_condition', 'proration_terms', 'tendering_conditions',
                  'available_options', 'default_option', 'financial_terms', 'conditions_restrictions']
 MERGER_FIELDS = ['acquirer', 'target', 'consideration_type', 'cash_consideration', 'stock_exchange_ratio',
-                 'shareholder_vote_date', 'closing_conditions', 'event_status', 'security_description',
+                 'shareholder_vote_date', 'closing_conditions', 'event_status', 'mandatory_voluntary_indicator', 'mandatory_voluntary_review', 'security_description',
                  'effective_date', 'available_options', 'default_option', 'election_deadline']
 PASSAGE_ALIAS = {'offer_price_currency': 'currency'}
 
@@ -190,7 +190,24 @@ def find(x):
 
 
 filings.sort(key=lambda f: (f['filedDate'], f['accession']))
+INITIAL_OFFER = {'SC TO-I', 'SC TO-T'}
+latest_offer = {}  # deal-specific file number -> most recent filing that opened a tender offer
 for i, b in enumerate(filings):
+    if b['action'] == 'tender_offer':
+        # The same 005- number is reused by repeat offers for one company, so a new initial offer starts a new
+        # event, and amendments / 14D-9 responses attach to the latest offer under that number.
+        no = b['fileNo']
+        if no and no[:3] == '005':
+            prev = latest_offer.get(no)
+            if prev is None:
+                latest_offer[no] = (b['accession'], b['form'])
+            elif b['form'] in INITIAL_OFFER and prev[1] in INITIAL_OFFER:
+                latest_offer[no] = (b['accession'], b['form'])  # a repeat offer: separate event
+            else:
+                parent[find(b['accession'])] = find(prev[0])
+                if b['form'] in INITIAL_OFFER:
+                    latest_offer[no] = (prev[0], b['form'])
+        continue
     for a in filings[:i]:
         if a['action'] != b['action']:
             continue

@@ -1,8 +1,8 @@
 import { ArrowRight, Check, ExternalLink, FileText, Info, Minus, ShieldCheck } from 'lucide-react'
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { Badge, Button, Card, CardHeader, Drawer, Modal, PageHeader, StatusBadge, Tabs, TypeBadge, Value } from '../../components/ui'
-import { FIELD_DEFS, fmtDate } from '../../data/store'
+import { Badge, Button, Card, CardHeader, Drawer, Modal, PageHeader, ParticipationBadge, StatusBadge, Tabs, TypeBadge, Value } from '../../components/ui'
+import { FIELD_DEFS, fmtDate, participationOf } from '../../data/store'
 import { useApp } from '../../state/AppState'
 import type { CorporateEvent, FieldChange, FieldDef } from '../../types'
 
@@ -45,6 +45,7 @@ export function EventRecord({ mode }: { mode: 'internal' | 'client' }) {
           <span className="flex flex-wrap items-center gap-2">
             <TypeBadge action={event.action} />
             <StatusBadge label={event.status} />
+            <ParticipationBadge value={participationOf(event.fields)} />
             <span>Last updated {fmtDate(event.lastDate)}</span>
             <span>·</span>
             <span>Latest filing {event.current.filing.form}</span>
@@ -59,6 +60,14 @@ export function EventRecord({ mode }: { mode: 'internal' | 'client' }) {
       <div className="mt-5">
         {tab === 'overview' && (
           <>
+            {event.fields.mandatory_voluntary_review && (
+              <div className="mb-4 flex items-start gap-2.5 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+                <Info size={16} className="mt-0.5 shrink-0" />
+                <div>
+                  <span className="font-semibold">Mandatory / voluntary needs review.</span> {event.fields.mandatory_voluntary_review}
+                </div>
+              </div>
+            )}
             <p className="mb-3 text-xs text-slate-500">Select any value to view the source passage in the filing.</p>
             <div className="grid gap-4 md:grid-cols-2">
               {sections.map((sec) => {

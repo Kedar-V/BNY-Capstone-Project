@@ -1,6 +1,6 @@
 import { X } from 'lucide-react'
 import type { ButtonHTMLAttributes, ReactNode } from 'react'
-import { toneFor } from '../data/store'
+import { toneFor, type Participation } from '../data/store'
 
 export type Tone = 'new' | 'amended' | 'pending' | 'completed' | 'review' | 'neutral' | 'brand'
 
@@ -26,6 +26,13 @@ export const StatusBadge = ({ label }: { label: string }) => <Badge tone={toneFo
 
 export function TypeBadge({ action }: { action: 'tender_offer' | 'merger' }) {
   return action === 'tender_offer' ? <Badge tone="brand">Tender Offer</Badge> : <Badge tone="amended">Merger</Badge>
+}
+
+const PARTICIPATION_TONE: Record<Participation, Tone> = { Voluntary: 'brand', Mandatory: 'neutral', 'Mandatory with options': 'amended' }
+
+export function ParticipationBadge({ value }: { value?: Participation }) {
+  if (!value) return <span className="text-xs text-slate-400">Needs review</span>
+  return <Badge tone={PARTICIPATION_TONE[value]}>{value}</Badge>
 }
 
 export function Card({ children, className = '' }: { children: ReactNode; className?: string }) {

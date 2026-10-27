@@ -69,8 +69,22 @@ export const FIELD_DEFS: Record<ActionType, FieldDef[]> = {
       ['shareholder_vote_date', 'Shareholder Vote'],
       ['effective_date', 'Effective Date'],
     ]),
-    ...def('Status', [['event_status', 'Event Status']]),
+    ...def('Status', [
+      ['event_status', 'Event Status'],
+      ['mandatory_voluntary_indicator', 'Mandatory / Voluntary'],
+    ]),
   ],
+}
+
+export type Participation = 'Voluntary' | 'Mandatory' | 'Mandatory with options'
+
+export function participationOf(fields: Record<string, string>): Participation | undefined {
+  const v = fields.mandatory_voluntary_indicator?.trim().toLowerCase()
+  if (!v) return undefined
+  if (v.startsWith('mandatory with')) return 'Mandatory with options'
+  if (v.startsWith('mandatory')) return 'Mandatory'
+  if (v.startsWith('voluntary')) return 'Voluntary'
+  return undefined
 }
 
 const labelOf = (action: ActionType, key: string) => FIELD_DEFS[action].find((d) => d.key === key)?.label ?? key

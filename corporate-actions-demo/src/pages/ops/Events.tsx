@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Card, CardHeader, Empty, PageHeader, SearchInput, Segmented, ShowMore, StatusBadge, TypeBadge } from '../../components/ui'
-import { fmtDate } from '../../data/store'
+import { Card, CardHeader, Empty, PageHeader, ParticipationBadge, SearchInput, Segmented, ShowMore, StatusBadge, TypeBadge } from '../../components/ui'
+import { fmtDate, participationOf } from '../../data/store'
 import { useApp } from '../../state/AppState'
 import type { ActionType } from '../../types'
 
@@ -50,7 +50,7 @@ export function Events() {
             <table className="w-full text-left text-sm">
               <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
                 <tr>
-                  {['Event', 'Type', 'Key terms', 'Status', 'Versions', 'Last filing'].map((h) => (
+                  {['Event', 'Type', 'Participation', 'Key terms', 'Status', 'Versions', 'Last filing'].map((h) => (
                     <th key={h} className="px-4 py-2.5 font-medium">{h}</th>
                   ))}
                 </tr>
@@ -60,6 +60,7 @@ export function Events() {
                   <tr key={e.id} onClick={() => navigate(`/internal/events/${e.id}`)} className="cursor-pointer hover:bg-brand-50/50">
                     <td className="max-w-[280px] truncate px-4 py-3 font-medium text-navy-900">{e.title}</td>
                     <td className="px-4 py-3"><TypeBadge action={e.action} /></td>
+                    <td className="px-4 py-3"><ParticipationBadge value={participationOf(e.fields)} /></td>
                     <td className="max-w-[260px] truncate px-4 py-3 text-slate-600">{e.headline}</td>
                     <td className="px-4 py-3"><StatusBadge label={e.status} /></td>
                     <td className="px-4 py-3 tabular-nums text-slate-600">{e.versions.length}</td>

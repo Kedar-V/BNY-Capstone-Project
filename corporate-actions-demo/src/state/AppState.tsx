@@ -120,14 +120,14 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
     // 1. Connect
     patchStep('connect', { status: 'active', detail: 'Opening a session with EDGAR…' })
-    await jitter(900, 1200)
+    await jitter(600, 800)
     patchStep('connect', { detail: 'Authenticated · building full-text search for 9 form types…' })
-    await jitter(1400, 1900)
+    await jitter(800, 1100)
     patchStep('connect', { status: 'done', detail: 'Connected · 9 form types queried for the latest filing window' })
 
     // 2. Found
     patchStep('found', { status: 'active', detail: 'Scanning EDGAR results and removing filings already in the database…' })
-    await jitter(2200, 2800)
+    await jitter(1300, 1700)
     const formCounts = Object.entries(incoming.reduce<Record<string, number>>((a, f) => ({ ...a, [f.form]: (a[f.form] ?? 0) + 1 }), {})).map(
       ([label, count]) => ({ label, count }),
     )
@@ -144,7 +144,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       detail: `${tender} tender offer · ${incoming.length - tender} merger`,
     })
     setPipeline((p) => ({ ...p, chips: formCounts }))
-    await jitter(700, 1000)
+    await jitter(400, 600)
 
     // 3. Download, one filing at a time
     const docs = incoming.reduce((s, f) => s + f.docs, 0)
@@ -156,14 +156,14 @@ export function AppProvider({ children }: { children: ReactNode }) {
       const f = incoming[i]
       const steps = Math.max(2, Math.min(4, f.docs))
       for (let k = 1; k <= steps; k++) {
-        await jitter(180, 420)
+        await jitter(100, 240)
         const frac = k / steps
         setPipeline((p) => ({ ...p, progress: (i + frac) / incoming.length, current: `${f.form} · ${f.subject}` }))
         patchStep('download', { detail: `${gotDocs + Math.round(f.docs * frac)} of ${docs} documents · ${(gotMb + f.sizeMb * frac).toFixed(1)} MB` })
       }
       gotDocs += f.docs
       gotMb += f.sizeMb
-      await jitter(60, 200)
+      await jitter(30, 100)
     }
     patchStep('download', { status: 'done', detail: `${docs} documents retrieved · ${mb.toFixed(1)} MB of filing text` })
     setPipeline((p) => ({ ...p, current: undefined, progress: 0 }))
@@ -175,22 +175,22 @@ export function AppProvider({ children }: { children: ReactNode }) {
       const f = incoming[i]
       setPipeline((p) => ({ ...p, progress: (i + 1) / incoming.length, current: `${f.form} · ${f.subject}` }))
       patchStep('process', { detail: `${tasks[i % tasks.length]} · filing ${i + 1} of ${incoming.length}` })
-      await jitter(450, 800)
+      await jitter(250, 450)
     }
     patchStep('process', { status: 'done', detail: `${incoming.length} filings cleaned and prepared for extraction` })
     setPipeline((p) => ({ ...p, current: undefined, progress: 0 }))
-    await jitter(300, 500)
+    await jitter(200, 300)
 
     // 5. Extract
     patchStep('extract', { status: 'active', detail: 'Starting extraction…' })
-    await jitter(700, 1000)
+    await jitter(400, 600)
     for (let i = 0; i < incoming.length; i++) {
       const f = incoming[i]
       setPipeline((p) => ({ ...p, progress: i / incoming.length, current: `${f.form} · ${f.subject}` }))
       patchStep('extract', { detail: `Filing ${i + 1} of ${incoming.length} · reading ${f.sizeMb >= 1 ? f.sizeMb.toFixed(1) : f.sizeMb.toFixed(2)} MB of text` })
-      await jitter(1000, 1700 + Math.min(f.sizeMb, 2) * 400)
+      await jitter(550, 900 + Math.min(f.sizeMb, 2) * 250)
       setPipeline((p) => ({ ...p, progress: (i + 1) / incoming.length }))
-      await jitter(120, 260)
+      await jitter(60, 140)
     }
     const fieldCount = incoming.reduce((s, f) => s + Object.keys(f.fields).length, 0)
     patchStep('extract', { status: 'done', detail: `${fieldCount} fields extracted with source passages` })
@@ -198,16 +198,16 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
     // 6. Link
     patchStep('link', { status: 'active', detail: 'Comparing SEC file numbers, merger-agreement references and parties…' })
-    await jitter(1800, 2400)
+    await jitter(1100, 1500)
     const existing = new Set(allFilings.filter((f) => !f.incoming || fetchedIds.has(f.id)).map((f) => f.eventKey))
     const linked = incoming.filter((f) => existing.has(f.eventKey)).length
     patchStep('link', { status: 'done', detail: `${linked} linked to existing events (SEC file numbers, merger-agreement references, party match) · ${incoming.length - linked} new events created` })
 
     // 7. Store
     patchStep('store', { status: 'active', detail: 'Writing filing records…' })
-    await jitter(900, 1200)
+    await jitter(500, 700)
     patchStep('store', { detail: 'Indexing field values and source passages…' })
-    await jitter(1000, 1400)
+    await jitter(600, 800)
     patchStep('store', { status: 'done', detail: `${incoming.length} filing records and ${fieldCount} field values written` })
 
     setFetchedIds((s) => new Set([...s, ...incoming.map((f) => f.id)]))
