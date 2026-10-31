@@ -22,7 +22,12 @@ mlruns/
 mlflow.db
 
 # Downloaded evaluation filings (~1.5 GB) — rebuild via notebooks/evaluation/load_action_filings
-/notebooks/evaluation/data/
+# Ignore the folder's contents, not the folder itself, so mergers.csv can be re-included
+# (git cannot re-include a file inside an ignored directory).
+/notebooks/evaluation/data/**
+!/notebooks/evaluation/data/**/
+!/notebooks/evaluation/data/**/mergers.csv
+!/notebooks/evaluation/data/merger_2026-08-07_2026-10-07/**
 
 # Rebuildable merger-research source caches and large review outputs
 /merger_research/data/mergers/raw/
@@ -30,3 +35,6 @@ mlflow.db
 /merger_research/data/processed/
 /merger_research/outputs/mergers/sec_2025/
 /merger_research/outputs/mergers/sec_2026/
+extraction/mergers/
+
+capstone-presentation
