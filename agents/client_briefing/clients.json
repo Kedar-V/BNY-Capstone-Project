@@ -1,0 +1,112 @@
+[
+  {
+    "id": "demo-pension",
+    "name": "Demo Pension Fund",
+    "type": "Pension fund · long-only equities",
+    "cadence": "weekly",
+    "positions": [
+      {"ticker": "AAPL", "name": "Apple Inc.", "shares": 120000},
+      {"ticker": "MSFT", "name": "Microsoft Corp.", "shares": 85000},
+      {"ticker": "JPM", "name": "JPMorgan Chase & Co.", "shares": 40000},
+      {"ticker": "BHF", "name": "Brighthouse Financial, Inc.", "shares": 15000},
+      {"ticker": "EXAS", "name": "Exact Sciences Corp.", "shares": 20000},
+      {"ticker": "NWE", "name": "NorthWestern Energy Group, Inc.", "shares": 22000},
+      {"ticker": "JHG", "name": "Janus Henderson Group plc", "shares": 18000},
+      {"ticker": "MPTI", "name": "M-tron Industries, Inc.", "shares": 4000},
+      {"ticker": "D", "name": "Dominion Energy, Inc.", "shares": 42000, "onLoan": 5000},
+      {"ticker": "HUN", "name": "Huntsman Corp.", "shares": 35000},
+      {"ticker": "ROKU", "name": "Roku, Inc.", "shares": 18000},
+      {"ticker": "SUPN", "name": "Supernus Pharmaceuticals, Inc.", "shares": 25000},
+      {"ticker": "MKTX", "name": "MarketAxess Holdings Inc.", "shares": 6500},
+      {"ticker": "CZR", "name": "Caesars Entertainment, Inc.", "shares": 30000},
+      {"ticker": "UWMC", "name": "UWM Holdings Corp.", "shares": 150000, "onLoan": 30000},
+      {"ticker": "RENT", "name": "Rent the Runway, Inc.", "shares": 12000},
+      {"ticker": "SGI", "name": "Somnigroup International Inc.", "shares": 16000},
+      {"ticker": "DVAX", "name": "Dynavax Technologies Corp.", "shares": 30000},
+      {"ticker": "WIX", "name": "Wix.com Ltd.", "shares": 8000},
+      {"ticker": "SCHL", "name": "Scholastic Corp.", "shares": 9000},
+      {"ticker": "UTMD", "name": "Utah Medical Products, Inc.", "shares": 1500},
+      {"ticker": "ACVA", "name": "ACV Auctions Inc.", "shares": 20000}
+    ],
+    "watchlist": [
+      {"ticker": "CBZ", "name": "CBIZ, Inc."},
+      {"ticker": "ATKR", "name": "Atkore Inc."},
+      {"ticker": "GLDD", "name": "Great Lakes Dredge & Dock Corp."},
+      {"ticker": "ACLX", "name": "Arcellx, Inc."},
+      {"ticker": "NVDA", "name": "NVIDIA Corp."},
+      {"ticker": "COST", "name": "Costco Wholesale Corp."}
+    ]
+  },
+  {
+    "id": "demo-endowment",
+    "name": "Demo University Endowment",
+    "type": "Endowment · closed-end funds and income",
+    "cadence": "weekly",
+    "positions": [
+      {"ticker": "VTI", "name": "Vanguard Total Stock Market ETF", "shares": 60000},
+      {"ticker": "BANX", "name": "ArrowMark Financial Corp.", "shares": 6000},
+      {"ticker": "HYT", "name": "BlackRock Corporate High Yield Fund, Inc.", "shares": 10000},
+      {"ticker": "JRI", "name": "Nuveen Real Asset Income & Growth Fund", "shares": 8000},
+      {"ticker": "TCW", "name": "TCW Strategic Income Fund, Inc.", "shares": 9000},
+      {"ticker": "BUI", "name": "BlackRock Utilities, Infrastructure & Power Opportunities Trust", "shares": 9000},
+      {"ticker": "NHS", "name": "Neuberger High Yield Strategies Fund Inc.", "shares": 25000},
+      {"ticker": "RQI", "name": "Cohen & Steers Quality Income Realty Fund Inc.", "shares": 7500},
+      {"ticker": "RIV", "name": "RiverNorth Opportunities Fund, Inc.", "shares": 5000},
+      {"ticker": "NMCO", "name": "Nuveen Municipal Credit Opportunities Fund", "shares": 12000},
+      {"ticker": "ASGI", "name": "abrdn Global Infrastructure Income Fund", "shares": 8400},
+      {"ticker": "BCAT", "name": "BlackRock Capital Allocation Term Trust", "shares": 15000},
+      {"ticker": "CRF", "name": "Cornerstone Total Return Fund Inc.", "shares": 10000},
+      {"ticker": "ALEX", "name": "Alexander & Baldwin, Inc.", "shares": 11000},
+      {"ticker": "FFIC", "name": "Flushing Financial Corp.", "shares": 14000},
+      {"ticker": "TWO", "name": "Two Harbors Investment Corp.", "shares": 7700},
+      {"ticker": "BLFS", "name": "BioLife Solutions, Inc.", "shares": 9500},
+      {"ticker": "NFJ", "name": "Virtus Dividend, Interest & Premium Strategy Fund", "shares": 25000},
+      {"ticker": "HERZ", "name": "Herzfeld Credit Income Fund, Inc.", "shares": 10000},
+      {"ticker": "CAF", "name": "Morgan Stanley China A Share Fund, Inc.", "shares": 12000}
+    ],
+    "watchlist": [
+      {"ticker": "CLM", "name": "Cornerstone Strategic Investment Fund, Inc."},
+      {"ticker": "MDV", "name": "Modiv Industrial, Inc."},
+      {"ticker": "EIIA", "name": "Eagle Point Institutional Income Fund"},
+      {"ticker": "XFLT", "name": "XAI Floating Rate & Alternative Income Fund"},
+      {"ticker": "FRBP", "name": "Franklin BSP Capital Corp."},
+      {"ticker": "PDI", "name": "PIMCO Dynamic Income Fund"}
+    ]
+  },
+  {
+    "id": "demo-family-office",
+    "name": "Demo Family Office",
+    "type": "Family office · concentrated small and mid caps",
+    "cadence": "daily",
+    "positions": [
+      {"ticker": "GOOGL", "name": "Alphabet Inc.", "shares": 9000},
+      {"ticker": "LOGC", "name": "ContextLogic Holdings Inc.", "shares": 5000},
+      {"ticker": "EP", "name": "Empire Petroleum Corp.", "shares": 6000},
+      {"ticker": "REEMF", "name": "Rare Element Resources Ltd.", "shares": 50000},
+      {"ticker": "AIM", "name": "AIM ImmunoTech Inc.", "shares": 30000},
+      {"ticker": "DHIL", "name": "Diamond Hill Investment Group, Inc.", "shares": 1500},
+      {"ticker": "VTYX", "name": "Ventyx Biosciences, Inc.", "shares": 3000},
+      {"ticker": "BAFN", "name": "BayFirst Financial Corp.", "shares": 3000},
+      {"ticker": "KLXE", "name": "KLX Energy Services Holdings, Inc.", "shares": 20000},
+      {"ticker": "GFR", "name": "Greenfire Resources Ltd.", "shares": 15000},
+      {"ticker": "EOSE", "name": "Eos Energy Enterprises, Inc.", "shares": 40000},
+      {"ticker": "LGL", "name": "The LGL Group, Inc.", "shares": 2500},
+      {"ticker": "DV", "name": "DoubleVerify Holdings, Inc.", "shares": 12000},
+      {"ticker": "BWMN", "name": "Bowman Consulting Group Ltd.", "shares": 3600},
+      {"ticker": "TCBK", "name": "TriCo Bancshares", "shares": 2000},
+      {"ticker": "HZO", "name": "MarineMax, Inc.", "shares": 2500},
+      {"ticker": "MLCI", "name": "Mount Logan Capital Inc.", "shares": 5000},
+      {"ticker": "ABUS", "name": "Arbutus Biopharma Corp.", "shares": 15000},
+      {"ticker": "YTRA", "name": "Yatra Online, Inc.", "shares": 40000},
+      {"ticker": "CDLR", "name": "Cadeler A/S", "shares": 6000}
+    ],
+    "watchlist": [
+      {"ticker": "WEAV", "name": "Weave Communications, Inc."},
+      {"ticker": "GBCS", "name": "Selectis Health, Inc."},
+      {"ticker": "RBNE", "name": "Robin Energy Ltd."},
+      {"ticker": "GDEV", "name": "GDEV Inc."},
+      {"ticker": "ULY", "name": "Urgent.ly Inc."},
+      {"ticker": "TSLA", "name": "Tesla, Inc."}
+    ]
+  }
+]

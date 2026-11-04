@@ -1,6 +1,7 @@
-import { Bell, CheckCircle2, FileText, Home, Layers, LayoutDashboard, Star, type LucideIcon } from 'lucide-react'
+import { Bell, Briefcase, CheckCircle2, FileText, Home, Layers, LayoutDashboard, Newspaper, ShieldCheck, Star, type LucideIcon } from 'lucide-react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useApp } from '../state/AppState'
+import { useBrief } from '../state/BriefState'
 import { FetchPanel } from './FetchPanel'
 
 interface NavItem {
@@ -12,6 +13,7 @@ interface NavItem {
 
 export function Shell({ mode }: { mode: 'internal' | 'client' }) {
   const { toasts, notifications, readIds } = useApp()
+  const { pendingCount } = useBrief()
   const navigate = useNavigate()
   const { pathname } = useLocation()
   const unread = notifications.filter((n) => !readIds.has(n.id)).length
@@ -21,8 +23,11 @@ export function Shell({ mode }: { mode: 'internal' | 'client' }) {
     ? [
         { to: '/internal/dashboard', label: 'Filings Monitor', icon: LayoutDashboard },
         { to: '/internal/events', label: 'Corporate Actions', icon: Layers },
+        { to: '/internal/brief-review', label: 'Brief Review', icon: ShieldCheck, badge: pendingCount },
       ]
     : [
+        { to: '/client/brief', label: 'My Brief', icon: Newspaper },
+        { to: '/client/holdings', label: 'Holdings', icon: Briefcase },
         { to: '/client/home', label: 'Overview', icon: Home },
         { to: '/client/notifications', label: 'Notifications', icon: Bell, badge: unread },
         { to: '/client/watchlist', label: 'Watchlist', icon: Star },
@@ -36,7 +41,7 @@ export function Shell({ mode }: { mode: 'internal' | 'client' }) {
           <span className="hidden h-6 w-px bg-slate-200 sm:block" />
           <div className="hidden sm:block">
             <div className="text-sm font-semibold leading-tight text-navy-900">Corporate Actions</div>
-            <div className="text-[11px] leading-tight text-slate-500">Tender Offers &amp; Mergers</div>
+            <div className="text-[11px] leading-tight text-slate-500">Tender Offers, Mergers &amp; Rights Issues</div>
           </div>
         </div>
 
@@ -46,7 +51,7 @@ export function Shell({ mode }: { mode: 'internal' | 'client' }) {
               key={m}
               role="tab"
               aria-selected={mode === m}
-              onClick={() => navigate(m === 'internal' ? '/internal/dashboard' : '/client/home')}
+              onClick={() => navigate(m === 'internal' ? '/internal/dashboard' : '/client/brief')}
               className={`rounded-md px-4 py-1.5 font-medium transition-all ${mode === m ? 'bg-navy-900 text-white shadow-sm' : 'text-slate-500 hover:text-slate-900'}`}
             >
               {m === 'internal' ? 'Operations' : 'Client Portal'}

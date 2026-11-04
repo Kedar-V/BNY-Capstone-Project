@@ -1,16 +1,22 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter } from 'react-router-dom'
 import App from './App'
 import { AppProvider } from './state/AppState'
+import { BriefProvider } from './state/BriefState'
 import './index.css'
+
+// The standalone file (scripts/build_standalone.py) opens from disk, where a page cannot change its own path
+const Router = window.location.protocol === 'file:' ? HashRouter : BrowserRouter
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <Router>
       <AppProvider>
-        <App />
+        <BriefProvider>
+          <App />
+        </BriefProvider>
       </AppProvider>
-    </BrowserRouter>
+    </Router>
   </StrictMode>,
 )

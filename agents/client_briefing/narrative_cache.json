@@ -1,0 +1,1438 @@
+{
+"fe0a084c44428715c03c": {
+"summary": "Brighthouse Financial, Inc. is to be acquired by Aquarian Holdings VI L.P; the transaction is pending. Your 15,000 shares would receive $1,050,000 in cash. Instructions were due to BNY by Feb 9, 2026, ahead of the Feb 12, 2026 shareholder vote.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9948eb3c8246916110bd": {
+"summary": "Exact Sciences Corporation’s acquisition by Abbott Laboratories is pending. The client’s 20,000 shares would receive $2,100,000 in cash; the record lists a shareholder vote for Feb 20, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"7aa12d819a26099d47d0": {
+"summary": "Janus Henderson Group plc’s acquisition by Jupiter Company Limited is pending. The client’s 18,000 shares would receive $882,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"7b9ca5434d1f79cfb232": {
+"summary": "Two Harbors Investment Corp. is to be acquired by UWM Holdings Corporation. Your holding is in another party to the deal, so the stated consideration is not calculated.",
+"source": "template",
+"attempts": 2,
+"log": [
+"attempt 1 rejected: advice wording: consideration",
+"attempt 2 rejected: advice wording: consideration"
+]
+},
+"7b16254673a0d984d8c0": {
+"summary": "M-tron Industries, Inc. is conducting a rights offering. Your 4,000 eligible shares would receive 4,000 rights, enough to buy up to 800 new shares; instructions are due to BNY by Apr 10, 2026, ahead of the Apr 15, 2026 subscription deadline.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a24bd6ff39850cd05feb": {
+"summary": "Brighthouse Financial, Inc. is to be acquired by Aquarian Holdings VI L.P; the transaction is pending. Your 15,000 shares would receive $1,050,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"21b493081b95102d702c": {
+"summary": "Exact Sciences Corporation’s acquisition by Abbott Laboratories is pending. Your 20,000 shares would receive $2,100,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6d217f067b41bcfa2e27": {
+"summary": "Janus Henderson Group plc’s acquisition by Jupiter Company Limited is pending, with a shareholder vote dated Apr 16, 2026. The client’s 18,000 shares would receive $882,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"ea3c4ab58b26017bf255": {
+"summary": "Two Harbors Investment Corp. is to be acquired by UWM Holdings Corporation. Your holding is in another party to the deal, so the stated consideration is not calculated.",
+"source": "template",
+"attempts": 2,
+"log": [
+"attempt 1 rejected: advice wording: consideration",
+"attempt 2 rejected: advice wording: consideration"
+]
+},
+"6474289d7ac775441681": {
+"summary": "NorthWestern Energy Group, Inc.’s acquisition by Black Hills Corporation is pending; the client’s 22,000 shares would receive 21,560 Black Hills Corporation shares. The shareholder vote is Apr 2, 2026, and instructions are due to BNY by Mar 30, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"c3b27a2a971ef0f203fc": {
+"summary": "UWM Holdings Corp is conducting a rights offering with a subscription deadline of Nov 12, 2026. The client's position is 150,000 shares, including 30,000 shares on loan; its 120,000 eligible shares would receive 120,000 rights.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a1b685dd784b82ad56db": {
+"summary": "Leggett & Platt, Incorporated is to be acquired by Somnigroup International Inc. Your holding is in another party to the deal, so the stated consideration is not calculated.",
+"source": "template",
+"attempts": 2,
+"log": [
+"attempt 1 rejected: advice wording: consideration",
+"attempt 2 rejected: advice wording: consideration"
+]
+},
+"3ef3e0ac80072fe3e196": {
+"summary": "Huntsman Corporation’s acquisition by Olin Corporation is pending. Your 35,000 Huntsman Corporation shares would receive 19,166 Olin Corporation shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"55896114209675db9e4a": {
+"summary": "Dominion Energy, Inc.’s acquisition by NextEra Energy, Inc. is pending; your 42,000 shares would receive 34,179 NextEra Energy shares, with 5,000 shares on loan. Instructions are due to BNY by Aug 31, 2026, ahead of the Sep 3, 2026 shareholder vote.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9149bfb94b7c885af17b": {
+"summary": "Caesars Entertainment, Inc. is to be acquired by Fertitta Gaming Holdco, LLC in a pending merger. The client's 30,000 shares would receive $930,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"853375a11007810cc16d": {
+"summary": "CBIZ, Inc. is to be acquired by Viking ParentCo, Inc.; the merger is pending. The client has no position in CBIZ, Inc., which is on its watchlist, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"59b2e9f1c44480b72718": {
+"summary": "Atkore Inc. is to be acquired by Prysmian S.p.A.; the merger is pending. The client has no position in Atkore Inc., which is on its watchlist, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"35def7e043648f2c28e7": {
+"summary": "CBIZ, Inc. is to be acquired by Viking ParentCo, Inc.; the merger is pending. The client has no position in CBIZ, Inc., which is on its watchlist, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"ee365d904433e066cb86": {
+"summary": "UWM Holdings Corp’s rights offering is open, with terms changed to 0.57 new share per right and a subscription deadline of Nov 12, 2026. Your 120,000 eligible shares would receive 120,000 rights, allowing the purchase of up to 68,400 new shares; 30,000 shares are on loan.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3a816a7f25f30ce4d0eb": {
+"summary": "Rent the Runway, Inc. is conducting a rights offering. The client's 12,000 eligible shares would receive 12,000 rights, allowing the purchase of up to 1,501 new shares for $5,328.55; instructions are due to BNY by Oct 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"b05efedce80e1d043190": {
+"summary": "Dominion Energy, Inc.’s acquisition by NextEra Energy, Inc. is pending. Your 42,000 shares would receive 34,179 NextEra Energy shares; 5,000 shares are on loan.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"53cf442344f161ab5cc3": {
+"summary": "Atkore Inc.'s acquisition by Prysmian S.p.A is pending. The security is on your watchlist, but you hold no position, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"cade7ca3e14418e0ac73": {
+"summary": "Roku, Inc. is to be acquired by Fox Corporation; the merger is pending. The client's 18,000 shares would receive $1,728,000 in cash and 17,447 Fox Corporation shares. The shareholder vote is Oct 14, 2026, and instructions are due to BNY by Oct 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"14173fab4f1c6ef7b241": {
+"summary": "MarketAxess Holdings Inc.’s acquisition by Intercontinental Exchange, Inc. is pending. Your 6,500 shares would receive $1,085,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e56f5296888fa66c07da": {
+"summary": "Supernus Pharmaceuticals, Inc. is to be acquired by Indivior Pharmaceuticals, Inc.; the merger is pending. The client’s 25,000 shares would receive 38,502 Indivior Pharmaceuticals shares. Instructions were due to BNY by Oct 12, 2026, ahead of the Oct 15, 2026 shareholder vote.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"596710160914ef4bdb1d": {
+"summary": "UWM Holdings Corp’s rights offering is open, with a subscription deadline of Nov 12, 2026. Of your 150,000 shares, 30,000 are on loan; your 120,000 eligible shares would receive 120,000 rights, enough to buy up to 68,400 new shares. Without exercise, your stake would be about 36.3% smaller.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"574c691346fadee4d510": {
+"summary": "Rent the Runway, Inc. is conducting a rights offering: your 12,000 eligible shares would receive 12,000 rights, allowing the purchase of up to 1,501 new shares for $5,328.55. Instructions were due to BNY by Oct 9, 2026; the subscription deadline was Oct 14, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3ce11a87f5f9622f90a1": {
+"summary": "ArrowMark Financial Corp. is conducting a rights offering: your 6,000 eligible shares would receive 6,000 rights, allowing the purchase of up to 2,000 new shares for approximately $39,860. Instructions are due to BNY by Feb 13, 2026, ahead of the Feb 18, 2026 subscription deadline.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"280468b3c7e5a9a0fa09": {
+"summary": "Nuveen Real Asset Income & Growth Fund has announced a rights offering that is not yet open, with a subscription deadline of Mar 9, 2026. The client's 8,000 eligible shares would receive 8,000 rights, allowing the purchase of up to 2,000 new shares for about $25,980; without exercise, the stake would be about 20.0% smaller.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"ad704206d233205a51b5": {
+"summary": "Alexander & Baldwin, Inc. is to be acquired by Tropic Purchaser LLC. The 11,000 shares would receive $233,200 in cash; the shareholder vote is listed for Mar 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"86d83f5e77764e5f4b72": {
+"summary": "Nuveen Real Asset Income & Growth Fund has announced a rights offering that is not yet open, with a subscription deadline of Mar 9, 2026. The client's 8,000 eligible shares would receive 8,000 rights, allowing the purchase of up to 2,000 new shares for about $25,980.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"b21acd04e3f6026a70e8": {
+"summary": "BlackRock Utilities, Infrastructure & Power Opportunities Trust is conducting a rights offering: your 9,000 eligible shares would receive 9,000 rights, allowing the purchase of up to 2,250 new shares for about $61,582.50. Instructions are due to BNY by Mar 30, 2026; the subscription deadline is Apr 2, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"0fe0eb682638705aca4d": {
+"summary": "Neuberger High Yield Strategies Fund Inc. is conducting a rights offering: your 25,000 eligible shares would receive 25,000 rights, allowing the purchase of up to 8,333 new shares for about $56,997.72. The subscription deadline is Apr 15, 2026, and instructions are due to BNY by Apr 10, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e6aee95a5dc04db9841c": {
+"summary": "Alexander & Baldwin, Inc. is to be acquired by Tropic Purchaser LLC; the merger is pending. Your 11,000 shares would receive $233,200 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1f6e28e0499c1768b954": {
+"summary": "Two Harbors Investment Corp.'s acquisition by UWM Holdings Corporation is pending. Your 7,700 shares would receive 17,962 UWM Holdings Corporation shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"ea439b16622202c594f0": {
+"summary": "Flushing Financial Corporation’s acquisition by OceanFirst Financial Corp. is pending. The client’s 14,000 shares would receive 11,900 OceanFirst Financial Corp. shares; the shareholder vote is Apr 2, 2026, and instructions are due to BNY by Mar 30, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"ff810ec7c4febe5b821d": {
+"summary": "Cornerstone Total Return Fund Inc. has announced a rights offering that is not yet open. Your 10,000 eligible shares would receive 10,000 rights, allowing the purchase of up to 3,333 new shares; without exercising, your stake would be about 25.0% smaller.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"71d641c2a38c33fc2be7": {
+"summary": "Cornerstone Strategic Investment Fund, Inc. has announced a rights offering that is not yet open. The security is on your watchlist, but you hold no position, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3b0f9d7f217252b18b1f": {
+"summary": "RiverNorth Opportunities Fund, Inc. is conducting a rights offering. Your 5,000 eligible shares would receive 5,000 rights, enough to buy up to 1,666 new shares for about $18,326; the subscription deadline is Sep 23, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"ec950f330fe47820b246": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering with a subscription deadline of Oct 7, 2026. Your 12,000 eligible shares would receive 12,000 rights, allowing the purchase of up to 3,000 new shares for about $29,700.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"83583bb273bc7f0660c8": {
+"summary": "Modiv Industrial, Inc. is to be acquired by Global Net Lease, Inc.; the merger is pending. The client has no position in Modiv Industrial, Inc., which is on its watchlist, so there is no position to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"51166ff5a42eb2327312": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering with a subscription deadline of Oct 7, 2026. The client's 12,000 eligible shares would receive 12,000 rights, enough to buy up to 3,000 new shares for about $29,700.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3c03b547f09a8e6ea62f": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering. Your 12,000 eligible shares would receive 12,000 rights, enough to buy up to 3,000 new shares for about $29,700; instructions were due to BNY by Oct 2, 2026, and the subscription deadline was Oct 7, 2026.",
+"source": "llm",
+"attempts": 2,
+"log": [
+"attempt 1: ReadTimeout"
+]
+},
+"a48a04d6d45ed6ac87ce": {
+"summary": "abrdn Global Infrastructure Income Fund is conducting a rights offering. Your 8,400 eligible shares would receive 8,400 rights, enough to buy up to 2,800 new shares for about $54,516; instructions are due to BNY by Oct 12, 2026, ahead of the Oct 15, 2026 subscription deadline.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"75b7d8270bcdf664c547": {
+"summary": "BlackRock Capital Allocation Term Trust is conducting a rights offering. Your 15,000 eligible shares would receive 15,000 rights, enough to buy up to 3,000 new shares for about $40,950; the subscription deadline is Oct 21, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"20ea76e3de3b3a46ae6b": {
+"summary": "BioLife Solutions, Inc.’s acquisition by Repligen Corporation is pending; your 9,500 shares would receive $106,875 in cash and 1,369 Repligen Corporation shares. The shareholder vote is Oct 5, 2026, and instructions were due to BNY by Sep 30, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5394600271460580653f": {
+"summary": "BlackRock Capital Allocation Term Trust is conducting a rights offering with a subscription deadline of Oct 21, 2026. The client’s 15,000 eligible shares would receive 15,000 rights, allowing the purchase of up to 3,000 new shares for approximately $40,950.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"2ebdfb77f60a0c52f38e": {
+"summary": "Rare Element Resources Ltd. has announced a rights offering that is not yet open. Your 50,000 eligible shares would receive 12,500 rights, allowing the purchase of up to 12,500 new shares for $3,000; without exercising, your stake would be about 20.0% smaller.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"89998ee69a264dc4fed9": {
+"summary": "ContextLogic Holdings Inc. is conducting a rights offering with a subscription deadline of Feb 20, 2026. Your 5,000 eligible shares would receive 5,000 rights, allowing the purchase of up to 2,674 new shares for $21,392; without exercise, your stake would be about 34.8% smaller.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5012cafdd5b795ffff76": {
+"summary": "Empire Petroleum Corp.’s rights offering has been announced but is not yet open. Your 6,000 eligible shares would receive 6,000 rights, allowing the purchase of up to 342 new shares for $1,022.58; the stated subscription deadline is Feb 27, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"492a7abf1e4a35e8398f": {
+"summary": "AIM ImmunoTech Inc. has announced a rights offering that is not yet open, with a subscription deadline of Feb 27, 2026. The client's 30,000 eligible shares would receive 30,000 rights; new units available for purchase are subject to proration.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"04d2b9e160db4086647b": {
+"summary": "Diamond Hill Investment Group, Inc.’s acquisition by First Eagle Investment Management, LLC is pending, with a shareholder vote dated Mar 3, 2026. The client’s 1,500 shares would receive $262,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1312595b688806e9f8a7": {
+"summary": "Ventyx Biosciences, Inc. is to be acquired by Eli Lilly and Company; the merger is pending. Your 3,000 shares would receive $42,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"93f6d8a0adc187fb36b7": {
+"summary": "AIM ImmunoTech Inc. has announced a rights offering that is not yet open. The client's 30,000 eligible shares would receive 30,000 rights; new units would be subject to proration, and the subscription deadline is Feb 27, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"d2a946858b549a08b114": {
+"summary": "Diamond Hill Investment Group, Inc. is to be acquired by First Eagle Investment Management, LLC; the merger is pending. Your 1,500 shares would receive $262,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"388b4563a57fb3727889": {
+"summary": "Greenfire Resources Ltd. is conducting an open rights offering. The client holds 15,000 shares, but the filing does not state how many rights each share receives.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"35374397910803790257": {
+"summary": "KLX Energy Services Holdings, Inc. is conducting a rights offering. The client's 20,000 eligible shares would receive 20,000 rights, allowing the purchase of up to 77,700 new shares for $115,773; the subscription deadline is Sep 23, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"b7f8640b53259b11cfd5": {
+"summary": "BayFirst Financial Corp. has announced a rights offering that is not yet open. Your 3,000 eligible shares would receive 3,000 rights, allowing the purchase of up to 3,000 new shares for $10,500; without exercising, your stake would be about 50.0% smaller.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a8c0f1a48596b21d7c58": {
+"summary": "KLX Energy Services Holdings, Inc. has reported the close of its rights offering. The client's position is 20,000 shares; the offering is completed.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1657e90d897d3d745357": {
+"summary": "BayFirst Financial Corp. is conducting a rights offering: your 3,000 eligible shares would receive 3,000 rights to buy up to 3,000 new shares for $10,500. Instructions were due to BNY by Sep 25, 2026; the BNY cut-off has passed.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3b4cc8fbc5b6b7e9a80f": {
+"summary": "DoubleVerify Holdings, Inc. is to be acquired by Neptune BidCo US Inc.; the merger is pending. Your 12,000 shares would receive $163,200 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1b814c2ac630dc52b826": {
+"summary": "Weave Communications, Inc. is to be acquired by Willow Parent, LLC in a pending merger. The security is on your watchlist, but you hold no position.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1b152bde569ed061daa8": {
+"summary": "TriCo Bancshares’ acquisition by First Hawaiian, Inc. is pending, with a shareholder vote dated Oct 29, 2026. The client’s 2,000 TriCo Bancshares shares would receive 4,190 First Hawaiian shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"2e3c22ba1c798a0f05f9": {
+"summary": "MarineMax, Inc. is to be acquired by SHM Holdco, LLC in a pending merger. Your 2,500 shares would receive $132,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"972a9bf632d2d056a36d": {
+"summary": "Bowman Consulting Group Ltd. is to be acquired by Prive Parent, Inc.; the merger is pending. Your 3,600 shares would receive $154,800 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a10d236c400a79c25e30": {
+"summary": "Bowman Consulting Group Ltd.’s acquisition by Prive Parent, Inc. is pending. Your 3,600 shares would receive $154,800 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"8558cf3bfaf0b476e9d8": {
+"summary": "Brighthouse Financial, Inc. is to be acquired by Aquarian Holdings VI L.P.; your 15,000 shares would receive $1,050,000 in cash. Your instructions are due to BNY by Feb 9, 2026, ahead of the shareholder vote on Feb 12, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"58ccd0f16bb46f9b8dca": {
+"summary": "Exact Sciences Corporation is to be acquired by Abbott Laboratories in a pending merger. Your 20,000 shares would receive $2,100,000 in cash, and the shareholder vote is Feb 20, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"8d5c9a71a3ace031b3e7": {
+"summary": "Janus Henderson Group plc is to be acquired by Jupiter Company Limited in a pending merger. Your 18,000 shares would receive $882,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"fee11016403e7e18a47b": {
+"summary": "Two Harbors Investment Corp. is to be acquired by UWM Holdings Corporation in a pending merger. Your position is 150,000 shares, including 30,000 shares on loan; because your holding is in another party to the deal, the stated consideration is not calculated for your position.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"89b88df48727648807f6": {
+"summary": "M-tron Industries, Inc. is conducting a rights offering. Your 4,000 eligible shares would receive 4,000 rights, enough to buy up to 800 new shares; instructions are due to BNY Apr 10, 2026, and the subscription deadline is Apr 15, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a3f5dcde6791ff331352": {
+"summary": "Brighthouse Financial, Inc. is to be acquired by Aquarian Holdings VI L.P.; the merger is pending. Your 15,000 shares would receive $1,050,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"32280b72f9f6713df148": {
+"summary": "Exact Sciences Corporation’s acquisition by Abbott Laboratories is pending. Your 20,000 shares would receive $2,100,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"fe8134c853b109aece8a": {
+"summary": "Janus Henderson Group plc is to be acquired by Jupiter Company Limited. Your 18,000 shares would receive $882,000 in cash, and the shareholder vote is Apr 16, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"bf362dc55e4287aa0eca": {
+"summary": "Two Harbors Investment Corp. is to be acquired by UWM Holdings Corporation, with the merger pending. Your position is 150,000 shares, including 30,000 shares on loan; because your holding is in another party to the deal, the stated consideration is not calculated for your position.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1b58029baa6f97ca902e": {
+"summary": "NorthWestern Energy Group, Inc. is to be acquired by Black Hills Corporation; your 22,000 shares would receive 21,560 Black Hills Corporation shares. Instructions are due to BNY by Mar 30, 2026, and the shareholder vote is Apr 2, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5a0c2e7d37936f315c23": {
+"summary": "UWM Holdings Corp is conducting a rights offering, and your 120,000 eligible shares would receive 120,000 rights. The subscription deadline is Nov 12, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"ce2a5187646764b16a81": {
+"summary": "Leggett & Platt, Incorporated is to be acquired by Somnigroup International Inc.; the merger is pending. Your position is 16,000 shares in another party to the deal, so the stated consideration for holders of Leggett & Platt, Incorporated is not calculated for your position.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"63617a82b2f137b96379": {
+"summary": "Huntsman Corporation’s acquisition by Olin Corporation is pending. Your 35,000 Huntsman Corporation shares would receive 19,166 Olin Corporation shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"715f116ac4c5cb7df397": {
+"summary": "Dominion Energy, Inc. is to be acquired by NextEra Energy, Inc.; your 42,000 shares would receive 34,179 NextEra Energy shares, and 5,000 shares are on loan. Instructions are due to BNY by Aug 31, 2026, and the shareholder vote is Sep 3, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"b1708b5fcae00fc409b2": {
+"summary": "Caesars Entertainment, Inc. is to be acquired by Fertitta Gaming Holdco, LLC in a pending merger. Your 30,000 shares would receive $930,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"55113e7f8f7975ec7075": {
+"summary": "CBIZ, Inc. is to be acquired by Viking ParentCo, Inc.; the merger is pending. You have no position in CBIZ, Inc., but it is on your watchlist, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"c5929222deedcc5fa844": {
+"summary": "Atkore Inc.’s acquisition by Prysmian S.p.A. is pending. Atkore is on your watchlist, but you hold no position in it.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"175b3d3de76ab9f006a5": {
+"summary": "CBIZ, Inc.’s acquisition by Viking ParentCo, Inc. is pending. You hold no position in CBIZ, Inc.; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9e6a68e1b761acfff51d": {
+"summary": "UWM Holdings Corp’s rights offering is open, with the filing now stating 0.57 new share per right. Your 120,000 eligible shares would receive 120,000 rights, enough to buy up to 68,400 new shares; the subscription deadline is Nov 12, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"279b0835ee2d1abf35d7": {
+"summary": "Rent the Runway, Inc. is conducting a rights offering. Your 12,000 eligible shares would receive 12,000 rights, enough to buy up to 1,501 new shares for $5,328.55; instructions are due to BNY by Oct 9, 2026, and the subscription deadline is Oct 14, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"b1c152e1d8fc3c2a34e8": {
+"summary": "Leggett & Platt, Incorporated is to be acquired by Somnigroup International Inc., with the merger pending. Your position is 16,000 shares in another party to the deal, so the stated consideration for holders of Leggett & Platt, Incorporated is not calculated for your position.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"27fcd6a78c2d3f15de39": {
+"summary": "Huntsman Corporation’s acquisition by Olin Corporation is pending. For your 35,000 Huntsman Corporation shares, you would receive 19,166 Olin Corporation shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"256995ad8acb413c3387": {
+"summary": "Dominion Energy, Inc. is to be acquired by NextEra Energy, Inc., with the merger pending. Your 42,000 shares would receive 34,179 NextEra Energy shares; 5,000 shares are on loan.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a6493005795a6fdb9816": {
+"summary": "Caesars Entertainment, Inc. is to be acquired by Fertitta Gaming Holdco, LLC in a pending merger. Your 30,000 shares would receive $930,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"05677a5bc9eb1d80d942": {
+"summary": "CBIZ, Inc. is to be acquired by Viking ParentCo, Inc.; the merger is pending. You have no position in CBIZ, Inc., which is on your watchlist, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"4ee4ba0c15df275accbb": {
+"summary": "Atkore Inc.'s acquisition by Prysmian S.p.A. is pending. Atkore Inc. is on your watchlist, but you hold no position, so there is no impact on your holdings.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"4bf83b99ebc060ad5ced": {
+"summary": "Roku, Inc. is to be acquired by Fox Corporation; your 18,000 shares would receive $1,728,000 in cash and 17,447 Fox Corporation shares. Instructions are due to BNY by Oct 9, 2026, ahead of the shareholder vote on Oct 14, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"483c776571bdec87b770": {
+"summary": "MarketAxess Holdings Inc. is to be acquired by Intercontinental Exchange, Inc., pending completion. Your 6,500 shares would receive $1,085,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"8d9ea3eb5c647c9e8462": {
+"summary": "Supernus Pharmaceuticals, Inc. is to be acquired by Indivior Pharmaceuticals, Inc.; your 25,000 shares would receive 38,502 Indivior Pharmaceuticals shares. The shareholder vote is Oct 15, 2026, and instructions are due to BNY by Oct 12, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"fa8721942bad5125f81e": {
+"summary": "UWM Holdings Corp is conducting a rights offering. Your 120,000 eligible shares would receive 120,000 rights, enough to buy up to 68,400 new shares; the subscription deadline is Nov 12, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"0362a9a153fb2a9765a7": {
+"summary": "Rent the Runway, Inc. is conducting a rights offering. Your 12,000 eligible shares would receive 12,000 rights, allowing you to buy up to 1,501 new shares for $5,328.55; instructions are due to BNY by Oct 9, 2026, ahead of the Oct 14, 2026 subscription deadline.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"38086fefde787a0343e2": {
+"summary": "ArrowMark Financial Corp. is conducting a rights offering. Your 6,000 shares would receive 6,000 rights, allowing you to buy up to 2,000 new shares for about $39,860; instructions are due to BNY by Feb 13, 2026, and the subscription deadline is Feb 18, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1ce5f3d1cb4183aca717": {
+"summary": "Nuveen Real Asset Income & Growth Fund has announced a rights offering that is not yet open. Your 8,000 eligible shares would receive 8,000 rights, enough to buy up to 2,000 new shares for about $25,980; the subscription deadline is Mar 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"60ac8eaf0a6aa375bd22": {
+"summary": "Alexander & Baldwin, Inc. is to be acquired by Tropic Purchaser LLC. Your 11,000 shares would receive $233,200 in cash; the shareholder vote is Mar 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"c360cd83be2236593eac": {
+"summary": "Nuveen Real Asset Income & Growth Fund has announced a rights offering that is not yet open. Your 8,000 eligible shares would receive 8,000 rights, enough to buy up to 2,000 new shares for about $25,980; the subscription deadline is Mar 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1b16b2ab8e99c0fbdb0f": {
+"summary": "BlackRock Utilities, Infrastructure & Power Opportunities Trust is conducting a rights offering: your 9,000 eligible shares would receive 9,000 rights, allowing you to buy up to 2,250 new shares for about $61,582.50. Instructions are due to BNY by Mar 30, 2026; the subscription deadline is Apr 2, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"303041eff4e1225f62de": {
+"summary": "Neuberger High Yield Strategies Fund Inc. is conducting a rights offering: your 25,000 eligible shares would receive 25,000 rights, enough to buy up to 8,333 new shares for about $56,997.72. Instructions are due to BNY by Apr 10, 2026; the subscription deadline is Apr 15, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"913df6ed47ab6a33adec": {
+"summary": "Alexander & Baldwin, Inc. is to be acquired by Tropic Purchaser LLC in a pending merger. Your 11,000 shares would receive $233,200 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"4cb33fc54b8bbdceb4e2": {
+"summary": "Two Harbors Investment Corp. is pending acquisition by UWM Holdings Corporation. Your 7,700 shares would receive 17,962 UWM Holdings Corporation shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f578175244f711b10122": {
+"summary": "Flushing Financial Corporation is to be acquired by OceanFirst Financial Corp.; your 14,000 shares would receive 11,900 OceanFirst Financial Corp. shares. Instructions are due to BNY by Mar 30, 2026, and the shareholder vote is Apr 2, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f5a53501d40863e906d9": {
+"summary": "Cornerstone Total Return Fund Inc. has announced a rights offering that is not yet open. Your 10,000 eligible shares would receive 10,000 rights, enough to buy up to 3,333 new shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"0ae81ec33325b9106705": {
+"summary": "Cornerstone Strategic Investment Fund, Inc. has announced a rights offering that is not yet open. You hold no position in the security; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a3406668ddbe5b97631c": {
+"summary": "RiverNorth Opportunities Fund, Inc. is conducting a rights offering. Your 5,000 eligible shares would receive 5,000 rights, enough to buy up to 1,666 new shares for about $18,326; the subscription deadline is Sep 23, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3e053f64bb58398ec173": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering. Your 12,000 eligible shares would receive 12,000 rights, enough to buy up to 3,000 new shares for about $29,700; subscriptions are due Oct 7, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1e250671e0e60378d966": {
+"summary": "Modiv Industrial, Inc.’s acquisition by Global Net Lease, Inc. is pending. You have no position in Modiv Industrial, Inc.; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"04ddd4614feecbfebb69": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering. Your 12,000 eligible shares would receive 12,000 rights, enough to buy up to 3,000 new shares for about $29,700; the subscription deadline is Oct 7, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"7b58facf3d53d4b679ed": {
+"summary": "Cornerstone Total Return Fund Inc. has announced a rights offering that is not yet open. Your 10,000 eligible shares would receive 10,000 rights, enough to buy up to 3,333 new shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"2bb1eee04790b41ee297": {
+"summary": "Cornerstone Strategic Investment Fund, Inc. has announced a rights offering that is not yet open. You have no position in the security, but it is on your watchlist, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6a5d776d057e74b44bbc": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering. Your 12,000 eligible shares would receive 12,000 rights, allowing you to buy up to 3,000 new shares for about $29,700; instructions are due to BNY Oct 2, 2026, ahead of the Oct 7, 2026 subscription deadline.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"73929d0deca58cd03d9d": {
+"summary": "abrdn Global Infrastructure Income Fund is conducting a rights offering. Your 8,400 eligible shares would receive 8,400 rights, enough to buy up to 2,800 new shares for about $54,516; instructions are due to BNY Oct 12, 2026, and the subscription deadline is Oct 15, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"c94069ad1d7232a144f0": {
+"summary": "BlackRock Capital Allocation Term Trust is conducting a rights offering. Your 15,000 eligible shares would receive 15,000 rights, allowing you to buy up to 3,000 new shares for about $40,950; subscriptions are due Oct 21, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5fd589e93e3b8b7022f0": {
+"summary": "Modiv Industrial, Inc. is to be acquired by Global Net Lease, Inc.; the merger is pending. You hold no position in Modiv Industrial, Inc., so there is no impact on your holdings to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a20dc8eb26e44504a9f8": {
+"summary": "BioLife Solutions, Inc. is to be acquired by Repligen Corporation; your 9,500 shares would receive $106,875 in cash and 1,369 Repligen Corporation shares. Instructions are due to BNY Sep 30, 2026, and the shareholder vote is Oct 5, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"28eb0f07b74b1b4d5f51": {
+"summary": "BlackRock Capital Allocation Term Trust is conducting a rights offering. Your 15,000 eligible shares would receive 15,000 rights, enough to buy up to 3,000 new shares for about $40,950; subscriptions are due Oct 21, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"54257860109936528bd3": {
+"summary": "Rare Element Resources Ltd. has announced a rights offering that is not yet open. Your 50,000 eligible shares would receive 12,500 rights, allowing you to buy up to 12,500 new shares for $3,000.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1954e35b3ed3f8df446d": {
+"summary": "ContextLogic Holdings Inc. is conducting a rights offering. Your 5,000 eligible shares would receive 5,000 rights, allowing you to buy up to 2,674 new shares for $21,392; the subscription deadline is Feb 20, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"8733b134ce0391b59211": {
+"summary": "Empire Petroleum Corp. has announced a rights offering that is not yet open. Your 6,000 eligible shares would receive 6,000 rights, allowing you to buy up to 342 new shares for $1,022.58; the subscription deadline is Feb 27, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"7f8d3e75d9a0773827d8": {
+"summary": "AIM ImmunoTech Inc. has announced a rights offering that is not yet open. Your 30,000 eligible shares would receive 30,000 rights; new units are subject to proration, and the subscription deadline is Feb 27, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"14a24a4115e78ebe990b": {
+"summary": "Diamond Hill Investment Group, Inc. is to be acquired by First Eagle Investment Management, LLC in a pending merger. Your 1,500 shares would receive $262,500 in cash, and the shareholder vote is Mar 3, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a87c32cd6fcd89ac7df4": {
+"summary": "Ventyx Biosciences, Inc. is to be acquired by Eli Lilly and Company in a pending merger. Your 3,000 shares would receive $42,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9282b240097d7282082a": {
+"summary": "AIM ImmunoTech Inc. has announced a rights offering that is not yet open. Your 30,000 eligible shares would receive 30,000 rights; new units you could buy are subject to proration under the offering limit, and subscriptions are due Feb 27, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"87efa706baf9023d4ae4": {
+"summary": "Diamond Hill Investment Group, Inc. is pending acquisition by First Eagle Investment Management, LLC. Your 1,500 shares would receive $262,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e3b23e15c71fd2661734": {
+"summary": "Ventyx Biosciences, Inc. is pending acquisition by Eli Lilly and Company. Your 3,000 shares would receive $42,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"8623cf715e36af72ef41": {
+"summary": "Greenfire Resources Ltd. is conducting a rights offering. You hold 15,000 shares, but the number of rights your shares receive is not stated.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9176b2bb30d3d9eb0927": {
+"summary": "KLX Energy Services Holdings, Inc. is conducting a rights offering. Your 20,000 eligible shares would receive 20,000 rights, enough to buy up to 77,700 new shares for $115,773; subscriptions are due Sep 23, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1e3a68667450ecd7fc2b": {
+"summary": "BayFirst Financial Corp. has announced a rights offering that is not yet open. Your 3,000 eligible shares would receive 3,000 rights, allowing you to buy up to 3,000 new shares for $10,500.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"18a233fd73cf6e5f889a": {
+"summary": "KLX Energy Services Holdings, Inc. has reported the close of its rights offering.",
+"source": "template",
+"attempts": 2,
+"log": [
+"attempt 1 rejected: wrong voice: address the reader as 'you' and 'your' and do not mention the record (the record)",
+"attempt 2 rejected: wrong voice: address the reader as 'you' and 'your' and do not mention the record (the record)"
+]
+},
+"9762d2fc5ccb9dc7e0f0": {
+"summary": "BayFirst Financial Corp. is conducting a rights offering. Your 3,000 shares would receive 3,000 rights, allowing you to buy up to 3,000 new shares for $10,500; instructions are due to BNY Sep 25, 2026, and the BNY cut-off has passed.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3af4781a5b249ec5cd20": {
+"summary": "DoubleVerify Holdings, Inc. is to be acquired by Neptune BidCo US Inc. in a pending merger. Your 12,000 shares would receive $163,200 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3a747ae4f971d69c5d05": {
+"summary": "Weave Communications, Inc. is to be acquired by Willow Parent, LLC; the merger is pending. You have no position in the security, but it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f10571e6eeb766c0589e": {
+"summary": "TriCo Bancshares is to be acquired by First Hawaiian, Inc., with a shareholder vote on Oct 29, 2026. Your 2,000 TriCo Bancshares shares would receive 4,190 First Hawaiian shares if the merger is completed.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"811951657b5ccf4fba16": {
+"summary": "MarineMax, Inc. is to be acquired by SHM Holdco, LLC in a pending merger. Your 2,500 shares would receive $132,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"7996267731d2644108cb": {
+"summary": "Bowman Consulting Group Ltd. is to be acquired by Prive Parent, Inc.; the merger is pending. Your 3,600 shares would receive $154,800 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"75fd4417c84f31e7f6e9": {
+"summary": "Bowman Consulting Group Ltd. is to be acquired by Prive Parent, Inc. in a pending merger. Your 3,600 shares would receive $154,800 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"b98b2982f29b89f3bb5f": {
+"summary": "Brighthouse Financial, Inc. is to be acquired by Aquarian Holdings VI L.P.; your 15,000 shares would receive $1,050,000 in cash. The shareholder vote is Feb 12, 2026, and instructions are due to BNY by Feb 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3acbce0a606b3f669268": {
+"summary": "Exact Sciences Corporation is to be acquired by Abbott Laboratories. Your 20,000 shares would receive $2,100,000 in cash; the shareholder vote is Feb 20, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6700429d1a860ed72160": {
+"summary": "Janus Henderson Group plc is to be acquired by Jupiter Company Limited in a pending merger. Your 18,000 shares would receive $882,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"039756ddd4531265eadc": {
+"summary": "Two Harbors Investment Corp. is to be acquired by UWM Holdings Corporation in a pending merger. Your position is 150,000 shares, including 30,000 shares on loan; because your holding is in another party to the deal, the stated consideration is not calculated for your position.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"011a0c863cbc4beca65c": {
+"summary": "M-tron Industries, Inc. is conducting a rights offering; your 4,000 eligible shares would receive 4,000 rights, enough to buy up to 800 new shares. Instructions are due to BNY by Apr 10, 2026, and the subscription deadline is Apr 15, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"2f36f20478a9d4f5f6c8": {
+"summary": "Brighthouse Financial, Inc. is to be acquired by Aquarian Holdings VI L.P.; the merger is pending. Your 15,000 shares would receive $1,050,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6321fab4b40d4c06ce43": {
+"summary": "Exact Sciences Corporation's acquisition by Abbott Laboratories is pending. Your 20,000 shares would receive $2,100,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"22dff689c62a83f0b117": {
+"summary": "Janus Henderson Group plc is to be acquired by Jupiter Company Limited, pending a shareholder vote on Apr 16, 2026. Your 18,000 shares would receive $882,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"0f914e75fb06bd239e96": {
+"summary": "Two Harbors Investment Corp. is to be acquired by UWM Holdings Corporation, with the merger pending. Your position is 150,000 shares, including 30,000 shares on loan; the stated consideration is not calculated for your holding because it is in another party to the deal.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5beaaeb9b363b66f15af": {
+"summary": "NorthWestern Energy Group, Inc. is to be acquired by Black Hills Corporation; your 22,000 shares would receive 21,560 Black Hills Corporation shares. The shareholder vote is Apr 2, 2026, and instructions are due to BNY by Mar 30, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"bfaf3a3b014d4be31e80": {
+"summary": "UWM Holdings Corp is conducting a rights offering with a subscription deadline of Nov 12, 2026. Of your 150,000 shares, 30,000 shares are on loan; your 120,000 eligible shares would receive 120,000 rights.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"069ac9a81d39436774ce": {
+"summary": "Leggett & Platt, Incorporated is to be acquired by Somnigroup International Inc.; the merger is pending. Your position is 16,000 shares in another party to the deal, so the stated consideration for holders of Leggett & Platt, Incorporated is not calculated for your position.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f75056c4376321e2b38f": {
+"summary": "Huntsman Corporation is to be acquired by Olin Corporation, with the merger pending. Your 35,000 Huntsman Corporation shares would receive 19,166 Olin Corporation shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"94b0a84ed375f5c98338": {
+"summary": "Dominion Energy, Inc. is to be acquired by NextEra Energy, Inc.; your 42,000 shares would receive 34,179 NextEra Energy shares. The shareholder vote is Sep 3, 2026, and instructions are due to BNY by Aug 31, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e431bae1bae79385e1f3": {
+"summary": "Caesars Entertainment, Inc. is to be acquired by Fertitta Gaming Holdco, LLC; the merger is pending. Your 30,000 shares would receive $930,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"7cf435ee27b7cb41ca4f": {
+"summary": "CBIZ, Inc. is to be acquired by Viking ParentCo, Inc.; the merger is pending. You hold no position in CBIZ, Inc., but it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"50c1ece8b03d49af7a45": {
+"summary": "Atkore Inc. is to be acquired by Prysmian S.p.A.; the merger is pending. You hold no position in Atkore Inc., so there is no impact on your holdings; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"2041c5e1c5f0027e57ca": {
+"summary": "CBIZ, Inc. is to be acquired by Viking ParentCo, Inc.; the merger is pending. You have no position in CBIZ, Inc., so there is no position impact to calculate; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f27e20c62877e05eed45": {
+"summary": "UWM Holdings Corp’s rights offering is open, and the filing now states 0.57 new share per right. Your 120,000 eligible shares would receive 120,000 rights, enough to buy up to 68,400 new shares; the subscription deadline is Nov 12, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"60211957e5d2d1818083": {
+"summary": "Rent the Runway, Inc. is conducting a rights offering: your 12,000 eligible shares would receive 12,000 rights, allowing you to buy up to 1,501 new shares for $5,328.55. Instructions are due to BNY by Oct 9, 2026, and the subscription deadline is Oct 14, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"644fd72c9a98bb4c1ff1": {
+"summary": "Leggett & Platt, Incorporated is to be acquired by Somnigroup International Inc.; the merger is pending. Your position is 16,000 shares in another party to the deal, so the stated consideration for Leggett & Platt holders is not calculated for your position.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"495fc645b1eafd30c7e1": {
+"summary": "Huntsman Corporation’s acquisition by Olin Corporation is pending. Your 35,000 Huntsman Corporation shares would receive 19,166 Olin Corporation shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"103d80557647836c4512": {
+"summary": "Dominion Energy, Inc. is to be acquired by NextEra Energy, Inc. in a pending merger. Your 42,000 shares would receive 34,179 NextEra Energy shares; 5,000 shares are on loan.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f41301bb771137c657e3": {
+"summary": "Caesars Entertainment, Inc. is to be acquired by Fertitta Gaming Holdco, LLC in a pending merger. Your 30,000 shares would receive $930,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"31b371919239647d4252": {
+"summary": "CBIZ, Inc. is to be acquired by Viking ParentCo, Inc.; the merger is pending. You have no position in CBIZ, Inc., but it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"13015ce02d13b8686706": {
+"summary": "Atkore Inc. is to be acquired by Prysmian S.p.A.; the merger is pending. You hold no position in Atkore Inc., which is on your watchlist, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"8333784d654689d3a995": {
+"summary": "Roku, Inc. is to be acquired by Fox Corporation; your 18,000 shares would receive $1,728,000 in cash and 17,447 Fox Corporation shares. The shareholder vote is Oct 14, 2026, and instructions are due to BNY by Oct 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"d1fe844f55eb29fd6a70": {
+"summary": "MarketAxess Holdings Inc. is to be acquired by Intercontinental Exchange, Inc. in a pending merger. Your 6,500 shares would receive $1,085,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"b526ed532c6635aee202": {
+"summary": "Supernus Pharmaceuticals, Inc. is to be acquired by Indivior Pharmaceuticals, Inc.; your 25,000 shares would receive 38,502 Indivior Pharmaceuticals shares. The shareholder vote is Oct 15, 2026, and instructions are due to BNY by Oct 12, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"273283422d61f30ea2eb": {
+"summary": "UWM Holdings Corp is conducting a rights offering. Your 120,000 eligible shares would receive 120,000 rights, enough to buy up to 68,400 new shares; subscriptions are due Nov 12, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"151ddcb9e96db640ce11": {
+"summary": "Rent the Runway, Inc. is conducting a rights offering: your 12,000 eligible shares would receive 12,000 rights, enough to buy up to 1,501 new shares for $5,328.55. Instructions are due to BNY by Oct 9, 2026, and the subscription deadline is Oct 14, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6f630ab0b723a0f22452": {
+"summary": "ArrowMark Financial Corp. is conducting a rights offering: your 6,000 eligible shares would receive 6,000 rights, enough to buy up to 2,000 new shares for about $39,860. Instructions are due to BNY by Feb 13, 2026, and the subscription deadline is Feb 18, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9c5160754a3bead614ec": {
+"summary": "Nuveen Real Asset Income & Growth Fund has announced a rights offering that is not yet open. Your 8,000 eligible shares would receive 8,000 rights, enough to buy up to 2,000 new shares for about $25,980; subscriptions are due Mar 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f7d2dce8c71d783b71cf": {
+"summary": "Alexander & Baldwin, Inc. is to be acquired by Tropic Purchaser LLC. Your 11,000 shares would receive $233,200 in cash, and the shareholder vote is Mar 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"b513ecacce0dbd7e9e3f": {
+"summary": "Nuveen Real Asset Income & Growth Fund has announced a rights offering that is not yet open. Your 8,000 eligible shares would receive 8,000 rights, enough to buy up to 2,000 new shares for about $25,980; subscriptions are due Mar 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"cc0c40268dfcece5a072": {
+"summary": "BlackRock Utilities, Infrastructure & Power Opportunities Trust is conducting a rights offering. Your 9,000 shares would receive 9,000 rights, allowing you to buy up to 2,250 new shares for about $61,582.50; instructions are due to BNY by Mar 30, 2026, and the subscription deadline is Apr 2, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"cf2bf5f036fc51b885dd": {
+"summary": "Neuberger High Yield Strategies Fund Inc. is conducting a rights offering: your 25,000 eligible shares would receive 25,000 rights, allowing you to buy up to 8,333 new shares for about $56,997.72. Instructions are due to BNY by Apr 10, 2026; the subscription deadline is Apr 15, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9a16479a1dc32ebff64c": {
+"summary": "Alexander & Baldwin, Inc. is to be acquired by Tropic Purchaser LLC in a pending merger. Your 11,000 shares would receive $233,200 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5abeabd09b2691050321": {
+"summary": "Two Harbors Investment Corp. is to be acquired by UWM Holdings Corporation. Your 7,700 shares would receive 17,962 UWM Holdings Corporation shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"1e306f0f516ade3cb02c": {
+"summary": "Flushing Financial Corporation is to be acquired by OceanFirst Financial Corp.; your 14,000 shares would receive 11,900 OceanFirst Financial Corp. shares. Instructions are due to BNY by Mar 30, 2026, and the shareholder vote is Apr 2, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3f54891364552e81e264": {
+"summary": "Cornerstone Total Return Fund Inc. has announced a rights offering that is not yet open. Your 10,000 eligible shares would receive 10,000 rights, enough to buy up to 3,333 new shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"266a19877fd43daedb01": {
+"summary": "Cornerstone Strategic Investment Fund, Inc. has announced a rights offering that is not yet open. You have no position in the security; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a530aedade84fc0f433f": {
+"summary": "RiverNorth Opportunities Fund, Inc. is conducting a rights offering. Your 5,000 eligible shares would receive 5,000 rights, enough to buy up to 1,666 new shares for about $18,326; subscriptions are due Sep 23, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"463e9f346268f4bd6e34": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering. Your 12,000 eligible shares would receive 12,000 rights, allowing you to buy up to 3,000 new shares for approximately $29,700; the subscription deadline is Oct 7, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"05b1908af43dc150a8b0": {
+"summary": "Modiv Industrial, Inc. is to be acquired by Global Net Lease, Inc.; the merger is pending. You hold no position in Modiv Industrial, Inc., so there is no impact on your holdings to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9a7af7b5c60db8bc53a8": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering. Your 12,000 eligible shares would receive 12,000 rights, enough to buy up to 3,000 new shares for about $29,700; subscriptions are due Oct 7, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"02c4b839e56e97ab365c": {
+"summary": "Cornerstone Total Return Fund Inc. has announced a rights offering that is not yet open. Your 10,000 eligible shares would receive 10,000 rights, enough for you to buy up to 3,333 new shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e915803798d515067470": {
+"summary": "Cornerstone Strategic Investment Fund, Inc. has announced a rights offering that is not yet open. You have no position in the security; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"955897baa69dcfb2ea61": {
+"summary": "Nuveen Municipal Credit Opportunities Fund is conducting a rights offering; your 12,000 shares would receive 12,000 rights, allowing you to buy up to 3,000 new shares for about $29,700. Instructions are due to BNY by Oct 2, 2026, and the subscription deadline is Oct 7, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"cd64dd4c6798716cd22e": {
+"summary": "abrdn Global Infrastructure Income Fund is conducting a rights offering. Your 8,400 eligible shares would receive 8,400 rights, enough to buy up to 2,800 new shares for about $54,516; instructions are due to BNY by Oct 12, 2026, and the subscription deadline is Oct 15, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"eb17b3db7428ed23d3c1": {
+"summary": "BlackRock Capital Allocation Term Trust is conducting a rights offering. Your 15,000 eligible shares would receive 15,000 rights, allowing you to buy up to 3,000 new shares for an estimated ≈ $40,950; the subscription deadline is Oct 21, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e63d5e86b303d4c39937": {
+"summary": "Modiv Industrial, Inc. is pending acquisition by Global Net Lease, Inc. You have no position in Modiv Industrial, Inc.; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f5bb1fd00eec43c243a2": {
+"summary": "BioLife Solutions, Inc. is to be acquired by Repligen Corporation; your 9,500 shares would receive $106,875 in cash and 1,369 Repligen Corporation shares. Instructions are due to BNY by Sep 30, 2026, and the shareholder vote is Oct 5, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"92de12244134c4e4b442": {
+"summary": "BlackRock Capital Allocation Term Trust is conducting a rights offering. Your 15,000 eligible shares would receive 15,000 rights, allowing you to buy up to 3,000 new shares for about $40,950; subscriptions are due Oct 21, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"ef3472d0c02bc5bd1e6d": {
+"summary": "Rare Element Resources Ltd. has announced a rights offering that is not yet open. Your 50,000 eligible shares would receive 12,500 rights, allowing you to buy up to 12,500 new shares for $3,000.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"eaaa4cfa807664b3f1dc": {
+"summary": "ContextLogic Holdings Inc. is conducting a rights offering. Your 5,000 eligible shares would receive 5,000 rights, enough to buy up to 2,674 new shares for $21,392; subscriptions are due by Feb 20, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"53bdc107f38f85d709c1": {
+"summary": "Empire Petroleum Corp. has announced a rights offering that is not yet open. Your 6,000 eligible shares would receive 6,000 rights, allowing you to buy up to 342 new shares for $1,022.58; the subscription deadline is Feb 27, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5b0de0e8d7edeab403d8": {
+"summary": "AIM ImmunoTech Inc.’s rights offering is announced but not yet open. Your 30,000 eligible shares would receive 30,000 rights; new units are subject to proration, and the subscription deadline is Feb 27, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f793e4de8723da93b463": {
+"summary": "Diamond Hill Investment Group, Inc. is to be acquired by First Eagle Investment Management, LLC. Your 1,500 shares would receive $262,500 in cash; the shareholder vote is Mar 3, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"99f8493dfaa77f844f6b": {
+"summary": "Ventyx Biosciences, Inc. is to be acquired by Eli Lilly and Company; the merger is pending. Your 3,000 shares would receive $42,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f573812c333f9b356c57": {
+"summary": "AIM ImmunoTech Inc. has announced a rights offering that is not yet open. Your 30,000 eligible shares would receive 30,000 rights; new units are subject to proration under the offering limit, and subscriptions are due Feb 27, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"fdccc8d06321e45ed962": {
+"summary": "Diamond Hill Investment Group, Inc. is to be acquired by First Eagle Investment Management, LLC; the merger is pending. Your 1,500 shares would receive $262,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"c6fbc857b9b5878cea3e": {
+"summary": "Ventyx Biosciences, Inc. is to be acquired by Eli Lilly and Company in a pending merger. Your 3,000 shares would receive $42,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e4ff4199bf0b7f8f6641": {
+"summary": "Greenfire Resources Ltd. is conducting a rights offering, and you hold 15,000 shares. The filing does not state how many rights your shares receive.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3784e6255cb0d13ef19a": {
+"summary": "KLX Energy Services Holdings, Inc. is conducting a rights offering. Your 20,000 eligible shares would receive 20,000 rights, allowing you to buy up to 77,700 new shares for $115,773; the subscription deadline is Sep 23, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"4a67e77a5c9e3eb6f4f9": {
+"summary": "BayFirst Financial Corp. has announced a rights offering that is not yet open. Your 3,000 eligible shares would receive 3,000 rights, enough to buy up to 3,000 new shares for $10,500.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"4bdc7bb3cf2ef9b81a80": {
+"summary": "KLX Energy Services Holdings, Inc. has closed its rights offering. Your position is 20,000 shares.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"bfe0e632f9a5c05ca434": {
+"summary": "BayFirst Financial Corp. is conducting a rights offering: your 3,000 shares would receive 3,000 rights, allowing you to buy up to 3,000 new shares for $10,500. The BNY cut-off of Sep 25, 2026 has passed; the subscription deadline is Sep 30, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"242830abd6424cfd557b": {
+"summary": "DoubleVerify Holdings, Inc. is to be acquired by Neptune BidCo US Inc. in a pending merger. Your 12,000 shares would receive $163,200 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5c136ff3551f02780e73": {
+"summary": "Weave Communications, Inc. is to be acquired by Willow Parent, LLC; the merger is pending. You have no position in this security, which is on your watchlist, so there is no position impact to calculate.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"3f9b04bf21c72ad5feee": {
+"summary": "TriCo Bancshares is to be acquired by First Hawaiian, Inc. Your 2,000 shares would receive 4,190 First Hawaiian shares; the shareholder vote is Oct 29, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e8e9bbb7d58e8e88faa3": {
+"summary": "MarineMax, Inc. is to be acquired by SHM Holdco, LLC in a pending merger. Your 2,500 shares would receive $132,500 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"42905fba59f47d036382": {
+"summary": "Bowman Consulting Group Ltd. is to be acquired by Prive Parent, Inc. If the pending merger is completed, your 3,600 shares would receive $154,800 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"baa875621daffb09c3de": {
+"summary": "Bowman Consulting Group Ltd. is to be acquired by Prive Parent, Inc. If the pending merger is completed, your 3,600 shares would receive $154,800 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"439e04ed60164bfe1872": {
+"summary": "Sanofi is offering $15.50 per share in a tender offer for Dynavax Technologies Corporation. You can tender your 30,000 shares and would receive $465,000 if all shares tendered are accepted; instructions are due to BNY by Feb 4, 2026, and the offer expires Feb 9, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"0f9c2c2f95ad11655814": {
+"summary": "Saltchuk Resources, Inc. is offering $17.00 per share in a tender offer for Great Lakes Dredge & Dock Corporation; the offer expires Mar 31, 2026. You have no position in the security, which is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a33eb0830215b5f4866b": {
+"summary": "Wix.com Ltd. is offering to buy back shares at $80.00 to $92.00 per share. For your 8,000 shares, you would receive $640,000 to $736,000 if all shares tendered are accepted; instructions are due to BNY by Mar 27, 2026, and the offer expires Apr 1, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"a7acf6cd5a7bd0c980a4": {
+"summary": "Gilead Sciences, Inc. is offering $115.00 per share in cash plus a contingent right to holders who tender Arcellx, Inc. shares; the offer expires Apr 2, 2026. You hold no position in Arcellx, Inc., so your holdings are unaffected.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"9eb2cfd52e06fe05bf77": {
+"summary": "Scholastic Corporation is offering to buy back its shares for $36.00 to $40.00 per share; the offer expires Apr 20, 2026. You may tender your 9,000 eligible shares, and you would receive $324,000 to $360,000 if all shares tendered are accepted.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"5eccd112d9194ef23688": {
+"summary": "Scholastic Corporation is offering to buy back its shares for $36.00 to $40.00 per share; the offer expires Apr 20, 2026. If you tender your 9,000 eligible shares and all shares tendered are accepted, you would receive $324,000 to $360,000 in cash.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"c93dec13e933e8b349bf": {
+"summary": "Copart, Inc. is offering $10.50 per share for ACV Auctions Inc. shares. You could tender your 20,000 shares and receive $210,000 if all shares tendered are accepted; the BNY cut-off of Sep 25, 2026 has passed, and the offer expires Sep 30, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"d59937ee49d2e2b761c5": {
+"summary": "Utah Medical Products, Inc. is offering to buy back its shares at $75.00 per share. You can tender your 1,500 shares and would receive $112,500 if all shares tendered are accepted; instructions are due to BNY by Oct 2, 2026, and the offer expires Oct 7, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6011caba351cd0a2daaf": {
+"summary": "Eagle Point Institutional Income Fund is offering to buy back its shares under a formula-priced tender offer that expires Mar 27, 2026. You have no position in the fund; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6cbdf98123bdf9d6e3dd": {
+"summary": "Morgan Stanley China A Share Fund, Inc. is offering to buy back its shares; you could tender up to 12,000 eligible shares from your position. The BNY cut-off of Mar 26, 2026 has passed, and the offer expires Mar 31, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"e76ca094b17f0d35df8d": {
+"summary": "Franklin BSP Capital Corporation’s offer to buy back its own shares is open with amended terms, and the offer expires Apr 14, 2026. You hold no position in this security, which is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"87bc460715e6538f8b5e": {
+"summary": "Virtus Dividend, Interest & Premium Strategy Fund is offering to buy back its shares under a formula-priced tender offer. You can tender up to 25,000 eligible shares from your position; instructions are due to BNY by Sep 30, 2026, and the offer expires Oct 5, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"67f9dff7a0db3c9d329a": {
+"summary": "Herzfeld Credit Income Fund, Inc. is offering to buy back its shares at a formula-based price. You could tender up to 10,000 eligible shares from your 10,000-share position; instructions are due to BNY by Oct 12, 2026, and the offer expires Oct 15, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"f47b74b80258e2fba221": {
+"summary": "XAI Floating Rate & Alternative Income Trust is offering to buy back its shares, with the offer expiring Oct 19, 2026. You have no position in this security; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"669b8947471a04b5df2b": {
+"summary": "Mount Logan Capital Inc. is offering $9.43 per share in a tender offer for its own shares; if you tender your 5,000 eligible shares, you would receive $47,150 if all shares tendered are accepted. The BNY cut-off of Jan 28, 2026 has passed, and the offer expires Feb 2, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6c00348b7c5c212f32fc": {
+"summary": "Black Pearl Equities, LLC is offering $5.05 per share for Selectis Health, Inc. in a tender offer that expires May 11, 2026. You hold no position in this security; it is on your watchlist.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"44646f154fb025fa9e3a": {
+"summary": "Robin Energy Ltd. is offering to buy back its shares for $3.00 per share; the offer expires Apr 23, 2026. You hold no position in this security, so there is no impact on your holdings.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"6f5031318a1ad92785b6": {
+"summary": "Robin Energy Ltd. is offering to buy back its shares at $3.00 per share; the offer expires Apr 23, 2026. You hold no position in the security, which is on your watchlist, so there is no impact on your holdings.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"766fc714fd6551ccb05f": {
+"summary": "Magna Holdings Ltd. is offering $1.10 per share for Yatra Online, Inc. shares; the offer expires Sep 17, 2026. You hold 40,000 eligible shares and would receive $44,000 if all shares tendered are accepted.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"24189108b51dfd1cc7df": {
+"summary": "Arbutus Biopharma Corporation is offering to buy back its shares at $5.00 to $5.75 per share; the offer expires Sep 29, 2026. You hold 15,000 eligible shares and would receive $75,000 to $86,250 if all shares tendered are accepted.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"c8f41290e23c2c498d13": {
+"summary": "Arbutus Biopharma Corporation is offering to buy back its shares at $5.00 to $5.75 per share; the offer expires Sep 29, 2026. You hold 15,000 eligible shares, and you would receive $75,000 to $86,250 if all shares tendered are accepted.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"bb1edbad3c5d4d7ba70b": {
+"summary": "Cadeler A/S is offering to buy back its own shares in a tender offer that expires Oct 21, 2026. You could tender up to 6,000 eligible shares from your position; the offer does not specify a cash price.",
+"source": "llm",
+"attempts": 1,
+"log": []
+},
+"57e84c65182b9abd84df": {
+"summary": "An exchange offer is open for Cadeler A/S shares: you could tender up to 6,000 eligible shares from your 6,000-share position. The terms are one Cadeler plc ordinary share for each Cadeler A/S ordinary share, and the offer expires Oct 21, 2026.",
+"source": "llm",
+"attempts": 1,
+"log": []
+}
+}
