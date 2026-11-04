@@ -94,6 +94,27 @@ cd corporate-actions-demo && npm install && npm run dev
 # http://localhost:5173/client/brief
 ```
 
+## Changing the briefs
+
+| To change | Edit |
+|---|---|
+| Cut-off rule, action window, which event types are covered | `config.py` |
+| Calculated shares and cash | `impact.py` |
+| What counts as action needed, and the order | `prioritize.py` |
+| What gets held for review, and the checks on summaries | `verify.py` |
+| The LLM prompt | `narrate.py` |
+| Simulated clients | `clients.json` |
+
+Then rebuild the data and the one-file demo from the repository root:
+
+```bash
+python -m agents.client_briefing.agent --build-demo --no-llm
+python corporate-actions-demo/scripts/build_standalone.py
+```
+
+- **API key:** `--no-llm` reuses `narrative_cache.json`, so unchanged items keep their summaries. An item whose facts changed gets the fixed template instead. To have the LLM write those, replace `--no-llm` with `--env-file <file with API_URL and STACKAI_API_KEY>`, then read the new summaries.
+- **"Found in filing" badges:** these need the filing text, which is not in the repository. Add `--rights-text-dir <folder with the rights input_text>` to keep them. Without it the badges disappear, and everything else stays the same.
+
 ## Demo walkthrough
 
 1. **My Brief**, Demo Pension Fund, Sep 30: ACV Auctions, Utah Medical, Roku, Rent the Runway and Supernus need action; open **View source** on one to see the quotes. Under **On the horizon**, Somnigroup is an acquirer holding, so its consideration is not calculated.

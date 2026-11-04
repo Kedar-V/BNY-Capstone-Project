@@ -419,6 +419,8 @@ def main() -> None:
     narrator = Narrator(args.env_file, use_llm=not args.no_llm)
     checker = QuoteChecker(args.rights_text_dir)
     if args.build_demo:
+        if not args.rights_text_dir:
+            print("Note: no --rights-text-dir, so quotes are not checked and 'Found in filing' badges will be missing.")
         build_demo(events, narrator, checker)
         return
     client = next(c for c in load_clients() if c["id"] == args.client)

@@ -22,6 +22,20 @@ On Windows, if PowerShell refuses `npm` because running scripts is disabled, use
 python scripts/build_standalone.py    # --out to write it somewhere else
 ```
 
+### Changing the client brief pages
+
+Most tweaks only touch the page code and need no API key or data rebuild:
+
+1. Run `npm install`, then `npm run dev`, and open `http://localhost:5173/client/brief`.
+2. Edit `src/pages/client/Brief.tsx`, `src/pages/client/Holdings.tsx` or `src/pages/ops/BriefReview.tsx`.
+3. Run `python scripts/build_standalone.py` and commit the updated HTML with your change.
+
+The text and numbers on the cards come from `src/data/briefs.json`. To change those, edit the agent and rebuild: see [`agents/client_briefing`](../agents/client_briefing/README.md#changing-the-briefs).
+
+`src/data/briefs.json` and `standalone/client_briefing_demo.html` are generated. If either one conflicts in a merge, rebuild it instead of merging it by hand.
+
+### Refreshing the other pages
+
 Refresh the data after the evaluation outputs change:
 
 ```bash
