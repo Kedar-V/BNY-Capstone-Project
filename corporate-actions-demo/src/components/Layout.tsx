@@ -1,7 +1,7 @@
-import { Bell, Briefcase, CheckCircle2, FileText, Home, Layers, LayoutDashboard, Newspaper, ShieldCheck, Star, type LucideIcon } from 'lucide-react'
+import { Bell, Briefcase, CheckCircle2, FileText, Home, Layers, LayoutDashboard, GitCompare, Newspaper, Star, Users, type LucideIcon } from 'lucide-react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useApp } from '../state/AppState'
-import { useBrief } from '../state/BriefState'
+import { PerspectiveProvider, useBrief } from '../state/BriefState'
 import { FetchPanel } from './FetchPanel'
 
 interface NavItem {
@@ -23,7 +23,8 @@ export function Shell({ mode }: { mode: 'internal' | 'client' }) {
     ? [
         { to: '/internal/dashboard', label: 'Filings Monitor', icon: LayoutDashboard },
         { to: '/internal/events', label: 'Corporate Actions', icon: Layers },
-        { to: '/internal/brief-review', label: 'Brief Review', icon: ShieldCheck, badge: pendingCount },
+        { to: '/internal/clients', label: 'Client Briefs', icon: Users, badge: pendingCount },
+        { to: '/internal/reconciliation', label: 'Vendor Reconciliation', icon: GitCompare },
       ]
     : [
         { to: '/client/brief', label: 'My Brief', icon: Newspaper },
@@ -91,7 +92,9 @@ export function Shell({ mode }: { mode: 'internal' | 'client' }) {
 
         <main className="min-w-0 flex-1 p-5 md:p-8">
           <div key={pathname} className="fade-up mx-auto max-w-6xl">
-            <Outlet />
+            <PerspectiveProvider value={mode === 'client' ? 'client' : 'rm'}>
+              <Outlet />
+            </PerspectiveProvider>
           </div>
         </main>
       </div>

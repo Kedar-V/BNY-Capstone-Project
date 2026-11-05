@@ -68,7 +68,7 @@ export interface BriefClient {
   name: string
   type: string
   cadence: Cadence
-  positions: { ticker: string; name: string; shares: number; onLoan?: number }[]
+  positions: { ticker: string; name: string; shares: number; onLoan?: number; price?: number; avgCost?: number }[]
   watchlist: { ticker: string; name: string }[]
 }
 

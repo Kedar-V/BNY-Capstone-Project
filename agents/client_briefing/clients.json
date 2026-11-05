@@ -5,36 +5,188 @@
     "type": "Pension fund · long-only equities",
     "cadence": "weekly",
     "positions": [
-      {"ticker": "AAPL", "name": "Apple Inc.", "shares": 120000},
-      {"ticker": "MSFT", "name": "Microsoft Corp.", "shares": 85000},
-      {"ticker": "JPM", "name": "JPMorgan Chase & Co.", "shares": 40000},
-      {"ticker": "BHF", "name": "Brighthouse Financial, Inc.", "shares": 15000},
-      {"ticker": "EXAS", "name": "Exact Sciences Corp.", "shares": 20000},
-      {"ticker": "NWE", "name": "NorthWestern Energy Group, Inc.", "shares": 22000},
-      {"ticker": "JHG", "name": "Janus Henderson Group plc", "shares": 18000},
-      {"ticker": "MPTI", "name": "M-tron Industries, Inc.", "shares": 4000},
-      {"ticker": "D", "name": "Dominion Energy, Inc.", "shares": 42000, "onLoan": 5000},
-      {"ticker": "HUN", "name": "Huntsman Corp.", "shares": 35000},
-      {"ticker": "ROKU", "name": "Roku, Inc.", "shares": 18000},
-      {"ticker": "SUPN", "name": "Supernus Pharmaceuticals, Inc.", "shares": 25000},
-      {"ticker": "MKTX", "name": "MarketAxess Holdings Inc.", "shares": 6500},
-      {"ticker": "CZR", "name": "Caesars Entertainment, Inc.", "shares": 30000},
-      {"ticker": "UWMC", "name": "UWM Holdings Corp.", "shares": 150000, "onLoan": 30000},
-      {"ticker": "RENT", "name": "Rent the Runway, Inc.", "shares": 12000},
-      {"ticker": "SGI", "name": "Somnigroup International Inc.", "shares": 16000},
-      {"ticker": "DVAX", "name": "Dynavax Technologies Corp.", "shares": 30000},
-      {"ticker": "WIX", "name": "Wix.com Ltd.", "shares": 8000},
-      {"ticker": "SCHL", "name": "Scholastic Corp.", "shares": 9000},
-      {"ticker": "UTMD", "name": "Utah Medical Products, Inc.", "shares": 1500},
-      {"ticker": "ACVA", "name": "ACV Auctions Inc.", "shares": 20000}
+      {
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "shares": 120000,
+        "price": 210.0,
+        "avgCost": 170.46
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corp.",
+        "shares": 85000,
+        "price": 450.0,
+        "avgCost": 538.95
+      },
+      {
+        "ticker": "JPM",
+        "name": "JPMorgan Chase & Co.",
+        "shares": 40000,
+        "price": 250.0,
+        "avgCost": 287.16
+      },
+      {
+        "ticker": "BHF",
+        "name": "Brighthouse Financial, Inc.",
+        "shares": 15000,
+        "price": 89.0,
+        "avgCost": 96.48
+      },
+      {
+        "ticker": "EXAS",
+        "name": "Exact Sciences Corp.",
+        "shares": 20000,
+        "price": 94.37,
+        "avgCost": 68.95
+      },
+      {
+        "ticker": "NWE",
+        "name": "NorthWestern Energy Group, Inc.",
+        "shares": 22000,
+        "price": 47.94,
+        "avgCost": 53.04
+      },
+      {
+        "ticker": "JHG",
+        "name": "Janus Henderson Group plc",
+        "shares": 18000,
+        "price": 90.76,
+        "avgCost": 83.38
+      },
+      {
+        "ticker": "MPTI",
+        "name": "M-tron Industries, Inc.",
+        "shares": 4000,
+        "price": 77.86,
+        "avgCost": 76.27
+      },
+      {
+        "ticker": "D",
+        "name": "Dominion Energy, Inc.",
+        "shares": 42000,
+        "onLoan": 5000,
+        "price": 80.15,
+        "avgCost": 58.23
+      },
+      {
+        "ticker": "HUN",
+        "name": "Huntsman Corp.",
+        "shares": 35000,
+        "price": 132.51,
+        "avgCost": 120.83
+      },
+      {
+        "ticker": "ROKU",
+        "name": "Roku, Inc.",
+        "shares": 18000,
+        "price": 80.98,
+        "avgCost": 62.19
+      },
+      {
+        "ticker": "SUPN",
+        "name": "Supernus Pharmaceuticals, Inc.",
+        "shares": 25000,
+        "price": 126.28,
+        "avgCost": 126.89
+      },
+      {
+        "ticker": "MKTX",
+        "name": "MarketAxess Holdings Inc.",
+        "shares": 6500,
+        "price": 45.83,
+        "avgCost": 57.95
+      },
+      {
+        "ticker": "CZR",
+        "name": "Caesars Entertainment, Inc.",
+        "shares": 30000,
+        "price": 103.94,
+        "avgCost": 101.73
+      },
+      {
+        "ticker": "UWMC",
+        "name": "UWM Holdings Corp.",
+        "shares": 150000,
+        "onLoan": 30000,
+        "price": 100.98,
+        "avgCost": 108.74
+      },
+      {
+        "ticker": "RENT",
+        "name": "Rent the Runway, Inc.",
+        "shares": 12000,
+        "price": 75.67,
+        "avgCost": 73.65
+      },
+      {
+        "ticker": "SGI",
+        "name": "Somnigroup International Inc.",
+        "shares": 16000,
+        "price": 49.2,
+        "avgCost": 57.3
+      },
+      {
+        "ticker": "DVAX",
+        "name": "Dynavax Technologies Corp.",
+        "shares": 30000,
+        "price": 45.45,
+        "avgCost": 40.66
+      },
+      {
+        "ticker": "WIX",
+        "name": "Wix.com Ltd.",
+        "shares": 8000,
+        "price": 90.85,
+        "avgCost": 103.2
+      },
+      {
+        "ticker": "SCHL",
+        "name": "Scholastic Corp.",
+        "shares": 9000,
+        "price": 118.3,
+        "avgCost": 86.23
+      },
+      {
+        "ticker": "UTMD",
+        "name": "Utah Medical Products, Inc.",
+        "shares": 1500,
+        "price": 55.8,
+        "avgCost": 47.39
+      },
+      {
+        "ticker": "ACVA",
+        "name": "ACV Auctions Inc.",
+        "shares": 20000,
+        "price": 61.78,
+        "avgCost": 48.79
+      }
     ],
     "watchlist": [
-      {"ticker": "CBZ", "name": "CBIZ, Inc."},
-      {"ticker": "ATKR", "name": "Atkore Inc."},
-      {"ticker": "GLDD", "name": "Great Lakes Dredge & Dock Corp."},
-      {"ticker": "ACLX", "name": "Arcellx, Inc."},
-      {"ticker": "NVDA", "name": "NVIDIA Corp."},
-      {"ticker": "COST", "name": "Costco Wholesale Corp."}
+      {
+        "ticker": "CBZ",
+        "name": "CBIZ, Inc."
+      },
+      {
+        "ticker": "ATKR",
+        "name": "Atkore Inc."
+      },
+      {
+        "ticker": "GLDD",
+        "name": "Great Lakes Dredge & Dock Corp."
+      },
+      {
+        "ticker": "ACLX",
+        "name": "Arcellx, Inc."
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corp."
+      },
+      {
+        "ticker": "COST",
+        "name": "Costco Wholesale Corp."
+      }
     ]
   },
   {
@@ -43,34 +195,172 @@
     "type": "Endowment · closed-end funds and income",
     "cadence": "weekly",
     "positions": [
-      {"ticker": "VTI", "name": "Vanguard Total Stock Market ETF", "shares": 60000},
-      {"ticker": "BANX", "name": "ArrowMark Financial Corp.", "shares": 6000},
-      {"ticker": "HYT", "name": "BlackRock Corporate High Yield Fund, Inc.", "shares": 10000},
-      {"ticker": "JRI", "name": "Nuveen Real Asset Income & Growth Fund", "shares": 8000},
-      {"ticker": "TCW", "name": "TCW Strategic Income Fund, Inc.", "shares": 9000},
-      {"ticker": "BUI", "name": "BlackRock Utilities, Infrastructure & Power Opportunities Trust", "shares": 9000},
-      {"ticker": "NHS", "name": "Neuberger High Yield Strategies Fund Inc.", "shares": 25000},
-      {"ticker": "RQI", "name": "Cohen & Steers Quality Income Realty Fund Inc.", "shares": 7500},
-      {"ticker": "RIV", "name": "RiverNorth Opportunities Fund, Inc.", "shares": 5000},
-      {"ticker": "NMCO", "name": "Nuveen Municipal Credit Opportunities Fund", "shares": 12000},
-      {"ticker": "ASGI", "name": "abrdn Global Infrastructure Income Fund", "shares": 8400},
-      {"ticker": "BCAT", "name": "BlackRock Capital Allocation Term Trust", "shares": 15000},
-      {"ticker": "CRF", "name": "Cornerstone Total Return Fund Inc.", "shares": 10000},
-      {"ticker": "ALEX", "name": "Alexander & Baldwin, Inc.", "shares": 11000},
-      {"ticker": "FFIC", "name": "Flushing Financial Corp.", "shares": 14000},
-      {"ticker": "TWO", "name": "Two Harbors Investment Corp.", "shares": 7700},
-      {"ticker": "BLFS", "name": "BioLife Solutions, Inc.", "shares": 9500},
-      {"ticker": "NFJ", "name": "Virtus Dividend, Interest & Premium Strategy Fund", "shares": 25000},
-      {"ticker": "HERZ", "name": "Herzfeld Credit Income Fund, Inc.", "shares": 10000},
-      {"ticker": "CAF", "name": "Morgan Stanley China A Share Fund, Inc.", "shares": 12000}
+      {
+        "ticker": "VTI",
+        "name": "Vanguard Total Stock Market ETF",
+        "shares": 60000,
+        "price": 290.0,
+        "avgCost": 253.33
+      },
+      {
+        "ticker": "BANX",
+        "name": "ArrowMark Financial Corp.",
+        "shares": 6000,
+        "price": 36.91,
+        "avgCost": 42.65
+      },
+      {
+        "ticker": "HYT",
+        "name": "BlackRock Corporate High Yield Fund, Inc.",
+        "shares": 10000,
+        "price": 13.53,
+        "avgCost": 15.07
+      },
+      {
+        "ticker": "JRI",
+        "name": "Nuveen Real Asset Income & Growth Fund",
+        "shares": 8000,
+        "price": 90.73,
+        "avgCost": 93.07
+      },
+      {
+        "ticker": "TCW",
+        "name": "TCW Strategic Income Fund, Inc.",
+        "shares": 9000,
+        "price": 60.24,
+        "avgCost": 69.97
+      },
+      {
+        "ticker": "BUI",
+        "name": "BlackRock Utilities, Infrastructure & Power Opportunities Trust",
+        "shares": 9000,
+        "price": 131.42,
+        "avgCost": 163.62
+      },
+      {
+        "ticker": "NHS",
+        "name": "Neuberger High Yield Strategies Fund Inc.",
+        "shares": 25000,
+        "price": 53.36,
+        "avgCost": 45.75
+      },
+      {
+        "ticker": "RQI",
+        "name": "Cohen & Steers Quality Income Realty Fund Inc.",
+        "shares": 7500,
+        "price": 10.6,
+        "avgCost": 11.69
+      },
+      {
+        "ticker": "RIV",
+        "name": "RiverNorth Opportunities Fund, Inc.",
+        "shares": 5000,
+        "price": 123.05,
+        "avgCost": 149.75
+      },
+      {
+        "ticker": "NMCO",
+        "name": "Nuveen Municipal Credit Opportunities Fund",
+        "shares": 12000,
+        "price": 111.79,
+        "avgCost": 113.41
+      },
+      {
+        "ticker": "ASGI",
+        "name": "abrdn Global Infrastructure Income Fund",
+        "shares": 8400,
+        "price": 122.71,
+        "avgCost": 131.98
+      },
+      {
+        "ticker": "BCAT",
+        "name": "BlackRock Capital Allocation Term Trust",
+        "shares": 15000,
+        "price": 43.29,
+        "avgCost": 47.81
+      },
+      {
+        "ticker": "CRF",
+        "name": "Cornerstone Total Return Fund Inc.",
+        "shares": 10000,
+        "price": 129.95,
+        "avgCost": 159.77
+      },
+      {
+        "ticker": "ALEX",
+        "name": "Alexander & Baldwin, Inc.",
+        "shares": 11000,
+        "price": 62.27,
+        "avgCost": 72.07
+      },
+      {
+        "ticker": "FFIC",
+        "name": "Flushing Financial Corp.",
+        "shares": 14000,
+        "price": 12.84,
+        "avgCost": 15.22
+      },
+      {
+        "ticker": "TWO",
+        "name": "Two Harbors Investment Corp.",
+        "shares": 7700,
+        "price": 8.56,
+        "avgCost": 8.88
+      },
+      {
+        "ticker": "BLFS",
+        "name": "BioLife Solutions, Inc.",
+        "shares": 9500,
+        "price": 118.29,
+        "avgCost": 85.26
+      },
+      {
+        "ticker": "NFJ",
+        "name": "Virtus Dividend, Interest & Premium Strategy Fund",
+        "shares": 25000,
+        "price": 42.02,
+        "avgCost": 36.45
+      },
+      {
+        "ticker": "HERZ",
+        "name": "Herzfeld Credit Income Fund, Inc.",
+        "shares": 10000,
+        "price": 94.41,
+        "avgCost": 84.53
+      },
+      {
+        "ticker": "CAF",
+        "name": "Morgan Stanley China A Share Fund, Inc.",
+        "shares": 12000,
+        "price": 129.09,
+        "avgCost": 115.97
+      }
     ],
     "watchlist": [
-      {"ticker": "CLM", "name": "Cornerstone Strategic Investment Fund, Inc."},
-      {"ticker": "MDV", "name": "Modiv Industrial, Inc."},
-      {"ticker": "EIIA", "name": "Eagle Point Institutional Income Fund"},
-      {"ticker": "XFLT", "name": "XAI Floating Rate & Alternative Income Fund"},
-      {"ticker": "FRBP", "name": "Franklin BSP Capital Corp."},
-      {"ticker": "PDI", "name": "PIMCO Dynamic Income Fund"}
+      {
+        "ticker": "CLM",
+        "name": "Cornerstone Strategic Investment Fund, Inc."
+      },
+      {
+        "ticker": "MDV",
+        "name": "Modiv Industrial, Inc."
+      },
+      {
+        "ticker": "EIIA",
+        "name": "Eagle Point Institutional Income Fund"
+      },
+      {
+        "ticker": "XFLT",
+        "name": "XAI Floating Rate & Alternative Income Fund"
+      },
+      {
+        "ticker": "FRBP",
+        "name": "Franklin BSP Capital Corp."
+      },
+      {
+        "ticker": "PDI",
+        "name": "PIMCO Dynamic Income Fund"
+      }
     ]
   },
   {
@@ -79,34 +369,172 @@
     "type": "Family office · concentrated small and mid caps",
     "cadence": "daily",
     "positions": [
-      {"ticker": "GOOGL", "name": "Alphabet Inc.", "shares": 9000},
-      {"ticker": "LOGC", "name": "ContextLogic Holdings Inc.", "shares": 5000},
-      {"ticker": "EP", "name": "Empire Petroleum Corp.", "shares": 6000},
-      {"ticker": "REEMF", "name": "Rare Element Resources Ltd.", "shares": 50000},
-      {"ticker": "AIM", "name": "AIM ImmunoTech Inc.", "shares": 30000},
-      {"ticker": "DHIL", "name": "Diamond Hill Investment Group, Inc.", "shares": 1500},
-      {"ticker": "VTYX", "name": "Ventyx Biosciences, Inc.", "shares": 3000},
-      {"ticker": "BAFN", "name": "BayFirst Financial Corp.", "shares": 3000},
-      {"ticker": "KLXE", "name": "KLX Energy Services Holdings, Inc.", "shares": 20000},
-      {"ticker": "GFR", "name": "Greenfire Resources Ltd.", "shares": 15000},
-      {"ticker": "EOSE", "name": "Eos Energy Enterprises, Inc.", "shares": 40000},
-      {"ticker": "LGL", "name": "The LGL Group, Inc.", "shares": 2500},
-      {"ticker": "DV", "name": "DoubleVerify Holdings, Inc.", "shares": 12000},
-      {"ticker": "BWMN", "name": "Bowman Consulting Group Ltd.", "shares": 3600},
-      {"ticker": "TCBK", "name": "TriCo Bancshares", "shares": 2000},
-      {"ticker": "HZO", "name": "MarineMax, Inc.", "shares": 2500},
-      {"ticker": "MLCI", "name": "Mount Logan Capital Inc.", "shares": 5000},
-      {"ticker": "ABUS", "name": "Arbutus Biopharma Corp.", "shares": 15000},
-      {"ticker": "YTRA", "name": "Yatra Online, Inc.", "shares": 40000},
-      {"ticker": "CDLR", "name": "Cadeler A/S", "shares": 6000}
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "shares": 9000,
+        "price": 185.0,
+        "avgCost": 232.17
+      },
+      {
+        "ticker": "LOGC",
+        "name": "ContextLogic Holdings Inc.",
+        "shares": 5000,
+        "price": 91.67,
+        "avgCost": 96.06
+      },
+      {
+        "ticker": "EP",
+        "name": "Empire Petroleum Corp.",
+        "shares": 6000,
+        "price": 25.08,
+        "avgCost": 23.13
+      },
+      {
+        "ticker": "REEMF",
+        "name": "Rare Element Resources Ltd.",
+        "shares": 50000,
+        "price": 96.79,
+        "avgCost": 93.39
+      },
+      {
+        "ticker": "AIM",
+        "name": "AIM ImmunoTech Inc.",
+        "shares": 30000,
+        "price": 13.05,
+        "avgCost": 10.25
+      },
+      {
+        "ticker": "DHIL",
+        "name": "Diamond Hill Investment Group, Inc.",
+        "shares": 1500,
+        "price": 59.35,
+        "avgCost": 61.43
+      },
+      {
+        "ticker": "VTYX",
+        "name": "Ventyx Biosciences, Inc.",
+        "shares": 3000,
+        "price": 56.55,
+        "avgCost": 49.78
+      },
+      {
+        "ticker": "BAFN",
+        "name": "BayFirst Financial Corp.",
+        "shares": 3000,
+        "price": 109.26,
+        "avgCost": 118.33
+      },
+      {
+        "ticker": "KLXE",
+        "name": "KLX Energy Services Holdings, Inc.",
+        "shares": 20000,
+        "price": 28.41,
+        "avgCost": 24.09
+      },
+      {
+        "ticker": "GFR",
+        "name": "Greenfire Resources Ltd.",
+        "shares": 15000,
+        "price": 126.19,
+        "avgCost": 117.54
+      },
+      {
+        "ticker": "EOSE",
+        "name": "Eos Energy Enterprises, Inc.",
+        "shares": 40000,
+        "price": 77.22,
+        "avgCost": 79.07
+      },
+      {
+        "ticker": "LGL",
+        "name": "The LGL Group, Inc.",
+        "shares": 2500,
+        "price": 104.21,
+        "avgCost": 120.35
+      },
+      {
+        "ticker": "DV",
+        "name": "DoubleVerify Holdings, Inc.",
+        "shares": 12000,
+        "price": 82.36,
+        "avgCost": 92.17
+      },
+      {
+        "ticker": "BWMN",
+        "name": "Bowman Consulting Group Ltd.",
+        "shares": 3600,
+        "price": 56.92,
+        "avgCost": 46.58
+      },
+      {
+        "ticker": "TCBK",
+        "name": "TriCo Bancshares",
+        "shares": 2000,
+        "price": 128.35,
+        "avgCost": 103.24
+      },
+      {
+        "ticker": "HZO",
+        "name": "MarineMax, Inc.",
+        "shares": 2500,
+        "price": 87.26,
+        "avgCost": 102.45
+      },
+      {
+        "ticker": "MLCI",
+        "name": "Mount Logan Capital Inc.",
+        "shares": 5000,
+        "price": 130.89,
+        "avgCost": 116.69
+      },
+      {
+        "ticker": "ABUS",
+        "name": "Arbutus Biopharma Corp.",
+        "shares": 15000,
+        "price": 114.0,
+        "avgCost": 115.52
+      },
+      {
+        "ticker": "YTRA",
+        "name": "Yatra Online, Inc.",
+        "shares": 40000,
+        "price": 65.08,
+        "avgCost": 71.51
+      },
+      {
+        "ticker": "CDLR",
+        "name": "Cadeler A/S",
+        "shares": 6000,
+        "price": 62.08,
+        "avgCost": 76.22
+      }
     ],
     "watchlist": [
-      {"ticker": "WEAV", "name": "Weave Communications, Inc."},
-      {"ticker": "GBCS", "name": "Selectis Health, Inc."},
-      {"ticker": "RBNE", "name": "Robin Energy Ltd."},
-      {"ticker": "GDEV", "name": "GDEV Inc."},
-      {"ticker": "ULY", "name": "Urgent.ly Inc."},
-      {"ticker": "TSLA", "name": "Tesla, Inc."}
+      {
+        "ticker": "WEAV",
+        "name": "Weave Communications, Inc."
+      },
+      {
+        "ticker": "GBCS",
+        "name": "Selectis Health, Inc."
+      },
+      {
+        "ticker": "RBNE",
+        "name": "Robin Energy Ltd."
+      },
+      {
+        "ticker": "GDEV",
+        "name": "GDEV Inc."
+      },
+      {
+        "ticker": "ULY",
+        "name": "Urgent.ly Inc."
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc."
+      }
     ]
   }
 ]

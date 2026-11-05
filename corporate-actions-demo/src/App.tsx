@@ -5,11 +5,12 @@ import { Holdings } from './pages/client/Holdings'
 import { ClientHome } from './pages/client/Home'
 import { Notifications } from './pages/client/Notifications'
 import { Watchlist } from './pages/client/Watchlist'
-import { BriefReview } from './pages/ops/BriefReview'
+import { ClientBriefs } from './pages/ops/ClientBriefs'
 import { Dashboard } from './pages/ops/Dashboard'
 import { EventRecord } from './pages/ops/EventRecord'
 import { Events } from './pages/ops/Events'
 import { FilingDetail } from './pages/ops/FilingDetail'
+import { VendorReconciliation } from './pages/ops/VendorReconciliation'
 
 export default function App() {
   return (
@@ -22,7 +23,8 @@ export default function App() {
         <Route path="events" element={<Events />} />
         <Route path="events/:eventId" element={<EventRecord mode="internal" />} />
         <Route path="filings/:filingId" element={<FilingDetail />} />
-        <Route path="brief-review" element={<BriefReview />} />
+        <Route path="clients" element={<ClientBriefs />} />
+        <Route path="reconciliation" element={<VendorReconciliation />} />
       </Route>
 
       <Route path="/client" element={<Shell mode="client" />}>

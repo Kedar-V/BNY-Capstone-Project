@@ -9,43 +9,64 @@ export interface HeldItem {
   approved: boolean
 }
 
-interface BriefState {
+export type Perspective = 'client' | 'rm'
+
+/** The client portal belongs to one client. Relationship managers choose the client they are looking at. */
+export const PORTAL_CLIENT_ID = briefData.clients[0].id
+
+const PerspectiveCtx = createContext<Perspective>('rm')
+export const PerspectiveProvider = PerspectiveCtx.Provider
+
+interface ClientView {
   client: BriefClient
+  brief: Brief | undefined
+  /** Items the client can see: cleared by the checks or approved by an operations reviewer. */
+  visibleItems: BriefItem[]
+  heldCount: number
+}
+
+interface BriefState extends ClientView {
+  perspective: Perspective
+  /** Relationship manager only. The client portal always shows its own client. */
   setClientId: (id: string) => void
   asOf: string
   setAsOf: (d: string) => void
   cadence: Cadence
   setCadence: (c: Cadence) => void
-  brief: Brief | undefined
-  /** Items the client can see: cleared by the checks or approved by an operations reviewer. */
-  visibleItems: BriefItem[]
-  heldCount: number
   heldItems: HeldItem[]
   pendingCount: number
   approve: (key: string) => void
   revoke: (key: string) => void
 }
 
-const Ctx = createContext<BriefState | null>(null)
-export function useBrief() {
+type Shared = Omit<BriefState, keyof ClientView | 'perspective'> & { portal: ClientView; rm: ClientView }
+
+const Ctx = createContext<Shared | null>(null)
+export function useBrief(): BriefState {
   const v = useContext(Ctx)
+  const perspective = useContext(PerspectiveCtx)
   if (!v) throw new Error('useBrief must be used inside BriefProvider')
-  return v
+  const { portal, rm, ...shared } = v
+  return { ...shared, ...(perspective === 'client' ? portal : rm), perspective }
 }
 
 export function BriefProvider({ children }: { children: ReactNode }) {
+  const portalClient = briefData.clients.find((c) => c.id === PORTAL_CLIENT_ID)!
   const [clientId, setClientId] = useState(briefData.clients[0].id)
   const [asOf, setAsOf] = useState(briefData.asOfDates[briefData.asOfDates.length - 1])
-  const [cadence, setCadence] = useState<Cadence>('weekly')
+  const [cadence, setCadence] = useState<Cadence>(portalClient.cadence)
   const [approved, setApproved] = useState<Set<string>>(new Set())
 
-  const client = briefData.clients.find((c) => c.id === clientId) ?? briefData.clients[0]
-  const brief = getBrief(client.id, asOf, cadence)
-
-  const visibleItems = useMemo(
-    () => (brief?.items ?? []).filter((i) => !i.review.needed || approved.has(reviewKey(client.id, asOf, i.id))),
-    [brief, approved, client.id, asOf],
+  const viewFor = useCallback(
+    (client: BriefClient): ClientView => {
+      const brief = getBrief(client.id, asOf, cadence)
+      const visibleItems = (brief?.items ?? []).filter((i) => !i.review.needed || approved.has(reviewKey(client.id, asOf, i.id)))
+      return { client, brief, visibleItems, heldCount: (brief?.items.length ?? 0) - visibleItems.length }
+    },
+    [asOf, cadence, approved],
   )
+  const portal = useMemo(() => viewFor(portalClient), [viewFor, portalClient])
+  const rm = useMemo(() => viewFor(briefData.clients.find((c) => c.id === clientId) ?? briefData.clients[0]), [viewFor, clientId])
 
   // The review queue spans every client and date. Daily and weekly briefs share one approval.
   const heldItems = useMemo(() => {
@@ -73,16 +94,14 @@ export function BriefProvider({ children }: { children: ReactNode }) {
     })
   }, [])
 
-  const value: BriefState = {
-    client,
+  const value: Shared = {
+    portal,
+    rm,
     setClientId,
     asOf,
     setAsOf,
     cadence,
     setCadence,
-    brief,
-    visibleItems,
-    heldCount: (brief?.items.length ?? 0) - visibleItems.length,
     heldItems,
     pendingCount: heldItems.filter((h) => !h.approved).length,
     approve,

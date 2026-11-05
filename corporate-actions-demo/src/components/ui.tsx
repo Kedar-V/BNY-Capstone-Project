@@ -51,13 +51,13 @@ export function CardHeader({ title, action, subtitle }: { title: ReactNode; subt
   )
 }
 
-export function PageHeader({ title, subtitle, actions, eyebrow }: { title: ReactNode; subtitle?: ReactNode; actions?: ReactNode; eyebrow?: ReactNode }) {
+export function PageHeader({ title, subtitle, actions, eyebrow, prominent }: { title: ReactNode; subtitle?: ReactNode; actions?: ReactNode; eyebrow?: ReactNode; prominent?: boolean }) {
   return (
     <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
       <div className="min-w-0">
         {eyebrow && <div className="mb-1 text-xs font-medium uppercase tracking-wide text-slate-500">{eyebrow}</div>}
-        <h1 className="text-2xl font-semibold tracking-tight text-navy-900">{title}</h1>
-        {subtitle && <p className="mt-1 max-w-3xl text-sm text-slate-600">{subtitle}</p>}
+        <h1 className={`font-semibold tracking-tight text-navy-900 ${prominent ? 'text-4xl' : 'text-2xl'}`}>{title}</h1>
+        {subtitle && <p className={`max-w-3xl text-slate-600 ${prominent ? 'mt-2 text-base' : 'mt-1 text-sm'}`}>{subtitle}</p>}
       </div>
       {actions && <div className="flex flex-wrap items-center gap-2">{actions}</div>}
     </div>

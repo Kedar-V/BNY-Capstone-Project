@@ -49,6 +49,7 @@ Stack: React 18, TypeScript, Vite, React Router, Tailwind CSS, Lucide icons.
 - **Operations**
   - *Filings Monitor* — all processed filings with filters. **Fetch Latest Filings** walks through the pipeline (connect to SEC EDGAR → identify new filings → download → process → extract with models → link to events → store) and then adds the newly processed filings to the feed.
   - *Corporate Actions* — one record per tender offer or merger, with extracted terms, source-passage evidence, version history and source filings.
-  - *Brief Review* — items the client briefing agent held back, with the reason, for a reviewer to clear.
+  - *Vendor Reconciliation* — vendor tender offer feeds compared with filing-extracted terms (offer price, expiration, CUSIP). **Run reconciliation** walks through the agent's steps and opens discrepancy tickets with the supporting filing passage, to confirm or dismiss. Built by [`vendor_reconciliation`](../vendor_reconciliation/README.md) into `src/data/reconciliation.json` (`python3 scripts/build_reconciliation.py`).
+  - *Client Briefs* — pick a client to review the brief they receive and their holdings. The *Needs review* tab lists items the briefing agent held back, with the reason, to approve before a client sees them.
 - **Client Portal** — overview, notifications for watched companies, and a watchlist.
-  - *My Brief* and *Holdings* — the client briefing agent's output for simulated clients, covering rights issues, mergers and tender offers. Built by [`agents/client_briefing`](../agents/client_briefing/README.md) into `src/data/briefs.json`.
+  - *My Brief* and *Holdings* — the client briefing agent's output for a single client, covering rights issues, mergers and tender offers. Built by [`agents/client_briefing`](../agents/client_briefing/README.md) into `src/data/briefs.json`.

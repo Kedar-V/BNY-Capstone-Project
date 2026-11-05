@@ -1,0 +1,20 @@
+{
+  "injected_errors": 67,
+  "flagged": 66,
+  "true_positives": 66,
+  "false_positives": 0,
+  "missed": 1,
+  "precision": 1.0,
+  "recall": 0.985,
+  "recall_by_error_type": {
+    "cusip_transposed": "7/7",
+    "expiry_missing": "12/12",
+    "expiry_wrong_date": "36/36",
+    "price_missing": "4/4",
+    "price_wrong_value": "7/8"
+  },
+  "false_positive_examples": [],
+  "vendor_records": 609,
+  "matched": 609,
+  "unmatched": {}
+}

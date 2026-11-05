@@ -1,6 +1,7 @@
-import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, ExternalLink, FileText, Info, Mail, ShieldCheck, Workflow } from 'lucide-react'
+import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, ExternalLink, FileText, Info, Mail, ShieldCheck } from 'lucide-react'
 import { useMemo, useState } from 'react'
-import { Badge, Button, Card, CardHeader, Drawer, Empty, Modal, PageHeader, Segmented, type Tone } from '../../components/ui'
+import { Link } from 'react-router-dom'
+import { Badge, Button, Card, Drawer, Empty, Modal, PageHeader, Segmented, type Tone } from '../../components/ui'
 import { briefData, dueLabel, periodLabel, TIER_ORDER, TIER_TITLE, type BriefAction, type BriefItem, type Tier } from '../../data/briefs'
 import { fmtDate } from '../../data/store'
 import { useBrief } from '../../state/BriefState'
@@ -16,7 +17,7 @@ const STAT_STYLE: Record<Tier, string> = {
 
 type Filter = 'all' | BriefAction
 
-function Select({ label, value, onChange, options }: { label: string; value: string; onChange: (v: string) => void; options: { id: string; label: string }[] }) {
+export function Select({ label, value, onChange, options }: { label: string; value: string; onChange: (v: string) => void; options: { id: string; label: string }[] }) {
   return (
     <label className="flex flex-col gap-1 text-xs font-medium text-slate-500">
       {label}
@@ -60,12 +61,15 @@ function DeadlinePanel({ item }: { item: BriefItem }) {
 }
 
 function ImpactTable({ item }: { item: BriefItem }) {
+  const { perspective } = useBrief()
   const { lines, caveats, reason } = item.impact
   if (!lines.length && !reason) return null
   return (
     <div className="mt-4">
       <h4 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-slate-500">
-        {item.position.watchOnly ? 'Your position' : `What this means for your ${item.position.shares.toLocaleString('en-US')} shares`}
+        {perspective === 'rm'
+          ? item.position.watchOnly ? 'Client position' : `Impact on the client's ${item.position.shares.toLocaleString('en-US')} shares`
+          : item.position.watchOnly ? 'Your position' : `What this means for your ${item.position.shares.toLocaleString('en-US')} shares`}
       </h4>
       {lines.length > 0 && (
         <div className="overflow-hidden rounded-lg border border-slate-200">
@@ -141,6 +145,7 @@ function SourceDrawer({ item, onClose }: { item: BriefItem | null; onClose: () =
 
 function ItemCard({ item, onSource }: { item: BriefItem; onSource: (i: BriefItem) => void }) {
   const [open, setOpen] = useState(false)
+  const { perspective } = useBrief()
   return (
     <Card>
       <div className="p-5">
@@ -162,7 +167,9 @@ function ItemCard({ item, onSource }: { item: BriefItem; onSource: (i: BriefItem
         {item.cutoff?.passed && item.tier === 'action' && (
           <div className="mt-3 flex items-start gap-2 rounded-lg border border-rose-200 bg-rose-50 px-3 py-2 text-sm text-rose-900">
             <AlertTriangle size={15} className="mt-0.5 shrink-0" />
-            BNY's cut-off for this event has passed. Contact your relationship manager about late instructions.
+            {perspective === 'rm'
+              ? "BNY's cut-off for this event has passed. Check whether the client has already instructed, and whether a late instruction can still be accepted."
+              : "BNY's cut-off for this event has passed. Contact your relationship manager about late instructions."}
           </div>
         )}
 
@@ -238,7 +245,6 @@ function EmailPreview({ open, onClose, items }: { open: boolean; onClose: () => 
   return (
     <Modal open={open} onClose={onClose} wide title="Email preview">
       <div className="max-h-[70vh] overflow-y-auto px-6 py-5 text-sm text-slate-800">
-        <div className="mb-3 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-900">Preview only. Nothing is sent from this demo.</div>
         <div className="border-b border-slate-200 pb-3 text-xs text-slate-500">
           <div><span className="font-medium text-slate-700">To:</span> {client.name}</div>
           <div><span className="font-medium text-slate-700">Subject:</span> Your {cadence} corporate actions brief, {periodLabel(asOf, brief?.lookbackDays ?? 7)}</div>
@@ -261,27 +267,31 @@ function EmailPreview({ open, onClose, items }: { open: boolean; onClose: () => 
   )
 }
 
-export function ClientBrief() {
-  const { client, setClientId, asOf, setAsOf, cadence, setCadence, brief, visibleItems, heldCount } = useBrief()
+export const ClientBrief = () => <BriefView />
+
+export function BriefView({ embedded = false }: { embedded?: boolean }) {
+  const { client, perspective, asOf, setAsOf, cadence, setCadence, brief, visibleItems, heldCount } = useBrief()
+  const rm = perspective === 'rm'
   const [filter, setFilter] = useState<Filter>('all')
   const [source, setSource] = useState<BriefItem | null>(null)
   const [emailOpen, setEmailOpen] = useState(false)
-  const [traceOpen, setTraceOpen] = useState(false)
 
   const items = useMemo(() => visibleItems.filter((i) => filter === 'all' || i.action === filter), [visibleItems, filter])
   const count = (t: Tier) => visibleItems.filter((i) => i.tier === t).length
 
   return (
     <>
-      <PageHeader
-        eyebrow="Your corporate actions brief"
-        title={client.name}
-        subtitle={`${cadence === 'weekly' ? 'Weekly' : 'Daily'} brief · ${periodLabel(asOf, brief?.lookbackDays ?? 7)}`}
-        actions={<Button onClick={() => setEmailOpen(true)}><Mail size={15} /> Email preview</Button>}
-      />
+      {!embedded && (
+        <PageHeader
+          eyebrow="Your corporate actions brief"
+          title={client.name}
+          prominent
+          subtitle={`${cadence === 'weekly' ? 'Weekly' : 'Daily'} brief · ${periodLabel(asOf, brief?.lookbackDays ?? 7)}`}
+          actions={<Button onClick={() => setEmailOpen(true)}><Mail size={15} /> Email preview</Button>}
+        />
+      )}
 
-      <div className="mb-3 flex flex-wrap items-end gap-3">
-        <Select label="Client" value={client.id} onChange={setClientId} options={briefData.clients.map((c) => ({ id: c.id, label: c.name }))} />
+      <div className="mb-5 flex flex-wrap items-end gap-3">
         <Select label="Brief date" value={asOf} onChange={setAsOf} options={briefData.asOfDates.map((d) => ({ id: d, label: fmtDate(d) }))} />
         <div className="flex flex-col gap-1 text-xs font-medium text-slate-500">
           Frequency
@@ -291,19 +301,22 @@ export function ClientBrief() {
           Event type
           <Segmented<Filter> value={filter} onChange={setFilter} options={[{ id: 'all', label: 'All' }, ...briefData.actions]} />
         </div>
+        {embedded && (
+          <div className="ml-auto">
+            <Button onClick={() => setEmailOpen(true)}><Mail size={15} /> Email preview</Button>
+          </div>
+        )}
       </div>
 
-      <div className="mb-3 flex items-start gap-2 rounded-lg bg-brand-50 px-3 py-2.5 text-sm text-navy-900">
-        <ArrowRight size={15} className="mt-0.5 shrink-0 text-brand-700" />
-        {count('action') > 0
-          ? `Start with ${count('action') > 1 ? `the ${count('action')} items` : 'the item'} under Action needed. ${count('action') > 1 ? 'Each one shows' : 'It shows'} what it means for your shares and the date BNY needs your instruction. Use View source to see the filing behind any number.`
-          : 'Nothing needs an instruction from you in this period. The items below are for information. Use View source to see the filing behind any number.'}
-      </div>
+      {rm && (
+        <div className="mb-5 flex items-start gap-2 rounded-lg bg-brand-50 px-3 py-2.5 text-sm text-navy-900">
+          <ArrowRight size={15} className="mt-0.5 shrink-0 text-brand-700" />
+          {count('action') > 0
+            ? `${count('action')} item${count('action') > 1 ? 's need' : ' needs'} a client instruction in this period. Each shows the effect on the client's position and the date BNY needs the instruction.`
+            : 'No client instruction is needed in this period. The items below are for information.'}
+        </div>
+      )}
 
-      <p className="mb-5 flex items-start gap-1.5 text-xs text-slate-500">
-        <Info size={13} className="mt-0.5 shrink-0" />
-        Demo with simulated client positions. Terms come from SEC filings. BNY cut-offs are illustrative: {briefData.assumptions.cutoffBusinessDays} business days before the official deadline. Information only, not investment advice.
-      </p>
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-5">
         {TIER_ORDER.map((t) => (
@@ -317,7 +330,14 @@ export function ClientBrief() {
       {heldCount > 0 && (
         <div className="mt-4 flex items-start gap-2 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
           <ShieldCheck size={16} className="mt-0.5 shrink-0" />
-          {heldCount} item{heldCount > 1 ? 's are' : ' is'} with BNY Operations for review and will appear here once cleared.
+          {rm ? (
+            <span>
+              {heldCount} item{heldCount > 1 ? 's are' : ' is'} held for review and not visible to the client.{' '}
+              <Link to="/internal/clients?tab=review" className="font-medium underline underline-offset-2">Review them</Link>
+            </span>
+          ) : (
+            <>{heldCount} item{heldCount > 1 ? 's are' : ' is'} with BNY Operations for review and will appear here once cleared.</>
+          )}
         </div>
       )}
 
@@ -343,34 +363,6 @@ export function ClientBrief() {
             <ul className="divide-y divide-slate-100">
               {items.filter((i) => i.tier === 'upcoming').map((i) => <HorizonRow key={i.id} item={i} onSource={setSource} />)}
             </ul>
-          </Card>
-        </section>
-      )}
-
-      {brief && (
-        <section className="mt-6">
-          <Card>
-            <button onClick={() => setTraceOpen(!traceOpen)} aria-expanded={traceOpen} className="flex w-full items-center gap-2 px-5 py-3.5 text-left">
-              <Workflow size={16} className="text-brand-700" />
-              <span className="flex-1 text-sm font-semibold text-navy-900">How this brief was built</span>
-              <ChevronDown size={15} className={`text-slate-400 transition-transform ${traceOpen ? 'rotate-180' : ''}`} />
-            </button>
-            {traceOpen && (
-              <>
-                <CardHeader title="Agent run log" subtitle="Every step is recorded so a brief can be audited later." />
-                <ol className="divide-y divide-slate-100">
-                  {brief.trace.map((t, n) => (
-                    <li key={t.step} className="flex gap-3 px-5 py-3">
-                      <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-navy-800 text-xs font-semibold text-white">{n + 1}</span>
-                      <div>
-                        <div className="text-sm font-medium text-navy-900">{t.step}</div>
-                        <div className="text-sm text-slate-600">{t.detail}</div>
-                      </div>
-                    </li>
-                  ))}
-                </ol>
-              </>
-            )}
           </Card>
         </section>
       )}

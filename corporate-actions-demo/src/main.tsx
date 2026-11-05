@@ -4,6 +4,7 @@ import { BrowserRouter, HashRouter } from 'react-router-dom'
 import App from './App'
 import { AppProvider } from './state/AppState'
 import { BriefProvider } from './state/BriefState'
+import { ReconProvider } from './state/ReconState'
 import './index.css'
 
 // The standalone file (scripts/build_standalone.py) opens from disk, where a page cannot change its own path
@@ -14,7 +15,9 @@ createRoot(document.getElementById('root')!).render(
     <Router>
       <AppProvider>
         <BriefProvider>
-          <App />
+          <ReconProvider>
+            <App />
+          </ReconProvider>
         </BriefProvider>
       </AppProvider>
     </Router>
