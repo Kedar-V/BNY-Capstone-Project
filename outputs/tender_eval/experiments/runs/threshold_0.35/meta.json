@@ -1,0 +1,44 @@
+{
+  "run_id": "threshold_0.35",
+  "timestamp": "2026-10-12T16:31:57.270674+00:00",
+  "parent_run_id": "reextract_core_rank_acc",
+  "change_summary": "threshold 0.35 (vs reextract_core_rank_acc @0.4)",
+  "config": {
+    "gliner_threshold": 0.35,
+    "gliner_model": "urchade/gliner_medium-v2.1",
+    "label_set": "core",
+    "max_windows": 8,
+    "fields": "core",
+    "scope": "holdout",
+    "n_accessions": 20
+  },
+  "keep": true,
+  "git_commit": "82312ca",
+  "micro": {
+    "tp": 37,
+    "fp": 110,
+    "fn": 142,
+    "scored": 213,
+    "gt_present": 179,
+    "precision": 0.25170068027210885,
+    "recall": 0.20670391061452514,
+    "f1": 0.22699386503067487,
+    "accuracy": 0.17370892018779344,
+    "accuracy_when_gt": 0.20670391061452514
+  },
+  "focus_f1": {
+    "offer_price": 0.3,
+    "bidder": 0.25,
+    "subject_company": 0.15384615384615383,
+    "security_description": 0.7,
+    "expiration_date": 0.23529411764705882
+  },
+  "deltas": {
+    "micro_f1": 0.0033913805586251733,
+    "f1_offer_price": 0.04999999999999999,
+    "f1_bidder": 0.0,
+    "f1_subject_company": 0.07384615384615381,
+    "f1_security_description": -0.050000000000000044,
+    "f1_expiration_date": 0.0
+  }
+}

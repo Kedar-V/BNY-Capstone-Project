@@ -1,0 +1,44 @@
+{
+  "run_id": "full100_core_t0.35",
+  "timestamp": "2026-10-12T16:40:09.118697+00:00",
+  "parent_run_id": "best_holdout_t0.35",
+  "change_summary": "full 100 GT accessions @ threshold 0.35 core fields",
+  "config": {
+    "gliner_threshold": 0.35,
+    "gliner_model": "urchade/gliner_medium-v2.1",
+    "label_set": "core",
+    "max_windows": 8,
+    "fields": "core",
+    "scope": "full",
+    "n_accessions": 100
+  },
+  "keep": true,
+  "git_commit": "82312ca",
+  "micro": {
+    "tp": 205,
+    "fp": 473,
+    "fn": 659,
+    "scored": 1049,
+    "gt_present": 864,
+    "precision": 0.3023598820058997,
+    "recall": 0.23726851851851852,
+    "f1": 0.26588845654993515,
+    "accuracy": 0.1954242135367016,
+    "accuracy_when_gt": 0.23726851851851852
+  },
+  "focus_f1": {
+    "offer_price": 0.17435897435897435,
+    "bidder": 0.54,
+    "subject_company": 0.08547008547008549,
+    "security_description": 0.743718592964824,
+    "expiration_date": 0.14102564102564102
+  },
+  "deltas": {
+    "micro_f1": 0.03889459151926028,
+    "f1_offer_price": -0.12564102564102564,
+    "f1_bidder": 0.29000000000000004,
+    "f1_subject_company": -0.06837606837606834,
+    "f1_security_description": 0.043718592964824055,
+    "f1_expiration_date": -0.0942684766214178
+  }
+}

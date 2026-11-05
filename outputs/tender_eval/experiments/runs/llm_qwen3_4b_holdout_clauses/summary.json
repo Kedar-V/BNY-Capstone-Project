@@ -1,0 +1,38 @@
+{
+  "model": "qwen3:4b",
+  "n_rows": 23,
+  "micro": {
+    "precision": 0.8181818181818182,
+    "recall": 0.5,
+    "f1": 0.6206896551724137
+  },
+  "tp": 9,
+  "fp": 2,
+  "fn": 9,
+  "per_field": {
+    "minimum_tender_condition": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 4,
+      "gt_present": 11,
+      "pred_present": 7,
+      "precision": 1.0,
+      "recall": 0.6363636363636364,
+      "f1": 0.7777777777777778
+    },
+    "proration_terms": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 5,
+      "gt_present": 7,
+      "pred_present": 4,
+      "precision": 0.5,
+      "recall": 0.2857142857142857,
+      "f1": 0.36363636363636365
+    }
+  },
+  "baseline_gliner_medium_holdout_f1": {
+    "minimum_tender_condition": 0.0,
+    "proration_terms": 0.0
+  }
+}

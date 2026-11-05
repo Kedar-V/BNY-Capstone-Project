@@ -1,0 +1,44 @@
+{
+  "run_id": "finetune_holdout_200",
+  "timestamp": "2026-10-12T16:47:17.156590+00:00",
+  "parent_run_id": "best_holdout_t0.35",
+  "change_summary": "fine-tuned GLiNER 200 steps on GT-anchor spans",
+  "config": {
+    "gliner_threshold": 0.35,
+    "gliner_model": "models/tender_gliner/final",
+    "label_set": "core",
+    "max_windows": 8,
+    "fields": "core",
+    "scope": "holdout",
+    "n_accessions": 20
+  },
+  "keep": true,
+  "git_commit": "82312ca",
+  "micro": {
+    "tp": 65,
+    "fp": 82,
+    "fn": 114,
+    "scored": 205,
+    "gt_present": 179,
+    "precision": 0.4421768707482993,
+    "recall": 0.36312849162011174,
+    "f1": 0.39877300613496935,
+    "accuracy": 0.3170731707317073,
+    "accuracy_when_gt": 0.36312849162011174
+  },
+  "focus_f1": {
+    "offer_price": 0.358974358974359,
+    "bidder": 0.7,
+    "subject_company": 0.8000000000000002,
+    "security_description": 0.6666666666666667,
+    "expiration_date": 0.058823529411764705
+  },
+  "deltas": {
+    "micro_f1": 0.17177914110429449,
+    "f1_offer_price": 0.05897435897435899,
+    "f1_bidder": 0.44999999999999996,
+    "f1_subject_company": 0.6461538461538463,
+    "f1_security_description": -0.033333333333333215,
+    "f1_expiration_date": -0.1764705882352941
+  }
+}

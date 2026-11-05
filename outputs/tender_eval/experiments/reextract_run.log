@@ -1,0 +1,168 @@
+{
+  "workers": 12,
+  "device": "mps",
+  "gliner_batch_size": 8,
+  "gliner_threshold": 0.4,
+  "fields": "core",
+  "n_score_fields": 14
+}
+{
+  "coverage_ok": true,
+  "n_gt_value_fields": 31
+}
+holdout accessions: 20
+Running preprocess for 20 events…
+inventory:   0%|          | 0/20 [00:00<?, ?event/s]inventory: 100%|██████████| 20/20 [00:00<00:00, 209.44event/s, ok=20, skip=0]
+download×12:   0%|          | 0/46 [00:00<?, ?it/s]download×12:   2%|▏         | 1/46 [00:00<00:11,  4.05it/s, ok=1, skip=0, err=0, empty=0]download×12:  20%|█▉        | 9/46 [00:00<00:01, 28.14it/s, ok=9, skip=0, err=0, empty=0]download×12:  28%|██▊       | 13/46 [00:00<00:02, 15.01it/s, ok=13, skip=0, err=0, empty=0]download×12:  35%|███▍      | 16/46 [00:00<00:01, 16.33it/s, ok=16, skip=0, err=0, empty=0]download×12:  46%|████▌     | 21/46 [00:01<00:01, 21.01it/s, ok=21, skip=0, err=0, empty=0]download×12:  52%|█████▏    | 24/46 [00:01<00:01, 19.92it/s, ok=24, skip=0, err=0, empty=0]download×12:  59%|█████▊    | 27/46 [00:01<00:01, 18.10it/s, ok=27, skip=0, err=0, empty=0]download×12:  65%|██████▌   | 30/46 [00:01<00:00, 19.34it/s, ok=30, skip=0, err=0, empty=0]download×12:  74%|███████▍  | 34/46 [00:01<00:00, 22.39it/s, ok=34, skip=0, err=0, empty=0]download×12:  83%|████████▎ | 38/46 [00:01<00:00, 22.56it/s, ok=38, skip=0, err=0, empty=0]download×12:  89%|████████▉ | 41/46 [00:02<00:00, 17.71it/s, ok=41, skip=0, err=0, empty=0]download×12:  96%|█████████▌| 44/46 [00:02<00:00, 18.88it/s, ok=44, skip=0, err=0, empty=0]download×12: 100%|██████████| 46/46 [00:02<00:00, 18.85it/s, ok=46, skip=0, err=0, empty=0]
+cleanup×12:   0%|          | 0/46 [00:00<?, ?it/s]cleanup×12:  11%|█         | 5/46 [00:00<00:00, 48.78it/s, ok=5, skip=0, fail=0, empty=0]cleanup×12:  22%|██▏       | 10/46 [00:00<00:00, 48.90it/s, ok=10, skip=0, fail=0, empty=0]cleanup×12:  46%|████▌     | 21/46 [00:00<00:00, 73.60it/s, ok=21, skip=0, fail=0, empty=0]cleanup×12:  63%|██████▎   | 29/46 [00:00<00:00, 72.22it/s, ok=29, skip=0, fail=0, empty=0]cleanup×12:  93%|█████████▎| 43/46 [00:00<00:00, 94.69it/s, ok=43, skip=0, fail=0, empty=0]cleanup×12: 100%|██████████| 46/46 [00:00<00:00, 70.86it/s, ok=46, skip=0, fail=0, empty=0]
+segment:   0%|          | 0/20 [00:00<?, ?event/s]segment:  15%|█▌        | 3/20 [00:00<00:00, 25.70event/s, fail=0, ok=3]segment:  35%|███▌      | 7/20 [00:00<00:00, 29.25event/s, fail=0, ok=7]segment: 100%|██████████| 20/20 [00:00<00:00, 68.49event/s, fail=0, ok=20]
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/.venv/lib/python3.14/site-packages/torch/jit/_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/.venv/lib/python3.14/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 3337.82it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+gliner@mps:   0%|          | 0/20 [00:00<?, ?event/s]gliner@mps:   5%|▌         | 1/20 [00:01<00:29,  1.57s/event, fail=0, ok=1, pass2=0]gliner@mps:  10%|█         | 2/20 [00:02<00:26,  1.48s/event, fail=0, ok=2, pass2=0]gliner@mps:  15%|█▌        | 3/20 [00:13<01:36,  5.66s/event, fail=0, ok=3, pass2=1]gliner@mps:  20%|██        | 4/20 [00:18<01:24,  5.31s/event, fail=0, ok=4, pass2=2]gliner@mps:  25%|██▌       | 5/20 [00:23<01:18,  5.26s/event, fail=0, ok=5, pass2=3]gliner@mps:  30%|███       | 6/20 [00:37<01:54,  8.16s/event, fail=0, ok=6, pass2=4]gliner@mps:  35%|███▌      | 7/20 [00:38<01:18,  6.02s/event, fail=0, ok=7, pass2=5]gliner@mps:  40%|████      | 8/20 [00:39<00:50,  4.21s/event, fail=0, ok=8, pass2=5]gliner@mps:  45%|████▌     | 9/20 [00:39<00:32,  2.98s/event, fail=0, ok=9, pass2=5]gliner@mps:  50%|█████     | 10/20 [00:41<00:25,  2.55s/event, fail=0, ok=10, pass2=6]gliner@mps:  55%|█████▌    | 11/20 [00:41<00:17,  1.97s/event, fail=0, ok=11, pass2=7]gliner@mps:  60%|██████    | 12/20 [00:42<00:11,  1.49s/event, fail=0, ok=12, pass2=7]gliner@mps:  65%|██████▌   | 13/20 [00:42<00:08,  1.25s/event, fail=0, ok=13, pass2=8]gliner@mps:  70%|███████   | 14/20 [00:43<00:05,  1.02event/s, fail=0, ok=14, pass2=8]gliner@mps:  75%|███████▌  | 15/20 [00:47<00:10,  2.02s/event, fail=0, ok=15, pass2=9]gliner@mps:  80%|████████  | 16/20 [00:48<00:06,  1.59s/event, fail=0, ok=16, pass2=10]gliner@mps:  85%|████████▌ | 17/20 [00:49<00:04,  1.35s/event, fail=0, ok=17, pass2=10]gliner@mps:  90%|█████████ | 18/20 [00:50<00:02,  1.30s/event, fail=0, ok=18, pass2=10]gliner@mps:  95%|█████████▌| 19/20 [00:51<00:01,  1.14s/event, fail=0, ok=19, pass2=10]gliner@mps: 100%|██████████| 20/20 [00:51<00:00,  1.03event/s, fail=0, ok=20, pass2=10]gliner@mps: 100%|██████████| 20/20 [00:51<00:00,  2.58s/event, fail=0, ok=20, pass2=10]
+assemble:   0%|          | 0/20 [00:00<?, ?event/s]assemble: 100%|██████████| 20/20 [00:00<00:00, 1028.29event/s, fail=0, ok=20]
+{
+  "inventory": {
+    "status": "ok",
+    "n_events": 130,
+    "n_gold": 37,
+    "n_needs_otp_resolve": 1,
+    "n_incomplete": 92,
+    "n_inventoried_this_run": 20,
+    "n_skipped_cached": 0,
+    "otp_method_mix": {
+      "ex99_type": 32,
+      "inferred": 37,
+      "file_description": 26,
+      "missing": 35
+    },
+    "coverage_csv": "outputs/to_source_coverage.csv"
+  },
+  "download": {
+    "status": "ok",
+    "n_docs_attempted": 46,
+    "n_ok": 46,
+    "n_skipped_cached": 0,
+    "n_http_error": 0,
+    "n_empty": 0,
+    "n_events_pending": 20,
+    "workers": 12
+  },
+  "cleanup": {
+    "status": "ok",
+    "n_docs_cleaned": 46,
+    "n_empty_text": 0,
+    "n_failed": 0,
+    "n_skipped_cached": 0,
+    "n_events_pending": 20,
+    "workers": 12
+  },
+  "segment": {
+    "status": "ok",
+    "n_events_segmented": 20,
+    "n_otp_toc_docs": 7,
+    "n_otp_faq_only_docs": 0,
+    "n_fallback_full_doc": 39,
+    "n_failed": 0,
+    "n_events_pending": 20
+  },
+  "gliner": {
+    "status": "ok",
+    "n_events_ok": 20,
+    "n_failed": 0,
+    "n_segments_scored": 158,
+    "n_spans": 705,
+    "n_pass2_events": 10,
+    "gliner_unavailable": false,
+    "gliner_model": "urchade/gliner_medium-v2.1",
+    "gliner_device": "mps",
+    "n_events_pending": 20
+  },
+  "assemble": {
+    "status": "ok",
+    "n_reps_ok": 20,
+    "n_reps_failed": 0,
+    "n_candidate_facts": 705,
+    "n_entities": 705,
+    "pct_method_gliner": 100.0,
+    "n_events_pending": 20
+  }
+}
+reset /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/checkpoint.jsonl
+reset /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/live_metrics.json
+reset /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/summary.json
+reset /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/details.jsonl
+reset /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/per_field.csv
+reset /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/pipeline_predictions.csv
+reset /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/pipeline_vs_gt.csv
+Loaded predictions for 205 accessions / 129 events; scoring 20 GT accessions (core)
+eval:   0%|          | 0/20 [00:00<?, ?acc/s]eval: 100%|██████████| 20/20 [00:00<00:00, 6566.43acc/s, P=0.25, R=0.20, F1=0.22, miss=0]
+{
+  "experiment": {
+    "run_id": "reextract_core_rank_acc",
+    "timestamp": "2026-10-12T16:30:47.869353+00:00",
+    "parent_run_id": "score_core_only",
+    "change_summary": "re-extract: core labels + preferred accession + counsel/money rank",
+    "config": {
+      "gliner_threshold": 0.4,
+      "gliner_model": "urchade/gliner_medium-v2.1",
+      "label_set": "core",
+      "max_windows": 8,
+      "fields": "core",
+      "scope": "holdout",
+      "n_accessions": 20
+    },
+    "keep": true,
+    "git_commit": "82312ca",
+    "micro": {
+      "tp": 36,
+      "fp": 107,
+      "fn": 143,
+      "scored": 212,
+      "gt_present": 179,
+      "precision": 0.2517482517482518,
+      "recall": 0.2011173184357542,
+      "f1": 0.2236024844720497,
+      "accuracy": 0.16981132075471697,
+      "accuracy_when_gt": 0.2011173184357542
+    },
+    "focus_f1": {
+      "offer_price": 0.25,
+      "bidder": 0.25,
+      "subject_company": 0.08000000000000002,
+      "security_description": 0.75,
+      "expiration_date": 0.23529411764705882
+    },
+    "deltas": {
+      "micro_f1": 0.013766418898279231,
+      "f1_offer_price": 0.14473684210526316,
+      "f1_bidder": 0.04487179487179488,
+      "f1_subject_company": -0.010909090909090896,
+      "f1_security_description": 0.03205128205128205,
+      "f1_expiration_date": 0.05882352941176469
+    }
+  }
+}
+{
+  "out": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval",
+  "fields": "core",
+  "n_gt_accessions": 20,
+  "n_accessions_scored": 20,
+  "n_accessions_missing_prediction": 0,
+  "n_accessions_joined_via_event_id": 0,
+  "micro": {
+    "tp": 36,
+    "fp": 107,
+    "fn": 143,
+    "scored": 212,
+    "gt_present": 179,
+    "precision": 0.2517482517482518,
+    "recall": 0.2011173184357542,
+    "f1": 0.2236024844720497,
+    "accuracy": 0.16981132075471697,
+    "accuracy_when_gt": 0.2011173184357542
+  }
+}

@@ -1,0 +1,15 @@
+field,gt_present,span_recall_any_label,span_recall_correct_label,fact_recall_correct_hint,top1_recall,top5_recall,top5_minus_top1,avg_candidates,span_any_hit,span_correct_label_hit,top1_hit,top5_hit,diagnosis
+subject_company,23,1.0,1.0,1.0,0.913,1.0,0.087,2.65,23,23,21,23,ok
+bidder,23,1.0,0.913,0.913,0.522,0.87,0.348,4.04,23,21,12,20,RANKING (recoverable in top5)
+security_description,23,1.0,0.522,0.522,0.435,0.522,0.087,1.7,23,12,10,12,NER/label
+cusip,13,1.0,0.308,1.0,1.0,1.0,0.0,1.31,13,4,13,13,rules-owned
+isin,13,0.769,0.0,1.0,1.0,1.0,0.0,1.31,10,0,13,13,rules-owned
+ticker,7,0.429,0.429,0.429,0.429,0.429,0.0,0.43,3,3,3,3,rules-owned
+offer_price,23,0.957,0.957,0.957,0.478,0.87,0.391,4.87,22,22,11,20,RANKING (recoverable in top5)
+currency,2,0.0,0.0,0.5,0.5,0.5,0.0,0.5,0,0,1,1,rules-owned
+expiration_date,22,0.591,0.273,0.273,0.136,0.273,0.136,2.09,13,6,3,6,NER/label
+withdrawal_deadline,10,0.8,0.4,0.4,0.2,0.4,0.2,0.7,8,4,2,4,NER/label
+settlement_date,15,0.2,0.0,0.467,0.467,0.467,0.0,0.93,3,0,7,7,rules-owned
+effective_date,4,0.0,0.0,0.0,0.0,0.0,0.0,0.75,0,0,0,0,SPAN MISS
+minimum_tender_condition,11,0.091,0.091,0.091,0.0,0.091,0.091,0.36,1,1,0,1,SPAN MISS
+proration_terms,7,0.429,0.0,0.0,0.0,0.0,0.0,0.0,3,0,0,0,NER/label

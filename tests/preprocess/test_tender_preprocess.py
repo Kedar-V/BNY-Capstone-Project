@@ -300,7 +300,10 @@ def test_gliner_assemble_ranks_values(tmp_path: Path):
     rep = store.read_json(store.event_rep_path(eid))
     facts = [f for f in rep["candidate_facts"] if f["field_hint"] == "offer_price"]
     assert facts[0]["raw"] == "$18.75"
-    assert all(f["method"] == "gliner" for f in rep["candidate_facts"])
+    assert {f["method"] for f in rep["candidate_facts"]} <= {"gliner", "rules"}
+    # currency derived from offer_price via rules
+    cur = [f for f in rep["candidate_facts"] if f["field_hint"] == "currency"]
+    assert cur and cur[0]["raw"] == "USD" and cur[0]["method"] == "rules"
 
 
 def test_stub_path(tmp_path: Path):

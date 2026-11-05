@@ -1,0 +1,20 @@
+{
+  "n_done": 20,
+  "n_total": 20,
+  "n_gt_rows": 20,
+  "n_accessions_scored": 20,
+  "n_accessions_missing_prediction": 0,
+  "n_accessions_joined_via_event_id": 11,
+  "micro": {
+    "tp": 54,
+    "fp": 61,
+    "fn": 122,
+    "scored": 196,
+    "gt_present": 176,
+    "precision": 0.46956521739130436,
+    "recall": 0.3068181818181818,
+    "f1": 0.3711340206185567,
+    "accuracy": 0.2755102040816326,
+    "accuracy_when_gt": 0.3068181818181818
+  }
+}

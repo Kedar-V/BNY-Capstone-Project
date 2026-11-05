@@ -1,0 +1,39 @@
+{
+  "rule": "micro F1 only over fields with pred_present>0 for NER-ensemble, hybrid, and Qwen",
+  "comparable_fields": [
+    "subject_company",
+    "bidder",
+    "security_description",
+    "offer_price",
+    "expiration_date",
+    "withdrawal_deadline",
+    "settlement_date",
+    "effective_date",
+    "minimum_tender_condition",
+    "cusip",
+    "ticker",
+    "currency"
+  ],
+  "excluded": [
+    {
+      "field": "proration_terms",
+      "ens_pred": 0,
+      "hybrid_pred": 0,
+      "qwen_pred": 6
+    },
+    {
+      "field": "isin",
+      "ens_pred": 13,
+      "hybrid_pred": 13,
+      "qwen_pred": 0
+    }
+  ],
+  "qwen_run": "direct max_chars=100000",
+  "micro": {
+    "ner_ensemble": 0.6020942408376964,
+    "hybrid_allspans": 0.4504504504504505,
+    "qwen_direct": 0.6842105263157894
+  },
+  "qwen_full_micro": 0.6502463054187192,
+  "note": "Bars show all core fields; micro F1 uses only comparable fields"
+}

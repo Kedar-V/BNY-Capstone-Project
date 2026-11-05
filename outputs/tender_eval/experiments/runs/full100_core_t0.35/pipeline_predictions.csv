@@ -1,0 +1,147 @@
+accession_number,event_id,join,status,n_facts,subject_company,bidder,parent,acquisition_subsidiary,dealer_manager,depositary,information_agent,other_parties,security_description,ticker,cusip,isin,event_status,event_status_details,mandatory_voluntary_indicator,offer_price_type,offer_price,currency,offer_price_basis,offer_price_qualifications,expiration_date,withdrawal_deadline,settlement_date,effective_date,minimum_tender_condition,proration_terms,tendering_conditions,available_options,default_option,financial_terms,conditions_restrictions
+0001859919-26-000002,005-92837,accession,scored,27,,Barings Private Credit Corporation,,,,,,,Security Holders,Common Stock,CUSIP: 06763A 101,,,,,,net asset value,,,,"December 31, 2025",,,,,,,,,,
+0001213900-26-000471,005-95095,accession,scored,30,,Shareholders,,,,,,,Class I,815789-102,,,,,,,$25.78,,,,,,"March 31, 2026",,,terms of the tender offer,,,,,
+0001213900-26-000378,005-93782,accession,scored,27,,"Constitution Capital Access Fund, LLC",,,,,,,"CLASS I SHARES OF BENEFICIAL
+INTEREST",21039R200,,,,,,,$12.44,,,,,,,,,,,,,,
+0001213900-26-000356,005-92499,accession,scored,41,,STEELE CREEK CAPITAL CORPORATION,,,,,,,Shares,Shares,CUSIP Number of Class of Securities,,,,,,$0.01,,,,"September
+30, 2021",,,,,,,,,,
+0001193125-26-000507,005-94255,accession,scored,12,,Stockholders,,,,,,,Security Holders,Shares,,,,,,,net asset value,,,,,,,,,,,,,,
+0001661306-26-000002,005-90723,accession,scored,44,,"HANCOCK PARK CORPORATE INCOME, INC.",,,,,,,Social Security or Tax ID,zip,,,,,,,"$13.05.
+3",,,,"March 30, 2020",,,,,,,,,,
+0001398344-26-000104,005-91545,accession,scored,30,,"BBR ALO Fund, LLC",,,,,,,Shares of Limited Liability Company Interests,Shares,CUSIP Number,,,,,,"$75,000,000",,,,"September 30, 2021","September 30, 2021","September 30, 2021",,,terms of the tender offer,,,,,
+0001104659-26-000598,005-94462,accession,scored,13,,First Trust Private Assets Fund,,,,,,,SHARES OF BENEFICIAL INTEREST,Shares,CUSIP Number,,,,,,"$1,600,000",,,,,,,,,,,,,,
+0001104659-26-001124,005-90033,accession,scored,78,constituent corporation,"Day One Biopharmaceuticals, Inc.",,,,,,,Company Options,MRSN,59045L 106,,,,,,$25.00,one CVR,,,"March 12, 2025","February 3, 2026",,"November 13, 2025",Offer Conditions,Extension Deadline,,,,,
+0001213900-26-001613,005-94970,accession,scored,18,,Hamilton Lane Private Infrastructure Fund,,,,,,,CLASS Y,Class I Shares,4074941034,,,,,,"$4,941,992",,,,,,,,,,,,,,
+0001104659-26-001149,005-94079,accession,scored,23,,Morgan Stanley,,,,,,,Common Shares of Beneficial Interest,"Class I
+common shares",CUSIP,,,,,,$0.01,,,,"September 1, 2026",,,,,,,,,,
+0001104659-26-001148,005-94422,accession,scored,24,,Morgan Stanley,,,,,,,Common Shares of Beneficial Interest,Class S common shares,CUSIP,,,,,,$0.01,,,,"September 1, 2026",,,,,,,,,,
+0001193125-26-006518,005-84211,accession,scored,83,Warner Bros.,Paramount Skydance Corporation,,,,,,,Series A Common Stock,NYSE,934423104,,,,,,$30.00,,,,"August 7, 2025",,,effective date of the merger,conditions,,,,,,
+0001193125-26-005515,005-88806,accession,scored,44,Cidara,Merck Sharp & Dohme LLC,,,,,,,Series A Convertible Voting Preferred Stock,Common Shares,"CUSIP Number
+of Class of Securities",,,,,,"$15,505.00",,,,"JANUARY 6, 2026",,,Merger Effective Time,,,,,,,
+0001193125-26-005891,005-94110,accession,scored,16,,Fidelity Private Credit Company LLC,,,,,,,Common Units,,CUSIP Number,,,,,,"$6,368,623.73",,,,"September 26,
+2024",,,,,,,,,,
+0001493152-26-000805,005-89078,accession,scored,15,,fuboTV Inc.,,,,,,,2029 Notes,,"35953D
+AC8",,,,,,"$1,000",,,,,,,,,,,,,,
+0001193125-26-005732,005-89631,accession,scored,47,,"AMG PANTHEON MASTER FUND, LLC",,,,,,,Units,Units,001701101,,,,,,$13.64,Units,,,"June 30, 2020","May 21, 2020",,effective,,,,,,,
+0001193125-26-005730,005-89632,accession,scored,67,,"AMG Pantheon Fund, LLC",,,,,,,Institutional Class Units,Units,001700202,,,,,,"$25,000",Units,,,"June 30, 2020","May 18, 2020",Valuation Date,"June 30, 2020",,,,,,,
+0001493152-26-000914,005-92545,accession,scored,16,,"Anebulo
+Pharmaceuticals, Inc.",,,,,,,Shares,Nasdaq-listed,034569103,,,,,,$3.50 per share,,,,,,,,,,,,,,
+0001193125-26-007074,005-95016,accession,scored,14,,HarbourVest Private Investments Fund,,,,,,,Class D Shares,Shares,41166N202,,,,,,"$26,625,326.44",,,,,,,,,,,,,,
+0001213900-26-002386,005-93831,accession,scored,40,,"Fundrise Growth Tech Fund, LLC",,,,,,,COMMON SHARES OF BENEFICIAL INTEREST,Common Shares,CUSIP Number,,,,,,$10.81,,,,"November 26, 2024",,,,,,,,,,
+0001104659-26-002517,005-91530,accession,scored,93,target corporation,Generation Bio Co.,,,,,,,Company Shares,GBIO,37148K209,,,,,,$4.2913,CVR,,,"April 15, 2026",,Offer Closing Time,Effective Time,Minimum Tender Condition,TERMS OF THE OFFER,,,,,
+0001193125-26-008886,005-93864,accession,scored,28,,"Onex Credit Advisor,
+LLC",,,,,,,Common Shares of Beneficial Interest,common shares,CUSIP Number,,,,,,"up to
+466,307",,,,"February 6, 2026",,,,,,,,,,
+0001213900-26-002892,005-92409,accession,scored,22,,Hamilton Lane Private Assets Fund,,,,,,,"CLASS R SHARES OF BENEFICIAL
+INTEREST",Class I Shares,407498104,,,,,,"$211,453,274",,,,,,,,,,,,,,
+0001213900-26-002756,005-94451,accession,scored,14,,Felicitas Private Markets Fund,,,,,,,CLASS Y SHARES OF BENEFICIAL INTEREST,Class Y,,,,,,,"$5,538,026",,,,,,,,,,,,,,
+0001193125-26-009777,005-80035,accession,scored,92,Dynavax,"Samba Merger Sub, Inc.",,,,,,,Company Stock Options,DVAX,09627Y109,,,,,,$15.50,United States dollar,,,"December 22, 2025","December 20, 2026","March 13, 2026","March 13, 2026",Offer Conditions,prorated basis,,,,,
+0001580642-26-000224,005-94632,accession,scored,15,,"Hamilton Capital, LLC",,,,,,,DYNAMIC ALTERNATIVES FUND,Shares,CUSIP Number,,,,,,Net asset value per Share,,,,,,,,,,,,,,
+0001193125-26-010350,005-85619,accession,scored,16,,MakeMyTrip Limited,,,,,,,Notes,Ordinary Shares,56087F AB0,,,,,,US$0.0005,,,,,,,,,,,,,,
+0002051820-26-000007,005-95405,accession,scored,15,,Mount Logan Capital Inc.,,,,,,,,Common Stock,62188E103,,,,,,$15 million,,,,,,,,,,,,,,
+0001193125-26-011820,005-92816,accession,scored,64,,KKR Registered Advisor LLC,,,,,,,Class U shares of common stock,Class I,49836N403,,,,,,"$1,000",,,,"April 20, 2022",,,,,,,,,,
+0001193125-26-011532,005-88968,accession,scored,53,Company,"AUDAX CREDIT BDC, INC.",,,,,,,Social Security Number,Shares,05070P 108,,,,,,"$350,000,000.00",,,,"December 31, 2025",,,,"terms and conditions of the
+Offer",,,,,,
+0000919574-26-000310,005-93136,accession,scored,41,Company,"OCEANPAL, INC.",,,,,,,Series D Preferred Shares,shares,Transaction Code Number,,,,,,"$1,400",cash,,,"November 25, 2025",5:00 P.M.,,,,,,,,,
+0001580642-26-000252,005-89754,accession,scored,54,,Peachtree Alternative Strategies Fund,,,,,,,"Institutional
+    Shares","70469B
+102","CUSIP
+Number",,,,,,"$25,000",,,,"December 31, 2024",Valuation Date,,,,,,,,,
+0001193125-26-012276,005-93603,accession,scored,95,Perpetual Fund,TCW Direct Lending VIII LLC,,,,,,,DL VIII,PIK,Code,,,,,,"$1,000",SOFR,,,"February 1, 2026",5:00 p.m.,,"September 30, 2025",Annual Distribution Requirement,three-year terms,,,,,
+0001580642-26-000264,005-93878,accession,scored,30,,"Fairway Private Equity & Venture Capital
+Opportunities Fund",,,,,,,Class I Shares,30607E103,CUSIP Number,,,,,,price per Share,,,,"March 26, 2024",,,,,,,,,,
+0001193125-26-014573,005-80363,accession,scored,44,,The Fund,,,,,,,Common Units of Beneficial Interest,Common Units,Area Code,,,,,,"$20,000",Common Units,,,"May 17, 2021",5:00 p.m.,Valuation Date,,,,,,,,
+0001731122-26-000069,005-84248,accession,scored,34,,DATA STORAGE CORPORATION,,,,,,,Shares,COMMON STOCK,CUSIP NO,,,,,,$5.20,,,,Expiration Time,"Wednesday, January 7, 2026",,,,PRORATION PERIOD,,,,,
+0001623632-26-000063,005-89950,accession,scored,22,,"Federated Hermes Project and Trade Finance Tender
+Fund",,,,,,,Common Shares of Beneficial Interest,31424D104,CUSIP Number,,,,,,"$47,879,164.97",,,,,,,,,,,,,,
+0001999371-26-001383,005-53317,accession,scored,51,,"The
+Fund",,,,,,,Total Return Securities Fund,COMMON STOCK,870875101,,,,,,$6.97,,,,"December 15, 2025",,,,,"proration
+provisions",,,,,
+0001193125-26-017254,005-91017,accession,scored,99,validated molecular targets,"AT2B, INC.",,,,,,,Company RSUs,APLT,03828A101,,,,,,"$1,500,000",CVR,,,"December 26, 2025","June 11, 2026",Acceptance Time,"April 9, 2019",Minimum,Terms of the Offer,,,,,
+0001193125-26-019027,005-94282,accession,scored,65,,STEPSTONE PRIVATE VENTURE AND GROWTH FUND,,,,,,,SHARES OF BENEFICIAL INTEREST,Class T Shares,Custodian,,,,,,"$353,871,766",,,,"July 28, 2023",11:59 p.m.,,,,,,,,,
+0001193125-26-020543,005-91252,accession,scored,46,,Clarion Partners Real Estate Income Fund Inc.,,,,,,,Class I Shares of Common Stock,Class S,180567307,,,,,,$11.37,,,,"January 14, 2026",,,,,,,,,,
+0001213900-26-007069,005-92445,accession,scored,20,,Shareholder,,,,,,,Aspiriant Capital Appreciation Fund,Shares,04538B108,,,,,,$11.91,,,,,,,,,,,,,,
+0001213900-26-007068,005-92444,accession,scored,21,,Shareholder,,,,,,,SHARES OF BENEFICIAL INTEREST,Shares,04539D103,,,,,,$11.24,,,,,,,,,,,,,,
+0001104659-26-006294,005-93688,accession,scored,15,,Eagle Point Credit Management LLC,,,,,,,Eagle Point Institutional Income Fund,Shares,CUSIP Number,,,,,,"$3,098,140.44",,,,,,,,,,,,,,
+0001580642-26-000392,005-95349,accession,scored,58,,"iDirect Multi-Strategy Fund, LLC",,,,,,,Class I,Class I Shares,,,,,,,"$153,654,827",,,,"September 30, 2025",Notice Date,"September 30, 2025",,,,,,,,
+0001213900-26-007345,005-92998,accession,scored,33,,"Zoomcar Holdings, Inc.",,,,,,,"Series A common stock purchase
+warrants",ZCAR,CUSIP Number,,,,,,$0.074222,,,,"MARCH 31, 2026",,,,,,,,,,
+0001702510-26-000004,005-90234,accession,scored,89,U.S. middle market companies,"Carlyle Credit Solutions, Inc.",,,,,,,first lien senior secured loans,W-8ECI,CUSIP Number of Class of Securities,,,,,,$100 million,U.S. dollar,,,"April 5, 2022","April 4, 2022",12:01 A.M.,,minimum period,Section 4,,,,,
+0001104659-26-006517,005-94568,accession,scored,68,U.S.,HARTFORD SCHRODERS PRIVATE OPPORTUNITIES FUND,,,,,,,shares of beneficial interest,XHFSX,,,,,,,"$24,382,332",,,,"August 26, 2024",Notice Due Date,"June 30, 2024",,strict restrictions,,,,,,
+0001213900-26-007374,005-94239,accession,scored,16,,"Oxford Park Income Fund, Inc.",,,,,,,SHARES OF BENEFICIAL INTEREST,Class L Shares,CUSIP Number,,,,,,$21.55,,,,,,,,,,,,,,
+0001104659-26-006950,005-95189,accession,scored,26,,"Coatue
+Management, L.L.C.",,,,,,,COATUE INNOVATIVE STRATEGIES FUND,Shares,CUSIP Number,,,,,,"$182,790,754",,,,,,"February 24, 2026",,,,,,,,
+0001193125-26-024587,005-94202,accession,scored,35,,North Haven Private Income Fund A LLC,,,,,,,Class I Units,,CUSIP Number,,,,,,"approximately $8.2
+(5)
+million",,,,"August 1, 2026","July 31, 2026",,,,prorated basis,,,,,
+0001193125-26-024425,005-93652,accession,scored,13,,North Haven Private Income Fund LLC,,,,,,,Class S Units,,CUSIP Number,,,,,,$18.57,,,,"June 9, 2022",,,,,,,,,,
+0001398344-26-001322,005-85837,accession,scored,21,,"PARTNERS GROUP PRIVATE EQUITY FUND, LLC",,,,,,,Units,,CUSIP Number,,,,,,"$100,000",,,,,,,,,,,,,,
+0001398344-26-001326,005-94811,accession,scored,24,,"PARTNERS GROUP GROWTH, LLC",,,,,,,Units,,CUSIP Number,,,,,,"$100,000",,,,,,,,,,,,,,
+0001193125-26-024569,005-94467,accession,scored,6,,LGAM Private Credit LLC,,,,,,,Common Units,,CUSIP Number,,,,,,"up to 480,089",,,,,,,,,,,,,,
+0001398344-26-001324,005-94810,accession,scored,12,,"PARTNERS GROUP NEXT GENERATION INFRASTRUCTURE, LLC",,,,,,,Units,,CUSIP Number,,,,,,"$100,000",,,,,,,,,,,,,,
+0001193125-26-023662,005-88054,accession,scored,58,,Shareholders of the Company,,,,,,,SKYBRIDGE G II FUND,Shares,CUSIP Number,,,,,,"$25,000",,,,"April 17, 2020","April 17, 2020",Valuation Date,,25% threshold,LLC Agreement,,,,,
+0001193125-26-023657,005-79005,accession,scored,63,,Shareholders of the Company,,,,,,,SKYBRIDGE OPPORTUNITY FUND,"Multi-Strategy
+Series G",CUSIP Number,,,,,,"$25,000",,,,"June 30, 2020","April 17, 2020",Valuation Date,,25% threshold,,,,,,
+0001628280-26-003814,005-95394,accession,scored,13,,"CRESTLINE LENDING SOLUTIONS, LLC",,,,,,,Fund Account #,Shares,CUSIP Number,,,,,,"$17,203,812.45",,,,"January 21, 2026",11:59 p.m.,,,,,,,,,
+0001104659-26-008028,005-90791,accession,scored,51,,"MONROE CAPITAL
+INCOME PLUS CORPORATION",,,,,,,pany,"Common
+Stock",,,,,,,"$46,291,871",,,,"January 2, 2026",,"January 2, 2026",,,,,,,,
+0001193125-26-028533,005-94024,accession,scored,67,,Fidelity Diversifying Solutions LLC,,,,,,,Class I common shares of beneficial interest,Class D Shares,31634E108,,,,,,"$10,000",,,,"May 31, 2023",,,,,,,,,,
+0000930413-26-000298,005-94863,accession,scored,28,,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,Common Shares of Beneficial Interest,Shares,CUSIP,,,,,,$0.01,,,,"FEBRUARY 27, 2026","January 29, 2026",,,,,,,,,
+0001193125-26-028895,005-94179,accession,scored,23,,Vista Credit Strategic Lending Corp.,,,,,,,Class S shares of common stock,Class D Shares of Common Stock,U9227Y 118,,,,,,"$15,365,349.21",,,,"April 21, 2026",Date,,,,,,,,,
+0000930413-26-000299,005-95186,accession,scored,24,,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,Common Shares of Beneficial Interest,Shares,CUSIP,,,,,,$0.01,,,,"FEBRUARY 27, 2026","January 29, 2026",,,,,,,,,
+0001193125-26-029532,005-92613,accession,scored,37,,"BlackRock Advisors, LLC",,,,,,,Class I Shares,09261A201,CUSIP Number,,,,,,"$3,128,846.41",,,,,Valuation Date,"June 30, 2022",,,,,,,,
+0001213900-26-009413,005-94977,accession,scored,20,,Shareholders,,,,,,,CLASS I SHARES OF BENEFICIAL INTEREST,Class I Shares,,,,,,,"$65,495,723",,,,,,,,,,,,,,
+0001213900-26-009300,005-91800,accession,scored,32,,KEYSTONE PRIVATE INCOME FUND,,,,,,,SHARES OF BENEFICIAL INTEREST,"Class
+                                            Z Shares",CUSIP Number,,,,,,$98.73,,,,,,,,,,,,,,
+0001628280-26-003928,005-93743,accession,scored,95,Our target investments,BLUE OWL TECHNOLOGY INCOME CORP.,,,,,,,Class S Shares,Class I common stock,69120R 209,ions,,,,,$10.17,$10.17,,,"February 27, 2023","February 27, 2023","March 31, 2023","March 31, 2023",minimum period,non-interest bearing,,,,,
+0001628280-26-003929,005-92431,accession,scored,101,Our target credit investments,BLUE OWL CREDIT INCOME CORP.,,,,,,,Class S Shares,Class I common stock,69120V200,ions,,,,,$9.25,$9.25,,,"February 27, 2023","February 27, 2023","March 31, 2023","March 31, 2023",minimum period,non-interest bearing,,,,,
+0001398344-26-001575,005-94305,accession,scored,25,,"AlpInvest Private Equity Investment Management,
+LLC",,,,,,,Class I Shares,Class A Shares,14308H300,,,,,,,,,,,,,,,,,,,,
+0001140361-26-003032,005-94050,accession,scored,58,,"BlackRock Capital Investment Advisors, LLC",,,,,,,Institutional Shares of Beneficial Interest,BRY42WTV3,DRIP,,,,,,$500,cash,,,"July 1, 2024",Valuation Date,,,,,,,,,
+0001193125-26-031900,005-94022,accession,scored,46,,"BlackRock Advisors, LLC",,,,,,,Common Shares of Beneficial Interest,Class D,CUSIP Number,,,,,,Payment Amount,,,,"March 31, 2026",,Valuation Date,,,,,,,,
+0001193125-26-031594,005-94121,accession,scored,27,,"First Eagle Investment Management, LLC",,,,,,,Class I and Class D Shares of Beneficial Interest,Class D Shares,32010R200,,,,,,"Offer
+Amount",,,,"February 27, 2026",,,,,,,,,,
+0001193125-26-031526,005-94201,accession,scored,65,Company,StepStone Private Credit Fund LLC,,,,,,,Shareholders,outstanding Shares,Area Code,,,,,,$500,U.S. dollar,,,"December
+31, 2023","January 1, 2024","er 30, 2023",,qualifying disability,,,,,,
+0001398344-26-001754,005-95444,accession,scored,18,,Lincoln Financial Investments Corporation,,,,,,,SHARES OF BENEFICIAL INTEREST,Class D,CUSIP Number,,,,,,5%,,,,,,,,,,,,,,
+0001193125-26-030801,005-94250,accession,scored,23,,the undersigned,,,,,,,Class I Shares of Beneficial Interest,MPIDX,,,,,,,"$9,900,000",,,,,,,,,,,,,,
+0001193125-26-030799,005-93713,accession,scored,25,,John Hancock,,,,,,,Class I,ABLGX,ABA Routing Number,,,,,,"$3,155,536.12",,,,,,,,,,,,,,
+0001104659-26-008693,005-35587,accession,scored,31,,Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",OTCQB,CUSIP Number,,,,,,$7.83,,,,"March
+9, 2026","January 28, 2026",,"January 30, 2026",,,,,,,
+0001193125-26-032788,005-91191,accession,scored,87,"constituent
+corporation",GlaxoSmithKline LLC,,,,,,,"RAPT Therapeutics, Inc.",RAPT,75382E208,,,,,,$58.00,United States dollar,,,"January 19, 2026",,"April 30, 2026","April 30, 2026","Offer
+Conditions",extension of the Offer,,,,,
+0001104659-26-008976,005-91139,accession,scored,72,Fund,"Macquarie Wealth Advisers, LLC",,,,,,,Class F2,Units,CUSIP Number,,,,,,"$25,000",Units,,,"April 17, 2020",12:00 midnight,Valuation Date,,,prorated,,,,,
+0001193125-26-033103,005-94247,accession,scored,27,,Bain Capital Private Credit,,,,,,,Fund,BAT7082ZA,,,,,,,Offer Amount,,,,"March 3, 2026",11:59 p.m.,,,,,,,,,
+0001193125-26-032795,005-91801,accession,scored,78,Fund,Blackstone Private Credit Strategies LLC,,,,,,,Class D Shares of Beneficial Interest,09261H206,,,,,,,$500,U.S. dollar,,,"May
+30, 2025",,Valuation Date,"June 30, 2025",,conditions of the Offer,,,,,
+0001580642-26-000648,005-94785,accession,scored,32,,NEW MOUNTAIN PRIVATE CREDIT FUND,,,,,,,Common Shares of Beneficial Interest,Shares,CUSIP Number,,,,,,Payment Amount,United States Dollars,,,"March 31, 2026",,,,,,,,,,
+0001989817-26-000007,005-94572,accession,scored,22,,"HPS Advisors, LLC",,,,,,,Class I,Class S Shares,442931 309,,,,,,Offer Amount,,,,,,,,,,,,,,
+0001193125-26-033396,005-94116,accession,scored,52,,PGIM Investments LLC,,,,,,,Class T Shares,69419Y105,69419Y402,,,,,,"$1,000",,,,"April 11, 2024",,,,,,,,,,
+0001193125-26-033401,005-94119,accession,scored,53,,PGIM Investments LLC,,,,,,,Class S Shares of Beneficial Interest,Shares,71710E101,,,,,,$500,U.S. dollar,,,"April 24, 2024",,,,,"conditions
+of
+the
+Offer",,,,,
+0001398344-26-001796,005-93895,accession,scored,25,,The Fund,,,,,,,Class I Shares of Beneficial Interest,Class I Shares,,,,,,,"$71,583,139",,,,,,,,,,,,,,
+0001628280-26-004675,005-93859,accession,scored,25,,Shareholders,,,,,,,Class S common shares of beneficial interest,00840T100,,,,,,,"$21,149,422",,,,"July 26, 2024",11:59 p.m.,,,,,,,,,
+0001213900-26-010720,005-89250,accession,scored,19,,Shareholders,,,,,,,ABS LONG/SHORT STRATEGIES FUND,00385P 109,,,,,,,"$25,000",,,,,,,,,,,,,,
+0001838126-26-000007,005-93638,accession,scored,38,,"HPS Advisors, LLC",,,,,,,Class F shares of beneficial interest,40440V204,,,,,,,Offer Amount,,,,"March 2, 2023",11:59 p.m.,,,,,,,,,
+0001193125-26-035883,005-94128,accession,scored,49,,Goldman Sachs Private Credit Corp.,,,,,,,Class I Shares of Common Stock,Shares,CUSIP Number,,,,,,$500,,,,"August 31, 2023",,,,,,,,,,
+0001580642-26-000664,005-88210,accession,scored,28,,"Evanston Capital Management, LLC",,,,,,,Class I Shares,Class I Shares,CUSIP Number,,,,,,"$5,743,523.51",,,,,,,,,,,,,,
+0001104659-26-010301,005-93626,accession,scored,20,,"Ares Private
+Markets Fund",,,,,,,"Class I
+Shares",04020B301,04020B103,,,,,,"$188,659,203.02",,,,,,,,,,,,,,
+0001193125-26-038867,005-94609,accession,scored,36,,"AB
+Private Credit Investors LLC",,,,,,,Class I common shares of beneficial interest,Class D Shares,,,,,,,purchase price,,,,"June
+26, 2025","June
+26, 2025",,,,,,,,,
+0001911066-26-000002,005-93961,accession,scored,32,,Nuveen Churchill Private Capital Income Fund,,,,,,,Class D common shares of beneficial interest,Class D Shares,67114U 204,,,,,,$24.32,,,,"March 28, 2025",11:59 p.m.,,,,,,,,,
+0001104659-26-011592,005-95034,accession,scored,19,,Antares Capital Credit Advisers LLC,,,,,,,Common Shares of Beneficial Interest,03666N108,CUSIP Number,,,,,,"$66,560,780.57",,,,"June 11, 2026",11:59 p.m.,,,,,,,,,
+0001580642-26-000874,005-90074,accession,scored,18,,"iDirect
+Private Markets Fund",,,,,,,SHARES OF BENEFICIAL INTEREST,Class I shares,CUSIP Number,,,,,,"$53,787,602",,,,,,,,,,,,,,
+0001104659-26-011591,005-94860,accession,scored,23,,Antares Capital Credit Advisers LLC,,,,,,,Class S common shares of beneficial interest,0366431049,0366433029,,,,,,"1,394,707",,,,"September 17, 2025",,,,,,,,,,
+0001213900-26-013132,005-95297,accession,scored,35,,"Hamilton Lane Advisors, L.L.C.",,,,,,,CLASS Y,Class R Shares,407496108,,,,,,"$10,000",,,,,,,,,,,,,,

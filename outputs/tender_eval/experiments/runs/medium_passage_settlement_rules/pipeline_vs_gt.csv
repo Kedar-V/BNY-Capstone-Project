@@ -1,0 +1,446 @@
+gt_row_id,accession_number,event_id,join,field,gt,pred,match,outcome
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,subject_company,Jefferies Credit Partners BDC Inc.,Jefferies Credit Partners BDC Inc.,True,tp
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,bidder,Jefferies Credit Partners BDC Inc.,Paul Hastings LLP,False,mismatch
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,other_parties,"Computershare Trust Company, N.A. (transfer agent) | Jefferies Credit Management LLC (investment adviser)",,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,security_description,"Jefferies Credit Partners BDC Inc. Class I Shares of common stock, $0.001 par value per share",,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,event_status,Commenced,,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,event_status_details,"The offer commenced January 2, 2026.",,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,offer_price_type,Formula,,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,offer_price,"Net asset value per Class I Share as of the Valuation Date, less any applicable Early Repurchase Deduction",net asset value,True,tp
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,offer_price_basis,per Class I Share of common stock,,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,offer_price_qualifications,Paid in cash without interest | Shares tendered within 12 months of their original issue date are subject to a 2.00% Early Repurchase Deduction; Shares issued pursuant to the Distribution Reinvestment Plan are excluded | The deduction may be waived if the Board of Directors determines that doing so is in the Company's best interests and will not discriminate unfairly against any stockholder,,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,expiration_date,1/30/2026 11:59 PM Eastern Time,,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,withdrawal_deadline,"1/30/2026 11:59 PM Eastern Time | If the Company has not accepted the tender on or before 3/2/2026, withdrawal is also permitted after that date",,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,settlement_date,Acceptance: N/A | Payment: promptly after the Termination Date,Payment: promptly after the Termination Date,True,tp
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,minimum_tender_condition,No minimum tender condition,,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,proration_terms,"If Shares exceeding 5% of the Company's net asset value as of September 30, 2025 are duly tendered before the Notice Date and not withdrawn before the Tender Withdrawal Date, the Company, in its sole discretion, may accept Shares for payment pro rata based on the aggregate net asset value tendered by each stockholder, with no priority other than the exceptions in Rule 13e-4(f)(3)(i) and Rule 13e-4(f)(3)(ii)",,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,tendering_conditions,"Stockholders must send or deliver a completed and executed Letter of Transmittal to Computershare Trust Company, N.A., c/o Voluntary Corporate Actions, by mail at P.O. Box 43011, Providence, Rhode Island 02940-3011, or by express mail or overnight delivery at 150 Royall Street, Suite V, Canton, Massachusetts 02021; it must be received by 1/30/2026 11:59 PM Eastern Time | The Letter of Transmittal must be signed by all account owners, including the custodian if applicable | Defective or irregular tenders are not deemed made until cured or waived; the Company may reject tenders not in appropriate form",,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,available_options,Stockholders may tender some or all of their Shares | Stockholders may elect payment by check or wire transfer; wire payments are subject to a $100.00 handling fee,,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,financial_terms,"Purchase size: up to 5% of the Company's net asset value as of September 30, 2025 | The Company may fund purchases from cash flow from operations, asset sales, borrowings, return of capital or offering proceeds | No commission is payable to the Company",,False,fn
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,conditions_restrictions,"The Company may extend the offer, with affected dates subject to change | The Company may cancel, amend or postpone acceptance under the stated conditions, including inability to liquidate portfolio securities in an orderly manner, specified legal or market disruptions, a material decrease in net asset value, another material adverse event or condition, or a Board determination that purchasing Shares is not in the Company's best interest | There are no material financing conditions | The offer is not made, and tenders will not be accepted, where doing so would violate applicable securities or other laws",,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,subject_company,First Trust Private Assets Fund,FIRST TRUST PRIVATE ASSETS FUND,True,tp
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,bidder,First Trust Private Assets Fund,"UMB Fund Services, Inc.",False,mismatch
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,other_parties,"UMB Fund Services, Inc. (administrator)",,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,security_description,First Trust Private Assets Fund shares of beneficial interest,SHARES OF BENEFICIAL INTEREST,True,tp
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,event_status,Completed,,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,event_status_details,"Two Shareholders validly tendered Shares that were accepted for purchase | Net asset value of the Shares tendered was $136,753 | Initial Payment was wired on May 29, 2025, and the Post-Audit Payment was paid in full",,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,offer_price_type,Formula,,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,offer_price,"Net asset value of the Shares tendered as of March 31, 2025, as it may be adjusted based upon the next annual audit of the Fund’s financial statements",net asset value,True,tp
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,offer_price_basis,Shares of beneficial interest tendered and purchased,,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,offer_price_qualifications,"Initial Payment of at least 95% of the Shareholder’s unaudited net asset value of the Shares tendered | Post-Audit Payment equal to the excess, if any, of (1) the aggregate value of the Shares tendered and purchased as of March 31, 2025 (as it may be adjusted based upon the next annual audit of the Fund’s financial statements) over (2) the Initial Payment",,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,expiration_date,3/31/2025 11:59 PM Eastern Time,,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,settlement_date,Acceptance: after the expiration of the Offer | Initial Payment: 5/29/2025 | Post-Audit Payment: no later than 5 business days following the completion of the Fund’s next annual audit,,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,tendering_conditions,"Shareholders desiring to tender all or a portion of their Shares were required to submit their tenders by 11:59 p.m., Eastern Time, on March 31, 2025",,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,available_options,Tender all or a portion of Shares,,False,fn
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,financial_terms,Aggregate purchase amount up to $1600000,,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,subject_company,"Mersana Therapeutics, Inc.","MERSANA THERAPEUTICS, INC.",True,tp
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,bidder,"Emerald Merger Sub, Inc.","Emerald Merger Sub, Inc.",True,tp
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,parent,"Day One Biopharmaceuticals, Inc.",,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,acquisition_subsidiary,"Emerald Merger Sub, Inc.",,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,depositary,"Computershare Trust Company, N.A.",,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,other_parties,"Computershare Trust Company, N.A. (paying agent)",,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,security_description,"Mersana Therapeutics, Inc. common stock, par value $0.0001 per share","Mersana Therapeutics, Inc.",True,tp
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,ticker,MRSN,MRSN,True,tp
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,cusip,59045L106,59045L106,True,tp
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,isin,US59045L1061,US59045L1061,True,tp
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,event_status,Completed,,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,event_status_details,"The Offer expired on January 5, 2026; 3,029,135 Shares, representing approximately 60.57% of outstanding Shares, were validly tendered and not validly withdrawn. Purchaser accepted all such Shares for payment, and the Merger was consummated on January 6, 2026.",,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,mandatory_voluntary_indicator,Voluntary,,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,offer_price_type,Mixed,,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,offer_price,"$25.00 in cash plus one non-tradeable contingent value right (CVR) per common share, representing the right to receive contingent milestone payments of up to $30.25 per CVR in cash","$
+7.54",False,mismatch
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,currency,USD,USD,True,tp
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,offer_price_basis,"per share of Mersana Therapeutics, Inc. common stock",,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,offer_price_qualifications,"Without interest and less any applicable tax withholding | CVR payments are contingent upon the achievement of certain specified milestones, in accordance with the terms and subject to the conditions of a contingent value rights agreement to be entered into with a rights agent mutually agreeable to Day One and the Company",,False,fn
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,expiration_date,1/5/2026 11:59 PM Eastern Time,"January 5, 2026",True,tp
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,withdrawal_deadline,,"February 3, 2026",False,fp_no_gt
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,settlement_date,Acceptance: after the expiration of the Offer | Payment: promptly,Payment: promptly after the Expiration Date,False,mismatch
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,effective_date,1/6/2026,"November 13, 2025",False,mismatch
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,minimum_tender_condition,"Minimum Condition was satisfied; its required number, percentage, or calculation basis is not stated",Offer Conditions,False,mismatch
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,financial_terms,The Offer sought all issued and outstanding Shares,,False,fn
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,subject_company,KKR FS Income Trust,KKR FS Income Trust,True,tp
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,bidder,KKR FS Income Trust,KKR FS Income Trust,True,tp
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,security_description,"KKR FS Income Trust Class I common shares of beneficial interest, par value $0.01 per share",,False,fn
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,cusip,48255N100,48255N100,True,tp
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,isin,US48255N1000,US48255N1000,True,tp
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,event_status,Final results announced,,False,fn
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,event_status_details,783564.811 Shares were validly tendered and not properly withdrawn; the Company accepted 100% of those Shares for purchase.,,False,fn
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,offer_price_type,Formula,,False,fn
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,offer_price,"net asset value per Share as of December 31, 2025","net asset value per share as of December 31, 2025",True,tp
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,offer_price_basis,per Class I common share of beneficial interest,,False,fn
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,expiration_date,12/29/2025 11:59 PM Eastern Time,"September 1, 2026",False,mismatch
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,financial_terms,Offer to purchase up to 2350115 Shares,,False,fn
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,subject_company,KKR FS Income Trust Select,KKR FS Income Trust Select,True,tp
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,bidder,KKR FS Income Trust Select,KKR FS Income Trust Select,True,tp
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,security_description,"KKR FS Income Trust Select Class S common shares of beneficial interest, par value $0.01 per share",,False,fn
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,cusip,48256J108,48256J108,True,tp
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,isin,US48256J1088,US48256J1088,True,tp
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,event_status,Final results announced,,False,fn
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,event_status_details,"254594.801 Shares were validly tendered and not properly withdrawn; the Company accepted 100% of those Shares for purchase, representing less than 1% of Shares outstanding as of September 30, 2025.",,False,fn
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,offer_price_type,Formula,,False,fn
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,offer_price,"net asset value per Share as of December 31, 2025","net asset value per Share
+as of December 31, 2025",True,tp
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,offer_price_basis,per Class S common share of beneficial interest,,False,fn
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,expiration_date,12/29/2025 11:59 PM Eastern Time,"September 1, 2026",False,mismatch
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,financial_terms,The Company offered to purchase up to 1587372 Shares.,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,subject_company,"Cidara Therapeutics, Inc.","ck & Co., Inc.",False,mismatch
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,bidder,"Caymus Purchaser, Inc.",Merck Sharp & Dohme LLC,False,mismatch
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,parent,Merck Sharp & Dohme LLC,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,acquisition_subsidiary,"Caymus Purchaser, Inc.",,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,depositary,"Broadridge Corporate Issuer Solutions, LLC",,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,other_parties,"Merck & Co., Inc. (Schedule TO filer)",,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,security_description,"Cidara Therapeutics, Inc. common stock, $0.0001 par value per share",Series A Convertible Voting Preferred Stock,False,mismatch
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,ticker,CDTX,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,cusip,171757206,171757206,True,tp
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,isin,US1717572069,US1717572069,True,tp
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,event_status,Completed,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,event_status_details,"27149333 Common Shares and 89956 Series A Shares were validly tendered and not validly withdrawn, representing approximately 88.3% of Shares entitled to vote and outstanding on an as-converted basis for Series A Shares; Purchaser accepted all validly tendered and not validly withdrawn Shares, and the merger closed on January 7, 2026.",,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,mandatory_voluntary_indicator,Voluntary,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,offer_price_type,Fixed,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,offer_price,221.50,"$15,505.00",False,mismatch
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,currency,,USD,False,fp_no_gt
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,offer_price_basis,per Common Share,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,offer_price_qualifications,"in cash, without interest, subject to any applicable withholding taxes",,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,expiration_date,1/6/2026 11:59 PM Eastern Time,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,withdrawal_deadline,1/6/2026 11:59 PM Eastern Time,"JANUARY 6, 2026",True,tp
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,settlement_date,Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement,"February 3, 2026",False,mismatch
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,effective_date,1/7/2026,,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,minimum_tender_condition,"Minimum Condition satisfied by the Shares validly tendered and not validly withdrawn as of the Expiration Time, excluding Shares tendered pursuant to guaranteed delivery procedures that had not yet been received; the required minimum is not stated.",,False,fn
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,financial_terms,Offer to acquire all outstanding Common Shares.,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,subject_company,"Cidara Therapeutics, Inc.","ck & Co., Inc.",False,mismatch
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,bidder,"Caymus Purchaser, Inc.",Merck Sharp & Dohme LLC,False,mismatch
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,parent,Merck Sharp & Dohme LLC,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,acquisition_subsidiary,"Caymus Purchaser, Inc.",,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,depositary,"Broadridge Corporate Issuer Solutions, LLC",,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,other_parties,"Merck & Co., Inc. (Schedule TO filer)",,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,security_description,"Cidara Therapeutics, Inc. Series A Convertible Voting Preferred Stock, $0.0001 par value per share",Series A Convertible Voting Preferred Stock,True,tp
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,ticker,CDTX,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,cusip,171757206,171757206,True,tp
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,isin,US1717572069,US1717572069,True,tp
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,event_status,Completed,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,event_status_details,"27149333 Common Shares and 89956 Series A Shares were validly tendered and not validly withdrawn, representing approximately 88.3% of Shares entitled to vote and outstanding on an as-converted basis for Series A Shares; Purchaser accepted all validly tendered and not validly withdrawn Shares, and the merger closed on January 7, 2026.",,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,mandatory_voluntary_indicator,Voluntary,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,offer_price_type,Fixed,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,offer_price,15505.00,"$15,505.00",True,tp
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,currency,,USD,False,fp_no_gt
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,offer_price_basis,per Series A Share,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,offer_price_qualifications,"in cash, without interest, subject to any applicable withholding taxes",,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,expiration_date,1/6/2026 11:59 PM Eastern Time,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,withdrawal_deadline,1/6/2026 11:59 PM Eastern Time,"JANUARY 6, 2026",True,tp
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,settlement_date,Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement,"February 3, 2026",False,mismatch
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,effective_date,1/7/2026,,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,minimum_tender_condition,"Minimum Condition satisfied by the Shares validly tendered and not validly withdrawn as of the Expiration Time, excluding Shares tendered pursuant to guaranteed delivery procedures that had not yet been received; the required minimum is not stated.",,False,fn
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,financial_terms,Offer to acquire all outstanding Series A Shares.,,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,subject_company,Generation Bio Co.,Generation Bio Co.,True,tp
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,bidder,XRA 7 Corp.,"Alliance Advisors, LLC",False,mismatch
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,parent,XOMA Royalty Corporation,,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,acquisition_subsidiary,XRA 7 Corp.,,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,information_agent,"Alliance Advisors, LLC",,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,other_parties,"Broadridge Corporate Issuer Solutions, LLC (CVR rights agent)",,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,security_description,"Generation Bio Co. common stock, par value $0.0001 per share",Company Shares,False,mismatch
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,ticker,GBIO,GBIO,True,tp
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,cusip,37148K209,37148K209,True,tp
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,isin,US37148K2096,US37148K2096,True,tp
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,event_status,Commenced,,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,event_status_details,"The Buyer Entities commenced the offer on January 9, 2026.",,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,offer_price_type,Mixed,,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,offer_price,4.2913 cash plus one non-tradeable contingent value right per share,$4.2913,True,tp
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,currency,,USD,False,fp_no_gt
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,offer_price_basis,"per share of Generation Bio Co. common stock, par value $0.0001 per share",,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,offer_price_qualifications,"Cash amount payable without interest and less applicable tax withholding | CVR represents a non-tradeable contractual right to contingent cash payments, subject to applicable tax withholding; no CVR payment is assured",,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,expiration_date,2/6/2026 11:59 PM Eastern time,"February 8, 2026",False,mismatch
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,withdrawal_deadline,,"February 8, 2026",False,fp_no_gt
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,settlement_date,"Acceptance and consummation: as promptly as practicable after expiration, and no more than three business days after expiration | Payment: promptly after acceptance",Payment: promptly after the Expiration Date,False,mismatch
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,effective_date,,Effective Time,False,fp_no_gt
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,minimum_tender_condition,Validly tendered and not properly withdrawn shares must represent at least one share more than 50% of all shares issued and outstanding when the offer expires; shares tendered through guaranteed delivery procedures but not yet received by the depositary are excluded | Waiver is referenced where permitted under the Merger Agreement,Minimum Tender Condition,False,mismatch
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,tendering_conditions,Shares must be validly tendered and not validly withdrawn pursuant to the Offer | The Offer to Purchase and related Letter of Transmittal contain the offer terms; specific submission procedures are not stated,,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,financial_terms,Offer seeks all issued and outstanding shares of common stock,,False,fn
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,conditions_restrictions,"Company representations and warranties must satisfy the applicable accuracy standards | Company must perform its obligations under the Merger Agreement in all material respects | No effective governmental judgment, legal restraint or applicable law may prevent or prohibit the offer, merger or other contemplated transactions | Buyer Entities must receive an executive-officer certificate confirming satisfaction of the representation-and-warranty and performance conditions | Merger Agreement must not have been terminated | No financing condition | Buyer Entities may extend the offer if conditions are unsatisfied or the closing cash consideration dispute is unresolved, generally in increments of no more than ten business days; extensions beyond April 15, 2026 require the Company's prior written consent | Buyer Entities must extend the offer for the minimum period required by applicable SEC or Nasdaq rules, subject to the stated Outside Date limitations",,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,subject_company,OceanPal Inc.,"OCEANPAL, INC.",True,tp
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,bidder,OceanPal Inc.,OceanPal Inc.,True,tp
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,depositary,"Computershare Trust Company, N.A.",,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,security_description,"OceanPal Inc. 7.0% Series D Cumulative Convertible Perpetual Preferred Stock, par value $0.01 per share, with a $1,000 liquidation preference per share",7.0% Series D Cumulative Convertible Perpetual Preferred Stock,True,tp
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,ticker,SVRN,,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,event_status,Final results announced,,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,event_status_details,18996 shares validly tendered and not properly withdrawn; the Company expects to accept all of them for purchase.,,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,offer_price_type,Fixed,,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,offer_price,1400,$27.2 million,False,mismatch
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,currency,,USD,False,fp_no_gt
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,offer_price_basis,per share of 7.0% Series D Cumulative Convertible Perpetual Preferred Stock,,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,offer_price_qualifications,Plus accrued dividends,,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,expiration_date,1/8/2026 5:00 PM Eastern time,"November 25, 2025",False,mismatch
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,withdrawal_deadline,1/8/2026 5:00 PM Eastern time,,False,fn
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,settlement_date,Payment: promptly after expiration,Payment: promptly after the expiration,False,mismatch
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,financial_terms,"Offer for any and all outstanding shares | Aggregate cost of approximately $26.9 million, excluding fees relating to the Offer",,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,subject_company,Eagle Point Institutional Income Fund,EAGLE POINT INSTITUTIONAL INCOME FUND,True,tp
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,bidder,Eagle Point Institutional Income Fund,EAGLE POINT INSTITUTIONAL INCOME FUND,True,tp
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,other_parties,Eagle Point Credit Management LLC (person authorized to receive notices and communications on behalf of the filing person) | Dechert LLP (counsel),,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,security_description,Eagle Point Institutional Income Fund shares of beneficial interest,,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,ticker,EIIA,,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,cusip,269819108,269819108,True,tp
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,isin,US2698191085,US2698191085,True,tp
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,event_status,Final results announced,,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,event_status_details,"433306.355 Shares were validly tendered and not withdrawn; all were accepted for payment as of January 22, 2026, for an aggregate purchase price of $3098140.44.",,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,offer_price_type,Fixed,,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,offer_price,7.15,net asset value,False,mismatch
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,offer_price_basis,per Share of beneficial interest,,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,expiration_date,12/29/2025 5:00 PM Eastern Time,,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,settlement_date,Acceptance for payment: 1/22/2026,"January 22, 2026",True,tp
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,tendering_conditions,"Shareholders wishing to tender all or a portion of their Shares were required to submit their tenders by 5:00 PM Eastern Time on December 29, 2025.",,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,available_options,Tender Shares or a portion thereof,,False,fn
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,financial_terms,"Purchase of Shares in an amount up to 5% of the Fund’s net asset value, calculated as of the calendar quarter end immediately prior to the date of the Statement | Aggregate purchase price for accepted Shares: $3098140.44",,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,subject_company,Hartford Schroders Private Opportunities Fund,"Hartford Schroders
+Private Opportunities Fund",True,tp
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,bidder,Hartford Schroders Private Opportunities Fund,"Hartford Funds Management
+    Co, LLC",False,mismatch
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,other_parties,"Hartford Funds Management Company, LLC (person authorized to receive notices and communications on behalf of the filing person) | Dechert LLP (counsel copied on notices and communications)",,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,security_description,Shares of beneficial interest of Hartford Schroders Private Opportunities Fund,"Class I
+XHFIX",False,mismatch
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,event_status,Final results announced,,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,event_status_details,0 Shares were validly tendered and not withdrawn as of the expiration of the Offer.,,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,offer_price_type,Fixed,,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,offer_price,14.33,net asset value,False,mismatch
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,offer_price_basis,per Share of beneficial interest,,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,expiration_date,11/24/2025 11:59 PM Eastern Time,"December 27, 2021",False,mismatch
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,withdrawal_deadline,,"June 30, 2024",False,fp_no_gt
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,tendering_conditions,"Shareholders that desired to tender Shares or a portion thereof for purchase were required to submit their tenders by 11:59 p.m., Eastern Time, on November 24, 2025.",,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,available_options,Shareholders could tender Shares or a portion thereof for purchase.,,False,fn
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,financial_terms,"The Fund offered to purchase Shares in an amount up to 5% of the Fund’s net asset value, calculated as of the calendar quarter end immediately prior to the date of the Statement.",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,subject_company,Coatue Innovative Strategies Fund,COATUE INNOVATIVE STRATEGIES FUND,True,tp
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,bidder,Coatue Innovative Strategies Fund,Kirkland & Ellis LLP,False,mismatch
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,other_parties,"Coatue Management, L.L.C. (investment adviser) | State Street Bank and Trust Company (transfer agent and Tender Offer Administrator)",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,security_description,"Coatue Innovative Strategies Fund Class S, Class D and Class I Shares of beneficial interest",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,event_status,Commenced,,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,event_status_details,"The tender offer period began January 27, 2026; the Fund offered to purchase up to 5% of Shares outstanding as of December 31, 2025.",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,offer_price_type,Formula,,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,offer_price,"Net asset value of the tendered Shares as of January 30, 2026 (or at a later date determined by the Fund if the Offer is extended), less any early repurchase fee",value,True,tp
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,offer_price_basis,"per Class S, Class D or Class I Share of beneficial interest",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,offer_price_qualifications,"2% early repurchase fee for Shares repurchased before the day immediately preceding the one-year anniversary of purchase; the Fund may waive the fee if the Board determines doing so is in the Fund's best interests | Shares are treated as repurchased on a first-in, first-out basis | No interest on the purchase amount | Payment is subject to applicable tax withholding",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,expiration_date,2/24/2026 midnight Eastern Time,"February 24, 2026",True,tp
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,withdrawal_deadline,"2/24/2026 midnight Eastern Time | If the Fund has not accepted a tender on or prior to 3/24/2026, withdrawal is also permitted after that date",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,settlement_date,Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: within seven (7) days of the Notice Due Date,,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,minimum_tender_condition,No minimum tender condition,,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,proration_terms,"If more than 5% of Shares are duly tendered and not withdrawn before the Notice Due Date, the Fund may either accept additional Shares permitted under Rule 13e-4(f)(1)(ii), extend the Offer and increase the amount offered for repurchase, or accept timely tendered and unwithdrawn Shares on a pro rata basis based on the aggregate net asset value of tendered Shares",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,tendering_conditions,"Shareholders may tender all or some Shares by completing and signing a Letter of Transmittal received by State Street Bank and Trust Company, Attention: Transfer Agency, 1776 Heritage Drive, Mail Code: JAB0340, North Quincy, MA 02171, or by emailing CoatueTA_INQ@StateStreet.com, Attention: Coatue Innovative Strategies Fund, by 2/24/2026 midnight Eastern Time | Shareholders holding through Merrill must request a tender through their Investment Professional by that deadline; requests submitted directly to the Fund or transfer agent will not be honored | The Fund may reject tenders not in appropriate form; unless waived, defects or irregularities must be cured within the time the Fund determines",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,available_options,Shareholders may tender all or some of their Shares; a partial tender may be expressed as a dollar amount or number of Shares | Shareholders may choose not to tender,,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,default_option,A Shareholder that does not wish to tender may take no action,,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,financial_terms,"Up to 5% of Shares outstanding as of December 31, 2025, or approximately $182790754 | Payment entirely in cash, funded from cash on hand, proceeds from the sale of portfolio holdings or borrowings",,False,fn
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,conditions_restrictions,"The Board may extend the Offer; the Fund may amend it or postpone acceptance of Shares | The Fund may cancel, amend or postpone acceptance if it cannot liquidate portfolio securities in an orderly manner consistent with its investment objectives and policies; specified legal, banking, credit, market, war, net asset value or other materially adverse events occur; the Board determines purchase is not in the Fund's best interest; or the SEC permits another period for Shareholder protection | The Fund may waive Offer conditions or defects in particular tenders | The Offer is not made in jurisdictions where it or its acceptance would not comply with applicable law",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,subject_company,Monroe Capital Income Plus Corporation,MONROE CAPITAL INCOME PLUS CORPORATION,True,tp
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,bidder,Monroe Capital Income Plus Corporation,Monroe Capital Income Plus Corporation,True,tp
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,other_parties,"Monroe Capital BDC Advisors, LLC (adviser) | Ultimus Fund Solutions, LLC (transfer agent)",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,security_description,"Monroe Capital Income Plus Corporation common stock, par value $0.001 per share",Common Stock,True,tp
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,event_status,Commenced,,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,event_status_details,"Offer to Purchase dated January 29, 2026, for up to 14,333,861 shares",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,offer_price_type,Formula,,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,offer_price,The per share price of the Common Stock sold by the Company in the most recent closing of the Company’s private offering of Common Stock that occurs prior to the Expiration Date,net asset value,False,mismatch
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,offer_price_basis,per share of common stock,,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,offer_price_qualifications,Cash | No interest on the Purchase Price | Less applicable withholding taxes,,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,expiration_date,2/27/2026 11:59 PM Eastern Time,"February 27, 2026",True,tp
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,withdrawal_deadline,"2/27/2026 11:59 PM Eastern Time | If Shares have not been accepted for payment, withdrawal is also permitted at any time after 3/27/2026",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,settlement_date,Acceptance: promptly following expiration of the Offer | Payment: promptly following expiration of the Offer,Payment: promptly following expiration of the Offer,True,tp
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,minimum_tender_condition,No minimum tender condition,,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,proration_terms,"If more than 14,333,861 Shares are duly tendered and not withdrawn, the Company may, in its sole discretion, either accept additional duly tendered Shares permitted under Rule 13e-4(f)(1)(ii) or repurchase Shares pro rata according to the number duly tendered by each shareholder and not withdrawn",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,tendering_conditions,"Shares held of record as of January 28, 2026, and purchased before January 29, 2025, are eligible; Shares purchased on or after January 29, 2025, are ineligible under a one-year lock-up | Submit a properly completed and signed Letter of Transmittal bearing original signatures, any required original signature guarantees, and other required documents by email to MCIP@ultimusfundsolutions.com or by mail, courier, or personal delivery to Monroe Capital Income Plus Corporation c/o Ultimus Fund Solutions, 225 Pictoria Dr, Suite 450, Cincinnati, OH 45252, or PO Box 46707, Cincinnati, OH 45252, before 2/27/2026 11:59 PM Eastern Time | Holders using a custodian must submit the Letter of Transmittal and any custodian forms to the custodian for signature; the Company must receive the custodian’s instructions before expiration | Holders may tender a number of Shares or a dollar amount, but not both; if both are provided, the number of Shares controls | Conditional tenders are not permitted; the Company may reject tenders not in appropriate form",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,available_options,"Tender all Shares owned as of the Expiration Date, another number of Shares, or a specified dollar amount of Shares; a dollar amount will be divided by the Purchase Price | No limit on the number or amount a holder may tender",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,default_option,"If both a number of Shares and a dollar amount are provided, the number of Shares controls | A custodian-held request for which the Company does not receive custodian instructions before expiration is deemed not in good order and is not considered for the Offer",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,financial_terms,"Up to 14,333,861 Shares, approximately 5.0% of Common Stock outstanding as of December 31, 2025 | Maximum repurchase cost of approximately $141,475,208.07 assuming a Purchase Price of $9.87, excluding filing, printing, mailing, and processing fees; actual cost is not determinable at this time | Funded with cash on hand | No cost charged by the Company to tendering shareholders",,False,fn
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,conditions_restrictions,"No financing condition | The Company is not required to purchase Shares if doing so would violate applicable securities, commodities, or other laws; or if specified material legal proceedings, banking moratoria or payment suspensions, credit or foreign-currency limitations, war or calamity, or another event or condition judged by the Board to have a material adverse effect occurs | Conditions are for the Company’s sole benefit and may be waived by the Company in whole or in part in its reasonable judgment; any waiver applies to all tenders | The Company may amend, supplement, extend, or terminate the Offer during its pendency; it may announce an extension by 9:00 AM Eastern Time on the next business day after the Offer otherwise would have expired | The Company will not accept tenders from jurisdictions where making or accepting the Offer would not comply with applicable laws",,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,subject_company,Lord Abbett Private Credit Fund,Lord Abbett Private Credit Fund,True,tp
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,bidder,Lord Abbett Private Credit Fund,"Lord Abbett
+Private Credit Advisor LLC",False,mismatch
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,other_parties,State Street Bank and Trust Company (transfer agent) | Lord Abbett Private Credit Advisor LLC (investment adviser),,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,security_description,"Lord Abbett Private Credit Fund common shares of beneficial interest, par value $0.01 per share",,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,event_status,Commenced,,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,event_status_details,"The Offer began January 29, 2026 to provide liquidity to Shareholders.",,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,offer_price_type,Formula,,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,offer_price,"Net asset value per Share as of March 31, 2026 or a later date determined by the Company if the Offer is extended",0.01,False,mismatch
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,offer_price_basis,Per common share of beneficial interest,,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,offer_price_qualifications,"Payable in cash by check, ACH or wire transfer after the net asset value per Share as of the Valuation Date is finalized | No interest on the purchase price | Less any applicable withholding taxes | The Company does not expect to impose any charges on repurchases",,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,expiration_date,2/27/2026 11:59 PM Eastern Time,"January 29, 2026",False,mismatch
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,withdrawal_deadline,"2/27/2026 11:59 PM Eastern Time | If the Company has not accepted the tendered Shares, withdrawal is also permitted on or after 3/27/2026","January 29, 2026",False,mismatch
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,settlement_date,"Acceptance: generally expected on the first business day following the applicable valuation date | Payment: promptly after the Expiration Date, after the net asset value per Share as of the Valuation Date is finalized",,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,minimum_tender_condition,No minimum tender condition,,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,proration_terms,"If more than 934781.32 Shares are duly tendered before expiration and not properly withdrawn, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares | The Company reserves the right in its sole discretion to purchase additional outstanding Shares representing up to 2.0% of outstanding Shares without amending or extending the Offer | Unaccepted Shares receive no automatic carryforward or priority in future offers",,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,tendering_conditions,"Shareholders may tender all or a portion of their Shares | Deliver a properly completed and duly executed Letter of Transmittal and any other required documents by mail or overnight delivery to State Street Bank and Trust Company, Attention: Transfer Agency, 1776 Heritage Drive, Mailstop JAB0340, North Quincy, MA 02171; the Transfer Agent must receive them in good order before 2/27/2026 11:59 PM Eastern Time | Holders whose Shares are registered in a nominee's name must contact that institution to tender | A partial tender must leave an account balance of at least $2500 based on the Valuation Date net asset value per Share; the Company may purchase all Shares if the balance would be lower | No alternative, conditional or contingent tenders will be accepted | The Company may reject late or improperly formed tenders and may waive defects or irregularities; tenders are not deemed made until defects or irregularities are cured or waived",,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,available_options,Tender all or a portion of Shares,,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,default_option,A Shareholder who does not wish to sell Shares need take no action,,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,financial_terms,"Up to 934781.32 Shares, representing approximately 5% of outstanding Shares as of November 30, 2025 | The Company may purchase additional outstanding Shares representing up to 2.0% of outstanding Shares without amending or extending the Offer | Expected funding sources are cash on hand, including cash received from investments in the Company, borrowings and/or proceeds from the sale of portfolio holdings",,False,fn
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,conditions_restrictions,"The Company may extend the Offer and adjust the Valuation Date, amend or cancel the Offer, or postpone acceptance of tenders | It may cancel, amend or postpone if it cannot liquidate portfolio securities in an orderly manner consistent with its investment objectives and policies; specified legal, banking, credit, trading, war or calamity events occur; net asset value materially decreases; another event or condition would have a material adverse effect on the Company or its Shareholders; or trustees who are not interested persons determine purchase is not in the Company's best interest | The Company may waive Offer conditions or tender defects | The Offer is not made, and tenders will not be accepted, where doing so would violate applicable laws",,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,subject_company,Lord Abbett Private Credit Fund S,Lord Abbett Private Credit Fund S,True,tp
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,bidder,Lord Abbett Private Credit Fund S,"Lord Abbett
+Private Credit Advisor LLC",False,mismatch
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,other_parties,State Street Bank and Trust Company (transfer agent) | Lord Abbett Private Credit Advisor LLC (investment adviser),,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,security_description,"Lord Abbett Private Credit Fund S common shares of beneficial interest, par value $0.01 per share",,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,event_status,Commenced,,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,event_status_details,"The Offer began on January 29, 2026, to purchase up to 241710.20 Shares.",,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,offer_price_type,Formula,,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,offer_price,"Net asset value per Share as of March 31, 2026, or a later date determined by the Company if the Offer is extended",0.01,False,mismatch
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,offer_price_basis,per common share of beneficial interest,,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,offer_price_qualifications,"Cash payment without interest, less any applicable withholding taxes | No charges on repurchases are expected",,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,expiration_date,2/27/2026 11:59 PM Eastern Time,"January 29, 2026",False,mismatch
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,withdrawal_deadline,"2/27/2026 11:59 PM Eastern Time | If the Company has not accepted the tendered Shares, withdrawal is also permitted on or after 3/27/2026","January 29, 2026",False,mismatch
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,settlement_date,"Acceptance: generally expected on the first business day following the applicable valuation date | Payment: promptly after the Expiration Date, after the net asset value per Share as of the Valuation Date is finalized",,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,minimum_tender_condition,No minimum tender condition,,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,proration_terms,"If more than 241710.20 Shares are duly tendered before expiration and not properly withdrawn, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares | The Company reserves the right in its sole discretion to purchase additional outstanding Shares representing up to 2.0% of its outstanding Shares without amending or extending the Offer",,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,tendering_conditions,"Shareholders must deliver a properly completed and duly executed Letter of Transmittal and any other required documents by mail or overnight delivery to State Street Bank and Trust Company, Attention: Transfer Agency, 1776 Heritage Drive, Mailstop JAB0340, North Quincy, MA 02171; the Transfer Agent must receive them in good order before 2/27/2026 11:59 PM Eastern Time | Holders whose Shares are registered in a nominee's name must contact that nominee to effect the tender | No alternative, conditional or contingent tenders will be accepted | The Company may reject late, improperly formed or unlawful tenders and may waive defects or irregularities",,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,available_options,Shareholders may tender all or a portion of their Shares | A shareholder tendering only a portion must maintain a minimum account balance of at least $2500 based on the Valuation Date net asset value per Share; the Company may purchase all of that shareholder's Shares if the tender would leave a lower balance,,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,financial_terms,"Purchase of up to 241710.20 Shares, representing approximately 5% of outstanding Shares as of November 30, 2025 | Expected funding from cash on hand, including cash received from investments in the Company, borrowings and/or proceeds from the sale of portfolio holdings",,False,fn
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,conditions_restrictions,"The Company may extend the Offer and adjust the Valuation Date | It may cancel or amend the Offer or postpone acceptance before accepting tendered Shares, including if orderly liquidation of portfolio securities is unavailable, specified legal, banking, credit, market, war or other material adverse events occur, or non-interested trustees determine purchasing Shares is not in the Company's best interest | The Company may waive Offer conditions or tender defects | The Offer is not made to holders in jurisdictions where making or accepting it would not comply with applicable laws",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,subject_company,BlackRock Private Credit Fund,BlackRock Private Credit Fund,True,tp
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,bidder,BlackRock Private Credit Fund,"BlackRock Capital Investment Advisors, LLC",False,mismatch
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,other_parties,"BlackRock Capital Investment Advisors, LLC (investment adviser) | State Street Bank and Trust Company (transfer agent)",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,security_description,"BlackRock Private Credit Fund Class S common shares of beneficial interest, Class D common shares of beneficial interest, and Institutional common shares of beneficial interest",Class D common shares of beneficial interest,True,tp
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,cusip,BRY4333P7; BRY42WTV3; BRY13VCK2,BRY4333P7; BRY42WTV3; BRY13VCK2,True,tp
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,isin,USBRY4333P74; USBRY42WTV34; USBRY13VCK24,USBRY4333P74; USBRY42WTV34; USBRY13VCK24,True,tp
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,event_status,Commenced,,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,event_status_details,"The offer began January 30, 2026, to purchase up to 3295767 Shares.",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,offer_price_type,Formula,,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,offer_price,"Net asset value per Share as of March 31, 2026 or a later date determined by the Fund if the Offer is extended",$500,False,mismatch
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,currency,,USD,False,fp_no_gt
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,offer_price_basis,"per Class S common share of beneficial interest, Class D common share of beneficial interest, or Institutional common share of beneficial interest",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,offer_price_qualifications,Shares subject to an early repurchase deduction are repurchased at 98% of aggregate net asset value | The Repurchase Instrument is non-interest bearing | Payment may be subject to U.S. tax withholding,,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,expiration_date,2/27/2026 11:59 PM Eastern Time,"May 28, 2025",False,mismatch
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,withdrawal_deadline,"2/27/2026 11:59 PM Eastern Time | If the Fund has not accepted the tendered Shares, withdrawal is permitted on or after 3/31/2026",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,settlement_date,Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: on or before 30 days after the Valuation Date,,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,minimum_tender_condition,No minimum tender condition,,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,proration_terms,"If more than 3295767 Shares are duly tendered before expiration and not withdrawn, the Fund will accept Shares for payment pro rata based on the number tendered, with priority for repurchase requests in the case of a shareholder's death or disability | Unaccepted Shares are not automatically carried forward or given priority in a future tender offer",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,tendering_conditions,"Shareholders must complete and sign the Letter of Transmittal and submit it as instructed to the Transfer Agent or their financial advisor, as applicable, for receipt by 2/27/2026 11:59 PM Eastern Time | Submissions to the Transfer Agent may be made by mail or e-mail; an e-mailed Letter of Transmittal must be followed promptly by the original | For a partial tender, provide either a number of Shares or a dollar amount, not both; if both are provided, the number of Shares controls | A partial tender generally must leave an account balance of at least $500 as of the Valuation Date | The Fund may reject tenders that are untimely, defective, or unlawful and may waive conditions or defects",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,available_options,"Shareholders may tender all or a portion of their Shares | For a partial repurchase, shareholders may specify a number of Shares or a dollar amount of Shares | A shareholder may request a full repurchase if the requested partial repurchase would otherwise be reduced to maintain the minimum account balance",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,default_option,"If both a number of Shares and a dollar amount are provided for a partial repurchase, the number of Shares controls | If a partial tender would leave an account balance below the required minimum, the Fund may reduce the amount repurchased unless the shareholder elects to change the request to a full repurchase",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,financial_terms,"The Fund offers to purchase up to 3295767 Shares, approximately 5% of outstanding Shares as of December 31, 2025 | Aggregate maximum purchase price used to calculate the filing fee: $78933619.65 | Expected funding sources are cash on hand, borrowings and/or proceeds from sales of portfolio holdings",,False,fn
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,conditions_restrictions,"The Fund may extend the offer and adjust the Valuation Date, amend or cancel the offer, or postpone acceptance of tenders | The Fund may cancel, amend, or postpone acceptance if it cannot liquidate portfolio securities in an orderly manner consistent with its investment objectives and policies; specified legal, banking, credit, trading, hostilities, net asset value, or other materially adverse events occur; or the Independent Trustees determine that purchasing Shares is not in the Fund's best interest | Payment is not contingent on financing availability | The offer is not made, and tenders will not be accepted, in jurisdictions where the offer or acceptance would not comply with applicable securities or Blue Sky laws",,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,subject_company,"Enzon Pharmaceuticals, Inc.","Enzon Pharmaceuticals, Inc.",True,tp
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,bidder,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,False,mismatch
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,security_description,"Enzon Pharmaceuticals, Inc. Series C Non-Convertible Redeemable Preferred Stock, $0.01 par value per share","Series C
+Non-Convertible Redeemable Preferred Stock",True,tp
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,ticker,ENZN,ENZN,True,tp
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,cusip,293904702,293904702,True,tp
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,isin,US2939047021,US2939047021,True,tp
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,event_status,Commenced,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,event_status_details,The filing relates to an exchange offer for Series C Preferred Stock.,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,offer_price_type,Noncash,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,offer_price,"Shares of Enzon Pharmaceuticals, Inc. common stock equal to the aggregate liquidation preference of each share of Series C Preferred Stock divided by $7.83, after giving effect to the Reverse Stock Split",7.83,True,tp
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,currency,USD,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,offer_price_basis,per share of Series C Non-Convertible Redeemable Preferred Stock,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,offer_price_qualifications,Cash in lieu of any fractional shares of Common Stock,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,expiration_date,,"March
+9, 2026",False,fp_no_gt
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,tendering_conditions,Shares of Series C Preferred Stock must be validly tendered and not validly withdrawn.,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,financial_terms,Cash in lieu of any fractional shares of Common Stock will be paid from Enzon’s cash on hand.,,False,fn
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,conditions_restrictions,"The Offer is conditioned upon the satisfaction or waiver of all conditions to consummation of the Merger under the Merger Agreement, including effectiveness of the Registration Statement and receipt of the requisite written consent of Enzon stockholders approving the Merger and related transactions.",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,subject_company,"Macquarie Focused Access Fund, LLC","Macquarie Focused Access Fund, LLC",True,tp
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,bidder,"Macquarie Focused Access Fund, LLC","MACQUARIE FOCUSED ACCESS FUND, LLC",True,tp
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,other_parties,"Macquarie Wealth Advisers, LLC (investment adviser) | UMB Fund Services, Inc. (administrator)",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,security_description,"Class F1, Class F2, Class A and Class I units of limited liability company interests of Macquarie Focused Access Fund, LLC","Class A and
+Class I Units of Limited Liability Company Interests",True,tp
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,event_status,Commenced,,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,event_status_details,"Tender offer period began February 2, 2026.",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,offer_price_type,Formula,,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,offer_price,"Net asset value per Unit as of March 31, 2026, less any Early Repurchase Fee","net asset
+value",True,tp
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,currency,,USD,False,fp_no_gt
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,offer_price_basis,"per Class F1, Class F2, Class A or Class I Unit",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,offer_price_qualifications,"2% Early Repurchase Fee for Units repurchased before the day immediately preceding the one-year anniversary of purchase; the Fund may waive the fee in stated circumstances | If the tender period is extended beyond March 31, 2026, net asset value generally will be determined at the close of business on the last business day of the month in which the offer actually expires; the Fund may adjust the valuation date | The Fund may pay all or part of the price by distributing securities pro rata in the stated extraordinary event",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,expiration_date,3/2/2026 12:00 midnight New York time,"April 17, 2020",False,mismatch
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,withdrawal_deadline,3/2/2026 12:00 midnight New York time,"April 17, 2020",False,mismatch
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,settlement_date,Acceptance: when the Fund gives written notice to the tendering investor of its election to purchase | Payment: as promptly as practicable after the applicable Valuation Date; full payment expected approximately 35 days following the Valuation Date,Payment: promptly,False,mismatch
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,minimum_tender_condition,No minimum tender condition,,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,proration_terms,"If more than $278174676 of Units are duly tendered and not withdrawn, the Fund may accept additional Units permitted under Rule 13e-4(f)(1)(ii); extend the Offer and increase the purchase amount; or accept Units tendered by the termination date for payment pro rata based on the aggregate net asset value of tendered Units",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,tendering_conditions,"Investors must complete, sign and return a Letter of Transmittal received by the Tender Offer Termination Date | Morgan Stanley Wealth Management clients must submit documents to their financial advisor, whose advisors should submit them to the Order Entry System; direct investors should send documents to UMB Fund Services, Inc. | Partial tenders generally must leave a $25000 account balance; the Fund may reduce a tender that would leave less, or repurchase all Units | Defective or irregular tenders are not deemed made until cured or waived; investors are responsible for confirming receipt",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,available_options,"Investors may tender all or some of their Class F1, Class F2, Class A and/or Class I Units, subject to the $25000 minimum remaining account balance for a partial tender",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,financial_terms,"Up to $278174676 of Units in the aggregate | Potential cash sources include cash on hand, sale of liquid securities, possible borrowings and proceeds of new Unit sales",,False,fn
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,conditions_restrictions,"The Fund may extend, amend or cancel the Offer, or postpone acceptance of tenders | Stated grounds include inability to liquidate portfolio securities in an orderly manner consistent with investment objectives and policies; specified legal, banking, credit, trading, war or calamity events; a material decrease in net asset value; or another event or condition materially adverse to the Fund or investors | Independent Directors may determine to liquidate the Fund or that purchasing Units is not in the Fund’s best interest | The Fund may waive conditions or defects in a tender | The Offer excludes jurisdictions where making or accepting it would not comply with applicable securities or Blue Sky laws",,False,fn
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,subject_company,Ares Private Markets Fund,Ares Private Markets Fund,True,tp
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,bidder,Ares Private Markets Fund,"Ares Private
+Markets Fund",True,tp
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,security_description,Ares Private Markets Fund Class A shares of beneficial interest,Class D Shares,False,mismatch
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,cusip,04020B202; 04020B301; 04020B103,04020B202; 04020B301; 04020B103,True,tp
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,isin,US04020B2025; US04020B3015; US04020B1035,US04020B2025; US04020B3015; US04020B1035,True,tp
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,event_status,Completed,,False,fn
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,event_status_details,"382,517.070 Class A Shares were validly tendered and not withdrawn; all were accepted for purchase and paid for. Total payment was $14,256,398.13.",,False,fn
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_type,Formula,,False,fn
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price,"Net asset value per Class A Share as of December 31, 2025, minus any early repurchase fee","$5,000.00",False,mismatch
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,currency,,USD,False,fp_no_gt
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_basis,per Class A Share,,False,fn
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_qualifications,Minus any early repurchase fee,,False,fn
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,expiration_date,12/30/2025 11:59 PM Eastern Time,,False,fn
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,financial_terms,"Offer to purchase up to $188,659,203.02 of shares of beneficial interest of the Fund | Total payment for Class A Shares was $14,256,398.13",,False,fn
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,subject_company,Ares Private Markets Fund,Ares Private Markets Fund,True,tp
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,bidder,Ares Private Markets Fund,"Ares Private
+Markets Fund",True,tp
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,security_description,Ares Private Markets Fund Class D shares of beneficial interest,Class D Shares,True,tp
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,cusip,04020B202; 04020B301; 04020B103,04020B202; 04020B301; 04020B103,True,tp
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,isin,US04020B2025; US04020B3015; US04020B1035,US04020B2025; US04020B3015; US04020B1035,True,tp
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,event_status,Completed,,False,fn
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,event_status_details,"132.259 Class D Shares were validly tendered and not withdrawn; all were accepted for purchase and paid for. Total payment was $5,000.00.",,False,fn
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_type,Formula,,False,fn
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price,"Net asset value per Class D Share as of December 31, 2025, minus any early repurchase fee","$5,000.00",False,mismatch
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,currency,,USD,False,fp_no_gt
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_basis,per Class D Share,,False,fn
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_qualifications,Minus any early repurchase fee,,False,fn
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,expiration_date,12/30/2025 11:59 PM Eastern Time,,False,fn
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,financial_terms,"Offer to purchase up to $188,659,203.02 of shares of beneficial interest of the Fund | Total payment for Class D Shares was $5,000.00",,False,fn
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,subject_company,Ares Private Markets Fund,Ares Private Markets Fund,True,tp
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,bidder,Ares Private Markets Fund,"Ares Private
+Markets Fund",True,tp
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,security_description,Ares Private Markets Fund Class I shares of beneficial interest,Class D Shares,False,mismatch
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,cusip,04020B202; 04020B301; 04020B103,04020B202; 04020B301; 04020B103,True,tp
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,isin,US04020B2025; US04020B3015; US04020B1035,US04020B2025; US04020B3015; US04020B1035,True,tp
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,event_status,Completed,,False,fn
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,event_status_details,"293,740.858 Class I Shares were validly tendered and not withdrawn; all were accepted for purchase and paid for. Total payment was $11,207,705.03.",,False,fn
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_type,Formula,,False,fn
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price,"Net asset value per Class I Share as of December 31, 2025, minus any early repurchase fee","$5,000.00",False,mismatch
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,currency,,USD,False,fp_no_gt
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_basis,per Class I Share,,False,fn
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,offer_price_qualifications,Minus any early repurchase fee,,False,fn
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,expiration_date,12/30/2025 11:59 PM Eastern Time,,False,fn
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,financial_terms,"Offer to purchase up to $188,659,203.02 of shares of beneficial interest of the Fund | Total payment for Class I Shares was $11,207,705.03",,False,fn
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,subject_company,Antares Strategic Credit Fund,ANTARES STRATEGIC CREDIT FUND,True,tp
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,bidder,Antares Strategic Credit Fund,Antares Strategic Credit Fund,True,tp
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,security_description,Antares Strategic Credit Fund Common Shares of Beneficial Interest,Common Shares of Beneficial Interest,True,tp
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,cusip,03666N108,03666N108,True,tp
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,isin,US03666N1081,US03666N1081,True,tp
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,event_status,Completed,,False,fn
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,event_status_details,"2618441.407 Shares were validly tendered and not withdrawn; the Fund paid shareholders a total of $66560780.57 on or about February 4, 2026",,False,fn
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,offer_price_type,Formula,,False,fn
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,offer_price,"Net asset value per Share of the applicable Class as of December 31, 2025",net asset value,True,tp
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,offer_price_basis,per Common Share of Beneficial Interest,,False,fn
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,offer_price_qualifications,"Payment was made in the form of non-interest bearing, non-transferable promissory notes",,False,fn
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,expiration_date,12/23/2025 11:59 PM Eastern Time,"June 11, 2026",False,mismatch
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,withdrawal_deadline,,"June 11, 2026",False,fp_no_gt
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,settlement_date,Payment: on or about 2/4/2026,"February 4, 2026",True,tp
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,effective_date,12/31/2025 4:00 PM Eastern Time,,False,fn
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,financial_terms,The Fund offered to purchase up to 4990341 Shares | The Fund paid shareholders a total of $66560780.57,,False,fn
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,subject_company,Antares Private Credit Fund,ANTARES PRIVATE CREDIT FUND,True,tp
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,bidder,Antares Private Credit Fund,Antares Private Credit Fund,True,tp
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,security_description,"Antares Private Credit Fund Class I, Class D and Class S common shares of beneficial interest",Class I common shares of beneficial interest,False,mismatch
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,event_status,Final results announced,,False,fn
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,event_status_details,No Shares were validly tendered and not withdrawn before expiration; no payments were made to shareholders.,,False,fn
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,mandatory_voluntary_indicator,Voluntary,,False,fn
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,offer_price_type,Formula,,False,fn
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,offer_price,"Net asset value per Share of the applicable Class as of December 31, 2025","net asset value
+per Share",True,tp
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,offer_price_basis,per Share of the applicable Class,,False,fn
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,expiration_date,12/23/2025 11:59 PM Eastern Time,"September 17, 2025",False,mismatch
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,withdrawal_deadline,,"September 17, 2025",False,fp_no_gt
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,financial_terms,Offer to purchase up to 1394707 Shares.,,False,fn

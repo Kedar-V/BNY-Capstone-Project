@@ -1,0 +1,45 @@
+{
+  "run_id": "rules_ids_full182",
+  "timestamp": "2026-10-28T16:30:49.740676+00:00",
+  "parent_run_id": null,
+  "change_summary": "GLiNER+rules on original 182-row GT (apples-to-apples vs full182)",
+  "config": {
+    "gliner_threshold": 0.35,
+    "gliner_model": "urchade/gliner_medium-v2.1",
+    "label_set": "core",
+    "max_windows": 8,
+    "fields": "core",
+    "scope": "full",
+    "n_accessions": 100,
+    "n_gt_rows": 182
+  },
+  "keep": false,
+  "git_commit": "c84e5d8",
+  "micro": {
+    "tp": 753,
+    "fp": 537,
+    "fn": 839,
+    "scored": 1728,
+    "gt_present": 1592,
+    "precision": 0.5837209302325581,
+    "recall": 0.4729899497487437,
+    "f1": 0.5225537820957669,
+    "accuracy": 0.4357638888888889,
+    "accuracy_when_gt": 0.4729899497487437
+  },
+  "focus_f1": {
+    "offer_price": 0.14603174603174604,
+    "bidder": 0.8076923076923077,
+    "subject_company": 0.8338028169014085,
+    "security_description": 0.5322128851540616,
+    "expiration_date": 0.12371134020618557
+  },
+  "deltas": {
+    "micro_f1": null,
+    "f1_offer_price": null,
+    "f1_bidder": null,
+    "f1_subject_company": null,
+    "f1_security_description": null,
+    "f1_expiration_date": null
+  }
+}

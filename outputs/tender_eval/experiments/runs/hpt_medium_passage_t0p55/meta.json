@@ -1,0 +1,47 @@
+{
+  "run_id": "hpt_medium_passage_t0p55",
+  "timestamp": "2026-10-28T18:02:08.402067+00:00",
+  "parent_run_id": "medium_passage_holdout",
+  "change_summary": "HPT threshold=0.55 on final",
+  "config": {
+    "gliner_threshold": 0.55,
+    "gliner_model": "models/tender_gliner_medium/final",
+    "label_set": "core",
+    "max_windows": 8,
+    "fields": "core",
+    "scope": "holdout",
+    "n_accessions": 20,
+    "n_gt_rows": 23,
+    "hpt": "threshold"
+  },
+  "keep": false,
+  "git_commit": "c84e5d8",
+  "micro": {
+    "tp": 89,
+    "fp": 65,
+    "fn": 107,
+    "scored": 212,
+    "gt_present": 196,
+    "precision": 0.577922077922078,
+    "recall": 0.45408163265306123,
+    "f1": 0.5085714285714286,
+    "accuracy": 0.419811320754717,
+    "accuracy_when_gt": 0.45408163265306123
+  },
+  "focus_f1": {
+    "offer_price": 0.4782608695652174,
+    "bidder": 0.5217391304347826,
+    "subject_company": 0.9130434782608695,
+    "security_description": 0.5128205128205128,
+    "expiration_date": 0.16216216216216214
+  },
+  "deltas": {
+    "micro_f1": 0.0,
+    "f1_offer_price": 0.0,
+    "f1_bidder": 0.0,
+    "f1_subject_company": 0.0,
+    "f1_security_description": 0.0,
+    "f1_expiration_date": 0.0
+  },
+  "mlflow_run_id": "0141f3bf462744e3b2459ddcd165527d"
+}

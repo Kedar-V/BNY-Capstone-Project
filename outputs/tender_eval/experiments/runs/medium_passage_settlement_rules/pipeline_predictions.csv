@@ -1,0 +1,39 @@
+gt_row_id,accession_number,event_id,join,status,n_facts,subject_company,bidder,parent,acquisition_subsidiary,dealer_manager,depositary,information_agent,other_parties,security_description,ticker,cusip,isin,event_status,event_status_details,mandatory_voluntary_indicator,offer_price_type,offer_price,currency,offer_price_basis,offer_price_qualifications,expiration_date,withdrawal_deadline,settlement_date,effective_date,minimum_tender_condition,proration_terms,tendering_conditions,available_options,default_option,financial_terms,conditions_restrictions
+0:0001193125-26-000507,0001193125-26-000507,005-94255,accession,scored,7,Jefferies Credit Partners BDC Inc.,Paul Hastings LLP,,,,,,,,,,,,,,,net asset value,,,,,,Payment: promptly after the Termination Date,,,,,,,,
+1:0001104659-26-000598,0001104659-26-000598,005-94462,accession,scored,8,FIRST TRUST PRIVATE ASSETS FUND,"UMB Fund Services, Inc.",,,,,,,SHARES OF BENEFICIAL INTEREST,,,,,,,,net asset value,,,,,,,,,,,,,,
+2:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,scored,70,"MERSANA THERAPEUTICS, INC.","Emerald Merger Sub, Inc.",,,,,,,"Mersana Therapeutics, Inc.",MRSN,59045L106,US59045L1061,,,,,"$
+7.54",USD,,,"January 5, 2026","February 3, 2026",Payment: promptly after the Expiration Date,"November 13, 2025",Offer Conditions,,,,,,
+3:0001104659-26-001149,0001104659-26-001149,005-94079,accession,scored,8,KKR FS Income Trust,KKR FS Income Trust,,,,,,,,,48255N100,US48255N1000,,,,,"net asset value per share as of December 31, 2025",,,,"September 1, 2026",,,,,,,,,,
+4:0001104659-26-001148,0001104659-26-001148,005-94422,accession,scored,9,KKR FS Income Trust Select,KKR FS Income Trust Select,,,,,,,,,48256J108,US48256J1088,,,,,"net asset value per Share
+as of December 31, 2025",,,,"September 1, 2026",,,,,,,,,,
+5:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,scored,28,"ck & Co., Inc.",Merck Sharp & Dohme LLC,,,,,,,Series A Convertible Voting Preferred Stock,,171757206,US1717572069,,,,,"$15,505.00",USD,,,,"JANUARY 6, 2026","February 3, 2026",,,,,,,,
+6:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,scored,28,"ck & Co., Inc.",Merck Sharp & Dohme LLC,,,,,,,Series A Convertible Voting Preferred Stock,,171757206,US1717572069,,,,,"$15,505.00",USD,,,,"JANUARY 6, 2026","February 3, 2026",,,,,,,,
+7:0001104659-26-002517,0001104659-26-002517,005-91530,accession,scored,77,Generation Bio Co.,"Alliance Advisors, LLC",,,,,,,Company Shares,GBIO,37148K209,US37148K2096,,,,,$4.2913,USD,,,"February 8, 2026","February 8, 2026",Payment: promptly after the Expiration Date,Effective Time,Minimum Tender Condition,,,,,,
+8:0000919574-26-000310,0000919574-26-000310,005-93136,accession,scored,16,"OCEANPAL, INC.",OceanPal Inc.,,,,,,,7.0% Series D Cumulative Convertible Perpetual Preferred Stock,,,,,,,,$27.2 million,USD,,,"November 25, 2025",,Payment: promptly after the expiration,,,,,,,,
+9:0001104659-26-006294,0001104659-26-006294,005-93688,accession,scored,9,EAGLE POINT INSTITUTIONAL INCOME FUND,EAGLE POINT INSTITUTIONAL INCOME FUND,,,,,,,,,269819108,US2698191085,,,,,net asset value,,,,,,"January 22, 2026",,,,,,,,
+10:0001104659-26-006517,0001104659-26-006517,005-94568,accession,scored,35,"Hartford Schroders
+Private Opportunities Fund","Hartford Funds Management
+    Co, LLC",,,,,,,"Class I
+XHFIX",,,,,,,,net asset value,,,,"December 27, 2021","June 30, 2024",,,,,,,,,
+11:0001104659-26-006950,0001104659-26-006950,005-95189,accession,scored,10,COATUE INNOVATIVE STRATEGIES FUND,Kirkland & Ellis LLP,,,,,,,,,,,,,,,value,,,,"February 24, 2026",,,,,,,,,,
+12:0001104659-26-008028,0001104659-26-008028,005-90791,accession,scored,28,MONROE CAPITAL INCOME PLUS CORPORATION,Monroe Capital Income Plus Corporation,,,,,,,Common Stock,,,,,,,,net asset value,,,,"February 27, 2026",,Payment: promptly following expiration of the Offer,,,,,,,,
+13:0000930413-26-000298,0000930413-26-000298,005-94863,accession,scored,12,Lord Abbett Private Credit Fund,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,,,,,,,,,0.01,,,,"January 29, 2026","January 29, 2026",,,,,,,,,
+14:0000930413-26-000299,0000930413-26-000299,005-95186,accession,scored,14,Lord Abbett Private Credit Fund S,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,,,,,,,,,0.01,,,,"January 29, 2026","January 29, 2026",,,,,,,,,
+15:0001140361-26-003032,0001140361-26-003032,005-94050,accession,scored,20,BlackRock Private Credit Fund,"BlackRock Capital Investment Advisors, LLC",,,,,,,Class D common shares of beneficial interest,,BRY4333P7; BRY42WTV3; BRY13VCK2,USBRY4333P74; USBRY42WTV34; USBRY13VCK24,,,,,$500,USD,,,"May 28, 2025",,,,,,,,,,
+16:0001104659-26-008693,0001104659-26-008693,005-35587,accession,scored,23,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,,,,,,,,,
+17:0001104659-26-008976,0001104659-26-008976,005-91139,accession,scored,41,"Macquarie Focused Access Fund, LLC","MACQUARIE FOCUSED ACCESS FUND, LLC",,,,,,,"Class A and
+Class I Units of Limited Liability Company Interests",,,,,,,,"net asset
+value",USD,,,"April 17, 2020","April 17, 2020",Payment: promptly,,,,,,,,
+18:0001104659-26-010301,0001104659-26-010301,005-93626,accession,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+19:0001104659-26-010301,0001104659-26-010301,005-93626,accession,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+20:0001104659-26-010301,0001104659-26-010301,005-93626,accession,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+21:0001104659-26-011592,0001104659-26-011592,005-95034,accession,scored,14,ANTARES STRATEGIC CREDIT FUND,Antares Strategic Credit Fund,,,,,,,Common Shares of Beneficial Interest,,03666N108,US03666N1081,,,,,net asset value,,,,"June 11, 2026","June 11, 2026","February 4, 2026",,,,,,,,
+22:0001104659-26-011591,0001104659-26-011591,005-94860,accession,scored,11,ANTARES PRIVATE CREDIT FUND,Antares Private Credit Fund,,,,,,,Class I common shares of beneficial interest,,,,,,,,"net asset value
+per Share",,,,"September 17, 2025","September 17, 2025",,,,,,,,,

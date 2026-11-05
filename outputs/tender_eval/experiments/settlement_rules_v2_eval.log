@@ -1,0 +1,164 @@
+{
+  "workers": 12,
+  "device": "mps",
+  "gliner_batch_size": 8,
+  "gliner_threshold": 0.35,
+  "fields": "core",
+  "n_score_fields": 14
+}
+{
+  "coverage_ok": false,
+  "n_gt_value_fields": 31
+}
+holdout accessions: 20
+Running preprocess for 20 events…
+inventory:   0%|          | 0/3 [00:00<?, ?event/s]inventory: 100%|██████████| 3/3 [00:00<00:00, 254.95event/s, ok=3, skip=0]
+download:   0%|          | 0/46 [00:00<?, ?doc/s]download:   2%|▏         | 1/46 [00:00<00:35,  1.28doc/s, err=0, ok=1, skip=0]download:   4%|▍         | 2/46 [00:01<00:26,  1.68doc/s, err=0, ok=2, skip=0]download:   7%|▋         | 3/46 [00:01<00:24,  1.72doc/s, err=0, ok=3, skip=0]download:   9%|▊         | 4/46 [00:02<00:23,  1.77doc/s, err=0, ok=4, skip=0]download:  11%|█         | 5/46 [00:02<00:21,  1.94doc/s, err=0, ok=5, skip=0]download:  13%|█▎        | 6/46 [00:03<00:19,  2.07doc/s, err=0, ok=6, skip=0]download:  15%|█▌        | 7/46 [00:03<00:18,  2.11doc/s, err=0, ok=7, skip=0]download:  17%|█▋        | 8/46 [00:04<00:20,  1.89doc/s, err=0, ok=8, skip=0]download:  20%|█▉        | 9/46 [00:04<00:19,  1.87doc/s, err=0, ok=9, skip=0]download:  22%|██▏       | 10/46 [00:05<00:17,  2.03doc/s, err=0, ok=10, skip=0]download:  24%|██▍       | 11/46 [00:05<00:18,  1.89doc/s, err=0, ok=11, skip=0]download:  26%|██▌       | 12/46 [00:06<00:18,  1.86doc/s, err=0, ok=12, skip=0]download:  28%|██▊       | 13/46 [00:06<00:17,  1.86doc/s, err=0, ok=13, skip=0]download:  30%|███       | 14/46 [00:07<00:17,  1.80doc/s, err=0, ok=14, skip=0]download:  33%|███▎      | 15/46 [00:08<00:16,  1.83doc/s, err=0, ok=15, skip=0]download:  35%|███▍      | 16/46 [00:08<00:15,  1.98doc/s, err=0, ok=16, skip=0]download:  37%|███▋      | 17/46 [00:09<00:16,  1.80doc/s, err=0, ok=17, skip=0]download:  39%|███▉      | 18/46 [00:09<00:16,  1.67doc/s, err=0, ok=18, skip=0]download:  41%|████▏     | 19/46 [00:10<00:15,  1.75doc/s, err=0, ok=19, skip=0]download:  43%|████▎     | 20/46 [00:10<00:13,  1.96doc/s, err=0, ok=20, skip=0]download:  46%|████▌     | 21/46 [00:11<00:13,  1.83doc/s, err=0, ok=21, skip=0]download:  48%|████▊     | 22/46 [00:11<00:13,  1.83doc/s, err=0, ok=22, skip=0]download:  50%|█████     | 23/46 [00:12<00:14,  1.61doc/s, err=0, ok=23, skip=0]download:  52%|█████▏    | 24/46 [00:13<00:12,  1.74doc/s, err=0, ok=24, skip=0]download:  54%|█████▍    | 25/46 [00:13<00:12,  1.68doc/s, err=0, ok=25, skip=0]download:  57%|█████▋    | 26/46 [00:14<00:10,  1.85doc/s, err=0, ok=26, skip=0]download:  59%|█████▊    | 27/46 [00:26<01:14,  3.92s/doc, err=0, ok=27, skip=0]download:  61%|██████    | 28/46 [00:26<00:51,  2.86s/doc, err=0, ok=28, skip=0]download:  63%|██████▎   | 29/46 [00:26<00:36,  2.17s/doc, err=0, ok=29, skip=0]download:  65%|██████▌   | 30/46 [00:27<00:26,  1.64s/doc, err=0, ok=30, skip=0]download:  67%|██████▋   | 31/46 [00:27<00:19,  1.29s/doc, err=0, ok=31, skip=0]download:  70%|██████▉   | 32/46 [00:28<00:15,  1.08s/doc, err=0, ok=32, skip=0]download:  72%|███████▏  | 33/46 [00:28<00:11,  1.10doc/s, err=0, ok=33, skip=0]download:  74%|███████▍  | 34/46 [00:29<00:09,  1.28doc/s, err=0, ok=34, skip=0]download:  76%|███████▌  | 35/46 [00:30<00:08,  1.37doc/s, err=0, ok=35, skip=0]download:  78%|███████▊  | 36/46 [00:30<00:06,  1.48doc/s, err=0, ok=36, skip=0]download:  80%|████████  | 37/46 [00:31<00:05,  1.65doc/s, err=0, ok=37, skip=0]download:  83%|████████▎ | 38/46 [00:31<00:04,  1.75doc/s, err=0, ok=38, skip=0]download:  85%|████████▍ | 39/46 [00:32<00:04,  1.74doc/s, err=0, ok=39, skip=0]download:  87%|████████▋ | 40/46 [00:32<00:03,  1.77doc/s, err=0, ok=40, skip=0]download:  89%|████████▉ | 41/46 [00:33<00:02,  1.84doc/s, err=0, ok=41, skip=0]download:  91%|█████████▏| 42/46 [00:33<00:02,  1.86doc/s, err=0, ok=42, skip=0]download:  93%|█████████▎| 43/46 [00:34<00:01,  1.87doc/s, err=0, ok=43, skip=0]download:  96%|█████████▌| 44/46 [00:34<00:01,  1.84doc/s, err=0, ok=44, skip=0]download:  98%|█████████▊| 45/46 [00:46<00:03,  3.96s/doc, err=0, ok=45, skip=0]download: 100%|██████████| 46/46 [00:47<00:00,  2.95s/doc, err=0, ok=46, skip=0]download: 100%|██████████| 46/46 [00:47<00:00,  1.03s/doc, err=0, ok=46, skip=0]
+cleanup:   0%|          | 0/46 [00:00<?, ?doc/s]cleanup:  15%|█▌        | 7/46 [00:00<00:00, 50.09doc/s, fail=0, ok=7, skip=0]cleanup:  28%|██▊       | 13/46 [00:00<00:00, 55.05doc/s, fail=0, ok=13, skip=0]cleanup:  41%|████▏     | 19/46 [00:00<00:00, 47.26doc/s, fail=0, ok=19, skip=0]cleanup:  78%|███████▊  | 36/46 [00:00<00:00, 87.04doc/s, fail=0, ok=36, skip=0]cleanup: 100%|██████████| 46/46 [00:00<00:00, 87.87doc/s, fail=0, ok=46, skip=0]
+segment:   0%|          | 0/20 [00:00<?, ?event/s]segment:  15%|█▌        | 3/20 [00:00<00:00, 29.18event/s, fail=0, ok=3]segment:  30%|███       | 6/20 [00:00<00:00, 29.47event/s, fail=0, ok=6]segment: 100%|██████████| 20/20 [00:00<00:00, 69.10event/s, fail=0, ok=20]
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/.venv/lib/python3.14/site-packages/torch/jit/_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+gliner:   0%|          | 0/20 [00:00<?, ?event/s]gliner:   5%|▌         | 1/20 [00:03<01:08,  3.62s/event, fail=0, ok=1, pass2=1]gliner:  10%|█         | 2/20 [00:07<01:12,  4.03s/event, fail=0, ok=2, pass2=1]gliner:  15%|█▌        | 3/20 [00:34<04:05, 14.41s/event, fail=0, ok=3, pass2=2]gliner:  20%|██        | 4/20 [00:44<03:21, 12.57s/event, fail=0, ok=4, pass2=3]gliner:  25%|██▌       | 5/20 [00:56<03:03, 12.21s/event, fail=0, ok=5, pass2=4]gliner:  30%|███       | 6/20 [01:31<04:41, 20.10s/event, fail=0, ok=6, pass2=5]gliner:  35%|███▌      | 7/20 [01:35<03:13, 14.90s/event, fail=0, ok=7, pass2=6]gliner:  40%|████      | 8/20 [01:36<02:04, 10.40s/event, fail=0, ok=8, pass2=6]gliner:  45%|████▌     | 9/20 [01:37<01:20,  7.35s/event, fail=0, ok=9, pass2=6]gliner:  50%|█████     | 10/20 [01:41<01:03,  6.36s/event, fail=0, ok=10, pass2=7]gliner:  55%|█████▌    | 11/20 [01:42<00:44,  4.91s/event, fail=0, ok=11, pass2=8]gliner:  60%|██████    | 12/20 [01:43<00:29,  3.75s/event, fail=0, ok=12, pass2=8]gliner:  65%|██████▌   | 13/20 [01:45<00:22,  3.19s/event, fail=0, ok=13, pass2=9]gliner:  70%|███████   | 14/20 [01:46<00:15,  2.53s/event, fail=0, ok=14, pass2=9]gliner:  75%|███████▌  | 15/20 [02:04<00:35,  7.01s/event, fail=0, ok=15, pass2=10]gliner:  80%|████████  | 16/20 [02:05<00:21,  5.32s/event, fail=0, ok=16, pass2=11]gliner:  85%|████████▌ | 17/20 [02:08<00:13,  4.58s/event, fail=0, ok=17, pass2=12]gliner:  90%|█████████ | 18/20 [02:10<00:07,  3.96s/event, fail=0, ok=18, pass2=13]gliner:  95%|█████████▌| 19/20 [02:13<00:03,  3.63s/event, fail=0, ok=19, pass2=14]gliner: 100%|██████████| 20/20 [02:15<00:00,  3.07s/event, fail=0, ok=20, pass2=15]gliner: 100%|██████████| 20/20 [02:15<00:00,  6.78s/event, fail=0, ok=20, pass2=15]
+assemble:   0%|          | 0/20 [00:00<?, ?event/s]assemble:  35%|███▌      | 7/20 [00:00<00:00, 68.42event/s, fail=0, ok=7]assemble: 100%|██████████| 20/20 [00:00<00:00, 143.58event/s, fail=0, ok=20]
+{
+  "inventory": {
+    "status": "ok",
+    "n_events": 131,
+    "n_gold": 38,
+    "n_needs_otp_resolve": 1,
+    "n_incomplete": 92,
+    "n_inventoried_this_run": 3,
+    "n_skipped_cached": 0,
+    "otp_method_mix": {
+      "ex99_type": 32,
+      "inferred": 37,
+      "file_description": 27,
+      "missing": 35
+    },
+    "coverage_csv": "outputs/to_source_coverage.csv"
+  },
+  "download": {
+    "status": "ok",
+    "n_docs_attempted": 46,
+    "n_ok": 46,
+    "n_skipped_cached": 0,
+    "n_http_error": 0,
+    "n_empty": 0,
+    "n_events_pending": 20
+  },
+  "cleanup": {
+    "status": "ok",
+    "n_docs_cleaned": 46,
+    "n_empty_text": 0,
+    "n_failed": 0,
+    "n_skipped_cached": 0,
+    "n_events_pending": 20
+  },
+  "segment": {
+    "status": "ok",
+    "n_events_segmented": 20,
+    "n_otp_toc_docs": 7,
+    "n_otp_faq_only_docs": 0,
+    "n_fallback_full_doc": 39,
+    "n_failed": 0,
+    "n_events_pending": 20
+  },
+  "gliner": {
+    "status": "ok",
+    "n_events_ok": 20,
+    "n_failed": 0,
+    "n_segments_scored": 158,
+    "n_spans": 467,
+    "n_pass2_events": 15,
+    "gliner_unavailable": false,
+    "gliner_model": "models/tender_gliner_medium/final",
+    "n_events_pending": 20
+  },
+  "assemble": {
+    "status": "ok",
+    "n_reps_ok": 20,
+    "n_reps_failed": 0,
+    "n_candidate_facts": 451,
+    "n_entities": 451,
+    "id_currency": "rules",
+    "n_events_pending": 20
+  }
+}
+reset outputs/tender_eval/checkpoint.jsonl
+reset outputs/tender_eval/live_metrics.json
+reset outputs/tender_eval/summary.json
+reset outputs/tender_eval/details.jsonl
+reset outputs/tender_eval/per_field.csv
+reset outputs/tender_eval/pipeline_predictions.csv
+reset outputs/tender_eval/pipeline_vs_gt.csv
+Loaded predictions for 226 accessions / 134 events; scoring 23 GT rows / 20 accessions (core)
+eval:   0%|          | 0/23 [00:00<?, ?row/s]eval: 100%|██████████| 23/23 [00:00<00:00, 6308.05row/s, P=0.59, R=0.49, F1=0.53, miss=0]
+{
+  "experiment": {
+    "run_id": "medium_passage_settlement_rules_v2",
+    "timestamp": "2026-10-29T18:26:43.249950+00:00",
+    "parent_run_id": "medium_passage_settlement_rules",
+    "change_summary": "settlement rules v2: pay dates + Payment: promptly",
+    "config": {
+      "gliner_threshold": 0.35,
+      "gliner_model": "models/tender_gliner_medium/final",
+      "label_set": "core",
+      "max_windows": 8,
+      "fields": "core",
+      "scope": "holdout",
+      "n_accessions": 20,
+      "n_gt_rows": 23
+    },
+    "keep": true,
+    "git_commit": "c84e5d8",
+    "micro": {
+      "tp": 96,
+      "fp": 67,
+      "fn": 100,
+      "scored": 212,
+      "gt_present": 196,
+      "precision": 0.588957055214724,
+      "recall": 0.4897959183673469,
+      "f1": 0.5348189415041783,
+      "accuracy": 0.4528301886792453,
+      "accuracy_when_gt": 0.4897959183673469
+    },
+    "focus_f1": {
+      "offer_price": 0.4782608695652174,
+      "bidder": 0.5217391304347826,
+      "subject_company": 0.9130434782608695,
+      "security_description": 0.5128205128205128,
+      "expiration_date": 0.16216216216216214
+    },
+    "deltas": {
+      "micro_f1": 0.01671309192200554,
+      "f1_offer_price": 0.0,
+      "f1_bidder": 0.0,
+      "f1_subject_company": 0.0,
+      "f1_security_description": 0.0,
+      "f1_expiration_date": 0.0
+    },
+    "mlflow_run_id": "36a407c115e4484c96fdf483a3b35d8f"
+  }
+}
+{
+  "out": "outputs/tender_eval",
+  "fields": "core",
+  "n_gt_rows": 23,
+  "n_gt_accessions": 20,
+  "n_accessions_scored": 23,
+  "n_accessions_missing_prediction": 0,
+  "n_accessions_joined_via_event_id": 3,
+  "micro": {
+    "tp": 96,
+    "fp": 67,
+    "fn": 100,
+    "scored": 212,
+    "gt_present": 196,
+    "precision": 0.588957055214724,
+    "recall": 0.4897959183673469,
+    "f1": 0.5348189415041783,
+    "accuracy": 0.4528301886792453,
+    "accuracy_when_gt": 0.4897959183673469
+  }
+}

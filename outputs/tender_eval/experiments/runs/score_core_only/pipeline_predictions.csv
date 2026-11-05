@@ -1,0 +1,35 @@
+accession_number,event_id,join,status,n_facts,subject_company,bidder,parent,acquisition_subsidiary,dealer_manager,depositary,information_agent,other_parties,security_description,ticker,cusip,isin,event_status,event_status_details,mandatory_voluntary_indicator,offer_price_type,offer_price,currency,offer_price_basis,offer_price_qualifications,expiration_date,withdrawal_deadline,settlement_date,effective_date,minimum_tender_condition,proration_terms,tendering_conditions,available_options,default_option,financial_terms,conditions_restrictions
+0001193125-26-000507,005-94255,event_id,scored,13,,Paul Hastings LLP,,,,,,,Security Holders,Preferred Stock,,,,,,,$0.001,,,,,,,,,,,,,,
+0001104659-26-000598,005-94462,event_id,scored,18,,"First
+                                            Trust Private Assets Fund",,,,,,,"SHARES OF BENEFICIAL
+INTEREST",Shares,CUSIP Number,,,,,,"$8,244,011",,,,,,,,,,,,,,
+0001104659-26-001124,005-90033,event_id,scored,114,Mersana,"Day One Biopharmaceuticals, Inc.",,,,,,,"Mersana Therapeutics, Inc.",MRSN,59045L 106,,,,,,"$
+28.36",one CVR,,,"March 12, 2025","February 3, 2026",,"November 13, 2025",blacklining,Extension Deadline,,,,,
+0001104659-26-001149,005-94079,event_id,scored,26,,"FS/KKR Advisor,
+LLC",,,,,,,Common Shares of Beneficial Interest,Class I common shares,CUSIP,,,,,,$0.01,,,,"September 1, 2026",,,,,,,,,,
+0001104659-26-001148,005-94422,event_id,scored,26,,"FS/KKR Advisor, LLC",,,,,,,Common Shares of Beneficial Interest,"Class S
+common shares",CUSIP,,,,,,$0.01,,,,"September 1, 2026",,,,,,,,,,
+0001193125-26-005515,005-88806,event_id,scored,55,,"Cidara Therapeutics, Inc.",,,,,,,Series A Convertible Voting Preferred Stock,Series A Shares,"CUSIP Number
+of Class of Securities",,,,,,"$15,505.00",,,,"JANUARY 6, 2026",,,Merger Effective Time,,,,,,,
+0001104659-26-002517,005-91530,accession,scored,130,target corporation,Generation Bio Co.,,,,,,,Company Shares,GBIO,37148K 209,,,,,,$5.51,CVR,,,"April 15, 2026","March 10, 2026",,Effective Time,Minimum Tender Condition,,,,,,
+0000919574-26-000310,005-93136,event_id,scored,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0001104659-26-006294,005-93688,event_id,scored,11,,Eagle Point Credit Management LLC,,,,,,,SHARES OF BENEFICIAL INTEREST,Shares,CUSIP Number,,,,,,,,,,,,,,,,,,,,
+0001104659-26-006517,005-94568,event_id,scored,76,,HARTFORD SCHRODERS PRIVATE OPPORTUNITIES FUND,,,,,,,Class SDR,XHFAX,,,,,,,"$24,382,332",,,,"August 26, 2024",Notice Due Date,,,,,,,,,
+0001104659-26-006950,005-95189,accession,scored,25,,"Coatue
+Management, L.L.C.",,,,,,,CLASS S,Shares,CUSIP Number,,,,,,"$182,790,754",,,,"February 24, 2026",,,,,,,,,,
+0001104659-26-008028,005-90791,event_id,scored,53,,"MONROE CAPITAL
+INCOME PLUS CORPORATION",,,,,,,Shares,Common Stock,,,,,,,$10.10,,,,"April 15, 2022","April 1, 2021",,,,pro,,,,,
+0000930413-26-000298,005-94863,event_id,scored,35,,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,Common Shares of Beneficial Interest,Shares,CUSIP,,,,,,$0.01,,,,"August 1, 2025","August 1, 2025",,,,,,,,,
+0000930413-26-000299,005-95186,event_id,scored,30,,"Lord Abbett Private
+Credit Advisor LLC",,,,,,,Common Shares of Beneficial Interest,Shares,CUSIP,,,,,,$0.01,,,,"August 27, 2026","July 30, 2026",,,,,,,,,
+0001140361-26-003032,005-94050,event_id,scored,58,,"Skadden, Arps, Slate, Meagher & Flom LLP",,,,,,,Class S common shares of beneficial interest,BRY42WTV3,,,,,,,$500,,,,"July 1, 2024",11:59 p.m.,,,,,,,,,
+0001104659-26-008693,005-35587,accession,scored,27,,"Enzon Pharmaceuticals, Inc.",,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,CUSIP Number,,,,,,$7.83,,,,"March
+9, 2026",,,"January 30, 2026",,,,,,,
+0001104659-26-008976,005-91139,event_id,scored,88,,"CPG
+Focused Access Fund, LLC",,,,,,,Class F2,Units,CUSIP Number,,,,,,"$25,000",Units,,,"April 17, 2020",12:00 midnight,,,,,,,,,
+0001104659-26-010301,005-93626,event_id,scored,21,,Shareholders,,,,,,,CLASS I SHARES OF BENEFICIAL INTEREST,Class I,04020B103,,,,,,"$261,187,531.10",,,,,,,,,,,,,,
+0001104659-26-011592,005-95034,event_id,scored,21,,Antares Capital Credit Advisers LLC,,,,,,,"Common
+Shares of Beneficial Interest",common shares of beneficial interest,CUSIP Number,,,,,,Offer Amount,,,,"June 11, 2026",,,,,,,,,,
+0001104659-26-011591,005-94860,event_id,scored,30,,Antares Capital Credit Advisers LLC,,,,,,,Class I Shares,Class D Shares,0366433029,,,,,,Offer Amount,,,,"September 17, 2025",,,,,,,,,,

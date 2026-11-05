@@ -1,0 +1,631 @@
+{
+  "per_field": [
+    {
+      "field": "subject_company",
+      "gt_present": 23,
+      "span_recall_any_label": 1.0,
+      "span_recall_correct_label": 1.0,
+      "fact_recall_correct_hint": 1.0,
+      "top1_recall": 0.913,
+      "top5_recall": 1.0,
+      "top5_minus_top1": 0.087,
+      "avg_candidates": 2.65,
+      "span_any_hit": 23,
+      "span_correct_label_hit": 23,
+      "top1_hit": 21,
+      "top5_hit": 23,
+      "diagnosis": "ok"
+    },
+    {
+      "field": "bidder",
+      "gt_present": 23,
+      "span_recall_any_label": 1.0,
+      "span_recall_correct_label": 0.913,
+      "fact_recall_correct_hint": 0.913,
+      "top1_recall": 0.522,
+      "top5_recall": 0.87,
+      "top5_minus_top1": 0.348,
+      "avg_candidates": 4.04,
+      "span_any_hit": 23,
+      "span_correct_label_hit": 21,
+      "top1_hit": 12,
+      "top5_hit": 20,
+      "diagnosis": "RANKING (recoverable in top5)"
+    },
+    {
+      "field": "security_description",
+      "gt_present": 23,
+      "span_recall_any_label": 1.0,
+      "span_recall_correct_label": 0.522,
+      "fact_recall_correct_hint": 0.522,
+      "top1_recall": 0.435,
+      "top5_recall": 0.522,
+      "top5_minus_top1": 0.087,
+      "avg_candidates": 1.7,
+      "span_any_hit": 23,
+      "span_correct_label_hit": 12,
+      "top1_hit": 10,
+      "top5_hit": 12,
+      "diagnosis": "NER/label"
+    },
+    {
+      "field": "cusip",
+      "gt_present": 13,
+      "span_recall_any_label": 1.0,
+      "span_recall_correct_label": 0.308,
+      "fact_recall_correct_hint": 1.0,
+      "top1_recall": 1.0,
+      "top5_recall": 1.0,
+      "top5_minus_top1": 0.0,
+      "avg_candidates": 1.31,
+      "span_any_hit": 13,
+      "span_correct_label_hit": 4,
+      "top1_hit": 13,
+      "top5_hit": 13,
+      "diagnosis": "rules-owned"
+    },
+    {
+      "field": "isin",
+      "gt_present": 13,
+      "span_recall_any_label": 0.769,
+      "span_recall_correct_label": 0.0,
+      "fact_recall_correct_hint": 1.0,
+      "top1_recall": 1.0,
+      "top5_recall": 1.0,
+      "top5_minus_top1": 0.0,
+      "avg_candidates": 1.31,
+      "span_any_hit": 10,
+      "span_correct_label_hit": 0,
+      "top1_hit": 13,
+      "top5_hit": 13,
+      "diagnosis": "rules-owned"
+    },
+    {
+      "field": "ticker",
+      "gt_present": 7,
+      "span_recall_any_label": 0.429,
+      "span_recall_correct_label": 0.429,
+      "fact_recall_correct_hint": 0.429,
+      "top1_recall": 0.429,
+      "top5_recall": 0.429,
+      "top5_minus_top1": 0.0,
+      "avg_candidates": 0.43,
+      "span_any_hit": 3,
+      "span_correct_label_hit": 3,
+      "top1_hit": 3,
+      "top5_hit": 3,
+      "diagnosis": "rules-owned"
+    },
+    {
+      "field": "offer_price",
+      "gt_present": 23,
+      "span_recall_any_label": 0.957,
+      "span_recall_correct_label": 0.957,
+      "fact_recall_correct_hint": 0.957,
+      "top1_recall": 0.478,
+      "top5_recall": 0.87,
+      "top5_minus_top1": 0.391,
+      "avg_candidates": 4.87,
+      "span_any_hit": 22,
+      "span_correct_label_hit": 22,
+      "top1_hit": 11,
+      "top5_hit": 20,
+      "diagnosis": "RANKING (recoverable in top5)"
+    },
+    {
+      "field": "currency",
+      "gt_present": 2,
+      "span_recall_any_label": 0.0,
+      "span_recall_correct_label": 0.0,
+      "fact_recall_correct_hint": 0.5,
+      "top1_recall": 0.5,
+      "top5_recall": 0.5,
+      "top5_minus_top1": 0.0,
+      "avg_candidates": 0.5,
+      "span_any_hit": 0,
+      "span_correct_label_hit": 0,
+      "top1_hit": 1,
+      "top5_hit": 1,
+      "diagnosis": "rules-owned"
+    },
+    {
+      "field": "expiration_date",
+      "gt_present": 22,
+      "span_recall_any_label": 0.591,
+      "span_recall_correct_label": 0.273,
+      "fact_recall_correct_hint": 0.273,
+      "top1_recall": 0.136,
+      "top5_recall": 0.273,
+      "top5_minus_top1": 0.136,
+      "avg_candidates": 2.09,
+      "span_any_hit": 13,
+      "span_correct_label_hit": 6,
+      "top1_hit": 3,
+      "top5_hit": 6,
+      "diagnosis": "NER/label"
+    },
+    {
+      "field": "withdrawal_deadline",
+      "gt_present": 10,
+      "span_recall_any_label": 0.8,
+      "span_recall_correct_label": 0.4,
+      "fact_recall_correct_hint": 0.4,
+      "top1_recall": 0.2,
+      "top5_recall": 0.4,
+      "top5_minus_top1": 0.2,
+      "avg_candidates": 0.7,
+      "span_any_hit": 8,
+      "span_correct_label_hit": 4,
+      "top1_hit": 2,
+      "top5_hit": 4,
+      "diagnosis": "NER/label"
+    },
+    {
+      "field": "settlement_date",
+      "gt_present": 15,
+      "span_recall_any_label": 0.2,
+      "span_recall_correct_label": 0.0,
+      "fact_recall_correct_hint": 0.467,
+      "top1_recall": 0.467,
+      "top5_recall": 0.467,
+      "top5_minus_top1": 0.0,
+      "avg_candidates": 0.93,
+      "span_any_hit": 3,
+      "span_correct_label_hit": 0,
+      "top1_hit": 7,
+      "top5_hit": 7,
+      "diagnosis": "rules-owned"
+    },
+    {
+      "field": "effective_date",
+      "gt_present": 4,
+      "span_recall_any_label": 0.0,
+      "span_recall_correct_label": 0.0,
+      "fact_recall_correct_hint": 0.0,
+      "top1_recall": 0.0,
+      "top5_recall": 0.0,
+      "top5_minus_top1": 0.0,
+      "avg_candidates": 0.75,
+      "span_any_hit": 0,
+      "span_correct_label_hit": 0,
+      "top1_hit": 0,
+      "top5_hit": 0,
+      "diagnosis": "SPAN MISS"
+    },
+    {
+      "field": "minimum_tender_condition",
+      "gt_present": 11,
+      "span_recall_any_label": 0.091,
+      "span_recall_correct_label": 0.091,
+      "fact_recall_correct_hint": 0.091,
+      "top1_recall": 0.0,
+      "top5_recall": 0.091,
+      "top5_minus_top1": 0.091,
+      "avg_candidates": 0.36,
+      "span_any_hit": 1,
+      "span_correct_label_hit": 1,
+      "top1_hit": 0,
+      "top5_hit": 1,
+      "diagnosis": "SPAN MISS"
+    },
+    {
+      "field": "proration_terms",
+      "gt_present": 7,
+      "span_recall_any_label": 0.429,
+      "span_recall_correct_label": 0.0,
+      "fact_recall_correct_hint": 0.0,
+      "top1_recall": 0.0,
+      "top5_recall": 0.0,
+      "top5_minus_top1": 0.0,
+      "avg_candidates": 0.0,
+      "span_any_hit": 3,
+      "span_correct_label_hit": 0,
+      "top1_hit": 0,
+      "top5_hit": 0,
+      "diagnosis": "NER/label"
+    }
+  ],
+  "examples": {
+    "subject_company": [
+      {
+        "bucket": "top1_ok",
+        "gold": "Jefferies Credit Partners BDC Inc.",
+        "top1_pred": "Jefferies Credit Partners BDC Inc.",
+        "n_cands": 1,
+        "hit_span": "Jefferies Credit Partners BDC Inc.",
+        "hit_label": "target_organization",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "First Trust Private Assets Fund",
+        "top1_pred": "FIRST TRUST PRIVATE ASSETS FUND",
+        "n_cands": 1,
+        "hit_span": "FIRST TRUST PRIVATE ASSETS FUND",
+        "hit_label": "target_organization",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "Mersana Therapeutics, Inc.",
+        "top1_pred": "MERSANA THERAPEUTICS, INC.",
+        "n_cands": 12,
+        "hit_span": "MERSANA THERAPEUTICS, INC.",
+        "hit_label": "target_organization",
+        "vs_outcome": "tp"
+      }
+    ],
+    "bidder": [
+      {
+        "bucket": "in_top5_not_top1",
+        "gold": "Jefferies Credit Partners BDC Inc.",
+        "top1_pred": "Paul Hastings LLP",
+        "n_cands": 2,
+        "hit_span": "JEFFERIES CREDIT PARTNERS BDC INC.",
+        "hit_label": "offeror_organization",
+        "vs_outcome": "mismatch"
+      },
+      {
+        "bucket": "in_top5_not_top1",
+        "gold": "First Trust Private Assets Fund",
+        "top1_pred": "UMB Fund Services,\u00a0Inc.",
+        "n_cands": 3,
+        "hit_span": "First Trust Private Assets Fund",
+        "hit_label": "offeror_organization",
+        "vs_outcome": "mismatch"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "Emerald Merger Sub, Inc.",
+        "top1_pred": "Emerald Merger Sub, Inc.",
+        "n_cands": 12,
+        "hit_span": "Emerald Merger Sub, Inc.",
+        "hit_label": "offeror_organization",
+        "vs_outcome": "tp"
+      }
+    ],
+    "security_description": [
+      {
+        "bucket": "right_text_wrong_label",
+        "gold": "Jefferies Credit Partners BDC Inc. Class I Shares of common stock, $0.001 par va",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": "Class\u00a0I Shares",
+        "hit_label": "ticker_symbol",
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "First Trust Private Assets Fund shares of beneficial interest",
+        "top1_pred": "SHARES OF BENEFICIAL INTEREST",
+        "n_cands": 1,
+        "hit_span": "SHARES OF BENEFICIAL INTEREST",
+        "hit_label": "security_name",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "Mersana Therapeutics, Inc. common stock, par value $0.0001 per share",
+        "top1_pred": "Mersana Therapeutics, Inc.",
+        "n_cands": 5,
+        "hit_span": "Mersana Therapeutics, Inc.",
+        "hit_label": "security_name",
+        "vs_outcome": "tp"
+      }
+    ],
+    "offer_price": [
+      {
+        "bucket": "top1_ok",
+        "gold": "Net asset value per Class I Share as of the Valuation Date, less any applicable ",
+        "top1_pred": "net asset value",
+        "n_cands": 2,
+        "hit_span": "net asset value",
+        "hit_label": "offer_price_amount",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "Net asset value of the Shares tendered as of March 31, 2025, as it may be adjust",
+        "top1_pred": "net asset value",
+        "n_cands": 3,
+        "hit_span": "net asset value",
+        "hit_label": "offer_price_amount",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "in_top5_not_top1",
+        "gold": "$25.00 in cash plus one non-tradeable contingent value right (CVR) per common sh",
+        "top1_pred": "$\n7.54",
+        "n_cands": 12,
+        "hit_span": "$25.00",
+        "hit_label": "offer_price_amount",
+        "vs_outcome": "mismatch"
+      }
+    ],
+    "expiration_date": [
+      {
+        "bucket": "span_miss",
+        "gold": "1/30/2026 11:59 PM Eastern Time",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "3/31/2025 11:59 PM Eastern Time",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "1/5/2026 11:59 PM Eastern Time",
+        "top1_pred": "January\u00a05, 2026",
+        "n_cands": 2,
+        "hit_span": "January\u00a05, 2026",
+        "hit_label": "expiration_datetime",
+        "vs_outcome": "tp"
+      }
+    ],
+    "withdrawal_deadline": [
+      {
+        "bucket": "span_miss",
+        "gold": "1/30/2026 11:59 PM Eastern Time | If the Company has not accepted the tender on ",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "1/6/2026 11:59 PM Eastern Time",
+        "top1_pred": "JANUARY\u00a06, 2026",
+        "n_cands": 1,
+        "hit_span": "JANUARY\u00a06, 2026",
+        "hit_label": "withdrawal_datetime",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "1/6/2026 11:59 PM Eastern Time",
+        "top1_pred": "JANUARY\u00a06, 2026",
+        "n_cands": 1,
+        "hit_span": "JANUARY\u00a06, 2026",
+        "hit_label": "withdrawal_datetime",
+        "vs_outcome": "tp"
+      }
+    ],
+    "settlement_date": [
+      {
+        "bucket": "top1_ok",
+        "gold": "Acceptance: N/A | Payment: promptly after the Termination Date",
+        "top1_pred": "Payment: promptly",
+        "n_cands": 1,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "Acceptance: after the expiration of the Offer | Initial Payment: 5/29/2025 | Pos",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "Acceptance: after the expiration of the Offer | Payment: promptly",
+        "top1_pred": "Payment: promptly",
+        "n_cands": 2,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      }
+    ],
+    "minimum_tender_condition": [
+      {
+        "bucket": "span_miss",
+        "gold": "No minimum tender condition",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "in_top5_not_top1",
+        "gold": "Minimum Condition was satisfied; its required number, percentage, or calculation",
+        "top1_pred": "Offer Conditions",
+        "n_cands": 2,
+        "hit_span": "Minimum Condition",
+        "hit_label": "minimum_tender_condition",
+        "vs_outcome": "mismatch"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "Minimum Condition satisfied by the Shares validly tendered and not validly withd",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      }
+    ],
+    "proration_terms": [
+      {
+        "bucket": "right_text_wrong_label",
+        "gold": "If Shares exceeding 5% of the Company's net asset value as of September 30, 2025",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": "net asset value",
+        "hit_label": "offer_price_amount",
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "right_text_wrong_label",
+        "gold": "If more than 5% of Shares are duly tendered and not withdrawn before the Notice ",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": "value",
+        "hit_label": "money_amount",
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "If more than 14,333,861 Shares are duly tendered and not withdrawn, the Company ",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      }
+    ],
+    "cusip": [
+      {
+        "bucket": "top1_ok",
+        "gold": "59045L106",
+        "top1_pred": "59045L106",
+        "n_cands": 2,
+        "hit_span": "59045L 106",
+        "hit_label": "cusip_code",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "48255N100",
+        "top1_pred": "48255N100",
+        "n_cands": 1,
+        "hit_span": "48255N 100",
+        "hit_label": "cusip_code",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "48256J108",
+        "top1_pred": "48256J108",
+        "n_cands": 1,
+        "hit_span": "48256J 108",
+        "hit_label": "cusip_code",
+        "vs_outcome": "tp"
+      }
+    ],
+    "isin": [
+      {
+        "bucket": "top1_ok",
+        "gold": "US59045L1061",
+        "top1_pred": "US59045L1061",
+        "n_cands": 2,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "US48255N1000",
+        "top1_pred": "US48255N1000",
+        "n_cands": 1,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "top1_ok",
+        "gold": "US48256J1088",
+        "top1_pred": "US48256J1088",
+        "n_cands": 1,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "tp"
+      }
+    ],
+    "ticker": [
+      {
+        "bucket": "top1_ok",
+        "gold": "MRSN",
+        "top1_pred": "MRSN",
+        "n_cands": 1,
+        "hit_span": "MRSN",
+        "hit_label": "ticker_symbol",
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "CDTX",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "CDTX",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      }
+    ],
+    "currency": [
+      {
+        "bucket": "top1_ok",
+        "gold": "USD",
+        "top1_pred": "USD",
+        "n_cands": 1,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "tp"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "USD",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      }
+    ],
+    "effective_date": [
+      {
+        "bucket": "span_miss",
+        "gold": "1/6/2026",
+        "top1_pred": "November\u00a013, 2025",
+        "n_cands": 3,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "mismatch"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "1/7/2026",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      },
+      {
+        "bucket": "span_miss",
+        "gold": "1/7/2026",
+        "top1_pred": null,
+        "n_cands": 0,
+        "hit_span": null,
+        "hit_label": null,
+        "vs_outcome": "fn"
+      }
+    ]
+  },
+  "ks": [
+    1,
+    5
+  ]
+}

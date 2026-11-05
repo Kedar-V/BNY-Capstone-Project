@@ -1,0 +1,68 @@
+{
+  "best": {
+    "threshold": 0.25,
+    "run_id": "hpt_medium_passage_t0p25",
+    "micro_f1": 0.5085714285714286,
+    "micro_precision": 0.577922077922078,
+    "micro_recall": 0.45408163265306123,
+    "mlflow_run_id": "0cd0ca4a3b4f43968e7bf6501e3c639e"
+  },
+  "leaderboard": [
+    {
+      "threshold": 0.25,
+      "run_id": "hpt_medium_passage_t0p25",
+      "micro_f1": 0.5085714285714286,
+      "micro_precision": 0.577922077922078,
+      "micro_recall": 0.45408163265306123,
+      "mlflow_run_id": "0cd0ca4a3b4f43968e7bf6501e3c639e"
+    },
+    {
+      "threshold": 0.3,
+      "run_id": "hpt_medium_passage_t0p30",
+      "micro_f1": 0.5085714285714286,
+      "micro_precision": 0.577922077922078,
+      "micro_recall": 0.45408163265306123,
+      "mlflow_run_id": "c247fdc2f29d48c0a9173be44f4610a3"
+    },
+    {
+      "threshold": 0.35,
+      "run_id": "hpt_medium_passage_t0p35",
+      "micro_f1": 0.5085714285714286,
+      "micro_precision": 0.577922077922078,
+      "micro_recall": 0.45408163265306123,
+      "mlflow_run_id": "340b9193d0b44542b5d1046bb3f24b26"
+    },
+    {
+      "threshold": 0.4,
+      "run_id": "hpt_medium_passage_t0p40",
+      "micro_f1": 0.5085714285714286,
+      "micro_precision": 0.577922077922078,
+      "micro_recall": 0.45408163265306123,
+      "mlflow_run_id": "09423d4e1f17435a9340240f540248e0"
+    },
+    {
+      "threshold": 0.45,
+      "run_id": "hpt_medium_passage_t0p45",
+      "micro_f1": 0.5085714285714286,
+      "micro_precision": 0.577922077922078,
+      "micro_recall": 0.45408163265306123,
+      "mlflow_run_id": "02738b538bae47ebb20c5cdf6fa0a44d"
+    },
+    {
+      "threshold": 0.5,
+      "run_id": "hpt_medium_passage_t0p50",
+      "micro_f1": 0.5085714285714286,
+      "micro_precision": 0.577922077922078,
+      "micro_recall": 0.45408163265306123,
+      "mlflow_run_id": "ac649c9b5d254bc7a82e7e6bbd23d6e9"
+    },
+    {
+      "threshold": 0.55,
+      "run_id": "hpt_medium_passage_t0p55",
+      "micro_f1": 0.5085714285714286,
+      "micro_precision": 0.577922077922078,
+      "micro_recall": 0.45408163265306123,
+      "mlflow_run_id": "0141f3bf462744e3b2459ddcd165527d"
+    }
+  ]
+}

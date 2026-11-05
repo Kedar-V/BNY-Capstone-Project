@@ -11,7 +11,15 @@ __pycache__/
 # Local data (corpus, samples, preprocess artifacts) — rebuild via scripts/dataloader
 /data/
 
+# Trained model weights (~17 GB) — rebuild via scripts/train_tender_gliner.py
+/models/
+
 outputs/preprocess_inspect/
+outputs/mlruns/
+outputs/mlartifacts/
+outputs/mlflow.db
+mlruns/
+mlflow.db
 
 # Downloaded evaluation filings (~1.5 GB) — rebuild via notebooks/evaluation/load_action_filings
 /notebooks/evaluation/data/

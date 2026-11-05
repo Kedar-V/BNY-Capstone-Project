@@ -1,0 +1,15 @@
+field,owner,gt_present,avg_candidates,rank1,rank2,rank3,rank4,rank5,top1_recall,top2_recall,top3_recall,top4_recall,top5_recall,outside_top5_or_absent,miss_not_in_candidates,in_candidates_beyond_top5
+subject_company,gliner,23,2.65,21,0,2,0,0,0.913,0.913,1.0,1.0,1.0,0.0,0.0,0.0
+bidder,gliner,23,4.04,12,7,1,0,0,0.522,0.826,0.87,0.87,0.87,0.13,0.087,0.043
+security_description,gliner,23,1.7,10,2,0,0,0,0.435,0.522,0.522,0.522,0.522,0.478,0.478,0.0
+cusip,rules,13,1.31,13,0,0,0,0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+isin,rules,13,1.31,13,0,0,0,0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+ticker,rules,7,0.43,3,0,0,0,0,0.429,0.429,0.429,0.429,0.429,0.571,0.571,0.0
+offer_price,gliner,23,4.87,11,8,1,0,0,0.478,0.826,0.87,0.87,0.87,0.13,0.043,0.087
+currency,rules,2,0.5,1,0,0,0,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.0
+expiration_date,gliner,22,2.09,3,3,0,0,0,0.136,0.273,0.273,0.273,0.273,0.727,0.727,0.0
+withdrawal_deadline,gliner,10,0.7,2,2,0,0,0,0.2,0.4,0.4,0.4,0.4,0.6,0.6,0.0
+settlement_date,rules,15,0.93,7,0,0,0,0,0.467,0.467,0.467,0.467,0.467,0.533,0.533,0.0
+effective_date,gliner,4,0.75,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0
+minimum_tender_condition,gliner,11,0.36,0,1,0,0,0,0.0,0.091,0.091,0.091,0.091,0.909,0.909,0.0
+proration_terms,gliner,7,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0

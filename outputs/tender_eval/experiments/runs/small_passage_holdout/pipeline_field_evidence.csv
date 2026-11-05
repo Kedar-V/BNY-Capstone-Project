@@ -1,0 +1,820 @@
+gt_row_id,accession_number,field,hint,value,source_accession,source_filename,doc_role,segment_id,segment_text,char_start,char_end,segment_char_start,segment_char_end,confidence,rank_score,faq_question,section
+0:0001104659-26-000598,0001104659-26-000598,bidder,offeror,"UMB Fund Services, Inc.",0001104659-26-000598,,cover,,"The promissory notes were held by UMB Fund Services, Inc., the Fund’s administrator, on behalf of such Shareholders,
+in accordance with the terms of the Offer.",,,,,0.8283559083938599,1.22835590839386,,cover
+0:0001104659-26-000598,0001104659-26-000598,offer_price,offer_price,net asset value,0001104659-26-000598,,cover,,"The net asset value of the Shares tendered
+pursuant to the Offer was calculated as of March 31, 2025, in the amount of $136,753.
+4.",,,,,0.6794615387916565,0.6294615387916564,,cover
+1:0001104659-26-001124,0001104659-26-001124,subject_company,target,"Mersana Therapeutics, Inc.",0001104659-25-118858,,otp,,"The address of Mersana’s principal executive offices and Mersana’s phone number at its principal executive offices are as set forth below:
+Mersana Therapeutics, Inc.
+840 Memorial Drive
+Cambridge, MA 02139
+(617) 498-0020
+Additional Information
+.   The Shares are registered under the Exchange Act.",,,,,0.7664463520050049,1.066446352005005,,​
+1:0001104659-26-001124,0001104659-26-001124,bidder,offeror,"DAY ONE BIOPHARMACEUTICALS, INC.",0001104659-25-118858,,cover,,"tm2532528-1_sctot - none - 2.3951952s
+​
+​
+​
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+​
+SCHEDULE TO
+Tender Offer Statement under Section 14(d)(1) or 13(e)(1)
+of the Securities Exchange Act of 1934
+​
+MERSANA THERAPEUTICS, INC.
+(Name of Subject Company (issuer))
+​
+EMERALD MERGER SUB, INC.
+(Offeror)
+​
+a direct wholly owned subsidiary of
+DAY ONE BIOPHARMACEUTICALS, INC.
+(Parent of Offeror)
+(Names of Filing Persons (identifying status as offeror, issuer or other person))
+​
+Common Stock, $0.0001 par value per share
+(Title of Class of Securities)
+​
+59045L 106
+(CUSIP Number of Class of Securities)
+​
+Adam Dubow
+General Counsel
+Day One Biopharmaceuticals, Inc.",,,,,0.7539486885070801,1.1539486885070802,,cover
+1:0001104659-26-001124,0001104659-26-001124,security_description,security_description,"Mersana Therapeutics, Inc.",0001104659-25-118903,,sc_14d9,,"Unless the context suggests otherwise,
+references in this Solicitation/Recommendation Statement on Schedule 14D-9 (together with any exhibits and annexes attached hereto, as
+it may be amended or supplemented, this “
+Schedule 14D-9
+”) to “
+Mersana
+”, the “
+Company
+”,
+ “
+we
+”, “
+us
+”, and “
+our
+” refer to Mersana Therapeutics, Inc. and its subsidiary.
+(b) Securities
+The title of the class of equity securities to
+which this Schedule 14D-9 relates is the Company’s common stock, par value $0.0001 per share (the “
+Common Stock
+”).
+As of the close of business on November 30, 2025, there were 4,999,615 shares of Common Stock issued and outstanding.
+Item 2.",,,,,0.657478392124176,0.857478392124176,,sc_14d9
+1:0001104659-26-001124,0001104659-26-001124,cusip,cusip,59045L106,0001104659-25-118858,,cover,,59045L106,,,,,1.0,1.0,,
+1:0001104659-26-001124,0001104659-26-001124,isin,isin,US59045L1061,0001104659-25-118858,,cover,,US59045L1061,,,,,1.0,1.0,,
+1:0001104659-26-001124,0001104659-26-001124,ticker,ticker,MRSN,0001104659-25-118858,,cover,,MRSN,,,,,1.0,1.0,,
+1:0001104659-26-001124,0001104659-26-001124,offer_price,offer_price,$25.00,0001104659-25-118858,,otp,,"​
+​
+Price Offered Per Share
+​
+​
+Upon the terms and subject to the conditions set forth in this Offer to Purchase and in the related Letter of Transmittal: (i) $25.00, net to the stockholder in cash, without interest and less any applicable tax withholding, plus (ii) one CVR, representing the right to receive certain contingent payments of up to an aggregate amount of $30.25 per CVR in cash, without interest and less any applicable withholding taxes, upon the achievement of certain specified milestones on or prior to the applicable milestone outside dates in a",,,,,0.6821056008338928,1.3321056008338927,,​
+1:0001104659-26-001124,0001104659-26-001124,currency,currency,USD,0001104659-25-118858,,cover,,$25.00,,,,,1.0,1.0,,
+1:0001104659-26-001124,0001104659-26-001124,expiration_date,expiration_date,"January 5, 2026",0001104659-25-118858,,otp,,"​
+​
+Scheduled Expiration of Offer
+​
+​
+One minute past 11:59 p.m., Eastern Time, on January 5, 2026, unless the Offer is otherwise extended or earlier terminated.",,,,,0.7167179584503174,1.3667179584503173,,​
+1:0001104659-26-001124,0001104659-26-001124,withdrawal_deadline,withdrawal_deadline,"February 3, 2026",0001104659-25-118858,,otp,,"​
+60 days of commencement of the Offer, you may withdraw them at any time after February 3, 2026, the 60th day after commencement of the Offer, until Purchaser accepts your Shares for payment.
+For a withdrawal of Shares to be effective, the Depositary must timely receive a written notice of withdrawal at one of its addresses set forth on the back cover of this Offer to Purchase.",,,,,0.7440378069877625,1.3440378069877623,,​
+1:0001104659-26-001124,0001104659-26-001124,minimum_tender_condition,minimum_tender_condition,Upfront Cash Consideration,0001104659-25-118858,,otp,,"of the Merger Agreement, we expressly reserve the right to increase the Offer Price, waive (to the extent permissible) any Offer Condition or to make any change in the terms of or conditions of the Offer not inconsistent with the terms of the Merger Agreement; provided that, without the prior written consent of Mersana, we may not decrease the Offer Price, including by reducing the amount of the Upfront Cash Consideration or the amount payable pursuant to the Milestone Payments underlying the CVR to be paid per Share (other than to make the customary proportional adjustment for stock splits, stock dividends, recapitalizations or similar capital structure changes permitted pursuant to the Merger Agreement), change the form of consideration payable in the Offer (other than the substitution of cash for the eliminatio",,,,,0.6101993918418884,0.6101993918418884,,​
+1:0001104659-26-001124,0001104659-26-001124,proration_terms,proration_terms,Conditions of the Offer,0001104659-25-118858,,otp,,"15.   Conditions of the Offer
+The following sets forth the conditions to the Offer set forth in the Merger Agreement and is qualified in its entirety by reference to the full text of the Merger Agreement, a copy of which is filed as Exhibit (d)(1) to the Schedule TO, and is incorporated herein by reference.",,,,,0.473499596118927,0.473499596118927,,​
+2:0001104659-26-001149,0001104659-26-001149,bidder,offeror,KKR FS Income Trust,0001104659-26-001149,,cover,,"Check the following box if the filing is a final amendment reporting the results of the tender offer:
+x
+FINAL AMENDMENT TO TENDER OFFER STATEMENT
+This Amendment No. 1 (this “
+Amendment
+”) amends
+and supplements the Tender Offer Statement on Schedule TO filed by KKR FS Income Trust (the “
+Company
+”), with the U.S.
+Securities and Exchange Commission on December 1, 2025 (together with any subsequent amendments and supplements thereto, the “
+Schedule
+TO
+”).",,,,,0.7783818244934082,0.9783818244934082,,cover
+2:0001104659-26-001149,0001104659-26-001149,cusip,cusip,48255N100,0001104659-26-001149,,cover,,48255N100,,,,,1.0,1.0,,
+2:0001104659-26-001149,0001104659-26-001149,isin,isin,US48255N1000,0001104659-26-001149,,cover,,US48255N1000,,,,,1.0,1.0,,
+2:0001104659-26-001149,0001104659-26-001149,offer_price,offer_price,"net asset value per Share as of December 31,
+2025",0001104659-26-001149,,cover,,"The Schedule TO relates to the offer by the Company to purchase up to 2,350,115 shares of its outstanding Class I
+common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”), pursuant to tenders by shareholders
+of the Company (“
+Shareholders
+”) at a purchase price equal to the net asset value per Share as of December 31,
+2025, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated December 1, 2025 (together with any
+amendments or supplements thereto, the “
+Offer to Purchase
+”), and in the accompanying Letter of Transmittal (together
+with any amendments or supplements thereto and with the Offer to Purchase, the “
+Offer
+”), which are annexed to and filed
+with the Schedule TO as Exhibits (",,,,,0.804197371006012,0.7541973710060119,,cover
+2:0001104659-26-001149,0001104659-26-001149,expiration_date,expiration_date,"September 1, 2026",0001104659-26-104156,,otp,,"Exhibit (a)(1)(vi)
+September 1, 2026
+Dear Morgan Stanley Client:
+Your position in KKR FS Income Trust (the “Fund”) is currently
+being held in your account at Morgan Stanley.",,,,,0.871153712272644,1.521153712272644,,otp
+3:0001104659-26-001148,0001104659-26-001148,bidder,offeror,KKR FS Income Trust Select,0001104659-26-001148,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+(Amendment No. 1)
+(Rule 13e-4)
+TENDER OFFER STATEMENT PURSUANT TO SECTION 14(D)(1) OR
+13(E)(1) OF THE SECURITIES EXCHANGE ACT OF 1934
+KKR FS Income Trust Select
+(Name of Subject Company (Issuer))
+KKR FS Income Trust Select
+(Names of Filing Person (Offeror and Issuer))
+Common Shares of Beneficial Interest, par value
+$0.01 per share
+(Title of Class of
+Securities)
+CUSIP: 48256J 108
+(CUSIP Number of Class of securities)
+Michael C.",,,,,0.8059171438217163,1.0059171438217163,,cover
+3:0001104659-26-001148,0001104659-26-001148,cusip,cusip,48256J108,0001104659-26-001148,,cover,,48256J108,,,,,1.0,1.0,,
+3:0001104659-26-001148,0001104659-26-001148,isin,isin,US48256J1088,0001104659-26-001148,,cover,,US48256J1088,,,,,1.0,1.0,,
+3:0001104659-26-001148,0001104659-26-001148,offer_price,offer_price,"net asset value per Share
+as of December 31, 2025",0001104659-26-001148,,cover,,"The Schedule TO relates to the offer by the Company to purchase up to 1,587,372 shares of its
+outstanding Class S common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”), pursuant
+to tenders by shareholders of the Company (“
+Shareholders
+”) at a purchase price equal to the net asset value per Share
+as of December 31, 2025, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated December 1,
+2025 (together with any amendments or supplements thereto, the “
+Offer to Purchase
+”), and in the accompanying Letter
+of Transmittal (together with any amendments or supplements thereto and with the Offer to Purchase, the “
+Offer
+”),
+which are annexed to and filed with the Schedule TO as Exhibits (",,,,,0.7592042088508606,0.7092042088508606,,cover
+3:0001104659-26-001148,0001104659-26-001148,expiration_date,expiration_date,"September 1, 2026",0001104659-26-104154,,otp,,"Exhibit (a)(1)(vi)
+September 1, 2026
+Dear Morgan Stanley Client:
+Your position in KKR FS Income Trust Select (the
+“Fund”) is currently being held in your account at Morgan Stanley.",,,,,0.8731582164764404,1.5231582164764403,,otp
+4:0001104659-26-002517,0001104659-26-002517,subject_company,target,"Broadridge Corporate Issuer Solutions, LLC",0001193125-26-008905,,lot,,"Box 1317
+Brentwood, NY 11717-0718
+Delivery of this Letter of Transmittal to an address other than as set forth above will not constitute a
+valid delivery to Broadridge Corporate Issuer Solutions, LLC (the “Depositary and Paying Agent”).",,,,,0.6773128509521484,0.9773128509521485,,lot
+4:0001104659-26-002517,0001104659-26-002517,bidder,offeror,"Alliance Advisors, LLC",0001193125-26-008905,,otp,,"• You can call Alliance Advisors, LLC, the Information Agent, toll-free at 1-855-206-0806 or email them at GBIO@allianceadvisors.com . See the back cover of this Offer to Purchase.
+12",,,,,0.7575310468673706,1.1075310468673707,WITH WHOM MAY I TALK IF I HAVE QUESTIONS ABOUT THE OFFER?,WITH WHOM MAY I TALK IF I HAVE QUESTIONS ABOUT THE OFFER?
+4:0001104659-26-002517,0001104659-26-002517,security_description,security_description,Company Shares,0001193125-26-008905,,otp,,"The Company Shares are currently “margin
+securities” under the regulations of the Federal Reserve Board, which has the effect, among other things, of allowing brokers to extend credit using such Company Shares as collateral.",,,,,0.6426481008529663,0.8426481008529663,,4.
+4:0001104659-26-002517,0001104659-26-002517,cusip,cusip,37148K209,0001193125-26-008905,,cover,,37148K209,,,,,1.0,1.0,,
+4:0001104659-26-002517,0001104659-26-002517,isin,isin,US37148K2096,0001193125-26-008905,,cover,,US37148K2096,,,,,1.0,1.0,,
+4:0001104659-26-002517,0001104659-26-002517,ticker,ticker,GBIO,0001193125-26-008905,,cover,,GBIO,,,,,1.0,1.0,,
+4:0001104659-26-002517,0001104659-26-002517,offer_price,offer_price,$4.2913,0001193125-26-008905,,otp,,"• Buyer Entities are offering to pay a Cash Amount per Company Share of $4.2913, plus one CVR for each Company
+Share, which represents the right to receive potential payments, in cash, contingent upon receipt of any CVR Proceeds, as described in the CVR Agreement, without interest, upon the terms and subject to the conditions contained in this Offer to
+Purchase and in the related Letter of Transmittal.",,,,,0.858669102191925,1.638669102191925,"HOW MUCH ARE BUYER ENTITIES OFFERING TO PAY AND WHAT IS THE FORM OF
+PAYMENT?","HOW MUCH ARE BUYER ENTITIES OFFERING TO PAY AND WHAT IS THE FORM OF
+PAYMENT?"
+4:0001104659-26-002517,0001104659-26-002517,currency,currency,USD,0001193125-26-008905,,cover,,$4.2913,,,,,1.0,1.0,,
+4:0001104659-26-002517,0001104659-26-002517,expiration_date,expiration_date,"February 8, 2026",0001193125-26-008905,,otp,,"• You will have until one minute after 11:59 p.m. Eastern Time on February 8, 2026, to tender your Company
+Shares in the Offer, unless Buyer Entities extend the Offer, in which event you will have until the Expiration Date of the Offer as so extended. See also “The Tender Offer—Section 1. Terms of the Offer.”",,,,,0.9816369414329529,1.761636941432953,HOW LONG DO I HAVE TO DECIDE WHETHER TO TENDER IN THE OFFER?,HOW LONG DO I HAVE TO DECIDE WHETHER TO TENDER IN THE OFFER?
+4:0001104659-26-002517,0001104659-26-002517,withdrawal_deadline,withdrawal_deadline,"January 8, 2026",0001193125-26-008905,,otp,,"• On January 8, 2026, the last full trading day prior to the date of this Offer to Purchase, the last reported
+closing price per Company Share reported on Nasdaq was $5.51. See “Special Factors—Section 3. Price Range of Company Shares; Dividends.”",,,,,0.7345991730690002,1.4645991730690002,"WHAT IS THE MARKET VALUE OF
+MY SHARES AS OF A RECENT DATE?","WHAT IS THE MARKET VALUE OF
+MY SHARES AS OF A RECENT DATE?"
+4:0001104659-26-002517,0001104659-26-002517,settlement_date,settlement_date,"January 8, 2026",0001193125-26-008905,,otp,,"$
+4.013
+Second Quarter
+4.60
+3.004
+Third Quarter
+6.95
+3.111
+Fourth Quarter
+6.92
+4.91
+Fiscal Year Ended December 31, 2024
+High
+Low
+First Quarter
+$
+42.90
+$
+16.20
+Second Quarter
+46.50
+25.20
+Third Quarter
+36.50
+20.80
+Fourth Quarter
+27.40
+7.50
+Fiscal Year Ended December 31, 2023
+High
+Low
+First Quarter
+$
+73.50
+$
+34.00
+Second Quarter
+60.90
+31.50
+Third Quarter
+69.80
+35.10
+Fourth Quarter
+39.099
+8.60
+21
+On January 8, 2026, the last full trading day prior to the date of this Offer to
+Purchase, the reported closing sales price per Company Share on Nasdaq during normal trading hours was $5.51 per Company Share.
+The
+Company has never paid cash dividends on the Company Common Stock.",,,,,0.49070271849632263,0.9407027184963226,,3.
+4:0001104659-26-002517,0001104659-26-002517,minimum_tender_condition,minimum_tender_condition,Company Material Adverse Effect,0001193125-26-008905,,otp,,"the Agreement Date and at and as of the Offer Closing Time as
+if made on and as of the Offer Closing Time, except to the extent such representation or warranty expressly relates to a specified date (in which case on and as of such specified date), other than for such failures to be true and correct that have
+not had or would not reasonably be expected to have, individually or in the aggregate, a Company Material Adverse Effect (for purposes of determining the satisfaction of this condition, without regard to any qualifications or exceptions contained
+therein as to “materiality” or “Company Material Adverse Effect”);
+(B) any representation or warranty of the
+Company set forth in Section 4.01(a) of the Merger Agreement (
+Due Organization; Subsidiaries
+), Section 4.03 of the Merger Agreement (
+Authority; Binding Nature of",,,,,0.47932952642440796,0.47932952642440796,,9.
+4:0001104659-26-002517,0001104659-26-002517,proration_terms,proration_terms,TERMS OF THE OFFER,0001193125-26-008905,,otp,,"1.
+TERMS OF THE OFFER.",,,,,0.47132375836372375,0.47132375836372375,,1.
+5:0000919574-26-000310,0000919574-26-000310,bidder,offeror,"OCEANPAL, INC.",0000919574-26-000310,,cover,,"SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+(Amendment No. 2)
+TENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+OCEANPAL, INC.
+(Name of Subject Company (Issuer))
+OCEANPAL, INC., AS ISSUER
+(Name of Filing Persons (Identifying status as offeror, issuer, or other person))
+7.0% Series D Cumulative Convertible Perpetual Preferred Stock, Par Value $0.01 per share
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Margarita Veniou
+OceanPal Inc.",,,,,0.6996076703071594,1.0996076703071596,,cover
+5:0000919574-26-000310,0000919574-26-000310,offer_price,offer_price,$27.2 million,0000919574-25-007223,,otp,,"If less than all of the
+    shares are properly tendered, subject to the conditions of the Offer, we will purchase all shares that are properly tendered and not properly withdrawn.
+•
+How will the Company pay for the shares?
+Assuming that all of the outstanding shares are tendered in the Offer at the purchase price of $1,400
+    per share, the aggregate purchase price will be approximately $27.2 million.",,,,,0.5878640413284302,1.3678640413284302,,"SUMMARY TERM SHEET
+CAUTIONARY NOTE ON FO"
+5:0000919574-26-000310,0000919574-26-000310,currency,currency,USD,0000919574-26-000310,,cover,,$27.2 million,,,,,1.0,1.0,,
+5:0000919574-26-000310,0000919574-26-000310,expiration_date,expiration_date,"November 25, 2025",0000919574-25-007223,,otp,,"See Section 14.
+•
+What is the purpose of the Offer?
+On November 25, 2025, our Board of Directors unanimously approved a tender offer for any and all
+    outstanding Series D Preferred Shares, which we may accept for payment in the Offer, subject to certain limitations and legal requirements.",,,,,0.9280096888542175,1.7080096888542176,,"SUMMARY TERM SHEET
+CAUTIONARY NOTE ON FO"
+6:0000930413-26-000298,0000930413-26-000298,bidder,offeror,"Lord Abbett
+Private Credit Advisor LLC",0000930413-26-000298,,cover,,"Lord Abbett
+Private Credit Advisor LLC (the “Adviser”) serves as the investment adviser for the Company.",,,,,0.8271222710609436,1.2271222710609437,,cover
+6:0000930413-26-000298,0000930413-26-000298,offer_price,offer_price,0.01,0000930413-26-000298,,otp,,"LORD ABBETT
+PRIVATE CREDIT FUND
+NOTICE
+OF WITHDRAWAL
+Ladies and Gentlemen:
+The undersigned hereby withdraws the
+tender of its common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”),
+of Lord Abbett Private Credit Fund (the “
+Company
+”) that previously was submitted by the
+undersigned in a Letter of Transmittal, dated _____________, 202[ ].
+A.",,,,,0.6017073392868042,0.8017073392868042,,otp
+6:0000930413-26-000298,0000930413-26-000298,expiration_date,expiration_date,"January 29, 2026",0000930413-26-000298,,otp,,"fferent than above; print name exactly as it
+appears
+on the books and records of the Company maintained by State Street Bank and
+Trust Company, the Company’s transfer agent
+):
+Print Name of Registered Holder
+Title of Signatory
+Signature – Registered Holder
+Date
+This Lord Abbett Private
+Credit Fund Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer to Purchase dated January 29, 2026.",,,,,0.8598445057868958,1.5098445057868957,,otp
+6:0000930413-26-000298,0000930413-26-000298,withdrawal_deadline,withdrawal_deadline,"January 29, 2026",0000930413-26-000298,,otp,,"WITHDRAWAL REQUEST (select one option)
+o
+All Shares owned as of the Expiration Date
+o
+Other number of Shares*:
+*Provide a number
+of Shares,
+not a dollar amount
+.
+[Signature page follows]
+This Lord Abbett Private
+Credit Fund Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer to Purchase dated January 29, 2026.
+LORD ABBETT PRIVATE CREDIT FUND
+NOTICE OF WITHDRAWAL
+C.",,,,,0.433517724275589,1.0335177242755889,,otp
+7:0000930413-26-000299,0000930413-26-000299,bidder,offeror,"Lord Abbett
+Private Credit Advisor LLC",0000930413-26-000299,,cover,,"Lord Abbett
+Private Credit Advisor LLC (the “Adviser”) serves as the investment adviser for the Company.",,,,,0.8203740119934082,1.2203740119934083,,cover
+7:0000930413-26-000299,0000930413-26-000299,offer_price,offer_price,0.01,0000930413-26-000299,,otp,,"LORD ABBETT PRIVATE CREDIT FUND S
+NOTICE OF WITHDRAWAL
+Ladies and Gentlemen:
+The undersigned hereby withdraws the
+tender of its common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”),
+of Lord Abbett Private Credit Fund S (the “
+Company
+”) that previously was submitted by the
+undersigned in a Letter of Transmittal, dated _____________, 202[ ].
+A.",,,,,0.6071625351905823,0.8071625351905822,,otp
+7:0000930413-26-000299,0000930413-26-000299,expiration_date,expiration_date,"January 29, 2026",0000930413-26-000299,,otp,,"ferent than above; print name exactly as it appears on the books and records of the Company maintained by State Street
+Bank and Trust Company, the Company’s transfer agent):
+Print Name of Registered Holder
+Title of Signatory
+Signature – Registered Holder
+Date
+This Lord Abbett Private Credit Fund S Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer
+to Purchase dated January 29, 2026.",,,,,0.8559579849243164,1.5059579849243163,,otp
+7:0000930413-26-000299,0000930413-26-000299,withdrawal_deadline,withdrawal_deadline,"January 29, 2026",0000930413-26-000299,,otp,,"WITHDRAWAL REQUEST (select one option)
+o
+All Shares owned as of the Expiration Date
+o
+Other number of Shares*:
+*Provide a number
+of Shares,
+not a dollar amount
+.
+[Signature page follows]
+This Lord Abbett Private Credit Fund S Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer
+to Purchase dated January 29, 2026.
+LORD ABBETT PRIVATE CREDIT FUND S
+NOTICE OF WITHDRAWAL
+C.",,,,,0.4352067708969116,1.0352067708969115,,otp
+8:0001099910-26-000099,0001099910-26-000099,subject_company,target,"SELECTIS
+HEALTH, INC.",0001493152-26-012450,,sc_14d9,,"UNITED
+STATES
+SECURITIES
+AND EXCHANGE COMMISSION
+Washington,
+D.C. 20549
+SCHEDULE
+14D-9
+Solicitation/Recommendation
+Statement
+under Section 14(d)(4) of the Securities Exchange Act of 1934
+SELECTIS
+HEALTH, INC.
+(Name
+of Subject Company)
+SELECTIS
+HEALTH, INC.",,,,,0.7693966627120972,1.0693966627120972,,sc_14d9
+8:0001099910-26-000099,0001099910-26-000099,bidder,offeror,"Black Pearl Equities, LLC",0001099910-26-000099,,cover,,"Terms of the Tender Offer:
+The Tender
+    Offer will be in effect from the date of this filing until May 11, 2026, unless extended by Black Pearl Equities, LLC.",,,,,0.7785922288894653,1.1785922288894655,,cover
+8:0001099910-26-000099,0001099910-26-000099,security_description,security_description,Selectis,0001493152-26-012450,,sc_14d9,,"●
+There
+                                            are no plans for any class of equity securities of Selectis to be delisted from a national
+                                            securities exchange or cease to be authorized to be quoted in an automated quotations system
+                                            operated by a national securities association.",,,,,0.5519188046455383,0.5519188046455383,,sc_14d9
+8:0001099910-26-000099,0001099910-26-000099,cusip,cusip,816291108,0001099910-26-000099,,cover,,816291108,,,,,1.0,1.0,,
+8:0001099910-26-000099,0001099910-26-000099,isin,isin,US8162911080,0001099910-26-000099,,cover,,US8162911080,,,,,1.0,1.0,,
+8:0001099910-26-000099,0001099910-26-000099,ticker,ticker,GBCS,0001099910-26-000121,,cover,,GBCS,,,,,1.0,1.0,,
+8:0001099910-26-000099,0001099910-26-000099,offer_price,offer_price,"$15,500,000",0001099910-26-000121,,otp,,"As of March 10, 2026, there are 3,067,059
+    shares of common stock issued and outstanding.
+Offer
+    Price
+The
+                                            Offer Price is $5.05 per Share, net to the seller in cash, without interest and subject to
+                                            applicable withholding taxes
+Total
+    Consideration
+Approximately
+    $15,500,000 (assuming 100% of shares are tendered and accepted).",,,,,0.5370702147483826,1.1870702147483825,,otp
+8:0001099910-26-000099,0001099910-26-000099,currency,currency,USD,0001099910-26-000099,,cover,,$150.00,,,,,1.0,1.0,,
+8:0001099910-26-000099,0001099910-26-000099,expiration_date,expiration_date,"May
+    11, 2026",0001099910-26-000121,,otp,,"Expiration
+    Date
+May
+    11, 2026, at 5:00 p.m., Eastern Time, unless extended.
+Withdrawal
+    Rights
+Shares
+    may be withdrawn at any time before the Expiration Date, and also at any time after May 9, 2026 (60 days from commencement) if not
+    yet accepted for payment.
+Source
+    of Funds
+Cash
+    on hand provided by Milrose Capital, LLC.",,,,,0.8323090076446533,1.4823090076446532,,otp
+8:0001099910-26-000099,0001099910-26-000099,withdrawal_deadline,withdrawal_deadline,"MAY 11, 2026",0001099910-26-000121,,otp,,"Exhibit
+4
+OFFER
+TO PURCHASE
+FOR
+CASH
+ALL
+OUTSTANDING SHARES OF COMMON STOCK
+(CUSIP
+#816291108)
+OF
+SELECTIS
+HEALTH, INC.
+(Trading
+on the OTCQB under symbol: GBCS)
+AT
+$5.05
+PER SHARE, NET TO THE SELLER IN CASH,
+WITHOUT
+INTEREST AND SUBJECT TO APPLICABLE WITHHOLDING TAXES
+BY
+BLACK
+PEARL EQUITIES, LLC
+THE
+OFFER AND WITHDRAWAL RIGHTS WILL EXPIRE AT 5:00 P.M., EASTERN TIME, ON MAY 11, 2026 (THE “EXPIRATION DATE”), UNLESS THE OFFER
+IS EXTENDED.",,,,,0.6535309553146362,1.253530955314636,,otp
+8:0001099910-26-000099,0001099910-26-000099,minimum_tender_condition,minimum_tender_condition,"Minimum
+    Condition",0001099910-26-000121,,otp,,"Minimum
+    Condition
+At
+    least 51% of the outstanding shares on a fully diluted basis (including outstanding warrants not yet exercised) must be validly tendered
+    and not withdrawn by the Expiration Date.",,,,,0.4043689966201782,-0.14563100337982182,,otp
+12:0001104659-26-001116,0001104659-26-001116,subject_company,target,"Mersana Therapeutics, Inc.",0001104659-25-118858,,otp,,"The address of Mersana’s principal executive offices and Mersana’s phone number at its principal executive offices are as set forth below:
+Mersana Therapeutics, Inc.
+840 Memorial Drive
+Cambridge, MA 02139
+(617) 498-0020
+Additional Information
+.   The Shares are registered under the Exchange Act.",,,,,0.7664463520050049,1.066446352005005,,​
+12:0001104659-26-001116,0001104659-26-001116,bidder,offeror,"DAY ONE BIOPHARMACEUTICALS, INC.",0001104659-25-118858,,cover,,"tm2532528-1_sctot - none - 2.3951952s
+​
+​
+​
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+​
+SCHEDULE TO
+Tender Offer Statement under Section 14(d)(1) or 13(e)(1)
+of the Securities Exchange Act of 1934
+​
+MERSANA THERAPEUTICS, INC.
+(Name of Subject Company (issuer))
+​
+EMERALD MERGER SUB, INC.
+(Offeror)
+​
+a direct wholly owned subsidiary of
+DAY ONE BIOPHARMACEUTICALS, INC.
+(Parent of Offeror)
+(Names of Filing Persons (identifying status as offeror, issuer or other person))
+​
+Common Stock, $0.0001 par value per share
+(Title of Class of Securities)
+​
+59045L 106
+(CUSIP Number of Class of Securities)
+​
+Adam Dubow
+General Counsel
+Day One Biopharmaceuticals, Inc.",,,,,0.7539486885070801,1.1539486885070802,,cover
+12:0001104659-26-001116,0001104659-26-001116,security_description,security_description,"Mersana Therapeutics, Inc.",0001104659-25-118903,,sc_14d9,,"Unless the context suggests otherwise,
+references in this Solicitation/Recommendation Statement on Schedule 14D-9 (together with any exhibits and annexes attached hereto, as
+it may be amended or supplemented, this “
+Schedule 14D-9
+”) to “
+Mersana
+”, the “
+Company
+”,
+ “
+we
+”, “
+us
+”, and “
+our
+” refer to Mersana Therapeutics, Inc. and its subsidiary.
+(b) Securities
+The title of the class of equity securities to
+which this Schedule 14D-9 relates is the Company’s common stock, par value $0.0001 per share (the “
+Common Stock
+”).
+As of the close of business on November 30, 2025, there were 4,999,615 shares of Common Stock issued and outstanding.
+Item 2.",,,,,0.657478392124176,0.857478392124176,,sc_14d9
+12:0001104659-26-001116,0001104659-26-001116,cusip,cusip,59045L106,0001104659-25-118858,,cover,,59045L106,,,,,1.0,1.0,,
+12:0001104659-26-001116,0001104659-26-001116,isin,isin,US59045L1061,0001104659-25-118858,,cover,,US59045L1061,,,,,1.0,1.0,,
+12:0001104659-26-001116,0001104659-26-001116,ticker,ticker,MRSN,0001104659-25-118858,,cover,,MRSN,,,,,1.0,1.0,,
+12:0001104659-26-001116,0001104659-26-001116,offer_price,offer_price,$25.00,0001104659-25-118858,,otp,,"​
+​
+Price Offered Per Share
+​
+​
+Upon the terms and subject to the conditions set forth in this Offer to Purchase and in the related Letter of Transmittal: (i) $25.00, net to the stockholder in cash, without interest and less any applicable tax withholding, plus (ii) one CVR, representing the right to receive certain contingent payments of up to an aggregate amount of $30.25 per CVR in cash, without interest and less any applicable withholding taxes, upon the achievement of certain specified milestones on or prior to the applicable milestone outside dates in a",,,,,0.6821056008338928,1.3321056008338927,,​
+12:0001104659-26-001116,0001104659-26-001116,currency,currency,USD,0001104659-25-118858,,cover,,$25.00,,,,,1.0,1.0,,
+12:0001104659-26-001116,0001104659-26-001116,expiration_date,expiration_date,"January 5, 2026",0001104659-25-118858,,otp,,"​
+​
+Scheduled Expiration of Offer
+​
+​
+One minute past 11:59 p.m., Eastern Time, on January 5, 2026, unless the Offer is otherwise extended or earlier terminated.",,,,,0.7167179584503174,1.3667179584503173,,​
+12:0001104659-26-001116,0001104659-26-001116,withdrawal_deadline,withdrawal_deadline,"February 3, 2026",0001104659-25-118858,,otp,,"​
+60 days of commencement of the Offer, you may withdraw them at any time after February 3, 2026, the 60th day after commencement of the Offer, until Purchaser accepts your Shares for payment.
+For a withdrawal of Shares to be effective, the Depositary must timely receive a written notice of withdrawal at one of its addresses set forth on the back cover of this Offer to Purchase.",,,,,0.7440378069877625,1.3440378069877623,,​
+12:0001104659-26-001116,0001104659-26-001116,minimum_tender_condition,minimum_tender_condition,Upfront Cash Consideration,0001104659-25-118858,,otp,,"of the Merger Agreement, we expressly reserve the right to increase the Offer Price, waive (to the extent permissible) any Offer Condition or to make any change in the terms of or conditions of the Offer not inconsistent with the terms of the Merger Agreement; provided that, without the prior written consent of Mersana, we may not decrease the Offer Price, including by reducing the amount of the Upfront Cash Consideration or the amount payable pursuant to the Milestone Payments underlying the CVR to be paid per Share (other than to make the customary proportional adjustment for stock splits, stock dividends, recapitalizations or similar capital structure changes permitted pursuant to the Merger Agreement), change the form of consideration payable in the Offer (other than the substitution of cash for the eliminatio",,,,,0.6101993918418884,0.6101993918418884,,​
+12:0001104659-26-001116,0001104659-26-001116,proration_terms,proration_terms,Conditions of the Offer,0001104659-25-118858,,otp,,"15.   Conditions of the Offer
+The following sets forth the conditions to the Offer set forth in the Merger Agreement and is qualified in its entirety by reference to the full text of the Merger Agreement, a copy of which is filed as Exhibit (d)(1) to the Schedule TO, and is incorporated herein by reference.",,,,,0.473499596118927,0.473499596118927,,​
+13:0001104659-26-001654,0001104659-26-001654,bidder,offeror,"UMB Fund Services, Inc.",0001104659-26-000598,,cover,,"The promissory notes were held by UMB Fund Services, Inc., the Fund’s administrator, on behalf of such Shareholders,
+in accordance with the terms of the Offer.",,,,,0.8283559083938599,1.22835590839386,,cover
+13:0001104659-26-001654,0001104659-26-001654,offer_price,offer_price,net asset value,0001104659-26-000598,,cover,,"The net asset value of the Shares tendered
+pursuant to the Offer was calculated as of March 31, 2025, in the amount of $136,753.
+4.",,,,,0.6794615387916565,0.6294615387916564,,cover
+14:0001104659-26-002133,0001104659-26-002133,bidder,offeror,"UMB Fund Services, Inc.",0001104659-26-000598,,cover,,"The promissory notes were held by UMB Fund Services, Inc., the Fund’s administrator, on behalf of such Shareholders,
+in accordance with the terms of the Offer.",,,,,0.8283559083938599,1.22835590839386,,cover
+14:0001104659-26-002133,0001104659-26-002133,offer_price,offer_price,net asset value,0001104659-26-000598,,cover,,"The net asset value of the Shares tendered
+pursuant to the Offer was calculated as of March 31, 2025, in the amount of $136,753.
+4.",,,,,0.6794615387916565,0.6294615387916564,,cover
+15:0001104659-26-002174,0001104659-26-002174,subject_company,target,"Warner Bros. Discovery, Inc.",0001193125-25-321674,,sc_14d9,,"Subject Company Information
+Name and Address
+The name of the subject
+company to which this Solicitation/Recommendation Statement on Schedule
+14D-9
+(together with any exhibits attached hereto, this “
+Statement
+”) relates is Warner Bros. Discovery, Inc., a
+Delaware corporation (“
+WBD
+” or the “
+Company
+”).",,,,,0.7416046857833862,1.0416046857833863,,sc_14d9
+15:0001104659-26-002174,0001104659-26-002174,bidder,offeror,"Warner Bros. Discovery, Inc.",0001193125-25-310708,,cover,,"SC TO-T
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+Tender Offer
+Statement Pursuant to Section 14(d)(1) or 13(e)(1)
+of the Securities Exchange Act of 1934
+Warner Bros. Discovery, Inc.
+(Name of Subject Company (Issuer))
+Prince Sub Inc.",,,,,0.7751497626304626,1.1751497626304628,,cover
+15:0001104659-26-002174,0001104659-26-002174,security_description,security_description,"WARNER BROS. DISCOVERY, INC.",0001193125-25-321674,,sc_14d9,,"SC 14D9
+Table of Contents
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE
+14D-9
+(Rule
+14d-101)
+SOLICITATION/RECOMMENDATION STATEMENT
+UNDER SECTION 14(d)(4) OF THE SECURITIES EXCHANGE ACT OF 1934
+WARNER BROS. DISCOVERY, INC.
+(Name of Subject Company)
+WARNER BROS.",,,,,0.589601993560791,0.789601993560791,,sc_14d9
+15:0001104659-26-002174,0001104659-26-002174,cusip,cusip,934423104,0001193125-25-310708,,cover,,934423104,,,,,1.0,1.0,,
+15:0001104659-26-002174,0001104659-26-002174,isin,isin,US9344231041,0001193125-25-310708,,cover,,US9344231041,,,,,1.0,1.0,,
+15:0001104659-26-002174,0001104659-26-002174,offer_price,offer_price,$119.67,0001193125-25-310708,,otp,,"share in cash, plus • a to-be-determined number of shares of Netflix stock equal
+to: • 0.0376, if the 15-day volume-weighted average trading price prior to closing (the “Netflix VWAP”)
+is equal to or greater than $119.67; • the quotient obtained by dividing $4.50 by the Netflix VWAP, if the Netflix VWAP is greater than $97.91 but less than $119.67; or • 0.0460, if the Netflix VWAP is less than or equal to $97.91 • $30 per Warner Bros.",,,,,0.6467564105987549,1.426756410598755,How do the terms of the Paramount/Warner Bros. Merger Agreement compare to the terms contained in the Netflix Merger Agreement?,How do the terms of the Paramount/Warner Bros. Merger Agreement compare to the terms contained in the Netflix Merger Agreement?
+15:0001104659-26-002174,0001104659-26-002174,currency,currency,USD,0001193125-25-310708,,cover,,$119.67,,,,,1.0,1.0,,
+15:0001104659-26-002174,0001104659-26-002174,expiration_date,expiration_date,"January 8, 2026",0001193125-25-310708,,otp,,"The Offer is scheduled to expire at 5:00 p.m., New York City time, on January 8, 2026, which is the initial expiration date, unless further
+extended by Paramount, through the Purchaser.",,,,,0.9813854694366455,1.7613854694366455,"When does the Offer expire? Can the Offer be extended and, if so, under what circumstances?","When does the Offer expire? Can the Offer be extended and, if so, under what circumstances?"
+15:0001104659-26-002174,0001104659-26-002174,withdrawal_deadline,withdrawal_deadline,"February 9, 2026",0001193125-25-310708,,otp,,"You may withdraw previously tendered shares at any time prior to the expiration of the Offer and, unless Paramount and the
+Purchaser have accepted the Shares for purchase pursuant to the Offer, you may also withdraw any tendered Shares at any time after February 9, 2026, the first business day after the 60th day following the commencement of the Offer. For a complete
+discussion on the procedures for withdrawing your shares, please see the section of this Offer to Purchase entitled “ The Offer—Section 4—Withdrawal Rights .”",,,,,0.7284942865371704,1.4584942865371704,"Until what time can I withdraw tendered
+shares?","Until what time can I withdraw tendered
+shares?"
+15:0001104659-26-002174,0001104659-26-002174,minimum_tender_condition,minimum_tender_condition,conditions of the Offer,0001193125-25-310708,,otp,,"The timing for consummation of the Offer will depend on the satisfaction of the conditions of the Offer. Because the conditions are
+beyond our control, there can be no certainty as to when, and whether, we will be able to consummate the Offer. See the sections of this Offer to Purchase entitled “ The Offer—Section 14—Conditions of the
+Offer .”",,,,,0.5847322344779968,0.6347322344779969,How long will it take to complete your proposed transaction?,How long will it take to complete your proposed transaction?
+16:0001104659-26-002520,0001104659-26-002520,subject_company,target,"Warner Bros. Discovery, Inc.",0001193125-25-321674,,sc_14d9,,"Subject Company Information
+Name and Address
+The name of the subject
+company to which this Solicitation/Recommendation Statement on Schedule
+14D-9
+(together with any exhibits attached hereto, this “
+Statement
+”) relates is Warner Bros. Discovery, Inc., a
+Delaware corporation (“
+WBD
+” or the “
+Company
+”).",,,,,0.7416046857833862,1.0416046857833863,,sc_14d9
+16:0001104659-26-002520,0001104659-26-002520,bidder,offeror,"Warner Bros. Discovery, Inc.",0001193125-25-310708,,cover,,"SC TO-T
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+Tender Offer
+Statement Pursuant to Section 14(d)(1) or 13(e)(1)
+of the Securities Exchange Act of 1934
+Warner Bros. Discovery, Inc.
+(Name of Subject Company (Issuer))
+Prince Sub Inc.",,,,,0.7751497626304626,1.1751497626304628,,cover
+16:0001104659-26-002520,0001104659-26-002520,security_description,security_description,"WARNER BROS. DISCOVERY, INC.",0001193125-25-321674,,sc_14d9,,"SC 14D9
+Table of Contents
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE
+14D-9
+(Rule
+14d-101)
+SOLICITATION/RECOMMENDATION STATEMENT
+UNDER SECTION 14(d)(4) OF THE SECURITIES EXCHANGE ACT OF 1934
+WARNER BROS. DISCOVERY, INC.
+(Name of Subject Company)
+WARNER BROS.",,,,,0.589601993560791,0.789601993560791,,sc_14d9
+16:0001104659-26-002520,0001104659-26-002520,cusip,cusip,934423104,0001193125-25-310708,,cover,,934423104,,,,,1.0,1.0,,
+16:0001104659-26-002520,0001104659-26-002520,isin,isin,US9344231041,0001193125-25-310708,,cover,,US9344231041,,,,,1.0,1.0,,
+16:0001104659-26-002520,0001104659-26-002520,offer_price,offer_price,$119.67,0001193125-25-310708,,otp,,"share in cash, plus • a to-be-determined number of shares of Netflix stock equal
+to: • 0.0376, if the 15-day volume-weighted average trading price prior to closing (the “Netflix VWAP”)
+is equal to or greater than $119.67; • the quotient obtained by dividing $4.50 by the Netflix VWAP, if the Netflix VWAP is greater than $97.91 but less than $119.67; or • 0.0460, if the Netflix VWAP is less than or equal to $97.91 • $30 per Warner Bros.",,,,,0.6467564105987549,1.426756410598755,How do the terms of the Paramount/Warner Bros. Merger Agreement compare to the terms contained in the Netflix Merger Agreement?,How do the terms of the Paramount/Warner Bros. Merger Agreement compare to the terms contained in the Netflix Merger Agreement?
+16:0001104659-26-002520,0001104659-26-002520,currency,currency,USD,0001193125-25-310708,,cover,,$119.67,,,,,1.0,1.0,,
+16:0001104659-26-002520,0001104659-26-002520,expiration_date,expiration_date,"January 8, 2026",0001193125-25-310708,,otp,,"The Offer is scheduled to expire at 5:00 p.m., New York City time, on January 8, 2026, which is the initial expiration date, unless further
+extended by Paramount, through the Purchaser.",,,,,0.9813854694366455,1.7613854694366455,"When does the Offer expire? Can the Offer be extended and, if so, under what circumstances?","When does the Offer expire? Can the Offer be extended and, if so, under what circumstances?"
+16:0001104659-26-002520,0001104659-26-002520,withdrawal_deadline,withdrawal_deadline,"February 9, 2026",0001193125-25-310708,,otp,,"You may withdraw previously tendered shares at any time prior to the expiration of the Offer and, unless Paramount and the
+Purchaser have accepted the Shares for purchase pursuant to the Offer, you may also withdraw any tendered Shares at any time after February 9, 2026, the first business day after the 60th day following the commencement of the Offer. For a complete
+discussion on the procedures for withdrawing your shares, please see the section of this Offer to Purchase entitled “ The Offer—Section 4—Withdrawal Rights .”",,,,,0.7284942865371704,1.4584942865371704,"Until what time can I withdraw tendered
+shares?","Until what time can I withdraw tendered
+shares?"
+16:0001104659-26-002520,0001104659-26-002520,minimum_tender_condition,minimum_tender_condition,conditions of the Offer,0001193125-25-310708,,otp,,"The timing for consummation of the Offer will depend on the satisfaction of the conditions of the Offer. Because the conditions are
+beyond our control, there can be no certainty as to when, and whether, we will be able to consummate the Offer. See the sections of this Offer to Purchase entitled “ The Offer—Section 14—Conditions of the
+Offer .”",,,,,0.5847322344779968,0.6347322344779969,How long will it take to complete your proposed transaction?,How long will it take to complete your proposed transaction?
+17:0000930413-26-000655,0000930413-26-000655,bidder,offeror,"Lord Abbett
+Private Credit Advisor LLC",0000930413-26-000298,,cover,,"Lord Abbett
+Private Credit Advisor LLC (the “Adviser”) serves as the investment adviser for the Company.",,,,,0.8271222710609436,1.2271222710609437,,cover
+17:0000930413-26-000655,0000930413-26-000655,offer_price,offer_price,0.01,0000930413-26-000298,,otp,,"LORD ABBETT
+PRIVATE CREDIT FUND
+NOTICE
+OF WITHDRAWAL
+Ladies and Gentlemen:
+The undersigned hereby withdraws the
+tender of its common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”),
+of Lord Abbett Private Credit Fund (the “
+Company
+”) that previously was submitted by the
+undersigned in a Letter of Transmittal, dated _____________, 202[ ].
+A.",,,,,0.6017073392868042,0.8017073392868042,,otp
+17:0000930413-26-000655,0000930413-26-000655,expiration_date,expiration_date,"January 29, 2026",0000930413-26-000298,,otp,,"fferent than above; print name exactly as it
+appears
+on the books and records of the Company maintained by State Street Bank and
+Trust Company, the Company’s transfer agent
+):
+Print Name of Registered Holder
+Title of Signatory
+Signature – Registered Holder
+Date
+This Lord Abbett Private
+Credit Fund Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer to Purchase dated January 29, 2026.",,,,,0.8598445057868958,1.5098445057868957,,otp
+17:0000930413-26-000655,0000930413-26-000655,withdrawal_deadline,withdrawal_deadline,"January 29, 2026",0000930413-26-000298,,otp,,"WITHDRAWAL REQUEST (select one option)
+o
+All Shares owned as of the Expiration Date
+o
+Other number of Shares*:
+*Provide a number
+of Shares,
+not a dollar amount
+.
+[Signature page follows]
+This Lord Abbett Private
+Credit Fund Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer to Purchase dated January 29, 2026.
+LORD ABBETT PRIVATE CREDIT FUND
+NOTICE OF WITHDRAWAL
+C.",,,,,0.433517724275589,1.0335177242755889,,otp
+18:0000930413-26-000656,0000930413-26-000656,bidder,offeror,"Lord Abbett
+Private Credit Advisor LLC",0000930413-26-000299,,cover,,"Lord Abbett
+Private Credit Advisor LLC (the “Adviser”) serves as the investment adviser for the Company.",,,,,0.8203740119934082,1.2203740119934083,,cover
+18:0000930413-26-000656,0000930413-26-000656,offer_price,offer_price,0.01,0000930413-26-000299,,otp,,"LORD ABBETT PRIVATE CREDIT FUND S
+NOTICE OF WITHDRAWAL
+Ladies and Gentlemen:
+The undersigned hereby withdraws the
+tender of its common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”),
+of Lord Abbett Private Credit Fund S (the “
+Company
+”) that previously was submitted by the
+undersigned in a Letter of Transmittal, dated _____________, 202[ ].
+A.",,,,,0.6071625351905823,0.8071625351905822,,otp
+18:0000930413-26-000656,0000930413-26-000656,expiration_date,expiration_date,"January 29, 2026",0000930413-26-000299,,otp,,"ferent than above; print name exactly as it appears on the books and records of the Company maintained by State Street
+Bank and Trust Company, the Company’s transfer agent):
+Print Name of Registered Holder
+Title of Signatory
+Signature – Registered Holder
+Date
+This Lord Abbett Private Credit Fund S Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer
+to Purchase dated January 29, 2026.",,,,,0.8559579849243164,1.5059579849243163,,otp
+18:0000930413-26-000656,0000930413-26-000656,withdrawal_deadline,withdrawal_deadline,"January 29, 2026",0000930413-26-000299,,otp,,"WITHDRAWAL REQUEST (select one option)
+o
+All Shares owned as of the Expiration Date
+o
+Other number of Shares*:
+*Provide a number
+of Shares,
+not a dollar amount
+.
+[Signature page follows]
+This Lord Abbett Private Credit Fund S Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer
+to Purchase dated January 29, 2026.
+LORD ABBETT PRIVATE CREDIT FUND S
+NOTICE OF WITHDRAWAL
+C.",,,,,0.4352067708969116,1.0352067708969115,,otp
+19:0001099910-26-000121,0001099910-26-000121,subject_company,target,"SELECTIS
+HEALTH, INC.",0001493152-26-012450,,sc_14d9,,"UNITED
+STATES
+SECURITIES
+AND EXCHANGE COMMISSION
+Washington,
+D.C. 20549
+SCHEDULE
+14D-9
+Solicitation/Recommendation
+Statement
+under Section 14(d)(4) of the Securities Exchange Act of 1934
+SELECTIS
+HEALTH, INC.
+(Name
+of Subject Company)
+SELECTIS
+HEALTH, INC.",,,,,0.7693966627120972,1.0693966627120972,,sc_14d9
+19:0001099910-26-000121,0001099910-26-000121,bidder,offeror,"Black Pearl Equities, LLC",0001099910-26-000099,,cover,,"Terms of the Tender Offer:
+The Tender
+    Offer will be in effect from the date of this filing until May 11, 2026, unless extended by Black Pearl Equities, LLC.",,,,,0.7785922288894653,1.1785922288894655,,cover
+19:0001099910-26-000121,0001099910-26-000121,security_description,security_description,Selectis,0001493152-26-012450,,sc_14d9,,"●
+There
+                                            are no plans for any class of equity securities of Selectis to be delisted from a national
+                                            securities exchange or cease to be authorized to be quoted in an automated quotations system
+                                            operated by a national securities association.",,,,,0.5519188046455383,0.5519188046455383,,sc_14d9
+19:0001099910-26-000121,0001099910-26-000121,cusip,cusip,816291108,0001099910-26-000099,,cover,,816291108,,,,,1.0,1.0,,
+19:0001099910-26-000121,0001099910-26-000121,isin,isin,US8162911080,0001099910-26-000099,,cover,,US8162911080,,,,,1.0,1.0,,
+19:0001099910-26-000121,0001099910-26-000121,ticker,ticker,GBCS,0001099910-26-000121,,cover,,GBCS,,,,,1.0,1.0,,
+19:0001099910-26-000121,0001099910-26-000121,offer_price,offer_price,"$15,500,000",0001099910-26-000121,,otp,,"As of March 10, 2026, there are 3,067,059
+    shares of common stock issued and outstanding.
+Offer
+    Price
+The
+                                            Offer Price is $5.05 per Share, net to the seller in cash, without interest and subject to
+                                            applicable withholding taxes
+Total
+    Consideration
+Approximately
+    $15,500,000 (assuming 100% of shares are tendered and accepted).",,,,,0.5370702147483826,1.1870702147483825,,otp
+19:0001099910-26-000121,0001099910-26-000121,currency,currency,USD,0001099910-26-000099,,cover,,$150.00,,,,,1.0,1.0,,
+19:0001099910-26-000121,0001099910-26-000121,expiration_date,expiration_date,"May
+    11, 2026",0001099910-26-000121,,otp,,"Expiration
+    Date
+May
+    11, 2026, at 5:00 p.m., Eastern Time, unless extended.
+Withdrawal
+    Rights
+Shares
+    may be withdrawn at any time before the Expiration Date, and also at any time after May 9, 2026 (60 days from commencement) if not
+    yet accepted for payment.
+Source
+    of Funds
+Cash
+    on hand provided by Milrose Capital, LLC.",,,,,0.8323090076446533,1.4823090076446532,,otp
+19:0001099910-26-000121,0001099910-26-000121,withdrawal_deadline,withdrawal_deadline,"MAY 11, 2026",0001099910-26-000121,,otp,,"Exhibit
+4
+OFFER
+TO PURCHASE
+FOR
+CASH
+ALL
+OUTSTANDING SHARES OF COMMON STOCK
+(CUSIP
+#816291108)
+OF
+SELECTIS
+HEALTH, INC.
+(Trading
+on the OTCQB under symbol: GBCS)
+AT
+$5.05
+PER SHARE, NET TO THE SELLER IN CASH,
+WITHOUT
+INTEREST AND SUBJECT TO APPLICABLE WITHHOLDING TAXES
+BY
+BLACK
+PEARL EQUITIES, LLC
+THE
+OFFER AND WITHDRAWAL RIGHTS WILL EXPIRE AT 5:00 P.M., EASTERN TIME, ON MAY 11, 2026 (THE “EXPIRATION DATE”), UNLESS THE OFFER
+IS EXTENDED.",,,,,0.6535309553146362,1.253530955314636,,otp
+19:0001099910-26-000121,0001099910-26-000121,minimum_tender_condition,minimum_tender_condition,"Minimum
+    Condition",0001099910-26-000121,,otp,,"Minimum
+    Condition
+At
+    least 51% of the outstanding shares on a fully diluted basis (including outstanding warrants not yet exercised) must be validly tendered
+    and not withdrawn by the Expiration Date.",,,,,0.4043689966201782,-0.14563100337982182,,otp

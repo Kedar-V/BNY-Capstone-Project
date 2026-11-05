@@ -1,0 +1,141 @@
+{
+  "stamp": "v3",
+  "micro_old": {
+    "tp": 570,
+    "fp": 671,
+    "fn": 1022,
+    "scored": 1829,
+    "gt_present": 1592,
+    "precision": 0.45930701047542305,
+    "recall": 0.35804020100502515,
+    "f1": 0.4024002823861631,
+    "accuracy": 0.3116457080371788,
+    "accuracy_when_gt": 0.35804020100502515
+  },
+  "micro_new": {
+    "tp": 754,
+    "fp": 536,
+    "fn": 838,
+    "scored": 1728,
+    "gt_present": 1592,
+    "precision": 0.5844961240310077,
+    "recall": 0.47361809045226133,
+    "f1": 0.5232477446217904,
+    "accuracy": 0.4363425925925926,
+    "accuracy_when_gt": 0.47361809045226133
+  },
+  "per_field": [
+    {
+      "field": "subject_company",
+      "owner": "gliner",
+      "acc_old": 0.8131868131868132,
+      "acc_new": 0.8131868131868132,
+      "f1_old": 0.8338028169014085,
+      "f1_new": 0.8338028169014085
+    },
+    {
+      "field": "bidder",
+      "owner": "gliner",
+      "acc_old": 0.8076923076923077,
+      "acc_new": 0.8076923076923077,
+      "f1_old": 0.8076923076923077,
+      "f1_new": 0.8076923076923077
+    },
+    {
+      "field": "security_description",
+      "owner": "gliner",
+      "acc_old": 0.521978021978022,
+      "acc_new": 0.521978021978022,
+      "f1_old": 0.5322128851540616,
+      "f1_new": 0.5322128851540616
+    },
+    {
+      "field": "cusip",
+      "owner": "rules",
+      "acc_old": 0.9327731092436976,
+      "acc_new": 0.9915966386554622,
+      "f1_old": 0.8951612903225806,
+      "f1_new": 0.9915966386554622
+    },
+    {
+      "field": "isin",
+      "owner": "rules",
+      "acc_old": 0.0336134453781512,
+      "acc_new": 0.9915966386554622,
+      "f1_old": 0.0571428571428571,
+      "f1_new": 0.9915966386554622
+    },
+    {
+      "field": "ticker",
+      "owner": "rules",
+      "acc_old": 0.4827586206896552,
+      "acc_new": 0.4482758620689655,
+      "f1_old": 0.1830065359477124,
+      "f1_new": 0.6190476190476191
+    },
+    {
+      "field": "offer_price",
+      "owner": "gliner",
+      "acc_old": 0.1352941176470588,
+      "acc_new": 0.1352941176470588,
+      "f1_old": 0.146031746031746,
+      "f1_new": 0.146031746031746
+    },
+    {
+      "field": "currency",
+      "owner": "rules",
+      "acc_old": 0.0,
+      "acc_new": 0.7191011235955056,
+      "f1_old": 0.0,
+      "f1_new": 0.6666666666666666
+    },
+    {
+      "field": "expiration_date",
+      "owner": "gliner",
+      "acc_old": 0.1040462427745664,
+      "acc_new": 0.1040462427745664,
+      "f1_old": 0.1237113402061855,
+      "f1_new": 0.1237113402061855
+    },
+    {
+      "field": "withdrawal_deadline",
+      "owner": "gliner",
+      "acc_old": 0.0365853658536585,
+      "acc_new": 0.0365853658536585,
+      "f1_old": 0.0410958904109588,
+      "f1_new": 0.0410958904109588
+    },
+    {
+      "field": "settlement_date",
+      "owner": "gliner",
+      "acc_old": 0.0786516853932584,
+      "acc_new": 0.0786516853932584,
+      "f1_old": 0.1228070175438596,
+      "f1_new": 0.1228070175438596
+    },
+    {
+      "field": "effective_date",
+      "owner": "gliner",
+      "acc_old": 0.0,
+      "acc_new": 0.0,
+      "f1_old": 0.0,
+      "f1_new": 0.0
+    },
+    {
+      "field": "minimum_tender_condition",
+      "owner": "gliner",
+      "acc_old": 0.0,
+      "acc_new": 0.0,
+      "f1_old": 0.0,
+      "f1_new": 0.0
+    },
+    {
+      "field": "proration_terms",
+      "owner": "gliner",
+      "acc_old": 0.0,
+      "acc_new": 0.0,
+      "f1_old": 0.0,
+      "f1_new": 0.0
+    }
+  ]
+}

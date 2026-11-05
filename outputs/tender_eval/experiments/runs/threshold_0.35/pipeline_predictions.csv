@@ -1,0 +1,32 @@
+accession_number,event_id,join,status,n_facts,subject_company,bidder,parent,acquisition_subsidiary,dealer_manager,depositary,information_agent,other_parties,security_description,ticker,cusip,isin,event_status,event_status_details,mandatory_voluntary_indicator,offer_price_type,offer_price,currency,offer_price_basis,offer_price_qualifications,expiration_date,withdrawal_deadline,settlement_date,effective_date,minimum_tender_condition,proration_terms,tendering_conditions,available_options,default_option,financial_terms,conditions_restrictions
+0001193125-26-000507,005-94255,accession,scored,12,,Stockholders,,,,,,,Security Holders,Shares,,,,,,,net asset value,,,,,,,,,,,,,,
+0001104659-26-000598,005-94462,accession,scored,13,,First Trust Private Assets Fund,,,,,,,SHARES OF BENEFICIAL INTEREST,Shares,CUSIP Number,,,,,,"$1,600,000",,,,,,,,,,,,,,
+0001104659-26-001124,005-90033,accession,scored,78,constituent corporation,"Day One Biopharmaceuticals, Inc.",,,,,,,Company Options,MRSN,59045L 106,,,,,,$25.00,one CVR,,,"March 12, 2025","February 3, 2026",,"November 13, 2025",Offer Conditions,Extension Deadline,,,,,
+0001104659-26-001149,005-94079,accession,scored,23,,Morgan Stanley,,,,,,,Common Shares of Beneficial Interest,"Class I
+common shares",CUSIP,,,,,,$0.01,,,,"September 1, 2026",,,,,,,,,,
+0001104659-26-001148,005-94422,accession,scored,24,,Morgan Stanley,,,,,,,Common Shares of Beneficial Interest,Class S common shares,CUSIP,,,,,,$0.01,,,,"September 1, 2026",,,,,,,,,,
+0001193125-26-005515,005-88806,accession,scored,44,Cidara,Merck Sharp & Dohme LLC,,,,,,,Series A Convertible Voting Preferred Stock,Common Shares,"CUSIP Number
+of Class of Securities",,,,,,"$15,505.00",,,,"JANUARY 6, 2026",,,Merger Effective Time,,,,,,,
+0001104659-26-002517,005-91530,accession,scored,93,target corporation,Generation Bio Co.,,,,,,,Company Shares,GBIO,37148K209,,,,,,$4.2913,CVR,,,"April 15, 2026",,Offer Closing Time,Effective Time,Minimum Tender Condition,TERMS OF THE OFFER,,,,,
+0000919574-26-000310,005-93136,accession,scored,41,Company,"OCEANPAL, INC.",,,,,,,Series D Preferred Shares,shares,Transaction Code Number,,,,,,"$1,400",cash,,,"November 25, 2025",5:00 P.M.,,,,,,,,,
+0001104659-26-006294,005-93688,accession,scored,15,,Eagle Point Credit Management LLC,,,,,,,Eagle Point Institutional Income Fund,Shares,CUSIP Number,,,,,,"$3,098,140.44",,,,,,,,,,,,,,
+0001104659-26-006517,005-94568,accession,scored,68,U.S.,HARTFORD SCHRODERS PRIVATE OPPORTUNITIES FUND,,,,,,,shares of beneficial interest,XHFSX,,,,,,,"$24,382,332",,,,"August 26, 2024",Notice Due Date,"June 30, 2024",,strict restrictions,,,,,,
+0001104659-26-006950,005-95189,accession,scored,26,,"Coatue
+Management, L.L.C.",,,,,,,COATUE INNOVATIVE STRATEGIES FUND,Shares,CUSIP Number,,,,,,"$182,790,754",,,,,,"February 24, 2026",,,,,,,,
+0001104659-26-008028,005-90791,accession,scored,51,,"MONROE CAPITAL
+INCOME PLUS CORPORATION",,,,,,,pany,"Common
+Stock",,,,,,,"$46,291,871",,,,"January 2, 2026",,"January 2, 2026",,,,,,,,
+0000930413-26-000298,005-94863,accession,scored,28,,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,Common Shares of Beneficial Interest,Shares,CUSIP,,,,,,$0.01,,,,"FEBRUARY 27, 2026","January 29, 2026",,,,,,,,,
+0000930413-26-000299,005-95186,accession,scored,24,,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,Common Shares of Beneficial Interest,Shares,CUSIP,,,,,,$0.01,,,,"FEBRUARY 27, 2026","January 29, 2026",,,,,,,,,
+0001140361-26-003032,005-94050,accession,scored,58,,"BlackRock Capital Investment Advisors, LLC",,,,,,,Institutional Shares of Beneficial Interest,BRY42WTV3,DRIP,,,,,,$500,cash,,,"July 1, 2024",Valuation Date,,,,,,,,,
+0001104659-26-008693,005-35587,accession,scored,31,,Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",OTCQB,CUSIP Number,,,,,,$7.83,,,,"March
+9, 2026","January 28, 2026",,"January 30, 2026",,,,,,,
+0001104659-26-008976,005-91139,accession,scored,72,Fund,"Macquarie Wealth Advisers, LLC",,,,,,,Class F2,Units,CUSIP Number,,,,,,"$25,000",Units,,,"April 17, 2020",12:00 midnight,Valuation Date,,,prorated,,,,,
+0001104659-26-010301,005-93626,accession,scored,20,,"Ares Private
+Markets Fund",,,,,,,"Class I
+Shares",04020B301,04020B103,,,,,,"$188,659,203.02",,,,,,,,,,,,,,
+0001104659-26-011592,005-95034,accession,scored,19,,Antares Capital Credit Advisers LLC,,,,,,,Common Shares of Beneficial Interest,03666N108,CUSIP Number,,,,,,"$66,560,780.57",,,,"June 11, 2026",11:59 p.m.,,,,,,,,,
+0001104659-26-011591,005-94860,accession,scored,23,,Antares Capital Credit Advisers LLC,,,,,,,Class S common shares of beneficial interest,0366431049,0366433029,,,,,,"1,394,707",,,,"September 17, 2025",,,,,,,,,,

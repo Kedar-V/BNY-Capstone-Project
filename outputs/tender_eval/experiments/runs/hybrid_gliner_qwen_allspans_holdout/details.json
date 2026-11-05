@@ -1,0 +1,1796 @@
+[
+  {
+    "accession": "0001193125-26-000507",
+    "event_id": "005-94255",
+    "n_evidence": 8,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Jefferies Credit Partners BDC Inc.",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "Jefferies Credit Partners BDC Inc.",
+        "pred": "Jefferies Credit Partners BDC Inc."
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Jefferies Credit Partners BDC Inc. Class I Shares of common stock, $0.001 par value per share",
+        "pred": "Class I Shares"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "Class I Shares"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Class I Share as of the Valuation Date, less any applicable Early Repurchase Deduction",
+        "pred": "net asset value per Share"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "1/30/2026 11:59 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "fn",
+        "gold": "1/30/2026 11:59 PM Eastern Time | If the Company has not accepted the tender on or before 3/2/2026, withdrawal is also permitted after that date",
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: N/A | Payment: promptly after the Termination Date",
+        "pred": "promptly"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "No minimum tender condition",
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "fn",
+        "gold": "If Shares exceeding 5% of the Company's net asset value as of September 30, 2025 are duly tendered before the Notice Date and not withdrawn before the Tender Withdrawal Date, the Company, in its sole discretion, may accept Shares for payment pro rata based on the aggregate net asset value tendered by each stockholder, with no priority other than the exceptions in Rule 13e-4(f)(3)(i) and Rule 13e-4(f)(3)(ii)",
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": \"Jefferies Credit Partners BDC Inc.\",\n  \"security_description\": \"Class I Shares\",\n  \"cusip\": null,\n  \"isin\": null,\n  \"ticker\": \"Class I Shares\",\n  \"offer_price\": \"net asset value per Share\",\n  \"currency\": null,\n  \"expiration_date\": null,\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": \"promptly\",\n  \"effective_date\": null,\n  \"minimum_tender_condition\": null,\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-000598",
+    "event_id": "005-94462",
+    "n_evidence": 8,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "First Trust Private Assets Fund",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "First Trust Private Assets Fund",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "First Trust Private Assets Fund shares of beneficial interest",
+        "pred": "SHARES OF BENEFICIAL INTEREST"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value of the Shares tendered as of March 31, 2025, as it may be adjusted based upon the next annual audit of the Fund\u2019s financial statements",
+        "pred": "$136,753"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "3/31/2025 11:59 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "Acceptance: after the expiration of the Offer | Initial Payment: 5/29/2025 | Post-Audit Payment: no later than 5 business days following the completion of the Fund\u2019s next annual audit",
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": null,\n  \"security_description\": \"SHARES OF BENEFICIAL INTEREST\",\n  \"cusip\": null,\n  \"isin\": null,\n  \"ticker\": null,\n  \"offer_price\": \"$136,753\",\n  \"currency\": null,\n  \"expiration_date\": null,\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-001124",
+    "event_id": "005-90033",
+    "n_evidence": 76,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "Mersana Therapeutics, Inc.",
+        "pred": "Mersana Therapeutics, Inc."
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "Emerald Merger Sub, Inc.",
+        "pred": "Emerald Merger Sub, Inc."
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Mersana Therapeutics, Inc. common stock, par value $0.0001 per share",
+        "pred": "Mersana Common Stock"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "59045L106",
+        "pred": "59045L106"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US59045L1061",
+        "pred": "US59045L1061"
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "MRSN",
+        "pred": "MRSN"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "$25.00 in cash plus one non-tradeable contingent value right (CVR) per common share, representing the right to receive contingent milestone payments of up to $30.25 per CVR in cash",
+        "pred": "$25.00"
+      },
+      "currency": {
+        "outcome": "tp",
+        "gold": "USD",
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/5/2026 11:59 PM Eastern Time",
+        "pred": "January 5, 2026"
+      },
+      "withdrawal_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "February 3, 2026"
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: after the expiration of the Offer | Payment: promptly",
+        "pred": "Payment: promptly"
+      },
+      "effective_date": {
+        "outcome": "mismatch",
+        "gold": "1/6/2026",
+        "pred": "November 13, 2025"
+      },
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "Minimum Condition was satisfied; its required number, percentage, or calculation basis is not stated",
+        "pred": "Minimum Condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": \"Mersana Therapeutics, Inc.\",\n  \"bidder\": \"Emerald Merger Sub, Inc.\",\n  \"security_description\": \"Mersana Common Stock\",\n  \"cusip\": \"59045L106\",\n  \"isin\": \"US59045L1061\",\n  \"ticker\": \"MRSN\",\n  \"offer_price\": \"$25.00\",\n  \"currency\": \"USD\",\n  \"expiration_date\": \"January 5, 2026\",\n  \"withdrawal_deadline\": \"February 3, 2026\",\n  \"settlement_date\": \"Payment: promptly\",\n  \"effective_date\": \"November 13, 2025\",\n  \"minimum_tender_condition\": \"Minimum Condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-001149",
+    "event_id": "005-94079",
+    "n_evidence": 12,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "KKR FS Income Trust",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "KKR FS Income Trust",
+        "pred": "KKR FS Income Trust"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "KKR FS Income Trust Class I common shares of beneficial interest, par value $0.01 per share",
+        "pred": "Class I common shares of beneficial interest"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "48255N100",
+        "pred": "48255N100"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US48255N1000",
+        "pred": "US48255N1000"
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "Common Shares of Beneficial Interest"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "net asset value per Share as of December 31, 2025",
+        "pred": "net asset value per share as of December 31, 2025"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "12/29/2025 11:59 PM Eastern Time",
+        "pred": "September 1, 2026"
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": \"KKR FS Income Trust\",\n  \"security_description\": \"Class I common shares of beneficial interest\",\n  \"cusip\": \"48255N100\",\n  \"isin\": \"US48255N1000\",\n  \"ticker\": \"Common Shares of Beneficial Interest\",\n  \"offer_price\": \"net asset value per share as of December 31, 2025\",\n  \"currency\": null,\n  \"expiration_date\": \"September 1, 2026\",\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": null,\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-001148",
+    "event_id": "005-94422",
+    "n_evidence": 13,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "KKR FS Income Trust Select",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "KKR FS Income Trust Select",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "fn",
+        "gold": "KKR FS Income Trust Select Class S common shares of beneficial interest, par value $0.01 per share",
+        "pred": null
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "48256J108",
+        "pred": "48256J 108"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US48256J1088",
+        "pred": "US48256J1088"
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "Common Shares of Beneficial Interest"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "net asset value per Share as of December 31, 2025",
+        "pred": "net asset value per Share\nas of December 31, 2025"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "12/29/2025 11:59 PM Eastern Time",
+        "pred": "September 1, 2026"
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": null,\n  \"security_description\": null,\n  \"cusip\": \"48256J 108\",\n  \"isin\": \"US48256J1088\",\n  \"ticker\": \"Common Shares of Beneficial Interest\",\n  \"offer_price\": \"net asset value per Share\\nas of December 31, 2025\",\n  \"currency\": null,\n  \"expiration_date\": \"September 1, 2026\",\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": null,\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "event_id": "005-88806",
+    "n_evidence": 33,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "Cidara Therapeutics, Inc.",
+        "pred": "Cidara Therapeutics, Inc."
+      },
+      "bidder": {
+        "outcome": "mismatch",
+        "gold": "Caymus Purchaser, Inc.",
+        "pred": "Merck Sharp & Dohme LLC"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Cidara Therapeutics, Inc. common stock, $0.0001 par value per share",
+        "pred": "Series A Convertible Voting Preferred Stock"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "171757206",
+        "pred": "171757206"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US1717572069",
+        "pred": "US1717572069"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "CDTX",
+        "pred": "Common Shares"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "221.50",
+        "pred": "$221.50"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "1/6/2026 11:59 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "1/6/2026 11:59 PM Eastern Time",
+        "pred": "JANUARY 6, 2026"
+      },
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement",
+        "pred": "February 3, 2026"
+      },
+      "effective_date": {
+        "outcome": "fn",
+        "gold": "1/7/2026",
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "mismatch",
+        "gold": "Minimum Condition satisfied by the Shares validly tendered and not validly withdrawn as of the Expiration Time, excluding Shares tendered pursuant to guaranteed delivery procedures that had not yet been received; the required minimum is not stated.",
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n    \"subject_company\": \"Cidara Therapeutics, Inc.\",\n    \"bidder\": \"Merck Sharp & Dohme LLC\",\n    \"security_description\": \"Series A Convertible Voting Preferred Stock\",\n    \"cusip\": \"171757206\",\n    \"isin\": \"US1717572069\",\n    \"ticker\": \"Common Shares\",\n    \"offer_price\": \"$221.50\",\n    \"currency\": \"USD\",\n    \"expiration_date\": null,\n    \"withdrawal_deadline\": \"JANUARY 6, 2026\",\n    \"settlement_date\": \"February 3, 2026\",\n    \"effective_date\": null,\n    \"minimum_tender_condition\": \"No minimum tender condition\",\n    \"proration_terms\": null\n  }"
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "event_id": "005-88806",
+    "n_evidence": 33,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "Cidara Therapeutics, Inc.",
+        "pred": "Cidara Therapeutics, Inc."
+      },
+      "bidder": {
+        "outcome": "mismatch",
+        "gold": "Caymus Purchaser, Inc.",
+        "pred": "Merck Sharp & Dohme LLC"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Cidara Therapeutics, Inc. Series A Convertible Voting Preferred Stock, $0.0001 par value per share",
+        "pred": "Series A Convertible Voting Preferred Stock"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "171757206",
+        "pred": "171757206"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US1717572069",
+        "pred": "US1717572069"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "CDTX",
+        "pred": "Common Shares"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "15505.00",
+        "pred": "$221.50"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "1/6/2026 11:59 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "1/6/2026 11:59 PM Eastern Time",
+        "pred": "JANUARY 6, 2026"
+      },
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement",
+        "pred": "February 3, 2026"
+      },
+      "effective_date": {
+        "outcome": "fn",
+        "gold": "1/7/2026",
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "mismatch",
+        "gold": "Minimum Condition satisfied by the Shares validly tendered and not validly withdrawn as of the Expiration Time, excluding Shares tendered pursuant to guaranteed delivery procedures that had not yet been received; the required minimum is not stated.",
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n    \"subject_company\": \"Cidara Therapeutics, Inc.\",\n    \"bidder\": \"Merck Sharp & Dohme LLC\",\n    \"security_description\": \"Series A Convertible Voting Preferred Stock\",\n    \"cusip\": \"171757206\",\n    \"isin\": \"US1717572069\",\n    \"ticker\": \"Common Shares\",\n    \"offer_price\": \"$221.50\",\n    \"currency\": \"USD\",\n    \"expiration_date\": null,\n    \"withdrawal_deadline\": \"JANUARY 6, 2026\",\n    \"settlement_date\": \"February 3, 2026\",\n    \"effective_date\": null,\n    \"minimum_tender_condition\": \"No minimum tender condition\",\n    \"proration_terms\": null\n  }"
+  },
+  {
+    "accession": "0001104659-26-002517",
+    "event_id": "005-91530",
+    "n_evidence": 88,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "Generation Bio Co.",
+        "pred": "Generation Bio Co."
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "XRA 7 Corp.",
+        "pred": "XRA 7 Corp."
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Generation Bio Co. common stock, par value $0.0001 per share",
+        "pred": "Company Shares"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "37148K209",
+        "pred": "37148K209"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US37148K2096",
+        "pred": "US37148K2096"
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "GBIO",
+        "pred": "GBIO"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "4.2913 cash plus one non-tradeable contingent value right per share",
+        "pred": "$4.2913"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "2/6/2026 11:59 PM Eastern time",
+        "pred": "February 8, 2026"
+      },
+      "withdrawal_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "March 10, 2026"
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance and consummation: as promptly as practicable after expiration, and no more than three business days after expiration | Payment: promptly after acceptance",
+        "pred": "Payment: promptly"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "mismatch",
+        "gold": "Validly tendered and not properly withdrawn shares must represent at least one share more than 50% of all shares issued and outstanding when the offer expires; shares tendered through guaranteed delivery procedures but not yet received by the depositary are excluded | Waiver is referenced where permitted under the Merger Agreement",
+        "pred": "Minimum Tender Condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": \"Generation Bio Co.\",\n  \"bidder\": \"XRA 7 Corp.\",\n  \"security_description\": \"Company Shares\",\n  \"cusip\": \"37148K209\",\n  \"isin\": \"US37148K2096\",\n  \"ticker\": \"GBIO\",\n  \"offer_price\": \"$4.2913\",\n  \"currency\": \"USD\",\n  \"expiration_date\": \"February 8, 2026\",\n  \"withdrawal_deadline\": \"March 10, 2026\",\n  \"settlement_date\": \"Payment: promptly\",\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"Minimum Tender Condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0000919574-26-000310",
+    "event_id": "005-93136",
+    "n_evidence": 19,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "OceanPal Inc.",
+        "pred": "OCEANPAL, INC."
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "OceanPal Inc.",
+        "pred": "OceanPal Inc."
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "OceanPal Inc. 7.0% Series D Cumulative Convertible Perpetual Preferred Stock, par value $0.01 per share, with a $1,000 liquidation preference per share",
+        "pred": "7.0% Series D Cumulative Convertible Perpetual Preferred Stock"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "SVRN",
+        "pred": "Series D Preferred Shares"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "1400",
+        "pred": "$27.2 million"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "1/8/2026 5:00 PM Eastern time",
+        "pred": "November 25, 2025"
+      },
+      "withdrawal_deadline": {
+        "outcome": "fn",
+        "gold": "1/8/2026 5:00 PM Eastern time",
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Payment: promptly after expiration",
+        "pred": "promptly"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": \"OCEANPAL, INC.\",\n  \"bidder\": \"OceanPal Inc.\",\n  \"security_description\": \"7.0% Series D Cumulative Convertible Perpetual Preferred Stock\",\n  \"cusip\": null,\n  \"isin\": null,\n  \"ticker\": \"Series D Preferred Shares\",\n  \"offer_price\": \"$27.2 million\",\n  \"currency\": \"USD\",\n  \"expiration_date\": \"November 25, 2025\",\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": \"promptly\",\n  \"effective_date\": null,\n  \"minimum_tender_condition\": null,\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-006294",
+    "event_id": "005-93688",
+    "n_evidence": 10,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "Eagle Point Institutional Income Fund",
+        "pred": "EAGLE POINT INSTITUTIONAL INCOME FUND"
+      },
+      "bidder": {
+        "outcome": "mismatch",
+        "gold": "Eagle Point Institutional Income Fund",
+        "pred": "Eagle Point Credit Management LLC"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Eagle Point Institutional Income Fund shares of beneficial interest",
+        "pred": "net asset value"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "269819108",
+        "pred": "269819108"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US2698191085",
+        "pred": "US2698191085"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "EIIA",
+        "pred": "269819108"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "7.15",
+        "pred": "$7.15"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "12/29/2025 5:00 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance for payment: 1/22/2026",
+        "pred": "January 22, 2026"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": \"EAGLE POINT INSTITUTIONAL INCOME FUND\",\n  \"bidder\": \"Eagle Point Credit Management LLC\",\n  \"security_description\": \"net asset value\",\n  \"cusip\": \"269819108\",\n  \"isin\": \"US2698191085\",\n  \"ticker\": \"269819108\",\n  \"offer_price\": \"$7.15\",\n  \"currency\": null,\n  \"expiration_date\": null,\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": \"January 22, 2026\",\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-006517",
+    "event_id": "005-94568",
+    "n_evidence": 41,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Hartford Schroders Private Opportunities Fund",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "Hartford Schroders Private Opportunities Fund",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Shares of beneficial interest of Hartford Schroders Private Opportunities Fund",
+        "pred": "Class I\nXHFIX"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "XHFAX"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "14.33",
+        "pred": "net asset value per Share"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "11/24/2025 11:59 PM Eastern Time",
+        "pred": "December 27, 2021"
+      },
+      "withdrawal_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "June 30, 2024"
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": null,\n  \"security_description\": \"Class I\\nXHFIX\",\n  \"cusip\": null,\n  \"isin\": null,\n  \"ticker\": \"XHFAX\",\n  \"offer_price\": \"net asset value per Share\",\n  \"currency\": null,\n  \"expiration_date\": \"December 27, 2021\",\n  \"withdrawal_deadline\": \"June 30, 2024\",\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-006950",
+    "event_id": "005-95189",
+    "n_evidence": 11,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Coatue Innovative Strategies Fund",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "Coatue Innovative Strategies Fund",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "fn",
+        "gold": "Coatue Innovative Strategies Fund Class S, Class D and Class I Shares of beneficial interest",
+        "pred": null
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "offer_price": {
+        "outcome": "fn",
+        "gold": "Net asset value of the tendered Shares as of January 30, 2026 (or at a later date determined by the Fund if the Offer is extended), less any early repurchase fee",
+        "pred": null
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "2/24/2026 midnight Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "fn",
+        "gold": "2/24/2026 midnight Eastern Time | If the Fund has not accepted a tender on or prior to 3/24/2026, withdrawal is also permitted after that date",
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: within seven (7) days of the Notice Due Date",
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "No minimum tender condition",
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "fn",
+        "gold": "If more than 5% of Shares are duly tendered and not withdrawn before the Notice Due Date, the Fund may either accept additional Shares permitted under Rule 13e-4(f)(1)(ii), extend the Offer and increase the amount offered for repurchase, or accept timely tendered and unwithdrawn Shares on a pro rata basis based on the aggregate net asset value of tendered Shares",
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": null,\n  \"security_description\": null,\n  \"cusip\": null,\n  \"isin\": null,\n  \"ticker\": null,\n  \"offer_price\": null,\n  \"currency\": null,\n  \"expiration_date\": null,\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": null,\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-008028",
+    "event_id": "005-90791",
+    "n_evidence": 30,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Monroe Capital Income Plus Corporation",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "Monroe Capital Income Plus Corporation",
+        "pred": "Monroe Capital Income Plus Corporation"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Monroe Capital Income Plus Corporation common stock, par value $0.001 per share",
+        "pred": "Common Stock"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "Common Stock"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "The per share price of the Common Stock sold by the Company in the most recent closing of the Company\u2019s private offering of Common Stock that occurs prior to the Expiration Date",
+        "pred": "$9.87"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "2/27/2026 11:59 PM Eastern Time",
+        "pred": "February 27, 2026"
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "2/27/2026 11:59 PM Eastern Time | If Shares have not been accepted for payment, withdrawal is also permitted at any time after 3/27/2026",
+        "pred": "March 27, 2026"
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: promptly following expiration of the Offer | Payment: promptly following expiration of the Offer",
+        "pred": "promptly"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "No minimum tender condition",
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "fn",
+        "gold": "If more than 14,333,861 Shares are duly tendered and not withdrawn, the Company may, in its sole discretion, either accept additional duly tendered Shares permitted under Rule 13e-4(f)(1)(ii) or repurchase Shares pro rata according to the number duly tendered by each shareholder and not withdrawn",
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n    \"subject_company\": null,\n    \"bidder\": \"Monroe Capital Income Plus Corporation\",\n    \"security_description\": \"Common Stock\",\n    \"cusip\": null,\n    \"isin\": null,\n    \"ticker\": \"Common Stock\",\n    \"offer_price\": \"$9.87\",\n    \"currency\": null,\n    \"expiration_date\": \"February 27, 2026\",\n    \"withdrawal_deadline\": \"March 27, 2026\",\n    \"settlement_date\": \"promptly\",\n    \"effective_date\": null,\n    \"minimum_tender_condition\": \"No minimum tender condition\",\n    \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0000930413-26-000298",
+    "event_id": "005-94863",
+    "n_evidence": 14,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Lord Abbett Private Credit Fund",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "Lord Abbett Private Credit Fund",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "fn",
+        "gold": "Lord Abbett Private Credit Fund common shares of beneficial interest, par value $0.01 per share",
+        "pred": null
+      },
+      "cusip": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "CUSIP: N/A"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "Common Shares of Beneficial Interest"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Share as of March 31, 2026 or a later date determined by the Company if the Offer is extended",
+        "pred": "net asset value as of March 31, 2026"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "2/27/2026 11:59 PM Eastern Time",
+        "pred": "January 29, 2026"
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "2/27/2026 11:59 PM Eastern Time | If the Company has not accepted the tendered Shares, withdrawal is also permitted on or after 3/27/2026",
+        "pred": "FEBRUARY 27, 2026"
+      },
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "Acceptance: generally expected on the first business day following the applicable valuation date | Payment: promptly after the Expiration Date, after the net asset value per Share as of the Valuation Date is finalized",
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "No minimum tender condition",
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "fn",
+        "gold": "If more than 934781.32 Shares are duly tendered before expiration and not properly withdrawn, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares | The Company reserves the right in its sole discretion to purchase additional outstanding Shares representing up to 2.0% of outstanding Shares without amending or extending the Offer | Unaccepted Shares receive no automatic carryforward or priority in future offers",
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": null,\n  \"security_description\": null,\n  \"cusip\": \"CUSIP: N/A\",\n  \"isin\": null,\n  \"ticker\": \"Common Shares of Beneficial Interest\",\n  \"offer_price\": \"net asset value as of March 31, 2026\",\n  \"currency\": null,\n  \"expiration_date\": \"January 29, 2026\",\n  \"withdrawal_deadline\": \"FEBRUARY 27, 2026\",\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": null,\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0000930413-26-000299",
+    "event_id": "005-95186",
+    "n_evidence": 16,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Lord Abbett Private Credit Fund S",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "Lord Abbett Private Credit Fund S",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "fn",
+        "gold": "Lord Abbett Private Credit Fund S common shares of beneficial interest, par value $0.01 per share",
+        "pred": null
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "offer_price": {
+        "outcome": "fn",
+        "gold": "Net asset value per Share as of March 31, 2026, or a later date determined by the Company if the Offer is extended",
+        "pred": null
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "2/27/2026 11:59 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "fn",
+        "gold": "2/27/2026 11:59 PM Eastern Time | If the Company has not accepted the tendered Shares, withdrawal is also permitted on or after 3/27/2026",
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "Acceptance: generally expected on the first business day following the applicable valuation date | Payment: promptly after the Expiration Date, after the net asset value per Share as of the Valuation Date is finalized",
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "No minimum tender condition",
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "fn",
+        "gold": "If more than 241710.20 Shares are duly tendered before expiration and not properly withdrawn, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares | The Company reserves the right in its sole discretion to purchase additional outstanding Shares representing up to 2.0% of its outstanding Shares without amending or extending the Offer",
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": null,\n  \"security_description\": null,\n  \"cusip\": null,\n  \"isin\": null,\n  \"ticker\": null,\n  \"offer_price\": null,\n  \"currency\": null,\n  \"expiration_date\": null,\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": null,\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001140361-26-003032",
+    "event_id": "005-94050",
+    "n_evidence": 24,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "BlackRock Private Credit Fund",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "BlackRock Private Credit Fund",
+        "pred": "BlackRock Private Credit Fund"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "BlackRock Private Credit Fund Class S common shares of beneficial interest, Class D common shares of beneficial interest, and Institutional common shares of beneficial interest",
+        "pred": "Class D common shares of beneficial interest"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "BRY4333P7; BRY42WTV3; BRY13VCK2",
+        "pred": "BRY4333P7; BRY42WTV3; BRY13VCK2"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "USBRY4333P74; USBRY42WTV34; USBRY13VCK24",
+        "pred": "USBRY4333P74; USBRY42WTV34; USBRY13VCK24"
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "BRY4333P7"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Share as of March 31, 2026 or a later date determined by the Fund if the Offer is extended",
+        "pred": "$500"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "2/27/2026 11:59 PM Eastern Time",
+        "pred": "May 28, 2025"
+      },
+      "withdrawal_deadline": {
+        "outcome": "fn",
+        "gold": "2/27/2026 11:59 PM Eastern Time | If the Fund has not accepted the tendered Shares, withdrawal is permitted on or after 3/31/2026",
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: on or before 30 days after the Valuation Date",
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "No minimum tender condition",
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "fn",
+        "gold": "If more than 3295767 Shares are duly tendered before expiration and not withdrawn, the Fund will accept Shares for payment pro rata based on the number tendered, with priority for repurchase requests in the case of a shareholder's death or disability | Unaccepted Shares are not automatically carried forward or given priority in a future tender offer",
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": \"BlackRock Private Credit Fund\",\n  \"security_description\": \"Class D common shares of beneficial interest\",\n  \"cusip\": \"BRY4333P7; BRY42WTV3; BRY13VCK2\",\n  \"isin\": \"USBRY4333P74; USBRY42WTV34; USBRY13VCK24\",\n  \"ticker\": \"BRY4333P7\",\n  \"offer_price\": \"$500\",\n  \"currency\": \"USD\",\n  \"expiration_date\": \"May 28, 2025\",\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-008693",
+    "event_id": "005-35587",
+    "n_evidence": 25,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Enzon Pharmaceuticals, Inc.",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "Enzon Pharmaceuticals, Inc.",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Enzon Pharmaceuticals, Inc. Series C Non-Convertible Redeemable Preferred Stock, $0.01 par value per share",
+        "pred": "Series C Non-Convertible Redeemable Preferred Stock"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "293904702",
+        "pred": "293904702"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US2939047021",
+        "pred": "US2939047021"
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "ENZN",
+        "pred": "ENZN"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Shares of Enzon Pharmaceuticals, Inc. common stock equal to the aggregate liquidation preference of each share of Series C Preferred Stock divided by $7.83, after giving effect to the Reverse Stock Split",
+        "pred": "$7.83"
+      },
+      "currency": {
+        "outcome": "fn",
+        "gold": "USD",
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "March 9, 2026"
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "January 30, 2026"
+      },
+      "minimum_tender_condition": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": null,\n  \"security_description\": \"Series C Non-Convertible Redeemable Preferred Stock\",\n  \"cusip\": \"293904702\",\n  \"isin\": \"US2939047021\",\n  \"ticker\": \"ENZN\",\n  \"offer_price\": \"$7.83\",\n  \"currency\": null,\n  \"expiration_date\": \"March 9, 2026\",\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": \"January 30, 2026\",\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-008976",
+    "event_id": "005-91139",
+    "n_evidence": 45,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Macquarie Focused Access Fund, LLC",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "Macquarie Focused Access Fund, LLC",
+        "pred": "Macquarie Focused Access Fund, LLC"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Class F1, Class F2, Class A and Class I units of limited liability company interests of Macquarie Focused Access Fund, LLC",
+        "pred": "Class A and Class I Units of Limited Liability Company Interests"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "Class F1 Units"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Unit as of March 31, 2026, less any Early Repurchase Fee",
+        "pred": "$25.00"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "3/2/2026 12:00 midnight New York time",
+        "pred": "April 17, 2020"
+      },
+      "withdrawal_deadline": {
+        "outcome": "mismatch",
+        "gold": "3/2/2026 12:00 midnight New York time",
+        "pred": "April 17, 2020"
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: when the Fund gives written notice to the tendering investor of its election to purchase | Payment: as promptly as practicable after the applicable Valuation Date; full payment expected approximately 35 days following the Valuation Date",
+        "pred": "promptly"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "No minimum tender condition",
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "fn",
+        "gold": "If more than $278174676 of Units are duly tendered and not withdrawn, the Fund may accept additional Units permitted under Rule 13e-4(f)(1)(ii); extend the Offer and increase the purchase amount; or accept Units tendered by the termination date for payment pro rata based on the aggregate net asset value of tendered Units",
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": \"Macquarie Focused Access Fund, LLC\",\n  \"security_description\": \"Class A and Class I Units of Limited Liability Company Interests\",\n  \"cusip\": null,\n  \"isin\": null,\n  \"ticker\": \"Class F1 Units\",\n  \"offer_price\": \"$25.00\",\n  \"currency\": \"USD\",\n  \"expiration_date\": \"April 17, 2020\",\n  \"withdrawal_deadline\": \"April 17, 2020\",\n  \"settlement_date\": \"promptly\",\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "n_evidence": 16,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "Ares Private Markets Fund",
+        "pred": "Ares Private Markets Fund"
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "Ares Private Markets Fund",
+        "pred": "Ares Private\nMarkets Fund"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Ares Private Markets Fund Class A shares of beneficial interest",
+        "pred": "Class D Shares"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "04020B202; 04020B301; 04020B103",
+        "pred": "04020B202; 04020B301; 04020B103"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US04020B2025; US04020B3015; US04020B1035",
+        "pred": "US04020B2025; US04020B3015; US04020B1035"
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "04020B103"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Class A Share as of December 31, 2025, minus any early repurchase fee",
+        "pred": "$5,000.00"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "12/30/2025 11:59 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": \"Ares Private Markets Fund\",\n  \"bidder\": \"Ares Private\\nMarkets Fund\",\n  \"security_description\": \"Class D Shares\",\n  \"cusip\": \"04020B202; 04020B301; 04020B103\",\n  \"isin\": \"US04020B2025; US04020B3015; US04020B1035\",\n  \"ticker\": \"04020B103\",\n  \"offer_price\": \"$5,000.00\",\n  \"currency\": \"USD\",\n  \"expiration_date\": null,\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "n_evidence": 16,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "Ares Private Markets Fund",
+        "pred": "Ares Private Markets Fund"
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "Ares Private Markets Fund",
+        "pred": "Ares Private\nMarkets Fund"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Ares Private Markets Fund Class D shares of beneficial interest",
+        "pred": "Class D Shares"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "04020B202; 04020B301; 04020B103",
+        "pred": "04020B202; 04020B301; 04020B103"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US04020B2025; US04020B3015; US04020B1035",
+        "pred": "US04020B2025; US04020B3015; US04020B1035"
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "04020B103"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Class D Share as of December 31, 2025, minus any early repurchase fee",
+        "pred": "$5,000.00"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "12/30/2025 11:59 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": \"Ares Private Markets Fund\",\n  \"bidder\": \"Ares Private\\nMarkets Fund\",\n  \"security_description\": \"Class D Shares\",\n  \"cusip\": \"04020B202; 04020B301; 04020B103\",\n  \"isin\": \"US04020B2025; US04020B3015; US04020B1035\",\n  \"ticker\": \"04020B103\",\n  \"offer_price\": \"$5,000.00\",\n  \"currency\": \"USD\",\n  \"expiration_date\": null,\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "n_evidence": 16,
+    "fields": {
+      "subject_company": {
+        "outcome": "tp",
+        "gold": "Ares Private Markets Fund",
+        "pred": "Ares Private Markets Fund"
+      },
+      "bidder": {
+        "outcome": "tp",
+        "gold": "Ares Private Markets Fund",
+        "pred": "Ares Private\nMarkets Fund"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Ares Private Markets Fund Class I shares of beneficial interest",
+        "pred": "Class D Shares"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "04020B202; 04020B301; 04020B103",
+        "pred": "04020B202; 04020B301; 04020B103"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US04020B2025; US04020B3015; US04020B1035",
+        "pred": "US04020B2025; US04020B3015; US04020B1035"
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "04020B103"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Class I Share as of December 31, 2025, minus any early repurchase fee",
+        "pred": "$5,000.00"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD"
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "12/30/2025 11:59 PM Eastern Time",
+        "pred": null
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "No minimum tender condition"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": \"Ares Private Markets Fund\",\n  \"bidder\": \"Ares Private\\nMarkets Fund\",\n  \"security_description\": \"Class D Shares\",\n  \"cusip\": \"04020B202; 04020B301; 04020B103\",\n  \"isin\": \"US04020B2025; US04020B3015; US04020B1035\",\n  \"ticker\": \"04020B103\",\n  \"offer_price\": \"$5,000.00\",\n  \"currency\": \"USD\",\n  \"expiration_date\": null,\n  \"withdrawal_deadline\": null,\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": \"No minimum tender condition\",\n  \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-011592",
+    "event_id": "005-95034",
+    "n_evidence": 15,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Antares Strategic Credit Fund",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "Antares Strategic Credit Fund",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Antares Strategic Credit Fund Common Shares of Beneficial Interest",
+        "pred": "Common Shares of Beneficial Interest"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "03666N108",
+        "pred": "03666N108"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US03666N1081",
+        "pred": "US03666N1081"
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "03666N108"
+      },
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Share of the applicable Class as of December 31, 2025",
+        "pred": "$25.42"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "12/23/2025 11:59 PM Eastern Time",
+        "pred": "June 11, 2026"
+      },
+      "withdrawal_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "June 11, 2026"
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Payment: on or about 2/4/2026",
+        "pred": "February 4, 2026"
+      },
+      "effective_date": {
+        "outcome": "fn",
+        "gold": "12/31/2025 4:00 PM Eastern Time",
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n    \"subject_company\": null,\n    \"bidder\": null,\n    \"security_description\": \"Common Shares of Beneficial Interest\",\n    \"cusip\": \"03666N108\",\n    \"isin\": \"US03666N1081\",\n    \"ticker\": \"03666N108\",\n    \"offer_price\": \"$25.42\",\n    \"currency\": null,\n    \"expiration_date\": \"June 11, 2026\",\n    \"withdrawal_deadline\": \"June 11, 2026\",\n    \"settlement_date\": \"February 4, 2026\",\n    \"effective_date\": null,\n    \"minimum_tender_condition\": null,\n    \"proration_terms\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-011591",
+    "event_id": "005-94860",
+    "n_evidence": 14,
+    "fields": {
+      "subject_company": {
+        "outcome": "fn",
+        "gold": "Antares Private Credit Fund",
+        "pred": null
+      },
+      "bidder": {
+        "outcome": "fn",
+        "gold": "Antares Private Credit Fund",
+        "pred": null
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Antares Private Credit Fund Class I, Class D and Class S common shares of beneficial interest",
+        "pred": "Class I common shares of beneficial interest"
+      },
+      "cusip": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "0366433029"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "ticker": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "0366432039"
+      },
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Share of the applicable Class as of December 31, 2025",
+        "pred": "net asset value per Share"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "12/23/2025 11:59 PM Eastern Time",
+        "pred": "September 17, 2025"
+      },
+      "withdrawal_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "September 17, 2025"
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null
+      }
+    },
+    "raw_llm": "{\n  \"subject_company\": null,\n  \"bidder\": null,\n  \"security_description\": \"Class I common shares of beneficial interest\",\n  \"cusip\": \"0366433029\",\n  \"isin\": null,\n  \"ticker\": \"0366432039\",\n  \"offer_price\": \"net asset value per Share\",\n  \"currency\": null,\n  \"expiration_date\": \"September 17, 2025\",\n  \"withdrawal_deadline\": \"September 17, 2025\",\n  \"settlement_date\": null,\n  \"effective_date\": null,\n  \"minimum_tender_condition\": null,\n  \"proration_terms\": null\n}"
+  }
+]

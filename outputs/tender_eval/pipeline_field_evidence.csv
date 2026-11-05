@@ -1,0 +1,1314 @@
+gt_row_id,accession_number,field,hint,value,source_accession,source_filename,doc_role,segment_id,segment_text,char_start,char_end,segment_char_start,segment_char_end,confidence,rank_score,faq_question,section
+0:0001193125-26-000507,0001193125-26-000507,subject_company,target,Jefferies Credit Partners BDC Inc.,0001193125-26-000507,,cover,,"SC TO-I
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+SCHEDULE TO
+TENDER
+OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+Jefferies Credit Partners BDC Inc.
+(Name of Subject Company (Issuer))
+Jefferies Credit Partners BDC Inc.",,,,,0.9303921461105347,0.5803921461105346,,cover
+0:0001193125-26-000507,0001193125-26-000507,bidder,offeror,Paul Hastings LLP,0001193125-26-000507,,cover,,"Peeney, Esq.
+Paul Hastings LLP
+200
+Park Avenue
+New York, 10166
+Telephone:
+(212) 318-6000
+(Name, Address, and Telephone Number of Person Authorized to Receive Notices
+and Communications on Behalf of the Filing Person(s))
+January 2, 2026
+(Date Tender Offer First Published,
+Sent or Given to Security Holders)
+☐
+Check the box if the filing relates solely to preliminary communications made before the commencement of a
+tender offer.",,,,,0.7524601817131042,0.9524601817131042,,cover
+0:0001193125-26-000507,0001193125-26-000507,offer_price,offer_price,net asset value,0001193125-26-000507,,cover,,"on
+November 30, 2025
+Prior NAV Calculation Date
+the last date before the Commencement Date for which the Company completed the calculation of its net asset value
+December 31, 2025*
+Valuation Date
+the date as of which the net asset value of the Shares is calculated, which will be the date specified in this table or, if the Company properly authorizes any extension of the Offer, the next calculated net asset value of the
+Shares on or after the new Tender Withdrawal Date (which is generally expected to be the last business day of the month in which the Tender Withdrawal Date occurs)
+January 2, 2026
+Commencement Date
+the date as of which the Offer commenced
+January 30, 2026*
+Notice Date
+the date by which each Stockholder desiring to tender Shares for purchase must provide proper notice to the Company
+January",,,,,0.7672484517097473,0.7172484517097473,,cover
+0:0001193125-26-000507,0001193125-26-000507,settlement_date,settlement_date,Payment: promptly,0001193125-26-000507,,cover,,Payment: promptly,,,,,1.0,1.0,,
+1:0001104659-26-000598,0001104659-26-000598,subject_company,target,FIRST TRUST PRIVATE ASSETS FUND,0001104659-26-000598,,cover,,"UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, DC 20549
+SCHEDULE TO
+TENDER OFFER STATEMENT UNDER SECTION 14(D)(1) OR
+13(E)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+FINAL AMENDMENT
+FIRST TRUST PRIVATE ASSETS FUND
+(Name of Subject Company (Issuer))
+FIRST TRUST PRIVATE ASSETS FUND
+(Name of Filing Person(s) (Issuer))
+SHARES OF BENEFICIAL INTEREST
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Ann Maurer
+235 W.",,,,,0.9475287795066833,1.2475287795066834,,cover
+1:0001104659-26-000598,0001104659-26-000598,bidder,offeror,"UMB Fund Services, Inc.",0001104659-26-000598,,cover,,"The promissory notes were held by UMB Fund Services, Inc., the Fund’s administrator, on behalf of such Shareholders,
+in accordance with the terms of the Offer.",,,,,0.912858784198761,1.3128587841987611,,cover
+1:0001104659-26-000598,0001104659-26-000598,security_description,security_description,SHARES OF BENEFICIAL INTEREST,0001104659-26-000598,,cover,,"UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, DC 20549
+SCHEDULE TO
+TENDER OFFER STATEMENT UNDER SECTION 14(D)(1) OR
+13(E)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+FINAL AMENDMENT
+FIRST TRUST PRIVATE ASSETS FUND
+(Name of Subject Company (Issuer))
+FIRST TRUST PRIVATE ASSETS FUND
+(Name of Filing Person(s) (Issuer))
+SHARES OF BENEFICIAL INTEREST
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Ann Maurer
+235 W.",,,,,0.5795996785163879,0.9795996785163879,,cover
+1:0001104659-26-000598,0001104659-26-000598,offer_price,offer_price,net asset value,0001104659-26-000598,,cover,,"An Initial Payment in
+the amount of at least 95% of the Shareholder’s unaudited net asset value of the Shares tendered was wired to the account designated
+by such Shareholders in their Letter of Transmittal on May 29, 2025.",,,,,0.6713570952415466,0.6213570952415466,,cover
+2:0001104659-26-001124,0001104659-26-001124,subject_company,target,"MERSANA THERAPEUTICS, INC.",0001104659-25-118858,,cover,,"tm2532528-1_sctot - none - 2.3951952s
+​
+​
+​
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+​
+SCHEDULE TO
+Tender Offer Statement under Section 14(d)(1) or 13(e)(1)
+of the Securities Exchange Act of 1934
+​
+MERSANA THERAPEUTICS, INC.
+(Name of Subject Company (issuer))
+​
+EMERALD MERGER SUB, INC.",,,,,0.8400672078132629,1.340067207813263,,cover
+2:0001104659-26-001124,0001104659-26-001124,bidder,offeror,"Emerald Merger Sub, Inc.",0001104659-25-118858,,cover,,"This Tender Offer Statement on Schedule TO (together with any amendments and supplements hereto, the “Schedule TO”) relates to the offer by Emerald Merger Sub, Inc., a Delaware corporation and a direct wholly owned subsidiary of Day One Biopharmaceuticals, Inc., a Delaware corporation (“Day One”), to purchase all of the issued and outstanding shares of common stock, par value $0.0001 per share (the “Shares”), of Mersana Therapeutics, Inc., a Delaware corporation (“Mersana”), which constitute all of the issued and outstanding shares of capital stock of Mersan",,,,,0.9227634072303772,1.3227634072303773,,cover
+2:0001104659-26-001124,0001104659-26-001124,security_description,security_description,"Mersana Therapeutics, Inc.",0001104659-25-118858,,otp,,"The address of Mersana’s principal executive offices and Mersana’s phone number at its principal executive offices are as set forth below:
+Mersana Therapeutics, Inc.
+840 Memorial Drive
+Cambridge, MA 02139
+(617) 498-0020
+Additional Information
+.   The Shares are registered under the Exchange Act.",,,,,0.6081029772758484,0.8081029772758483,,​
+2:0001104659-26-001124,0001104659-26-001124,cusip,cusip,59045L106,0001104659-25-118858,,cover,,59045L106,,,,,1.0,1.0,,
+2:0001104659-26-001124,0001104659-26-001124,isin,isin,US59045L1061,0001104659-25-118858,,cover,,US59045L1061,,,,,1.0,1.0,,
+2:0001104659-26-001124,0001104659-26-001124,ticker,ticker,MRSN,0001104659-25-118858,,cover,,MRSN,,,,,1.0,1.0,,
+2:0001104659-26-001124,0001104659-26-001124,offer_price,offer_price,"$
+7.54",0001104659-25-118858,,otp,,"​
+​
+​
+High
+​
+​
+Low
+​
+Fiscal year ended December 31, 2025
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Fourth Quarter (through December 4, 2025)
+​
+​
+​
+$
+28.36
+​
+​
+​
+​
+$
+7.54
+​
+​
+Third Quarter
+​
+​
+​
+$
+10.25
+​
+​
+​
+​
+$
+5.21
+​
+​
+Second Quarter
+​
+​
+​
+$
+11.49
+​
+​
+​
+​
+$
+6.47
+​
+​
+First Quarter
+​
+​
+​
+$
+37.88
+​
+​
+​
+​
+$
+8.45
+​
+​
+Fiscal year ended December 31, 2024
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+Fourth Quarter
+​
+​
+​
+$
+70.75
+​
+​
+​
+​
+$
+33.75
+​
+​
+Third Quarter
+​
+​
+​
+$
+57.25
+​
+​
+​
+​
+$
+30.50
+​
+​
+Second Quarter
+​
+​
+​
+$
+116.00
+​
+​
+​
+​
+$
+49.00
+​
+​
+First Quarter
+​
+​
+​
+$
+157.00
+​
+​
+​
+​
+$
+52.75",,,,,0.7133828401565552,1.363382840156555,,​
+2:0001104659-26-001124,0001104659-26-001124,currency,currency,USD,0001104659-25-118858,,cover,,"$
+7.54",,,,,1.0,1.0,,
+2:0001104659-26-001124,0001104659-26-001124,expiration_date,expiration_date,"January 5, 2026",0001104659-25-118858,,otp,,"​
+​
+Scheduled Expiration of Offer
+​
+​
+One minute past 11:59 p.m., Eastern Time, on January 5, 2026, unless the Offer is otherwise extended or earlier terminated.",,,,,0.6319434642791748,1.2819434642791747,,​
+2:0001104659-26-001124,0001104659-26-001124,withdrawal_deadline,withdrawal_deadline,"February 3, 2026",0001104659-25-118858,,otp,,"​
+60 days of commencement of the Offer, you may withdraw them at any time after February 3, 2026, the 60th day after commencement of the Offer, until Purchaser accepts your Shares for payment.
+For a withdrawal of Shares to be effective, the Depositary must timely receive a written notice of withdrawal at one of its addresses set forth on the back cover of this Offer to Purchase.",,,,,0.8798402547836304,1.4798402547836302,,​
+2:0001104659-26-001124,0001104659-26-001124,settlement_date,settlement_date,Payment: promptly,0001104659-25-118858,,cover,,Payment: promptly,,,,,1.0,1.0,,
+2:0001104659-26-001124,0001104659-26-001124,effective_date,effective_date,"November 13, 2025",0001104659-25-118858,,otp,,"We intend and will cause the delisting of the Shares from Nasdaq and the termination of the registration of the Shares under the Exchange Act as soon after completion of the Merger as the requirements for such delisting and termination of registration are satisfied.
+14.   Dividends and Distributions
+The Merger Agreement provides that from November 13, 2025 to the earlier of the Effective Time or the termination of the Merger Agreement in accordance with its terms, except as expressly provided for by the Merger Agreement, without the prior written consent of Day One, Mersana will not declare, set aside, make, accrue or pay any dividends or distribution (whether in cash, stock, property or otherwise) on any shares capital stock or any other equity in",,,,,0.8762168884277344,1.3262168884277343,,​
+2:0001104659-26-001124,0001104659-26-001124,minimum_tender_condition,minimum_tender_condition,Offer Conditions,0001104659-25-118858,,otp,,"The obligation of Purchaser to irrevocably accept for payment, and pay for, all Shares validly tendered (and not properly withdrawn) pursuant to the Offer is subject to the satisfaction of the Offer Conditions.
+15
+TABLE OF CONTENTS",,,,,0.42496752738952637,0.42496752738952637,,​
+3:0001104659-26-001149,0001104659-26-001149,subject_company,target,KKR FS Income Trust,0001104659-26-001149,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+(Amendment No. 1)
+(Rule 13e-4)
+TENDER OFFER STATEMENT PURSUANT TO SECTION 14(D)(1) OR
+13(E)(1) OF THE SECURITIES EXCHANGE ACT OF 1934
+KKR FS Income Trust
+(Name of Subject Company (Issuer))
+KKR FS Income Trust
+(Names of Filing Person (Offeror and Issuer))
+Common Shares of Beneficial Interest, par value
+$0.01 per share
+(Title of Class of
+Securities)
+CUSIP: 48255N 100
+(CUSIP Number of Class of securities)
+Michael C.",,,,,0.9327307343482971,1.2327307343482972,,cover
+3:0001104659-26-001149,0001104659-26-001149,bidder,offeror,KKR FS Income Trust,0001104659-26-001149,,cover,,"Check the following box if the filing is a final amendment reporting the results of the tender offer:
+x
+FINAL AMENDMENT TO TENDER OFFER STATEMENT
+This Amendment No. 1 (this “
+Amendment
+”) amends
+and supplements the Tender Offer Statement on Schedule TO filed by KKR FS Income Trust (the “
+Company
+”), with the U.S.
+Securities and Exchange Commission on December 1, 2025 (together with any subsequent amendments and supplements thereto, the “
+Schedule
+TO
+”).",,,,,0.8689367771148682,1.0689367771148681,,cover
+3:0001104659-26-001149,0001104659-26-001149,cusip,cusip,48255N100,0001104659-26-001149,,cover,,48255N100,,,,,1.0,1.0,,
+3:0001104659-26-001149,0001104659-26-001149,isin,isin,US48255N1000,0001104659-26-001149,,cover,,US48255N1000,,,,,1.0,1.0,,
+3:0001104659-26-001149,0001104659-26-001149,offer_price,offer_price,"net asset value per share as of December 31, 2025",0001104659-26-001149,,cover,,"The Company has accepted
+for purchase 100% of the Shares that were validly tendered and not properly withdrawn prior to the expiration of the Offer, at a purchase
+price per Share equal to the net asset value per share as of December 31, 2025.
+SIGNATURE
+After due inquiry and to the best of my knowledge
+and belief, I certify that the information set forth in this statement is true, complete and correct.
+KKR FS Income Trust
+Date: January 6, 2026
+By:
+/s/ Stephen S. Sypherd
+Stephen S. Sypherd
+General Counsel and Secretary",,,,,0.6825475692749023,0.6325475692749023,,cover
+3:0001104659-26-001149,0001104659-26-001149,expiration_date,expiration_date,"September 1, 2026",0001104659-26-104156,,otp,,"Exhibit (a)(1)(vi)
+September 1, 2026
+Dear Morgan Stanley Client:
+Your position in KKR FS Income Trust (the “Fund”) is currently
+being held in your account at Morgan Stanley.",,,,,0.9267705678939819,1.5767705678939818,,otp
+4:0001104659-26-001148,0001104659-26-001148,subject_company,target,KKR FS Income Trust Select,0001104659-26-001148,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+(Amendment No. 1)
+(Rule 13e-4)
+TENDER OFFER STATEMENT PURSUANT TO SECTION 14(D)(1) OR
+13(E)(1) OF THE SECURITIES EXCHANGE ACT OF 1934
+KKR FS Income Trust Select
+(Name of Subject Company (Issuer))
+KKR FS Income Trust Select
+(Names of Filing Person (Offeror and Issuer))
+Common Shares of Beneficial Interest, par value
+$0.01 per share
+(Title of Class of
+Securities)
+CUSIP: 48256J 108
+(CUSIP Number of Class of securities)
+Michael C.",,,,,0.9428564310073853,1.2428564310073853,,cover
+4:0001104659-26-001148,0001104659-26-001148,bidder,offeror,KKR FS Income Trust Select,0001104659-26-104154,,otp,,"Exhibit (a)(1)(vi)
+September 1, 2026
+Dear Morgan Stanley Client:
+Your position in KKR FS Income Trust Select (the
+“Fund”) is currently being held in your account at Morgan Stanley.",,,,,0.9201613664627075,1.0201613664627076,,otp
+4:0001104659-26-001148,0001104659-26-001148,cusip,cusip,48256J108,0001104659-26-001148,,cover,,48256J108,,,,,1.0,1.0,,
+4:0001104659-26-001148,0001104659-26-001148,isin,isin,US48256J1088,0001104659-26-001148,,cover,,US48256J1088,,,,,1.0,1.0,,
+4:0001104659-26-001148,0001104659-26-001148,offer_price,offer_price,"net asset value per Share
+as of December 31, 2025",0001104659-26-001148,,cover,,"The Schedule TO relates to the offer by the Company to purchase up to 1,587,372 shares of its
+outstanding Class S common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”), pursuant
+to tenders by shareholders of the Company (“
+Shareholders
+”) at a purchase price equal to the net asset value per Share
+as of December 31, 2025, upon the terms and subject to the conditions set forth in the Offer to Purchase, dated December 1,
+2025 (together with any amendments or supplements thereto, the “
+Offer to Purchase
+”), and in the accompanying Letter
+of Transmittal (together with any amendments or supplements thereto and with the Offer to Purchase, the “
+Offer
+”),
+which are annexed to and filed with the Schedule TO as Exhibits (",,,,,0.7191860675811768,0.6691860675811767,,cover
+4:0001104659-26-001148,0001104659-26-001148,expiration_date,expiration_date,"September 1, 2026",0001104659-26-104154,,otp,,"Exhibit (a)(1)(vi)
+September 1, 2026
+Dear Morgan Stanley Client:
+Your position in KKR FS Income Trust Select (the
+“Fund”) is currently being held in your account at Morgan Stanley.",,,,,0.9263632893562317,1.5763632893562316,,otp
+5:0001193125-26-005515,0001193125-26-005515,subject_company,target,"ck & Co., Inc.",0001193125-25-309877,,cover,,"Grez
+Corporate Secretary, Merck & Co., Inc.
+126 East Lincoln Avenue Rahway, NJ 07065
+(908)
+740-4000
+(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)
+Copies to:
+Saee
+Muzumdar
+Sebastian L.",,,,,0.9084954261779785,1.4084954261779785,,cover
+5:0001193125-26-005515,0001193125-26-005515,bidder,offeror,Merck Sharp & Dohme LLC,0001193125-25-309877,,cover,,"(a)(5)(i)
+Joint Press Release issued by Merck Sharp & Dohme LLC and Cidara Therapeutics, Inc.",,,,,0.853803813457489,1.2538038134574891,,cover
+5:0001193125-26-005515,0001193125-26-005515,security_description,security_description,Series A Convertible Voting Preferred Stock,0001193125-25-309877,,cover,,"(Parent of Offeror)
+(Names
+of Filing Persons (identifying status as offeror, issuer or other person))
+Common Stock, par value $0.0001 per share
+Series A Convertible Voting Preferred Stock, par value $0.0001 per share
+(Title of Class of Securities)
+171757206
+(CUSIP Number
+of Class of Securities)
+Kelly E.W.",,,,,0.4914854168891907,0.8914854168891906,,cover
+5:0001193125-26-005515,0001193125-26-005515,cusip,cusip,171757206,0001193125-25-309877,,cover,,171757206,,,,,1.0,1.0,,
+5:0001193125-26-005515,0001193125-26-005515,isin,isin,US1717572069,0001193125-25-309877,,cover,,US1717572069,,,,,1.0,1.0,,
+5:0001193125-26-005515,0001193125-26-005515,offer_price,offer_price,"$15,505.00",0001193125-25-309877,,otp,,"of common stock, par value $0.0001 per share (the “Common Shares”) of Cidara Therapeutics, Inc., a
+Delaware corporation (“Cidara”), for $221.50 per Common Share (the “Common Share Offer Price”) and (ii) all of the outstanding shares of Series A Convertible Voting Preferred Stock, par value $0.0001 per share (the
+“Series A Shares,” and together with the Common Shares, the “Shares”), of Cidara for $15,505.00 per Series A Share (the “Series A Offer Price,” which together with the Common Share Offer Price is collectively
+referred to as the “Offer Price”), in each case, in cash, without interest, subject to any applicable withholding of taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase dated December 5, 2025 (as
+it may be amended or supplemented from time to time, th",,,,,0.4474887549877167,1.0974887549877166,,otp
+5:0001193125-26-005515,0001193125-26-005515,currency,currency,USD,0001193125-25-309877,,cover,,"$15,505.00",,,,,1.0,1.0,,
+5:0001193125-26-005515,0001193125-26-005515,withdrawal_deadline,withdrawal_deadline,"JANUARY 6, 2026",0001193125-25-309877,,otp,,"Following the consummation of the Offer, and under the terms of the Merger Agreement as
+described in the Offer to Purchase, Purchaser intends to effect the Merger (defined below) as described below.
+THE OFFER AND
+WITHDRAWAL RIGHTS EXPIRE ONE MINUTE AFTER 11:59 P.M., EASTERN TIME, ON JANUARY 6, 2026, UNLESS THE OFFER IS EXTENDED OR EARLIER TERMINATED.",,,,,0.665886640548706,1.265886640548706,,otp
+5:0001193125-26-005515,0001193125-26-005515,settlement_date,settlement_date,"February 3, 2026",0001193125-25-309877,,cover,,"February 3, 2026",,,,,1.0,1.0,,
+6:0001193125-26-005515,0001193125-26-005515,subject_company,target,"ck & Co., Inc.",0001193125-25-309877,,cover,,"Grez
+Corporate Secretary, Merck & Co., Inc.
+126 East Lincoln Avenue Rahway, NJ 07065
+(908)
+740-4000
+(Name, Address and Telephone Number of Person Authorized to Receive Notices and Communications on Behalf of Filing Persons)
+Copies to:
+Saee
+Muzumdar
+Sebastian L.",,,,,0.9084954261779785,1.4084954261779785,,cover
+6:0001193125-26-005515,0001193125-26-005515,bidder,offeror,Merck Sharp & Dohme LLC,0001193125-25-309877,,cover,,"(a)(5)(i)
+Joint Press Release issued by Merck Sharp & Dohme LLC and Cidara Therapeutics, Inc.",,,,,0.853803813457489,1.2538038134574891,,cover
+6:0001193125-26-005515,0001193125-26-005515,security_description,security_description,Series A Convertible Voting Preferred Stock,0001193125-25-309877,,cover,,"(Parent of Offeror)
+(Names
+of Filing Persons (identifying status as offeror, issuer or other person))
+Common Stock, par value $0.0001 per share
+Series A Convertible Voting Preferred Stock, par value $0.0001 per share
+(Title of Class of Securities)
+171757206
+(CUSIP Number
+of Class of Securities)
+Kelly E.W.",,,,,0.4914854168891907,0.8914854168891906,,cover
+6:0001193125-26-005515,0001193125-26-005515,cusip,cusip,171757206,0001193125-25-309877,,cover,,171757206,,,,,1.0,1.0,,
+6:0001193125-26-005515,0001193125-26-005515,isin,isin,US1717572069,0001193125-25-309877,,cover,,US1717572069,,,,,1.0,1.0,,
+6:0001193125-26-005515,0001193125-26-005515,offer_price,offer_price,"$15,505.00",0001193125-25-309877,,otp,,"of common stock, par value $0.0001 per share (the “Common Shares”) of Cidara Therapeutics, Inc., a
+Delaware corporation (“Cidara”), for $221.50 per Common Share (the “Common Share Offer Price”) and (ii) all of the outstanding shares of Series A Convertible Voting Preferred Stock, par value $0.0001 per share (the
+“Series A Shares,” and together with the Common Shares, the “Shares”), of Cidara for $15,505.00 per Series A Share (the “Series A Offer Price,” which together with the Common Share Offer Price is collectively
+referred to as the “Offer Price”), in each case, in cash, without interest, subject to any applicable withholding of taxes, upon the terms and subject to the conditions set forth in the Offer to Purchase dated December 5, 2025 (as
+it may be amended or supplemented from time to time, th",,,,,0.4474887549877167,1.0974887549877166,,otp
+6:0001193125-26-005515,0001193125-26-005515,currency,currency,USD,0001193125-25-309877,,cover,,"$15,505.00",,,,,1.0,1.0,,
+6:0001193125-26-005515,0001193125-26-005515,withdrawal_deadline,withdrawal_deadline,"JANUARY 6, 2026",0001193125-25-309877,,otp,,"Following the consummation of the Offer, and under the terms of the Merger Agreement as
+described in the Offer to Purchase, Purchaser intends to effect the Merger (defined below) as described below.
+THE OFFER AND
+WITHDRAWAL RIGHTS EXPIRE ONE MINUTE AFTER 11:59 P.M., EASTERN TIME, ON JANUARY 6, 2026, UNLESS THE OFFER IS EXTENDED OR EARLIER TERMINATED.",,,,,0.665886640548706,1.265886640548706,,otp
+6:0001193125-26-005515,0001193125-26-005515,settlement_date,settlement_date,"February 3, 2026",0001193125-25-309877,,cover,,"February 3, 2026",,,,,1.0,1.0,,
+7:0001104659-26-002517,0001104659-26-002517,subject_company,target,Generation Bio Co.,0001193125-26-008905,,cover,,"The subject company and the issuer of the securities subject to the Offer is Generation Bio Co., a Delaware corporation.",,,,,0.8703951239585876,1.3703951239585876,,cover
+7:0001104659-26-002517,0001104659-26-002517,bidder,offeror,"Alliance Advisors, LLC",0001193125-26-008905,,otp,,"• You can call Alliance Advisors, LLC, the Information Agent, toll-free at 1-855-206-0806 or email them at GBIO@allianceadvisors.com . See the back cover of this Offer to Purchase.
+12",,,,,0.9753704071044922,1.3253704071044923,WITH WHOM MAY I TALK IF I HAVE QUESTIONS ABOUT THE OFFER?,WITH WHOM MAY I TALK IF I HAVE QUESTIONS ABOUT THE OFFER?
+7:0001104659-26-002517,0001104659-26-002517,security_description,security_description,Company Shares,0001193125-26-008905,,otp,,"Holder” means a
+beneficial owner of Company Shares that, for U.S.",,,,,0.7407079339027405,0.9407079339027404,,5.
+7:0001104659-26-002517,0001104659-26-002517,cusip,cusip,37148K209,0001193125-26-008905,,cover,,37148K209,,,,,1.0,1.0,,
+7:0001104659-26-002517,0001104659-26-002517,isin,isin,US37148K2096,0001193125-26-008905,,cover,,US37148K2096,,,,,1.0,1.0,,
+7:0001104659-26-002517,0001104659-26-002517,ticker,ticker,GBIO,0001193125-26-008905,,cover,,GBIO,,,,,1.0,1.0,,
+7:0001104659-26-002517,0001104659-26-002517,offer_price,offer_price,$4.2913,0001193125-26-008905,,otp,,"• Buyer Entities are offering to pay a Cash Amount per Company Share of $4.2913, plus one CVR for each Company
+Share, which represents the right to receive potential payments, in cash, contingent upon receipt of any CVR Proceeds, as described in the CVR Agreement, without interest, upon the terms and subject to the conditions contained in this Offer to
+Purchase and in the related Letter of Transmittal.",,,,,0.5551997423171997,1.3351997423171997,"HOW MUCH ARE BUYER ENTITIES OFFERING TO PAY AND WHAT IS THE FORM OF
+PAYMENT?","HOW MUCH ARE BUYER ENTITIES OFFERING TO PAY AND WHAT IS THE FORM OF
+PAYMENT?"
+7:0001104659-26-002517,0001104659-26-002517,currency,currency,USD,0001193125-26-008905,,cover,,$4.2913,,,,,1.0,1.0,,
+7:0001104659-26-002517,0001104659-26-002517,expiration_date,expiration_date,"February 8, 2026",0001193125-26-008905,,otp,,"• You will have until one minute after 11:59 p.m. Eastern Time on February 8, 2026, to tender your Company
+Shares in the Offer, unless Buyer Entities extend the Offer, in which event you will have until the Expiration Date of the Offer as so extended. See also “The Tender Offer—Section 1. Terms of the Offer.”",,,,,0.9805973172187805,1.7605973172187805,HOW LONG DO I HAVE TO DECIDE WHETHER TO TENDER IN THE OFFER?,HOW LONG DO I HAVE TO DECIDE WHETHER TO TENDER IN THE OFFER?
+7:0001104659-26-002517,0001104659-26-002517,withdrawal_deadline,withdrawal_deadline,"February 8, 2026",0001193125-26-008905,,otp,,"Eastern Time on
+February 8, 2026 (the “Expiration Date”).",,,,,0.9333941340446472,1.533394134044647,,INTRODUCTION
+7:0001104659-26-002517,0001104659-26-002517,settlement_date,settlement_date,Payment: promptly,0001193125-26-008905,,cover,,Payment: promptly,,,,,1.0,1.0,,
+7:0001104659-26-002517,0001104659-26-002517,effective_date,effective_date,Effective Time,0001193125-26-008905,,otp,,"Summary of the Merger Agreement and Certain Other Agreements.”
+At the Effective Time, Merger Sub will be merged with and into the Company, the separate existence of Merger Sub will cease, and the Company
+will continue as the Surviving Corporation in the Merger.",,,,,0.4544011950492859,-0.09559880495071416,,2.
+7:0001104659-26-002517,0001104659-26-002517,minimum_tender_condition,minimum_tender_condition,Minimum Tender Condition,0001193125-26-008905,,otp,,"• If we accept Company Shares for payment pursuant to the Offer that represent at least one Company Share more than
+50% of the number of Company Shares that are then issued and outstanding as of the expiration of the Offer, then the Minimum Tender Condition will have been satisfied and we will hold a sufficient number of Company Shares to effect the Merger
+without a vote by the Company stockholders under the General Corporation Law of the State of Delaware (the “DGCL”).",,,,,0.9210428595542908,0.4210428595542907,"WILL THE TENDER OFFER BE FOLLOWED BY A MERGER IF ALL THE SHARES
+ARE NOT TENDERED?","WILL THE TENDER OFFER BE FOLLOWED BY A MERGER IF ALL THE SHARES
+ARE NOT TENDERED?"
+8:0000919574-26-000310,0000919574-26-000310,subject_company,target,"OCEANPAL, INC.",0000919574-26-000310,,cover,,"SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+(Amendment No. 2)
+TENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+OCEANPAL, INC.
+(Name of Subject Company (Issuer))
+OCEANPAL, INC., AS ISSUER
+(Name of Filing Persons (Identifying status as offeror, issuer, or other person))
+7.0% Series D Cumulative Convertible Perpetual Preferred Stock, Par Value $0.01 per share
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Margarita Veniou
+OceanPal Inc.",,,,,0.9068328142166138,1.4068328142166138,,cover
+8:0000919574-26-000310,0000919574-26-000310,bidder,offeror,OceanPal Inc.,0000919574-25-007223,,otp,,"We have included references to the sections of this Offer
+    to Purchase where you will find a more complete discussion where helpful.
+•
+Who is offering to purchase my shares?
+OceanPal Inc.
+•
+What is the Company offering to purchase?
+We are offering to purchase any and all outstanding of our 7.0% Series D Cumulative Convertible
+    Perpetual Preferred Stock, par value $0.01 with a $1,000 liquidation preference (the “Series D Preferred Shares” or the “shares”).",,,,,0.9712175726890564,1.3212175726890565,,"SUMMARY TERM SHEET
+CAUTIONARY NOTE ON FO"
+8:0000919574-26-000310,0000919574-26-000310,security_description,security_description,7.0% Series D Cumulative Convertible Perpetual Preferred Stock,0000919574-25-007223,,lot,,"(the “Company”) the above-described shares 7.0% Series D Cumulative Convertible Perpetual Preferred Stock, par
+      value $0.01 per share, with a $1,000 liquidation preference per share, (the “Series D Preferred Shares” or the “shares”), of the Company, at the price per share indicated in this Letter of Transmittal plus accrued and unpaid dividends, net to the
+      seller in cash, less any applicable withholding taxes and without interest, on the terms and subject to the conditions set forth in the",,,,,0.44223862886428833,0.6422386288642883,,lot
+8:0000919574-26-000310,0000919574-26-000310,offer_price,offer_price,$27.2 million,0000919574-25-007223,,otp,,"If less than all of the
+    shares are properly tendered, subject to the conditions of the Offer, we will purchase all shares that are properly tendered and not properly withdrawn.
+•
+How will the Company pay for the shares?
+Assuming that all of the outstanding shares are tendered in the Offer at the purchase price of $1,400
+    per share, the aggregate purchase price will be approximately $27.2 million.",,,,,0.4470459520816803,1.2270459520816803,,"SUMMARY TERM SHEET
+CAUTIONARY NOTE ON FO"
+8:0000919574-26-000310,0000919574-26-000310,currency,currency,USD,0000919574-26-000310,,cover,,$27.2 million,,,,,1.0,1.0,,
+8:0000919574-26-000310,0000919574-26-000310,expiration_date,expiration_date,"November 25, 2025",0000919574-25-007223,,otp,,"See Section 14.
+•
+What is the purpose of the Offer?
+On November 25, 2025, our Board of Directors unanimously approved a tender offer for any and all
+    outstanding Series D Preferred Shares, which we may accept for payment in the Offer, subject to certain limitations and legal requirements.",,,,,0.9622445106506348,1.7422445106506348,,"SUMMARY TERM SHEET
+CAUTIONARY NOTE ON FO"
+8:0000919574-26-000310,0000919574-26-000310,settlement_date,settlement_date,Payment: promptly,0000919574-25-007223,,cover,,Payment: promptly,,,,,1.0,1.0,,
+9:0001104659-26-006294,0001104659-26-006294,subject_company,target,EAGLE POINT INSTITUTIONAL INCOME FUND,0001104659-26-006294,,cover,,"As of January 22, 2026, in accordance with the terms of the Offer,
+the Company accepted for payment all of the Tendered Shares, for an aggregate purchase price of $3,098,140.44.
+2
+SIGNATURE
+After due inquiry and to the best of my knowledge
+and belief, I certify that the information set forth in this statement is true, complete, and correct.
+EAGLE POINT INSTITUTIONAL INCOME FUND
+By:
+/s/ Lena Umnova
+Name:
+Lena Umnova
+Title:
+Chief Financial Officer
+Date:
+January 23, 2026",,,,,0.945744514465332,1.245744514465332,,cover
+9:0001104659-26-006294,0001104659-26-006294,bidder,offeror,EAGLE POINT INSTITUTIONAL INCOME FUND,0001104659-26-006294,,cover,,"As of January 22, 2026, in accordance with the terms of the Offer,
+the Company accepted for payment all of the Tendered Shares, for an aggregate purchase price of $3,098,140.44.
+2
+SIGNATURE
+After due inquiry and to the best of my knowledge
+and belief, I certify that the information set forth in this statement is true, complete, and correct.
+EAGLE POINT INSTITUTIONAL INCOME FUND
+By:
+/s/ Lena Umnova
+Name:
+Lena Umnova
+Title:
+Chief Financial Officer
+Date:
+January 23, 2026",,,,,0.9561969637870789,1.156196963787079,,cover
+9:0001104659-26-006294,0001104659-26-006294,cusip,cusip,269819108,0001104659-26-006294,,cover,,269819108,,,,,1.0,1.0,,
+9:0001104659-26-006294,0001104659-26-006294,isin,isin,US2698191085,0001104659-26-006294,,cover,,US2698191085,,,,,1.0,1.0,,
+9:0001104659-26-006294,0001104659-26-006294,offer_price,offer_price,net asset value,0001104659-26-006294,,cover,,"f the tender offer:
+x
+This final amendment relates
+to the Issuer Tender Offer Statement on Schedule TO (the “Statement”) originally filed with the Securities and Exchange Commission
+on November 28, 2025 by Eagle Point Institutional Income Fund (the “Fund”) in connection with an offer (the “Offer”)
+by the Fund to purchase shares of beneficial interest (“Shares”) in an amount up to 5% of the Fund’s net asset value,
+calculated as of the calendar quarter end immediately prior to the date of the Statement, on the terms and subject to the conditions set
+forth in the Offer to Purchase and the related Letter of Transmittal.",,,,,0.7175372838973999,0.6675372838973999,,cover
+9:0001104659-26-006294,0001104659-26-006294,settlement_date,settlement_date,"January 22, 2026",0001104659-26-006294,,cover,,"January 22, 2026",,,,,1.0,1.0,,
+10:0001104659-26-006517,0001104659-26-006517,subject_company,target,"Hartford Schroders
+Private Opportunities Fund",0001104659-26-006517,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+SCHEDULE TO
+TENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR
+13(e)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+FINAL AMENDMENT
+Hartford Schroders
+Private Opportunities Fund
+(Name of Subject Company (Issuer))
+Hartford Schroders
+Private Opportunities Fund
+(Name of Filing Person(s) (Issuer))
+SHARES OF BENEFICIAL INTEREST
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Class A
+XHFAX
+Class I
+XHFIX
+Class SDR
+XHFSX
+Hartford Funds Management Company, LLC
+690 Lee Road
+Wayne, PA 19087
+(610) 386-4068
+(Name, Address, and Telephone Number of Person
+Autho",,,,,0.9230580925941467,1.2230580925941468,,cover
+10:0001104659-26-006517,0001104659-26-006517,bidder,offeror,"Hartford Funds Management
+    Co, LLC",0001104659-24-083336,,otp,,"hares
+outstanding as of the Prior NAV Calculation Date, the following persons (the named individuals being the Trustees) own the number of Shares
+indicated in the below table:
+Field: Page; Sequence: 12
+B-
+Field: Sequence; Type: Arabic; Name: PageNo
+12
+Field: /Sequence
+Field: /Page
+Person
+Share Class
+Number of
+Shares by Class
+Beneficial Ownership
+by Class (%)
+Total Beneficial
+Ownership of
+Fund (%)
+Hartford Funds Management
+    Co, LLC
+48.50
+%
+Class A
+100,963
+4.46
+%
+Class I
+101,253
+4.46
+%
+Class SDR
+2,066,692
+39.58
+%
+Schroders US Holdings Inc.",,,,,0.8576463460922241,1.1576463460922242,,CERTAIN INFORMATION ABOUT THE FUND.
+10:0001104659-26-006517,0001104659-26-006517,security_description,security_description,"Class I
+XHFIX",0001104659-26-006517,,cover,,"ULE TO
+TENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR
+13(e)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+FINAL AMENDMENT
+Hartford Schroders
+Private Opportunities Fund
+(Name of Subject Company (Issuer))
+Hartford Schroders
+Private Opportunities Fund
+(Name of Filing Person(s) (Issuer))
+SHARES OF BENEFICIAL INTEREST
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Class A
+XHFAX
+Class I
+XHFIX
+Class SDR
+XHFSX
+Hartford Funds Management Company, LLC
+690 Lee Road
+Wayne, PA 19087
+(610) 386-4068
+(Name, Address, and Telephone Number of Person
+Authorized to Receive Notices and
+Communications on Behalf of the Filing Person(s))
+With a copy to:
+John V.",,,,,0.40192827582359314,0.6019282758235931,,cover
+10:0001104659-26-006517,0001104659-26-006517,offer_price,offer_price,net asset value,0001104659-24-083336,,otp,,"Shareholders who tender all or a portion of their Shares
+    prior to holding such Shares for at least one year will be subject to an early repurchase fee, payable to the Fund, of 2% of the
+    net asset value of any Shares repurchased by the Fund that were held for less than one year (the “Early Repurchase Fee”).",,,,,0.9158011674880981,1.2458011674880982,,SUMMARY TERM SHEET.
+10:0001104659-26-006517,0001104659-26-006517,expiration_date,expiration_date,"December 27, 2021",0001104659-24-083336,,otp,,"CERTAIN INFORMATION ABOUT THE FUND.
+The Fund is registered under
+the Investment Company Act of 1940 (the “1940 Act”) as a closed-end, non-diversified, management investment company. It was
+organized as a Delaware statutory trust on December 27, 2021.",,,,,0.9119389057159424,1.5619389057159423,,CERTAIN INFORMATION ABOUT THE FUND.
+10:0001104659-26-006517,0001104659-26-006517,withdrawal_deadline,withdrawal_deadline,"June 30, 2024",0001104659-24-083336,,otp,,"Please refer to this table as you read this document.
+Capitalized terms used, but not defined, in this table
+IMPORTANT DATES
+Date
+Name of Date
+Definition
+June 30, 2024
+Prior NAV Calculation Date
+the last date before the Commencement Date for which the Fund completed the calculation of its net asset value
+June 1, 2024 and July 1, 2024
+Prior Two Admission Dates
+the last two dates before the Commencement Date as of which Shares of the Fund were sold
+July 29, 2024
+Commencement Date
+the date as of which the Offer commenced
+August 26, 2024
+Notice Due Date
+the date by",,,,,0.7084152698516846,1.3084152698516844,,Exhibit B
+11:0001104659-26-006950,0001104659-26-006950,subject_company,target,COATUE INNOVATIVE STRATEGIES FUND,0001104659-26-006950,,cover,,"UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, DC 20549
+SCHEDULE TO
+TENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR
+13(e)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+COATUE INNOVATIVE STRATEGIES FUND
+(Name of Subject Company (Issuer))
+COATUE INNOVATIVE STRATEGIES FUND
+(Name of Filing Person(s) (Issuer))
+CLASS S, CLASS D AND CLASS I SHARES
+OF BENEFICIAL INTERESTS
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Philippe Laffont
+c/o Coatue Management.",,,,,0.9176045656204224,1.2176045656204224,,cover
+11:0001104659-26-006950,0001104659-26-006950,bidder,offeror,Kirkland & Ellis LLP,0001104659-26-006950,,cover,,"Patrick, Esq.
+Jason Monfort, Esq.
+Kirkland & Ellis LLP
+1301 Pennsylvania Avenue N.W.
+Washington, D.C.",,,,,0.9196696877479553,1.1196696877479555,,cover
+11:0001104659-26-006950,0001104659-26-006950,offer_price,offer_price,value,0001104659-26-006950,,otp,,"Because you have tendered
+and the Fund has purchased all or some of your Shares, you are entitled to be paid an amount equal to the value, determined as of January 30,
+2026 (the ""Valuation Date""), of the repurchased Shares, in accordance with the terms of the tender offer.",,,,,0.7167395353317261,0.916739535331726,,otp
+11:0001104659-26-006950,0001104659-26-006950,expiration_date,expiration_date,"February 24, 2026",0001104659-26-006950,,otp,,"A cash payment of
+the proceeds of your Shares to be repurchased by the Fund will be wire transferred to the account designated by you within seven (7) days
+following February 24, 2026.
+If you are tendering only
+a portion of your account, you remain a Shareholder of the Fund with respect to the portion of the Shares that you did not tender.
+Should you have any questions,
+please feel free to contact State Street Bank and Trust Company at 617-662-7100.
+Sincerely,
+Coatue Innovative Strategies
+    Fund",,,,,0.9604694843292236,1.6104694843292235,,otp
+12:0001104659-26-008028,0001104659-26-008028,subject_company,target,MONROE CAPITAL INCOME PLUS CORPORATION,0001104659-26-008028,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+TENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR
+13(e)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+MONROE CAPITAL INCOME PLUS CORPORATION
+(Name of Subject Company (Issuer))
+MONROE CAPITAL
+INCOME PLUS CORPORATION
+(Names of filing Person (Offeror and Issuer))
+Common Stock, Par Value $0.001 per share
+(Title of Class of Securities)
+Theodore L.",,,,,0.9407744407653809,1.4407744407653809,,cover
+12:0001104659-26-008028,0001104659-26-008028,bidder,offeror,Monroe Capital Income Plus Corporation,0001104659-26-008028,,cover,,"following box if the filing is a final amendment reporting the results of the tender offer:
+¨
+If applicable, check the appropriate boxes below to designate the appropriate rule provision(s) relied upon:
+¨
+Rule 13e-4(i) (Cross-Border Issuer Tender Offer)
+¨
+Rule 14d-1(d) (Cross-Border Third-Party Tender Offer)
+This Tender Offer Statement on Schedule TO
+(this “
+Schedule TO
+”) relates to the offer by Monroe Capital Income Plus Corporation (the “
+Company
+,”
+ “
+MCIP
+,” “
+our
+,” “
+we
+,” or “
+us
+”),
+an externally-managed, closed-end, non-diversified management investment company that has elected to be regulated as a business development
+company under the Investment Company Act of 1940, as amended (“
+1940 Act
+”), and that is incorporated in Maryland.",,,,,0.9536809325218201,1.3536809325218202,,cover
+12:0001104659-26-008028,0001104659-26-008028,security_description,security_description,Common Stock,0001104659-26-008028,,cover,,"This amount represents approximately 5.0% of the Company’s Shares outstanding as of December 31, 2025.
+The term “
+Shares
+” as used herein refers only to those shares of our Common Stock that are eligible to be repurchased.",,,,,0.42181721329689026,-0.3281827867031098,,cover
+12:0001104659-26-008028,0001104659-26-008028,offer_price,offer_price,net asset value,0001104659-26-008028,,otp,,"The purchase price for the shares of common stock sold in the Company’s
+private offering is the per share net asset value of the Company’s common stock on the closing date of the offering as determined
+by the Adviser as the Company’s valuation designee appointed by the Board. The Adviser determines the fair value of each investment
+in the Company’s portfolio in good faith, in accordance with a documented valuation policy and a consistently applied valuation
+process that is subject to Board oversight.",,,,,0.7536932826042175,1.0836932826042176,How is the Purchase Price Determined?,How is the Purchase Price Determined?
+12:0001104659-26-008028,0001104659-26-008028,expiration_date,expiration_date,"February 27, 2026",0001104659-26-008028,,otp,,"· The Offer will expire at 11:59 P.M., Eastern Time, on February 27, 2026, unless extended. We may extend the period of time the Offer will be open by issuing a press release or making some other public announcement by no later than the next business day after the Offer otherwise would have expired. See Section 15 below.",,,,,0.9828855991363525,1.7628855991363526,"When will the Offer expire, and
+may the Offer be extended?","When will the Offer expire, and
+may the Offer be extended?"
+12:0001104659-26-008028,0001104659-26-008028,settlement_date,settlement_date,Payment: promptly,0001104659-26-008028,,cover,,Payment: promptly,,,,,1.0,1.0,,
+13:0000930413-26-000298,0000930413-26-000298,subject_company,target,Lord Abbett Private Credit Fund,0000930413-26-000298,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+(Rule 13e-4)
+TENDER OFFER STATEMENT PURSUANT TO SECTION
+14(D)(1) OR 13(E)(1) OF THE SECURITIES EXCHANGE ACT OF 1934
+Lord Abbett Private Credit Fund
+(Name of Subject Company (Issuer))
+Lord Abbett Private Credit Fund
+(Names of Filing Person (Offeror and
+Issuer))
+Common Shares of Beneficial Interest,
+par value $0.01 per share
+(Title of Class of Securities)
+CUSIP: N/A
+(CUSIP Number of Class of securities)
+Randolph A.",,,,,0.9636544585227966,1.2636544585227967,,cover
+13:0000930413-26-000298,0000930413-26-000298,bidder,offeror,"Lord Abbett
+Private Credit Advisor LLC",0000930413-26-000298,,cover,,"Lord Abbett
+Private Credit Advisor LLC (the “Adviser”) serves as the investment adviser for the Company.",,,,,0.9284543991088867,1.3284543991088869,,cover
+13:0000930413-26-000298,0000930413-26-000298,offer_price,offer_price,0.01,0000930413-26-000298,,otp,,"LORD ABBETT
+PRIVATE CREDIT FUND
+NOTICE
+OF WITHDRAWAL
+Ladies and Gentlemen:
+The undersigned hereby withdraws the
+tender of its common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”),
+of Lord Abbett Private Credit Fund (the “
+Company
+”) that previously was submitted by the
+undersigned in a Letter of Transmittal, dated _____________, 202[ ].
+A.",,,,,0.5797727704048157,0.7797727704048156,,otp
+13:0000930413-26-000298,0000930413-26-000298,expiration_date,expiration_date,"January 29, 2026",0000930413-26-000298,,otp,,"fferent than above; print name exactly as it
+appears
+on the books and records of the Company maintained by State Street Bank and
+Trust Company, the Company’s transfer agent
+):
+Print Name of Registered Holder
+Title of Signatory
+Signature – Registered Holder
+Date
+This Lord Abbett Private
+Credit Fund Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer to Purchase dated January 29, 2026.",,,,,0.6443067789077759,1.2943067789077758,,otp
+13:0000930413-26-000298,0000930413-26-000298,withdrawal_deadline,withdrawal_deadline,"January 29, 2026",0000930413-26-000298,,otp,,"fferent than above; print name exactly as it
+appears
+on the books and records of the Company maintained by State Street Bank and
+Trust Company, the Company’s transfer agent
+):
+Print Name of Registered Holder
+Title of Signatory
+Signature – Registered Holder
+Date
+This Lord Abbett Private
+Credit Fund Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer to Purchase dated January 29, 2026.",,,,,0.6589853167533875,1.2589853167533873,,otp
+14:0000930413-26-000299,0000930413-26-000299,subject_company,target,Lord Abbett Private Credit Fund S,0000930413-26-000299,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+SCHEDULE TO
+(Rule 13e-4)
+TENDER OFFER STATEMENT PURSUANT TO SECTION
+14(D)(1) OR 13(E)(1) OF THE SECURITIES EXCHANGE ACT OF 1934
+Lord Abbett Private Credit Fund S
+(Name of Subject Company (Issuer))
+Lord Abbett Private Credit Fund S
+(Names of Filing Person (Offeror and
+Issuer))
+Common Shares of Beneficial Interest,
+par value $0.01 per share
+(Title of Class of Securities)
+CUSIP: N/A
+(CUSIP Number of Class of securities)
+Randolph A.",,,,,0.9592945575714111,1.2592945575714112,,cover
+14:0000930413-26-000299,0000930413-26-000299,bidder,offeror,"Lord Abbett
+Private Credit Advisor LLC",0000930413-26-000299,,cover,,"Lord Abbett
+Private Credit Advisor LLC (the “Adviser”) serves as the investment adviser for the Company.",,,,,0.9273496866226196,1.3273496866226198,,cover
+14:0000930413-26-000299,0000930413-26-000299,offer_price,offer_price,0.01,0000930413-26-000299,,otp,,"LORD ABBETT PRIVATE CREDIT FUND S
+NOTICE OF WITHDRAWAL
+Ladies and Gentlemen:
+The undersigned hereby withdraws the
+tender of its common shares of beneficial interest, par value $0.01 per share (the “
+Shares
+”),
+of Lord Abbett Private Credit Fund S (the “
+Company
+”) that previously was submitted by the
+undersigned in a Letter of Transmittal, dated _____________, 202[ ].
+A.",,,,,0.5807832479476929,0.7807832479476928,,otp
+14:0000930413-26-000299,0000930413-26-000299,expiration_date,expiration_date,"January 29, 2026",0000930413-26-000299,,otp,,"ferent than above; print name exactly as it appears on the books and records of the Company maintained by State Street
+Bank and Trust Company, the Company’s transfer agent):
+Print Name of Registered Holder
+Title of Signatory
+Signature – Registered Holder
+Date
+This Lord Abbett Private Credit Fund S Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer
+to Purchase dated January 29, 2026.",,,,,0.6582597494125366,1.3082597494125365,,otp
+14:0000930413-26-000299,0000930413-26-000299,withdrawal_deadline,withdrawal_deadline,"January 29, 2026",0000930413-26-000299,,otp,,"ferent than above; print name exactly as it appears on the books and records of the Company maintained by State Street
+Bank and Trust Company, the Company’s transfer agent):
+Print Name of Registered Holder
+Title of Signatory
+Signature – Registered Holder
+Date
+This Lord Abbett Private Credit Fund S Notice of Withdrawal Form is valid only in conjunction with the terms of the Offer
+to Purchase dated January 29, 2026.",,,,,0.6423938870429993,1.2423938870429991,,otp
+15:0001140361-26-003032,0001140361-26-003032,subject_company,target,BlackRock Private Credit Fund,0001140361-26-003032,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+SCHEDULE TO
+(Rule 13e-4)
+TENDER OFFER STATEMENT PURSUANT TO SECTION 14(D)(1) OR 13(E)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+BlackRock Private Credit Fund
+(Name of Issuer)
+BlackRock Private Credit Fund
+(Name of Person(s) Filing Statement)
+Class S, Class D and Institutional Shares of Beneficial Interest
+(Title of Class of Securities)
+BRY4333P7, BRY42WTV3 and BRY13VCK2
+(CUSIP Number of class of securities)
+John M.",,,,,0.7978255748748779,1.097825574874878,,cover
+15:0001140361-26-003032,0001140361-26-003032,bidder,offeror,"BlackRock Capital Investment Advisors, LLC",0001140361-26-003032,,cover,,"BlackRock Capital Investment Advisors, LLC (the “Adviser”) serves as the investment manager for the Fund.",,,,,0.9528558254241943,1.3528558254241945,,cover
+15:0001140361-26-003032,0001140361-26-003032,security_description,security_description,Class D common shares of beneficial interest,0001140361-26-003032,,cover,,"The principal executive office of the Fund is located at 50 Hudson Yards, New York, NY 10001 and the telephone number is (212) 810-5800.
+(b)
+The title of the securities that are the subject of the offer to purchase and the related Letter of Transmittal (“Offer to Purchase” and the tender offer made thereby, the “Offer”) are Class S common shares of beneficial interest (the “Class S Shares”), Class D common shares of beneficial interest (the “Class D Shares”) and Institutional common shares of beneficial interest (the “Institutional Shares” and together with Class S Shares and Class D Shares, the “Shares”) or portions thereof.",,,,,0.6183649897575378,1.0183649897575378,,cover
+15:0001140361-26-003032,0001140361-26-003032,cusip,cusip,BRY4333P7; BRY42WTV3; BRY13VCK2,0001140361-26-003032,,cover,,BRY4333P7,,,,,1.0,1.0,,
+15:0001140361-26-003032,0001140361-26-003032,isin,isin,USBRY4333P74; USBRY42WTV34; USBRY13VCK24,0001140361-26-003032,,cover,,USBRY4333P74,,,,,1.0,1.0,,
+15:0001140361-26-003032,0001140361-26-003032,offer_price,offer_price,$500,0001133228-25-004823,,otp,,"•
+If
+                                            you tender only a portion of your Shares, you must maintain a minimum account balance of
+                                            at least $500 as of the Valuation Date.",,,,,0.7833772897720337,1.5633772897720337,,"SUMMARY TERM SHEET
+1
+1.
+Background and P"
+15:0001140361-26-003032,0001140361-26-003032,currency,currency,USD,0001140361-26-003032,,cover,,$500,,,,,1.0,1.0,,
+15:0001140361-26-003032,0001140361-26-003032,expiration_date,expiration_date,"May 28, 2025",0001133228-25-004823,,otp,,"The Offer, which begins on April 30, 2025, will remain open until 11:59 p.m., Eastern
+                                            Time, on May 28, 2025 (the “Expiration Date”).",,,,,0.8993344902992249,1.6793344902992249,,"SUMMARY TERM SHEET
+1
+1.
+Background and P"
+16:0001104659-26-008693,0001104659-26-008693,subject_company,target,"Enzon Pharmaceuticals, Inc.",0001104659-26-008693,,cover,,"Check the following
+box if the filing is a final amendment reporting the results of the tender offer:
+¨
+If applicable, check the appropriate box(es) below
+to designate the appropriate rule provision(s) relied upon:
+¨
+Rule 13e-4(i) (Cross-Border Issuer Tender Offer)
+¨
+Rule 14d-1(d) (Cross-Border Third-Party Tender Offer)
+This Tender Offer Statement on Schedule TO (this
+ “Schedule TO”) is filed by Enzon Pharmaceuticals, Inc., a Delaware corporation (the “Company,” “us”
+or “we”).",,,,,0.8961743712425232,1.3961743712425232,,cover
+16:0001104659-26-008693,0001104659-26-008693,bidder,offeror,Icahn Enterprises Holdings L.P.,0001104659-26-008693,,cover,,"Form S-4
+333-293019
+2.2
+January 28, 2026
+(d)(3)
+Support Agreement, dated as of June 20, 2025, by and between Icahn Enterprises Holdings L.P. and certain of its affiliates, Enzon Pharmaceuticals, Inc.",,,,,0.9221162796020508,1.322116279602051,,cover
+16:0001104659-26-008693,0001104659-26-008693,security_description,security_description,"Series C
+Non-Convertible Redeemable Preferred Stock",0001104659-26-008693,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+SCHEDULE TO
+TENDER OFFER STATEMENT UNDER SECTION 14(d)(1) OR 13(e)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+ENZON PHARMACEUTICALS, INC.
+(Name of Subject Company and Filing Persons
+(Issuer))
+Series C
+Non-Convertible Redeemable Preferred Stock
+(Title of Class of Securities)
+293904702
+(CUSIP Number of Class of Securities)
+Richard L.",,,,,0.6268779039382935,1.0268779039382934,,cover
+16:0001104659-26-008693,0001104659-26-008693,cusip,cusip,293904702,0001104659-26-008693,,cover,,293904702,,,,,1.0,1.0,,
+16:0001104659-26-008693,0001104659-26-008693,isin,isin,US2939047021,0001104659-26-008693,,cover,,US2939047021,,,,,1.0,1.0,,
+16:0001104659-26-008693,0001104659-26-008693,ticker,ticker,ENZN,0001104659-26-021045,,cover,,ENZN,,,,,1.0,1.0,,
+16:0001104659-26-008693,0001104659-26-008693,offer_price,offer_price,7.83,0001104659-26-021045,,otp,,"Each share of Series
+C Preferred Stock can be exchanged for an amount of Common Stock equal to (i) the aggregate liquidation preference of each share of Series
+C Preferred Stock, divided by (ii) $7.83 after giving effect to the Reverse Stock Split (as defined in the Prospectus/Consent Solicitation/Offer
+to Exchange).",,,,,0.8232617974281311,1.023261797428131,,otp
+16:0001104659-26-008693,0001104659-26-008693,expiration_date,expiration_date,"March
+9, 2026",0001104659-26-021045,,otp,,"Key Dates and Information
+·
+Deadline to Participate
+: The offer expires one minute after 11:59 p.m., Eastern Time, on March
+9, 2026, unless further extended.
+·
+Holders of Series C Preferred Stock who elect to participate in the offer can withdraw their tendered
+shares any time before the deadline.
+Offer Details
+The offer is described in
+full in the Prospectus/Consent Solicitation/Offer to Exchange and the Schedule TO (as defined below), filed with the U.S.",,,,,0.9024602174758911,1.552460217475891,,otp
+17:0001104659-26-008976,0001104659-26-008976,subject_company,target,"Macquarie Focused Access Fund, LLC",0001104659-26-008976,,cover,,"As filed with the Securities and Exchange Commission
+on February 2, 2026
+Investment Company Act File No. 811-23355
+SECURITIES AND EXCHANGE COMMISSION
+W
+ashington
+, DC 20549
+SCHEDULE TO
+(Rule 14d-100)
+Tender Offer Statement Under Section 14(d)(1) or
+13(e)(1)
+of the Securities Exchange Act of 1934
+Macquarie Focused Access Fund, LLC
+(Name of Issuer)
+Macquarie Focused Access Fund, LLC
+(Name of Person(s) Filing Statement)
+Class F1, Class F2, Class A and
+Class I Units of Limited Liability Company Interests
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Alex Lee
+c/o Macquarie Wealth Advisers, LLC
+660 Fifth Avenue
+New York, New York 10103
+(212) 317-9222
+(Name, Address and Telephone Number of Person Autho",,,,,0.9018226265907288,1.4018226265907288,,cover
+17:0001104659-26-008976,0001104659-26-008976,bidder,offeror,"MACQUARIE FOCUSED ACCESS FUND, LLC",0001104659-26-008976,,cover,,"MACQUARIE FOCUSED ACCESS FUND, LLC
+By:
+/s/ Alex Lee
+Name:
+Alex Lee
+Title:
+Principal Executive Officer
+February 2, 2026
+-
+4
+-
+EXHIBIT INDEX
+Exhibit
+(a)(1)(i)
+Cover Letter to Offer to Purchase and Letter of Transmittal.",,,,,0.8995546698570251,1.2995546698570253,,cover
+17:0001104659-26-008976,0001104659-26-008976,security_description,security_description,"Class A and
+Class I Units of Limited Liability Company Interests",0001104659-26-008976,,cover,,"Commission
+on February 2, 2026
+Investment Company Act File No. 811-23355
+SECURITIES AND EXCHANGE COMMISSION
+W
+ashington
+, DC 20549
+SCHEDULE TO
+(Rule 14d-100)
+Tender Offer Statement Under Section 14(d)(1) or
+13(e)(1)
+of the Securities Exchange Act of 1934
+Macquarie Focused Access Fund, LLC
+(Name of Issuer)
+Macquarie Focused Access Fund, LLC
+(Name of Person(s) Filing Statement)
+Class F1, Class F2, Class A and
+Class I Units of Limited Liability Company Interests
+(Title of Class of Securities)
+N/A
+(CUSIP Number of Class of Securities)
+Alex Lee
+c/o Macquarie Wealth Advisers, LLC
+660 Fifth Avenue
+New York, New York 10103
+(212) 317-9222
+(Name, Address and Telephone Number of Person Authorized to Receive
+Notices and Communications on Behalf of the Person(s) Filing Statement)
+With a copy to:
+Stuart H.",,,,,0.41783958673477173,0.8178395867347716,,cover
+17:0001104659-26-008976,0001104659-26-008976,offer_price,offer_price,"net asset
+value",0001104659-20-037454,,otp,,"Summary Term Sheet
+l
+As we said in your Fund's offering documents, we will buy your Units at their aggregate net asset
+value, less any Early Repurchase Fee (as defined below).",,,,,0.8985879421234131,1.2285879421234132,,"Summary Term Sheet
+l
+As we said in your "
+17:0001104659-26-008976,0001104659-26-008976,currency,currency,USD,0001104659-26-008976,,cover,,$14.49,,,,,1.0,1.0,,
+17:0001104659-26-008976,0001104659-26-008976,expiration_date,expiration_date,"April 17, 2020",0001104659-20-037454,,otp,,"Our offer
+                                                                                                                            remains open to you until the end of the day on April 17, 2020, at 12:00 midnight.",,,,,0.9639282822608948,1.7439282822608948,,"Summary Term Sheet
+l
+As we said in your "
+17:0001104659-26-008976,0001104659-26-008976,withdrawal_deadline,withdrawal_deadline,"April 17, 2020",0001104659-20-037454,,otp,,"Our offer
+                                                                                                                            remains open to you until the end of the day on April 17, 2020, at 12:00 midnight.",,,,,0.8059900403022766,1.5359900403022766,,"Summary Term Sheet
+l
+As we said in your "
+17:0001104659-26-008976,0001104659-26-008976,settlement_date,settlement_date,Payment: promptly,0001104659-20-037454,,cover,,Payment: promptly,,,,,1.0,1.0,,
+18:0001104659-26-010301,0001104659-26-010301,subject_company,target,Ares Private Markets Fund,0001104659-26-010301,,cover,,"Filing Fee
+Filing Fee Exhibit
+SIGNATURE
+After due inquiry and to the
+best of my knowledge and belief, I certify that the information set forth in this statement is true, complete and correct.
+Ares Private Markets Fund
+By:
+/s/ Barry M. Miller
+Name:
+Barry M. Miller
+Title:
+Chief Executive Officer and President
+February 4, 2026",,,,,0.9187475442886353,1.2187475442886353,,cover
+18:0001104659-26-010301,0001104659-26-010301,bidder,offeror,"Ares Private
+Markets Fund",0001104659-26-010301,,cover,,"This Final Amendment relates
+to the Issuer Tender Offer Statement on Schedule TO (the ""Schedule TO"") originally filed on December 2, 2025 by Ares Private
+Markets Fund (the ""Fund"") in connection with an offer (the ""Offer"") by the Fund to purchase up to $188,659,203.02
+of shares of beneficial interest of the Fund (""Shares"") upon the terms and subject to the conditions set forth in the Offer
+to Purchase and the related Letter of Transmittal.",,,,,0.9479041695594788,1.147904169559479,,cover
+18:0001104659-26-010301,0001104659-26-010301,security_description,security_description,Class D Shares,0001104659-26-010301,,cover,,"Total payment by the Fund for Class D Shares was $5,000.00, which
+reflects the cumulative amount payable by the Fund based on the net asset value per Class D Share as of December 31, 2025, minus any early
+repurchase fee.",,,,,0.5780572891235352,0.7780572891235351,,cover
+18:0001104659-26-010301,0001104659-26-010301,cusip,cusip,04020B202; 04020B301; 04020B103,0001104659-26-010301,,cover,,04020B202,,,,,1.0,1.0,,
+18:0001104659-26-010301,0001104659-26-010301,isin,isin,US04020B2025; US04020B3015; US04020B1035,0001104659-26-010301,,cover,,US04020B2025,,,,,1.0,1.0,,
+18:0001104659-26-010301,0001104659-26-010301,offer_price,offer_price,"$5,000.00",0001104659-26-010301,,cover,,"Total payment by the Fund for Class D Shares was $5,000.00, which
+reflects the cumulative amount payable by the Fund based on the net asset value per Class D Share as of December 31, 2025, minus any early
+repurchase fee.
+4.
+293,740.858 Class I Shares were validly tendered and not withdrawn prior to the expiration of the Offer, and all of those Class I Shares
+were accepted for purchase, and paid for, by the Fund in accordance with the terms of the Offer.",,,,,0.5048895478248596,0.9048895478248595,,cover
+18:0001104659-26-010301,0001104659-26-010301,currency,currency,USD,0001104659-26-010301,,cover,,"$5,000.00",,,,,1.0,1.0,,
+19:0001104659-26-010301,0001104659-26-010301,subject_company,target,Ares Private Markets Fund,0001104659-26-010301,,cover,,"Filing Fee
+Filing Fee Exhibit
+SIGNATURE
+After due inquiry and to the
+best of my knowledge and belief, I certify that the information set forth in this statement is true, complete and correct.
+Ares Private Markets Fund
+By:
+/s/ Barry M. Miller
+Name:
+Barry M. Miller
+Title:
+Chief Executive Officer and President
+February 4, 2026",,,,,0.9187475442886353,1.2187475442886353,,cover
+19:0001104659-26-010301,0001104659-26-010301,bidder,offeror,"Ares Private
+Markets Fund",0001104659-26-010301,,cover,,"This Final Amendment relates
+to the Issuer Tender Offer Statement on Schedule TO (the ""Schedule TO"") originally filed on December 2, 2025 by Ares Private
+Markets Fund (the ""Fund"") in connection with an offer (the ""Offer"") by the Fund to purchase up to $188,659,203.02
+of shares of beneficial interest of the Fund (""Shares"") upon the terms and subject to the conditions set forth in the Offer
+to Purchase and the related Letter of Transmittal.",,,,,0.9479041695594788,1.147904169559479,,cover
+19:0001104659-26-010301,0001104659-26-010301,security_description,security_description,Class D Shares,0001104659-26-010301,,cover,,"Total payment by the Fund for Class D Shares was $5,000.00, which
+reflects the cumulative amount payable by the Fund based on the net asset value per Class D Share as of December 31, 2025, minus any early
+repurchase fee.",,,,,0.5780572891235352,0.7780572891235351,,cover
+19:0001104659-26-010301,0001104659-26-010301,cusip,cusip,04020B202; 04020B301; 04020B103,0001104659-26-010301,,cover,,04020B202,,,,,1.0,1.0,,
+19:0001104659-26-010301,0001104659-26-010301,isin,isin,US04020B2025; US04020B3015; US04020B1035,0001104659-26-010301,,cover,,US04020B2025,,,,,1.0,1.0,,
+19:0001104659-26-010301,0001104659-26-010301,offer_price,offer_price,"$5,000.00",0001104659-26-010301,,cover,,"Total payment by the Fund for Class D Shares was $5,000.00, which
+reflects the cumulative amount payable by the Fund based on the net asset value per Class D Share as of December 31, 2025, minus any early
+repurchase fee.
+4.
+293,740.858 Class I Shares were validly tendered and not withdrawn prior to the expiration of the Offer, and all of those Class I Shares
+were accepted for purchase, and paid for, by the Fund in accordance with the terms of the Offer.",,,,,0.5048895478248596,0.9048895478248595,,cover
+19:0001104659-26-010301,0001104659-26-010301,currency,currency,USD,0001104659-26-010301,,cover,,"$5,000.00",,,,,1.0,1.0,,
+20:0001104659-26-010301,0001104659-26-010301,subject_company,target,Ares Private Markets Fund,0001104659-26-010301,,cover,,"Filing Fee
+Filing Fee Exhibit
+SIGNATURE
+After due inquiry and to the
+best of my knowledge and belief, I certify that the information set forth in this statement is true, complete and correct.
+Ares Private Markets Fund
+By:
+/s/ Barry M. Miller
+Name:
+Barry M. Miller
+Title:
+Chief Executive Officer and President
+February 4, 2026",,,,,0.9187475442886353,1.2187475442886353,,cover
+20:0001104659-26-010301,0001104659-26-010301,bidder,offeror,"Ares Private
+Markets Fund",0001104659-26-010301,,cover,,"This Final Amendment relates
+to the Issuer Tender Offer Statement on Schedule TO (the ""Schedule TO"") originally filed on December 2, 2025 by Ares Private
+Markets Fund (the ""Fund"") in connection with an offer (the ""Offer"") by the Fund to purchase up to $188,659,203.02
+of shares of beneficial interest of the Fund (""Shares"") upon the terms and subject to the conditions set forth in the Offer
+to Purchase and the related Letter of Transmittal.",,,,,0.9479041695594788,1.147904169559479,,cover
+20:0001104659-26-010301,0001104659-26-010301,security_description,security_description,Class D Shares,0001104659-26-010301,,cover,,"Total payment by the Fund for Class D Shares was $5,000.00, which
+reflects the cumulative amount payable by the Fund based on the net asset value per Class D Share as of December 31, 2025, minus any early
+repurchase fee.",,,,,0.5780572891235352,0.7780572891235351,,cover
+20:0001104659-26-010301,0001104659-26-010301,cusip,cusip,04020B202; 04020B301; 04020B103,0001104659-26-010301,,cover,,04020B202,,,,,1.0,1.0,,
+20:0001104659-26-010301,0001104659-26-010301,isin,isin,US04020B2025; US04020B3015; US04020B1035,0001104659-26-010301,,cover,,US04020B2025,,,,,1.0,1.0,,
+20:0001104659-26-010301,0001104659-26-010301,offer_price,offer_price,"$5,000.00",0001104659-26-010301,,cover,,"Total payment by the Fund for Class D Shares was $5,000.00, which
+reflects the cumulative amount payable by the Fund based on the net asset value per Class D Share as of December 31, 2025, minus any early
+repurchase fee.
+4.
+293,740.858 Class I Shares were validly tendered and not withdrawn prior to the expiration of the Offer, and all of those Class I Shares
+were accepted for purchase, and paid for, by the Fund in accordance with the terms of the Offer.",,,,,0.5048895478248596,0.9048895478248595,,cover
+20:0001104659-26-010301,0001104659-26-010301,currency,currency,USD,0001104659-26-010301,,cover,,"$5,000.00",,,,,1.0,1.0,,
+21:0001104659-26-011592,0001104659-26-011592,subject_company,target,ANTARES STRATEGIC CREDIT FUND,0001104659-26-011592,,cover,,"ANTARES STRATEGIC CREDIT FUND
+By:
+/s/ Thomas Sweeney
+Name:
+Thomas Sweeney
+Title:
+Chief Financial Officer and Principal Accounting Officer
+Dated: February 6, 2026
+EXHIBIT INDEX
+Exhibit
+EX-FILING  FEES Calculation of Filing Fee Tables",,,,,0.93519127368927,1.23519127368927,,cover
+21:0001104659-26-011592,0001104659-26-011592,bidder,offeror,Antares Strategic Credit Fund,0001104659-26-061037,,otp,,"Exhibit 99.(a)(1)(vi)
+Notice of Withdrawal of Tender
+Regarding Shares in Antares Strategic Credit Fund
+Tendered Pursuant to the Offer to Purchase
+Dated May 14, 2026
+The Offer and withdrawal rights will expire
+on June 11, 2026
+and this Notice of Withdrawal must be received by
+the Fund’s Transfer Agent by mail or email by 11:59 p.m.,
+Eastern Time, on June 11, 2026, unless the Offer is extended
+Complete this Notice of Withdrawal and follow the transmittal|
+instructions included herein
+PLEASE SEND COM",,,,,0.9132827520370483,1.0132827520370484,,otp
+21:0001104659-26-011592,0001104659-26-011592,security_description,security_description,Common Shares of Beneficial Interest,0001104659-26-011592,,cover,,"UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+SCHEDULE TO
+(Rule 13e-4)
+(Final Amendment)
+TENDER OFFER STATEMENT PURSUANT TO SECTION 14(D)(1) OR
+13(E)(1)
+OF THE SECURITIES EXCHANGE ACT OF 1934
+Antares Strategic Credit Fund
+(Name of Issuer)
+Antares Strategic Credit Fund
+(Name of Person(s) Filing Statement)
+Common Shares of Beneficial Interest
+(Title of Class of Securities)
+03666N108
+(CUSIP Number of class of securities)
+Malvika Gupta
+Antares Capital Credit Advisers LLC
+320 South Canal Street, Ste 4200
+Chicago, IL 60606
+(Name, Address and Telephone No. of Person
+Authorized to Receive
+Notices and Communications on Behalf of the
+Person(s) Filing Statement)
+With a copy to:
+William Bielefeld, Esq.",,,,,0.5795098543167114,0.9795098543167113,,cover
+21:0001104659-26-011592,0001104659-26-011592,cusip,cusip,03666N108,0001104659-26-011592,,cover,,03666N108,,,,,1.0,1.0,,
+21:0001104659-26-011592,0001104659-26-011592,isin,isin,US03666N1081,0001104659-26-011592,,cover,,US03666N1081,,,,,1.0,1.0,,
+21:0001104659-26-011592,0001104659-26-011592,offer_price,offer_price,net asset value,0001104659-26-011592,,cover,,"Capitalized terms not otherwise defined herein shall have the meanings ascribed to
+them in the Offer to Purchase.
+The following information is furnished pursuant
+to Rule 13e-4(c)(4):
+1.
+The Offer expired at 11:59 p.m., Eastern Time, on December 23, 2025.
+2.
+2,618,441.407 Shares were validly tendered and not withdrawn prior to the expiration of the Offer.
+3.
+The per Share net asset value of the Shares tendered pursuant to the Offer was calculated as of the Valuation Date in the amount of $25.42.",,,,,0.6873656511306763,0.6373656511306762,,cover
+21:0001104659-26-011592,0001104659-26-011592,expiration_date,expiration_date,"June 11, 2026",0001104659-26-061037,,otp,,"Exhibit 99.(a)(1)(vi)
+Notice of Withdrawal of Tender
+Regarding Shares in Antares Strategic Credit Fund
+Tendered Pursuant to the Offer to Purchase
+Dated May 14, 2026
+The Offer and withdrawal rights will expire
+on June 11, 2026
+and this Notice of Withdrawal must be received by
+the Fund’s Transfer Agent by mail or email by 11:59 p.m.,
+Eastern Time, on June 11, 2026, unless the Offer is extended
+Complete this Notice of Withdrawal and follow the transmittal|
+instructions included herein
+PLEASE SEND COMPLETED FORMS TO:
+Antares Strategic Credit Fund
+c/o U.S.",,,,,0.47419992089271545,1.1241999208927154,,otp
+21:0001104659-26-011592,0001104659-26-011592,withdrawal_deadline,withdrawal_deadline,"June 11, 2026",0001104659-26-061037,,otp,,"Exhibit 99.(a)(1)(vi)
+Notice of Withdrawal of Tender
+Regarding Shares in Antares Strategic Credit Fund
+Tendered Pursuant to the Offer to Purchase
+Dated May 14, 2026
+The Offer and withdrawal rights will expire
+on June 11, 2026
+and this Notice of Withdrawal must be received by
+the Fund’s Transfer Agent by mail or email by 11:59 p.m.,
+Eastern Time, on June 11, 2026, unless the Offer is extended
+Complete this Notice of Withdrawal and follow the transmittal|
+instructions included herein
+PLEASE SEND COMPLETED FORMS TO:
+Antares Strategic Credit Fund
+c/o U.S.",,,,,0.7434631586074829,1.3434631586074828,,otp
+21:0001104659-26-011592,0001104659-26-011592,settlement_date,settlement_date,"February 4, 2026",0001104659-26-011592,,cover,,"February 4, 2026",,,,,1.0,1.0,,
+22:0001104659-26-011591,0001104659-26-011591,subject_company,target,ANTARES PRIVATE CREDIT FUND,0001104659-26-011591,,cover,,"ANTARES PRIVATE CREDIT FUND
+By:
+/s/ Thomas Sweeney
+Name:
+Thomas Sweeney
+Title:
+Chief Financial Officer and Principal Accounting Officer
+Dated: February 6, 2026
+EXHIBIT INDEX
+Exhibit
+EX-FILING  FEES Calculation of Filing Fee Tables",,,,,0.9172520041465759,1.217252004146576,,cover
+22:0001104659-26-011591,0001104659-26-011591,bidder,offeror,Antares Private Credit Fund,0001104659-25-080171,,otp,,"Exhibit 99.(a)(1)(vi)
+Notice of Withdrawal of Tender
+Regarding Shares in Antares Private Credit Fund
+Tendered Pursuant to the Offer to Purchase
+Dated August 19, 2025
+The Offer and withdrawal rights will expire
+on September 17, 2025
+and this Notice of Withdrawal must be received by
+the Fund’s Transfer Agent by mail or email by 11:59 p.m.,
+Eastern Time, on September 17, 2025, unless the Offer is extended
+Complete this Notice of Withdrawal and follow the transmittal
+instructions included herein
+PLE",,,,,0.8976399898529053,0.9976399898529053,,otp
+22:0001104659-26-011591,0001104659-26-011591,security_description,security_description,Class I common shares of beneficial interest,0001104659-26-011591,,cover,,"the filing is a final
+amendment reporting the results of the tender offer:
+x
+This Final Amendment relates to the Issuer Tender
+Offer Statement on Schedule TO (the “Statement”) originally filed on November 24, 2025 by Antares Private Credit Fund
+(the “Fund”) in connection with an offer by the Fund (the “Offer”) to purchase up to 1,394,707 of its outstanding
+shares of beneficial interest (including Class I common shares of beneficial interest, Class D common shares of beneficial interest
+and Class S common shares of beneficial interest, collectively, the “Shares”) at a price equal to the net asset value
+per Share of the applicable Class as of December 31, 2025 (the “Valuation Date”), upon the terms and subject to
+the conditions set forth in the Offer to Purchase filed as Exhibit (a)(1)(ii) to the Statement (the “Offer to Purchase”).",,,,,0.5478425025939941,0.947842502593994,,cover
+22:0001104659-26-011591,0001104659-26-011591,offer_price,offer_price,"net asset value
+per Share",0001104659-26-011591,,cover,,"on November 24, 2025 by Antares Private Credit Fund
+(the “Fund”) in connection with an offer by the Fund (the “Offer”) to purchase up to 1,394,707 of its outstanding
+shares of beneficial interest (including Class I common shares of beneficial interest, Class D common shares of beneficial interest
+and Class S common shares of beneficial interest, collectively, the “Shares”) at a price equal to the net asset value
+per Share of the applicable Class as of December 31, 2025 (the “Valuation Date”), upon the terms and subject to
+the conditions set forth in the Offer to Purchase filed as Exhibit (a)(1)(ii) to the Statement (the “Offer to Purchase”).
+This is the Final Amendment to the Statement and
+is being filed to report the results of the Offer.",,,,,0.5721657872200012,0.5221657872200012,,cover
+22:0001104659-26-011591,0001104659-26-011591,expiration_date,expiration_date,"September 17, 2025",0001104659-25-080171,,otp,,"Exhibit 99.(a)(1)(vi)
+Notice of Withdrawal of Tender
+Regarding Shares in Antares Private Credit Fund
+Tendered Pursuant to the Offer to Purchase
+Dated August 19, 2025
+The Offer and withdrawal rights will expire
+on September 17, 2025
+and this Notice of Withdrawal must be received by
+the Fund’s Transfer Agent by mail or email by 11:59 p.m.,
+Eastern Time, on September 17, 2025, unless the Offer is extended
+Complete this Notice of Withdrawal and follow the transmittal
+instructions included herein
+PLEASE SEND COMPLETED FORMS BY MAIL OR
+EMAIL TO:
+By Mail:
+Antares Private Credit Fund
+c/o U.S.",,,,,0.5754120945930481,1.225412094593048,,otp
+22:0001104659-26-011591,0001104659-26-011591,withdrawal_deadline,withdrawal_deadline,"September 17, 2025",0001104659-25-080171,,otp,,"Exhibit 99.(a)(1)(vi)
+Notice of Withdrawal of Tender
+Regarding Shares in Antares Private Credit Fund
+Tendered Pursuant to the Offer to Purchase
+Dated August 19, 2025
+The Offer and withdrawal rights will expire
+on September 17, 2025
+and this Notice of Withdrawal must be received by
+the Fund’s Transfer Agent by mail or email by 11:59 p.m.,
+Eastern Time, on September 17, 2025, unless the Offer is extended
+Complete this Notice of Withdrawal and follow the transmittal
+instructions included herein
+PLEASE SEND COMPLETED FORMS BY MAIL OR
+EMAIL TO:
+By Mail:
+Antares Private Credit Fund
+c/o U.S.",,,,,0.7619970440864563,1.3619970440864562,,otp

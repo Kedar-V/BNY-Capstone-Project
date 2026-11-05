@@ -14,7 +14,7 @@ Exploratory analysis of **public SEC filings** against the **BNY client-notifica
 | `src/eda/` | EFTS client, corpus, coverage / MVP analysis |
 | `src/preprocess/` | TO Concise Rep pipeline (inventory → download → …) |
 | `notebooks/` | EDA / inspect notebooks (analysis, not download) |
-| `docs/` | Schema, preprocess LLD, ROI notes |
+| `docs/` | Schema, preprocess LLD, ROI notes, [MLflow](docs/mlflow.md) |
 | `data/` | Local artifacts (**gitignored**) |
 | `db/` | Postgres schema |
 
@@ -74,6 +74,15 @@ python scripts/run_preprocess.py --path tender --stage all --cohort gold --limit
 ```
 
 Inspect: [`notebooks/preprocess_stage_inspect.ipynb`](notebooks/preprocess_stage_inspect.ipynb).
+
+## Experiment tracking (MLflow)
+
+Train + eval runs log to `outputs/mlflow.db` (SQLite). See [`docs/mlflow.md`](docs/mlflow.md).
+
+```bash
+python scripts/mlflow_backfill.py   # import past ledger / train_meta
+python scripts/mlflow_ui.py         # http://127.0.0.1:5000
+```
 
 ## Deliverables
 

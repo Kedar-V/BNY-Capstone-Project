@@ -1,0 +1,462 @@
+[
+  {
+    "accession": "0001193125-26-000507",
+    "fields": {
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Class I Share as of the Valuation Date, less any applicable Early Repurchase Deduction",
+        "pred": "5",
+        "span_hit": false,
+        "span_pred": null
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-000598",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value of the Shares tendered as of March 31, 2025, as it may be adjusted based upon the next annual audit of the Fund\u2019s financial statements",
+        "pred": "1",
+        "span_hit": true,
+        "span_pred": "1"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-001124",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "$25.00 in cash plus one non-tradeable contingent value right (CVR) per common share, representing the right to receive contingent milestone payments of up to $30.25 per CVR in cash",
+        "pred": "$25.00",
+        "span_hit": true,
+        "span_pred": "$25.00"
+      },
+      "currency": {
+        "outcome": "tp",
+        "gold": "USD",
+        "pred": "USD",
+        "span_hit": true,
+        "span_pred": "USD"
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-001149",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "net asset value per Share as of December 31, 2025",
+        "pred": "31",
+        "span_hit": true,
+        "span_pred": "31"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-001148",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "net asset value per Share as of December 31, 2025",
+        "pred": "31",
+        "span_hit": true,
+        "span_pred": "31"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "fields": {
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "221.50",
+        "pred": "$0.0001",
+        "span_hit": true,
+        "span_pred": "$221.50"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "fields": {
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "15505.00",
+        "pred": "$0.0001",
+        "span_hit": true,
+        "span_pred": "$15,505.00"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-002517",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "4.2913 cash plus one non-tradeable contingent value right per share",
+        "pred": "$4.2913",
+        "span_hit": true,
+        "span_pred": "$4.2913"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0000919574-26-000310",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "1400",
+        "pred": "$1,400",
+        "span_hit": true,
+        "span_pred": "$1,400"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-006294",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "7.15",
+        "pred": "$7.15",
+        "span_hit": true,
+        "span_pred": "$7.15"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-006517",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "14.33",
+        "pred": "$14.33",
+        "span_hit": true,
+        "span_pred": "$14.33"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-006950",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value of the tendered Shares as of January 30, 2026 (or at a later date determined by the Fund if the Offer is extended), less any early repurchase fee",
+        "pred": "30",
+        "span_hit": true,
+        "span_pred": "30"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-008028",
+    "fields": {
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "The per share price of the Common Stock sold by the Company in the most recent closing of the Company\u2019s private offering of Common Stock that occurs prior to the Expiration Date",
+        "pred": "$9.87",
+        "span_hit": false,
+        "span_pred": null
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 2
+  },
+  {
+    "accession": "0000930413-26-000298",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Share as of March 31, 2026 or a later date determined by the Company if the Offer is extended",
+        "pred": "31",
+        "span_hit": true,
+        "span_pred": "1940"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0000930413-26-000299",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Share as of March 31, 2026, or a later date determined by the Company if the Offer is extended",
+        "pred": "31",
+        "span_hit": true,
+        "span_pred": "1940"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001140361-26-003032",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Share as of March 31, 2026 or a later date determined by the Fund if the Offer is extended",
+        "pred": "31",
+        "span_hit": true,
+        "span_pred": "1940"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-008693",
+    "fields": {
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Shares of Enzon Pharmaceuticals, Inc. common stock equal to the aggregate liquidation preference of each share of Series C Preferred Stock divided by $7.83, after giving effect to the Reverse Stock Split",
+        "pred": "$0.01",
+        "span_hit": true,
+        "span_pred": "$7.83"
+      },
+      "currency": {
+        "outcome": "tp",
+        "gold": "USD",
+        "pred": "USD",
+        "span_hit": true,
+        "span_pred": "USD"
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-008976",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Unit as of March 31, 2026, less any Early Repurchase Fee",
+        "pred": "6",
+        "span_hit": true,
+        "span_pred": "6"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 2
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Class A Share as of December 31, 2025, minus any early repurchase fee",
+        "pred": "$",
+        "span_hit": true,
+        "span_pred": "$"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Class D Share as of December 31, 2025, minus any early repurchase fee",
+        "pred": "$",
+        "span_hit": true,
+        "span_pred": "$"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "fields": {
+      "offer_price": {
+        "outcome": "mismatch",
+        "gold": "Net asset value per Class I Share as of December 31, 2025, minus any early repurchase fee",
+        "pred": "$11,207,705.03",
+        "span_hit": true,
+        "span_pred": "31"
+      },
+      "currency": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "USD",
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-011592",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Share of the applicable Class as of December 31, 2025",
+        "pred": "31",
+        "span_hit": true,
+        "span_pred": "2025"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  },
+  {
+    "accession": "0001104659-26-011591",
+    "fields": {
+      "offer_price": {
+        "outcome": "tp",
+        "gold": "Net asset value per Share of the applicable Class as of December 31, 2025",
+        "pred": "31",
+        "span_hit": true,
+        "span_pred": "31"
+      },
+      "currency": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null
+      }
+    },
+    "n_quotes": 1
+  }
+]

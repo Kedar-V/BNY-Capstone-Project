@@ -2,11 +2,13 @@
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
 
 from src.preprocess.contracts import LABEL_TO_FIELD_HINT, StageContext, StageResult
 from src.preprocess.paths import get_path_config, stub_manifest
 from src.preprocess.progress import stage_progress
+from src.preprocess.rules_ids import RULE_FIELD_HINTS, extract_id_currency_facts, load_sec_tickers
 from src.preprocess.stages.cleanup import _event_ids
 from src.preprocess.store import SCHEMA_VERSION, ArtifactStore, utc_now_iso
 
@@ -66,6 +68,9 @@ class AssembleStage:
                 for sp in spans_payload.get("spans") or []:
                     label = sp.get("label")
                     field_hint = sp.get("field_hint") or LABEL_TO_FIELD_HINT.get(label, label)
+                    # IDs / currency come from rules, not GLiNER
+                    if field_hint in RULE_FIELD_HINTS:
+                        continue
                     ent = {
                         "label": label,
                         "text": sp.get("text"),
@@ -97,18 +102,65 @@ class AssembleStage:
                         }
                     )
 
+                # Offer price (GLiNER) feeds currency rule
+                offer_by_acc: dict[str, str] = {}
+                offer_rank: dict[str, float] = {}
+                for f in facts:
+                    if f.get("field_hint") != "offer_price":
+                        continue
+                    raw = str(f.get("raw") or "")
+                    if not raw:
+                        continue
+                    rank = float(f.get("rank_score") or f.get("confidence") or 0)
+                    acc = str(f.get("source_accession") or "").strip()
+                    for key in ({acc} if acc else set()) | {""}:
+                        if rank >= offer_rank.get(key, -1.0):
+                            offer_rank[key] = rank
+                            offer_by_acc[key] = raw
+
+                segments: list[dict[str, Any]] = []
+                seg_path = store.segments_path(eid)
+                if seg_path.exists():
+                    segments = list(store.read_json(seg_path).get("segments") or [])
+
+                sec_tickers = {}
+                sec_path = ctx.extra.get("sec_tickers_csv") if isinstance(ctx.extra, dict) else None
+                if sec_path:
+                    sec_tickers = load_sec_tickers(Path(sec_path))
+
+                rule_facts = extract_id_currency_facts(
+                    segments,
+                    offer_price_by_accession=offer_by_acc,
+                    sec_tickers=sec_tickers,
+                )
+                facts.extend(rule_facts)
+                for rf in rule_facts:
+                    entities.append(
+                        {
+                            "label": rf.get("label"),
+                            "text": rf.get("raw"),
+                            "score": 1.0,
+                            "rank_score": 1.0,
+                            "doc_role": rf.get("doc_role"),
+                            "method": "rules",
+                        }
+                    )
+
                 # Prefer rank_score ordering in Concise Rep
                 facts.sort(key=lambda f: float(f.get("rank_score") or f.get("confidence") or 0), reverse=True)
                 entities.sort(key=lambda e: float(e.get("rank_score") or e.get("score") or 0), reverse=True)
 
-                if any(f.get("method") != "gliner" for f in facts):
-                    raise ValueError("non-gliner method in facts")
+                allowed = {"gliner", "rules"}
+                if any(f.get("method") not in allowed for f in facts):
+                    raise ValueError("unexpected fact method in facts")
 
                 exception_flags = []
                 if not any(d.get("role") == "sc_14d9" and d.get("status") == "ok" for d in doc_inventory):
                     if inv.get("has_14d9"):
                         exception_flags.append("14d9_download_missing_or_failed")
 
+                n_rules = sum(1 for f in facts if f.get("method") == "rules")
+                n_gliner = sum(1 for f in facts if f.get("method") == "gliner")
                 rep = {
                     "schema_version": SCHEMA_VERSION,
                     "event_id": eid,
@@ -116,14 +168,17 @@ class AssembleStage:
                     "cohort": inv.get("cohort"),
                     "preprocess_status": "ok",
                     "nlp_versions": {
-                        "pipeline": "to_preprocess_gliner",
+                        "pipeline": "to_preprocess_gliner_rules",
                         "gliner_model": spans_payload.get("gliner_model"),
+                        "id_currency": "rules_ids",
                     },
                     "doc_inventory": doc_inventory,
                     "entities": entities,
                     "candidate_facts": facts,
                     "exception_flags": exception_flags,
                     "written_at": utc_now_iso(),
+                    "n_facts_gliner": n_gliner,
+                    "n_facts_rules": n_rules,
                 }
                 store.write_json(store.event_rep_path(eid), rep)
                 n_ok += 1
@@ -156,7 +211,7 @@ class AssembleStage:
             "n_reps_failed": n_fail,
             "n_candidate_facts": n_facts,
             "n_entities": n_entities,
-            "pct_method_gliner": 100.0,
+            "id_currency": "rules",
             "n_events_pending": len(event_ids),
         }
         man = store.write_stage_manifest(self.name, {"status": "ok", "metrics": metrics, "errors": errors[:30]})
