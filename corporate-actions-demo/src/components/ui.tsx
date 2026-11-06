@@ -152,11 +152,11 @@ export function Modal({ open, onClose, title, children, wide }: { open: boolean;
   )
 }
 
-export function Drawer({ open, onClose, title, children }: { open: boolean; onClose: () => void; title: string; children: ReactNode }) {
+export function Drawer({ open, onClose, title, children, wide }: { open: boolean; onClose: () => void; title: string; children: ReactNode; wide?: boolean }) {
   if (!open) return null
   return (
     <div className="fade-in fixed inset-0 z-40 flex justify-end bg-navy-950/30" onClick={onClose}>
-      <aside className="slide-in h-full w-full max-w-md overflow-y-auto bg-white shadow-2xl" onClick={(e) => e.stopPropagation()}>
+      <aside className={`slide-in h-full w-full ${wide ? 'max-w-xl' : 'max-w-md'} overflow-y-auto bg-white shadow-2xl`} onClick={(e) => e.stopPropagation()}>
         <div className="sticky top-0 flex items-center justify-between border-b border-slate-100 bg-white px-5 py-3.5">
           <h2 className="text-base font-semibold text-navy-900">{title}</h2>
           <button onClick={onClose} aria-label="Close" className="rounded p-1 text-slate-500 hover:bg-slate-100">

@@ -1,0 +1,526 @@
+case_id,type,action,event_id,expected,tier,expected_review,review,why
+C0001,deadline_extended,tender_offer,tender-005-93688-1,action,action,,,Expiration changed
+C0002,deadline_extended,tender_offer,tender-005-94467-1,action,action,,,Expiration changed
+C0003,deadline_extended,tender_offer,tender-005-90723-1,action,action,,,Expiration changed
+C0004,deadline_extended,tender_offer,tender-005-95394-1,action,action,,,Expiration changed
+C0005,deadline_extended,tender_offer,tender-005-95210-0,action,action,,,Expiration changed
+C0006,deadline_extended,tender_offer,tender-005-93859-1,action,action,,,Expiration changed
+C0007,deadline_extended,tender_offer,tender-005-88797-0,action,action,,,Expiration changed
+C0008,deadline_extended,tender_offer,tender-005-93704-0,action,action,,,Expiration changed
+C0009,deadline_extended,tender_offer,tender-005-42284-0,action,action,,,Expiration changed
+C0010,deadline_extended,tender_offer,tender-005-95297-0,action,action,,,Expiration changed
+C0011,deadline_extended,tender_offer,tender-005-91554-0,action,action,,,Expiration changed
+C0012,deadline_extended,tender_offer,tender-005-94959-0,action,action,,,Expiration changed
+C0013,deadline_extended,tender_offer,tender-005-94024-0,action,action,,,Expiration changed
+C0014,deadline_extended,tender_offer,tender-005-92409-1,action,action,,,Expiration changed
+C0015,deadline_extended,tender_offer,tender-005-93670-0,action,action,,,Expiration changed
+C0016,deadline_moved_earlier,tender_offer,tender-005-93688-1,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0017,deadline_moved_earlier,tender_offer,tender-005-94467-1,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0018,deadline_moved_earlier,tender_offer,tender-005-90723-1,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0019,deadline_moved_earlier,tender_offer,tender-005-95394-1,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0020,deadline_moved_earlier,tender_offer,tender-005-95210-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0021,deadline_moved_earlier,tender_offer,tender-005-93859-1,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0022,deadline_moved_earlier,tender_offer,tender-005-88797-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0023,deadline_moved_earlier,tender_offer,tender-005-93704-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0024,deadline_moved_earlier,tender_offer,tender-005-42284-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0025,deadline_moved_earlier,tender_offer,tender-005-95297-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0026,deadline_moved_earlier,tender_offer,tender-005-91554-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0027,deadline_moved_earlier,tender_offer,tender-005-94959-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0028,deadline_moved_earlier,tender_offer,tender-005-94024-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0029,deadline_moved_earlier,tender_offer,tender-005-92409-1,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0030,deadline_moved_earlier,tender_offer,tender-005-93670-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0031,deadline_no_quote,tender_offer,tender-005-93688-1,action,action,no_evidence,no_evidence,Expiration changed
+C0032,deadline_no_quote,tender_offer,tender-005-94467-1,action,action,no_evidence,no_evidence,Expiration changed
+C0033,deadline_no_quote,tender_offer,tender-005-90723-1,action,action,no_evidence,no_evidence,Expiration changed
+C0034,deadline_no_quote,tender_offer,tender-005-95394-1,action,action,no_evidence,no_evidence,Expiration changed
+C0035,deadline_no_quote,tender_offer,tender-005-95210-0,action,action,no_evidence,no_evidence,Expiration changed
+C0036,deadline_no_quote,tender_offer,tender-005-93859-1,action,action,no_evidence,no_evidence,Expiration changed
+C0037,deadline_no_quote,tender_offer,tender-005-88797-0,action,action,no_evidence,no_evidence,Expiration changed
+C0038,deadline_no_quote,tender_offer,tender-005-93704-0,action,action,no_evidence,no_evidence,Expiration changed
+C0039,deadline_no_quote,tender_offer,tender-005-42284-0,action,action,no_evidence,no_evidence,Expiration changed
+C0040,deadline_no_quote,tender_offer,tender-005-95297-0,action,action,no_evidence,no_evidence,Expiration changed
+C0041,deadline_no_quote,tender_offer,tender-005-91554-0,action,action,no_evidence,no_evidence,Expiration changed
+C0042,deadline_no_quote,tender_offer,tender-005-94959-0,action,action,no_evidence,no_evidence,Expiration changed
+C0043,deadline_no_quote,tender_offer,tender-005-94024-0,action,action,no_evidence,no_evidence,Expiration changed
+C0044,deadline_no_quote,tender_offer,tender-005-92409-1,action,action,no_evidence,no_evidence,Expiration changed
+C0045,deadline_no_quote,tender_offer,tender-005-93670-0,action,action,no_evidence,no_evidence,Expiration changed
+C0046,price_changed,tender_offer,tender-005-93688-0,action,action,,,Expiration changed
+C0047,price_changed,tender_offer,tender-005-88797-0,action,action,,,Offer price changed
+C0048,price_changed,tender_offer,tender-005-90074-0,action,action,,,Expiration changed
+C0049,price_changed,tender_offer,tender-005-94959-0,action,action,,,Offer price changed
+C0050,price_changed,tender_offer,tender-005-93645-0,action,action,,,Expiration changed
+C0051,price_changed,tender_offer,tender-005-90723-0,action,action,,,Expiration changed
+C0052,price_changed,tender_offer,tender-005-95405-0,action,action,,,Expiration changed
+C0053,price_changed,tender_offer,tender-005-91252-0,action,action,,,Expiration changed
+C0054,price_changed,tender_offer,tender-005-89955-0,action,action,,,Offer price changed
+C0055,price_changed,tender_offer,tender-005-42364-0,action,action,,,Offer price changed
+C0056,price_changed,tender_offer,tender-005-89959-0,action,action,,,Expiration changed
+C0057,price_changed,tender_offer,tender-005-89731-0,action,action,,,Offer price changed
+C0058,price_changed,tender_offer,tender-005-86020-0,action,action,,,Offer price changed
+C0059,price_changed,tender_offer,tender-005-93469-0,action,action,,,Offer price changed
+C0060,price_changed,tender_offer,tender-005-93743-0,action,action,,,Expiration changed
+C0061,price_short_window,tender_offer,tender-005-88797-0,action,action,price_change_window,price_change_window,Offer price changed
+C0062,price_short_window,tender_offer,tender-005-94959-0,action,action,price_change_window,price_change_window,Offer price changed
+C0063,price_short_window,tender_offer,tender-005-95405-0,action,action,price_change_window,price_change_window,Offer price changed
+C0064,price_short_window,tender_offer,tender-005-89955-0,action,action,price_change_window,price_change_window,Offer price changed
+C0065,price_short_window,tender_offer,tender-005-42364-0,action,action,price_change_window,price_change_window,Offer price changed
+C0066,price_short_window,tender_offer,tender-005-89959-0,action,action,price_change_window,price_change_window,Offer price changed
+C0067,price_short_window,tender_offer,tender-005-89731-0,action,action,price_change_window,price_change_window,Offer price changed
+C0068,price_short_window,tender_offer,tender-005-86020-0,action,action,price_change_window,price_change_window,Offer price changed
+C0069,price_short_window,tender_offer,tender-005-93469-0,action,action,price_change_window,price_change_window,Offer price changed
+C0070,price_short_window,tender_offer,tender-005-38004-0,action,action,price_change_window,price_change_window,Offer price changed
+C0071,price_short_window,tender_offer,tender-005-91611-0,action,action,price_change_window,price_change_window,Offer price changed
+C0072,price_short_window,tender_offer,tender-005-85619-0,action,action,price_change_window,price_change_window,Offer price changed
+C0073,price_short_window,tender_offer,tender-005-92743-0,action,action,price_change_window,price_change_window,Offer price changed
+C0074,price_short_window,tender_offer,tender-005-89603-0,action,action,price_change_window,price_change_window,Offer price changed
+C0075,price_short_window,tender_offer,tender-005-80798-0,action,action,price_change_window,price_change_window,Offer price changed
+C0076,terminated,tender_offer,tender-005-93688-1,action,action,,,Offer terminated: holders' instructions no longer apply
+C0077,terminated,tender_offer,tender-005-94467-1,action,action,,,Offer terminated: holders' instructions no longer apply
+C0078,terminated,tender_offer,tender-005-90723-1,action,action,,,Offer terminated: holders' instructions no longer apply
+C0079,terminated,tender_offer,tender-005-95394-1,action,action,,,Offer terminated: holders' instructions no longer apply
+C0080,terminated,tender_offer,tender-005-95210-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0081,terminated,tender_offer,tender-005-93859-1,action,action,,,Offer terminated: holders' instructions no longer apply
+C0082,terminated,tender_offer,tender-005-88797-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0083,terminated,tender_offer,tender-005-93704-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0084,terminated,tender_offer,tender-005-42284-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0085,terminated,tender_offer,tender-005-95297-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0086,terminated,tender_offer,tender-005-91554-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0087,terminated,tender_offer,tender-005-94959-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0088,terminated,tender_offer,tender-005-94024-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0089,terminated,tender_offer,tender-005-92409-1,action,action,,,Offer terminated: holders' instructions no longer apply
+C0090,terminated,tender_offer,tender-005-93670-0,action,action,,,Offer terminated: holders' instructions no longer apply
+C0091,completed,tender_offer,tender-005-93688-1,informational,informational,,,Event completed: final results
+C0092,completed,tender_offer,tender-005-94467-1,informational,informational,,,Event completed: final results
+C0093,completed,tender_offer,tender-005-90723-1,informational,informational,,,Event completed: final results
+C0094,completed,tender_offer,tender-005-95394-1,informational,informational,,,Event completed: final results
+C0095,completed,tender_offer,tender-005-95210-0,informational,informational,,,Event completed: final results
+C0096,completed,tender_offer,tender-005-93859-1,informational,informational,,,Event completed: final results
+C0097,completed,tender_offer,tender-005-88797-0,informational,informational,,,Event completed: final results
+C0098,completed,tender_offer,tender-005-93704-0,informational,informational,,,Event completed: final results
+C0099,completed,tender_offer,tender-005-42284-0,informational,informational,,,Event completed: final results
+C0100,completed,tender_offer,tender-005-95297-0,informational,informational,,,Event completed: final results
+C0101,completed,tender_offer,tender-005-91554-0,informational,informational,,,Event completed: final results
+C0102,completed,tender_offer,tender-005-94959-0,informational,informational,,,Event completed: final results
+C0103,completed,tender_offer,tender-005-94024-0,informational,informational,,,Event completed: final results
+C0104,completed,tender_offer,tender-005-92409-1,informational,informational,,,Event completed: final results
+C0105,completed,tender_offer,tender-005-93670-0,informational,informational,,,Event completed: final results
+C0106,date_set,tender_offer,tender-005-94467-1,informational,informational,,,Settlement date set
+C0107,date_set,tender_offer,tender-005-90723-1,informational,informational,,,Settlement date set
+C0108,date_set,tender_offer,tender-005-95210-0,informational,informational,,,Settlement date set
+C0109,date_set,tender_offer,tender-005-92499-0,informational,informational,,,Settlement date set
+C0110,date_set,tender_offer,tender-005-93859-1,informational,informational,,,Settlement date set
+C0111,date_set,tender_offer,tender-005-88797-0,informational,informational,,,Settlement date set
+C0112,date_set,tender_offer,tender-005-93704-0,informational,informational,,,Settlement date set
+C0113,date_set,tender_offer,tender-005-42284-0,informational,informational,,,Settlement date set
+C0114,date_set,tender_offer,tender-005-95297-0,informational,informational,,,Settlement date set
+C0115,date_set,tender_offer,tender-005-95016-0,informational,informational,,,Settlement date set
+C0116,date_set,tender_offer,tender-005-90074-0,informational,informational,,,Settlement date set
+C0117,date_set,tender_offer,tender-005-91554-0,informational,informational,,,Settlement date set
+C0118,date_set,tender_offer,tender-005-94959-0,informational,informational,,,Settlement date set
+C0119,date_set,tender_offer,tender-005-94024-0,informational,informational,,,Settlement date set
+C0120,date_set,tender_offer,tender-005-94860-0,informational,informational,,,Settlement date set
+C0121,no_change,tender_offer,tender-005-93688-1,log_only,log_only,,,Restates earlier terms with no change
+C0122,no_change,tender_offer,tender-005-94467-1,log_only,log_only,,,Restates earlier terms with no change
+C0123,no_change,tender_offer,tender-005-93688-0,log_only,log_only,,,Restates earlier terms with no change
+C0124,no_change,tender_offer,tender-005-90723-1,log_only,log_only,,,Restates earlier terms with no change
+C0125,no_change,tender_offer,tender-005-95394-1,log_only,log_only,,,Restates earlier terms with no change
+C0126,no_change,tender_offer,tender-005-95210-0,log_only,log_only,,,Restates earlier terms with no change
+C0127,no_change,tender_offer,tender-005-92499-0,log_only,log_only,,,Restates earlier terms with no change
+C0128,no_change,tender_offer,tender-005-93859-1,log_only,log_only,,,Restates earlier terms with no change
+C0129,no_change,tender_offer,tender-005-88797-0,log_only,log_only,,,Restates earlier terms with no change
+C0130,no_change,tender_offer,tender-005-93704-0,log_only,log_only,,,Restates earlier terms with no change
+C0131,no_change,tender_offer,tender-005-42284-0,log_only,log_only,,,Restates earlier terms with no change
+C0132,no_change,tender_offer,tender-005-95297-0,log_only,log_only,,,Restates earlier terms with no change
+C0133,no_change,tender_offer,tender-005-95016-0,log_only,log_only,,,Restates earlier terms with no change
+C0134,no_change,tender_offer,tender-005-90074-0,log_only,log_only,,,Restates earlier terms with no change
+C0135,no_change,tender_offer,tender-005-91554-0,log_only,log_only,,,Restates earlier terms with no change
+C0136,same_value_reworded,tender_offer,tender-005-93688-1,log_only,log_only,,,Restates earlier terms with no change
+C0137,same_value_reworded,tender_offer,tender-005-94467-1,log_only,log_only,,,Restates earlier terms with no change
+C0138,same_value_reworded,tender_offer,tender-005-93688-0,log_only,log_only,,,Restates earlier terms with no change
+C0139,same_value_reworded,tender_offer,tender-005-90723-1,log_only,log_only,,,Restates earlier terms with no change
+C0140,same_value_reworded,tender_offer,tender-005-95394-1,log_only,log_only,,,Restates earlier terms with no change
+C0141,same_value_reworded,tender_offer,tender-005-95210-0,log_only,log_only,,,Restates earlier terms with no change
+C0142,same_value_reworded,tender_offer,tender-005-92499-0,log_only,log_only,,,Restates earlier terms with no change
+C0143,same_value_reworded,tender_offer,tender-005-93859-1,log_only,log_only,,,Restates earlier terms with no change
+C0144,same_value_reworded,tender_offer,tender-005-88797-0,log_only,log_only,,,Restates earlier terms with no change
+C0145,same_value_reworded,tender_offer,tender-005-93704-0,log_only,log_only,,,Restates earlier terms with no change
+C0146,same_value_reworded,tender_offer,tender-005-42284-0,log_only,log_only,,,Restates earlier terms with no change
+C0147,same_value_reworded,tender_offer,tender-005-95297-0,log_only,log_only,,,Restates earlier terms with no change
+C0148,same_value_reworded,tender_offer,tender-005-95016-0,log_only,log_only,,,Restates earlier terms with no change
+C0149,same_value_reworded,tender_offer,tender-005-90074-0,log_only,log_only,,,Restates earlier terms with no change
+C0150,same_value_reworded,tender_offer,tender-005-91554-0,log_only,log_only,,,Restates earlier terms with no change
+C0151,text_reworded,tender_offer,tender-005-93688-1,log_only,log_only,,,Restates earlier terms with no change
+C0152,text_reworded,tender_offer,tender-005-94467-1,log_only,log_only,,,Restates earlier terms with no change
+C0153,text_reworded,tender_offer,tender-005-93688-0,log_only,log_only,,,Restates earlier terms with no change
+C0154,text_reworded,tender_offer,tender-005-90723-1,log_only,log_only,,,Restates earlier terms with no change
+C0155,text_reworded,tender_offer,tender-005-95394-1,log_only,log_only,,,Restates earlier terms with no change
+C0156,text_reworded,tender_offer,tender-005-95210-0,log_only,log_only,,,Restates earlier terms with no change
+C0157,text_reworded,tender_offer,tender-005-93859-1,log_only,log_only,,,Restates earlier terms with no change
+C0158,text_reworded,tender_offer,tender-005-88797-0,log_only,log_only,,,Restates earlier terms with no change
+C0159,text_reworded,tender_offer,tender-005-93704-0,log_only,log_only,,,Restates earlier terms with no change
+C0160,text_reworded,tender_offer,tender-005-42284-0,log_only,log_only,,,Restates earlier terms with no change
+C0161,text_reworded,tender_offer,tender-005-95297-0,log_only,log_only,,,Restates earlier terms with no change
+C0162,text_reworded,tender_offer,tender-005-91554-0,log_only,log_only,,,Restates earlier terms with no change
+C0163,text_reworded,tender_offer,tender-005-94959-0,log_only,log_only,,,Restates earlier terms with no change
+C0164,text_reworded,tender_offer,tender-005-94024-0,log_only,log_only,,,Restates earlier terms with no change
+C0165,text_reworded,tender_offer,tender-005-92409-1,log_only,log_only,,,Restates earlier terms with no change
+C0166,text_changed,tender_offer,tender-005-93688-1,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and states that a financing condition has been removed.
+C0167,text_changed,tender_offer,tender-005-94467-1,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and states that the financing condition was removed.
+C0168,text_changed,tender_offer,tender-005-93688-0,action,action,,,How to tender changed: The new wording adds a preferred-stock election and states that the financing condition was removed.
+C0169,text_changed,tender_offer,tender-005-90723-1,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and states that a financing condition was removed.
+C0170,text_changed,tender_offer,tender-005-95394-1,action,action,,,Proration terms changed: The new wording adds a preferred-stock payment option and removes a financing condition.
+C0171,text_changed,tender_offer,tender-005-95210-0,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and states that a condition was removed.
+C0172,text_changed,tender_offer,tender-005-93859-1,action,action,,,Proration terms changed: The new wording adds a preferred-stock payment option and removes a financing condition.
+C0173,text_changed,tender_offer,tender-005-88797-0,action,action,,,Minimum tender condition changed: The new wording adds a preferred-stock election for holders and states that the financing condition was removed.
+C0174,text_changed,tender_offer,tender-005-93704-0,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and removes a financing condition.
+C0175,text_changed,tender_offer,tender-005-42284-0,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and states that a financing condition was removed.
+C0176,text_changed,tender_offer,tender-005-95297-0,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and states that a financing condition was removed.
+C0177,text_changed,tender_offer,tender-005-91554-0,action,action,,,Proration terms changed: The new wording adds a preferred-stock consideration option and states that a financing condition was removed.
+C0178,text_changed,tender_offer,tender-005-94959-0,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and states that a financing condition was removed.
+C0179,text_changed,tender_offer,tender-005-94024-0,action,action,,,Proration terms changed: The new wording adds a preferred-stock election and states that the financing condition was removed.
+C0180,text_changed,tender_offer,tender-005-92409-1,action,action,,,Proration terms changed: The new wording adds a preferred-stock payment option and states that the financing condition was removed.
+C0181,deadline_extended,merger,merger-0001193125-26-234433,action,action,,,Shareholder vote changed
+C0182,deadline_extended,merger,merger-0001193125-26-013022,action,action,,,Shareholder vote changed
+C0183,deadline_extended,merger,merger-0001213900-26-073218,action,action,,,Shareholder vote changed
+C0184,deadline_extended,merger,merger-0001193125-26-280277,action,action,,,Shareholder vote changed
+C0185,deadline_extended,merger,merger-0001104659-26-002968,action,action,,,Shareholder vote changed
+C0186,deadline_extended,merger,merger-0001140361-26-020056,action,action,,,Shareholder vote changed
+C0187,deadline_extended,merger,merger-0001493152-26-007487,action,action,,,Shareholder vote changed
+C0188,deadline_extended,merger,merger-0001104659-26-111383,action,action,,,Shareholder vote changed
+C0189,deadline_extended,merger,merger-0001185185-26-000563,action,action,,,Shareholder vote changed
+C0190,deadline_extended,merger,merger-0001104659-26-002481,action,action,,,Shareholder vote changed
+C0191,deadline_extended,merger,merger-0001213900-26-055964,action,action,,,Shareholder vote changed
+C0192,deadline_extended,merger,merger-0001213900-26-097669,action,action,,,Shareholder vote changed
+C0193,deadline_extended,merger,merger-0001193125-26-031920,action,action,,,Shareholder vote changed
+C0194,deadline_extended,merger,merger-0001213900-26-010986,action,action,,,Shareholder vote changed
+C0195,deadline_extended,merger,merger-0001493152-26-007489,action,action,,,Shareholder vote changed
+C0196,deadline_moved_earlier,merger,merger-0001193125-26-234433,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0197,deadline_moved_earlier,merger,merger-0001193125-26-013022,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0198,deadline_moved_earlier,merger,merger-0001213900-26-073218,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0199,deadline_moved_earlier,merger,merger-0001193125-26-280277,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0200,deadline_moved_earlier,merger,merger-0001104659-26-002968,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0201,deadline_moved_earlier,merger,merger-0001140361-26-020056,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0202,deadline_moved_earlier,merger,merger-0001493152-26-007487,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0203,deadline_moved_earlier,merger,merger-0001104659-26-111383,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0204,deadline_moved_earlier,merger,merger-0001185185-26-000563,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0205,deadline_moved_earlier,merger,merger-0001104659-26-002481,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0206,deadline_moved_earlier,merger,merger-0001213900-26-055964,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0207,deadline_moved_earlier,merger,merger-0001213900-26-097669,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0208,deadline_moved_earlier,merger,merger-0001193125-26-031920,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0209,deadline_moved_earlier,merger,merger-0001213900-26-010986,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0210,deadline_moved_earlier,merger,merger-0001493152-26-007489,action,action,deadline_moved_earlier,deadline_moved_earlier,Shareholder vote changed
+C0211,deadline_no_quote,merger,merger-0001193125-26-234433,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0212,deadline_no_quote,merger,merger-0001193125-26-013022,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0213,deadline_no_quote,merger,merger-0001213900-26-073218,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0214,deadline_no_quote,merger,merger-0001193125-26-280277,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0215,deadline_no_quote,merger,merger-0001104659-26-002968,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0216,deadline_no_quote,merger,merger-0001140361-26-020056,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0217,deadline_no_quote,merger,merger-0001493152-26-007487,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0218,deadline_no_quote,merger,merger-0001104659-26-111383,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0219,deadline_no_quote,merger,merger-0001185185-26-000563,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0220,deadline_no_quote,merger,merger-0001104659-26-002481,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0221,deadline_no_quote,merger,merger-0001213900-26-055964,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0222,deadline_no_quote,merger,merger-0001213900-26-097669,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0223,deadline_no_quote,merger,merger-0001193125-26-031920,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0224,deadline_no_quote,merger,merger-0001213900-26-010986,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0225,deadline_no_quote,merger,merger-0001493152-26-007489,action,action,no_evidence,no_evidence,Shareholder vote changed
+C0226,price_changed,merger,merger-0001104659-26-093784,action,action,,,Cash consideration changed
+C0227,price_changed,merger,merger-0001193125-26-383841,action,action,,,Cash consideration changed
+C0228,price_changed,merger,merger-0001140361-26-023175,action,action,,,Cash consideration changed
+C0229,price_changed,merger,merger-0001193125-26-108369,action,action,,,Cash consideration changed
+C0230,price_changed,merger,merger-0001193125-26-234588,action,action,,,Cash consideration changed
+C0231,price_changed,merger,merger-0001193125-26-106334,action,action,,,Cash consideration changed
+C0232,price_changed,merger,merger-0001104659-26-002968,action,action,,,Cash consideration changed
+C0233,price_changed,merger,merger-0001140361-26-020056,action,action,,,Cash consideration changed
+C0234,price_changed,merger,merger-0001140361-26-000790,action,action,,,Cash consideration changed
+C0235,price_changed,merger,merger-0001140361-26-029608,action,action,,,Cash consideration changed
+C0236,price_changed,merger,merger-0001193125-26-214612,action,action,,,Cash consideration changed
+C0237,price_changed,merger,merger-0001193125-26-306199,action,action,,,Cash consideration changed
+C0238,price_changed,merger,merger-0001104659-26-002481,action,action,,,Cash consideration changed
+C0239,price_changed,merger,merger-0001193125-26-091525,action,action,,,Cash consideration changed
+C0240,price_changed,merger,merger-0001193125-26-209019,action,action,,,Cash consideration changed
+C0241,ratio_changed,merger,merger-0001829126-26-003449,action,action,,,Stock consideration changed
+C0242,ratio_changed,merger,merger-0001929980-26-000235,action,action,,,Stock consideration changed
+C0243,ratio_changed,merger,merger-0001104659-26-073538,action,action,,,Stock consideration changed
+C0244,ratio_changed,merger,merger-0001628280-26-005481,action,action,,,Stock consideration changed
+C0245,ratio_changed,merger,merger-0001193125-26-013022,action,action,,,Stock consideration changed
+C0246,ratio_changed,merger,merger-0001104659-26-024193,action,action,,,Stock consideration changed
+C0247,ratio_changed,merger,merger-0001096906-26-001289,action,action,,,Stock consideration changed
+C0248,ratio_changed,merger,merger-0001193125-26-280277,action,action,,,Stock consideration changed
+C0249,ratio_changed,merger,merger-0001140361-26-020056,action,action,,,Stock consideration changed
+C0250,ratio_changed,merger,merger-0001477932-26-000513,action,action,,,Stock consideration changed
+C0251,ratio_changed,merger,merger-0001104659-26-111383,action,action,,,Stock consideration changed
+C0252,ratio_changed,merger,merger-0001104659-26-063815,action,action,,,Stock consideration changed
+C0253,ratio_changed,merger,merger-0001104659-26-107053,action,action,,,Stock consideration changed
+C0254,ratio_changed,merger,merger-0001213900-26-055964,action,action,,,Stock consideration changed
+C0255,ratio_changed,merger,merger-0001193125-26-142192,action,action,,,Stock consideration changed
+C0256,terminated,merger,merger-0001213900-26-085668,action,action,,,Offer terminated: holders' instructions no longer apply
+C0257,terminated,merger,merger-0001213900-26-103758,action,action,,,Offer terminated: holders' instructions no longer apply
+C0258,terminated,merger,merger-0001104659-26-079004,action,action,,,Offer terminated: holders' instructions no longer apply
+C0259,terminated,merger,merger-0001213900-26-024931,action,action,,,Offer terminated: holders' instructions no longer apply
+C0260,terminated,merger,merger-0001607939-26-000017,action,action,,,Offer terminated: holders' instructions no longer apply
+C0261,terminated,merger,merger-0001829126-26-003449,action,action,,,Offer terminated: holders' instructions no longer apply
+C0262,terminated,merger,merger-0001929980-26-000235,action,action,,,Offer terminated: holders' instructions no longer apply
+C0263,terminated,merger,merger-0000950103-26-007826,action,action,,,Offer terminated: holders' instructions no longer apply
+C0264,terminated,merger,merger-0001104659-26-073538,action,action,,,Offer terminated: holders' instructions no longer apply
+C0265,terminated,merger,merger-0001193125-26-187219,action,action,,,Offer terminated: holders' instructions no longer apply
+C0266,terminated,merger,merger-0001193125-26-234433,action,action,,,Offer terminated: holders' instructions no longer apply
+C0267,terminated,merger,merger-0001493152-26-014232,action,action,,,Offer terminated: holders' instructions no longer apply
+C0268,terminated,merger,merger-0001829126-26-001208,action,action,,,Offer terminated: holders' instructions no longer apply
+C0269,terminated,merger,merger-0001104659-26-018583,action,action,,,Offer terminated: holders' instructions no longer apply
+C0270,terminated,merger,merger-0001213900-26-097903,action,action,,,Offer terminated: holders' instructions no longer apply
+C0271,completed,merger,merger-0001213900-26-085668,informational,informational,,,Event completed: final results
+C0272,completed,merger,merger-0001213900-26-103758,informational,informational,,,Event completed: final results
+C0273,completed,merger,merger-0001104659-26-079004,informational,informational,,,Event completed: final results
+C0274,completed,merger,merger-0001213900-26-024931,informational,informational,,,Event completed: final results
+C0275,completed,merger,merger-0001607939-26-000017,informational,informational,,,Event completed: final results
+C0276,completed,merger,merger-0001829126-26-003449,informational,informational,,,Event completed: final results
+C0277,completed,merger,merger-0001929980-26-000235,informational,informational,,,Event completed: final results
+C0278,completed,merger,merger-0000950103-26-007826,informational,informational,,,Event completed: final results
+C0279,completed,merger,merger-0001104659-26-073538,informational,informational,,,Event completed: final results
+C0280,completed,merger,merger-0001193125-26-187219,informational,informational,,,Event completed: final results
+C0281,completed,merger,merger-0001193125-26-234433,informational,informational,,,Event completed: final results
+C0282,completed,merger,merger-0001493152-26-014232,informational,informational,,,Event completed: final results
+C0283,completed,merger,merger-0001829126-26-001208,informational,informational,,,Event completed: final results
+C0284,completed,merger,merger-0001104659-26-018583,informational,informational,,,Event completed: final results
+C0285,completed,merger,merger-0001213900-26-097903,informational,informational,,,Event completed: final results
+C0286,date_set,merger,merger-0001493152-26-018001,informational,informational,,,Closing / issuance date set
+C0287,date_set,merger,merger-0001213900-26-085668,informational,informational,,,Closing / issuance date set
+C0288,date_set,merger,merger-0001213900-26-103758,informational,informational,,,Closing / issuance date set
+C0289,date_set,merger,merger-0001104659-26-079004,informational,informational,,,Closing / issuance date set
+C0290,date_set,merger,merger-0001213900-26-024931,informational,informational,,,Closing / issuance date set
+C0291,date_set,merger,merger-0001607939-26-000017,informational,informational,,,Closing / issuance date set
+C0292,date_set,merger,merger-0001829126-26-003449,informational,informational,,,Closing / issuance date set
+C0293,date_set,merger,merger-0001929980-26-000235,informational,informational,,,Closing / issuance date set
+C0294,date_set,merger,merger-0000950103-26-007826,informational,informational,,,Closing / issuance date set
+C0295,date_set,merger,merger-0001104659-26-073538,informational,informational,,,Closing / issuance date set
+C0296,date_set,merger,merger-0001193125-26-187219,informational,informational,,,Closing / issuance date set
+C0297,date_set,merger,merger-0001193125-26-234433,informational,informational,,,Closing / issuance date set
+C0298,date_set,merger,merger-0001178913-26-000362,informational,informational,,,Closing / issuance date set
+C0299,date_set,merger,merger-0001493152-26-014232,informational,informational,,,Closing / issuance date set
+C0300,date_set,merger,merger-0001829126-26-001208,informational,informational,,,Closing / issuance date set
+C0301,no_change,merger,merger-0001829126-26-003449,log_only,log_only,,,Restates earlier terms with no change
+C0302,no_change,merger,merger-0001929980-26-000235,log_only,log_only,,,Restates earlier terms with no change
+C0303,no_change,merger,merger-0001104659-26-073538,log_only,log_only,,,Restates earlier terms with no change
+C0304,no_change,merger,merger-0001193125-26-234433,log_only,log_only,,,Restates earlier terms with no change
+C0305,no_change,merger,merger-0001104659-26-018583,log_only,log_only,,,Restates earlier terms with no change
+C0306,no_change,merger,merger-0001104659-26-093784,log_only,log_only,,,Restates earlier terms with no change
+C0307,no_change,merger,merger-0001193125-26-383841,log_only,log_only,,,Restates earlier terms with no change
+C0308,no_change,merger,merger-0001140361-26-023175,log_only,log_only,,,Restates earlier terms with no change
+C0309,no_change,merger,merger-0001628280-26-005481,log_only,log_only,,,Restates earlier terms with no change
+C0310,no_change,merger,merger-0001193125-26-108369,log_only,log_only,,,Restates earlier terms with no change
+C0311,no_change,merger,merger-0001193125-26-013022,log_only,log_only,,,Restates earlier terms with no change
+C0312,no_change,merger,merger-0001193125-26-234588,log_only,log_only,,,Restates earlier terms with no change
+C0313,no_change,merger,merger-0001104659-26-024193,log_only,log_only,,,Restates earlier terms with no change
+C0314,no_change,merger,merger-0001096906-26-001289,log_only,log_only,,,Restates earlier terms with no change
+C0315,no_change,merger,merger-0001213900-26-073218,log_only,log_only,,,Restates earlier terms with no change
+C0316,same_value_reworded,merger,merger-0001193125-26-234433,log_only,log_only,,,Restates earlier terms with no change
+C0317,same_value_reworded,merger,merger-0001104659-26-018583,log_only,log_only,,,Restates earlier terms with no change
+C0318,same_value_reworded,merger,merger-0001104659-26-093784,log_only,log_only,,,Restates earlier terms with no change
+C0319,same_value_reworded,merger,merger-0001193125-26-383841,log_only,log_only,,,Restates earlier terms with no change
+C0320,same_value_reworded,merger,merger-0001140361-26-023175,log_only,log_only,,,Restates earlier terms with no change
+C0321,same_value_reworded,merger,merger-0001193125-26-108369,log_only,log_only,,,Restates earlier terms with no change
+C0322,same_value_reworded,merger,merger-0001193125-26-013022,log_only,log_only,,,Restates earlier terms with no change
+C0323,same_value_reworded,merger,merger-0001193125-26-234588,log_only,log_only,,,Restates earlier terms with no change
+C0324,same_value_reworded,merger,merger-0001104659-26-024193,log_only,log_only,,,Restates earlier terms with no change
+C0325,same_value_reworded,merger,merger-0001096906-26-001289,log_only,log_only,,,Restates earlier terms with no change
+C0326,same_value_reworded,merger,merger-0001213900-26-073218,log_only,log_only,,,Restates earlier terms with no change
+C0327,same_value_reworded,merger,merger-0001829126-26-001893,log_only,log_only,,,Restates earlier terms with no change
+C0328,same_value_reworded,merger,merger-0001193125-26-106334,log_only,log_only,,,Restates earlier terms with no change
+C0329,same_value_reworded,merger,merger-0001193125-26-048995,log_only,log_only,,,Restates earlier terms with no change
+C0330,same_value_reworded,merger,merger-0001193125-26-009645,log_only,log_only,,,Restates earlier terms with no change
+C0331,text_reworded,merger,merger-0001213900-26-085668,log_only,log_only,,,Restates earlier terms with no change
+C0332,text_reworded,merger,merger-0001213900-26-103758,log_only,log_only,,,Restates earlier terms with no change
+C0333,text_reworded,merger,merger-0001104659-26-079004,log_only,log_only,,,Restates earlier terms with no change
+C0334,text_reworded,merger,merger-0001213900-26-024931,log_only,log_only,,,Restates earlier terms with no change
+C0335,text_reworded,merger,merger-0001607939-26-000017,log_only,log_only,,,Restates earlier terms with no change
+C0336,text_reworded,merger,merger-0001829126-26-003449,log_only,log_only,,,Restates earlier terms with no change
+C0337,text_reworded,merger,merger-0001929980-26-000235,log_only,log_only,,,Restates earlier terms with no change
+C0338,text_reworded,merger,merger-0000950103-26-007826,log_only,log_only,,,Restates earlier terms with no change
+C0339,text_reworded,merger,merger-0001104659-26-073538,log_only,log_only,,,Restates earlier terms with no change
+C0340,text_reworded,merger,merger-0001193125-26-187219,log_only,log_only,,,Restates earlier terms with no change
+C0341,text_reworded,merger,merger-0001193125-26-234433,log_only,log_only,,,Restates earlier terms with no change
+C0342,text_reworded,merger,merger-0001178913-26-000362,log_only,log_only,,,Restates earlier terms with no change
+C0343,text_reworded,merger,merger-0001493152-26-014232,log_only,log_only,,,Restates earlier terms with no change
+C0344,text_reworded,merger,merger-0001829126-26-001208,log_only,log_only,,,Restates earlier terms with no change
+C0345,text_reworded,merger,merger-0001104659-26-018583,log_only,log_only,,,Restates earlier terms with no change
+C0346,text_changed,merger,merger-0001213900-26-085668,action,action,,,Consideration type changed: The new wording adds a preferred-stock election and expressly removes the financing condition.
+C0347,text_changed,merger,merger-0001213900-26-103758,action,action,,,Consideration type changed: The new wording adds a preferred-stock election and removes the financing condition.
+C0348,text_changed,merger,merger-0001104659-26-079004,action,action,,,Consideration type changed: The new wording adds a preferred-stock election and expressly removes a financing condition.
+C0349,text_changed,merger,merger-0001213900-26-024931,action,action,,,Closing conditions changed: The new wording adds a preferred-stock election and states that a financing condition was removed.
+C0350,text_changed,merger,merger-0001607939-26-000017,action,action,,,"Closing conditions changed: The new wording removes a financing condition, changing whether the merger can proceed."
+C0351,text_changed,merger,merger-0001829126-26-003449,action,action,,,"Consideration type changed: The new wording adds a preferred-stock election and removes a financing condition, changing consideration and whether the event can proceed."
+C0352,text_changed,merger,merger-0001929980-26-000235,action,action,,,Closing conditions changed: The new wording adds a preferred-stock election for holders and expressly removes a financing condition.
+C0353,text_changed,merger,merger-0000950103-26-007826,action,action,,,Closing conditions changed: The new wording adds a preferred-stock election and removes the financing condition.
+C0354,text_changed,merger,merger-0001104659-26-073538,action,action,,,Consideration type changed: The new wording adds a preferred-stock election and removes a financing condition.
+C0355,text_changed,merger,merger-0001193125-26-187219,action,action,,,Consideration type changed: The new wording adds a holder election for preferred stock and removes a financing condition.
+C0356,text_changed,merger,merger-0001193125-26-234433,action,action,,,Consideration type changed: The new wording adds a preferred-stock election and removes the financing condition.
+C0357,text_changed,merger,merger-0001178913-26-000362,action,action,,,"Consideration type changed: Holders can elect preferred stock instead of cash, and the financing condition has been removed."
+C0358,text_changed,merger,merger-0001493152-26-014232,action,action,,,"Closing conditions changed: The new wording expressly removes a financing condition, affecting whether the merger can go ahead."
+C0359,text_changed,merger,merger-0001829126-26-001208,action,action,,,Closing conditions changed: The new wording adds a preferred-stock election and explicitly removes a financing condition.
+C0360,text_changed,merger,merger-0001104659-26-018583,action,action,,,Closing conditions changed: The new wording states that holders have a preferred-stock election and that a financing condition was removed.
+C0361,deadline_extended,rights_issue,rights-1774342-0,action,action,,,Expiration changed
+C0362,deadline_extended,rights_issue,rights-1793855-0,action,action,,,Expiration changed
+C0363,deadline_extended,rights_issue,rights-809559-0,action,action,,,Expiration changed
+C0364,deadline_extended,rights_issue,rights-1578987-0,action,action,,,Expiration changed
+C0365,deadline_extended,rights_issue,rights-1506488-0,action,action,,,Expiration changed
+C0366,deadline_extended,rights_issue,rights-887396-0,action,action,,,Expiration changed
+C0367,deadline_extended,rights_issue,rights-1268533-0,action,action,,,Expiration changed
+C0368,deadline_extended,rights_issue,rights-1783398-0,action,action,,,Expiration changed
+C0369,deadline_extended,rights_issue,rights-1539337-0,action,action,,,Expiration changed
+C0370,deadline_extended,rights_issue,rights-74260-0,action,action,,,Expiration changed
+C0371,deadline_extended,rights_issue,rights-946644-0,action,action,,,Expiration changed
+C0372,deadline_extended,rights_issue,rights-1902314-0,action,action,,,Expiration changed
+C0373,deadline_extended,rights_issue,rights-1501072-0,action,action,,,Expiration changed
+C0374,deadline_extended,rights_issue,rights-1738827-0,action,action,,,Expiration changed
+C0375,deadline_extended,rights_issue,rights-1157842-0,action,action,,,Expiration changed
+C0376,deadline_moved_earlier,rights_issue,rights-1774342-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0377,deadline_moved_earlier,rights_issue,rights-1793855-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0378,deadline_moved_earlier,rights_issue,rights-809559-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0379,deadline_moved_earlier,rights_issue,rights-1578987-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0380,deadline_moved_earlier,rights_issue,rights-1506488-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0381,deadline_moved_earlier,rights_issue,rights-887396-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0382,deadline_moved_earlier,rights_issue,rights-1268533-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0383,deadline_moved_earlier,rights_issue,rights-1783398-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0384,deadline_moved_earlier,rights_issue,rights-1539337-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0385,deadline_moved_earlier,rights_issue,rights-74260-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0386,deadline_moved_earlier,rights_issue,rights-946644-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0387,deadline_moved_earlier,rights_issue,rights-1902314-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0388,deadline_moved_earlier,rights_issue,rights-1501072-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0389,deadline_moved_earlier,rights_issue,rights-1738827-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0390,deadline_moved_earlier,rights_issue,rights-1157842-0,action,action,deadline_moved_earlier,deadline_moved_earlier,Expiration changed
+C0391,deadline_no_quote,rights_issue,rights-1774342-0,action,action,no_evidence,no_evidence,Expiration changed
+C0392,deadline_no_quote,rights_issue,rights-1793855-0,action,action,no_evidence,no_evidence,Expiration changed
+C0393,deadline_no_quote,rights_issue,rights-809559-0,action,action,no_evidence,no_evidence,Expiration changed
+C0394,deadline_no_quote,rights_issue,rights-1578987-0,action,action,no_evidence,no_evidence,Expiration changed
+C0395,deadline_no_quote,rights_issue,rights-1506488-0,action,action,no_evidence,no_evidence,Expiration changed
+C0396,deadline_no_quote,rights_issue,rights-887396-0,action,action,no_evidence,no_evidence,Expiration changed
+C0397,deadline_no_quote,rights_issue,rights-1268533-0,action,action,no_evidence,no_evidence,Expiration changed
+C0398,deadline_no_quote,rights_issue,rights-1783398-0,action,action,no_evidence,no_evidence,Expiration changed
+C0399,deadline_no_quote,rights_issue,rights-1539337-0,action,action,no_evidence,no_evidence,Expiration changed
+C0400,deadline_no_quote,rights_issue,rights-74260-0,action,action,no_evidence,no_evidence,Expiration changed
+C0401,deadline_no_quote,rights_issue,rights-946644-0,action,action,no_evidence,no_evidence,Expiration changed
+C0402,deadline_no_quote,rights_issue,rights-1902314-0,action,action,no_evidence,no_evidence,Expiration changed
+C0403,deadline_no_quote,rights_issue,rights-1501072-0,action,action,no_evidence,no_evidence,Expiration changed
+C0404,deadline_no_quote,rights_issue,rights-1738827-0,action,action,no_evidence,no_evidence,Expiration changed
+C0405,deadline_no_quote,rights_issue,rights-1157842-0,action,action,no_evidence,no_evidence,Expiration changed
+C0406,price_changed,rights_issue,rights-1774342-0,action,action,,,Subscription price changed
+C0407,price_changed,rights_issue,rights-794685-0,action,action,,,Subscription price changed
+C0408,price_changed,rights_issue,rights-1793855-0,action,action,,,Subscription price changed
+C0409,price_changed,rights_issue,rights-809559-0,action,action,,,Subscription price changed
+C0410,price_changed,rights_issue,rights-1518461-0,action,action,,,Subscription price changed
+C0411,price_changed,rights_issue,rights-1578987-0,action,action,,,Subscription price changed
+C0412,price_changed,rights_issue,rights-1506488-0,action,action,,,Subscription price changed
+C0413,price_changed,rights_issue,rights-887396-0,action,action,,,Subscription price changed
+C0414,price_changed,rights_issue,rights-1268533-0,action,action,,,Subscription price changed
+C0415,price_changed,rights_issue,rights-1649739-0,action,action,,,Subscription price changed
+C0416,price_changed,rights_issue,rights-1487610-0,action,action,,,Subscription price changed
+C0417,price_changed,rights_issue,rights-1539337-0,action,action,,,Subscription price changed
+C0418,price_changed,rights_issue,rights-1502292-0,action,action,,,Subscription price changed
+C0419,price_changed,rights_issue,rights-1528988-0,action,action,,,Subscription price changed
+C0420,price_changed,rights_issue,rights-1222401-0,action,action,,,Subscription price changed
+C0421,terminated,rights_issue,rights-1468327-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0422,terminated,rights_issue,rights-1774342-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0423,terminated,rights_issue,rights-1966287-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0424,terminated,rights_issue,rights-61004-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0425,terminated,rights_issue,rights-794685-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0426,terminated,rights_issue,rights-1805077-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0427,terminated,rights_issue,rights-1793855-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0428,terminated,rights_issue,rights-809559-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0429,terminated,rights_issue,rights-1051003-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0430,terminated,rights_issue,rights-1518461-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0431,terminated,rights_issue,rights-1578987-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0432,terminated,rights_issue,rights-1506488-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0433,terminated,rights_issue,rights-2142855-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0434,terminated,rights_issue,rights-887396-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0435,terminated,rights_issue,rights-1268533-0,action,action,,,Offer withdrawn: holders' instructions no longer apply
+C0436,completed,rights_issue,rights-1468327-0,informational,informational,,,Event completed: final results
+C0437,completed,rights_issue,rights-1774342-0,informational,informational,,,Event completed: final results
+C0438,completed,rights_issue,rights-1966287-0,informational,informational,,,Event completed: final results
+C0439,completed,rights_issue,rights-61004-0,informational,informational,,,Event completed: final results
+C0440,completed,rights_issue,rights-794685-0,informational,informational,,,Event completed: final results
+C0441,completed,rights_issue,rights-1805077-0,informational,informational,,,Event completed: final results
+C0442,completed,rights_issue,rights-1793855-0,informational,informational,,,Event completed: final results
+C0443,completed,rights_issue,rights-809559-0,informational,informational,,,Event completed: final results
+C0444,completed,rights_issue,rights-1051003-0,informational,informational,,,Event completed: final results
+C0445,completed,rights_issue,rights-1518461-0,informational,informational,,,Event completed: final results
+C0446,completed,rights_issue,rights-1578987-0,informational,informational,,,Event completed: final results
+C0447,completed,rights_issue,rights-1506488-0,informational,informational,,,Event completed: final results
+C0448,completed,rights_issue,rights-2142855-0,informational,informational,,,Event completed: final results
+C0449,completed,rights_issue,rights-887396-0,informational,informational,,,Event completed: final results
+C0450,completed,rights_issue,rights-1268533-0,informational,informational,,,Event completed: final results
+C0451,date_set,rights_issue,rights-1468327-0,informational,informational,,,Closing / issuance date set
+C0452,date_set,rights_issue,rights-1966287-0,informational,informational,,,Closing / issuance date set
+C0453,date_set,rights_issue,rights-61004-0,informational,informational,,,Closing / issuance date set
+C0454,date_set,rights_issue,rights-1805077-0,informational,informational,,,Closing / issuance date set
+C0455,date_set,rights_issue,rights-1051003-0,informational,informational,,,Closing / issuance date set
+C0456,date_set,rights_issue,rights-1518461-0,informational,informational,,,Closing / issuance date set
+C0457,date_set,rights_issue,rights-2142855-0,informational,informational,,,Closing / issuance date set
+C0458,date_set,rights_issue,rights-887396-0,informational,informational,,,Closing / issuance date set
+C0459,date_set,rights_issue,rights-1649739-0,informational,informational,,,Closing / issuance date set
+C0460,date_set,rights_issue,rights-1783398-0,informational,informational,,,Closing / issuance date set
+C0461,date_set,rights_issue,rights-875355-0,informational,informational,,,Closing / issuance date set
+C0462,date_set,rights_issue,rights-1502292-0,informational,informational,,,Closing / issuance date set
+C0463,date_set,rights_issue,rights-946644-0,informational,informational,,,Closing / issuance date set
+C0464,date_set,rights_issue,rights-1902314-0,informational,informational,,,Closing / issuance date set
+C0465,date_set,rights_issue,rights-1419806-0,informational,informational,,,Closing / issuance date set
+C0466,no_change,rights_issue,rights-1468327-0,log_only,log_only,,,Restates earlier terms with no change
+C0467,no_change,rights_issue,rights-1774342-0,log_only,log_only,,,Restates earlier terms with no change
+C0468,no_change,rights_issue,rights-1966287-0,log_only,log_only,,,Restates earlier terms with no change
+C0469,no_change,rights_issue,rights-61004-0,log_only,log_only,,,Restates earlier terms with no change
+C0470,no_change,rights_issue,rights-794685-0,log_only,log_only,,,Restates earlier terms with no change
+C0471,no_change,rights_issue,rights-1805077-0,log_only,log_only,,,Restates earlier terms with no change
+C0472,no_change,rights_issue,rights-1793855-0,log_only,log_only,,,Restates earlier terms with no change
+C0473,no_change,rights_issue,rights-809559-0,log_only,log_only,,,Restates earlier terms with no change
+C0474,no_change,rights_issue,rights-1051003-0,log_only,log_only,,,Restates earlier terms with no change
+C0475,no_change,rights_issue,rights-1518461-0,log_only,log_only,,,Restates earlier terms with no change
+C0476,no_change,rights_issue,rights-1578987-0,log_only,log_only,,,Restates earlier terms with no change
+C0477,no_change,rights_issue,rights-1506488-0,log_only,log_only,,,Restates earlier terms with no change
+C0478,no_change,rights_issue,rights-2142855-0,log_only,log_only,,,Restates earlier terms with no change
+C0479,no_change,rights_issue,rights-887396-0,log_only,log_only,,,Restates earlier terms with no change
+C0480,no_change,rights_issue,rights-1268533-0,log_only,log_only,,,Restates earlier terms with no change
+C0481,same_value_reworded,rights_issue,rights-1774342-0,log_only,log_only,,,Restates earlier terms with no change
+C0482,same_value_reworded,rights_issue,rights-794685-0,log_only,log_only,,,Restates earlier terms with no change
+C0483,same_value_reworded,rights_issue,rights-1793855-0,log_only,log_only,,,Restates earlier terms with no change
+C0484,same_value_reworded,rights_issue,rights-809559-0,log_only,log_only,,,Restates earlier terms with no change
+C0485,same_value_reworded,rights_issue,rights-1518461-0,log_only,log_only,,,Restates earlier terms with no change
+C0486,same_value_reworded,rights_issue,rights-1578987-0,log_only,log_only,,,Restates earlier terms with no change
+C0487,same_value_reworded,rights_issue,rights-1506488-0,log_only,log_only,,,Restates earlier terms with no change
+C0488,same_value_reworded,rights_issue,rights-887396-0,log_only,log_only,,,Restates earlier terms with no change
+C0489,same_value_reworded,rights_issue,rights-1268533-0,log_only,log_only,,,Restates earlier terms with no change
+C0490,same_value_reworded,rights_issue,rights-1649739-0,log_only,log_only,,,Restates earlier terms with no change
+C0491,same_value_reworded,rights_issue,rights-1783398-0,log_only,log_only,,,Restates earlier terms with no change
+C0492,same_value_reworded,rights_issue,rights-1487610-0,log_only,log_only,,,Restates earlier terms with no change
+C0493,same_value_reworded,rights_issue,rights-1539337-0,log_only,log_only,,,Restates earlier terms with no change
+C0494,same_value_reworded,rights_issue,rights-74260-0,log_only,log_only,,,Restates earlier terms with no change
+C0495,same_value_reworded,rights_issue,rights-1502292-0,log_only,log_only,,,Restates earlier terms with no change
+C0496,text_reworded,rights_issue,rights-1468327-0,log_only,log_only,,,Restates earlier terms with no change
+C0497,text_reworded,rights_issue,rights-1774342-0,log_only,log_only,,,Restates earlier terms with no change
+C0498,text_reworded,rights_issue,rights-1966287-0,log_only,log_only,,,Restates earlier terms with no change
+C0499,text_reworded,rights_issue,rights-61004-0,log_only,log_only,,,Restates earlier terms with no change
+C0500,text_reworded,rights_issue,rights-794685-0,log_only,log_only,,,Restates earlier terms with no change
+C0501,text_reworded,rights_issue,rights-1805077-0,log_only,log_only,,,Restates earlier terms with no change
+C0502,text_reworded,rights_issue,rights-1793855-0,log_only,log_only,,,Restates earlier terms with no change
+C0503,text_reworded,rights_issue,rights-809559-0,log_only,log_only,,,Restates earlier terms with no change
+C0504,text_reworded,rights_issue,rights-1051003-0,log_only,log_only,,,Restates earlier terms with no change
+C0505,text_reworded,rights_issue,rights-1518461-0,log_only,log_only,,,Restates earlier terms with no change
+C0506,text_reworded,rights_issue,rights-1578987-0,log_only,log_only,,,Restates earlier terms with no change
+C0507,text_reworded,rights_issue,rights-1506488-0,log_only,log_only,,,Restates earlier terms with no change
+C0508,text_reworded,rights_issue,rights-2142855-0,log_only,log_only,,,Restates earlier terms with no change
+C0509,text_reworded,rights_issue,rights-887396-0,log_only,log_only,,,Restates earlier terms with no change
+C0510,text_reworded,rights_issue,rights-1268533-0,log_only,log_only,,,Restates earlier terms with no change
+C0511,text_changed,rights_issue,rights-1468327-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and says a financing condition was removed.
+C0512,text_changed,rights_issue,rights-1774342-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and states that a financing condition was removed.
+C0513,text_changed,rights_issue,rights-1966287-0,action,action,,,"Holder options changed: The new wording states that a financing condition has been removed, changing whether the event can go ahead."
+C0514,text_changed,rights_issue,rights-61004-0,action,action,,,Holder options changed: The new wording adds an election to receive preferred shares instead of cash and explicitly removes a financing condition.
+C0515,text_changed,rights_issue,rights-794685-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and explicitly removes a financing condition.
+C0516,text_changed,rights_issue,rights-1805077-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and expressly removes a financing condition.
+C0517,text_changed,rights_issue,rights-1793855-0,action,action,,,Holder options changed: The new wording expressly adds a preferred-stock election and removes a financing condition.
+C0518,text_changed,rights_issue,rights-809559-0,action,action,,,"Holder options changed: The new wording adds a preferred-stock election and removes a financing condition, changing holder options and whether the event can proceed."
+C0519,text_changed,rights_issue,rights-1051003-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and explicitly removes a financing condition.
+C0520,text_changed,rights_issue,rights-1518461-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and states that a financing condition was removed.
+C0521,text_changed,rights_issue,rights-1578987-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and removes a financing condition.
+C0522,text_changed,rights_issue,rights-1506488-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and states that a financing condition was removed.
+C0523,text_changed,rights_issue,rights-2142855-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and expressly removes a financing condition.
+C0524,text_changed,rights_issue,rights-887396-0,action,action,,,Holder options changed: The new wording adds an election to receive preferred stock and removes a financing condition.
+C0525,text_changed,rights_issue,rights-1268533-0,action,action,,,Holder options changed: The new wording adds a preferred-stock election and states that the financing condition was removed.

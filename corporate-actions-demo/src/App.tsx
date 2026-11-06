@@ -5,6 +5,7 @@ import { Holdings } from './pages/client/Holdings'
 import { ClientHome } from './pages/client/Home'
 import { Notifications } from './pages/client/Notifications'
 import { Watchlist } from './pages/client/Watchlist'
+import { AmendmentReview } from './pages/ops/AmendmentReview'
 import { ClientBriefs } from './pages/ops/ClientBriefs'
 import { Dashboard } from './pages/ops/Dashboard'
 import { EventRecord } from './pages/ops/EventRecord'
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="filings/:filingId" element={<FilingDetail />} />
         <Route path="clients" element={<ClientBriefs />} />
         <Route path="reconciliation" element={<VendorReconciliation />} />
+        <Route path="amendments" element={<AmendmentReview />} />
       </Route>
 
       <Route path="/client" element={<Shell mode="client" />}>

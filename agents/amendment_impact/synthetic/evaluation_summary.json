@@ -1,0 +1,49 @@
+{
+  "mode": "rules + LLM",
+  "cases": 525,
+  "tier_accuracy": 1.0,
+  "notify": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "missed": [],
+    "false_alarms": []
+  },
+  "review_codes": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "unexpected": [],
+    "missed": []
+  },
+  "accuracy_by_type": {
+    "deadline_extended": "45/45",
+    "deadline_moved_earlier": "45/45",
+    "deadline_no_quote": "45/45",
+    "price_changed": "45/45",
+    "price_short_window": "15/15",
+    "terminated": "45/45",
+    "completed": "45/45",
+    "date_set": "45/45",
+    "no_change": "45/45",
+    "same_value_reworded": "45/45",
+    "text_reworded": "45/45",
+    "text_changed": "45/45",
+    "ratio_changed": "15/15"
+  },
+  "accuracy_by_action": {
+    "merger": "180/180",
+    "rights_issue": "165/165",
+    "tender_offer": "180/180"
+  },
+  "confusion_expected_to_predicted": {
+    "action -> action": 300,
+    "informational -> informational": 90,
+    "log_only -> log_only": 135
+  },
+  "llm": {
+    "llm": 45,
+    "cached": 0,
+    "unsure": 0,
+    "bad_quote": 0,
+    "errors": 0
+  }
+}

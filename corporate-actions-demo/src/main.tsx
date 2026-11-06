@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, HashRouter } from 'react-router-dom'
 import App from './App'
+import { AmendmentProvider } from './state/AmendmentState'
 import { AppProvider } from './state/AppState'
 import { BriefProvider } from './state/BriefState'
 import { ReconProvider } from './state/ReconState'
@@ -16,7 +17,9 @@ createRoot(document.getElementById('root')!).render(
       <AppProvider>
         <BriefProvider>
           <ReconProvider>
-            <App />
+            <AmendmentProvider>
+              <App />
+            </AmendmentProvider>
           </ReconProvider>
         </BriefProvider>
       </AppProvider>

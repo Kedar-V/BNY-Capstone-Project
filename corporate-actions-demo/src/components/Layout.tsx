@@ -1,4 +1,4 @@
-import { Bell, Briefcase, CheckCircle2, FileText, Home, Layers, LayoutDashboard, GitCompare, Newspaper, Star, Users, type LucideIcon } from 'lucide-react'
+import { Bell, Briefcase, CheckCircle2, FileDiff, FileText, Home, Layers, LayoutDashboard, GitCompare, Newspaper, Star, Users, type LucideIcon } from 'lucide-react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useApp } from '../state/AppState'
 import { PerspectiveProvider, useBrief } from '../state/BriefState'
@@ -25,6 +25,7 @@ export function Shell({ mode }: { mode: 'internal' | 'client' }) {
         { to: '/internal/events', label: 'Corporate Actions', icon: Layers },
         { to: '/internal/clients', label: 'Client Briefs', icon: Users, badge: pendingCount },
         { to: '/internal/reconciliation', label: 'Vendor Reconciliation', icon: GitCompare },
+        { to: '/internal/amendments', label: 'Amendment Review', icon: FileDiff },
       ]
     : [
         { to: '/client/brief', label: 'My Brief', icon: Newspaper },
