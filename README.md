@@ -92,7 +92,8 @@ python scripts/mlflow_ui.py         # http://127.0.0.1:5000
 |------|-------------|
 | `notebooks/tender_offer_eda.ipynb` | MVP-oriented EDA |
 | `src/eda/event_taxonomy.py` | Five event types + SEC form map + gaps |
-| `outputs/` | Coverage CSVs + MVP figures |
+| `outputs/` | Coverage CSVs and run summaries |
+| `figures/` | EDA and preprocess charts |
 | `EDA_SUMMARY.md` | Findings + MVP implications |
 
 ## Evidence discipline

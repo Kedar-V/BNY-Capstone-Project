@@ -2,7 +2,7 @@
 
 This pipeline reads the saved SEC filing **text** in the January–September 2026 merger-candidate ZIP and uses GLiNER to propose evidence-linked field spans. It does not use the Evaluation CSV's values or quotations as model input. The labels are aligned to the fields in [`Evaluation/notebooks/evaluation/data/merger_2026-01-01_2026-09-30/mergers.csv`](https://github.com/Kedar-V/BNY-Capstone-Project/blob/Evaluation/notebooks/evaluation/data/merger_2026-01-01_2026-09-30/mergers.csv).
 
-The Evaluation branch calls its results *unverified*; all 118 rows in the current CSV say `candidate_not_verified`. They are model-generated reference candidates, **not adjudicated ground truth**. The file contains 71 distinct accession numbers, of which only 3 are in our current 691-document screened archive. Consequently, the pipeline reports overlap, but it does not calculate accuracy from that CSV.
+The local Evaluation reference snapshot used for the provisional comparison has 860 rows across 562 accessions; all are marked `candidate_not_verified`. They are reference candidates, **not adjudicated ground truth**. Of those accessions, 35 overlap the current 691-document screened archive (74 reference rows). The pipeline reports this overlap, but it cannot calculate verified accuracy from those rows.
 
 ## Setup
 
@@ -40,7 +40,7 @@ python scripts/run_merger_gliner.py \
 
 The default output is `data/mergers/sec_2026/gliner_merger_candidates_2026_Jan_Sep.jsonl`, plus a `.summary.json` and a flat `.spans.csv` for spreadsheet review. Each JSONL record contains the SEC accession, source URL, saved-text hash, model ID, windows scored, and **all** proposed spans by field. Every span has its exact source-text offsets, score, surrounding quote, and `method=gliner`. `canonical_fields` stay null pending review; a high GLiNER score is not proof that a proposed value is correct for the transaction.
 
-The Evaluation branch does not commit its `input_text/` filing bodies. If your teammate supplies that folder, or you generate it with the Evaluation branch's filing loader, you can run directly on its 71 unique accessions:
+The Evaluation branch does not commit its `input_text/` filing bodies. If your teammate supplies that folder, or you generate it with the Evaluation branch's filing loader, you can run directly on its reference accessions:
 
 ```bash
 python scripts/run_merger_gliner.py \
@@ -59,6 +59,6 @@ GLiNER proposes spans for acquirer, target, cash consideration, stock ratio, vot
 
 ## Evaluate later
 
-The current archive has only 3 matching reference accessions, and the Evaluation CSV has multiple rows per filing. Align by accession **and deal/security**, not by CSV row number. Obtain the missing filing texts or a larger common cohort, and have the reference fields and evidence reviewed by people. Then compare field values and evidence on held-out deals; include non-merger filings to assess detection. The current 691-file screen and this GLiNER extractor should never be scored against their own outputs as if they were ground truth.
+The current archive has 35 matching reference accessions, and the Evaluation CSV has multiple rows per filing. Align by accession **and deal/security**, not by CSV row number. Obtain the missing filing texts or a larger common cohort, and have the reference fields and evidence reviewed by people. Then compare field values and evidence on held-out deals; include non-merger filings to assess detection. The current 691-file screen and this GLiNER extractor should never be scored against their own outputs as if they were ground truth.
 
 This is a separate merger-specific entry point. `scripts/run_preprocess.py --path merger` remains a stub because the older modular preprocess stages are tender-offer-specific.
