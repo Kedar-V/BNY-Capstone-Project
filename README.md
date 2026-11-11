@@ -49,6 +49,8 @@ The [mergers-only review workflow](merger_research/README.md#build-a-reviewed-me
 
 The partial January–September 2026 merger-candidate archive is in `data/mergers/sec_2026/` (2,787 downloaded filing documents). Its `coverage_summary.json` gives monthly counts; `review_queue.csv` contains unreviewed evidence-ranked candidates. This archive is separate from `dataloader/download_samples.py`, whose source corpus currently ends in 2025.
 
+Use the [merger GLiNER guide](docs/merger-gliner.md) to extract evidence-linked field candidates from the 2026 text and check overlap with the Evaluation branch's unverified merger reference CSV.
+
 ## Rebuild SEC merger-candidate data
 
 Use [`dataloader/collect_merger_candidates.py`](dataloader/collect_merger_candidates.py) to search EDGAR by filing date and save source HTML, parsed text, a manifest, and a portable ZIP under gitignored `data/`. Start with the [download and review guide](docs/merger-data-download.md); results are unreviewed candidates, not confirmed merger deals.
@@ -81,7 +83,8 @@ Inspect: [`notebooks/preprocess_stage_inspect.ipynb`](notebooks/preprocess_stage
 |------|-------------|
 | `notebooks/tender_offer_eda.ipynb` | MVP-oriented EDA |
 | `src/eda/event_taxonomy.py` | Five event types + SEC form map + gaps |
-| `outputs/` | Coverage CSVs + MVP figures |
+| `outputs/` | Coverage CSVs and run summaries |
+| `figures/` | EDA and preprocess charts |
 | `EDA_SUMMARY.md` | Findings + MVP implications |
 
 ## Evidence discipline

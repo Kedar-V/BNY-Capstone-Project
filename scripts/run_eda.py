@@ -65,7 +65,6 @@ def stratified_sample(docs: pd.DataFrame, n_per_form: int = 10) -> pd.DataFrame:
 def main() -> None:
     OUTPUTS.mkdir(parents=True, exist_ok=True)
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
-    (OUTPUTS / "figures").mkdir(parents=True, exist_ok=True)
 
     docs, events = load_corpus()
     print(f"Loaded docs={len(docs):,} events={len(events):,}")
@@ -137,10 +136,6 @@ def main() -> None:
     amend_stats["complex_amendment_examples"].to_csv(OUTPUTS / "complex_amendment_examples.csv", index=False)
     if isinstance(amend_stats.get("field_presence_delta_summary"), pd.DataFrame):
         amend_stats["field_presence_delta_summary"].to_csv(OUTPUTS / "amendment_field_deltas.csv", index=False)
-
-    for p in FIGURES_DIR.glob("*.png"):
-        target = OUTPUTS / "figures" / p.name
-        target.write_bytes(p.read_bytes())
 
     summary_stats = {
         "n_documents": int(len(docs)),
