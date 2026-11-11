@@ -1,7 +1,7 @@
 # Merger GLiNER extraction: experiments and discussion note
 
-**Prepared:** 5 November 2026  
-**Scope:** January–September 2026 SEC merger-candidate filings in BNY-Capstone-Project  
+**Prepared:** 5 November 2026
+**Scope:** January–September 2026 SEC merger-candidate filings in BNY-Capstone-Project
 **Status:** exploratory; no validated merger extraction F1 yet
 
 ## What we built and ran
