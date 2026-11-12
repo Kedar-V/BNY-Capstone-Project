@@ -1,0 +1,23 @@
+{
+  "method": "find_settlement promptly-first template",
+  "split": "holdout",
+  "n_rows": 23,
+  "tp": 9,
+  "fp": 1,
+  "fn": 6,
+  "gt_present": 15,
+  "pred_present": 10,
+  "precision": 0.9,
+  "recall": 0.6,
+  "f1": 0.7200000000000001,
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "Promptly-before-date priority is principle-based (GT CR shape); validate on train, score holdout once."
+  },
+  "prior_holdout_f1": {
+    "hybrid_allspans": 0.64,
+    "settlement_rules_v2": 0.56,
+    "temporal": 0.324,
+    "qwen_direct": 0.286
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "model": "llama3.1:8b",
+  "split": "holdout",
+  "n_rows": 23
+}
+currency|hybrid|llama3.1:8b:   0%|          | 0/23 [00:00<?, ?doc/s]                                                                      0001193125-26-000507 skip pred=None gold=None
+currency|hybrid|llama3.1:8b:   0%|          | 0/23 [00:04<?, ?doc/s]currency|hybrid|llama3.1:8b:   4%|▍         | 1/23 [00:04<01:37,  4.45s/doc]                                                                              0001104659-26-000598 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:   4%|▍         | 1/23 [00:05<01:37,  4.45s/doc]currency|hybrid|llama3.1:8b:   9%|▊         | 2/23 [00:05<00:50,  2.39s/doc]                                                                              0001104659-26-001124 tp pred='USD' gold='USD'
+currency|hybrid|llama3.1:8b:   9%|▊         | 2/23 [00:09<00:50,  2.39s/doc]currency|hybrid|llama3.1:8b:  13%|█▎        | 3/23 [00:09<01:04,  3.24s/doc]                                                                              0001104659-26-001149 skip pred=None gold=None
+currency|hybrid|llama3.1:8b:  13%|█▎        | 3/23 [00:10<01:04,  3.24s/doc]currency|hybrid|llama3.1:8b:  17%|█▋        | 4/23 [00:10<00:41,  2.19s/doc]                                                                              0001104659-26-001148 skip pred=None gold=None
+currency|hybrid|llama3.1:8b:  17%|█▋        | 4/23 [00:11<00:41,  2.19s/doc]currency|hybrid|llama3.1:8b:  22%|██▏       | 5/23 [00:11<00:31,  1.74s/doc]                                                                              0001193125-26-005515 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  22%|██▏       | 5/23 [00:13<00:31,  1.74s/doc]currency|hybrid|llama3.1:8b:  26%|██▌       | 6/23 [00:13<00:32,  1.90s/doc]                                                                              0001193125-26-005515 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  26%|██▌       | 6/23 [00:13<00:32,  1.90s/doc]currency|hybrid|llama3.1:8b:  30%|███       | 7/23 [00:13<00:21,  1.34s/doc]                                                                              0001104659-26-002517 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  30%|███       | 7/23 [00:16<00:21,  1.34s/doc]currency|hybrid|llama3.1:8b:  35%|███▍      | 8/23 [00:16<00:29,  1.99s/doc]                                                                              0000919574-26-000310 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  35%|███▍      | 8/23 [00:17<00:29,  1.99s/doc]currency|hybrid|llama3.1:8b:  39%|███▉      | 9/23 [00:17<00:23,  1.67s/doc]                                                                              0001104659-26-006294 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  39%|███▉      | 9/23 [00:19<00:23,  1.67s/doc]currency|hybrid|llama3.1:8b:  43%|████▎     | 10/23 [00:19<00:19,  1.53s/doc]                                                                               0001104659-26-006517 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  43%|████▎     | 10/23 [00:21<00:19,  1.53s/doc]currency|hybrid|llama3.1:8b:  48%|████▊     | 11/23 [00:21<00:21,  1.82s/doc]                                                                               0001104659-26-006950 skip pred=None gold=None
+currency|hybrid|llama3.1:8b:  48%|████▊     | 11/23 [00:22<00:21,  1.82s/doc]currency|hybrid|llama3.1:8b:  52%|█████▏    | 12/23 [00:22<00:17,  1.57s/doc]                                                                               0001104659-26-008028 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  52%|█████▏    | 12/23 [00:25<00:17,  1.57s/doc]currency|hybrid|llama3.1:8b:  57%|█████▋    | 13/23 [00:25<00:19,  1.92s/doc]                                                                               0000930413-26-000298 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  57%|█████▋    | 13/23 [00:26<00:19,  1.92s/doc]currency|hybrid|llama3.1:8b:  61%|██████    | 14/23 [00:26<00:15,  1.74s/doc]                                                                               0000930413-26-000299 skip pred=None gold=None
+currency|hybrid|llama3.1:8b:  61%|██████    | 14/23 [00:27<00:15,  1.74s/doc]currency|hybrid|llama3.1:8b:  65%|██████▌   | 15/23 [00:27<00:12,  1.55s/doc]                                                                               0001140361-26-003032 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  65%|██████▌   | 15/23 [00:28<00:12,  1.55s/doc]currency|hybrid|llama3.1:8b:  70%|██████▉   | 16/23 [00:28<00:09,  1.43s/doc]                                                                               0001104659-26-008693 tp pred='USD' gold='USD'
+currency|hybrid|llama3.1:8b:  70%|██████▉   | 16/23 [00:31<00:09,  1.43s/doc]currency|hybrid|llama3.1:8b:  74%|███████▍  | 17/23 [00:31<00:09,  1.66s/doc]                                                                               0001104659-26-008976 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  74%|███████▍  | 17/23 [00:34<00:09,  1.66s/doc]currency|hybrid|llama3.1:8b:  78%|███████▊  | 18/23 [00:34<00:10,  2.04s/doc]                                                                               0001104659-26-010301 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  78%|███████▊  | 18/23 [00:34<00:10,  2.04s/doc]currency|hybrid|llama3.1:8b:  83%|████████▎ | 19/23 [00:34<00:06,  1.69s/doc]                                                                               0001104659-26-010301 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  83%|████████▎ | 19/23 [00:35<00:06,  1.69s/doc]currency|hybrid|llama3.1:8b:  87%|████████▋ | 20/23 [00:35<00:04,  1.44s/doc]                                                                               0001104659-26-010301 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  87%|████████▋ | 20/23 [00:36<00:04,  1.44s/doc]currency|hybrid|llama3.1:8b:  91%|█████████▏| 21/23 [00:36<00:02,  1.27s/doc]                                                                               0001104659-26-011592 fp_no_gt pred='USD' gold=None
+currency|hybrid|llama3.1:8b:  91%|█████████▏| 21/23 [00:37<00:02,  1.27s/doc]currency|hybrid|llama3.1:8b:  96%|█████████▌| 22/23 [00:37<00:01,  1.22s/doc]                                                                               0001104659-26-011591 skip pred=None gold=None
+currency|hybrid|llama3.1:8b:  96%|█████████▌| 22/23 [00:38<00:01,  1.22s/doc]currency|hybrid|llama3.1:8b: 100%|██████████| 23/23 [00:38<00:00,  1.00s/doc]currency|hybrid|llama3.1:8b: 100%|██████████| 23/23 [00:38<00:00,  1.66s/doc]
+{
+  "field": "currency",
+  "mode": "hybrid_spans_qwen",
+  "model": "llama3.1:8b",
+  "split": "holdout",
+  "n_rows": 23,
+  "tp": 2,
+  "fp": 15,
+  "fn": 0,
+  "gt_present": 2,
+  "pred_present": 17,
+  "precision": 0.11764705882352941,
+  "recall": 1.0,
+  "f1": 0.21052631578947367,
+  "baselines": {
+    "rules_f1": 0.267,
+    "qwen_direct_f1": 0.16,
+    "hybrid_allspans_f1": 0.167,
+    "accounting_ner_f1": 0.235
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "GT-aligned currency prompt (explicit code or $\u2192USD; null if no cash currency). No holdout threshold search."
+  }
+}
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/experiments/runs/currency_hybrid_llama31_8b_holdout
+EXIT:0

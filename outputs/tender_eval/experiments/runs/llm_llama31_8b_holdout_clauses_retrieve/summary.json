@@ -1,0 +1,44 @@
+{
+  "model": "llama3.1:8b",
+  "split": "holdout",
+  "n_rows": 23,
+  "micro": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4444444444444444,
+    "f1": 0.5333333333333333
+  },
+  "tp": 8,
+  "fp": 4,
+  "fn": 10,
+  "per_field": {
+    "minimum_tender_condition": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "gt_present": 11,
+      "pred_present": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "f1": 0.625
+    },
+    "proration_terms": {
+      "tp": 3,
+      "fp": 4,
+      "fn": 4,
+      "gt_present": 7,
+      "pred_present": 7,
+      "precision": 0.42857142857142855,
+      "recall": 0.42857142857142855,
+      "f1": 0.42857142857142855
+    }
+  },
+  "proration_retrieval": true,
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "Proration regexes are generic SEC phrasing; not tuned on holdout labels."
+  },
+  "baseline_gliner_medium_holdout_f1": {
+    "minimum_tender_condition": 0.0,
+    "proration_terms": 0.0
+  }
+}

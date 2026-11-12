@@ -1,0 +1,3 @@
+field,tp,fp,fn,gt_present,pred_present,precision,recall,f1
+minimum_tender_condition,7,0,4,11,7,1.0,0.6363636363636364,0.7777777777777778
+proration_terms,1,0,6,7,1,1.0,0.14285714285714285,0.25

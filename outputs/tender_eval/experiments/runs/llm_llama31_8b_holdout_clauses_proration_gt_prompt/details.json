@@ -1,0 +1,439 @@
+[
+  {
+    "accession": "0001193125-26-000507",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "No minimum tender condition",
+        "pred": "No minimum tender condition",
+        "n_quote_chars": 180,
+        "raw_llm": "{\"value\": \"No minimum tender condition\"}"
+      },
+      "proration_terms": {
+        "outcome": "tp",
+        "gold": "If Shares exceeding 5% of the Company's net asset value as of September 30, 2025 are duly tendered before the Notice Date and not withdrawn before the Tender Withdrawal Date, the Company, in its sole discretion, may accept Shares for payment pro rata based on the aggregate net asset value tendered by each stockholder, with no priority other than the exceptions in Rule 13e-4(f)(3)(i) and Rule 13e-4(f)(3)(ii)",
+        "pred": "If more than 5% of Shares are duly tendered and not withdrawn, the Fund will accept Shares pro rata.",
+        "n_quote_chars": 640,
+        "raw_llm": "{\"value\": \"If more than 5% of Shares are duly tendered and not withdrawn, the Fund will accept Shares pro rata.\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-000598",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-001124",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "Minimum Condition was satisfied; its required number, percentage, or calculation basis is not stated",
+        "pred": null,
+        "n_quote_chars": 153,
+        "raw_llm": "{\"value\": null}"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-001149",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-001148",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "Minimum Condition satisfied by the Shares validly tendered and not validly withdrawn as of the Expiration Time, excluding Shares tendered pursuant to guaranteed delivery procedures that had not yet been received; the required minimum is not stated.",
+        "pred": null,
+        "n_quote_chars": 331,
+        "raw_llm": "{\"value\": null}"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "Minimum Condition satisfied by the Shares validly tendered and not validly withdrawn as of the Expiration Time, excluding Shares tendered pursuant to guaranteed delivery procedures that had not yet been received; the required minimum is not stated.",
+        "pred": null,
+        "n_quote_chars": 331,
+        "raw_llm": "{\"value\": null}"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-002517",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "Validly tendered and not properly withdrawn shares must represent at least one share more than 50% of all shares issued and outstanding when the offer expires; shares tendered through guaranteed delivery procedures but not yet received by the depositary are excluded | Waiver is referenced where permitted under the Merger Agreement",
+        "pred": "at least one share more than 50% of shares outstanding",
+        "n_quote_chars": 2205,
+        "raw_llm": "{\"value\": \"at least one share more than 50% of shares outstanding\"}"
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0000919574-26-000310",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-006294",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-006517",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-006950",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "No minimum tender condition",
+        "pred": null,
+        "n_quote_chars": 168,
+        "raw_llm": "{\"value\": null}"
+      },
+      "proration_terms": {
+        "outcome": "tp",
+        "gold": "If more than 5% of Shares are duly tendered and not withdrawn before the Notice Due Date, the Fund may either accept additional Shares permitted under Rule 13e-4(f)(1)(ii), extend the Offer and increase the amount offered for repurchase, or accept timely tendered and unwithdrawn Shares on a pro rata basis based on the aggregate net asset value of tendered Shares",
+        "pred": "If more than 5% of the Shares are duly tendered to the Fund prior to the Notice Due Date and not withdrawn prior to the Notice Due Date, the Fund will accept Shares for payment on a pro rata basis based on the aggregate net asset value of tendered Shares.",
+        "n_quote_chars": 820,
+        "raw_llm": "{\"value\": \"If more than 5% of the Shares are duly tendered to the Fund prior to the Notice Due Date and not withdrawn prior to the Notice Due Date, the Fund will accept Shares for payment on a pro rata basis based on the aggregate net asset value of tendered Shares.\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-008028",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "No minimum tender condition",
+        "pred": null,
+        "n_quote_chars": 85,
+        "raw_llm": "{\"value\": null}"
+      },
+      "proration_terms": {
+        "outcome": "mismatch",
+        "gold": "If more than 14,333,861 Shares are duly tendered and not withdrawn, the Company may, in its sole discretion, either accept additional duly tendered Shares permitted under Rule 13e-4(f)(1)(ii) or repurchase Shares pro rata according to the number duly tendered by each shareholder and not withdrawn",
+        "pred": "If more than the number of Shares offered for repurchase are duly tendered pursuant to the Offer (and not withdrawn, as provided in Section 5 below), we may, in our sole discretion, either accept the additional tendered Shares permitted to be accepted pursuant to Rule 13e-4(f)(1)(ii) under the Exchange Act, or repurchase Shares on a pro rata basis, in accordance with the number of Shares duly tendered by or on behalf of each shareholder (and not so withdrawn).",
+        "n_quote_chars": 521,
+        "raw_llm": "{\"value\": \"If more than the number of Shares offered for repurchase are duly tendered pursuant to the Offer (and not withdrawn, as provided in Section 5 below), we may, in our sole discretion, either accept the additional tendered Shares permitted to be accepted pursuant to Rule 13e-4(f)(1)(ii) under the Exchange Act, or repurchase Shares on a pro rata basis, in accordance with the number of Share"
+      }
+    }
+  },
+  {
+    "accession": "0000930413-26-000298",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "No minimum tender condition",
+        "pred": "No minimum tender condition",
+        "n_quote_chars": 184,
+        "raw_llm": "{\"value\": \"No minimum tender condition\"}"
+      },
+      "proration_terms": {
+        "outcome": "tp",
+        "gold": "If more than 934781.32 Shares are duly tendered before expiration and not properly withdrawn, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares | The Company reserves the right in its sole discretion to purchase additional outstanding Shares representing up to 2.0% of outstanding Shares without amending or extending the Offer | Unaccepted Shares receive no automatic carryforward or priority in future offers",
+        "pred": "If more than 934781.32 Shares are duly tendered...",
+        "n_quote_chars": 1082,
+        "raw_llm": "{\"value\": \"If more than 934,781.32 Shares are duly tendered...\"}"
+      }
+    }
+  },
+  {
+    "accession": "0000930413-26-000299",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "No minimum tender condition",
+        "pred": "No minimum tender condition",
+        "n_quote_chars": 184,
+        "raw_llm": "{\"value\": \"No minimum tender condition\"}"
+      },
+      "proration_terms": {
+        "outcome": "tp",
+        "gold": "If more than 241710.20 Shares are duly tendered before expiration and not properly withdrawn, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares | The Company reserves the right in its sole discretion to purchase additional outstanding Shares representing up to 2.0% of its outstanding Shares without amending or extending the Offer",
+        "pred": "If more than 241710.20 Shares are duly tendered...",
+        "n_quote_chars": 584,
+        "raw_llm": "{\"value\": \"If more than 241710.20 Shares are duly tendered...\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-003032",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "fn",
+        "gold": "No minimum tender condition",
+        "pred": null,
+        "n_quote_chars": 114,
+        "raw_llm": "{\"value\": null}"
+      },
+      "proration_terms": {
+        "outcome": "tp",
+        "gold": "If more than 3295767 Shares are duly tendered before expiration and not withdrawn, the Fund will accept Shares for payment pro rata based on the number tendered, with priority for repurchase requests in the case of a shareholder's death or disability | Unaccepted Shares are not automatically carried forward or given priority in a future tender offer",
+        "pred": "If more than 3295767 Shares are duly tendered to the Fund before the expiration of the Offer and not withdrawn...",
+        "n_quote_chars": 887,
+        "raw_llm": "{\"value\": \"If more than 3,295,767 Shares are duly tendered to the Fund before the expiration of the Offer and not withdrawn...\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-008693",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-008976",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "tp",
+        "gold": "No minimum tender condition",
+        "pred": "No minimum tender condition",
+        "n_quote_chars": 177,
+        "raw_llm": "{\"value\": \"No minimum tender condition\"}"
+      },
+      "proration_terms": {
+        "outcome": "tp",
+        "gold": "If more than $278174676 of Units are duly tendered and not withdrawn, the Fund may accept additional Units permitted under Rule 13e-4(f)(1)(ii); extend the Offer and increase the purchase amount; or accept Units tendered by the termination date for payment pro rata based on the aggregate net asset value of tendered Units",
+        "pred": "If more than $278174676 of Units are duly tendered to the Fund before the expiration of the Offer and not withdrawn pursuant to Section 5 below, the Fund will, in its sole discretion, either (a) accept any additional Units permitted to be accepted pursuant to Rule 13e-4(f)(1)(ii) under the Securities Exchange Act of 1934, as amended; (b) extend the Offer, if necessary, and increase the amount of Units that the Fund is offering to purchase to an amount it believes sufficient to accommodate the excess Units tendered as well as any Units tendered during the extended Offer; or (c) accept Units t",
+        "n_quote_chars": 744,
+        "raw_llm": "{\"value\": \"If more than $278,174,676 of Units are duly tendered to the Fund before the expiration of the Offer and not withdrawn pursuant to Section 5 below, the Fund will, in its sole discretion, either (a) accept any additional Units permitted to be accepted pursuant to Rule 13e-4(f)(1)(ii) under the Securities Exchange Act of 1934, as amended; (b) extend the Offer, if necessary, and increase th"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-011592",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-011591",
+    "fields": {
+      "minimum_tender_condition": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      },
+      "proration_terms": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_quote_chars": 0,
+        "raw_llm": ""
+      }
+    }
+  }
+]

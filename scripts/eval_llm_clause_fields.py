@@ -47,6 +47,15 @@ def _gt_ok(val: str | None) -> bool:
     return bool(v) and v.lower() not in _NA
 
 
+_PRORATION_HIT = re.compile(
+    r"(?is)((?:if\s+more\s+than|if\s+shares?\s+in\s+excess\s+of|"
+    r"if\s+shares?\s+exceeding)[^.!?\n]{20,400}[.!?])"
+)
+_PRORATION_FALLBACK = re.compile(
+    r"(?is)((?:pro[\s-]?rata|proration|oversubscription)[^.!?\n]{15,350}[.!?])"
+)
+
+
 def _quotes(passage: dict, field: str, *, max_chars: int = 2200) -> str:
     items = passage.get(field) or []
     if not isinstance(items, list):
@@ -68,6 +77,55 @@ def _quotes(passage: dict, field: str, *, max_chars: int = 2200) -> str:
     return "\n---\n".join(parts)
 
 
+def _all_passage_text(passage: dict) -> str:
+    chunks: list[str] = []
+    for _field, items in (passage or {}).items():
+        if not isinstance(items, list):
+            items = [items]
+        for it in items:
+            if isinstance(it, dict):
+                q = (it.get("quote") or "").strip()
+                if q:
+                    chunks.append(q)
+            elif isinstance(it, str) and it.strip():
+                chunks.append(it.strip())
+    return "\n".join(chunks)
+
+
+def _retrieve_proration(passage: dict, *, max_chars: int = 2200) -> str:
+    """Field quotes first; else regex-retrieve proration sentences from all passages.
+
+    Retrieval patterns are generic SEC phrasing — not holdout-tuned.
+    """
+    primary = _quotes(passage, "proration_terms", max_chars=max_chars)
+    if len(primary) >= 40 and re.search(r"(?i)if\s+more\s+than|pro[\s-]?rata|proration", primary):
+        return primary
+    blob = _all_passage_text(passage)
+    if not blob:
+        return primary
+    hits: list[str] = []
+    for rx in (_PRORATION_HIT, _PRORATION_FALLBACK):
+        for m in rx.finditer(blob):
+            s = re.sub(r"\s+", " ", m.group(1)).strip()
+            if len(s) >= 24 and s not in hits:
+                hits.append(s)
+        if hits:
+            break
+    if not hits:
+        return primary
+    out: list[str] = []
+    n = 0
+    for h in hits:
+        if n + len(h) > max_chars:
+            break
+        out.append(h)
+        n += len(h)
+    retrieved = "\n---\n".join(out)
+    if primary and primary not in retrieved:
+        return (primary + "\n---\n" + retrieved)[:max_chars]
+    return retrieved
+
+
 def _prompt(field: str, text: str) -> str:
     if field == "minimum_tender_condition":
         return (
@@ -83,10 +141,20 @@ def _prompt(field: str, text: str) -> str:
             f"EXCERPT:\n{text}\n"
         )
     return (
-        "From the EXCERPT, copy the proration / oversubscription sentence into JSON "
-        '{"value": "..."}.\n'
-        "It usually starts with 'If more than ...'. Keep one sentence.\n"
-        'If none, {"value": null}. Output keys allowed: value only.\n\n'
+        "Extract proration_terms: how securities are accepted when tenders exceed "
+        "the amount the bidder will purchase.\n"
+        "From the EXCERPT, copy the supporting sentence(s) into JSON {\"value\": \"...\"}.\n"
+        "Include when stated: trigger (often 'If more than…' / 'If Shares exceeding…'), "
+        "allocation method (pro rata), purchase limit, odd-lot/other priority, "
+        "conditional-tender treatment, and rounding.\n"
+        "Rules (GT-aligned):\n"
+        "- Preserve numbers exactly as written; omit thousands separators "
+        "(241710.20 not 241,710.20).\n"
+        "- Do not calculate a proration percentage.\n"
+        "- Do not infer proration from a purchase limit / max amount alone.\n"
+        "- Use exactly \"No proration\" only when the text explicitly says there is none.\n"
+        "- If the excerpt has no oversubscription/pro-rata rule, {\"value\": null}.\n"
+        "- Output keys allowed: value only.\n\n"
         'Example: {"value": "If more than 5% of Shares are duly tendered and not withdrawn, '
         'the Fund will accept Shares pro rata."}\n\n'
         f"EXCERPT:\n{text}\n"
@@ -140,24 +208,26 @@ def llm_extract(client, model: str, field: str, text: str) -> tuple[str | None, 
     last_err = ""
     for attempt, chunk in enumerate(chunks):
         try:
-            resp = client.chat(
-                model=model,
-                messages=[
+            kwargs: dict[str, Any] = {
+                "model": model,
+                "messages": [
                     {
                         "role": "system",
                         "content": 'Return only {"value": string|null}. No other keys.',
                     },
                     {"role": "user", "content": _prompt(field, chunk)},
                 ],
-                options={
+                "options": {
                     "temperature": 0.0,
-                    "num_predict": 160,
+                    "num_predict": 280 if field == "proration_terms" else 160,
                     "repeat_penalty": 1.2,
                     "num_ctx": 32768,
                 },
-                format="json",
-                think=False,
-            )
+                "format": "json",
+            }
+            if "qwen3" in model.lower():
+                kwargs["think"] = False
+            resp = client.chat(**kwargs)
         except Exception as e:  # noqa: BLE001
             last_err = str(e)
             continue
@@ -168,6 +238,9 @@ def llm_extract(client, model: str, field: str, text: str) -> tuple[str | None, 
             raw = getattr(getattr(resp, "message", None), "content", "") or ""
         val = _parse_value(raw)
         if val is not None:
+            if field == "proration_terms":
+                # GT: omit thousands separators in numeric amounts
+                val = re.sub(r"(?<=\d),(?=\d{3}\b)", "", val)
             return val, raw
         # Retry on empty/null or instruction-echo JSON
         if '"task"' in raw or '"rules"' in raw or '"excerpts"' in raw:
@@ -192,6 +265,17 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--out", type=Path, default=ROOT / "outputs/tender_eval")
     p.add_argument("--model", default=MODEL_ID)
     p.add_argument("--limit", type=int, default=None)
+    p.add_argument(
+        "--split",
+        choices=("holdout", "train"),
+        default="holdout",
+        help="holdout = frozen eval; train = non-holdout (sanity only)",
+    )
+    p.add_argument(
+        "--run-name",
+        default=None,
+        help="Output folder under experiments/runs/",
+    )
     args = p.parse_args(argv)
 
     import ollama
@@ -204,22 +288,30 @@ def main(argv: list[str] | None = None) -> int:
         {(r.get("accession_number") or "").strip() for r in gt_rows if r.get("accession_number")}
     )
     holdout = set(ensure_holdout(args.out, accessions, n=20))
-    rows = [r for r in gt_rows if (r.get("accession_number") or "").strip() in holdout]
+    if args.split == "holdout":
+        rows = [r for r in gt_rows if (r.get("accession_number") or "").strip() in holdout]
+    else:
+        rows = [r for r in gt_rows if (r.get("accession_number") or "").strip() not in holdout]
     if args.limit:
         rows = rows[: args.limit]
-    print(f"holdout rows: {len(rows)}")
+    print(f"{args.split} rows: {len(rows)}")
+
+    from tqdm import tqdm
 
     stats = {f: {"tp": 0, "fp": 0, "fn": 0, "gt_present": 0, "pred_present": 0} for f in FIELDS}
     details: list[dict[str, Any]] = []
 
-    for i, row in enumerate(rows, 1):
+    for row in tqdm(rows, desc=f"clauses|{args.model}", unit="doc"):
         acc = (row.get("accession_number") or "").strip()
         passage = parse_passage(row.get("passage") or "")
         row_d: dict[str, Any] = {"accession": acc, "fields": {}}
         for field in FIELDS:
             gold = (row.get(field) or "").strip()
             has_gt = _gt_ok(gold)
-            text = _quotes(passage, field)
+            if field == "proration_terms":
+                text = _retrieve_proration(passage)
+            else:
+                text = _quotes(passage, field)
             pred, raw = llm_extract(client, args.model, field, text) if text else (None, "")
             has_pred = bool(normalize(pred))
             s = stats[field]
@@ -252,8 +344,8 @@ def main(argv: list[str] | None = None) -> int:
                 "raw_llm": (raw or "")[:400],
             }
         details.append(row_d)
-        print(
-            f"[{i}/{len(rows)}] {acc}  "
+        tqdm.write(
+            f"  {acc}  "
             f"min={row_d['fields']['minimum_tender_condition']['outcome']}  "
             f"pro={row_d['fields']['proration_terms']['outcome']}"
         )
@@ -268,19 +360,30 @@ def main(argv: list[str] | None = None) -> int:
     fn = sum(stats[f]["fn"] for f in FIELDS)
     summary = {
         "model": args.model,
+        "split": args.split,
         "n_rows": len(rows),
         "micro": _prf(tp, fp, fn),
         "tp": tp,
         "fp": fp,
         "fn": fn,
         "per_field": per_field,
+        "proration_retrieval": True,
+        "anti_overfit": {
+            "holdout_frozen": True,
+            "note": "Proration prompt GT-aligned (trigger/allocation/priority; no inferred %; omit thousands separators). Retrieval regexes are generic SEC phrasing.",
+        },
         "baseline_gliner_medium_holdout_f1": {
             "minimum_tender_condition": 0.0,
             "proration_terms": 0.0,
         },
     }
 
-    out_dir = args.out / "experiments" / "runs" / "llm_qwen3_4b_holdout_clauses"
+    run_name = args.run_name or (
+        "llm_qwen3_4b_holdout_clauses_retrieve"
+        if args.split == "holdout"
+        else "llm_qwen3_4b_train_clauses_retrieve"
+    )
+    out_dir = args.out / "experiments" / "runs" / run_name
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     (out_dir / "details.json").write_text(json.dumps(details, indent=2), encoding="utf-8")

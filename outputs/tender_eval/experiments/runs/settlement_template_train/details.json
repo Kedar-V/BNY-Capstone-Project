@@ -1,0 +1,1402 @@
+[
+  {
+    "accession": "0001859919-26-000002",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001213900-26-000471",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Note delivery: within 65 days of the Notice Due Date | Initial payment: within 65 days after the Notice Due Date | Post-Audit Payment: promptly after completion of the annual audit",
+    "pred": "Payment: promptly",
+    "n_chars": 1434
+  },
+  {
+    "accession": "0001213900-26-000378",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering shareholder of its election to purchase the shares | Initial payment: within 65 days after the Notice Due Date | Final payment: no later than 5 business days following completion of the annual audit; for a shareholder retaining at least 5% of the aggregate value of its shares, on or before the 60th day after the Repurchase Date",
+    "pred": null,
+    "n_chars": 1588
+  },
+  {
+    "accession": "0001213900-26-000356",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001661306-26-000002",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001398344-26-000104",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering investor of its election to purchase the Shares | Promissory-note delivery: promptly (within five business days) after the Expiration Date | Initial payment for all Shares tendered or payment for some Shares tendered: before the 30th day following the Valuation Date, subject to unforeseen delays | Contingent payment for all Shares tendered: as soon as practicable after completion of the fiscal year-end audit",
+    "pred": null,
+    "n_chars": 1728
+  },
+  {
+    "accession": "0001213900-26-001613",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-006518",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-005891",
+    "outcome": "tp",
+    "gold": "Payment: on or about 1/5/2026",
+    "pred": "January 5, 2026",
+    "n_chars": 222
+  },
+  {
+    "accession": "0001493152-26-000805",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-005732",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-005730",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-007074",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001213900-26-002386",
+    "outcome": "fn",
+    "gold": "Payment: January 2026",
+    "pred": null,
+    "n_chars": 396
+  },
+  {
+    "accession": "0001193125-26-008886",
+    "outcome": "tp",
+    "gold": "Acceptance and payment: promptly after the Termination Date | If portfolio liquidity is inadequate, the Company may pay with a promissory note payable in cash up to 30 days after the Termination Date (as extended)",
+    "pred": "Payment: promptly",
+    "n_chars": 836
+  },
+  {
+    "accession": "0001213900-26-002892",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001213900-26-002892",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001213900-26-002892",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001213900-26-002756",
+    "outcome": "tp",
+    "gold": "Payment: 11/21/2025 | Post-Audit Payment: promptly after completion of the Fund\u2019s annual audit at the end of August 2026",
+    "pred": "Payment: promptly",
+    "n_chars": 1804
+  },
+  {
+    "accession": "0001193125-26-009777",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001580642-26-000224",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Partial-repurchase payment: generally within forty (40) calendar days after the Valuation Date, or, if the Fund has requested withdrawal of capital from Portfolio Funds to fund the purchase, within ten (10) business days after receipt of at least ninety-five percent (95%) of the aggregate amount withdrawn, whichever is later | Full-repurchase initial payment: within the later of forty (40) calendar days after the Valuation Date or ten (10) business days after receipt of at least ninety-five percent (95%) of the aggregate amount requested to be withdrawn from Portfolio Funds to fund the repurchase | Full-repurchase final payment: within 60 days of completion of the next annual audit, unless the stated circumstances cause a delay",
+    "pred": null,
+    "n_chars": 2421
+  },
+  {
+    "accession": "0001193125-26-010350",
+    "outcome": "fn",
+    "gold": "Payment: 2/17/2026 before 10:00 AM New York City time to the Paying Agent; the Paying Agent will promptly distribute the consideration to DTC",
+    "pred": null,
+    "n_chars": 383
+  },
+  {
+    "accession": "0002051820-26-000007",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly following expiration | Payment: promptly following expiration and acceptance for payment, taking into account any time necessary to determine proration and conditional tenders",
+    "pred": "Payment: promptly",
+    "n_chars": 1547
+  },
+  {
+    "accession": "0001193125-26-011820",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-011820",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-011820",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-011820",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001580642-26-000252",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives the tendering Shareholder written notice of its election to purchase the Shares | Partial-repurchase payment: generally within 35 calendar days after the Valuation Date or, if the Fund has requested withdrawal of capital from Portfolio Funds to fund the purchase, within 10 business days after receipt of at least 95% of the aggregate amount withdrawn, whichever is later | Full-repurchase initial payment: within the later of 35 calendar days after the Valuation Date or 10 business days after receipt of at least 95% of the aggregate amount requested to be withdrawn from Portfolio Funds | Full-repurchase final payment: within 60 days of completion of the next annual audit, unless delayed by changes in tax or other laws or regulations, withdrawal of proceeds from Portfolio Funds, or unusual market conditions",
+    "pred": null,
+    "n_chars": 1683
+  },
+  {
+    "accession": "0001193125-26-012276",
+    "outcome": "fn",
+    "gold": "Acceptance: when DL VIII notifies the Adviser of its acceptance of valid tenders | Exchange and book-entry delivery: Closing Date, currently expected 4/1/2026, but no later than ten business days after acceptance or as soon as practicable thereafter",
+    "pred": null,
+    "n_chars": 1507
+  },
+  {
+    "accession": "0001580642-26-000264",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-014573",
+    "outcome": "fn",
+    "gold": "Acceptance: immediately after the Expiration Date, accepted Unitholders will be issued a Repurchase Instrument | Payment: following determination of NAV as of March 31, 2026, but no later than the later of 30 days after that date or, if the Fund requested Sub-Fund withdrawals to fund the repurchase, 10 business days after receiving at least 90% of the aggregate amount withdrawn",
+    "pred": null,
+    "n_chars": 2171
+  },
+  {
+    "accession": "0001731122-26-000069",
+    "outcome": "mismatch",
+    "gold": "Acceptance: 1/14/2026 | Payment wired to depositary: 1/14/2026 | Depositary payment to holders: promptly",
+    "pred": "Payment: promptly",
+    "n_chars": 552
+  },
+  {
+    "accession": "0001623632-26-000063",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 172
+  },
+  {
+    "accession": "0001623632-26-000063",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 160
+  },
+  {
+    "accession": "0001999371-26-001383",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 259
+  },
+  {
+    "accession": "0001193125-26-017254",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 1374
+  },
+  {
+    "accession": "0001193125-26-019027",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives notice to the tendering Shareholder by payment of proceeds or other written notice | Payment: as soon as possible following determination of NAV for the Valuation Date",
+    "pred": null,
+    "n_chars": 1668
+  },
+  {
+    "accession": "0001193125-26-020543",
+    "outcome": "fn",
+    "gold": "Payment: 1/16/2026",
+    "pred": null,
+    "n_chars": 103
+  },
+  {
+    "accession": "0001193125-26-020543",
+    "outcome": "fn",
+    "gold": "Payment: 1/16/2026",
+    "pred": null,
+    "n_chars": 103
+  },
+  {
+    "accession": "0001193125-26-020543",
+    "outcome": "fn",
+    "gold": "Payment: 1/16/2026",
+    "pred": null,
+    "n_chars": 103
+  },
+  {
+    "accession": "0001193125-26-020543",
+    "outcome": "fn",
+    "gold": "Payment: 1/16/2026",
+    "pred": null,
+    "n_chars": 103
+  },
+  {
+    "accession": "0001213900-26-007068",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Initial payment: within approximately 65 days after the Notice Due Date | Post-audit payment, if any: within 5 business days following completion of the Fund\u2019s next annual audit",
+    "pred": null,
+    "n_chars": 1100
+  },
+  {
+    "accession": "0001580642-26-000392",
+    "outcome": "fn",
+    "gold": "Acceptance: 3/23/2026 | Payment: on or before the 60th day following the Valuation Date; delays in obtaining sufficient cash could extend the payment period",
+    "pred": null,
+    "n_chars": 1681
+  },
+  {
+    "accession": "0001213900-26-007345",
+    "outcome": "fn",
+    "gold": "Upon expiration of the Offer, subject to its terms and conditions",
+    "pred": null,
+    "n_chars": 1250
+  },
+  {
+    "accession": "0001213900-26-007345",
+    "outcome": "fn",
+    "gold": "Upon expiration of the Offer, subject to its terms and conditions",
+    "pred": null,
+    "n_chars": 1250
+  },
+  {
+    "accession": "0001213900-26-007345",
+    "outcome": "fn",
+    "gold": "Upon expiration of the Offer, subject to its terms and conditions",
+    "pred": null,
+    "n_chars": 1250
+  },
+  {
+    "accession": "0001213900-26-007345",
+    "outcome": "fn",
+    "gold": "Upon expiration of the Offer, subject to its terms and conditions",
+    "pred": null,
+    "n_chars": 1250
+  },
+  {
+    "accession": "0001213900-26-007345",
+    "outcome": "fn",
+    "gold": "Upon expiration of the Offer, subject to its terms and conditions",
+    "pred": null,
+    "n_chars": 1250
+  },
+  {
+    "accession": "0001213900-26-007345",
+    "outcome": "fn",
+    "gold": "Upon expiration of the Offer, subject to its terms and conditions",
+    "pred": null,
+    "n_chars": 1250
+  },
+  {
+    "accession": "0001213900-26-007345",
+    "outcome": "fn",
+    "gold": "Upon expiration of the Offer, subject to its terms and conditions",
+    "pred": null,
+    "n_chars": 1250
+  },
+  {
+    "accession": "0001702510-26-000004",
+    "outcome": "fn",
+    "gold": "Acceptance: 1/26/2026 | Payment: N/A",
+    "pred": null,
+    "n_chars": 755
+  },
+  {
+    "accession": "0001213900-26-007374",
+    "outcome": "fn",
+    "gold": "Payment: 1/23/2026",
+    "pred": null,
+    "n_chars": 443
+  },
+  {
+    "accession": "0001213900-26-007374",
+    "outcome": "fn",
+    "gold": "Payment: 1/23/2026",
+    "pred": null,
+    "n_chars": 443
+  },
+  {
+    "accession": "0001213900-26-007374",
+    "outcome": "fn",
+    "gold": "Payment: 1/23/2026",
+    "pred": null,
+    "n_chars": 443
+  },
+  {
+    "accession": "0001193125-26-024587",
+    "outcome": "tp",
+    "gold": "Payment: on or about 1/28/2026",
+    "pred": "January 28, 2026",
+    "n_chars": 227
+  },
+  {
+    "accession": "0001193125-26-024425",
+    "outcome": "tp",
+    "gold": "Payment: on or about 1/28/2026",
+    "pred": "January 28, 2026",
+    "n_chars": 228
+  },
+  {
+    "accession": "0001398344-26-001322",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice of its election to purchase the tendered Units | Initial payment: up to 20 business days after the Repurchase Date, and in no event later than the 65th day following the Notice Due Date | Post-Audit Payment: promptly after completion of the Fund\u2019s next annual audit",
+    "pred": "Payment: promptly",
+    "n_chars": 2330
+  },
+  {
+    "accession": "0001398344-26-001326",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Member of its election to purchase the Units | Initial payment: up to 20 business days after April 1, 2026; no later than the 65th day following the Notice Due Date | Post-audit payment: promptly after completion of the Fund\u2019s next annual audit",
+    "pred": "Payment: promptly",
+    "n_chars": 2330
+  },
+  {
+    "accession": "0001193125-26-024569",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001398344-26-001324",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Member of its election to purchase | Initial payment: up to 20 business days after the Repurchase Date; no later than the 65th day following the Notice Due Date | Post-audit payment: promptly after completion of the Fund\u2019s next annual audit",
+    "pred": "Payment: promptly",
+    "n_chars": 2041
+  },
+  {
+    "accession": "0001493152-26-000914",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-011532",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly following expiration of the Offer | Payment: promptly following expiration of the Offer",
+    "pred": "Payment: promptly",
+    "n_chars": 549
+  },
+  {
+    "accession": "0001213900-26-007069",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Initial payment: within approximately 65 days after the Notice Due Date | Post-audit payment, if any: within 5 business days following completion of the Fund\u2019s next annual audit",
+    "pred": null,
+    "n_chars": 800
+  },
+  {
+    "accession": "0001193125-26-023662",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Company gives notice to the tendering Shareholder of its election to purchase the Shares | Payment for tenders of less than 95% of a Shareholder\u2019s Shares: within 30 days after the Valuation Date and in no case later than 65 days after the Repurchase Deadline, or, if the Company has requested withdrawals of capital from investment funds to fund the purchase, no later than 10 business days after it receives at least 90% of the aggregate amount withdrawn | Payment for tenders of 95% or more: at least 95% of the amount due within those timeframes; the remainder within 90 days of the Valuation Date, subject to the stated exceptions",
+    "pred": null,
+    "n_chars": 2142
+  },
+  {
+    "accession": "0001193125-26-023657",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Company gives the tendering Shareholder notice of its election to purchase the Shares | Payment for tenders of less than 95% of a Shareholder\u2019s Shares: within 30 days after the Valuation Date and in no case later than 65 days after the Repurchase Deadline, or, if the Company has requested withdrawals from investment funds to fund the purchase, no later than 10 business days after receiving at least 90% of the aggregate amount withdrawn | Payment for tenders of 95% or more: at least 95% within those timeframes; the remainder within 90 days of the Valuation Date, subject to the stated valuation-date and investment-fund-withdrawal exceptions",
+    "pred": null,
+    "n_chars": 2635
+  },
+  {
+    "accession": "0001628280-26-003814",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-028533",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Payment: promptly after the determination of the relevant NAV per share is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 1817
+  },
+  {
+    "accession": "0001193125-26-028895",
+    "outcome": "tp",
+    "gold": "Payment: on or about 1/29/2026",
+    "pred": "January 29, 2026",
+    "n_chars": 271
+  },
+  {
+    "accession": "0001193125-26-029532",
+    "outcome": "tp",
+    "gold": "Payment: 11/4/2025 and 1/28/2026",
+    "pred": "January 28, 2026",
+    "n_chars": 284
+  },
+  {
+    "accession": "0001193125-26-029532",
+    "outcome": "tp",
+    "gold": "Payment: 11/4/2025 and 1/28/2026",
+    "pred": "January 28, 2026",
+    "n_chars": 284
+  },
+  {
+    "accession": "0001213900-26-009413",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives the tendering Shareholder written notice of its election to purchase the Shares | Initial payment: within 65 days after the Notice Due Date | Final payment: no later than 2 business days following completion of the annual audit; for a Shareholder retaining at least 5% of the aggregate value of its Shares after repurchase, on or before the 60th day after the Valuation Date",
+    "pred": null,
+    "n_chars": 1783
+  },
+  {
+    "accession": "0001213900-26-009300",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Initial payment: generally on or before the 30th day after the Valuation Date | Final adjustment: no later than five business days following completion of the annual audit",
+    "pred": null,
+    "n_chars": 1593
+  },
+  {
+    "accession": "0001628280-26-003928",
+    "outcome": "fn",
+    "gold": "Payment: promptly",
+    "pred": null,
+    "n_chars": 251
+  },
+  {
+    "accession": "0001628280-26-003928",
+    "outcome": "fn",
+    "gold": "Payment: promptly",
+    "pred": null,
+    "n_chars": 251
+  },
+  {
+    "accession": "0001628280-26-003928",
+    "outcome": "fn",
+    "gold": "Payment: promptly",
+    "pred": null,
+    "n_chars": 251
+  },
+  {
+    "accession": "0001628280-26-003929",
+    "outcome": "fn",
+    "gold": "Payment: promptly",
+    "pred": null,
+    "n_chars": 251
+  },
+  {
+    "accession": "0001628280-26-003929",
+    "outcome": "fn",
+    "gold": "Payment: promptly",
+    "pred": null,
+    "n_chars": 251
+  },
+  {
+    "accession": "0001628280-26-003929",
+    "outcome": "fn",
+    "gold": "Payment: promptly",
+    "pred": null,
+    "n_chars": 251
+  },
+  {
+    "accession": "0001398344-26-001575",
+    "outcome": "mismatch",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: N/A",
+    "pred": "Payment: promptly",
+    "n_chars": 2536
+  },
+  {
+    "accession": "0001193125-26-031594",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: on or before 30 days after the Valuation Date, unless changes in tax or other laws or regulations or unusual market conditions result in a delay",
+    "pred": null,
+    "n_chars": 1497
+  },
+  {
+    "accession": "0001193125-26-031526",
+    "outcome": "tp",
+    "gold": "Payment: promptly after January 30, 2026",
+    "pred": "Payment: promptly",
+    "n_chars": 377
+  },
+  {
+    "accession": "0001398344-26-001754",
+    "outcome": "fn",
+    "gold": "Acceptance Date: 3/31/2026 | Payment: as soon as possible following the determination of the NAV for the Valuation Date",
+    "pred": null,
+    "n_chars": 1852
+  },
+  {
+    "accession": "0001193125-26-030801",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 143
+  },
+  {
+    "accession": "0001193125-26-030799",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 201
+  },
+  {
+    "accession": "0001193125-26-032788",
+    "outcome": "mismatch",
+    "gold": "Acceptance: promptly after the scheduled Expiration Time (within one business day of the Expiration Time) | Payment: at or promptly following the Offer Acceptance Time",
+    "pred": "Payment: promptly",
+    "n_chars": 639
+  },
+  {
+    "accession": "0001193125-26-033103",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Payment: promptly after the relevant NAV per share is finalized; unless delayed by changes in tax or other laws or regulations or unusual market conditions, on or before 35 days after the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 1983
+  },
+  {
+    "accession": "0001193125-26-032795",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: on or before 30 days after the 3/31/2026 Valuation Date, unless changes in tax or other laws or regulations or unusual market conditions result in a delay",
+    "pred": null,
+    "n_chars": 2008
+  },
+  {
+    "accession": "0001580642-26-000648",
+    "outcome": "tp",
+    "gold": "Acceptance: N/A | Note issued: promptly following expiration of the Offer | Cash payment: promptly after determination of net asset value per share as of March 31, 2026; on or before 30 days after the Valuation Date unless changes in tax or other laws or regulations or unusual market conditions result in a delay",
+    "pred": "Payment: promptly",
+    "n_chars": 1838
+  },
+  {
+    "accession": "0001989817-26-000007",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Payment: promptly after the relevant NAV per share is finalized; unless changes in tax or other laws or regulations or unusual market conditions cause a delay, on or before 35 days after the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 1985
+  },
+  {
+    "accession": "0001193125-26-033396",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-033401",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001398344-26-001796",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 229
+  },
+  {
+    "accession": "0001398344-26-001796",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 229
+  },
+  {
+    "accession": "0001398344-26-001796",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 229
+  },
+  {
+    "accession": "0001628280-26-004675",
+    "outcome": "tp",
+    "gold": "Payment: on or about 1/30/2026",
+    "pred": "January 30, 2026",
+    "n_chars": 275
+  },
+  {
+    "accession": "0001838126-26-000007",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice of its election to purchase tendered Shares | Payment: promptly after determination of the relevant NAV per share is finalized; under the form of promissory note, on or before 35 days after the Valuation Date unless changes in tax or other laws or regulations or unusual market conditions result in a delay",
+    "pred": "Payment: promptly",
+    "n_chars": 1986
+  },
+  {
+    "accession": "0001193125-26-035883",
+    "outcome": "fn",
+    "gold": "Payment: on or about 2/2/2026",
+    "pred": null,
+    "n_chars": 372
+  },
+  {
+    "accession": "0001580642-26-000664",
+    "outcome": "fn",
+    "gold": "Acceptance: N/A | Payment: 1/28/2026",
+    "pred": null,
+    "n_chars": 382
+  },
+  {
+    "accession": "0001580642-26-000664",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-038867",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001911066-26-000002",
+    "outcome": "tp",
+    "gold": "Payment: on or about 2/2/2026",
+    "pred": "February 2, 2026",
+    "n_chars": 726
+  },
+  {
+    "accession": "0001911066-26-000002",
+    "outcome": "tp",
+    "gold": "Payment: on or about 2/2/2026",
+    "pred": "February 2, 2026",
+    "n_chars": 726
+  },
+  {
+    "accession": "0001911066-26-000002",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001580642-26-000874",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001580642-26-000874",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001213900-26-013132",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Payment: within 5 business days of the date of determination of NAV as of the Valuation Date",
+    "pred": null,
+    "n_chars": 1811
+  },
+  {
+    "accession": "0001193125-26-031900",
+    "outcome": "mismatch",
+    "gold": "Acceptance: when the Trust gives written notice to the tendering shareholder of its election to purchase the Shares | Payment: approximately 90% within 30 calendar days after the Valuation Date and the balance within 75 calendar days after the Valuation Date; payment for a qualifying partial tender in full within 30 calendar days after the Valuation Date",
+    "pred": "March 26, 2026",
+    "n_chars": 1520
+  },
+  {
+    "accession": "0001213900-26-010720",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice of its election to purchase | Payment for all Shares tendered: initial payment within 65 days after the repurchase offer acceptance deadline; final payment generally within 2 business days of completion of the next annual audit, subject to stated delays | Payment for a portion of Shares tendered: within 65 days of repurchase offer acceptance",
+    "pred": null,
+    "n_chars": 1986
+  },
+  {
+    "accession": "0001213900-26-013127",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: within 5 business days of the determination of the Fund\u2019s NAV as of the Valuation Date",
+    "pred": null,
+    "n_chars": 2190
+  },
+  {
+    "accession": "0001140361-26-004073",
+    "outcome": "fn",
+    "gold": "Acceptance: N/A | Initial payment: on or about 1/27/2026 | Subsequent payment, if applicable: following the later of 4/30/2026 and any longer period the Board in its discretion deems necessary to protect the interests of the remaining Members",
+    "pred": null,
+    "n_chars": 1266
+  },
+  {
+    "accession": "0001193125-26-042616",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-042631",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001104659-26-012104",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001104659-26-011936",
+    "outcome": "fn",
+    "gold": "Acceptance: N/A | Initial Payment: 1/8/2026 | Post-Audit Payment: no later than 5 business days following the completion of the Fund\u2019s next annual audit",
+    "pred": null,
+    "n_chars": 788
+  },
+  {
+    "accession": "0001193125-26-042609",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-042638",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-042598",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives notice by payment or written notice | Payment: as soon as possible following determination of NAV for the Valuation Date; in no case later than eight days after the last day Shares may be tendered",
+    "pred": null,
+    "n_chars": 1766
+  },
+  {
+    "accession": "0001104659-26-012359",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly following expiration | Payment: promptly after expiration of the offer and guaranteed delivery period",
+    "pred": "Payment: promptly",
+    "n_chars": 1361
+  },
+  {
+    "accession": "0001193125-26-044310",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-044678",
+    "outcome": "tp",
+    "gold": "Payment: on or about 1/28/2026",
+    "pred": "January 28, 2026",
+    "n_chars": 222
+  },
+  {
+    "accession": "0001140361-26-004027",
+    "outcome": "fn",
+    "gold": "Acceptance: N/A | Initial payment: on or about 1/27/2026 | Subsequent payment: following the later of 4/30/2026 and any longer period the Board in its discretion deems necessary to protect the interests of the remaining Members",
+    "pred": null,
+    "n_chars": 1524
+  },
+  {
+    "accession": "0001193125-26-044595",
+    "outcome": "fn",
+    "gold": "Acceptance: N/A | Payment: 2/6/2026",
+    "pred": null,
+    "n_chars": 305
+  },
+  {
+    "accession": "0001193125-26-043648",
+    "outcome": "fn",
+    "gold": "Payment: 3/16/2026; cash forwarded to the Paying Agent prior to 10:00 AM New York City time, then promptly distributed to DTC",
+    "pred": null,
+    "n_chars": 653
+  },
+  {
+    "accession": "0001169578-26-000006",
+    "outcome": "fn",
+    "gold": "Payment: 1/30/2026",
+    "pred": null,
+    "n_chars": 1080
+  },
+  {
+    "accession": "0001169578-26-000008",
+    "outcome": "fn",
+    "gold": "Acceptance: N/A | Payment: 1/30/2026",
+    "pred": null,
+    "n_chars": 1400
+  },
+  {
+    "accession": "0001169578-26-000004",
+    "outcome": "fn",
+    "gold": "Payment: 1/30/2026",
+    "pred": null,
+    "n_chars": 1080
+  },
+  {
+    "accession": "0001104659-26-013042",
+    "outcome": "fn",
+    "gold": "Acceptance: 2/2/2026 | Payment: within five business days of the Offer Expiration Date",
+    "pred": null,
+    "n_chars": 629
+  },
+  {
+    "accession": "0001398344-26-002742",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001104659-26-013052",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001521945-26-000019",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001140361-26-005453",
+    "outcome": "mismatch",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Payment: cash promptly after the relevant NAV per share is finalized; unless changes in tax or other laws or regulations or unusual market conditions result in a delay, on or before 35 days after the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 1982
+  },
+  {
+    "accession": "0001193125-26-050781",
+    "outcome": "fn",
+    "gold": "Acceptance: as, if and when the Fund gives notice of acceptance to the Depositary | Payment: at least 95% of the value of repurchased Shares within 65 days of the Termination Date; any held-back balance no later than five business days after the filing of the annual audit for the fiscal year in which the repurchase is effected",
+    "pred": null,
+    "n_chars": 1856
+  },
+  {
+    "accession": "0001193125-26-050781",
+    "outcome": "fn",
+    "gold": "Acceptance: as, if and when the Fund gives notice of acceptance to the Depositary | Payment: at least 95% of the value of repurchased Shares within 65 days of the Termination Date; any held-back balance no later than five business days after the filing of the annual audit for the fiscal year in which the repurchase is effected",
+    "pred": null,
+    "n_chars": 1856
+  },
+  {
+    "accession": "0001193125-26-050781",
+    "outcome": "fn",
+    "gold": "Acceptance: as, if and when the Fund gives notice of acceptance to the Depositary | Payment: at least 95% of the value of repurchased Shares within 65 days of the Termination Date; any held-back balance no later than five business days after the filing of the annual audit for the fiscal year in which the repurchase is effected",
+    "pred": null,
+    "n_chars": 1856
+  },
+  {
+    "accession": "0001193125-26-050781",
+    "outcome": "fn",
+    "gold": "Acceptance: as, if and when the Fund gives notice of acceptance to the Depositary | Payment: at least 95% of the value of repurchased Shares within 65 days of the Termination Date; any held-back balance no later than five business days after the filing of the annual audit for the fiscal year in which the repurchase is effected",
+    "pred": null,
+    "n_chars": 1856
+  },
+  {
+    "accession": "0001104659-26-015030",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: promptly after the Expiration Date, after the determination of net asset value per Share as of the Valuation Date is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 1761
+  },
+  {
+    "accession": "0001193125-26-051399",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Payment: promptly after the determination of the relevant net asset value per share is finalized; unless changes in tax or other laws or regulations or unusual market conditions result in a delay, on or before 30 days after the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 2212
+  },
+  {
+    "accession": "0001193125-26-049921",
+    "outcome": "fn",
+    "gold": "Acceptance: When the Fund gives written notice to the tendering Shareholder of its election to repurchase the Shares | Payment: At least 95% of the value of accepted Shares within 65 days of the Notice Due Date; any withheld balance no later than 5 business days after completion of the applicable annual audit",
+    "pred": null,
+    "n_chars": 1883
+  },
+  {
+    "accession": "0001213900-26-016036",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to repurchase the Shares | Initial payment: within 65 days of the Notice Due Date | Any holdback payment: no later than two business days after completion of the applicable annual audit",
+    "pred": null,
+    "n_chars": 2189
+  },
+  {
+    "accession": "0001213900-26-016036",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to repurchase the Shares | Initial payment: within 65 days of the Notice Due Date | Any holdback payment: no later than two business days after completion of the applicable annual audit",
+    "pred": null,
+    "n_chars": 2189
+  },
+  {
+    "accession": "0001213900-26-016036",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to repurchase the Shares | Initial payment: within 65 days of the Notice Due Date | Any holdback payment: no later than two business days after completion of the applicable annual audit",
+    "pred": null,
+    "n_chars": 2189
+  },
+  {
+    "accession": "0001104659-26-014697",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice of its election to repurchase | Payment: at least 95% of the value within 65 days of the Notice Due Date | Any balance: no later than two business days after the filing of the applicable annual audit",
+    "pred": null,
+    "n_chars": 2352
+  },
+  {
+    "accession": "0001580642-26-001087",
+    "outcome": "fn",
+    "gold": "Acceptance: N/A | Payment: on or before the 60th day following the Valuation Date; delays could extend the payment period",
+    "pred": null,
+    "n_chars": 1504
+  },
+  {
+    "accession": "0001193125-26-049988",
+    "outcome": "mismatch",
+    "gold": "Acceptance: when the Company gives notice of its election to repurchase the tendered Shares | Payment: approximately 45 days after the Valuation Date; if 95% or more of a Shareholder\u2019s Shares are repurchased, 95% of the value is paid then and the balance promptly after completion of the next annual audit",
+    "pred": "Payment: promptly",
+    "n_chars": 1885
+  },
+  {
+    "accession": "0001193125-26-055096",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Note issuance: promptly following expiration of the Offer | Cash payment: promptly after determination of net asset value as of March 31, 2026; unless changes in tax or other laws or regulations or unusual market conditions result in a delay, on or before thirty (30) days after the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 2150
+  },
+  {
+    "accession": "0001104659-26-016138",
+    "outcome": "fn",
+    "gold": "Payment: 2/5/2026",
+    "pred": null,
+    "n_chars": 480
+  },
+  {
+    "accession": "0001580642-26-001102",
+    "outcome": "fn",
+    "gold": "Acceptance: 4/14/2026 | Payment: on or before 6/4/2026",
+    "pred": null,
+    "n_chars": 1917
+  },
+  {
+    "accession": "0001140361-26-005993",
+    "outcome": "tp",
+    "gold": "Payment: promptly following completion of SS&C's confirmation process",
+    "pred": "Payment: promptly",
+    "n_chars": 673
+  },
+  {
+    "accession": "0001193125-26-056277",
+    "outcome": "fn",
+    "gold": "Acceptance: 3/23/2026 | Payment: No later than 30 days after the Valuation Date",
+    "pred": null,
+    "n_chars": 1710
+  },
+  {
+    "accession": "0001104659-26-017576",
+    "outcome": "tp",
+    "gold": "Acceptance for payment: promptly following the Expiration Date | Payment: promptly following the Expiration Date",
+    "pred": "Payment: promptly",
+    "n_chars": 1132
+  },
+  {
+    "accession": "0001193125-26-059472",
+    "outcome": "mismatch",
+    "gold": "Acceptance: promptly upon expiration of the Repurchase Right | Payment: following the later of 3/24/2026 and book-entry transfer of accepted Notes to the Paying Agent\u2019s DTC account",
+    "pred": "Payment: promptly",
+    "n_chars": 681
+  },
+  {
+    "accession": "0001213900-26-018163",
+    "outcome": "tp",
+    "gold": "Payment: on or about 1/26/2026",
+    "pred": "January 26, 2026",
+    "n_chars": 346
+  },
+  {
+    "accession": "0001104659-26-018198",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Payment: promptly after the determination of the relevant net asset value per Share is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 1369
+  },
+  {
+    "accession": "0001104659-26-018135",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Payment: promptly after the determination of the relevant net asset value per share is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 1855
+  },
+  {
+    "accession": "0001193125-26-060220",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Note issuance: promptly following expiration | Payment: promptly after determination of net asset value as of March 31, 2026; unless delayed by changes in tax or other laws or regulations or unusual market conditions, on or before 35 days after the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 2081
+  },
+  {
+    "accession": "0001193125-26-061052",
+    "outcome": "tp",
+    "gold": "Acceptance and payment: promptly after the Expiration Date",
+    "pred": "Payment: promptly",
+    "n_chars": 607
+  },
+  {
+    "accession": "0001213900-26-018765",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives verbal notice to the tendering Shareholder of its election to purchase the Shares | Payment: within seven calendar days from the Repurchase Pricing Date",
+    "pred": null,
+    "n_chars": 2394
+  },
+  {
+    "accession": "0001193125-26-064150",
+    "outcome": "tp",
+    "gold": "Payment: on or about 2/20/2026",
+    "pred": "February 20, 2026",
+    "n_chars": 227
+  },
+  {
+    "accession": "0001193125-26-070519",
+    "outcome": "tp",
+    "gold": "Acceptance: after 10/7/2025 | Payment: promissory notes given 10/24/2025; initial payment on or about 2/3/2026; contingent post-audit payment promptly after completion of the Fund\u2019s annual audit",
+    "pred": "Payment: promptly",
+    "n_chars": 1290
+  },
+  {
+    "accession": "0001104659-26-019480",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Initial payment: approximately 8/4/2026, unless the repurchase date has changed | Post-audit payment: no later than 5 business days following completion of the Fund\u2019s next annual audit",
+    "pred": null,
+    "n_chars": 1767
+  },
+  {
+    "accession": "0001193125-26-070513",
+    "outcome": "tp",
+    "gold": "Acceptance: N/A | Promissory notes given: 10/24/2025 | Initial payment: on or about 2/3/2026 | Post-audit payment: promptly after the completion of the Fund\u2019s annual audit",
+    "pred": "Payment: promptly",
+    "n_chars": 699
+  },
+  {
+    "accession": "0001193125-26-076649",
+    "outcome": "tp",
+    "gold": "Acceptance: when the Company gives written notice to the tendering Stockholder of its election to purchase the Shares | Payment: promptly after the determination of the relevant net asset value per share is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 1400
+  },
+  {
+    "accession": "0001104659-26-020088",
+    "outcome": "fn",
+    "gold": "Acceptance: promptly after the Expiration Time, not more than three business days after the Expiration Time | Payment: promptly, and in any event within three business days after acceptance",
+    "pred": null,
+    "n_chars": 1255
+  },
+  {
+    "accession": "0001104659-26-021309",
+    "outcome": "fn",
+    "gold": "Acceptance: in accordance with the terms of the Offer | Payment: 2/5/2026",
+    "pred": null,
+    "n_chars": 595
+  },
+  {
+    "accession": "0001104659-26-021060",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice of its election to purchase tendered Shares | Repurchase effective: Valuation Date | Payment: at least 95% of the value of repurchased Shares within 65 days of the Notice Due Date | Any holdback: no later than 5 business days after completion of the applicable annual audit",
+    "pred": null,
+    "n_chars": 2165
+  },
+  {
+    "accession": "0001104659-26-021618",
+    "outcome": "fn",
+    "gold": "Acceptance: 4/24/2026 | Payment: as soon as possible following the determination of the NAV for the Valuation Date",
+    "pred": null,
+    "n_chars": 1367
+  },
+  {
+    "accession": "0001104659-26-021622",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001213900-26-021994",
+    "outcome": "fn",
+    "gold": "Acceptance and grant of New Options: 3/27/2026",
+    "pred": null,
+    "n_chars": 592
+  },
+  {
+    "accession": "0001140361-26-007458",
+    "outcome": "tp",
+    "gold": "Acceptance: as of the date specified in the Form of Acceptance delivered to the tendering shareholder | Payment: promptly after the determination of net asset value per share as of the Valuation Date is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 1608
+  },
+  {
+    "accession": "0001140361-26-007541",
+    "outcome": "mismatch",
+    "gold": "Acceptance and delivery of promissory notes: promptly after expiration | Cash payment in respect of the notes: within 60 days after expiration",
+    "pred": "Payment: promptly",
+    "n_chars": 748
+  },
+  {
+    "accession": "0001104659-26-022652",
+    "outcome": "fn",
+    "gold": "Acceptance: as soon as practicable after the Termination Date | Payment: on or about 4/3/2026",
+    "pred": null,
+    "n_chars": 401
+  },
+  {
+    "accession": "0001193125-26-091845",
+    "outcome": "mismatch",
+    "gold": "Acceptance: immediately following, and no later than 8:30 AM New York City time one business day after the Expiration Date | Payment: as promptly as practicable after acceptance, and within two business days thereafter",
+    "pred": "Payment: promptly",
+    "n_chars": 971
+  },
+  {
+    "accession": "0001999371-26-005028",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice of its election to purchase tendered Shares | Initial payment: up to 65 days after the Notice Due Date | Final payment: within 5 business days after completion of the Fund\u2019s next annual audit; for a Shareholder retaining at least 5.00% of the aggregate value of its Shares, on or before the 60th day after the Repurchase Date",
+    "pred": null,
+    "n_chars": 1846
+  },
+  {
+    "accession": "0001178913-26-000759",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly following the Expiration Date | Payment: promptly after the Expiration Date, subject to possible delay due to proration",
+    "pred": "Payment: promptly",
+    "n_chars": 725
+  },
+  {
+    "accession": "0001213900-26-024177",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly following expiration of the Offer | Payment: promptly following expiration of the Offer; intended within approximately thirty (30) days following the Expiration Date",
+    "pred": "Payment: promptly",
+    "n_chars": 736
+  },
+  {
+    "accession": "0001213900-26-024139",
+    "outcome": "fn",
+    "gold": "Acceptance: after the Offer has expired | Payment: promptly after the Expiration Date upon valid transfer of Shares by the Company\u2019s transfer agent to the Purchaser",
+    "pred": null,
+    "n_chars": 1101
+  },
+  {
+    "accession": "0001213900-26-024139",
+    "outcome": "fn",
+    "gold": "Acceptance: after the Offer has expired | Payment: promptly after the Expiration Date upon valid transfer of Shares by the Company\u2019s transfer agent to the Purchaser",
+    "pred": null,
+    "n_chars": 1101
+  },
+  {
+    "accession": "0001104659-26-024793",
+    "outcome": "mismatch",
+    "gold": "Acceptance: after expiration of the Offer | Payment: as promptly as practicable after acceptance, and in any event within three business days",
+    "pred": "Payment: promptly",
+    "n_chars": 1978
+  },
+  {
+    "accession": "0001398344-26-004601",
+    "outcome": "fn",
+    "gold": "Payment: 1/16/2026",
+    "pred": null,
+    "n_chars": 361
+  },
+  {
+    "accession": "0001213900-26-024603",
+    "outcome": "fn",
+    "gold": "Acceptance: after the Offer has expired | Payment: promptly after the Expiration Date, upon valid transfer of the Shares by the Company\u2019s transfer agent to the Purchaser",
+    "pred": null,
+    "n_chars": 1021
+  },
+  {
+    "accession": "0001580642-26-001705",
+    "outcome": "fn",
+    "gold": "Payment: on or about 2/12/2026",
+    "pred": null,
+    "n_chars": 353
+  },
+  {
+    "accession": "0001580642-26-001708",
+    "outcome": "fn",
+    "gold": "Payment: On or about 1/22/2026",
+    "pred": null,
+    "n_chars": 189
+  },
+  {
+    "accession": "0001099910-26-000099",
+    "outcome": "tp",
+    "gold": "Payment: upon the close of the tender offer period, currently scheduled for 5/11/2026 | Acceptance: N/A",
+    "pred": "May 11, 2026",
+    "n_chars": 445
+  },
+  {
+    "accession": "0001104659-26-032184",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001104659-26-032188",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001104659-26-032187",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001580642-26-001926",
+    "outcome": "fn",
+    "gold": "Payment of the repurchase price: promissory note issued to shareholders | Payment under the promissory note: on or about 12/1/2025",
+    "pred": null,
+    "n_chars": 515
+  },
+  {
+    "accession": "0001104659-26-032491",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: within approximately 5 business days from the Valuation Date",
+    "pred": null,
+    "n_chars": 1228
+  },
+  {
+    "accession": "0001104659-26-032489",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: within approximately 5 business days from the Valuation Date",
+    "pred": null,
+    "n_chars": 1237
+  },
+  {
+    "accession": "0001398344-26-005458",
+    "outcome": "fn",
+    "gold": "Acceptance: N/A | Payment: on or about 1/7/2026",
+    "pred": null,
+    "n_chars": 309
+  },
+  {
+    "accession": "0001193125-26-118703",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly following the Expiration Date | Payment: promptly after the Expiration Date, subject to possible delay due to proration and the guaranteed delivery period",
+    "pred": "Payment: promptly",
+    "n_chars": 1578
+  },
+  {
+    "accession": "0001140361-26-010925",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly after the Expiration Time | Payment: promptly after the Expiration Time",
+    "pred": "Payment: promptly",
+    "n_chars": 604
+  },
+  {
+    "accession": "0001104659-26-034569",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Initial payment: N/A | Post-audit payment: within 5 business days following completion of the Fund\u2019s next annual audit",
+    "pred": null,
+    "n_chars": 2118
+  },
+  {
+    "accession": "0001174947-26-000424",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-125045",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001628280-26-021402",
+    "outcome": "tp",
+    "gold": "Acceptance: N/A | Note issued promptly following expiration of the Offer | Cash payment promptly after determination of net asset value per share as of April 30, 2026; unless changes in tax or other laws or regulations or unusual market conditions cause a delay, on or before 30 days after the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 1865
+  },
+  {
+    "accession": "0001104659-26-035526",
+    "outcome": "fn",
+    "gold": "Payment: 5/1/2026; the Company will deposit sufficient funds with the Paying Agent by 10:00 AM New York City time, and the Paying Agent will promptly distribute the consideration to DTC",
+    "pred": null,
+    "n_chars": 751
+  },
+  {
+    "accession": "0001104659-26-036843",
+    "outcome": "fn",
+    "gold": "Payment: 3/3/2026",
+    "pred": null,
+    "n_chars": 458
+  },
+  {
+    "accession": "0001104659-26-036826",
+    "outcome": "fn",
+    "gold": "Payment: 3/3/2026 | Post-Audit Payment: no later than 5 business days following the completion of the Destiny Alternative Fund\u2019s next annual audit",
+    "pred": null,
+    "n_chars": 772
+  },
+  {
+    "accession": "0001193125-26-131754",
+    "outcome": "mismatch",
+    "gold": "Acceptance: at or promptly after expiration, but within one business day | Payment: at or promptly following acceptance, but within three business days thereafter",
+    "pred": "Payment: promptly",
+    "n_chars": 1860
+  }
+]

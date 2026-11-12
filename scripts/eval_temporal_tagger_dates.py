@@ -157,29 +157,48 @@ def extract_timex(
     return spans
 
 
+# Fields that over-fire when any nearby date is assigned without a real cue.
+# Expiration keeps a looser gate (filings almost always state it).
+_ABSTAIN_FIELDS = frozenset({"withdrawal_deadline", "effective_date"})
+
+
 def assign_fields(
     quotes: list[str],
     tagger,
+    *,
+    min_cues_abstain: int = 1,
 ) -> dict[str, str | None]:
-    """Pick best DATE/TIME span per field via cue proximity."""
-    best: dict[str, tuple[float, str]] = {}
+    """Pick best DATE/TIME span per field via cue proximity.
+
+    Abstain on withdrawal/effective when cue count < ``min_cues_abstain`` so
+    unrelated dates (expiration, notice) are not copied into those slots.
+    """
+    best: dict[str, tuple[float, str, int]] = {}
     for quote in quotes:
         spans = extract_timex(tagger, quote)
         for sp in spans:
             win = _window(quote, sp["start"], sp["end"])
             for field in DATE_FIELDS:
                 cues = _cue_score(win, field)
-                # Prefer DATE over TIME/DURATION; cue hits matter most
                 lab = sp["label"]
                 lab_bonus = 0.15 if "DATE" in lab else (0.05 if "TIME" in lab else 0.0)
                 score = cues * 1.0 + lab_bonus + 0.1 * sp["score"]
-                # Require at least one cue unless only one field has GT later (caller filters)
                 if cues == 0:
                     score -= 0.5
                 prev = best.get(field)
                 if prev is None or score > prev[0]:
-                    best[field] = (score, sp["text"])
-    return {f: (best[f][1] if f in best else None) for f in DATE_FIELDS}
+                    best[field] = (score, sp["text"], cues)
+    out: dict[str, str | None] = {}
+    for field in DATE_FIELDS:
+        if field not in best:
+            out[field] = None
+            continue
+        _score, text, cues = best[field]
+        if field in _ABSTAIN_FIELDS and cues < min_cues_abstain:
+            out[field] = None
+        else:
+            out[field] = text
+    return out
 
 
 def span_hit_any(quotes: list[str], gold: str, tagger) -> tuple[bool, str | None]:
@@ -209,6 +228,23 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--model", default=MODEL_ID)
     p.add_argument("--device", default=None, help="cpu / mps / cuda (default: auto)")
     p.add_argument("--limit", type=int, default=None, help="Limit GT rows (debug)")
+    p.add_argument(
+        "--split",
+        choices=("holdout", "train"),
+        default="holdout",
+        help="holdout = frozen eval; train = non-holdout (for tuning only)",
+    )
+    p.add_argument(
+        "--min-cues-abstain",
+        type=int,
+        default=1,
+        help="Min cue hits required to emit withdrawal/effective (abstain otherwise)",
+    )
+    p.add_argument(
+        "--run-name",
+        default=None,
+        help="Output run folder name under experiments/runs/",
+    )
     args = p.parse_args(argv)
 
     from transformers import pipeline
@@ -236,10 +272,13 @@ def main(argv: list[str] | None = None) -> int:
         {(r.get("accession_number") or "").strip() for r in gt_rows if r.get("accession_number")}
     )
     holdout = set(ensure_holdout(args.out, accessions, n=20))
-    rows = [r for r in gt_rows if (r.get("accession_number") or "").strip() in holdout]
+    if args.split == "holdout":
+        rows = [r for r in gt_rows if (r.get("accession_number") or "").strip() in holdout]
+    else:
+        rows = [r for r in gt_rows if (r.get("accession_number") or "").strip() not in holdout]
     if args.limit:
         rows = rows[: args.limit]
-    print(f"holdout rows: {len(rows)}")
+    print(f"{args.split} rows: {len(rows)}  min_cues_abstain={args.min_cues_abstain}")
 
     # Field-assignment counters
     stats: dict[str, dict[str, int]] = {
@@ -256,7 +295,15 @@ def main(argv: list[str] | None = None) -> int:
         all_quotes = _all_date_quotes(passage)
         # Prefer field-specific quotes; fall back to all date quotes for assignment
         assign_text = all_quotes or [q for qs in field_quotes.values() for q in qs]
-        preds = assign_fields(assign_text, tagger) if assign_text else {f: None for f in DATE_FIELDS}
+        preds = (
+            assign_fields(assign_text, tagger, min_cues_abstain=args.min_cues_abstain)
+            if assign_text
+            else {f: None for f in DATE_FIELDS}
+        )
+        # Effective date is rare and cue-ambiguous: only keep a pred when the
+        # passage itself has effective/commencement quotes (no cross-field copy).
+        if not field_quotes.get("effective_date"):
+            preds["effective_date"] = None
 
         row_detail: dict[str, Any] = {"accession": acc, "fields": {}}
         for field in DATE_FIELDS:
@@ -331,12 +378,19 @@ def main(argv: list[str] | None = None) -> int:
     summary = {
         "model": args.model,
         "device": device,
+        "split": args.split,
+        "min_cues_abstain": args.min_cues_abstain,
         "n_rows": len(rows),
         "micro": _prf(tp, fp, fn),
         "tp": tp,
         "fp": fp,
         "fn": fn,
         "per_field": per_field,
+        "anti_overfit": {
+            "holdout_frozen": True,
+            "abstain_fields": sorted(_ABSTAIN_FIELDS),
+            "note": "Tune min_cues_abstain on --split train only; score holdout once.",
+        },
         "baseline_gliner_medium_holdout_f1": {
             "expiration_date": 0.162,
             "withdrawal_deadline": 0.200,
@@ -345,7 +399,12 @@ def main(argv: list[str] | None = None) -> int:
         },
     }
 
-    out_dir = args.out / "experiments" / "runs" / "temporal_tagger_holdout_dates"
+    run_name = args.run_name or (
+        "temporal_tagger_holdout_dates_abstain"
+        if args.split == "holdout"
+        else "temporal_tagger_train_dates_abstain"
+    )
+    out_dir = args.out / "experiments" / "runs" / run_name
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     (out_dir / "details.json").write_text(json.dumps(details, indent=2), encoding="utf-8")

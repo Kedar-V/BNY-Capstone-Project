@@ -1,0 +1,78 @@
+{
+  "model": "qwen3:4b",
+  "fields": [
+    "minimum_tender_condition",
+    "proration_terms"
+  ]
+}
+holdout rows: 23
+clauses|qwen3:4b:   0%|          | 0/23 [00:00<?, ?doc/s]                                                           0001193125-26-000507  min=tp  pro=tp
+clauses|qwen3:4b:   0%|          | 0/23 [00:05<?, ?doc/s]clauses|qwen3:4b:   4%|▍         | 1/23 [00:05<01:57,  5.36s/doc]                                                                   0001104659-26-000598  min=skip  pro=skip
+clauses|qwen3:4b:   4%|▍         | 1/23 [00:05<01:57,  5.36s/doc]                                                                   0001104659-26-001124  min=fn  pro=skip
+clauses|qwen3:4b:   4%|▍         | 1/23 [00:08<01:57,  5.36s/doc]clauses|qwen3:4b:  13%|█▎        | 3/23 [00:08<00:51,  2.58s/doc]                                                                   0001104659-26-001149  min=skip  pro=skip
+clauses|qwen3:4b:  13%|█▎        | 3/23 [00:08<00:51,  2.58s/doc]                                                                   0001104659-26-001148  min=skip  pro=skip
+clauses|qwen3:4b:  13%|█▎        | 3/23 [00:08<00:51,  2.58s/doc]                                                                   0001193125-26-005515  min=fn  pro=skip
+clauses|qwen3:4b:  13%|█▎        | 3/23 [00:13<00:51,  2.58s/doc]clauses|qwen3:4b:  26%|██▌       | 6/23 [00:13<00:35,  2.11s/doc]                                                                   0001193125-26-005515  min=fn  pro=skip
+clauses|qwen3:4b:  26%|██▌       | 6/23 [00:17<00:35,  2.11s/doc]clauses|qwen3:4b:  30%|███       | 7/23 [00:17<00:37,  2.33s/doc]                                                                   0001104659-26-002517  min=tp  pro=skip
+clauses|qwen3:4b:  30%|███       | 7/23 [00:21<00:37,  2.33s/doc]clauses|qwen3:4b:  35%|███▍      | 8/23 [00:21<00:41,  2.74s/doc]                                                                   0000919574-26-000310  min=skip  pro=skip
+clauses|qwen3:4b:  35%|███▍      | 8/23 [00:21<00:41,  2.74s/doc]                                                                   0001104659-26-006294  min=skip  pro=skip
+clauses|qwen3:4b:  35%|███▍      | 8/23 [00:21<00:41,  2.74s/doc]                                                                   0001104659-26-006517  min=skip  pro=skip
+clauses|qwen3:4b:  35%|███▍      | 8/23 [00:21<00:41,  2.74s/doc]                                                                   0001104659-26-006950  min=tp  pro=fn
+clauses|qwen3:4b:  35%|███▍      | 8/23 [00:29<00:41,  2.74s/doc]clauses|qwen3:4b:  52%|█████▏    | 12/23 [00:29<00:25,  2.36s/doc]                                                                    0001104659-26-008028  min=fn  pro=fn
+clauses|qwen3:4b:  52%|█████▏    | 12/23 [00:51<00:25,  2.36s/doc]clauses|qwen3:4b:  57%|█████▋    | 13/23 [00:51<00:57,  5.79s/doc]                                                                    0000930413-26-000298  min=tp  pro=fn
+clauses|qwen3:4b:  57%|█████▋    | 13/23 [00:59<00:57,  5.79s/doc]clauses|qwen3:4b:  61%|██████    | 14/23 [00:59<00:56,  6.25s/doc]                                                                    0000930413-26-000299  min=tp  pro=fn
+clauses|qwen3:4b:  61%|██████    | 14/23 [01:06<00:56,  6.25s/doc]clauses|qwen3:4b:  65%|██████▌   | 15/23 [01:06<00:51,  6.45s/doc]                                                                    0001140361-26-003032  min=tp  pro=fn
+clauses|qwen3:4b:  65%|██████▌   | 15/23 [01:14<00:51,  6.45s/doc]clauses|qwen3:4b:  70%|██████▉   | 16/23 [01:14<00:47,  6.75s/doc]                                                                    0001104659-26-008693  min=skip  pro=skip
+clauses|qwen3:4b:  70%|██████▉   | 16/23 [01:14<00:47,  6.75s/doc]                                                                    0001104659-26-008976  min=tp  pro=fn
+clauses|qwen3:4b:  70%|██████▉   | 16/23 [01:22<00:47,  6.75s/doc]clauses|qwen3:4b:  78%|███████▊  | 18/23 [01:22<00:28,  5.67s/doc]                                                                    0001104659-26-010301  min=skip  pro=skip
+clauses|qwen3:4b:  78%|███████▊  | 18/23 [01:22<00:28,  5.67s/doc]                                                                    0001104659-26-010301  min=skip  pro=skip
+clauses|qwen3:4b:  78%|███████▊  | 18/23 [01:22<00:28,  5.67s/doc]                                                                    0001104659-26-010301  min=skip  pro=skip
+clauses|qwen3:4b:  78%|███████▊  | 18/23 [01:22<00:28,  5.67s/doc]                                                                    0001104659-26-011592  min=skip  pro=skip
+clauses|qwen3:4b:  78%|███████▊  | 18/23 [01:22<00:28,  5.67s/doc]                                                                    0001104659-26-011591  min=skip  pro=skip
+clauses|qwen3:4b:  78%|███████▊  | 18/23 [01:22<00:28,  5.67s/doc]clauses|qwen3:4b: 100%|██████████| 23/23 [01:22<00:00,  3.60s/doc]
+{
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23,
+  "micro": {
+    "precision": 1.0,
+    "recall": 0.4444444444444444,
+    "f1": 0.6153846153846153
+  },
+  "tp": 8,
+  "fp": 0,
+  "fn": 10,
+  "per_field": {
+    "minimum_tender_condition": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 4,
+      "gt_present": 11,
+      "pred_present": 7,
+      "precision": 1.0,
+      "recall": 0.6363636363636364,
+      "f1": 0.7777777777777778
+    },
+    "proration_terms": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 6,
+      "gt_present": 7,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 0.14285714285714285,
+      "f1": 0.25
+    }
+  },
+  "proration_retrieval": true,
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "Proration prompt GT-aligned (trigger/allocation/priority; no inferred %; omit thousands separators). Retrieval regexes are generic SEC phrasing."
+  },
+  "baseline_gliner_medium_holdout_f1": {
+    "minimum_tender_condition": 0.0,
+    "proration_terms": 0.0
+  }
+}
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/experiments/runs/llm_qwen3_4b_holdout_clauses_proration_gt_prompt
+EXIT:0

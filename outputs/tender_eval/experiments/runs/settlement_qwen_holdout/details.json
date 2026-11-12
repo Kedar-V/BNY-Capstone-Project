@@ -1,0 +1,209 @@
+[
+  {
+    "accession": "0001193125-26-000507",
+    "event_id": "005-94255",
+    "outcome": "tp",
+    "gold": "Acceptance: N/A | Payment: promptly after the Termination Date",
+    "pred": "Payment: promptly",
+    "n_chars": 42182,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-000598",
+    "event_id": "005-94462",
+    "outcome": "fn",
+    "gold": "Acceptance: after the expiration of the Offer | Initial Payment: 5/29/2025 | Post-Audit Payment: no later than 5 business days following the completion of the Fund\u2019s next annual audit",
+    "pred": null,
+    "n_chars": 5907,
+    "raw_llm": "{\n  \"settlement_date\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-001124",
+    "event_id": "005-90033",
+    "outcome": "tp",
+    "gold": "Acceptance: after the expiration of the Offer | Payment: promptly",
+    "pred": "Payment: promptly",
+    "n_chars": 50000,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-001149",
+    "event_id": "005-94079",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 6346,
+    "raw_llm": "{\n  \"settlement_date\": null\n}"
+  },
+  {
+    "accession": "0001104659-26-001148",
+    "event_id": "005-94422",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 7054,
+    "raw_llm": "{\n  \"settlement_date\": null\n}"
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "event_id": "005-88806",
+    "outcome": "tp",
+    "gold": "Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement",
+    "pred": "Payment: promptly",
+    "n_chars": 50000,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "event_id": "005-88806",
+    "outcome": "tp",
+    "gold": "Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement",
+    "pred": "Payment: promptly",
+    "n_chars": 50000,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-002517",
+    "event_id": "005-91530",
+    "outcome": "tp",
+    "gold": "Acceptance and consummation: as promptly as practicable after expiration, and no more than three business days after expiration | Payment: promptly after acceptance",
+    "pred": "Payment: promptly",
+    "n_chars": 50000,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0000919574-26-000310",
+    "event_id": "005-93136",
+    "outcome": "tp",
+    "gold": "Payment: promptly after expiration",
+    "pred": "Payment: promptly",
+    "n_chars": 50000,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-006294",
+    "event_id": "005-93688",
+    "outcome": "mismatch",
+    "gold": "Acceptance for payment: 1/22/2026",
+    "pred": "Payment: promptly",
+    "n_chars": 3392,
+    "raw_llm": "{\n    \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-006517",
+    "event_id": "005-94568",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "Payment: promptly",
+    "n_chars": 50000,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-006950",
+    "event_id": "005-95189",
+    "outcome": "mismatch",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: within seven (7) days of the Notice Due Date",
+    "pred": "Payment: promptly",
+    "n_chars": 7364,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-008028",
+    "event_id": "005-90791",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly following expiration of the Offer | Payment: promptly following expiration of the Offer",
+    "pred": "Payment: promptly",
+    "n_chars": 50000,
+    "raw_llm": "{\n    \"settlement_date\": \"Payment: promptly\"\n  }"
+  },
+  {
+    "accession": "0000930413-26-000298",
+    "event_id": "005-94863",
+    "outcome": "tp",
+    "gold": "Acceptance: generally expected on the first business day following the applicable valuation date | Payment: promptly after the Expiration Date, after the net asset value per Share as of the Valuation Date is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 19713,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0000930413-26-000299",
+    "event_id": "005-95186",
+    "outcome": "tp",
+    "gold": "Acceptance: generally expected on the first business day following the applicable valuation date | Payment: promptly after the Expiration Date, after the net asset value per Share as of the Valuation Date is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 19452,
+    "raw_llm": "{\n    \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001140361-26-003032",
+    "event_id": "005-94050",
+    "outcome": "mismatch",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: on or before 30 days after the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 44195,
+    "raw_llm": "{\n    \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-008693",
+    "event_id": "005-35587",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 25855,
+    "raw_llm": "{\n    \"settlement_date\": null\n  }"
+  },
+  {
+    "accession": "0001104659-26-008976",
+    "event_id": "005-91139",
+    "outcome": "mismatch",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering investor of its election to purchase | Payment: as promptly as practicable after the applicable Valuation Date; full payment expected approximately 35 days following the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 50000,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "Payment: promptly",
+    "n_chars": 4099,
+    "raw_llm": "{\n    \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "Payment: promptly",
+    "n_chars": 4099,
+    "raw_llm": "{\n    \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "Payment: promptly",
+    "n_chars": 4099,
+    "raw_llm": "{\n    \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-011592",
+    "event_id": "005-95034",
+    "outcome": "mismatch",
+    "gold": "Payment: on or about 2/4/2026",
+    "pred": "Payment: promptly",
+    "n_chars": 7148,
+    "raw_llm": "{\n  \"settlement_date\": \"Payment: promptly\"\n}"
+  },
+  {
+    "accession": "0001104659-26-011591",
+    "event_id": "005-94860",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 5275,
+    "raw_llm": "{\n  \"settlement_date\": null\n}"
+  }
+]

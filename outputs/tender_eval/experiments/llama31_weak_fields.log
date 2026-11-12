@@ -1,0 +1,20 @@
+start llama3.1 weak-field holdout probes  model=llama3.1:8b
+pulling/ensuring model…
+smoke: {"ok":true}
+
+===== 1/3 settlement_date =====
+cmd: /Users/kedarvaidya/Desktop/BNY-Capstone-Project/.venv/bin/python -u /Users/kedarvaidya/Desktop/BNY-Capstone-Project/scripts/eval_settlement_qwen.py --model llama3.1:8b --split holdout --run-name settlement_llama31_8b_holdout
+exit=0  elapsed_sec=470.8
+
+===== 2/3 effective_date (direct + Temporal→LLM) =====
+cmd: /Users/kedarvaidya/Desktop/BNY-Capstone-Project/.venv/bin/python -u /Users/kedarvaidya/Desktop/BNY-Capstone-Project/scripts/eval_effective_date_qwen.py --model llama3.1:8b --mode both --split holdout
+exit=0  elapsed_sec=549.6
+
+===== 3/3 clauses (min tender + proration) =====
+cmd: /Users/kedarvaidya/Desktop/BNY-Capstone-Project/.venv/bin/python -u /Users/kedarvaidya/Desktop/BNY-Capstone-Project/scripts/eval_llm_clause_fields.py --model llama3.1:8b --split holdout --run-name llm_llama31_8b_holdout_clauses_retrieve
+exit=0  elapsed_sec=17.3
+
+===== DONE =====
+log=/Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/experiments/llama31_weak_fields.log
+runs: settlement_llama31_8b_holdout, effective_date_*_llama3.1_8b_holdout, llm_llama31_8b_holdout_clauses_retrieve
+[2026-11-12T03:55:56-05:00] runner finished exit=0
