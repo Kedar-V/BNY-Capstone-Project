@@ -1,0 +1,87 @@
+{
+  "model": "satyaalmasian/temporal_tagger_BERT_tokenclassifier",
+  "device": "mps",
+  "split": "train",
+  "min_cues_abstain": 2,
+  "n_rows": 40,
+  "micro": {
+    "precision": 0.6436781609195402,
+    "recall": 0.8235294117647058,
+    "f1": 0.7225806451612904
+  },
+  "tp": 56,
+  "fp": 31,
+  "fn": 12,
+  "per_field": {
+    "expiration_date": {
+      "tp": 34,
+      "fp": 3,
+      "fn": 3,
+      "gt_present": 37,
+      "pred_present": 37,
+      "precision": 0.918918918918919,
+      "recall": 0.918918918918919,
+      "f1": 0.918918918918919,
+      "span_recall": 1.0,
+      "span_hit": 37,
+      "span_miss": 0,
+      "span_no_quote": 0
+    },
+    "withdrawal_deadline": {
+      "tp": 9,
+      "fp": 1,
+      "fn": 3,
+      "gt_present": 12,
+      "pred_present": 10,
+      "precision": 0.9,
+      "recall": 0.75,
+      "f1": 0.8181818181818182,
+      "span_recall": 1.0,
+      "span_hit": 12,
+      "span_miss": 0,
+      "span_no_quote": 0
+    },
+    "settlement_date": {
+      "tp": 13,
+      "fp": 24,
+      "fn": 5,
+      "gt_present": 18,
+      "pred_present": 37,
+      "precision": 0.35135135135135137,
+      "recall": 0.7222222222222222,
+      "f1": 0.4727272727272727,
+      "span_recall": 0.9444444444444444,
+      "span_hit": 17,
+      "span_miss": 1,
+      "span_no_quote": 0
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 3,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null,
+      "span_recall": 1.0,
+      "span_hit": 1,
+      "span_miss": 0,
+      "span_no_quote": 0
+    }
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "abstain_fields": [
+      "effective_date",
+      "withdrawal_deadline"
+    ],
+    "note": "Tune min_cues_abstain on --split train only; score holdout once."
+  },
+  "baseline_gliner_medium_holdout_f1": {
+    "expiration_date": 0.162,
+    "withdrawal_deadline": 0.2,
+    "settlement_date": 0.0,
+    "effective_date": 0.0
+  }
+}

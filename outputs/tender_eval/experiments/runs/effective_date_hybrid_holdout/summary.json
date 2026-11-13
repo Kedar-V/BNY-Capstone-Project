@@ -1,0 +1,25 @@
+{
+  "field": "effective_date",
+  "mode": "hybrid",
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23,
+  "tp": 2,
+  "fp": 6,
+  "fn": 2,
+  "gt_present": 4,
+  "pred_present": 8,
+  "precision": 0.25,
+  "recall": 0.5,
+  "f1": 0.3333333333333333,
+  "baselines": {
+    "temporal_no_abstain_f1": 0.231,
+    "temporal_abstain_v2_f1": 0.0,
+    "qwen_direct_multifield_f1": null,
+    "hybrid_gliner_qwen_f1": null
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "Focused effective_date prompts; no threshold search on holdout."
+  }
+}

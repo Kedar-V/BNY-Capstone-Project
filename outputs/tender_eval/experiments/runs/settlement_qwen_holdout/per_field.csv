@@ -1,0 +1,2 @@
+field,tp,fp,fn,gt_present,pred_present,precision,recall,f1
+settlement_date,9,9,6,15,18,0.5,0.6,0.5454545454545454

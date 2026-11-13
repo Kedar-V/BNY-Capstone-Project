@@ -1,0 +1,22 @@
+{
+  "comparable_micro_exclusions": [
+    {
+      "field": "currency",
+      "reason": "GT present on only 2/23 holdout rows (and ~9% of train). Soft-match F1 is dominated by spurious USD emission, not extractor quality. Do not chase models for currency until GT densifies.",
+      "action": "Exclude from oracle / comparable micro; report separately as fill-rate diagnostic."
+    },
+    {
+      "field": "isin",
+      "reason": "Qwen direct never emits; rules/GLiNER already at 1.0 when present.",
+      "action": "Keep in per-field bars; optional exclude from cross-system micro when a system has pred_present=0."
+    }
+  ],
+  "anti_overfit": {
+    "holdout_accessions": "outputs/tender_eval/experiments/holdout_accessions.txt",
+    "protocol": [
+      "Never tune thresholds, cues, or regexes on holdout labels.",
+      "Use --split train for selection; freeze; score --split holdout once.",
+      "Prefer principle-based gates (cue required, promptly-before-date, generic If more than retrieval) over holdout-memorizing phrases."
+    ]
+  }
+}

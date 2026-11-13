@@ -1,0 +1,25 @@
+{
+  "field": "effective_date",
+  "mode": "hybrid",
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23,
+  "tp": 4,
+  "fp": 10,
+  "fn": 0,
+  "gt_present": 4,
+  "pred_present": 14,
+  "precision": 0.2857142857142857,
+  "recall": 1.0,
+  "f1": 0.4444444444444445,
+  "baselines": {
+    "temporal_no_abstain_f1": 0.231,
+    "temporal_abstain_v2_f1": 0.0,
+    "qwen_direct_multifield_f1": null,
+    "hybrid_gliner_qwen_f1": null
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "Hybrid accept/reject prompt (merger-close + issuer as-of; reject expiry/withdraw/filed-on). No holdout threshold search."
+  }
+}

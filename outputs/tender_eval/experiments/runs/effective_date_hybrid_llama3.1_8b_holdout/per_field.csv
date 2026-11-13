@@ -1,0 +1,2 @@
+field,tp,fp,fn,gt_present,pred_present,precision,recall,f1
+effective_date,3,20,1,4,23,0.13043478260869565,0.75,0.22222222222222218

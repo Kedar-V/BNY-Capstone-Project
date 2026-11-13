@@ -1,0 +1,2 @@
+field,tp,fp,fn,gt_present,pred_present,precision,recall,f1
+currency,2,15,0,2,17,0.11764705882352941,1.0,0.21052631578947367

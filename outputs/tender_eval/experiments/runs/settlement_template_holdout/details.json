@@ -1,0 +1,163 @@
+[
+  {
+    "accession": "0001193125-26-000507",
+    "outcome": "tp",
+    "gold": "Acceptance: N/A | Payment: promptly after the Termination Date",
+    "pred": "Payment: promptly",
+    "n_chars": 1675
+  },
+  {
+    "accession": "0001104659-26-000598",
+    "outcome": "fn",
+    "gold": "Acceptance: after the expiration of the Offer | Initial Payment: 5/29/2025 | Post-Audit Payment: no later than 5 business days following the completion of the Fund\u2019s next annual audit",
+    "pred": null,
+    "n_chars": 915
+  },
+  {
+    "accession": "0001104659-26-001124",
+    "outcome": "tp",
+    "gold": "Acceptance: after the expiration of the Offer | Payment: promptly",
+    "pred": "Payment: promptly",
+    "n_chars": 1436
+  },
+  {
+    "accession": "0001104659-26-001149",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 242
+  },
+  {
+    "accession": "0001104659-26-001148",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "outcome": "fn",
+    "gold": "Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement",
+    "pred": null,
+    "n_chars": 243
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "outcome": "fn",
+    "gold": "Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement",
+    "pred": null,
+    "n_chars": 243
+  },
+  {
+    "accession": "0001104659-26-002517",
+    "outcome": "tp",
+    "gold": "Acceptance and consummation: as promptly as practicable after expiration, and no more than three business days after expiration | Payment: promptly after acceptance",
+    "pred": "Payment: promptly",
+    "n_chars": 2708
+  },
+  {
+    "accession": "0000919574-26-000310",
+    "outcome": "tp",
+    "gold": "Payment: promptly after expiration",
+    "pred": "Payment: promptly",
+    "n_chars": 540
+  },
+  {
+    "accession": "0001104659-26-006294",
+    "outcome": "tp",
+    "gold": "Acceptance for payment: 1/22/2026",
+    "pred": "January 22, 2026",
+    "n_chars": 515
+  },
+  {
+    "accession": "0001104659-26-006517",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001104659-26-006950",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: within seven (7) days of the Notice Due Date",
+    "pred": null,
+    "n_chars": 1539
+  },
+  {
+    "accession": "0001104659-26-008028",
+    "outcome": "tp",
+    "gold": "Acceptance: promptly following expiration of the Offer | Payment: promptly following expiration of the Offer",
+    "pred": "Payment: promptly",
+    "n_chars": 1066
+  },
+  {
+    "accession": "0000930413-26-000298",
+    "outcome": "tp",
+    "gold": "Acceptance: generally expected on the first business day following the applicable valuation date | Payment: promptly after the Expiration Date, after the net asset value per Share as of the Valuation Date is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 1936
+  },
+  {
+    "accession": "0000930413-26-000299",
+    "outcome": "tp",
+    "gold": "Acceptance: generally expected on the first business day following the applicable valuation date | Payment: promptly after the Expiration Date, after the net asset value per Share as of the Valuation Date is finalized",
+    "pred": "Payment: promptly",
+    "n_chars": 1496
+  },
+  {
+    "accession": "0001140361-26-003032",
+    "outcome": "fn",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Payment: on or before 30 days after the Valuation Date",
+    "pred": null,
+    "n_chars": 1483
+  },
+  {
+    "accession": "0001104659-26-008693",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  },
+  {
+    "accession": "0001104659-26-008976",
+    "outcome": "mismatch",
+    "gold": "Acceptance: when the Fund gives written notice to the tendering investor of its election to purchase | Payment: as promptly as practicable after the applicable Valuation Date; full payment expected approximately 35 days following the Valuation Date",
+    "pred": "Payment: promptly",
+    "n_chars": 1649
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 225
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 220
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 225
+  },
+  {
+    "accession": "0001104659-26-011592",
+    "outcome": "tp",
+    "gold": "Payment: on or about 2/4/2026",
+    "pred": "February 4, 2026",
+    "n_chars": 317
+  },
+  {
+    "accession": "0001104659-26-011591",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "n_chars": 0
+  }
+]

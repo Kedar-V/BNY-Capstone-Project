@@ -1,0 +1,54 @@
+{
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23
+}
+[1/23] 0001193125-26-000507 tp pred='Payment: promptly'
+[2/23] 0001104659-26-000598 fn pred=None
+[3/23] 0001104659-26-001124 tp pred='Payment: promptly'
+[4/23] 0001104659-26-001149 skip pred=None
+[5/23] 0001104659-26-001148 skip pred=None
+[6/23] 0001193125-26-005515 tp pred='Payment: promptly'
+[7/23] 0001193125-26-005515 tp pred='Payment: promptly'
+[8/23] 0001104659-26-002517 tp pred='Payment: promptly'
+[9/23] 0000919574-26-000310 tp pred='Payment: promptly'
+[10/23] 0001104659-26-006294 mismatch pred='Payment: promptly'
+[11/23] 0001104659-26-006517 fp_no_gt pred='Payment: promptly'
+[12/23] 0001104659-26-006950 mismatch pred='Payment: promptly'
+[13/23] 0001104659-26-008028 tp pred='Payment: promptly'
+[14/23] 0000930413-26-000298 tp pred='Payment: promptly'
+[15/23] 0000930413-26-000299 tp pred='Payment: promptly'
+[16/23] 0001140361-26-003032 mismatch pred='Payment: promptly'
+[17/23] 0001104659-26-008693 skip pred=None
+[18/23] 0001104659-26-008976 mismatch pred='Payment: promptly'
+[19/23] 0001104659-26-010301 fp_no_gt pred='Payment: promptly'
+[20/23] 0001104659-26-010301 fp_no_gt pred='Payment: promptly'
+[21/23] 0001104659-26-010301 fp_no_gt pred='Payment: promptly'
+[22/23] 0001104659-26-011592 mismatch pred='Payment: promptly'
+[23/23] 0001104659-26-011591 skip pred=None
+{
+  "field": "settlement_date",
+  "method": "qwen_prompt_engineering",
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23,
+  "tp": 9,
+  "fp": 9,
+  "fn": 6,
+  "gt_present": 15,
+  "pred_present": 18,
+  "precision": 0.5,
+  "recall": 0.6,
+  "f1": 0.5454545454545454,
+  "baselines": {
+    "settlement_template_rules_f1": 0.72,
+    "hybrid_allspans_f1": 0.64,
+    "qwen_direct_multifield_f1": 0.286,
+    "temporal_f1": 0.324
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "CR-shaped Payment: promptly prompt; light normalize of promptly freeform to Payment: promptly"
+  }
+}
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/experiments/runs/settlement_qwen_holdout

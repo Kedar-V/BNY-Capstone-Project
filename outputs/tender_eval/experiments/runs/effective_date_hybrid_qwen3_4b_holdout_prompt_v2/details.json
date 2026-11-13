@@ -1,0 +1,209 @@
+[
+  {
+    "accession": "0001193125-26-000507",
+    "event_id": "005-94255",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "january 2, 2026",
+    "evidence_chars": 8435,
+    "raw_llm": "{\"effective_date\": \"january 2, 2026\"}"
+  },
+  {
+    "accession": "0001104659-26-000598",
+    "event_id": "005-94462",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "march 31, 2025",
+    "evidence_chars": 4775,
+    "raw_llm": "{\"effective_date\": \"march 31, 2025\"}"
+  },
+  {
+    "accession": "0001104659-26-001124",
+    "event_id": "005-90033",
+    "outcome": "tp",
+    "gold": "1/6/2026",
+    "pred": "january 6, 2026",
+    "evidence_chars": 2998,
+    "raw_llm": "{\"effective_date\": \"january 6, 2026\"}"
+  },
+  {
+    "accession": "0001104659-26-001149",
+    "event_id": "005-94079",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 6361,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  },
+  {
+    "accession": "0001104659-26-001148",
+    "event_id": "005-94422",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 4957,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "event_id": "005-88806",
+    "outcome": "tp",
+    "gold": "1/7/2026",
+    "pred": "january 7, 2026",
+    "evidence_chars": 5755,
+    "raw_llm": "{\"effective_date\": \"january 7, 2026\"}"
+  },
+  {
+    "accession": "0001193125-26-005515",
+    "event_id": "005-88806",
+    "outcome": "tp",
+    "gold": "1/7/2026",
+    "pred": "january 7, 2026",
+    "evidence_chars": 5755,
+    "raw_llm": "{\"effective_date\": \"january 7, 2026\"}"
+  },
+  {
+    "accession": "0001104659-26-002517",
+    "event_id": "005-91530",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "december 15, 2025",
+    "evidence_chars": 6068,
+    "raw_llm": "{\"effective_date\": \"december 15, 2025\"}"
+  },
+  {
+    "accession": "0000919574-26-000310",
+    "event_id": "005-93136",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "january 13, 2026",
+    "evidence_chars": 6296,
+    "raw_llm": "{\"effective_date\": \"january 13, 2026\"}"
+  },
+  {
+    "accession": "0001104659-26-006294",
+    "event_id": "005-93688",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 2712,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  },
+  {
+    "accession": "0001104659-26-006517",
+    "event_id": "005-94568",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "november 24, 2025",
+    "evidence_chars": 5306,
+    "raw_llm": "{\"effective_date\": \"november 24, 2025\"}"
+  },
+  {
+    "accession": "0001104659-26-006950",
+    "event_id": "005-95189",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "march 24, 2026",
+    "evidence_chars": 7391,
+    "raw_llm": "{\"effective_date\": \"march 24, 2026\"}"
+  },
+  {
+    "accession": "0001104659-26-008028",
+    "event_id": "005-90791",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "march 27, 2026",
+    "evidence_chars": 7690,
+    "raw_llm": "{\"effective_date\": \"march 27, 2026\"}"
+  },
+  {
+    "accession": "0000930413-26-000298",
+    "event_id": "005-94863",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "march 27, 2026",
+    "evidence_chars": 6906,
+    "raw_llm": "{\"effective_date\": \"march 27, 2026\"}"
+  },
+  {
+    "accession": "0000930413-26-000299",
+    "event_id": "005-95186",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "march 31, 2026",
+    "evidence_chars": 7029,
+    "raw_llm": "{\"effective_date\": \"march 31, 2026\"}"
+  },
+  {
+    "accession": "0001140361-26-003032",
+    "event_id": "005-94050",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 7315,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  },
+  {
+    "accession": "0001104659-26-008693",
+    "event_id": "005-35587",
+    "outcome": "fp_no_gt",
+    "gold": null,
+    "pred": "june 20, 2025",
+    "evidence_chars": 2217,
+    "raw_llm": "{\"effective_date\": \"june 20, 2025\"}"
+  },
+  {
+    "accession": "0001104659-26-008976",
+    "event_id": "005-91139",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 8798,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 2558,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 2558,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  },
+  {
+    "accession": "0001104659-26-010301",
+    "event_id": "005-93626",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 2558,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  },
+  {
+    "accession": "0001104659-26-011592",
+    "event_id": "005-95034",
+    "outcome": "tp",
+    "gold": "12/31/2025 4:00 PM Eastern Time",
+    "pred": "december 31, 2025",
+    "evidence_chars": 4302,
+    "raw_llm": "{\"effective_date\": \"december 31, 2025\"}"
+  },
+  {
+    "accession": "0001104659-26-011591",
+    "event_id": "005-94860",
+    "outcome": "skip",
+    "gold": null,
+    "pred": null,
+    "evidence_chars": 5502,
+    "raw_llm": "{\"effective_date\": \"null\"}"
+  }
+]

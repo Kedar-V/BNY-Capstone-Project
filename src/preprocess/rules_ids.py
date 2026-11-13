@@ -224,22 +224,22 @@ def find_currency(offer_price: str | None) -> str | None:
 def find_settlement(text: str) -> str | None:
     """Payment / acceptance timing for settlement_date.
 
-    Prefers an explicit pay/accept calendar date; else a promptly-* phrase
-    shaped like GT ``Payment: …`` so soft-match can hit structured labels.
+    Prefer GT-shaped ``Payment: promptly`` when the filing uses promptly-pay
+    language (soft-match hits structured Concise Representation labels).
+    Otherwise take an explicit pay/accept calendar date near a pay cue.
     """
     if not text or not text.strip():
         return None
-    # Date within ±80 chars of an accept/pay cue (order varies in filings).
+    # Promptly-first: calendar dates near "accepted for payment" often are the
+    # wrong field (expiration / notice) when GT is timing language.
+    if _SETTLE_PROMPTLY_LONG.search(text) or _SETTLE_PROMPTLY_PAY.search(text):
+        return "Payment: promptly"
     for cue in _SETTLE_PAY_CUE.finditer(text):
         lo, hi = max(0, cue.start() - 80), min(len(text), cue.end() + 80)
         window = text[lo:hi]
         dm = _ANY_DATE_RE.search(window)
         if dm:
             return dm.group(0).strip()
-    # Emit the short GT-shaped clause — soft-match hits both
-    # "Payment: promptly" and longer "Payment: promptly after/following …" labels.
-    if _SETTLE_PROMPTLY_LONG.search(text) or _SETTLE_PROMPTLY_PAY.search(text):
-        return "Payment: promptly"
     return None
 
 

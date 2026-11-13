@@ -1,0 +1,87 @@
+{
+  "model": "satyaalmasian/temporal_tagger_BERT_tokenclassifier",
+  "device": "mps",
+  "split": "holdout",
+  "min_cues_abstain": 1,
+  "n_rows": 23,
+  "micro": {
+    "precision": 0.5882352941176471,
+    "recall": 0.5882352941176471,
+    "f1": 0.5882352941176471
+  },
+  "tp": 30,
+  "fp": 21,
+  "fn": 21,
+  "per_field": {
+    "expiration_date": {
+      "tp": 18,
+      "fp": 4,
+      "fn": 4,
+      "gt_present": 22,
+      "pred_present": 22,
+      "precision": 0.8181818181818182,
+      "recall": 0.8181818181818182,
+      "f1": 0.8181818181818182,
+      "span_recall": 1.0,
+      "span_hit": 22,
+      "span_miss": 0,
+      "span_no_quote": 0
+    },
+    "withdrawal_deadline": {
+      "tp": 6,
+      "fp": 1,
+      "fn": 4,
+      "gt_present": 10,
+      "pred_present": 7,
+      "precision": 0.8571428571428571,
+      "recall": 0.6,
+      "f1": 0.7058823529411764,
+      "span_recall": 1.0,
+      "span_hit": 10,
+      "span_miss": 0,
+      "span_no_quote": 0
+    },
+    "settlement_date": {
+      "tp": 6,
+      "fp": 16,
+      "fn": 9,
+      "gt_present": 15,
+      "pred_present": 22,
+      "precision": 0.2727272727272727,
+      "recall": 0.4,
+      "f1": 0.3243243243243243,
+      "span_recall": 0.5333333333333333,
+      "span_hit": 8,
+      "span_miss": 7,
+      "span_no_quote": 0
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "gt_present": 4,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null,
+      "span_recall": 1.0,
+      "span_hit": 4,
+      "span_miss": 0,
+      "span_no_quote": 0
+    }
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "abstain_fields": [
+      "effective_date",
+      "withdrawal_deadline"
+    ],
+    "note": "Tune min_cues_abstain on --split train only; score holdout once."
+  },
+  "baseline_gliner_medium_holdout_f1": {
+    "expiration_date": 0.162,
+    "withdrawal_deadline": 0.2,
+    "settlement_date": 0.0,
+    "effective_date": 0.0
+  }
+}

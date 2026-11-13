@@ -1,0 +1,25 @@
+{
+  "field": "currency",
+  "mode": "hybrid_spans_qwen",
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23,
+  "tp": 2,
+  "fp": 9,
+  "fn": 0,
+  "gt_present": 2,
+  "pred_present": 11,
+  "precision": 0.18181818181818182,
+  "recall": 1.0,
+  "f1": 0.3076923076923077,
+  "baselines": {
+    "rules_f1": 0.267,
+    "qwen_direct_f1": 0.16,
+    "hybrid_allspans_f1": 0.167,
+    "accounting_ner_f1": 0.235
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "GT-aligned currency prompt (explicit code or $\u2192USD; null if no cash currency). No holdout threshold search."
+  }
+}

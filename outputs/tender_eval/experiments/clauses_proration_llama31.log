@@ -1,0 +1,78 @@
+{
+  "model": "llama3.1:8b",
+  "fields": [
+    "minimum_tender_condition",
+    "proration_terms"
+  ]
+}
+holdout rows: 23
+clauses|llama3.1:8b:   0%|          | 0/23 [00:00<?, ?doc/s]                                                              0001193125-26-000507  min=tp  pro=tp
+clauses|llama3.1:8b:   0%|          | 0/23 [00:05<?, ?doc/s]clauses|llama3.1:8b:   4%|▍         | 1/23 [00:05<02:03,  5.60s/doc]                                                                      0001104659-26-000598  min=skip  pro=skip
+clauses|llama3.1:8b:   4%|▍         | 1/23 [00:05<02:03,  5.60s/doc]                                                                      0001104659-26-001124  min=fn  pro=skip
+clauses|llama3.1:8b:   4%|▍         | 1/23 [00:05<02:03,  5.60s/doc]clauses|llama3.1:8b:  13%|█▎        | 3/23 [00:05<00:31,  1.57s/doc]                                                                      0001104659-26-001149  min=skip  pro=skip
+clauses|llama3.1:8b:  13%|█▎        | 3/23 [00:05<00:31,  1.57s/doc]                                                                      0001104659-26-001148  min=skip  pro=skip
+clauses|llama3.1:8b:  13%|█▎        | 3/23 [00:05<00:31,  1.57s/doc]                                                                      0001193125-26-005515  min=fn  pro=skip
+clauses|llama3.1:8b:  13%|█▎        | 3/23 [00:06<00:31,  1.57s/doc]clauses|llama3.1:8b:  26%|██▌       | 6/23 [00:06<00:11,  1.45doc/s]                                                                      0001193125-26-005515  min=fn  pro=skip
+clauses|llama3.1:8b:  26%|██▌       | 6/23 [00:06<00:11,  1.45doc/s]clauses|llama3.1:8b:  30%|███       | 7/23 [00:06<00:09,  1.77doc/s]                                                                      0001104659-26-002517  min=tp  pro=skip
+clauses|llama3.1:8b:  30%|███       | 7/23 [00:08<00:09,  1.77doc/s]clauses|llama3.1:8b:  35%|███▍      | 8/23 [00:08<00:12,  1.19doc/s]                                                                      0000919574-26-000310  min=skip  pro=skip
+clauses|llama3.1:8b:  35%|███▍      | 8/23 [00:08<00:12,  1.19doc/s]                                                                      0001104659-26-006294  min=skip  pro=skip
+clauses|llama3.1:8b:  35%|███▍      | 8/23 [00:08<00:12,  1.19doc/s]                                                                      0001104659-26-006517  min=skip  pro=skip
+clauses|llama3.1:8b:  35%|███▍      | 8/23 [00:08<00:12,  1.19doc/s]                                                                      0001104659-26-006950  min=fn  pro=tp
+clauses|llama3.1:8b:  35%|███▍      | 8/23 [00:10<00:12,  1.19doc/s]clauses|llama3.1:8b:  52%|█████▏    | 12/23 [00:10<00:07,  1.45doc/s]                                                                       0001104659-26-008028  min=fn  pro=mismatch
+clauses|llama3.1:8b:  52%|█████▏    | 12/23 [00:13<00:07,  1.45doc/s]clauses|llama3.1:8b:  57%|█████▋    | 13/23 [00:13<00:11,  1.10s/doc]                                                                       0000930413-26-000298  min=tp  pro=tp
+clauses|llama3.1:8b:  57%|█████▋    | 13/23 [00:15<00:11,  1.10s/doc]clauses|llama3.1:8b:  61%|██████    | 14/23 [00:15<00:10,  1.18s/doc]                                                                       0000930413-26-000299  min=tp  pro=tp
+clauses|llama3.1:8b:  61%|██████    | 14/23 [00:16<00:10,  1.18s/doc]clauses|llama3.1:8b:  65%|██████▌   | 15/23 [00:16<00:09,  1.15s/doc]                                                                       0001140361-26-003032  min=fn  pro=tp
+clauses|llama3.1:8b:  65%|██████▌   | 15/23 [00:17<00:09,  1.15s/doc]clauses|llama3.1:8b:  70%|██████▉   | 16/23 [00:17<00:08,  1.23s/doc]                                                                       0001104659-26-008693  min=skip  pro=skip
+clauses|llama3.1:8b:  70%|██████▉   | 16/23 [00:17<00:08,  1.23s/doc]                                                                       0001104659-26-008976  min=tp  pro=tp
+clauses|llama3.1:8b:  70%|██████▉   | 16/23 [00:22<00:08,  1.23s/doc]clauses|llama3.1:8b:  78%|███████▊  | 18/23 [00:22<00:08,  1.70s/doc]                                                                       0001104659-26-010301  min=skip  pro=skip
+clauses|llama3.1:8b:  78%|███████▊  | 18/23 [00:22<00:08,  1.70s/doc]                                                                       0001104659-26-010301  min=skip  pro=skip
+clauses|llama3.1:8b:  78%|███████▊  | 18/23 [00:22<00:08,  1.70s/doc]                                                                       0001104659-26-010301  min=skip  pro=skip
+clauses|llama3.1:8b:  78%|███████▊  | 18/23 [00:22<00:08,  1.70s/doc]                                                                       0001104659-26-011592  min=skip  pro=skip
+clauses|llama3.1:8b:  78%|███████▊  | 18/23 [00:22<00:08,  1.70s/doc]                                                                       0001104659-26-011591  min=skip  pro=skip
+clauses|llama3.1:8b:  78%|███████▊  | 18/23 [00:22<00:08,  1.70s/doc]clauses|llama3.1:8b: 100%|██████████| 23/23 [00:22<00:00,  1.03doc/s]
+{
+  "model": "llama3.1:8b",
+  "split": "holdout",
+  "n_rows": 23,
+  "micro": {
+    "precision": 0.9166666666666666,
+    "recall": 0.6111111111111112,
+    "f1": 0.7333333333333334
+  },
+  "tp": 11,
+  "fp": 1,
+  "fn": 7,
+  "per_field": {
+    "minimum_tender_condition": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 6,
+      "gt_present": 11,
+      "pred_present": 5,
+      "precision": 1.0,
+      "recall": 0.45454545454545453,
+      "f1": 0.625
+    },
+    "proration_terms": {
+      "tp": 6,
+      "fp": 1,
+      "fn": 1,
+      "gt_present": 7,
+      "pred_present": 7,
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1": 0.8571428571428571
+    }
+  },
+  "proration_retrieval": true,
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "Proration prompt GT-aligned (trigger/allocation/priority; no inferred %; omit thousands separators). Retrieval regexes are generic SEC phrasing."
+  },
+  "baseline_gliner_medium_holdout_f1": {
+    "minimum_tender_condition": 0.0,
+    "proration_terms": 0.0
+  }
+}
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/experiments/runs/llm_llama31_8b_holdout_clauses_proration_gt_prompt
+EXIT:0
