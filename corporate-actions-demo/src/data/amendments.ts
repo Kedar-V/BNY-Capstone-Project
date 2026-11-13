@@ -20,6 +20,7 @@ export interface Amendment {
   id: string
   eventId: string
   action: AmendAction
+  sector: string
   title: string
   accession: string
   form: string
@@ -123,4 +124,95 @@ export function recordUpdates(a: Amendment): string[] {
   return a.changes
     .filter((c) => c.kind !== 'text' && (c.tier === 'action' || c.tier === 'informational'))
     .map((c) => `${fieldLabel(c.field)} → ${c.current}`)
+}
+
+/** Sectors in filter order (hand-labelled per event in scripts/sectors.json). */
+export const SECTORS = ['Funds & BDCs', 'Financials', 'Health Care', 'Technology', 'Consumer', 'Energy', 'Real Estate', 'Materials', 'Industrials', 'Communication Services']
+
+/** Dates a holder has to act by. Settlement and closing dates are dates too, but nobody acts on them. */
+export const DEADLINE_FIELDS = ['expiration_date', 'withdrawal_deadline', 'election_deadline', 'vote_date', 'record_date']
+const DATE_FIELDS = [...DEADLINE_FIELDS, 'settlement_date', 'effective_date']
+
+const DAY = 86_400_000
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+/** Parses "Feb 8, 2026" or "2026-02-08" to a UTC day number. */
+export function dayNum(s: string | null | undefined): number | null {
+  if (!s) return null
+  let m = s.match(/^(\d{4})-(\d{2})-(\d{2})$/)
+  if (m) return Math.round(Date.UTC(+m[1], +m[2] - 1, +m[3]) / DAY)
+  m = s.match(/^([A-Z][a-z]{2})[a-z]*\.? (\d{1,2}), (\d{4})$/)
+  const mon = m ? MONTHS.indexOf(m[1]) : -1
+  return mon < 0 ? null : Math.round(Date.UTC(+m![3], mon, +m![2]) / DAY)
+}
+
+export type ShiftKind = 'earlier' | 'later' | 'set' | 'stale'
+export interface DateShift { change: AmendChange; kind: ShiftKind; days: number | null }
+
+/** How a date field moved: earlier, later, or set for the first time. */
+export function dateShift(c: AmendChange): DateShift | null {
+  if (c.kind !== 'value' || !DATE_FIELDS.includes(c.field)) return null
+  const now = dayNum(c.current)
+  if (now === null) return null
+  const before = dayNum(c.previous)
+  if (before === null) return { change: c, kind: 'set', days: null }
+  if (now === before) return null
+  return { change: c, kind: now < before ? 'earlier' : 'later', days: now - before }
+}
+
+/**
+ * The deadline change that matters most in a filing: moved earlier, extended, newly set, then stale. A new deadline
+ * before the filing's own date is "stale": usually a previous offer round's date picked up by extraction, so it is
+ * kept apart from real moves rather than raised as an urgent alert.
+ */
+export function deadlineShift(a: Amendment): DateShift | null {
+  const filed = dayNum(a.filed)
+  const shifts = a.changes
+    .filter((c) => DEADLINE_FIELDS.includes(c.field) && c.tier !== 'log_only')
+    .map(dateShift)
+    .filter((x): x is DateShift => !!x)
+    .map((x) => (filed !== null && dayNum(x.change.current)! < filed ? { ...x, kind: 'stale' as const } : x))
+  const rank: Record<ShiftKind, number> = { earlier: 0, later: 1, set: 2, stale: 3 }
+  return shifts.sort((x, y) => rank[x.kind] - rank[y.kind])[0] ?? null
+}
+
+/** Days between the filing and a date in it (negative: the date was already past). */
+export const daysFromFiling = (a: Amendment, date: string | null) => {
+  const d = dayNum(date), f = dayNum(a.filed)
+  return d === null || f === null ? null : d - f
+}
+
+export const fmtDays = (n: number) => `${n > 0 ? '+' : n < 0 ? '−' : ''}${Math.abs(n)}d`
+
+/** "+4.0%" for prices, "+0.05" for ratios; null when either side isn't a number. */
+export function numericDelta(c: AmendChange): string | null {
+  if (c.kind !== 'value' || DATE_FIELDS.includes(c.field)) return null
+  const num = (s: string | null) => {
+    const m = s?.replace(/,/g, '').match(/-?\d+(\.\d+)?/)
+    return m ? parseFloat(m[0]) : null
+  }
+  const a = num(c.previous), b = num(c.current)
+  if (a === null || b === null || a === b) return null
+  if (c.previous?.includes('$') || c.current?.includes('$')) return a ? `${b > a ? '+' : '−'}${Math.abs(((b - a) / a) * 100).toFixed(1)}%` : null
+  return `${b > a ? '+' : '−'}${+Math.abs(b - a).toFixed(4)}`
+}
+
+export type DiffPart = { t: 'same' | 'add' | 'del'; text: string }
+/** Word-level diff of two passages (longest common subsequence), with runs merged. */
+export function wordDiff(before: string, after: string): DiffPart[] {
+  const a = before.split(/\s+/).filter(Boolean), b = after.split(/\s+/).filter(Boolean)
+  const norm = (w: string) => w.toLowerCase().replace(/[^a-z0-9$%.]/g, '')
+  const L = Array.from({ length: a.length + 1 }, () => new Uint16Array(b.length + 1))
+  for (let i = a.length - 1; i >= 0; i--)
+    for (let j = b.length - 1; j >= 0; j--) L[i][j] = norm(a[i]) === norm(b[j]) ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1])
+  const out: DiffPart[] = []
+  const push = (t: DiffPart['t'], w: string) => (out.length && out[out.length - 1].t === t ? (out[out.length - 1].text += ' ' + w) : out.push({ t, text: w }))
+  let i = 0, j = 0
+  while (i < a.length && j < b.length) {
+    if (norm(a[i]) === norm(b[j])) { push('same', b[j]); i++; j++ }
+    else if (L[i + 1][j] >= L[i][j + 1]) push('del', a[i++])
+    else push('add', b[j++])
+  }
+  while (i < a.length) push('del', a[i++])
+  while (j < b.length) push('add', b[j++])
+  return out
 }
