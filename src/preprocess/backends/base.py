@@ -101,7 +101,16 @@ class GlinerBackend:
         try:
             from gliner import GLiNER
 
+            from src.preprocess.parallel import pick_torch_device
+
             self._model = GLiNER.from_pretrained(self.model_id)
+            device = pick_torch_device()
+            if device != "cpu" and hasattr(self._model, "to"):
+                try:
+                    self._model.to(device)
+                except Exception:  # noqa: BLE001
+                    pass  # fall back to whatever from_pretrained chose
+            self._device = device
         except Exception as exc:  # noqa: BLE001
             self._load_error = str(exc)
 

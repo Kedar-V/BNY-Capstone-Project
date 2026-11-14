@@ -1,13 +1,15 @@
-"""Download stage: fetch priority HTML into raw/."""
+"""Download stage: fetch priority HTML into raw/ (threaded)."""
 
 from __future__ import annotations
 
+import threading
+from collections import defaultdict
 from typing import Any
 
 from src.eda.sec_client import SecClient
 from src.preprocess.contracts import StageContext, StageResult
+from src.preprocess.parallel import default_workers, map_parallel
 from src.preprocess.paths import get_path_config, stub_manifest
-from src.preprocess.progress import stage_progress
 from src.preprocess.resume import resolve_event_ids
 from src.preprocess.store import ArtifactStore, sha1_bytes, utc_now_iso
 
@@ -27,7 +29,6 @@ class DownloadStage:
             return StageResult(stage=self.name, status="stub_not_implemented", metrics=payload, artifact_paths=[str(path)])
 
         event_ids = resolve_event_ids(store, ctx, stage=self.name)
-        n_ok = n_skip = n_err = n_empty = 0
         errors: list[str] = []
         doc_jobs: list[tuple[str, dict[str, Any]]] = []
 
@@ -42,14 +43,19 @@ class DownloadStage:
             for doc in inv.get("docs") or []:
                 doc_jobs.append((eid, doc))
 
-        pbar = stage_progress(
-            doc_jobs,
-            desc="download",
-            total=len(doc_jobs),
-            unit="doc",
-            show=ctx.show_progress,
-        )
-        for eid, doc in pbar:
+        workers = default_workers(ctx.extra.get("workers"))
+        # thread-local SEC clients so throttle state isn't shared
+        local = threading.local()
+
+        def _client() -> SecClient:
+            c = getattr(local, "client", None)
+            if c is None:
+                c = SecClient()
+                local.client = c
+            return c
+
+        def _one(job: tuple[str, dict[str, Any]]) -> tuple[str, dict[str, Any]]:
+            eid, doc = job
             accession = doc.get("accession") or ""
             filename = doc.get("filename") or ""
             cik = str(doc.get("primary_cik") or "")
@@ -72,20 +78,17 @@ class DownloadStage:
                             "sha1": sha1_bytes(data),
                         }
                     )
-                    n_skip += 1
                 else:
                     if not cik or not accession or not filename:
                         raise ValueError("missing cik/accession/filename")
-                    url = self.client.document_url(cik, accession, filename)
+                    url = _client().document_url(cik, accession, filename)
                     record["url"] = url
                     if ctx.dry_run:
                         record["status"] = "dry_run"
-                        n_skip += 1
                     else:
-                        data = self.client.get_bytes(url)
+                        data = _client().get_bytes(url)
                         if not data:
                             record.update({"status": "empty", "bytes": 0, "sha1": None})
-                            n_empty += 1
                         else:
                             out.write_bytes(data)
                             record.update(
@@ -95,28 +98,60 @@ class DownloadStage:
                                     "sha1": sha1_bytes(data),
                                 }
                             )
-                            n_ok += 1
             except Exception as exc:  # noqa: BLE001
                 record["status"] = "http_error"
                 record["error"] = str(exc)
-                n_err += 1
-                errors.append(f"{eid}/{filename}: {exc}")
+            return eid, record
 
+        n_ok = n_skip = n_err = n_empty = 0
+        by_eid: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        counts = {"ok": 0, "skip": 0, "err": 0}
+
+        def _on_result(item: tuple[str, dict[str, Any]]) -> None:
+            eid, record = item
+            by_eid[eid].append(record)
+            st = record.get("status")
+            if st == "ok":
+                counts["ok"] += 1
+            elif st in {"skipped", "dry_run"}:
+                counts["skip"] += 1
+            elif st == "http_error":
+                counts["err"] += 1
+                errors.append(f"{eid}/{record.get('filename')}: {record.get('error')}")
+            elif st == "empty":
+                n_empty_box[0] += 1
+
+        n_empty_box = [0]
+        map_parallel(
+            doc_jobs,
+            _one,
+            workers=workers,
+            desc="download",
+            show_progress=ctx.show_progress,
+            on_result=_on_result,
+            postfix=lambda: {"ok": counts["ok"], "skip": counts["skip"], "err": counts["err"]},
+        )
+        n_ok, n_skip, n_err, n_empty = counts["ok"], counts["skip"], counts["err"], n_empty_box[0]
+
+        for eid, records in by_eid.items():
             man_path = store.download_manifest_path(eid)
             existing = {"event_id": eid, "docs": [], "updated_at": utc_now_iso()}
             if man_path.exists():
                 existing = store.read_json(man_path)
-            docs_list = [
-                d
-                for d in existing.get("docs", [])
-                if d.get("filename") != filename or d.get("accession") != accession
-            ]
-            docs_list.append(record)
+            docs_list = list(existing.get("docs") or [])
+            for record in records:
+                docs_list = [
+                    d
+                    for d in docs_list
+                    if not (
+                        d.get("filename") == record.get("filename")
+                        and d.get("accession") == record.get("accession")
+                    )
+                ]
+                docs_list.append(record)
             existing["docs"] = docs_list
             existing["updated_at"] = utc_now_iso()
             store.write_json(man_path, existing)
-            if hasattr(pbar, "set_postfix"):
-                pbar.set_postfix(ok=n_ok, skip=n_skip, err=n_err, refresh=False)
 
         metrics = {
             "n_docs_attempted": len(doc_jobs),
@@ -125,6 +160,7 @@ class DownloadStage:
             "n_http_error": n_err,
             "n_empty": n_empty,
             "n_events_pending": len(event_ids),
+            "workers": workers,
         }
         man = store.write_stage_manifest(self.name, {"status": "ok", "metrics": metrics, "errors": errors[:30]})
         return StageResult(

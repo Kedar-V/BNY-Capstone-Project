@@ -74,6 +74,9 @@ class GlinerStage:
             path = store.write_stage_manifest(self.name, payload)
             return StageResult(stage=self.name, status="stub_not_implemented", metrics=payload, artifact_paths=[str(path)])
 
+        from src.preprocess.parallel import configure_torch_threads
+
+        configure_torch_threads()
         backend = self._backend(ctx)
         default_labels = cfg.gliner_labels or list(GLINER_LABELS_TO)
         event_ids = _event_ids(store, ctx, stage=self.name)

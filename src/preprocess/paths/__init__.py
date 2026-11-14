@@ -39,8 +39,9 @@ def get_path_config(name: str) -> PathConfig:
         "merger": PathConfig(
             name="merger",
             mvp_event_type="merger",
-            implemented=False,
-            gliner_labels=[],
+            implemented=True,
+            # Reuse TO zero-shot labels; merger ActionPack hint_allow remaps offeror→acquirer etc.
+            gliner_labels=list(GLINER_LABELS_TO),
         ),
         "conversion": PathConfig(
             name="conversion",

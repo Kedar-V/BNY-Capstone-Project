@@ -49,6 +49,17 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--inspect-limit", type=int, default=5)
     p.add_argument("--no-progress", action="store_true")
     p.add_argument("--progress", action="store_true", help="Force tqdm even if not a TTY")
+    p.add_argument(
+        "--workers",
+        type=int,
+        default=None,
+        help="Thread workers for download (env PREPROCESS_WORKERS; default=cpu count)",
+    )
+    p.add_argument(
+        "--device",
+        default=None,
+        help="GLiNER torch device: auto|mps|cpu|cuda (env GLINER_DEVICE)",
+    )
     args = p.parse_args(argv)
 
     # Default: show tqdm unless explicitly disabled (important for redirected/CI logs too when --progress)
@@ -69,6 +80,16 @@ def main(argv: list[str] | None = None) -> int:
         extra["skip_db"] = True
     if args.pending_only:
         extra["pending_only"] = True
+    if args.workers is not None:
+        extra["workers"] = args.workers
+        import os
+
+        os.environ["PREPROCESS_WORKERS"] = str(args.workers)
+    if args.device:
+        import os
+
+        os.environ["GLINER_DEVICE"] = args.device
+        os.environ["PREPROCESS_DEVICE"] = args.device
 
     if args.viz_only:
         out = run_viz(

@@ -11,7 +11,8 @@ from src.eda.config import PROCESSED_DIR
 from src.eda.mvp import tag_mvp_events
 from src.preprocess.contracts import StageContext, StageResult
 from src.preprocess.paths import get_path_config, stub_manifest
-from src.preprocess.paths.tender import select_priority_docs
+from src.preprocess.paths.merger import select_priority_docs as select_merger_docs
+from src.preprocess.paths.tender import select_priority_docs as select_tender_docs
 from src.preprocess.progress import stage_progress
 from src.preprocess.resume import merge_cohort_index
 from src.preprocess.store import SCHEMA_VERSION, ArtifactStore, utc_now_iso
@@ -29,6 +30,20 @@ def load_catalog(
         events = tag_mvp_events(events)
     return events, docs
 
+
+def _has_mvp_type(val: Any, want: str) -> bool:
+    w = want.lower()
+    if val is None or (isinstance(val, float) and pd.isna(val)):
+        return False
+    if isinstance(val, (list, tuple, set)):
+        return any(w in str(t).lower() for t in val)
+    return w in str(val).lower()
+
+
+def _select_docs(path_name: str, event_docs: pd.DataFrame) -> dict[str, Any]:
+    if path_name == "merger":
+        return select_merger_docs(event_docs)
+    return select_tender_docs(event_docs)
 
 class InventoryStage:
     name = "inventory"
@@ -51,6 +66,15 @@ class InventoryStage:
         events, docs = load_catalog(events_path, docs_path)
 
         preferred = events[events["in_mvp_preferred"].fillna(False)].copy()
+        # Merger path: keep events whose docs carry merger in mvp_event_types
+        if cfg.mvp_event_type and cfg.mvp_event_type != "tender_offer":
+            if "mvp_event_types" in docs.columns:
+                merger_eids = {
+                    str(e)
+                    for e, g in docs.groupby(docs["event_id"].astype(str))
+                    if any(_has_mvp_type(v, cfg.mvp_event_type) for v in g["mvp_event_types"])
+                }
+                preferred = preferred[preferred["event_id"].astype(str).isin(merger_eids)]
         if ctx.event_ids:
             preferred = preferred[preferred["event_id"].astype(str).isin(ctx.event_ids)]
 
@@ -108,7 +132,7 @@ class InventoryStage:
                         pbar.set_postfix(ok=n_success, skip=n_skipped, refresh=False)
                     continue
                 edocs = docs[docs["event_id"].astype(str) == eid]
-                selected = select_priority_docs(edocs)
+                selected = _select_docs(ctx.path_name, edocs)
                 if ctx.cohort and selected["cohort"] != ctx.cohort:
                     n_skipped += 1
                     continue
