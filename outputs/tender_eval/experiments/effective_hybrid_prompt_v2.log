@@ -1,0 +1,60 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8308.94it/s]
+{
+  "modes": [
+    "hybrid"
+  ],
+  "split": "holdout",
+  "n_rows": 23
+}
+effective|hybrid|qwen3:4b:   0%|          | 0/23 [00:00<?, ?doc/s]                                                                    [hybrid] 0001193125-26-000507 fp_no_gt pred='january 2, 2026'
+effective|hybrid|qwen3:4b:   0%|          | 0/23 [00:07<?, ?doc/s]effective|hybrid|qwen3:4b:   4%|▍         | 1/23 [00:07<02:50,  7.73s/doc]                                                                            [hybrid] 0001104659-26-000598 fp_no_gt pred='march 31, 2025'
+effective|hybrid|qwen3:4b:   4%|▍         | 1/23 [00:10<02:50,  7.73s/doc]effective|hybrid|qwen3:4b:   9%|▊         | 2/23 [00:10<01:45,  5.01s/doc]                                                                            [hybrid] 0001104659-26-001124 tp pred='january 6, 2026'
+effective|hybrid|qwen3:4b:   9%|▊         | 2/23 [00:12<01:45,  5.01s/doc]effective|hybrid|qwen3:4b:  13%|█▎        | 3/23 [00:12<01:12,  3.64s/doc]                                                                            [hybrid] 0001104659-26-001149 skip pred=None
+effective|hybrid|qwen3:4b:  13%|█▎        | 3/23 [00:16<01:12,  3.64s/doc]effective|hybrid|qwen3:4b:  17%|█▋        | 4/23 [00:16<01:08,  3.59s/doc]                                                                            [hybrid] 0001104659-26-001148 skip pred=None
+effective|hybrid|qwen3:4b:  17%|█▋        | 4/23 [00:19<01:08,  3.59s/doc]effective|hybrid|qwen3:4b:  22%|██▏       | 5/23 [00:19<00:59,  3.29s/doc]                                                                            [hybrid] 0001193125-26-005515 tp pred='january 7, 2026'
+effective|hybrid|qwen3:4b:  22%|██▏       | 5/23 [00:22<00:59,  3.29s/doc]effective|hybrid|qwen3:4b:  26%|██▌       | 6/23 [00:22<00:57,  3.39s/doc]                                                                            [hybrid] 0001193125-26-005515 tp pred='january 7, 2026'
+effective|hybrid|qwen3:4b:  26%|██▌       | 6/23 [00:23<00:57,  3.39s/doc]effective|hybrid|qwen3:4b:  30%|███       | 7/23 [00:23<00:39,  2.47s/doc]                                                                            [hybrid] 0001104659-26-002517 fp_no_gt pred='december 15, 2025'
+effective|hybrid|qwen3:4b:  30%|███       | 7/23 [00:26<00:39,  2.47s/doc]effective|hybrid|qwen3:4b:  35%|███▍      | 8/23 [00:26<00:41,  2.79s/doc]                                                                            [hybrid] 0000919574-26-000310 fp_no_gt pred='january 13, 2026'
+effective|hybrid|qwen3:4b:  35%|███▍      | 8/23 [00:30<00:41,  2.79s/doc]effective|hybrid|qwen3:4b:  39%|███▉      | 9/23 [00:30<00:43,  3.08s/doc]                                                                            [hybrid] 0001104659-26-006294 skip pred=None
+effective|hybrid|qwen3:4b:  39%|███▉      | 9/23 [00:32<00:43,  3.08s/doc]effective|hybrid|qwen3:4b:  43%|████▎     | 10/23 [00:32<00:35,  2.70s/doc]                                                                             [hybrid] 0001104659-26-006517 fp_no_gt pred='november 24, 2025'
+effective|hybrid|qwen3:4b:  43%|████▎     | 10/23 [00:35<00:35,  2.70s/doc]effective|hybrid|qwen3:4b:  48%|████▊     | 11/23 [00:35<00:34,  2.85s/doc]                                                                             [hybrid] 0001104659-26-006950 fp_no_gt pred='march 24, 2026'
+effective|hybrid|qwen3:4b:  48%|████▊     | 11/23 [00:40<00:34,  2.85s/doc]effective|hybrid|qwen3:4b:  52%|█████▏    | 12/23 [00:40<00:37,  3.36s/doc]                                                                             [hybrid] 0001104659-26-008028 fp_no_gt pred='march 27, 2026'
+effective|hybrid|qwen3:4b:  52%|█████▏    | 12/23 [00:44<00:37,  3.36s/doc]effective|hybrid|qwen3:4b:  57%|█████▋    | 13/23 [00:44<00:36,  3.70s/doc]                                                                             [hybrid] 0000930413-26-000298 fp_no_gt pred='march 27, 2026'
+effective|hybrid|qwen3:4b:  57%|█████▋    | 13/23 [00:48<00:36,  3.70s/doc]effective|hybrid|qwen3:4b:  61%|██████    | 14/23 [00:48<00:34,  3.81s/doc]                                                                             [hybrid] 0000930413-26-000299 fp_no_gt pred='march 31, 2026'
+effective|hybrid|qwen3:4b:  61%|██████    | 14/23 [00:51<00:34,  3.81s/doc]effective|hybrid|qwen3:4b:  65%|██████▌   | 15/23 [00:51<00:28,  3.61s/doc]                                                                             [hybrid] 0001140361-26-003032 skip pred=None
+effective|hybrid|qwen3:4b:  65%|██████▌   | 15/23 [00:55<00:28,  3.61s/doc]effective|hybrid|qwen3:4b:  70%|██████▉   | 16/23 [00:55<00:25,  3.61s/doc]                                                                             [hybrid] 0001104659-26-008693 fp_no_gt pred='june 20, 2025'
+effective|hybrid|qwen3:4b:  70%|██████▉   | 16/23 [00:57<00:25,  3.61s/doc]effective|hybrid|qwen3:4b:  74%|███████▍  | 17/23 [00:57<00:18,  3.06s/doc]                                                                             [hybrid] 0001104659-26-008976 skip pred=None
+effective|hybrid|qwen3:4b:  74%|███████▍  | 17/23 [01:01<00:18,  3.06s/doc]effective|hybrid|qwen3:4b:  78%|███████▊  | 18/23 [01:01<00:17,  3.47s/doc]                                                                             [hybrid] 0001104659-26-010301 skip pred=None
+effective|hybrid|qwen3:4b:  78%|███████▊  | 18/23 [01:03<00:17,  3.47s/doc]effective|hybrid|qwen3:4b:  83%|████████▎ | 19/23 [01:03<00:11,  2.96s/doc]                                                                             [hybrid] 0001104659-26-010301 skip pred=None
+effective|hybrid|qwen3:4b:  83%|████████▎ | 19/23 [01:03<00:11,  2.96s/doc]effective|hybrid|qwen3:4b:  87%|████████▋ | 20/23 [01:03<00:06,  2.16s/doc]                                                                             [hybrid] 0001104659-26-010301 skip pred=None
+effective|hybrid|qwen3:4b:  87%|████████▋ | 20/23 [01:03<00:06,  2.16s/doc]effective|hybrid|qwen3:4b:  91%|█████████▏| 21/23 [01:03<00:03,  1.60s/doc]                                                                             [hybrid] 0001104659-26-011592 tp pred='december 31, 2025'
+effective|hybrid|qwen3:4b:  91%|█████████▏| 21/23 [01:06<00:03,  1.60s/doc]effective|hybrid|qwen3:4b:  96%|█████████▌| 22/23 [01:06<00:01,  1.97s/doc]                                                                             [hybrid] 0001104659-26-011591 skip pred=None
+effective|hybrid|qwen3:4b:  96%|█████████▌| 22/23 [01:10<00:01,  1.97s/doc]effective|hybrid|qwen3:4b: 100%|██████████| 23/23 [01:10<00:00,  2.38s/doc]effective|hybrid|qwen3:4b: 100%|██████████| 23/23 [01:10<00:00,  3.05s/doc]
+{
+  "field": "effective_date",
+  "mode": "hybrid",
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23,
+  "tp": 4,
+  "fp": 10,
+  "fn": 0,
+  "gt_present": 4,
+  "pred_present": 14,
+  "precision": 0.2857142857142857,
+  "recall": 1.0,
+  "f1": 0.4444444444444445,
+  "baselines": {
+    "temporal_no_abstain_f1": 0.231,
+    "temporal_abstain_v2_f1": 0.0,
+    "qwen_direct_multifield_f1": null,
+    "hybrid_gliner_qwen_f1": null
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "Hybrid accept/reject prompt (merger-close + issuer as-of; reject expiry/withdraw/filed-on). No holdout threshold search."
+  }
+}
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/experiments/runs/effective_date_hybrid_qwen3_4b_holdout
+EXIT:0

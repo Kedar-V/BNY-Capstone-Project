@@ -1,0 +1,118 @@
+{
+  "base_model": "urchade/gliner_medium-v2.1",
+  "data": "/Users/aeshagandhi/Workspace/BNY-Capstone-Project/mergers_extraction/outputs/training_data",
+  "max_steps": 500,
+  "batch_size": 2,
+  "lr": 5e-06,
+  "train_examples": 5248,
+  "train_spans": 15805,
+  "holdout_examples": 1282,
+  "holdout_spans": 3749,
+  "training_data_summary": {
+    "gt": "/Users/aeshagandhi/Workspace/BNY-Capstone-Project/notebooks/evaluation/data/merger_2026-01-01_2026-09-30/mergers.csv",
+    "filings": 573,
+    "records": 951,
+    "splits": {
+      "holdout": {
+        "filings": 103,
+        "deal_groups": 75
+      },
+      "train": {
+        "filings": 470,
+        "deal_groups": 268
+      }
+    },
+    "examples": {
+      "train": 5248,
+      "holdout": 1282
+    },
+    "positive_passages": 5039,
+    "negative_passages": 1490
+  },
+  "train_seconds": 494,
+  "loss_history": [
+    {
+      "loss": 8.1704,
+      "step": 25
+    },
+    {
+      "loss": 6.3508,
+      "step": 50
+    },
+    {
+      "loss": 5.2937,
+      "step": 75
+    },
+    {
+      "loss": 3.9836,
+      "step": 100
+    },
+    {
+      "loss": 4.8258,
+      "step": 125
+    },
+    {
+      "loss": 3.362,
+      "step": 150
+    },
+    {
+      "loss": 2.9161,
+      "step": 175
+    },
+    {
+      "loss": 2.6189,
+      "step": 200
+    },
+    {
+      "loss": 2.2553,
+      "step": 225
+    },
+    {
+      "loss": 1.5295,
+      "step": 250
+    },
+    {
+      "loss": 2.7558,
+      "step": 275
+    },
+    {
+      "loss": 1.8378,
+      "step": 300
+    },
+    {
+      "loss": 2.2051,
+      "step": 325
+    },
+    {
+      "loss": 2.5863,
+      "step": 350
+    },
+    {
+      "loss": 2.5776,
+      "step": 375
+    },
+    {
+      "loss": 3.0243,
+      "step": 400
+    },
+    {
+      "loss": 2.0605,
+      "step": 425
+    },
+    {
+      "loss": 2.4984,
+      "step": 450
+    },
+    {
+      "loss": 2.8748,
+      "step": 475
+    },
+    {
+      "loss": 2.138,
+      "step": 500
+    },
+    {
+      "step": 500
+    }
+  ]
+}

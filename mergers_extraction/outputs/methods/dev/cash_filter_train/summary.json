@@ -1,0 +1,21 @@
+{
+  "method": "fine-tuned GLiNER + cash filter",
+  "model": "fine-tuned GLiNER + cash filter",
+  "split": "train",
+  "filings": 120,
+  "records": 214,
+  "reads": "learned",
+  "seconds": 0,
+  "micro": {
+    "learned": {
+      "tp": 40,
+      "fp": 18,
+      "fn": 9,
+      "gt_absence_values": 28,
+      "precision": 0.6896551724137931,
+      "recall": 0.8163265306122449,
+      "f1": 0.7476635514018692
+    }
+  },
+  "note": "Agreement with unverified LLM ground truth. Category fields accept a span containing the label's key word; free-text fields use token F1 >= 0.5. Stated absences ('No ...') are counted apart because a span model cannot produce them."
+}

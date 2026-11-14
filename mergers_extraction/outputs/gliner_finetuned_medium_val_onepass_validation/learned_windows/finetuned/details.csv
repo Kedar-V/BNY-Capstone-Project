@@ -1,0 +1,585 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+learned,0001140361-26-000522,DEFM14A,acquirer,Aquarian Holdings VI L.P.,Aquarian Holdings VI L.P.,0.8065903186798096,tp
+learned,0001140361-26-000522,DEFM14A,target,"Brighthouse Financial, Inc.",Brighthouse Financial,0.9440579414367676,tp
+learned,0001140361-26-000522,DEFM14A,merger_subsidiary,Aquarian Beacon Merger Sub Inc.,Aquarian Beacon Merger Sub Inc.,0.953403115272522,tp
+learned,0001140361-26-000522,DEFM14A,security_description,common stock,Common Stock,0.9432808756828308,tp
+learned,0001140361-26-000522,DEFM14A,cash_consideration,$70.00 per share,$70.00,0.9924800395965576,tp
+learned,0001140361-26-000522,DEFM14A,stock_exchange_ratio,No stock consideration,one,0.9197245240211487,absence_value
+learned,0001140361-26-000522,DEFM14A,shareholder_vote_date,2/12/2026 8:00 AM Eastern Standard Time,"February 12, 2026",0.9793727993965149,tp
+learned,0001140361-26-000522,DEFM14A,expected_closing,2026,2026,0.730109453201294,tp
+learned,0001193125-26-009645,S-4/A,acquirer,Churchill Capital Corp IX,Churchill Capital Corp IX,0.8775140643119812,tp
+learned,0001193125-26-009645,S-4/A,target,"Plus Automation, Inc.","Plus Automation, Inc.",0.8588590025901794,tp
+learned,0001193125-26-009645,S-4/A,merger_subsidiary,"AL Merger Sub I, Inc. | AL Merger Sub II, LLC","Al Merger Sub I, Inc.",0.8885766863822937,tp
+learned,0001193125-26-009645,S-4/A,security_description,PlusAI common stock,common stock,0.9478294253349304,tp
+learned,0001193125-26-009645,S-4/A,cash_consideration,No cash consideration,$10.00,0.6989787817001343,absence_value
+learned,0001193125-26-009645,S-4/A,stock_exchange_ratio,approximately 0.0700 shares of Post-Closing Company common stock per share,one,0.9590708613395691,mismatch
+learned,0001193125-26-009645,S-4/A,shareholder_vote_date,2/3/2026 9:00 AM Eastern Time,"February 3, 2026",0.9740608334541321,tp
+learned,0001193125-26-009645,S-4/A,expected_closing,early 2026,early 2026,0.9653548002243042,tp
+learned,0001829126-26-000260,8-K,acquirer,D. Boral ARC Acquisition I Corp.,D. Boral ARC Acquisition I Corp.,0.7717363834381104,tp
+learned,0001829126-26-000260,8-K,target,Exascale Labs Inc.,Exascale Labs Inc.,0.854793906211853,tp
+learned,0001829126-26-000260,8-K,merger_subsidiary,D. Boral Arc Merger Sub Inc.,D. Boral Arc Merger Sub Inc.,0.8888871669769287,tp
+learned,0001829126-26-000260,8-K,security_description,Class A common stock,common stock,0.8737770915031433,tp
+learned,0001829126-26-000260,8-K,cash_consideration,,Ten Dollars ($10.00),0.792689323425293,fp_no_gt
+learned,0001829126-26-000260,8-K,stock_exchange_ratio,Per Share Merger Consideration divided by $10.00 in PubCo Class A common stock per share,one,0.958065927028656,mismatch
+learned,0001829126-26-000260,8-K,expected_closing,second quarter of 2026,second quarter of 2026,0.9776380062103271,tp
+learned,0001829126-26-000260,8-K,acquirer,D. Boral ARC Acquisition I Corp.,D. Boral ARC Acquisition I Corp.,0.7717363834381104,tp
+learned,0001829126-26-000260,8-K,target,Exascale Labs Inc.,Exascale Labs Inc.,0.854793906211853,tp
+learned,0001829126-26-000260,8-K,merger_subsidiary,D. Boral Arc Merger Sub Inc.,D. Boral Arc Merger Sub Inc.,0.8888871669769287,tp
+learned,0001829126-26-000260,8-K,security_description,Class B common stock,common stock,0.8737770915031433,tp
+learned,0001829126-26-000260,8-K,cash_consideration,,Ten Dollars ($10.00),0.792689323425293,fp_no_gt
+learned,0001829126-26-000260,8-K,stock_exchange_ratio,Per Share Merger Consideration divided by $10.00 in PubCo Class B common stock per share,one,0.958065927028656,mismatch
+learned,0001829126-26-000260,8-K,expected_closing,second quarter of 2026,second quarter of 2026,0.9776380062103271,tp
+learned,0001140361-26-001670,DEFM14A,acquirer,Horizon Technology Finance Corporation,Horizon Technology Finance Corporation,0.8203703761100769,tp
+learned,0001140361-26-001670,DEFM14A,target,Monroe Capital Corporation,Horizon Technology Finance Corporation,0.7764975428581238,mismatch
+learned,0001140361-26-001670,DEFM14A,merger_subsidiary,"HMMS, Inc.","HMMS, Inc.",0.8999670147895813,tp
+learned,0001140361-26-001670,DEFM14A,security_description,Common stock,Common Stock,0.9479209780693054,tp
+learned,0001140361-26-001670,DEFM14A,stock_exchange_ratio,MRCC per-share NAV divided by HRZN per-share NAV shares of HRZN common stock per share,one,0.9413176774978638,mismatch
+learned,0001140361-26-001670,DEFM14A,shareholder_vote_date,3/13/2026 2:30 PM Eastern Time,"March 13, 2026",0.9820736646652222,tp
+learned,0001140361-26-001670,DEFM14A,expected_closing,first half of 2026,first half of calendar year 2026,0.9680248498916626,tp
+learned,0001213900-26-007416,S-4/A,acquirer,Athena Technology Acquisition Corp. II,Athena Technology Acquisition Corp. II,0.7739889025688171,tp
+learned,0001213900-26-007416,S-4/A,target,"Ace Green Recycling, Inc.","Ace Green Recycling, Inc.",0.8699090480804443,tp
+learned,0001213900-26-007416,S-4/A,merger_subsidiary,Project Atlas Merger Sub Inc.,Project Atlas Merger Sub Inc.,0.9538736343383789,tp
+learned,0001213900-26-007416,S-4/A,security_description,Common stock,common stock,0.9272616505622864,tp
+learned,0001213900-26-007416,S-4/A,stock_exchange_ratio,"($250,000,000 ÷ $10.10) ÷ Ace Green Fully Diluted Capital Stock shares of Athena Class A common stock per share",one,0.9200987815856934,mismatch
+learned,0001213900-26-007416,S-4/A,shareholder_vote_date,,2026,0.42953309416770935,fp_no_gt
+learned,0001213900-26-007416,S-4/A,expected_closing,Promptly following the special meeting,third quarter of 2025,0.8055456876754761,mismatch
+learned,0001104659-26-007023,S-4/A,acquirer,"Beacon Topco, Inc.",Topco,0.7811442613601685,tp
+learned,0001104659-26-007023,S-4/A,target,"Clywedog Therapeutics, Inc.",Barinthus Bio,0.8327201008796692,mismatch
+learned,0001104659-26-007023,S-4/A,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc.",0.9539429545402527,tp
+learned,0001104659-26-007023,S-4/A,security_description,Common stock,common stock,0.9415172338485718,tp
+learned,0001104659-26-007023,S-4/A,stock_exchange_ratio,4.358932 shares of Topco Common Stock per share,one,0.9510237574577332,mismatch
+learned,0001104659-26-007023,S-4/A,expected_closing,first half of 2026,first half of 2026,0.9878218770027161,tp
+learned,0001104659-26-007023,S-4/A,acquirer,"Beacon Topco, Inc.",Topco,0.7811442613601685,tp
+learned,0001104659-26-007023,S-4/A,target,"Clywedog Therapeutics, Inc.",Barinthus Bio,0.8327201008796692,mismatch
+learned,0001104659-26-007023,S-4/A,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc.",0.9539429545402527,tp
+learned,0001104659-26-007023,S-4/A,security_description,Series Seed Preferred Stock,common stock,0.9415172338485718,mismatch
+learned,0001104659-26-007023,S-4/A,stock_exchange_ratio,4.358932 shares of Topco Common Stock per share,one,0.9510237574577332,mismatch
+learned,0001104659-26-007023,S-4/A,expected_closing,first half of 2026,first half of 2026,0.9878218770027161,tp
+learned,0001140361-26-002822,SC 13E3/A,acquirer,EH Parent LLC,EH Parent LLC,0.7916887402534485,tp
+learned,0001140361-26-002822,SC 13E3/A,target,Soho House & Co Inc.,Soho House,0.917468786239624,tp
+learned,0001140361-26-002822,SC 13E3/A,merger_subsidiary,EH MergerSub Inc.,EH MergerSub Inc.,0.9499273300170898,tp
+learned,0001140361-26-002822,SC 13E3/A,security_description,Class A Common Stock,Common Stock,0.9216007590293884,tp
+learned,0001140361-26-002822,SC 13E3/A,cash_consideration,$9.00 per share,$9.00,0.9745298624038696,tp
+learned,0001140361-26-002822,SC 13E3/A,stock_exchange_ratio,No stock consideration,one,0.9735095500946045,absence_value
+learned,0001140361-26-002822,SC 13E3/A,shareholder_vote_date,1/9/2026,"January 9, 2026",0.9115824699401855,tp
+learned,0001140361-26-002822,SC 13E3/A,effective_date,1/29/2026,,,fn_no_pred
+learned,0001140361-26-002822,SC 13E3/A,acquirer,EH Parent LLC,EH Parent LLC,0.7916887402534485,tp
+learned,0001140361-26-002822,SC 13E3/A,target,Soho House & Co Inc.,Soho House,0.917468786239624,tp
+learned,0001140361-26-002822,SC 13E3/A,merger_subsidiary,EH MergerSub Inc.,EH MergerSub Inc.,0.9499273300170898,tp
+learned,0001140361-26-002822,SC 13E3/A,security_description,Class B Common Stock,Common Stock,0.9216007590293884,tp
+learned,0001140361-26-002822,SC 13E3/A,cash_consideration,$9.00 per share,$9.00,0.9745298624038696,tp
+learned,0001140361-26-002822,SC 13E3/A,stock_exchange_ratio,No stock consideration,one,0.9735095500946045,absence_value
+learned,0001140361-26-002822,SC 13E3/A,shareholder_vote_date,1/9/2026,"January 9, 2026",0.9115824699401855,tp
+learned,0001140361-26-002822,SC 13E3/A,effective_date,1/29/2026,,,fn_no_pred
+learned,0001829126-26-000901,425,acquirer,,Voyager Acquisition Corp.,0.8452872037887573,fp_no_gt
+learned,0001829126-26-000901,425,target,Veraxa Biotech AG,VERAXA Biotech AG,0.8553354144096375,tp
+learned,0001829126-26-000901,425,security_description,Company Shares,Ordinary Shares,0.7184379696846008,tp
+learned,0001829126-26-000901,425,stock_exchange_ratio,,one,0.8844667077064514,fp_no_gt
+learned,0001104659-26-011659,DEFM14A,acquirer,Burke & Herbert Financial Services Corp.,"Burke & Herbert Financial Services Group, Inc.",0.7056419849395752,tp
+learned,0001104659-26-011659,DEFM14A,target,"LINKBANCORP, Inc.","LINKBANCORP, Inc.",0.840782642364502,tp
+learned,0001104659-26-011659,DEFM14A,merger_subsidiary,,LINKBANK,0.7583467364311218,fp_no_gt
+learned,0001104659-26-011659,DEFM14A,security_description,common stock,common stock,0.9556941390037537,tp
+learned,0001104659-26-011659,DEFM14A,stock_exchange_ratio,0.1350 shares of Burke & Herbert common stock per share,0.1350,0.9779351949691772,tp
+learned,0001104659-26-011659,DEFM14A,shareholder_vote_date,3/25/2026 8:00 AM Eastern Time,"March 25, 2026",0.9836331009864807,tp
+learned,0001104659-26-011659,DEFM14A,effective_date,,"September 18, 2021",0.5716676115989685,fp_no_gt
+learned,0001104659-26-011659,DEFM14A,expected_closing,Promptly after shareholder and regulatory approvals and other closing conditions,second quarter of 2024,0.9727805852890015,mismatch
+learned,0001213900-26-017460,DEFM14A,acquirer,Horizon Quantum Holdings Pte. Ltd.,Rose Acquisition Pte. Ltd.,0.7614907622337341,mismatch
+learned,0001213900-26-017460,DEFM14A,target,Horizon Quantum Computing Pte. Ltd.,Horizon Quantum Computing Pte. Ltd.,0.793299674987793,tp
+learned,0001213900-26-017460,DEFM14A,merger_subsidiary,Rose Acquisition Pte. Ltd.,"Horizon Merger Sub 2, Inc.",0.8885102868080139,mismatch
+learned,0001213900-26-017460,DEFM14A,security_description,ordinary shares,Common Stock,0.9362769722938538,mismatch
+learned,0001213900-26-017460,DEFM14A,stock_exchange_ratio,Exchange Ratio Holdco ordinary shares per share,one,0.9216868877410889,mismatch
+learned,0001213900-26-017460,DEFM14A,shareholder_vote_date,,"March 17, 2026",0.9790694117546082,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,expected_closing,first quarter of 2026,first quarter of 2026,0.9744745492935181,tp
+learned,0001213900-26-017460,DEFM14A,acquirer,Horizon Quantum Holdings Pte. Ltd.,Rose Acquisition Pte. Ltd.,0.7614907622337341,mismatch
+learned,0001213900-26-017460,DEFM14A,target,"dMY Squared Technology Group, Inc.",Horizon Quantum Computing Pte. Ltd.,0.793299674987793,mismatch
+learned,0001213900-26-017460,DEFM14A,merger_subsidiary,"Horizon Merger Sub 2, Inc.","Horizon Merger Sub 2, Inc.",0.8885102868080139,tp
+learned,0001213900-26-017460,DEFM14A,security_description,Class A common stock,Common Stock,0.9362769722938538,tp
+learned,0001213900-26-017460,DEFM14A,stock_exchange_ratio,1 Holdco Class A ordinary share per share,one,0.9216868877410889,tp
+learned,0001213900-26-017460,DEFM14A,shareholder_vote_date,3/17/2026 10:00 AM Eastern Time,"March 17, 2026",0.9790694117546082,tp
+learned,0001213900-26-017460,DEFM14A,expected_closing,first quarter of 2026,first quarter of 2026,0.9744745492935181,tp
+learned,0001104659-26-021584,DEFM14A,acquirer,Carnival Corporation,Carnival Corporation,0.7958778142929077,tp
+learned,0001104659-26-021584,DEFM14A,target,Carnival plc,Carnival plc,0.8962861895561218,tp
+learned,0001104659-26-021584,DEFM14A,security_description,ordinary shares,common stock,0.9287728071212769,mismatch
+learned,0001104659-26-021584,DEFM14A,stock_exchange_ratio,1 Carnival Corporation Ltd. common share per share,one,0.9193419218063354,tp
+learned,0001104659-26-021584,DEFM14A,shareholder_vote_date,4/17/2026 1:30 PM BST,"April 17, 2026",0.9721205234527588,tp
+learned,0001104659-26-021584,DEFM14A,expected_closing,before the end of the second quarter of 2026,second quarter of 2026,0.9004898071289062,tp
+learned,0001104659-26-021605,DEFM14A,acquirer,Carnival Corporation,Carnival Corporation,0.7957058548927307,tp
+learned,0001104659-26-021605,DEFM14A,target,Carnival plc,Carnival plc,0.9009872078895569,tp
+learned,0001104659-26-021605,DEFM14A,security_description,ordinary shares,common stock,0.9272432327270508,mismatch
+learned,0001104659-26-021605,DEFM14A,stock_exchange_ratio,1 common share of Carnival Corporation Ltd. per share,one,0.9217314720153809,tp
+learned,0001104659-26-021605,DEFM14A,shareholder_vote_date,4/17/2026 1:30 PM BST,"April 17, 2026",0.9683462381362915,tp
+learned,0001104659-26-021605,DEFM14A,expected_closing,before the end of the second quarter of 2026,second quarter of 2026,0.9029554724693298,tp
+learned,0001552781-26-000078,DEFM14A,acquirer,Runway Growth Finance Corp.,"Runway Growth Finance
+Corp.",0.7702034711837769,tp
+learned,0001552781-26-000078,DEFM14A,target,SWK Holdings Corporation,SWK Holdings Corporation,0.7704609632492065,tp
+learned,0001552781-26-000078,DEFM14A,merger_subsidiary,RWAY Portfolio Holding Corp. | RWAY Portfolio Corp.,RWAY Portfolio Holding Corp.,0.7752644419670105,tp
+learned,0001552781-26-000078,DEFM14A,security_description,common stock,Common Stock,0.9459404945373535,tp
+learned,0001552781-26-000078,DEFM14A,cash_consideration,SWK Per Share NAV per share,"Per Share
+Cash Consideration",0.6784908771514893,mismatch
+learned,0001552781-26-000078,DEFM14A,stock_exchange_ratio,SWK Per Share NAV divided by RWAY Per Share NAV shares of RWAY Common Stock per share,one (1),0.8912423253059387,mismatch
+learned,0001552781-26-000078,DEFM14A,shareholder_vote_date,3/31/2026 9:00 AM Central Time,"March 31, 2026",0.9789925217628479,tp
+learned,0001552781-26-000078,DEFM14A,election_deadline,"5:00 PM New York City time, five business days before the closing date",,,fn_no_pred
+learned,0001552781-26-000078,DEFM14A,expected_closing,first quarter or early second quarter of 2026,first quarter or early second quarter of 2026,0.8753123879432678,tp
+learned,0001493152-26-009318,425,acquirer,Calisa Acquisition Corp,Calisa Acquisition Corp,0.8323445320129395,tp
+learned,0001493152-26-009318,425,target,Goodvision AI Inc.,"GoodVision
+AI",0.880664050579071,tp
+learned,0001493152-26-009318,425,merger_subsidiary,Calisa Merger Sub,Calisa Merger Sub,0.9610636830329895,tp
+learned,0001493152-26-009318,425,security_description,ordinary shares,ordinary shares,0.7945574522018433,tp
+learned,0001493152-26-009318,425,stock_exchange_ratio,"18,000,000 divided by fully diluted Goodvision Shares, in Calisa Acquisition Corp ordinary shares per share",one,0.928565502166748,mismatch
+learned,0001493152-26-009318,425,expected_closing,second half of 2026,second half of 2026,0.9746509194374084,tp
+learned,0001104659-26-035234,425,acquirer,Spring Valley Acquisition Corp. III,Spring Valley Acquisition Corp. III,0.799811601638794,tp
+learned,0001104659-26-035234,425,target,General Fusion Inc.,General Fusion Inc.,0.8786210417747498,tp
+learned,0001104659-26-035234,425,merger_subsidiary,1573562 B.C. Ltd.,1573562 B.C. Ltd.,0.5724324584007263,tp
+learned,0001104659-26-035234,425,security_description,,Lawson Machine 26,0.5206754207611084,fp_no_gt
+learned,0001104659-26-035234,425,expected_closing,,mid-2030s,0.5573910474777222,fp_no_gt
+learned,0001193125-26-130513,PREM14A,acquirer,"Anchor Parent, LLC","Anchor Parent, LLC",0.8158062696456909,tp
+learned,0001193125-26-130513,PREM14A,target,"Enhabit, Inc.","Enhabit, Inc.",0.9059062004089355,tp
+learned,0001193125-26-130513,PREM14A,merger_subsidiary,"Anchor Merger Sub, Inc.","Anchor Merger Sub, Inc.",0.9451995491981506,tp
+learned,0001193125-26-130513,PREM14A,security_description,common stock,Common Stock,0.943450927734375,tp
+learned,0001193125-26-130513,PREM14A,cash_consideration,$13.80 per share,$13.80,0.9857813715934753,tp
+learned,0001193125-26-130513,PREM14A,stock_exchange_ratio,No stock consideration,one,0.9146585464477539,absence_value
+learned,0001193125-26-130513,PREM14A,expected_closing,second quarter of 2026,second quarter of 2026,0.9630967378616333,tp
+learned,0001140361-26-012785,DEFM14A,acquirer,Boston Scientific Corporation,Boston Scientific Corporation,0.915195107460022,tp
+learned,0001140361-26-012785,DEFM14A,target,"Penumbra, Inc.",Boston Scientific,0.9026350378990173,mismatch
+learned,0001140361-26-012785,DEFM14A,merger_subsidiary,"Pinehurst Merger Sub, Inc.","Pinehurst Merger Sub, Inc.",0.9598768949508667,tp
+learned,0001140361-26-012785,DEFM14A,security_description,common stock,Common Stock,0.9507551789283752,tp
+learned,0001140361-26-012785,DEFM14A,cash_consideration,$374.00 per share,,,fn_no_pred
+learned,0001140361-26-012785,DEFM14A,stock_exchange_ratio,3.8721 shares of Boston Scientific common stock per share,one,0.8832371234893799,mismatch
+learned,0001140361-26-012785,DEFM14A,shareholder_vote_date,5/6/2026 10:00 AM Pacific Time,"May 6, 2026",0.9833643436431885,tp
+learned,0001140361-26-012785,DEFM14A,election_deadline,"5:00 PM New York City time, five business days before estimated closing",,,fn_no_pred
+learned,0001140361-26-012785,DEFM14A,expected_closing,2026,2026,0.7574161291122437,tp
+learned,0001213900-26-040029,425,acquirer,Crown Reserve Acquisition Corp. I,Crown Reserve Acquisition Corp. I,0.820549726486206,tp
+learned,0001213900-26-040029,425,target,"Carvix, Inc.","Carvix, Inc.",0.8435331583023071,tp
+learned,0001213900-26-040029,425,merger_subsidiary,CRAC Merger Sub Inc.,CRAC Merger Sub Inc.,0.9509212374687195,tp
+learned,0001213900-26-040029,425,security_description,Company Common Stock,Common Stock,0.9340391159057617,tp
+learned,0001213900-26-040029,425,stock_exchange_ratio,,one,0.9421288371086121,fp_no_gt
+learned,0001140361-26-015088,SC 13E3,acquirer,"2025 Acquisition Company, LLC","2025 Acquisition Company, LLC",0.8608016967773438,tp
+learned,0001140361-26-015088,SC 13E3,target,Forian Inc.,Forian Inc.,0.8764241933822632,tp
+learned,0001140361-26-015088,SC 13E3,merger_subsidiary,"Bravo Merger Sub, Inc.","Bravo Merger Sub, Inc.",0.9566475749015808,tp
+learned,0001140361-26-015088,SC 13E3,security_description,"Common Stock, par value $0.001 per share",Common Stock,0.9121134281158447,tp
+learned,0001140361-26-015088,SC 13E3,cash_consideration,$2.17 per share,$2.17,0.9014021754264832,tp
+learned,0001213900-26-044922,425,acquirer,,INCEPTION GROWTH ACQUISITION LIMITED,0.7076541185379028,fp_no_gt
+learned,0001213900-26-044922,425,target,AgileAlgo Holdings Ltd.,AgileAlgo Holdings Ltd.,0.7816210985183716,tp
+learned,0001213900-26-044922,425,merger_subsidiary,IGTA Merger Sub Limited,IGTA Merger Sub Limited,0.8283839225769043,tp
+learned,0001213900-26-044922,425,security_description,AgileAlgo shares,common stock,0.9385308027267456,mismatch
+learned,0001213900-26-044922,425,stock_exchange_ratio,,one,0.9218541383743286,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,acquirer,,Expro Luxembourg S.A.,0.503722608089447,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,target,Expro Group Holdings N.V.,Expro Group Holdings N.V.,0.7018163800239563,tp
+learned,0001104659-26-046161,DEFM14A,merger_subsidiary,Expro Luxembourg S.A.,Expro Cayman,0.6944212913513184,mismatch
+learned,0001104659-26-046161,DEFM14A,security_description,Common Stock,Common Stock,0.9140597581863403,tp
+learned,0001104659-26-046161,DEFM14A,stock_exchange_ratio,1 Expro Luxembourg Common Share per share,one,0.9190803170204163,tp
+learned,0001104659-26-046161,DEFM14A,shareholder_vote_date,6/10/2026 4:00 PM CET,"June 10, 2026",0.9839937686920166,tp
+learned,0001104659-26-046161,DEFM14A,expected_closing,"on or around July 10, 2026",first quarter of the fiscal year,0.5325173139572144,mismatch
+learned,0001104659-26-046161,DEFM14A,acquirer,,Expro Luxembourg S.A.,0.503722608089447,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,target,Expro Luxembourg S.A.,Expro Group Holdings N.V.,0.7018163800239563,mismatch
+learned,0001104659-26-046161,DEFM14A,merger_subsidiary,Expro Ltd,Expro Cayman,0.6944212913513184,tp
+learned,0001104659-26-046161,DEFM14A,security_description,Expro Luxembourg Common Shares,Common Stock,0.9140597581863403,mismatch
+learned,0001104659-26-046161,DEFM14A,stock_exchange_ratio,1 Expro Cayman Ordinary Share per share,one,0.9190803170204163,tp
+learned,0001104659-26-046161,DEFM14A,shareholder_vote_date,,"June 10, 2026",0.9839937686920166,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,expected_closing,as soon as practicable after the Luxembourg Merger,first quarter of the fiscal year,0.5325173139572144,mismatch
+learned,0001104659-26-051962,DEFM14A,acquirer,"Beacon Topco, Inc.","Beacon Topco, Inc.",0.8219084739685059,tp
+learned,0001104659-26-051962,DEFM14A,target,Barinthus Biotherapeutics plc,Barinthus Bio,0.8653230667114258,mismatch
+learned,0001104659-26-051962,DEFM14A,merger_subsidiary,,"Cdog Merger Sub, Inc.",0.9488518238067627,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,security_description,ordinary shares,Common Stock,0.943550169467926,mismatch
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio,0.1 to 0.166667 shares of Topco Common Stock per share,one,0.950698733329773,mismatch
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,5/20/2026 2:00 PM London Time,"May 20, 2026",0.9715865254402161,tp
+learned,0001104659-26-051962,DEFM14A,expected_closing,first half of 2026,first half of 2026,0.9748463034629822,tp
+learned,0001104659-26-051962,DEFM14A,acquirer,"Beacon Topco, Inc.","Beacon Topco, Inc.",0.8219084739685059,tp
+learned,0001104659-26-051962,DEFM14A,target,"Clywedog Therapeutics, Inc.",Barinthus Bio,0.8653230667114258,mismatch
+learned,0001104659-26-051962,DEFM14A,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc.",0.9488518238067627,tp
+learned,0001104659-26-051962,DEFM14A,security_description,common stock,Common Stock,0.943550169467926,tp
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio,0.000305 to 0.000508 shares of Topco Common Stock per share,one,0.950698733329773,mismatch
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,,"May 20, 2026",0.9715865254402161,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,expected_closing,first half of 2026,first half of 2026,0.9748463034629822,tp
+learned,0001104659-26-051962,DEFM14A,acquirer,"Beacon Topco, Inc.","Beacon Topco, Inc.",0.8219084739685059,tp
+learned,0001104659-26-051962,DEFM14A,target,"Clywedog Therapeutics, Inc.",Barinthus Bio,0.8653230667114258,mismatch
+learned,0001104659-26-051962,DEFM14A,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc.",0.9488518238067627,tp
+learned,0001104659-26-051962,DEFM14A,security_description,Series Seed Preferred Stock,Common Stock,0.943550169467926,mismatch
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio,0.000305 to 0.000508 shares of Topco Common Stock per share,one,0.950698733329773,mismatch
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,,"May 20, 2026",0.9715865254402161,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,expected_closing,first half of 2026,first half of 2026,0.9748463034629822,tp
+learned,0001193125-26-209019,PREM14A,acquirer,"Fidelity BancShares (N.C.), Inc.",Affinity Bank,0.7712051272392273,mismatch
+learned,0001193125-26-209019,PREM14A,target,"Affinity Bancshares, Inc.",Fidelity BancShares,0.8164622187614441,mismatch
+learned,0001193125-26-209019,PREM14A,merger_subsidiary,"TFB Merger Subsidiary, Inc.","TFB Merger Subsidiary, Inc.",0.9274643659591675,tp
+learned,0001193125-26-209019,PREM14A,security_description,common stock,common stock,0.9564767479896545,tp
+learned,0001193125-26-209019,PREM14A,cash_consideration,$23.00 per share,$23.00,0.9883026480674744,tp
+learned,0001193125-26-209019,PREM14A,stock_exchange_ratio,No stock consideration,one,0.9387470483779907,absence_value
+learned,0001193125-26-209019,PREM14A,shareholder_vote_date,,[meeting date],0.7664560079574585,fp_no_gt
+learned,0001193125-26-209019,PREM14A,expected_closing,third quarter of 2026,third quarter of 2026,0.9746745824813843,tp
+learned,0001829126-26-004942,S-4,acquirer,Future Vision II Acquisition Corp.,Future Vision II Acquisition Corp.,0.9036670923233032,tp
+learned,0001829126-26-004942,S-4,target,MicroTouch Technology Inc.,MicroTouch Technology INC.,0.9021888375282288,tp
+learned,0001829126-26-004942,S-4,merger_subsidiary,Future Vision II Acquisition Merger Subsidiary Corp.,Future Vision II Acquisition Merger Subsidiary Corp.,0.8727077841758728,tp
+learned,0001829126-26-004942,S-4,security_description,ordinary shares,ordinary shares,0.757425844669342,tp
+learned,0001829126-26-004942,S-4,stock_exchange_ratio,aggregate consideration shares divided by outstanding MicroTouch ordinary shares,one (1),0.9041788578033447,mismatch
+learned,0001829126-26-004942,S-4,shareholder_vote_date,,"[●], 2026",0.6177024245262146,fp_no_gt
+learned,0001829126-26-004942,S-4,expected_closing,"No later than [●], 2026",,,absence_value
+learned,0001829126-26-004942,S-4,acquirer,Future Vision II Acquisition Corp.,Future Vision II Acquisition Corp.,0.9036670923233032,tp
+learned,0001829126-26-004942,S-4,target,VIWO Technology Inc.,MicroTouch Technology INC.,0.9021888375282288,mismatch
+learned,0001829126-26-004942,S-4,merger_subsidiary,Future Vision II Acquisition Merger Subsidiary Corp.,Future Vision II Acquisition Merger Subsidiary Corp.,0.8727077841758728,tp
+learned,0001829126-26-004942,S-4,security_description,,ordinary shares,0.757425844669342,fp_no_gt
+learned,0001829126-26-004942,S-4,stock_exchange_ratio,,one (1),0.9041788578033447,fp_no_gt
+learned,0001829126-26-004942,S-4,shareholder_vote_date,,"[●], 2026",0.6177024245262146,fp_no_gt
+learned,0001104659-26-068378,PREM14A,acquirer,"A-AV Holdco I, Inc.","A-AV Holdco I, Inc.",0.8417469263076782,tp
+learned,0001104659-26-068378,PREM14A,target,"Avanos Medical, Inc.","Avanos Medical, Inc.",0.8582803606987,tp
+learned,0001104659-26-068378,PREM14A,merger_subsidiary,"A-AV MergerSub, Inc.","A-AV MergerSub, Inc.",0.9326497316360474,tp
+learned,0001104659-26-068378,PREM14A,security_description,common stock,common stock,0.9618029594421387,tp
+learned,0001104659-26-068378,PREM14A,cash_consideration,$25.00 per share,$25.00,0.9935676455497742,tp
+learned,0001104659-26-068378,PREM14A,stock_exchange_ratio,No stock consideration,one,0.9562532305717468,absence_value
+learned,0001104659-26-068378,PREM14A,shareholder_vote_date,,"[•], 2026",0.41003966331481934,fp_no_gt
+learned,0001104659-26-068378,PREM14A,expected_closing,second half of 2026,second half of 2026,0.9752157330513,tp
+learned,0001829126-26-005869,8-K,acquirer,SPACSphere Acquisition Corp.,SPACSphere Acquisition Corp.,0.8454470038414001,tp
+learned,0001829126-26-005869,8-K,target,"Mobilewalla Holdco, Inc.",Mobilewalla,0.9339578747749329,tp
+learned,0001829126-26-005869,8-K,merger_subsidiary,SPACSphere Merger Sub Inc.,SPACSphere Merger Sub Inc.,0.9427917003631592,tp
+learned,0001829126-26-005869,8-K,security_description,Common Stock,Common Stock,0.950354814529419,tp
+learned,0001829126-26-005869,8-K,stock_exchange_ratio,"25,000,000 divided by Company Fully Diluted Capital Stock shares of SPACSphere Acquisition Corp. common stock per share",one,0.9667348861694336,mismatch
+learned,0001829126-26-005869,8-K,expected_closing,second half of 2026,second half of 2026,0.9626274704933167,tp
+learned,0001193125-26-266069,DEFM14A,acquirer,Ligand Pharmaceuticals Incorporated,Ligand Pharmaceuticals Incorporated,0.9400796294212341,tp
+learned,0001193125-26-266069,DEFM14A,target,XOMA Royalty Corporation,XOMA Royalty,0.8551545143127441,tp
+learned,0001193125-26-266069,DEFM14A,merger_subsidiary,"Flex Merger Sub, Inc.","Flex Merger
+Sub, Inc.",0.9516831040382385,tp
+learned,0001193125-26-266069,DEFM14A,security_description,common stock,common stock,0.9299018383026123,tp
+learned,0001193125-26-266069,DEFM14A,cash_consideration,$39.00 per share,$39.00,0.9865400195121765,tp
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,No stock consideration,one,0.9629846215248108,absence_value
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,7/13/2026 9:00 AM Pacific Time,"July 13, 2026",0.974997341632843,tp
+learned,0001193125-26-266069,DEFM14A,effective_date,,"January 26, 2027",0.5713427066802979,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,expected_closing,third quarter of 2026,third quarter of 2026,0.9734910130500793,tp
+learned,0001193125-26-266069,DEFM14A,acquirer,Ligand Pharmaceuticals Incorporated,Ligand Pharmaceuticals Incorporated,0.9400796294212341,tp
+learned,0001193125-26-266069,DEFM14A,target,XOMA Royalty Corporation,XOMA Royalty,0.8551545143127441,tp
+learned,0001193125-26-266069,DEFM14A,merger_subsidiary,"Flex Merger Sub, Inc.","Flex Merger
+Sub, Inc.",0.9516831040382385,tp
+learned,0001193125-26-266069,DEFM14A,security_description,8.625% Series A Cumulative Perpetual Preferred Stock,common stock,0.9299018383026123,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration,$25.00 per share,$39.00,0.9865400195121765,mismatch
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,No stock consideration,one,0.9629846215248108,absence_value
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,"July 13, 2026",0.974997341632843,absence_value
+learned,0001193125-26-266069,DEFM14A,effective_date,,"January 26, 2027",0.5713427066802979,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,expected_closing,third quarter of 2026,third quarter of 2026,0.9734910130500793,tp
+learned,0001193125-26-266069,DEFM14A,acquirer,Ligand Pharmaceuticals Incorporated,Ligand Pharmaceuticals Incorporated,0.9400796294212341,tp
+learned,0001193125-26-266069,DEFM14A,target,XOMA Royalty Corporation,XOMA Royalty,0.8551545143127441,tp
+learned,0001193125-26-266069,DEFM14A,merger_subsidiary,"Flex Merger Sub, Inc.","Flex Merger
+Sub, Inc.",0.9516831040382385,tp
+learned,0001193125-26-266069,DEFM14A,security_description,8.375% Series B Cumulative Perpetual Preferred Stock,common stock,0.9299018383026123,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration,"$25,000 per share",$39.00,0.9865400195121765,mismatch
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,No stock consideration,one,0.9629846215248108,absence_value
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,"July 13, 2026",0.974997341632843,absence_value
+learned,0001193125-26-266069,DEFM14A,effective_date,,"January 26, 2027",0.5713427066802979,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,expected_closing,third quarter of 2026,third quarter of 2026,0.9734910130500793,tp
+learned,0001193125-26-266069,DEFM14A,acquirer,XOMA Royalty Holdings Corporation,Ligand Pharmaceuticals Incorporated,0.9400796294212341,mismatch
+learned,0001193125-26-266069,DEFM14A,target,XOMA Royalty Corporation,XOMA Royalty,0.8551545143127441,tp
+learned,0001193125-26-266069,DEFM14A,merger_subsidiary,"XRH Merger Sub, Corp.","Flex Merger
+Sub, Inc.",0.9516831040382385,mismatch
+learned,0001193125-26-266069,DEFM14A,security_description,common stock,common stock,0.9299018383026123,tp
+learned,0001193125-26-266069,DEFM14A,cash_consideration,No cash consideration,$39.00,0.9865400195121765,absence_value
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,1 share of HoldCo common stock per share,one,0.9629846215248108,tp
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,7/13/2026 9:00 AM Pacific Time,"July 13, 2026",0.974997341632843,tp
+learned,0001193125-26-266069,DEFM14A,effective_date,,"January 26, 2027",0.5713427066802979,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,expected_closing,,third quarter of 2026,0.9734910130500793,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,acquirer,XOMA Royalty Holdings Corporation,Ligand Pharmaceuticals Incorporated,0.9400796294212341,mismatch
+learned,0001193125-26-266069,DEFM14A,target,XOMA Royalty Corporation,XOMA Royalty,0.8551545143127441,tp
+learned,0001193125-26-266069,DEFM14A,merger_subsidiary,"XRH Merger Sub, Corp.","Flex Merger
+Sub, Inc.",0.9516831040382385,mismatch
+learned,0001193125-26-266069,DEFM14A,security_description,8.625% Series A Cumulative Perpetual Preferred Stock,common stock,0.9299018383026123,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration,No cash consideration,$39.00,0.9865400195121765,absence_value
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,1 share of corresponding HoldCo preferred stock per share,one,0.9629846215248108,tp
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,"July 13, 2026",0.974997341632843,absence_value
+learned,0001193125-26-266069,DEFM14A,effective_date,,"January 26, 2027",0.5713427066802979,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,expected_closing,,third quarter of 2026,0.9734910130500793,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,acquirer,XOMA Royalty Holdings Corporation,Ligand Pharmaceuticals Incorporated,0.9400796294212341,mismatch
+learned,0001193125-26-266069,DEFM14A,target,XOMA Royalty Corporation,XOMA Royalty,0.8551545143127441,tp
+learned,0001193125-26-266069,DEFM14A,merger_subsidiary,"XRH Merger Sub, Corp.","Flex Merger
+Sub, Inc.",0.9516831040382385,mismatch
+learned,0001193125-26-266069,DEFM14A,security_description,8.375% Series B Cumulative Perpetual Preferred Stock,common stock,0.9299018383026123,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration,No cash consideration,$39.00,0.9865400195121765,absence_value
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,1 share of corresponding HoldCo preferred stock per share,one,0.9629846215248108,tp
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,"July 13, 2026",0.974997341632843,absence_value
+learned,0001193125-26-266069,DEFM14A,effective_date,,"January 26, 2027",0.5713427066802979,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,expected_closing,,third quarter of 2026,0.9734910130500793,fp_no_gt
+learned,0001193125-26-280277,DEFM14A,acquirer,,Axalta Coating Systems Ltd.,0.8539039492607117,fp_no_gt
+learned,0001193125-26-280277,DEFM14A,target,Axalta Coating Systems Ltd.,Akzo Nobel N.V.,0.795443594455719,mismatch
+learned,0001193125-26-280277,DEFM14A,merger_subsidiary,,Merger Sub 2,0.6075155138969421,fp_no_gt
+learned,0001193125-26-280277,DEFM14A,security_description,common shares,ordinary shares,0.8487852811813354,tp
+learned,0001193125-26-280277,DEFM14A,stock_exchange_ratio,0.6539 AkzoNobel ordinary shares per share,0.6539,0.9556885957717896,tp
+learned,0001193125-26-280277,DEFM14A,shareholder_vote_date,8/5/2026 9:00 AM Eastern Time,"August 5, 2026",0.9794796109199524,tp
+learned,0001193125-26-280277,DEFM14A,expected_closing,late 2026 to early 2027,second half of 2026,0.9799262881278992,mismatch
+learned,0001140361-26-026757,S-4,acquirer,,Equity Residential,0.7512914538383484,fp_no_gt
+learned,0001140361-26-026757,S-4,target,"AvalonBay Communities, Inc.",Equity Residential,0.8920539021492004,mismatch
+learned,0001140361-26-026757,S-4,merger_subsidiary,Canopy Merger Sub LLC,Canopy Merger Sub LLC,0.9592213034629822,tp
+learned,0001140361-26-026757,S-4,security_description,common stock,common stock,0.9491430521011353,tp
+learned,0001140361-26-026757,S-4,stock_exchange_ratio,2.793 Equity Residential common shares per share,2.793,0.9607700109481812,tp
+learned,0001140361-26-026757,S-4,expected_closing,second half of 2026,second half of 2026,0.9694008231163025,tp
+learned,0001829126-26-007145,S-4,acquirer,D. Boral ARC Acquisition I Corp.,D. Boral ARC Acquisition I Corp.,0.7351034283638,tp
+learned,0001829126-26-007145,S-4,target,Exascale Labs Inc.,Exascale Labs Inc.,0.84681236743927,tp
+learned,0001829126-26-007145,S-4,merger_subsidiary,D. Boral Arc Merger Sub Inc.,"D. Boral Arc
+Merger Sub Inc.",0.9101148843765259,tp
+learned,0001829126-26-007145,S-4,security_description,Class A common stock,Common Stock,0.9358201026916504,tp
+learned,0001829126-26-007145,S-4,cash_consideration,,"Ten Dollars
+($10.00)",0.7837032675743103,fp_no_gt
+learned,0001829126-26-007145,S-4,stock_exchange_ratio,"Implied ownership percentage of the 50,000,000 PubCo shares per share",one,0.966933012008667,mismatch
+learned,0001829126-26-007145,S-4,expected_closing,,second quarter of 2026,0.9596235752105713,fp_no_gt
+learned,0001829126-26-007145,S-4,acquirer,D. Boral ARC Acquisition I Corp.,D. Boral ARC Acquisition I Corp.,0.7351034283638,tp
+learned,0001829126-26-007145,S-4,target,Exascale Labs Inc.,Exascale Labs Inc.,0.84681236743927,tp
+learned,0001829126-26-007145,S-4,merger_subsidiary,D. Boral Arc Merger Sub Inc.,"D. Boral Arc
+Merger Sub Inc.",0.9101148843765259,tp
+learned,0001829126-26-007145,S-4,security_description,Class B common stock,Common Stock,0.9358201026916504,tp
+learned,0001829126-26-007145,S-4,cash_consideration,,"Ten Dollars
+($10.00)",0.7837032675743103,fp_no_gt
+learned,0001829126-26-007145,S-4,stock_exchange_ratio,"Implied ownership percentage of the 50,000,000 PubCo shares per share",one,0.966933012008667,mismatch
+learned,0001829126-26-007145,S-4,expected_closing,,second quarter of 2026,0.9596235752105713,fp_no_gt
+learned,0001829126-26-007145,S-4,acquirer,,D. Boral ARC Acquisition I Corp.,0.7351034283638,fp_no_gt
+learned,0001829126-26-007145,S-4,target,D. Boral ARC Acquisition I Corp.,Exascale Labs Inc.,0.84681236743927,mismatch
+learned,0001829126-26-007145,S-4,merger_subsidiary,D. Boral ARC Merger Corporation,"D. Boral Arc
+Merger Sub Inc.",0.9101148843765259,tp
+learned,0001829126-26-007145,S-4,security_description,Class A Ordinary Shares,Common Stock,0.9358201026916504,mismatch
+learned,0001829126-26-007145,S-4,cash_consideration,,"Ten Dollars
+($10.00)",0.7837032675743103,fp_no_gt
+learned,0001829126-26-007145,S-4,stock_exchange_ratio,1 share of PubCo Class A Ordinary Common Stock per share,one,0.966933012008667,tp
+learned,0001829126-26-007145,S-4,expected_closing,,second quarter of 2026,0.9596235752105713,fp_no_gt
+learned,0001829126-26-007145,S-4,acquirer,,D. Boral ARC Acquisition I Corp.,0.7351034283638,fp_no_gt
+learned,0001829126-26-007145,S-4,target,D. Boral ARC Acquisition I Corp.,Exascale Labs Inc.,0.84681236743927,mismatch
+learned,0001829126-26-007145,S-4,merger_subsidiary,D. Boral ARC Merger Corporation,"D. Boral Arc
+Merger Sub Inc.",0.9101148843765259,tp
+learned,0001829126-26-007145,S-4,security_description,Class B Ordinary Shares,Common Stock,0.9358201026916504,mismatch
+learned,0001829126-26-007145,S-4,cash_consideration,,"Ten Dollars
+($10.00)",0.7837032675743103,fp_no_gt
+learned,0001829126-26-007145,S-4,stock_exchange_ratio,1 share of PubCo Class A Ordinary Common Stock per share,one,0.966933012008667,tp
+learned,0001829126-26-007145,S-4,expected_closing,,second quarter of 2026,0.9596235752105713,fp_no_gt
+learned,0001493152-26-032938,8-K,acquirer,,GH Power,0.7393696904182434,fp_no_gt
+learned,0001493152-26-032938,8-K,target,GH Power Inc.,GH Power,0.8672859072685242,tp
+learned,0001493152-26-032938,8-K,merger_subsidiary,1001550002 Ontario Inc.,"MBH Merger Sub, Inc.",0.9098172783851624,mismatch
+learned,0001493152-26-032938,8-K,security_description,GH Power Common Shares,Common Stock,0.9568272829055786,mismatch
+learned,0001493152-26-032938,8-K,stock_exchange_ratio,GH Power Exchange Ratio Pubco Common Shares per share,one tenth (0.1),0.8760241866111755,mismatch
+learned,0001493152-26-032938,8-K,shareholder_vote_date,,"January 15, 2027",0.7409228682518005,fp_no_gt
+learned,0001493152-26-032938,8-K,expected_closing,fourth quarter of 2026,fourth quarter of 2026,0.9803818464279175,tp
+learned,0001493152-26-032938,8-K,acquirer,,GH Power,0.7393696904182434,fp_no_gt
+learned,0001493152-26-032938,8-K,target,GH Power Inc.,GH Power,0.8672859072685242,tp
+learned,0001493152-26-032938,8-K,merger_subsidiary,1001550002 Ontario Inc.,"MBH Merger Sub, Inc.",0.9098172783851624,mismatch
+learned,0001493152-26-032938,8-K,security_description,GH Power Preferred Shares,Common Stock,0.9568272829055786,mismatch
+learned,0001493152-26-032938,8-K,stock_exchange_ratio,GH Power Exchange Ratio Pubco Common Shares per as-converted common share,one tenth (0.1),0.8760241866111755,mismatch
+learned,0001493152-26-032938,8-K,shareholder_vote_date,,"January 15, 2027",0.7409228682518005,fp_no_gt
+learned,0001493152-26-032938,8-K,expected_closing,fourth quarter of 2026,fourth quarter of 2026,0.9803818464279175,tp
+learned,0001493152-26-032938,8-K,acquirer,,GH Power,0.7393696904182434,fp_no_gt
+learned,0001493152-26-032938,8-K,target,"Matinas BioPharma Holdings, Inc.",GH Power,0.8672859072685242,mismatch
+learned,0001493152-26-032938,8-K,merger_subsidiary,"MBH Merger Sub, Inc.","MBH Merger Sub, Inc.",0.9098172783851624,tp
+learned,0001493152-26-032938,8-K,security_description,Common Stock,Common Stock,0.9568272829055786,tp
+learned,0001493152-26-032938,8-K,stock_exchange_ratio,0.1 Pubco Common Share per share,one tenth (0.1),0.8760241866111755,tp
+learned,0001493152-26-032938,8-K,shareholder_vote_date,,"January 15, 2027",0.7409228682518005,fp_no_gt
+learned,0001493152-26-032938,8-K,expected_closing,fourth quarter of 2026,fourth quarter of 2026,0.9803818464279175,tp
+learned,0001493152-26-032938,8-K,acquirer,,GH Power,0.7393696904182434,fp_no_gt
+learned,0001493152-26-032938,8-K,target,"Matinas BioPharma Holdings, Inc.",GH Power,0.8672859072685242,mismatch
+learned,0001493152-26-032938,8-K,merger_subsidiary,"MBH Merger Sub, Inc.","MBH Merger Sub, Inc.",0.9098172783851624,tp
+learned,0001493152-26-032938,8-K,security_description,Preferred Stock,Common Stock,0.9568272829055786,tp
+learned,0001493152-26-032938,8-K,stock_exchange_ratio,0.1 Pubco Common Share per as-converted common share,one tenth (0.1),0.8760241866111755,tp
+learned,0001493152-26-032938,8-K,shareholder_vote_date,,"January 15, 2027",0.7409228682518005,fp_no_gt
+learned,0001493152-26-032938,8-K,expected_closing,fourth quarter of 2026,fourth quarter of 2026,0.9803818464279175,tp
+learned,0001104659-26-083113,DEFM14A,acquirer,,AvalonBay,0.7996781468391418,fp_no_gt
+learned,0001104659-26-083113,DEFM14A,target,"AvalonBay Communities, Inc.",Equity Residential,0.9000710248947144,mismatch
+learned,0001104659-26-083113,DEFM14A,merger_subsidiary,Canopy Merger Sub LLC,Canopy Merger Sub LLC,0.9622318148612976,tp
+learned,0001104659-26-083113,DEFM14A,security_description,common stock,common stock,0.9454018473625183,tp
+learned,0001104659-26-083113,DEFM14A,stock_exchange_ratio,2.793 Equity Residential common shares per share,2.793,0.9562407732009888,tp
+learned,0001104659-26-083113,DEFM14A,shareholder_vote_date,8/12/2026 9:00 AM Eastern Time,"August 12, 2026",0.9817187190055847,tp
+learned,0001104659-26-083113,DEFM14A,expected_closing,second half of 2026,second half of 2026,0.9686051607131958,tp
+learned,0001193125-26-307826,PREM14A,acquirer,"Destination XL Group, Inc.","Destination XL Group, Inc.",0.7998291254043579,tp
+learned,0001193125-26-307826,PREM14A,target,"FBB Holdings I, Inc.","Destination XL Group, Inc.",0.7712046504020691,mismatch
+learned,0001193125-26-307826,PREM14A,merger_subsidiary,"Divine Merger Sub I, Inc.","Divine Merger Sub I, Inc.",0.9432294368743896,tp
+learned,0001193125-26-307826,PREM14A,security_description,common stock,common stock,0.9482618570327759,tp
+learned,0001193125-26-307826,PREM14A,stock_exchange_ratio,New issuance of DXL common stock divided by outstanding FBB common stock per share,one,0.9421995282173157,mismatch
+learned,0001193125-26-307826,PREM14A,shareholder_vote_date,12/11/2025,,,fn_no_pred
+learned,0001193125-26-307826,PREM14A,expected_closing,third quarter of fiscal 2026,third quarter of fiscal 2026,0.9665841460227966,tp
+learned,0001104659-26-086863,425,acquirer,InoBat B.V.,"Cartesian
+Growth Corporation II",0.8521087169647217,mismatch
+learned,0001104659-26-086863,425,target,Cartesian Growth Corporation II,Cartesian Growth Corporation II,0.7445040941238403,tp
+learned,0001104659-26-086863,425,merger_subsidiary,InoBat Cayman Merger Sub,InoBat Cayman Merger Sub,0.9150596261024475,tp
+learned,0001104659-26-086863,425,security_description,ordinary share,Common Shares,0.8435384035110474,mismatch
+learned,0001104659-26-086863,425,stock_exchange_ratio,1 ListCo Common Share per share,one,0.9493148326873779,tp
+learned,0001104659-26-086863,425,expected_closing,fourth quarter of 2026,fourth quarter of 2026,0.9798148274421692,tp
+learned,0001140361-26-030109,PREM14A,acquirer,Eli Lilly and Company,Eli Lilly and Company,0.9263692498207092,tp
+learned,0001140361-26-030109,PREM14A,target,AtaiBeckley Inc.,Eli Lilly and Company,0.8344773054122925,mismatch
+learned,0001140361-26-030109,PREM14A,merger_subsidiary,Albali Acquisition Corporation,Albali Acquisition Corporation,0.9179426431655884,tp
+learned,0001140361-26-030109,PREM14A,security_description,common stock,common stock,0.9483175873756409,tp
+learned,0001140361-26-030109,PREM14A,cash_consideration,$6.75 per share,$6.75,0.9880820512771606,tp
+learned,0001140361-26-030109,PREM14A,stock_exchange_ratio,No stock consideration,one,0.9238812327384949,absence_value
+learned,0001140361-26-030109,PREM14A,expected_closing,third quarter of 2026,third quarter of 2026,0.9724756479263306,tp
+learned,0001213900-26-084286,425,acquirer,Bluerock Acquisition Corp.,"Bluerock
+Acquisition Corp.",0.8619615435600281,tp
+learned,0001213900-26-084286,425,target,Bitonic Technology Labs Inc.,"Bitonic Technology Labs,
+Inc.",0.8207741975784302,tp
+learned,0001213900-26-084286,425,merger_subsidiary,BLRK Merger Sub Inc.,BLRK Merger Sub Inc.,0.9506447315216064,tp
+learned,0001213900-26-084286,425,security_description,Common Stock,Common Stock,0.9377601742744446,tp
+learned,0001213900-26-084286,425,cash_consideration,,$10.00,0.6201456785202026,fp_no_gt
+learned,0001213900-26-084286,425,stock_exchange_ratio,Aggregate Consideration divided by Company Fully Diluted Stock shares of Domesticated Purchaser Common Stock per share,one,0.9486661553382874,mismatch
+learned,0001213900-26-084286,425,expected_closing,second half of 2026,"second
+half of 2026",0.9784361720085144,tp
+learned,0001193125-26-347541,425,acquirer,SPACSphere Acquisition Corp.,SPACSphere Acquisition Corp.,0.8200594782829285,tp
+learned,0001193125-26-347541,425,target,"Mobilewalla Holdco, Inc.",Mobilewalla,0.9169414639472961,tp
+learned,0001193125-26-347541,425,merger_subsidiary,SPACSphere Merger Sub Inc.,SPACSphere Merger Sub Inc.,0.9415131211280823,tp
+learned,0001193125-26-347541,425,security_description,,Class A ordinary shares,0.6457955837249756,fp_no_gt
+learned,0001193125-26-347541,425,stock_exchange_ratio,,one,0.8065248727798462,fp_no_gt
+learned,0001193125-26-347541,425,expected_closing,second half of 2026,second half of 2026,0.9678948521614075,tp
+learned,0001193125-26-361757,PREM14A,acquirer,Intersnack Group GmbH & Co. KG,Intersnack Group GmbH & Co. KG,0.8132699728012085,tp
+learned,0001193125-26-361757,PREM14A,target,"Utz Brands, Inc.","Utz Brands, Inc.",0.860302209854126,tp
+learned,0001193125-26-361757,PREM14A,merger_subsidiary,"Idaho Merger Sub, Inc.","Idaho Merger Sub, Inc.",0.9706771969795227,tp
+learned,0001193125-26-361757,PREM14A,security_description,Class A Common Stock,Common Stock,0.9158033728599548,tp
+learned,0001193125-26-361757,PREM14A,cash_consideration,$14.25 per share,$14.25,0.9866635799407959,tp
+learned,0001193125-26-361757,PREM14A,stock_exchange_ratio,No stock consideration,one,0.9049412608146667,absence_value
+learned,0001193125-26-361757,PREM14A,shareholder_vote_date,,"[●], 2026",0.4132387936115265,fp_no_gt
+learned,0001193125-26-361757,PREM14A,expected_closing,fourth quarter of 2026,fourth quarter of 2026,0.9734048247337341,tp
+learned,0001193125-26-361757,PREM14A,acquirer,Intersnack Group GmbH & Co. KG,Intersnack Group GmbH & Co. KG,0.8132699728012085,tp
+learned,0001193125-26-361757,PREM14A,target,"Utz Brands, Inc.","Utz Brands, Inc.",0.860302209854126,tp
+learned,0001193125-26-361757,PREM14A,merger_subsidiary,"Idaho Merger Sub, Inc.","Idaho Merger Sub, Inc.",0.9706771969795227,tp
+learned,0001193125-26-361757,PREM14A,security_description,Class V Common Stock,Common Stock,0.9158033728599548,tp
+learned,0001193125-26-361757,PREM14A,cash_consideration,No cash consideration,$14.25,0.9866635799407959,absence_value
+learned,0001193125-26-361757,PREM14A,stock_exchange_ratio,No stock consideration,one,0.9049412608146667,absence_value
+learned,0001193125-26-361757,PREM14A,shareholder_vote_date,,"[●], 2026",0.4132387936115265,fp_no_gt
+learned,0001193125-26-361757,PREM14A,expected_closing,fourth quarter of 2026,fourth quarter of 2026,0.9734048247337341,tp
+learned,0001213900-26-093229,8-K,acquirer,Bleichroeder Acquisition Corp. III,Bleichroeder Acquisition Corp. III,0.9093290567398071,tp
+learned,0001213900-26-093229,8-K,target,"Ursa Major Technologies, Inc.","Ursa Major Technologies, Inc.",0.8448824286460876,tp
+learned,0001213900-26-093229,8-K,merger_subsidiary,"Inflection Point Mach X Bleichroeder Merger Sub, Inc.","Inflection Point Mach X Bleichroeder
+Merger Sub, Inc.",0.8599696755409241,tp
+learned,0001213900-26-093229,8-K,security_description,Company Common Stock,Common Stock,0.9462617039680481,tp
+learned,0001213900-26-093229,8-K,cash_consideration,,$12.00,0.910359799861908,fp_no_gt
+learned,0001213900-26-093229,8-K,stock_exchange_ratio,Exchange Ratio shares of New Ursa Major Common Stock per share,one,0.9495024085044861,mismatch
+learned,0001213900-26-093229,8-K,shareholder_vote_date,,"August
+25, 2026",0.6520493030548096,fp_no_gt
+learned,0001213900-26-093229,8-K,expected_closing,first quarter of 2027,first quarter of 2027,0.9791768193244934,tp
+learned,0001213900-26-093229,8-K,acquirer,Bleichroeder Acquisition Corp. III,Bleichroeder Acquisition Corp. III,0.9093290567398071,tp
+learned,0001213900-26-093229,8-K,target,"Ursa Major Technologies, Inc.","Ursa Major Technologies, Inc.",0.8448824286460876,tp
+learned,0001213900-26-093229,8-K,merger_subsidiary,"Inflection Point Mach X Bleichroeder Merger Sub, Inc.","Inflection Point Mach X Bleichroeder
+Merger Sub, Inc.",0.8599696755409241,tp
+learned,0001213900-26-093229,8-K,security_description,Pre-Funded Preferred Stock,Common Stock,0.9462617039680481,mismatch
+learned,0001213900-26-093229,8-K,cash_consideration,,$12.00,0.910359799861908,fp_no_gt
+learned,0001213900-26-093229,8-K,stock_exchange_ratio,Aggregate accrued value divided by $12.00 shares of New Ursa Major Series A Preferred Stock per share,one,0.9495024085044861,mismatch
+learned,0001213900-26-093229,8-K,shareholder_vote_date,,"August
+25, 2026",0.6520493030548096,fp_no_gt
+learned,0001213900-26-093229,8-K,expected_closing,first quarter of 2027,first quarter of 2027,0.9791768193244934,tp
+learned,0001213900-26-093229,8-K,acquirer,Bleichroeder Acquisition Corp. III,Bleichroeder Acquisition Corp. III,0.9093290567398071,tp
+learned,0001213900-26-093229,8-K,target,"Ursa Major Technologies, Inc.","Ursa Major Technologies, Inc.",0.8448824286460876,tp
+learned,0001213900-26-093229,8-K,merger_subsidiary,"Inflection Point Mach X Bleichroeder Merger Sub, Inc.","Inflection Point Mach X Bleichroeder
+Merger Sub, Inc.",0.8599696755409241,tp
+learned,0001213900-26-093229,8-K,security_description,Company Pre-Funded Preferred Investor Warrant,Common Stock,0.9462617039680481,mismatch
+learned,0001213900-26-093229,8-K,cash_consideration,,$12.00,0.910359799861908,fp_no_gt
+learned,0001213900-26-093229,8-K,stock_exchange_ratio,,one,0.9495024085044861,fp_no_gt
+learned,0001213900-26-093229,8-K,shareholder_vote_date,,"August
+25, 2026",0.6520493030548096,fp_no_gt
+learned,0001213900-26-093229,8-K,expected_closing,first quarter of 2027,first quarter of 2027,0.9791768193244934,tp
+learned,0001753926-26-001637,DEFM14A,acquirer,Rocket Lab Corporation,Rocket Lab,0.8532165884971619,tp
+learned,0001753926-26-001637,DEFM14A,target,Iridium Communications Inc.,Iridium,0.9223969578742981,tp
+learned,0001753926-26-001637,DEFM14A,merger_subsidiary,"Ion Merger Sub I, Inc. | Ion Merger Sub II, LLC","Ion Merger Sub I, Inc.",0.9220420718193054,tp
+learned,0001753926-26-001637,DEFM14A,security_description,common stock,"Common
+Stock",0.9545155167579651,tp
+learned,0001753926-26-001637,DEFM14A,cash_consideration,$27.00 per share,$27.00,0.9890896677970886,tp
+learned,0001753926-26-001637,DEFM14A,stock_exchange_ratio,"$27.00 divided by Rocket Lab Stock Price, subject to 0.2400–0.4000 shares of Rocket Lab Common Stock per share",one,0.9190712571144104,mismatch
+learned,0001753926-26-001637,DEFM14A,shareholder_vote_date,9/24/2026 8:30 AM Eastern Time,"September 24, 2026",0.9714072942733765,tp
+learned,0001753926-26-001637,DEFM14A,expected_closing,mid-2027,mid-2027,0.9621873497962952,tp
+learned,0001104659-26-104858,8-K,acquirer,Texas Ventures Acquisition III Corp,Texas Ventures Acquisition III Corp,0.858390212059021,tp
+learned,0001104659-26-104858,8-K,target,"Plus Automation, Inc.","Plus Automation, Inc.",0.8483333587646484,tp
+learned,0001104659-26-104858,8-K,merger_subsidiary,"TVAC Merger Sub I, Inc. | TVAC Merger Sub II, LLC","TVAC Merger Sub I, Inc.",0.8882883787155151,tp
+learned,0001104659-26-104858,8-K,security_description,Class A common stock,Common Stock,0.9419775605201721,tp
+learned,0001104659-26-104858,8-K,stock_exchange_ratio,Exchange Ratio shares of Class A common stock per share,one,0.9526842832565308,mismatch
+learned,0001104659-26-104858,8-K,shareholder_vote_date,,"September 3, 2026",0.6744617819786072,fp_no_gt
+learned,0001104659-26-104858,8-K,expected_closing,2026,2026,0.8006999492645264,tp
+learned,0001104659-26-104858,8-K,acquirer,Texas Ventures Acquisition III Corp,Texas Ventures Acquisition III Corp,0.858390212059021,tp
+learned,0001104659-26-104858,8-K,target,"Plus Automation, Inc.","Plus Automation, Inc.",0.8483333587646484,tp
+learned,0001104659-26-104858,8-K,merger_subsidiary,"TVAC Merger Sub I, Inc. | TVAC Merger Sub II, LLC","TVAC Merger Sub I, Inc.",0.8882883787155151,tp
+learned,0001104659-26-104858,8-K,security_description,Class B common stock,Common Stock,0.9419775605201721,tp
+learned,0001104659-26-104858,8-K,stock_exchange_ratio,Exchange Ratio shares of Class B common stock per share,one,0.9526842832565308,mismatch
+learned,0001104659-26-104858,8-K,shareholder_vote_date,,"September 3, 2026",0.6744617819786072,fp_no_gt
+learned,0001104659-26-104858,8-K,expected_closing,2026,2026,0.8006999492645264,tp
+learned,0001104659-26-104858,8-K,acquirer,Texas Ventures Acquisition III Corp,Texas Ventures Acquisition III Corp,0.858390212059021,tp
+learned,0001104659-26-104858,8-K,target,"Plus Automation, Inc.","Plus Automation, Inc.",0.8483333587646484,tp
+learned,0001104659-26-104858,8-K,merger_subsidiary,"TVAC Merger Sub I, Inc. | TVAC Merger Sub II, LLC","TVAC Merger Sub I, Inc.",0.8882883787155151,tp
+learned,0001104659-26-104858,8-K,security_description,"Common stock issued upon conversion of Series A-3-X, Series A-4-X or Series B-X preferred stock or exercise of 2021 Plan options",Common Stock,0.9419775605201721,mismatch
+learned,0001104659-26-104858,8-K,stock_exchange_ratio,Exchange Ratio shares of Class C common stock per share,one,0.9526842832565308,mismatch
+learned,0001104659-26-104858,8-K,shareholder_vote_date,,"September 3, 2026",0.6744617819786072,fp_no_gt
+learned,0001104659-26-104858,8-K,expected_closing,2026,2026,0.8006999492645264,tp
+learned,0001213900-26-098973,425,acquirer,Aperture AC,Atlantic HPC Group Inc,0.6519355773925781,mismatch
+learned,0001213900-26-098973,425,target,Atlantic HPC Group Inc,"Atlantic HPC
+Group Inc.",0.7508918046951294,tp
+learned,0001213900-26-098973,425,merger_subsidiary,"AP Ocean Merger Sub, Inc.","AP Ocean Merger Sub, Inc.",0.916644811630249,tp
+learned,0001213900-26-098973,425,security_description,common stock,common stock,0.9306522607803345,tp
+learned,0001213900-26-098973,425,stock_exchange_ratio,,one,0.6164378523826599,fp_no_gt
+learned,0001213900-26-098973,425,expected_closing,first quarter of 2027,first quarter of 2027,0.9818805456161499,tp
+learned,0001140361-26-036669,PREM14A,acquirer,"Willow Parent, LLC","Willow Parent, LLC",0.8405818939208984,tp
+learned,0001140361-26-036669,PREM14A,target,"Weave Communications, Inc.","Weave Communications, Inc.",0.8745588064193726,tp
+learned,0001140361-26-036669,PREM14A,merger_subsidiary,"Willow Merger Sub, Inc.","Willow Merger Sub, Inc.",0.9652392864227295,tp
+learned,0001140361-26-036669,PREM14A,security_description,common stock,Common Stock,0.9471396803855896,tp
+learned,0001140361-26-036669,PREM14A,cash_consideration,$7.40 per share,$7.40,0.9796128273010254,tp
+learned,0001140361-26-036669,PREM14A,stock_exchange_ratio,No stock consideration,one,0.9040423631668091,absence_value
+learned,0001140361-26-036669,PREM14A,shareholder_vote_date,,"[ ], 2026",0.4509112536907196,fp_no_gt
+learned,0001140361-26-036669,PREM14A,expected_closing,fourth quarter of 2026,fourth quarter of 2026,0.9756208062171936,tp
+learned,0001829126-26-000261,425,acquirer,D. Boral ARC Acquisition I Corp.,D. Boral ARC Acquisition I Corp.,0.7333402037620544,tp
+learned,0001829126-26-000261,425,target,Exascale Labs Inc.,Exascale Labs Inc.,0.8452215790748596,tp
+learned,0001829126-26-000261,425,merger_subsidiary,D. Boral Arc Merger Sub Inc.,D. Boral Arc Merger Sub Inc.,0.896619975566864,tp
+learned,0001829126-26-000261,425,security_description,Class A common stock,common stock,0.8747879266738892,tp
+learned,0001829126-26-000261,425,cash_consideration,,Ten Dollars ($10.00),0.7821084856987,fp_no_gt
+learned,0001829126-26-000261,425,stock_exchange_ratio,Per Share Merger Consideration divided by $10.00 in PubCo Class A shares per share,one,0.9464921951293945,mismatch
+learned,0001829126-26-000261,425,expected_closing,second quarter of 2026,second quarter of 2026,0.9782682061195374,tp
+learned,0001829126-26-000261,425,acquirer,D. Boral ARC Acquisition I Corp.,D. Boral ARC Acquisition I Corp.,0.7333402037620544,tp
+learned,0001829126-26-000261,425,target,Exascale Labs Inc.,Exascale Labs Inc.,0.8452215790748596,tp
+learned,0001829126-26-000261,425,merger_subsidiary,D. Boral Arc Merger Sub Inc.,D. Boral Arc Merger Sub Inc.,0.896619975566864,tp
+learned,0001829126-26-000261,425,security_description,Class B common stock,common stock,0.8747879266738892,tp
+learned,0001829126-26-000261,425,cash_consideration,,Ten Dollars ($10.00),0.7821084856987,fp_no_gt
+learned,0001829126-26-000261,425,stock_exchange_ratio,Per Share Merger Consideration divided by $10.00 in PubCo Class B shares per share,one,0.9464921951293945,mismatch
+learned,0001829126-26-000261,425,expected_closing,second quarter of 2026,second quarter of 2026,0.9782682061195374,tp
+learned,0001213900-26-010191,425,acquirer,Athena Technology Acquisition Corp. II,Athena Technology Acquisition Corp. II,0.760114848613739,tp
+learned,0001213900-26-010191,425,target,"Ace Green Recycling, Inc.","Ace Green Recycling, Inc.",0.868640661239624,tp
+learned,0001213900-26-010191,425,merger_subsidiary,Project Atlas Merger Sub Inc.,"Project Atlas Merger
+Sub Inc.",0.9522997736930847,tp
+learned,0001213900-26-010191,425,security_description,,common stock,0.9292224049568176,fp_no_gt
+learned,0001213900-26-010191,425,expected_closing,,Q1 2027,0.5485785007476807,fp_no_gt
+learned,0001213900-26-010178,8-K,acquirer,Athena Technology Acquisition Corp. II,Athena Technology Acquisition Corp. II,0.7615922689437866,tp
+learned,0001213900-26-010178,8-K,target,"Ace Green Recycling, Inc.","Ace Green Recycling, Inc.",0.8636811971664429,tp
+learned,0001213900-26-010178,8-K,merger_subsidiary,Project Atlas Merger Sub Inc.,"Project Atlas Merger
+Sub Inc.",0.9469349384307861,tp
+learned,0001213900-26-010178,8-K,expected_closing,,Q1 2027,0.7023440599441528,fp_no_gt
+learned,0001829126-26-000900,8-K,acquirer,,Voyager Acquisition Corp.,0.8420050740242004,fp_no_gt
+learned,0001829126-26-000900,8-K,target,Veraxa Biotech AG,VERAXA Biotech AG,0.8561539053916931,tp
+learned,0001829126-26-000900,8-K,security_description,Company Shares,Ordinary Shares,0.7169395089149475,tp
+learned,0001829126-26-000900,8-K,stock_exchange_ratio,,one,0.8766910433769226,fp_no_gt
+learned,0001829126-26-001748,8-K,acquirer,,Voyager Acquisition Corp.,0.8737725615501404,fp_no_gt
+learned,0001829126-26-001748,8-K,target,VERAXA Biotech AG,"VERAXA Biotech
+AG",0.7880865931510925,tp
+learned,0001829126-26-001748,8-K,security_description,,Class A ordinary shares,0.611828088760376,fp_no_gt
+learned,0001829126-26-001748,8-K,stock_exchange_ratio,,one,0.8770262002944946,fp_no_gt
+learned,0001829126-26-001748,8-K,shareholder_vote_date,2/27/2026,"February 27, 2026",0.9478518962860107,tp
+learned,0001829126-26-001749,425,acquirer,Veraxa Biotech Holding AG,Voyager Acquisition Corp.,0.8630663752555847,mismatch
+learned,0001829126-26-001749,425,target,VERAXA Biotech AG,"VERAXA Biotech
+AG",0.7915010452270508,tp
+learned,0001829126-26-001749,425,security_description,,Class A ordinary shares,0.631368100643158,fp_no_gt
+learned,0001829126-26-001749,425,stock_exchange_ratio,,one,0.8866530060768127,fp_no_gt
+learned,0001829126-26-001749,425,shareholder_vote_date,2/27/2026,"February 27, 2026",0.9451252222061157,tp
+learned,0001493152-26-009317,8-K,acquirer,Calisa Acquisition Corp,Calisa Acquisition Corp,0.8366913199424744,tp
+learned,0001493152-26-009317,8-K,target,Goodvision AI Inc.,"GoodVision
+AI",0.8792548179626465,tp
+learned,0001493152-26-009317,8-K,merger_subsidiary,Calisa Merger Sub,Calisa Merger Sub,0.9603002667427063,tp
+learned,0001493152-26-009317,8-K,security_description,ordinary shares,ordinary shares,0.7973472476005554,tp
+learned,0001493152-26-009317,8-K,stock_exchange_ratio,"18,000,000 divided by fully diluted Goodvision shares outstanding in Calisa Acquisition Corp ordinary shares per share",one,0.9279451370239258,mismatch
+learned,0001493152-26-009317,8-K,expected_closing,second half of 2026,second half of 2026,0.9737947583198547,tp
+learned,0001104659-26-027698,S-4/A,acquirer,"Beacon Topco, Inc.","Beacon Topco, Inc.",0.8005388975143433,tp
+learned,0001104659-26-027698,S-4/A,target,Barinthus Biotherapeutics plc,Barinthus Bio,0.8933932781219482,mismatch
+learned,0001104659-26-027698,S-4/A,merger_subsidiary,,"Cdog Merger Sub, Inc.",0.9462090730667114,fp_no_gt
+learned,0001104659-26-027698,S-4/A,security_description,ordinary shares,common stock,0.9361429214477539,mismatch
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio,0.1 to 0.166667 shares of Topco Common Stock per share,one,0.9503907561302185,mismatch
+learned,0001104659-26-027698,S-4/A,expected_closing,first half of 2026,second quarter of 2026,0.9810612201690674,mismatch
+learned,0001104659-26-027698,S-4/A,acquirer,"Beacon Topco, Inc.","Beacon Topco, Inc.",0.8005388975143433,tp
+learned,0001104659-26-027698,S-4/A,target,"Clywedog Therapeutics, Inc.",Barinthus Bio,0.8933932781219482,mismatch
+learned,0001104659-26-027698,S-4/A,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc.",0.9462090730667114,tp
+learned,0001104659-26-027698,S-4/A,security_description,common stock,common stock,0.9361429214477539,tp
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio,0.000305 to 0.000508 shares of Topco Common Stock per share,one,0.9503907561302185,mismatch
+learned,0001104659-26-027698,S-4/A,expected_closing,first half of 2026,second quarter of 2026,0.9810612201690674,mismatch
+learned,0001104659-26-027698,S-4/A,acquirer,"Beacon Topco, Inc.","Beacon Topco, Inc.",0.8005388975143433,tp
+learned,0001104659-26-027698,S-4/A,target,"Clywedog Therapeutics, Inc.",Barinthus Bio,0.8933932781219482,mismatch
+learned,0001104659-26-027698,S-4/A,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc.",0.9462090730667114,tp
+learned,0001104659-26-027698,S-4/A,security_description,Series Seed Preferred Stock,common stock,0.9361429214477539,mismatch
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio,0.000305 to 0.000508 shares of Topco Common Stock per share,one,0.9503907561302185,mismatch
+learned,0001104659-26-027698,S-4/A,expected_closing,first half of 2026,second quarter of 2026,0.9810612201690674,mismatch
+learned,0001829126-26-002394,8-K,acquirer,Horizon Quantum Holdings Ltd.,,,fn_no_pred
+learned,0001829126-26-002394,8-K,target,Horizon Quantum Computing Pte. Ltd.,Horizon Quantum Computing Pte. Ltd.,0.7809471487998962,tp
+learned,0001829126-26-002394,8-K,merger_subsidiary,Rose Acquisition Pte. Ltd.,"Horizon Merger Sub 2, Inc.",0.8701449632644653,mismatch
+learned,0001829126-26-002394,8-K,security_description,,Class A common stock,0.7983652949333191,fp_no_gt
+learned,0001829126-26-002394,8-K,stock_exchange_ratio,,one,0.9502749443054199,fp_no_gt
+learned,0001829126-26-002394,8-K,shareholder_vote_date,,"March 17, 2026",0.9580958485603333,fp_no_gt
+learned,0001829126-26-002394,8-K,acquirer,Horizon Quantum Holdings Ltd.,,,fn_no_pred
+learned,0001829126-26-002394,8-K,target,"dMY Squared Technology Group, Inc.",Horizon Quantum Computing Pte. Ltd.,0.7809471487998962,mismatch
+learned,0001829126-26-002394,8-K,merger_subsidiary,"Horizon Merger Sub 2, Inc.","Horizon Merger Sub 2, Inc.",0.8701449632644653,tp
+learned,0001829126-26-002394,8-K,security_description,,Class A common stock,0.7983652949333191,fp_no_gt
+learned,0001829126-26-002394,8-K,stock_exchange_ratio,,one,0.9502749443054199,fp_no_gt
+learned,0001829126-26-002394,8-K,shareholder_vote_date,3/17/2026,"March 17, 2026",0.9580958485603333,tp

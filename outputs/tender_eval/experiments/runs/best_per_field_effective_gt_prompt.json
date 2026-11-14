@@ -1,0 +1,127 @@
+{
+  "note": "Hybrid teal for Temporal-to-Qwen effective + currency hybrid; Llama clauses for proration",
+  "oracle_micro_f1": 0.8372093023255814,
+  "baseline_oracle_micro_f1": 0.7721822541966428,
+  "delta_vs_baseline": 0.06502704812893867,
+  "currency_in_micro": true,
+  "legend_families": [
+    "Rules",
+    "Qwen",
+    "Temporal NER",
+    "Hybrid"
+  ],
+  "fields": {
+    "subject_company": {
+      "system": "Qwen direct",
+      "family": "Qwen",
+      "f1": 1.0,
+      "tp": 23,
+      "fp": 0,
+      "fn": 0
+    },
+    "bidder": {
+      "system": "Qwen direct",
+      "family": "Qwen",
+      "f1": 1.0,
+      "tp": 23,
+      "fp": 0,
+      "fn": 0
+    },
+    "security_description": {
+      "system": "Qwen direct",
+      "family": "Qwen",
+      "f1": 0.7391304347826085,
+      "tp": 17,
+      "fp": 6,
+      "fn": 6
+    },
+    "cusip": {
+      "system": "Rules",
+      "family": "Rules",
+      "f1": 1.0,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0
+    },
+    "isin": {
+      "system": "Rules",
+      "family": "Rules",
+      "f1": 1.0,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0
+    },
+    "ticker": {
+      "system": "Rules",
+      "family": "Rules",
+      "f1": 0.6,
+      "tp": 3,
+      "fp": 0,
+      "fn": 4
+    },
+    "offer_price": {
+      "system": "Qwen direct",
+      "family": "Qwen",
+      "f1": 0.8260869565217391,
+      "tp": 19,
+      "fp": 4,
+      "fn": 4
+    },
+    "currency": {
+      "system": "Currency hybrid",
+      "family": "Hybrid",
+      "f1": 0.3076923076923077,
+      "tp": 2,
+      "fp": 9,
+      "fn": 0
+    },
+    "expiration_date": {
+      "system": "Temporal NER",
+      "family": "Temporal NER",
+      "f1": 0.8181818181818182,
+      "tp": 18,
+      "fp": 4,
+      "fn": 4
+    },
+    "withdrawal_deadline": {
+      "system": "Temporal NER",
+      "family": "Temporal NER",
+      "f1": 0.7058823529411764,
+      "tp": 6,
+      "fp": 1,
+      "fn": 4
+    },
+    "settlement_date": {
+      "system": "Settlement template",
+      "family": "Rules",
+      "f1": 0.7200000000000001,
+      "tp": 9,
+      "fp": 1,
+      "fn": 6
+    },
+    "effective_date": {
+      "system": "Temporal to Qwen",
+      "family": "Hybrid",
+      "f1": 0.6,
+      "tp": 3,
+      "fp": 3,
+      "fn": 1
+    },
+    "minimum_tender_condition": {
+      "system": "Qwen clauses",
+      "family": "Qwen",
+      "f1": 0.7777777777777778,
+      "tp": 7,
+      "fp": 0,
+      "fn": 4
+    },
+    "proration_terms": {
+      "system": "Llama clauses",
+      "family": "Qwen",
+      "f1": 0.8571428571428571,
+      "tp": 6,
+      "fp": 1,
+      "fn": 1
+    }
+  }
+}

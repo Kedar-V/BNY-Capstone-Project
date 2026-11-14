@@ -1,0 +1,12 @@
+,finetuned_pipeline_f1,finetuned_oracle_f1
+acquirer,0.516,0.505
+target,0.502,0.539
+merger_subsidiary,0.605,0.69
+security_description,0.657,0.675
+cash_consideration,0.586,0.6
+stock_exchange_ratio,0.474,0.494
+shareholder_vote_date,0.534,0.623
+effective_date,1.0,1.0
+election_deadline,,0.0
+expected_closing,0.387,0.881
+MICRO,0.539,0.626

@@ -1,0 +1,21 @@
+{
+  "method": "merger-agreement role rule + GLiNER",
+  "model": "merger-agreement role rule + GLiNER",
+  "split": "train",
+  "filings": 120,
+  "records": 214,
+  "reads": "fulltext",
+  "seconds": 0,
+  "micro": {
+    "fulltext": {
+      "tp": 442,
+      "fp": 191,
+      "fn": 131,
+      "gt_absence_values": 0,
+      "precision": 0.69826224328594,
+      "recall": 0.7713787085514834,
+      "f1": 0.7330016583747927
+    }
+  },
+  "note": "Agreement with unverified LLM ground truth. Category fields accept a span containing the label's key word; free-text fields use token F1 >= 0.5. Stated absences ('No ...') are counted apart because a span model cannot produce them."
+}

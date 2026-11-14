@@ -1,0 +1,25 @@
+{
+  "field": "settlement_date",
+  "method": "qwen_prompt_engineering",
+  "model": "llama3.1:8b",
+  "split": "holdout",
+  "n_rows": 23,
+  "tp": 9,
+  "fp": 12,
+  "fn": 6,
+  "gt_present": 15,
+  "pred_present": 21,
+  "precision": 0.42857142857142855,
+  "recall": 0.6,
+  "f1": 0.5,
+  "baselines": {
+    "settlement_template_rules_f1": 0.72,
+    "hybrid_allspans_f1": 0.64,
+    "qwen_direct_multifield_f1": 0.286,
+    "temporal_f1": 0.324
+  },
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "CR-shaped Payment: promptly prompt; light normalize of promptly freeform to Payment: promptly"
+  }
+}

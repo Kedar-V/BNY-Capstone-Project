@@ -1,0 +1,21 @@
+{
+  "gt": "/Users/aeshagandhi/Workspace/BNY-Capstone-Project/notebooks/evaluation/data/merger_2026-01-01_2026-09-30/mergers.csv",
+  "filings": 573,
+  "records": 951,
+  "splits": {
+    "holdout": {
+      "filings": 103,
+      "deal_groups": 75
+    },
+    "train": {
+      "filings": 470,
+      "deal_groups": 268
+    }
+  },
+  "examples": {
+    "train": 5248,
+    "holdout": 1282
+  },
+  "positive_passages": 5039,
+  "negative_passages": 1490
+}

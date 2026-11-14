@@ -1,0 +1,323 @@
+accession_number,field,value,evidence
+0001437749-26-000391,acquirer,"SPX Enterprises, LLC",parent of the merger subsidiary: Ohio corporation and a wholly-owned subsidiary of Parent
+0001437749-26-000391,target,Crawford United Corporation,defined as the Company / Target
+0001437749-26-000391,merger_subsidiary,"Project King Acquisition, Inc.","Project King Acquisition, Inc., Ohio corporation and a wholly-owned subsidiary of Parent (“Merger Sub”)"
+0001193125-26-003553,acquirer,CNL Healthcare Properties,parent of the merger subsidiary: Maryland corporation and a wholly-owned subsidiary of CNL Healthcare Properties
+0001193125-26-003553,target,"CNL Healthcare Properties, Inc.",filer of a DEFM14A
+0001193125-26-003553,merger_subsidiary,CHP Merger Corp. | SSL Sparti Property Holdings Inc.,"CHP Merger Corp., Maryland corporation and a wholly-owned subsidiary of CNL Healthcare Properties (“CHP Merger Sub”)"
+0001193125-26-010471,acquirer,"Sword Purchaser, LLC",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001193125-26-010471,target,SEALED AIR CORP/DE,filer of a PREM14A
+0001193125-26-010471,merger_subsidiary,"Sword Merger Sub, Inc.","Sword Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001493152-26-002095,acquirer,Boost Run Inc.,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Pubco
+0001493152-26-002095,target,Willow Lane,GLiNER fallback
+0001493152-26-002095,merger_subsidiary,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,"Benchmark Merger Sub I Inc., Delaware corporation and a wholly-owned subsidiary of Pubco (“SPAC Merger Sub”)"
+0001193125-26-012952,acquirer,Ryerson Holding Corporation,GLiNER fallback
+0001193125-26-012952,target,OLYMPIC STEEL INC,filer of a DEFM14A
+0001193125-26-012952,merger_subsidiary,Crimson MS Corp.,GLiNER fallback
+0001185185-26-000166,acquirer,RYVYL Inc.,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Ryvyl
+0001185185-26-000166,target,"RTB DIGITAL, INC.",GLiNER fallback
+0001185185-26-000166,merger_subsidiary,RYVYL Merger Sub Inc.,"RYVYL Merger Sub Inc., Delaware corporation and a wholly-owned subsidiary of Ryvyl (“Merger Sub”)"
+0001104659-26-004251,acquirer,IX Acquisition Corp.,parent of the merger subsidiary: Nevada corporation and a wholly-owned subsidiary of IXAQ
+0001104659-26-004251,target,AERKOMM Inc.,GLiNER fallback
+0001104659-26-004251,merger_subsidiary,AKOM Merger Inc.,"AKOM Merger Inc., Nevada corporation and a wholly-owned subsidiary of IXAQ (“Merger Sub”)"
+0001193125-26-016598,acquirer,GigCapital7 Corp.,parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of GigCapital7
+0001193125-26-016598,target,"Hadron Energy, Inc.",GLiNER fallback
+0001193125-26-016598,merger_subsidiary,"MMR Merger Sub, Inc.","MMR Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of GigCapital7 (“Merger Sub”)"
+0001193125-26-016684,acquirer,Macquarie Capital (USA) Inc.,GLiNER fallback
+0001193125-26-016684,target,"Golden Entertainment, Inc.",defined as the Company / Target
+0001193125-26-016684,merger_subsidiary,VICI ROYAL MERGER SUB LLC,GLiNER fallback
+0001140361-26-003049,acquirer,"Bed Bath & Beyond, Inc.",GLiNER fallback
+0001140361-26-003049,target,"BRAND HOUSE COLLECTIVE, INC.",filer of a DEFM14A
+0001140361-26-003049,merger_subsidiary,"Knight Merger Sub II, Inc.",GLiNER fallback
+0001539497-26-000230,acquirer,,
+0001539497-26-000230,target,"BioAtla, Inc.",defined as the Company / Target
+0001539497-26-000230,merger_subsidiary,"BA Merger Sub, Inc.","BA Merger Sub, Inc., Delaware corporation (“Merger Sub”)"
+0001437749-26-002544,acquirer,"Gateway Superfood NSSIII Investment, LLC",GLiNER fallback
+0001437749-26-002544,target,"Laird Superfood, Inc.",defined as the Company / Target
+0001437749-26-002544,merger_subsidiary,"Picky Bars, LLC",GLiNER fallback
+0001628280-26-006094,acquirer,GigCapital5,GLiNER fallback
+0001628280-26-006094,target,"QT Imaging Holdings, Inc.",GLiNER fallback
+0001628280-26-006094,merger_subsidiary,"QTI Merger Sub, Inc.",GLiNER fallback
+0001829126-26-001208,acquirer,Einride AB,GLiNER fallback
+0001829126-26-001208,target,Einride,GLiNER fallback
+0001829126-26-001208,merger_subsidiary,Legato Merger Corp. III,GLiNER fallback
+0001493152-26-007487,acquirer,Telomir,GLiNER fallback
+0001493152-26-007487,target,"Telomir Pharmaceuticals, Inc.",filer of a DEFM14A
+0001493152-26-007487,merger_subsidiary,"TELOPHARM Acquisition, Inc. | TELO Pharmaceuticals, Inc.","TELOPHARM Acquisition, Inc., Delaware corporation and wholly owned subsidiary of TELO (“Merger Sub”)"
+0001104659-26-017281,acquirer,IWAC Holding Company Inc.,parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Pubco
+0001104659-26-017281,target,Integrated Wellness Acquisition Corp.,GLiNER fallback
+0001104659-26-017281,merger_subsidiary,IWAC Purchaser Merger Sub II Inc. | Sub Inc.,"IWAC Purchaser Merger Sub II Inc., Delaware corporation and a wholly owned subsidiary of Pubco (“Purchaser Merger Sub”)"
+0001104659-26-020983,acquirer,TL Topco PLC,parent of the merger subsidiary: Cayman Islands exempted company and wholly owned subsidiary of PubCo
+0001104659-26-020983,target,TL Topco PLC,GLiNER fallback
+0001104659-26-020983,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,"ThomasLloyd Climate Solutions Merger Sub, Cayman Islands exempted company and wholly owned subsidiary of PubCo (“Merger Sub”)"
+0001213900-26-022404,acquirer,Keen Vision Acquisition Corporation,defined as Parent / Buyer / Purchaser / Acquiror
+0001213900-26-022404,target,Medera Inc.,defined as the Company / Target
+0001213900-26-022404,merger_subsidiary,Novoheart Group Limited,GLiNER fallback
+0001104659-26-023474,acquirer,VICI PROPERTIES INC.,filer of a S-4/A
+0001104659-26-023474,target,"Golden Entertainment, Inc.",GLiNER fallback
+0001104659-26-023474,merger_subsidiary,VICI ROYAL MERGER SUB LLC,GLiNER fallback
+0001104659-26-024193,acquirer,Relativity Holdings Inc.,parent of the merger subsidiary: company to be formed in the Cayman Islands and a wholly owned subsidiary of Pubco
+0001104659-26-024193,target,Relativity Acquisition Corp,filer of a DEFM14A
+0001104659-26-024193,merger_subsidiary,Relativity Purchaser Merger Sub II Inc.,"Relativity Purchaser Merger Sub II Inc., company to be formed in the Cayman Islands and a wholly owned subsidiary of Pubco (“Merger Sub”)"
+0001213900-26-024672,acquirer,Odysseus Holdings Limited,GLiNER fallback
+0001213900-26-024672,target,Vine Hill Capital Investment Corp.,filer of a PREM14A
+0001213900-26-024672,merger_subsidiary,Limited,"Limited, Cayman Islands exempted company (“SPAC Merger Sub”)"
+0001193125-26-102445,acquirer,"Glow Midco, LLC",parent of the merger subsidiary: Delaware corporation and wholly owned subsidiary of Parent
+0001193125-26-102445,target,"EWC Ventures, LLC",defined as the Company / Target
+0001193125-26-102445,merger_subsidiary,"Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC","Glow Merger Sub 1, Inc., Delaware corporation and wholly owned subsidiary of Parent (“Merger Sub Inc”)"
+0001213900-26-026265,acquirer,Plum IV,parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of Plum IV
+0001213900-26-026265,target,Controlled Thermal Resources Holdings Inc.,defined as the Company / Target
+0001213900-26-026265,merger_subsidiary,"Plum IV Merger Sub, Inc. | Plum IV Merger Sub Inc.","Plum IV Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of Plum IV (“Merger Sub”)"
+0001493152-26-009785,acquirer,Smart Kreate Group Limited,parent of the merger subsidiary: exempted company limited by shares incorporated under the laws of the Cayman Islands and a wholly owned subsidiary of PubCo
+0001493152-26-009785,target,SMART KREATE GROUP LIMITED,GLiNER fallback
+0001493152-26-009785,merger_subsidiary,SKG Merger Sub 1 Limited | SKG Merger Sub 2 Limited,"SKG Merger Sub 1 Limited, exempted company limited by shares incorporated under the laws of the Cayman Islands and a wholly owned subsidiary of PubCo (“Merger Sub 1”)"
+0001104659-26-029601,acquirer,"Royal Cup, Inc.",GLiNER fallback
+0001104659-26-029601,target,FARMER BROTHERS CO,filer of a PREM14A
+0001104659-26-029601,merger_subsidiary,BP I Brew Merger Sub Inc.,GLiNER fallback
+0001185185-26-000991,acquirer,"Blockfusion Data Centers, Inc.",parent of the merger subsidiary: Cayman Islands exempted company
+0001185185-26-000991,target,"Blockfusion USA, Inc.",defined as the Company / Target
+0001185185-26-000991,merger_subsidiary,"Atlas I Merger Sub | Atlas Merger Sub, Inc.","Atlas I Merger Sub, Cayman Islands exempted company (“SPAC Merger Sub”)"
+0001104659-26-035458,acquirer,The Nasdaq Stock Market LLC,GLiNER fallback
+0001104659-26-035458,target,Factorial Inc.,defined as the Company / Target
+0001104659-26-035458,merger_subsidiary,"Fenway MS, Inc.","Fenway MS, Inc., Delaware corporation (“Merger Sub”)"
+0001140361-26-012383,acquirer,Allegiant Travel Company,GLiNER fallback
+0001140361-26-012383,target,"Sun Country Airlines Holdings, Inc.",filer of a DEFM14A
+0001140361-26-012383,merger_subsidiary,"Mirage Merger Sub, Inc.",GLiNER fallback
+0001193125-26-134924,acquirer,"IonQ, Inc.",GLiNER fallback
+0001193125-26-134924,target,"SkyWater Technology, Inc",filer of a DEFM14A
+0001193125-26-134924,merger_subsidiary,Iris Merger Subsidiary 1 Inc.,GLiNER fallback
+0001493152-26-015164,acquirer,Hennessy Capital Investment Corp. VII,parent of the merger subsidiary: Delaware limited liability company and a direct wholly-owned subsidiary of HVII
+0001493152-26-015164,target,ONE Nuclear,GLiNER fallback
+0001493152-26-015164,merger_subsidiary,Solis Merger Sub LLC,"Solis Merger Sub LLC, Delaware limited liability company and a direct wholly-owned subsidiary of HVII (“Merger
+Sub”)"
+0001213900-26-042083,acquirer,US Elemental Inc.,parent of the merger subsidiary: Delaware limited liability company and a direct wholly owned subsidiary of PubCo
+0001213900-26-042083,target,HiTech Minerals Inc.,defined as the Company / Target
+0001213900-26-042083,merger_subsidiary,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,"CAC Merger Sub I LLC, Delaware limited liability company and a direct wholly owned subsidiary of PubCo (“Merger Sub 1”)"
+0001104659-26-043531,acquirer,Stallion Intermediate Corporation,parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001104659-26-043531,target,Select Medical Holdings Corporation,defined as the Company / Target
+0001104659-26-043531,merger_subsidiary,Stallion MergerSub Corporation | Stallion Merger Sub Corporation,"Stallion MergerSub Corporation, Delaware corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001829126-26-003564,acquirer,Wintergreen Acquisition Corp.,parent of the merger subsidiary: Cayman Islands exempted company and wholly-owned subsidiary of Wintergreen
+0001829126-26-003564,target,KIKA Technology Inc.,GLiNER fallback
+0001829126-26-003564,merger_subsidiary,Wintergreen Acquisition Merger Subsidiary Corp.,"Wintergreen Acquisition Merger Subsidiary Corp., Cayman Islands exempted company and wholly-owned subsidiary of Wintergreen (“Merger Sub”)"
+0001213900-26-045154,acquirer,Sizzle Acquisition Corp. II,GLiNER fallback
+0001213900-26-045154,target,Trasteel Holding S.A.,defined as the Company / Target
+0001213900-26-045154,merger_subsidiary,Joinder,"Joinder, to-be-formed Cayman Islands exempted company (“Merger Sub”)"
+0001193125-26-187219,acquirer,"Xtend AI Robotics, Inc.",filer of a S-4
+0001193125-26-187219,target,"JFB
+Construction Holdings",GLiNER fallback
+0001193125-26-187219,merger_subsidiary,"XT Merger Sub 2, Inc.",GLiNER fallback
+0001140361-26-018881,acquirer,"Horizon Parent, L.P.",parent of the merger subsidiary: Delaware corporation and wholly owned subsidiary of Parent
+0001140361-26-018881,target,AES CORP,filer of a PREM14A
+0001140361-26-018881,merger_subsidiary,"Horizon Merger Sub, Inc.","Horizon Merger Sub, Inc., Delaware corporation and wholly owned subsidiary of Parent (“Merger Sub”)"
+0001213900-26-051571,acquirer,"NorthStar Earth and Space
+Inc.",GLiNER fallback
+0001213900-26-051571,target,NorthStar Earth & Space Inc.,GLiNER fallback
+0001213900-26-051571,merger_subsidiary,Viking NS Amalgamation Corp.,GLiNER fallback
+0001185185-26-001691,acquirer,Blueport Acquisition Ltd,parent of the merger subsidiary: Cayman Islands exempted company and wholly owned subsidiary of Parent
+0001185185-26-001691,target,SINGAUTO Inc.,defined as the Company / Target
+0001185185-26-001691,merger_subsidiary,NeoCryo Merger Sub Ltd,"NeoCryo Merger Sub Ltd, Cayman Islands exempted company and wholly owned subsidiary of Parent (“Merger Sub”)"
+0001213900-26-054062,acquirer,Aptorum Group Ltd,filer of a S-4/A
+0001213900-26-054062,target,Aptorum Group Limited,defined as the Company / Target
+0001213900-26-054062,merger_subsidiary,"DiamiR, LLC",GLiNER fallback
+0001829126-26-005260,acquirer,Eight Directions Global Limited,parent of the merger subsidiary: Cayman Islands exempted company and wholly owned subsidiary of Purchaser
+0001829126-26-005260,target,Eight Directions Technology Limited,defined as the Company / Target
+0001829126-26-005260,merger_subsidiary,CUPS Sub Limited | Purchaser,"CUPS Sub Limited, Cayman Islands exempted company and wholly owned subsidiary of Purchaser (“Merger Sub”)"
+0001213900-26-061108,acquirer,"SeeQC, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of SEEQC
+0001213900-26-061108,target,"SEEQC, INC.",GLiNER fallback
+0001213900-26-061108,merger_subsidiary,"SEEQC Merger Sub, Inc.","SEEQC Merger Sub, Inc., Delaware corporation and a wholly-owned subsidiary of SEEQC (“Merger Sub”)"
+0001140361-26-023175,acquirer,"Gaia Purchaser, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001140361-26-023175,target,"Global Business Travel Group, Inc.",defined as the Company / Target
+0001140361-26-023175,merger_subsidiary,"Gaia Merger Sub, Inc. | Merger Sub","Gaia Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001140361-26-023178,acquirer,"steute Industrial Controls, Inc.",GLiNER fallback
+0001140361-26-023178,target,"Electro-Sensors, Inc.",defined as the Company / Target
+0001140361-26-023178,merger_subsidiary,"Steute Burwell, Inc.","Steute Burwell, Inc., Minnesota corporation and wholly-owned subsidiary of Parent (“Merger Sub”)"
+0001829126-26-005923,acquirer,OpenPayd Global Holdings Limited,defined as Parent / Buyer / Purchaser / Acquiror
+0001829126-26-005923,target,OpenPayd Holdings Limited,defined as the Company / Target
+0001829126-26-005923,merger_subsidiary,Titan Acquisition Sponsor Holdco LLC,GLiNER fallback
+0001213900-26-063737,acquirer,US Elemental Inc.,parent of the merger subsidiary: Delaware limited liability company and a direct wholly owned subsidiary of US Elemental
+0001213900-26-063737,target,HiTech Minerals Inc.,GLiNER fallback
+0001213900-26-063737,merger_subsidiary,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,"CAC Merger Sub I LLC, Delaware limited liability company and a direct wholly owned subsidiary of US Elemental (“Merger Sub 1”)"
+0001193125-26-269722,acquirer,Berkshire Hathaway Inc.,GLiNER fallback
+0001193125-26-269722,target,Taylor Morrison Home Corp,filer of a PREM14A
+0001193125-26-269722,merger_subsidiary,"WXYZ Merger Sub, Inc.",GLiNER fallback
+0001104659-26-073581,acquirer,"Rome Wildlife, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of New Wildlife
+0001104659-26-073581,target,"Rome
+Wildlife, Inc.",GLiNER fallback
+0001104659-26-073581,merger_subsidiary,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,"Wildlife Acquisition I Corp., Delaware corporation and a wholly owned subsidiary of New Wildlife (“Merger Sub I”)"
+0001213900-26-069741,acquirer,Silicon Valley Acquisition Corp.,GLiNER fallback
+0001213900-26-069741,target,EigenQ Inc.,GLiNER fallback
+0001213900-26-069741,merger_subsidiary,,
+0001193125-26-279668,acquirer,Mountain Holding,"parent of the merger subsidiary: newly-formed Delaware corporation and wholly-owned subsidiary of Mountain Holding, Inc."
+0001193125-26-279668,target,"Equitable Holdings, Inc.",filer of a DEFM14A
+0001193125-26-279668,merger_subsidiary,"Palisade Holding, Inc. | Marcy Holding, Inc.","Palisade Holding, Inc., newly-formed Delaware corporation and wholly-owned subsidiary of Mountain Holding, Inc. (“Corebridge Merger Sub”)"
+0001193125-26-279656,acquirer,Mountain Holding,"parent of the merger subsidiary: newly-formed Delaware corporation and wholly-owned subsidiary of Mountain Holding, Inc."
+0001193125-26-279656,target,"Corebridge Financial, Inc.",filer of a DEFM14A
+0001193125-26-279656,merger_subsidiary,"Palisade Holding, Inc. | Marcy Holding, Inc.","Palisade Holding, Inc., newly-formed Delaware corporation and wholly-owned subsidiary of Mountain Holding, Inc. (“Corebridge Merger Sub”)"
+0001193125-26-286936,acquirer,Talawar Tx Inc.,defined as Parent / Buyer / Purchaser / Acquiror
+0001193125-26-286936,target,Talawar Tx Inc.,GLiNER fallback
+0001193125-26-286936,merger_subsidiary,Talawar Merger Sub,"Talawar Merger Sub, Cayman Islands exempted company (“Merger Sub”)"
+0001213900-26-073218,acquirer,Inflection Point,parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of USAR
+0001213900-26-073218,target,Texas Mineral Resources Corp.,filer of a DEFM14A
+0001213900-26-073218,merger_subsidiary,"Hamer Merger Sub, Inc. | Hamer Merger Sub, LLC","Hamer Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of USAR (“First Merger Sub”)"
+0001213900-26-074267,acquirer,"SeeQC, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of SEEQC
+0001213900-26-074267,target,Allegro Merger Corp.,filer of a DEFM14A
+0001213900-26-074267,merger_subsidiary,"SEEQC Merger Sub, Inc.","SEEQC Merger Sub, Inc., Delaware corporation and a wholly-owned subsidiary of SEEQC (“Merger Sub”)"
+0001140361-26-027469,acquirer,Andor LLC,parent of the merger subsidiary: Delaware corporation and wholly owned subsidiary of Parent
+0001140361-26-027469,target,"Apogee Therapeutics, Inc.",defined as the Company / Target
+0001140361-26-027469,merger_subsidiary,Andor Merger Co.,"Andor Merger Co., Delaware corporation and wholly owned subsidiary of Parent (“Merger Sub”)"
+0001104659-26-082291,acquirer,"Rome Wildlife, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of New Wildlife
+0001104659-26-082291,target,"RE/MAX Holdings, Inc.",filer of a DEFM14A
+0001104659-26-082291,merger_subsidiary,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,"Wildlife Acquisition I Corp., Delaware corporation and a wholly owned subsidiary of New Wildlife (“Merger Sub I”)"
+0001193125-26-306199,acquirer,"Orion Merger Parent, Inc.",parent of the merger subsidiary: Rhode Island corporation and a wholly owned subsidiary of Parent
+0001193125-26-306199,target,"AstroNova, Inc.",defined as the Company / Target
+0001193125-26-306199,merger_subsidiary,"Orion MergerCo X, Inc.","Orion MergerCo X, Inc., Rhode Island corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001140361-26-029134,acquirer,Vertex Pharmaceuticals Incorporated,parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Vertex
+0001140361-26-029134,target,"Crinetics Pharmaceuticals, Inc.",filer of a PREM14A
+0001140361-26-029134,merger_subsidiary,"Clark Merger Sub, Inc.","Clark Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of Vertex (“Merger Sub”)"
+0001493152-26-034626,acquirer,IB Acquisition Corp.,filer of a S-4
+0001493152-26-034626,target,"GNQ Insilico, Inc.",GLiNER fallback
+0001493152-26-034626,merger_subsidiary,ExchangeCo,GLiNER fallback
+0001140361-26-029608,acquirer,"CRH Americas, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001140361-26-029608,target,"Arcosa, Inc.",defined as the Company / Target
+0001140361-26-029608,merger_subsidiary,"Neon Merger Sub, Inc.","Neon Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of Parent (“merger sub”)"
+0001213900-26-081847,acquirer,HeartSciences Inc.,"parent of the merger subsidiary: Delaware limited liability company and a direct, wholly-owned subsidiary of HeartSciences"
+0001213900-26-081847,target,HeartSciences Inc.,GLiNER fallback
+0001213900-26-081847,merger_subsidiary,"Cordis Acquisition, LLC","Cordis Acquisition, LLC, Delaware limited liability company and a direct, wholly-owned subsidiary of HeartSciences (“Merger Sub”)"
+0001213900-26-084686,acquirer,Newbridge Acquisition Limited,parent of the merger subsidiary: Delaware corporation
+0001213900-26-084686,target,Startech Group Inc.,defined as the Company / Target
+0001213900-26-084686,merger_subsidiary,"Newbridge Merger Sub, Inc. | Parent","Newbridge Merger Sub, Inc., Delaware corporation (“Merger
+Sub”)"
+0001140361-26-032037,acquirer,Germany,parent of the merger subsidiary: Minnesota corporation and a wholly-owned subsidiary of Parent
+0001140361-26-032037,target,BIO-TECHNE Corp,filer of a PREM14A
+0001140361-26-032037,merger_subsidiary,"EMD Holdings NewCo, Inc.","EMD Holdings NewCo, Inc., Minnesota corporation and a wholly-owned subsidiary of Parent (“Merger Sub”)"
+0001104659-26-093784,acquirer,Zymeworks Inc.,parent of the merger subsidiary: exempted company with limited liability incorporated under the laws of the Cayman Islands and a wholly owned subsidiary of Parent
+0001104659-26-093784,target,"Theravance Biopharma, Inc.",defined as the Company / Target
+0001104659-26-093784,merger_subsidiary,Zymeworks Merger Sub 1,"Zymeworks Merger Sub 1, exempted company with limited liability incorporated under the laws of the Cayman Islands and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001213900-26-087935,acquirer,"Inflection Point Acquisition
+Corp. V",GLiNER fallback
+0001213900-26-087935,target,GOWell Technology Limited,GLiNER fallback
+0001213900-26-087935,merger_subsidiary,IPCV Merger Sub Limited,GLiNER fallback
+0001213900-26-089404,acquirer,"Langham Project, LLC",parent of the merger subsidiary: Nevada corporation and a wholly owned subsidiary of Parent
+0001213900-26-089404,target,"LogicMark, Inc.",filer of a PREM14A
+0001213900-26-089404,merger_subsidiary,"Langham Merger Sub, Inc.","Langham Merger Sub, Inc., Nevada corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001193125-26-374324,acquirer,Talawar Tx Inc.,"parent of the merger subsidiary: Cayman Islands exempted company, with limited liability and a direct wholly-owned subsidiary of Talawar"
+0001193125-26-374324,target,Talawar Tx Inc.,GLiNER fallback
+0001193125-26-374324,merger_subsidiary,Talawar Merger Sub,"Talawar Merger Sub, Cayman Islands exempted company, with limited liability and a direct wholly-owned subsidiary of Talawar (“Merger Sub”)"
+0001140361-26-034858,acquirer,American Family Mutual Insurance Company,GLiNER fallback
+0001140361-26-034858,target,Bowhead Specialty Holdings Inc.,filer of a PREM14A
+0001140361-26-034858,merger_subsidiary,Trident Superior Inc.,"Trident Superior Inc., Delaware corporation and wholly-owned direct subsidiary of Parent (“Merger Sub”)"
+0001193125-26-377066,acquirer,"Tempus AI, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Tempus
+0001193125-26-377066,target,"Personalis, Inc.",filer of a SC 13E3
+0001193125-26-377066,merger_subsidiary,"Aviary Development, Inc. | Toucan Development, LLC","Aviary Development, Inc., Delaware corporation and a wholly owned subsidiary of Tempus (“Merger Sub I”)"
+0001104659-26-104366,acquirer,"FIRST HAWAIIAN, INC.",filer of a S-4
+0001104659-26-104366,target,"First Hawaiian, Inc.",GLiNER fallback
+0001104659-26-104366,merger_subsidiary,"Horizon Merger Sub, Inc.",GLiNER fallback
+0001104659-26-105071,acquirer,"Dream Finders Homes, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of DFH
+0001104659-26-105071,target,"Beazer Homes USA, Inc.",defined as the Company / Target
+0001104659-26-105071,merger_subsidiary,"Bulldogs Merger Sub, Inc.","Bulldogs Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of DFH (“Merger Sub”)"
+0001193125-26-383837,acquirer,Repligen Corporation,parent of the merger subsidiary: Delaware corporation and wholly owned subsidiary of Repligen
+0001193125-26-383837,target,"BioLife Solutions, Inc.",defined as the Company / Target
+0001193125-26-383837,merger_subsidiary,"Bravo Merger Sub I, Inc. | Bravo Merger Sub II, LLC","Bravo Merger Sub I, Inc., Delaware corporation and wholly owned subsidiary of Repligen (“Merger Sub I”)"
+0001193125-26-383841,acquirer,"Intercontinental Exchange, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001193125-26-383841,target,MarketAxess Holdings Inc.,defined as the Company / Target
+0001193125-26-383841,merger_subsidiary,"Igloo Merger Sub II, Inc. | Middle East. Merger Sub Igloo Merger Sub II, Inc.","Igloo Merger Sub II, Inc., Delaware corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001104659-26-107126,acquirer,Neptune BidCo US Inc.,"parent of the merger subsidiary: Delaware corporation and a direct, wholly owned subsidiary of Parent"
+0001104659-26-107126,target,"DoubleVerify Holdings, Inc.",defined as the Company / Target
+0001104659-26-107126,merger_subsidiary,Wallace Merger Sub Inc.,"Wallace Merger Sub Inc., Delaware corporation and a direct, wholly owned subsidiary of Parent (“Merger Sub”)"
+0001213900-26-099017,acquirer,"ChampionsGate
+Acquisition Corporation",GLiNER fallback
+0001213900-26-099017,target,"Futuremain Co., Ltd.",GLiNER fallback
+0001213900-26-099017,merger_subsidiary,"ChampionsGate
+Acquisition Corp",GLiNER fallback
+0001829126-26-010118,acquirer,Bluechip Holdings Corp.,parent of the merger subsidiary: Cayman Islands exempted company and wholly owned subsidiary of Purchaser
+0001829126-26-010118,target,Bluechip & Co. Holdings,defined as the Company / Target
+0001829126-26-010118,merger_subsidiary,Bluechip Merger Sub Inc. | Purchaser,"Bluechip Merger Sub Inc., Cayman Islands exempted company and wholly owned subsidiary of Purchaser (“Merger Sub”)"
+0001104659-26-108313,acquirer,"First Hawaiian, Inc.",GLiNER fallback
+0001104659-26-108313,target,TRICO BANCSHARES /,filer of a DEFM14A
+0001104659-26-108313,merger_subsidiary,"Horizon Merger Sub, Inc.",GLiNER fallback
+0001213900-26-100367,acquirer,"ACP Holdings
+Acquisition Corp.",GLiNER fallback
+0001213900-26-100367,target,"May Mobility, Inc.",defined as the Company / Target
+0001213900-26-100367,merger_subsidiary,"Maestro Merger Sub, Inc.","Maestro Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of ACP (“Merger Sub”)"
+0001829126-26-010319,acquirer,FortuneX Acquisition Corporation,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of FortuneX
+0001829126-26-010319,target,WT Realty Group Inc.,defined as the Company / Target
+0001829126-26-010319,merger_subsidiary,FortuneX Merger Sub Inc.,"FortuneX Merger Sub Inc., Delaware corporation and a wholly-owned subsidiary of FortuneX (“Merger
+Sub”)"
+0001104659-26-110971,acquirer,,
+0001104659-26-110971,target,"NextCure, Inc.",GLiNER fallback
+0001104659-26-110971,merger_subsidiary,,
+0001493152-26-044341,acquirer,"Pulmatrix,
+Inc.",GLiNER fallback
+0001493152-26-044341,target,"Pulmatrix, Inc.",filer of a DEFM14A
+0001493152-26-044341,merger_subsidiary,"PUOS Merger Sub, Inc.",GLiNER fallback
+0001213900-26-104691,acquirer,OAG Pipeline Technologies Inc.,parent of the merger subsidiary: Cayman Islands exempted company and a wholly-owned subsidiary of PubCo
+0001213900-26-104691,target,OAG International Ltd,defined as the Company / Target
+0001213900-26-104691,merger_subsidiary,OAG Merger Sub I | OAG Merger Sub II,"OAG Merger Sub I, Cayman Islands exempted company and a wholly-owned subsidiary of PubCo (“Merger Sub I”)"
+0001193125-26-021072,acquirer,"Sword Purchaser, LLC",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001193125-26-021072,target,SEALED AIR CORP/DE,filer of a DEFM14A
+0001193125-26-021072,merger_subsidiary,"Sword Merger Sub, Inc.","Sword Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001193125-26-028104,acquirer,Macquarie Capital (USA) Inc.,GLiNER fallback
+0001193125-26-028104,target,"Golden Entertainment, Inc.",defined as the Company / Target
+0001193125-26-028104,merger_subsidiary,VICI ROYAL MERGER SUB LLC,GLiNER fallback
+0001185185-26-000356,acquirer,RYVYL Inc.,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Ryvyl
+0001185185-26-000356,target,"RYVYL,
+INC.",GLiNER fallback
+0001185185-26-000356,merger_subsidiary,RYVYL Merger Sub Inc.,"RYVYL Merger Sub Inc., Delaware corporation and a wholly-owned subsidiary of Ryvyl (“Merger Sub”)"
+0001437749-26-003399,acquirer,"Gateway Superfood NSSIII Investment, LLC",GLiNER fallback
+0001437749-26-003399,target,"Laird Superfood, Inc.",defined as the Company / Target
+0001437749-26-003399,merger_subsidiary,"Picky Bars, LLC",GLiNER fallback
+0001539497-26-000331,acquirer,,
+0001539497-26-000331,target,"BioAtla, Inc.",defined as the Company / Target
+0001539497-26-000331,merger_subsidiary,"BA Merger Sub, Inc.","BA Merger Sub, Inc., Delaware corporation (“Merger Sub”)"
+0001493152-26-006791,acquirer,Boost Run Inc.,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Pubco
+0001493152-26-006791,target,Willow Lane,GLiNER fallback
+0001493152-26-006791,merger_subsidiary,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,"Benchmark Merger Sub I Inc., Delaware corporation and a wholly-owned subsidiary of Pubco (“SPAC Merger Sub”)"
+0001185185-26-000563,acquirer,RYVYL Inc.,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Ryvyl
+0001185185-26-000563,target,"RTB Digital, Inc.",GLiNER fallback
+0001185185-26-000563,merger_subsidiary,RYVYL Merger Sub Inc.,"RYVYL Merger Sub Inc., Delaware corporation and a wholly-owned subsidiary of Ryvyl (“Merger Sub”)"
+0001193125-26-051584,acquirer,Macquarie Capital (USA) Inc.,GLiNER fallback
+0001193125-26-051584,target,"Golden Entertainment, Inc.",defined as the Company / Target
+0001193125-26-051584,merger_subsidiary,VICI ROYAL MERGER SUB LLC,GLiNER fallback
+0001193125-26-052753,acquirer,GigCapital7 Corp.,parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of GigCapital7
+0001193125-26-052753,target,"Hadron Energy, Inc.",GLiNER fallback
+0001193125-26-052753,merger_subsidiary,"MMR Merger Sub, Inc.","MMR Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of GigCapital7 (“Merger Sub”)"
+0001829126-26-001612,acquirer,Navisalma Design,GLiNER fallback
+0001829126-26-001612,target,Einride,GLiNER fallback
+0001829126-26-001612,merger_subsidiary,Legato Merger Corp. III,GLiNER fallback
+0001829126-26-001676,acquirer,Einride AB,"parent of the merger subsidiary: Cayman Islands exempted company and a direct, wholly-owned subsidiary of Einride"
+0001829126-26-001676,target,Einride AB,GLiNER fallback
+0001829126-26-001676,merger_subsidiary,Einride Cayman Sub Limited,"Einride Cayman Sub Limited, Cayman Islands exempted company and a direct, wholly-owned subsidiary of Einride (“Merger Sub”)"
+0001829126-26-001674,acquirer,Einride AB,GLiNER fallback
+0001829126-26-001674,target,Einride,GLiNER fallback
+0001829126-26-001674,merger_subsidiary,Legato Merger Corp. III,GLiNER fallback
+0001104659-26-020981,acquirer,TL Topco PLC,parent of the merger subsidiary: Cayman Islands exempted company and wholly owned subsidiary of PubCo
+0001104659-26-020981,target,TL Topco PLC,GLiNER fallback
+0001104659-26-020981,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,"ThomasLloyd Climate Solutions Merger Sub, Cayman Islands exempted company and wholly owned subsidiary of PubCo (“Merger Sub”)"
+0001193125-26-096749,acquirer,"Macquarie
+Capital (USA) Inc.",GLiNER fallback
+0001193125-26-096749,target,"Golden Entertainment, Inc.",defined as the Company / Target
+0001193125-26-096749,merger_subsidiary,VICI ROYAL MERGER SUB LLC,GLiNER fallback
+0001193125-26-096620,acquirer,"Golden, Argento, LLC",GLiNER fallback
+0001193125-26-096620,target,"Golden Entertainment, Inc.",defined as the Company / Target
+0001193125-26-096620,merger_subsidiary,VICI ROYAL MERGER SUB LLC,GLiNER fallback
+0001193125-26-102283,acquirer,GigCapital7 Corp.,parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of GigCapital7
+0001193125-26-102283,target,"Hadron Energy, Inc.",GLiNER fallback
+0001193125-26-102283,merger_subsidiary,"MMR Merger Sub, Inc.","MMR Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of GigCapital7 (“Merger Sub”)"
+0001493152-26-009657,acquirer,Boost Run Inc.,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Pubco
+0001493152-26-009657,target,Willow Lane,GLiNER fallback
+0001493152-26-009657,merger_subsidiary,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,"Benchmark Merger Sub I Inc., Delaware corporation and a wholly-owned subsidiary of Pubco (“SPAC Merger Sub”)"
+0001193125-26-102359,acquirer,"Glow Midco, LLC",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001193125-26-102359,target,"European Wax Center, Inc.",filer of a PREM14A
+0001193125-26-102359,merger_subsidiary,"Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC","Glow Merger Sub 1, Inc., Delaware corporation and a wholly owned subsidiary of Parent (“Merger Sub Inc”)"
+0001829126-26-002230,acquirer,Legato Merger Corp. III,GLiNER fallback
+0001829126-26-002230,target,GE Appliances,GLiNER fallback
+0001829126-26-002230,merger_subsidiary,Legato Merger Corp. III,GLiNER fallback
+0001213900-26-026268,acquirer,Plum IV,parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of Plum IV
+0001213900-26-026268,target,Controlled Thermal Resources Holdings Inc.,defined as the Company / Target
+0001213900-26-026268,merger_subsidiary,"Plum IV Merger Sub, Inc. | Plum IV Merger Sub Inc.","Plum IV Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of Plum IV (“Merger Sub”)"
+0001213900-26-028308,acquirer,Vine Hill Capital Investment Corp.,GLiNER fallback
+0001213900-26-028308,target,Vine Hill Capital Investment Corp.,filer of a DEFM14A
+0001213900-26-028308,merger_subsidiary,Limited,"Limited, Cayman Islands exempted company (“SPAC Merger Sub”)"
+0001829126-26-002399,acquirer,Einride AB,GLiNER fallback
+0001829126-26-002399,target,SH 130 Concession Company,GLiNER fallback
+0001829126-26-002399,merger_subsidiary,Legato Merger Corp. III,GLiNER fallback

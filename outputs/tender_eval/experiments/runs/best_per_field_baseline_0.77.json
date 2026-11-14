@@ -1,0 +1,118 @@
+{
+  "note": "Frozen baseline oracle before Temporal abstain / settlement template / Temporal\u2192Qwen effective",
+  "oracle_micro_f1": 0.7721822541966428,
+  "fields": {
+    "subject_company": {
+      "system": "Qwen direct",
+      "family": "Qwen",
+      "f1": 1.0,
+      "tp": 23,
+      "fp": 0,
+      "fn": 0
+    },
+    "bidder": {
+      "system": "Qwen direct",
+      "family": "Qwen",
+      "f1": 1.0,
+      "tp": 23,
+      "fp": 0,
+      "fn": 0
+    },
+    "security_description": {
+      "system": "Qwen direct",
+      "family": "Qwen",
+      "f1": 0.7391304347826085,
+      "tp": 17,
+      "fp": 6,
+      "fn": 6
+    },
+    "cusip": {
+      "system": "Rules",
+      "family": "Rules",
+      "f1": 1.0,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0
+    },
+    "isin": {
+      "system": "Rules",
+      "family": "Rules",
+      "f1": 1.0,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0
+    },
+    "ticker": {
+      "system": "Rules",
+      "family": "Rules",
+      "f1": 0.6,
+      "tp": 3,
+      "fp": 0,
+      "fn": 4
+    },
+    "offer_price": {
+      "system": "Qwen direct",
+      "family": "Qwen",
+      "f1": 0.8260869565217391,
+      "tp": 19,
+      "fp": 4,
+      "fn": 4
+    },
+    "currency": {
+      "system": "Rules",
+      "family": "Rules",
+      "f1": 0.2666666666666667,
+      "tp": 2,
+      "fp": 11,
+      "fn": 0
+    },
+    "expiration_date": {
+      "system": "Temporal NER",
+      "family": "Temporal NER",
+      "f1": 0.8181818181818182,
+      "tp": 18,
+      "fp": 4,
+      "fn": 4
+    },
+    "withdrawal_deadline": {
+      "system": "Temporal NER",
+      "family": "Temporal NER",
+      "f1": 0.625,
+      "tp": 10,
+      "fp": 12,
+      "fn": 0
+    },
+    "settlement_date": {
+      "system": "Hybrid",
+      "family": "Hybrid",
+      "f1": 0.64,
+      "tp": 8,
+      "fp": 2,
+      "fn": 7
+    },
+    "effective_date": {
+      "system": "Temporal NER",
+      "family": "Temporal NER",
+      "f1": 0.23076923076923075,
+      "tp": 3,
+      "fp": 19,
+      "fn": 1
+    },
+    "minimum_tender_condition": {
+      "system": "Qwen clauses",
+      "family": "Qwen",
+      "f1": 0.7777777777777778,
+      "tp": 7,
+      "fp": 0,
+      "fn": 4
+    },
+    "proration_terms": {
+      "system": "Qwen clauses",
+      "family": "Qwen",
+      "f1": 0.36363636363636365,
+      "tp": 2,
+      "fp": 2,
+      "fn": 5
+    }
+  }
+}

@@ -1,0 +1,14 @@
+field,label,compare,tp,fp,fn,gt_absence_values,learned_precision,learned_recall,learned_f1
+stock_exchange_ratio,,number,1,7,4,4,0.125,0.2,0.154
+election_deadline,,date_or_text,0,9,0,0,0.0,,
+shareholder_vote_date,,date,0,9,0,0,0.0,,
+effective_date,,date,3,0,1,0,1.0,0.75,0.857
+event_status,,label,11,1,1,0,0.917,0.917,0.917
+consideration_type,,label,2,10,10,0,0.167,0.167,0.167
+available_options,,text,0,8,0,12,0.0,,
+default_option,,text,0,12,0,0,0.0,,
+closing_conditions,,text,0,9,8,0,0.0,0.0,0.0
+cash_consideration_qualifications,,text,1,11,8,0,0.083,0.111,0.095
+stock_exchange_ratio_qualifications,,text,0,8,5,0,0.0,0.0,0.0
+other_consideration,,text,0,8,0,0,0.0,,
+event_status_details,,text,4,8,8,0,0.333,0.333,0.333

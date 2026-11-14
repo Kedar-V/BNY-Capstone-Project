@@ -1,0 +1,677 @@
+accession_number,field,value,evidence
+0001140361-26-000522,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001140361-26-000522,election_deadline,"5:00 PM Eastern Standard Time, five business days before closing",Qwen3 4B on selected excerpts
+0001140361-26-000522,shareholder_vote_date,2/12/2026 8:00 AM Eastern Standard Time,Qwen3 4B on selected excerpts
+0001140361-26-000522,effective_date,,Qwen3 4B on selected excerpts
+0001140361-26-000522,event_status,Pending,Qwen3 4B on selected excerpts
+0001140361-26-000522,consideration_type,Cash,Qwen3 4B on selected excerpts
+0001140361-26-000522,available_options,No holder election,Qwen3 4B on selected excerpts
+0001140361-26-000522,default_option,"$70.00 per share, net in cash",Qwen3 4B on selected excerpts
+0001140361-26-000522,closing_conditions,"Company Stockholder Approval; applicable waiting period under HSR Act; regulatory approvals from insurance regulators in Delaware, Massachusetts and New York; FINRA approval",Qwen3 4B on selected excerpts
+0001140361-26-000522,cash_consideration_qualifications,less any amounts required to be deducted or withheld under applicable law,Qwen3 4B on selected excerpts
+0001140361-26-000522,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-000522,other_consideration,,Qwen3 4B on selected excerpts
+0001140361-26-000522,event_status_details,"Merger Agreement approved by Board on November 6, 2025; subject to regulatory approvals and stockholder vote",Qwen3 4B on selected excerpts
+0001193125-26-009645,stock_exchange_ratio,0.0700 shares of Post-Closing Company common stock per share,Qwen3 4B on selected excerpts
+0001193125-26-009645,election_deadline,,Qwen3 4B on selected excerpts
+0001193125-26-009645,shareholder_vote_date,2/3/2026 9:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001193125-26-009645,effective_date,,Qwen3 4B on selected excerpts
+0001193125-26-009645,event_status,Pending,Qwen3 4B on selected excerpts
+0001193125-26-009645,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001193125-26-009645,available_options,No holder election,Qwen3 4B on selected excerpts
+0001193125-26-009645,default_option,0.0700 shares of Post-Closing Company common stock per share,Qwen3 4B on selected excerpts
+0001193125-26-009645,closing_conditions,"Expiration or termination of the applicable waiting period under the HSR Act | Approval by CCIX shareholders of the business combination proposal | Domestication proposal | Organizational document proposal | Stock issuance proposal | Incentive plan proposal | ESPP proposal | Director election proposal | CCIX having at least $5,000,001 of net tangible assets as of the Closing",Qwen3 4B on selected excerpts
+0001193125-26-009645,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-009645,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-009645,other_consideration,"Contingent right to receive up to 15,000,000 shares of Post-Closing Company common stock during the Earnout Period",Qwen3 4B on selected excerpts
+0001193125-26-009645,event_status_details,"Merger Agreement dated June 5, 2025 (amended September 8, 2025 and September 18, 2025)",Qwen3 4B on selected excerpts
+0001829126-26-000260,stock_exchange_ratio,"50,000,000 newly issued shares of common stock of PubCo valued at $10.00 per share to Exascale and its shareholders",Qwen3 4B on selected excerpts
+0001829126-26-000260,election_deadline,,Qwen3 4B on selected excerpts
+0001829126-26-000260,shareholder_vote_date,1/11/2026,Qwen3 4B on selected excerpts
+0001829126-26-000260,effective_date,,Qwen3 4B on selected excerpts
+0001829126-26-000260,event_status,Pending,Qwen3 4B on selected excerpts
+0001829126-26-000260,consideration_type,Stock,Qwen3 4B on selected excerpts
+0001829126-26-000260,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-000260,default_option,Per Share Merger Consideration,Qwen3 4B on selected excerpts
+0001829126-26-000260,closing_conditions,BCAR complying with all of its obligations under the Merger Agreement in all material respects | the representations and warranties of BCAR being true on and as of the Closing in all material respects | there having been no Material Adverse Effect to BCAR,Qwen3 4B on selected excerpts
+0001829126-26-000260,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-000260,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-000260,other_consideration,contingent on Liquidity Event,Qwen3 4B on selected excerpts
+0001829126-26-000260,event_status_details,"Agreement date: January 11, 2026",Qwen3 4B on selected excerpts
+0001140361-26-001670,stock_exchange_ratio,0.400 shares of HRZN common stock per share,Qwen3 4B on selected excerpts
+0001140361-26-001670,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001140361-26-001670,shareholder_vote_date,3/13/2026 2:30 PM Eastern Time,Qwen3 4B on selected excerpts
+0001140361-26-001670,effective_date,,Qwen3 4B on selected excerpts
+0001140361-26-001670,event_status,Pending,Qwen3 4B on selected excerpts
+0001140361-26-001670,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001140361-26-001670,available_options,HRZN Common Stock | Cash,Qwen3 4B on selected excerpts
+0001140361-26-001670,default_option,HRZN Common Stock,Qwen3 4B on selected excerpts
+0001140361-26-001670,closing_conditions,HRZN stockholder approval | MRCC stockholder approval | Asset Sale completion,Qwen3 4B on selected excerpts
+0001140361-26-001670,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-001670,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-001670,other_consideration,,Qwen3 4B on selected excerpts
+0001140361-26-001670,event_status_details,"Merger Agreement dated August 7, 2025; stockholder approvals required",Qwen3 4B on selected excerpts
+0001213900-26-007416,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001213900-26-007416,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001213900-26-007416,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001213900-26-007416,effective_date,12/04/2024,Qwen3 4B on selected excerpts
+0001213900-26-007416,event_status,Completed,Qwen3 4B on selected excerpts
+0001213900-26-007416,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001213900-26-007416,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-26-007416,default_option,0.400 shares of Athena Class A Common Stock,Qwen3 4B on selected excerpts
+0001213900-26-007416,closing_conditions,Athena’s stockholders have approved and adopted the Merger Agreement,Qwen3 4B on selected excerpts
+0001213900-26-007416,cash_consideration_qualifications,No cash consideration,Qwen3 4B on selected excerpts
+0001213900-26-007416,stock_exchange_ratio_qualifications,"No collars, caps, adjustments or fractional-share treatment",Qwen3 4B on selected excerpts
+0001213900-26-007416,other_consideration,Earnout Shares,Qwen3 4B on selected excerpts
+0001213900-26-007416,event_status_details,"Merger Agreement effective as of December 4, 2024",Qwen3 4B on selected excerpts
+0001104659-26-007023,stock_exchange_ratio,1 share of Topco Common Stock rounded down to the nearest whole share,Qwen3 4B on selected excerpts
+0001104659-26-007023,election_deadline,,Qwen3 4B on selected excerpts
+0001104659-26-007023,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001104659-26-007023,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-007023,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-007023,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001104659-26-007023,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-007023,default_option,1 share of Topco Common Stock rounded down to the nearest whole share,Qwen3 4B on selected excerpts
+0001104659-26-007023,closing_conditions,"Topco Common Stock being approved for listing on Nasdaq, receipt of regulatory approvals and consents, satisfaction or waiver of other closing conditions",Qwen3 4B on selected excerpts
+0001104659-26-007023,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-007023,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-007023,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-007023,event_status_details,"Merger Agreement entered on September 29, 2025; pending shareholder approvals and regulatory approvals",Qwen3 4B on selected excerpts
+0001140361-26-002822,stock_exchange_ratio,1 share of Class A Common Stock,Qwen3 4B on selected excerpts
+0001140361-26-002822,election_deadline,No holder election,Qwen3 4B on selected excerpts
+0001140361-26-002822,shareholder_vote_date,1/9/2026,Qwen3 4B on selected excerpts
+0001140361-26-002822,effective_date,1/29/2026,Qwen3 4B on selected excerpts
+0001140361-26-002822,event_status,Completed,Qwen3 4B on selected excerpts
+0001140361-26-002822,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001140361-26-002822,available_options,No holder election,Qwen3 4B on selected excerpts
+0001140361-26-002822,default_option,1 share of Class A Common Stock,Qwen3 4B on selected excerpts
+0001140361-26-002822,closing_conditions,No closing conditions,Qwen3 4B on selected excerpts
+0001140361-26-002822,cash_consideration_qualifications,No cash qualifications,Qwen3 4B on selected excerpts
+0001140361-26-002822,stock_exchange_ratio_qualifications,No stock exchange ratio qualifications,Qwen3 4B on selected excerpts
+0001140361-26-002822,other_consideration,No other consideration,Qwen3 4B on selected excerpts
+0001140361-26-002822,event_status_details,Merger completed on 1/29/2026,Qwen3 4B on selected excerpts
+0001829126-26-000901,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001829126-26-000901,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001829126-26-000901,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001829126-26-000901,effective_date,,Qwen3 4B on selected excerpts
+0001829126-26-000901,event_status,Completed,Qwen3 4B on selected excerpts
+0001829126-26-000901,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001829126-26-000901,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-000901,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-000901,closing_conditions,No closing conditions,Qwen3 4B on selected excerpts
+0001829126-26-000901,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-000901,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-000901,other_consideration,,Qwen3 4B on selected excerpts
+0001829126-26-000901,event_status_details,Completed,Qwen3 4B on selected excerpts
+0001104659-26-011659,stock_exchange_ratio,0.1350 shares of Burke & Herbert common stock per share,Qwen3 4B on selected excerpts
+0001104659-26-011659,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001104659-26-011659,shareholder_vote_date,3/25/2026 8:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001104659-26-011659,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-011659,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-011659,consideration_type,Stock,Qwen3 4B on selected excerpts
+0001104659-26-011659,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-011659,default_option,0.1350 shares of Burke & Herbert common stock,Qwen3 4B on selected excerpts
+0001104659-26-011659,closing_conditions,"approval by Burke & Herbert shareholders, approval by LNKB shareholders, regulatory approvals",Qwen3 4B on selected excerpts
+0001104659-26-011659,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-011659,stock_exchange_ratio_qualifications,cash in lieu of fractional shares,Qwen3 4B on selected excerpts
+0001104659-26-011659,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-011659,event_status_details,"Merger agreement entered on December 18, 2025; shareholder approvals required; regulatory approvals pending",Qwen3 4B on selected excerpts
+0001213900-26-017460,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001213900-26-017460,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001213900-26-017460,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001213900-26-017460,effective_date,3/17/2026,Qwen3 4B on selected excerpts
+0001213900-26-017460,event_status,Completed,Qwen3 4B on selected excerpts
+0001213900-26-017460,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001213900-26-017460,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-26-017460,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-017460,closing_conditions,Minimum Cash Condition,Qwen3 4B on selected excerpts
+0001213900-26-017460,cash_consideration_qualifications,Requisite Working Capital,Qwen3 4B on selected excerpts
+0001213900-26-017460,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-017460,other_consideration,Contingent value rights,Qwen3 4B on selected excerpts
+0001213900-26-017460,event_status_details,"Business Combination Agreement approved on September 9, 2025",Qwen3 4B on selected excerpts
+0001104659-26-021584,stock_exchange_ratio,1 Common Share of Carnival Corporation Ltd. per Carnival plc Share,Qwen3 4B on selected excerpts
+0001104659-26-021584,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001104659-26-021584,shareholder_vote_date,4/17/2026 8:50 AM Eastern Time,Qwen3 4B on selected excerpts
+0001104659-26-021584,effective_date,5/7/2026,Qwen3 4B on selected excerpts
+0001104659-26-021584,event_status,Completed,Qwen3 4B on selected excerpts
+0001104659-26-021584,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001104659-26-021584,available_options,1 Common Share of Carnival Corporation Ltd. | No stock consideration,Qwen3 4B on selected excerpts
+0001104659-26-021584,default_option,1 Common Share of Carnival Corporation Ltd.,Qwen3 4B on selected excerpts
+0001104659-26-021584,closing_conditions,"Approval of the proposals at the special meetings and the court meeting, sanction of the Scheme of Arrangement by the Court in the UK, receipt of certain antitrust and regulatory clearances",Qwen3 4B on selected excerpts
+0001104659-26-021584,cash_consideration_qualifications,No cash consideration,Qwen3 4B on selected excerpts
+0001104659-26-021584,stock_exchange_ratio_qualifications,No adjustments,Qwen3 4B on selected excerpts
+0001104659-26-021584,other_consideration,No other consideration,Qwen3 4B on selected excerpts
+0001104659-26-021584,event_status_details,"Scheme of Arrangement approved at Carnival plc Court Meeting on April 17, 2026; effective date May 7, 2026",Qwen3 4B on selected excerpts
+0001104659-26-021605,stock_exchange_ratio,1 Common Share of Carnival Corporation Ltd. per Carnival plc Share,Qwen3 4B on selected excerpts
+0001104659-26-021605,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001104659-26-021605,shareholder_vote_date,4/17/2026 1:30 PM Eastern Time,Qwen3 4B on selected excerpts
+0001104659-26-021605,effective_date,5/7/2026,Qwen3 4B on selected excerpts
+0001104659-26-021605,event_status,Completed,Qwen3 4B on selected excerpts
+0001104659-26-021605,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001104659-26-021605,available_options,1 Common Share of Carnival Corporation Ltd. | No stock consideration,Qwen3 4B on selected excerpts
+0001104659-26-021605,default_option,1 Common Share of Carnival Corporation Ltd.,Qwen3 4B on selected excerpts
+0001104659-26-021605,closing_conditions,"Approval of the proposals at the special meetings and the court meeting, sanction of the Scheme of Arrangement by the Court in the UK, receipt of certain antitrust and regulatory clearances",Qwen3 4B on selected excerpts
+0001104659-26-021605,cash_consideration_qualifications,No cash consideration,Qwen3 4B on selected excerpts
+0001104659-26-021605,stock_exchange_ratio_qualifications,"No collars, caps, adjustments or fractional-share treatment",Qwen3 4B on selected excerpts
+0001104659-26-021605,other_consideration,No other consideration,Qwen3 4B on selected excerpts
+0001104659-26-021605,event_status_details,Scheme of Arrangement approved on 5/7/2026,Qwen3 4B on selected excerpts
+0001552781-26-000078,stock_exchange_ratio,0.400 shares of RWAY common stock per share,Qwen3 4B on selected excerpts
+0001552781-26-000078,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001552781-26-000078,shareholder_vote_date,3/31/2026 9:00 AM Central Time,Qwen3 4B on selected excerpts
+0001552781-26-000078,effective_date,,Qwen3 4B on selected excerpts
+0001552781-26-000078,event_status,Pending,Qwen3 4B on selected excerpts
+0001552781-26-000078,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001552781-26-000078,available_options,Per Share Stock Consideration | Per Share Cash Consideration,Qwen3 4B on selected excerpts
+0001552781-26-000078,default_option,Per Share Stock Consideration,Qwen3 4B on selected excerpts
+0001552781-26-000078,closing_conditions,approval of the First Merger by holders of SWK Common Stock | satisfaction or waiver of other closing conditions,Qwen3 4B on selected excerpts
+0001552781-26-000078,cash_consideration_qualifications,SWK Per Share NAV,Qwen3 4B on selected excerpts
+0001552781-26-000078,stock_exchange_ratio_qualifications,Exchange Ratio,Qwen3 4B on selected excerpts
+0001552781-26-000078,other_consideration,"Per Share Guaranteed Cash Payment of $9,000,000",Qwen3 4B on selected excerpts
+0001552781-26-000078,event_status_details,"Merger Agreement dated October 9, 2025; stockholder approval required",Qwen3 4B on selected excerpts
+0001493152-26-009318,stock_exchange_ratio,"18,000,000 divided by the number of fully diluted Goodvision Shares outstanding",Qwen3 4B on selected excerpts
+0001493152-26-009318,election_deadline,,Qwen3 4B on selected excerpts
+0001493152-26-009318,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001493152-26-009318,effective_date,,Qwen3 4B on selected excerpts
+0001493152-26-009318,event_status,Pending,Qwen3 4B on selected excerpts
+0001493152-26-009318,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001493152-26-009318,available_options,Per Share Merger Consideration | Earnout Shares,Qwen3 4B on selected excerpts
+0001493152-26-009318,default_option,Per Share Merger Consideration,Qwen3 4B on selected excerpts
+0001493152-26-009318,closing_conditions,approval of the Transactions and related matters by the respective shareholders of the Company and Goodvision | effectiveness of the Registration Statement | no Material Adverse Effect since the date of the BCA | Financing consummated | listing of the SPAC Shares approved by NASDAQ,Qwen3 4B on selected excerpts
+0001493152-26-009318,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001493152-26-009318,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001493152-26-009318,other_consideration,,Qwen3 4B on selected excerpts
+0001493152-26-009318,event_status_details,"Execution Date: March 6, 2026; shareholder approvals required; closing expected in second half of 2026",Qwen3 4B on selected excerpts
+0001104659-26-035234,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001104659-26-035234,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001104659-26-035234,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001104659-26-035234,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-035234,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-035234,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001104659-26-035234,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-035234,default_option,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001104659-26-035234,closing_conditions,Adoption of the Business Combination Agreement by shareholders of SVAC and receipt of regulatory approvals,Qwen3 4B on selected excerpts
+0001104659-26-035234,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-035234,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-035234,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-035234,event_status_details,"Business Combination Agreement dated January 21, 2026",Qwen3 4B on selected excerpts
+0001193125-26-130513,stock_exchange_ratio,13.80 in cash per share,Qwen3 4B on selected excerpts
+0001193125-26-130513,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001193125-26-130513,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001193125-26-130513,effective_date,,Qwen3 4B on selected excerpts
+0001193125-26-130513,event_status,Pending,Qwen3 4B on selected excerpts
+0001193125-26-130513,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001193125-26-130513,available_options,No holder election,Qwen3 4B on selected excerpts
+0001193125-26-130513,default_option,13.80 in cash per share,Qwen3 4B on selected excerpts
+0001193125-26-130513,closing_conditions,"adoption of the Merger Agreement by Enhabit’s stockholders, expiration or termination of the applicable waiting period under the HSR Act, completion of state healthcare transaction filings in Indiana and Massachusetts, and a Change in Effective Control application in Rhode Island",Qwen3 4B on selected excerpts
+0001193125-26-130513,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-130513,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-130513,other_consideration,,Qwen3 4B on selected excerpts
+0001193125-26-130513,event_status_details,"Merger Agreement dated as of February 22, 2026",Qwen3 4B on selected excerpts
+0001140361-26-012785,stock_exchange_ratio,3.8721 shares of Boston Scientific common stock per share,Qwen3 4B on selected excerpts
+0001140361-26-012785,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001140361-26-012785,shareholder_vote_date,5/6/2026 10:00 AM Pacific Time,Qwen3 4B on selected excerpts
+0001140361-26-012785,effective_date,,Qwen3 4B on selected excerpts
+0001140361-26-012785,event_status,Pending,Qwen3 4B on selected excerpts
+0001140361-26-012785,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001140361-26-012785,available_options,Stock Election | Cash Election,Qwen3 4B on selected excerpts
+0001140361-26-012785,default_option,Non-Election Share,Qwen3 4B on selected excerpts
+0001140361-26-012785,closing_conditions,Regulatory approvals | Stockholder approval,Qwen3 4B on selected excerpts
+0001140361-26-012785,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-012785,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-012785,other_consideration,,Qwen3 4B on selected excerpts
+0001140361-26-012785,event_status_details,"Agreement dated January 14, 2026; regulatory approvals required",Qwen3 4B on selected excerpts
+0001213900-26-040029,stock_exchange_ratio,"50,000,001 shares of the Company’s common stock, in the aggregate, allocated among Carvix stockholders as set forth in the Company Allocation Schedule",Qwen3 4B on selected excerpts
+0001213900-26-040029,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001213900-26-040029,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001213900-26-040029,effective_date,3/30/2026,Qwen3 4B on selected excerpts
+0001213900-26-040029,event_status,Completed,Qwen3 4B on selected excerpts
+0001213900-26-040029,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001213900-26-040029,available_options,"50,000,001 shares of the Company’s common stock | up to 50,000,100 shares of the Company’s common stock",Qwen3 4B on selected excerpts
+0001213900-26-040029,default_option,"50,000,001 shares of the Company’s common stock",Qwen3 4B on selected excerpts
+0001213900-26-040029,closing_conditions,requisite approval by the Company’s stockholders | delivery of the Carvix stockholder written consent | the Domestication | the SEC declaring effective the Registration Statement on Form S-4 | approval for listing on Nasdaq | expiration or termination of any applicable waiting period under the Hart-Scott-Rodino Antitrust Improvements,Qwen3 4B on selected excerpts
+0001213900-26-040029,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-040029,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-040029,other_consideration,,Qwen3 4B on selected excerpts
+0001213900-26-040029,event_status_details,"March 30, 2026",Qwen3 4B on selected excerpts
+0001140361-26-015088,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001140361-26-015088,election_deadline,,Qwen3 4B on selected excerpts
+0001140361-26-015088,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001140361-26-015088,effective_date,,Qwen3 4B on selected excerpts
+0001140361-26-015088,event_status,Pending,Qwen3 4B on selected excerpts
+0001140361-26-015088,consideration_type,Cash,Qwen3 4B on selected excerpts
+0001140361-26-015088,available_options,No holder election,Qwen3 4B on selected excerpts
+0001140361-26-015088,default_option,Cash,Qwen3 4B on selected excerpts
+0001140361-26-015088,closing_conditions,Satisfaction or waiver of certain conditions,Qwen3 4B on selected excerpts
+0001140361-26-015088,cash_consideration_qualifications,No conditions,Qwen3 4B on selected excerpts
+0001140361-26-015088,stock_exchange_ratio_qualifications,No conditions,Qwen3 4B on selected excerpts
+0001140361-26-015088,other_consideration,,Qwen3 4B on selected excerpts
+0001140361-26-015088,event_status_details,"Merger Agreement dated April 2, 2026; Schedule TO filed April 16, 2026",Qwen3 4B on selected excerpts
+0001213900-26-044922,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-044922,election_deadline,,Qwen3 4B on selected excerpts
+0001213900-26-044922,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001213900-26-044922,effective_date,,Qwen3 4B on selected excerpts
+0001213900-26-044922,event_status,Withdrawn,Qwen3 4B on selected excerpts
+0001213900-26-044922,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001213900-26-044922,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-26-044922,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-044922,closing_conditions,,Qwen3 4B on selected excerpts
+0001213900-26-044922,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-044922,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-044922,other_consideration,,Qwen3 4B on selected excerpts
+0001213900-26-044922,event_status_details,"Withdrawn Listing Application on April 14, 2026",Qwen3 4B on selected excerpts
+0001104659-26-046161,stock_exchange_ratio,1 Expro Cayman Ordinary Share for each Expro N.V. Common Share,Qwen3 4B on selected excerpts
+0001104659-26-046161,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001104659-26-046161,shareholder_vote_date,6/10/2026 4:00 PM CET,Qwen3 4B on selected excerpts
+0001104659-26-046161,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-046161,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-046161,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001104659-26-046161,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-046161,default_option,1 Expro Cayman Ordinary Share for each Expro N.V. Common Share,Qwen3 4B on selected excerpts
+0001104659-26-046161,closing_conditions,Satisfaction of Merger Conditions,Qwen3 4B on selected excerpts
+0001104659-26-046161,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-046161,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-046161,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-046161,event_status_details,"Transaction Proposal requires shareholder approval at Annual Meeting on June 10, 2026",Qwen3 4B on selected excerpts
+0001104659-26-051962,stock_exchange_ratio,"between 0.1 and 0.166667 shares of Topco Common Stock, rounded down to the nearest whole share",Qwen3 4B on selected excerpts
+0001104659-26-051962,election_deadline,"12:00 PM Eastern Time, May 14, 2026",Qwen3 4B on selected excerpts
+0001104659-26-051962,shareholder_vote_date,5/20/2026 2:15 PM Eastern Time,Qwen3 4B on selected excerpts
+0001104659-26-051962,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-051962,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-051962,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001104659-26-051962,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-051962,default_option,"between 0.1 and 0.166667 shares of Topco Common Stock, rounded down to the nearest whole share",Qwen3 4B on selected excerpts
+0001104659-26-051962,closing_conditions,"approval of Barinthus Shareholders, approval of Clywedog stockholders, receipt of regulatory approvals and consents, satisfaction or waiver of other closing conditions",Qwen3 4B on selected excerpts
+0001104659-26-051962,cash_consideration_qualifications,cash in lieu of fractional shares,Qwen3 4B on selected excerpts
+0001104659-26-051962,stock_exchange_ratio_qualifications,rounded down to the nearest whole share,Qwen3 4B on selected excerpts
+0001104659-26-051962,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-051962,event_status_details,"Scheme of Arrangement dated April 22, 2026; pending shareholder approvals and regulatory approvals",Qwen3 4B on selected excerpts
+0001193125-26-209019,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001193125-26-209019,election_deadline,,Qwen3 4B on selected excerpts
+0001193125-26-209019,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001193125-26-209019,effective_date,,Qwen3 4B on selected excerpts
+0001193125-26-209019,event_status,Pending,Qwen3 4B on selected excerpts
+0001193125-26-209019,consideration_type,Cash,Qwen3 4B on selected excerpts
+0001193125-26-209019,available_options,No holder election,Qwen3 4B on selected excerpts
+0001193125-26-209019,default_option,Cash,Qwen3 4B on selected excerpts
+0001193125-26-209019,closing_conditions,,Qwen3 4B on selected excerpts
+0001193125-26-209019,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-209019,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-209019,other_consideration,,Qwen3 4B on selected excerpts
+0001193125-26-209019,event_status_details,"Merger agreement dated March 30, 2026",Qwen3 4B on selected excerpts
+0001829126-26-004942,stock_exchange_ratio,"8,955,224 Future Vision ordinary shares per MicroTouch ordinary share",Qwen3 4B on selected excerpts
+0001829126-26-004942,election_deadline,,Qwen3 4B on selected excerpts
+0001829126-26-004942,shareholder_vote_date,[●] 2026 [●] a.m. Eastern Time,Qwen3 4B on selected excerpts
+0001829126-26-004942,effective_date,,Qwen3 4B on selected excerpts
+0001829126-26-004942,event_status,Pending,Qwen3 4B on selected excerpts
+0001829126-26-004942,consideration_type,Stock,Qwen3 4B on selected excerpts
+0001829126-26-004942,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-004942,default_option,"8,955,224 Future Vision ordinary shares",Qwen3 4B on selected excerpts
+0001829126-26-004942,closing_conditions,"Shareholder approval, Nasdaq listing eligibility",Qwen3 4B on selected excerpts
+0001829126-26-004942,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-004942,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-004942,other_consideration,,Qwen3 4B on selected excerpts
+0001829126-26-004942,event_status_details,"Merger Agreement dated January 16, 2026; shareholder approval required",Qwen3 4B on selected excerpts
+0001104659-26-068378,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001104659-26-068378,election_deadline,,Qwen3 4B on selected excerpts
+0001104659-26-068378,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001104659-26-068378,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-068378,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-068378,consideration_type,Cash,Qwen3 4B on selected excerpts
+0001104659-26-068378,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-068378,default_option,Cash,Qwen3 4B on selected excerpts
+0001104659-26-068378,closing_conditions,Company Stockholder Approval | HSR Act waiting period expiration | Required Regulatory Approvals,Qwen3 4B on selected excerpts
+0001104659-26-068378,cash_consideration_qualifications,No conditions,Qwen3 4B on selected excerpts
+0001104659-26-068378,stock_exchange_ratio_qualifications,No conditions,Qwen3 4B on selected excerpts
+0001104659-26-068378,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-068378,event_status_details,"Merger Agreement entered on April 13, 2026; requires Company Stockholder Approval for completion",Qwen3 4B on selected excerpts
+0001829126-26-005869,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001829126-26-005869,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001829126-26-005869,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001829126-26-005869,effective_date,7/15/2026,Qwen3 4B on selected excerpts
+0001829126-26-005869,event_status,Completed,Qwen3 4B on selected excerpts
+0001829126-26-005869,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001829126-26-005869,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-005869,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-005869,closing_conditions,"approval of the Business Combination and related agreements and transactions by the respective shareholders of SPACSphere and Mobilewalla | effectiveness of the registration statement on Form S-4 to be filed by SPACSphere in connection with the Business Combination | the absence of any law, judgement, order, statute, rule, or regulation prohibiting the consummation of the Business Combination | receipt of approval for listing on Nasdaq the shares of New SPACSphere Common Stock and New SPACSphere Warrants to be issued in connection with the Business Combination",Qwen3 4B on selected excerpts
+0001829126-26-005869,cash_consideration_qualifications,No cash consideration,Qwen3 4B on selected excerpts
+0001829126-26-005869,stock_exchange_ratio_qualifications,No stock exchange ratio qualifications,Qwen3 4B on selected excerpts
+0001829126-26-005869,other_consideration,No other consideration,Qwen3 4B on selected excerpts
+0001829126-26-005869,event_status_details,"Business Combination Agreement entered into on May 29, 2026",Qwen3 4B on selected excerpts
+0001193125-26-266069,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001193125-26-266069,election_deadline,"11:59 PM Eastern Time, July 12, 2026",Qwen3 4B on selected excerpts
+0001193125-26-266069,shareholder_vote_date,7/13/2026 9:00 AM Pacific Time,Qwen3 4B on selected excerpts
+0001193125-26-266069,effective_date,,Qwen3 4B on selected excerpts
+0001193125-26-266069,event_status,Pending,Qwen3 4B on selected excerpts
+0001193125-26-266069,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001193125-26-266069,available_options,No holder election,Qwen3 4B on selected excerpts
+0001193125-26-266069,default_option,$39.00 cash + 1 CVR,Qwen3 4B on selected excerpts
+0001193125-26-266069,closing_conditions,"Adoption of Merger Agreement, approval of Holding Company Reorganization by XOMA Royalty stockholders",Qwen3 4B on selected excerpts
+0001193125-26-266069,cash_consideration_qualifications,Subject to deduction for any required withholding tax,Qwen3 4B on selected excerpts
+0001193125-26-266069,stock_exchange_ratio_qualifications,"No collars, caps, adjustments or fractional-share treatment",Qwen3 4B on selected excerpts
+0001193125-26-266069,other_consideration,Contingent value rights (CVRs) from Janssen Litigation,Qwen3 4B on selected excerpts
+0001193125-26-266069,event_status_details,"Merger Agreement dated April 27, 2026, amended May 16, 2026; Holding Company Reorganization pending stockholder approval",Qwen3 4B on selected excerpts
+0001193125-26-280277,stock_exchange_ratio,"0.6539 of a duly authorized, validly issued and fully paid common share of AkzoNobel",Qwen3 4B on selected excerpts
+0001193125-26-280277,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001193125-26-280277,shareholder_vote_date,8/5/2026 9:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001193125-26-280277,effective_date,,Qwen3 4B on selected excerpts
+0001193125-26-280277,event_status,Pending,Qwen3 4B on selected excerpts
+0001193125-26-280277,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001193125-26-280277,available_options,0.6539 AkzoNobel ordinary shares | Cash in lieu of fractional shares,Qwen3 4B on selected excerpts
+0001193125-26-280277,default_option,0.6539 AkzoNobel ordinary shares,Qwen3 4B on selected excerpts
+0001193125-26-280277,closing_conditions,Axalta shareholder approval | AkzoNobel shareholder approval | Regulatory approvals | Satisfaction of customary closing conditions,Qwen3 4B on selected excerpts
+0001193125-26-280277,cash_consideration_qualifications,€2.5 billion minus regular annual and interim dividends declared by AkzoNobel in 2026,Qwen3 4B on selected excerpts
+0001193125-26-280277,stock_exchange_ratio_qualifications,No fractional shares; cash in lieu of fractional shares,Qwen3 4B on selected excerpts
+0001193125-26-280277,other_consideration,Pre-completion distribution of €2.5 billion,Qwen3 4B on selected excerpts
+0001193125-26-280277,event_status_details,"Merger agreement dated November 18, 2025 (amended May 27, 2026); pending shareholder approval",Qwen3 4B on selected excerpts
+0001140361-26-026757,stock_exchange_ratio,2.793 common shares of Equity Residential common shares per share of AvalonBay common stock,Qwen3 4B on selected excerpts
+0001140361-26-026757,election_deadline,,Qwen3 4B on selected excerpts
+0001140361-26-026757,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001140361-26-026757,effective_date,,Qwen3 4B on selected excerpts
+0001140361-26-026757,event_status,Pending,Qwen3 4B on selected excerpts
+0001140361-26-026757,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001140361-26-026757,available_options,No holder election,Qwen3 4B on selected excerpts
+0001140361-26-026757,default_option,2.793 Equity Residential common shares and cash in lieu of fractional shares,Qwen3 4B on selected excerpts
+0001140361-26-026757,closing_conditions,Approval of AvalonBay merger proposal by AvalonBay stockholders | Approval of Equity Residential share issuance proposal by Equity Residential shareholders | Absence of injunction or order prohibiting the merger,Qwen3 4B on selected excerpts
+0001140361-26-026757,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-026757,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-026757,other_consideration,,Qwen3 4B on selected excerpts
+0001140361-26-026757,event_status_details,"Merger agreement dated May 20, 2026; subject to shareholder approvals and no injunction",Qwen3 4B on selected excerpts
+0001829126-26-007145,stock_exchange_ratio,"50,000,000 shares of PubCo Common Stock per share of Exascale security",Qwen3 4B on selected excerpts
+0001829126-26-007145,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001829126-26-007145,shareholder_vote_date,10/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001829126-26-007145,effective_date,,Qwen3 4B on selected excerpts
+0001829126-26-007145,event_status,Pending,Qwen3 4B on selected excerpts
+0001829126-26-007145,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001829126-26-007145,available_options,PubCo Class A Ordinary Common Stock | PubCo Class B Super Common Stock,Qwen3 4B on selected excerpts
+0001829126-26-007145,default_option,PubCo Class A Ordinary Common Stock,Qwen3 4B on selected excerpts
+0001829126-26-007145,closing_conditions,approval of the Business Combination and related agreements and transactions by the respective shareholders of BCAR and Exascale | effectiveness of the registration statement on Form S-4,Qwen3 4B on selected excerpts
+0001829126-26-007145,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-007145,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-007145,other_consideration,,Qwen3 4B on selected excerpts
+0001829126-26-007145,event_status_details,"Business Combination Agreement dated January 11, 2026; approval of proposals by BCAR shareholders at Extraordinary General Meeting",Qwen3 4B on selected excerpts
+0001493152-26-032938,stock_exchange_ratio,0.1 Pubco Common Shares per Matinas Common Stock,Qwen3 4B on selected excerpts
+0001493152-26-032938,election_deadline,,Qwen3 4B on selected excerpts
+0001493152-26-032938,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001493152-26-032938,effective_date,,Qwen3 4B on selected excerpts
+0001493152-26-032938,event_status,Pending,Qwen3 4B on selected excerpts
+0001493152-26-032938,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001493152-26-032938,available_options,No holder election,Qwen3 4B on selected excerpts
+0001493152-26-032938,default_option,0.1 Pubco Common Shares,Qwen3 4B on selected excerpts
+0001493152-26-032938,closing_conditions,PIPE Financing of at least $15.0 million | Required Matinas Stockholder Approval | Required GH Power Shareholder Approval | F-4 Registration Statement effectiveness | Interim Order and Final Order on terms consistent with BCA,Qwen3 4B on selected excerpts
+0001493152-26-032938,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001493152-26-032938,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001493152-26-032938,other_consideration,,Qwen3 4B on selected excerpts
+0001493152-26-032938,event_status_details,"Business Combination Agreement entered on July 10, 2026; requires stockholder approvals and other conditions",Qwen3 4B on selected excerpts
+0001104659-26-083113,stock_exchange_ratio,"2.793 common shares of beneficial interest, par value $0.01 per share, of Equity Residential",Qwen3 4B on selected excerpts
+0001104659-26-083113,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001104659-26-083113,shareholder_vote_date,8/12/2026,Qwen3 4B on selected excerpts
+0001104659-26-083113,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-083113,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-083113,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001104659-26-083113,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-083113,default_option,"2.793 common shares of beneficial interest, par value $0.01 per share, of Equity Residential",Qwen3 4B on selected excerpts
+0001104659-26-083113,closing_conditions,"approval of the AvalonBay merger proposal by AvalonBay stockholders, approval of the Equity Residential share issuance proposal by Equity Residential shareholders, absence of any injunction or order by any court or other governmental entity prohibiting or making illegal the merger",Qwen3 4B on selected excerpts
+0001104659-26-083113,cash_consideration_qualifications,cash in lieu of fractional shares,Qwen3 4B on selected excerpts
+0001104659-26-083113,stock_exchange_ratio_qualifications,no fractional shares,Qwen3 4B on selected excerpts
+0001104659-26-083113,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-083113,event_status_details,"Agreement date: May 20, 2026; approvals required: AvalonBay stockholder approval, Equity Residential shareholder approval",Qwen3 4B on selected excerpts
+0001193125-26-307826,stock_exchange_ratio,0.400 shares of DXL common stock per share of FBB common stock,Qwen3 4B on selected excerpts
+0001193125-26-307826,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001193125-26-307826,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001193125-26-307826,effective_date,,Qwen3 4B on selected excerpts
+0001193125-26-307826,event_status,Pending,Qwen3 4B on selected excerpts
+0001193125-26-307826,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001193125-26-307826,available_options,DXL common stock | Cash,Qwen3 4B on selected excerpts
+0001193125-26-307826,default_option,DXL common stock,Qwen3 4B on selected excerpts
+0001193125-26-307826,closing_conditions,"approval by DXL stockholders, approval by Nasdaq of DXL’s listing application for DXL common stock to be issued as merger consideration",Qwen3 4B on selected excerpts
+0001193125-26-307826,cash_consideration_qualifications,Nasdaq initial listing standards,Qwen3 4B on selected excerpts
+0001193125-26-307826,stock_exchange_ratio_qualifications,No fractional shares; fractional shares rounded up to nearest whole number,Qwen3 4B on selected excerpts
+0001193125-26-307826,other_consideration,,Qwen3 4B on selected excerpts
+0001193125-26-307826,event_status_details,"Merger agreement entered on December 11, 2025; subject to stockholder approval and Nasdaq listing",Qwen3 4B on selected excerpts
+0001104659-26-086863,stock_exchange_ratio,1 share of ListCo Common Share per CGC Share,Qwen3 4B on selected excerpts
+0001104659-26-086863,election_deadline,,Qwen3 4B on selected excerpts
+0001104659-26-086863,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001104659-26-086863,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-086863,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-086863,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001104659-26-086863,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-086863,default_option,1 share of ListCo Common Share per CGC Share,Qwen3 4B on selected excerpts
+0001104659-26-086863,closing_conditions,"requisite approvals of CGC’s shareholders, fulfillment of other customary closing conditions",Qwen3 4B on selected excerpts
+0001104659-26-086863,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-086863,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-086863,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-086863,event_status_details,"Business Combination Agreement entered on July 24, 2026; unanimously approved by boards of directors",Qwen3 4B on selected excerpts
+0001140361-26-030109,stock_exchange_ratio,1 contingent value right (CVR) per share,Qwen3 4B on selected excerpts
+0001140361-26-030109,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001140361-26-030109,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001140361-26-030109,effective_date,,Qwen3 4B on selected excerpts
+0001140361-26-030109,event_status,Pending,Qwen3 4B on selected excerpts
+0001140361-26-030109,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001140361-26-030109,available_options,Cash | Contingent value right (CVR),Qwen3 4B on selected excerpts
+0001140361-26-030109,default_option,Cash,Qwen3 4B on selected excerpts
+0001140361-26-030109,closing_conditions,"Regulatory approvals from Australia, Germany, and other jurisdictions",Qwen3 4B on selected excerpts
+0001140361-26-030109,cash_consideration_qualifications,No tax withholdings,Qwen3 4B on selected excerpts
+0001140361-26-030109,stock_exchange_ratio_qualifications,"No collars, caps, adjustments or fractional-share treatment",Qwen3 4B on selected excerpts
+0001140361-26-030109,other_consideration,Contingent value rights (CVRs),Qwen3 4B on selected excerpts
+0001140361-26-030109,event_status_details,"Merger agreement dated July 15, 2026; pending regulatory approvals",Qwen3 4B on selected excerpts
+0001213900-26-084286,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001213900-26-084286,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001213900-26-084286,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001213900-26-084286,effective_date,12/31/2026,Qwen3 4B on selected excerpts
+0001213900-26-084286,event_status,Completed,Qwen3 4B on selected excerpts
+0001213900-26-084286,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001213900-26-084286,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-26-084286,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-084286,closing_conditions,Required shareholder approvals,Qwen3 4B on selected excerpts
+0001213900-26-084286,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-084286,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-084286,other_consideration,,Qwen3 4B on selected excerpts
+0001213900-26-084286,event_status_details,"Agreement signed on July 31, 2026",Qwen3 4B on selected excerpts
+0001193125-26-347541,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001193125-26-347541,election_deadline,,Qwen3 4B on selected excerpts
+0001193125-26-347541,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001193125-26-347541,effective_date,,Qwen3 4B on selected excerpts
+0001193125-26-347541,event_status,Pending,Qwen3 4B on selected excerpts
+0001193125-26-347541,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001193125-26-347541,available_options,No holder election,Qwen3 4B on selected excerpts
+0001193125-26-347541,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001193125-26-347541,closing_conditions,"approval by SPACSphere and Mobilewalla shareholders, Registration Statement declared effective by SEC",Qwen3 4B on selected excerpts
+0001193125-26-347541,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-347541,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-347541,other_consideration,,Qwen3 4B on selected excerpts
+0001193125-26-347541,event_status_details,"Business Combination Agreement entered into on June 1, 2026; transaction expected to close in second half of 2026",Qwen3 4B on selected excerpts
+0001193125-26-361757,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001193125-26-361757,election_deadline,,Qwen3 4B on selected excerpts
+0001193125-26-361757,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001193125-26-361757,effective_date,,Qwen3 4B on selected excerpts
+0001193125-26-361757,event_status,Pending,Qwen3 4B on selected excerpts
+0001193125-26-361757,consideration_type,Cash,Qwen3 4B on selected excerpts
+0001193125-26-361757,available_options,No holder election,Qwen3 4B on selected excerpts
+0001193125-26-361757,default_option,Cash,Qwen3 4B on selected excerpts
+0001193125-26-361757,closing_conditions,Satisfaction of conditions in Merger Agreement,Qwen3 4B on selected excerpts
+0001193125-26-361757,cash_consideration_qualifications,Subject to tax withholding,Qwen3 4B on selected excerpts
+0001193125-26-361757,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001193125-26-361757,other_consideration,,Qwen3 4B on selected excerpts
+0001193125-26-361757,event_status_details,"Merger Agreement dated July 20, 2026; pending stockholder approval",Qwen3 4B on selected excerpts
+0001213900-26-093229,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001213900-26-093229,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001213900-26-093229,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001213900-26-093229,effective_date,8/24/2026,Qwen3 4B on selected excerpts
+0001213900-26-093229,event_status,Completed,Qwen3 4B on selected excerpts
+0001213900-26-093229,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001213900-26-093229,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-26-093229,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-093229,closing_conditions,Mach X Shareholder Approval,Qwen3 4B on selected excerpts
+0001213900-26-093229,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-093229,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-093229,other_consideration,,Qwen3 4B on selected excerpts
+0001213900-26-093229,event_status_details,"August 24, 2026",Qwen3 4B on selected excerpts
+0001753926-26-001637,stock_exchange_ratio,0.400 shares of Rocket Lab Common Stock per share,Qwen3 4B on selected excerpts
+0001753926-26-001637,election_deadline,"8:15 AM Eastern Time, August 21, 2026",Qwen3 4B on selected excerpts
+0001753926-26-001637,shareholder_vote_date,9/24/2026 8:30 AM Eastern Time,Qwen3 4B on selected excerpts
+0001753926-26-001637,effective_date,,Qwen3 4B on selected excerpts
+0001753926-26-001637,event_status,Pending,Qwen3 4B on selected excerpts
+0001753926-26-001637,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001753926-26-001637,available_options,0.400 shares of Rocket Lab Common Stock | 0.400 shares of Rocket Lab Common Stock + $27.00 cash,Qwen3 4B on selected excerpts
+0001753926-26-001637,default_option,0.400 shares of Rocket Lab Common Stock + $27.00 cash,Qwen3 4B on selected excerpts
+0001753926-26-001637,closing_conditions,"Regulatory approvals, Iridium stockholder approval, satisfaction of other conditions",Qwen3 4B on selected excerpts
+0001753926-26-001637,cash_consideration_qualifications,No qualifications,Qwen3 4B on selected excerpts
+0001753926-26-001637,stock_exchange_ratio_qualifications,Exchange Ratio based on Rocket Lab Stock Price,Qwen3 4B on selected excerpts
+0001753926-26-001637,other_consideration,,Qwen3 4B on selected excerpts
+0001753926-26-001637,event_status_details,"Merger Agreement signed June 28, 2026; Iridium stockholder vote scheduled for September 24, 2026",Qwen3 4B on selected excerpts
+0001104659-26-104858,stock_exchange_ratio,0.400 shares of SPAC Class A Common Stock per share of Company Common Stock,Qwen3 4B on selected excerpts
+0001104659-26-104858,election_deadline,"5:00 PM Eastern Time, two business days prior to Special Meeting",Qwen3 4B on selected excerpts
+0001104659-26-104858,shareholder_vote_date,9/2/2026,Qwen3 4B on selected excerpts
+0001104659-26-104858,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-104858,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-104858,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001104659-26-104858,available_options,SPAC Class A Common Stock | SPAC Class B Common Stock,Qwen3 4B on selected excerpts
+0001104659-26-104858,default_option,SPAC Class A Common Stock,Qwen3 4B on selected excerpts
+0001104659-26-104858,closing_conditions,"Shareholder approval, satisfaction of conditions",Qwen3 4B on selected excerpts
+0001104659-26-104858,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-104858,stock_exchange_ratio_qualifications,"Exchange Ratio based on $800,000,000 pre-money equity value",Qwen3 4B on selected excerpts
+0001104659-26-104858,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-104858,event_status_details,"Agreement dated September 2, 2026; requires shareholder approval and satisfaction of conditions",Qwen3 4B on selected excerpts
+0001213900-26-098973,stock_exchange_ratio,"15,000,000 shares of Class A common stock per share",Qwen3 4B on selected excerpts
+0001213900-26-098973,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001213900-26-098973,shareholder_vote_date,9/11/2026,Qwen3 4B on selected excerpts
+0001213900-26-098973,effective_date,1/31/2027,Qwen3 4B on selected excerpts
+0001213900-26-098973,event_status,Pending,Qwen3 4B on selected excerpts
+0001213900-26-098973,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001213900-26-098973,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-26-098973,default_option,"15,000,000 shares of Class A common stock",Qwen3 4B on selected excerpts
+0001213900-26-098973,closing_conditions,approval by Aperture’s shareholders and Atlantic’s stockholders,Qwen3 4B on selected excerpts
+0001213900-26-098973,cash_consideration_qualifications,no redemptions by Aperture’s public shareholders,Qwen3 4B on selected excerpts
+0001213900-26-098973,stock_exchange_ratio_qualifications,no fractional shares,Qwen3 4B on selected excerpts
+0001213900-26-098973,other_consideration,Earnout Shares,Qwen3 4B on selected excerpts
+0001213900-26-098973,event_status_details,"Business Combination Agreement dated September 10, 2026",Qwen3 4B on selected excerpts
+0001140361-26-036669,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001140361-26-036669,election_deadline,,Qwen3 4B on selected excerpts
+0001140361-26-036669,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001140361-26-036669,effective_date,,Qwen3 4B on selected excerpts
+0001140361-26-036669,event_status,Pending,Qwen3 4B on selected excerpts
+0001140361-26-036669,consideration_type,Cash,Qwen3 4B on selected excerpts
+0001140361-26-036669,available_options,No holder election,Qwen3 4B on selected excerpts
+0001140361-26-036669,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001140361-26-036669,closing_conditions,Regulatory approvals required,Qwen3 4B on selected excerpts
+0001140361-26-036669,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-036669,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-036669,other_consideration,,Qwen3 4B on selected excerpts
+0001140361-26-036669,event_status_details,"Merger Agreement dated August 18, 2026",Qwen3 4B on selected excerpts
+0001829126-26-000261,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001829126-26-000261,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001829126-26-000261,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001829126-26-000261,effective_date,1/11/2026,Qwen3 4B on selected excerpts
+0001829126-26-000261,event_status,Completed,Qwen3 4B on selected excerpts
+0001829126-26-000261,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001829126-26-000261,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-000261,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-000261,closing_conditions,BCAR complying with all of its obligations under the Merger Agreement in all material respects | the representations and warranties of BCAR being true on and as of the Closing in all material respects | there having been no Material Adverse Effect to BCAR,Qwen3 4B on selected excerpts
+0001829126-26-000261,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-000261,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-000261,other_consideration,,Qwen3 4B on selected excerpts
+0001829126-26-000261,event_status_details,"Agreement date: January 11, 2026",Qwen3 4B on selected excerpts
+0001213900-26-010191,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-010191,election_deadline,,Qwen3 4B on selected excerpts
+0001213900-26-010191,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001213900-26-010191,effective_date,,Qwen3 4B on selected excerpts
+0001213900-26-010191,event_status,Announced,Qwen3 4B on selected excerpts
+0001213900-26-010191,consideration_type,Stock,Qwen3 4B on selected excerpts
+0001213900-26-010191,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-26-010191,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-010191,closing_conditions,satisfaction or waiver of certain conditions precedent,Qwen3 4B on selected excerpts
+0001213900-26-010191,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-010191,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-010191,other_consideration,,Qwen3 4B on selected excerpts
+0001213900-26-010191,event_status_details,"Business Combination Agreement dated as of December 4, 2024",Qwen3 4B on selected excerpts
+0001213900-26-010178,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-010178,election_deadline,,Qwen3 4B on selected excerpts
+0001213900-26-010178,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001213900-26-010178,effective_date,,Qwen3 4B on selected excerpts
+0001213900-26-010178,event_status,Pending,Qwen3 4B on selected excerpts
+0001213900-26-010178,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001213900-26-010178,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-26-010178,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-26-010178,closing_conditions,satisfaction or waiver of certain conditions precedent,Qwen3 4B on selected excerpts
+0001213900-26-010178,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-010178,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001213900-26-010178,other_consideration,,Qwen3 4B on selected excerpts
+0001213900-26-010178,event_status_details,"Business Combination Agreement dated December 4, 2024",Qwen3 4B on selected excerpts
+0001829126-26-000900,stock_exchange_ratio,0.400 shares of Cliffs common stock per share,Qwen3 4B on selected excerpts
+0001829126-26-000900,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001829126-26-000900,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001829126-26-000900,effective_date,12/31/2026,Qwen3 4B on selected excerpts
+0001829126-26-000900,event_status,Completed,Qwen3 4B on selected excerpts
+0001829126-26-000900,consideration_type,Mixed cash and stock,Qwen3 4B on selected excerpts
+0001829126-26-000900,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-000900,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-000900,closing_conditions,No closing conditions,Qwen3 4B on selected excerpts
+0001829126-26-000900,cash_consideration_qualifications,No cash qualifications,Qwen3 4B on selected excerpts
+0001829126-26-000900,stock_exchange_ratio_qualifications,No ratio qualifications,Qwen3 4B on selected excerpts
+0001829126-26-000900,other_consideration,No other consideration,Qwen3 4B on selected excerpts
+0001829126-26-000900,event_status_details,Completed on 12/31/2026,Qwen3 4B on selected excerpts
+0001829126-26-001748,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-001748,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001829126-26-001748,shareholder_vote_date,2/27/2026,Qwen3 4B on selected excerpts
+0001829126-26-001748,effective_date,,Qwen3 4B on selected excerpts
+0001829126-26-001748,event_status,Completed,Qwen3 4B on selected excerpts
+0001829126-26-001748,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001829126-26-001748,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-001748,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-001748,closing_conditions,Approval of the Business Combination by Voyager’s shareholders,Qwen3 4B on selected excerpts
+0001829126-26-001748,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-001748,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-001748,other_consideration,,Qwen3 4B on selected excerpts
+0001829126-26-001748,event_status_details,"Shareholders approved the merger and issuance of new shares to Voyager Acquisition Corp. on February 27, 2026",Qwen3 4B on selected excerpts
+0001829126-26-001749,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-001749,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001829126-26-001749,shareholder_vote_date,2/27/2026,Qwen3 4B on selected excerpts
+0001829126-26-001749,effective_date,,Qwen3 4B on selected excerpts
+0001829126-26-001749,event_status,Pending,Qwen3 4B on selected excerpts
+0001829126-26-001749,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001829126-26-001749,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-001749,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-001749,closing_conditions,Approval of the Business Combination by Voyager’s shareholders,Qwen3 4B on selected excerpts
+0001829126-26-001749,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-001749,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-001749,other_consideration,,Qwen3 4B on selected excerpts
+0001829126-26-001749,event_status_details,EGM approved on 2/27/2026; subject to Voyager shareholders approval,Qwen3 4B on selected excerpts
+0001493152-26-009317,stock_exchange_ratio,"18,000,000 divided by the number of fully diluted Goodvision Shares outstanding",Qwen3 4B on selected excerpts
+0001493152-26-009317,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001493152-26-009317,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001493152-26-009317,effective_date,,Qwen3 4B on selected excerpts
+0001493152-26-009317,event_status,Pending,Qwen3 4B on selected excerpts
+0001493152-26-009317,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001493152-26-009317,available_options,"18,000,000 divided by the number of fully diluted Goodvision Shares outstanding | 3,600,000 SPAC Shares",Qwen3 4B on selected excerpts
+0001493152-26-009317,default_option,"18,000,000 divided by the number of fully diluted Goodvision Shares outstanding",Qwen3 4B on selected excerpts
+0001493152-26-009317,closing_conditions,approval of the Transactions and related matters by the respective shareholders of the Company and Goodvision | effectiveness of the Registration Statement | no Material Adverse Effect since the date of the BCA | Financing consummated | listing of the SPAC Shares approved by NASDAQ,Qwen3 4B on selected excerpts
+0001493152-26-009317,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001493152-26-009317,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001493152-26-009317,other_consideration,Earnout Shares,Qwen3 4B on selected excerpts
+0001493152-26-009317,event_status_details,"Execution Date: March 6, 2026; Shareholder approvals required",Qwen3 4B on selected excerpts
+0001104659-26-027698,stock_exchange_ratio,between 0.000305 and 0.000508 shares of Topco Common Stock per share,Qwen3 4B on selected excerpts
+0001104659-26-027698,election_deadline,,Qwen3 4B on selected excerpts
+0001104659-26-027698,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001104659-26-027698,effective_date,,Qwen3 4B on selected excerpts
+0001104659-26-027698,event_status,Pending,Qwen3 4B on selected excerpts
+0001104659-26-027698,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001104659-26-027698,available_options,No holder election,Qwen3 4B on selected excerpts
+0001104659-26-027698,default_option,between 0.1 and 0.166667 shares of Topco Common Stock per share,Qwen3 4B on selected excerpts
+0001104659-26-027698,closing_conditions,"approval of Barinthus Shareholders, receipt of regulatory approvals, satisfaction of other closing conditions",Qwen3 4B on selected excerpts
+0001104659-26-027698,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001104659-26-027698,stock_exchange_ratio_qualifications,rounded down to the nearest whole share,Qwen3 4B on selected excerpts
+0001104659-26-027698,other_consideration,,Qwen3 4B on selected excerpts
+0001104659-26-027698,event_status_details,"Merger Agreement amended on February 22, 2026; Scheme of Arrangement pending Court sanction",Qwen3 4B on selected excerpts
+0001829126-26-002394,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-002394,election_deadline,,Qwen3 4B on selected excerpts
+0001829126-26-002394,shareholder_vote_date,3/17/2026,Qwen3 4B on selected excerpts
+0001829126-26-002394,effective_date,,Qwen3 4B on selected excerpts
+0001829126-26-002394,event_status,Completed,Qwen3 4B on selected excerpts
+0001829126-26-002394,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001829126-26-002394,available_options,No holder election,Qwen3 4B on selected excerpts
+0001829126-26-002394,default_option,No stock consideration,Qwen3 4B on selected excerpts
+0001829126-26-002394,closing_conditions,,Qwen3 4B on selected excerpts
+0001829126-26-002394,cash_consideration_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-002394,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001829126-26-002394,other_consideration,,Qwen3 4B on selected excerpts
+0001829126-26-002394,event_status_details,Business Combination Agreement approved on 3/17/2026,Qwen3 4B on selected excerpts

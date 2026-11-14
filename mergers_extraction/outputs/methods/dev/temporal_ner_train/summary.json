@@ -1,0 +1,21 @@
+{
+  "method": "temporal NER + date rules",
+  "model": "temporal NER + date rules",
+  "split": "train",
+  "filings": 60,
+  "records": 109,
+  "reads": "learned",
+  "seconds": 72,
+  "micro": {
+    "learned": {
+      "tp": 55,
+      "fp": 25,
+      "fn": 54,
+      "gt_absence_values": 4,
+      "precision": 0.6875,
+      "recall": 0.5045871559633027,
+      "f1": 0.582010582010582
+    }
+  },
+  "note": "Agreement with unverified LLM ground truth. Category fields accept a span containing the label's key word; free-text fields use token F1 >= 0.5. Stated absences ('No ...') are counted apart because a span model cannot produce them."
+}

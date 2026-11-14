@@ -1,0 +1,44 @@
+{
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23,
+  "micro": {
+    "precision": 1.0,
+    "recall": 0.4444444444444444,
+    "f1": 0.6153846153846153
+  },
+  "tp": 8,
+  "fp": 0,
+  "fn": 10,
+  "per_field": {
+    "minimum_tender_condition": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 4,
+      "gt_present": 11,
+      "pred_present": 7,
+      "precision": 1.0,
+      "recall": 0.6363636363636364,
+      "f1": 0.7777777777777778
+    },
+    "proration_terms": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 6,
+      "gt_present": 7,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 0.14285714285714285,
+      "f1": 0.25
+    }
+  },
+  "proration_retrieval": true,
+  "anti_overfit": {
+    "holdout_frozen": true,
+    "note": "Proration prompt GT-aligned (trigger/allocation/priority; no inferred %; omit thousands separators). Retrieval regexes are generic SEC phrasing."
+  },
+  "baseline_gliner_medium_holdout_f1": {
+    "minimum_tender_condition": 0.0,
+    "proration_terms": 0.0
+  }
+}

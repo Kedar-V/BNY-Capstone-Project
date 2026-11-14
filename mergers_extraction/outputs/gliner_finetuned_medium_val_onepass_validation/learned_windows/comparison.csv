@@ -1,0 +1,12 @@
+,finetuned_learned_f1
+acquirer,0.755
+target,0.7
+merger_subsidiary,0.861
+security_description,0.653
+cash_consideration,0.5
+stock_exchange_ratio,0.268
+shareholder_vote_date,0.6
+effective_date,0.0
+election_deadline,
+expected_closing,0.79
+MICRO,0.655

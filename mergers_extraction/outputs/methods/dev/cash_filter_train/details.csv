@@ -1,0 +1,87 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+learned,0001140361-26-000200,PREM14A,cash_consideration,$4.50 per share,$4.50 per share,,tp
+learned,0001213900-25-127205,S-4,cash_consideration,,$5.00 per share,,fp_no_gt
+learned,0001213900-25-127205,S-4,cash_consideration,$5.00 per share,$5.00 per share,,tp
+learned,0001213900-25-127205,S-4,cash_consideration,$5.00 per share,$5.00 per share,,tp
+learned,0001213900-25-127205,S-4,cash_consideration,$5.00 per share,$5.00 per share,,tp
+learned,0001213900-25-127205,S-4,cash_consideration,$5.00 per share,$5.00 per share,,tp
+learned,0001213900-25-127205,S-4,cash_consideration,,$5.00 per share,,fp_no_gt
+learned,0001213900-25-127205,S-4,cash_consideration,,$5.00 per share,,fp_no_gt
+learned,0001213900-25-127205,S-4,cash_consideration,,$5.00 per share,,fp_no_gt
+learned,0001213900-25-127193,SC 13E3/A,cash_consideration,$0.90 per share,$0.90 per share,,tp
+learned,0001213900-25-127193,SC 13E3/A,cash_consideration,No cash consideration,$0.90 per share,,absence_value
+learned,0001213900-25-127193,SC 13E3/A,cash_consideration,No cash consideration,$0.90 per share,,absence_value
+learned,0001193125-26-002732,S-4,cash_consideration,No cash consideration,$10.00 per share,,absence_value
+learned,0001140361-26-000265,DEFM14A,cash_consideration,$9.00 minus any per-share transaction expense overage per share,$9.00 per share,,tp
+learned,0001140361-26-000522,DEFM14A,cash_consideration,$70.00 per share,$70.00 per share,,tp
+learned,0001140361-26-000790,SC 13E3/A,cash_consideration,$9.65 per share,$9.65 per share,,tp
+learned,0001104659-26-002481,DEFM14A,cash_consideration,$31.00 per share,$31.00 per share,,tp
+learned,0001193125-26-008315,DEFM14A,cash_consideration,$105.00 per share,$105.00 per share,,tp
+learned,0001193125-26-009645,S-4/A,cash_consideration,No cash consideration,,,absence_value
+learned,0001493152-26-001179,S-4/A,cash_consideration,No cash consideration,"$2,021.00 per share",,absence_value
+learned,0001820566-26-000005,DEFM14A,cash_consideration,$4.27 per share,$4.27 per share,,tp
+learned,0001829126-26-000260,8-K,cash_consideration,,$10.00 per share,,fp_no_gt
+learned,0001829126-26-000260,8-K,cash_consideration,,$10.00 per share,,fp_no_gt
+learned,0001104659-26-003014,PREM14A,cash_consideration,US$3.65 per share,US$3.65 per share,,tp
+learned,0001213900-26-003903,SC 13E3/A,cash_consideration,US$0.90 per share,US$0.90 per share,,tp
+learned,0001104659-26-002968,PREM14A,cash_consideration,$21.20 per share,$21.20 per share,,tp
+learned,0001193125-26-013022,S-4/A,cash_consideration,No cash consideration,,,absence_value
+learned,0001193125-26-012025,PREM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001193125-26-013365,SC 13E3,cash_consideration,C$2.41 per share,C$2.41 per share,,tp
+learned,0001140361-26-001516,PREM14A,cash_consideration,$175.00 per share,$175.00 per share,,tp
+learned,0001104659-26-004245,S-4/A,cash_consideration,Unreturned Senior Preferred Contribution per unit,,,fn_no_pred
+learned,0001193125-26-015959,PREM14A,cash_consideration,$27.75 per share,$27.75 per share,,tp
+learned,0001140361-26-001852,PREM14A,cash_consideration,$14.50 per share,$14.50 per share,,tp
+learned,0001193125-26-019521,8-K,cash_consideration,€11.00 per share,€11.00 per share,,tp
+learned,0001193125-26-019700,PREM14A,cash_consideration,$14.00 per share,$14.00 per share,,tp
+learned,0001193125-26-019700,PREM14A,cash_consideration,"$1,400.00 per share",$14.00 per share,,mismatch
+learned,0001193125-26-021084,SC 13E3/A,cash_consideration,$16.75 per share,$16.75 per share,,tp
+learned,0001829126-26-000475,S-4/A,cash_consideration,No cash consideration,,,absence_value
+learned,0001178913-26-000246,PREM14A,cash_consideration,,$31.00 per share,,fp_no_gt
+learned,0001178913-26-000246,PREM14A,cash_consideration,,$31.00 per share,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,cash_consideration,$9.00 per share,$9.00 per share,,tp
+learned,0001140361-26-002822,SC 13E3/A,cash_consideration,$9.00 per share,$9.00 per share,,tp
+learned,0001140361-26-003047,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001140361-26-003047,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001140361-26-003047,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001140361-26-003047,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001213900-26-010279,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001213900-26-010279,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001213900-26-010279,DEFM14A,cash_consideration,Allocation Schedule cash consideration per unit,,,fn_no_pred
+learned,0001213900-26-010279,DEFM14A,cash_consideration,Allocation Schedule cash consideration per unit,,,fn_no_pred
+learned,0001213900-26-010279,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001104659-26-008727,PREM14A,cash_consideration,$49.00 per share,$49.00 per share,,tp
+learned,0001193125-26-031920,DEFM14A,cash_consideration,$72.00 per share,$72.00 per share,,tp
+learned,0001193125-26-036881,PREM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001493152-26-005019,8-K,cash_consideration,,$0.08 per share,,fp_no_gt
+learned,0001104659-26-010897,S-4/A,cash_consideration,No cash consideration,,,absence_value
+learned,0001104659-26-010897,S-4/A,cash_consideration,No cash consideration,,,absence_value
+learned,0001493152-26-005598,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001493152-26-005598,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001493152-26-005598,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001193125-26-043033,PREM14A,cash_consideration,$8.10 per share,$8.10 per share,,tp
+learned,0001140361-26-005012,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001140361-26-005012,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001140361-26-005012,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001140361-26-005012,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001193125-26-048925,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001104659-26-014575,DEFM14A,cash_consideration,Unreturned Senior Preferred Contribution per unit,,,fn_no_pred
+learned,0001193125-26-067016,PREM14A,cash_consideration,$24.55 per share,$24.55 per share,,tp
+learned,0001193125-26-073346,SC 13E3,cash_consideration,$19.00 per share,$19.00 per share,,tp
+learned,0001193125-26-073346,SC 13E3,cash_consideration,$19.00 per share,$19.00 per share,,tp
+learned,0001193125-26-073346,SC 13E3,cash_consideration,$6.34 per share,$19.00 per share,,mismatch
+learned,0001193125-26-073346,SC 13E3,cash_consideration,$10.50 per share,$19.00 per share,,mismatch
+learned,0001193125-26-072827,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001193125-26-083205,PREM14A,cash_consideration,$6.50 per share,$6.50 per share,,tp
+learned,0001193125-26-083205,PREM14A,cash_consideration,No cash consideration,$6.50 per share,,absence_value
+learned,0001552781-26-000078,DEFM14A,cash_consideration,SWK Per Share NAV per share,,,fn_no_pred
+learned,0001193125-26-091525,PREM14A,cash_consideration,$47.00 per share,$47.00 per share,,tp
+learned,0001140361-26-008099,PREM14A,cash_consideration,$21.00 per share,$21.00 per share,,tp
+learned,0001140361-26-008099,PREM14A,cash_consideration,REIT Shares Amount multiplied by Company Merger Consideration per unit,$21.00 per share,,mismatch
+learned,0001104659-26-024792,PREM14A,cash_consideration,$16.00 per share,$16.00 per share,,tp
+learned,0001104659-26-024792,PREM14A,cash_consideration,$16.00 per unit,$16.00 per share,,tp
+learned,0001104659-26-024713,PREM14A,cash_consideration,$102.00 per share,$102.00 per share,,tp
+learned,0001193125-26-106334,PREM14A,cash_consideration,$231.00 per share,$231.00 per share,,tp
+learned,0001104659-26-031261,PREM14A,cash_consideration,$180.00 per share,$180.00 per share,,tp
+learned,0001193125-26-114341,S-4/A,cash_consideration,$14.85 per share,$14.85 per share,,tp
+learned,0001140361-26-010587,SC 13E3,cash_consideration,$10.90 per share,$10.90 per share,,tp

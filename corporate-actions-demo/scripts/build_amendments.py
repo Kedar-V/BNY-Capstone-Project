@@ -12,6 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 SRC = ROOT / 'agents' / 'amendment_impact' / 'output' / 'amendment_queue.json'
 OUT = Path(__file__).resolve().parents[1] / 'src' / 'data' / 'amendments.json'
+# Hand-labelled sector of the company holders own, for the operations sector filter (see the file's _note)
+SECTORS = json.loads((Path(__file__).resolve().parent / 'sectors.json').read_text(encoding='utf-8'))['sectors']
 
 
 def clip(text, limit=420):
@@ -27,6 +29,7 @@ for i, r in enumerate(sorted(queue['amendments'], key=lambda r: (r['filed'], r['
         'id': f"A-{i:03d}",
         'eventId': r['event_id'],
         'action': r['action'],
+        'sector': SECTORS.get(r['event_id'], 'Unclassified'),
         'title': r['title'],
         'accession': r['accession'],
         'form': r['form'],

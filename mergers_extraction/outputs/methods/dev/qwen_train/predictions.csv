@@ -1,0 +1,40 @@
+accession_number,field,value,evidence
+0001140361-26-000200,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001140361-26-000200,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001140361-26-000200,shareholder_vote_date,6/11/2026 10:00 AM Eastern Time,Qwen3 4B on selected excerpts
+0001140361-26-000200,effective_date,,Qwen3 4B on selected excerpts
+0001140361-26-000200,event_status,Pending,Qwen3 4B on selected excerpts
+0001140361-26-000200,consideration_type,Cash,Qwen3 4B on selected excerpts
+0001140361-26-000200,available_options,No holder election,Qwen3 4B on selected excerpts
+0001140361-26-000200,default_option,$4.50 in cash,Qwen3 4B on selected excerpts
+0001140361-26-000200,closing_conditions,Adoption of merger agreement by stockholders having requisite voting power | Regulatory approvals,Qwen3 4B on selected excerpts
+0001140361-26-000200,cash_consideration_qualifications,No stock consideration,Qwen3 4B on selected excerpts
+0001140361-26-000200,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001140361-26-000200,other_consideration,,Qwen3 4B on selected excerpts
+0001140361-26-000200,event_status_details,"Merger agreement dated December 1, 2025; adoption by stockholders required; regulatory approvals needed",Qwen3 4B on selected excerpts
+0001213900-25-127205,stock_exchange_ratio,"12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",Qwen3 4B on selected excerpts
+0001213900-25-127205,election_deadline,"5:00 PM Eastern Time, five business days before closing",Qwen3 4B on selected excerpts
+0001213900-25-127205,shareholder_vote_date,12/31/2025,Qwen3 4B on selected excerpts
+0001213900-25-127205,effective_date,,Qwen3 4B on selected excerpts
+0001213900-25-127205,event_status,Pending,Qwen3 4B on selected excerpts
+0001213900-25-127205,consideration_type,Elective consideration,Qwen3 4B on selected excerpts
+0001213900-25-127205,available_options,Public Shares | Cash,Qwen3 4B on selected excerpts
+0001213900-25-127205,default_option,Public Shares,Qwen3 4B on selected excerpts
+0001213900-25-127205,closing_conditions,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",Qwen3 4B on selected excerpts
+0001213900-25-127205,cash_consideration_qualifications,Original purchase price per share of the PAD Series A Preferred Stock,Qwen3 4B on selected excerpts
+0001213900-25-127205,stock_exchange_ratio_qualifications,No information,Qwen3 4B on selected excerpts
+0001213900-25-127205,other_consideration,No information,Qwen3 4B on selected excerpts
+0001213900-25-127205,event_status_details,"Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",Qwen3 4B on selected excerpts
+0001213900-25-127193,stock_exchange_ratio,No stock consideration,Qwen3 4B on selected excerpts
+0001213900-25-127193,election_deadline,,Qwen3 4B on selected excerpts
+0001213900-25-127193,shareholder_vote_date,,Qwen3 4B on selected excerpts
+0001213900-25-127193,effective_date,12/31/2025,Qwen3 4B on selected excerpts
+0001213900-25-127193,event_status,Completed,Qwen3 4B on selected excerpts
+0001213900-25-127193,consideration_type,Cash,Qwen3 4B on selected excerpts
+0001213900-25-127193,available_options,No holder election,Qwen3 4B on selected excerpts
+0001213900-25-127193,default_option,0.90 in cash without interest,Qwen3 4B on selected excerpts
+0001213900-25-127193,closing_conditions,None,Qwen3 4B on selected excerpts
+0001213900-25-127193,cash_consideration_qualifications,subject to applicable withholding,Qwen3 4B on selected excerpts
+0001213900-25-127193,stock_exchange_ratio_qualifications,,Qwen3 4B on selected excerpts
+0001213900-25-127193,other_consideration,,Qwen3 4B on selected excerpts
+0001213900-25-127193,event_status_details,"Merger completed on December 31, 2025; Company became wholly owned subsidiary of Parent",Qwen3 4B on selected excerpts

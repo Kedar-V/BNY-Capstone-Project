@@ -1,0 +1,20 @@
+field,label,compare,tp,fp,fn,gt_absence_values,combined_precision,combined_recall,combined_f1,method_used
+acquirer,,name,81,96,69,0,0.458,0.54,0.495,fine-tuned GLiNER
+target,,name,106,73,49,0,0.592,0.684,0.635,role rule
+merger_subsidiary,,name,135,37,15,0,0.785,0.9,0.839,role rule
+security_description,,text,108,65,56,0,0.624,0.659,0.641,fine-tuned GLiNER
+cash_consideration,,money,27,6,11,11,0.818,0.711,0.761,cash filter
+stock_exchange_ratio,,number,51,113,61,27,0.311,0.455,0.37,Qwen3 4B
+shareholder_vote_date,,date,39,31,10,0,0.557,0.796,0.655,GLiNER + date checks
+effective_date,,date,0,0,1,0,,0.0,,date rules
+election_deadline,,date_or_text,0,6,4,0,0.0,0.0,0.0,date rules
+expected_closing,,text,105,37,35,2,0.739,0.75,0.745,fine-tuned GLiNER
+event_status,,label,95,83,84,0,0.534,0.531,0.532,Qwen3 4B
+consideration_type,,label,50,128,115,0,0.281,0.303,0.292,Qwen3 4B
+available_options,,text,3,60,1,155,0.048,0.75,0.09,Qwen3 4B
+default_option,,text,1,177,6,0,0.006,0.143,0.011,Qwen3 4B
+closing_conditions,,text,14,150,140,16,0.085,0.091,0.088,Qwen3 4B
+cash_consideration_qualifications,,text,2,57,64,0,0.034,0.03,0.032,Qwen3 4B
+stock_exchange_ratio_qualifications,,text,5,62,70,12,0.075,0.067,0.07,Qwen3 4B
+other_consideration,,text,0,55,14,0,0.0,0.0,0.0,Qwen3 4B
+event_status_details,,text,126,52,53,0,0.708,0.704,0.706,Qwen3 4B

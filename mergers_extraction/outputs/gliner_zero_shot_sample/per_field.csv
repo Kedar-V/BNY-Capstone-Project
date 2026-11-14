@@ -1,0 +1,19 @@
+field,label,compare,quotes_in_pipeline_windows,tp,fp,fn,gt_absence_values,pipeline_precision,pipeline_recall,pipeline_f1,oracle_precision,oracle_recall,oracle_f1
+acquirer,acquirer organization,name,2/17,0,14,10,0,0.0,0.0,0.0,0.071,0.1,0.083
+target,target organization,name,4/21,6,5,7,0,0.545,0.462,0.5,0.429,0.462,0.444
+merger_subsidiary,merger subsidiary,name,2/14,4,10,7,0,0.286,0.364,0.32,0.231,0.273,0.25
+security_description,affected security,text,5/12,4,9,8,0,0.308,0.333,0.32,0.429,0.5,0.462
+cash_consideration,cash consideration per share,money,0/4,2,11,2,0,0.154,0.5,0.235,0.167,0.5,0.25
+stock_exchange_ratio,stock exchange ratio,number,0/14,0,3,6,4,0.0,0.0,0.0,0.0,0.0,0.0
+shareholder_vote_date,shareholder vote date,date,0/3,2,7,0,0,0.222,1.0,0.364,0.143,0.5,0.222
+effective_date,merger effective date,date,,0,13,0,0,0.0,,,0.0,,
+election_deadline,election deadline,date,,0,1,0,0,0.0,,,,,
+expected_closing,expected closing timing,text,1/12,0,0,12,0,,0.0,,,0.0,
+event_status,merger event status,category,2/14,0,0,14,0,,0.0,,,0.0,
+event_status_details,merger milestone,text,3/24,0,0,14,0,,0.0,,,0.0,
+closing_conditions,merger closing condition,text,2/110,0,6,11,1,0.0,0.0,0.0,0.0,0.0,0.0
+available_options,shareholder election option,text,0/10,0,0,0,9,,,,0.0,,
+default_option,default election option,text,,0,0,0,0,,,,,,
+cash_consideration_qualifications,cash consideration adjustment,text,0/7,0,1,6,0,0.0,0.0,0.0,0.0,0.0,0.0
+stock_exchange_ratio_qualifications,exchange ratio adjustment,text,1/5,0,1,4,0,0.0,0.0,0.0,0.0,0.0,0.0
+other_consideration,contingent value right,text,1/3,0,4,2,0,0.0,0.0,0.0,0.0,0.0,0.0

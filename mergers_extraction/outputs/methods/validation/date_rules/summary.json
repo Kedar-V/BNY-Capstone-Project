@@ -1,0 +1,21 @@
+{
+  "method": "date rules",
+  "model": "date rules",
+  "split": "validation",
+  "filings": 52,
+  "records": 80,
+  "reads": "fulltext",
+  "seconds": 3,
+  "micro": {
+    "fulltext": {
+      "tp": 19,
+      "fp": 9,
+      "fn": 7,
+      "gt_absence_values": 4,
+      "precision": 0.6785714285714286,
+      "recall": 0.7307692307692307,
+      "f1": 0.7037037037037038
+    }
+  },
+  "note": "Agreement with unverified LLM ground truth. Category fields accept a span containing the label's key word; free-text fields use token F1 >= 0.5. Stated absences ('No ...') are counted apart because a span model cannot produce them."
+}

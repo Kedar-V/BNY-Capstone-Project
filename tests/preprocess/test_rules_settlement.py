@@ -20,6 +20,17 @@ def test_find_settlement_pay_date() -> None:
     assert soft_match(pred, "Acceptance for payment: 1/22/2026")
 
 
+def test_find_settlement_promptly_beats_nearby_date() -> None:
+    """Promptly-pay language wins over a nearby calendar date (CR shape)."""
+    text = (
+        "The Offer will expire on February 8, 2026. Purchaser will pay for "
+        "all Shares accepted for payment promptly after the Expiration Date."
+    )
+    pred = find_settlement(text)
+    assert pred == "Payment: promptly"
+    assert soft_match(pred, "Acceptance: after the expiration of the Offer | Payment: promptly")
+
+
 def test_find_settlement_promptly_following() -> None:
     text = "Properly tendered Shares will be accepted for payment promptly following expiration of the Offer."
     pred = find_settlement(text)

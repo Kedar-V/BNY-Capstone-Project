@@ -1,0 +1,126 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+learned,0001140361-26-000200,PREM14A,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001213900-25-127205,S-4,expected_closing,second quarter of 2026,the second quarter of 2026. This date,,tp
+learned,0001213900-25-127205,S-4,expected_closing,second quarter of 2026,the second quarter of 2026. This date,,tp
+learned,0001213900-25-127205,S-4,expected_closing,second quarter of 2026,the second quarter of 2026. This date,,tp
+learned,0001213900-25-127205,S-4,expected_closing,second quarter of 2026,the second quarter of 2026. This date,,tp
+learned,0001213900-25-127205,S-4,expected_closing,second quarter of 2026,the second quarter of 2026. This date,,tp
+learned,0001213900-25-127205,S-4,effective_date,12/23/2024,,,fn_no_pred
+learned,0001213900-25-127205,S-4,expected_closing,,the second quarter of 2026. This date,,fp_no_gt
+learned,0001213900-25-127205,S-4,expected_closing,within seven days after New PAD assets reach $90 million,the second quarter of 2026. This date,,mismatch
+learned,0001213900-25-127205,S-4,expected_closing,,the second quarter of 2026. This date,,fp_no_gt
+learned,0001213900-25-127193,SC 13E3/A,effective_date,12/31/2025,12/31/2025,,tp
+learned,0001213900-25-127193,SC 13E3/A,effective_date,12/31/2025,12/31/2025,,tp
+learned,0001213900-25-127193,SC 13E3/A,effective_date,12/31/2025,12/31/2025,,tp
+learned,0001477932-25-009283,S-4,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001193125-26-002732,S-4,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001140361-26-000265,DEFM14A,shareholder_vote_date,2/12/2026 11:00 AM Eastern Time,2/12/2026,,tp
+learned,0001140361-26-000265,DEFM14A,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001493152-26-000510,425,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001193125-26-006300,S-4/A,shareholder_vote_date,11/30/2025,,,fn_no_pred
+learned,0001193125-26-006300,S-4/A,expected_closing,second quarter of 2026,the second quarter of 2026,,tp
+learned,0001213900-26-001980,425,expected_closing,February or March 2026,March 2026,,tp
+learned,0001140361-26-000522,DEFM14A,shareholder_vote_date,2/12/2026 8:00 AM Eastern Standard Time,2/12/2026,,tp
+learned,0001140361-26-000522,DEFM14A,expected_closing,2026,2026,,tp
+learned,0001213900-26-002352,S-4/A,expected_closing,No later than two business days after satisfaction or waiver of closing conditions,,,absence_value
+learned,0001213900-26-002352,S-4/A,expected_closing,No later than two business days after satisfaction or waiver of closing conditions,,,absence_value
+learned,0001213900-26-002352,S-4/A,expected_closing,No later than two business days after satisfaction or waiver of closing conditions,,,absence_value
+learned,0001213900-26-002352,S-4/A,expected_closing,No later than two business days after satisfaction or waiver of closing conditions,,,absence_value
+learned,0001104659-26-002524,S-4/A,expected_closing,Promptly following the Extraordinary General Meeting,,,fn_no_pred
+learned,0001104659-26-002524,S-4/A,expected_closing,Promptly following the Extraordinary General Meeting,,,fn_no_pred
+learned,0001140361-26-000790,SC 13E3/A,shareholder_vote_date,1/6/2026,,,fn_no_pred
+learned,0001140361-26-000790,SC 13E3/A,effective_date,1/9/2026,1/9/2026,,tp
+learned,0001193125-26-009119,PREM14A,election_deadline,Before the effective date; to be announced,1652,,mismatch
+learned,0001193125-26-009119,PREM14A,expected_closing,First quarter of 2026,the first quarter of 2026,,tp
+learned,0001104659-26-002481,DEFM14A,shareholder_vote_date,2/12/2026 9:00 AM Pacific Time,2/12/2026,,tp
+learned,0001104659-26-002481,DEFM14A,expected_closing,middle of 2026,the middle of 2026,,tp
+learned,0001213900-26-002600,8-K,shareholder_vote_date,9/2/2025,,,fn_no_pred
+learned,0001213900-26-002600,8-K,expected_closing,,one year,,fp_no_gt
+learned,0001213900-26-002600,8-K,shareholder_vote_date,9/2/2025,,,fn_no_pred
+learned,0001213900-26-002600,8-K,expected_closing,,one year,,fp_no_gt
+learned,0001213900-26-002600,8-K,expected_closing,,one year,,fp_no_gt
+learned,0001213900-26-002600,8-K,expected_closing,,one year,,fp_no_gt
+learned,0001193125-26-008315,DEFM14A,shareholder_vote_date,2/20/2026 10:00 AM Central Time,2/20/2026,,tp
+learned,0001193125-26-008315,DEFM14A,expected_closing,before the end of the second calendar quarter of 2026,,,fn_no_pred
+learned,0001193125-26-009645,S-4/A,shareholder_vote_date,2/3/2026 9:00 AM Eastern Time,2/3/2026,,tp
+learned,0001193125-26-009645,S-4/A,expected_closing,early 2026,early 2026,,tp
+learned,0001493152-26-001179,S-4/A,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001820566-26-000005,DEFM14A,shareholder_vote_date,2/2/2026 9:00 AM Mountain Time,2/2/2026,,tp
+learned,0001820566-26-000005,DEFM14A,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001829126-26-000260,8-K,expected_closing,second quarter of 2026,,,fn_no_pred
+learned,0001829126-26-000260,8-K,expected_closing,second quarter of 2026,,,fn_no_pred
+learned,0001493152-26-002044,425,expected_closing,,three-year period,,fp_no_gt
+learned,0001213900-26-003872,DEFM14A,shareholder_vote_date,2/3/2026 9:00 AM Eastern Time,2/3/2026,,tp
+learned,0001213900-26-003872,DEFM14A,expected_closing,Promptly after closing conditions are satisfied or waived,the forth quarter of 2025,,mismatch
+learned,0001213900-26-003872,DEFM14A,shareholder_vote_date,,2/3/2026,,fp_no_gt
+learned,0001213900-26-003872,DEFM14A,expected_closing,Promptly after closing conditions are satisfied or waived,the forth quarter of 2025,,mismatch
+learned,0001213900-26-003695,425,expected_closing,first half of 2026,,,fn_no_pred
+learned,0001213900-26-003695,425,expected_closing,first half of 2026,,,fn_no_pred
+learned,0001104659-26-003014,PREM14A,election_deadline,before the Effective Date,,,fn_no_pred
+learned,0001104659-26-003014,PREM14A,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001213900-26-003903,SC 13E3/A,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001104659-26-002968,PREM14A,shareholder_vote_date,3/9/2026 10:00 AM HST,,,fn_no_pred
+learned,0001104659-26-002968,PREM14A,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001193125-26-013022,S-4/A,shareholder_vote_date,2/19/2026 11:00 AM,2/19/2026,,tp
+learned,0001193125-26-013022,S-4/A,expected_closing,as early as the first quarter of 2026,the first quarter of 2026,,tp
+learned,0001213900-26-004193,S-4,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001213900-26-004193,S-4,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001213900-26-004193,S-4,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001193125-26-012025,PREM14A,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001552781-26-000021,DEFM14A,shareholder_vote_date,2/27/2026 8:00 AM Pacific Time,2/27/2026,,tp
+learned,0001552781-26-000021,DEFM14A,election_deadline,Ten business days after the effective time,,,fn_no_pred
+learned,0001552781-26-000021,DEFM14A,expected_closing,Early second quarter of 2026,the second quarter of 2026,,tp
+learned,0001552781-26-000021,DEFM14A,shareholder_vote_date,,2/27/2026,,fp_no_gt
+learned,0001552781-26-000021,DEFM14A,election_deadline,Ten business days after the effective time,,,fn_no_pred
+learned,0001552781-26-000021,DEFM14A,expected_closing,Early second quarter of 2026,the second quarter of 2026,,tp
+learned,0001552781-26-000021,DEFM14A,shareholder_vote_date,,2/27/2026,,fp_no_gt
+learned,0001552781-26-000021,DEFM14A,election_deadline,Ten business days after the effective time,,,fn_no_pred
+learned,0001552781-26-000021,DEFM14A,expected_closing,Early second quarter of 2026,the second quarter of 2026,,tp
+learned,0001140361-26-001516,PREM14A,expected_closing,by the third quarter of 2026,the third quarter of 2026,,tp
+learned,0001104659-26-004245,S-4/A,expected_closing,Promptly following the Shareholders’ Meeting,,,fn_no_pred
+learned,0001104659-26-004245,S-4/A,expected_closing,Promptly following the Shareholders’ Meeting,,,fn_no_pred
+learned,0001104659-26-004245,S-4/A,expected_closing,Promptly following the Shareholders’ Meeting,,,fn_no_pred
+learned,0001104659-26-004245,S-4/A,expected_closing,Promptly following the Shareholders’ Meeting,,,fn_no_pred
+learned,0001104659-26-004245,S-4/A,expected_closing,Promptly following the Shareholders’ Meeting,,,fn_no_pred
+learned,0001829126-26-000378,S-4/A,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001829126-26-000378,S-4/A,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001829126-26-000378,S-4/A,expected_closing,first quarter of 2026,the first quarter of 2026,,tp
+learned,0001104659-26-004871,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001104659-26-004871,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001104659-26-004871,S-4/A,shareholder_vote_date,8/6/2025,,,fn_no_pred
+learned,0001104659-26-004871,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001104659-26-004871,S-4/A,shareholder_vote_date,8/6/2025,,,fn_no_pred
+learned,0001104659-26-004871,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001104659-26-004871,S-4/A,shareholder_vote_date,8/6/2025,,,fn_no_pred
+learned,0001104659-26-004871,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001193125-26-015959,PREM14A,expected_closing,"12 to 18 months from December 4, 2025",,,fn_no_pred
+learned,0001140361-26-001670,DEFM14A,shareholder_vote_date,3/13/2026 2:30 PM Eastern Time,3/13/2026,,tp
+learned,0001140361-26-001670,DEFM14A,expected_closing,first half of 2026,,,fn_no_pred
+learned,0000950103-26-000806,425,expected_closing,Q1 2026,2026,,tp
+learned,0001213900-26-005984,S-4/A,shareholder_vote_date,2/24/2026 10:00 AM Pacific Time,2/24/2026,,tp
+learned,0001213900-26-005984,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001213900-26-005984,S-4/A,shareholder_vote_date,,2/24/2026,,fp_no_gt
+learned,0001213900-26-005984,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001140361-26-001852,PREM14A,expected_closing,second quarter of 2026,the second quarter of the calendar year 2026,,tp
+learned,0001213900-26-005901,425,expected_closing,second quarter of 2026,the second quarter of 2026,,tp
+learned,0001193125-26-019521,8-K,expected_closing,second half of calendar year 2026,the second half of calendar year 2026,,tp
+learned,0001193125-26-019700,PREM14A,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001193125-26-019700,PREM14A,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001193125-26-021084,SC 13E3/A,effective_date,1/23/2026,1/23/2026,,tp
+learned,0001829126-26-000475,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+learned,0001213900-26-007416,S-4/A,expected_closing,Promptly following the special meeting,the third quarter of 2025,,mismatch
+learned,0001104659-26-007023,S-4/A,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001104659-26-007023,S-4/A,expected_closing,first half of 2026,the first half of 2026,,tp
+learned,0001213900-26-008542,425,shareholder_vote_date,3/27/2025,,,fn_no_pred
+learned,0001193125-26-027199,425,expected_closing,first half of 2026,,,fn_no_pred
+learned,0001213900-26-008915,S-4,expected_closing,promptly following the Meeting,2026,,mismatch
+learned,0001213900-26-008915,S-4,expected_closing,promptly following the Meeting,2026,,mismatch
+learned,0001213900-26-008915,S-4,expected_closing,promptly following the Meeting,2026,,mismatch
+learned,0001213900-26-008915,S-4,expected_closing,promptly following the Meeting,2026,,mismatch
+learned,0001213900-26-008915,S-4,expected_closing,promptly following the Meeting,2026,,mismatch
+learned,0001213900-26-008915,S-4,expected_closing,promptly following the Meeting,2026,,mismatch
+learned,0001213900-26-008915,S-4,expected_closing,promptly following the Meeting,2026,,mismatch
+learned,0001213900-26-008915,S-4,expected_closing,promptly following the Meeting,2026,,mismatch
+learned,0001178913-26-000246,PREM14A,shareholder_vote_date,3/12/2026 10:00 AM Eastern Standard Time,3/12/2026,,tp
+learned,0001178913-26-000246,PREM14A,shareholder_vote_date,,3/12/2026,,fp_no_gt
+learned,0001178913-26-000246,PREM14A,effective_date,8/11/2023,,,fn_no_pred

@@ -1,0 +1,610 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+pipeline,0001437749-26-000391,DEFM14A,acquirer,"SPX Enterprises, LLC","SPX Enterprises, LLC",0.5642876625061035,tp
+pipeline,0001437749-26-000391,DEFM14A,target,Crawford United Corporation,Crawford United Corporation,0.7693542838096619,tp
+pipeline,0001437749-26-000391,DEFM14A,merger_subsidiary,"Project King Acquisition, Inc.","Project King Acquisition, Inc.",0.7245397567749023,tp
+pipeline,0001437749-26-000391,DEFM14A,security_description,Class A common capital stock and Class B common capital stock,Class B Common Stock,0.879965603351593,tp
+pipeline,0001437749-26-000391,DEFM14A,cash_consideration,$84.44 per share,$83.42,0.9091548323631287,mismatch
+pipeline,0001437749-26-000391,DEFM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001437749-26-000391,DEFM14A,shareholder_vote_date,2/3/2026 10:00 AM Eastern Time,"February 3, 2026",0.9093204736709595,tp
+pipeline,0001437749-26-000391,DEFM14A,expected_closing,As early as the first quarter of 2026,,,fn_no_pred
+oracle,0001437749-26-000391,DEFM14A,acquirer,"SPX Enterprises, LLC","SPX Enterprises, LLC",0.6072971820831299,tp
+oracle,0001437749-26-000391,DEFM14A,target,Crawford United Corporation,Crawford United Corporation,0.6948837637901306,tp
+oracle,0001437749-26-000391,DEFM14A,merger_subsidiary,"Project King Acquisition, Inc.",Merger Sub,0.5468067526817322,mismatch
+oracle,0001437749-26-000391,DEFM14A,security_description,Class A common capital stock and Class B common capital stock,common capital stock,0.6368073225021362,tp
+oracle,0001437749-26-000391,DEFM14A,cash_consideration,$84.44 per share,$84.44,0.9184384346008301,tp
+oracle,0001437749-26-000391,DEFM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001437749-26-000391,DEFM14A,shareholder_vote_date,2/3/2026 10:00 AM Eastern Time,"February 3, 2026",0.8408294916152954,tp
+oracle,0001437749-26-000391,DEFM14A,expected_closing,As early as the first quarter of 2026,first quarter of 2026,0.8826192021369934,tp
+pipeline,0001193125-26-003553,DEFM14A,acquirer,"Sonida Senior Living, Inc.",SSL Sparti Property Holdings Inc.,0.4933387041091919,mismatch
+pipeline,0001193125-26-003553,DEFM14A,target,"CNL Healthcare Properties, Inc.","CNL Healthcare Properties, Inc.",0.7555193305015564,tp
+pipeline,0001193125-26-003553,DEFM14A,merger_subsidiary,CHP Merger Corp. | SSL Sparti Property Holdings Inc.,CHP Merger Corp.,0.7787470817565918,tp
+pipeline,0001193125-26-003553,DEFM14A,security_description,common stock,Common Stock,0.941718578338623,tp
+pipeline,0001193125-26-003553,DEFM14A,cash_consideration,$2.32 per share,$2.32,0.8110784292221069,tp
+pipeline,0001193125-26-003553,DEFM14A,stock_exchange_ratio,$4.58 divided by Closing VWAP shares of SNDA Common Stock per share,one,0.7160810828208923,mismatch
+pipeline,0001193125-26-003553,DEFM14A,shareholder_vote_date,3/6/2026 10:00 AM Eastern Time,"December 30, 2025",0.794586718082428,mismatch
+pipeline,0001193125-26-003553,DEFM14A,expected_closing,first half of 2026,,,fn_no_pred
+oracle,0001193125-26-003553,DEFM14A,acquirer,"Sonida Senior Living, Inc.",SNDA,0.45413267612457275,mismatch
+oracle,0001193125-26-003553,DEFM14A,target,"CNL Healthcare Properties, Inc.","Sonida Senior Living, Inc.",0.7281969785690308,mismatch
+oracle,0001193125-26-003553,DEFM14A,merger_subsidiary,CHP Merger Corp. | SSL Sparti Property Holdings Inc.,SNDA Merger Sub,0.7959098219871521,mismatch
+oracle,0001193125-26-003553,DEFM14A,security_description,common stock,Common Stock,0.9443244934082031,tp
+oracle,0001193125-26-003553,DEFM14A,cash_consideration,$2.32 per share,$2.32,0.8828949928283691,tp
+oracle,0001193125-26-003553,DEFM14A,stock_exchange_ratio,$4.58 divided by Closing VWAP shares of SNDA Common Stock per share,0.1318,0.607298731803894,mismatch
+oracle,0001193125-26-003553,DEFM14A,shareholder_vote_date,3/6/2026 10:00 AM Eastern Time,"March 6, 2026",0.6385889053344727,tp
+oracle,0001193125-26-003553,DEFM14A,expected_closing,first half of 2026,first half of 2026,0.8948088884353638,tp
+pipeline,0001193125-26-010471,PREM14A,acquirer,"Sword Purchaser, LLC","Sword Purchaser, LLC",0.6139163970947266,tp
+pipeline,0001193125-26-010471,PREM14A,target,Sealed Air Corporation,Sealed Air,0.8436364531517029,tp
+pipeline,0001193125-26-010471,PREM14A,merger_subsidiary,"Sword Merger Sub, Inc.","Sword Merger Sub, Inc.",0.8935392498970032,tp
+pipeline,0001193125-26-010471,PREM14A,security_description,common stock,common stock,0.9106794595718384,tp
+pipeline,0001193125-26-010471,PREM14A,cash_consideration,$42.15 per share,$42.15,0.926302433013916,tp
+pipeline,0001193125-26-010471,PREM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001193125-26-010471,PREM14A,expected_closing,mid-2026,,,fn_no_pred
+oracle,0001193125-26-010471,PREM14A,acquirer,"Sword Purchaser, LLC","Sword Purchaser, LLC",0.6114292740821838,tp
+oracle,0001193125-26-010471,PREM14A,target,Sealed Air Corporation,Sealed Air,0.7335910797119141,tp
+oracle,0001193125-26-010471,PREM14A,merger_subsidiary,"Sword Merger Sub, Inc.","Sword Merger Sub, Inc.",0.8883022665977478,tp
+oracle,0001193125-26-010471,PREM14A,security_description,common stock,common stock,0.90768963098526,tp
+oracle,0001193125-26-010471,PREM14A,cash_consideration,$42.15 per share,$42.15,0.9297646284103394,tp
+oracle,0001193125-26-010471,PREM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001193125-26-010471,PREM14A,expected_closing,mid-2026,mid-2026,0.9162442088127136,tp
+pipeline,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,"Nasdaq Stock Market
+LLC",0.42735788226127625,mismatch
+pipeline,0001493152-26-002095,S-4,target,Willow Lane Acquisition Corp.,"Boost
+Run Inc.",0.7379398345947266,mismatch
+pipeline,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub II LLC,0.8427718281745911,mismatch
+pipeline,0001493152-26-002095,S-4,security_description,Class A ordinary shares,Class A Common Stock,0.891059398651123,mismatch
+pipeline,0001493152-26-002095,S-4,cash_consideration,,"$441,500,000",0.40295326709747314,fp_no_gt
+pipeline,0001493152-26-002095,S-4,stock_exchange_ratio,1 share of Pubco Class A Common Stock per share,,,fn_no_pred
+pipeline,0001493152-26-002095,S-4,shareholder_vote_date,3/3/2026,,,fn_no_pred
+pipeline,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting",,,fn_no_pred
+pipeline,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,"Nasdaq Stock Market
+LLC",0.42735788226127625,mismatch
+pipeline,0001493152-26-002095,S-4,target,Willow Lane Acquisition Corp.,"Boost
+Run Inc.",0.7379398345947266,mismatch
+pipeline,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub II LLC,0.8427718281745911,mismatch
+pipeline,0001493152-26-002095,S-4,security_description,Class B ordinary shares,Class A Common Stock,0.891059398651123,mismatch
+pipeline,0001493152-26-002095,S-4,cash_consideration,,"$441,500,000",0.40295326709747314,fp_no_gt
+pipeline,0001493152-26-002095,S-4,stock_exchange_ratio,1 share of Pubco Class A Common Stock per share,,,fn_no_pred
+pipeline,0001493152-26-002095,S-4,shareholder_vote_date,3/3/2026,,,fn_no_pred
+pipeline,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting",,,fn_no_pred
+pipeline,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,"Nasdaq Stock Market
+LLC",0.42735788226127625,mismatch
+pipeline,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC","Boost
+Run Inc.",0.7379398345947266,tp
+pipeline,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub II LLC,0.8427718281745911,tp
+pipeline,0001493152-26-002095,S-4,security_description,Class A Units,Class A Common Stock,0.891059398651123,mismatch
+pipeline,0001493152-26-002095,S-4,cash_consideration,,"$441,500,000",0.40295326709747314,fp_no_gt
+pipeline,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting",,,fn_no_pred
+pipeline,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,"Nasdaq Stock Market
+LLC",0.42735788226127625,mismatch
+pipeline,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC","Boost
+Run Inc.",0.7379398345947266,tp
+pipeline,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub II LLC,0.8427718281745911,tp
+pipeline,0001493152-26-002095,S-4,security_description,Class B Units,Class A Common Stock,0.891059398651123,mismatch
+pipeline,0001493152-26-002095,S-4,cash_consideration,,"$441,500,000",0.40295326709747314,fp_no_gt
+pipeline,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting",,,fn_no_pred
+pipeline,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,"Nasdaq Stock Market
+LLC",0.42735788226127625,mismatch
+pipeline,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC","Boost
+Run Inc.",0.7379398345947266,tp
+pipeline,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub II LLC,0.8427718281745911,tp
+pipeline,0001493152-26-002095,S-4,security_description,Class C Units,Class A Common Stock,0.891059398651123,mismatch
+pipeline,0001493152-26-002095,S-4,cash_consideration,,"$441,500,000",0.40295326709747314,fp_no_gt
+pipeline,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting",,,fn_no_pred
+oracle,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Willow Lane Acquisition Corp.,0.672520101070404,mismatch
+oracle,0001493152-26-002095,S-4,target,Willow Lane Acquisition Corp.,Boost Run Inc.,0.6819426417350769,mismatch
+oracle,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub II LLC,0.8378024101257324,mismatch
+oracle,0001493152-26-002095,S-4,security_description,Class A ordinary shares,Class A Common Stock,0.8830737471580505,mismatch
+oracle,0001493152-26-002095,S-4,cash_consideration,,"$8,500,000",0.6577122211456299,fp_no_gt
+oracle,0001493152-26-002095,S-4,stock_exchange_ratio,1 share of Pubco Class A Common Stock per share,one-for-one,0.8578011393547058,tp
+oracle,0001493152-26-002095,S-4,shareholder_vote_date,3/3/2026,"March 3, 2026",0.7922716736793518,tp
+oracle,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting","March 3, 2026",0.8226546049118042,tp
+oracle,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Willow Lane Acquisition Corp.,0.672520101070404,mismatch
+oracle,0001493152-26-002095,S-4,target,Willow Lane Acquisition Corp.,Boost Run Inc.,0.6819426417350769,mismatch
+oracle,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub II LLC,0.8378024101257324,mismatch
+oracle,0001493152-26-002095,S-4,security_description,Class B ordinary shares,Class A Common Stock,0.8830737471580505,mismatch
+oracle,0001493152-26-002095,S-4,cash_consideration,,"$8,500,000",0.6577122211456299,fp_no_gt
+oracle,0001493152-26-002095,S-4,stock_exchange_ratio,1 share of Pubco Class A Common Stock per share,one-for-one,0.8578011393547058,tp
+oracle,0001493152-26-002095,S-4,shareholder_vote_date,3/3/2026,"March 3, 2026",0.7922716736793518,tp
+oracle,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting","March 3, 2026",0.8226546049118042,tp
+oracle,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Willow Lane Acquisition Corp.,0.672520101070404,mismatch
+oracle,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC",Boost Run Inc.,0.6819426417350769,tp
+oracle,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub II LLC,0.8378024101257324,tp
+oracle,0001493152-26-002095,S-4,security_description,Class A Units,Class A Common Stock,0.8830737471580505,mismatch
+oracle,0001493152-26-002095,S-4,cash_consideration,,"$8,500,000",0.6577122211456299,fp_no_gt
+oracle,0001493152-26-002095,S-4,stock_exchange_ratio,,one-for-one,0.8578011393547058,fp_no_gt
+oracle,0001493152-26-002095,S-4,shareholder_vote_date,,"March 3, 2026",0.7922716736793518,fp_no_gt
+oracle,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting","March 3, 2026",0.8226546049118042,tp
+oracle,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Willow Lane Acquisition Corp.,0.672520101070404,mismatch
+oracle,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC",Boost Run Inc.,0.6819426417350769,tp
+oracle,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub II LLC,0.8378024101257324,tp
+oracle,0001493152-26-002095,S-4,security_description,Class B Units,Class A Common Stock,0.8830737471580505,mismatch
+oracle,0001493152-26-002095,S-4,cash_consideration,,"$8,500,000",0.6577122211456299,fp_no_gt
+oracle,0001493152-26-002095,S-4,stock_exchange_ratio,,one-for-one,0.8578011393547058,fp_no_gt
+oracle,0001493152-26-002095,S-4,shareholder_vote_date,,"March 3, 2026",0.7922716736793518,fp_no_gt
+oracle,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting","March 3, 2026",0.8226546049118042,tp
+oracle,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Willow Lane Acquisition Corp.,0.672520101070404,mismatch
+oracle,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC",Boost Run Inc.,0.6819426417350769,tp
+oracle,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub II LLC,0.8378024101257324,tp
+oracle,0001493152-26-002095,S-4,security_description,Class C Units,Class A Common Stock,0.8830737471580505,mismatch
+oracle,0001493152-26-002095,S-4,cash_consideration,,"$8,500,000",0.6577122211456299,fp_no_gt
+oracle,0001493152-26-002095,S-4,stock_exchange_ratio,,one-for-one,0.8578011393547058,fp_no_gt
+oracle,0001493152-26-002095,S-4,shareholder_vote_date,,"March 3, 2026",0.7922716736793518,fp_no_gt
+oracle,0001493152-26-002095,S-4,expected_closing,"promptly following the March 3, 2026 meeting","March 3, 2026",0.8226546049118042,tp
+pipeline,0001193125-26-012952,DEFM14A,acquirer,Ryerson Holding Corporation,Ryerson,0.47806572914123535,tp
+pipeline,0001193125-26-012952,DEFM14A,target,"Olympic Steel, Inc.",Olympic Steel,0.789768636226654,tp
+pipeline,0001193125-26-012952,DEFM14A,merger_subsidiary,Crimson MS Corp.,Crimson MS Corp.,0.7768564820289612,tp
+pipeline,0001193125-26-012952,DEFM14A,security_description,"common stock, without par value",Common Stock,0.9279639720916748,tp
+pipeline,0001193125-26-012952,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+pipeline,0001193125-26-012952,DEFM14A,stock_exchange_ratio,1.7105 shares of Ryerson common stock per share,1.7105,0.8631572723388672,tp
+pipeline,0001193125-26-012952,DEFM14A,shareholder_vote_date,2/12/2026 9:30 AM Eastern Time,"February 12, 2026",0.785652220249176,tp
+pipeline,0001193125-26-012952,DEFM14A,effective_date,,"October 28, 2025",0.6769682168960571,fp_no_gt
+pipeline,0001193125-26-012952,DEFM14A,expected_closing,first quarter of 2026,,,fn_no_pred
+oracle,0001193125-26-012952,DEFM14A,acquirer,Ryerson Holding Corporation,Ryerson Holding Corporation,0.6116394996643066,tp
+oracle,0001193125-26-012952,DEFM14A,target,"Olympic Steel, Inc.",Olympic Steel,0.801277220249176,tp
+oracle,0001193125-26-012952,DEFM14A,merger_subsidiary,Crimson MS Corp.,Crimson MS Corp.,0.8601046800613403,tp
+oracle,0001193125-26-012952,DEFM14A,security_description,"common stock, without par value",common stock,0.9314320087432861,tp
+oracle,0001193125-26-012952,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+oracle,0001193125-26-012952,DEFM14A,stock_exchange_ratio,1.7105 shares of Ryerson common stock per share,1.7105,0.8507503867149353,tp
+oracle,0001193125-26-012952,DEFM14A,shareholder_vote_date,2/12/2026 9:30 AM Eastern Time,"February 12, 2026",0.6278495192527771,tp
+oracle,0001193125-26-012952,DEFM14A,expected_closing,first quarter of 2026,"first quarter of
+2026",0.9487082958221436,tp
+pipeline,0001185185-26-000166,S-4,acquirer,RYVYL Inc.,,,fn_no_pred
+pipeline,0001185185-26-000166,S-4,target,"RTB Digital, Inc.",RYVYL Inc.,0.698948860168457,mismatch
+pipeline,0001185185-26-000166,S-4,merger_subsidiary,RYVYL Merger Sub Inc.,,,fn_no_pred
+pipeline,0001185185-26-000166,S-4,security_description,Common stock,common stock,0.9082708358764648,tp
+pipeline,0001185185-26-000166,S-4,cash_consideration,No cash consideration,$3.0 Million,0.6493982076644897,absence_value
+pipeline,0001185185-26-000166,S-4,stock_exchange_ratio,Exchange Ratio = (Fully Diluted Parent Common Stock × Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share,,,fn_no_pred
+pipeline,0001185185-26-000166,S-4,expected_closing,first quarter of 2026,,,fn_no_pred
+oracle,0001185185-26-000166,S-4,acquirer,RYVYL Inc.,RYVYL,0.4743330180644989,tp
+oracle,0001185185-26-000166,S-4,target,"RTB Digital, Inc.","RYVYL, Inc.",0.6948750019073486,mismatch
+oracle,0001185185-26-000166,S-4,merger_subsidiary,RYVYL Merger Sub Inc.,RYVYL Merger Sub Inc.,0.8962745070457458,tp
+oracle,0001185185-26-000166,S-4,security_description,Common stock,common stock,0.9329180717468262,tp
+oracle,0001185185-26-000166,S-4,cash_consideration,No cash consideration,,,absence_value
+oracle,0001185185-26-000166,S-4,stock_exchange_ratio,Exchange Ratio = (Fully Diluted Parent Common Stock × Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share,,,fn_no_pred
+oracle,0001185185-26-000166,S-4,expected_closing,first quarter of 2026,first quarter of 2026,0.9172091484069824,tp
+pipeline,0001104659-26-004251,S-4,acquirer,AKOM Inc.,AERKOMM Inc.,0.5691648125648499,mismatch
+pipeline,0001104659-26-004251,S-4,target,AERKOMM Inc.,IX Acquisition Corp.,0.7073436975479126,mismatch
+pipeline,0001104659-26-004251,S-4,merger_subsidiary,"AKOM Merger Sub, Inc.","AKOM Meger Sub, Inc.",0.5556970834732056,mismatch
+pipeline,0001104659-26-004251,S-4,security_description,Common Stock,Common Stock,0.9170539379119873,tp
+pipeline,0001104659-26-004251,S-4,cash_consideration,,$200.0 million,0.7406143546104431,fp_no_gt
+pipeline,0001104659-26-004251,S-4,stock_exchange_ratio,Conversion Ratio shares of AKOM Pubco Common Stock per share,one,0.8552194237709045,mismatch
+pipeline,0001104659-26-004251,S-4,expected_closing,second or third quarter of 2026,,,fn_no_pred
+oracle,0001104659-26-004251,S-4,acquirer,AKOM Inc.,AKOM Pubco,0.4830904006958008,tp
+oracle,0001104659-26-004251,S-4,target,AERKOMM Inc.,AERKOMM Inc.,0.6552821397781372,tp
+oracle,0001104659-26-004251,S-4,merger_subsidiary,"AKOM Merger Sub, Inc.","AKOM Merger Sub, Inc.",0.8744421005249023,tp
+oracle,0001104659-26-004251,S-4,security_description,Common Stock,Common Stock,0.9057090878486633,tp
+oracle,0001104659-26-004251,S-4,cash_consideration,,US$11.50,0.8300001621246338,fp_no_gt
+oracle,0001104659-26-004251,S-4,stock_exchange_ratio,Conversion Ratio shares of AKOM Pubco Common Stock per share,Conversion Ratio,0.4987926483154297,mismatch
+oracle,0001104659-26-004251,S-4,expected_closing,second or third quarter of 2026,second or third quarter of 2026,0.7851818203926086,tp
+pipeline,0001193125-26-016598,S-4/A,acquirer,GigCapital7 Corp.,,,fn_no_pred
+pipeline,0001193125-26-016598,S-4/A,target,"Hadron Energy, Inc.",Hadron Energy,0.8043443560600281,tp
+pipeline,0001193125-26-016598,S-4/A,merger_subsidiary,"MMR Merger Sub, Inc.",,,fn_no_pred
+pipeline,0001193125-26-016598,S-4/A,security_description,common stock,Common Stock,0.901785671710968,tp
+pipeline,0001193125-26-016598,S-4/A,stock_exchange_ratio,Exchange Ratio shares of Domesticated GigCapital7 Common Stock per share,one-for-one,0.7873781323432922,mismatch
+pipeline,0001193125-26-016598,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+oracle,0001193125-26-016598,S-4/A,acquirer,GigCapital7 Corp.,GigCapital7,0.5015051364898682,tp
+oracle,0001193125-26-016598,S-4/A,target,"Hadron Energy, Inc.",Hadron Energy,0.7940349578857422,tp
+oracle,0001193125-26-016598,S-4/A,merger_subsidiary,"MMR Merger Sub, Inc.","MMR Merger Sub, Inc.",0.8813324570655823,tp
+oracle,0001193125-26-016598,S-4/A,security_description,common stock,Common Stock,0.9386776089668274,tp
+oracle,0001193125-26-016598,S-4/A,cash_consideration,,$10.59,0.6358078718185425,fp_no_gt
+oracle,0001193125-26-016598,S-4/A,stock_exchange_ratio,Exchange Ratio shares of Domesticated GigCapital7 Common Stock per share,Exchange Ratio,0.7273806929588318,mismatch
+oracle,0001193125-26-016598,S-4/A,expected_closing,first quarter of 2026,first quarter of 2026,0.9196301698684692,tp
+pipeline,0001193125-26-016684,SC 13E3/A,acquirer,VICI Properties Inc.,,,fn_no_pred
+pipeline,0001193125-26-016684,SC 13E3/A,target,,"GOLDEN ENTERTAINMENT, INC.",0.7259061932563782,fp_no_gt
+pipeline,0001193125-26-016684,SC 13E3/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,PropCo Merger Sub,0.6765686273574829,mismatch
+pipeline,0001193125-26-016684,SC 13E3/A,security_description,"common stock, par value $0.01 per share",common stock,0.8165423274040222,tp
+pipeline,0001193125-26-016684,SC 13E3/A,cash_consideration,$2.75 per share,$2.75,0.7977206110954285,tp
+pipeline,0001193125-26-016684,SC 13E3/A,stock_exchange_ratio,0.902 shares of VICI Properties Inc. common stock per share,0.902,0.9030916690826416,tp
+oracle,0001193125-26-016684,SC 13E3/A,acquirer,VICI Properties Inc.,,,fn_no_pred
+oracle,0001193125-26-016684,SC 13E3/A,target,,VICI Properties Inc.,0.7679429054260254,fp_no_gt
+oracle,0001193125-26-016684,SC 13E3/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,VICI ROYAL MERGER SUB LLC,0.907795250415802,tp
+oracle,0001193125-26-016684,SC 13E3/A,security_description,"common stock, par value $0.01 per share",common stock,0.7482426166534424,tp
+oracle,0001193125-26-016684,SC 13E3/A,cash_consideration,$2.75 per share,$2.75,0.7849833369255066,tp
+oracle,0001193125-26-016684,SC 13E3/A,stock_exchange_ratio,0.902 shares of VICI Properties Inc. common stock per share,0.902,0.8788539171218872,tp
+pipeline,0001140361-26-003049,DEFM14A,acquirer,"Bed Bath & Beyond, Inc.",,,fn_no_pred
+pipeline,0001140361-26-003049,DEFM14A,target,"The Brand House Collective, Inc.","The Brand House Collective, Inc.",0.8149182796478271,tp
+pipeline,0001140361-26-003049,DEFM14A,merger_subsidiary,"Knight Merger Sub II, Inc.","Knight Merger Sub II, Inc.",0.9104195833206177,tp
+pipeline,0001140361-26-003049,DEFM14A,security_description,common stock,Common Stock,0.9249057769775391,tp
+pipeline,0001140361-26-003049,DEFM14A,stock_exchange_ratio,"0.1993 shares of Bed Bath & Beyond, Inc. common stock per share",0.1993,0.8677393198013306,tp
+pipeline,0001140361-26-003049,DEFM14A,shareholder_vote_date,3/17/2026 9:00 AM Central Time,"March 17, 2026",0.8172758221626282,tp
+pipeline,0001140361-26-003049,DEFM14A,effective_date,,"November 24, 2025",0.5109441876411438,fp_no_gt
+pipeline,0001140361-26-003049,DEFM14A,expected_closing,first quarter of 2026,first quarter of 2026,0.9248043298721313,tp
+oracle,0001140361-26-003049,DEFM14A,acquirer,"Bed Bath & Beyond, Inc.",,,fn_no_pred
+oracle,0001140361-26-003049,DEFM14A,target,"The Brand House Collective, Inc.","Bed Bath & Beyond, Inc.",0.7901278734207153,mismatch
+oracle,0001140361-26-003049,DEFM14A,merger_subsidiary,"Knight Merger Sub II, Inc.","Knight Merger Sub II, Inc.",0.9054037928581238,tp
+oracle,0001140361-26-003049,DEFM14A,security_description,common stock,Common Stock,0.9380530714988708,tp
+oracle,0001140361-26-003049,DEFM14A,cash_consideration,,cash,0.4076104760169983,fp_no_gt
+oracle,0001140361-26-003049,DEFM14A,stock_exchange_ratio,"0.1993 shares of Bed Bath & Beyond, Inc. common stock per share",0.1993,0.8745825290679932,tp
+oracle,0001140361-26-003049,DEFM14A,shareholder_vote_date,3/17/2026 9:00 AM Central Time,"January 20, 2026",0.9027435183525085,mismatch
+oracle,0001140361-26-003049,DEFM14A,expected_closing,first quarter of 2026,first quarter of 2026,0.9197242259979248,tp
+pipeline,0001539497-26-000230,PREM14A,target,,"BioAtla, Inc.",0.7754654288291931,fp_no_gt
+pipeline,0001539497-26-000230,PREM14A,merger_subsidiary,"BA Merger Sub, Inc.","BA Merger Sub, Inc.",0.8802156448364258,tp
+pipeline,0001539497-26-000230,PREM14A,security_description,common stock,Common Stock,0.8684762716293335,tp
+pipeline,0001539497-26-000230,PREM14A,stock_exchange_ratio,0.02 shares of surviving corporation common stock per share,one,0.6423287391662598,mismatch
+oracle,0001539497-26-000230,PREM14A,target,,"BioAtla, Inc.",0.7832109928131104,fp_no_gt
+oracle,0001539497-26-000230,PREM14A,merger_subsidiary,"BA Merger Sub, Inc.","BA Merger Sub, Inc.",0.8966317772865295,tp
+oracle,0001539497-26-000230,PREM14A,security_description,common stock,common stock,0.8944867849349976,tp
+oracle,0001539497-26-000230,PREM14A,stock_exchange_ratio,0.02 shares of surviving corporation common stock per share,one,0.7154101133346558,mismatch
+pipeline,0001437749-26-002544,PREM14A,acquirer,"Laird Superfood, Inc.",NYSE American,0.49155452847480774,mismatch
+pipeline,0001437749-26-002544,PREM14A,target,Navitas LLC,"LAIRD SUPERFOOD, INC.",0.7485105395317078,mismatch
+pipeline,0001437749-26-002544,PREM14A,security_description,Class B Units | Class D Units,Common Stock,0.8607690930366516,mismatch
+pipeline,0001437749-26-002544,PREM14A,cash_consideration,,$50.0 million,0.7537538409233093,fp_no_gt
+pipeline,0001437749-26-002544,PREM14A,expected_closing,first quarter of 2026,,,fn_no_pred
+pipeline,0001437749-26-002544,PREM14A,acquirer,"Laird Superfood, Inc.",NYSE American,0.49155452847480774,mismatch
+pipeline,0001437749-26-002544,PREM14A,target,Global Superfoods Corp.,"LAIRD SUPERFOOD, INC.",0.7485105395317078,mismatch
+pipeline,0001437749-26-002544,PREM14A,security_description,capital stock,Common Stock,0.8607690930366516,tp
+pipeline,0001437749-26-002544,PREM14A,cash_consideration,,$50.0 million,0.7537538409233093,fp_no_gt
+pipeline,0001437749-26-002544,PREM14A,expected_closing,first quarter of 2026,,,fn_no_pred
+oracle,0001437749-26-002544,PREM14A,acquirer,"Laird Superfood, Inc.",Advantage Capital,0.5562622547149658,mismatch
+oracle,0001437749-26-002544,PREM14A,target,Navitas LLC,"Laird Superfood, Inc.",0.7777127027511597,mismatch
+oracle,0001437749-26-002544,PREM14A,security_description,Class B Units | Class D Units,Class D Units,0.8502354025840759,tp
+oracle,0001437749-26-002544,PREM14A,cash_consideration,,$38.5 million,0.5926610827445984,fp_no_gt
+oracle,0001437749-26-002544,PREM14A,stock_exchange_ratio,,1.00,0.638339102268219,fp_no_gt
+oracle,0001437749-26-002544,PREM14A,expected_closing,first quarter of 2026,first quarter of 2026,0.9022300839424133,tp
+oracle,0001437749-26-002544,PREM14A,acquirer,"Laird Superfood, Inc.",Advantage Capital,0.5562622547149658,mismatch
+oracle,0001437749-26-002544,PREM14A,target,Global Superfoods Corp.,"Laird Superfood, Inc.",0.7777127027511597,mismatch
+oracle,0001437749-26-002544,PREM14A,security_description,capital stock,Class D Units,0.8502354025840759,mismatch
+oracle,0001437749-26-002544,PREM14A,cash_consideration,,$38.5 million,0.5926610827445984,fp_no_gt
+oracle,0001437749-26-002544,PREM14A,stock_exchange_ratio,,1.00,0.638339102268219,fp_no_gt
+oracle,0001437749-26-002544,PREM14A,expected_closing,first quarter of 2026,first quarter of 2026,0.9022300839424133,tp
+pipeline,0001628280-26-006094,8-K,acquirer,"GigCapital5, Inc.",GigCapital5,0.4688120186328888,tp
+pipeline,0001628280-26-006094,8-K,target,"QT Imaging, Inc.","QT Imaging, Inc.",0.7334722876548767,tp
+pipeline,0001628280-26-006094,8-K,merger_subsidiary,"QTI Merger Sub, Inc.","QTI Merger Sub, Inc.",0.8053314089775085,tp
+pipeline,0001628280-26-006094,8-K,security_description,common stock,common stock were combined and reconstituted into one share of common stock,0.90069580078125,mismatch
+pipeline,0001628280-26-006094,8-K,cash_consideration,,"$999,998",0.7413229942321777,fp_no_gt
+pipeline,0001628280-26-006094,8-K,stock_exchange_ratio,"0.3427 shares of QT Imaging Holdings, Inc. common stock per share",3:1,0.879128098487854,mismatch
+pipeline,0001628280-26-006094,8-K,shareholder_vote_date,2/20/2024,,,fn_no_pred
+pipeline,0001628280-26-006094,8-K,effective_date,3/4/2024,"March 4, 2024",0.6406322717666626,tp
+oracle,0001628280-26-006094,8-K,acquirer,"GigCapital5, Inc.",GigCapital5,0.5275480151176453,tp
+oracle,0001628280-26-006094,8-K,target,"QT Imaging, Inc.","QT Imaging, Inc.",0.7541548013687134,tp
+oracle,0001628280-26-006094,8-K,merger_subsidiary,"QTI Merger Sub, Inc.","QTI Merger Sub, Inc.",0.8311764001846313,tp
+oracle,0001628280-26-006094,8-K,security_description,common stock,common stock,0.8848576545715332,tp
+oracle,0001628280-26-006094,8-K,stock_exchange_ratio,"0.3427 shares of QT Imaging Holdings, Inc. common stock per share",3:1,0.7407706379890442,mismatch
+oracle,0001628280-26-006094,8-K,shareholder_vote_date,2/20/2024,"August 19, 2025",0.6407668590545654,mismatch
+oracle,0001628280-26-006094,8-K,effective_date,3/4/2024,"March 4, 2024",0.5494567155838013,tp
+pipeline,0001829126-26-001208,425,target,,Einride AB,0.6209909915924072,fp_no_gt
+pipeline,0001829126-26-001208,425,merger_subsidiary,,Legato Merger Corp. III,0.6516256332397461,fp_no_gt
+pipeline,0001829126-26-001208,425,expected_closing,first half of 2026,first half of 2026,0.9531406760215759,tp
+oracle,0001829126-26-001208,425,target,,Einride,0.5390356183052063,fp_no_gt
+oracle,0001829126-26-001208,425,shareholder_vote_date,,"November 12, 2025",0.5930258631706238,fp_no_gt
+oracle,0001829126-26-001208,425,expected_closing,first half of 2026,first half of 2026,0.9510341286659241,tp
+pipeline,0001493152-26-007487,DEFM14A,acquirer,"Telomir Pharmaceuticals, Inc.",,,fn_no_pred
+pipeline,0001493152-26-007487,DEFM14A,target,"TELI Pharmaceuticals, Inc.","TELI PHARMACEUTICALS, INC.",0.6940436363220215,tp
+pipeline,0001493152-26-007487,DEFM14A,merger_subsidiary,"TELIPHARM Acquisition, Inc.",,,fn_no_pred
+pipeline,0001493152-26-007487,DEFM14A,security_description,TELI Common Stock,Common Stock,0.9185407161712646,tp
+pipeline,0001493152-26-007487,DEFM14A,stock_exchange_ratio,"Exchange Ratio based on relative company valuations, in shares of Telomir Common Stock per share",1,0.5978101491928101,mismatch
+pipeline,0001493152-26-007487,DEFM14A,shareholder_vote_date,3/23/2026 10:00 AM Eastern Time,,,fn_no_pred
+pipeline,0001493152-26-007487,DEFM14A,expected_closing,"First quarter of 2026, soon after the annual meeting",,,fn_no_pred
+oracle,0001493152-26-007487,DEFM14A,acquirer,"Telomir Pharmaceuticals, Inc.",,,fn_no_pred
+oracle,0001493152-26-007487,DEFM14A,target,"TELI Pharmaceuticals, Inc.","TELI Pharmaceuticals, Inc.",0.6407744884490967,tp
+oracle,0001493152-26-007487,DEFM14A,merger_subsidiary,"TELIPHARM Acquisition, Inc.","TELIPHARM Acquisition, Inc.",0.7933889031410217,tp
+oracle,0001493152-26-007487,DEFM14A,security_description,TELI Common Stock,Common Stock,0.9400915503501892,tp
+oracle,0001493152-26-007487,DEFM14A,cash_consideration,,"$1,000,000",0.4832484722137451,fp_no_gt
+oracle,0001493152-26-007487,DEFM14A,stock_exchange_ratio,"Exchange Ratio based on relative company valuations, in shares of Telomir Common Stock per share",exact Exchange Ratio,0.44033125042915344,mismatch
+oracle,0001493152-26-007487,DEFM14A,shareholder_vote_date,3/23/2026 10:00 AM Eastern Time,"March 23, 2026",0.5606317520141602,tp
+oracle,0001493152-26-007487,DEFM14A,expected_closing,"First quarter of 2026, soon after the annual meeting",first quarter of 2026,0.7733920216560364,tp
+pipeline,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,Btab,0.45648059248924255,mismatch
+pipeline,0001104659-26-017281,8-K,target,Integrated Wellness Acquisition Corp,Integrated Wellness Acquisition Corp.,0.7468153834342957,tp
+pipeline,0001104659-26-017281,8-K,merger_subsidiary,IWAC Purchaser Merger Sub II Inc.,"Company
+Merger Sub",0.6281683444976807,mismatch
+pipeline,0001104659-26-017281,8-K,security_description,,Class A Shares,0.8009123206138611,fp_no_gt
+pipeline,0001104659-26-017281,8-K,shareholder_vote_date,,"December 12, 2025",0.7197441458702087,fp_no_gt
+pipeline,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,Btab,0.45648059248924255,mismatch
+pipeline,0001104659-26-017281,8-K,target,"Btab Ecommerce Group, Inc.",Integrated Wellness Acquisition Corp.,0.7468153834342957,mismatch
+pipeline,0001104659-26-017281,8-K,merger_subsidiary,"IWAC Company Merger, Sub Inc.","Company
+Merger Sub",0.6281683444976807,mismatch
+pipeline,0001104659-26-017281,8-K,security_description,Class A Common Share,Class A Shares,0.8009123206138611,mismatch
+pipeline,0001104659-26-017281,8-K,shareholder_vote_date,,"December 12, 2025",0.7197441458702087,fp_no_gt
+pipeline,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,Btab,0.45648059248924255,mismatch
+pipeline,0001104659-26-017281,8-K,target,"Btab Ecommerce Group, Inc.",Integrated Wellness Acquisition Corp.,0.7468153834342957,mismatch
+pipeline,0001104659-26-017281,8-K,merger_subsidiary,"IWAC Company Merger, Sub Inc.","Company
+Merger Sub",0.6281683444976807,mismatch
+pipeline,0001104659-26-017281,8-K,security_description,Class V Common Share,Class A Shares,0.8009123206138611,mismatch
+pipeline,0001104659-26-017281,8-K,shareholder_vote_date,,"December 12, 2025",0.7197441458702087,fp_no_gt
+oracle,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,Pubco,0.4959662854671478,mismatch
+oracle,0001104659-26-017281,8-K,target,Integrated Wellness Acquisition Corp,"Btab Ecommerce Group, Inc.",0.709028959274292,mismatch
+oracle,0001104659-26-017281,8-K,merger_subsidiary,IWAC Purchaser Merger Sub II Inc.,IWAC Holding Company Inc.,0.7199705243110657,mismatch
+oracle,0001104659-26-017281,8-K,security_description,,Class A Shares,0.6915568709373474,fp_no_gt
+oracle,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,Pubco,0.4959662854671478,mismatch
+oracle,0001104659-26-017281,8-K,target,"Btab Ecommerce Group, Inc.","Btab Ecommerce Group, Inc.",0.709028959274292,tp
+oracle,0001104659-26-017281,8-K,merger_subsidiary,"IWAC Company Merger, Sub Inc.",IWAC Holding Company Inc.,0.7199705243110657,mismatch
+oracle,0001104659-26-017281,8-K,security_description,Class A Common Share,Class A Shares,0.6915568709373474,mismatch
+oracle,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,Pubco,0.4959662854671478,mismatch
+oracle,0001104659-26-017281,8-K,target,"Btab Ecommerce Group, Inc.","Btab Ecommerce Group, Inc.",0.709028959274292,tp
+oracle,0001104659-26-017281,8-K,merger_subsidiary,"IWAC Company Merger, Sub Inc.",IWAC Holding Company Inc.,0.7199705243110657,mismatch
+oracle,0001104659-26-017281,8-K,security_description,Class V Common Share,Class A Shares,0.6915568709373474,mismatch
+pipeline,0001104659-26-020983,425,acquirer,TL Topco PLC,Roman DBDR Acquisition Corp. II,0.6920148134231567,mismatch
+pipeline,0001104659-26-020983,425,target,ThomasLloyd Climate Solutions B.V.,The Nasdaq Stock Market LLC,0.6265202164649963,mismatch
+pipeline,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,"ThomasLloyd Climate Solutions Merger
+Sub",0.851787805557251,tp
+pipeline,0001104659-26-020983,425,security_description,ordinary shares,Class A ordinary shares,0.7960567474365234,tp
+pipeline,0001104659-26-020983,425,stock_exchange_ratio,Share Exchange Aggregate Consideration divided by Aggregate Company Shares in PubCo Class A and/or Class B ordinary shares per share,one,0.8213953971862793,mismatch
+pipeline,0001104659-26-020983,425,expected_closing,third quarter of 2026,third quarter of 2026,0.5092206597328186,tp
+pipeline,0001104659-26-020983,425,acquirer,TL Topco PLC,Roman DBDR Acquisition Corp. II,0.6920148134231567,mismatch
+pipeline,0001104659-26-020983,425,target,Roman DBDR Acquisition Corp. II,The Nasdaq Stock Market LLC,0.6265202164649963,mismatch
+pipeline,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,"ThomasLloyd Climate Solutions Merger
+Sub",0.851787805557251,tp
+pipeline,0001104659-26-020983,425,security_description,Class A ordinary shares,Class A ordinary shares,0.7960567474365234,tp
+pipeline,0001104659-26-020983,425,stock_exchange_ratio,1 PubCo Class A ordinary share per share,one,0.8213953971862793,tp
+pipeline,0001104659-26-020983,425,expected_closing,third quarter of 2026,third quarter of 2026,0.5092206597328186,tp
+pipeline,0001104659-26-020983,425,acquirer,TL Topco PLC,Roman DBDR Acquisition Corp. II,0.6920148134231567,mismatch
+pipeline,0001104659-26-020983,425,target,Roman DBDR Acquisition Corp. II,The Nasdaq Stock Market LLC,0.6265202164649963,mismatch
+pipeline,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,"ThomasLloyd Climate Solutions Merger
+Sub",0.851787805557251,tp
+pipeline,0001104659-26-020983,425,security_description,Class B ordinary shares,Class A ordinary shares,0.7960567474365234,tp
+pipeline,0001104659-26-020983,425,stock_exchange_ratio,1 PubCo Class A ordinary share per share,one,0.8213953971862793,tp
+pipeline,0001104659-26-020983,425,expected_closing,third quarter of 2026,third quarter of 2026,0.5092206597328186,tp
+oracle,0001104659-26-020983,425,acquirer,TL Topco PLC,Roman DBDR Acquisition Corp. II,0.5377212166786194,mismatch
+oracle,0001104659-26-020983,425,target,ThomasLloyd Climate Solutions B.V.,TL Topco PLC,0.6303658485412598,mismatch
+oracle,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,ThomasLloyd Climate Solutions Merger Sub,0.8159350752830505,tp
+oracle,0001104659-26-020983,425,security_description,ordinary shares,Class A ordinary shares,0.846752941608429,tp
+oracle,0001104659-26-020983,425,cash_consideration,,EUR 1.00,0.5848628282546997,fp_no_gt
+oracle,0001104659-26-020983,425,stock_exchange_ratio,Share Exchange Aggregate Consideration divided by Aggregate Company Shares in PubCo Class A and/or Class B ordinary shares per share,one,0.7891306281089783,mismatch
+oracle,0001104659-26-020983,425,expected_closing,third quarter of 2026,third quarter of 2026,0.9065122008323669,tp
+oracle,0001104659-26-020983,425,acquirer,TL Topco PLC,Roman DBDR Acquisition Corp. II,0.5377212166786194,mismatch
+oracle,0001104659-26-020983,425,target,Roman DBDR Acquisition Corp. II,TL Topco PLC,0.6303658485412598,mismatch
+oracle,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,ThomasLloyd Climate Solutions Merger Sub,0.8159350752830505,tp
+oracle,0001104659-26-020983,425,security_description,Class A ordinary shares,Class A ordinary shares,0.846752941608429,tp
+oracle,0001104659-26-020983,425,cash_consideration,,EUR 1.00,0.5848628282546997,fp_no_gt
+oracle,0001104659-26-020983,425,stock_exchange_ratio,1 PubCo Class A ordinary share per share,one,0.7891306281089783,tp
+oracle,0001104659-26-020983,425,expected_closing,third quarter of 2026,third quarter of 2026,0.9065122008323669,tp
+oracle,0001104659-26-020983,425,acquirer,TL Topco PLC,Roman DBDR Acquisition Corp. II,0.5377212166786194,mismatch
+oracle,0001104659-26-020983,425,target,Roman DBDR Acquisition Corp. II,TL Topco PLC,0.6303658485412598,mismatch
+oracle,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,ThomasLloyd Climate Solutions Merger Sub,0.8159350752830505,tp
+oracle,0001104659-26-020983,425,security_description,Class B ordinary shares,Class A ordinary shares,0.846752941608429,tp
+oracle,0001104659-26-020983,425,cash_consideration,,EUR 1.00,0.5848628282546997,fp_no_gt
+oracle,0001104659-26-020983,425,stock_exchange_ratio,1 PubCo Class A ordinary share per share,one,0.7891306281089783,tp
+oracle,0001104659-26-020983,425,expected_closing,third quarter of 2026,third quarter of 2026,0.9065122008323669,tp
+pipeline,0001213900-26-022404,8-K,acquirer,Keen Vision Acquisition Corporation,"KEEN VISION ACQUISITION
+CORPORATION",0.5770407319068909,tp
+pipeline,0001213900-26-022404,8-K,target,Novoheart Group Limited,"KEEN
+VISION ACQUISITION CORPORATION",0.6866455078125,mismatch
+pipeline,0001213900-26-022404,8-K,merger_subsidiary,,Novoheart Group Limited,0.7080029845237732,fp_no_gt
+pipeline,0001213900-26-022404,8-K,expected_closing,,nine months,0.42534592747688293,fp_no_gt
+pipeline,0001213900-26-022404,8-K,acquirer,Keen Vision Acquisition Corporation,"KEEN VISION ACQUISITION
+CORPORATION",0.5770407319068909,tp
+pipeline,0001213900-26-022404,8-K,target,Medera Inc.,"KEEN
+VISION ACQUISITION CORPORATION",0.6866455078125,mismatch
+pipeline,0001213900-26-022404,8-K,merger_subsidiary,,Novoheart Group Limited,0.7080029845237732,fp_no_gt
+pipeline,0001213900-26-022404,8-K,expected_closing,,nine months,0.42534592747688293,fp_no_gt
+oracle,0001213900-26-022404,8-K,acquirer,Keen Vision Acquisition Corporation,Keen Vision Acquisition Corporation,0.6779301762580872,tp
+oracle,0001213900-26-022404,8-K,target,Novoheart Group Limited,Medera Inc.,0.7569054961204529,mismatch
+oracle,0001213900-26-022404,8-K,merger_subsidiary,,Novoheart Group Limited,0.814149022102356,fp_no_gt
+oracle,0001213900-26-022404,8-K,effective_date,,"February 26, 2026",0.4750376343727112,fp_no_gt
+oracle,0001213900-26-022404,8-K,expected_closing,,"April 10, 2026",0.7035747766494751,fp_no_gt
+oracle,0001213900-26-022404,8-K,acquirer,Keen Vision Acquisition Corporation,Keen Vision Acquisition Corporation,0.6779301762580872,tp
+oracle,0001213900-26-022404,8-K,target,Medera Inc.,Medera Inc.,0.7569054961204529,tp
+oracle,0001213900-26-022404,8-K,merger_subsidiary,,Novoheart Group Limited,0.814149022102356,fp_no_gt
+oracle,0001213900-26-022404,8-K,effective_date,,"February 26, 2026",0.4750376343727112,fp_no_gt
+oracle,0001213900-26-022404,8-K,expected_closing,,"April 10, 2026",0.7035747766494751,fp_no_gt
+pipeline,0001104659-26-023474,S-4/A,acquirer,VICI Properties Inc.,,,fn_no_pred
+pipeline,0001104659-26-023474,S-4/A,target,"Golden Entertainment, Inc.",VICI PROPERTIES INC.,0.7296486496925354,mismatch
+pipeline,0001104659-26-023474,S-4/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,PropCo Merger Sub,0.7481999397277832,mismatch
+pipeline,0001104659-26-023474,S-4/A,security_description,"common stock, par value $0.01 per share",Common Stock,0.9167929887771606,tp
+pipeline,0001104659-26-023474,S-4/A,stock_exchange_ratio,0.902 shares of VICI Common Stock per share,0.902,0.8233830332756042,tp
+pipeline,0001104659-26-023474,S-4/A,shareholder_vote_date,3/31/2026 2:00 PM Pacific Time,"March 31, 2026",0.8761270642280579,tp
+pipeline,0001104659-26-023474,S-4/A,expected_closing,mid-2026,,,fn_no_pred
+oracle,0001104659-26-023474,S-4/A,acquirer,VICI Properties Inc.,"Argento, LLC",0.6144728064537048,mismatch
+oracle,0001104659-26-023474,S-4/A,target,"Golden Entertainment, Inc.","Golden Entertainment, Inc.",0.6967841386795044,tp
+oracle,0001104659-26-023474,S-4/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,VICI ROYAL MERGER SUB LLC,0.7643457055091858,tp
+oracle,0001104659-26-023474,S-4/A,security_description,"common stock, par value $0.01 per share",Common Stock,0.9427333474159241,tp
+oracle,0001104659-26-023474,S-4/A,cash_consideration,,"$460,000,000",0.6685112714767456,fp_no_gt
+oracle,0001104659-26-023474,S-4/A,stock_exchange_ratio,0.902 shares of VICI Common Stock per share,0.902,0.889281153678894,tp
+oracle,0001104659-26-023474,S-4/A,shareholder_vote_date,3/31/2026 2:00 PM Pacific Time,"March 31, 2026",0.885051429271698,tp
+oracle,0001104659-26-023474,S-4/A,expected_closing,mid-2026,mid-2026,0.9259032011032104,tp
+pipeline,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Acquisition Corp.,0.6376180648803711,mismatch
+pipeline,0001104659-26-024193,DEFM14A,target,Relativity Acquisition Corp.,Instinct Bio Technical Company Inc.,0.78215092420578,mismatch
+pipeline,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub II Inc.,Relativity Purchaser Merger Sub II Inc.,0.632581889629364,tp
+pipeline,0001104659-26-024193,DEFM14A,security_description,Class A Common Stock,Class A Common Stock,0.8756046891212463,tp
+pipeline,0001104659-26-024193,DEFM14A,cash_consideration,,"$225,000,000",0.760797381401062,fp_no_gt
+pipeline,0001104659-26-024193,DEFM14A,stock_exchange_ratio,1 share of Pubco Common Stock per share,one,0.748002827167511,tp
+pipeline,0001104659-26-024193,DEFM14A,shareholder_vote_date,3/25/2026 9:30 AM Eastern Time,,,fn_no_pred
+pipeline,0001104659-26-024193,DEFM14A,expected_closing,Promptly following the Special Meeting,,,fn_no_pred
+pipeline,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Acquisition Corp.,0.6376180648803711,mismatch
+pipeline,0001104659-26-024193,DEFM14A,target,Relativity Acquisition Corp.,Instinct Bio Technical Company Inc.,0.78215092420578,mismatch
+pipeline,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub II Inc.,Relativity Purchaser Merger Sub II Inc.,0.632581889629364,tp
+pipeline,0001104659-26-024193,DEFM14A,security_description,Class B Common Stock,Class A Common Stock,0.8756046891212463,tp
+pipeline,0001104659-26-024193,DEFM14A,cash_consideration,,"$225,000,000",0.760797381401062,fp_no_gt
+pipeline,0001104659-26-024193,DEFM14A,stock_exchange_ratio,1 share of Pubco Common Stock per share,one,0.748002827167511,tp
+pipeline,0001104659-26-024193,DEFM14A,shareholder_vote_date,3/25/2026 9:30 AM Eastern Time,,,fn_no_pred
+pipeline,0001104659-26-024193,DEFM14A,expected_closing,Promptly following the Special Meeting,,,fn_no_pred
+pipeline,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Acquisition Corp.,0.6376180648803711,mismatch
+pipeline,0001104659-26-024193,DEFM14A,target,Instinct Bio Technical Company Inc.,Instinct Bio Technical Company Inc.,0.78215092420578,tp
+pipeline,0001104659-26-024193,DEFM14A,merger_subsidiary,,Relativity Purchaser Merger Sub II Inc.,0.632581889629364,fp_no_gt
+pipeline,0001104659-26-024193,DEFM14A,security_description,ordinary shares,Class A Common Stock,0.8756046891212463,mismatch
+pipeline,0001104659-26-024193,DEFM14A,cash_consideration,,"$225,000,000",0.760797381401062,fp_no_gt
+pipeline,0001104659-26-024193,DEFM14A,stock_exchange_ratio,,one,0.748002827167511,fp_no_gt
+pipeline,0001104659-26-024193,DEFM14A,expected_closing,Promptly following the Special Meeting,,,fn_no_pred
+pipeline,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Acquisition Corp.,0.6376180648803711,mismatch
+pipeline,0001104659-26-024193,DEFM14A,target,"SVES GO, LLC | SVES LLC | SVES CP LLC | SVES Apparel LLC",Instinct Bio Technical Company Inc.,0.78215092420578,mismatch
+pipeline,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub Inc.,Relativity Purchaser Merger Sub II Inc.,0.632581889629364,tp
+pipeline,0001104659-26-024193,DEFM14A,security_description,,Class A Common Stock,0.8756046891212463,fp_no_gt
+pipeline,0001104659-26-024193,DEFM14A,cash_consideration,,"$225,000,000",0.760797381401062,fp_no_gt
+pipeline,0001104659-26-024193,DEFM14A,stock_exchange_ratio,,one,0.748002827167511,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Acquisition Corp.,0.5659850239753723,mismatch
+oracle,0001104659-26-024193,DEFM14A,target,Relativity Acquisition Corp.,Relativity Holdings Inc.,0.658125638961792,mismatch
+oracle,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub II Inc.,Relativity Holdings Inc.,0.6837254166603088,mismatch
+oracle,0001104659-26-024193,DEFM14A,security_description,Class A Common Stock,Common Stock,0.9263641238212585,tp
+oracle,0001104659-26-024193,DEFM14A,cash_consideration,,"$225,000,000",0.8131321668624878,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,stock_exchange_ratio,1 share of Pubco Common Stock per share,one,0.7560579180717468,tp
+oracle,0001104659-26-024193,DEFM14A,shareholder_vote_date,3/25/2026 9:30 AM Eastern Time,"March 25, 2026",0.8937833309173584,tp
+oracle,0001104659-26-024193,DEFM14A,expected_closing,Promptly following the Special Meeting,,,fn_no_pred
+oracle,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Acquisition Corp.,0.5659850239753723,mismatch
+oracle,0001104659-26-024193,DEFM14A,target,Relativity Acquisition Corp.,Relativity Holdings Inc.,0.658125638961792,mismatch
+oracle,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub II Inc.,Relativity Holdings Inc.,0.6837254166603088,mismatch
+oracle,0001104659-26-024193,DEFM14A,security_description,Class B Common Stock,Common Stock,0.9263641238212585,tp
+oracle,0001104659-26-024193,DEFM14A,cash_consideration,,"$225,000,000",0.8131321668624878,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,stock_exchange_ratio,1 share of Pubco Common Stock per share,one,0.7560579180717468,tp
+oracle,0001104659-26-024193,DEFM14A,shareholder_vote_date,3/25/2026 9:30 AM Eastern Time,"March 25, 2026",0.8937833309173584,tp
+oracle,0001104659-26-024193,DEFM14A,expected_closing,Promptly following the Special Meeting,,,fn_no_pred
+oracle,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Acquisition Corp.,0.5659850239753723,mismatch
+oracle,0001104659-26-024193,DEFM14A,target,Instinct Bio Technical Company Inc.,Relativity Holdings Inc.,0.658125638961792,mismatch
+oracle,0001104659-26-024193,DEFM14A,merger_subsidiary,,Relativity Holdings Inc.,0.6837254166603088,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,security_description,ordinary shares,Common Stock,0.9263641238212585,mismatch
+oracle,0001104659-26-024193,DEFM14A,cash_consideration,,"$225,000,000",0.8131321668624878,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,stock_exchange_ratio,,one,0.7560579180717468,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,shareholder_vote_date,,"March 25, 2026",0.8937833309173584,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,expected_closing,Promptly following the Special Meeting,,,fn_no_pred
+oracle,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Acquisition Corp.,0.5659850239753723,mismatch
+oracle,0001104659-26-024193,DEFM14A,target,"SVES GO, LLC | SVES LLC | SVES CP LLC | SVES Apparel LLC",Relativity Holdings Inc.,0.658125638961792,mismatch
+oracle,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub Inc.,Relativity Holdings Inc.,0.6837254166603088,mismatch
+oracle,0001104659-26-024193,DEFM14A,security_description,,Common Stock,0.9263641238212585,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,cash_consideration,,"$225,000,000",0.8131321668624878,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,stock_exchange_ratio,,one,0.7560579180717468,fp_no_gt
+oracle,0001104659-26-024193,DEFM14A,shareholder_vote_date,,"March 25, 2026",0.8937833309173584,fp_no_gt
+pipeline,0001213900-26-024672,PREM14A,acquirer,Odysseus Holdings Limited,Odysseus (Cayman) Limited,0.6450163722038269,mismatch
+pipeline,0001213900-26-024672,PREM14A,target,Vine Hill Capital Investment Corp.,VINE HILL CAPITAL INVESTMENT CORP.,0.6897621154785156,tp
+pipeline,0001213900-26-024672,PREM14A,merger_subsidiary,Odysseus (Cayman) Limited,SPAC Merger Sub,0.8567337989807129,mismatch
+pipeline,0001213900-26-024672,PREM14A,security_description,Class A ordinary shares,Class A Share,0.7900860905647278,mismatch
+pipeline,0001213900-26-024672,PREM14A,cash_consideration,,$10.00,0.5382367968559265,fp_no_gt
+pipeline,0001213900-26-024672,PREM14A,stock_exchange_ratio,1 Holdco Ordinary Share per share,one,0.7329809665679932,tp
+pipeline,0001213900-26-024672,PREM14A,shareholder_vote_date,3/27/2026 10:00 AM Eastern Time,,,fn_no_pred
+pipeline,0001213900-26-024672,PREM14A,expected_closing,first quarter of 2026,,,fn_no_pred
+pipeline,0001213900-26-024672,PREM14A,acquirer,Odysseus Holdings Limited,Odysseus (Cayman) Limited,0.6450163722038269,mismatch
+pipeline,0001213900-26-024672,PREM14A,target,CoinShares International Limited,VINE HILL CAPITAL INVESTMENT CORP.,0.6897621154785156,mismatch
+pipeline,0001213900-26-024672,PREM14A,merger_subsidiary,Odysseus (Cayman) Limited,SPAC Merger Sub,0.8567337989807129,mismatch
+pipeline,0001213900-26-024672,PREM14A,security_description,ordinary shares,Class A Share,0.7900860905647278,mismatch
+pipeline,0001213900-26-024672,PREM14A,cash_consideration,,$10.00,0.5382367968559265,fp_no_gt
+pipeline,0001213900-26-024672,PREM14A,stock_exchange_ratio,Equity Value Per Share divided by $10.00 Holdco Ordinary Shares per share,one,0.7329809665679932,mismatch
+pipeline,0001213900-26-024672,PREM14A,expected_closing,first quarter of 2026,,,fn_no_pred
+oracle,0001213900-26-024672,PREM14A,acquirer,Odysseus Holdings Limited,CoinShares,0.5026298761367798,mismatch
+oracle,0001213900-26-024672,PREM14A,target,Vine Hill Capital Investment Corp.,Vine Hill Capital Investment Corp.,0.6856440305709839,tp
+oracle,0001213900-26-024672,PREM14A,merger_subsidiary,Odysseus (Cayman) Limited,SPAC Merger Sub,0.8532032370567322,mismatch
+oracle,0001213900-26-024672,PREM14A,security_description,Class A ordinary shares,Class A Share,0.8085008859634399,mismatch
+oracle,0001213900-26-024672,PREM14A,cash_consideration,,$10.00,0.5561017990112305,fp_no_gt
+oracle,0001213900-26-024672,PREM14A,stock_exchange_ratio,1 Holdco Ordinary Share per share,one,0.7521917819976807,tp
+oracle,0001213900-26-024672,PREM14A,shareholder_vote_date,3/27/2026 10:00 AM Eastern Time,"March 27, 2026",0.697058916091919,tp
+oracle,0001213900-26-024672,PREM14A,expected_closing,first quarter of 2026,first quarter of 2026,0.8433873653411865,tp
+oracle,0001213900-26-024672,PREM14A,acquirer,Odysseus Holdings Limited,CoinShares,0.5026298761367798,mismatch
+oracle,0001213900-26-024672,PREM14A,target,CoinShares International Limited,Vine Hill Capital Investment Corp.,0.6856440305709839,mismatch
+oracle,0001213900-26-024672,PREM14A,merger_subsidiary,Odysseus (Cayman) Limited,SPAC Merger Sub,0.8532032370567322,mismatch
+oracle,0001213900-26-024672,PREM14A,security_description,ordinary shares,Class A Share,0.8085008859634399,mismatch
+oracle,0001213900-26-024672,PREM14A,cash_consideration,,$10.00,0.5561017990112305,fp_no_gt
+oracle,0001213900-26-024672,PREM14A,stock_exchange_ratio,Equity Value Per Share divided by $10.00 Holdco Ordinary Shares per share,one,0.7521917819976807,mismatch
+oracle,0001213900-26-024672,PREM14A,shareholder_vote_date,,"March 27, 2026",0.697058916091919,fp_no_gt
+oracle,0001213900-26-024672,PREM14A,expected_closing,first quarter of 2026,first quarter of 2026,0.8433873653411865,tp
+pipeline,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC","Glow
+Midco, LLC",0.4467000663280487,tp
+pipeline,0001193125-26-102445,SC 13E3,target,"European Wax Center, Inc.","European Wax Center, Inc.",0.7169345021247864,tp
+pipeline,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 1, Inc.","Glow Merger Sub 2, LLC",0.7974066734313965,mismatch
+pipeline,0001193125-26-102445,SC 13E3,security_description,Class A Common Stock,Class A Common Stock,0.8814833164215088,tp
+pipeline,0001193125-26-102445,SC 13E3,cash_consideration,$5.80 per share,$5.80,0.8161033391952515,tp
+pipeline,0001193125-26-102445,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC","Glow
+Midco, LLC",0.4467000663280487,tp
+pipeline,0001193125-26-102445,SC 13E3,target,"European Wax Center, Inc.","European Wax Center, Inc.",0.7169345021247864,tp
+pipeline,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 1, Inc.","Glow Merger Sub 2, LLC",0.7974066734313965,mismatch
+pipeline,0001193125-26-102445,SC 13E3,security_description,Class B Common Stock,Class A Common Stock,0.8814833164215088,tp
+pipeline,0001193125-26-102445,SC 13E3,cash_consideration,$0.00001 per share,$5.80,0.8161033391952515,mismatch
+pipeline,0001193125-26-102445,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC","Glow
+Midco, LLC",0.4467000663280487,tp
+pipeline,0001193125-26-102445,SC 13E3,target,"EWC Ventures, LLC","European Wax Center, Inc.",0.7169345021247864,mismatch
+pipeline,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 2, LLC","Glow Merger Sub 2, LLC",0.7974066734313965,tp
+pipeline,0001193125-26-102445,SC 13E3,security_description,Opco Common Units,Class A Common Stock,0.8814833164215088,mismatch
+pipeline,0001193125-26-102445,SC 13E3,cash_consideration,$5.79999 per unit,$5.80,0.8161033391952515,mismatch
+pipeline,0001193125-26-102445,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC",,,fn_no_pred
+oracle,0001193125-26-102445,SC 13E3,target,"European Wax Center, Inc.","European Wax Center, Inc.",0.7175136208534241,tp
+oracle,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 1, Inc.","Glow Merger Sub 2, LLC",0.8461753129959106,mismatch
+oracle,0001193125-26-102445,SC 13E3,security_description,Class A Common Stock,Class A Common Stock,0.8615638613700867,tp
+oracle,0001193125-26-102445,SC 13E3,cash_consideration,$5.80 per share,$5.80,0.8230819702148438,tp
+oracle,0001193125-26-102445,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC",,,fn_no_pred
+oracle,0001193125-26-102445,SC 13E3,target,"European Wax Center, Inc.","European Wax Center, Inc.",0.7175136208534241,tp
+oracle,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 1, Inc.","Glow Merger Sub 2, LLC",0.8461753129959106,mismatch
+oracle,0001193125-26-102445,SC 13E3,security_description,Class B Common Stock,Class A Common Stock,0.8615638613700867,tp
+oracle,0001193125-26-102445,SC 13E3,cash_consideration,$0.00001 per share,$5.80,0.8230819702148438,mismatch
+oracle,0001193125-26-102445,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC",,,fn_no_pred
+oracle,0001193125-26-102445,SC 13E3,target,"EWC Ventures, LLC","European Wax Center, Inc.",0.7175136208534241,mismatch
+oracle,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 2, LLC","Glow Merger Sub 2, LLC",0.8461753129959106,tp
+oracle,0001193125-26-102445,SC 13E3,security_description,Opco Common Units,Class A Common Stock,0.8615638613700867,mismatch
+oracle,0001193125-26-102445,SC 13E3,cash_consideration,$5.79999 per unit,$5.80,0.8230819702148438,mismatch
+oracle,0001193125-26-102445,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001213900-26-026265,8-K,acquirer,Plum Acquisition Corp. IV,,,fn_no_pred
+pipeline,0001213900-26-026265,8-K,target,Controlled Thermal Resources Holdings Inc.,PLUM ACQUISITION CORP. IV,0.6689962148666382,mismatch
+pipeline,0001213900-26-026265,8-K,merger_subsidiary,Plum IV Merger Sub Inc.,"Plum IV Merger
+Sub, Inc.",0.8033849000930786,tp
+pipeline,0001213900-26-026265,8-K,security_description,common stock,Common Stock,0.8920001983642578,tp
+pipeline,0001213900-26-026265,8-K,cash_consideration,,$12.50,0.7677252888679504,fp_no_gt
+pipeline,0001213900-26-026265,8-K,stock_exchange_ratio,Aggregate Merger Consideration divided by Company Fully Diluted Capital shares of Domesticated Purchaser Common Stock per share,one,0.7808347940444946,mismatch
+pipeline,0001213900-26-026265,8-K,shareholder_vote_date,,"March 8, 2026",0.8143393397331238,fp_no_gt
+oracle,0001213900-26-026265,8-K,acquirer,Plum Acquisition Corp. IV,Plum Acquisition Corp. IV,0.5870513319969177,tp
+oracle,0001213900-26-026265,8-K,target,Controlled Thermal Resources Holdings Inc.,Controlled Thermal Resources Holdings Inc.,0.672643780708313,tp
+oracle,0001213900-26-026265,8-K,merger_subsidiary,Plum IV Merger Sub Inc.,Plum IV Merger Sub Inc.,0.8880040049552917,tp
+oracle,0001213900-26-026265,8-K,security_description,common stock,Common Stock,0.9386776089668274,tp
+oracle,0001213900-26-026265,8-K,cash_consideration,,$30.00,0.6165659427642822,fp_no_gt
+oracle,0001213900-26-026265,8-K,stock_exchange_ratio,Aggregate Merger Consideration divided by Company Fully Diluted Capital shares of Domesticated Purchaser Common Stock per share,Exchange Ratio,0.41652870178222656,mismatch
+pipeline,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,"Quetta
+Acquisition Corporation",0.7478724122047424,mismatch
+pipeline,0001493152-26-009785,8-K,target,Quetta Acquisition Corporation,"Smart
+Kreate Group",0.7134610414505005,mismatch
+pipeline,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 1 Limited,,,fn_no_pred
+pipeline,0001493152-26-009785,8-K,security_description,SPAC Common Stock,Class A Ordinary Shares,0.8353223204612732,mismatch
+pipeline,0001493152-26-009785,8-K,cash_consideration,,aggregate cash proceeds,0.437948077917099,fp_no_gt
+pipeline,0001493152-26-009785,8-K,stock_exchange_ratio,1 PubCo Class A Ordinary Share per share,,,fn_no_pred
+pipeline,0001493152-26-009785,8-K,expected_closing,third quarter of 2026,"March 6, 2026",0.5735622048377991,mismatch
+pipeline,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,"Quetta
+Acquisition Corporation",0.7478724122047424,mismatch
+pipeline,0001493152-26-009785,8-K,target,Smart Kreate Group Limited,"Smart
+Kreate Group",0.7134610414505005,tp
+pipeline,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 2 Limited,,,fn_no_pred
+pipeline,0001493152-26-009785,8-K,security_description,Company Shares held by shareholders other than Insiders,Class A Ordinary Shares,0.8353223204612732,mismatch
+pipeline,0001493152-26-009785,8-K,cash_consideration,,aggregate cash proceeds,0.437948077917099,fp_no_gt
+pipeline,0001493152-26-009785,8-K,stock_exchange_ratio,Price per Share divided by $10.00 PubCo Class A Ordinary Shares per share,,,fn_no_pred
+pipeline,0001493152-26-009785,8-K,expected_closing,third quarter of 2026,"March 6, 2026",0.5735622048377991,mismatch
+pipeline,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,"Quetta
+Acquisition Corporation",0.7478724122047424,mismatch
+pipeline,0001493152-26-009785,8-K,target,Smart Kreate Group Limited,"Smart
+Kreate Group",0.7134610414505005,tp
+pipeline,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 2 Limited,,,fn_no_pred
+pipeline,0001493152-26-009785,8-K,security_description,Company Shares held by Insiders,Class A Ordinary Shares,0.8353223204612732,mismatch
+pipeline,0001493152-26-009785,8-K,cash_consideration,,aggregate cash proceeds,0.437948077917099,fp_no_gt
+pipeline,0001493152-26-009785,8-K,stock_exchange_ratio,Price per Share divided by $10.00 PubCo Class B Ordinary Shares per share,,,fn_no_pred
+pipeline,0001493152-26-009785,8-K,expected_closing,third quarter of 2026,"March 6, 2026",0.5735622048377991,mismatch
+oracle,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,Quetta Acquisition Corporation,0.6664038896560669,mismatch
+oracle,0001493152-26-009785,8-K,target,Quetta Acquisition Corporation,Smart Kreate Group,0.7491139769554138,mismatch
+oracle,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 1 Limited,SKG Merger Sub 2 Limited,0.8285099864006042,mismatch
+oracle,0001493152-26-009785,8-K,security_description,SPAC Common Stock,Common Stock,0.9026522040367126,tp
+oracle,0001493152-26-009785,8-K,cash_consideration,,$10.00,0.5486591458320618,fp_no_gt
+oracle,0001493152-26-009785,8-K,stock_exchange_ratio,1 PubCo Class A Ordinary Share per share,one,0.5693067908287048,tp
+oracle,0001493152-26-009785,8-K,expected_closing,third quarter of 2026,third quarter of 2026,0.8972511887550354,tp
+oracle,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,Quetta Acquisition Corporation,0.6664038896560669,mismatch
+oracle,0001493152-26-009785,8-K,target,Smart Kreate Group Limited,Smart Kreate Group,0.7491139769554138,tp
+oracle,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 2 Limited,SKG Merger Sub 2 Limited,0.8285099864006042,tp
+oracle,0001493152-26-009785,8-K,security_description,Company Shares held by shareholders other than Insiders,Common Stock,0.9026522040367126,mismatch
+oracle,0001493152-26-009785,8-K,cash_consideration,,$10.00,0.5486591458320618,fp_no_gt
+oracle,0001493152-26-009785,8-K,stock_exchange_ratio,Price per Share divided by $10.00 PubCo Class A Ordinary Shares per share,one,0.5693067908287048,mismatch
+oracle,0001493152-26-009785,8-K,expected_closing,third quarter of 2026,third quarter of 2026,0.8972511887550354,tp
+oracle,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,Quetta Acquisition Corporation,0.6664038896560669,mismatch
+oracle,0001493152-26-009785,8-K,target,Smart Kreate Group Limited,Smart Kreate Group,0.7491139769554138,tp
+oracle,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 2 Limited,SKG Merger Sub 2 Limited,0.8285099864006042,tp
+oracle,0001493152-26-009785,8-K,security_description,Company Shares held by Insiders,Common Stock,0.9026522040367126,mismatch
+oracle,0001493152-26-009785,8-K,cash_consideration,,$10.00,0.5486591458320618,fp_no_gt
+oracle,0001493152-26-009785,8-K,stock_exchange_ratio,Price per Share divided by $10.00 PubCo Class B Ordinary Shares per share,one,0.5693067908287048,mismatch
+oracle,0001493152-26-009785,8-K,expected_closing,third quarter of 2026,third quarter of 2026,0.8972511887550354,tp
+pipeline,0001104659-26-029601,PREM14A,acquirer,"Royal Cup, Inc.",Royal Cup,0.5015413761138916,tp
+pipeline,0001104659-26-029601,PREM14A,target,Farmer Bros. Co.,"Royal Cup, Inc.",0.7452704906463623,mismatch
+pipeline,0001104659-26-029601,PREM14A,merger_subsidiary,BP I Brew Merger Sub Inc.,Braemont Capital Management LLC,0.651959240436554,mismatch
+pipeline,0001104659-26-029601,PREM14A,security_description,common stock,common stock,0.8332416415214539,tp
+pipeline,0001104659-26-029601,PREM14A,cash_consideration,$1.29 per share,$1.29,0.9222408533096313,tp
+pipeline,0001104659-26-029601,PREM14A,stock_exchange_ratio,No stock consideration,one,0.48205214738845825,absence_value
+pipeline,0001104659-26-029601,PREM14A,shareholder_vote_date,5/1/2026 11:00 AM Central Time,"May 1, 2026",0.9373267889022827,tp
+pipeline,0001104659-26-029601,PREM14A,expected_closing,"fiscal fourth quarter ending June 30, 2026",,,fn_no_pred
+oracle,0001104659-26-029601,PREM14A,acquirer,"Royal Cup, Inc.",Royal Cup,0.6444499492645264,tp
+oracle,0001104659-26-029601,PREM14A,target,Farmer Bros. Co.,Farmer Bros.,0.7429739236831665,tp
+oracle,0001104659-26-029601,PREM14A,merger_subsidiary,BP I Brew Merger Sub Inc.,BP I Brew Merger Sub Inc.,0.7728710770606995,tp
+oracle,0001104659-26-029601,PREM14A,security_description,common stock,common stock,0.8436197638511658,tp
+oracle,0001104659-26-029601,PREM14A,cash_consideration,$1.29 per share,$1.29,0.9288212060928345,tp
+oracle,0001104659-26-029601,PREM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001104659-26-029601,PREM14A,shareholder_vote_date,5/1/2026 11:00 AM Central Time,"March 19, 2026",0.9420675039291382,mismatch
+oracle,0001104659-26-029601,PREM14A,expected_closing,"fiscal fourth quarter ending June 30, 2026","June 30, 2026",0.5449830293655396,tp
+pipeline,0001185185-26-000991,8-K,acquirer,,The Nasdaq Stock Market LLC,0.6143154501914978,fp_no_gt
+pipeline,0001185185-26-000991,8-K,target,,Columbus Circle Capital Corp,0.6967660188674927,fp_no_gt
+pipeline,0001185185-26-000991,8-K,merger_subsidiary,"Atlas I Merger Sub | Atlas Merger Sub, Inc.",,,fn_no_pred
+pipeline,0001185185-26-000991,8-K,security_description,,Class A common stock,0.7747837901115417,fp_no_gt
+pipeline,0001185185-26-000991,8-K,stock_exchange_ratio,,one,0.781610906124115,fp_no_gt
+oracle,0001185185-26-000991,8-K,acquirer,,Pubco,0.40316253900527954,fp_no_gt
+oracle,0001185185-26-000991,8-K,target,,Blockfusion,0.47335949540138245,fp_no_gt
+oracle,0001185185-26-000991,8-K,merger_subsidiary,"Atlas I Merger Sub | Atlas Merger Sub, Inc.",Atlas I Merger Sub,0.8141075372695923,tp
+oracle,0001185185-26-000991,8-K,security_description,,Common Stock,0.9438667297363281,fp_no_gt

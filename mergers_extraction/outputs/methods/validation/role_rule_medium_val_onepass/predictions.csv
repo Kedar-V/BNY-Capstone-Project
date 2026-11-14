@@ -1,0 +1,161 @@
+accession_number,field,value,evidence
+0001140361-26-000522,acquirer,Aquarian Holdings VI L.P.,parent of the merger subsidiary: Delaware corporation and an indirect wholly-owned subsidiary of Parent
+0001140361-26-000522,target,"Brighthouse Financial, Inc.",filer of a DEFM14A
+0001140361-26-000522,merger_subsidiary,Aquarian Beacon Merger Sub Inc.,"Aquarian Beacon Merger Sub Inc., Delaware corporation and an indirect wholly-owned subsidiary of Parent (“Merger Sub”)"
+0001193125-26-009645,acquirer,Churchill Capital Corp IX,"parent of the merger subsidiary: Delaware corporation and direct, wholly owned subsidiary of CCIX"
+0001193125-26-009645,target,"Plus Automation, Inc.",GLiNER fallback
+0001193125-26-009645,merger_subsidiary,"AL Merger Sub I, Inc. | AL Merger Sub II, LLC","AL Merger Sub I, Inc., Delaware corporation and direct, wholly owned subsidiary of CCIX (“Merger Sub I”)"
+0001829126-26-000260,acquirer,D. Boral ARC Acquisition I Corp.,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Parent
+0001829126-26-000260,target,Exascale Labs Inc.,defined as the Company / Target
+0001829126-26-000260,merger_subsidiary,D. Boral Arc Merger Sub Inc.,"D. Boral Arc Merger Sub Inc., Delaware corporation and a wholly-owned subsidiary of Parent (“Merger Sub”)"
+0001140361-26-001670,acquirer,Horizon Technology Finance Corporation,GLiNER fallback
+0001140361-26-001670,target,Monroe Capital Corporation,"its shares convert: each share of MRCC Common Stock issued and outstanding immediately prior to the Effective Time, except for shares, if any, owned by HRZN or any of its consolidated subsidiaries (the “Cancelled Shares”), will be converted into the right to receive a number of shares HRZN Common Stock equal to the Exchange Ratio (as defined below) in connection with the closing of the Merger. [/T"
+0001140361-26-001670,merger_subsidiary,"HMMS, Inc.","HMMS, Inc., Maryland corporation and wholly owned subsidiary of HRZN (“Merger Sub”)"
+0001213900-26-007416,acquirer,Athena Technology Acquisition Corp. II,"parent of the merger subsidiary: Delaware corporation and a direct, wholly owned subsidiary of Athena"
+0001213900-26-007416,target,"Ace Green Recycling, Inc.",GLiNER fallback
+0001213900-26-007416,merger_subsidiary,Project Atlas Merger Sub Inc.,"Project Atlas Merger Sub Inc., Delaware corporation and a direct, wholly owned subsidiary of Athena (“Merger Sub”)"
+0001104659-26-007023,acquirer,"Beacon Topco, Inc.",parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of Topco
+0001104659-26-007023,target,"Clywedog Therapeutics, Inc.",its shares convert: each Clywedog Share outstanding immediately prior to the Merger Effective Time (excluding the Excluded Shares and the Dissenting Shares) will be converted solely into the right to receive the Per Share Merger Consideration plus (ii) the Fractional Merger Share Consideration. If any shares of Clywedog Shares outst
+0001104659-26-007023,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of Topco (“Merger Sub”)"
+0001140361-26-002822,acquirer,EH Parent LLC,parent of the merger subsidiary: Delaware corporation and wholly owned subsidiary of Parent
+0001140361-26-002822,target,Soho House & Co Inc.,defined as the Company / Target
+0001140361-26-002822,merger_subsidiary,EH MergerSub Inc.,"EH MergerSub Inc., Delaware corporation and wholly owned subsidiary of Parent (“Merger Sub”)"
+0001829126-26-000901,acquirer,Voyager Acquisition Corp.,GLiNER fallback
+0001829126-26-000901,target,Veraxa Biotech AG,defined as the Company / Target
+0001829126-26-000901,merger_subsidiary,,
+0001104659-26-011659,acquirer,"Burke & Herbert Financial Services Group, Inc.",GLiNER fallback
+0001104659-26-011659,target,"Summit Financial Group, Inc.","its shares convert: each outstanding share of Summit common stock, par value $2.50 per share will be converted into the right to receive 0.5043 shares of Burke & Herbert common stock, par value $0.50 per share. Holders of Summit common stock will receive cash in lieu of"
+0001104659-26-011659,merger_subsidiary,LINKBANK,GLiNER fallback
+0001213900-26-017460,acquirer,Rose Acquisition Pte. Ltd.,GLiNER fallback
+0001213900-26-017460,target,Horizon Quantum Computing Pte. Ltd.,"its shares convert: each issued and outstanding Horizon Ordinary Share (after taking into account the Horizon Preference Share Conversion and including any Horizon Ordinary Shares issued in any Horizon Pre-Closing Financing) will be automatically converted into the right to receive a number of Holdco Ordinary Shares equal to the Exchange Ratio, on the terms and subject to the conditions of the Business Combinatio"
+0001213900-26-017460,merger_subsidiary,"Horizon Merger Sub 2, Inc. | Rose Acquisition Pte. Ltd.","Horizon Merger Sub 2, Inc., Massachusetts corporation and wholly-owned subsidiary of Holdco (“Merger Sub 2”)"
+0001104659-26-021584,acquirer,Carnival Corporation,GLiNER fallback
+0001104659-26-021584,target,CARNIVAL CORP,filer of a DEFM14A
+0001104659-26-021584,merger_subsidiary,,
+0001104659-26-021605,acquirer,Carnival Corporation,GLiNER fallback
+0001104659-26-021605,target,CARNIVAL PLC,filer of a DEFM14A
+0001104659-26-021605,merger_subsidiary,,
+0001552781-26-000078,acquirer,"Runway Growth Finance
+Corp.",GLiNER fallback
+0001552781-26-000078,target,SWK Holdings Corporation,"its shares convert: each share of SWK Common Stock issued and outstanding immediately prior to the Effective Time (other than shares owned by RWAY or any of its consolidated subsidiaries, including Intermediary Sub and Acquisition Sub) will be converted, at the election of the respective SWK Stockholder, into the right to receive the Per Share Stock Consideration or the Per Share Cash Consideration. SWK has no"
+0001552781-26-000078,merger_subsidiary,RWAY Portfolio Holding Corp.,GLiNER fallback
+0001493152-26-009318,acquirer,Calisa Acquisition Corp,"parent of the merger subsidiary: Cayman Islands exempted company and a direct, wholly owned subsidiary of the Company"
+0001493152-26-009318,target,Goodvision AI Inc.,defined as the Company / Target
+0001493152-26-009318,merger_subsidiary,Calisa Merger Sub,"Calisa Merger Sub, Cayman Islands exempted company and a direct, wholly owned subsidiary of the Company (“Merger Sub”)"
+0001104659-26-035234,acquirer,Spring Valley Acquisition Corp. III,GLiNER fallback
+0001104659-26-035234,target,General Fusion Inc.,defined as the Company / Target
+0001104659-26-035234,merger_subsidiary,1573562 B.C. Ltd.,GLiNER fallback
+0001193125-26-130513,acquirer,"Anchor Parent, LLC",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001193125-26-130513,target,"Enhabit, Inc.",defined as the Company / Target
+0001193125-26-130513,merger_subsidiary,"Anchor Merger Sub, Inc.","Anchor Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001140361-26-012785,acquirer,Boston Scientific Corporation,GLiNER fallback
+0001140361-26-012785,target,Penumbra Inc,filer of a DEFM14A
+0001140361-26-012785,merger_subsidiary,"Pinehurst Merger Sub, Inc.",GLiNER fallback
+0001213900-26-040029,acquirer,Crown Reserve Acquisition Corp. I,parent of the merger subsidiary: Delaware corporation and a wholly owned direct subsidiary of SPAC
+0001213900-26-040029,target,"Carvix, Inc.",defined as the Company / Target
+0001213900-26-040029,merger_subsidiary,CRAC Merger Sub Inc. | Crown Reserve Merger Sub Inc.,"CRAC Merger Sub Inc., Delaware corporation and a wholly owned direct subsidiary of SPAC (“Merger Sub”)"
+0001140361-26-015088,acquirer,"2025 Acquisition Company, LLC",GLiNER fallback
+0001140361-26-015088,target,Forian Inc.,defined as the Company / Target
+0001140361-26-015088,merger_subsidiary,"Bravo Merger Sub, Inc.","Bravo Merger Sub, Inc., Maryland corporation (“Merger Sub”)"
+0001213900-26-044922,acquirer,INCEPTION GROWTH ACQUISITION LIMITED,GLiNER fallback
+0001213900-26-044922,target,AgileAlgo Holdings Ltd.,GLiNER fallback
+0001213900-26-044922,merger_subsidiary,IGTA Merger Sub Limited,GLiNER fallback
+0001104659-26-046161,acquirer,Expro Luxembourg S.A.,GLiNER fallback
+0001104659-26-046161,target,EXPRO GROUP HOLDINGS N.V.,filer of a DEFM14A
+0001104659-26-046161,merger_subsidiary,Expro Cayman,GLiNER fallback
+0001104659-26-051962,acquirer,"Beacon Topco, Inc.",parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of Topco
+0001104659-26-051962,target,"Clywedog Therapeutics, Inc.",its shares convert: each Clywedog Share outstanding immediately prior to the Merger Effective Time (excluding the Excluded Shares and the Dissenting Shares) will be converted solely into the right to receive the Per Share Merger Consideration plus (ii) the Fractional Merger Share Consideration. If any shares of Clywedog Shares outst
+0001104659-26-051962,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of Topco (“Merger Sub”)"
+0001193125-26-209019,acquirer,Affinity Bank,GLiNER fallback
+0001193125-26-209019,target,"Affinity Bancshares, Inc.",filer of a PREM14A
+0001193125-26-209019,merger_subsidiary,"TFB Merger Subsidiary, Inc.",GLiNER fallback
+0001829126-26-004942,acquirer,Future Vision,parent of the merger subsidiary: Cayman Islands exempted company and wholly-owned subsidiary of Future Vision
+0001829126-26-004942,target,MicroTouch Technology INC.,GLiNER fallback
+0001829126-26-004942,merger_subsidiary,Future Vision II Acquisition Merger Subsidiary Corp.,"Future Vision II Acquisition Merger Subsidiary Corp., Cayman Islands exempted company and wholly-owned subsidiary of Future Vision (“Merger Sub”)"
+0001104659-26-068378,acquirer,"A-AV Holdco I, Inc.",parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Parent
+0001104659-26-068378,target,"Avanos Medical, Inc.","its shares convert: each issued and outstanding share of Company Stock immediately prior to the Effective Time (other than shares to be canceled in accordance with Section 2.2 and Dissenting Shares) will be converted into the right to receive the Merger Consideration; WHEREAS, the Board of Directors of the Company has unanimously (i) determined that this Agreement and the T"
+0001104659-26-068378,merger_subsidiary,"A-AV MergerSub, Inc.","A-AV MergerSub, Inc., Delaware corporation and a wholly-owned subsidiary of Parent (“Merger Subsidiary”)"
+0001829126-26-005869,acquirer,SPACSphere Acquisition Corp.,parent of the merger subsidiary: Delaware corporation and direct wholly owned subsidiary of SPACSphere
+0001829126-26-005869,target,"Mobilewalla Holdco, Inc.",defined as the Company / Target
+0001829126-26-005869,merger_subsidiary,SPACSphere Merger Sub Inc.,"SPACSphere Merger Sub Inc., Delaware corporation and direct wholly owned subsidiary of SPACSphere (“Merger Sub”)"
+0001193125-26-266069,acquirer,Ligand Pharmaceuticals Incorporated,parent of the merger subsidiary: Nevada corporation and wholly owned subsidiary of Parent
+0001193125-26-266069,target,General XOMA Royalty Corporation | XOMA Royalty Holdings Corporation,"its shares convert: each share of Company common stock issued and outstanding immediately prior to the Effective Time (other than certain shares to be cancelled pursuant to the Merger Agreement and Dissenting Shares) will be automatically converted into the right to receive (i) $39.00 per share in cash, without interest and subject to deduction for any required withholding taxes, plus (ii) one contingent "
+0001193125-26-266069,merger_subsidiary,"Flex Merger Sub, Inc. | XRH Merger Sub, Corp.","Flex Merger Sub, Inc., Nevada corporation and wholly owned subsidiary of Parent (“Merger Sub”)"
+0001193125-26-280277,acquirer,Axalta Coating Systems Ltd.,GLiNER fallback
+0001193125-26-280277,target,Axalta Coating Systems Ltd.,filer of a DEFM14A
+0001193125-26-280277,merger_subsidiary,Merger Sub 2,GLiNER fallback
+0001140361-26-026757,acquirer,EQUITY RESIDENTIAL,filer of a S-4
+0001140361-26-026757,target,Equity Residential,GLiNER fallback
+0001140361-26-026757,merger_subsidiary,Canopy Merger Sub LLC,GLiNER fallback
+0001829126-26-007145,acquirer,D. Boral ARC Merger Corporation,holders receive its shares: each issued and outstanding Exascale Class A common stock will be cancelled and converted into the right to receive a number of shares of PubCo Class A Ordinary Common Stock based on the “implied ownership percentage” attributable to E
+0001829126-26-007145,target,Exascale Labs Inc.,its shares convert: each issued and outstanding Exascale Class A common stock will be cancelled and converted into the right to receive a number of shares of PubCo Class A Ordinary Common Stock based on the “implied ownership percentage” attributable to E
+0001829126-26-007145,merger_subsidiary,D. Boral Arc Merger Sub Inc.,"D. Boral Arc Merger Sub Inc., Delaware corporation and a direct, wholly owned subsidiary of BCAR (“Merger Sub”)"
+0001493152-26-032938,acquirer,GH Power,GLiNER fallback
+0001493152-26-032938,target,GH Power,GLiNER fallback
+0001493152-26-032938,merger_subsidiary,"MBH Merger Sub, Inc.","MBH Merger Sub, Inc., Delaware corporation and wholly owned subsidiary of Pubco (“Matinas Merger Sub”)"
+0001104659-26-083113,acquirer,AvalonBay,GLiNER fallback
+0001104659-26-083113,target,AVALONBAY COMMUNITIES INC,filer of a DEFM14A
+0001104659-26-083113,merger_subsidiary,Canopy Merger Sub LLC,GLiNER fallback
+0001193125-26-307826,acquirer,"Destination XL Group, Inc.","holders receive its shares: each share of FBB common stock outstanding immediately prior to the effective time of the merger (other than (i) “Excluded Shares”, (ii) “Appraisal Shares”, and (iii) “Unaccredited Investor Shares”) would be converted into the right to receive that number of fully paid and nonassessable shares of DXL common stock equal to the exchange ratio (as described below). No fractiona"
+0001193125-26-307826,target,"FBB Holdings I, Inc.","its shares convert: each share of FBB common stock outstanding immediately prior to the effective time of the merger (other than (i) “Excluded Shares”, (ii) “Appraisal Shares”, and (iii) “Unaccredited Investor Shares”) would be converted into the right to receive that number of fully paid and nonassessable shares of DXL common stock equal to the exchange ratio (as described below). No fractiona"
+0001193125-26-307826,merger_subsidiary,"Divine Merger Sub I, Inc.","Divine Merger Sub I, Inc., Delaware corporation and wholly owned direct subsidiary of DXL (“merger subsidiary”)"
+0001104659-26-086863,acquirer,"Cartesian
+Growth Corporation II",GLiNER fallback
+0001104659-26-086863,target,Cartesian Growth Corporation II,"its shares convert: each ordinary share of CGC issued and outstanding as of immediately prior to the Merger Effective Time will be automatically converted into the right to receive one ListCo Common Share and (b) each warrant of CGC, exercisable to purchase one CGC Class A Share at $11.50 per share, will be autom"
+0001104659-26-086863,merger_subsidiary,InoBat Cayman Merger Sub,"InoBat Cayman Merger Sub, Cayman Islands exempted company and a wholly-owned subsidiary of ListCo (“Merger Sub”)"
+0001140361-26-030109,acquirer,Eli Lilly and Company,GLiNER fallback
+0001140361-26-030109,target,AtaiBeckley Inc. | Company,"its shares convert: each outstanding share of our common stock, par value $0.01 per share (which we refer to as our “common stock”) will be converted into the right to receive (i) an amount in cash equal to $6.75 (which we refer to as the “closing amount”), without interest and less applicable tax withholdin"
+0001140361-26-030109,merger_subsidiary,Albali Acquisition Corporation,"Albali Acquisition Corporation, Delaware corporation and a wholly owned subsidiary of Lilly (“Merger Sub”)"
+0001213900-26-084286,acquirer,"Bluerock
+Acquisition Corp.",GLiNER fallback
+0001213900-26-084286,target,Yellow.ai,defined as the Company / Target
+0001213900-26-084286,merger_subsidiary,BLRK Merger Sub Inc. | Merger Sub,"BLRK Merger Sub Inc., Delaware corporation (“Merger Sub”)"
+0001193125-26-347541,acquirer,SPACSphere Acquisition Corp.,parent of the merger subsidiary: Delaware corporation and direct wholly owned subsidiary of SPACSphere
+0001193125-26-347541,target,Mobilewalla,GLiNER fallback
+0001193125-26-347541,merger_subsidiary,SPACSphere Merger Sub Inc.,"SPACSphere Merger Sub Inc., Delaware corporation and direct wholly owned subsidiary of SPACSphere (“Merger Sub”)"
+0001193125-26-361757,acquirer,"Idaho USA, Inc.",parent of the merger subsidiary: Delaware corporation and a direct or indirect wholly-owned subsidiary of Acquiror
+0001193125-26-361757,target,"Utz Brands, Inc.",filer of a PREM14A
+0001193125-26-361757,merger_subsidiary,"Idaho Merger Sub, Inc.","Idaho Merger Sub, Inc., Delaware corporation and a direct or indirect wholly-owned subsidiary of Acquiror (“Merger Sub”)"
+0001213900-26-093229,acquirer,Mach X,parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of Mach X
+0001213900-26-093229,target,"Ursa Major Technologies, Inc.",its shares convert: each share of Company Common Stock that is issued and outstanding immediately prior to the Effective Time (other than Excluded Shares) will be cancelled and converted into the right to receive a number of shares of New Ursa Major Common Stock equal to the Exchange Ratio (rounded down to the nearest whole share)
+0001213900-26-093229,merger_subsidiary,"Inflection Point Mach X Bleichroeder Merger Sub, Inc.","Inflection Point Mach X Bleichroeder Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of Mach X (“Merger Sub”)"
+0001753926-26-001637,acquirer,Rocket Lab Corporation,parent of the merger subsidiary: Delaware corporation and an indirect wholly owned subsidiary of Rocket Lab
+0001753926-26-001637,target,Iridium Communications Inc.,"its shares convert: each outstanding share of Iridium Common Stock, other than as specified in the Merger Agreement, will be converted into the right to receive (i) $27.00 in cash (the “Cash Consideration”) and (ii) a number of shares (the “Stock Consideration” and, together with the Cash Cons"
+0001753926-26-001637,merger_subsidiary,"Ion Merger Sub I, Inc. | Ion Merger Sub II, LLC","Ion Merger Sub I, Inc., Delaware corporation and an indirect wholly owned subsidiary of Rocket Lab (“Merger Sub I”)"
+0001104659-26-104858,acquirer,Texas Ventures Acquisition III Corp,"parent of the merger subsidiary: Delaware corporation and direct, wholly owned subsidiary of TVA"
+0001104659-26-104858,target,"Plus Automation, Inc.",defined as the Company / Target
+0001104659-26-104858,merger_subsidiary,"TVAC Merger Sub I, Inc. | TVAC Merger Sub II, LLC","TVAC Merger Sub I, Inc., Delaware corporation and direct, wholly owned subsidiary of TVA (“Merger Sub I”)"
+0001213900-26-098973,acquirer,Aperture AC,parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of SPAC
+0001213900-26-098973,target,Atlantic HPC Group Inc,defined as the Company / Target
+0001213900-26-098973,merger_subsidiary,"AP Ocean Merger Sub, Inc.","AP Ocean Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of SPAC (“Merger
+Sub”)"
+0001140361-26-036669,acquirer,"Willow Parent, LLC",parent of the merger subsidiary: Delaware corporation and a wholly owned subsidiary of Parent
+0001140361-26-036669,target,"Weave Communications, Inc.","its shares convert: each outstanding share of Company Common Stock (subject to certain exceptions) will be automatically converted into the right to receive $7.40 in cash, subject to any applicable withholding taxes. Parties Involved in the Merger Weave Communications, Inc. Weave Communica"
+0001140361-26-036669,merger_subsidiary,"Willow Merger Sub, Inc.","Willow Merger Sub, Inc., Delaware corporation and a wholly owned subsidiary of Parent (“Merger Sub”)"
+0001829126-26-000261,acquirer,D. Boral ARC Acquisition I Corp.,parent of the merger subsidiary: Delaware corporation and a wholly-owned subsidiary of Parent
+0001829126-26-000261,target,Exascale Labs Inc.,defined as the Company / Target
+0001829126-26-000261,merger_subsidiary,D. Boral Arc Merger Sub Inc.,"D. Boral Arc Merger Sub Inc., Delaware corporation and a wholly-owned subsidiary of Parent (“Merger Sub”)"
+0001213900-26-010191,acquirer,Athena Technology Acquisition Corp. II,GLiNER fallback
+0001213900-26-010191,target,"Ace Green Recycling, Inc.",GLiNER fallback
+0001213900-26-010191,merger_subsidiary,Project Atlas Merger Sub Inc.,"Project Atlas Merger Sub Inc., Delaware corporation (“Merger Sub”)"
+0001213900-26-010178,acquirer,Athena Technology Acquisition Corp. II,GLiNER fallback
+0001213900-26-010178,target,"Ace Green Recycling, Inc.",GLiNER fallback
+0001213900-26-010178,merger_subsidiary,Project Atlas Merger Sub Inc.,"Project Atlas Merger Sub Inc., Delaware corporation (“Merger Sub”)"
+0001829126-26-000900,acquirer,Voyager Acquisition Corp.,GLiNER fallback
+0001829126-26-000900,target,Veraxa Biotech AG,defined as the Company / Target
+0001829126-26-000900,merger_subsidiary,,
+0001829126-26-001748,acquirer,Voyager Acquisition Corp.,GLiNER fallback
+0001829126-26-001748,target,VERAXA Biotech AG,defined as the Company / Target
+0001829126-26-001748,merger_subsidiary,,
+0001829126-26-001749,acquirer,Voyager Acquisition Corp.,GLiNER fallback
+0001829126-26-001749,target,VERAXA Biotech AG,defined as the Company / Target
+0001829126-26-001749,merger_subsidiary,,
+0001493152-26-009317,acquirer,Calisa Acquisition Corp,"parent of the merger subsidiary: Cayman Islands exempted company and a direct, wholly owned subsidiary of the Company"
+0001493152-26-009317,target,Goodvision AI Inc.,defined as the Company / Target
+0001493152-26-009317,merger_subsidiary,Calisa Merger Sub,"Calisa Merger Sub, Cayman Islands exempted company and a direct, wholly owned subsidiary of the Company (“Merger Sub”)"
+0001104659-26-027698,acquirer,"Beacon Topco, Inc.",parent of the merger subsidiary: Delaware corporation and a direct wholly owned subsidiary of Topco
+0001104659-26-027698,target,"Clywedog Therapeutics, Inc.",its shares convert: each Clywedog Share outstanding immediately prior to the Merger Effective Time (excluding the Excluded Shares and the Dissenting Shares) will be converted solely into the right to receive the Per Share Merger Consideration plus (ii) the Fractional Merger Share Consideration. If any shares of Clywedog Shares outst
+0001104659-26-027698,merger_subsidiary,"Cdog Merger Sub, Inc.","Cdog Merger Sub, Inc., Delaware corporation and a direct wholly owned subsidiary of Topco (“Merger Sub”)"
+0001829126-26-002394,acquirer,Horizon,GLiNER fallback
+0001829126-26-002394,target,Horizon Quantum Computing Pte. Ltd.,GLiNER fallback
+0001829126-26-002394,merger_subsidiary,"Rose Acquisition Pte. Ltd. | Horizon Merger Sub 2, Inc.","Rose Acquisition Pte. Ltd., Singapore private company limited by shares and a wholly-owned subsidiary of Holdco (“Merger Sub 1”)"

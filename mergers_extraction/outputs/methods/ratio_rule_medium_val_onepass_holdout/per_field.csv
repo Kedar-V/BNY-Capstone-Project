@@ -1,0 +1,2 @@
+field,label,compare,tp,fp,fn,gt_absence_values,learned_precision,learned_recall,learned_f1
+stock_exchange_ratio,,number,62,80,50,27,0.437,0.554,0.488

@@ -1,0 +1,64 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+learned,0001437749-26-000391,DEFM14A,cash_consideration,$84.44 per share,$84.44 per share,,tp
+learned,0001193125-26-003553,DEFM14A,cash_consideration,$2.32 per share,$2.32 per share,,tp
+learned,0001193125-26-010471,PREM14A,cash_consideration,$42.15 per share,$42.15 per share,,tp
+learned,0001493152-26-002095,S-4,cash_consideration,,$15.00 per share,,fp_no_gt
+learned,0001493152-26-002095,S-4,cash_consideration,,$15.00 per share,,fp_no_gt
+learned,0001493152-26-002095,S-4,cash_consideration,,$15.00 per share,,fp_no_gt
+learned,0001493152-26-002095,S-4,cash_consideration,,$15.00 per share,,fp_no_gt
+learned,0001493152-26-002095,S-4,cash_consideration,,$15.00 per share,,fp_no_gt
+learned,0001193125-26-012952,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001185185-26-000166,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001193125-26-016684,SC 13E3/A,cash_consideration,$2.75 per share,,,fn_no_pred
+learned,0001193125-26-102445,SC 13E3,cash_consideration,$5.80 per share,$5.80 per share,,tp
+learned,0001193125-26-102445,SC 13E3,cash_consideration,$0.00001 per share,$5.80 per share,,mismatch
+learned,0001193125-26-102445,SC 13E3,cash_consideration,$5.79999 per unit,$5.80 per share,,mismatch
+learned,0001104659-26-029601,PREM14A,cash_consideration,$1.29 per share,$1.29 per share,,tp
+learned,0001140361-26-012383,DEFM14A,cash_consideration,$4.10 per share,$4.10 per share,,tp
+learned,0001193125-26-134924,DEFM14A,cash_consideration,$15.00 per share,$15.00 per share,,tp
+learned,0001493152-26-015164,S-4/A,cash_consideration,No cash consideration,,,absence_value
+learned,0001104659-26-043531,SC 13E3,cash_consideration,$16.50 per share,$16.50 per share,,tp
+learned,0001829126-26-003564,S-4,cash_consideration,,$10.03 per share,,fp_no_gt
+learned,0001193125-26-187219,S-4,cash_consideration,,$6.25 per share,,fp_no_gt
+learned,0001193125-26-187219,S-4,cash_consideration,,$6.25 per share,,fp_no_gt
+learned,0001193125-26-187219,S-4,cash_consideration,,$6.25 per share,,fp_no_gt
+learned,0001193125-26-187219,S-4,cash_consideration,,$6.25 per share,,fp_no_gt
+learned,0001140361-26-018881,PREM14A,cash_consideration,$15.00 per share,$15.00 per share,,tp
+learned,0001140361-26-023175,PREM14A,cash_consideration,$9.50 per share,$9.50 per share,,tp
+learned,0001140361-26-023178,PREM14A,cash_consideration,$7.75 per share,$7.75 per share,,tp
+learned,0001829126-26-005923,8-K,cash_consideration,Pro rata portion of Titan's trust account per share,,,fn_no_pred
+learned,0001193125-26-269722,PREM14A,cash_consideration,$72.50 per share,$72.50 per share,,tp
+learned,0001104659-26-073581,S-4,cash_consideration,$13.80 per share,,,fn_no_pred
+learned,0001104659-26-073581,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001140361-26-027469,PREM14A,cash_consideration,$135.11 per share,$135.11 per share,,tp
+learned,0001104659-26-082291,DEFM14A,cash_consideration,$13.80 per share,,,fn_no_pred
+learned,0001193125-26-306199,PREM14A,cash_consideration,$29.00 per share,$29.00 per share,,tp
+learned,0001140361-26-029134,PREM14A,cash_consideration,$85.00 per share,$85.00 per share,,tp
+learned,0001493152-26-034626,S-4,cash_consideration,,$1.05 per share,,fp_no_gt
+learned,0001140361-26-029608,PREM14A,cash_consideration,$150.00 per share,$150.00 per share,,tp
+learned,0001213900-26-081847,PREM14A,cash_consideration,,$466.00 per share,,fp_no_gt
+learned,0001140361-26-032037,PREM14A,cash_consideration,$73.00 per share,$73.00 per share,,tp
+learned,0001104659-26-093784,PREM14A,cash_consideration,$17.00 per share,$17.00 per share,,tp
+learned,0001213900-26-089404,PREM14A,cash_consideration,$1.31 per share,$1.31 per share,,tp
+learned,0001213900-26-089404,PREM14A,cash_consideration,$1.31 per share,$1.31 per share,,tp
+learned,0001213900-26-089404,PREM14A,cash_consideration,,$1.31 per share,,fp_no_gt
+learned,0001140361-26-034858,PREM14A,cash_consideration,$34.00 per share,$34.00 per share,,tp
+learned,0001193125-26-377066,SC 13E3,cash_consideration,,$16.25 per share,,fp_no_gt
+learned,0001104659-26-104366,S-4,cash_consideration,No cash consideration,,,absence_value
+learned,0001104659-26-105071,PREM14A,cash_consideration,$33.50 per share,$33.50 per share,,tp
+learned,0001193125-26-383837,DEFM14A,cash_consideration,$11.25 per share,$11.25 per share,,tp
+learned,0001193125-26-383841,PREM14A,cash_consideration,$167.00 per share,$167.00 per share,,tp
+learned,0001104659-26-107126,PREM14A,cash_consideration,$13.60 per share,$13.60 per share,,tp
+learned,0001104659-26-108313,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001493152-26-044341,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001493152-26-044341,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001493152-26-044341,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001193125-26-021072,DEFM14A,cash_consideration,$42.15 per share,$42.15 per share,,tp
+learned,0001193125-26-028104,SC 13E3/A,cash_consideration,$2.75 per share,,,fn_no_pred
+learned,0001185185-26-000356,S-4/A,cash_consideration,No cash consideration,,,absence_value
+learned,0001185185-26-000563,DEFM14A,cash_consideration,No cash consideration,,,absence_value
+learned,0001193125-26-051584,SC 13E3/A,cash_consideration,$2.75 per share,,,fn_no_pred
+learned,0001193125-26-096620,DEFM14A,cash_consideration,$2.75 per share,,,fn_no_pred
+learned,0001193125-26-102359,PREM14A,cash_consideration,$5.80 per share,$5.80 per share,,tp
+learned,0001193125-26-102359,PREM14A,cash_consideration,$0.00001 per share,$5.80 per share,,mismatch
+learned,0001193125-26-102359,PREM14A,cash_consideration,$5.79999 per unit,$5.80 per share,,mismatch

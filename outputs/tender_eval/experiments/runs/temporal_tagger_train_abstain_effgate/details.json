@@ -1,0 +1,1482 @@
+[
+  {
+    "accession": "0001859919-26-000002",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "12/31/2025 11:59 PM Eastern Time",
+        "pred": "december 31, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "december 31, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-000471",
+    "fields": {
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "1/30/2026 11:59 PM Eastern Time",
+        "pred": "march 2, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "1/30/2026 11:59 PM Eastern Time",
+        "pred": "january 30, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase | Note delivery: within 65 days of the Notice Due Date | Initial payment: within 65 days after the Notice Due Date | Post-Audit Payment: promptly after completion of the annual audit",
+        "pred": "october 31",
+        "span_hit": true,
+        "span_pred": "65 days of",
+        "n_quotes": 4
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-000378",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/30/2026 11:59 PM Eastern Time",
+        "pred": "january 30, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "1/30/2026 11:59 PM Eastern Time",
+        "pred": "january 30, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: when the Fund gives written notice to the tendering shareholder of its election to purchase the shares | Initial payment: within 65 days after the Notice Due Date | Final payment: no later than 5 business days following completion of the annual audit; for a shareholder retaining at least 5% of the aggregate value of its shares, on or before the 60th day after the Repurchase Date",
+        "pred": "the 60th day",
+        "span_hit": true,
+        "span_pred": "65 days",
+        "n_quotes": 4
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-000356",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "12/31/2025 5:00 PM Eastern Time",
+        "pred": "december 31, 2025",
+        "span_hit": true,
+        "span_pred": "december 31, 2025",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "december 31, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "december 31, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001661306-26-000002",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "12/29/2025 11:59 PM Central Time",
+        "pred": "december 29, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "december 29, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "december 29, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001398344-26-000104",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "3/17/2026 12:00 midnight New York time",
+        "pred": "tuesday, march 17, 2026",
+        "span_hit": true,
+        "span_pred": "tuesday, march 17, 2026",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "3/17/2026 12:00 midnight New York time",
+        "pred": "tuesday, march 17, 2026",
+        "span_hit": true,
+        "span_pred": "tuesday, march 17, 2026",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: when the Fund gives written notice to the tendering investor of its election to purchase the Shares | Promissory-note delivery: promptly (within five business days) after the Expiration Date | Initial payment for all Shares tendered or payment for some Shares tendered: before the 30th day following the Valuation Date, subject to unforeseen delays | Contingent payment for all Shares tendered: as soon as practicable after completion of the fiscal year-end audit",
+        "pred": "the 30th day",
+        "span_hit": true,
+        "span_pred": "five business days",
+        "n_quotes": 5
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-001613",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "8/29/2025 11:59 PM Eastern Time",
+        "pred": "august 29, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 2
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "august 29, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-006518",
+    "fields": {
+      "expiration_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-005891",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "12/29/2025 4:00 PM Eastern Time",
+        "pred": "december 29, 2025",
+        "span_hit": true,
+        "span_pred": "4 : 00 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Payment: on or about 1/5/2026",
+        "pred": "january 5, 2026",
+        "span_hit": true,
+        "span_pred": "january 5, 2026",
+        "n_quotes": 1
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-000805",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/6/2026 5:00 PM New York City time",
+        "pred": "tuesday, january 6, 2026",
+        "span_hit": true,
+        "span_pred": "5 : 00 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "tuesday, january 6, 2026",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-005732",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "10/24/2025 11:59 PM Eastern Time",
+        "pred": "october 24, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "october 24, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-005730",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "10/21/2025 11:59 PM Eastern Time",
+        "pred": "october 21, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "october 21, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-007074",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "12/19/2025 11:59 PM Eastern Time",
+        "pred": "december 19, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "december 19, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-002386",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "12/31/2025 11:59 PM Eastern Time",
+        "pred": "december 31, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "12/31/2025 11:59 PM Eastern Time",
+        "pred": "december 31, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p",
+        "n_quotes": 1
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Payment: January 2026",
+        "pred": "january 2026",
+        "span_hit": true,
+        "span_pred": "january 2026",
+        "n_quotes": 1
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-008886",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "2/6/2026 11:59 PM New York City time",
+        "pred": "february 6, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 pm",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "2/6/2026 11:59 PM New York City time | If Shares have not yet been accepted for purchase, withdrawal is also permitted at any time after 3/9/2026",
+        "pred": "february 6, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance and payment: promptly after the Termination Date | If portfolio liquidity is inadequate, the Company may pay with a promissory note payable in cash up to 30 days after the Termination Date (as extended)",
+        "pred": "the termination date",
+        "span_hit": true,
+        "span_pred": "the termination date",
+        "n_quotes": 2
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-002892",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "8/29/2025 11:59 PM Eastern Time",
+        "pred": "august 29, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 2
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "august 29, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-002892",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "8/29/2025 11:59 PM Eastern Time",
+        "pred": "august 29, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 2
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "august 29, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-002892",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "8/29/2025 11:59 PM Eastern Time",
+        "pred": "august 29, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 2
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "august 29, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-002756",
+    "fields": {
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "9/17/2025 11:59 PM Eastern Time",
+        "pred": "november 21, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Payment: 11/21/2025 | Post-Audit Payment: promptly after completion of the Fund\u2019s annual audit at the end of August 2026",
+        "pred": "the end of august 2026",
+        "span_hit": true,
+        "span_pred": "november 21, 2025",
+        "n_quotes": 3
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-009777",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "2/9/2026 11:59 PM Eastern Time",
+        "pred": "february 9, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "february 9, 2026",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001580642-26-000224",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "3/17/2026 11:59 PM Eastern time",
+        "pred": "11 : 59 p. m",
+        "span_hit": true,
+        "span_pred": "march 17, 2026",
+        "n_quotes": 2
+      },
+      "withdrawal_deadline": {
+        "outcome": "mismatch",
+        "gold": "3/17/2026 11:59 PM Eastern time",
+        "pred": "date",
+        "span_hit": true,
+        "span_pred": "march 17, 2026",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: when the Fund gives written notice to the tendering Shareholder of its election to purchase the Shares | Partial-repurchase payment: generally within forty (40) calendar days after the Valuation Date, or, if the Fund has requested withdrawal of capital from Portfolio Funds to fund the purchase, within ten (10) business days after receipt of at least ninety-five percent (95%) of the aggregate amount withdrawn, whichever is later | Full-repurchase initial payment: within the later of forty (40) calendar days after the Valuation Date or ten (10) business days after receipt of at least ninety-five percent (95%) of the aggregate amount requested to be withdrawn from Portfolio Funds to fund the repurchase | Full-repurchase final payment: within 60 days of completion of the next annual audit, unless the stated circumstances cause a delay",
+        "pred": "date",
+        "span_hit": true,
+        "span_pred": "forty",
+        "n_quotes": 4
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-010350",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "2/12/2026 11:59 PM Eastern Time",
+        "pred": "thursday, february 12, 2026",
+        "span_hit": true,
+        "span_pred": "monday, january 12, 2026",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "2/12/2026 11:59 PM Eastern Time",
+        "pred": "11 : 59 p",
+        "span_hit": true,
+        "span_pred": "11 : 59 p",
+        "n_quotes": 1
+      },
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "Payment: 2/17/2026 before 10:00 AM New York City time to the Paying Agent; the Paying Agent will promptly distribute the consideration to DTC",
+        "pred": "thursday, february 12, 2026",
+        "span_hit": true,
+        "span_pred": "10 : 00 a",
+        "n_quotes": 1
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0002051820-26-000007",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "2/2/2026 5:00 PM New York City time",
+        "pred": "february 2, 2026",
+        "span_hit": true,
+        "span_pred": "5 : 00 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "2/2/2026 5:00 PM New York City time | If shares have not been accepted for payment, withdrawal is also permitted after 2/25/2026 5:00 PM New York City time",
+        "pred": "february 2, 2026",
+        "span_hit": true,
+        "span_pred": "5 : 00 p. m.",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "Acceptance: promptly following expiration | Payment: promptly following expiration and acceptance for payment, taking into account any time necessary to determine proration and conditional tenders",
+        "pred": "february 25, 2026",
+        "span_hit": false,
+        "span_pred": null,
+        "n_quotes": 2
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-011820",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/9/2026 4:00 PM Eastern Time",
+        "pred": "january 9, 2026",
+        "span_hit": true,
+        "span_pred": "4 : 00 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "january 9, 2026",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-011820",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/9/2026 4:00 PM Eastern Time",
+        "pred": "january 9, 2026",
+        "span_hit": true,
+        "span_pred": "4 : 00 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "january 9, 2026",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-011820",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/9/2026 4:00 PM Eastern Time",
+        "pred": "january 9, 2026",
+        "span_hit": true,
+        "span_pred": "4 : 00 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "january 9, 2026",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-011820",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/9/2026 4:00 PM Eastern Time",
+        "pred": "january 9, 2026",
+        "span_hit": true,
+        "span_pred": "4 : 00 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "january 9, 2026",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001580642-26-000252",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "2/13/2026 11:59 PM Eastern Time",
+        "pred": "february 13, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "2/13/2026 11:59 PM Eastern Time",
+        "pred": "february 13, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "Acceptance: when the Fund gives the tendering Shareholder written notice of its election to purchase the Shares | Partial-repurchase payment: generally within 35 calendar days after the Valuation Date or, if the Fund has requested withdrawal of capital from Portfolio Funds to fund the purchase, within 10 business days after receipt of at least 95% of the aggregate amount withdrawn, whichever is later | Full-repurchase initial payment: within the later of 35 calendar days after the Valuation Date or 10 business days after receipt of at least 95% of the aggregate amount requested to be withdrawn from Portfolio Funds | Full-repurchase final payment: within 60 days of completion of the next annual audit, unless delayed by changes in tax or other laws or regulations, withdrawal of proceeds from Portfolio Funds, or unusual market conditions",
+        "pred": "five",
+        "span_hit": true,
+        "span_pred": "days",
+        "n_quotes": 4
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-012276",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "2/20/2026 5:00 PM New York City time",
+        "pred": "february 20, 2026",
+        "span_hit": true,
+        "span_pred": "5 : 00 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "2/20/2026 5:00 PM New York City time | If not previously accepted, Units may also be withdrawn after 40 business days from commencement, on 3/13/2026",
+        "pred": "february 20, 2026",
+        "span_hit": true,
+        "span_pred": "5 : 00 p",
+        "n_quotes": 1
+      },
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "Acceptance: when DL VIII notifies the Adviser of its acceptance of valid tenders | Exchange and book-entry delivery: Closing Date, currently expected 4/1/2026, but no later than ten business days after acceptance or as soon as practicable thereafter",
+        "pred": "february 20, 2026",
+        "span_hit": true,
+        "span_pred": "currently",
+        "n_quotes": 2
+      },
+      "effective_date": {
+        "outcome": "mismatch",
+        "gold": "4/1/2026",
+        "pred": "march 13, 2026",
+        "span_hit": true,
+        "span_pred": "april 1, 2026",
+        "n_quotes": 1
+      }
+    }
+  },
+  {
+    "accession": "0001580642-26-000264",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "12/27/2025 11:59 PM Eastern Time",
+        "pred": "december 27, 2025",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "december 27, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-014573",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "2/17/2026 5:00 PM Central Time",
+        "pred": "march 17, 2026",
+        "span_hit": true,
+        "span_pred": "5 : 00 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "2/17/2026 5:00 PM Central Time",
+        "pred": "february 17, 2026",
+        "span_hit": true,
+        "span_pred": "march 17, 2026",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: immediately after the Expiration Date, accepted Unitholders will be issued a Repurchase Instrument | Payment: following determination of NAV as of March 31, 2026, but no later than the later of 30 days after that date or, if the Fund requested Sub-Fund withdrawals to fund the repurchase, 10 business days after receiving at least 90% of the aggregate amount withdrawn",
+        "pred": "march 31, 2026",
+        "span_hit": true,
+        "span_pred": "later",
+        "n_quotes": 3
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001731122-26-000069",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/12/2026 midnight New York City Time",
+        "pred": "monday, january 12, 2026",
+        "span_hit": true,
+        "span_pred": "monday, january 12, 2026",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: 1/14/2026 | Payment wired to depositary: 1/14/2026 | Depositary payment to holders: promptly",
+        "pred": "january 14, 2026",
+        "span_hit": true,
+        "span_pred": "january 14, 2026",
+        "n_quotes": 3
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001623632-26-000063",
+    "fields": {
+      "expiration_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001623632-26-000063",
+    "fields": {
+      "expiration_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001999371-26-001383",
+    "fields": {
+      "expiration_date": {
+        "outcome": "mismatch",
+        "gold": "1/20/2026 5:00 PM Eastern Time",
+        "pred": "december 19, 2025",
+        "span_hit": true,
+        "span_pred": "5 : 00 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "december 19, 2025",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-017254",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/27/2026 11:59 PM New York City time",
+        "pred": "january 27, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "january 27, 2026",
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-019027",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "3/6/2026 11:59 PM Eastern time",
+        "pred": "march 6, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "tp",
+        "gold": "3/6/2026 11:59 PM Eastern time",
+        "pred": "march 6, 2026",
+        "span_hit": true,
+        "span_pred": "11 : 59 p. m",
+        "n_quotes": 2
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Acceptance: when the Fund gives notice to the tendering Shareholder by payment of proceeds or other written notice | Payment: as soon as possible following determination of NAV for the Valuation Date",
+        "pred": "as soon as possible",
+        "span_hit": true,
+        "span_pred": "as soon as possible",
+        "n_quotes": 2
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-020543",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/14/2026 4:00 PM New York City time",
+        "pred": "january 14, 2026",
+        "span_hit": true,
+        "span_pred": "4 : 00 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Payment: 1/16/2026",
+        "pred": "january 16, 2026",
+        "span_hit": true,
+        "span_pred": "january 16, 2026",
+        "n_quotes": 1
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-020543",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/14/2026 4:00 PM New York City time",
+        "pred": "january 14, 2026",
+        "span_hit": true,
+        "span_pred": "4 : 00 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Payment: 1/16/2026",
+        "pred": "january 16, 2026",
+        "span_hit": true,
+        "span_pred": "january 16, 2026",
+        "n_quotes": 1
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-020543",
+    "fields": {
+      "expiration_date": {
+        "outcome": "tp",
+        "gold": "1/14/2026 4:00 PM New York City time",
+        "pred": "january 14, 2026",
+        "span_hit": true,
+        "span_pred": "4 : 00 p. m.",
+        "n_quotes": 1
+      },
+      "withdrawal_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      },
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "Payment: 1/16/2026",
+        "pred": "january 16, 2026",
+        "span_hit": true,
+        "span_pred": "january 16, 2026",
+        "n_quotes": 1
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "span_hit": null,
+        "span_pred": null,
+        "n_quotes": 0
+      }
+    }
+  }
+]
