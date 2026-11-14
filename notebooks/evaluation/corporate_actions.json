@@ -2,6 +2,8 @@
   "tender_offer": {"primary": ["SC TO-T", "SC TO-T/A", "SC TO-I", "SC TO-I/A"], "supporting": ["SC 14D9", "SC 14D9/A"], "conditional": [], "query": "\"tender offer\" OR \"offer to purchase\""},
   "exchange_offer": {"primary": ["SC TO-T", "SC TO-T/A", "SC TO-I", "SC TO-I/A", "S-4", "S-4/A", "F-4", "F-4/A", "424B3"], "supporting": ["SC 14D9", "SC 14D9/A", "SC TO-C", "425", "8-K", "6-K"], "conditional": ["SC 13E3", "SC 13E3/A"], "query": "\"exchange offer\" OR \"offer to exchange\""},
   "rights_issue": {"primary": ["S-1", "S-1/A", "F-1", "F-1/A", "424B1", "424B4", "N-2", "N-2/A", "424B3", "497"], "supporting": ["8-K", "6-K", "S-3", "S-3/A", "424B2", "424B5"], "conditional": [], "query": "\"rights offering\" OR \"subscription rights\" OR \"rights issue\""},
-  "merger": {"primary": ["DEFM14A", "PREM14A", "S-4", "S-4/A", "SC 13E3", "SC 13E3/A"], "supporting": ["8-K", "425"], "conditional": [], "query": "\"merger\" OR \"business combination\""},
+  "merger": {"primary": ["DEFM14A", "PREM14A", "S-4", "S-4/A", "SC 13E3", "SC 13E3/A"], "supporting": ["8-K", "425"], "conditional": [], "query": "\"merger\" OR \"business combination\"", "targeted": [
+    {"name": "completion", "forms": ["8-K"], "query": "\"Completion of Acquisition or Disposition of Assets\" \"Agreement and Plan of Merger\"", "n": 200, "why": "completion 8-Ks (Item 2.01) state the effective date"},
+    {"name": "election", "forms": ["DEFM14A", "S-4", "S-4/A", "8-K", "425"], "query": "\"election deadline\" \"merger consideration\"", "n": 120, "why": "elective-consideration deals state the election deadline and options"}]},
   "conversion": {"primary": ["8-K", "424B2", "424B3", "S-3", "S-3ASR"], "supporting": ["10-K", "10-Q"], "conditional": [], "query": "\"conversion rate\" OR \"conversion price\" OR \"mandatory conversion\" OR \"convertible notes\""}
 }

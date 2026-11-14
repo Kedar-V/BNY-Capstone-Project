@@ -98,3 +98,35 @@ def test_discovery_pagination_and_cache(tmp_path):
     )
     assert len(unlimited) == 105
     assert [call['size'] for call in unlimited_client.calls] == [100, 100]
+
+
+class SearchClient(Client):
+    """Fake SEC search: the general query returns 8 filings, each targeted query 3 (one also in the general set)."""
+    def efts_search(self, params):
+        q = params['q']
+        tag = 'c' if 'Completion' in q else 'e' if 'election' in q else 'g'
+        accs = [f'000000000{i}-26-00000{i}' for i in range(8)] if tag == 'g' else \
+               [f'00000001{i}-26-0000{tag}{i}' for i in range(2)] + ['0000000001-26-000001']
+        accs = accs if params['from'] == 0 else []
+        hits = [dict(_id=f'{a}:main.htm', _source=dict(adsh=a, form=params['forms'], file_date='2026-03-01',
+                    ciks=[a[:9]], display_names=[f'Co {a} (CIK {a[:9]})'])) for a in accs]
+        return dict(hits=dict(total=dict(value=len(hits), relation='eq'), hits=hits))
+
+
+def test_targeted_searches_get_reserved_slots(tmp_path):
+    import load_action_filings as laf
+    spec = dict(primary=['DEFM14A'], supporting=[], conditional=[], query='"merger"',
+                targeted=[dict(name='completion', forms=['DEFM14A'], query='"Completion"', n=2),
+                          dict(name='election', forms=['DEFM14A'], query='"election deadline"', n=5)])
+    laf.ACTIONS['test_merger'] = spec
+    try:
+        out = load_action('test_merger', '2026-01-01', '2026-09-30', n=6, output_dir=tmp_path, client=SearchClient())
+    finally:
+        del laf.ACTIONS['test_merger']
+    sel = pd.read_csv(tmp_path / 'selected_filings.csv')
+    assert len(out) == 6 and sel['accession'].is_unique
+    counts = sel['search'].value_counts()
+    assert counts['completion'] == 2          # capped at its n
+    assert counts['election'] == 3            # every new match (the shared one went to completion or general)
+    assert counts['general'] == 1             # the rest of n comes from the general search
+    assert (tmp_path / 'search_counts_completion.csv').exists()

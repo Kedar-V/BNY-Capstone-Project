@@ -75,7 +75,7 @@ def extract_text(raw):
     return '\n'.join(line for line in lines if line)
 
 
-def discover(client, spec, forms, start, end, cap, output):
+def discover(client, spec, forms, start, end, cap, output, counts_file='search_counts.csv'):
     """Search SEC by forms, keywords and dates; save results and search limits."""
     records, counts = [], []
     for form in sorted({f.removesuffix('/A') for f in forms}):
@@ -107,7 +107,7 @@ def discover(client, spec, forms, start, end, cap, output):
         counts.append(dict(form=form, loaded_hits=offset, reported_hits=total,
                            total_relation=relation,
                            truncated=(cap is not None and offset < total) or relation != 'eq'))
-    pd.DataFrame(counts).to_csv(output / 'search_counts.csv', index=False)
+    pd.DataFrame(counts).to_csv(output / counts_file, index=False)
     # a document found by several queries is listed once
     frame = pd.DataFrame(records)
     return frame.drop_duplicates("hit_id").reset_index(drop=True) if "hit_id" in frame else frame
@@ -133,8 +133,19 @@ def index_documents(raw, index_url):
     return docs
 
 
+def keep_in_range(pool, forms, start, end):
+    """Rows of the listed forms, filed in the date range, one per accession."""
+    pool = pool[pool['form'].isin(forms)].dropna(subset=['accession', 'primary_cik', 'file_date']).copy()
+    dates = pd.to_datetime(pool['file_date'], errors='coerce')
+    pool = pool[dates.between(pd.Timestamp(start), pd.Timestamp(end))].copy()
+    pool['year'] = pd.to_datetime(pool['file_date']).dt.year
+    pool['entity_key'] = pool['primary_cik'].astype(str)
+    return pool.sort_values('file_date').drop_duplicates('accession', keep='first')
+
+
 def load_action(action, start, end, n=None, include_supporting=True, include_conditional=False,
-                max_hits_per_form=None, metadata_path=None, output_dir=None, user_agent=None, client=None):
+                max_hits_per_form=None, metadata_path=None, output_dir=None, user_agent=None, client=None,
+                include_targeted=True):
     """Return a DataFrame with one row per filing; use its "text" column for the LLM.
 
     Choose action and start/end filing dates (YYYY-MM-DD). When n is omitted,
@@ -144,6 +155,10 @@ def load_action(action, start, end, n=None, include_supporting=True, include_con
     event_id starts as action_accession-number; assign the same ID to related filings
     during review when they represent one corporate-action event.
     Supporting forms are included; conditional forms are optional.
+    Targeted searches in corporate_actions.json ("targeted": name, forms, query, n) find filings the general
+    search rarely returns, such as merger completion 8-Ks (effective dates) and filings that state an election
+    deadline. Up to n of each are reserved in the sample before the rest is drawn from the general search; with no
+    n set, every match is added. The "search" column of selected_filings.csv says which search found each filing.
     metadata_path can supply a saved filing list instead of a new SEC search.
     Review results: a matching form or keyword does not confirm the action.
     Attached exhibits are included, but references to other filings are not followed.
@@ -169,16 +184,36 @@ def load_action(action, start, end, n=None, include_supporting=True, include_con
         pool = pd.read_parquet(path) if path.suffix == '.parquet' else pd.read_csv(path, dtype={'primary_cik': str})
     else:
         pool = discover(client, spec, forms, start, end, max_hits_per_form, output)
+    # Targeted searches: reserved slots for filings the general search rarely returns.
+    reserved = []
+    targets = spec.get('targeted', []) if include_targeted and not metadata_path else []
+    for t in targets:
+        hits = discover(client, t, t['forms'], start, end, max_hits_per_form, output,
+                        counts_file=f"search_counts_{t['name']}.csv")
+        if hits.empty:
+            continue
+        hits = keep_in_range(hits, t['forms'], start, end)
+        taken = set().union(*(set(r['accession']) for r in reserved)) if reserved else set()
+        hits = hits[~hits['accession'].isin(taken)]
+        quota = t.get('n')
+        if n is not None:
+            left = n - sum(len(r) for r in reserved)
+            quota = left if quota is None else min(quota, left)
+        if quota is not None:
+            hits = diversify(hits, quota) if quota > 0 else hits.head(0)
+        reserved.append(hits.assign(search=t['name']))
+        print(f"targeted search '{t['name']}': {len(hits)} filings reserved", flush=True)
     results, manifest = [], []
     if not pool.empty:
-        pool = pool[pool['form'].isin(forms)].dropna(subset=['accession', 'primary_cik', 'file_date']).copy()
-        dates = pd.to_datetime(pool['file_date'], errors='coerce')
-        pool = pool[dates.between(pd.Timestamp(start), pd.Timestamp(end))].copy()
-        pool['year'] = pd.to_datetime(pool['file_date']).dt.year
-        pool['entity_key'] = pool['primary_cik'].astype(str)
-        pool = pool.sort_values('file_date').drop_duplicates('accession', keep='first')
+        pool = keep_in_range(pool, forms, start, end).assign(search='general')
+        if reserved:
+            taken = set(pd.concat(reserved)['accession'])
+            pool = pool[~pool['accession'].isin(taken)]
         if n is not None:
-            pool = diversify(pool, n)
+            left = n - sum(len(r) for r in reserved)
+            pool = diversify(pool, left) if left > 0 else pool.head(0)
+    if reserved:
+        pool = pd.concat([*reserved, pool], ignore_index=True)
     pool.to_csv(output / 'selected_filings.csv', index=False)
     # Download each filing and its attached exhibits.
     for row in pool.to_dict('records'):
@@ -249,7 +284,7 @@ def load_action(action, start, end, n=None, include_supporting=True, include_con
     frame.drop(columns='text').to_csv(output / 'filings.csv', index=False)
     (output / 'run.json').write_text(json.dumps(dict(action=action, start=start, end=end, n=n,
         forms=forms, query=spec['query'] if not metadata_path else None, metadata_path=str(metadata_path),
-        max_hits_per_form=max_hits_per_form, selected_filings=len(frame)), indent=2), encoding='utf-8')
+        max_hits_per_form=max_hits_per_form, targeted=[t for t in targets], selected_filings=len(frame)), indent=2, default=str), encoding='utf-8')
     return frame
 
 
@@ -261,9 +296,11 @@ if __name__ == '__main__':
     parser.add_argument('--n', type=int, help='Optional maximum filings; omit to load all matches')
     parser.add_argument('--primary-only', action='store_true', help='Search primary forms only')
     parser.add_argument('--include-conditional', action='store_true', help='Also search conditional forms from the configuration')
+    parser.add_argument('--no-targeted', action='store_true', help='Skip the targeted searches in the configuration')
     parser.add_argument('--max-hits-per-form', type=int, help='Optional SEC search-result cap per base form')
     parser.add_argument('--metadata-path', type=Path, help='Optional saved filing list (.parquet or .csv)')
     parser.add_argument('--output-dir', type=Path, help='Optional folder for downloads and text')
     args = parser.parse_args()
     load_action(args.action, args.start, args.end, args.n, not args.primary_only,
-                args.include_conditional, args.max_hits_per_form, args.metadata_path, args.output_dir)
+                args.include_conditional, args.max_hits_per_form, args.metadata_path, args.output_dir,
+                include_targeted=not args.no_targeted)
