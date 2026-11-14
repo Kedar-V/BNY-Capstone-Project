@@ -1,0 +1,55 @@
+{
+  "pack": "merger",
+  "backend": "orin",
+  "model": "gemma4:26b",
+  "cascade": true,
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "n_rows": 12,
+  "n_fields": 12,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "run": "cmp_B_noft_live_r2",
+  "ft_candidates": null,
+  "ft_accessions_loaded": 0
+}
+temporal+load:   0%|          | 0/12 [00:00<?, ?row/s]temporal+load: 100%|██████████| 12/12 [00:00<00:00, 782.17row/s]
+temporal_cache hits=12 misses=0 (tagger_loaded=False)
+llm remaining=144 done=0 total=144
+llm_fields:   0%|          | 0/144 [00:00<?, ?call/s][1/144] 0001437749-26-000391 target pass=A_inventory GT='Crawford United Corporation' pred='CRAWFORD UNITED Corp'
+                                                     [1/144] 0001437749-26-000391 target pass=A_inventory GT='Crawford United Corporation' pred='CRAWFORD UNITED Corp'
+llm_fields:   0%|          | 0/144 [00:00<?, ?call/s][2/144] 0001437749-26-000391 stock_exchange_ratio pass=B_null GT='No stock consideration' pred=None
+                                                     [2/144] 0001437749-26-000391 stock_exchange_ratio pass=B_null GT='No stock consideration' pred=None
+llm_fields:   1%|          | 1/144 [00:02<05:04,  2.13s/call, 7749-26-000391 target A_inventory]llm_fields:   1%|▏         | 2/144 [00:02<02:31,  1.07s/call, 7749-26-000391 stock_exchange_ratio B_null][3/144] 0001437749-26-000391 acquirer pass=B GT='SPX Enterprises, LLC' pred='SPX Enterprises, LLC'
+                                                                                                         [3/144] 0001437749-26-000391 acquirer pass=B GT='SPX Enterprises, LLC' pred='SPX Enterprises, LLC'
+llm_fields:   1%|▏         | 2/144 [00:02<02:31,  1.07s/call, 7749-26-000391 stock_exchange_ratio B_null][4/144] 0001437749-26-000391 consideration_type pass=B+C_keep GT='Cash' pred='cash'
+                                                                                                         [4/144] 0001437749-26-000391 consideration_type pass=B+C_keep GT='Cash' pred='cash'
+llm_fields:   2%|▏         | 3/144 [00:05<02:30,  1.07s/call, 7749-26-000391 acquirer B]llm_fields:   3%|▎         | 4/144 [00:05<03:18,  1.42s/call, 7749-26-000391 consideration_type B+C_keep][5/144] 0001437749-26-000391 election_deadline pass=B_null GT='' pred=None
+                                                                                                         [5/144] 0001437749-26-000391 election_deadline pass=B_null GT='' pred=None
+llm_fields:   3%|▎         | 4/144 [00:05<03:18,  1.42s/call, 7749-26-000391 consideration_type B+C_keep][6/144] 0001437749-26-000391 cash_consideration pass=B+C_keep GT='$84.44 per share' pred='$83.42'
+                                                                                                         [6/144] 0001437749-26-000391 cash_consideration pass=B+C_keep GT='$84.44 per share' pred='$83.42'
+llm_fields:   3%|▎         | 5/144 [00:05<03:16,  1.42s/call, 7749-26-000391 election_deadline B_null]llm_fields:   4%|▍         | 6/144 [00:05<01:49,  1.26call/s, 7749-26-000391 cash_consideration B+C_keep][7/144] 0001437749-26-000391 effective_date pass=B_null GT='' pred=None
+                                                                                                         [7/144] 0001437749-26-000391 effective_date pass=B_null GT='' pred=None
+llm_fields:   4%|▍         | 6/144 [00:08<01:49,  1.26call/s, 7749-26-000391 cash_consideration B+C_keep]llm_fields:   5%|▍         | 7/144 [00:08<02:45,  1.20s/call, 7749-26-000391 effective_date B_null]      [8/144] 0001437749-26-000391 cusip pass=empty GT='' pred=None
+                                                                                                   [8/144] 0001437749-26-000391 cusip pass=empty GT='' pred=None
+llm_fields:   5%|▍         | 7/144 [00:08<02:45,  1.20s/call, 7749-26-000391 effective_date B_null][9/144] 0001437749-26-000391 isin pass=empty GT='' pred=None
+                                                                                                   [9/144] 0001437749-26-000391 isin pass=empty GT='' pred=None
+llm_fields:   6%|▌         | 8/144 [00:08<02:43,  1.20s/call, 7749-26-000391 cusip empty][10/144] 0001437749-26-000391 ticker pass=A GT='CRAWA' pred='SPXC'
+                                                                                         [10/144] 0001437749-26-000391 ticker pass=A GT='CRAWA' pred='SPXC'
+llm_fields:   6%|▋         | 9/144 [00:08<02:42,  1.20s/call, 7749-26-000391 isin empty][11/144] 0001193125-26-003553 target pass=A_inventory GT='CNL Healthcare Properties, Inc.' pred='CNL Healthcare Properties, Inc.'
+                                                                                        [11/144] 0001193125-26-003553 target pass=A_inventory GT='CNL Healthcare Properties, Inc.' pred='CNL Healthcare Properties, Inc.'
+llm_fields:   7%|▋         | 10/144 [00:08<02:41,  1.20s/call, 7749-26-000391 ticker A]/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-r6rkoiby'}
+  warnings.warn(

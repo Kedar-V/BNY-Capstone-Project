@@ -1,0 +1,118 @@
+[
+  {
+    "accession": "0001104659-26-002481",
+    "event_id": "merger_0001104659-26-002481",
+    "n_spans": 15,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "International Business Machines Corporation (IBM), through its wholly owned merger subsidiary Corvo Merger Sub, Inc.",
+        "pred": "International Business Machines Corporation",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 1606,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"acquirer\": \"International Business Machines Corporation\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'International Business Machines Corporation' is identified as a purchaser in multiple GLINER spans with scores ranging from 0.51 to 0.72, indicating st"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "Confluent, Inc.",
+        "pred": "Confluent",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 1395,
+        "n_rules": 0,
+        "raw_llm": "B:{\n    \"target\": \"Confluent\"\n} | C:{\n    \"keep\": true,\n    \"reasoning\": \"The candidate 'Confluent' is validated against the definition of an entity being acquired. The evidence shows multiple mentions in GLINER SPANS with high scores ("
+      },
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Cash, subject to limited exceptions including shares for which appraisal rights are properly exercised.",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 640,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"consideration_type\": \"Cash\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Cash' matches one of the defined consideration types: \\\"Cash\\\". The evidence shows a clear offer price context stating '$31.00 in cash', which directly"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "USD $31.00 in cash per share of Confluent, Inc. Class A common stock, without interest and subject to applicable withholding taxes, except for canceled shares, dissenting shares and subsidiary-converted shares; subject to adjustment for specified changes in outstanding shares before the effective time.",
+        "pred": "$31.00",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 640,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"cash_consideration\": \"$31.00\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$31.00' is a specific cash per share amount with currency ($), which matches the definition of 'Cash per share/unit with currency when stated'. The evi"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "No stock consideration for eligible Confluent, Inc. Class A common stock.",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "Confluent, Inc. stockholders\u2019 special meeting scheduled for 2/12/2026 at 9:00 a.m., Pacific Time.",
+        "pred": null,
+        "pass_used": "error",
+        "n_evidence_chars": 0,
+        "n_rules": 0,
+        "raw_llm": "Expecting ',' delimiter: line 44 column 10 (char 2566)"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 4469,
+        "n_rules": 0,
+        "raw_llm": "B:{\n    \"election_deadline\": null\n}"
+      },
+      "effective_date": {
+        "outcome": "fn",
+        "gold": "Not specified. The merger will become effective when the certificate of merger is filed with the Delaware Secretary of State, or at a later date and time agreed by IBM and Confluent and specified in that certificate.",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 4469,
+        "n_rules": 0,
+        "raw_llm": "B:{\n    \"effective_date\": null\n}"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Confluent, Inc. Class A common stock, par value $0.00001 per share.",
+        "pred": "Class A common stock",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 656,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"security_description\": \"Class A common stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Class A common stock' matches the definition of a short class/type of affected security. The evidence from GLINER SPANS shows that both hints have valu"
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "CFLT",
+        "pred": "CFLT",
+        "pass_used": "A_rules",
+        "n_evidence_chars": 48,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'CFLT'"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  }
+]

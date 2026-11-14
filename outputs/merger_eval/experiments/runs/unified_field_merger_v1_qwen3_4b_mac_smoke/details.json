@@ -1,0 +1,118 @@
+[
+  {
+    "accession": "0001104659-26-001822",
+    "event_id": "merger_0001104659-26-001822",
+    "n_spans": 2,
+    "n_excerpt_chars": 446,
+    "fields": {
+      "acquirer": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": null}\n</think>\n\n{\"acquirer\": null}"
+      },
+      "target": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": null}\n</think>\n\n{\"target\": null}"
+      },
+      "consideration_type": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"consideration_type\": null}\n</think>\n\n{\"consideration_type\": null}"
+      },
+      "cash_consideration": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": null}. So, I just need to output that JSON. No need to do any cleanup because there's no evidence. The instructions say not to invent any values, so since there's nothing, null is correct.\n\nLet me double-check. The problem states: \"Evidence pack is empty for this field \u2192 retur"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"stock_exchange_ratio\": null}.\n</think>\n\n{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 570,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given two temporal spans in the evidence. The definition is: \"Date/time of the shareholder vote on the merger when explicitly stated.\"\n\nWe have two candidate dates:\n1. 'june 24, 2024' with field_cues=0\n2. 'december 31, 2024' with field_cues=0\n\nBut note: the context for the first date is: \n  \""
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 570,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given two temporal spans in the evidence. The definition is: \"Deadline for holders to elect among consideration options, when stated.\"\n\nWe are to pick the best matching date that has election/choice cues. The evidence provides two dates:\n\n1. 'june 24, 2024' with field_cues=0\n2. 'december 31, "
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 570,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given two temporal spans in the evidence. The definition is: Legal closing / consummation / effectiveness date of the merger.\n\nWe have two candidate dates:\n1. 'june 24, 2024' with field_cues=0 (this is the date when the agreement was entered into)\n2. 'december 31, 2024' with field_cues=0 (thi"
+      },
+      "security_description": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"security_description\": null}\n\n Let's write it as:\n {\"security_description\": null}\n</think>\n\n{\"security_description\": null}"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CRTAF, CRTUF, CRTWF",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"ticker\": null}\n\n Let's write the JSON as required.\n</think>\n\n{\"ticker\": null}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cusip\": null}\n</think>\n\n{\"cusip\": null}"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"isin\": null}\n</think>\n\n{\"isin\": null}"
+      }
+    }
+  }
+]

@@ -1,0 +1,42 @@
+loading temporal tagger on cpu…
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6256.07it/s]
+{
+  "pack": "tender",
+  "backend": "orin",
+  "model": "gemma4:26b",
+  "cascade": false,
+  "validate": false,
+  "concurrency": 4,
+  "think": false,
+  "n_rows": 23,
+  "n_fields": 14,
+  "fields": [
+    "subject_company",
+    "bidder",
+    "security_description",
+    "cusip",
+    "isin",
+    "ticker",
+    "offer_price",
+    "currency",
+    "expiration_date",
+    "withdrawal_deadline",
+    "settlement_date",
+    "effective_date",
+    "minimum_tender_condition",
+    "proration_terms"
+  ],
+  "run": "unified_field_tender_v1_gemma4_26b_orin_holdout"
+}
+[1/322] 0001193125-26-000507 cusip pass=oneshot pred=None
+[2/322] 0001193125-26-000507 security_description pass=oneshot pred=None
+[3/322] 0001193125-26-000507 subject_company pass=oneshot pred='Jefferies Credit Partners BDC Inc.'
+[4/322] 0001193125-26-000507 isin pass=oneshot pred=None
+[5/322] 0001193125-26-000507 bidder pass=oneshot pred='Jefferies Credit Partners BDC Inc.'
+[6/322] 0001193125-26-000507 offer_price pass=oneshot pred='net asset value per Share'
+[7/322] 0001193125-26-000507 currency pass=oneshot pred=None
+[8/322] 0001193125-26-000507 ticker pass=oneshot pred='Class I Shares'
+[9/322] 0001193125-26-000507 expiration_date pass=oneshot pred=None
+/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/loky-74334-w7w2jot9'}
+  warnings.warn(

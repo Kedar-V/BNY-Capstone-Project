@@ -1,0 +1,178 @@
+{
+  "model": "qwen3:4b",
+  "mode": "unified_rules_gliner_temporal_per_field",
+  "evidence": "field-filtered rules + GLiNER spans + temporal DATE spans (dates only)",
+  "n_rows": 23,
+  "fields": [
+    "subject_company",
+    "bidder",
+    "security_description",
+    "cusip",
+    "isin",
+    "ticker",
+    "offer_price",
+    "currency",
+    "expiration_date",
+    "withdrawal_deadline",
+    "settlement_date",
+    "effective_date",
+    "minimum_tender_condition",
+    "proration_terms"
+  ],
+  "micro": {
+    "precision": 0.8387096774193549,
+    "recall": 0.1326530612244898,
+    "f1": 0.22907488986784144
+  },
+  "tp": 26,
+  "fp": 5,
+  "fn": 170,
+  "per_field": {
+    "subject_company": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 11,
+      "gt_present": 23,
+      "pred_present": 12,
+      "precision": 1.0,
+      "recall": 0.5217391304347826,
+      "f1": 0.6857142857142856
+    },
+    "bidder": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 23,
+      "gt_present": 23,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "security_description": {
+      "tp": 5,
+      "fp": 3,
+      "fn": 18,
+      "gt_present": 23,
+      "pred_present": 8,
+      "precision": 0.625,
+      "recall": 0.21739130434782608,
+      "f1": 0.3225806451612903
+    },
+    "cusip": {
+      "tp": 6,
+      "fp": 1,
+      "fn": 7,
+      "gt_present": 13,
+      "pred_present": 7,
+      "precision": 0.8571428571428571,
+      "recall": 0.46153846153846156,
+      "f1": 0.6
+    },
+    "isin": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 10,
+      "gt_present": 13,
+      "pred_present": 3,
+      "precision": 1.0,
+      "recall": 0.23076923076923078,
+      "f1": 0.375
+    },
+    "ticker": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "gt_present": 7,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "offer_price": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 23,
+      "gt_present": 23,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "currency": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "gt_present": 2,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "expiration_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 22,
+      "gt_present": 22,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "withdrawal_deadline": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 10,
+      "gt_present": 10,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "settlement_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 15,
+      "gt_present": 15,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "gt_present": 4,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "minimum_tender_condition": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 11,
+      "gt_present": 11,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "proration_terms": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "gt_present": 7,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "oracle_routing_micro_f1": 0.837
+  },
+  "delta_vs_allspans": -0.25192511013215857,
+  "delta_vs_oracle": -0.6079251101321586
+}

@@ -1,0 +1,454 @@
+{
+ "Ref_allspans": {
+  "runs": {
+   "unified_field_merger_v2_gemma4_orin_aesha_ft_allspans_8acc": {
+    "micro": {
+     "precision": 0.4861111111111111,
+     "recall": 0.4430379746835443,
+     "f1": 0.46357615894039733
+    },
+    "tp": 35,
+    "fp": 37,
+    "fn": 44,
+    "n_rows": 12,
+    "wall_seconds": 99.1,
+    "per_field_f1": {
+     "acquirer": 0.8695652173913043,
+     "target": 0.5833333333333334,
+     "consideration_type": 0.26666666666666666,
+     "cash_consideration": 0.7499999999999999,
+     "stock_exchange_ratio": 0.09523809523809525,
+     "shareholder_vote_date": 0.6153846153846154,
+     "election_deadline": null,
+     "effective_date": null,
+     "security_description": 0.5,
+     "ticker": 0.23529411764705882,
+     "cusip": null,
+     "isin": null
+    },
+    "pass_counts": {
+     "B": 43,
+     "A_inventory": 4,
+     "B+C_keep": 20,
+     "B_null": 14,
+     "A": 5,
+     "empty": 50,
+     "B+C_drop": 8
+    },
+    "accessions": [
+     "0001104659-26-004251",
+     "0001185185-26-000166",
+     "0001193125-26-003553",
+     "0001193125-26-010471",
+     "0001193125-26-012952",
+     "0001193125-26-016598",
+     "0001437749-26-000391",
+     "0001493152-26-002095"
+    ]
+   }
+  },
+  "f1_mean": 0.46357615894039733,
+  "f1_min": 0.46357615894039733,
+  "f1_max": 0.46357615894039733,
+  "per_field_f1_mean": {
+   "acquirer": 0.8695652173913043,
+   "target": 0.5833333333333334,
+   "consideration_type": 0.26666666666666666,
+   "cash_consideration": 0.7499999999999999,
+   "stock_exchange_ratio": 0.09523809523809525,
+   "shareholder_vote_date": 0.6153846153846154,
+   "security_description": 0.5,
+   "ticker": 0.23529411764705882
+  },
+  "per_accession_tp_mean": {
+   "0001437749-26-000391": 5.0,
+   "0001193125-26-003553": 4.0,
+   "0001193125-26-010471": 6.0,
+   "0001493152-26-002095": 7.0,
+   "0001193125-26-012952": 5.0,
+   "0001185185-26-000166": 3.0,
+   "0001104659-26-004251": 2.0,
+   "0001193125-26-016598": 3.0
+  }
+ },
+ "Ref_spans": {
+  "runs": {
+   "unified_field_merger_v2_gemma4_orin_aesha_ft_spans_8acc": {
+    "micro": {
+     "precision": 0.4305555555555556,
+     "recall": 0.3924050632911392,
+     "f1": 0.4105960264900662
+    },
+    "tp": 31,
+    "fp": 41,
+    "fn": 48,
+    "n_rows": 12,
+    "wall_seconds": 124.49,
+    "per_field_f1": {
+     "acquirer": 0.43478260869565216,
+     "target": 0.5833333333333334,
+     "consideration_type": 0.4,
+     "cash_consideration": 0.7499999999999999,
+     "stock_exchange_ratio": 0.09523809523809525,
+     "shareholder_vote_date": 0.6153846153846154,
+     "election_deadline": null,
+     "effective_date": null,
+     "security_description": 0.5,
+     "ticker": 0.23529411764705882,
+     "cusip": null,
+     "isin": null
+    },
+    "pass_counts": {
+     "B": 43,
+     "A_inventory": 4,
+     "B+C_keep": 20,
+     "B_null": 14,
+     "A": 5,
+     "empty": 50,
+     "B+C_drop": 8
+    },
+    "accessions": [
+     "0001104659-26-004251",
+     "0001185185-26-000166",
+     "0001193125-26-003553",
+     "0001193125-26-010471",
+     "0001193125-26-012952",
+     "0001193125-26-016598",
+     "0001437749-26-000391",
+     "0001493152-26-002095"
+    ]
+   }
+  },
+  "f1_mean": 0.4105960264900662,
+  "f1_min": 0.4105960264900662,
+  "f1_max": 0.4105960264900662,
+  "per_field_f1_mean": {
+   "acquirer": 0.43478260869565216,
+   "target": 0.5833333333333334,
+   "consideration_type": 0.4,
+   "cash_consideration": 0.7499999999999999,
+   "stock_exchange_ratio": 0.09523809523809525,
+   "shareholder_vote_date": 0.6153846153846154,
+   "security_description": 0.5,
+   "ticker": 0.23529411764705882
+  },
+  "per_accession_tp_mean": {
+   "0001437749-26-000391": 5.0,
+   "0001193125-26-003553": 5.0,
+   "0001193125-26-010471": 6.0,
+   "0001493152-26-002095": 2.0,
+   "0001193125-26-012952": 5.0,
+   "0001185185-26-000166": 3.0,
+   "0001104659-26-004251": 2.0,
+   "0001193125-26-016598": 3.0
+  }
+ },
+ "A_ft_live": {
+  "runs": {
+   "cmp_A_ft_live_r1": {
+    "micro": {
+     "precision": 0.4305555555555556,
+     "recall": 0.3924050632911392,
+     "f1": 0.4105960264900662
+    },
+    "tp": 31,
+    "fp": 41,
+    "fn": 48,
+    "n_rows": 12,
+    "wall_seconds": 305.47,
+    "per_field_f1": {
+     "acquirer": 0.43478260869565216,
+     "target": 0.5833333333333334,
+     "consideration_type": 0.4,
+     "cash_consideration": 0.7499999999999999,
+     "stock_exchange_ratio": 0.09523809523809525,
+     "shareholder_vote_date": 0.6153846153846154,
+     "election_deadline": null,
+     "effective_date": null,
+     "security_description": 0.5,
+     "ticker": 0.23529411764705882,
+     "cusip": null,
+     "isin": null
+    },
+    "pass_counts": {
+     "B": 43,
+     "A_inventory": 4,
+     "B+C_keep": 20,
+     "B_null": 14,
+     "A": 5,
+     "empty": 50,
+     "B+C_drop": 8
+    },
+    "accessions": [
+     "0001104659-26-004251",
+     "0001185185-26-000166",
+     "0001193125-26-003553",
+     "0001193125-26-010471",
+     "0001193125-26-012952",
+     "0001193125-26-016598",
+     "0001437749-26-000391",
+     "0001493152-26-002095"
+    ]
+   },
+   "cmp_A_ft_live_r2": {
+    "micro": {
+     "precision": 0.4305555555555556,
+     "recall": 0.3924050632911392,
+     "f1": 0.4105960264900662
+    },
+    "tp": 31,
+    "fp": 41,
+    "fn": 48,
+    "n_rows": 12,
+    "wall_seconds": 101.47,
+    "per_field_f1": {
+     "acquirer": 0.43478260869565216,
+     "target": 0.5833333333333334,
+     "consideration_type": 0.4,
+     "cash_consideration": 0.7499999999999999,
+     "stock_exchange_ratio": 0.09523809523809525,
+     "shareholder_vote_date": 0.6153846153846154,
+     "election_deadline": null,
+     "effective_date": null,
+     "security_description": 0.5,
+     "ticker": 0.23529411764705882,
+     "cusip": null,
+     "isin": null
+    },
+    "pass_counts": {
+     "B": 43,
+     "A_inventory": 4,
+     "B+C_keep": 20,
+     "B_null": 14,
+     "A": 5,
+     "empty": 50,
+     "B+C_drop": 8
+    },
+    "accessions": [
+     "0001104659-26-004251",
+     "0001185185-26-000166",
+     "0001193125-26-003553",
+     "0001193125-26-010471",
+     "0001193125-26-012952",
+     "0001193125-26-016598",
+     "0001437749-26-000391",
+     "0001493152-26-002095"
+    ]
+   }
+  },
+  "f1_mean": 0.4105960264900662,
+  "f1_min": 0.4105960264900662,
+  "f1_max": 0.4105960264900662,
+  "per_field_f1_mean": {
+   "acquirer": 0.43478260869565216,
+   "target": 0.5833333333333334,
+   "consideration_type": 0.4,
+   "cash_consideration": 0.7499999999999999,
+   "stock_exchange_ratio": 0.09523809523809525,
+   "shareholder_vote_date": 0.6153846153846154,
+   "security_description": 0.5,
+   "ticker": 0.23529411764705882
+  },
+  "per_accession_tp_mean": {
+   "0001437749-26-000391": 5.0,
+   "0001193125-26-003553": 5.0,
+   "0001193125-26-010471": 6.0,
+   "0001493152-26-002095": 2.0,
+   "0001193125-26-012952": 5.0,
+   "0001185185-26-000166": 3.0,
+   "0001104659-26-004251": 2.0,
+   "0001193125-26-016598": 3.0
+  }
+ },
+ "B_noft_live": {
+  "runs": {
+   "cmp_B_noft_live_r1": {
+    "micro": {
+     "precision": 0.36923076923076925,
+     "recall": 0.3037974683544304,
+     "f1": 0.3333333333333333
+    },
+    "tp": 24,
+    "fp": 41,
+    "fn": 55,
+    "n_rows": 12,
+    "wall_seconds": 95.65,
+    "per_field_f1": {
+     "acquirer": 0.16666666666666666,
+     "target": 0.5833333333333334,
+     "consideration_type": 0.2608695652173913,
+     "cash_consideration": 0.4,
+     "stock_exchange_ratio": null,
+     "shareholder_vote_date": 0.5714285714285715,
+     "election_deadline": null,
+     "effective_date": null,
+     "security_description": 0.4166666666666667,
+     "ticker": 0.2222222222222222,
+     "cusip": null,
+     "isin": null
+    },
+    "pass_counts": {
+     "B": 33,
+     "A_inventory": 4,
+     "B+C_keep": 23,
+     "B_null": 57,
+     "A": 5,
+     "empty": 21,
+     "B+C_drop": 1
+    },
+    "accessions": [
+     "0001104659-26-004251",
+     "0001185185-26-000166",
+     "0001193125-26-003553",
+     "0001193125-26-010471",
+     "0001193125-26-012952",
+     "0001193125-26-016598",
+     "0001437749-26-000391",
+     "0001493152-26-002095"
+    ]
+   },
+   "cmp_B_noft_live_r2": {
+    "error": "[Errno 2] No such file or directory: 'outputs/merger_eval/experiments/runs/cmp_B_noft_live_r2/summary.json'"
+   }
+  },
+  "f1_mean": 0.3333333333333333,
+  "f1_min": 0.3333333333333333,
+  "f1_max": 0.3333333333333333,
+  "per_field_f1_mean": {
+   "acquirer": 0.16666666666666666,
+   "target": 0.5833333333333334,
+   "consideration_type": 0.2608695652173913,
+   "cash_consideration": 0.4,
+   "shareholder_vote_date": 0.5714285714285715,
+   "security_description": 0.4166666666666667,
+   "ticker": 0.2222222222222222
+  },
+  "per_accession_tp_mean": {
+   "0001437749-26-000391": 5.0,
+   "0001193125-26-003553": 4.0,
+   "0001193125-26-010471": 5.0,
+   "0001493152-26-002095": 0.0,
+   "0001193125-26-012952": 4.0,
+   "0001185185-26-000166": 3.0,
+   "0001104659-26-004251": 2.0,
+   "0001193125-26-016598": 1.0
+  }
+ },
+ "C_graph": {
+  "runs": {
+   "cmp_C_graph_r1": {
+    "micro": {
+     "precision": 0.32894736842105265,
+     "recall": 0.31645569620253167,
+     "f1": 0.3225806451612903
+    },
+    "tp": 25,
+    "fp": 51,
+    "fn": 54,
+    "n_rows": 12,
+    "wall_seconds": 93.04,
+    "per_field_f1": {
+     "acquirer": 0.08333333333333333,
+     "target": 0.6086956521739131,
+     "consideration_type": 0.2608695652173913,
+     "cash_consideration": 0.4,
+     "stock_exchange_ratio": 0.1904761904761905,
+     "shareholder_vote_date": 0.5714285714285715,
+     "election_deadline": null,
+     "effective_date": null,
+     "security_description": 0.4166666666666667,
+     "ticker": 0.2222222222222222,
+     "cusip": null,
+     "isin": null
+    },
+    "pass_counts": {
+     "B": 44,
+     "A_inventory": 4,
+     "B+C_keep": 23,
+     "B_null": 46,
+     "A_rules": 5,
+     "empty": 21,
+     "B+C_drop": 1
+    },
+    "accessions": [
+     "0001104659-26-004251",
+     "0001185185-26-000166",
+     "0001193125-26-003553",
+     "0001193125-26-010471",
+     "0001193125-26-012952",
+     "0001193125-26-016598",
+     "0001437749-26-000391",
+     "0001493152-26-002095"
+    ]
+   },
+   "cmp_C_graph_r2": {
+    "micro": {
+     "precision": 0.32894736842105265,
+     "recall": 0.31645569620253167,
+     "f1": 0.3225806451612903
+    },
+    "tp": 25,
+    "fp": 51,
+    "fn": 54,
+    "n_rows": 12,
+    "wall_seconds": 97.42,
+    "per_field_f1": {
+     "acquirer": 0.08333333333333333,
+     "target": 0.6086956521739131,
+     "consideration_type": 0.2608695652173913,
+     "cash_consideration": 0.4,
+     "stock_exchange_ratio": 0.1904761904761905,
+     "shareholder_vote_date": 0.5714285714285715,
+     "election_deadline": null,
+     "effective_date": null,
+     "security_description": 0.4166666666666667,
+     "ticker": 0.2222222222222222,
+     "cusip": null,
+     "isin": null
+    },
+    "pass_counts": {
+     "B": 44,
+     "A_inventory": 4,
+     "B+C_keep": 23,
+     "B_null": 45,
+     "A_rules": 5,
+     "empty": 21,
+     "B+C_drop": 2
+    },
+    "accessions": [
+     "0001104659-26-004251",
+     "0001185185-26-000166",
+     "0001193125-26-003553",
+     "0001193125-26-010471",
+     "0001193125-26-012952",
+     "0001193125-26-016598",
+     "0001437749-26-000391",
+     "0001493152-26-002095"
+    ]
+   }
+  },
+  "f1_mean": 0.3225806451612903,
+  "f1_min": 0.3225806451612903,
+  "f1_max": 0.3225806451612903,
+  "per_field_f1_mean": {
+   "acquirer": 0.08333333333333333,
+   "target": 0.6086956521739131,
+   "consideration_type": 0.2608695652173913,
+   "cash_consideration": 0.4,
+   "stock_exchange_ratio": 0.1904761904761905,
+   "shareholder_vote_date": 0.5714285714285715,
+   "security_description": 0.4166666666666667,
+   "ticker": 0.2222222222222222
+  },
+  "per_accession_tp_mean": {
+   "0001437749-26-000391": 6.0,
+   "0001193125-26-003553": 4.0,
+   "0001193125-26-010471": 6.0,
+   "0001493152-26-002095": 2.0,
+   "0001193125-26-012952": 3.0,
+   "0001185185-26-000166": 2.0,
+   "0001104659-26-004251": 1.0,
+   "0001193125-26-016598": 1.0
+  }
+ }
+}

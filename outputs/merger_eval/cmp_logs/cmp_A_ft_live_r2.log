@@ -1,0 +1,492 @@
+{
+  "pack": "merger",
+  "backend": "orin",
+  "model": "gemma4:26b",
+  "cascade": true,
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "n_rows": 12,
+  "n_fields": 12,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "run": "cmp_A_ft_live_r2",
+  "ft_candidates": "mergers_extraction/outputs/methods/gliner_candidates/medium_val_onepass.jsonl",
+  "ft_accessions_loaded": 155
+}
+temporal+load:   0%|          | 0/12 [00:00<?, ?row/s]temporal+load: 100%|██████████| 12/12 [00:00<00:00, 764.92row/s]
+temporal_cache hits=12 misses=0 (tagger_loaded=False)
+llm remaining=144 done=0 total=144
+llm_fields:   0%|          | 0/144 [00:00<?, ?call/s][1/144] 0001437749-26-000391 target pass=A_inventory GT='Crawford United Corporation' pred='CRAWFORD UNITED Corp'
+                                                     [1/144] 0001437749-26-000391 target pass=A_inventory GT='Crawford United Corporation' pred='CRAWFORD UNITED Corp'
+llm_fields:   0%|          | 0/144 [00:00<?, ?call/s][2/144] 0001437749-26-000391 acquirer pass=B GT='SPX Enterprises, LLC' pred='SPX Enterprises, LLC'
+                                                     [2/144] 0001437749-26-000391 acquirer pass=B GT='SPX Enterprises, LLC' pred='SPX Enterprises, LLC'
+llm_fields:   1%|          | 1/144 [00:02<05:05,  2.14s/call, 7749-26-000391 target A_inventory]llm_fields:   1%|▏         | 2/144 [00:02<02:31,  1.07s/call, 7749-26-000391 acquirer B]        [3/144] 0001437749-26-000391 stock_exchange_ratio pass=B GT='No stock consideration' pred='one newly issued, fu'
+                                                                                        [3/144] 0001437749-26-000391 stock_exchange_ratio pass=B GT='No stock consideration' pred='one newly issued, fu'
+llm_fields:   1%|▏         | 2/144 [00:04<02:31,  1.07s/call, 7749-26-000391 acquirer B]llm_fields:   2%|▏         | 3/144 [00:04<03:27,  1.47s/call, 7749-26-000391 stock_exchange_ratio B][4/144] 0001437749-26-000391 cash_consideration pass=B+C_keep GT='$84.44 per share' pred='$84.44'
+                                                                                                    [4/144] 0001437749-26-000391 cash_consideration pass=B+C_keep GT='$84.44 per share' pred='$84.44'
+llm_fields:   2%|▏         | 3/144 [00:05<03:27,  1.47s/call, 7749-26-000391 stock_exchange_ratio B]llm_fields:   3%|▎         | 4/144 [00:05<03:34,  1.53s/call, 7749-26-000391 cash_consideration B+C_keep][5/144] 0001437749-26-000391 consideration_type pass=B+C_keep GT='Cash' pred='cash'
+                                                                                                         [5/144] 0001437749-26-000391 consideration_type pass=B+C_keep GT='Cash' pred='cash'
+llm_fields:   3%|▎         | 4/144 [00:05<03:34,  1.53s/call, 7749-26-000391 cash_consideration B+C_keep][6/144] 0001437749-26-000391 election_deadline pass=B_null GT='' pred=None
+                                                                                                         [6/144] 0001437749-26-000391 election_deadline pass=B_null GT='' pred=None
+llm_fields:   3%|▎         | 5/144 [00:07<03:33,  1.53s/call, 7749-26-000391 consideration_type B+C_keep]llm_fields:   4%|▍         | 6/144 [00:07<02:56,  1.28s/call, 7749-26-000391 election_deadline B_null]   [7/144] 0001437749-26-000391 ticker pass=A GT='CRAWA' pred='SPXC'
+                                                                                                      [7/144] 0001437749-26-000391 ticker pass=A GT='CRAWA' pred='SPXC'
+llm_fields:   4%|▍         | 6/144 [00:10<02:56,  1.28s/call, 7749-26-000391 election_deadline B_null]llm_fields:   5%|▍         | 7/144 [00:10<03:45,  1.64s/call, 7749-26-000391 ticker A]                [8/144] 0001437749-26-000391 cusip pass=empty GT='' pred=None
+                                                                                      [8/144] 0001437749-26-000391 cusip pass=empty GT='' pred=None
+llm_fields:   5%|▍         | 7/144 [00:10<03:45,  1.64s/call, 7749-26-000391 ticker A][9/144] 0001437749-26-000391 isin pass=empty GT='' pred=None
+                                                                                      [9/144] 0001437749-26-000391 isin pass=empty GT='' pred=None
+llm_fields:   6%|▌         | 8/144 [00:10<03:43,  1.64s/call, 7749-26-000391 cusip empty][10/144] 0001437749-26-000391 security_description pass=B GT='Class A common capital stock and Class B common capital stock' pred='common stock'
+                                                                                         [10/144] 0001437749-26-000391 security_description pass=B GT='Class A common capital stock and Class B common capital stock' pred='common stock'
+llm_fields:   6%|▋         | 9/144 [00:10<03:41,  1.64s/call, 7749-26-000391 isin empty][11/144] 0001193125-26-003553 target pass=A_inventory GT='CNL Healthcare Properties, Inc.' pred='CNL Healthcare Properties, Inc.'
+                                                                                        [11/144] 0001193125-26-003553 target pass=A_inventory GT='CNL Healthcare Properties, Inc.' pred='CNL Healthcare Properties, Inc.'
+llm_fields:   7%|▋         | 10/144 [00:10<03:40,  1.64s/call, 7749-26-000391 security_description B][12/144] 0001437749-26-000391 shareholder_vote_date pass=B+C_keep GT='2/3/2026 10:00 AM Eastern Time' pred='February 3, 2026'
+                                                                                                     [12/144] 0001437749-26-000391 shareholder_vote_date pass=B+C_keep GT='2/3/2026 10:00 AM Eastern Time' pred='February 3, 2026'
+llm_fields:   8%|▊         | 11/144 [00:10<03:38,  1.64s/call, 3125-26-003553 target A_inventory][13/144] 0001437749-26-000391 effective_date pass=B+C_keep GT='' pred='first quarter of 2026'
+                                                                                                 [13/144] 0001437749-26-000391 effective_date pass=B+C_keep GT='' pred='first quarter of 2026'
+llm_fields:   8%|▊         | 12/144 [00:14<03:36,  1.64s/call, 7749-26-000391 shareholder_vote_date B+C_keep]llm_fields:   9%|▉         | 13/144 [00:14<02:03,  1.06call/s, 7749-26-000391 effective_date B+C_keep]       [14/144] 0001193125-26-003553 acquirer pass=B GT='Sonida Senior Living, Inc.' pred='Sonida Senior Living, Inc.'
+                                                                                                      [14/144] 0001193125-26-003553 acquirer pass=B GT='Sonida Senior Living, Inc.' pred='Sonida Senior Living, Inc.'
+llm_fields:   9%|▉         | 13/144 [00:15<02:03,  1.06call/s, 7749-26-000391 effective_date B+C_keep]llm_fields:  10%|▉         | 14/144 [00:15<02:12,  1.02s/call, 3125-26-003553 acquirer B]             [15/144] 0001193125-26-003553 consideration_type pass=B+C_keep GT='Mixed cash and stock' pred='Mixed cash and stock'
+                                                                                         [15/144] 0001193125-26-003553 consideration_type pass=B+C_keep GT='Mixed cash and stock' pred='Mixed cash and stock'
+llm_fields:  10%|▉         | 14/144 [00:17<02:12,  1.02s/call, 3125-26-003553 acquirer B]llm_fields:  10%|█         | 15/144 [00:17<02:21,  1.10s/call, 3125-26-003553 consideration_type B+C_keep][16/144] 0001193125-26-003553 cash_consideration pass=B+C_keep GT='$2.32 per share' pred='$2.32'
+                                                                                                          [16/144] 0001193125-26-003553 cash_consideration pass=B+C_keep GT='$2.32 per share' pred='$2.32'
+llm_fields:  10%|█         | 15/144 [00:17<02:21,  1.10s/call, 3125-26-003553 consideration_type B+C_keep][17/144] 0001193125-26-003553 stock_exchange_ratio pass=B GT='$4.58 divided by Closing VWAP shares of SNDA Common Stock per share' pred='one newly issued'
+                                                                                                          [17/144] 0001193125-26-003553 stock_exchange_ratio pass=B GT='$4.58 divided by Closing VWAP shares of SNDA Common Stock per share' pred='one newly issued'
+llm_fields:  11%|█         | 16/144 [00:20<02:20,  1.10s/call, 3125-26-003553 cash_consideration B+C_keep]llm_fields:  12%|█▏        | 17/144 [00:20<02:32,  1.20s/call, 3125-26-003553 stock_exchange_ratio B]     [18/144] 0001193125-26-003553 election_deadline pass=B_null GT='' pred=None
+                                                                                                     [18/144] 0001193125-26-003553 election_deadline pass=B_null GT='' pred=None
+llm_fields:  12%|█▏        | 17/144 [00:21<02:32,  1.20s/call, 3125-26-003553 stock_exchange_ratio B]llm_fields:  12%|█▎        | 18/144 [00:21<02:30,  1.19s/call, 3125-26-003553 election_deadline B_null][19/144] 0001193125-26-003553 security_description pass=B GT='common stock' pred='Common Stock'
+                                                                                                       [19/144] 0001193125-26-003553 security_description pass=B GT='common stock' pred='Common Stock'
+llm_fields:  12%|█▎        | 18/144 [00:23<02:30,  1.19s/call, 3125-26-003553 election_deadline B_null]llm_fields:  13%|█▎        | 19/144 [00:23<02:53,  1.39s/call, 3125-26-003553 security_description B]  [20/144] 0001193125-26-003553 cusip pass=empty GT='' pred=None
+                                                                                                     [20/144] 0001193125-26-003553 cusip pass=empty GT='' pred=None
+llm_fields:  13%|█▎        | 19/144 [00:23<02:53,  1.39s/call, 3125-26-003553 security_description B][21/144] 0001193125-26-003553 isin pass=empty GT='' pred=None
+                                                                                                     [21/144] 0001193125-26-003553 isin pass=empty GT='' pred=None
+llm_fields:  14%|█▍        | 20/144 [00:23<02:52,  1.39s/call, 3125-26-003553 cusip empty][22/144] 0001193125-26-003553 ticker pass=A GT='CHTH' pred='SNDA'
+                                                                                          [22/144] 0001193125-26-003553 ticker pass=A GT='CHTH' pred='SNDA'
+llm_fields:  15%|█▍        | 21/144 [00:25<02:50,  1.39s/call, 3125-26-003553 isin empty]llm_fields:  15%|█▌        | 22/144 [00:25<02:00,  1.02call/s, 3125-26-003553 ticker A]  [23/144] 0001193125-26-010471 target pass=A_inventory GT='Sealed Air Corporation' pred='SEALED AIR CORP/DE'
+                                                                                       [23/144] 0001193125-26-010471 target pass=A_inventory GT='Sealed Air Corporation' pred='SEALED AIR CORP/DE'
+llm_fields:  15%|█▌        | 22/144 [00:25<02:00,  1.02call/s, 3125-26-003553 ticker A][24/144] 0001193125-26-003553 shareholder_vote_date pass=B+C_keep GT='3/6/2026 10:00 AM Eastern Time' pred='February 26, 2026'
+                                                                                       [24/144] 0001193125-26-003553 shareholder_vote_date pass=B+C_keep GT='3/6/2026 10:00 AM Eastern Time' pred='February 26, 2026'
+llm_fields:  16%|█▌        | 23/144 [00:25<01:59,  1.02call/s, 3125-26-010471 target A_inventory][25/144] 0001193125-26-003553 effective_date pass=B+C_keep GT='' pred='second quarter of 2026'
+                                                                                                 [25/144] 0001193125-26-003553 effective_date pass=B+C_keep GT='' pred='second quarter of 2026'
+llm_fields:  17%|█▋        | 24/144 [00:26<01:58,  1.02call/s, 3125-26-003553 shareholder_vote_date B+C_keep]llm_fields:  17%|█▋        | 25/144 [00:26<01:32,  1.29call/s, 3125-26-003553 effective_date B+C_keep]       [26/144] 0001193125-26-010471 acquirer pass=B GT='Sword Purchaser, LLC' pred='Sword Purchaser, LLC'
+                                                                                                      [26/144] 0001193125-26-010471 acquirer pass=B GT='Sword Purchaser, LLC' pred='Sword Purchaser, LLC'
+llm_fields:  17%|█▋        | 25/144 [00:26<01:32,  1.29call/s, 3125-26-003553 effective_date B+C_keep]llm_fields:  18%|█▊        | 26/144 [00:26<01:19,  1.48call/s, 3125-26-010471 acquirer B]             [27/144] 0001193125-26-010471 stock_exchange_ratio pass=B GT='No stock consideration' pred='one (1)'
+                                                                                         [27/144] 0001193125-26-010471 stock_exchange_ratio pass=B GT='No stock consideration' pred='one (1)'
+llm_fields:  18%|█▊        | 26/144 [00:29<01:19,  1.48call/s, 3125-26-010471 acquirer B]llm_fields:  19%|█▉        | 27/144 [00:29<02:10,  1.11s/call, 3125-26-010471 stock_exchange_ratio B][28/144] 0001193125-26-010471 cash_consideration pass=B+C_keep GT='$42.15 per share' pred='$42.15'
+                                                                                                     [28/144] 0001193125-26-010471 cash_consideration pass=B+C_keep GT='$42.15 per share' pred='$42.15'
+llm_fields:  19%|█▉        | 27/144 [00:29<02:10,  1.11s/call, 3125-26-010471 stock_exchange_ratio B]llm_fields:  19%|█▉        | 28/144 [00:29<01:45,  1.10call/s, 3125-26-010471 cash_consideration B+C_keep][29/144] 0001193125-26-010471 consideration_type pass=B+C_keep GT='Cash' pred='cash'
+                                                                                                          [29/144] 0001193125-26-010471 consideration_type pass=B+C_keep GT='Cash' pred='cash'
+llm_fields:  19%|█▉        | 28/144 [00:29<01:45,  1.10call/s, 3125-26-010471 cash_consideration B+C_keep][30/144] 0001193125-26-010471 shareholder_vote_date pass=B+C_drop GT='' pred=None
+                                                                                                          [30/144] 0001193125-26-010471 shareholder_vote_date pass=B+C_drop GT='' pred=None
+llm_fields:  20%|██        | 29/144 [00:33<01:44,  1.10call/s, 3125-26-010471 consideration_type B+C_keep]llm_fields:  21%|██        | 30/144 [00:33<02:31,  1.33s/call, 3125-26-010471 shareholder_vote_date B+C_drop][31/144] 0001193125-26-010471 security_description pass=B GT='common stock' pred='common stock'
+                                                                                                             [31/144] 0001193125-26-010471 security_description pass=B GT='common stock' pred='common stock'
+llm_fields:  21%|██        | 30/144 [00:33<02:31,  1.33s/call, 3125-26-010471 shareholder_vote_date B+C_drop]llm_fields:  22%|██▏       | 31/144 [00:34<02:02,  1.08s/call, 3125-26-010471 security_description B]        [32/144] 0001193125-26-010471 cusip pass=empty GT='' pred=None
+                                                                                                     [32/144] 0001193125-26-010471 cusip pass=empty GT='' pred=None
+llm_fields:  22%|██▏       | 31/144 [00:34<02:02,  1.08s/call, 3125-26-010471 security_description B][33/144] 0001193125-26-010471 isin pass=empty GT='' pred=None
+                                                                                                     [33/144] 0001193125-26-010471 isin pass=empty GT='' pred=None
+llm_fields:  22%|██▏       | 32/144 [00:34<02:01,  1.08s/call, 3125-26-010471 cusip empty][34/144] 0001193125-26-010471 election_deadline pass=B_null GT='' pred=None
+                                                                                          [34/144] 0001193125-26-010471 election_deadline pass=B_null GT='' pred=None
+llm_fields:  23%|██▎       | 33/144 [00:34<02:00,  1.08s/call, 3125-26-010471 isin empty][35/144] 0001193125-26-010471 ticker pass=A GT='SEE' pred='SEE'
+                                                                                         [35/144] 0001193125-26-010471 ticker pass=A GT='SEE' pred='SEE'
+llm_fields:  24%|██▎       | 34/144 [00:37<01:59,  1.08s/call, 3125-26-010471 election_deadline B_null]llm_fields:  24%|██▍       | 35/144 [00:37<01:44,  1.05call/s, 3125-26-010471 ticker A]                [36/144] 0001493152-26-002095 consideration_type pass=empty GT='Stock' pred=None
+                                                                                       [36/144] 0001493152-26-002095 consideration_type pass=empty GT='Stock' pred=None
+llm_fields:  24%|██▍       | 35/144 [00:37<01:44,  1.05call/s, 3125-26-010471 ticker A][37/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+                                                                                       [37/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+llm_fields:  25%|██▌       | 36/144 [00:37<01:43,  1.05call/s, 3152-26-002095 consideration_type empty][38/144] 0001493152-26-002095 target pass=B GT='Willow Lane Acquisition Corp.' pred='Boost Run Inc.'
+                                                                                                       [38/144] 0001493152-26-002095 target pass=B GT='Willow Lane Acquisition Corp.' pred='Boost Run Inc.'
+llm_fields:  26%|██▌       | 37/144 [00:37<01:42,  1.05call/s, 3152-26-002095 cash_consideration empty]llm_fields:  26%|██▋       | 38/144 [00:37<01:05,  1.61call/s, 3152-26-002095 target B]                [39/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+                                                                                       [39/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+llm_fields:  26%|██▋       | 38/144 [00:39<01:05,  1.61call/s, 3152-26-002095 target B]llm_fields:  27%|██▋       | 39/144 [00:39<01:19,  1.32call/s, 3152-26-002095 acquirer B][40/144] 0001193125-26-010471 effective_date pass=B+C_keep GT='' pred='mid-2026'
+                                                                                         [40/144] 0001193125-26-010471 effective_date pass=B+C_keep GT='' pred='mid-2026'
+llm_fields:  27%|██▋       | 39/144 [00:39<01:19,  1.32call/s, 3152-26-002095 acquirer B]llm_fields:  28%|██▊       | 40/144 [00:39<01:09,  1.50call/s, 3125-26-010471 effective_date B+C_keep][41/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+                                                                                                      [41/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+llm_fields:  28%|██▊       | 40/144 [00:41<01:09,  1.50call/s, 3125-26-010471 effective_date B+C_keep]llm_fields:  28%|██▊       | 41/144 [00:41<01:37,  1.06call/s, 3152-26-002095 election_deadline B_null][42/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='1 share of Pubco Class A Common Stock per share' pred='one-for-one basis'
+                                                                                                       [42/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='1 share of Pubco Class A Common Stock per share' pred='one-for-one basis'
+llm_fields:  28%|██▊       | 41/144 [00:41<01:37,  1.06call/s, 3152-26-002095 election_deadline B_null]llm_fields:  29%|██▉       | 42/144 [00:41<01:18,  1.29call/s, 3152-26-002095 stock_exchange_ratio B]  [43/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+                                                                                                     [43/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+llm_fields:  29%|██▉       | 42/144 [00:41<01:18,  1.29call/s, 3152-26-002095 stock_exchange_ratio B][44/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+                                                                                                     [44/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+llm_fields:  30%|██▉       | 43/144 [00:41<01:18,  1.29call/s, 3152-26-002095 ticker empty][45/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+                                                                                           [45/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+llm_fields:  31%|███       | 44/144 [00:41<01:17,  1.29call/s, 3152-26-002095 cusip empty][46/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='3/3/2026' pred='March 3, 2026'
+                                                                                          [46/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='3/3/2026' pred='March 3, 2026'
+llm_fields:  31%|███▏      | 45/144 [00:45<01:16,  1.29call/s, 3152-26-002095 isin empty]llm_fields:  32%|███▏      | 46/144 [00:45<01:32,  1.06call/s, 3152-26-002095 shareholder_vote_date B+C_keep][47/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+                                                                                                             [47/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+llm_fields:  32%|███▏      | 46/144 [00:45<01:32,  1.06call/s, 3152-26-002095 shareholder_vote_date B+C_keep]llm_fields:  33%|███▎      | 47/144 [00:45<01:18,  1.24call/s, 3152-26-002095 acquirer B]                    [48/144] 0001493152-26-002095 consideration_type pass=empty GT='Stock' pred=None
+                                                                                         [48/144] 0001493152-26-002095 consideration_type pass=empty GT='Stock' pred=None
+llm_fields:  33%|███▎      | 47/144 [00:45<01:18,  1.24call/s, 3152-26-002095 acquirer B][49/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+                                                                                         [49/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+llm_fields:  33%|███▎      | 48/144 [00:45<01:17,  1.24call/s, 3152-26-002095 consideration_type empty][50/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+                                                                                                       [50/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+llm_fields:  34%|███▍      | 49/144 [00:46<01:16,  1.24call/s, 3152-26-002095 cash_consideration empty]llm_fields:  35%|███▍      | 50/144 [00:46<00:48,  1.92call/s, 3152-26-002095 effective_date B+C_drop] [51/144] 0001493152-26-002095 security_description pass=B GT='Class A ordinary shares' pred='Common Stock'
+                                                                                                      [51/144] 0001493152-26-002095 security_description pass=B GT='Class A ordinary shares' pred='Common Stock'
+llm_fields:  35%|███▍      | 50/144 [00:46<00:48,  1.92call/s, 3152-26-002095 effective_date B+C_drop]llm_fields:  35%|███▌      | 51/144 [00:46<00:43,  2.12call/s, 3152-26-002095 security_description B] [52/144] 0001493152-26-002095 target pass=B GT='Willow Lane Acquisition Corp.' pred='Boost Run Inc.'
+                                                                                                     [52/144] 0001493152-26-002095 target pass=B GT='Willow Lane Acquisition Corp.' pred='Boost Run Inc.'
+llm_fields:  35%|███▌      | 51/144 [00:47<00:43,  2.12call/s, 3152-26-002095 security_description B]llm_fields:  36%|███▌      | 52/144 [00:47<00:46,  1.96call/s, 3152-26-002095 target B]              [53/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+                                                                                       [53/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+llm_fields:  36%|███▌      | 52/144 [00:47<00:46,  1.96call/s, 3152-26-002095 target B]llm_fields:  37%|███▋      | 53/144 [00:47<00:39,  2.28call/s, 3152-26-002095 election_deadline B_null][54/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='1 share of Pubco Class A Common Stock per share' pred='one-for-one basis'
+                                                                                                       [54/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='1 share of Pubco Class A Common Stock per share' pred='one-for-one basis'
+llm_fields:  37%|███▋      | 53/144 [00:47<00:39,  2.28call/s, 3152-26-002095 election_deadline B_null]llm_fields:  38%|███▊      | 54/144 [00:47<00:40,  2.22call/s, 3152-26-002095 stock_exchange_ratio B]  [55/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+                                                                                                     [55/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+llm_fields:  38%|███▊      | 54/144 [00:47<00:40,  2.22call/s, 3152-26-002095 stock_exchange_ratio B][56/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+                                                                                                     [56/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+llm_fields:  38%|███▊      | 55/144 [00:47<00:40,  2.22call/s, 3152-26-002095 ticker empty][57/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+                                                                                           [57/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+llm_fields:  39%|███▉      | 56/144 [00:47<00:39,  2.22call/s, 3152-26-002095 cusip empty][58/144] 0001493152-26-002095 security_description pass=B GT='Class B ordinary shares' pred='Common Stock'
+                                                                                          [58/144] 0001493152-26-002095 security_description pass=B GT='Class B ordinary shares' pred='Common Stock'
+llm_fields:  40%|███▉      | 57/144 [00:48<00:39,  2.22call/s, 3152-26-002095 isin empty]llm_fields:  40%|████      | 58/144 [00:48<00:29,  2.89call/s, 3152-26-002095 security_description B][59/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+                                                                                                     [59/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+llm_fields:  40%|████      | 58/144 [00:49<00:29,  2.89call/s, 3152-26-002095 security_description B]llm_fields:  41%|████      | 59/144 [00:49<00:33,  2.56call/s, 3152-26-002095 acquirer B]            [60/144] 0001493152-26-002095 consideration_type pass=empty GT='Other' pred=None
+                                                                                         [60/144] 0001493152-26-002095 consideration_type pass=empty GT='Other' pred=None
+llm_fields:  41%|████      | 59/144 [00:49<00:33,  2.56call/s, 3152-26-002095 acquirer B][61/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+                                                                                         [61/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+llm_fields:  42%|████▏     | 60/144 [00:49<00:32,  2.56call/s, 3152-26-002095 consideration_type empty][62/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='3/3/2026' pred='March 3, 2026'
+                                                                                                       [62/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='3/3/2026' pred='March 3, 2026'
+llm_fields:  42%|████▏     | 61/144 [00:49<00:32,  2.56call/s, 3152-26-002095 cash_consideration empty]llm_fields:  43%|████▎     | 62/144 [00:49<00:21,  3.85call/s, 3152-26-002095 shareholder_vote_date B+C_keep][63/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+                                                                                                             [63/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+llm_fields:  43%|████▎     | 62/144 [00:50<00:21,  3.85call/s, 3152-26-002095 shareholder_vote_date B+C_keep]llm_fields:  44%|████▍     | 63/144 [00:50<00:27,  2.93call/s, 3152-26-002095 effective_date B+C_drop]       [64/144] 0001493152-26-002095 target pass=B GT='Boost Run Holdings, LLC' pred='Boost Run Inc.'
+                                                                                                      [64/144] 0001493152-26-002095 target pass=B GT='Boost Run Holdings, LLC' pred='Boost Run Inc.'
+llm_fields:  44%|████▍     | 63/144 [00:50<00:27,  2.93call/s, 3152-26-002095 effective_date B+C_drop]llm_fields:  44%|████▍     | 64/144 [00:50<00:23,  3.39call/s, 3152-26-002095 target B]               [65/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='' pred='one-for-one basis'
+                                                                                       [65/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='' pred='one-for-one basis'
+llm_fields:  44%|████▍     | 64/144 [00:51<00:23,  3.39call/s, 3152-26-002095 target B]llm_fields:  45%|████▌     | 65/144 [00:51<00:35,  2.25call/s, 3152-26-002095 stock_exchange_ratio B][66/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+                                                                                                     [66/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+llm_fields:  45%|████▌     | 65/144 [00:51<00:35,  2.25call/s, 3152-26-002095 stock_exchange_ratio B][67/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+                                                                                                     [67/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+llm_fields:  46%|████▌     | 66/144 [00:51<00:34,  2.25call/s, 3152-26-002095 election_deadline B_null][68/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+                                                                                                       [68/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+llm_fields:  47%|████▋     | 67/144 [00:51<00:34,  2.25call/s, 3152-26-002095 ticker empty][69/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+                                                                                           [69/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+llm_fields:  47%|████▋     | 68/144 [00:51<00:33,  2.25call/s, 3152-26-002095 cusip empty][70/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='' pred='March 3, 2026'
+                                                                                          [70/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='' pred='March 3, 2026'
+llm_fields:  48%|████▊     | 69/144 [00:52<00:33,  2.25call/s, 3152-26-002095 isin empty]llm_fields:  49%|████▊     | 70/144 [00:52<00:23,  3.18call/s, 3152-26-002095 shareholder_vote_date B+C_keep][71/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+                                                                                                             [71/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+llm_fields:  49%|████▊     | 70/144 [00:52<00:23,  3.18call/s, 3152-26-002095 shareholder_vote_date B+C_keep]llm_fields:  49%|████▉     | 71/144 [00:52<00:20,  3.53call/s, 3152-26-002095 acquirer B]                    [72/144] 0001493152-26-002095 consideration_type pass=empty GT='Stock' pred=None
+                                                                                         [72/144] 0001493152-26-002095 consideration_type pass=empty GT='Stock' pred=None
+llm_fields:  49%|████▉     | 71/144 [00:52<00:20,  3.53call/s, 3152-26-002095 acquirer B][73/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+                                                                                         [73/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+llm_fields:  50%|█████     | 72/144 [00:52<00:20,  3.53call/s, 3152-26-002095 consideration_type empty][74/144] 0001493152-26-002095 security_description pass=B GT='Class A Units' pred='Common Stock'
+                                                                                                       [74/144] 0001493152-26-002095 security_description pass=B GT='Class A Units' pred='Common Stock'
+llm_fields:  51%|█████     | 73/144 [00:52<00:20,  3.53call/s, 3152-26-002095 cash_consideration empty][75/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+                                                                                                       [75/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+llm_fields:  51%|█████▏    | 74/144 [00:53<00:19,  3.53call/s, 3152-26-002095 security_description B]llm_fields:  52%|█████▏    | 75/144 [00:53<00:14,  4.79call/s, 3152-26-002095 effective_date B+C_drop][76/144] 0001493152-26-002095 target pass=B GT='Boost Run Holdings, LLC' pred='Boost Run Inc.'
+                                                                                                      [76/144] 0001493152-26-002095 target pass=B GT='Boost Run Holdings, LLC' pred='Boost Run Inc.'
+llm_fields:  52%|█████▏    | 75/144 [00:54<00:14,  4.79call/s, 3152-26-002095 effective_date B+C_drop]llm_fields:  53%|█████▎    | 76/144 [00:54<00:18,  3.63call/s, 3152-26-002095 target B]               [77/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+                                                                                       [77/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+llm_fields:  53%|█████▎    | 76/144 [00:54<00:18,  3.63call/s, 3152-26-002095 target B]llm_fields:  53%|█████▎    | 77/144 [00:54<00:17,  3.85call/s, 3152-26-002095 election_deadline B_null][78/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='' pred='one-for-one basis'
+                                                                                                       [78/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='' pred='one-for-one basis'
+llm_fields:  53%|█████▎    | 77/144 [00:54<00:17,  3.85call/s, 3152-26-002095 election_deadline B_null]llm_fields:  54%|█████▍    | 78/144 [00:54<00:20,  3.28call/s, 3152-26-002095 stock_exchange_ratio B]  [79/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+                                                                                                     [79/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+llm_fields:  54%|█████▍    | 78/144 [00:54<00:20,  3.28call/s, 3152-26-002095 stock_exchange_ratio B][80/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+                                                                                                     [80/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+llm_fields:  55%|█████▍    | 79/144 [00:54<00:19,  3.28call/s, 3152-26-002095 ticker empty][81/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+                                                                                           [81/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+llm_fields:  56%|█████▌    | 80/144 [00:54<00:19,  3.28call/s, 3152-26-002095 cusip empty][82/144] 0001493152-26-002095 security_description pass=B GT='Class B Units' pred='Common Stock'
+                                                                                          [82/144] 0001493152-26-002095 security_description pass=B GT='Class B Units' pred='Common Stock'
+llm_fields:  56%|█████▋    | 81/144 [00:55<00:19,  3.28call/s, 3152-26-002095 isin empty]llm_fields:  57%|█████▋    | 82/144 [00:55<00:17,  3.52call/s, 3152-26-002095 security_description B][83/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='' pred='March 3, 2026'
+                                                                                                     [83/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='' pred='March 3, 2026'
+llm_fields:  57%|█████▋    | 82/144 [00:55<00:17,  3.52call/s, 3152-26-002095 security_description B][84/144] 0001493152-26-002095 consideration_type pass=empty GT='Stock' pred=None
+                                                                                                     [84/144] 0001493152-26-002095 consideration_type pass=empty GT='Stock' pred=None
+llm_fields:  58%|█████▊    | 83/144 [00:55<00:17,  3.52call/s, 3152-26-002095 shareholder_vote_date B+C_keep][85/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+                                                                                                             [85/144] 0001493152-26-002095 cash_consideration pass=empty GT='' pred=None
+llm_fields:  58%|█████▊    | 84/144 [00:55<00:17,  3.52call/s, 3152-26-002095 consideration_type empty][86/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+                                                                                                       [86/144] 0001493152-26-002095 acquirer pass=B GT='Boost Run Inc.' pred='Willow Lane Acquisition Corp.'
+llm_fields:  59%|█████▉    | 85/144 [00:56<00:16,  3.52call/s, 3152-26-002095 cash_consideration empty]llm_fields:  60%|█████▉    | 86/144 [00:56<00:13,  4.36call/s, 3152-26-002095 acquirer B]              [87/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+                                                                                         [87/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+llm_fields:  60%|█████▉    | 86/144 [00:57<00:13,  4.36call/s, 3152-26-002095 acquirer B]llm_fields:  60%|██████    | 87/144 [00:57<00:17,  3.34call/s, 3152-26-002095 effective_date B+C_drop][88/144] 0001493152-26-002095 target pass=B GT='Boost Run Holdings, LLC' pred='Boost Run Inc.'
+                                                                                                      [88/144] 0001493152-26-002095 target pass=B GT='Boost Run Holdings, LLC' pred='Boost Run Inc.'
+llm_fields:  60%|██████    | 87/144 [00:57<00:17,  3.34call/s, 3152-26-002095 effective_date B+C_drop][89/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='' pred='one-for-one basis'
+                                                                                                      [89/144] 0001493152-26-002095 stock_exchange_ratio pass=B GT='' pred='one-for-one basis'
+llm_fields:  61%|██████    | 88/144 [00:57<00:16,  3.34call/s, 3152-26-002095 target B]llm_fields:  62%|██████▏   | 89/144 [00:57<00:17,  3.12call/s, 3152-26-002095 stock_exchange_ratio B][90/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+                                                                                                     [90/144] 0001493152-26-002095 election_deadline pass=B_null GT='' pred=None
+llm_fields:  62%|██████▏   | 89/144 [00:58<00:17,  3.12call/s, 3152-26-002095 stock_exchange_ratio B]llm_fields:  62%|██████▎   | 90/144 [00:58<00:17,  3.03call/s, 3152-26-002095 election_deadline B_null][91/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+                                                                                                       [91/144] 0001493152-26-002095 ticker pass=empty GT='CRWV' pred=None
+llm_fields:  62%|██████▎   | 90/144 [00:58<00:17,  3.03call/s, 3152-26-002095 election_deadline B_null][92/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+                                                                                                       [92/144] 0001493152-26-002095 cusip pass=empty GT='' pred=None
+llm_fields:  63%|██████▎   | 91/144 [00:58<00:17,  3.03call/s, 3152-26-002095 ticker empty][93/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+                                                                                           [93/144] 0001493152-26-002095 isin pass=empty GT='' pred=None
+llm_fields:  64%|██████▍   | 92/144 [00:58<00:17,  3.03call/s, 3152-26-002095 cusip empty][94/144] 0001493152-26-002095 security_description pass=B GT='Class C Units' pred='Common Stock'
+                                                                                          [94/144] 0001493152-26-002095 security_description pass=B GT='Class C Units' pred='Common Stock'
+llm_fields:  65%|██████▍   | 93/144 [00:59<00:16,  3.03call/s, 3152-26-002095 isin empty]llm_fields:  65%|██████▌   | 94/144 [00:59<00:17,  2.79call/s, 3152-26-002095 security_description B][95/144] 0001193125-26-012952 target pass=A_inventory GT='Olympic Steel, Inc.' pred='OLYMPIC STEEL INC'
+                                                                                                     [95/144] 0001193125-26-012952 target pass=A_inventory GT='Olympic Steel, Inc.' pred='OLYMPIC STEEL INC'
+llm_fields:  65%|██████▌   | 94/144 [00:59<00:17,  2.79call/s, 3152-26-002095 security_description B][96/144] 0001193125-26-012952 consideration_type pass=empty GT='Stock' pred=None
+                                                                                                     [96/144] 0001193125-26-012952 consideration_type pass=empty GT='Stock' pred=None
+llm_fields:  66%|██████▌   | 95/144 [00:59<00:17,  2.79call/s, 3125-26-012952 target A_inventory][97/144] 0001193125-26-012952 cash_consideration pass=empty GT='No cash consideration' pred=None
+                                                                                                 [97/144] 0001193125-26-012952 cash_consideration pass=empty GT='No cash consideration' pred=None
+llm_fields:  67%|██████▋   | 96/144 [00:59<00:17,  2.79call/s, 3125-26-012952 consideration_type empty][98/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='' pred='March 3, 2026'
+                                                                                                       [98/144] 0001493152-26-002095 shareholder_vote_date pass=B+C_keep GT='' pred='March 3, 2026'
+llm_fields:  67%|██████▋   | 97/144 [01:00<00:16,  2.79call/s, 3125-26-012952 cash_consideration empty]llm_fields:  68%|██████▊   | 98/144 [01:00<00:10,  4.32call/s, 3152-26-002095 shareholder_vote_date B+C_keep][99/144] 0001193125-26-012952 acquirer pass=B GT='Ryerson Holding Corporation' pred='Ryerson Holding Corporation'
+                                                                                                             [99/144] 0001193125-26-012952 acquirer pass=B GT='Ryerson Holding Corporation' pred='Ryerson Holding Corporation'
+llm_fields:  68%|██████▊   | 98/144 [01:01<00:10,  4.32call/s, 3152-26-002095 shareholder_vote_date B+C_keep]llm_fields:  69%|██████▉   | 99/144 [01:01<00:19,  2.27call/s, 3125-26-012952 acquirer B]                    [100/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+                                                                                         [100/144] 0001493152-26-002095 effective_date pass=B+C_drop GT='' pred=None
+llm_fields:  69%|██████▉   | 99/144 [01:02<00:19,  2.27call/s, 3125-26-012952 acquirer B]llm_fields:  69%|██████▉   | 100/144 [01:02<00:20,  2.17call/s, 3152-26-002095 effective_date B+C_drop][101/144] 0001193125-26-012952 election_deadline pass=B_null GT='' pred=None
+                                                                                                       [101/144] 0001193125-26-012952 election_deadline pass=B_null GT='' pred=None
+llm_fields:  69%|██████▉   | 100/144 [01:06<00:20,  2.17call/s, 3152-26-002095 effective_date B+C_drop]llm_fields:  70%|███████   | 101/144 [01:06<00:46,  1.07s/call, 3125-26-012952 election_deadline B_null][102/144] 0001193125-26-012952 stock_exchange_ratio pass=B GT='1.7105 shares of Ryerson common stock per share' pred='1.7105 shares of Rye'
+                                                                                                        [102/144] 0001193125-26-012952 stock_exchange_ratio pass=B GT='1.7105 shares of Ryerson common stock per share' pred='1.7105 shares of Rye'
+llm_fields:  70%|███████   | 101/144 [01:06<00:46,  1.07s/call, 3125-26-012952 election_deadline B_null]llm_fields:  71%|███████   | 102/144 [01:06<00:37,  1.13call/s, 3125-26-012952 stock_exchange_ratio B]  [103/144] 0001193125-26-012952 security_description pass=B GT='common stock, without par value' pred='common stock'
+                                                                                                      [103/144] 0001193125-26-012952 security_description pass=B GT='common stock, without par value' pred='common stock'
+llm_fields:  71%|███████   | 102/144 [01:11<00:37,  1.13call/s, 3125-26-012952 stock_exchange_ratio B]llm_fields:  72%|███████▏  | 103/144 [01:11<01:11,  1.75s/call, 3125-26-012952 security_description B][104/144] 0001193125-26-012952 cusip pass=empty GT='' pred=None
+                                                                                                      [104/144] 0001193125-26-012952 cusip pass=empty GT='' pred=None
+llm_fields:  72%|███████▏  | 103/144 [01:11<01:11,  1.75s/call, 3125-26-012952 security_description B][105/144] 0001193125-26-012952 isin pass=empty GT='' pred=None
+                                                                                                      [105/144] 0001193125-26-012952 isin pass=empty GT='' pred=None
+llm_fields:  72%|███████▏  | 104/144 [01:11<01:10,  1.75s/call, 3125-26-012952 cusip empty][106/144] 0001185185-26-000166 acquirer pass=empty GT='RYVYL Inc.' pred=None
+                                                                                           [106/144] 0001185185-26-000166 acquirer pass=empty GT='RYVYL Inc.' pred=None
+llm_fields:  73%|███████▎  | 105/144 [01:11<01:08,  1.75s/call, 3125-26-012952 isin empty][107/144] 0001193125-26-012952 shareholder_vote_date pass=B+C_keep GT='2/12/2026 9:30 AM Eastern Time' pred='February 12, 2026'
+                                                                                          [107/144] 0001193125-26-012952 shareholder_vote_date pass=B+C_keep GT='2/12/2026 9:30 AM Eastern Time' pred='February 12, 2026'
+llm_fields:  74%|███████▎  | 106/144 [01:11<01:06,  1.75s/call, 5185-26-000166 acquirer empty][108/144] 0001185185-26-000166 consideration_type pass=empty GT='Stock' pred=None
+                                                                                              [108/144] 0001185185-26-000166 consideration_type pass=empty GT='Stock' pred=None
+llm_fields:  74%|███████▍  | 107/144 [01:11<01:04,  1.75s/call, 3125-26-012952 shareholder_vote_date B+C_keep][109/144] 0001185185-26-000166 cash_consideration pass=empty GT='No cash consideration' pred=None
+                                                                                                              [109/144] 0001185185-26-000166 cash_consideration pass=empty GT='No cash consideration' pred=None
+llm_fields:  75%|███████▌  | 108/144 [01:11<01:03,  1.75s/call, 5185-26-000166 consideration_type empty][110/144] 0001193125-26-012952 ticker pass=A GT='ZEUS' pred='RYI'
+                                                                                                        [110/144] 0001193125-26-012952 ticker pass=A GT='ZEUS' pred='RYI'
+llm_fields:  76%|███████▌  | 109/144 [01:11<01:01,  1.75s/call, 5185-26-000166 cash_consideration empty][111/144] 0001193125-26-012952 effective_date pass=B+C_keep GT='' pred='first quarter of 2026'
+                                                                                                        [111/144] 0001193125-26-012952 effective_date pass=B+C_keep GT='' pred='first quarter of 2026'
+llm_fields:  76%|███████▋  | 110/144 [01:13<00:59,  1.75s/call, 3125-26-012952 ticker A]llm_fields:  77%|███████▋  | 111/144 [01:13<00:21,  1.50call/s, 3125-26-012952 effective_date B+C_keep][112/144] 0001185185-26-000166 election_deadline pass=B_null GT='' pred=None
+                                                                                                       [112/144] 0001185185-26-000166 election_deadline pass=B_null GT='' pred=None
+llm_fields:  77%|███████▋  | 111/144 [01:16<00:21,  1.50call/s, 3125-26-012952 effective_date B+C_keep]llm_fields:  78%|███████▊  | 112/144 [01:16<00:30,  1.06call/s, 5185-26-000166 election_deadline B_null][113/144] 0001185185-26-000166 target pass=B GT='RTB Digital, Inc.' pred='RTB DIGITAL, INC.'
+                                                                                                        [113/144] 0001185185-26-000166 target pass=B GT='RTB Digital, Inc.' pred='RTB DIGITAL, INC.'
+llm_fields:  78%|███████▊  | 112/144 [01:16<00:30,  1.06call/s, 5185-26-000166 election_deadline B_null][114/144] 0001185185-26-000166 security_description pass=B GT='Common stock' pred='common stock'
+                                                                                                        [114/144] 0001185185-26-000166 security_description pass=B GT='Common stock' pred='common stock'
+llm_fields:  78%|███████▊  | 113/144 [01:21<00:29,  1.06call/s, 5185-26-000166 target B]llm_fields:  79%|███████▉  | 114/144 [01:21<00:38,  1.30s/call, 5185-26-000166 security_description B][115/144] 0001185185-26-000166 effective_date pass=B_null GT='' pred=None
+                                                                                                      [115/144] 0001185185-26-000166 effective_date pass=B_null GT='' pred=None
+llm_fields:  79%|███████▉  | 114/144 [01:21<00:38,  1.30s/call, 5185-26-000166 security_description B][116/144] 0001185185-26-000166 cusip pass=empty GT='' pred=None
+                                                                                                      [116/144] 0001185185-26-000166 cusip pass=empty GT='' pred=None
+llm_fields:  80%|███████▉  | 115/144 [01:21<00:37,  1.30s/call, 5185-26-000166 effective_date B_null][117/144] 0001185185-26-000166 isin pass=empty GT='' pred=None
+                                                                                                     [117/144] 0001185185-26-000166 isin pass=empty GT='' pred=None
+llm_fields:  81%|████████  | 116/144 [01:21<00:36,  1.30s/call, 5185-26-000166 cusip empty][118/144] 0001185185-26-000166 shareholder_vote_date pass=B+C_drop GT='' pred=None
+                                                                                           [118/144] 0001185185-26-000166 shareholder_vote_date pass=B+C_drop GT='' pred=None
+llm_fields:  81%|████████▏ | 117/144 [01:21<00:35,  1.30s/call, 5185-26-000166 isin empty]llm_fields:  82%|████████▏ | 118/144 [01:21<00:20,  1.29call/s, 5185-26-000166 shareholder_vote_date B+C_drop][119/144] 0001185185-26-000166 stock_exchange_ratio pass=B GT='Exchange Ratio = (Fully Diluted Parent Common Stock × Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share' pred='one share of common stock... of Merger Sub... will be converted into and exchanged for one validly issued, [share of RTB]'
+                                                                                                              [119/144] 0001185185-26-000166 stock_exchange_ratio pass=B GT='Exchange Ratio = (Fully Diluted Parent Common Stock × Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share' pred='one share of common stock... of Merger Sub... will be converted into and exchanged for one validly issued, [share of RTB]'
+llm_fields:  82%|████████▏ | 118/144 [01:23<00:20,  1.29call/s, 5185-26-000166 shareholder_vote_date B+C_drop][120/144] 0001104659-26-004251 consideration_type pass=empty GT='Stock' pred=None
+                                                                                                              [120/144] 0001104659-26-004251 consideration_type pass=empty GT='Stock' pred=None
+llm_fields:  83%|████████▎ | 119/144 [01:23<00:19,  1.29call/s, 5185-26-000166 stock_exchange_ratio B]llm_fields:  83%|████████▎ | 120/144 [01:23<00:21,  1.13call/s, 4659-26-004251 consideration_type empty][121/144] 0001104659-26-004251 cash_consideration pass=empty GT='' pred=None
+                                                                                                        [121/144] 0001104659-26-004251 cash_consideration pass=empty GT='' pred=None
+llm_fields:  83%|████████▎ | 120/144 [01:23<00:21,  1.13call/s, 4659-26-004251 consideration_type empty][122/144] 0001185185-26-000166 ticker pass=A GT='RVYL' pred='RVYL'
+                                                                                                        [122/144] 0001185185-26-000166 ticker pass=A GT='RVYL' pred='RVYL'
+llm_fields:  84%|████████▍ | 121/144 [01:23<00:20,  1.13call/s, 4659-26-004251 cash_consideration empty]llm_fields:  85%|████████▍ | 122/144 [01:23<00:15,  1.45call/s, 5185-26-000166 ticker A]                [123/144] 0001104659-26-004251 target pass=B GT='AERKOMM Inc.' pred='AERKOMM Inc.'
+                                                                                        [123/144] 0001104659-26-004251 target pass=B GT='AERKOMM Inc.' pred='AERKOMM Inc.'
+llm_fields:  85%|████████▍ | 122/144 [01:24<00:15,  1.45call/s, 5185-26-000166 ticker A]llm_fields:  85%|████████▌ | 123/144 [01:24<00:14,  1.45call/s, 4659-26-004251 target B][124/144] 0001104659-26-004251 acquirer pass=B GT='AKOM Inc.' pred='IX Acquisition Corp.'
+                                                                                        [124/144] 0001104659-26-004251 acquirer pass=B GT='AKOM Inc.' pred='IX Acquisition Corp.'
+llm_fields:  85%|████████▌ | 123/144 [01:26<00:14,  1.45call/s, 4659-26-004251 target B]llm_fields:  86%|████████▌ | 124/144 [01:26<00:17,  1.11call/s, 4659-26-004251 acquirer B][125/144] 0001104659-26-004251 stock_exchange_ratio pass=B GT='Conversion Ratio shares of AKOM Pubco Common Stock per share' pred='one-for-one basis'
+                                                                                          [125/144] 0001104659-26-004251 stock_exchange_ratio pass=B GT='Conversion Ratio shares of AKOM Pubco Common Stock per share' pred='one-for-one basis'
+llm_fields:  86%|████████▌ | 124/144 [01:28<00:17,  1.11call/s, 4659-26-004251 acquirer B]llm_fields:  87%|████████▋ | 125/144 [01:28<00:20,  1.09s/call, 4659-26-004251 stock_exchange_ratio B][126/144] 0001104659-26-004251 election_deadline pass=B_null GT='' pred=None
+                                                                                                      [126/144] 0001104659-26-004251 election_deadline pass=B_null GT='' pred=None
+llm_fields:  87%|████████▋ | 125/144 [01:28<00:20,  1.09s/call, 4659-26-004251 stock_exchange_ratio B][127/144] 0001104659-26-004251 ticker pass=empty GT='XP' pred=None
+                                                                                                      [127/144] 0001104659-26-004251 ticker pass=empty GT='XP' pred=None
+llm_fields:  88%|████████▊ | 126/144 [01:28<00:19,  1.09s/call, 4659-26-004251 election_deadline B_null][128/144] 0001104659-26-004251 cusip pass=empty GT='' pred=None
+                                                                                                        [128/144] 0001104659-26-004251 cusip pass=empty GT='' pred=None
+llm_fields:  88%|████████▊ | 127/144 [01:28<00:18,  1.09s/call, 4659-26-004251 ticker empty][129/144] 0001104659-26-004251 isin pass=empty GT='' pred=None
+                                                                                            [129/144] 0001104659-26-004251 isin pass=empty GT='' pred=None
+llm_fields:  89%|████████▉ | 128/144 [01:28<00:17,  1.09s/call, 4659-26-004251 cusip empty][130/144] 0001193125-26-016598 acquirer pass=B GT='GigCapital7 Corp.' pred='GigCapital7 Corp.'
+                                                                                           [130/144] 0001193125-26-016598 acquirer pass=B GT='GigCapital7 Corp.' pred='GigCapital7 Corp.'
+llm_fields:  90%|████████▉ | 129/144 [01:32<00:16,  1.09s/call, 4659-26-004251 isin empty]llm_fields:  90%|█████████ | 130/144 [01:32<00:13,  1.06call/s, 3125-26-016598 acquirer B][131/144] 0001104659-26-004251 security_description pass=B GT='Common Stock' pred='Common Stock'
+                                                                                          [131/144] 0001104659-26-004251 security_description pass=B GT='Common Stock' pred='Common Stock'
+llm_fields:  90%|█████████ | 130/144 [01:32<00:13,  1.06call/s, 3125-26-016598 acquirer B][132/144] 0001193125-26-016598 consideration_type pass=empty GT='Stock' pred=None
+                                                                                          [132/144] 0001193125-26-016598 consideration_type pass=empty GT='Stock' pred=None
+llm_fields:  91%|█████████ | 131/144 [01:32<00:12,  1.06call/s, 4659-26-004251 security_description B][133/144] 0001193125-26-016598 cash_consideration pass=empty GT='' pred=None
+                                                                                                      [133/144] 0001193125-26-016598 cash_consideration pass=empty GT='' pred=None
+llm_fields:  92%|█████████▏| 132/144 [01:32<00:11,  1.06call/s, 3125-26-016598 consideration_type empty][134/144] 0001104659-26-004251 shareholder_vote_date pass=B+C_drop GT='' pred=None
+                                                                                                        [134/144] 0001104659-26-004251 shareholder_vote_date pass=B+C_drop GT='' pred=None
+llm_fields:  92%|█████████▏| 133/144 [01:32<00:10,  1.06call/s, 3125-26-016598 cash_consideration empty]llm_fields:  93%|█████████▎| 134/144 [01:32<00:05,  1.71call/s, 4659-26-004251 shareholder_vote_date B+C_drop][135/144] 0001104659-26-004251 effective_date pass=B+C_keep GT='' pred='second or third quarter of 2026'
+                                                                                                              [135/144] 0001104659-26-004251 effective_date pass=B+C_keep GT='' pred='second or third quarter of 2026'
+llm_fields:  93%|█████████▎| 134/144 [01:35<00:05,  1.71call/s, 4659-26-004251 shareholder_vote_date B+C_drop]llm_fields:  94%|█████████▍| 135/144 [01:35<00:07,  1.19call/s, 4659-26-004251 effective_date B+C_keep]       [136/144] 0001193125-26-016598 shareholder_vote_date pass=B_null GT='' pred=None
+                                                                                                       [136/144] 0001193125-26-016598 shareholder_vote_date pass=B_null GT='' pred=None
+llm_fields:  94%|█████████▍| 135/144 [01:36<00:07,  1.19call/s, 4659-26-004251 effective_date B+C_keep]llm_fields:  94%|█████████▍| 136/144 [01:36<00:07,  1.07call/s, 3125-26-016598 shareholder_vote_date B_null][137/144] 0001193125-26-016598 target pass=B GT='Hadron Energy, Inc.' pred='Hadron Energy, Inc.'
+                                                                                                            [137/144] 0001193125-26-016598 target pass=B GT='Hadron Energy, Inc.' pred='Hadron Energy, Inc.'
+llm_fields:  94%|█████████▍| 136/144 [01:36<00:07,  1.07call/s, 3125-26-016598 shareholder_vote_date B_null]llm_fields:  95%|█████████▌| 137/144 [01:36<00:05,  1.27call/s, 3125-26-016598 target B]                    [138/144] 0001193125-26-016598 stock_exchange_ratio pass=B GT='Exchange Ratio shares of Domesticated GigCapital7 Common Stock per share' pred='one-for-one'
+                                                                                        [138/144] 0001193125-26-016598 stock_exchange_ratio pass=B GT='Exchange Ratio shares of Domesticated GigCapital7 Common Stock per share' pred='one-for-one'
+llm_fields:  95%|█████████▌| 137/144 [01:38<00:05,  1.27call/s, 3125-26-016598 target B]llm_fields:  96%|█████████▌| 138/144 [01:38<00:06,  1.01s/call, 3125-26-016598 stock_exchange_ratio B][139/144] 0001193125-26-016598 ticker pass=empty GT='GIG, GIGGU, GIGGW' pred=None
+                                                                                                      [139/144] 0001193125-26-016598 ticker pass=empty GT='GIG, GIGGU, GIGGW' pred=None
+llm_fields:  96%|█████████▌| 138/144 [01:38<00:06,  1.01s/call, 3125-26-016598 stock_exchange_ratio B][140/144] 0001193125-26-016598 cusip pass=empty GT='' pred=None
+                                                                                                      [140/144] 0001193125-26-016598 cusip pass=empty GT='' pred=None
+llm_fields:  97%|█████████▋| 139/144 [01:38<00:05,  1.01s/call, 3125-26-016598 ticker empty][141/144] 0001193125-26-016598 isin pass=empty GT='' pred=None
+                                                                                            [141/144] 0001193125-26-016598 isin pass=empty GT='' pred=None
+llm_fields:  97%|█████████▋| 140/144 [01:38<00:04,  1.01s/call, 3125-26-016598 cusip empty][142/144] 0001193125-26-016598 election_deadline pass=B_null GT='' pred=None
+                                                                                           [142/144] 0001193125-26-016598 election_deadline pass=B_null GT='' pred=None
+llm_fields:  98%|█████████▊| 141/144 [01:38<00:03,  1.01s/call, 3125-26-016598 isin empty][143/144] 0001193125-26-016598 security_description pass=B GT='common stock' pred='Common Stock'
+                                                                                          [143/144] 0001193125-26-016598 security_description pass=B GT='common stock' pred='Common Stock'
+llm_fields:  99%|█████████▊| 142/144 [01:40<00:02,  1.01s/call, 3125-26-016598 election_deadline B_null]llm_fields:  99%|█████████▉| 143/144 [01:40<00:00,  1.80call/s, 3125-26-016598 security_description B]  [144/144] 0001193125-26-016598 effective_date pass=B+C_keep GT='' pred='first quarter of 2026'
+                                                                                                      [144/144] 0001193125-26-016598 effective_date pass=B+C_keep GT='' pred='first quarter of 2026'
+llm_fields:  99%|█████████▉| 143/144 [01:41<00:00,  1.80call/s, 3125-26-016598 security_description B]llm_fields: 100%|██████████| 144/144 [01:41<00:00,  1.47call/s, 3125-26-016598 effective_date B+C_keep]llm_fields: 100%|██████████| 144/144 [01:41<00:00,  1.42call/s, 3125-26-016598 effective_date B+C_keep]
+{
+  "pack": "merger",
+  "backend": "orin",
+  "model": "gemma4:26b",
+  "mode": "cascade_v2",
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 101.47,
+  "n_rows": 12,
+  "n_llm_jobs": 144,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "micro": {
+    "precision": 0.4305555555555556,
+    "recall": 0.3924050632911392,
+    "f1": 0.4105960264900662
+  },
+  "tp": 31,
+  "fp": 41,
+  "fn": 48,
+  "pass_counts": {
+    "B": 43,
+    "A_inventory": 4,
+    "B+C_keep": 20,
+    "B_null": 14,
+    "A": 5,
+    "empty": 50,
+    "B+C_drop": 8
+  },
+  "per_field": {
+    "acquirer": {
+      "tp": 5,
+      "fp": 6,
+      "fn": 7,
+      "gt_present": 12,
+      "pred_present": 11,
+      "precision": 0.45454545454545453,
+      "recall": 0.4166666666666667,
+      "f1": 0.43478260869565216
+    },
+    "target": {
+      "tp": 7,
+      "fp": 5,
+      "fn": 5,
+      "gt_present": 12,
+      "pred_present": 12,
+      "precision": 0.5833333333333334,
+      "recall": 0.5833333333333334,
+      "f1": 0.5833333333333334
+    },
+    "consideration_type": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 9,
+      "gt_present": 12,
+      "pred_present": 3,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4
+    },
+    "cash_consideration": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2,
+      "gt_present": 5,
+      "pred_present": 3,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999
+    },
+    "stock_exchange_ratio": {
+      "tp": 1,
+      "fp": 11,
+      "fn": 8,
+      "gt_present": 9,
+      "pred_present": 12,
+      "precision": 0.08333333333333333,
+      "recall": 0.1111111111111111,
+      "f1": 0.09523809523809525
+    },
+    "shareholder_vote_date": {
+      "tp": 4,
+      "fp": 4,
+      "fn": 1,
+      "gt_present": 5,
+      "pred_present": 8,
+      "precision": 0.5,
+      "recall": 0.8,
+      "f1": 0.6153846153846154
+    },
+    "election_deadline": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 6,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 6,
+      "precision": 0.0,
+      "recall": null,
+      "f1": null
+    },
+    "security_description": {
+      "tp": 6,
+      "fp": 6,
+      "fn": 6,
+      "gt_present": 12,
+      "pred_present": 12,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    },
+    "ticker": {
+      "tp": 2,
+      "fp": 3,
+      "fn": 10,
+      "gt_present": 12,
+      "pred_present": 5,
+      "precision": 0.4,
+      "recall": 0.16666666666666666,
+      "f1": 0.23529411764705882
+    },
+    "cusip": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "isin": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  }
+}
+micro_f1=0.4105960264900662  vs_prompt_v2=0.468  vs_allspans=0.481  vs_oracle=0.837
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/merger_eval/experiments/runs/cmp_A_ft_live_r2

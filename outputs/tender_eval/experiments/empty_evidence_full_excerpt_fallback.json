@@ -1,0 +1,116 @@
+{
+  "n": 7,
+  "wall_s": 36.5,
+  "prompt_tok_est": {
+    "min": 2038,
+    "p50": 6276,
+    "max": 6310
+  },
+  "by_field": {
+    "proration_terms": {
+      "fn": 4,
+      "mismatch": 2,
+      "tp": 1
+    }
+  },
+  "results": [
+    {
+      "acc": "0001104659-26-006950",
+      "field": "proration_terms",
+      "gold": "If more than 5% of Shares are duly tendered and not withdrawn before the Notice Due Date, the Fund may either accept additional Shares permitted under Rule 13e-4(f)(1)(ii), extend the Offer and increase the amount offered for repurchase, or accept timely tendered and unwithdrawn Shares on a pro rata basis based on the aggregate net asset value of tendered Shares",
+      "old_pred": null,
+      "old_outcome": "fn",
+      "pred": null,
+      "raw": "{\"proration_terms\": null}",
+      "err": null,
+      "dt": 17.57,
+      "prompt_chars": 8153,
+      "prompt_tok_est": 2038,
+      "new_outcome": "fn"
+    },
+    {
+      "acc": "0000930413-26-000298",
+      "field": "proration_terms",
+      "gold": "If more than 934781.32 Shares are duly tendered before expiration and not properly withdrawn, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares | The Company reserves the right in its sole discretion to purchase additional outstanding Shares representing up to 2.0% of outstanding Shares without amending or extending the Offer | Unaccepted Shares receive no automatic carryforward or priority in future offers",
+      "old_pred": null,
+      "old_outcome": "fn",
+      "pred": null,
+      "raw": "{\"proration_terms\": null}",
+      "err": null,
+      "dt": 19.47,
+      "prompt_chars": 20334,
+      "prompt_tok_est": 5083,
+      "new_outcome": "fn"
+    },
+    {
+      "acc": "0001104659-26-008028",
+      "field": "proration_terms",
+      "gold": "If more than 14,333,861 Shares are duly tendered and not withdrawn, the Company may, in its sole discretion, either accept additional duly tendered Shares permitted under Rule 13e-4(f)(1)(ii) or repurchase Shares pro rata according to the number duly tendered by each shareholder and not withdrawn",
+      "old_pred": null,
+      "old_outcome": "fn",
+      "pred": "repurchase Shares on a pro rata basis in accordance with the number of Shares tendered by each shareholder (and not timely withdrawn)",
+      "raw": "{\"proration_terms\": \"repurchase Shares on a pro rata basis in accordance with the number of Shares tendered by each shareholder (and not timely withdrawn)\"}",
+      "err": null,
+      "dt": 22.36,
+      "prompt_chars": 25241,
+      "prompt_tok_est": 6310,
+      "new_outcome": "mismatch"
+    },
+    {
+      "acc": "0000930413-26-000299",
+      "field": "proration_terms",
+      "gold": "If more than 241710.20 Shares are duly tendered before expiration and not properly withdrawn, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares | The Company reserves the right in its sole discretion to purchase additional outstanding Shares representing up to 2.0% of its outstanding Shares without amending or extending the Offer",
+      "old_pred": null,
+      "old_outcome": "fn",
+      "pred": null,
+      "raw": "{\"proration_terms\": null}",
+      "err": null,
+      "dt": 14.36,
+      "prompt_chars": 20019,
+      "prompt_tok_est": 5004,
+      "new_outcome": "fn"
+    },
+    {
+      "acc": "0001140361-26-003032",
+      "field": "proration_terms",
+      "gold": "If more than 3295767 Shares are duly tendered before expiration and not withdrawn, the Fund will accept Shares for payment pro rata based on the number tendered, with priority for repurchase requests in the case of a shareholder's death or disability | Unaccepted Shares are not automatically carried forward or given priority in a future tender offer",
+      "old_pred": null,
+      "old_outcome": "fn",
+      "pred": null,
+      "raw": "{\"proration_terms\": null}",
+      "err": null,
+      "dt": 15.14,
+      "prompt_chars": 25211,
+      "prompt_tok_est": 6302,
+      "new_outcome": "fn"
+    },
+    {
+      "acc": "0001104659-26-008976",
+      "field": "proration_terms",
+      "gold": "If more than $278174676 of Units are duly tendered and not withdrawn, the Fund may accept additional Units permitted under Rule 13e-4(f)(1)(ii); extend the Offer and increase the purchase amount; or accept Units tendered by the termination date for payment pro rata based on the aggregate net asset value of tendered Units",
+      "old_pred": null,
+      "old_outcome": "fn",
+      "pred": "If the Offer is oversubscribed by investors who tender Units the Fund may extend the repurchase offer period and increase the amount of Units that it is offering to purchase repurchase a pro rata portion of the Units tendered or take any other action permitted by applicable law.",
+      "raw": "{\"proration_terms\": \"If the Offer is oversubscribed by investors who tender Units, the Fund may extend the repurchase offer period and increase the amount of Units that it is offering to purchase, repurchase a pro rata portion of the Units ",
+      "err": null,
+      "dt": 13.58,
+      "prompt_chars": 25107,
+      "prompt_tok_est": 6276,
+      "new_outcome": "mismatch"
+    },
+    {
+      "acc": "0001193125-26-000507",
+      "field": "proration_terms",
+      "gold": "If Shares exceeding 5% of the Company's net asset value as of September 30, 2025 are duly tendered before the Notice Date and not withdrawn before the Tender Withdrawal Date, the Company, in its sole discretion, may accept Shares for payment pro rata based on the aggregate net asset value tendered by each stockholder, with no priority other than the exceptions in Rule 13e-4(f)(3)(i) and Rule 13e-4(f)(3)(ii)",
+      "old_pred": null,
+      "old_outcome": "fn",
+      "pred": "If Shares in excess of 5% of the Company\u2019s net asset value as of September 30 2025 (i.e. the prior calendar quarter end) are duly tendered to the Company before the Notice Date and not withdrawn before the Tender Withdrawal Date the Company in its sole discretion may accept Shares tendered before the Notice Date and not withdrawn before the Tender Withdrawal Date for payment on a pro rata bas",
+      "raw": "{\"proration_terms\": \"If Shares in excess of 5% of the Company\u2019s net asset value as of September 30, 2025 (i.e., the prior calendar quarter end) are duly tendered to the Company before the Notice Date and not withdrawn before the Tender With",
+      "err": null,
+      "dt": 36.47,
+      "prompt_chars": 25204,
+      "prompt_tok_est": 6301,
+      "new_outcome": "tp"
+    }
+  ]
+}

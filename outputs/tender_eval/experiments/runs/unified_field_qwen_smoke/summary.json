@@ -1,0 +1,46 @@
+{
+  "model": "qwen3:4b",
+  "mode": "unified_rules_gliner_temporal_per_field",
+  "evidence": "field-filtered rules + GLiNER spans + temporal DATE spans (dates only)",
+  "n_rows": 1,
+  "fields": [
+    "cusip",
+    "expiration_date"
+  ],
+  "micro": {
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+  },
+  "tp": 0,
+  "fp": 0,
+  "fn": 1,
+  "per_field": {
+    "cusip": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "expiration_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "oracle_routing_micro_f1": 0.837
+  },
+  "delta_vs_allspans": null,
+  "delta_vs_oracle": null
+}

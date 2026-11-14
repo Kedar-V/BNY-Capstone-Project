@@ -1,0 +1,313 @@
+loading temporal tagger on cpu…
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15243.10it/s]
+{
+  "pack": "tender",
+  "backend": "orin",
+  "model": "gemma4:26b",
+  "cascade": false,
+  "validate": false,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "n_rows": 20,
+  "n_fields": 14,
+  "fields": [
+    "subject_company",
+    "bidder",
+    "security_description",
+    "cusip",
+    "isin",
+    "ticker",
+    "offer_price",
+    "currency",
+    "expiration_date",
+    "withdrawal_deadline",
+    "settlement_date",
+    "effective_date",
+    "minimum_tender_condition",
+    "proration_terms"
+  ],
+  "run": "verify_c4_reasoning_none_limit20"
+}
+[1/280] 0001193125-26-000507 security_description pass=oneshot pred=None
+[2/280] 0001193125-26-000507 cusip pass=oneshot pred=None
+[3/280] 0001193125-26-000507 bidder pass=oneshot pred='Jefferies Credit Partners BDC Inc.'
+[4/280] 0001193125-26-000507 subject_company pass=oneshot pred='Jefferies Credit Partners BDC Inc.'
+[5/280] 0001193125-26-000507 isin pass=oneshot pred=None
+[6/280] 0001193125-26-000507 ticker pass=oneshot pred=None
+[7/280] 0001193125-26-000507 currency pass=oneshot pred=None
+[8/280] 0001193125-26-000507 offer_price pass=oneshot pred='net asset value per Share'
+[9/280] 0001193125-26-000507 expiration_date pass=oneshot pred='march 2, 2026'
+[10/280] 0001193125-26-000507 withdrawal_deadline pass=oneshot pred='january 30, 2026'
+[11/280] 0001193125-26-000507 settlement_date pass=oneshot pred='Payment: promptly'
+[12/280] 0001193125-26-000507 minimum_tender_condition pass=oneshot pred=None
+[13/280] 0001193125-26-000507 effective_date pass=oneshot pred='january 02, 2026'
+[14/280] 0001193125-26-000507 proration_terms pass=oneshot pred=None
+[15/280] 0001104659-26-000598 subject_company pass=oneshot pred='FIRST TRUST PRIVATE ASSETS FUND'
+[16/280] 0001104659-26-000598 bidder pass=oneshot pred='First Trust Private Assets Fund'
+[17/280] 0001104659-26-000598 cusip pass=oneshot pred=None
+[18/280] 0001104659-26-000598 security_description pass=oneshot pred='SHARES OF BENEFICIAL INTEREST'
+[19/280] 0001104659-26-000598 isin pass=oneshot pred=None
+[20/280] 0001104659-26-000598 ticker pass=oneshot pred=None
+[21/280] 0001104659-26-000598 currency pass=oneshot pred='USD'
+[22/280] 0001104659-26-000598 offer_price pass=oneshot pred='net asset value'
+[23/280] 0001104659-26-000598 expiration_date pass=oneshot pred='march 31, 2025'
+[24/280] 0001104659-26-000598 withdrawal_deadline pass=oneshot pred='march 31, 2025'
+[25/280] 0001104659-26-000598 effective_date pass=oneshot pred='march 31, 2025'
+[26/280] 0001104659-26-000598 settlement_date pass=oneshot pred='no later than 5 business days following the completion of the fund’s next annua
+[27/280] 0001104659-26-000598 minimum_tender_condition pass=oneshot pred=None
+[28/280] 0001104659-26-000598 proration_terms pass=oneshot pred=None
+[29/280] 0001104659-26-001124 subject_company pass=oneshot pred='MERSANA THERAPEUTICS, INC.'
+[30/280] 0001104659-26-001124 security_description pass=oneshot pred='Mersana Common Stock'
+[31/280] 0001104659-26-001124 bidder pass=oneshot pred='Emerald Merger Sub, Inc.'
+[32/280] 0001104659-26-001124 cusip pass=oneshot pred='59045L106'
+[33/280] 0001104659-26-001124 ticker pass=oneshot pred='MRSN'
+[34/280] 0001104659-26-001124 isin pass=oneshot pred='US59045L1061'
+[35/280] 0001104659-26-001124 currency pass=oneshot pred='USD'
+[36/280] 0001104659-26-001124 offer_price pass=oneshot pred='$25.00'
+[37/280] 0001104659-26-001124 expiration_date pass=oneshot pred='January 05, 2026'
+[38/280] 0001104659-26-001124 withdrawal_deadline pass=oneshot pred='February 3, 2026'
+[39/280] 0001104659-26-001124 settlement_date pass=oneshot pred='promptly'
+[40/280] 0001104659-26-001124 proration_terms pass=oneshot pred=None
+[41/280] 0001104659-26-001124 effective_date pass=oneshot pred='November 13, 2025'
+[42/280] 0001104659-26-001124 minimum_tender_condition pass=oneshot pred='Minimum Condition'
+[43/280] 0001104659-26-001149 subject_company pass=oneshot pred='KKR FS Income Trust'
+[44/280] 0001104659-26-001149 security_description pass=oneshot pred=None
+[45/280] 0001104659-26-001149 bidder pass=oneshot pred='KKR FS Income Trust'
+[46/280] 0001104659-26-001149 cusip pass=oneshot pred='48255N100'
+[47/280] 0001104659-26-001149 isin pass=oneshot pred='US48255N1000'
+[48/280] 0001104659-26-001149 ticker pass=oneshot pred=None
+[49/280] 0001104659-26-001149 currency pass=oneshot pred=None
+[50/280] 0001104659-26-001149 offer_price pass=oneshot pred='net asset value per share as of December 31, 2025'
+[51/280] 0001104659-26-001149 expiration_date pass=oneshot pred='december 29, 2025'
+[52/280] 0001104659-26-001149 settlement_date pass=oneshot pred=None
+[53/280] 0001104659-26-001149 withdrawal_deadline pass=oneshot pred='december 29, 2025'
+[54/280] 0001104659-26-001149 proration_terms pass=oneshot pred=None
+[55/280] 0001104659-26-001149 minimum_tender_condition pass=oneshot pred=None
+[56/280] 0001104659-26-001149 effective_date pass=oneshot pred='december 29, 2025'
+
+BENCHMARK_RESUME {"from_log": 56, "missing": 224, "concurrency": 4}
+[57/280] 0001104659-26-001148 security_description pass=oneshot pred=None
+[58/280] 0001104659-26-001148 bidder pass=oneshot pred='KKR FS Income Trust Select'
+[59/280] 0001104659-26-001148 cusip pass=oneshot pred='48256J108'
+[60/280] 0001104659-26-001148 subject_company pass=oneshot pred='KKR FS Income Trust Select'
+[61/280] 0001104659-26-001148 ticker pass=oneshot pred=None
+[62/280] 0001104659-26-001148 currency pass=oneshot pred='USD'
+[63/280] 0001104659-26-001148 isin pass=oneshot pred='US48256J1088'
+[64/280] 0001104659-26-001148 offer_price pass=oneshot pred='net asset value per Share as of December 31, 2025'
+[65/280] 0001104659-26-001148 settlement_date pass=oneshot pred=None
+[66/280] 0001104659-26-001148 expiration_date pass=oneshot pred='11:59 p.m., eastern time, on december 29, 2025'
+[67/280] 0001104659-26-001148 withdrawal_deadline pass=oneshot pred='december 29, 2025'
+[68/280] 0001104659-26-001148 effective_date pass=oneshot pred='december 31, 2025'
+[69/280] 0001104659-26-001148 minimum_tender_condition pass=oneshot pred=None
+[70/280] 0001104659-26-001148 proration_terms pass=oneshot pred=None
+[71/280] 0001193125-26-005515 bidder pass=oneshot pred='Caymus Purchaser, Inc.'
+[72/280] 0001193125-26-005515 subject_company pass=oneshot pred='CIDARA THERAPEUTICS, INC.'
+[73/280] 0001193125-26-005515 security_description pass=oneshot pred='Series A Convertible Voting Preferred Stock'
+[74/280] 0001193125-26-005515 ticker pass=oneshot pred=None
+[75/280] 0001193125-26-005515 cusip pass=oneshot pred='171757206'
+[76/280] 0001193125-26-005515 isin pass=oneshot pred='US1717572069'
+[77/280] 0001193125-26-005515 offer_price pass=oneshot pred='$221.50 per Common Share'
+[78/280] 0001193125-26-005515 currency pass=oneshot pred='USD'
+[79/280] 0001193125-26-005515 withdrawal_deadline pass=oneshot pred='january 6, 2026'
+[80/280] 0001193125-26-005515 settlement_date pass=oneshot pred='February 03, 2026'
+[81/280] 0001193125-26-005515 effective_date pass=oneshot pred='november 13, 2025'
+[82/280] 0001193125-26-005515 expiration_date pass=oneshot pred='one minute after 11:59 p.m., eastern time, on january 06, 2026'
+[83/280] 0001193125-26-005515 proration_terms pass=oneshot pred=None
+[84/280] 0001193125-26-005515 minimum_tender_condition pass=oneshot pred=None
+[85/280] 0001193125-26-005515 bidder pass=oneshot pred='Caymus Purchaser, Inc.'
+[86/280] 0001193125-26-005515 subject_company pass=oneshot pred='CIDARA THERAPEUTICS, INC.'
+[87/280] 0001193125-26-005515 security_description pass=oneshot pred='Series A Convertible Voting Preferred Stock'
+[88/280] 0001193125-26-005515 ticker pass=oneshot pred=None
+[89/280] 0001193125-26-005515 cusip pass=oneshot pred='171757206'
+[90/280] 0001193125-26-005515 isin pass=oneshot pred='US1717572069'
+[91/280] 0001193125-26-005515 currency pass=oneshot pred='USD'
+[92/280] 0001193125-26-005515 offer_price pass=oneshot pred='$221.50 per Common Share'
+[93/280] 0001193125-26-005515 withdrawal_deadline pass=oneshot pred='january 6, 2026'
+[94/280] 0001193125-26-005515 expiration_date pass=oneshot pred='one minute after 11:59 p.m., eastern time, on january 06, 2026'
+[95/280] 0001193125-26-005515 settlement_date pass=oneshot pred='February 03, 2026'
+[96/280] 0001193125-26-005515 minimum_tender_condition pass=oneshot pred=None
+[97/280] 0001193125-26-005515 proration_terms pass=oneshot pred=None
+[98/280] 0001193125-26-005515 effective_date pass=oneshot pred='november 13, 2025'
+[99/280] 0001104659-26-002517 subject_company pass=oneshot pred='Generation Bio Co.'
+[100/280] 0001104659-26-002517 security_description pass=oneshot pred='Company Shares'
+[101/280] 0001104659-26-002517 bidder pass=oneshot pred='XRA 7 Corp.'
+[102/280] 0001104659-26-002517 cusip pass=oneshot pred='37148K209'
+[103/280] 0001104659-26-002517 isin pass=oneshot pred='US37148K2096'
+[104/280] 0001104659-26-002517 ticker pass=oneshot pred='GBIO'
+[105/280] 0001104659-26-002517 currency pass=oneshot pred='USD'
+[106/280] 0001104659-26-002517 offer_price pass=oneshot pred='$4.2913'
+[107/280] 0001104659-26-002517 withdrawal_deadline pass=oneshot pred='February 8, 2026'
+[108/280] 0001104659-26-002517 expiration_date pass=oneshot pred='February 08, 2026'
+[109/280] 0001104659-26-002517 settlement_date pass=oneshot pred='Payment: promptly'
+[110/280] 0001104659-26-002517 effective_date pass=oneshot pred='december 15, 2025'
+[111/280] 0001104659-26-002517 proration_terms pass=oneshot pred=None
+[112/280] 0000919574-26-000310 subject_company pass=oneshot pred='OceanPal Inc.'
+[113/280] 0000919574-26-000310 bidder pass=oneshot pred='OceanPal Inc.'
+[114/280] 0000919574-26-000310 cusip pass=oneshot pred=None
+[115/280] 0000919574-26-000310 security_description pass=oneshot pred='7.0% Series D Cumulative Convertible Perpetual Preferred Stock'
+[116/280] 0000919574-26-000310 isin pass=oneshot pred=None
+[117/280] 0001104659-26-002517 minimum_tender_condition pass=oneshot pred='at least one Company Share more than 50% of the number of Company Shares that a
+[118/280] 0000919574-26-000310 ticker pass=oneshot pred=None
+[119/280] 0000919574-26-000310 currency pass=oneshot pred='USD'
+[120/280] 0000919574-26-000310 offer_price pass=oneshot pred='$1,400'
+[121/280] 0000919574-26-000310 expiration_date pass=oneshot pred='January 8th, 2026, 5:00 P.M., Eastern Time'
+[122/280] 0000919574-26-000310 minimum_tender_condition pass=oneshot pred=None
+[123/280] 0000919574-26-000310 settlement_date pass=oneshot pred='Payment: promptly'
+[124/280] 0000919574-26-000310 proration_terms pass=oneshot pred=None
+[125/280] 0000919574-26-000310 withdrawal_deadline pass=oneshot pred='january 8th, 2026'
+[126/280] 0000919574-26-000310 effective_date pass=oneshot pred='november 25, 2025'
+[127/280] 0001104659-26-006294 subject_company pass=oneshot pred='EAGLE POINT INSTITUTIONAL INCOME FUND'
+[128/280] 0001104659-26-006294 security_description pass=oneshot pred=None
+[129/280] 0001104659-26-006294 bidder pass=oneshot pred='EAGLE POINT INSTITUTIONAL INCOME FUND'
+[130/280] 0001104659-26-006294 cusip pass=oneshot pred='269819108'
+[131/280] 0001104659-26-006294 currency pass=oneshot pred=None
+[132/280] 0001104659-26-006294 ticker pass=oneshot pred='269819108'
+[133/280] 0001104659-26-006294 offer_price pass=oneshot pred='net asset value'
+[134/280] 0001104659-26-006294 isin pass=oneshot pred='US2698191085'
+[135/280] 0001104659-26-006294 withdrawal_deadline pass=oneshot pred='december 29, 2025'
+[136/280] 0001104659-26-006294 expiration_date pass=oneshot pred='5:00 p.m., eastern time, on december 29, 2025'
+[137/280] 0001104659-26-006294 settlement_date pass=oneshot pred='January 22, 2026'
+[138/280] 0001104659-26-006294 effective_date pass=oneshot pred='january 22, 2026'
+[139/280] 0001104659-26-006294 proration_terms pass=oneshot pred=None
+[140/280] 0001104659-26-006294 minimum_tender_condition pass=oneshot pred=None
+[141/280] 0001104659-26-006517 subject_company pass=oneshot pred='Hartford Schroders Private Opportunities Fund'
+[142/280] 0001104659-26-006517 bidder pass=oneshot pred='HARTFORD SCHRODERS PRIVATE OPPORTUNITIES FUND'
+[143/280] 0001104659-26-006517 cusip pass=oneshot pred=None
+[144/280] 0001104659-26-006517 isin pass=oneshot pred=None
+[145/280] 0001104659-26-006517 security_description pass=oneshot pred='Class I XHFIX'
+[146/280] 0001104659-26-006517 ticker pass=oneshot pred='XHFSX'
+[147/280] 0001104659-26-006517 currency pass=oneshot pred='USD'
+[148/280] 0001104659-26-006517 offer_price pass=oneshot pred='net asset value per Share as of the Valuation Date'
+[149/280] 0001104659-26-006517 expiration_date pass=oneshot pred='august 26, 2024'
+[150/280] 0001104659-26-006517 withdrawal_deadline pass=oneshot pred='August 26, 2024'
+[151/280] 0001104659-26-006517 settlement_date pass=oneshot pred='september 23, 2024'
+[152/280] 0001104659-26-006517 minimum_tender_condition pass=oneshot pred=None
+[153/280] 0001104659-26-006517 proration_terms pass=oneshot pred=None
+[154/280] 0001104659-26-006950 bidder pass=oneshot pred='Coatue Innovative Strategies Fund'
+[155/280] 0001104659-26-006950 subject_company pass=oneshot pred='COATUE INNOVATIVE STRATEGIES FUND'
+[156/280] 0001104659-26-006517 effective_date pass=oneshot pred='july 29, 2024'
+[157/280] 0001104659-26-006950 security_description pass=oneshot pred=None
+[158/280] 0001104659-26-006950 cusip pass=oneshot pred=None
+[159/280] 0001104659-26-006950 isin pass=oneshot pred=None
+[160/280] 0001104659-26-006950 ticker pass=oneshot pred=None
+[161/280] 0001104659-26-006950 offer_price pass=oneshot pred='$11.81'
+[162/280] 0001104659-26-006950 currency pass=oneshot pred='USD'
+[163/280] 0001104659-26-006950 withdrawal_deadline pass=oneshot pred='february 24, 2026'
+[164/280] 0001104659-26-006950 expiration_date pass=oneshot pred='february 24, 2026, at 12:00 midnight eastern time'
+[165/280] 0001104659-26-006950 effective_date pass=oneshot pred='january 30, 2026'
+[166/280] 0001104659-26-006950 minimum_tender_condition pass=oneshot pred=None
+[167/280] 0001104659-26-006950 proration_terms pass=oneshot pred=None
+[168/280] 0001104659-26-006950 settlement_date pass=oneshot pred='within seven (7) days following February 24, 2026'
+[169/280] 0001104659-26-008028 cusip pass=oneshot pred=None
+[170/280] 0001104659-26-008028 bidder pass=oneshot pred='Monroe Capital Income Plus Corporation'
+[171/280] 0001104659-26-008028 security_description pass=oneshot pred='Common Stock'
+[172/280] 0001104659-26-008028 subject_company pass=oneshot pred='MONROE CAPITAL INCOME PLUS CORPORATION'
+[173/280] 0001104659-26-008028 isin pass=oneshot pred=None
+[174/280] 0001104659-26-008028 ticker pass=oneshot pred=None
+[175/280] 0001104659-26-008028 currency pass=oneshot pred='USD'
+[176/280] 0001104659-26-008028 offer_price pass=oneshot pred='per share price of the Common Stock sold by the Company in the most recent clos
+[177/280] 0001104659-26-008028 withdrawal_deadline pass=oneshot pred='any time'
+[178/280] 0001104659-26-008028 settlement_date pass=oneshot pred='Payment: promptly'
+[179/280] 0001104659-26-008028 minimum_tender_condition pass=oneshot pred=None
+[180/280] 0001104659-26-008028 effective_date pass=oneshot pred='february 2, 2026'
+[181/280] 0001104659-26-008028 expiration_date pass=oneshot pred='February 27, 2026, at 11:59 P.M., Eastern Time'
+[182/280] 0001104659-26-008028 proration_terms pass=oneshot pred=None
+[183/280] 0000930413-26-000298 security_description pass=oneshot pred=None
+[184/280] 0000930413-26-000298 bidder pass=oneshot pred='Lord Abbett Private Credit Fund'
+[185/280] 0000930413-26-000298 subject_company pass=oneshot pred='Lord Abbett Private Credit Fund'
+[186/280] 0000930413-26-000298 cusip pass=oneshot pred=None
+[187/280] 0000930413-26-000298 isin pass=oneshot pred=None
+[188/280] 0000930413-26-000298 ticker pass=oneshot pred=None
+[189/280] 0000930413-26-000298 currency pass=oneshot pred='USD'
+[190/280] 0000930413-26-000298 offer_price pass=oneshot pred='net asset value as of March 31, 2026'
+[191/280] 0000930413-26-000298 settlement_date pass=oneshot pred='promptly'
+[192/280] 0000930413-26-000298 withdrawal_deadline pass=oneshot pred='FEBRUARY 27, 2026'
+[193/280] 0000930413-26-000298 expiration_date pass=oneshot pred='february 27, 2026'
+[194/280] 0000930413-26-000298 proration_terms pass=oneshot pred=None
+[195/280] 0000930413-26-000298 minimum_tender_condition pass=oneshot pred=None
+[196/280] 0000930413-26-000298 effective_date pass=oneshot pred=None
+[197/280] 0000930413-26-000299 subject_company pass=oneshot pred='Lord Abbett Private Credit Fund S'
+[198/280] 0000930413-26-000299 security_description pass=oneshot pred=None
+[199/280] 0000930413-26-000299 cusip pass=oneshot pred=None
+[200/280] 0000930413-26-000299 bidder pass=oneshot pred='Lord Abbett Private Credit Fund S'
+[201/280] 0000930413-26-000299 isin pass=oneshot pred=None
+[202/280] 0000930413-26-000299 ticker pass=oneshot pred=None
+[203/280] 0000930413-26-000299 currency pass=oneshot pred='USD'
+[204/280] 0000930413-26-000299 offer_price pass=oneshot pred='net asset value as of March 31, 2026'
+[205/280] 0000930413-26-000299 expiration_date pass=oneshot pred='february 27, 2026'
+[206/280] 0000930413-26-000299 settlement_date pass=oneshot pred=None
+[207/280] 0000930413-26-000299 minimum_tender_condition pass=oneshot pred=None
+[208/280] 0000930413-26-000299 withdrawal_deadline pass=oneshot pred='FEBRUARY 27, 2026'
+[209/280] 0000930413-26-000299 effective_date pass=oneshot pred=None
+[210/280] 0000930413-26-000299 proration_terms pass=oneshot pred=None
+[211/280] 0001140361-26-003032 subject_company pass=oneshot pred='BlackRock Private Credit Fund'
+[212/280] 0001140361-26-003032 bidder pass=oneshot pred='BlackRock Private Credit Fund'
+[213/280] 0001140361-26-003032 security_description pass=oneshot pred='Class D common shares of beneficial interest'
+[214/280] 0001140361-26-003032 cusip pass=oneshot pred='BRY4333P7'
+[215/280] 0001140361-26-003032 isin pass=oneshot pred='USBRY4333P74'
+[216/280] 0001140361-26-003032 ticker pass=oneshot pred='BRY13VCK2'
+[217/280] 0001140361-26-003032 offer_price pass=oneshot pred='net asset value per share'
+[218/280] 0001140361-26-003032 currency pass=oneshot pred='USD'
+[219/280] 0001140361-26-003032 expiration_date pass=oneshot pred='May 28, 2025'
+[220/280] 0001140361-26-003032 withdrawal_deadline pass=oneshot pred='may 28, 2025'
+[221/280] 0001140361-26-003032 settlement_date pass=oneshot pred='on or after june 27, 2025'
+[222/280] 0001140361-26-003032 proration_terms pass=oneshot pred=None
+[223/280] 0001140361-26-003032 minimum_tender_condition pass=oneshot pred=None
+[224/280] 0001140361-26-003032 effective_date pass=oneshot pred='june 27, 2025'
+[225/280] 0001104659-26-008693 subject_company pass=oneshot pred='Enzon Pharmaceuticals, Inc.'
+[226/280] 0001104659-26-008693 bidder pass=oneshot pred='Enzon Pharmaceuticals, Inc.'
+[227/280] 0001104659-26-008693 security_description pass=oneshot pred='Series C Non-Convertible Redeemable Preferred Stock'
+[228/280] 0001104659-26-008693 cusip pass=oneshot pred='293904702'
+[229/280] 0001104659-26-008693 ticker pass=oneshot pred='ENZN'
+[230/280] 0001104659-26-008693 isin pass=oneshot pred='US2939047021'
+[231/280] 0001104659-26-008693 currency pass=oneshot pred='USD'
+[232/280] 0001104659-26-008693 offer_price pass=oneshot pred='7.83'
+[233/280] 0001104659-26-008693 expiration_date pass=oneshot pred='March 9, 2026'
+[234/280] 0001104659-26-008693 withdrawal_deadline pass=oneshot pred=None
+[235/280] 0001104659-26-008693 minimum_tender_condition pass=oneshot pred=None
+[236/280] 0001104659-26-008693 settlement_date pass=oneshot pred=None
+[237/280] 0001104659-26-008693 proration_terms pass=oneshot pred=None
+[238/280] 0001104659-26-008693 effective_date pass=oneshot pred='june 20, 2025'
+[239/280] 0001104659-26-008976 subject_company pass=oneshot pred='CPG Focused Access Fund, LLC'
+[240/280] 0001104659-26-008976 bidder pass=oneshot pred='MACQUARIE FOCUSED ACCESS FUND, LLC'
+[241/280] 0001104659-26-008976 cusip pass=oneshot pred=None
+[242/280] 0001104659-26-008976 isin pass=oneshot pred=None
+[243/280] 0001104659-26-008976 ticker pass=oneshot pred='Class F1 Units'
+[244/280] 0001104659-26-008976 security_description pass=oneshot pred='Class A and Class I Units of Limited Liability Company Interests'
+[245/280] 0001104659-26-008976 offer_price pass=oneshot pred='net asset value'
+[246/280] 0001104659-26-008976 currency pass=oneshot pred='USD'
+[247/280] 0001104659-26-008976 withdrawal_deadline pass=oneshot pred='April 17, 2020'
+[248/280] 0001104659-26-008976 settlement_date pass=oneshot pred='Payment: promptly'
+[249/280] 0001104659-26-008976 expiration_date pass=oneshot pred='April 17, 2020, at 12:00 midnight, New York time'
+[250/280] 0001104659-26-008976 effective_date pass=oneshot pred='june 30, 2020'
+[251/280] 0001104659-26-008976 proration_terms pass=oneshot pred=None
+[252/280] 0001104659-26-008976 minimum_tender_condition pass=oneshot pred=None
+[253/280] 0001104659-26-010301 subject_company pass=oneshot pred='Ares Private Markets Fund'
+[254/280] 0001104659-26-010301 bidder pass=oneshot pred='Ares Private Markets Fund'
+[255/280] 0001104659-26-010301 security_description pass=oneshot pred='Class D Shares'
+[256/280] 0001104659-26-010301 cusip pass=oneshot pred='04020B202'
+[257/280] 0001104659-26-010301 isin pass=oneshot pred='US04020B2025'
+[258/280] 0001104659-26-010301 offer_price pass=oneshot pred='net asset value'
+[259/280] 0001104659-26-010301 ticker pass=oneshot pred='04020B103'
+[260/280] 0001104659-26-010301 currency pass=oneshot pred='USD'
+[261/280] 0001104659-26-010301 settlement_date pass=oneshot pred=None
+[262/280] 0001104659-26-010301 withdrawal_deadline pass=oneshot pred='december 30, 2025'
+[263/280] 0001104659-26-010301 effective_date pass=oneshot pred='december 31, 2025'
+[264/280] 0001104659-26-010301 expiration_date pass=oneshot pred='11:59 p.m., eastern time, on december 30, 2025'
+[265/280] 0001104659-26-010301 minimum_tender_condition pass=oneshot pred=None
+[266/280] 0001104659-26-010301 proration_terms pass=oneshot pred=None
+[267/280] 0001104659-26-010301 subject_company pass=oneshot pred='Ares Private Markets Fund'
+[268/280] 0001104659-26-010301 security_description pass=oneshot pred='Class D Shares'
+[269/280] 0001104659-26-010301 bidder pass=oneshot pred='Ares Private Markets Fund'
+[270/280] 0001104659-26-010301 cusip pass=oneshot pred='04020B202'
+[271/280] 0001104659-26-010301 isin pass=oneshot pred='US04020B2025'
+[272/280] 0001104659-26-010301 offer_price pass=oneshot pred='net asset value'
+[273/280] 0001104659-26-010301 ticker pass=oneshot pred='04020B103'
+[274/280] 0001104659-26-010301 currency pass=oneshot pred='USD'
+[275/280] 0001104659-26-010301 expiration_date pass=oneshot pred='11:59 p.m., eastern time, on december 30, 2025'
+[276/280] 0001104659-26-010301 withdrawal_deadline pass=oneshot pred='december 30, 2025'
+[277/280] 0001104659-26-010301 settlement_date pass=oneshot pred=None
+[278/280] 0001104659-26-010301 minimum_tender_condition pass=oneshot pred=None
+[279/280] 0001104659-26-010301 proration_terms pass=oneshot pred=None
+[280/280] 0001104659-26-010301 effective_date pass=oneshot pred='december 31, 2025'

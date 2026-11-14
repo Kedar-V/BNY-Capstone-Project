@@ -1,0 +1,209 @@
+loading temporal tagger on cpu…
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8037.77it/s]
+{
+  "pack": "merger",
+  "backend": "ollama",
+  "model": "qwen3:4b",
+  "cascade": true,
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "n_rows": 1,
+  "n_fields": 12,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "run": "unified_field_merger_v2_qwen3_4b_mac_real_artifacts"
+}
+[1/12] 0001104659-26-002481 stock_exchange_ratio pass=empty pred=None
+[2/12] 0001104659-26-002481 target pass=empty pred=None
+[3/12] 0001104659-26-002481 consideration_type pass=empty pred=None
+[4/12] 0001104659-26-002481 cash_consideration pass=B+C_keep pred='$31.00'
+[5/12] 0001104659-26-002481 acquirer pass=error pred=None
+[6/12] 0001104659-26-002481 shareholder_vote_date pass=error pred=None
+[7/12] 0001104659-26-002481 election_deadline pass=B+C_keep pred='february 12, 2026'
+[8/12] 0001104659-26-002481 cusip pass=empty pred=None
+[9/12] 0001104659-26-002481 isin pass=empty pred=None
+[10/12] 0001104659-26-002481 effective_date pass=error pred=None
+[11/12] 0001104659-26-002481 ticker pass=error pred=None
+[12/12] 0001104659-26-002481 security_description pass=B+C_keep pred='Class A common stock'
+{
+  "pack": "merger",
+  "backend": "ollama",
+  "model": "qwen3:4b",
+  "mode": "cascade_v2",
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 67.79,
+  "n_rows": 1,
+  "n_llm_jobs": 12,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "micro": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2222222222222222,
+    "f1": 0.3333333333333333
+  },
+  "tp": 2,
+  "fp": 1,
+  "fn": 7,
+  "pass_counts": {
+    "error": 4,
+    "empty": 5,
+    "B+C_keep": 3
+  },
+  "per_field": {
+    "acquirer": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "target": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "consideration_type": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "cash_consideration": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "stock_exchange_ratio": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "shareholder_vote_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "election_deadline": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": null,
+      "f1": null
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "security_description": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "ticker": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "cusip": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "isin": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  }
+}
+micro_f1=0.3333333333333333  vs_prompt_v2=0.468  vs_allspans=0.481  vs_oracle=0.837
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/merger_eval/experiments/runs/unified_field_merger_v2_qwen3_4b_mac_real_artifacts

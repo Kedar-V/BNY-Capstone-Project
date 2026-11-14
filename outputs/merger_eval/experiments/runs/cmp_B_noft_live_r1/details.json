@@ -1,0 +1,1394 @@
+[
+  {
+    "accession": "0001437749-26-000391",
+    "event_id": "merger_0001437749-26-000391",
+    "n_spans": 16,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "SPX Enterprises, LLC",
+        "pred": "SPX Enterprises, LLC",
+        "pass_used": "B",
+        "n_evidence_chars": 649,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"SPX Enterprises, LLC\"}"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "Crawford United Corporation",
+        "pred": "CRAWFORD UNITED Corp",
+        "pass_used": "A_inventory",
+        "n_evidence_chars": 57,
+        "n_rules": 0,
+        "raw_llm": "A_inventory:'CRAWFORD UNITED Corp'"
+      },
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Cash",
+        "pred": "cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 936,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$84.44 per share",
+        "pred": "$83.42",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 936,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$83.42\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "No stock consideration",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "2/3/2026 10:00 AM Eastern Time",
+        "pred": "february 3, 2026",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 2804,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": \"february 3, 2026\"} | C:{\"keep\": true}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 2804,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 2804,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class A common capital stock and Class B common capital stock",
+        "pred": "Class A common shares",
+        "pass_used": "B",
+        "n_evidence_chars": 987,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"Class A common shares\"}"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "CRAWA",
+        "pred": "SPXC",
+        "pass_used": "A",
+        "n_evidence_chars": 48,
+        "n_rules": 1,
+        "raw_llm": "A:{\"ticker\": \"SPXC\"}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-003553",
+    "event_id": "merger_0001193125-26-003553",
+    "n_spans": 23,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Sonida Senior Living, Inc.",
+        "pred": "Conversant Capital LLC",
+        "pass_used": "B",
+        "n_evidence_chars": 2453,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Conversant Capital LLC\"}"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "CNL Healthcare Properties, Inc.",
+        "pred": "CNL Healthcare Properties, Inc.",
+        "pass_used": "A_inventory",
+        "n_evidence_chars": 68,
+        "n_rules": 0,
+        "raw_llm": "A_inventory:'CNL Healthcare Properties, Inc.'"
+      },
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Mixed cash and stock",
+        "pred": "Mixed cash and stock",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 1849,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Mixed cash and stock\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$2.32 per share",
+        "pred": "$2.32",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 1849,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$2.32\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "$4.58 divided by Closing VWAP shares of SNDA Common Stock per share",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "3/6/2026 10:00 AM Eastern Time",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 3081,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 3081,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 3081,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "common stock",
+        "pred": "SNDA Common Stock",
+        "pass_used": "B",
+        "n_evidence_chars": 1561,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"SNDA Common Stock\"}"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "CHTH",
+        "pred": "SNDA",
+        "pass_used": "A",
+        "n_evidence_chars": 48,
+        "n_rules": 1,
+        "raw_llm": "A:{\"ticker\": \"SNDA\"}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-010471",
+    "event_id": "merger_0001193125-26-010471",
+    "n_spans": 16,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Sword Purchaser, LLC",
+        "pred": "Clayton, Dubilier & Rice, LLC",
+        "pass_used": "B",
+        "n_evidence_chars": 1148,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Clayton, Dubilier & Rice, LLC\"}"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "Sealed Air Corporation",
+        "pred": "SEALED AIR CORP/DE",
+        "pass_used": "A_inventory",
+        "n_evidence_chars": 55,
+        "n_rules": 0,
+        "raw_llm": "A_inventory:'SEALED AIR CORP/DE'"
+      },
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Cash",
+        "pred": "cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 929,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$42.15 per share",
+        "pred": "$42.15",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 929,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$42.15\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "No stock consideration",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 2814,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 2814,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 2814,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "common stock",
+        "pred": "Sealed Air common stock",
+        "pass_used": "B",
+        "n_evidence_chars": 335,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"Sealed Air common stock\"}"
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "SEE",
+        "pred": "SEE",
+        "pass_used": "A",
+        "n_evidence_chars": 46,
+        "n_rules": 1,
+        "raw_llm": "A:{\"ticker\": \"SEE\"}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-002095",
+    "event_id": "merger_0001493152-26-002095",
+    "n_spans": 24,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Inc.",
+        "pred": "Willow Lane Acquisition Corp.",
+        "pass_used": "B",
+        "n_evidence_chars": 4041,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Willow Lane Acquisition Corp.\"}"
+      },
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Willow Lane Acquisition Corp.",
+        "pred": "Karos",
+        "pass_used": "B",
+        "n_evidence_chars": 3728,
+        "n_rules": 0,
+        "raw_llm": "B:{\"target\": \"Karos\"}"
+      },
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "$1.75",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$1.75\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "1 share of Pubco Class A Common Stock per share",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "3/3/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class A ordinary shares",
+        "pred": "Pubco Class A Common Stock",
+        "pass_used": "B",
+        "n_evidence_chars": 642,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"Pubco Class A Common Stock\"}"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CRWV",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 595,
+        "n_rules": 0,
+        "raw_llm": "B:{\"ticker\": null}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-002095",
+    "event_id": "merger_0001493152-26-002095",
+    "n_spans": 24,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Inc.",
+        "pred": "Willow Lane Acquisition Corp.",
+        "pass_used": "B",
+        "n_evidence_chars": 4041,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Willow Lane Acquisition Corp.\"}"
+      },
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Willow Lane Acquisition Corp.",
+        "pred": "Karos",
+        "pass_used": "B",
+        "n_evidence_chars": 3728,
+        "n_rules": 0,
+        "raw_llm": "B:{\"target\": \"Karos\"}"
+      },
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "$1.75",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$1.75\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "1 share of Pubco Class A Common Stock per share",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "3/3/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class B ordinary shares",
+        "pred": "Pubco Class A Common Stock",
+        "pass_used": "B",
+        "n_evidence_chars": 642,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"Pubco Class A Common Stock\"}"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CRWV",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 595,
+        "n_rules": 0,
+        "raw_llm": "B:{\"ticker\": null}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-002095",
+    "event_id": "merger_0001493152-26-002095",
+    "n_spans": 24,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Inc.",
+        "pred": "Willow Lane Acquisition Corp.",
+        "pass_used": "B",
+        "n_evidence_chars": 4041,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Willow Lane Acquisition Corp.\"}"
+      },
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Holdings, LLC",
+        "pred": "Karos",
+        "pass_used": "B",
+        "n_evidence_chars": 3728,
+        "n_rules": 0,
+        "raw_llm": "B:{\"target\": \"Karos\"}"
+      },
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Other",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "$1.75",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$1.75\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class A Units",
+        "pred": "Pubco Class A Common Stock",
+        "pass_used": "B",
+        "n_evidence_chars": 642,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"Pubco Class A Common Stock\"}"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CRWV",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 595,
+        "n_rules": 0,
+        "raw_llm": "B:{\"ticker\": null}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-002095",
+    "event_id": "merger_0001493152-26-002095",
+    "n_spans": 24,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Inc.",
+        "pred": "Willow Lane Acquisition Corp.",
+        "pass_used": "B",
+        "n_evidence_chars": 4041,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Willow Lane Acquisition Corp.\"}"
+      },
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Holdings, LLC",
+        "pred": "Karos",
+        "pass_used": "B",
+        "n_evidence_chars": 3728,
+        "n_rules": 0,
+        "raw_llm": "B:{\"target\": \"Karos\"}"
+      },
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "$1.75",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$1.75\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class B Units",
+        "pred": "Pubco Class A Common Stock",
+        "pass_used": "B",
+        "n_evidence_chars": 642,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"Pubco Class A Common Stock\"}"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CRWV",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 595,
+        "n_rules": 0,
+        "raw_llm": "B:{\"ticker\": null}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-002095",
+    "event_id": "merger_0001493152-26-002095",
+    "n_spans": 24,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Inc.",
+        "pred": "Willow Lane Acquisition Corp.",
+        "pass_used": "B",
+        "n_evidence_chars": 4041,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Willow Lane Acquisition Corp.\"}"
+      },
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Holdings, LLC",
+        "pred": "Karos",
+        "pass_used": "B",
+        "n_evidence_chars": 3728,
+        "n_rules": 0,
+        "raw_llm": "B:{\"target\": \"Karos\"}"
+      },
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "$1.75",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 313,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$1.75\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1106,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class C Units",
+        "pred": "Pubco Class A Common Stock",
+        "pass_used": "B",
+        "n_evidence_chars": 642,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"Pubco Class A Common Stock\"}"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CRWV",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 595,
+        "n_rules": 0,
+        "raw_llm": "B:{\"ticker\": null}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-012952",
+    "event_id": "merger_0001193125-26-012952",
+    "n_spans": 19,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "Ryerson Holding Corporation",
+        "pred": "Ryerson Holding Corporation",
+        "pass_used": "B",
+        "n_evidence_chars": 1471,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Ryerson Holding Corporation\"}"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "Olympic Steel, Inc.",
+        "pred": "OLYMPIC STEEL INC",
+        "pass_used": "A_inventory",
+        "n_evidence_chars": 54,
+        "n_rules": 0,
+        "raw_llm": "A_inventory:'OLYMPIC STEEL INC'"
+      },
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 314,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "mismatch",
+        "gold": "No cash consideration",
+        "pred": "$48.42",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 314,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$48.42\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "1.7105 shares of Ryerson common stock per share",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "2/12/2026 9:30 AM Eastern Time",
+        "pred": "february 12, 2026",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 4640,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": \"february 12, 2026\"} | C:{\"keep\": true}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 4640,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 4640,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "common stock, without par value",
+        "pred": "common stock",
+        "pass_used": "B",
+        "n_evidence_chars": 972,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"common stock\"}"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "ZEUS",
+        "pred": "RYI",
+        "pass_used": "A",
+        "n_evidence_chars": 46,
+        "n_rules": 1,
+        "raw_llm": "A:{\"ticker\": \"RYI\"}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 308,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cusip\": null}"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001185185-26-000166",
+    "event_id": "merger_0001185185-26-000166",
+    "n_spans": 31,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "RYVYL Inc.",
+        "pred": "RTB Digital, Inc.",
+        "pass_used": "B",
+        "n_evidence_chars": 4394,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"RTB Digital, Inc.\"}"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "RTB Digital, Inc.",
+        "pred": "RTB",
+        "pass_used": "B",
+        "n_evidence_chars": 4964,
+        "n_rules": 0,
+        "raw_llm": "B:{\"target\": \"RTB\"}"
+      },
+      "consideration_type": {
+        "outcome": "fn",
+        "gold": "Stock",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 543,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": null}"
+      },
+      "cash_consideration": {
+        "outcome": "fn",
+        "gold": "No cash consideration",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 543,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": null}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "Exchange Ratio = (Fully Diluted Parent Common Stock \u00d7 Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 4488,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 4488,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 4488,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Common stock",
+        "pred": "common stock",
+        "pass_used": "B",
+        "n_evidence_chars": 1184,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"common stock\"}"
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "RVYL",
+        "pred": "RVYL",
+        "pass_used": "A",
+        "n_evidence_chars": 48,
+        "n_rules": 1,
+        "raw_llm": "A:{\"ticker\": \"RVYL\"}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 940,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cusip\": null}"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-004251",
+    "event_id": "merger_0001104659-26-004251",
+    "n_spans": 24,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "AKOM Inc.",
+        "pred": "IX Acquisition Corp.",
+        "pass_used": "B",
+        "n_evidence_chars": 698,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"IX Acquisition Corp.\"}"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "AERKOMM Inc.",
+        "pred": "Aerkomm Inc.",
+        "pass_used": "B",
+        "n_evidence_chars": 930,
+        "n_rules": 0,
+        "raw_llm": "B:{\"target\": \"Aerkomm Inc.\"}"
+      },
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 158,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "$28,213.64",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 158,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": \"$28,213.64\"} | C:{\"keep\": true}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "Conversion Ratio shares of AKOM Pubco Common Stock per share",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1380,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1380,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1380,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": null}"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Common Stock",
+        "pred": "Common Stock",
+        "pass_used": "B",
+        "n_evidence_chars": 642,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"Common Stock\"}"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "XP",
+        "pred": "IXAQ",
+        "pass_used": "B",
+        "n_evidence_chars": 1240,
+        "n_rules": 0,
+        "raw_llm": "B:{\"ticker\": \"IXAQ\"}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-016598",
+    "event_id": "merger_0001193125-26-016598",
+    "n_spans": 30,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "GigCapital7 Corp.",
+        "pred": "Hadron Energy, Inc.",
+        "pass_used": "B",
+        "n_evidence_chars": 3480,
+        "n_rules": 0,
+        "raw_llm": "B:{\"acquirer\": \"Hadron Energy, Inc.\"}"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "Hadron Energy, Inc.",
+        "pred": "Hadron Energy, Inc.",
+        "pass_used": "B",
+        "n_evidence_chars": 2748,
+        "n_rules": 0,
+        "raw_llm": "B:{\"target\": \"Hadron Energy, Inc.\"}"
+      },
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 975,
+        "n_rules": 0,
+        "raw_llm": "B:{\"consideration_type\": \"Cash\"} | C:{\"keep\": true}"
+      },
+      "cash_consideration": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 975,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cash_consideration\": null}"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "Exchange Ratio shares of Domesticated GigCapital7 Common Stock per share",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "B:{\"stock_exchange_ratio\": null}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1943,
+        "n_rules": 0,
+        "raw_llm": "B:{\"shareholder_vote_date\": null}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1943,
+        "n_rules": 0,
+        "raw_llm": "B:{\"election_deadline\": null}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B+C_drop",
+        "n_evidence_chars": 1943,
+        "n_rules": 0,
+        "raw_llm": "B:{\"effective_date\": \"the third quarter of fiscal year 2024\"} | C:{\"keep\": false}"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "common stock",
+        "pred": "GigCapital7 Securities",
+        "pass_used": "B",
+        "n_evidence_chars": 1521,
+        "n_rules": 0,
+        "raw_llm": "B:{\"security_description\": \"GigCapital7 Securities\"}"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "GIG, GIGGU, GIGGW",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 296,
+        "n_rules": 0,
+        "raw_llm": "B:{\"ticker\": null}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 595,
+        "n_rules": 0,
+        "raw_llm": "B:{\"cusip\": null}"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  }
+]

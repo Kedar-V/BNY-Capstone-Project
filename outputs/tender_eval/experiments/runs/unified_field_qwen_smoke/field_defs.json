@@ -1,0 +1,16 @@
+{
+  "subject_company": "Target / issuer whose securities are sought. In an issuer tender offer, issuer is both subject_company and bidder. Not the purchasing offeror in a third-party tender.",
+  "bidder": "Offeror / purchasing party making the tender offer. In an issuer tender, same as subject_company.",
+  "security_description": "Class/type of security being tendered (short description), not the full deal narrative.",
+  "cusip": "CUSIP only (typically 9 characters). null if absent.",
+  "isin": "ISIN only. null if absent.",
+  "ticker": "Exchange ticker symbol(s) only.",
+  "offer_price": "Consideration for tendered shares. Prefer explicit cash amount (e.g. \"$25.00 per share\"). NAV-based deals: short NAV phrasing. Not a bare calendar day.",
+  "currency": "ISO-like currency of the cash offer price (e.g. USD). Explicit code / 'U.S. dollars' \u2192 that code; per-share cash with only $ / \u00a3 / \u20ac \u2192 USD / GBP / EUR. Reject par value, fees, aggregate millions, NAV-only, or lone $. Prefer null over a guess.",
+  "expiration_date": "Offer expiration date/time (include time/zone if stated). Not settlement, commencement, or filing dates.",
+  "withdrawal_deadline": "Deadline to withdraw tendered shares (often same as expiration). null unless withdrawal language supports it.",
+  "settlement_date": "Payment / acceptance timing. Prefer 'Payment: promptly' when the filing says payment will be made promptly after acceptance; otherwise an explicit pay/accept date.",
+  "effective_date": "Legal effectiveness of the transaction \u2014 merger closed/consummated/effective, or issuer repurchase as-of / Valuation Date when that is the repurchase as-of. REJECT commencement, expiration, withdrawal, filing/notice, settlement-only, and NAV-as-price-basis without repurchase-as-of. Prefer null (most standalones).",
+  "minimum_tender_condition": "Use exactly \"No minimum tender condition\" when there is none; otherwise the threshold clause. If text only says a Minimum Condition was satisfied without stating the threshold \u2192 null.",
+  "proration_terms": "Oversubscription / pro-rata acceptance rule (often starts with 'If more than\u2026'). Preserve numbers; omit thousands separators. Do not calculate a %. Do not infer from a purchase limit alone. \"No proration\" only if explicitly stated. null if not discussed."
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "accession": "0001104659-26-002481",
+    "event_id": "merger_0001104659-26-002481",
+    "n_spans": 28,
+    "n_excerpt_chars": 10652,
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "International Business Machines Corporation (IBM), through its wholly owned merger subsidiary Corvo Merger Sub, Inc.",
+        "pred": "IBM",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 1225,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"acquirer\": \"IBM\"\n} | C:{\n    \"keep\": true,\n    \"reasoning\": \"The candidate 'IBM' is the acquirer based on multiple pieces of evidence. The first piece of evidence states that Confluent agreed to be acquired by IBM in the me"
+      },
+      "target": {
+        "outcome": "tp",
+        "gold": "Confluent, Inc.",
+        "pred": "Confluent",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 814,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"target\": \"Confluent\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Confluent' is clearly identified as the entity being acquired in the merger agreement with IBM based on the evidence provided. The GLINER SPANS indicat"
+      },
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Cash, subject to limited exceptions including shares for which appraisal rights are properly exercised.",
+        "pred": "Cash",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 886,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"consideration_type\": \"Cash\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Cash' matches exactly with one of the defined consideration types: \\\"Cash\\\". The evidence provided shows that the merger consideration consists entirel"
+      },
+      "cash_consideration": {
+        "outcome": "fn",
+        "gold": "USD $31.00 in cash per share of Confluent, Inc. Class A common stock, without interest and subject to applicable withholding taxes, except for canceled shares, dissenting shares and subsidiary-converted shares; subject to adjustment for specified changes in outstanding shares before the effective time.",
+        "pred": null,
+        "pass_used": "B+C_drop",
+        "n_evidence_chars": 1324,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"cash_consideration\": \"Each share of Company Common Stock issued and outstanding immediately prior to the Effective Time (other than (i) Canceled Shares, (ii) Dissenting Shares and (iii) Subsidiary Converted Shares) shall be converted into\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate describes conversion terms for shares but does not specify cash consideration. The definition requires 'Cash per share/unit with currency when stated'. Th"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "No stock consideration for eligible Confluent, Inc. Class A common stock.",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 290,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"stock_exchange_ratio\": null\n}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "Confluent, Inc. stockholders\u2019 special meeting scheduled for 2/12/2026 at 9:00 a.m., Pacific Time.",
+        "pred": "february 12, 2026",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 2794,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"shareholder_vote_date\": \"february 12, 2026\"\n} | C:{\n  \"keep\": true\n}"
+      },
+      "election_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "february 12, 2026",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 2199,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"election_deadline\": \"february 12, 2026\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'february 12, 2026' is a specific date that appears in the evidence as \\\"the special meeting will be held on february 12, 2026, at 9:00 a.m., pacific ti"
+      },
+      "effective_date": {
+        "outcome": "mismatch",
+        "gold": "Not specified. The merger will become effective when the certificate of merger is filed with the Delaware Secretary of State, or at a later date and time agreed by IBM and Confluent and specified in that certificate.",
+        "pred": "december 7, 2025",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 2647,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"effective_date\": \"december 7, 2025\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'december 7, 2025' is a specific date format that matches the definition of legal closing/consummation/effectiveness date. In the EVIDENCE section, ther"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Confluent, Inc. Class A common stock, par value $0.00001 per share.",
+        "pred": "each share of our Class A common stock, $0.00001 par value per share (the \"Class A common stock\"), and Class B common stock, $0.00001 par value per share (the \"Class",
+        "pass_used": "B",
+        "n_evidence_chars": 452,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"security_description\": \"each share of our Class A common stock, $0.00001 par value per share (the \\\"Class A common stock\\\"), and Class B common stock, $0.00001 par value per share (the \\\"Class\"\n} | C:{\n  \"task\": \"Validate a candidate for `security_description`\",\n  \"definition\": \"Short class/type of the affected security (e.g. common stock)\",\n  \"candidate\": \"'each share of our Class A common stock,"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CFLT",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  }
+]

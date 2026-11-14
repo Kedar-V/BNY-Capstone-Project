@@ -1,0 +1,207 @@
+loading temporal tagger on cpu…
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13025.38it/s]
+{
+  "pack": "merger",
+  "backend": "ollama",
+  "model": "qwen3:4b",
+  "cascade": false,
+  "validate": false,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "n_rows": 1,
+  "n_fields": 12,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "run": "unified_field_merger_v1_qwen3_4b_mac_dense_c4"
+}
+[1/12] 0001104659-26-002481 target pass=oneshot pred='Confluent'
+[2/12] 0001104659-26-002481 consideration_type pass=oneshot pred='Cash'
+[3/12] 0001104659-26-002481 cash_consideration pass=oneshot pred='Each share of Company Common Stock issued and outstanding immediately prior to 
+[4/12] 0001104659-26-002481 acquirer pass=oneshot pred='IBM'
+[5/12] 0001104659-26-002481 stock_exchange_ratio pass=oneshot pred=None
+[6/12] 0001104659-26-002481 shareholder_vote_date pass=oneshot pred='february 12, 2026'
+[7/12] 0001104659-26-002481 election_deadline pass=oneshot pred='february 12, 2026'
+[8/12] 0001104659-26-002481 effective_date pass=oneshot pred='december 7, 2025'
+[9/12] 0001104659-26-002481 security_description pass=oneshot pred='each share of our Class A common stock, $0.00001 par value per share (the "Clas
+[10/12] 0001104659-26-002481 ticker pass=oneshot pred=None
+[11/12] 0001104659-26-002481 cusip pass=oneshot pred=None
+[12/12] 0001104659-26-002481 isin pass=oneshot pred=None
+{
+  "pack": "merger",
+  "backend": "ollama",
+  "model": "qwen3:4b",
+  "mode": "oneshot_v1",
+  "validate": false,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 12.56,
+  "n_rows": 1,
+  "n_llm_jobs": 12,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "micro": {
+    "precision": 0.625,
+    "recall": 0.5555555555555556,
+    "f1": 0.5882352941176471
+  },
+  "tp": 5,
+  "fp": 3,
+  "fn": 4,
+  "pass_counts": {
+    "oneshot": 12
+  },
+  "per_field": {
+    "acquirer": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "target": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "consideration_type": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cash_consideration": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "stock_exchange_ratio": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "shareholder_vote_date": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "election_deadline": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": null,
+      "f1": null
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "security_description": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "ticker": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "cusip": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "isin": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  }
+}
+micro_f1=0.5882352941176471  vs_prompt_v2=0.468  vs_allspans=0.481  vs_oracle=0.837
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/merger_eval/experiments/runs/unified_field_merger_v1_qwen3_4b_mac_dense_c4

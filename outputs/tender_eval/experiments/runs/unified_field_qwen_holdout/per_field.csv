@@ -1,0 +1,15 @@
+field,tp,fp,fn,gt_present,pred_present,precision,recall,f1
+subject_company,12,0,11,23,12,1.0,0.5217391304347826,0.6857142857142856
+bidder,0,0,23,23,0,,0.0,
+security_description,5,3,18,23,8,0.625,0.21739130434782608,0.3225806451612903
+cusip,6,1,7,13,7,0.8571428571428571,0.46153846153846156,0.6
+isin,3,0,10,13,3,1.0,0.23076923076923078,0.375
+ticker,0,0,7,7,0,,0.0,
+offer_price,0,0,23,23,0,,0.0,
+currency,0,0,2,2,0,,0.0,
+expiration_date,0,0,22,22,0,,0.0,
+withdrawal_deadline,0,1,10,10,1,0.0,0.0,
+settlement_date,0,0,15,15,0,,0.0,
+effective_date,0,0,4,4,0,,0.0,
+minimum_tender_condition,0,0,11,11,0,,0.0,
+proration_terms,0,0,7,7,0,,0.0,

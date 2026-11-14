@@ -1,0 +1,27 @@
+loading temporal tagger on cpu…
+{
+  "pack": "merger",
+  "backend": "ollama",
+  "model": "qwen3:4b",
+  "cascade": true,
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "n_rows": 179,
+  "n_fields": 12,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "run": "unified_field_merger_v2_qwen3_4b_aesha_holdout"
+}

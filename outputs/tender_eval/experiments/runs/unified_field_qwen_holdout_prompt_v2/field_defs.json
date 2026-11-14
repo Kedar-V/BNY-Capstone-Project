@@ -1,0 +1,16 @@
+{
+  "subject_company": "Company whose securities are tendered (target / issuer). In an issuer self-tender, same as bidder. Prefer the operating company / fund name, not law firms or agents.",
+  "bidder": "Offeror / purchasing party (GLiNER often labels this offeror or purchaser). In an issuer self-tender, same as subject_company. Prefer the company/fund signing the offer \u2014 not counsel (e.g. Paul Hastings), depositary, or information agent.",
+  "security_description": "Short class/type of security being tendered (e.g. common stock / Class I Shares).",
+  "cusip": "9-character CUSIP from evidence. Copy exactly.",
+  "isin": "ISIN from evidence. Copy exactly.",
+  "ticker": "Exchange ticker symbol(s) from evidence.",
+  "offer_price": "Consideration for tendered shares. Prefer a cash amount like '$25.00 per share' when present; else NAV phrasing (e.g. 'net asset value per Share as of \u2026'). Copy the best offer_price span value.",
+  "currency": "Currency of the cash offer price (USD/GBP/EUR\u2026). From explicit code/'U.S. dollars', or infer USD/GBP/EUR from a per-share $ / \u00a3 / \u20ac offer price in the spans. Skip par value, fees, and aggregate $ millions.",
+  "expiration_date": "Offer expiration date/time. Prefer temporal spans with high field_cues for expiration (expire / until / offer period). Include time/zone if in the span or window.",
+  "withdrawal_deadline": "Withdrawal deadline. Prefer temporal spans with withdrawal cues; often same as expiration.",
+  "settlement_date": "Payment/acceptance timing. If RULES has 'Payment: promptly', use that. Else prefer temporal/rules values with payment/settlement/acceptance cues.",
+  "effective_date": "Legal effectiveness date (merger closed/consummated/effective, or repurchase as-of). Prefer temporal spans with effective/consummat cues. Do not use bare expiration dates.",
+  "minimum_tender_condition": "Threshold clause, or exactly \"No minimum tender condition\" when evidence says there is none.",
+  "proration_terms": "Pro-rata / oversubscription sentence from evidence. Use \"No proration\" only if explicitly stated. Preserve numbers (drop thousands commas)."
+}

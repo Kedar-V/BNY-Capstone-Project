@@ -1,0 +1,99 @@
+{
+  "micro_f1": 0.6397849462365591,
+  "tp": 119,
+  "fp": 78,
+  "fn": 56,
+  "precision": 0.6040609137055838,
+  "recall": 0.68,
+  "per_field_f1": {
+    "subject_company": 0.9500000000000001,
+    "bidder": 1.0,
+    "security_description": 0.4848484848484849,
+    "cusip": 1.0,
+    "isin": 1.0,
+    "ticker": 0.375,
+    "offer_price": 0.75,
+    "currency": 0.21052631578947367,
+    "expiration_date": 0.5128205128205129,
+    "withdrawal_deadline": 0.5517241379310345,
+    "settlement_date": 0.6428571428571429,
+    "effective_date": null,
+    "minimum_tender_condition": 0.3076923076923077,
+    "proration_terms": 0.2
+  },
+  "per_field_counts": {
+    "subject_company": {
+      "tp": 19,
+      "fp": 1,
+      "fn": 1
+    },
+    "bidder": {
+      "tp": 20,
+      "fp": 0,
+      "fn": 0
+    },
+    "security_description": {
+      "tp": 8,
+      "fp": 5,
+      "fn": 12
+    },
+    "cusip": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 0
+    },
+    "isin": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 0
+    },
+    "ticker": {
+      "tp": 3,
+      "fp": 6,
+      "fn": 4
+    },
+    "offer_price": {
+      "tp": 15,
+      "fp": 5,
+      "fn": 5
+    },
+    "currency": {
+      "tp": 2,
+      "fp": 15,
+      "fn": 0
+    },
+    "expiration_date": {
+      "tp": 10,
+      "fp": 10,
+      "fn": 9
+    },
+    "withdrawal_deadline": {
+      "tp": 8,
+      "fp": 11,
+      "fn": 2
+    },
+    "settlement_date": {
+      "tp": 9,
+      "fp": 5,
+      "fn": 5
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 18,
+      "fn": 3
+    },
+    "minimum_tender_condition": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 9
+    },
+    "proration_terms": {
+      "tp": 1,
+      "fp": 2,
+      "fn": 6
+    }
+  },
+  "old_micro_f1": 0.6395663956639566,
+  "old_proration_f1": null,
+  "new_proration_f1": 0.2
+}

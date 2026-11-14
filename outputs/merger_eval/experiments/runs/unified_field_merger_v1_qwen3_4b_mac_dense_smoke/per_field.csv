@@ -1,0 +1,13 @@
+field,tp,fp,fn,gt_present,pred_present,precision,recall,f1
+acquirer,0,0,1,1,0,,0.0,
+target,0,0,1,1,0,,0.0,
+consideration_type,0,0,1,1,0,,0.0,
+cash_consideration,0,0,1,1,0,,0.0,
+stock_exchange_ratio,0,0,1,1,0,,0.0,
+shareholder_vote_date,0,0,1,1,0,,0.0,
+election_deadline,0,0,0,0,0,,,
+effective_date,0,0,1,1,0,,0.0,
+security_description,0,0,1,1,0,,0.0,
+ticker,0,0,1,1,0,,0.0,
+cusip,0,0,0,0,0,,,
+isin,0,0,0,0,0,,,

@@ -1,0 +1,529 @@
+loading temporal tagger on cpu…
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8389.20it/s]
+{
+  "model": "qwen3:4b",
+  "split": "holdout",
+  "n_rows": 23,
+  "n_fields": 14,
+  "fields": [
+    "subject_company",
+    "bidder",
+    "security_description",
+    "cusip",
+    "isin",
+    "ticker",
+    "offer_price",
+    "currency",
+    "expiration_date",
+    "withdrawal_deadline",
+    "settlement_date",
+    "effective_date",
+    "minimum_tender_condition",
+    "proration_terms"
+  ],
+  "temporal": true,
+  "run": "unified_field_qwen_holdout"
+}
+[1/322] 0001193125-26-000507 subject_company → tp pred='Jefferies Credit Partners BDC Inc.'
+[2/322] 0001193125-26-000507 bidder → fn pred=None
+[3/322] 0001193125-26-000507 security_description → fn pred=None
+[4/322] 0001193125-26-000507 cusip → skip pred=None
+[5/322] 0001193125-26-000507 isin → skip pred=None
+[6/322] 0001193125-26-000507 ticker → skip pred=None
+[7/322] 0001193125-26-000507 offer_price → fn pred=None
+[8/322] 0001193125-26-000507 currency → skip pred=None
+[9/322] 0001193125-26-000507 expiration_date → fn pred=None
+[10/322] 0001193125-26-000507 withdrawal_deadline → fn pred=None
+[11/322] 0001193125-26-000507 settlement_date → fn pred=None
+[12/322] 0001193125-26-000507 effective_date → skip pred=None
+[13/322] 0001193125-26-000507 minimum_tender_condition → fn pred=None
+[14/322] 0001193125-26-000507 proration_terms → fn pred=None
+[15/322] 0001104659-26-000598 subject_company → tp pred='FIRST TRUST PRIVATE ASSETS FUND'
+[16/322] 0001104659-26-000598 bidder → fn pred=None
+[17/322] 0001104659-26-000598 security_description → tp pred='SHARES OF BENEFICIAL INTEREST'
+[18/322] 0001104659-26-000598 cusip → skip pred=None
+[19/322] 0001104659-26-000598 isin → skip pred=None
+[20/322] 0001104659-26-000598 ticker → skip pred=None
+[21/322] 0001104659-26-000598 offer_price → fn pred=None
+[22/322] 0001104659-26-000598 currency → skip pred=None
+[23/322] 0001104659-26-000598 expiration_date → fn pred=None
+[24/322] 0001104659-26-000598 withdrawal_deadline → skip pred=None
+[25/322] 0001104659-26-000598 settlement_date → fn pred=None
+[26/322] 0001104659-26-000598 effective_date → skip pred=None
+[27/322] 0001104659-26-000598 minimum_tender_condition → skip pred=None
+[28/322] 0001104659-26-000598 proration_terms → skip pred=None
+[29/322] 0001104659-26-001124 subject_company → fn pred=None
+[30/322] 0001104659-26-001124 bidder → fn pred=None
+[31/322] 0001104659-26-001124 security_description → fn pred=None
+[32/322] 0001104659-26-001124 cusip → fn pred=None
+[33/322] 0001104659-26-001124 isin → fn pred=None
+[34/322] 0001104659-26-001124 ticker → fn pred=None
+[35/322] 0001104659-26-001124 offer_price → fn pred=None
+[36/322] 0001104659-26-001124 currency → fn pred=None
+[37/322] 0001104659-26-001124 expiration_date → fn pred=None
+[38/322] 0001104659-26-001124 withdrawal_deadline → skip pred=None
+[39/322] 0001104659-26-001124 settlement_date → fn pred=None
+[40/322] 0001104659-26-001124 effective_date → fn pred=None
+[41/322] 0001104659-26-001124 minimum_tender_condition → fn pred=None
+[42/322] 0001104659-26-001124 proration_terms → skip pred=None
+[43/322] 0001104659-26-001149 subject_company → tp pred='KKR FS Income Trust'
+[44/322] 0001104659-26-001149 bidder → fn pred=None
+[45/322] 0001104659-26-001149 security_description → fn pred=None
+[46/322] 0001104659-26-001149 cusip → fn pred=None
+[47/322] 0001104659-26-001149 isin → fn pred=None
+[48/322] 0001104659-26-001149 ticker → skip pred=None
+[49/322] 0001104659-26-001149 offer_price → fn pred=None
+[50/322] 0001104659-26-001149 currency → skip pred=None
+[51/322] 0001104659-26-001149 expiration_date → fn pred=None
+[52/322] 0001104659-26-001149 withdrawal_deadline → skip pred=None
+[53/322] 0001104659-26-001149 settlement_date → skip pred=None
+[54/322] 0001104659-26-001149 effective_date → skip pred=None
+[55/322] 0001104659-26-001149 minimum_tender_condition → skip pred=None
+[56/322] 0001104659-26-001149 proration_terms → skip pred=None
+[57/322] 0001104659-26-001148 subject_company → fn pred=None
+[58/322] 0001104659-26-001148 bidder → fn pred=None
+[59/322] 0001104659-26-001148 security_description → fn pred=None
+[60/322] 0001104659-26-001148 cusip → fn pred=None
+[61/322] 0001104659-26-001148 isin → fn pred=None
+[62/322] 0001104659-26-001148 ticker → skip pred=None
+[63/322] 0001104659-26-001148 offer_price → fn pred=None
+[64/322] 0001104659-26-001148 currency → skip pred=None
+[65/322] 0001104659-26-001148 expiration_date → fn pred=None
+[66/322] 0001104659-26-001148 withdrawal_deadline → skip pred=None
+[67/322] 0001104659-26-001148 settlement_date → skip pred=None
+[68/322] 0001104659-26-001148 effective_date → skip pred=None
+[69/322] 0001104659-26-001148 minimum_tender_condition → skip pred=None
+[70/322] 0001104659-26-001148 proration_terms → skip pred=None
+[71/322] 0001193125-26-005515 subject_company → fn pred=None
+[72/322] 0001193125-26-005515 bidder → fn pred=None
+[73/322] 0001193125-26-005515 security_description → fn pred=None
+[74/322] 0001193125-26-005515 cusip → tp pred='171757206'
+[75/322] 0001193125-26-005515 isin → tp pred='US1717572069'
+[76/322] 0001193125-26-005515 ticker → fn pred=None
+[77/322] 0001193125-26-005515 offer_price → fn pred=None
+[78/322] 0001193125-26-005515 currency → skip pred=None
+[79/322] 0001193125-26-005515 expiration_date → fn pred=None
+[80/322] 0001193125-26-005515 withdrawal_deadline → fn pred=None
+[81/322] 0001193125-26-005515 settlement_date → fn pred=None
+[82/322] 0001193125-26-005515 effective_date → fn pred=None
+[83/322] 0001193125-26-005515 minimum_tender_condition → fn pred=None
+[84/322] 0001193125-26-005515 proration_terms → skip pred=None
+[85/322] 0001193125-26-005515 subject_company → fn pred=None
+[86/322] 0001193125-26-005515 bidder → fn pred=None
+[87/322] 0001193125-26-005515 security_description → fn pred=None
+[88/322] 0001193125-26-005515 cusip → tp pred='171757206'
+[89/322] 0001193125-26-005515 isin → tp pred='US1717572069'
+[90/322] 0001193125-26-005515 ticker → fn pred=None
+[91/322] 0001193125-26-005515 offer_price → fn pred=None
+[92/322] 0001193125-26-005515 currency → skip pred=None
+[93/322] 0001193125-26-005515 expiration_date → fn pred=None
+[94/322] 0001193125-26-005515 withdrawal_deadline → fn pred=None
+[95/322] 0001193125-26-005515 settlement_date → fn pred=None
+[96/322] 0001193125-26-005515 effective_date → fn pred=None
+[97/322] 0001193125-26-005515 minimum_tender_condition → fn pred=None
+[98/322] 0001193125-26-005515 proration_terms → skip pred=None
+[99/322] 0001104659-26-002517 subject_company → fn pred=None
+[100/322] 0001104659-26-002517 bidder → fn pred=None
+[101/322] 0001104659-26-002517 security_description → fn pred=None
+[102/322] 0001104659-26-002517 cusip → fn pred=None
+[103/322] 0001104659-26-002517 isin → tp pred='US37148K2096'
+[104/322] 0001104659-26-002517 ticker → fn pred=None
+[105/322] 0001104659-26-002517 offer_price → fn pred=None
+[106/322] 0001104659-26-002517 currency → skip pred=None
+[107/322] 0001104659-26-002517 expiration_date → fn pred=None
+[108/322] 0001104659-26-002517 withdrawal_deadline → skip pred=None
+[109/322] 0001104659-26-002517 settlement_date → fn pred=None
+[110/322] 0001104659-26-002517 effective_date → skip pred=None
+[111/322] 0001104659-26-002517 minimum_tender_condition → fn pred=None
+[112/322] 0001104659-26-002517 proration_terms → skip pred=None
+[113/322] 0000919574-26-000310 subject_company → fn pred=None
+[114/322] 0000919574-26-000310 bidder → fn pred=None
+[115/322] 0000919574-26-000310 security_description → tp pred='7.0% Series D Cumulative Convertible Perpetual Preferred Stock'
+[116/322] 0000919574-26-000310 cusip → skip pred=None
+[117/322] 0000919574-26-000310 isin → skip pred=None
+[118/322] 0000919574-26-000310 ticker → fn pred=None
+[119/322] 0000919574-26-000310 offer_price → fn pred=None
+[120/322] 0000919574-26-000310 currency → skip pred=None
+[121/322] 0000919574-26-000310 expiration_date → fn pred=None
+[122/322] 0000919574-26-000310 withdrawal_deadline → fn pred=None
+[123/322] 0000919574-26-000310 settlement_date → fn pred=None
+[124/322] 0000919574-26-000310 effective_date → skip pred=None
+[125/322] 0000919574-26-000310 minimum_tender_condition → skip pred=None
+[126/322] 0000919574-26-000310 proration_terms → skip pred=None
+[127/322] 0001104659-26-006294 subject_company → tp pred='EAGLE POINT INSTITUTIONAL INCOME FUND'
+[128/322] 0001104659-26-006294 bidder → fn pred=None
+[129/322] 0001104659-26-006294 security_description → fn pred=None
+[130/322] 0001104659-26-006294 cusip → fn pred=None
+[131/322] 0001104659-26-006294 isin → fn pred=None
+[132/322] 0001104659-26-006294 ticker → fn pred=None
+[133/322] 0001104659-26-006294 offer_price → fn pred=None
+[134/322] 0001104659-26-006294 currency → skip pred=None
+[135/322] 0001104659-26-006294 expiration_date → fn pred=None
+[136/322] 0001104659-26-006294 withdrawal_deadline → skip pred=None
+[137/322] 0001104659-26-006294 settlement_date → fn pred=None
+[138/322] 0001104659-26-006294 effective_date → skip pred=None
+[139/322] 0001104659-26-006294 minimum_tender_condition → skip pred=None
+[140/322] 0001104659-26-006294 proration_terms → skip pred=None
+[141/322] 0001104659-26-006517 subject_company → fn pred=None
+[142/322] 0001104659-26-006517 bidder → fn pred=None
+[143/322] 0001104659-26-006517 security_description → mismatch pred='Class I\nXHFIX'
+[144/322] 0001104659-26-006517 cusip → skip pred=None
+[145/322] 0001104659-26-006517 isin → skip pred=None
+[146/322] 0001104659-26-006517 ticker → skip pred=None
+[147/322] 0001104659-26-006517 offer_price → fn pred=None
+[148/322] 0001104659-26-006517 currency → skip pred=None
+[149/322] 0001104659-26-006517 expiration_date → fn pred=None
+[150/322] 0001104659-26-006517 withdrawal_deadline → skip pred=None
+[151/322] 0001104659-26-006517 settlement_date → skip pred=None
+[152/322] 0001104659-26-006517 effective_date → skip pred=None
+[153/322] 0001104659-26-006517 minimum_tender_condition → skip pred=None
+[154/322] 0001104659-26-006517 proration_terms → skip pred=None
+[155/322] 0001104659-26-006950 subject_company → tp pred='COATUE INNOVATIVE STRATEGIES FUND'
+[156/322] 0001104659-26-006950 bidder → fn pred=None
+[157/322] 0001104659-26-006950 security_description → fn pred=None
+[158/322] 0001104659-26-006950 cusip → skip pred=None
+[159/322] 0001104659-26-006950 isin → skip pred=None
+[160/322] 0001104659-26-006950 ticker → skip pred=None
+[161/322] 0001104659-26-006950 offer_price → fn pred=None
+[162/322] 0001104659-26-006950 currency → skip pred=None
+[163/322] 0001104659-26-006950 expiration_date → fn pred=None
+[164/322] 0001104659-26-006950 withdrawal_deadline → fn pred=None
+[165/322] 0001104659-26-006950 settlement_date → fn pred=None
+[166/322] 0001104659-26-006950 effective_date → skip pred=None
+[167/322] 0001104659-26-006950 minimum_tender_condition → fn pred=None
+[168/322] 0001104659-26-006950 proration_terms → fn pred=None
+[169/322] 0001104659-26-008028 subject_company → tp pred='MONROE CAPITAL INCOME PLUS CORPORATION'
+[170/322] 0001104659-26-008028 bidder → fn pred=None
+[171/322] 0001104659-26-008028 security_description → tp pred='Common Stock'
+[172/322] 0001104659-26-008028 cusip → skip pred=None
+[173/322] 0001104659-26-008028 isin → skip pred=None
+[174/322] 0001104659-26-008028 ticker → skip pred=None
+[175/322] 0001104659-26-008028 offer_price → fn pred=None
+[176/322] 0001104659-26-008028 currency → skip pred=None
+[177/322] 0001104659-26-008028 expiration_date → fn pred=None
+[178/322] 0001104659-26-008028 withdrawal_deadline → fn pred=None
+[179/322] 0001104659-26-008028 settlement_date → fn pred=None
+[180/322] 0001104659-26-008028 effective_date → skip pred=None
+[181/322] 0001104659-26-008028 minimum_tender_condition → fn pred=None
+[182/322] 0001104659-26-008028 proration_terms → fn pred=None
+[183/322] 0000930413-26-000298 subject_company → tp pred='Lord Abbett Private Credit Fund'
+[184/322] 0000930413-26-000298 bidder → fn pred=None
+[185/322] 0000930413-26-000298 security_description → fn pred=None
+[186/322] 0000930413-26-000298 cusip → skip pred=None
+[187/322] 0000930413-26-000298 isin → skip pred=None
+[188/322] 0000930413-26-000298 ticker → skip pred=None
+[189/322] 0000930413-26-000298 offer_price → fn pred=None
+[190/322] 0000930413-26-000298 currency → skip pred=None
+[191/322] 0000930413-26-000298 expiration_date → fn pred=None
+[192/322] 0000930413-26-000298 withdrawal_deadline → fn pred=None
+[193/322] 0000930413-26-000298 settlement_date → fn pred=None
+[194/322] 0000930413-26-000298 effective_date → skip pred=None
+[195/322] 0000930413-26-000298 minimum_tender_condition → fn pred=None
+[196/322] 0000930413-26-000298 proration_terms → fn pred=None
+[197/322] 0000930413-26-000299 subject_company → fn pred=None
+[198/322] 0000930413-26-000299 bidder → fn pred=None
+[199/322] 0000930413-26-000299 security_description → fn pred=None
+[200/322] 0000930413-26-000299 cusip → skip pred=None
+[201/322] 0000930413-26-000299 isin → skip pred=None
+[202/322] 0000930413-26-000299 ticker → skip pred=None
+[203/322] 0000930413-26-000299 offer_price → fn pred=None
+[204/322] 0000930413-26-000299 currency → skip pred=None
+[205/322] 0000930413-26-000299 expiration_date → fn pred=None
+[206/322] 0000930413-26-000299 withdrawal_deadline → fn pred=None
+[207/322] 0000930413-26-000299 settlement_date → fn pred=None
+[208/322] 0000930413-26-000299 effective_date → skip pred=None
+[209/322] 0000930413-26-000299 minimum_tender_condition → fn pred=None
+[210/322] 0000930413-26-000299 proration_terms → fn pred=None
+[211/322] 0001140361-26-003032 subject_company → fn pred=None
+[212/322] 0001140361-26-003032 bidder → fn pred=None
+[213/322] 0001140361-26-003032 security_description → fn pred=None
+[214/322] 0001140361-26-003032 cusip → tp pred='BRY4333P7'
+[215/322] 0001140361-26-003032 isin → fn pred=None
+[216/322] 0001140361-26-003032 ticker → skip pred=None
+[217/322] 0001140361-26-003032 offer_price → fn pred=None
+[218/322] 0001140361-26-003032 currency → skip pred=None
+[219/322] 0001140361-26-003032 expiration_date → fn pred=None
+[220/322] 0001140361-26-003032 withdrawal_deadline → fn pred=None
+[221/322] 0001140361-26-003032 settlement_date → fn pred=None
+[222/322] 0001140361-26-003032 effective_date → skip pred=None
+[223/322] 0001140361-26-003032 minimum_tender_condition → fn pred=None
+[224/322] 0001140361-26-003032 proration_terms → fn pred=None
+[225/322] 0001104659-26-008693 subject_company → fn pred=None
+[226/322] 0001104659-26-008693 bidder → fn pred=None
+[227/322] 0001104659-26-008693 security_description → fn pred=None
+[228/322] 0001104659-26-008693 cusip → fn pred=None
+[229/322] 0001104659-26-008693 isin → fn pred=None
+[230/322] 0001104659-26-008693 ticker → fn pred=None
+[231/322] 0001104659-26-008693 offer_price → fn pred=None
+[232/322] 0001104659-26-008693 currency → fn pred=None
+[233/322] 0001104659-26-008693 expiration_date → skip pred=None
+[234/322] 0001104659-26-008693 withdrawal_deadline → skip pred=None
+[235/322] 0001104659-26-008693 settlement_date → skip pred=None
+[236/322] 0001104659-26-008693 effective_date → skip pred=None
+[237/322] 0001104659-26-008693 minimum_tender_condition → skip pred=None
+[238/322] 0001104659-26-008693 proration_terms → skip pred=None
+[239/322] 0001104659-26-008976 subject_company → fn pred=None
+[240/322] 0001104659-26-008976 bidder → fn pred=None
+[241/322] 0001104659-26-008976 security_description → fn pred=None
+[242/322] 0001104659-26-008976 cusip → skip pred=None
+[243/322] 0001104659-26-008976 isin → skip pred=None
+[244/322] 0001104659-26-008976 ticker → skip pred=None
+[245/322] 0001104659-26-008976 offer_price → fn pred=None
+[246/322] 0001104659-26-008976 currency → skip pred=None
+[247/322] 0001104659-26-008976 expiration_date → fn pred=None
+[248/322] 0001104659-26-008976 withdrawal_deadline → fn pred=None
+[249/322] 0001104659-26-008976 settlement_date → fn pred=None
+[250/322] 0001104659-26-008976 effective_date → skip pred=None
+[251/322] 0001104659-26-008976 minimum_tender_condition → fn pred=None
+[252/322] 0001104659-26-008976 proration_terms → fn pred=None
+[253/322] 0001104659-26-010301 subject_company → tp pred='Ares Private Markets Fund'
+[254/322] 0001104659-26-010301 bidder → fn pred=None
+[255/322] 0001104659-26-010301 security_description → mismatch pred='Class D Shares'
+[256/322] 0001104659-26-010301 cusip → tp pred='04020B202'
+[257/322] 0001104659-26-010301 isin → fn pred=None
+[258/322] 0001104659-26-010301 ticker → skip pred=None
+[259/322] 0001104659-26-010301 offer_price → fn pred=None
+[260/322] 0001104659-26-010301 currency → skip pred=None
+[261/322] 0001104659-26-010301 expiration_date → fn pred=None
+[262/322] 0001104659-26-010301 withdrawal_deadline → skip pred=None
+[263/322] 0001104659-26-010301 settlement_date → skip pred=None
+[264/322] 0001104659-26-010301 effective_date → skip pred=None
+[265/322] 0001104659-26-010301 minimum_tender_condition → skip pred=None
+[266/322] 0001104659-26-010301 proration_terms → skip pred=None
+[267/322] 0001104659-26-010301 subject_company → tp pred='Ares Private Markets Fund'
+[268/322] 0001104659-26-010301 bidder → fn pred=None
+[269/322] 0001104659-26-010301 security_description → tp pred='Class D Shares'
+[270/322] 0001104659-26-010301 cusip → tp pred='04020B202'
+[271/322] 0001104659-26-010301 isin → fn pred=None
+[272/322] 0001104659-26-010301 ticker → skip pred=None
+[273/322] 0001104659-26-010301 offer_price → fn pred=None
+[274/322] 0001104659-26-010301 currency → skip pred=None
+[275/322] 0001104659-26-010301 expiration_date → fn pred=None
+[276/322] 0001104659-26-010301 withdrawal_deadline → skip pred=None
+[277/322] 0001104659-26-010301 settlement_date → skip pred=None
+[278/322] 0001104659-26-010301 effective_date → skip pred=None
+[279/322] 0001104659-26-010301 minimum_tender_condition → skip pred=None
+[280/322] 0001104659-26-010301 proration_terms → skip pred=None
+[281/322] 0001104659-26-010301 subject_company → tp pred='Ares Private Markets Fund'
+[282/322] 0001104659-26-010301 bidder → fn pred=None
+[283/322] 0001104659-26-010301 security_description → mismatch pred='Class D Shares'
+[284/322] 0001104659-26-010301 cusip → tp pred='04020B202'
+[285/322] 0001104659-26-010301 isin → fn pred=None
+[286/322] 0001104659-26-010301 ticker → skip pred=None
+[287/322] 0001104659-26-010301 offer_price → fn pred=None
+[288/322] 0001104659-26-010301 currency → skip pred=None
+[289/322] 0001104659-26-010301 expiration_date → fn pred=None
+[290/322] 0001104659-26-010301 withdrawal_deadline → skip pred=None
+[291/322] 0001104659-26-010301 settlement_date → skip pred=None
+[292/322] 0001104659-26-010301 effective_date → skip pred=None
+[293/322] 0001104659-26-010301 minimum_tender_condition → skip pred=None
+[294/322] 0001104659-26-010301 proration_terms → skip pred=None
+[295/322] 0001104659-26-011592 subject_company → tp pred='ANTARES STRATEGIC CREDIT FUND'
+[296/322] 0001104659-26-011592 bidder → fn pred=None
+[297/322] 0001104659-26-011592 security_description → tp pred='Common Shares of Beneficial Interest'
+[298/322] 0001104659-26-011592 cusip → fn pred=None
+[299/322] 0001104659-26-011592 isin → fn pred=None
+[300/322] 0001104659-26-011592 ticker → skip pred=None
+[301/322] 0001104659-26-011592 offer_price → fn pred=None
+[302/322] 0001104659-26-011592 currency → skip pred=None
+[303/322] 0001104659-26-011592 expiration_date → fn pred=None
+[304/322] 0001104659-26-011592 withdrawal_deadline → fp_no_gt pred='June 11, 2026'
+[305/322] 0001104659-26-011592 settlement_date → fn pred=None
+[306/322] 0001104659-26-011592 effective_date → fn pred=None
+[307/322] 0001104659-26-011592 minimum_tender_condition → skip pred=None
+[308/322] 0001104659-26-011592 proration_terms → skip pred=None
+[309/322] 0001104659-26-011591 subject_company → tp pred='ANTARES PRIVATE CREDIT FUND'
+[310/322] 0001104659-26-011591 bidder → fn pred=None
+[311/322] 0001104659-26-011591 security_description → fn pred=None
+[312/322] 0001104659-26-011591 cusip → fp_no_gt pred='0366433029'
+[313/322] 0001104659-26-011591 isin → skip pred=None
+[314/322] 0001104659-26-011591 ticker → skip pred=None
+[315/322] 0001104659-26-011591 offer_price → fn pred=None
+[316/322] 0001104659-26-011591 currency → skip pred=None
+[317/322] 0001104659-26-011591 expiration_date → fn pred=None
+[318/322] 0001104659-26-011591 withdrawal_deadline → skip pred=None
+[319/322] 0001104659-26-011591 settlement_date → skip pred=None
+[320/322] 0001104659-26-011591 effective_date → skip pred=None
+[321/322] 0001104659-26-011591 minimum_tender_condition → skip pred=None
+[322/322] 0001104659-26-011591 proration_terms → skip pred=None
+{
+  "model": "qwen3:4b",
+  "mode": "unified_rules_gliner_temporal_per_field",
+  "evidence": "field-filtered rules + GLiNER spans + temporal DATE spans (dates only)",
+  "n_rows": 23,
+  "fields": [
+    "subject_company",
+    "bidder",
+    "security_description",
+    "cusip",
+    "isin",
+    "ticker",
+    "offer_price",
+    "currency",
+    "expiration_date",
+    "withdrawal_deadline",
+    "settlement_date",
+    "effective_date",
+    "minimum_tender_condition",
+    "proration_terms"
+  ],
+  "micro": {
+    "precision": 0.8387096774193549,
+    "recall": 0.1326530612244898,
+    "f1": 0.22907488986784144
+  },
+  "tp": 26,
+  "fp": 5,
+  "fn": 170,
+  "per_field": {
+    "subject_company": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 11,
+      "gt_present": 23,
+      "pred_present": 12,
+      "precision": 1.0,
+      "recall": 0.5217391304347826,
+      "f1": 0.6857142857142856
+    },
+    "bidder": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 23,
+      "gt_present": 23,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "security_description": {
+      "tp": 5,
+      "fp": 3,
+      "fn": 18,
+      "gt_present": 23,
+      "pred_present": 8,
+      "precision": 0.625,
+      "recall": 0.21739130434782608,
+      "f1": 0.3225806451612903
+    },
+    "cusip": {
+      "tp": 6,
+      "fp": 1,
+      "fn": 7,
+      "gt_present": 13,
+      "pred_present": 7,
+      "precision": 0.8571428571428571,
+      "recall": 0.46153846153846156,
+      "f1": 0.6
+    },
+    "isin": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 10,
+      "gt_present": 13,
+      "pred_present": 3,
+      "precision": 1.0,
+      "recall": 0.23076923076923078,
+      "f1": 0.375
+    },
+    "ticker": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "gt_present": 7,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "offer_price": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 23,
+      "gt_present": 23,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "currency": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "gt_present": 2,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "expiration_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 22,
+      "gt_present": 22,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "withdrawal_deadline": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 10,
+      "gt_present": 10,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "settlement_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 15,
+      "gt_present": 15,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "gt_present": 4,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "minimum_tender_condition": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 11,
+      "gt_present": 11,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "proration_terms": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 7,
+      "gt_present": 7,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "oracle_routing_micro_f1": 0.837
+  },
+  "delta_vs_allspans": -0.25192511013215857,
+  "delta_vs_oracle": -0.6079251101321586
+}
+micro_f1=0.22907488986784144  vs_allspans=0.481  vs_oracle=0.837
+wrote /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/experiments/runs/unified_field_qwen_holdout

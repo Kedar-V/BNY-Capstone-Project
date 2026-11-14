@@ -1,0 +1,51 @@
+[
+  {
+    "acc": "0001140361-26-003032",
+    "outcome": "fn",
+    "pred": null,
+    "pass": "clause_miss",
+    "n_ev": 0
+  },
+  {
+    "acc": "0000930413-26-000299",
+    "outcome": "fn",
+    "pred": null,
+    "pass": "clause_miss",
+    "n_ev": 0
+  },
+  {
+    "acc": "0001104659-26-006950",
+    "outcome": "fn",
+    "pred": null,
+    "pass": "clause_miss",
+    "n_ev": 0
+  },
+  {
+    "acc": "0000930413-26-000298",
+    "outcome": "fn",
+    "pred": null,
+    "pass": "clause_miss",
+    "n_ev": 0
+  },
+  {
+    "acc": "0001104659-26-008028",
+    "outcome": "tp",
+    "pred": "If more than the number of Shares offered for repurchase are tendered (and not timely withdrawn) we may in our sole discretion either accept the additional duly tendered Shares permitted to be accepted pursuant to Rule 13e-4(f)(1)(ii) under the Exchange Act or repurchase Shares from tendering shareholders on a pro rata basis in accordance with the Shares tendered by each shareholder (and not t",
+    "pass": "clause",
+    "n_ev": 1338
+  },
+  {
+    "acc": "0001104659-26-008976",
+    "outcome": "tp",
+    "pred": "If more than $56310000 of Units are duly tendered to the Fund before the expiration of the Offer and not withdrawn pursuant to Section 5 below the Fund will in its sole discretion either (a) accept any additional Units permitted to be accepted pursuant to Rule 13e-4(f)(1)(ii) under the Securities Exchange Act of 1934 as amended; (b) extend the Offer if necessary and increase the amount of Un",
+    "pass": "clause",
+    "n_ev": 671
+  },
+  {
+    "acc": "0001193125-26-000507",
+    "outcome": "tp",
+    "pred": "If Shares in excess of 5% of the Company\u2019s net asset value as of September 30 2025 ( i.e.  the prior calendar quarter end) are duly tendered to the Company before the Notice Date and not withdrawn before the 5 Tender Withdrawal Date the Company in its sole discretion may accept Shares tendered before the Notice Date and not withdrawn before the Tender Withdrawal Date for payment on a pro rata",
+    "pass": "clause",
+    "n_ev": 681
+  }
+]

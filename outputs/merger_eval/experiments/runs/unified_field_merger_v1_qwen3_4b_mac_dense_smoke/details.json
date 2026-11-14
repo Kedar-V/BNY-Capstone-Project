@@ -1,0 +1,118 @@
+[
+  {
+    "accession": "0001104659-26-002481",
+    "event_id": "merger_0001104659-26-002481",
+    "n_spans": 28,
+    "n_excerpt_chars": 10652,
+    "fields": {
+      "acquirer": {
+        "outcome": "fn",
+        "gold": "International Business Machines Corporation (IBM), through its wholly owned merger subsidiary Corvo Merger Sub, Inc.",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 1225,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given evidence from GLINER spans that have been filtered for the field `acquirer`.\n The definition: Entity acquiring the target. Prefer the acquiring parent over a merger sub.\n\n Steps:\n 1. We have three GLINER spans with score=1.00 for acquirer.\n 2. We must pick the best matching value for `a"
+      },
+      "target": {
+        "outcome": "fn",
+        "gold": "Confluent, Inc.",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 814,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given two GLiNER spans that are the evidence for the target field.\n\nDefinition: Entity being acquired.\n\nWe have two spans:\n\n1. hint=target score=1.00 value='On December 7, 2025, Confluent entered into the merger agreement, pursuant to which it agreed to be acquired by IBM, subject to the term"
+      },
+      "consideration_type": {
+        "outcome": "fn",
+        "gold": "Cash, subject to limited exceptions including shares for which appraisal rights are properly exercised.",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 886,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given evidence from GLINER spans. We need to extract the `consideration_type` from the evidence pack.\n\nDefinition: Form paid to holders: \"Cash\", \"Stock\", \"Mixed cash and stock\", \"Elective consideration\", or a short description of other components.\n\nWe have two GLINER spans:\n\n1. hint=considera"
+      },
+      "cash_consideration": {
+        "outcome": "fn",
+        "gold": "USD $31.00 in cash per share of Confluent, Inc. Class A common stock, without interest and subject to applicable withholding taxes, except for canceled shares, dissenting shares and subsidiary-converted shares; subject to adjustment for specified changes in outstanding shares before the effective time.",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 1324,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given evidence from GLiNER spans that are filtered for the field `cash_consideration`.\n The definition: Cash per share/unit with currency when stated. Preserve ranges/formulas. Not aggregate deal value, fees, or market price.\n\n We have three GLiNER spans with score=1.00 each. We need to pick "
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "No stock consideration for eligible Confluent, Inc. Class A common stock.",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 290,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given evidence that has been filtered for the field `stock_exchange_ratio`. The evidence is a GLiNER span with:\n  - hint: 'stock_exchange_ratio'\n  - score: 1.00\n  - value: 'The fact that the merger consideration to be paid to our stockholders in the merger consists entirely of cash'\n  - conte"
+      },
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "Confluent, Inc. stockholders\u2019 special meeting scheduled for 2/12/2026 at 9:00 a.m., Pacific Time.",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2794,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given evidence that has been filtered for the field `shareholder_vote_date`.\n The definition: Date/time of the shareholder vote on the merger when explicitly stated.\n\n Steps:\n 1. We have two GLINER spans that are hints for `shareholder_vote_date` with score=1.00:\n    a. value='The special mee"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2199,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given a list of temporal spans with their context. The definition: \"Deadline for holders to elect among consideration options, when stated.\"\n\nWe are to pick the best matching value from the evidence. The evidence has several dates and other strings.\n\nLet's go through each temporal span:\n\n1. `"
+      },
+      "effective_date": {
+        "outcome": "fn",
+        "gold": "Not specified. The merger will become effective when the certificate of merger is filed with the Delaware Secretary of State, or at a later date and time agreed by IBM and Confluent and specified in that certificate.",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2647,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given the evidence pack for extracting `effective_date`.\n Definition: Legal closing / consummation / effectiveness date of the merger.\n\n Steps:\n 1. We have GLINER spans and Temporal spans (with dates and field_cues).\n 2. We must pick the best matching value for `effective_date` from the evide"
+      },
+      "security_description": {
+        "outcome": "fn",
+        "gold": "Confluent, Inc. Class A common stock, par value $0.00001 per share.",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 452,
+        "n_rules": 0,
+        "raw_llm": "oneshot:We are given a single GLiNER span for security_description with:\n   hint=security_description, score=1.00, value='each share of our Class A common stock, $0.00001 par value per share (the \u201cClass A common stock\u201d), and Class B common stock, $0.00001 par value per share (the \u201c'\n\nBut note: the evidence "
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CFLT",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"ticker\": null}\n\n Let's write the JSON as required.\n</think>\n\n{\"ticker\": null}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cusip\": null}\n</think>\n\n{\"cusip\": null}"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"isin\": null}\n</think>\n\n{\"isin\": null}"
+      }
+    }
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "pack": "merger",
+  "backend": "ollama",
+  "model": "qwen3:4b",
+  "mode": "oneshot_v1",
+  "validate": false,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 12.56,
+  "n_rows": 1,
+  "n_llm_jobs": 12,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "micro": {
+    "precision": 0.625,
+    "recall": 0.5555555555555556,
+    "f1": 0.5882352941176471
+  },
+  "tp": 5,
+  "fp": 3,
+  "fn": 4,
+  "pass_counts": {
+    "oneshot": 12
+  },
+  "per_field": {
+    "acquirer": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "target": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "consideration_type": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cash_consideration": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "stock_exchange_ratio": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "shareholder_vote_date": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "election_deadline": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": null,
+      "f1": null
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "security_description": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 1,
+      "pred_present": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "ticker": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "cusip": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "isin": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  }
+}

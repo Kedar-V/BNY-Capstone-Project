@@ -1,0 +1,17 @@
+download:   0%|          | 0/1 [00:00<?, ?doc/s]download: 100%|██████████| 1/1 [00:00<00:00,  1.32doc/s, err=0, ok=1, skip=0]download: 100%|██████████| 1/1 [00:00<00:00,  1.32doc/s, err=0, ok=1, skip=0]
+cleanup:   0%|          | 0/1 [00:00<?, ?doc/s]cleanup: 100%|██████████| 1/1 [00:00<00:00,  4.48doc/s, fail=0, ok=1, skip=0]cleanup: 100%|██████████| 1/1 [00:00<00:00,  4.48doc/s, fail=0, ok=1, skip=0]
+segment:   0%|          | 0/1 [00:00<?, ?event/s]segment: 100%|██████████| 1/1 [00:00<00:00, 51.69event/s, fail=0, ok=1]
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/.venv/lib/python3.14/site-packages/torch/jit/_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/Users/kedarvaidya/Desktop/BNY-Capstone-Project/.venv/lib/python3.14/site-packages/huggingface_hub/utils/_validators.py:189: UserWarning: The `resume_download` argument is deprecated and ignored in `snapshot_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 2901.83it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+gliner:   0%|          | 0/1 [00:00<?, ?event/s]gliner: 100%|██████████| 1/1 [00:01<00:00,  1.12s/event, fail=0, ok=1, pass2=0]gliner: 100%|██████████| 1/1 [00:01<00:00,  1.12s/event, fail=0, ok=1, pass2=0]
+assemble:   0%|          | 0/1 [00:00<?, ?event/s]assemble: 100%|██████████| 1/1 [00:00<00:00, 88.92event/s, fail=0, ok=1]
+[download] status=ok ok=1 fail=0 skip=0 metrics={'n_docs_attempted': 1, 'n_ok': 1, 'n_skipped_cached': 0, 'n_http_error': 0, 'n_empty': 0, 'n_events_pending': 1}
+[cleanup] status=ok ok=1 fail=0 skip=0 metrics={'n_docs_cleaned': 1, 'n_empty_text': 0, 'n_failed': 0, 'n_skipped_cached': 0, 'n_events_pending': 1}
+[segment] status=ok ok=1 fail=0 skip=0 metrics={'n_events_segmented': 1, 'n_otp_toc_docs': 0, 'n_otp_faq_only_docs': 0, 'n_fallback_full_doc': 1, 'n_failed': 0, 'n_events_pending': 1}
+[gliner] status=ok ok=1 fail=0 skip=0 metrics={'n_events_ok': 1, 'n_failed': 0, 'n_segments_scored': 1, 'n_spans': 15, 'n_pass2_events': 0, 'gliner_unavailable': False, 'gliner_model': 'urchade/gliner_medium-v2.1', 'n_events_pending': 1}
+[assemble] status=ok ok=1 fail=0 skip=0 metrics={'n_reps_ok': 1, 'n_reps_failed': 0, 'n_candidate_facts': 16, 'n_entities': 16, 'id_currency': 'rules', 'n_events_pending': 1}
+metrics -> /Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/to_preprocess_metrics.csv

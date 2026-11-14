@@ -1,0 +1,118 @@
+[
+  {
+    "accession": "0001104659-26-002481",
+    "event_id": "merger_0001104659-26-002481",
+    "n_spans": 15,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "acquirer": {
+        "outcome": "fn",
+        "gold": "International Business Machines Corporation (IBM), through its wholly owned merger subsidiary Corvo Merger Sub, Inc.",
+        "pred": null,
+        "pass_used": "error",
+        "n_evidence_chars": 0,
+        "n_rules": 0,
+        "raw_llm": "Expecting ',' delimiter: line 52 column 14 (char 3036)"
+      },
+      "target": {
+        "outcome": "fn",
+        "gold": "Confluent, Inc.",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "consideration_type": {
+        "outcome": "fn",
+        "gold": "Cash, subject to limited exceptions including shares for which appraisal rights are properly exercised.",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "USD $31.00 in cash per share of Confluent, Inc. Class A common stock, without interest and subject to applicable withholding taxes, except for canceled shares, dissenting shares and subsidiary-converted shares; subject to adjustment for specified changes in outstanding shares before the effective time.",
+        "pred": "$31.00",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 640,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"cash_consideration\": \"$31.00\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$31.00' is a specific cash per share amount with currency ($), which matches the definition of 'Cash per share/unit with currency when stated'. The evi"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "No stock consideration for eligible Confluent, Inc. Class A common stock.",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "Confluent, Inc. stockholders\u2019 special meeting scheduled for 2/12/2026 at 9:00 a.m., Pacific Time.",
+        "pred": null,
+        "pass_used": "error",
+        "n_evidence_chars": 0,
+        "n_rules": 0,
+        "raw_llm": "Expecting ',' delimiter: line 44 column 10 (char 2566)"
+      },
+      "election_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "february 12, 2026",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 4469,
+        "n_rules": 0,
+        "raw_llm": "B:{\n    \"election_deadline\": \"february 12, 2026\"\n} | C:{\n    \"keep\": true,\n    \"reasoning\": \"The candidate 'february 12, 2026' matches a specific date in the evidence. Looking at the EVIDENCE section, there is an entry with label=DATE field_cues=0 window="
+      },
+      "effective_date": {
+        "outcome": "fn",
+        "gold": "Not specified. The merger will become effective when the certificate of merger is filed with the Delaware Secretary of State, or at a later date and time agreed by IBM and Confluent and specified in that certificate.",
+        "pred": null,
+        "pass_used": "error",
+        "n_evidence_chars": 0,
+        "n_rules": 0,
+        "raw_llm": "Expecting ',' delimiter: line 44 column 10 (char 2600)"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Confluent, Inc. Class A common stock, par value $0.00001 per share.",
+        "pred": "Class A common stock",
+        "pass_used": "B+C_keep",
+        "n_evidence_chars": 656,
+        "n_rules": 0,
+        "raw_llm": "B:{\n  \"security_description\": \"Class A common stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Class A common stock' matches the definition of a short class/type of affected security. The evidence from GLINER SPANS shows that the value is explici"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "CFLT",
+        "pred": null,
+        "pass_used": "error",
+        "n_evidence_chars": 0,
+        "n_rules": 0,
+        "raw_llm": "prediction aborted, token repeat limit reached (status code: 500)"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  }
+]

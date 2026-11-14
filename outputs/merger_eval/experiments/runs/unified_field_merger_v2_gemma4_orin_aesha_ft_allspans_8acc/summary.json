@@ -1,0 +1,170 @@
+{
+  "pack": "merger",
+  "backend": "orin",
+  "model": "gemma4:26b",
+  "mode": "cascade_v2",
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 99.1,
+  "n_rows": 12,
+  "n_llm_jobs": 144,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "micro": {
+    "precision": 0.4861111111111111,
+    "recall": 0.4430379746835443,
+    "f1": 0.46357615894039733
+  },
+  "tp": 35,
+  "fp": 37,
+  "fn": 44,
+  "pass_counts": {
+    "B": 43,
+    "A_inventory": 4,
+    "B+C_keep": 20,
+    "B_null": 14,
+    "A": 5,
+    "empty": 50,
+    "B+C_drop": 8
+  },
+  "per_field": {
+    "acquirer": {
+      "tp": 10,
+      "fp": 1,
+      "fn": 2,
+      "gt_present": 12,
+      "pred_present": 11,
+      "precision": 0.9090909090909091,
+      "recall": 0.8333333333333334,
+      "f1": 0.8695652173913043
+    },
+    "target": {
+      "tp": 7,
+      "fp": 5,
+      "fn": 5,
+      "gt_present": 12,
+      "pred_present": 12,
+      "precision": 0.5833333333333334,
+      "recall": 0.5833333333333334,
+      "f1": 0.5833333333333334
+    },
+    "consideration_type": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 10,
+      "gt_present": 12,
+      "pred_present": 3,
+      "precision": 0.6666666666666666,
+      "recall": 0.16666666666666666,
+      "f1": 0.26666666666666666
+    },
+    "cash_consideration": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2,
+      "gt_present": 5,
+      "pred_present": 3,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999
+    },
+    "stock_exchange_ratio": {
+      "tp": 1,
+      "fp": 11,
+      "fn": 8,
+      "gt_present": 9,
+      "pred_present": 12,
+      "precision": 0.08333333333333333,
+      "recall": 0.1111111111111111,
+      "f1": 0.09523809523809525
+    },
+    "shareholder_vote_date": {
+      "tp": 4,
+      "fp": 4,
+      "fn": 1,
+      "gt_present": 5,
+      "pred_present": 8,
+      "precision": 0.5,
+      "recall": 0.8,
+      "f1": 0.6153846153846154
+    },
+    "election_deadline": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 6,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 6,
+      "precision": 0.0,
+      "recall": null,
+      "f1": null
+    },
+    "security_description": {
+      "tp": 6,
+      "fp": 6,
+      "fn": 6,
+      "gt_present": 12,
+      "pred_present": 12,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5
+    },
+    "ticker": {
+      "tp": 2,
+      "fp": 3,
+      "fn": 10,
+      "gt_present": 12,
+      "pred_present": 5,
+      "precision": 0.4,
+      "recall": 0.16666666666666666,
+      "f1": 0.23529411764705882
+    },
+    "cusip": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    },
+    "isin": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 0,
+      "pred_present": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "accession": "0001193125-26-000507",
+    "event_id": "005-94255",
+    "n_spans": 7,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "n_evidence_chars": 50,
+        "raw_llm": "Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download"
+      },
+      "expiration_date": {
+        "outcome": "fn",
+        "gold": "1/30/2026 11:59 PM Eastern Time",
+        "pred": null,
+        "n_evidence_chars": 7022,
+        "raw_llm": "Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download"
+      }
+    }
+  }
+]
