@@ -672,3 +672,73 @@ def test_default_temporal_for_without_tagger_is_empty():
 
     assert default_temporal_for(_pack(), None)("k", "expires May 1, 2026", ("deadline",)) == {}
     assert precompute_temporal(_pack(), object(), "text", ("name",)) == {}
+
+
+# --- recorded inputs (evidence + prompt on the result) ----------------------------
+
+
+def test_inputs_recorded_for_oneshot():
+    ctx = EventContext(spans=[_span("name", "Acme")])
+    be = FakeBackend(['{"name": "Acme"}'])
+    res, _ = _run(_pack(), be, ctx, "name", cascade=False)
+    assert res.prompt == be.prompts[0]
+    assert res.evidence == "GLINER SPANS:\n- hint=name score=0.90 value='Acme'"
+    assert len(res.evidence) == res.n_evidence_chars
+    assert res.evidence in res.prompt
+
+
+def test_inputs_recorded_for_clause_hit_copy_prompt():
+    be = FakeBackend([json.dumps({"clause_f": "pro rata applies"})])
+    ctx = EventContext(passages={"q": [{"quote": LONG_QUOTE}]})
+    res, _ = _run(_pack(), be, ctx, "clause_f")
+    assert res.prompt == f"COPY clause_f: {LONG_QUOTE}"
+    assert res.evidence == "EXCERPT:\n" + LONG_QUOTE
+
+
+def test_inputs_empty_for_clause_miss():
+    be = FakeBackend([])
+    ctx = EventContext(rep={"candidate_facts": [_rule("clause_f", "x")]})
+    res, _ = _run(_pack(), be, ctx, "clause_f")
+    assert res.pass_used == "clause_miss"
+    assert (res.prompt, res.evidence) == ("", "")
+
+
+def test_validate_drop_keeps_extract_prompt():
+    ctx = EventContext(spans=[_span("name", "Acme")])
+    be = FakeBackend(['{"name": "Acme"}', '{"keep": false}'])
+    res, _ = _run(_pack(), be, ctx, "name", validate=True)
+    assert res.pass_used == "B+C_drop"
+    assert res.prompt == be.prompts[0]
+    assert not res.prompt.startswith("Validate")
+    assert res.evidence == "GLINER SPANS:\n- hint=name score=0.90 value='Acme'"
+
+
+def test_inputs_cascade_null_uses_last_prompt_and_hit_uses_producing_prompt():
+    ctx = EventContext(
+        rep={"candidate_facts": [_rule("name", "Acme Rules")]},
+        spans=[_span("name", "Acme Span")],
+    )
+    be = FakeBackend(['{"name": null}', '{"name": null}'])
+    res, _ = _run(_pack(), be, ctx, "name")
+    assert (res.pass_used, res.prompt) == ("B_null", be.prompts[1])
+    assert res.evidence == "GLINER SPANS:\n- hint=name score=0.90 value='Acme Span'"
+
+    # stop_at_first_hit=False: a later null stage does not replace the producing prompt
+    ctx2 = EventContext(rep={"candidate_facts": [_rule("name", "Acme")]}, spans=[_span("name", "Other")])
+    be2 = FakeBackend(['{"name": "Acme"}', '{"name": null}'])
+    res2, _ = _run(_two_stage_pack(), be2, ctx2, "name")
+    assert res2.prompt == be2.prompts[0]
+    assert res2.evidence == RULES_EV
+
+
+def test_inputs_direct_hit_and_error_have_no_prompt():
+    ctx = EventContext(rep={"candidate_facts": [_rule("ticker", "ABC")]})
+    res, _ = _run(_pack(), FakeBackend([]), ctx, "ticker")
+    assert res.pass_used == "A_rules"
+    assert res.prompt == ""
+    assert res.evidence == "RULES:\n- hint=ticker value='ABC'"
+
+    be = FakeBackend([RuntimeError("boom")])
+    err, _ = _run(_pack(), be, EventContext(spans=[_span("name", "Acme")]), "name")
+    assert err.pass_used == "error"
+    assert (err.prompt, err.evidence) == ("", "")

@@ -244,6 +244,38 @@ def _result_dict(result: FieldExtractResult) -> dict[str, Any]:
     return {k: dumped[k] for k in RESULT_KEYS}
 
 
+def _inputs_record(
+    req: FieldExtractRequest, result: FieldExtractResult, *, ei: int, accession: str, gold: str
+) -> dict[str, Any]:
+    """One ``inputs.jsonl`` line: what the model was shown for (row ``ei``, field) and its answer."""
+    return {
+        "request": req.model_dump(),
+        "accession": accession,
+        "ei": ei,
+        "gold": gold,
+        "evidence": result.evidence,
+        "prompt": result.prompt,
+        "pred": result.pred,
+        "pass_used": result.pass_used,
+        "validate_verdict": result.validate_verdict,
+    }
+
+
+def _recorded_input_keys(path: Path) -> set[tuple[int, str]]:
+    """(ei, field) of every parseable line already in ``inputs.jsonl``."""
+    keys: set[tuple[int, str]] = set()
+    if not path.exists():
+        return keys
+    with path.open(encoding="utf-8") as fh:
+        for line in fh:
+            try:
+                rec = json.loads(line)
+                keys.add((int(rec["ei"]), str(rec["request"]["field"])))
+            except (json.JSONDecodeError, KeyError, TypeError, ValueError):
+                continue
+    return keys
+
+
 def main(argv: list[str] | None = None) -> int:
     load_dotenv()
     p = argparse.ArgumentParser(
@@ -406,8 +438,10 @@ def main(argv: list[str] | None = None) -> int:
     temporal_dir = args.out / "temporal_cache" / pack.name
     temporal_dir.mkdir(parents=True, exist_ok=True)
 
+    inputs_path = out_dir / "inputs.jsonl"
     results_by_job: dict[tuple[int, str], dict[str, Any]] = {}
-    if ckpt_path.exists():
+    resumed = ckpt_path.exists()
+    if resumed:
         with ckpt_path.open(encoding="utf-8") as fh:
             for line in fh:
                 line = line.strip()
@@ -419,6 +453,16 @@ def main(argv: list[str] | None = None) -> int:
                     continue
                 results_by_job[(int(rec["ei"]), str(rec["field"]))] = rec["result"]
         print(f"resume: loaded {len(results_by_job)} checkpointed field-calls", flush=True)
+        # inputs only exist for calls executed by a run that wrote inputs.jsonl; never rebuilt
+        n_missing = len(set(results_by_job) - _recorded_input_keys(inputs_path))
+        print(
+            f"inputs: {n_missing} of {len(results_by_job)} checkpointed field-calls have no "
+            f"recorded inputs in {inputs_path.name} (not reconstructed)",
+            flush=True,
+        )
+    else:
+        # fresh run: start inputs.jsonl over (a stale one would describe another run)
+        inputs_path.write_text("", encoding="utf-8")
 
     # Per-row context keys: GT rows sharing an accession may carry different passages
     row_keys = {id(r): f"{_acc(r)}#{i}" for i, r in enumerate(rows)}
@@ -467,10 +511,12 @@ def main(argv: list[str] | None = None) -> int:
     done = len(results_by_job)
     print(f"llm remaining={len(jobs)} done={done} total={total}", flush=True)
 
-    def _run_job(ei: int, field: str) -> tuple[tuple[int, str], dict[str, Any]]:
+    def _run_job(
+        ei: int, field: str
+    ) -> tuple[tuple[int, str], FieldExtractRequest, FieldExtractResult]:
         # run_field never raises: failures come back as pass_used="error"
         req = _request(ei, field, contexts[ei].event_id)
-        return (ei, field), _result_dict(run_field(graph, req))
+        return (ei, field), req, run_field(graph, req)
 
     t0 = time.perf_counter()
     if jobs:
@@ -484,9 +530,13 @@ def main(argv: list[str] | None = None) -> int:
                 file=sys.stderr,
             )
             try:
-                with ckpt_path.open("a", encoding="utf-8") as ckpt_fh:
+                with (
+                    ckpt_path.open("a", encoding="utf-8") as ckpt_fh,
+                    inputs_path.open("a", encoding="utf-8") as inputs_fh,
+                ):
                     for fut in as_completed(futs):
-                        key, result = fut.result()
+                        key, req, full = fut.result()
+                        result = _result_dict(full)
                         results_by_job[key] = result
                         done += 1
                         ei, field = key
@@ -510,6 +560,11 @@ def main(argv: list[str] | None = None) -> int:
                             + "\n"
                         )
                         ckpt_fh.flush()
+                        inputs_fh.write(
+                            json.dumps(_inputs_record(req, full, ei=ei, accession=acc, gold=gold))
+                            + "\n"
+                        )
+                        inputs_fh.flush()
                         pbar.set_postfix_str(
                             f"{acc[-14:]} {field} {result['pass_used']}", refresh=False
                         )

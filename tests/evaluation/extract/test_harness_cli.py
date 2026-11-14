@@ -529,3 +529,100 @@ def test_pack_without_harness_config_runs_with_gt_and_out(rights):
     assert details[0]["fields"]["issuer"]["pred"] == "Acme Corp"
     assert details[0]["fields"]["issuer"]["outcome"] == "tp"
     assert not (tmp_path / "repo").exists(), "wrote outside --out"
+
+
+# --- inputs.jsonl (per-call evidence + prompt) ----------------------------------------
+
+INPUT_KEYS = {
+    "request", "accession", "ei", "gold", "evidence", "prompt", "pred", "pass_used",
+    "validate_verdict",
+}
+
+
+def _inputs(out: Path, run: str) -> list[dict]:
+    p = _run_dir(out, run) / "inputs.jsonl"
+    assert p.exists(), "harness did not write inputs.jsonl"
+    return [json.loads(ln) for ln in p.read_text(encoding="utf-8").splitlines() if ln.strip()]
+
+
+def test_synthetic_inputs_jsonl_one_line_per_call(synthetic):
+    mod, backends, use_rows, out = synthetic
+    use_rows(TENDER_ROWS)
+    argv = _synthetic_argv(out, "tender", "graph_cli_inputs")
+    assert mod.main(argv) == 0
+    summary, details, ckpt, pf = _read(out, "graph_cli_inputs")
+    # details/summary/checkpoint keep the frozen snapshot shape (no evidence/prompt keys)
+    _assert_shape(summary, details, ckpt, pf, n_rows=2)
+    recs = _inputs(out, "graph_cli_inputs")
+    fields = summary["fields"]
+    assert len(recs) == 2 * len(fields)
+    assert {(r["ei"], r["request"]["field"]) for r in recs} == {
+        (ei, f) for ei in range(2) for f in fields
+    }
+    sent = {u for _, u in backends.extract_calls(0)}
+    for r in recs:
+        assert INPUT_KEYS <= set(r), set(r)
+        assert "#" not in r["accession"]
+        assert r["accession"] == TENDER_ROWS[r["ei"]]["accession_number"]
+        assert set(r["request"]) >= {"pack_name", "field", "event_id", "accession", "model"}
+        field = r["request"]["field"]
+        assert r["gold"] == (TENDER_ROWS[r["ei"]].get(field) or "").strip()
+        fd = details[r["ei"]]["fields"][field]
+        assert (r["pred"], r["pass_used"]) == (fd["pred"], fd["pass_used"])
+        assert len(r["evidence"]) == fd["n_evidence_chars"]
+        assert r["prompt"] == "" or r["prompt"] in sent
+        assert not r["prompt"].startswith("Validate")
+    by = {(r["ei"], r["request"]["field"]): r for r in recs}
+    assert "Acme Corp" in by[(0, "subject_company")]["evidence"]
+    assert "Acme Corp" in by[(0, "subject_company")]["prompt"]
+
+
+def test_inputs_jsonl_resume_appends_only_new_calls(synthetic, capsys):
+    mod, backends, use_rows, out = synthetic
+    use_rows(TENDER_ROWS)
+    run = "graph_cli_inputs_resume"
+    argv = _synthetic_argv(out, "tender", run)
+    assert mod.main(argv) == 0
+    first = _inputs(out, run)
+    capsys.readouterr()
+
+    # full resume: nothing re-runs, nothing appended; every checkpointed call has inputs
+    assert mod.main(argv) == 0
+    assert _inputs(out, run) == first
+    assert "0 of %d checkpointed field-calls have no recorded inputs" % len(first) in capsys.readouterr().out
+
+    # partial resume: only the re-run calls are appended
+    ckpt_path = _run_dir(out, run) / "checkpoint.jsonl"
+    lines = ckpt_path.read_text(encoding="utf-8").splitlines()
+    ckpt_path.write_text("\n".join(lines[:-5]) + "\n", encoding="utf-8")
+    dropped = {(json.loads(ln)["ei"], json.loads(ln)["field"]) for ln in lines[-5:]}
+    assert mod.main(argv) == 0
+    recs = _inputs(out, run)
+    assert recs[: len(first)] == first
+    assert {(r["ei"], r["request"]["field"]) for r in recs[len(first):]} == dropped
+    assert len(recs) == len(first) + 5
+    capsys.readouterr()
+
+    # a checkpoint from a run without inputs.jsonl: restored calls are reported, not fabricated
+    inputs_path = _run_dir(out, run) / "inputs.jsonl"
+    inputs_path.unlink()
+    ckpt_path.write_text("\n".join(lines[:-3]) + "\n", encoding="utf-8")
+    assert mod.main(argv) == 0
+    msg = capsys.readouterr().out
+    n_ckpt = len(lines) - 3
+    assert f"{n_ckpt} of {n_ckpt} checkpointed field-calls have no recorded inputs" in msg
+    assert len(_inputs(out, run)) == 3
+
+
+def test_inputs_jsonl_truncated_on_fresh_run(synthetic):
+    mod, _, use_rows, out = synthetic
+    use_rows(TENDER_ROWS)
+    run = "graph_cli_inputs_fresh"
+    d = _run_dir(out, run)
+    d.mkdir(parents=True)
+    (d / "inputs.jsonl").write_text('{"stale": true}\n', encoding="utf-8")
+    assert mod.main(_synthetic_argv(out, "tender", run)) == 0
+    recs = _inputs(out, run)
+    assert all("stale" not in r for r in recs)
+    summary, *_ = _read(out, run)
+    assert len(recs) == 2 * len(summary["fields"])

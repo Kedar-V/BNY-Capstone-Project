@@ -53,6 +53,7 @@ def make_retrieve(pack: ActionPack, provider: EvidenceProvider):
                     pred=pred,
                     pred_normalized=True,
                     pred_stage=state.stage_idx,
+                    pred_prompt=None,
                     evidence_final=bundle.text,
                     pass_used=stage.direct_label,
                     raw_log=[*state.raw_log, f"{stage.direct_label}:{pred!r}"],

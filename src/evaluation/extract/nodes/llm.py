@@ -18,7 +18,7 @@ def make_llm(pack: ActionPack, backend):
         raw_log = [*state.raw_log, f"{stage.pass_label}:{raw[:300]}"]
         if value is None and state.pred is not None:
             # stop_at_first_hit=False: a later null never erases an earlier stage's hit
-            return {"raw_log": raw_log, "next": "advance"}
+            return {"raw_log": raw_log, "last_prompt": state.prompt, "next": "advance"}
         if value is not None:
             label = stage.pass_label
         else:
@@ -30,6 +30,8 @@ def make_llm(pack: ActionPack, backend):
             "pred_stage": state.stage_idx,
             "pass_used": label,
             "raw_log": raw_log,
+            "last_prompt": state.prompt,
+            "pred_prompt": state.prompt if value is not None else None,
             # Pass C validates against the evidence of the stage that produced pred
             "evidence_final": state.bundle.text,
             "next": "advance",

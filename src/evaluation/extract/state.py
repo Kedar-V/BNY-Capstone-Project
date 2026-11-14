@@ -30,6 +30,10 @@ class ExtractState(BaseModel):
     pass_used: str = "none"
     raw_log: list[str] = Field(default_factory=list)
     evidence_final: str = ""
+    # user prompt of the last extract LLM call, and of the call that produced pred
+    # (None when pred did not come from an LLM call)
+    last_prompt: str = ""
+    pred_prompt: str | None = None
     validate_verdict: bool | None = None
     next: Route = ""
     result: FieldExtractResult | None = None

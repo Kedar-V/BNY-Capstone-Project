@@ -48,6 +48,8 @@ def make_finish():
                 n_rules=state.n_rules,
                 raw_llm=" | ".join(state.raw_log)[:500],
                 validate_verdict=state.validate_verdict,
+                evidence=state.evidence_final,
+                prompt=state.pred_prompt if state.pred_prompt is not None else state.last_prompt,
             )
         }
 

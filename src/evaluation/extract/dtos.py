@@ -44,3 +44,9 @@ class FieldExtractResult(BaseModel):
     n_rules: int
     raw_llm: str
     validate_verdict: bool | None = None
+    # Inputs, for inspecting a finished run. evidence: the evidence of the stage that
+    # produced pred (null result: the last evidence retrieved). prompt: the user prompt of
+    # the LLM call that produced pred, else the last extract prompt sent ("" if none).
+    # Pass C validate prompts are never recorded here.
+    evidence: str = ""
+    prompt: str = ""
