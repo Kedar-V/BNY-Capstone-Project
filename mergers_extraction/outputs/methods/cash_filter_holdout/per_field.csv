@@ -1,0 +1,2 @@
+field,label,compare,tp,fp,fn,gt_absence_values,learned_precision,learned_recall,learned_f1
+cash_consideration,,money,27,18,11,11,0.6,0.711,0.651

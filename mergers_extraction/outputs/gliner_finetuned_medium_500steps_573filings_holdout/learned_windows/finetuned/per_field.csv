@@ -1,0 +1,11 @@
+field,label,compare,quotes_in_learned_windows,tp,fp,fn,gt_absence_values,learned_precision,learned_recall,learned_f1,oracle_precision,oracle_recall,oracle_f1
+acquirer,acquirer organization,name,82/136,80,90,70,0,0.471,0.533,0.5,0.409,0.447,0.427
+target,target organization,name,94/155,86,93,69,0,0.48,0.555,0.515,0.477,0.542,0.508
+merger_subsidiary,merger subsidiary,name,93/110,112,65,38,0,0.633,0.747,0.685,0.637,0.713,0.673
+security_description,affected security,text,66/95,109,66,55,0,0.623,0.665,0.643,0.632,0.659,0.645
+cash_consideration,cash consideration per share,money,13/32,31,67,7,11,0.316,0.816,0.456,0.25,0.842,0.386
+stock_exchange_ratio,stock exchange ratio,number,57/114,54,111,58,27,0.327,0.482,0.39,0.444,0.5,0.471
+shareholder_vote_date,shareholder vote date,date,22/35,41,84,8,0,0.328,0.837,0.471,0.367,0.816,0.506
+effective_date,merger effective date,date,1/1,1,33,0,0,0.029,1.0,0.057,0.333,1.0,0.5
+election_deadline,election deadline,date,0/4,0,0,4,0,,0.0,,,0.0,
+expected_closing,expected closing timing,text,78/85,113,32,27,2,0.779,0.807,0.793,0.882,0.857,0.87

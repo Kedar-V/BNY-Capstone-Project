@@ -1,0 +1,23 @@
+{
+  "gt": "/Users/aeshagandhi/Workspace/BNY-Capstone-Project/mergers_extraction/outputs/training_data/ground_truth_snapshot.csv",
+  "split": "validation",
+  "filings": 52,
+  "records": 80,
+  "model": "/Users/aeshagandhi/Workspace/BNY-Capstone-Project/models/merger_gliner/medium_val_onepass/final",
+  "threshold": 0.4,
+  "max_windows": 12,
+  "windows": "learned",
+  "seconds": 171,
+  "micro": {
+    "learned": {
+      "tp": 320,
+      "fp": 221,
+      "fn": 116,
+      "gt_absence_values": 23,
+      "precision": 0.5914972273567468,
+      "recall": 0.7339449541284404,
+      "f1": 0.655066530194473
+    }
+  },
+  "note": "Agreement with unverified LLM ground truth. Category fields accept a span containing the label's key word; free-text fields use token F1 >= 0.5. Stated absences ('No ...') are counted apart because a span model cannot produce them."
+}

@@ -1,0 +1,310 @@
+accession_number,field,value,evidence
+0001437749-26-000391,acquirer,"SPX Enterprises, LLC",GLiNER span; parent of the merger sub / defined as Parent
+0001437749-26-000391,target,Crawford United Corporation,GLiNER span; its shares convert
+0001437749-26-000391,merger_subsidiary,"Project King Acquisition, Inc.",GLiNER span; defined as Merger Sub
+0001193125-26-003553,acquirer,"Sonida Senior Living, Inc.",GLiNER span; holders receive its shares
+0001193125-26-003553,target,"CNL Healthcare Properties, Inc.",GLiNER span; its shares convert
+0001193125-26-003553,merger_subsidiary,CHP Merger Corp. | SSL Sparti LLC,GLiNER span; defined as Merger Sub
+0001193125-26-010471,acquirer,"Sword Purchaser, LLC",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-010471,target,Sealed Air Corporation,GLiNER span; its shares convert
+0001193125-26-010471,merger_subsidiary,"Sword Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001493152-26-002095,acquirer,"Boost Run Holdings, LLC",GLiNER span; holders receive its shares
+0001493152-26-002095,target,Willow Lane Acquisition Corp.,GLiNER span; its shares convert
+0001493152-26-002095,merger_subsidiary,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,GLiNER span; defined as Merger Sub
+0001193125-26-012952,acquirer,Ryerson,GLiNER span (no structural check applied)
+0001193125-26-012952,target,OLYMPIC STEEL INC,filer of a DEFM14A
+0001193125-26-012952,merger_subsidiary,Crimson MS Corp,GLiNER span (no structural check applied)
+0001185185-26-000166,acquirer,RYVYL Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001185185-26-000166,target,"RTB Digital, Inc",GLiNER span (no structural check applied)
+0001185185-26-000166,merger_subsidiary,RYVYL Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001104659-26-004251,acquirer,IX Acquisition Corp.,GLiNER span; holders receive its shares
+0001104659-26-004251,target,AERKOMM Inc.,GLiNER span; its shares convert
+0001104659-26-004251,merger_subsidiary,AKOM Merger Inc.,GLiNER span; defined as Merger Sub
+0001193125-26-016598,acquirer,GigCapital7 Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-016598,target,"Hadron Energy, Inc.",GLiNER span (no structural check applied)
+0001193125-26-016598,merger_subsidiary,"MMR Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001193125-26-016684,acquirer,"Argento, LLC",GLiNER span (no structural check applied)
+0001193125-26-016684,target,"Golden Entertainment, Inc.",GLiNER span; defined as the Company / Target
+0001193125-26-016684,merger_subsidiary,VICI ROYAL MERGER SUB LLC | PropCo Merger Sub,GLiNER span; defined as Merger Sub
+0001140361-26-003049,acquirer,BBBY,GLiNER span (no structural check applied)
+0001140361-26-003049,target,"Brand House Collective, Inc.",GLiNER span; its shares convert
+0001140361-26-003049,merger_subsidiary,"Knight Merger Sub II, Inc | Knight Merger Sub Il, Inc",GLiNER span; defined as Merger Sub
+0001539497-26-000230,acquirer,,
+0001539497-26-000230,target,"BioAtla, Inc.",GLiNER span; defined as the Company / Target
+0001539497-26-000230,merger_subsidiary,"BA Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001437749-26-002544,acquirer,Navitas LLC,GLiNER span (no structural check applied)
+0001437749-26-002544,target,"Laird Superfood, Inc.",GLiNER span; defined as the Company / Target
+0001437749-26-002544,merger_subsidiary,Picky Bars,GLiNER span (no structural check applied)
+0001628280-26-006094,acquirer,"GigCapital5, Inc",GLiNER span (no structural check applied)
+0001628280-26-006094,target,Company. QT Imaging Private Placement Warrants In November 2022,GLiNER span (no structural check applied)
+0001628280-26-006094,merger_subsidiary,"QTI Merger Sub, Inc | QT Merger Sub",GLiNER span; defined as Merger Sub
+0001829126-26-001208,acquirer,Legato Merger Corp. III,GLiNER span (no structural check applied)
+0001829126-26-001208,target,Einride,GLiNER span (no structural check applied)
+0001829126-26-001208,merger_subsidiary,,
+0001493152-26-007487,acquirer,"Telomir Pharmaceuticals, Inc.",GLiNER span; holders receive its shares
+0001493152-26-007487,target,"TELI Pharmaceuticals, Inc.",GLiNER span; its shares convert
+0001493152-26-007487,merger_subsidiary,"TELOPHARM Acquisition Inc. | TELO Pharmaceuticals, Inc.",GLiNER span; defined as Merger Sub
+0001104659-26-017281,acquirer,IWAC Holding Company Inc.,GLiNER span; holders receive its shares
+0001104659-26-017281,target,"Btab Ecommerce Group, Inc.",GLiNER span; its shares convert
+0001104659-26-017281,merger_subsidiary,IWAC Purchaser Merger Sub II Inc. | Sub Inc.,GLiNER span; defined as Merger Sub
+0001104659-26-020983,acquirer,TL Topco PLC,GLiNER span; holders receive its shares
+0001104659-26-020983,target,Roman DBDR Acquisition Corp. II,GLiNER span; its shares convert
+0001104659-26-020983,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,GLiNER span; defined as Merger Sub
+0001213900-26-022404,acquirer,Keen Vision Acquisition Corporation,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-022404,target,Medera Inc.,GLiNER span; defined as the Company / Target
+0001213900-26-022404,merger_subsidiary,Novoheart Group Limited,GLiNER span (no structural check applied)
+0001104659-26-023474,acquirer,VICI Properties Inc.,GLiNER span; holders receive its shares
+0001104659-26-023474,target,"Golden Entertainment, Inc.",GLiNER span; its shares convert
+0001104659-26-023474,merger_subsidiary,PropCo Merger Sub | VICI ROYAL MERGER SUB LLC,GLiNER span; defined as Merger Sub
+0001104659-26-024193,acquirer,Relativity Holdings Inc.,GLiNER span; holders receive its shares
+0001104659-26-024193,target,INSTINCT BIO TECHNICAL COMPANY INC. Relativity Acquisition Corp. | Relativity Acquisition Corp.,GLiNER span; its shares convert
+0001104659-26-024193,merger_subsidiary,Relativity Purchaser Merger Sub II Inc.,GLiNER span; defined as Merger Sub
+0001213900-26-024672,acquirer,Odysseus Holdings Limited,GLiNER span; holders receive its shares
+0001213900-26-024672,target,Vine Hill Capital Investment Corp. | CoinShares International Limited,GLiNER span; its shares convert
+0001213900-26-024672,merger_subsidiary,Odysseus (Cayman) Limited,GLiNER span (no structural check applied)
+0001193125-26-102445,acquirer,"Glow Midco, LLC",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-102445,target,"EWC Ventures, LLC",GLiNER span; defined as the Company / Target
+0001193125-26-102445,merger_subsidiary,"Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC",GLiNER span; defined as Merger Sub
+0001213900-26-026265,acquirer,Plum IV,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-026265,target,Controlled Thermal Resources Holdings Inc.,GLiNER span; its shares convert
+0001213900-26-026265,merger_subsidiary,"Plum IV Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001493152-26-009785,acquirer,Smart Kreate Group Limited,GLiNER span; holders receive its shares
+0001493152-26-009785,target,Quetta Acquisition Corporation,GLiNER span; its shares convert
+0001493152-26-009785,merger_subsidiary,SKG Merger Sub 1 Limited | SKG Merger Sub 2 Limited,GLiNER span; defined as Merger Sub
+0001104659-26-029601,acquirer,"Royal Cup, Inc",GLiNER span (no structural check applied)
+0001104659-26-029601,target,FARMER BROTHERS CO,filer of a PREM14A
+0001104659-26-029601,merger_subsidiary,BP I Brew Merger Sub Inc,GLiNER span; defined as Merger Sub
+0001185185-26-000991,acquirer,"Blockfusion Data Centers, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001185185-26-000991,target,"Blockfusion USA, Inc.",GLiNER span; defined as the Company / Target
+0001185185-26-000991,merger_subsidiary,"Atlas I Merger Sub | Atlas Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001104659-26-035458,acquirer,Cartesian Growth Corporation III,GLiNER span (no structural check applied)
+0001104659-26-035458,target,Factorial Inc.,GLiNER span; defined as the Company / Target
+0001104659-26-035458,merger_subsidiary,"Fenway MS, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-012383,acquirer,Allegiant,GLiNER span (no structural check applied)
+0001140361-26-012383,target,"Sun Country Airlines Holdings, Inc.",filer of a DEFM14A
+0001140361-26-012383,merger_subsidiary,"Mirage Merger Sub, Inc | Sawdust Merger Sub, LLC",GLiNER span; defined as Merger Sub
+0001193125-26-134924,acquirer,"IonQ, Inc",GLiNER span (no structural check applied)
+0001193125-26-134924,target,"SkyWater Technology, Inc.",GLiNER span; its shares convert
+0001193125-26-134924,merger_subsidiary,Iris Merger Subsidiary 2 | Iris Merger Subsidiary 1 Inc,GLiNER span; defined as Merger Sub
+0001493152-26-015164,acquirer,Hennessy Capital Investment Corp. VII,GLiNER span; parent of the merger sub / defined as Parent
+0001493152-26-015164,target,ONE Nuclear Energy LLC,GLiNER span (no structural check applied)
+0001493152-26-015164,merger_subsidiary,Solis Merger Sub LLC,GLiNER span; defined as Merger Sub
+0001213900-26-042083,acquirer,US Elemental Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-042083,target,HiTech Minerals Inc.,GLiNER span; defined as the Company / Target
+0001213900-26-042083,merger_subsidiary,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,GLiNER span; defined as Merger Sub
+0001104659-26-043531,acquirer,Stallion Intermediate Corporation,GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-043531,target,Select Medical Holdings Corporation,GLiNER span; defined as the Company / Target
+0001104659-26-043531,merger_subsidiary,Stallion MergerSub Corporation | Stallion Merger Sub Corporation,GLiNER span; defined as Merger Sub
+0001829126-26-003564,acquirer,Wintergreen Acquisition Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001829126-26-003564,target,KIKA Technology INC.,GLiNER span; its shares convert
+0001829126-26-003564,merger_subsidiary,Wintergreen Acquisition Merger Subsidiary Corp.,GLiNER span; defined as Merger Sub
+0001213900-26-045154,acquirer,Sizzle Acquisition Corp. II,GLiNER span (no structural check applied)
+0001213900-26-045154,target,Trasteel Holding S.A.,GLiNER span; defined as the Company / Target
+0001213900-26-045154,merger_subsidiary,,
+0001193125-26-187219,acquirer,"Xtend AI Robotics, Inc.",filer of a S-4
+0001193125-26-187219,target,"Xtend AI Robotics, Inc",GLiNER span (no structural check applied)
+0001193125-26-187219,merger_subsidiary,"XT Merger Sub 2, Inc",GLiNER span; defined as Merger Sub
+0001140361-26-018881,acquirer,"Horizon Parent, L.P.",GLiNER span; parent of the merger sub / defined as Parent
+0001140361-26-018881,target,AES CORP,filer of a PREM14A
+0001140361-26-018881,merger_subsidiary,"Horizon Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001213900-26-051571,acquirer,Viking Acquisition Corp. I,GLiNER span (no structural check applied)
+0001213900-26-051571,target,Space Inc.,GLiNER span (no structural check applied)
+0001213900-26-051571,merger_subsidiary,,
+0001185185-26-001691,acquirer,NeoCryo Inc,GLiNER span; holders receive its shares
+0001185185-26-001691,target,Blueport Acquisition Ltd,GLiNER span; its shares convert
+0001185185-26-001691,merger_subsidiary,NeoCryo Merger Sub Ltd,GLiNER span; defined as Merger Sub
+0001213900-26-054062,acquirer,Aptorum Group Limited,GLiNER span; holders receive its shares
+0001213900-26-054062,target,DiamiR Biosciences Corp.,GLiNER span; its shares convert
+0001213900-26-054062,merger_subsidiary,DiamiR LLC,GLiNER span (no structural check applied)
+0001829126-26-005260,acquirer,Eight Directions Global Limited,GLiNER span; holders receive its shares
+0001829126-26-005260,target,Quartzsea Acquisition Corporation | Eight Directions Technology Limited,GLiNER span; its shares convert
+0001829126-26-005260,merger_subsidiary,CUPS Sub Limited,GLiNER span; defined as Merger Sub
+0001213900-26-061108,acquirer,"SeeQC, Inc.",GLiNER span; holders receive its shares
+0001213900-26-061108,target,Allegro Merger Corp.,GLiNER span; its shares convert
+0001213900-26-061108,merger_subsidiary,"SEEQC Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-023175,acquirer,"Gaia Purchaser, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001140361-26-023175,target,"Global Business Travel Group, Inc.",GLiNER span; defined as the Company / Target
+0001140361-26-023175,merger_subsidiary,"Gaia Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-023178,acquirer,steute Industrial Controls,GLiNER span (no structural check applied)
+0001140361-26-023178,target,"Electro-Sensors, Inc.",GLiNER span; its shares convert
+0001140361-26-023178,merger_subsidiary,"Steute Burwell, Inc.",GLiNER span; defined as Merger Sub
+0001829126-26-005923,acquirer,OpenPayd Global Holdings Limited,GLiNER span; parent of the merger sub / defined as Parent
+0001829126-26-005923,target,OpenPayd Holdings Limited,GLiNER span; defined as the Company / Target
+0001829126-26-005923,merger_subsidiary,,
+0001213900-26-063737,acquirer,US Elemental Inc.,GLiNER span; holders receive its shares
+0001213900-26-063737,target,Constellation Acquisition Corp. I,GLiNER span; its shares convert
+0001213900-26-063737,merger_subsidiary,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,GLiNER span; defined as Merger Sub
+0001193125-26-269722,acquirer,Berkshire Hathaway Inc,GLiNER span (no structural check applied)
+0001193125-26-269722,target,Taylor Morrison Home Corp,filer of a PREM14A
+0001193125-26-269722,merger_subsidiary,"WXYZ Merger Sub, Inc",GLiNER span; defined as Merger Sub
+0001104659-26-073581,acquirer,"Rome Wildlife, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-073581,target,"MAX Holdings, Inc.",GLiNER span (no structural check applied)
+0001104659-26-073581,merger_subsidiary,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,GLiNER span; defined as Merger Sub
+0001213900-26-069741,acquirer,Silicon Valley Acquisition Corp,GLiNER span (no structural check applied)
+0001213900-26-069741,target,EigenQ Inc,GLiNER span (no structural check applied)
+0001213900-26-069741,merger_subsidiary,,
+0001193125-26-279668,acquirer,"Mountain Holding, Inc",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-279668,target,"Equitable Holdings, Inc.",filer of a DEFM14A
+0001193125-26-279668,merger_subsidiary,"Palisade Holding, Inc. | Marcy Holding, Inc.",GLiNER span; defined as Merger Sub
+0001193125-26-279656,acquirer,"Mountain Holding, Inc",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-279656,target,"Corebridge Financial, Inc.",filer of a DEFM14A
+0001193125-26-279656,merger_subsidiary,"Palisade Holding, Inc. | Marcy Holding, Inc.",GLiNER span; defined as Merger Sub
+0001193125-26-286936,acquirer,Talawar Tx Inc.,GLiNER span; holders receive its shares
+0001193125-26-286936,target,JATT II Acquisition Corp,GLiNER span; its shares convert
+0001193125-26-286936,merger_subsidiary,Talawar Merger Sub,GLiNER span; defined as Merger Sub
+0001213900-26-073218,acquirer,"USA Rare Earth, LLC",GLiNER span (no structural check applied)
+0001213900-26-073218,target,Texas Mineral Resources Corp.,filer of a DEFM14A
+0001213900-26-073218,merger_subsidiary,"Hamer Merger Sub, Inc. | IPXX Merger Sub, LLC",party definitions (GLiNER missed the name); defined as Merger Sub
+0001213900-26-074267,acquirer,"SeeQC, Inc.",GLiNER span; holders receive its shares
+0001213900-26-074267,target,Allegro Merger Corp.,GLiNER span; its shares convert
+0001213900-26-074267,merger_subsidiary,"SEEQC Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-027469,acquirer,Andor LLC,GLiNER span; parent of the merger sub / defined as Parent
+0001140361-26-027469,target,"Apogee Therapeutics, Inc.",GLiNER span; its shares convert
+0001140361-26-027469,merger_subsidiary,Andor Merger Co.,GLiNER span; defined as Merger Sub
+0001104659-26-082291,acquirer,"Rome Wildlife, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-082291,target,"RE/MAX Holdings, Inc.",filer of a DEFM14A
+0001104659-26-082291,merger_subsidiary,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,GLiNER span; defined as Merger Sub
+0001193125-26-306199,acquirer,"Orion Merger Parent, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-306199,target,"AstroNova, Inc.",GLiNER span; its shares convert
+0001193125-26-306199,merger_subsidiary,"Orion MergerCo X, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-029134,acquirer,Vertex Pharmaceuticals Incorporated,GLiNER span; parent of the merger sub / defined as Parent
+0001140361-26-029134,target,"Crinetics Pharmaceuticals, Inc.",GLiNER span; its shares convert
+0001140361-26-029134,merger_subsidiary,"Clark Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001493152-26-034626,acquirer,IB Acquisition Corp.,GLiNER span; holders receive its shares
+0001493152-26-034626,target,"GNQ Insilico, Inc.",GLiNER span; its shares convert
+0001493152-26-034626,merger_subsidiary,ExchangeCo,GLiNER span (no structural check applied)
+0001140361-26-029608,acquirer,"CRH Americas, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001140361-26-029608,target,"Arcosa, Inc.",GLiNER span; its shares convert
+0001140361-26-029608,merger_subsidiary,"Neon Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001213900-26-081847,acquirer,HeartSciences Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-081847,target,"Fortitude Mining HoldCo, LLC",GLiNER span (no structural check applied)
+0001213900-26-081847,merger_subsidiary,"Cordis Acquisition, LLC",GLiNER span; defined as Merger Sub
+0001213900-26-084686,acquirer,Newbridge Acquisition Limited,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-084686,target,Startech Group Inc.,GLiNER span; defined as the Company / Target
+0001213900-26-084686,merger_subsidiary,"Newbridge Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-032037,acquirer,Merck KGaA,GLiNER span (no structural check applied)
+0001140361-26-032037,target,Bio-Techne Corporation,GLiNER span; its shares convert
+0001140361-26-032037,merger_subsidiary,"EMD Holdings NewCo, Inc.",GLiNER span; defined as Merger Sub
+0001104659-26-093784,acquirer,Zymeworks Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-093784,target,"Theravance Biopharma, Inc.",GLiNER span; its shares convert
+0001104659-26-093784,merger_subsidiary,Zymeworks Merger Sub 1,GLiNER span; defined as Merger Sub
+0001213900-26-087935,acquirer,INFLECTION POINT ACQUISITION CORP. V,GLiNER span (no structural check applied)
+0001213900-26-087935,target,GOWell,GLiNER span (no structural check applied)
+0001213900-26-087935,merger_subsidiary,IPCV Merger Sub Limited,GLiNER span; defined as Merger Sub
+0001213900-26-089404,acquirer,"Langham Project, LLC",GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-089404,target,"LogicMark, Inc.",filer of a PREM14A
+0001213900-26-089404,merger_subsidiary,"Langham Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001193125-26-374324,acquirer,Talawar Tx Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-374324,target,JATT II Acquisition Corp.,GLiNER span; its shares convert
+0001193125-26-374324,merger_subsidiary,Talawar Merger Sub,GLiNER span; defined as Merger Sub
+0001140361-26-034858,acquirer,"American Family Mutual Insurance Company, S.I",GLiNER span (no structural check applied)
+0001140361-26-034858,target,Bowhead Specialty Holdings Inc.,filer of a PREM14A
+0001140361-26-034858,merger_subsidiary,Trident Superior Inc.,GLiNER span; defined as Merger Sub
+0001193125-26-377066,acquirer,"Tempus AI, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-377066,target,"Personalis, Inc.",filer of a SC 13E3
+0001193125-26-377066,merger_subsidiary,"Aviary Development, Inc. | Toucan Development, LLC",GLiNER span; defined as Merger Sub
+0001104659-26-104366,acquirer,"FIRST HAWAIIAN, INC.",filer of a S-4
+0001104659-26-104366,target,"First Hawaiian, Inc.",GLiNER span (no structural check applied)
+0001104659-26-104366,merger_subsidiary,"Horizon Merger Sub, Inc",GLiNER span; defined as Merger Sub
+0001104659-26-105071,acquirer,"Dream Finders Homes, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-105071,target,"Beazer Homes USA, Inc.",GLiNER span; defined as the Company / Target
+0001104659-26-105071,merger_subsidiary,"Bulldogs Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001193125-26-383837,acquirer,Repligen Corporation,GLiNER span; holders receive its shares
+0001193125-26-383837,target,"BioLife Solutions, Inc.",GLiNER span; its shares convert
+0001193125-26-383837,merger_subsidiary,"Bravo Merger Sub I, Inc. | Bravo Merger Sub II, LLC",GLiNER span; defined as Merger Sub
+0001193125-26-383841,acquirer,"Intercontinental Exchange, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-383841,target,MarketAxess Holdings Inc.,GLiNER span; defined as the Company / Target
+0001193125-26-383841,merger_subsidiary,"Igloo Merger Sub II, Inc. | Middle East. Merger Sub Igloo Merger Sub II, Inc.",party definitions (GLiNER missed the name); defined as Merger Sub
+0001104659-26-107126,acquirer,Neptune BidCo US Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-107126,target,"DoubleVerify Holdings, Inc.",GLiNER span; its shares convert
+0001104659-26-107126,merger_subsidiary,Wallace Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001213900-26-099017,acquirer,ChampionsGate Acquisition Corp,GLiNER span (no structural check applied)
+0001213900-26-099017,target,"Futuremain Co., Ltd.",GLiNER span (no structural check applied)
+0001213900-26-099017,merger_subsidiary,,
+0001829126-26-010118,acquirer,Bluechip Holdings Corp.,GLiNER span; holders receive its shares
+0001829126-26-010118,target,Flag Ship Acquisition Corporation,GLiNER span; its shares convert
+0001829126-26-010118,merger_subsidiary,Bluechip Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001104659-26-108313,acquirer,"First Hawaiian, Inc.",GLiNER span (no structural check applied)
+0001104659-26-108313,target,TRICO BANCSHARES /,filer of a DEFM14A
+0001104659-26-108313,merger_subsidiary,"Horizon Merger Sub, Inc",GLiNER span; defined as Merger Sub
+0001213900-26-100367,acquirer,ACP Holdings Acquisition Corp,GLiNER span (no structural check applied)
+0001213900-26-100367,target,"May Mobility, Inc.",GLiNER span; its shares convert
+0001213900-26-100367,merger_subsidiary,"Maestro Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001829126-26-010319,acquirer,FortuneX Acquisition Corporation,GLiNER span; holders receive its shares
+0001829126-26-010319,target,WT Realty Group Inc.,GLiNER span; its shares convert
+0001829126-26-010319,merger_subsidiary,FortuneX Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001104659-26-110971,acquirer,"Avere Therapeutics, Inc.",GLiNER span (no structural check applied)
+0001104659-26-110971,target,"NextCure, Inc",GLiNER span (no structural check applied)
+0001104659-26-110971,merger_subsidiary,,
+0001493152-26-044341,acquirer,"Pulmatrix, Inc.",GLiNER span; holders receive its shares
+0001493152-26-044341,target,Eos SENOLYTIX Inc.,GLiNER span; its shares convert
+0001493152-26-044341,merger_subsidiary,"PUOS Merger Sub, Inc | PCL Merger Sub, Inc",GLiNER span; defined as Merger Sub
+0001213900-26-104691,acquirer,OAG Pipeline Technologies Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-104691,target,OAG International Ltd,GLiNER span; defined as the Company / Target
+0001213900-26-104691,merger_subsidiary,OAG Merger Sub I | OAG Merger Sub II,GLiNER span; defined as Merger Sub
+0001193125-26-021072,acquirer,"Sword Purchaser, LLC",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-021072,target,Sealed Air Corporation,GLiNER span; its shares convert
+0001193125-26-021072,merger_subsidiary,"Sword Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001193125-26-028104,acquirer,"Argento, LLC",GLiNER span (no structural check applied)
+0001193125-26-028104,target,"Golden Entertainment, Inc.",GLiNER span; defined as the Company / Target
+0001193125-26-028104,merger_subsidiary,VICI ROYAL MERGER SUB LLC | PropCo Merger Sub,GLiNER span; defined as Merger Sub
+0001185185-26-000356,acquirer,RYVYL Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001185185-26-000356,target,"RTB Digital, Inc",GLiNER span (no structural check applied)
+0001185185-26-000356,merger_subsidiary,RYVYL Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001437749-26-003399,acquirer,Navitas LLC,GLiNER span (no structural check applied)
+0001437749-26-003399,target,"Laird Superfood, Inc.",GLiNER span; defined as the Company / Target
+0001437749-26-003399,merger_subsidiary,Picky Bars,GLiNER span (no structural check applied)
+0001539497-26-000331,acquirer,,
+0001539497-26-000331,target,"BioAtla, Inc.",GLiNER span; defined as the Company / Target
+0001539497-26-000331,merger_subsidiary,"BA Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001493152-26-006791,acquirer,"Boost Run Holdings, LLC",GLiNER span; holders receive its shares
+0001493152-26-006791,target,Willow Lane Acquisition Corp.,GLiNER span; its shares convert
+0001493152-26-006791,merger_subsidiary,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,GLiNER span; defined as Merger Sub
+0001185185-26-000563,acquirer,RYVYL Inc.,GLiNER span; parent of the merger sub / defined as Parent
+0001185185-26-000563,target,"RTB Digital, Inc",GLiNER span (no structural check applied)
+0001185185-26-000563,merger_subsidiary,RYVYL Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001193125-26-051584,acquirer,"Argento, LLC",GLiNER span (no structural check applied)
+0001193125-26-051584,target,"Golden Entertainment, Inc.",GLiNER span; defined as the Company / Target
+0001193125-26-051584,merger_subsidiary,VICI ROYAL MERGER SUB LLC | PropCo Merger Sub,GLiNER span; defined as Merger Sub
+0001193125-26-052753,acquirer,GigCapital7 Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-052753,target,"Hadron Energy, Inc.",GLiNER span (no structural check applied)
+0001193125-26-052753,merger_subsidiary,"MMR Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001829126-26-001612,acquirer,Navisalma Design,GLiNER span (no structural check applied)
+0001829126-26-001612,target,Einride,GLiNER span (no structural check applied)
+0001829126-26-001612,merger_subsidiary,Legato Merger Corp. III,GLiNER span (no structural check applied)
+0001829126-26-001676,acquirer,Einride AB,GLiNER span; parent of the merger sub / defined as Parent
+0001829126-26-001676,target,Einride AB (publ),GLiNER span; defined as the Company / Target
+0001829126-26-001676,merger_subsidiary,Einride Cayman Sub Limited,GLiNER span; defined as Merger Sub
+0001829126-26-001674,acquirer,Legato Merger Corp. III,GLiNER span (no structural check applied)
+0001829126-26-001674,target,Einride,GLiNER span (no structural check applied)
+0001829126-26-001674,merger_subsidiary,,
+0001104659-26-020981,acquirer,TL Topco PLC,GLiNER span; holders receive its shares
+0001104659-26-020981,target,Roman DBDR Acquisition Corp. II,GLiNER span; its shares convert
+0001104659-26-020981,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,GLiNER span; defined as Merger Sub
+0001193125-26-096749,acquirer,VICI Properties Inc.,GLiNER span (no structural check applied)
+0001193125-26-096749,target,"Golden Entertainment, Inc.",GLiNER span; defined as the Company / Target
+0001193125-26-096749,merger_subsidiary,VICI ROYAL MERGER SUB LLC | PropCo Merger Sub,GLiNER span; defined as Merger Sub
+0001193125-26-096620,acquirer,"Argento, LLC",GLiNER span (no structural check applied)
+0001193125-26-096620,target,"Golden Entertainment, Inc.",GLiNER span; its shares convert
+0001193125-26-096620,merger_subsidiary,PropCo Merger Sub | VICI ROYAL MERGER SUB LLC,GLiNER span; defined as Merger Sub
+0001193125-26-102283,acquirer,GigCapital7 Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-102283,target,"Hadron Energy, Inc.",GLiNER span (no structural check applied)
+0001193125-26-102283,merger_subsidiary,"MMR Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001493152-26-009657,acquirer,"Boost Run Holdings, LLC",GLiNER span; holders receive its shares
+0001493152-26-009657,target,Willow Lane Acquisition Corp.,GLiNER span; its shares convert
+0001493152-26-009657,merger_subsidiary,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,GLiNER span; defined as Merger Sub
+0001193125-26-102359,acquirer,"Glow Midco, LLC",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-102359,target,"European Wax Center, Inc.",filer of a PREM14A
+0001193125-26-102359,merger_subsidiary,"Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC",GLiNER span; defined as Merger Sub
+0001829126-26-002230,acquirer,Einride AB,GLiNER span (no structural check applied)
+0001829126-26-002230,target,Einride,GLiNER span (no structural check applied)
+0001829126-26-002230,merger_subsidiary,Legato Merger Corp. III,GLiNER span (no structural check applied)
+0001213900-26-026268,acquirer,Plum IV,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-026268,target,Controlled Thermal Resources Holdings Inc.,GLiNER span; its shares convert
+0001213900-26-026268,merger_subsidiary,"Plum IV Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001213900-26-028308,acquirer,Odysseus Holdings Limited,GLiNER span; holders receive its shares
+0001213900-26-028308,target,Vine Hill Capital Investment Corp. | CoinShares International Limited,GLiNER span; its shares convert
+0001213900-26-028308,merger_subsidiary,Odysseus (Cayman) Limited,GLiNER span (no structural check applied)
+0001829126-26-002399,acquirer,Legato Merger Corp. III,GLiNER span (no structural check applied)
+0001829126-26-002399,target,Einride,GLiNER span (no structural check applied)
+0001829126-26-002399,merger_subsidiary,SH 130 Concession Company,GLiNER span (no structural check applied)

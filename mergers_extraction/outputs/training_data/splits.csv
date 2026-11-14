@@ -1,0 +1,574 @@
+accession_number,deal_group,split
+0000058492-26-000364,target:leggett & platt,train
+0000919574-26-002115,target:fifth era acquisition i,train
+0000950103-26-000806,key:0002092592,train
+0000950103-26-003336,target:securitize,train
+0000950103-26-003337,target:securitize,train
+0000950103-26-007826,target:newhold investment iii,train
+0001023459-26-000036,target:simulations plus,train
+0001096906-26-001289,target:aiways automobile europe gmbh,train
+0001104659-26-001784,target:eagle energy metals,train
+0001104659-26-001822,target:cartica acquisition,train
+0001104659-26-002481,target:confluent,train
+0001104659-26-002524,target:eagle energy metals,train
+0001104659-26-002889,target:eagle energy metals,train
+0001104659-26-002968,target:alexander & baldwin,train
+0001104659-26-003014,target:quipt home medical,train
+0001104659-26-004116,target:eagle energy metals,train
+0001104659-26-004245,target:concrete partners holding,train
+0001104659-26-004251,target:aerkomm,holdout
+0001104659-26-004723,target:eagle energy metals,train
+0001104659-26-004871,target:parataxis holdings,train
+0001104659-26-005115,target:eagle energy metals,train
+0001104659-26-005864,target:eagle energy metals,train
+0001104659-26-006024,target:alexander & baldwin,train
+0001104659-26-007023,target:clywedog therapeutics,train
+0001104659-26-007291,target:eagle energy metals,train
+0001104659-26-008725,target:northwestern energy group,train
+0001104659-26-008727,target:janus henderson group,train
+0001104659-26-008735,target:janus henderson group,train
+0001104659-26-008851,target:eagle energy metals,train
+0001104659-26-008935,target:eagle energy metals,train
+0001104659-26-008936,target:eagle energy metals,train
+0001104659-26-009398,target:eagle energy metals,train
+0001104659-26-010038,target:concrete partners holding,train
+0001104659-26-010316,target:quipt home medical,train
+0001104659-26-010897,target:boxabl,train
+0001104659-26-011567,target:northwestern energy group,train
+0001104659-26-011659,target:linkbancorp,train
+0001104659-26-014575,target:concrete partners holding,train
+0001104659-26-016442,target:eagle energy metals,train
+0001104659-26-017281,target:btab ecommerce group,holdout
+0001104659-26-017552,target:eagle energy metals,train
+0001104659-26-017580,target:eagle energy metals,train
+0001104659-26-018583,target:eagle energy metals,train
+0001104659-26-018585,target:eagle energy metals,train
+0001104659-26-020974,target:janus henderson group,train
+0001104659-26-020981,target:roman dbdr acquisition ii,holdout
+0001104659-26-020983,target:roman dbdr acquisition ii,holdout
+0001104659-26-021584,target:carnival,train
+0001104659-26-021605,target:carnival,train
+0001104659-26-022330,target:eagle energy metals,train
+0001104659-26-023474,target:golden entertainment,holdout
+0001104659-26-024193,target:sves go | sves | sves cp | sves apparel,holdout
+0001104659-26-024713,target:nathan s famous,train
+0001104659-26-024792,target:digitalbridge operating,train
+0001104659-26-026145,target:janus henderson group,train
+0001104659-26-026215,target:janus henderson group,train
+0001104659-26-026495,target:coterra energy,train
+0001104659-26-027698,target:clywedog therapeutics,train
+0001104659-26-029601,target:farmer bros,holdout
+0001104659-26-031261,target:masimo,train
+0001104659-26-034614,target:veris residential l p,train
+0001104659-26-035234,target:general fusion,train
+0001104659-26-035458,key:0001788013,holdout
+0001104659-26-036025,target:avalanche treasury,train
+0001104659-26-036197,target:w d,train
+0001104659-26-036887,target:coterra energy,train
+0001104659-26-043531,target:select medical holdings,holdout
+0001104659-26-046099,target:boxabl,train
+0001104659-26-046161,target:expro luxembourg s a,train
+0001104659-26-046808,target:adirondack bancorp,train
+0001104659-26-047723,target:thermon group holdings,train
+0001104659-26-051466,target:smart share global,train
+0001104659-26-051962,target:clywedog therapeutics,train
+0001104659-26-054874,key:0002015947,train
+0001104659-26-055717,target:forge nano,train
+0001104659-26-062722,target:gold resource,train
+0001104659-26-063815,target:valaris,train
+0001104659-26-063825,target:ihs holding,train
+0001104659-26-066602,target:translational development acquisition,train
+0001104659-26-068303,target:topbuild,train
+0001104659-26-068371,target:esperion therapeutics,train
+0001104659-26-068378,target:avanos medical,train
+0001104659-26-072662,target:zincfive,train
+0001104659-26-073538,target:big3 holdco,train
+0001104659-26-073581,target:the real brokerage,holdout
+0001104659-26-077011,target:liveramp holdings,train
+0001104659-26-077331,target:modiv operating partnership,train
+0001104659-26-079004,target:tuttle twins show,train
+0001104659-26-079330,target:elroy air,train
+0001104659-26-079973,target:warehouse realty,train
+0001104659-26-082291,target:the real brokerage,holdout
+0001104659-26-083113,target:avalonbay communities,train
+0001104659-26-086863,target:cartesian growth ii,train
+0001104659-26-087585,target:dominion energy,train
+0001104659-26-089222,target:perfect,train
+0001104659-26-089247,target:payoneer global,train
+0001104659-26-093784,target:theravance biopharma,holdout
+0001104659-26-102032,target:astrum space,train
+0001104659-26-104366,target:trico bancshares,holdout
+0001104659-26-104858,target:plus automation,train
+0001104659-26-105071,target:beazer homes usa,holdout
+0001104659-26-105083,target:safety insurance group,train
+0001104659-26-105482,target:peoples bank,train
+0001104659-26-105505,target:lxp industrial trust,train
+0001104659-26-105957,target:varex imaging,train
+0001104659-26-107053,target:novagold resources,train
+0001104659-26-107109,target:supernus pharmaceuticals,train
+0001104659-26-107126,target:doubleverify holdings,holdout
+0001104659-26-108313,target:trico bancshares,holdout
+0001104659-26-110971,key:0001661059,holdout
+0001104659-26-111047,target:liability jk land vehicles,train
+0001104659-26-111383,target:peoples bank,train
+0001140361-26-000200,target:eventbrite,train
+0001140361-26-000265,target:synchronoss technologies,train
+0001140361-26-000522,target:brighthouse financial,train
+0001140361-26-000790,target:cool,train
+0001140361-26-001516,target:diamond hill investment group,train
+0001140361-26-001670,target:monroe capital,train
+0001140361-26-001852,target:amicus therapeutics,train
+0001140361-26-002681,target:diamond hill investment group,train
+0001140361-26-002685,target:eventbrite,train
+0001140361-26-002822,target:soho house &,train
+0001140361-26-003047,target:two harbors investment,train
+0001140361-26-003049,target:the brand house collective,holdout
+0001140361-26-003092,target:amicus therapeutics,train
+0001140361-26-005012,target:two harbors investment,train
+0001140361-26-006778,target:udemy,train
+0001140361-26-008099,target:pkst op l p,train
+0001140361-26-008785,target:udemy,train
+0001140361-26-009458,target:pkst op l p,train
+0001140361-26-010587,target:kennedy-wilson holdings,train
+0001140361-26-012383,target:sun country airlines holdings,holdout
+0001140361-26-012785,target:penumbra,train
+0001140361-26-014502,target:devvstream,train
+0001140361-26-014625,target:kore group holdings,train
+0001140361-26-015088,target:forian,train
+0001140361-26-016415,target:webster financial,train
+0001140361-26-016785,target:unifirst,train
+0001140361-26-017428,target:freenome holdings,train
+0001140361-26-018881,target:the aes,holdout
+0001140361-26-019138,target:sila realty trust,train
+0001140361-26-020056,target:commerceone financial,train
+0001140361-26-020380,target:unifirst,train
+0001140361-26-022083,target:valaris,train
+0001140361-26-022937,target:ncr atleos,train
+0001140361-26-023175,target:global business travel group,holdout
+0001140361-26-023178,target:electro-sensors,holdout
+0001140361-26-023880,target:cross country healthcare,train
+0001140361-26-025784,target:kashiv biosciences,train
+0001140361-26-026757,target:avalonbay communities,train
+0001140361-26-027469,target:apogee therapeutics,holdout
+0001140361-26-029134,target:crinetics pharmaceuticals,holdout
+0001140361-26-029160,target:senti holdings,train
+0001140361-26-029608,target:arcosa,holdout
+0001140361-26-030109,target:ataibeckley,train
+0001140361-26-032037,target:bio-techne,holdout
+0001140361-26-033448,target:fathom holdings,train
+0001140361-26-033970,target:synaptics,train
+0001140361-26-034771,target:atkore,train
+0001140361-26-034858,target:bowhead specialty holdings,holdout
+0001140361-26-035627,target:integer holdings,train
+0001140361-26-035943,target:southern realty trust,train
+0001140361-26-036669,target:weave communications,train
+0001140361-26-037722,target:bowman consulting group,train
+0001171843-26-004694,target:sono group n v,train
+0001178913-26-000246,target:alterg,train
+0001178913-26-000362,target:alterg,train
+0001185185-26-000166,target:rtb digital,holdout
+0001185185-26-000356,target:rtb digital,holdout
+0001185185-26-000445,target:blockfusion usa,train
+0001185185-26-000563,target:rtb digital,holdout
+0001185185-26-000991,key:0002059654,holdout
+0001185185-26-001290,target:cathedra bitcoin,train
+0001185185-26-001691,target:singauto,holdout
+0001185185-26-002810,target:uy scuti acquisition,train
+0001185185-26-004447,target:fort robotics,train
+0001193125-26-002732,target:coldquanta,train
+0001193125-26-003553,target:cnl healthcare properties,holdout
+0001193125-26-006300,target:american national,train
+0001193125-26-008315,target:exact sciences,train
+0001193125-26-009119,target:dolly varden silver,train
+0001193125-26-009645,target:plus automation,train
+0001193125-26-010471,target:sealed air,holdout
+0001193125-26-012025,target:falcon oil & gas,train
+0001193125-26-012952,target:olympic steel,holdout
+0001193125-26-013022,target:the victory bancorp,train
+0001193125-26-013365,target:aptose biosciences,train
+0001193125-26-015928,target:coldquanta,train
+0001193125-26-015959,target:warner bros discovery,train
+0001193125-26-016598,target:hadron energy,holdout
+0001193125-26-016684,target:golden entertainment,holdout
+0001193125-26-018589,target:coldquanta,train
+0001193125-26-019521,target:klöckner &,train
+0001193125-26-019700,target:ventyx biosciences,train
+0001193125-26-021072,target:sealed air,holdout
+0001193125-26-021084,target:guess?,train
+0001193125-26-027199,key:0002097725,train
+0001193125-26-027433,target:falcon oil & gas,train
+0001193125-26-028104,target:golden entertainment,holdout
+0001193125-26-031920,target:avidity biosciences,train
+0001193125-26-033610,target:ventyx biosciences,train
+0001193125-26-036881,target:distributed technologies research global,train
+0001193125-26-041336,target:flushing bank,train
+0001193125-26-041863,target:aptose biosciences,train
+0001193125-26-043033,target:on24,train
+0001193125-26-048925,target:heritage commerce,train
+0001193125-26-048986,target:coldquanta,train
+0001193125-26-048995,target:coldquanta,train
+0001193125-26-049835,target:dolly varden silver,train
+0001193125-26-051584,target:golden entertainment,holdout
+0001193125-26-051757,target:distributed technologies research global,train
+0001193125-26-052753,target:hadron energy,holdout
+0001193125-26-052783,target:aptose biosciences,train
+0001193125-26-053002,target:warner bros discovery,train
+0001193125-26-053097,target:coldquanta,train
+0001193125-26-064419,target:flushing bank,train
+0001193125-26-064774,target:aptose biosciences,train
+0001193125-26-064791,target:aptose biosciences,train
+0001193125-26-064848,target:real asset acquisition,train
+0001193125-26-067016,target:clearwater analytics holdings,train
+0001193125-26-067473,target:on24,train
+0001193125-26-067535,target:clearwater analytics holdings,train
+0001193125-26-072827,target:flushing bank,train
+0001193125-26-072842,target:fonar,train
+0001193125-26-073346,target:fonar,train
+0001193125-26-083205,target:sunopta,train
+0001193125-26-091525,target:tri pointe homes,train
+0001193125-26-096620,target:golden entertainment,holdout
+0001193125-26-096749,target:golden entertainment,holdout
+0001193125-26-102283,target:hadron energy,holdout
+0001193125-26-102359,target:ewc ventures,holdout
+0001193125-26-102445,target:ewc ventures,holdout
+0001193125-26-102817,key:0002097725,train
+0001193125-26-106334,target:silicon laboratories,train
+0001193125-26-108369,target:warner bros discovery,train
+0001193125-26-110678,target:tri pointe homes,train
+0001193125-26-110816,target:semnur,train
+0001193125-26-114341,target:calavo growers,train
+0001193125-26-117814,target:calavo growers,train
+0001193125-26-130513,target:enhabit,train
+0001193125-26-134924,target:skywater technology,holdout
+0001193125-26-138991,target:marine products,train
+0001193125-26-142192,target:stellar bancorp,train
+0001193125-26-142359,target:mister car wash,train
+0001193125-26-144257,target:talkspace,train
+0001193125-26-161682,target:centessa pharmaceuticals,train
+0001193125-26-166934,target:stellar bancorp,train
+0001193125-26-170834,target:galera therapeutics,train
+0001193125-26-187219,target:jfb construction holdings,holdout
+0001193125-26-209019,target:affinity bancshares,train
+0001193125-26-214612,target:whitestone reit operating partnership l p,train
+0001193125-26-217125,target:nsa op,train
+0001193125-26-234433,target:northfield bancorp,train
+0001193125-26-234468,target:northfield bancorp,train
+0001193125-26-234588,target:trubridge,train
+0001193125-26-245426,target:catalyst pharmaceuticals,train
+0001193125-26-249541,target:organon &,train
+0001193125-26-266069,target:xoma royalty,train
+0001193125-26-269503,target:nsa op,train
+0001193125-26-269722,target:taylor morrison home,holdout
+0001193125-26-270338,target:equitable holdings,train
+0001193125-26-279596,target:first seacoast bancorp,train
+0001193125-26-279656,key:0001889539,holdout
+0001193125-26-279668,key:0001333986,holdout
+0001193125-26-280277,target:axalta coating systems,train
+0001193125-26-286936,target:jatt ii acquisition,holdout
+0001193125-26-294465,target:huntsman,train
+0001193125-26-302130,target:huntsman,train
+0001193125-26-306199,target:astronova,holdout
+0001193125-26-307826,target:fbb holdings i,train
+0001193125-26-311388,target:nth cycle,train
+0001193125-26-345336,target:caesars entertainment,train
+0001193125-26-347541,target:mobilewalla holdco,train
+0001193125-26-361757,target:utz brands,train
+0001193125-26-363800,target:ohb pediatrics,train
+0001193125-26-365886,target:lantheus holdings,train
+0001193125-26-371546,target:cbiz,train
+0001193125-26-374324,target:jatt ii acquisition,holdout
+0001193125-26-377066,target:personalis,holdout
+0001193125-26-377452,target:distribution solutions group,train
+0001193125-26-377700,target:roku,train
+0001193125-26-383837,target:biolife solutions,holdout
+0001193125-26-383841,target:marketaxess holdings,holdout
+0001193125-26-397899,target:marinemax,train
+0001193125-26-398027,target:renew energy global,train
+0001206264-26-000085,target:leggett & platt,train
+0001213900-25-127193,target:hall of fame resort & entertainment,train
+0001213900-25-127205,target:j & t investments,train
+0001213900-26-001799,target:trailblazer merger i,train
+0001213900-26-001805,target:trailblazer merger i,train
+0001213900-26-001978,target:one blockchain,train
+0001213900-26-001980,target:one blockchain,train
+0001213900-26-002352,target:trailblazer merger i,train
+0001213900-26-002600,target:korea newco,train
+0001213900-26-003622,target:air water ventures holdings,train
+0001213900-26-003627,target:air water ventures holdings,train
+0001213900-26-003691,target:old glory holding,train
+0001213900-26-003695,target:old glory holding,train
+0001213900-26-003872,target:sl bio,train
+0001213900-26-003903,target:lakeshore biopharma,train
+0001213900-26-003955,target:avalanche treasury,train
+0001213900-26-003960,target:avalanche treasury,train
+0001213900-26-003962,target:trailblazer merger i,train
+0001213900-26-004193,target:merlin labs,train
+0001213900-26-004719,target:trailblazer merger i,train
+0001213900-26-005140,key:0002018145,train
+0001213900-26-005369,target:lakeshore biopharma,train
+0001213900-26-005379,target:one blockchain,train
+0001213900-26-005384,target:one blockchain,train
+0001213900-26-005901,key:0002048951,train
+0001213900-26-005984,target:one blockchain,train
+0001213900-26-006223,target:trailblazer merger i,train
+0001213900-26-006393,target:one blockchain,train
+0001213900-26-007347,target:stablecoinx assets,train
+0001213900-26-007416,target:ace green recycling,train
+0001213900-26-008540,target:docter,train
+0001213900-26-008542,target:docter,train
+0001213900-26-008915,target:securitize,train
+0001213900-26-009486,target:everli global,train
+0001213900-26-009489,target:everli global,train
+0001213900-26-009858,target:one blockchain,train
+0001213900-26-010170,target:stablecoinx assets,train
+0001213900-26-010178,target:ace green recycling,train
+0001213900-26-010191,target:ace green recycling,train
+0001213900-26-010279,target:presidio midco,train
+0001213900-26-010323,target:stablecoinx assets,train
+0001213900-26-010376,target:reserveone,train
+0001213900-26-010964,target:presidio midco,train
+0001213900-26-010986,target:presidio midco,train
+0001213900-26-012333,target:trailblazer merger i,train
+0001213900-26-012392,target:trailblazer merger i,train
+0001213900-26-012395,target:trailblazer merger i,train
+0001213900-26-012397,target:reserveone,train
+0001213900-26-013012,target:lakeshore biopharma,train
+0001213900-26-013897,target:merlin labs,train
+0001213900-26-014543,target:merlin labs,train
+0001213900-26-015125,target:merlin labs,train
+0001213900-26-015233,target:one blockchain,train
+0001213900-26-015236,target:one blockchain,train
+0001213900-26-016765,target:reserveone,train
+0001213900-26-016858,key:0002052373,train
+0001213900-26-016864,key:0002052373,train
+0001213900-26-016927,target:one blockchain,train
+0001213900-26-016931,target:one blockchain,train
+0001213900-26-017460,target:dmy squared technology group,train
+0001213900-26-017535,target:stablecoinx assets,train
+0001213900-26-017658,target:sl bio,train
+0001213900-26-017661,target:sl bio,train
+0001213900-26-017662,target:sl bio,train
+0001213900-26-017663,target:sl bio,train
+0001213900-26-018608,target:merlin labs,train
+0001213900-26-018610,target:merlin labs,train
+0001213900-26-018921,target:one blockchain,train
+0001213900-26-018926,target:one blockchain,train
+0001213900-26-019008,target:real asset acquisition,train
+0001213900-26-019012,target:real asset acquisition,train
+0001213900-26-019602,target:presidio midco,train
+0001213900-26-019604,target:presidio midco,train
+0001213900-26-019945,target:trailblazer merger i,train
+0001213900-26-020137,target:one blockchain,train
+0001213900-26-020140,target:one blockchain,train
+0001213900-26-020768,target:avalanche treasury,train
+0001213900-26-021109,target:avalanche treasury,train
+0001213900-26-021952,target:crane harbor acquisition,train
+0001213900-26-022404,target:medera,holdout
+0001213900-26-023615,target:docter,train
+0001213900-26-023619,target:docter,train
+0001213900-26-023839,target:pasqal holding sas,train
+0001213900-26-023841,target:pasqal holding sas,train
+0001213900-26-024329,target:one blockchain,train
+0001213900-26-024331,target:one blockchain,train
+0001213900-26-024672,target:coinshares international,holdout
+0001213900-26-024925,target:one blockchain,train
+0001213900-26-024931,target:one blockchain,train
+0001213900-26-025222,target:presidio midco,train
+0001213900-26-025427,target:one blockchain,train
+0001213900-26-025431,target:one blockchain,train
+0001213900-26-025809,target:stablecoinx assets,train
+0001213900-26-025811,target:stablecoinx assets,train
+0001213900-26-025951,target:one blockchain,train
+0001213900-26-025961,target:one blockchain,train
+0001213900-26-026265,target:controlled thermal resources holdings,holdout
+0001213900-26-026268,target:controlled thermal resources holdings,holdout
+0001213900-26-027266,target:one blockchain,train
+0001213900-26-027276,target:one blockchain,train
+0001213900-26-027667,target:one blockchain,train
+0001213900-26-027959,target:one blockchain,train
+0001213900-26-027989,target:abra financial holdings,train
+0001213900-26-027992,target:abra financial holdings,train
+0001213900-26-028296,target:abra financial holdings,train
+0001213900-26-028308,target:coinshares international,holdout
+0001213900-26-028416,target:one blockchain,train
+0001213900-26-029238,target:avalanche treasury,train
+0001213900-26-029242,target:avalanche treasury,train
+0001213900-26-039329,target:clear channel outdoor holdings,train
+0001213900-26-040029,target:carvix,train
+0001213900-26-042083,target:hitech minerals,holdout
+0001213900-26-042469,key:0002028699,train
+0001213900-26-042803,target:northern data,train
+0001213900-26-044922,target:agilealgo holdings,train
+0001213900-26-045154,target:sizzle acquisition ii,holdout
+0001213900-26-046306,target:huajin china holdings,train
+0001213900-26-046614,target:electra vehicles,train
+0001213900-26-050570,target:marine thinking,train
+0001213900-26-051571,target:northstar earth and space,holdout
+0001213900-26-052296,target:tenax aerospace acquisition,train
+0001213900-26-053908,target:ribbon acquisition,train
+0001213900-26-054062,target:diamir biosciences,holdout
+0001213900-26-055508,target:svre holdings,train
+0001213900-26-055964,target:reserveone,train
+0001213900-26-056059,target:bstr newco,train
+0001213900-26-061108,target:allegro merger,holdout
+0001213900-26-061142,target:pasqal holding sas,train
+0001213900-26-062447,target:axiom intelligence acquisition 1,train
+0001213900-26-063737,target:hitech minerals,holdout
+0001213900-26-064991,key:0002028201,train
+0001213900-26-065889,target:bstr newco,train
+0001213900-26-066027,target:quantum space,train
+0001213900-26-067421,target:ignite proteomics,train
+0001213900-26-069741,target:eigenq,holdout
+0001213900-26-071287,target:agility robotics,train
+0001213900-26-071782,target:nucube energy,train
+0001213900-26-072155,target:real asset acquisition,train
+0001213900-26-072373,target:elroy air,train
+0001213900-26-073218,target:texas mineral resources,holdout
+0001213900-26-074267,target:allegro merger,holdout
+0001213900-26-076759,target:liveperson,train
+0001213900-26-079686,target:power analytics global,train
+0001213900-26-080199,target:tecfusions,train
+0001213900-26-081009,target:tactical resources,train
+0001213900-26-081847,target:fortitude mining holdco,holdout
+0001213900-26-082408,target:first choice healthcare solutions,train
+0001213900-26-082489,target:permian basin royalty trust,train
+0001213900-26-084286,target:bitonic technology labs,train
+0001213900-26-084686,target:startech group,holdout
+0001213900-26-085668,target:space-eyes,train
+0001213900-26-086293,target:blackstar orbital technologies,train
+0001213900-26-087935,key:0002028355,holdout
+0001213900-26-089404,target:logicmark,holdout
+0001213900-26-093229,target:ursa major technologies,train
+0001213900-26-097669,target:sanara medtech,train
+0001213900-26-097868,target:gts holdings,train
+0001213900-26-097903,target:meshflow acquisition,train
+0001213900-26-098973,target:atlantic hpc group,train
+0001213900-26-099017,target:futuremain,holdout
+0001213900-26-100367,target:may mobility,holdout
+0001213900-26-103758,target:redl intermediate holdings,train
+0001213900-26-103792,target:astro digital us,train
+0001213900-26-104691,target:oag international,holdout
+0001214659-26-000068,target:open world,train
+0001437749-26-000391,target:crawford united,holdout
+0001437749-26-002544,target:global superfoods,holdout
+0001437749-26-003399,target:global superfoods,holdout
+0001437749-26-012856,target:forge nano,train
+0001437749-26-028538,target:nsts bancorp,train
+0001477932-25-009283,target:aero velocity,train
+0001477932-26-000513,target:lake superior acquisition,train
+0001477932-26-005748,target:plutonian acquisition ii,train
+0001493152-26-000508,target:compass digital acquisition,train
+0001493152-26-000510,target:compass digital acquisition,train
+0001493152-26-001179,target:m2i global,train
+0001493152-26-001853,target:compass digital acquisition,train
+0001493152-26-001855,target:compass digital acquisition,train
+0001493152-26-002040,key:0002032379,train
+0001493152-26-002044,key:0002032379,train
+0001493152-26-002095,target:boost run holdings,holdout
+0001493152-26-005019,target:fusemachines,train
+0001493152-26-005020,target:primegen us,train
+0001493152-26-005021,target:primegen us,train
+0001493152-26-005428,target:compass digital acquisition,train
+0001493152-26-005429,target:compass digital acquisition,train
+0001493152-26-005590,target:primegen us,train
+0001493152-26-005595,target:primegen us,train
+0001493152-26-005598,target:compass digital acquisition,train
+0001493152-26-005782,target:compass digital acquisition,train
+0001493152-26-005899,target:m2i global,train
+0001493152-26-006791,target:boost run holdings,holdout
+0001493152-26-007487,target:teli pharmaceuticals,holdout
+0001493152-26-007489,target:cfo silvia,train
+0001493152-26-007754,target:compass digital acquisition,train
+0001493152-26-008544,target:cfo silvia,train
+0001493152-26-009317,target:goodvision ai,train
+0001493152-26-009318,target:goodvision ai,train
+0001493152-26-009657,target:boost run holdings,holdout
+0001493152-26-009785,target:smart kreate group,holdout
+0001493152-26-009918,target:m2i global,train
+0001493152-26-012048,target:bradbury capital holdings,train
+0001493152-26-014232,target:swb,train
+0001493152-26-015164,target:one nuclear energy,holdout
+0001493152-26-016444,target:devvstream,train
+0001493152-26-021030,target:jet ai spinco,train
+0001493152-26-026421,target:host digital infrastructure,train
+0001493152-26-026561,target:winvest acquisition,train
+0001493152-26-026782,target:cloopen group holding,train
+0001493152-26-029938,target:ou xdata group,train
+0001493152-26-030136,target:cayson acquisition,train
+0001493152-26-032938,target:matinas biopharma holdings,train
+0001493152-26-034626,target:gnq insilico,holdout
+0001493152-26-035045,target:first choice healthcare solutions,train
+0001493152-26-035181,target:autonomous power,train
+0001493152-26-040431,target:kukugan invest,train
+0001493152-26-041246,target:data443 risk mitigation,train
+0001493152-26-041247,target:data443 risk mitigation,train
+0001493152-26-042250,target:primegen us,train
+0001493152-26-042644,key:0002078148,train
+0001493152-26-042975,key:0001834105,train
+0001493152-26-044341,target:cullgen,holdout
+0001539497-26-000230,key:0001826892,holdout
+0001539497-26-000331,key:0001826892,holdout
+0001552781-26-000021,target:first foundation,train
+0001552781-26-000078,target:swk holdings,train
+0001607939-26-000017,target:udemy,train
+0001607939-26-000019,target:udemy,train
+0001628280-26-005481,target:united security bancshares,train
+0001628280-26-006094,target:qt imaging,holdout
+0001628280-26-007747,target:enhanced,train
+0001628280-26-010353,target:united security bancshares,train
+0001628280-26-011309,target:united security bancshares,train
+0001628280-26-020930,target:cleh,train
+0001628280-26-022200,target:endo,train
+0001651562-26-000008,target:udemy,train
+0001683168-26-001114,target:thramann holdings,train
+0001683168-26-001117,target:thramann holdings,train
+0001683168-26-001589,target:thramann holdings,train
+0001683168-26-003921,target:thramann holdings,train
+0001683168-26-004843,target:tachyon 9,train
+0001753926-26-001637,target:iridium communications,train
+0001802457-26-000036,target:micromidas,train
+0001820566-26-000005,target:inspirato,train
+0001829126-26-000260,target:d boral arc acquisition i,train
+0001829126-26-000261,target:d boral arc acquisition i,train
+0001829126-26-000378,target:march gl,train
+0001829126-26-000475,target:vesicor therapeutics,train
+0001829126-26-000517,target:vesicor therapeutics,train
+0001829126-26-000900,target:veraxa biotech,train
+0001829126-26-000901,target:veraxa biotech,train
+0001829126-26-001102,target:march gl,train
+0001829126-26-001208,target:legato merger iii,holdout
+0001829126-26-001322,target:march gl,train
+0001829126-26-001612,target:legato merger iii,holdout
+0001829126-26-001674,target:legato merger iii,holdout
+0001829126-26-001676,target:legato merger iii,holdout
+0001829126-26-001748,target:veraxa biotech,train
+0001829126-26-001749,target:veraxa biotech,train
+0001829126-26-001893,target:march gl,train
+0001829126-26-001894,target:march gl,train
+0001829126-26-001934,target:vesicor therapeutics,train
+0001829126-26-002230,target:legato merger iii,holdout
+0001829126-26-002394,target:dmy squared technology group,train
+0001829126-26-002399,target:legato merger iii,holdout
+0001829126-26-003449,target:investcorp ai acquisition,train
+0001829126-26-003564,target:kika technology,holdout
+0001829126-26-004377,target:rongcheng group,train
+0001829126-26-004942,target:viwo technology,train
+0001829126-26-005260,target:eight directions technology,holdout
+0001829126-26-005869,target:mobilewalla holdco,train
+0001829126-26-005923,target:titan acquisition,holdout
+0001829126-26-006011,target:reecycle holdings,train
+0001829126-26-006241,target:robseek intelligence,train
+0001829126-26-006336,target:ignite proteomics,train
+0001829126-26-007145,target:d boral arc acquisition i,train
+0001829126-26-007473,target:rf acquisition iii,train
+0001829126-26-009169,target:nanyang biologics pte,train
+0001829126-26-009351,target:starry sea acquisition,train
+0001829126-26-010118,target:bluechip & holdings,holdout
+0001829126-26-010319,target:wt realty group,holdout
+0001829126-26-010508,target:olympian group,train
+0001829126-26-010595,target:aire,train
+0001843973-26-000037,target:jet ai spinco,train
+0001929980-26-000053,target:sl bio,train
+0001929980-26-000070,target:pantages capital acquisition,train
+0001929980-26-000235,target:cpro electronics holding,train
+0002077096-26-000175,target:archenia,train

@@ -1,0 +1,30 @@
+{
+  "gt": "/Users/aeshagandhi/Workspace/BNY-Capstone-Project/notebooks/evaluation/data/merger_2026-01-01_2026-09-30/mergers_sample.csv",
+  "filings": 10,
+  "records": 14,
+  "model": "urchade/gliner_medium-v2.1",
+  "threshold": 0.4,
+  "max_windows": 12,
+  "micro": {
+    "pipeline": {
+      "tp": 18,
+      "fp": 85,
+      "fn": 103,
+      "gt_absence_values": 14,
+      "precision": 0.17475728155339806,
+      "recall": 0.1487603305785124,
+      "f1": 0.16071428571428573
+    },
+    "oracle": {
+      "tp": 19,
+      "fp": 95,
+      "fn": 102,
+      "gt_absence_values": 14,
+      "precision": 0.16666666666666666,
+      "recall": 0.15702479338842976,
+      "f1": 0.16170212765957448
+    }
+  },
+  "seconds": 28,
+  "note": "Agreement with unverified LLM ground truth. Category fields accept a span containing the label's key word; free-text fields use token F1 >= 0.5. Stated absences ('No ...') are counted apart because a span model cannot produce them."
+}

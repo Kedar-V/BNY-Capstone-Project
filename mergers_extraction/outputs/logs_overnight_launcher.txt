@@ -1,0 +1,8 @@
+== validation split 00:50
+== train medium_val_onepass for 2310 steps (one pass), checkpoint every 500 00:50
+== choose the checkpoint on validation 01:32
+== score on held-out filings (learned and original keyword windows) 01:50
+== methods on validation and held-out filings 02:05
+== combined pipeline: best method per field chosen on validation 02:55
+== charts and results notebook 02:55
+== done 02:55

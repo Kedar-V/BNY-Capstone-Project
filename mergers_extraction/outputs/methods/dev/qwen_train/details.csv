@@ -1,0 +1,132 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+learned,0001140361-26-000200,PREM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001140361-26-000200,PREM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001140361-26-000200,PREM14A,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001140361-26-000200,PREM14A,event_status,Pending,Pending,,tp
+learned,0001140361-26-000200,PREM14A,consideration_type,Cash,Cash,,tp
+learned,0001140361-26-000200,PREM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001140361-26-000200,PREM14A,default_option,,$4.50 in cash,,fp_no_gt
+learned,0001140361-26-000200,PREM14A,closing_conditions,Eventbrite stockholder approval | No legal restraint | HSR waiting period expiration or termination | Required representations and warranties accurate | Required covenants performed | No Eventbrite material adverse effect,Adoption of merger agreement by stockholders having requisite voting power | Regulatory approvals,,mismatch
+learned,0001140361-26-000200,PREM14A,cash_consideration_qualifications,Without interest | Applicable tax withholding | Adjustment for share changes | Excludes dissenting and canceled shares,No stock consideration,,mismatch
+learned,0001140361-26-000200,PREM14A,event_status_details,"Merger agreement signed December 1, 2025; stockholder approval and regulatory clearance pending","Merger agreement dated December 1, 2025; adoption by stockholders required; regulatory approvals needed",,tp
+learned,0001213900-25-127205,S-4,stock_exchange_ratio,"12,388,291 shares of New PAD Common Stock divided by outstanding PAD common shares per share","12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",,tp
+learned,0001213900-25-127205,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-25-127205,S-4,shareholder_vote_date,,12/31/2025,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status,Pending,Pending,,tp
+learned,0001213900-25-127205,S-4,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001213900-25-127205,S-4,available_options,No holder election,Public Shares | Cash,,absence_value
+learned,0001213900-25-127205,S-4,default_option,,Public Shares,,fp_no_gt
+learned,0001213900-25-127205,S-4,closing_conditions,FACT shareholder approval | PAD stockholder approval | No legal restraint | Registration statement effectiveness | Required regulatory clearances and consents | FACT representations and covenants | No FACT material adverse effect | Redemption opportunity | Nasdaq listing approval | $75 million minimum FACT cash | Ancillary documents and charter effectiveness | Trust funds released,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",,mismatch
+learned,0001213900-25-127205,S-4,cash_consideration_qualifications,,Original purchase price per share of the PAD Series A Preferred Stock,,fp_no_gt
+learned,0001213900-25-127205,S-4,stock_exchange_ratio_qualifications,Excludes treasury and dissenting shares | Fractional shares rounded up,No information,,mismatch
+learned,0001213900-25-127205,S-4,other_consideration,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status_details,"Business Combination Agreement dated November 26, 2025; closing remains subject to conditions","Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio,"621,500 shares of New PAD Common Stock divided by outstanding Series A, B and C preferred shares per share","12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",,mismatch
+learned,0001213900-25-127205,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-25-127205,S-4,shareholder_vote_date,,12/31/2025,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status,Pending,Pending,,tp
+learned,0001213900-25-127205,S-4,consideration_type,Mixed cash and stock,Elective consideration,,mismatch
+learned,0001213900-25-127205,S-4,available_options,No holder election,Public Shares | Cash,,absence_value
+learned,0001213900-25-127205,S-4,default_option,,Public Shares,,fp_no_gt
+learned,0001213900-25-127205,S-4,closing_conditions,FACT shareholder approval | PAD stockholder approval | No legal restraint | Registration statement effectiveness | Required regulatory clearances and consents | FACT representations and covenants | No FACT material adverse effect | Redemption opportunity | Nasdaq listing approval | $75 million minimum FACT cash | Ancillary documents and charter effectiveness | Trust funds released,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",,mismatch
+learned,0001213900-25-127205,S-4,cash_consideration_qualifications,Accrued and unpaid dividends | Applicable withholding | No interest,Original purchase price per share of the PAD Series A Preferred Stock,,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio_qualifications,Excludes treasury and dissenting shares | Fractional shares rounded up,No information,,mismatch
+learned,0001213900-25-127205,S-4,other_consideration,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status_details,"Business Combination Agreement dated November 26, 2025; closing remains subject to conditions","Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio,"621,500 shares of New PAD Common Stock divided by outstanding Series A, B and C preferred shares per share","12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",,mismatch
+learned,0001213900-25-127205,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-25-127205,S-4,shareholder_vote_date,,12/31/2025,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status,Pending,Pending,,tp
+learned,0001213900-25-127205,S-4,consideration_type,Mixed cash and stock,Elective consideration,,mismatch
+learned,0001213900-25-127205,S-4,available_options,No holder election,Public Shares | Cash,,absence_value
+learned,0001213900-25-127205,S-4,default_option,,Public Shares,,fp_no_gt
+learned,0001213900-25-127205,S-4,closing_conditions,FACT shareholder approval | PAD stockholder approval | No legal restraint | Registration statement effectiveness | Required regulatory clearances and consents | FACT representations and covenants | No FACT material adverse effect | Redemption opportunity | Nasdaq listing approval | $75 million minimum FACT cash | Ancillary documents and charter effectiveness | Trust funds released,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",,mismatch
+learned,0001213900-25-127205,S-4,cash_consideration_qualifications,Accrued and unpaid dividends | Applicable withholding | No interest,Original purchase price per share of the PAD Series A Preferred Stock,,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio_qualifications,Excludes treasury and dissenting shares | Fractional shares rounded up,No information,,mismatch
+learned,0001213900-25-127205,S-4,other_consideration,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status_details,"Business Combination Agreement dated November 26, 2025; closing remains subject to conditions","Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio,"621,500 shares of New PAD Common Stock divided by outstanding Series A, B and C preferred shares per share","12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",,mismatch
+learned,0001213900-25-127205,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-25-127205,S-4,shareholder_vote_date,,12/31/2025,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status,Pending,Pending,,tp
+learned,0001213900-25-127205,S-4,consideration_type,Mixed cash and stock,Elective consideration,,mismatch
+learned,0001213900-25-127205,S-4,available_options,No holder election,Public Shares | Cash,,absence_value
+learned,0001213900-25-127205,S-4,default_option,,Public Shares,,fp_no_gt
+learned,0001213900-25-127205,S-4,closing_conditions,FACT shareholder approval | PAD stockholder approval | No legal restraint | Registration statement effectiveness | Required regulatory clearances and consents | FACT representations and covenants | No FACT material adverse effect | Redemption opportunity | Nasdaq listing approval | $75 million minimum FACT cash | Ancillary documents and charter effectiveness | Trust funds released,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",,mismatch
+learned,0001213900-25-127205,S-4,cash_consideration_qualifications,Accrued and unpaid dividends | Applicable withholding | No interest,Original purchase price per share of the PAD Series A Preferred Stock,,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio_qualifications,Excludes treasury and dissenting shares | Fractional shares rounded up,No information,,mismatch
+learned,0001213900-25-127205,S-4,other_consideration,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status_details,"Business Combination Agreement dated November 26, 2025; closing remains subject to conditions","Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio,"300,000 shares of New PAD Common Stock divided by outstanding Series D preferred shares per share","12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",,mismatch
+learned,0001213900-25-127205,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-25-127205,S-4,shareholder_vote_date,,12/31/2025,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status,Pending,Pending,,tp
+learned,0001213900-25-127205,S-4,consideration_type,Mixed cash and stock,Elective consideration,,mismatch
+learned,0001213900-25-127205,S-4,available_options,No holder election,Public Shares | Cash,,absence_value
+learned,0001213900-25-127205,S-4,default_option,,Public Shares,,fp_no_gt
+learned,0001213900-25-127205,S-4,closing_conditions,FACT shareholder approval | PAD stockholder approval | No legal restraint | Registration statement effectiveness | Required regulatory clearances and consents | FACT representations and covenants | No FACT material adverse effect | Redemption opportunity | Nasdaq listing approval | $75 million minimum FACT cash | Ancillary documents and charter effectiveness | Trust funds released,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",,mismatch
+learned,0001213900-25-127205,S-4,cash_consideration_qualifications,"Accrued and unpaid dividends, if any | Applicable withholding | No interest",Original purchase price per share of the PAD Series A Preferred Stock,,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio_qualifications,Excludes treasury and dissenting shares | Fractional shares rounded up,No information,,mismatch
+learned,0001213900-25-127205,S-4,other_consideration,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status_details,"Business Combination Agreement dated November 26, 2025; closing remains subject to conditions","Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio,,"12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",,fp_no_gt
+learned,0001213900-25-127205,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-25-127205,S-4,shareholder_vote_date,,12/31/2025,,fp_no_gt
+learned,0001213900-25-127205,S-4,effective_date,12/23/2024,,,fn_no_pred
+learned,0001213900-25-127205,S-4,event_status,Completed,Pending,,mismatch
+learned,0001213900-25-127205,S-4,consideration_type,Mixed cash and stock,Elective consideration,,mismatch
+learned,0001213900-25-127205,S-4,available_options,No holder election,Public Shares | Cash,,absence_value
+learned,0001213900-25-127205,S-4,default_option,,Public Shares,,fp_no_gt
+learned,0001213900-25-127205,S-4,closing_conditions,,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",,fp_no_gt
+learned,0001213900-25-127205,S-4,cash_consideration_qualifications,Purchase-price adjustments | EBITDA-based contingent payments,Original purchase price per share of the PAD Series A Preferred Stock,,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio_qualifications,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,other_consideration,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status_details,"Aerodyn acquired December 23, 2024; March 2025 amendment increased the promissory note by $1,500,000","Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio,,"12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",,fp_no_gt
+learned,0001213900-25-127205,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-25-127205,S-4,shareholder_vote_date,,12/31/2025,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status,Pending,Pending,,tp
+learned,0001213900-25-127205,S-4,consideration_type,Mixed cash and stock,Elective consideration,,mismatch
+learned,0001213900-25-127205,S-4,available_options,No holder election,Public Shares | Cash,,absence_value
+learned,0001213900-25-127205,S-4,default_option,,Public Shares,,fp_no_gt
+learned,0001213900-25-127205,S-4,closing_conditions,FACT–PAD business combination | Customary closing conditions,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",,mismatch
+learned,0001213900-25-127205,S-4,cash_consideration_qualifications,Working-capital adjustment | EBITDA-based contingent payments,Original purchase price per share of the PAD Series A Preferred Stock,,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio_qualifications,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,other_consideration,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status_details,"Original agreement terminated April 1, 2025; reinstated and amended August 26, 2025","Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio,,"12,388,291 divided by the number of PAD Shares issued and outstanding immediately prior to the Effective Time",,fp_no_gt
+learned,0001213900-25-127205,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-25-127205,S-4,shareholder_vote_date,,12/31/2025,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status,Pending,Pending,,tp
+learned,0001213900-25-127205,S-4,consideration_type,Mixed cash and stock,Elective consideration,,mismatch
+learned,0001213900-25-127205,S-4,available_options,No holder election,Public Shares | Cash,,absence_value
+learned,0001213900-25-127205,S-4,default_option,,Public Shares,,fp_no_gt
+learned,0001213900-25-127205,S-4,closing_conditions,FACT–PAD business combination | Customary closing conditions,"FACT Shareholder Approval | PAD Stockholder Approval | Absence of laws, rules, regulations, judgments, decrees, executive orders or awards making the Business Combination illegal | Registration Statement effective",,mismatch
+learned,0001213900-25-127205,S-4,cash_consideration_qualifications,EBITDA-based contingent payments,Original purchase price per share of the PAD Series A Preferred Stock,,mismatch
+learned,0001213900-25-127205,S-4,stock_exchange_ratio_qualifications,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,other_consideration,,No information,,fp_no_gt
+learned,0001213900-25-127205,S-4,event_status_details,"Original Pro-Con agreement dated June 5, 2024; amended September 9, 2025; transaction remained subject to closing conditions","Business Combination Agreement approved by FACT Board on November 26, 2025; pending shareholder approval at EGM on [•], 2026",,mismatch
+learned,0001213900-25-127193,SC 13E3/A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001213900-25-127193,SC 13E3/A,effective_date,12/31/2025,12/31/2025,,tp
+learned,0001213900-25-127193,SC 13E3/A,event_status,Completed,Completed,,tp
+learned,0001213900-25-127193,SC 13E3/A,consideration_type,Cash,Cash,,tp
+learned,0001213900-25-127193,SC 13E3/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-25-127193,SC 13E3/A,default_option,,0.90 in cash without interest,,fp_no_gt
+learned,0001213900-25-127193,SC 13E3/A,cash_consideration_qualifications,Without interest | Subject to applicable withholding,subject to applicable withholding,,tp
+learned,0001213900-25-127193,SC 13E3/A,event_status_details,"Merger completed December 31, 2025","Merger completed on December 31, 2025; Company became wholly owned subsidiary of Parent",,tp
+learned,0001213900-25-127193,SC 13E3/A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001213900-25-127193,SC 13E3/A,effective_date,12/31/2025,12/31/2025,,tp
+learned,0001213900-25-127193,SC 13E3/A,event_status,Completed,Completed,,tp
+learned,0001213900-25-127193,SC 13E3/A,consideration_type,Other,Cash,,mismatch
+learned,0001213900-25-127193,SC 13E3/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-25-127193,SC 13E3/A,default_option,,0.90 in cash without interest,,fp_no_gt
+learned,0001213900-25-127193,SC 13E3/A,cash_consideration_qualifications,,subject to applicable withholding,,fp_no_gt
+learned,0001213900-25-127193,SC 13E3/A,event_status_details,"Merger completed December 31, 2025","Merger completed on December 31, 2025; Company became wholly owned subsidiary of Parent",,tp
+learned,0001213900-25-127193,SC 13E3/A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001213900-25-127193,SC 13E3/A,effective_date,12/31/2025,12/31/2025,,tp
+learned,0001213900-25-127193,SC 13E3/A,event_status,Completed,Completed,,tp
+learned,0001213900-25-127193,SC 13E3/A,consideration_type,Other,Cash,,mismatch
+learned,0001213900-25-127193,SC 13E3/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-25-127193,SC 13E3/A,default_option,,0.90 in cash without interest,,fp_no_gt
+learned,0001213900-25-127193,SC 13E3/A,cash_consideration_qualifications,,subject to applicable withholding,,fp_no_gt
+learned,0001213900-25-127193,SC 13E3/A,event_status_details,"Merger completed December 31, 2025","Merger completed on December 31, 2025; Company became wholly owned subsidiary of Parent",,tp

@@ -1,0 +1,11 @@
+field,label,records_with_value,stated_absences,records_located,located_share,training_spans
+acquirer,acquirer organization,799,0,733,0.917,3667
+target,target organization,869,0,834,0.96,5999
+merger_subsidiary,merger subsidiary,823,0,695,0.844,1462
+security_description,affected security,785,2,684,0.874,5979
+cash_consideration,cash consideration per share,281,87,174,0.897,628
+stock_exchange_ratio,stock exchange ratio,676,131,285,0.523,970
+shareholder_vote_date,shareholder vote date,258,11,242,0.98,429
+effective_date,merger effective date,18,0,16,0.889,35
+election_deadline,election deadline,19,0,0,0.0,0
+expected_closing,expected closing timing,686,21,562,0.845,385

@@ -1,0 +1,11 @@
+field,label,compare,quotes_in_pipeline_windows,tp,fp,fn,gt_absence_values,pipeline_precision,pipeline_recall,pipeline_f1,oracle_precision,oracle_recall,oracle_f1
+acquirer,acquirer organization,name,28/136,83,89,67,0,0.483,0.553,0.516,0.474,0.54,0.505
+target,target organization,name,38/155,83,93,72,0,0.472,0.535,0.502,0.509,0.574,0.539
+merger_subsidiary,merger subsidiary,name,38/110,91,60,59,0,0.603,0.607,0.605,0.663,0.72,0.69
+security_description,affected security,text,22/95,110,61,54,0,0.643,0.671,0.657,0.667,0.683,0.675
+cash_consideration,cash consideration per share,money,4/32,29,32,9,11,0.475,0.763,0.586,0.458,0.868,0.6
+stock_exchange_ratio,stock exchange ratio,number,13/114,55,65,57,27,0.458,0.491,0.474,0.479,0.509,0.494
+shareholder_vote_date,shareholder vote date,date,4/35,31,36,18,0,0.463,0.633,0.534,0.461,0.959,0.623
+effective_date,merger effective date,date,1/1,1,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0
+election_deadline,election deadline,date,0/4,0,0,4,0,,0.0,,0.0,0.0,0.0
+expected_closing,expected closing timing,text,16/85,35,6,105,2,0.854,0.25,0.387,0.922,0.843,0.881

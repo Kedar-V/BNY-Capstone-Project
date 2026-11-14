@@ -1,0 +1,41 @@
+{
+  "method": "combined pipeline",
+  "model": "medium_val_onepass",
+  "split": "holdout",
+  "filings": 103,
+  "records": 179,
+  "routing": {
+    "acquirer": "fine-tuned GLiNER",
+    "target": "role rule",
+    "merger_subsidiary": "role rule",
+    "security_description": "fine-tuned GLiNER",
+    "cash_consideration": "cash filter",
+    "stock_exchange_ratio": "Qwen3 4B",
+    "shareholder_vote_date": "GLiNER + date checks",
+    "effective_date": "date rules",
+    "election_deadline": "date rules",
+    "expected_closing": "fine-tuned GLiNER",
+    "event_status": "Qwen3 4B",
+    "consideration_type": "Qwen3 4B",
+    "available_options": "Qwen3 4B",
+    "default_option": "Qwen3 4B",
+    "closing_conditions": "Qwen3 4B",
+    "cash_consideration_qualifications": "Qwen3 4B",
+    "stock_exchange_ratio_qualifications": "Qwen3 4B",
+    "other_consideration": "Qwen3 4B",
+    "event_status_details": "Qwen3 4B"
+  },
+  "routing_chosen_on": "52 validation filings",
+  "micro": {
+    "combined": {
+      "tp": 948,
+      "fp": 1288,
+      "fn": 858,
+      "gt_absence_values": 223,
+      "precision": 0.42397137745974955,
+      "recall": 0.5249169435215947,
+      "f1": 0.4690747154873825
+    }
+  },
+  "note": "Agreement with unverified LLM ground truth. Category fields accept a span containing the label's key word; free-text fields use token F1 >= 0.5. Stated absences ('No ...') are counted apart because a span model cannot produce them."
+}

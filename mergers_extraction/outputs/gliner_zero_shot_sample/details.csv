@@ -1,0 +1,364 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+pipeline,0001829126-26-000901,425,acquirer,,VOYAGER ACQUISITION CORP.,0.7370008230209351,fp_no_gt
+pipeline,0001829126-26-000901,425,target,Veraxa Biotech AG,Veraxa Biotech AG,0.6736013293266296,tp
+pipeline,0001829126-26-000901,425,merger_subsidiary,,Voyager Acquisition Corp.,0.8482660055160522,fp_no_gt
+pipeline,0001829126-26-000901,425,security_description,Company Shares,Public Shares,0.806239902973175,tp
+pipeline,0001829126-26-000901,425,cash_consideration,,Price per Share,0.8141829967498779,fp_no_gt
+pipeline,0001829126-26-000901,425,stock_exchange_ratio,,Initial Conversion Ratio,0.8554543256759644,fp_no_gt
+pipeline,0001829126-26-000901,425,effective_date,,Acquisition Effective Time,0.7790124416351318,fp_no_gt
+pipeline,0001829126-26-000901,425,event_status,Amended,,,fn_no_pred
+pipeline,0001829126-26-000901,425,event_status_details,"February 2, 2026 amendment increased aggregate merger consideration to $1,350,000,000",,,fn_no_pred
+pipeline,0001829126-26-000901,425,closing_conditions,,liquidate and dissolve,0.46397218108177185,fp_no_gt
+pipeline,0001829126-26-000901,425,other_consideration,PubCo Warrants,,,fn_no_pred
+oracle,0001829126-26-000901,425,acquirer,,PubCo,0.6519802212715149,fp_no_gt
+oracle,0001829126-26-000901,425,target,Veraxa Biotech AG,Veraxa Biotech AG,0.8239424824714661,tp
+oracle,0001829126-26-000901,425,merger_subsidiary,,Voyager Acquisition Corp.,0.9127276539802551,fp_no_gt
+oracle,0001829126-26-000901,425,security_description,Company Shares,SPAC Class B Ordinary Shares,0.454500675201416,mismatch
+oracle,0001829126-26-000901,425,cash_consideration,,"$1,350,000,000",0.7348666191101074,fp_no_gt
+oracle,0001829126-26-000901,425,effective_date,,Initial Merger Effective Time,0.7604599595069885,fp_no_gt
+oracle,0001829126-26-000901,425,event_status,Amended,,,fn_no_pred
+oracle,0001829126-26-000901,425,event_status_details,"February 2, 2026 amendment increased aggregate merger consideration to $1,350,000,000",,,fn_no_pred
+oracle,0001829126-26-000901,425,other_consideration,PubCo Warrants,,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,acquirer,Duncan Holdco LLC,SoftBank Group,0.8117187023162842,mismatch
+pipeline,0001104659-26-024792,PREM14A,target,"DigitalBridge Group, Inc.",DigitalBridge,0.7369829416275024,tp
+pipeline,0001104659-26-024792,PREM14A,merger_subsidiary,Duncan Sub I Inc.,Duncan Sub II LLC,0.9498688578605652,mismatch
+pipeline,0001104659-26-024792,PREM14A,security_description,Class A common stock,stock,0.7603968381881714,tp
+pipeline,0001104659-26-024792,PREM14A,cash_consideration,$16.00 per share,$16.00,0.4505317807197571,tp
+pipeline,0001104659-26-024792,PREM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001104659-26-024792,PREM14A,shareholder_vote_date,,"December 29, 2025",0.7515857815742493,fp_no_gt
+pipeline,0001104659-26-024792,PREM14A,effective_date,,"December 26, 2025",0.6157279014587402,fp_no_gt
+pipeline,0001104659-26-024792,PREM14A,expected_closing,second half of 2026,,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,event_status,Pending,,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,event_status_details,"Merger agreement dated December 29, 2025; stockholder approval and closing conditions pending",,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,closing_conditions,DigitalBridge stockholder approval | HSR waiting period expiration | Other regulatory approvals | No legal restraint | Representations and warranties | Performance of obligations | No burdensome regulatory condition | Flagship fund consents | At least 85% fee-paying client consent | No material adverse effect | Closing certificates,,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,available_options,No holder election,,,absence_value
+pipeline,0001104659-26-024792,PREM14A,cash_consideration_qualifications,Without interest | Subject to applicable withholding taxes,,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,acquirer,Duncan Holdco LLC,SoftBank Group,0.8117187023162842,mismatch
+pipeline,0001104659-26-024792,PREM14A,target,"DigitalBridge Operating Company, LLC",DigitalBridge,0.7369829416275024,tp
+pipeline,0001104659-26-024792,PREM14A,merger_subsidiary,Duncan Sub II LLC,Duncan Sub II LLC,0.9498688578605652,tp
+pipeline,0001104659-26-024792,PREM14A,security_description,Company OP common units,stock,0.7603968381881714,mismatch
+pipeline,0001104659-26-024792,PREM14A,cash_consideration,$16.00 per unit,$16.00,0.4505317807197571,tp
+pipeline,0001104659-26-024792,PREM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001104659-26-024792,PREM14A,shareholder_vote_date,,"December 29, 2025",0.7515857815742493,fp_no_gt
+pipeline,0001104659-26-024792,PREM14A,effective_date,,"December 26, 2025",0.6157279014587402,fp_no_gt
+pipeline,0001104659-26-024792,PREM14A,expected_closing,second half of 2026,,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,event_status,Pending,,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,event_status_details,"Merger agreement dated December 29, 2025; closing conditions pending",,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,closing_conditions,DigitalBridge stockholder approval | HSR waiting period expiration | Other regulatory approvals | No legal restraint | Representations and warranties | Performance of obligations | No burdensome regulatory condition | Flagship fund consents | At least 85% fee-paying client consent | No material adverse effect | Closing certificates,,,fn_no_pred
+pipeline,0001104659-26-024792,PREM14A,cash_consideration_qualifications,Without interest | Subject to applicable withholding taxes,,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,acquirer,Duncan Holdco LLC,SoftBank Group,0.8844724297523499,mismatch
+oracle,0001104659-26-024792,PREM14A,target,"DigitalBridge Group, Inc.",DigitalBridge,0.8863492608070374,tp
+oracle,0001104659-26-024792,PREM14A,merger_subsidiary,Duncan Sub I Inc.,Company OP,0.9521163702011108,mismatch
+oracle,0001104659-26-024792,PREM14A,security_description,Class A common stock,Class A common stock,0.6688216328620911,tp
+oracle,0001104659-26-024792,PREM14A,cash_consideration,$16.00 per share,$16.00,0.7623659372329712,tp
+oracle,0001104659-26-024792,PREM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001104659-26-024792,PREM14A,shareholder_vote_date,,"December 29, 2025",0.5850902199745178,fp_no_gt
+oracle,0001104659-26-024792,PREM14A,effective_date,,"December 29, 2025",0.7303730845451355,fp_no_gt
+oracle,0001104659-26-024792,PREM14A,expected_closing,second half of 2026,,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,event_status,Pending,,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,event_status_details,"Merger agreement dated December 29, 2025; stockholder approval and closing conditions pending",,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,closing_conditions,DigitalBridge stockholder approval | HSR waiting period expiration | Other regulatory approvals | No legal restraint | Representations and warranties | Performance of obligations | No burdensome regulatory condition | Flagship fund consents | At least 85% fee-paying client consent | No material adverse effect | Closing certificates,burdensome condition,0.4812376797199249,mismatch
+oracle,0001104659-26-024792,PREM14A,available_options,No holder election,,,absence_value
+oracle,0001104659-26-024792,PREM14A,cash_consideration_qualifications,Without interest | Subject to applicable withholding taxes,,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,other_consideration,,right to receive the LLC merger consideration,0.4084262251853943,fp_no_gt
+oracle,0001104659-26-024792,PREM14A,acquirer,Duncan Holdco LLC,SoftBank Group,0.8844724297523499,mismatch
+oracle,0001104659-26-024792,PREM14A,target,"DigitalBridge Operating Company, LLC",DigitalBridge,0.8863492608070374,tp
+oracle,0001104659-26-024792,PREM14A,merger_subsidiary,Duncan Sub II LLC,Company OP,0.9521163702011108,mismatch
+oracle,0001104659-26-024792,PREM14A,security_description,Company OP common units,Class A common stock,0.6688216328620911,mismatch
+oracle,0001104659-26-024792,PREM14A,cash_consideration,$16.00 per unit,$16.00,0.7623659372329712,tp
+oracle,0001104659-26-024792,PREM14A,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001104659-26-024792,PREM14A,shareholder_vote_date,,"December 29, 2025",0.5850902199745178,fp_no_gt
+oracle,0001104659-26-024792,PREM14A,effective_date,,"December 29, 2025",0.7303730845451355,fp_no_gt
+oracle,0001104659-26-024792,PREM14A,expected_closing,second half of 2026,,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,event_status,Pending,,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,event_status_details,"Merger agreement dated December 29, 2025; closing conditions pending",,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,closing_conditions,DigitalBridge stockholder approval | HSR waiting period expiration | Other regulatory approvals | No legal restraint | Representations and warranties | Performance of obligations | No burdensome regulatory condition | Flagship fund consents | At least 85% fee-paying client consent | No material adverse effect | Closing certificates,burdensome condition,0.4812376797199249,mismatch
+oracle,0001104659-26-024792,PREM14A,cash_consideration_qualifications,Without interest | Subject to applicable withholding taxes,,,fn_no_pred
+oracle,0001104659-26-024792,PREM14A,other_consideration,,right to receive the LLC merger consideration,0.4084262251853943,fp_no_gt
+pipeline,0001493152-26-021030,DEFM14A,acquirer,"flyExclusive, Inc.",FLYX,0.7954861521720886,mismatch
+pipeline,0001493152-26-021030,DEFM14A,target,"Jet.AI SpinCo, Inc.",JTAI,0.6146866083145142,mismatch
+pipeline,0001493152-26-021030,DEFM14A,merger_subsidiary,"FlyX Merger Sub, Inc.","FlyX Merger Sub, Inc.",0.8383777141571045,tp
+pipeline,0001493152-26-021030,DEFM14A,security_description,common stock,equity,0.541232705116272,mismatch
+pipeline,0001493152-26-021030,DEFM14A,cash_consideration,,"Initial
+Purchase Price",0.7473593354225159,fp_no_gt
+pipeline,0001493152-26-021030,DEFM14A,stock_exchange_ratio,"Closing Date Merger Consideration Shares divided by fully diluted SpinCo common shares, plus any Reserve Shares issued, per share","Reserve
+Exchange Ratio",0.8936364054679871,mismatch
+pipeline,0001493152-26-021030,DEFM14A,shareholder_vote_date,6/11/2026 4:00 PM Eastern Time,"June
+11, 2026",0.6426106095314026,tp
+pipeline,0001493152-26-021030,DEFM14A,effective_date,,Effective Time,0.8625001311302185,fp_no_gt
+pipeline,0001493152-26-021030,DEFM14A,expected_closing,"first half of 2026, soon after the June 11 special meeting",,,fn_no_pred
+pipeline,0001493152-26-021030,DEFM14A,event_status,Amended,,,fn_no_pred
+pipeline,0001493152-26-021030,DEFM14A,event_status_details,"Merger agreement amended on May 6, July 30 and October 10, 2025, and January 13 and February 11, 2026",,,fn_no_pred
+pipeline,0001493152-26-021030,DEFM14A,closing_conditions,Jet.AI stockholder approval | SpinCo shareholder approval | Separation and Distribution completed | Registration statement effective | Regulatory approvals and waiting periods | Distribution notice periods expired | No legal restraint | NYSE American listing approval | Required covenants and representations | No material adverse effect | SpinCo net cash of at least $12 million | Support agreements effective | SpinCo director and officer resignations | No adverse flyExclusive board determination,closing conditions,0.6555646061897278,mismatch
+pipeline,0001493152-26-021030,DEFM14A,available_options,No holder election,,,absence_value
+pipeline,0001493152-26-021030,DEFM14A,cash_consideration_qualifications,Cash in lieu of fractional shares | Tax withholding,Adjustment Amount,0.7560144662857056,mismatch
+pipeline,0001493152-26-021030,DEFM14A,stock_exchange_ratio_qualifications,Based on estimated net cash and flyExclusive trading price | 20% reserved for post-closing adjustment | Additional shares capped at 20% | Cash in lieu of fractional shares | Stock-split adjustments,certain adjustments,0.4450763165950775,mismatch
+pipeline,0001493152-26-021030,DEFM14A,other_consideration,,"right
+to receive shares",0.6069034337997437,fp_no_gt
+oracle,0001493152-26-021030,DEFM14A,acquirer,"flyExclusive, Inc.",parties,0.673323392868042,mismatch
+oracle,0001493152-26-021030,DEFM14A,target,"Jet.AI SpinCo, Inc.",Jet,0.6991965174674988,mismatch
+oracle,0001493152-26-021030,DEFM14A,merger_subsidiary,"FlyX Merger Sub, Inc.","SpinCo, Inc.",0.9121865630149841,mismatch
+oracle,0001493152-26-021030,DEFM14A,security_description,common stock,flyExclusive Class A common stock,0.6628445386886597,tp
+oracle,0001493152-26-021030,DEFM14A,cash_consideration,,Initial Purchase Price,0.6400785446166992,fp_no_gt
+oracle,0001493152-26-021030,DEFM14A,stock_exchange_ratio,"Closing Date Merger Consideration Shares divided by fully diluted SpinCo common shares, plus any Reserve Shares issued, per share",Reserve Exchange Ratio,0.9504287838935852,mismatch
+oracle,0001493152-26-021030,DEFM14A,shareholder_vote_date,6/11/2026 4:00 PM Eastern Time,"June 11, 2026",0.7200548052787781,tp
+oracle,0001493152-26-021030,DEFM14A,effective_date,,Effective Date,0.8606900572776794,fp_no_gt
+oracle,0001493152-26-021030,DEFM14A,expected_closing,"first half of 2026, soon after the June 11 special meeting",,,fn_no_pred
+oracle,0001493152-26-021030,DEFM14A,event_status,Amended,,,fn_no_pred
+oracle,0001493152-26-021030,DEFM14A,event_status_details,"Merger agreement amended on May 6, July 30 and October 10, 2025, and January 13 and February 11, 2026",,,fn_no_pred
+oracle,0001493152-26-021030,DEFM14A,closing_conditions,Jet.AI stockholder approval | SpinCo shareholder approval | Separation and Distribution completed | Registration statement effective | Regulatory approvals and waiting periods | Distribution notice periods expired | No legal restraint | NYSE American listing approval | Required covenants and representations | No material adverse effect | SpinCo net cash of at least $12 million | Support agreements effective | SpinCo director and officer resignations | No adverse flyExclusive board determination,closing condition,0.7161864042282104,mismatch
+oracle,0001493152-26-021030,DEFM14A,available_options,No holder election,SpinCo Shareholder Approval,0.4132993221282959,absence_value
+oracle,0001493152-26-021030,DEFM14A,cash_consideration_qualifications,Cash in lieu of fractional shares | Tax withholding,downward adjustment,0.7693628668785095,mismatch
+oracle,0001493152-26-021030,DEFM14A,stock_exchange_ratio_qualifications,Based on estimated net cash and flyExclusive trading price | 20% reserved for post-closing adjustment | Additional shares capped at 20% | Cash in lieu of fractional shares | Stock-split adjustments,,,fn_no_pred
+oracle,0001493152-26-021030,DEFM14A,other_consideration,,right to receive shares,0.693108081817627,fp_no_gt
+pipeline,0002077096-26-000175,PREM14A,acquirer,"Marchex, Inc.",Buyer,0.9043527841567993,mismatch
+pipeline,0002077096-26-000175,PREM14A,target,"Archenia, Inc.",Sellers,0.6478444933891296,mismatch
+pipeline,0002077096-26-000175,PREM14A,merger_subsidiary,,Archenia,0.6089550852775574,fp_no_gt
+pipeline,0002077096-26-000175,PREM14A,security_description,,Class B Common Stock,0.5678741931915283,fp_no_gt
+pipeline,0002077096-26-000175,PREM14A,cash_consideration,,Earn-out Consideration,0.6221529841423035,fp_no_gt
+pipeline,0002077096-26-000175,PREM14A,shareholder_vote_date,7/1/2026 10:00 AM Pacific Time,"July 1, 2026",0.7719098329544067,tp
+pipeline,0002077096-26-000175,PREM14A,effective_date,,Closing Date,0.7287276387214661,fp_no_gt
+pipeline,0002077096-26-000175,PREM14A,expected_closing,Promptly following the Special Meeting,,,fn_no_pred
+pipeline,0002077096-26-000175,PREM14A,event_status,Pending,,,fn_no_pred
+pipeline,0002077096-26-000175,PREM14A,event_status_details,"Stock Purchase Agreement signed May 8, 2026; transaction awaiting stockholder approval and closing conditions",,,fn_no_pred
+pipeline,0002077096-26-000175,PREM14A,closing_conditions,Stockholder approval | Majority of the Minority Vote | Representations and warranties accuracy | Material covenant compliance | Required third-party consents | No Material Adverse Effect | Required closing deliveries,CONDITIONS TO CLOSING,0.461575984954834,mismatch
+pipeline,0002077096-26-000175,PREM14A,available_options,No holder election,,,absence_value
+pipeline,0002077096-26-000175,PREM14A,other_consideration,"$10 million in 6% convertible promissory notes, plus up to 4 million contingent Class B shares",,,fn_no_pred
+oracle,0002077096-26-000175,PREM14A,acquirer,"Marchex, Inc.",Buyer,0.9505723714828491,mismatch
+oracle,0002077096-26-000175,PREM14A,target,"Archenia, Inc.",Sellers,0.9100932478904724,mismatch
+oracle,0002077096-26-000175,PREM14A,security_description,,Shares,0.6504034996032715,fp_no_gt
+oracle,0002077096-26-000175,PREM14A,cash_consideration,,Earn-out Consideration,0.5722196102142334,fp_no_gt
+oracle,0002077096-26-000175,PREM14A,shareholder_vote_date,7/1/2026 10:00 AM Pacific Time,"May 8, 2026",0.859854519367218,mismatch
+oracle,0002077096-26-000175,PREM14A,effective_date,,Closing Date,0.6910555958747864,fp_no_gt
+oracle,0002077096-26-000175,PREM14A,expected_closing,Promptly following the Special Meeting,,,fn_no_pred
+oracle,0002077096-26-000175,PREM14A,event_status,Pending,,,fn_no_pred
+oracle,0002077096-26-000175,PREM14A,event_status_details,"Stock Purchase Agreement signed May 8, 2026; transaction awaiting stockholder approval and closing conditions",,,fn_no_pred
+oracle,0002077096-26-000175,PREM14A,closing_conditions,Stockholder approval | Majority of the Minority Vote | Representations and warranties accuracy | Material covenant compliance | Required third-party consents | No Material Adverse Effect | Required closing deliveries,,,fn_no_pred
+oracle,0002077096-26-000175,PREM14A,available_options,No holder election,Stockholder Approval,0.5425633192062378,absence_value
+oracle,0002077096-26-000175,PREM14A,other_consideration,"$10 million in 6% convertible promissory notes, plus up to 4 million contingent Class B shares",,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,acquirer,,Company,0.7215695381164551,fp_no_gt
+pipeline,0001104659-26-089222,SC 13E3,target,Perfect Corp.,,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,merger_subsidiary,ProjectNY,Merger Sub,0.9665498733520508,mismatch
+pipeline,0001104659-26-089222,SC 13E3,security_description,Class A ordinary shares,Excluded Shares,0.845889151096344,mismatch
+pipeline,0001104659-26-089222,SC 13E3,cash_consideration,US$2.00 per share,Per Share Merger Consideration,0.8902578949928284,mismatch
+pipeline,0001104659-26-089222,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001104659-26-089222,SC 13E3,shareholder_vote_date,,Record Date,0.5511977672576904,fp_no_gt
+pipeline,0001104659-26-089222,SC 13E3,effective_date,,Effective Time,0.882961094379425,fp_no_gt
+pipeline,0001104659-26-089222,SC 13E3,expected_closing,second half of 2026,,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,event_status,Pending,,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,event_status_details,"Merger agreement signed July 10, 2026; shareholder approval pending",,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,closing_conditions,Shareholder approval | No legal restraint | Company representations and warranties | Company covenant compliance | Company officer certificate | No Company Material Adverse Effect | Dissent objections from no more than 8% of shares | Merger Sub representations and warranties | Merger Sub covenant compliance | Merger Sub officer certificate,TERMINATION,0.5156050324440002,mismatch
+pipeline,0001104659-26-089222,SC 13E3,available_options,No holder election,,,absence_value
+pipeline,0001104659-26-089222,SC 13E3,cash_consideration_qualifications,Without interest | Net of applicable withholding taxes | Equitable adjustment for share changes,,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,acquirer,,Company,0.7215695381164551,fp_no_gt
+pipeline,0001104659-26-089222,SC 13E3,target,Perfect Corp.,,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,merger_subsidiary,ProjectNY,Merger Sub,0.9665498733520508,mismatch
+pipeline,0001104659-26-089222,SC 13E3,security_description,Class B ordinary shares,Excluded Shares,0.845889151096344,mismatch
+pipeline,0001104659-26-089222,SC 13E3,cash_consideration,US$2.00 per share,Per Share Merger Consideration,0.8902578949928284,mismatch
+pipeline,0001104659-26-089222,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+pipeline,0001104659-26-089222,SC 13E3,shareholder_vote_date,,Record Date,0.5511977672576904,fp_no_gt
+pipeline,0001104659-26-089222,SC 13E3,effective_date,,Effective Time,0.882961094379425,fp_no_gt
+pipeline,0001104659-26-089222,SC 13E3,expected_closing,second half of 2026,,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,event_status,Pending,,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,event_status_details,"Merger agreement signed July 10, 2026; shareholder approval pending",,,fn_no_pred
+pipeline,0001104659-26-089222,SC 13E3,closing_conditions,Shareholder approval | No legal restraint | Company representations and warranties | Company covenant compliance | Company officer certificate | No Company Material Adverse Effect | Dissent objections from no more than 8% of shares | Merger Sub representations and warranties | Merger Sub covenant compliance | Merger Sub officer certificate,TERMINATION,0.5156050324440002,mismatch
+pipeline,0001104659-26-089222,SC 13E3,available_options,No holder election,,,absence_value
+pipeline,0001104659-26-089222,SC 13E3,cash_consideration_qualifications,Without interest | Net of applicable withholding taxes | Equitable adjustment for share changes,,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,acquirer,,Company,0.760784387588501,fp_no_gt
+oracle,0001104659-26-089222,SC 13E3,target,Perfect Corp.,Company,0.6148504614830017,mismatch
+oracle,0001104659-26-089222,SC 13E3,merger_subsidiary,ProjectNY,Merger Sub,0.9819920063018799,mismatch
+oracle,0001104659-26-089222,SC 13E3,security_description,Class A ordinary shares,Shares,0.8601018786430359,tp
+oracle,0001104659-26-089222,SC 13E3,cash_consideration,US$2.00 per share,Per Share Merger Consideration,0.7532644271850586,mismatch
+oracle,0001104659-26-089222,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001104659-26-089222,SC 13E3,shareholder_vote_date,,"July 10, 2026",0.5407317876815796,fp_no_gt
+oracle,0001104659-26-089222,SC 13E3,effective_date,,Effective Time,0.9191170930862427,fp_no_gt
+oracle,0001104659-26-089222,SC 13E3,expected_closing,second half of 2026,,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,event_status,Pending,,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,event_status_details,"Merger agreement signed July 10, 2026; shareholder approval pending",,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,closing_conditions,Shareholder approval | No legal restraint | Company representations and warranties | Company covenant compliance | Company officer certificate | No Company Material Adverse Effect | Dissent objections from no more than 8% of shares | Merger Sub representations and warranties | Merger Sub covenant compliance | Merger Sub officer certificate,other closing conditions,0.4582301080226898,mismatch
+oracle,0001104659-26-089222,SC 13E3,available_options,No holder election,Company Options,0.8314191699028015,absence_value
+oracle,0001104659-26-089222,SC 13E3,cash_consideration_qualifications,Without interest | Net of applicable withholding taxes | Equitable adjustment for share changes,,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,other_consideration,,dissenters’ rights,0.4482141435146332,fp_no_gt
+oracle,0001104659-26-089222,SC 13E3,acquirer,,Company,0.760784387588501,fp_no_gt
+oracle,0001104659-26-089222,SC 13E3,target,Perfect Corp.,Company,0.6148504614830017,mismatch
+oracle,0001104659-26-089222,SC 13E3,merger_subsidiary,ProjectNY,Merger Sub,0.9819920063018799,mismatch
+oracle,0001104659-26-089222,SC 13E3,security_description,Class B ordinary shares,Shares,0.8601018786430359,mismatch
+oracle,0001104659-26-089222,SC 13E3,cash_consideration,US$2.00 per share,Per Share Merger Consideration,0.7532644271850586,mismatch
+oracle,0001104659-26-089222,SC 13E3,stock_exchange_ratio,No stock consideration,,,absence_value
+oracle,0001104659-26-089222,SC 13E3,shareholder_vote_date,,"July 10, 2026",0.5407317876815796,fp_no_gt
+oracle,0001104659-26-089222,SC 13E3,effective_date,,Effective Time,0.9191170930862427,fp_no_gt
+oracle,0001104659-26-089222,SC 13E3,expected_closing,second half of 2026,,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,event_status,Pending,,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,event_status_details,"Merger agreement signed July 10, 2026; shareholder approval pending",,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,closing_conditions,Shareholder approval | No legal restraint | Company representations and warranties | Company covenant compliance | Company officer certificate | No Company Material Adverse Effect | Dissent objections from no more than 8% of shares | Merger Sub representations and warranties | Merger Sub covenant compliance | Merger Sub officer certificate,other closing conditions,0.4582301080226898,mismatch
+oracle,0001104659-26-089222,SC 13E3,available_options,No holder election,Company Options,0.8314191699028015,absence_value
+oracle,0001104659-26-089222,SC 13E3,cash_consideration_qualifications,Without interest | Net of applicable withholding taxes | Equitable adjustment for share changes,,,fn_no_pred
+oracle,0001104659-26-089222,SC 13E3,other_consideration,,dissenters’ rights,0.4482141435146332,fp_no_gt
+pipeline,0001140361-26-033448,S-4,acquirer,"Neighborhood Intelligence, Inc.",NXH,0.7879370450973511,mismatch
+pipeline,0001140361-26-033448,S-4,target,Fathom Holdings Inc.,Fathom,0.7606911063194275,tp
+pipeline,0001140361-26-033448,S-4,merger_subsidiary,"Fathom Merger Sub, Inc.","Fathom Merger Sub, Inc.",0.9132370352745056,tp
+pipeline,0001140361-26-033448,S-4,security_description,"Common stock, no par value per share",securities,0.4089697003364563,mismatch
+pipeline,0001140361-26-033448,S-4,cash_consideration,,no par value per share,0.6189001798629761,fp_no_gt
+pipeline,0001140361-26-033448,S-4,stock_exchange_ratio,"0.2236 shares of Neighborhood Intelligence, Inc. common stock per share",Exchange Ratio,0.983735978603363,mismatch
+pipeline,0001140361-26-033448,S-4,shareholder_vote_date,,"June 16, 2026",0.6637253165245056,fp_no_gt
+pipeline,0001140361-26-033448,S-4,effective_date,,Effective Time,0.79229336977005,fp_no_gt
+pipeline,0001140361-26-033448,S-4,expected_closing,second half of 2026,,,fn_no_pred
+pipeline,0001140361-26-033448,S-4,event_status,Amended,,,fn_no_pred
+pipeline,0001140361-26-033448,S-4,event_status_details,"Merger agreement signed June 16, 2026; amended August 14, 2026 to permit NYSE or Nasdaq listing and consent to corporate name changes",,,fn_no_pred
+pipeline,0001140361-26-033448,S-4,closing_conditions,Fathom stockholder approval | No legal restraint | NXH share listing approval | S-4 effectiveness | Required representations and warranties accurate | Required covenants performed | No material adverse effect | Officer certificates | Debt payoff and lien-release documentation | FIRPTA certificate | Bridge Note allonge,completion of the Merger,0.4537852108478546,mismatch
+pipeline,0001140361-26-033448,S-4,available_options,No holder election,,,absence_value
+pipeline,0001140361-26-033448,S-4,cash_consideration_qualifications,Cash instead of fractional shares at $7.00 per whole share | No interest | Tax withholding,,,fn_no_pred
+pipeline,0001140361-26-033448,S-4,stock_exchange_ratio_qualifications,Initial ratio subject to downward adjustment for Bridge Note debt and increased Fathom shares outstanding | No market-price adjustment | No fractional shares issued,,,fn_no_pred
+oracle,0001140361-26-033448,S-4,acquirer,"Neighborhood Intelligence, Inc.",NYSE,0.9071259498596191,mismatch
+oracle,0001140361-26-033448,S-4,target,Fathom Holdings Inc.,Fathom,0.7952383160591125,tp
+oracle,0001140361-26-033448,S-4,merger_subsidiary,"Fathom Merger Sub, Inc.","Fathom Merger Sub, Inc.",0.9337140321731567,tp
+oracle,0001140361-26-033448,S-4,security_description,"Common stock, no par value per share",Fathom Common Stock,0.6818872094154358,mismatch
+oracle,0001140361-26-033448,S-4,cash_consideration,,no par value per share,0.7179325222969055,fp_no_gt
+oracle,0001140361-26-033448,S-4,stock_exchange_ratio,"0.2236 shares of Neighborhood Intelligence, Inc. common stock per share",Exchange Ratio,0.9779244065284729,mismatch
+oracle,0001140361-26-033448,S-4,effective_date,,Effective Time,0.8908122777938843,fp_no_gt
+oracle,0001140361-26-033448,S-4,expected_closing,second half of 2026,,,fn_no_pred
+oracle,0001140361-26-033448,S-4,event_status,Amended,,,fn_no_pred
+oracle,0001140361-26-033448,S-4,event_status_details,"Merger agreement signed June 16, 2026; amended August 14, 2026 to permit NYSE or Nasdaq listing and consent to corporate name changes",,,fn_no_pred
+oracle,0001140361-26-033448,S-4,closing_conditions,Fathom stockholder approval | No legal restraint | NXH share listing approval | S-4 effectiveness | Required representations and warranties accurate | Required covenants performed | No material adverse effect | Officer certificates | Debt payoff and lien-release documentation | FIRPTA certificate | Bridge Note allonge,,,fn_no_pred
+oracle,0001140361-26-033448,S-4,available_options,No holder election,,,absence_value
+oracle,0001140361-26-033448,S-4,cash_consideration_qualifications,Cash instead of fractional shares at $7.00 per whole share | No interest | Tax withholding,adjustment,0.6715825796127319,mismatch
+oracle,0001140361-26-033448,S-4,stock_exchange_ratio_qualifications,Initial ratio subject to downward adjustment for Bridge Note debt and increased Fathom shares outstanding | No market-price adjustment | No fractional shares issued,adjustment,0.5081008672714233,mismatch
+pipeline,0001193125-26-374324,S-4,acquirer,Talawar Tx Inc.,JATT II Acquisition Corp.,0.7479687333106995,mismatch
+pipeline,0001193125-26-374324,S-4,target,JATT II Acquisition Corp.,JATT,0.7272335886955261,tp
+pipeline,0001193125-26-374324,S-4,merger_subsidiary,Talawar Merger Sub,Talawar Merger Sub,0.9608607888221741,tp
+pipeline,0001193125-26-374324,S-4,security_description,ordinary shares,Public Shares,0.6832258701324463,tp
+pipeline,0001193125-26-374324,S-4,cash_consideration,,"$ 92,029,500.00",0.4177696108818054,fp_no_gt
+pipeline,0001193125-26-374324,S-4,stock_exchange_ratio,1 share of Talawar Tx Inc. common stock per share,,,fn_no_pred
+pipeline,0001193125-26-374324,S-4,shareholder_vote_date,,Record Date,0.4359383285045624,fp_no_gt
+pipeline,0001193125-26-374324,S-4,effective_date,,Effective Time,0.8055435419082642,fp_no_gt
+pipeline,0001193125-26-374324,S-4,expected_closing,As soon as practicable after registration statement effectiveness and upon completion of the merger,,,fn_no_pred
+pipeline,0001193125-26-374324,S-4,event_status,Pending,,,fn_no_pred
+pipeline,0001193125-26-374324,S-4,event_status_details,"Business Combination Agreement signed June 29, 2026; shareholder approvals and other closing conditions remain pending.",,,fn_no_pred
+pipeline,0001193125-26-374324,S-4,closing_conditions,JATT shareholder approval | Talawar stockholder written consent | No legal restraint | S-4 effectiveness | Nasdaq listing approval | Minimum cash condition | Accuracy of representations and warranties | Performance of covenants | No continuing material adverse effect,,,fn_no_pred
+oracle,0001193125-26-374324,S-4,acquirer,Talawar Tx Inc.,Talawar,0.5927283763885498,tp
+oracle,0001193125-26-374324,S-4,target,JATT II Acquisition Corp.,JATT,0.6209402084350586,tp
+oracle,0001193125-26-374324,S-4,merger_subsidiary,Talawar Merger Sub,Talawar Merger Sub,0.8806061744689941,tp
+oracle,0001193125-26-374324,S-4,security_description,ordinary shares,Post-Closing Company Common Stock,0.5367751717567444,mismatch
+oracle,0001193125-26-374324,S-4,cash_consideration,,$0.00001 per share,0.455585777759552,fp_no_gt
+oracle,0001193125-26-374324,S-4,stock_exchange_ratio,1 share of Talawar Tx Inc. common stock per share,,,fn_no_pred
+oracle,0001193125-26-374324,S-4,effective_date,,Effective Time,0.8476187586784363,fp_no_gt
+oracle,0001193125-26-374324,S-4,expected_closing,As soon as practicable after registration statement effectiveness and upon completion of the merger,,,fn_no_pred
+oracle,0001193125-26-374324,S-4,event_status,Pending,,,fn_no_pred
+oracle,0001193125-26-374324,S-4,event_status_details,"Business Combination Agreement signed June 29, 2026; shareholder approvals and other closing conditions remain pending.",,,fn_no_pred
+oracle,0001193125-26-374324,S-4,closing_conditions,JATT shareholder approval | Talawar stockholder written consent | No legal restraint | S-4 effectiveness | Nasdaq listing approval | Minimum cash condition | Accuracy of representations and warranties | Performance of covenants | No continuing material adverse effect,Minimum Cash Condition,0.8238928318023682,mismatch
+pipeline,0001104659-26-110971,8-K,acquirer,,Company,0.7788936495780945,fp_no_gt
+pipeline,0001104659-26-110971,8-K,merger_subsidiary,,"Simcere Zaiming, Inc.",0.7873311638832092,fp_no_gt
+pipeline,0001104659-26-110971,8-K,security_description,,Common Stock,0.49888455867767334,fp_no_gt
+pipeline,0001104659-26-110971,8-K,cash_consideration,,$0.001,0.4243830442428589,fp_no_gt
+pipeline,0001104659-26-110971,8-K,effective_date,,"July 14, 2026",0.6154718399047852,fp_no_gt
+pipeline,0001104659-26-110971,8-K,election_deadline,,"September 14, 2026",0.4204537570476532,fp_no_gt
+pipeline,0001104659-26-110971,8-K,expected_closing,November 2026,,,fn_no_pred
+pipeline,0001104659-26-110971,8-K,event_status,Pending,,,fn_no_pred
+pipeline,0001104659-26-110971,8-K,event_status_details,"Merger agreement disclosed July 14, 2026",,,fn_no_pred
+oracle,0001104659-26-110971,8-K,acquirer,,Company,0.7505798935890198,fp_no_gt
+oracle,0001104659-26-110971,8-K,target,,Delaware corporation,0.4235725700855255,fp_no_gt
+oracle,0001104659-26-110971,8-K,merger_subsidiary,,Avere,0.7026025652885437,fp_no_gt
+oracle,0001104659-26-110971,8-K,security_description,,Common Stock,0.6351287961006165,fp_no_gt
+oracle,0001104659-26-110971,8-K,effective_date,,"July 14, 2026",0.6217208504676819,fp_no_gt
+oracle,0001104659-26-110971,8-K,expected_closing,November 2026,,,fn_no_pred
+oracle,0001104659-26-110971,8-K,event_status,Pending,,,fn_no_pred
+oracle,0001104659-26-110971,8-K,event_status_details,"Merger agreement disclosed July 14, 2026",,,fn_no_pred
+pipeline,0001213900-26-013012,SC 13E3/A,acquirer,Oceanpine Skyline Inc.,The Buyer Group,0.6749687194824219,mismatch
+pipeline,0001213900-26-013012,SC 13E3/A,target,"LakeShore Biopharma Co., Ltd",Company,0.796558678150177,mismatch
+pipeline,0001213900-26-013012,SC 13E3/A,merger_subsidiary,Oceanpine Merger Sub Inc.,Merger Sub,0.8922073841094971,mismatch
+pipeline,0001213900-26-013012,SC 13E3/A,security_description,Ordinary Shares,,,fn_no_pred
+pipeline,0001213900-26-013012,SC 13E3/A,shareholder_vote_date,,"February 12, 2026",0.8582897186279297,fp_no_gt
+pipeline,0001213900-26-013012,SC 13E3/A,event_status,Pending,,,fn_no_pred
+pipeline,0001213900-26-013012,SC 13E3/A,event_status_details,Buyer Group asserted a Company Material Adverse Effect and the Company postponed the shareholder meeting.,,,fn_no_pred
+pipeline,0001213900-26-013012,SC 13E3/A,closing_conditions,No Company Material Adverse Effect,,,absence_value
+oracle,0001213900-26-013012,SC 13E3/A,acquirer,Oceanpine Skyline Inc.,The Buyer Group,0.9286860227584839,mismatch
+oracle,0001213900-26-013012,SC 13E3/A,target,"LakeShore Biopharma Co., Ltd",Company,0.7596887946128845,mismatch
+oracle,0001213900-26-013012,SC 13E3/A,merger_subsidiary,Oceanpine Merger Sub Inc.,Merger Sub,0.9541343450546265,mismatch
+oracle,0001213900-26-013012,SC 13E3/A,security_description,Ordinary Shares,Ordinary Shares,0.545670747756958,tp
+oracle,0001213900-26-013012,SC 13E3/A,shareholder_vote_date,,"February 12, 2026",0.887080192565918,fp_no_gt
+oracle,0001213900-26-013012,SC 13E3/A,effective_date,,"November 4, 2025",0.6534550786018372,fp_no_gt
+oracle,0001213900-26-013012,SC 13E3/A,event_status,Pending,,,fn_no_pred
+oracle,0001213900-26-013012,SC 13E3/A,event_status_details,Buyer Group asserted a Company Material Adverse Effect and the Company postponed the shareholder meeting.,,,fn_no_pred
+oracle,0001213900-26-013012,SC 13E3/A,closing_conditions,No Company Material Adverse Effect,,,absence_value
+pipeline,0001829126-26-001102,S-4/A,acquirer,"Pelican Holdco, Inc.",Company,0.8573210835456848,mismatch
+pipeline,0001829126-26-001102,S-4/A,target,Pelican Acquisition Corporation,Pelican,0.5532950758934021,tp
+pipeline,0001829126-26-001102,S-4/A,merger_subsidiary,"Pelican Merger Sub, Inc.","SPAC Merger Sub, Inc.",0.9549762606620789,mismatch
+pipeline,0001829126-26-001102,S-4/A,security_description,Ordinary Shares,shares,0.7180688381195068,tp
+pipeline,0001829126-26-001102,S-4/A,cash_consideration,,Per-Share Redemption Price,0.7129431962966919,fp_no_gt
+pipeline,0001829126-26-001102,S-4/A,stock_exchange_ratio,"1 share of Pelican Holdco, Inc. common stock per share",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,effective_date,,SPAC Merger Effective Time,0.8104531168937683,fp_no_gt
+pipeline,0001829126-26-001102,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,event_status,Pending,,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,event_status_details,"Merger agreement dated September 9, 2025; shareholder approval pending",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,closing_conditions,"SPAC shareholder approval | Company shareholder approval | No legal restraint | Net tangible assets of at least $5,000,001 | S-4 effectiveness | Stock exchange listing approval | Holdco organizational document amendment | Required representations, warranties and covenants | Closing deliverables | No uncured Company material adverse effect",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,available_options,No holder election,,,absence_value
+pipeline,0001829126-26-001102,S-4/A,other_consideration,,Private Placement Rights,0.5003003478050232,fp_no_gt
+pipeline,0001829126-26-001102,S-4/A,acquirer,"Pelican Holdco, Inc.",Company,0.8573210835456848,mismatch
+pipeline,0001829126-26-001102,S-4/A,target,Greenland Exploration Limited,Pelican,0.5532950758934021,mismatch
+pipeline,0001829126-26-001102,S-4/A,merger_subsidiary,"Greenland Merger Sub, Inc.","SPAC Merger Sub, Inc.",0.9549762606620789,mismatch
+pipeline,0001829126-26-001102,S-4/A,security_description,Common Stock,shares,0.7180688381195068,mismatch
+pipeline,0001829126-26-001102,S-4/A,cash_consideration,,Per-Share Redemption Price,0.7129431962966919,fp_no_gt
+pipeline,0001829126-26-001102,S-4/A,stock_exchange_ratio,"1 share of Pelican Holdco, Inc. common stock per share",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,effective_date,,SPAC Merger Effective Time,0.8104531168937683,fp_no_gt
+pipeline,0001829126-26-001102,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,event_status,Pending,,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,event_status_details,"Merger agreement dated September 9, 2025; closing pending",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,closing_conditions,"SPAC shareholder approval | Company shareholder approval | No legal restraint | Net tangible assets of at least $5,000,001 | S-4 effectiveness | Stock exchange listing approval | Holdco organizational document amendment | Required representations, warranties and covenants | Closing deliverables | No uncured Company material adverse effect",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,available_options,No holder election,,,absence_value
+pipeline,0001829126-26-001102,S-4/A,stock_exchange_ratio_qualifications,Fractional shares rounded up to whole shares,,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,other_consideration,,Private Placement Rights,0.5003003478050232,fp_no_gt
+pipeline,0001829126-26-001102,S-4/A,acquirer,"Pelican Holdco, Inc.",Company,0.8573210835456848,mismatch
+pipeline,0001829126-26-001102,S-4/A,target,March GL Company,Pelican,0.5532950758934021,mismatch
+pipeline,0001829126-26-001102,S-4/A,merger_subsidiary,"March GL Merger Sub, Inc.","SPAC Merger Sub, Inc.",0.9549762606620789,mismatch
+pipeline,0001829126-26-001102,S-4/A,security_description,Common Stock,shares,0.7180688381195068,mismatch
+pipeline,0001829126-26-001102,S-4/A,cash_consideration,,Per-Share Redemption Price,0.7129431962966919,fp_no_gt
+pipeline,0001829126-26-001102,S-4/A,stock_exchange_ratio,"Pro rata share of 20,000,000 shares of Pelican Holdco, Inc. common stock per share",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,effective_date,,SPAC Merger Effective Time,0.8104531168937683,fp_no_gt
+pipeline,0001829126-26-001102,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,event_status,Pending,,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,event_status_details,"Merger agreement dated September 9, 2025; closing pending",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,closing_conditions,"SPAC shareholder approval | Company shareholder approval | No legal restraint | Net tangible assets of at least $5,000,001 | S-4 effectiveness | Stock exchange listing approval | Holdco organizational document amendment | Required representations, warranties and covenants | Closing deliverables | No uncured Company material adverse effect",,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,available_options,No holder election,,,absence_value
+pipeline,0001829126-26-001102,S-4/A,stock_exchange_ratio_qualifications,Fractional shares rounded up to whole shares | Rounding excess reduces March GL merger consideration,,,fn_no_pred
+pipeline,0001829126-26-001102,S-4/A,other_consideration,,Private Placement Rights,0.5003003478050232,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,acquirer,"Pelican Holdco, Inc.",Purchaser,0.9430178999900818,mismatch
+oracle,0001829126-26-001102,S-4/A,target,Pelican Acquisition Corporation,Greenland,0.7521729469299316,mismatch
+oracle,0001829126-26-001102,S-4/A,merger_subsidiary,"Pelican Merger Sub, Inc.",Pelican Merger Sub,0.971871554851532,tp
+oracle,0001829126-26-001102,S-4/A,security_description,Ordinary Shares,Greenland Common Stock,0.835412859916687,mismatch
+oracle,0001829126-26-001102,S-4/A,cash_consideration,,March GL Merger Consideration,0.6558902263641357,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,stock_exchange_ratio,"1 share of Pelican Holdco, Inc. common stock per share",,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,effective_date,,Closing Date,0.7902995944023132,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,event_status,Pending,,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,event_status_details,"Merger agreement dated September 9, 2025; shareholder approval pending",,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,closing_conditions,"SPAC shareholder approval | Company shareholder approval | No legal restraint | Net tangible assets of at least $5,000,001 | S-4 effectiveness | Stock exchange listing approval | Holdco organizational document amendment | Required representations, warranties and covenants | Closing deliverables | No uncured Company material adverse effect",closing conditions,0.5471013188362122,mismatch
+oracle,0001829126-26-001102,S-4/A,available_options,No holder election,,,absence_value
+oracle,0001829126-26-001102,S-4/A,other_consideration,,right to receive one share of Holdco Common Stock,0.4926016330718994,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,acquirer,"Pelican Holdco, Inc.",Purchaser,0.9430178999900818,mismatch
+oracle,0001829126-26-001102,S-4/A,target,Greenland Exploration Limited,Greenland,0.7521729469299316,tp
+oracle,0001829126-26-001102,S-4/A,merger_subsidiary,"Greenland Merger Sub, Inc.",Pelican Merger Sub,0.971871554851532,mismatch
+oracle,0001829126-26-001102,S-4/A,security_description,Common Stock,Greenland Common Stock,0.835412859916687,tp
+oracle,0001829126-26-001102,S-4/A,cash_consideration,,March GL Merger Consideration,0.6558902263641357,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,stock_exchange_ratio,"1 share of Pelican Holdco, Inc. common stock per share",,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,effective_date,,Closing Date,0.7902995944023132,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,event_status,Pending,,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,event_status_details,"Merger agreement dated September 9, 2025; closing pending",,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,closing_conditions,"SPAC shareholder approval | Company shareholder approval | No legal restraint | Net tangible assets of at least $5,000,001 | S-4 effectiveness | Stock exchange listing approval | Holdco organizational document amendment | Required representations, warranties and covenants | Closing deliverables | No uncured Company material adverse effect",closing conditions,0.5471013188362122,mismatch
+oracle,0001829126-26-001102,S-4/A,available_options,No holder election,,,absence_value
+oracle,0001829126-26-001102,S-4/A,stock_exchange_ratio_qualifications,Fractional shares rounded up to whole shares,,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,other_consideration,,right to receive one share of Holdco Common Stock,0.4926016330718994,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,acquirer,"Pelican Holdco, Inc.",Purchaser,0.9430178999900818,mismatch
+oracle,0001829126-26-001102,S-4/A,target,March GL Company,Greenland,0.7521729469299316,mismatch
+oracle,0001829126-26-001102,S-4/A,merger_subsidiary,"March GL Merger Sub, Inc.",Pelican Merger Sub,0.971871554851532,mismatch
+oracle,0001829126-26-001102,S-4/A,security_description,Common Stock,Greenland Common Stock,0.835412859916687,tp
+oracle,0001829126-26-001102,S-4/A,cash_consideration,,March GL Merger Consideration,0.6558902263641357,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,stock_exchange_ratio,"Pro rata share of 20,000,000 shares of Pelican Holdco, Inc. common stock per share",,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,effective_date,,Closing Date,0.7902995944023132,fp_no_gt
+oracle,0001829126-26-001102,S-4/A,expected_closing,first quarter of 2026,,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,event_status,Pending,,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,event_status_details,"Merger agreement dated September 9, 2025; closing pending",,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,closing_conditions,"SPAC shareholder approval | Company shareholder approval | No legal restraint | Net tangible assets of at least $5,000,001 | S-4 effectiveness | Stock exchange listing approval | Holdco organizational document amendment | Required representations, warranties and covenants | Closing deliverables | No uncured Company material adverse effect",closing conditions,0.5471013188362122,mismatch
+oracle,0001829126-26-001102,S-4/A,available_options,No holder election,,,absence_value
+oracle,0001829126-26-001102,S-4/A,stock_exchange_ratio_qualifications,Fractional shares rounded up to whole shares | Rounding excess reduces March GL merger consideration,,,fn_no_pred
+oracle,0001829126-26-001102,S-4/A,other_consideration,,right to receive one share of Holdco Common Stock,0.4926016330718994,fp_no_gt

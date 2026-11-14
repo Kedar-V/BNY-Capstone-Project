@@ -1,0 +1,811 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+learned,0001140361-26-000522,DEFM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001140361-26-000522,DEFM14A,election_deadline,,"5:00 PM Eastern Standard Time, five business days before closing",,fp_no_gt
+learned,0001140361-26-000522,DEFM14A,shareholder_vote_date,2/12/2026 8:00 AM Eastern Standard Time,2/12/2026 8:00 AM Eastern Standard Time,,tp
+learned,0001140361-26-000522,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001140361-26-000522,DEFM14A,consideration_type,Cash,Cash,,tp
+learned,0001140361-26-000522,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001140361-26-000522,DEFM14A,default_option,,"$70.00 per share, net in cash",,fp_no_gt
+learned,0001140361-26-000522,DEFM14A,closing_conditions,Company stockholder approval | HSR waiting period expiration or termination | Required insurance regulatory approvals and non-disapprovals | FINRA approval or specified alternative requirements | No legal restraint | Company covenant compliance | Company representations and warranties | No Company Material Adverse Effect | No Burdensome Condition | Parent covenant compliance | Parent and Merger Sub representations and warranties | Closing certificates,"Company Stockholder Approval; applicable waiting period under HSR Act; regulatory approvals from insurance regulators in Delaware, Massachusetts and New York; FINRA approval",,mismatch
+learned,0001140361-26-000522,DEFM14A,cash_consideration_qualifications,Without interest | Applicable withholding | Equitable adjustment for share changes | Fractional-share amount rounded up to nearest cent,less any amounts required to be deducted or withheld under applicable law,,mismatch
+learned,0001140361-26-000522,DEFM14A,event_status_details,"Merger Agreement dated November 6, 2025; stockholder vote scheduled for February 12, 2026","Merger Agreement approved by Board on November 6, 2025; subject to regulatory approvals and stockholder vote",,tp
+learned,0001193125-26-009645,S-4/A,stock_exchange_ratio,approximately 0.0700 shares of Post-Closing Company common stock per share,0.0700 shares of Post-Closing Company common stock per share,,tp
+learned,0001193125-26-009645,S-4/A,shareholder_vote_date,2/3/2026 9:00 AM Eastern Time,2/3/2026 9:00 AM Eastern Time,,tp
+learned,0001193125-26-009645,S-4/A,event_status,Amended,Pending,,mismatch
+learned,0001193125-26-009645,S-4/A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001193125-26-009645,S-4/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-009645,S-4/A,default_option,,0.0700 shares of Post-Closing Company common stock per share,,fp_no_gt
+learned,0001193125-26-009645,S-4/A,closing_conditions,"CCIX shareholder approval | PlusAI stockholder approval | HSR waiting period expiration | No legal restraint | At least $5,000,001 of CCIX net tangible assets | Governance arrangements | Post-Closing Company board appointments | Nasdaq listing | S-4 effectiveness | Accuracy of representations and warranties | Material performance of covenants | No continuing material adverse effect | Appraisal rights deadline and dissenting-share limit | Domestication | Sponsor Agreement performance","Expiration or termination of the applicable waiting period under the HSR Act | Approval by CCIX shareholders of the business combination proposal | Domestication proposal | Organizational document proposal | Stock issuance proposal | Incentive plan proposal | ESPP proposal | Director election proposal | CCIX having at least $5,000,001 of net tangible assets as of the Closing",,mismatch
+learned,0001193125-26-009645,S-4/A,stock_exchange_ratio_qualifications,Estimated ratio | Equity Value adjustments | Rounding to nearest thousandth | Fractional shares rounded to nearest whole share,,,fn_no_pred
+learned,0001193125-26-009645,S-4/A,other_consideration,"Contingent right to up to 15,000,000 earnout shares in three tranches","Contingent right to receive up to 15,000,000 shares of Post-Closing Company common stock during the Earnout Period",,tp
+learned,0001193125-26-009645,S-4/A,event_status_details,"Merger Agreement dated June 5, 2025; amended September 8 and September 18, 2025","Merger Agreement dated June 5, 2025 (amended September 8, 2025 and September 18, 2025)",,tp
+learned,0001829126-26-000260,8-K,stock_exchange_ratio,Per Share Merger Consideration divided by $10.00 in PubCo Class A common stock per share,"50,000,000 newly issued shares of common stock of PubCo valued at $10.00 per share to Exascale and its shareholders",,tp
+learned,0001829126-26-000260,8-K,shareholder_vote_date,,1/11/2026,,fp_no_gt
+learned,0001829126-26-000260,8-K,event_status,Announced,Pending,,mismatch
+learned,0001829126-26-000260,8-K,consideration_type,Stock,Stock,,tp
+learned,0001829126-26-000260,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001829126-26-000260,8-K,default_option,,Per Share Merger Consideration,,fp_no_gt
+learned,0001829126-26-000260,8-K,closing_conditions,"No legal restraint | BCAR shareholder approval | Exascale shareholder approval | Nasdaq listing approval | Required regulatory approvals and filings | Completion of redemption offer | Minimum $5,000,000 cash or financing | Exascale representations and covenants | No Exascale material adverse effect | Required closing documents",BCAR complying with all of its obligations under the Merger Agreement in all material respects | the representations and warranties of BCAR being true on and as of the Closing in all material respects | there having been no Material Adverse Effect to BCAR,,absence_value
+learned,0001829126-26-000260,8-K,stock_exchange_ratio_qualifications,Fractional shares rounded to nearest whole share | Adjustment for share changes before issuance,,,fn_no_pred
+learned,0001829126-26-000260,8-K,other_consideration,,contingent on Liquidity Event,,fp_no_gt
+learned,0001829126-26-000260,8-K,event_status_details,"Merger agreement signed January 11, 2026; transaction announced January 12, 2026","Agreement date: January 11, 2026",,tp
+learned,0001829126-26-000260,8-K,stock_exchange_ratio,Per Share Merger Consideration divided by $10.00 in PubCo Class B common stock per share,"50,000,000 newly issued shares of common stock of PubCo valued at $10.00 per share to Exascale and its shareholders",,tp
+learned,0001829126-26-000260,8-K,shareholder_vote_date,,1/11/2026,,fp_no_gt
+learned,0001829126-26-000260,8-K,event_status,Announced,Pending,,mismatch
+learned,0001829126-26-000260,8-K,consideration_type,Stock,Stock,,tp
+learned,0001829126-26-000260,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001829126-26-000260,8-K,default_option,,Per Share Merger Consideration,,fp_no_gt
+learned,0001829126-26-000260,8-K,closing_conditions,"No legal restraint | BCAR shareholder approval | Exascale shareholder approval | Nasdaq listing approval | Required regulatory approvals and filings | Completion of redemption offer | Minimum $5,000,000 cash or financing | Exascale representations and covenants | No Exascale material adverse effect | Required closing documents",BCAR complying with all of its obligations under the Merger Agreement in all material respects | the representations and warranties of BCAR being true on and as of the Closing in all material respects | there having been no Material Adverse Effect to BCAR,,absence_value
+learned,0001829126-26-000260,8-K,stock_exchange_ratio_qualifications,Fractional shares rounded to nearest whole share | Adjustment for share changes before issuance,,,fn_no_pred
+learned,0001829126-26-000260,8-K,other_consideration,,contingent on Liquidity Event,,fp_no_gt
+learned,0001829126-26-000260,8-K,event_status_details,"Merger agreement signed January 11, 2026; transaction announced January 12, 2026","Agreement date: January 11, 2026",,tp
+learned,0001140361-26-001670,DEFM14A,stock_exchange_ratio,MRCC per-share NAV divided by HRZN per-share NAV shares of HRZN common stock per share,0.400 shares of HRZN common stock per share,,mismatch
+learned,0001140361-26-001670,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001140361-26-001670,DEFM14A,shareholder_vote_date,3/13/2026 2:30 PM Eastern Time,3/13/2026 2:30 PM Eastern Time,,tp
+learned,0001140361-26-001670,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001140361-26-001670,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001140361-26-001670,DEFM14A,available_options,No holder election,HRZN Common Stock | Cash,,absence_value
+learned,0001140361-26-001670,DEFM14A,default_option,,HRZN Common Stock,,fp_no_gt
+learned,0001140361-26-001670,DEFM14A,closing_conditions,"HRZN stockholder approval of stock issuance | MRCC stockholder approval of merger and asset sale | Asset sale immediately before merger | Nasdaq listing authorization | Registration statement effectiveness | No legal restraint or government challenge | Regulatory approvals and waiting periods | NAV determinations | Required representations, covenants and tax opinions",HRZN stockholder approval | MRCC stockholder approval | Asset Sale completion,,mismatch
+learned,0001140361-26-001670,DEFM14A,cash_consideration_qualifications,Cash instead of fractional shares | Cash withholding if required,,,fn_no_pred
+learned,0001140361-26-001670,DEFM14A,stock_exchange_ratio_qualifications,Rounded to fourth decimal | Adjustment for share changes or distributions | No fractional shares,,,fn_no_pred
+learned,0001140361-26-001670,DEFM14A,event_status_details,"Merger Agreement dated August 7, 2025; stockholder votes scheduled for March 13, 2026","Merger Agreement dated August 7, 2025; stockholder approvals required",,tp
+learned,0001213900-26-007416,S-4/A,stock_exchange_ratio,"($250,000,000 ÷ $10.10) ÷ Ace Green Fully Diluted Capital Stock shares of Athena Class A common stock per share",0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001213900-26-007416,S-4/A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-007416,S-4/A,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001213900-26-007416,S-4/A,effective_date,,12/04/2024,,fp_no_gt
+learned,0001213900-26-007416,S-4/A,event_status,Pending,Completed,,mismatch
+learned,0001213900-26-007416,S-4/A,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001213900-26-007416,S-4/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-26-007416,S-4/A,default_option,,0.400 shares of Athena Class A Common Stock,,fp_no_gt
+learned,0001213900-26-007416,S-4/A,closing_conditions,"Athena stockholder approval | Ace Green stockholder approval | No legal restraint | Nasdaq listing approval | S-4 effectiveness | HSR waiting period expiration and government consents | At least $7,500,000 in PIPE investment and remaining trust cash | Representations and warranties accuracy | Covenant compliance | Officer certificates | No material adverse effect | Transaction documents delivered | Expense caps satisfied or excess repaid | Trust funds available | Public stockholders offered redemption | Amended charter effective | Citigroup fee waiver | Working capital loan conversion agreements",Athena’s stockholders have approved and adopted the Merger Agreement,,mismatch
+learned,0001213900-26-007416,S-4/A,cash_consideration_qualifications,,No cash consideration,,fp_no_gt
+learned,0001213900-26-007416,S-4/A,stock_exchange_ratio_qualifications,Rounded up to nearest whole share,"No collars, caps, adjustments or fractional-share treatment",,mismatch
+learned,0001213900-26-007416,S-4/A,other_consideration,"Pro rata right to earnout shares; up to 10,500,000 shares in aggregate at $15.00, $20.00 and $25.00 trading-price triggers",Earnout Shares,,mismatch
+learned,0001213900-26-007416,S-4/A,event_status_details,"Merger agreement signed December 4, 2024; closing remains subject to conditions","Merger Agreement effective as of December 4, 2024",,tp
+learned,0001104659-26-007023,S-4/A,stock_exchange_ratio,4.358932 shares of Topco Common Stock per share,1 share of Topco Common Stock rounded down to the nearest whole share,,mismatch
+learned,0001104659-26-007023,S-4/A,event_status,Pending,Pending,,tp
+learned,0001104659-26-007023,S-4/A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-007023,S-4/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-007023,S-4/A,default_option,,1 share of Topco Common Stock rounded down to the nearest whole share,,fp_no_gt
+learned,0001104659-26-007023,S-4/A,closing_conditions,Registration statement effectiveness | No legal restraint | Barinthus shareholder approval | Court sanction of scheme | Clywedog stockholder approval | Nasdaq listing approval | UK national security clearance | Antitrust clearance | No material adverse effect | Representations and warranties accuracy | Covenant compliance | Minimum net cash requirements | Self-tender completion if elected | Lock-up agreements in effect | Investor agreements terminated,"Topco Common Stock being approved for listing on Nasdaq, receipt of regulatory approvals and consents, satisfaction or waiver of other closing conditions",,mismatch
+learned,0001104659-26-007023,S-4/A,cash_consideration_qualifications,Cash in lieu of fractional shares | Applicable tax withholding,,,fn_no_pred
+learned,0001104659-26-007023,S-4/A,stock_exchange_ratio_qualifications,Proportionate adjustment for specified share changes | Adjustment reflecting shares held by former Barinthus shareholders after any self-tender offer | Rounded down to whole shares,,,fn_no_pred
+learned,0001104659-26-007023,S-4/A,event_status_details,"Merger Agreement signed September 29, 2025; closing remained subject to conditions.","Merger Agreement entered on September 29, 2025; pending shareholder approvals and regulatory approvals",,tp
+learned,0001104659-26-007023,S-4/A,stock_exchange_ratio,4.358932 shares of Topco Common Stock per share,1 share of Topco Common Stock rounded down to the nearest whole share,,mismatch
+learned,0001104659-26-007023,S-4/A,event_status,Pending,Pending,,tp
+learned,0001104659-26-007023,S-4/A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-007023,S-4/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-007023,S-4/A,default_option,,1 share of Topco Common Stock rounded down to the nearest whole share,,fp_no_gt
+learned,0001104659-26-007023,S-4/A,closing_conditions,Registration statement effectiveness | No legal restraint | Barinthus shareholder approval | Court sanction of scheme | Clywedog stockholder approval | Nasdaq listing approval | UK national security clearance | Antitrust clearance | No material adverse effect | Representations and warranties accuracy | Covenant compliance | Minimum net cash requirements | Self-tender completion if elected | Lock-up agreements in effect | Investor agreements terminated,"Topco Common Stock being approved for listing on Nasdaq, receipt of regulatory approvals and consents, satisfaction or waiver of other closing conditions",,mismatch
+learned,0001104659-26-007023,S-4/A,cash_consideration_qualifications,Cash in lieu of fractional shares | Applicable tax withholding,,,fn_no_pred
+learned,0001104659-26-007023,S-4/A,stock_exchange_ratio_qualifications,Proportionate adjustment for specified share changes | Adjustment reflecting shares held by former Barinthus shareholders after any self-tender offer | Rounded down to whole shares,,,fn_no_pred
+learned,0001104659-26-007023,S-4/A,event_status_details,"Merger Agreement signed September 29, 2025; closing remained subject to conditions.","Merger Agreement entered on September 29, 2025; pending shareholder approvals and regulatory approvals",,tp
+learned,0001140361-26-002822,SC 13E3/A,stock_exchange_ratio,No stock consideration,1 share of Class A Common Stock,,absence_value
+learned,0001140361-26-002822,SC 13E3/A,election_deadline,,No holder election,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,shareholder_vote_date,1/9/2026,1/9/2026,,tp
+learned,0001140361-26-002822,SC 13E3/A,effective_date,1/29/2026,1/29/2026,,tp
+learned,0001140361-26-002822,SC 13E3/A,event_status,Completed,Completed,,tp
+learned,0001140361-26-002822,SC 13E3/A,consideration_type,Cash,Mixed cash and stock,,mismatch
+learned,0001140361-26-002822,SC 13E3/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001140361-26-002822,SC 13E3/A,default_option,,1 share of Class A Common Stock,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,closing_conditions,,No closing conditions,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,cash_consideration_qualifications,Without interest | Subject to applicable withholding taxes,No cash qualifications,,mismatch
+learned,0001140361-26-002822,SC 13E3/A,stock_exchange_ratio_qualifications,,No stock exchange ratio qualifications,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,other_consideration,,No other consideration,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,event_status_details,"Stockholders approved the merger on January 9, 2026; merger completed January 29, 2026",Merger completed on 1/29/2026,,tp
+learned,0001140361-26-002822,SC 13E3/A,stock_exchange_ratio,No stock consideration,1 share of Class A Common Stock,,absence_value
+learned,0001140361-26-002822,SC 13E3/A,election_deadline,,No holder election,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,shareholder_vote_date,1/9/2026,1/9/2026,,tp
+learned,0001140361-26-002822,SC 13E3/A,effective_date,1/29/2026,1/29/2026,,tp
+learned,0001140361-26-002822,SC 13E3/A,event_status,Completed,Completed,,tp
+learned,0001140361-26-002822,SC 13E3/A,consideration_type,Cash,Mixed cash and stock,,mismatch
+learned,0001140361-26-002822,SC 13E3/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001140361-26-002822,SC 13E3/A,default_option,,1 share of Class A Common Stock,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,closing_conditions,,No closing conditions,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,cash_consideration_qualifications,Without interest | Subject to applicable withholding taxes,No cash qualifications,,mismatch
+learned,0001140361-26-002822,SC 13E3/A,stock_exchange_ratio_qualifications,,No stock exchange ratio qualifications,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,other_consideration,,No other consideration,,fp_no_gt
+learned,0001140361-26-002822,SC 13E3/A,event_status_details,"Stockholders approved the merger on January 9, 2026; merger completed January 29, 2026",Merger completed on 1/29/2026,,tp
+learned,0001829126-26-000901,425,stock_exchange_ratio,,0.400 shares of Cliffs common stock per share,,fp_no_gt
+learned,0001829126-26-000901,425,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-000901,425,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-000901,425,event_status,Amended,Completed,,mismatch
+learned,0001829126-26-000901,425,consideration_type,,Mixed cash and stock,,fp_no_gt
+learned,0001829126-26-000901,425,available_options,,No holder election,,fp_no_gt
+learned,0001829126-26-000901,425,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-000901,425,closing_conditions,,No closing conditions,,fp_no_gt
+learned,0001829126-26-000901,425,other_consideration,PubCo Warrants to Company Shareholders,,,fn_no_pred
+learned,0001829126-26-000901,425,event_status_details,"February 2, 2026 amendment increased aggregate merger consideration to $1,350,000,000",Completed,,mismatch
+learned,0001104659-26-011659,DEFM14A,stock_exchange_ratio,0.1350 shares of Burke & Herbert common stock per share,0.1350 shares of Burke & Herbert common stock per share,,tp
+learned,0001104659-26-011659,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001104659-26-011659,DEFM14A,shareholder_vote_date,3/25/2026 8:00 AM Eastern Time,3/25/2026 8:00 AM Eastern Time,,tp
+learned,0001104659-26-011659,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001104659-26-011659,DEFM14A,consideration_type,Stock,Stock,,tp
+learned,0001104659-26-011659,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-011659,DEFM14A,default_option,,0.1350 shares of Burke & Herbert common stock,,fp_no_gt
+learned,0001104659-26-011659,DEFM14A,closing_conditions,Burke & Herbert shareholder approval | LNKB shareholder approval | Nasdaq listing authorization | Registration statement effectiveness | Regulatory approvals and waiting periods | No legal restraint | Representations and warranties accuracy | Material performance of obligations | Tax opinions | No materially burdensome regulatory condition,"approval by Burke & Herbert shareholders, approval by LNKB shareholders, regulatory approvals",,mismatch
+learned,0001104659-26-011659,DEFM14A,cash_consideration_qualifications,Cash in lieu of fractional shares | No interest on fractional-share cash,,,fn_no_pred
+learned,0001104659-26-011659,DEFM14A,stock_exchange_ratio_qualifications,Proportionate adjustment for specified share changes or extraordinary distributions | No fractional shares issued,cash in lieu of fractional shares,,mismatch
+learned,0001104659-26-011659,DEFM14A,event_status_details,"Merger agreement signed December 18, 2025; shareholder votes scheduled for March 25, 2026","Merger agreement entered on December 18, 2025; shareholder approvals required; regulatory approvals pending",,tp
+learned,0001213900-26-017460,DEFM14A,stock_exchange_ratio,Exchange Ratio Holdco ordinary shares per share,0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001213900-26-017460,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,effective_date,,3/17/2026,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,event_status,Pending,Completed,,mismatch
+learned,0001213900-26-017460,DEFM14A,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001213900-26-017460,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-26-017460,DEFM14A,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,closing_conditions,DMY shareholder approval | Horizon shareholder approval | Registration statement effectiveness | Stock exchange listing approval | No legal restraint | Minimum cash condition | Representations and warranties | Covenant compliance | No continuing material adverse effect | Required closing certificates and agreements | Horizon preference share conversion,Minimum Cash Condition,,mismatch
+learned,0001213900-26-017460,DEFM14A,cash_consideration_qualifications,,Requisite Working Capital,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,stock_exchange_ratio_qualifications,Fractional shares rounded down,,,fn_no_pred
+learned,0001213900-26-017460,DEFM14A,other_consideration,,Contingent value rights,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,event_status_details,"Business Combination Agreement signed September 9, 2025; closing remained subject to conditions","Business Combination Agreement approved on September 9, 2025",,tp
+learned,0001213900-26-017460,DEFM14A,stock_exchange_ratio,1 Holdco Class A ordinary share per share,0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001213900-26-017460,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,shareholder_vote_date,3/17/2026 10:00 AM Eastern Time,6/11/2026 10:00 AM Eastern Time,,mismatch
+learned,0001213900-26-017460,DEFM14A,effective_date,,3/17/2026,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,event_status,Pending,Completed,,mismatch
+learned,0001213900-26-017460,DEFM14A,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001213900-26-017460,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-26-017460,DEFM14A,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,closing_conditions,DMY shareholder approval | Horizon shareholder approval | Registration statement effectiveness | Stock exchange listing approval | No legal restraint | Minimum cash condition | Representations and warranties | Covenant compliance | No continuing material adverse effect | Required closing certificates and agreements | Horizon preference share conversion,Minimum Cash Condition,,mismatch
+learned,0001213900-26-017460,DEFM14A,cash_consideration_qualifications,,Requisite Working Capital,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,stock_exchange_ratio_qualifications,"Redeemed, dissenting, and treasury shares excluded | Fractional shares rounded down",,,fn_no_pred
+learned,0001213900-26-017460,DEFM14A,other_consideration,,Contingent value rights,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,event_status_details,"Business Combination Agreement signed September 9, 2025; shareholder vote scheduled","Business Combination Agreement approved on September 9, 2025",,tp
+learned,0001104659-26-021584,DEFM14A,stock_exchange_ratio,1 Carnival Corporation Ltd. common share per share,1 Common Share of Carnival Corporation Ltd. per Carnival plc Share,,tp
+learned,0001104659-26-021584,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001104659-26-021584,DEFM14A,shareholder_vote_date,4/17/2026 1:30 PM BST,4/17/2026 8:50 AM Eastern Time,,tp
+learned,0001104659-26-021584,DEFM14A,effective_date,,5/7/2026,,fp_no_gt
+learned,0001104659-26-021584,DEFM14A,event_status,Pending,Completed,,mismatch
+learned,0001104659-26-021584,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-021584,DEFM14A,available_options,No holder election,1 Common Share of Carnival Corporation Ltd. | No stock consideration,,absence_value
+learned,0001104659-26-021584,DEFM14A,default_option,,1 Common Share of Carnival Corporation Ltd.,,fp_no_gt
+learned,0001104659-26-021584,DEFM14A,closing_conditions,Shareholder approvals | Court sanction and order registration | NYSE listing approval | Registration statement effectiveness | Bermuda redomiciliation approval | Antitrust and foreign investment clearances | No adverse circumstance,"Approval of the proposals at the special meetings and the court meeting, sanction of the Scheme of Arrangement by the Court in the UK, receipt of certain antitrust and regulatory clearances",,mismatch
+learned,0001104659-26-021584,DEFM14A,cash_consideration_qualifications,,No cash consideration,,fp_no_gt
+learned,0001104659-26-021584,DEFM14A,stock_exchange_ratio_qualifications,,No adjustments,,fp_no_gt
+learned,0001104659-26-021584,DEFM14A,other_consideration,,No other consideration,,fp_no_gt
+learned,0001104659-26-021584,DEFM14A,event_status_details,"Unification Agreement signed February 20, 2026; shareholder and court approvals pending","Scheme of Arrangement approved at Carnival plc Court Meeting on April 17, 2026; effective date May 7, 2026",,mismatch
+learned,0001104659-26-021605,DEFM14A,stock_exchange_ratio,1 common share of Carnival Corporation Ltd. per share,1 Common Share of Carnival Corporation Ltd. per Carnival plc Share,,tp
+learned,0001104659-26-021605,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001104659-26-021605,DEFM14A,shareholder_vote_date,4/17/2026 1:30 PM BST,4/17/2026 1:30 PM Eastern Time,,tp
+learned,0001104659-26-021605,DEFM14A,effective_date,,5/7/2026,,fp_no_gt
+learned,0001104659-26-021605,DEFM14A,event_status,Pending,Completed,,mismatch
+learned,0001104659-26-021605,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-021605,DEFM14A,available_options,No holder election,1 Common Share of Carnival Corporation Ltd. | No stock consideration,,absence_value
+learned,0001104659-26-021605,DEFM14A,default_option,,1 Common Share of Carnival Corporation Ltd.,,fp_no_gt
+learned,0001104659-26-021605,DEFM14A,closing_conditions,Scheme shareholder approval | Carnival plc and Carnival Corporation shareholder approvals | Court sanction and delivery of order | NYSE listing approval | Registration statement effectiveness | Bermuda redomiciliation approval | Regulatory clearances | No adverse circumstance,"Approval of the proposals at the special meetings and the court meeting, sanction of the Scheme of Arrangement by the Court in the UK, receipt of certain antitrust and regulatory clearances",,mismatch
+learned,0001104659-26-021605,DEFM14A,cash_consideration_qualifications,Restricted shareholders receive net sale proceeds instead of shares,No cash consideration,,mismatch
+learned,0001104659-26-021605,DEFM14A,stock_exchange_ratio_qualifications,Restricted shareholders receive net sale proceeds instead of shares | Sanctions-affected shares excluded,"No collars, caps, adjustments or fractional-share treatment",,mismatch
+learned,0001104659-26-021605,DEFM14A,other_consideration,,No other consideration,,fp_no_gt
+learned,0001104659-26-021605,DEFM14A,event_status_details,"Unification Agreement signed February 20, 2026; shareholder and court approvals pending",Scheme of Arrangement approved on 5/7/2026,,mismatch
+learned,0001552781-26-000078,DEFM14A,stock_exchange_ratio,SWK Per Share NAV divided by RWAY Per Share NAV shares of RWAY Common Stock per share,0.400 shares of RWAY common stock per share,,mismatch
+learned,0001552781-26-000078,DEFM14A,election_deadline,"5:00 PM New York City time, five business days before the closing date","5:00 PM Eastern Time, five business days before closing",,tp
+learned,0001552781-26-000078,DEFM14A,shareholder_vote_date,3/31/2026 9:00 AM Central Time,3/31/2026 9:00 AM Central Time,,tp
+learned,0001552781-26-000078,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001552781-26-000078,DEFM14A,consideration_type,Elective consideration,Elective consideration,,tp
+learned,0001552781-26-000078,DEFM14A,available_options,Cash: SWK Per Share NAV per share | Stock: Exchange Ratio shares of RWAY Common Stock per share,Per Share Stock Consideration | Per Share Cash Consideration,,mismatch
+learned,0001552781-26-000078,DEFM14A,default_option,"Stock consideration, with a deemed cash election if no shares are elected",Per Share Stock Consideration,,mismatch
+learned,0001552781-26-000078,DEFM14A,closing_conditions,SWK stockholder approval | Nasdaq listing approval | Form N-14 effectiveness | HSR waiting period expiration | No legal restraint | Representations and warranties | Covenant compliance | No material adverse effect | SWK Notes amendment | Lower collar condition | Closing certificates,approval of the First Merger by holders of SWK Common Stock | satisfaction or waiver of other closing conditions,,mismatch
+learned,0001552781-26-000078,DEFM14A,cash_consideration_qualifications,"$9,000,000 guaranteed cash payment shared pro rata | Cash-election proration | Cash in lieu of fractional shares | Tax withholding | No interest on cash payable upon certificate surrender",SWK Per Share NAV,,mismatch
+learned,0001552781-26-000078,DEFM14A,stock_exchange_ratio_qualifications,Rounded to four decimal places | Stock issuance capped at 19.9% of RWAY shares outstanding | Stock-election proration | Adjustment for share changes between determination and effective time | Cash in lieu of fractional shares,Exchange Ratio,,mismatch
+learned,0001552781-26-000078,DEFM14A,other_consideration,,"Per Share Guaranteed Cash Payment of $9,000,000",,fp_no_gt
+learned,0001552781-26-000078,DEFM14A,event_status_details,"Merger Agreement dated October 9, 2025; stockholder vote scheduled for March 31, 2026","Merger Agreement dated October 9, 2025; stockholder approval required",,tp
+learned,0001493152-26-009318,425,stock_exchange_ratio,"18,000,000 divided by fully diluted Goodvision Shares, in Calisa Acquisition Corp ordinary shares per share","18,000,000 divided by the number of fully diluted Goodvision Shares outstanding",,tp
+learned,0001493152-26-009318,425,event_status,Announced,Pending,,mismatch
+learned,0001493152-26-009318,425,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001493152-26-009318,425,available_options,No holder election,Per Share Merger Consideration | Earnout Shares,,absence_value
+learned,0001493152-26-009318,425,default_option,,Per Share Merger Consideration,,fp_no_gt
+learned,0001493152-26-009318,425,closing_conditions,"Antitrust waiting periods and approvals | No legal restraint | Registration statement effectiveness | Goodvision shareholder approval | Calisa shareholder approval | $5,000,000 financing | Minimum net tangible assets, if required | Company representations and covenants | No Company Material Adverse Effect | No transaction-blocking proceedings | Required ancillary agreements | Closing financial statements | SPAC representations and covenants | Stock exchange listing approval",approval of the Transactions and related matters by the respective shareholders of the Company and Goodvision | effectiveness of the Registration Statement | no Material Adverse Effect since the date of the BCA | Financing consummated | listing of the SPAC Shares approved by NASDAQ,,mismatch
+learned,0001493152-26-009318,425,stock_exchange_ratio_qualifications,10% of merger shares held in indemnification escrow | Additional earnout shares subject to revenue and share-price conditions | Rounded to nearest whole share | Adjustment for changes to outstanding SPAC shares,,,fn_no_pred
+learned,0001493152-26-009318,425,event_status_details,"Business Combination Agreement signed March 6, 2026","Execution Date: March 6, 2026; shareholder approvals required; closing expected in second half of 2026",,mismatch
+learned,0001104659-26-035234,425,stock_exchange_ratio,,0.400 shares of Cliffs common stock per share,,fp_no_gt
+learned,0001104659-26-035234,425,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001104659-26-035234,425,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001104659-26-035234,425,event_status,Pending,Pending,,tp
+learned,0001104659-26-035234,425,consideration_type,,Mixed cash and stock,,fp_no_gt
+learned,0001104659-26-035234,425,available_options,,No holder election,,fp_no_gt
+learned,0001104659-26-035234,425,default_option,,0.400 shares of Cliffs common stock per share,,fp_no_gt
+learned,0001104659-26-035234,425,closing_conditions,SVAC shareholder approval | Regulatory approvals,Adoption of the Business Combination Agreement by shareholders of SVAC and receipt of regulatory approvals,,mismatch
+learned,0001104659-26-035234,425,event_status_details,"Business Combination Agreement dated January 21, 2026","Business Combination Agreement dated January 21, 2026",,tp
+learned,0001193125-26-130513,PREM14A,stock_exchange_ratio,No stock consideration,13.80 in cash per share,,absence_value
+learned,0001193125-26-130513,PREM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001193125-26-130513,PREM14A,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001193125-26-130513,PREM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-130513,PREM14A,consideration_type,Cash,Elective consideration,,mismatch
+learned,0001193125-26-130513,PREM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-130513,PREM14A,default_option,,13.80 in cash per share,,fp_no_gt
+learned,0001193125-26-130513,PREM14A,closing_conditions,Enhabit stockholder approval | No legal restraint | HSR waiting period expiration or termination | Other required antitrust consents or waiting periods | Indiana and Massachusetts healthcare filings | Rhode Island Change in Effective Control application | Required representations and warranties | Material compliance with obligations | No Company Material Adverse Effect | Required officer certificates,"adoption of the Merger Agreement by Enhabit’s stockholders, expiration or termination of the applicable waiting period under the HSR Act, completion of state healthcare transaction filings in Indiana and Massachusetts, and a Change in Effective Control application in Rhode Island",,tp
+learned,0001193125-26-130513,PREM14A,cash_consideration_qualifications,Without interest | Applicable tax withholding | Adjustment for share changes,,,fn_no_pred
+learned,0001193125-26-130513,PREM14A,event_status_details,"Merger agreement signed February 22, 2026; stockholder approval and other closing conditions pending","Merger Agreement dated as of February 22, 2026",,tp
+learned,0001140361-26-012785,DEFM14A,stock_exchange_ratio,3.8721 shares of Boston Scientific common stock per share,3.8721 shares of Boston Scientific common stock per share,,tp
+learned,0001140361-26-012785,DEFM14A,election_deadline,"5:00 PM New York City time, five business days before estimated closing","5:00 PM Eastern Time, five business days before closing",,tp
+learned,0001140361-26-012785,DEFM14A,shareholder_vote_date,5/6/2026 10:00 AM Pacific Time,5/6/2026 10:00 AM Pacific Time,,tp
+learned,0001140361-26-012785,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001140361-26-012785,DEFM14A,consideration_type,Elective consideration,Mixed cash and stock,,mismatch
+learned,0001140361-26-012785,DEFM14A,available_options,Cash: $374.00 per share | Stock: 3.8721 shares per share | Cash and stock elections for different shares,Stock Election | Cash Election,,mismatch
+learned,0001140361-26-012785,DEFM14A,default_option,Cash or stock under proration,Non-Election Share,,mismatch
+learned,0001140361-26-012785,DEFM14A,closing_conditions,Penumbra stockholder approval | No governmental restraint | HSR waiting period expiration | Other required regulatory approvals | Form S-4 effectiveness | NYSE listing approval | Accuracy of representations and warranties | Material compliance with covenants | No material adverse effect | Delivery of officer certificates,Regulatory approvals | Stockholder approval,,mismatch
+learned,0001140361-26-012785,DEFM14A,cash_consideration_qualifications,Without interest | Subject to proration | Applicable tax withholding | Cash instead of fractional shares,,,fn_no_pred
+learned,0001140361-26-012785,DEFM14A,stock_exchange_ratio_qualifications,Subject to proration | No fractional shares; cash instead,,,fn_no_pred
+learned,0001140361-26-012785,DEFM14A,event_status_details,"Merger agreement signed January 14, 2026; closing remained subject to stockholder approval and regulatory clearances","Agreement dated January 14, 2026; regulatory approvals required",,mismatch
+learned,0001213900-26-040029,425,stock_exchange_ratio,,"50,000,001 shares of the Company’s common stock, in the aggregate, allocated among Carvix stockholders as set forth in the Company Allocation Schedule",,fp_no_gt
+learned,0001213900-26-040029,425,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-040029,425,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001213900-26-040029,425,effective_date,,3/30/2026,,fp_no_gt
+learned,0001213900-26-040029,425,event_status,Announced,Completed,,mismatch
+learned,0001213900-26-040029,425,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001213900-26-040029,425,available_options,No holder election,"50,000,001 shares of the Company’s common stock | up to 50,000,100 shares of the Company’s common stock",,absence_value
+learned,0001213900-26-040029,425,default_option,,"50,000,001 shares of the Company’s common stock",,fp_no_gt
+learned,0001213900-26-040029,425,closing_conditions,"Carvix stockholder approval | SPAC shareholder approval | No legal restraint | HSR waiting period expiration, if applicable | S-4 effectiveness | Exchange listing approval | Net tangible assets or non-penny-stock condition | Lock-up agreements | Domestication | Required representations and covenants | Key employee retention | Management employment agreements | Fairness opinion | Trust fund release | Redemption opportunity | Minimum cash",requisite approval by the Company’s stockholders | delivery of the Carvix stockholder written consent | the Domestication | the SEC declaring effective the Registration Statement on Form S-4 | approval for listing on Nasdaq | expiration or termination of any applicable waiting period under the Hart-Scott-Rodino Antitrust Improvements,,mismatch
+learned,0001213900-26-040029,425,event_status_details,"Business Combination Agreement signed March 30, 2026","March 30, 2026",,tp
+learned,0001140361-26-015088,SC 13E3,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001140361-26-015088,SC 13E3,event_status,Pending,Pending,,tp
+learned,0001140361-26-015088,SC 13E3,consideration_type,Cash,Cash,,tp
+learned,0001140361-26-015088,SC 13E3,available_options,No holder election,No holder election,,absence_matched
+learned,0001140361-26-015088,SC 13E3,default_option,,Cash,,fp_no_gt
+learned,0001140361-26-015088,SC 13E3,closing_conditions,Consummation of the Offer | Satisfaction or waiver of certain conditions,Satisfaction or waiver of certain conditions,,tp
+learned,0001140361-26-015088,SC 13E3,cash_consideration_qualifications,Without interest | Required tax withholding,No conditions,,mismatch
+learned,0001140361-26-015088,SC 13E3,stock_exchange_ratio_qualifications,,No conditions,,fp_no_gt
+learned,0001140361-26-015088,SC 13E3,event_status_details,"Merger Agreement dated April 2, 2026","Merger Agreement dated April 2, 2026; Schedule TO filed April 16, 2026",,tp
+learned,0001213900-26-044922,425,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001213900-26-044922,425,event_status,Pending,Withdrawn,,mismatch
+learned,0001213900-26-044922,425,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001213900-26-044922,425,available_options,,No holder election,,fp_no_gt
+learned,0001213900-26-044922,425,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-044922,425,event_status_details,Nasdaq listing application withdrawn; alternative listing venues and strategic alternatives under evaluation,"Withdrawn Listing Application on April 14, 2026",,mismatch
+learned,0001104659-26-046161,DEFM14A,stock_exchange_ratio,1 Expro Luxembourg Common Share per share,1 Expro Cayman Ordinary Share for each Expro N.V. Common Share,,tp
+learned,0001104659-26-046161,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,shareholder_vote_date,6/10/2026 4:00 PM CET,6/10/2026 4:00 PM CET,,tp
+learned,0001104659-26-046161,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001104659-26-046161,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-046161,DEFM14A,available_options,,No holder election,,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,default_option,,1 Expro Cayman Ordinary Share for each Expro N.V. Common Share,,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,closing_conditions,Expro N.V. shareholder approval | Withdrawal requests not exceeding 1% of outstanding shares,Satisfaction of Merger Conditions,,mismatch
+learned,0001104659-26-046161,DEFM14A,event_status_details,Shareholder approval sought at the 2026 Annual Meeting,"Transaction Proposal requires shareholder approval at Annual Meeting on June 10, 2026",,tp
+learned,0001104659-26-046161,DEFM14A,stock_exchange_ratio,1 Expro Cayman Ordinary Share per share,1 Expro Cayman Ordinary Share for each Expro N.V. Common Share,,tp
+learned,0001104659-26-046161,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,shareholder_vote_date,,6/10/2026 4:00 PM CET,,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001104659-26-046161,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-046161,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-046161,DEFM14A,default_option,,1 Expro Cayman Ordinary Share for each Expro N.V. Common Share,,fp_no_gt
+learned,0001104659-26-046161,DEFM14A,closing_conditions,"Completion of Luxembourg Merger | Consent of fixed or floating security interest holders, if any | Filing of required Cayman Islands statutory documents",Satisfaction of Merger Conditions,,mismatch
+learned,0001104659-26-046161,DEFM14A,event_status_details,Contemplated as the second merger in the proposed redomiciliation,"Transaction Proposal requires shareholder approval at Annual Meeting on June 10, 2026",,mismatch
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio,0.1 to 0.166667 shares of Topco Common Stock per share,"between 0.1 and 0.166667 shares of Topco Common Stock, rounded down to the nearest whole share",,tp
+learned,0001104659-26-051962,DEFM14A,election_deadline,,"12:00 PM Eastern Time, May 14, 2026",,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,5/20/2026 2:00 PM London Time,5/20/2026 2:15 PM Eastern Time,,tp
+learned,0001104659-26-051962,DEFM14A,event_status,Amended,Pending,,mismatch
+learned,0001104659-26-051962,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-051962,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-051962,DEFM14A,default_option,,"between 0.1 and 0.166667 shares of Topco Common Stock, rounded down to the nearest whole share",,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,closing_conditions,S-4 effectiveness | No legal restraint | Barinthus shareholder approvals | Court sanction | Clywedog stockholder approval | Nasdaq listing approval | UK national security clearance | Antitrust clearance | Required representations and covenant compliance | No material adverse effect | Minimum net cash,"approval of Barinthus Shareholders, approval of Clywedog stockholders, receipt of regulatory approvals and consents, satisfaction or waiver of other closing conditions",,mismatch
+learned,0001104659-26-051962,DEFM14A,cash_consideration_qualifications,Cash in lieu of fractional shares | Required tax withholding,cash in lieu of fractional shares,,tp
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio_qualifications,Final ratio determined by Barinthus Board | Rounded down to whole shares | Adjustment for changes in share capital,rounded down to the nearest whole share,,mismatch
+learned,0001104659-26-051962,DEFM14A,event_status_details,"Original agreement dated September 29, 2025; exchange ratios and minimum cash requirements amended February 22, 2026","Scheme of Arrangement dated April 22, 2026; pending shareholder approvals and regulatory approvals",,mismatch
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio,0.000305 to 0.000508 shares of Topco Common Stock per share,"between 0.1 and 0.166667 shares of Topco Common Stock, rounded down to the nearest whole share",,mismatch
+learned,0001104659-26-051962,DEFM14A,election_deadline,,"12:00 PM Eastern Time, May 14, 2026",,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,,5/20/2026 2:15 PM Eastern Time,,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,event_status,Amended,Pending,,mismatch
+learned,0001104659-26-051962,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-051962,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-051962,DEFM14A,default_option,,"between 0.1 and 0.166667 shares of Topco Common Stock, rounded down to the nearest whole share",,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,closing_conditions,S-4 effectiveness | No legal restraint | Barinthus shareholder approvals | Court sanction | Clywedog stockholder approval | Nasdaq listing approval | UK national security clearance | Antitrust clearance | Required representations and covenant compliance | No material adverse effect | Minimum net cash | Lock-up agreements effective | Investor agreements terminated | Self-tender completion if elected,"approval of Barinthus Shareholders, approval of Clywedog stockholders, receipt of regulatory approvals and consents, satisfaction or waiver of other closing conditions",,mismatch
+learned,0001104659-26-051962,DEFM14A,cash_consideration_qualifications,Cash in lieu of fractional shares | Required tax withholding,cash in lieu of fractional shares,,tp
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio_qualifications,Final ratio determined by Clywedog and Barinthus Bio | Proportional adjustment for self-tender | Rounded down to whole shares,rounded down to the nearest whole share,,mismatch
+learned,0001104659-26-051962,DEFM14A,event_status_details,"Original agreement dated September 29, 2025; exchange ratios and minimum cash requirements amended February 22, 2026","Scheme of Arrangement dated April 22, 2026; pending shareholder approvals and regulatory approvals",,mismatch
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio,0.000305 to 0.000508 shares of Topco Common Stock per share,"between 0.1 and 0.166667 shares of Topco Common Stock, rounded down to the nearest whole share",,mismatch
+learned,0001104659-26-051962,DEFM14A,election_deadline,,"12:00 PM Eastern Time, May 14, 2026",,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,,5/20/2026 2:15 PM Eastern Time,,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,event_status,Amended,Pending,,mismatch
+learned,0001104659-26-051962,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-051962,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-051962,DEFM14A,default_option,,"between 0.1 and 0.166667 shares of Topco Common Stock, rounded down to the nearest whole share",,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,closing_conditions,S-4 effectiveness | No legal restraint | Barinthus shareholder approvals | Court sanction | Clywedog stockholder approval | Nasdaq listing approval | UK national security clearance | Antitrust clearance | Required representations and covenant compliance | No material adverse effect | Minimum net cash | Lock-up agreements effective | Investor agreements terminated | Self-tender completion if elected,"approval of Barinthus Shareholders, approval of Clywedog stockholders, receipt of regulatory approvals and consents, satisfaction or waiver of other closing conditions",,mismatch
+learned,0001104659-26-051962,DEFM14A,cash_consideration_qualifications,Cash in lieu of fractional shares | Required tax withholding,cash in lieu of fractional shares,,tp
+learned,0001104659-26-051962,DEFM14A,stock_exchange_ratio_qualifications,Final ratio determined by Clywedog and Barinthus Bio | Proportional adjustment for self-tender | Rounded down to whole shares,rounded down to the nearest whole share,,mismatch
+learned,0001104659-26-051962,DEFM14A,event_status_details,"Original agreement dated September 29, 2025; exchange ratios and minimum cash requirements amended February 22, 2026","Scheme of Arrangement dated April 22, 2026; pending shareholder approvals and regulatory approvals",,mismatch
+learned,0001193125-26-209019,PREM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001193125-26-209019,PREM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-209019,PREM14A,consideration_type,Cash,Cash,,tp
+learned,0001193125-26-209019,PREM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-209019,PREM14A,default_option,,Cash,,fp_no_gt
+learned,0001193125-26-209019,PREM14A,closing_conditions,Affinity stockholder approval | Required regulatory approvals and waiting-period expiration | No legal restraint | Required merger filings | Material compliance with laws and agreements | Representations and warranties accuracy | No Affinity material adverse change | Required consents and certificates | Required employee-benefit plan actions | No burdensome regulatory condition | No excess parachute payment | Merger consideration deposited with paying agent,,,fn_no_pred
+learned,0001193125-26-209019,PREM14A,cash_consideration_qualifications,Downward adjustment for adjusted stockholders’ equity shortfall | Applicable tax withholding | No interest,,,fn_no_pred
+learned,0001193125-26-209019,PREM14A,event_status_details,"Merger agreement signed March 30, 2026; stockholder and regulatory approvals required","Merger agreement dated March 30, 2026",,tp
+learned,0001829126-26-004942,S-4,stock_exchange_ratio,aggregate consideration shares divided by outstanding MicroTouch ordinary shares,"8,955,224 Future Vision ordinary shares per MicroTouch ordinary share",,mismatch
+learned,0001829126-26-004942,S-4,shareholder_vote_date,,[●] 2026 [●] a.m. Eastern Time,,fp_no_gt
+learned,0001829126-26-004942,S-4,event_status,Pending,Pending,,tp
+learned,0001829126-26-004942,S-4,consideration_type,Stock,Stock,,tp
+learned,0001829126-26-004942,S-4,available_options,No holder election,No holder election,,absence_matched
+learned,0001829126-26-004942,S-4,default_option,,"8,955,224 Future Vision ordinary shares",,fp_no_gt
+learned,0001829126-26-004942,S-4,closing_conditions,"Future Vision shareholder approval | MicroTouch shareholder approval | S-4 effectiveness | Nasdaq listing approval | At least $5,000,001 in net tangible assets | No legal restraint | Required party performance | No material adverse effect | Name change and director election","Shareholder approval, Nasdaq listing eligibility",,mismatch
+learned,0001829126-26-004942,S-4,stock_exchange_ratio_qualifications,Aggregate consideration shares rounded up to nearest whole share,,,fn_no_pred
+learned,0001829126-26-004942,S-4,event_status_details,"Merger Agreement signed January 16, 2026; shareholder approvals and other closing conditions pending","Merger Agreement dated January 16, 2026; shareholder approval required",,tp
+learned,0001829126-26-004942,S-4,stock_exchange_ratio,,"8,955,224 Future Vision ordinary shares per MicroTouch ordinary share",,fp_no_gt
+learned,0001829126-26-004942,S-4,shareholder_vote_date,,[●] 2026 [●] a.m. Eastern Time,,fp_no_gt
+learned,0001829126-26-004942,S-4,event_status,Terminated,Pending,,mismatch
+learned,0001829126-26-004942,S-4,consideration_type,Stock,Stock,,tp
+learned,0001829126-26-004942,S-4,available_options,No holder election,No holder election,,absence_matched
+learned,0001829126-26-004942,S-4,default_option,,"8,955,224 Future Vision ordinary shares",,fp_no_gt
+learned,0001829126-26-004942,S-4,closing_conditions,,"Shareholder approval, Nasdaq listing eligibility",,fp_no_gt
+learned,0001829126-26-004942,S-4,event_status_details,"Agreement terminated December 29, 2025 because the merger had not closed by November 28, 2025","Merger Agreement dated January 16, 2026; shareholder approval required",,mismatch
+learned,0001104659-26-068378,PREM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001104659-26-068378,PREM14A,event_status,Pending,Pending,,tp
+learned,0001104659-26-068378,PREM14A,consideration_type,Cash,Cash,,tp
+learned,0001104659-26-068378,PREM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-068378,PREM14A,default_option,,Cash,,fp_no_gt
+learned,0001104659-26-068378,PREM14A,closing_conditions,Avanos stockholder approval | No legal restraint | HSR waiting period expiration or termination | Expiration or termination of regulatory delay commitments | Required regulatory approvals | Avanos covenant compliance | Avanos representation and warranty accuracy | No Avanos Material Adverse Effect | Avanos officer certificate | Parent and Merger Subsidiary covenant compliance | Parent representation and warranty accuracy | Parent officer certificate,Company Stockholder Approval | HSR Act waiting period expiration | Required Regulatory Approvals,,mismatch
+learned,0001104659-26-068378,PREM14A,cash_consideration_qualifications,Without interest | Adjustment for changes in outstanding shares,No conditions,,mismatch
+learned,0001104659-26-068378,PREM14A,stock_exchange_ratio_qualifications,,No conditions,,fp_no_gt
+learned,0001104659-26-068378,PREM14A,event_status_details,"Merger agreement dated April 13, 2026; HSR waiting period terminated early May 26, 2026","Merger Agreement entered on April 13, 2026; requires Company Stockholder Approval for completion",,mismatch
+learned,0001829126-26-005869,8-K,stock_exchange_ratio,"25,000,000 divided by Company Fully Diluted Capital Stock shares of SPACSphere Acquisition Corp. common stock per share",0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001829126-26-005869,8-K,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-005869,8-K,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-005869,8-K,effective_date,,7/15/2026,,fp_no_gt
+learned,0001829126-26-005869,8-K,event_status,Announced,Completed,,mismatch
+learned,0001829126-26-005869,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001829126-26-005869,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001829126-26-005869,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-005869,8-K,closing_conditions,Mobilewalla stockholder approval | SPACSphere shareholder approval | No legal restraint | Form S-4 effectiveness | Nasdaq listing approval | Representations and warranties accuracy | Covenant compliance | No Company Material Adverse Effect | Closing certificates | Ancillary agreements | No more than 5% dissenting shares | Audited financial statements | Required consents | Conversion of Mobilewalla securities | Good-standing certificates | Director resignations | Equity incentive plan adoption | Executive employment agreement,"approval of the Business Combination and related agreements and transactions by the respective shareholders of SPACSphere and Mobilewalla | effectiveness of the registration statement on Form S-4 to be filed by SPACSphere in connection with the Business Combination | the absence of any law, judgement, order, statute, rule, or regulation prohibiting the consummation of the Business Combination | receipt of approval for listing on Nasdaq the shares of New SPACSphere Common Stock and New SPACSphere Warrants to be issued in connection with the Business Combination",,mismatch
+learned,0001829126-26-005869,8-K,cash_consideration_qualifications,Applicable tax withholding,No cash consideration,,mismatch
+learned,0001829126-26-005869,8-K,stock_exchange_ratio_qualifications,Fractional shares rounded up after aggregation by holder | Equitable adjustment for changes to acquirer common stock before effective time,No stock exchange ratio qualifications,,mismatch
+learned,0001829126-26-005869,8-K,other_consideration,,No other consideration,,fp_no_gt
+learned,0001829126-26-005869,8-K,event_status_details,"Business Combination Agreement signed May 29, 2026; announced June 1, 2026","Business Combination Agreement entered into on May 29, 2026",,tp
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001193125-26-266069,DEFM14A,election_deadline,,"11:59 PM Eastern Time, July 12, 2026",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,7/13/2026 9:00 AM Pacific Time,7/13/2026 9:00 AM Pacific Time,,tp
+learned,0001193125-26-266069,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-266069,DEFM14A,consideration_type,Other,Mixed cash and stock,,mismatch
+learned,0001193125-26-266069,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-266069,DEFM14A,default_option,,$39.00 cash + 1 CVR,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,closing_conditions,Stockholder approval of merger agreement and holding company reorganization | No legal restraint | HSR waiting period expiration | Completion of holding company reorganization and CVR spin | Required representations and warranties | Material performance of obligations | No continuing material adverse effect,"Adoption of Merger Agreement, approval of Holding Company Reorganization by XOMA Royalty stockholders",,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration_qualifications,Without interest | Required tax withholding | Contingent CVR payments,Subject to deduction for any required withholding tax,,mismatch
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio_qualifications,,"No collars, caps, adjustments or fractional-share treatment",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,other_consideration,One CVR per share; contingent cash payments from Janssen Litigation proceeds,Contingent value rights (CVRs) from Janssen Litigation,,mismatch
+learned,0001193125-26-266069,DEFM14A,event_status_details,"Merger agreement dated April 27, 2026; amended May 16, 2026 to add HoldCo","Merger Agreement dated April 27, 2026, amended May 16, 2026; Holding Company Reorganization pending stockholder approval",,tp
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001193125-26-266069,DEFM14A,election_deadline,,"11:59 PM Eastern Time, July 12, 2026",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,7/13/2026 9:00 AM Pacific Time,,absence_value
+learned,0001193125-26-266069,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-266069,DEFM14A,consideration_type,Cash,Mixed cash and stock,,mismatch
+learned,0001193125-26-266069,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-266069,DEFM14A,default_option,,$39.00 cash + 1 CVR,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,closing_conditions,Stockholder approval of merger agreement and holding company reorganization | No legal restraint | HSR waiting period expiration | Completion of holding company reorganization and CVR spin | Required representations and warranties | Material performance of obligations | No continuing material adverse effect,"Adoption of Merger Agreement, approval of Holding Company Reorganization by XOMA Royalty stockholders",,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration_qualifications,Accrued and unpaid dividends through redemption date,Subject to deduction for any required withholding tax,,mismatch
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio_qualifications,,"No collars, caps, adjustments or fractional-share treatment",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,other_consideration,,Contingent value rights (CVRs) from Janssen Litigation,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,event_status_details,"Merger agreement dated April 27, 2026; amended May 16, 2026 to add HoldCo","Merger Agreement dated April 27, 2026, amended May 16, 2026; Holding Company Reorganization pending stockholder approval",,tp
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001193125-26-266069,DEFM14A,election_deadline,,"11:59 PM Eastern Time, July 12, 2026",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,7/13/2026 9:00 AM Pacific Time,,absence_value
+learned,0001193125-26-266069,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-266069,DEFM14A,consideration_type,Cash,Mixed cash and stock,,mismatch
+learned,0001193125-26-266069,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-266069,DEFM14A,default_option,,$39.00 cash + 1 CVR,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,closing_conditions,Stockholder approval of merger agreement and holding company reorganization | No legal restraint | HSR waiting period expiration | Completion of holding company reorganization and CVR spin | Required representations and warranties | Material performance of obligations | No continuing material adverse effect,"Adoption of Merger Agreement, approval of Holding Company Reorganization by XOMA Royalty stockholders",,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration_qualifications,Accrued and unpaid dividends through redemption date,Subject to deduction for any required withholding tax,,mismatch
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio_qualifications,,"No collars, caps, adjustments or fractional-share treatment",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,other_consideration,,Contingent value rights (CVRs) from Janssen Litigation,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,event_status_details,"Merger agreement dated April 27, 2026; amended May 16, 2026 to add HoldCo","Merger Agreement dated April 27, 2026, amended May 16, 2026; Holding Company Reorganization pending stockholder approval",,tp
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,1 share of HoldCo common stock per share,No stock consideration,,mismatch
+learned,0001193125-26-266069,DEFM14A,election_deadline,,"11:59 PM Eastern Time, July 12, 2026",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,7/13/2026 9:00 AM Pacific Time,7/13/2026 9:00 AM Pacific Time,,tp
+learned,0001193125-26-266069,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-266069,DEFM14A,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001193125-26-266069,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-266069,DEFM14A,default_option,,$39.00 cash + 1 CVR,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,closing_conditions,Approval of holding company reorganization and merger agreement | No legal restraint | Other reorganization agreement conditions | Principal merger agreement in force | Parent consent | Execution of CVR trust and CVR agreements,"Adoption of Merger Agreement, approval of Holding Company Reorganization by XOMA Royalty stockholders",,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration_qualifications,,Subject to deduction for any required withholding tax,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio_qualifications,,"No collars, caps, adjustments or fractional-share treatment",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,other_consideration,,Contingent value rights (CVRs) from Janssen Litigation,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,event_status_details,Holding company reorganization to precede the Ligand merger,"Merger Agreement dated April 27, 2026, amended May 16, 2026; Holding Company Reorganization pending stockholder approval",,mismatch
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,1 share of corresponding HoldCo preferred stock per share,No stock consideration,,mismatch
+learned,0001193125-26-266069,DEFM14A,election_deadline,,"11:59 PM Eastern Time, July 12, 2026",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,7/13/2026 9:00 AM Pacific Time,,absence_value
+learned,0001193125-26-266069,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-266069,DEFM14A,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001193125-26-266069,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-266069,DEFM14A,default_option,,$39.00 cash + 1 CVR,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,closing_conditions,Approval of holding company reorganization and merger agreement | No legal restraint | Other reorganization agreement conditions | Principal merger agreement in force | Parent consent | Execution of CVR trust and CVR agreements,"Adoption of Merger Agreement, approval of Holding Company Reorganization by XOMA Royalty stockholders",,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration_qualifications,,Subject to deduction for any required withholding tax,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio_qualifications,,"No collars, caps, adjustments or fractional-share treatment",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,other_consideration,,Contingent value rights (CVRs) from Janssen Litigation,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,event_status_details,Holding company reorganization to precede the Ligand merger,"Merger Agreement dated April 27, 2026, amended May 16, 2026; Holding Company Reorganization pending stockholder approval",,mismatch
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio,1 share of corresponding HoldCo preferred stock per share,No stock consideration,,mismatch
+learned,0001193125-26-266069,DEFM14A,election_deadline,,"11:59 PM Eastern Time, July 12, 2026",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,7/13/2026 9:00 AM Pacific Time,,absence_value
+learned,0001193125-26-266069,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-266069,DEFM14A,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001193125-26-266069,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-266069,DEFM14A,default_option,,$39.00 cash + 1 CVR,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,closing_conditions,Approval of holding company reorganization and merger agreement | No legal restraint | Other reorganization agreement conditions | Principal merger agreement in force | Parent consent | Execution of CVR trust and CVR agreements,"Adoption of Merger Agreement, approval of Holding Company Reorganization by XOMA Royalty stockholders",,mismatch
+learned,0001193125-26-266069,DEFM14A,cash_consideration_qualifications,,Subject to deduction for any required withholding tax,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,stock_exchange_ratio_qualifications,,"No collars, caps, adjustments or fractional-share treatment",,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,other_consideration,,Contingent value rights (CVRs) from Janssen Litigation,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,event_status_details,Holding company reorganization to precede the Ligand merger,"Merger Agreement dated April 27, 2026, amended May 16, 2026; Holding Company Reorganization pending stockholder approval",,mismatch
+learned,0001193125-26-280277,DEFM14A,stock_exchange_ratio,0.6539 AkzoNobel ordinary shares per share,"0.6539 of a duly authorized, validly issued and fully paid common share of AkzoNobel",,tp
+learned,0001193125-26-280277,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001193125-26-280277,DEFM14A,shareholder_vote_date,8/5/2026 9:00 AM Eastern Time,8/5/2026 9:00 AM Eastern Time,,tp
+learned,0001193125-26-280277,DEFM14A,event_status,Amended,Pending,,mismatch
+learned,0001193125-26-280277,DEFM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001193125-26-280277,DEFM14A,available_options,No holder election,0.6539 AkzoNobel ordinary shares | Cash in lieu of fractional shares,,absence_value
+learned,0001193125-26-280277,DEFM14A,default_option,,0.6539 AkzoNobel ordinary shares,,fp_no_gt
+learned,0001193125-26-280277,DEFM14A,closing_conditions,Regulatory clearances | AkzoNobel works council consultation | Parties’ representations and covenant compliance | AkzoNobel shareholder approval | Axalta shareholder approval | Form F-4 effectiveness | EU listing document publication | NYSE listing authorization | Pre-completion distribution | No legal restraint | No insolvency proceedings | No material adverse effect,Axalta shareholder approval | AkzoNobel shareholder approval | Regulatory approvals | Satisfaction of customary closing conditions,,mismatch
+learned,0001193125-26-280277,DEFM14A,cash_consideration_qualifications,Cash in lieu of fractional shares,€2.5 billion minus regular annual and interim dividends declared by AkzoNobel in 2026,,mismatch
+learned,0001193125-26-280277,DEFM14A,stock_exchange_ratio_qualifications,Adjustment for specified share changes | No fractional shares; cash in lieu,No fractional shares; cash in lieu of fractional shares,,tp
+learned,0001193125-26-280277,DEFM14A,other_consideration,,Pre-completion distribution of €2.5 billion,,fp_no_gt
+learned,0001193125-26-280277,DEFM14A,event_status_details,"Merger Agreement dated November 18, 2025; amended May 27, 2026","Merger agreement dated November 18, 2025 (amended May 27, 2026); pending shareholder approval",,tp
+learned,0001140361-26-026757,S-4,stock_exchange_ratio,2.793 Equity Residential common shares per share,2.793 common shares of Equity Residential common shares per share of AvalonBay common stock,,tp
+learned,0001140361-26-026757,S-4,event_status,Pending,Pending,,tp
+learned,0001140361-26-026757,S-4,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001140361-26-026757,S-4,available_options,No holder election,No holder election,,absence_matched
+learned,0001140361-26-026757,S-4,default_option,,2.793 Equity Residential common shares and cash in lieu of fractional shares,,fp_no_gt
+learned,0001140361-26-026757,S-4,closing_conditions,Equity Residential shareholder approval | AvalonBay stockholder approval | No legal prohibition | S-4 effectiveness | NYSE listing approval | Representations and warranties | Covenant compliance | No continuing material adverse effect | Officer certificates | REIT status opinions | Section 368 tax opinions,Approval of AvalonBay merger proposal by AvalonBay stockholders | Approval of Equity Residential share issuance proposal by Equity Residential shareholders | Absence of injunction or order prohibiting the merger,,mismatch
+learned,0001140361-26-026757,S-4,cash_consideration_qualifications,Cash in lieu of fractional shares | Required tax withholding,,,fn_no_pred
+learned,0001140361-26-026757,S-4,stock_exchange_ratio_qualifications,Capitalization adjustments | Cash in lieu of fractional shares,,,fn_no_pred
+learned,0001140361-26-026757,S-4,event_status_details,"Merger agreement signed May 20, 2026; shareholder approvals pending","Merger agreement dated May 20, 2026; subject to shareholder approvals and no injunction",,tp
+learned,0001829126-26-007145,S-4,stock_exchange_ratio,"Implied ownership percentage of the 50,000,000 PubCo shares per share","50,000,000 shares of PubCo Common Stock per share of Exascale security",,tp
+learned,0001829126-26-007145,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-007145,S-4,shareholder_vote_date,,10/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-007145,S-4,event_status,Pending,Pending,,tp
+learned,0001829126-26-007145,S-4,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001829126-26-007145,S-4,available_options,No holder election,PubCo Class A Ordinary Common Stock | PubCo Class B Super Common Stock,,absence_value
+learned,0001829126-26-007145,S-4,default_option,,PubCo Class A Ordinary Common Stock,,fp_no_gt
+learned,0001829126-26-007145,S-4,closing_conditions,"BCAR and Exascale shareholder approvals | No legal restraint | Nasdaq listing approval | S-4 effectiveness | At least $5,000,000 in minimum cash financing | Material accuracy of representations and warranties | Material performance of obligations | No material adverse effect",approval of the Business Combination and related agreements and transactions by the respective shareholders of BCAR and Exascale | effectiveness of the registration statement on Form S-4,,mismatch
+learned,0001829126-26-007145,S-4,stock_exchange_ratio_qualifications,Final rounding and closing adjustments,,,fn_no_pred
+learned,0001829126-26-007145,S-4,event_status_details,"Business Combination Agreement signed January 11, 2026; shareholder approval pending","Business Combination Agreement dated January 11, 2026; approval of proposals by BCAR shareholders at Extraordinary General Meeting",,tp
+learned,0001829126-26-007145,S-4,stock_exchange_ratio,"Implied ownership percentage of the 50,000,000 PubCo shares per share","50,000,000 shares of PubCo Common Stock per share of Exascale security",,tp
+learned,0001829126-26-007145,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-007145,S-4,shareholder_vote_date,,10/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-007145,S-4,event_status,Pending,Pending,,tp
+learned,0001829126-26-007145,S-4,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001829126-26-007145,S-4,available_options,No holder election,PubCo Class A Ordinary Common Stock | PubCo Class B Super Common Stock,,absence_value
+learned,0001829126-26-007145,S-4,default_option,,PubCo Class A Ordinary Common Stock,,fp_no_gt
+learned,0001829126-26-007145,S-4,closing_conditions,"BCAR and Exascale shareholder approvals | No legal restraint | Nasdaq listing approval | S-4 effectiveness | At least $5,000,000 in minimum cash financing | Material accuracy of representations and warranties | Material performance of obligations | No material adverse effect",approval of the Business Combination and related agreements and transactions by the respective shareholders of BCAR and Exascale | effectiveness of the registration statement on Form S-4,,mismatch
+learned,0001829126-26-007145,S-4,stock_exchange_ratio_qualifications,Final rounding and closing adjustments,,,fn_no_pred
+learned,0001829126-26-007145,S-4,event_status_details,"Business Combination Agreement signed January 11, 2026; shareholder approval pending","Business Combination Agreement dated January 11, 2026; approval of proposals by BCAR shareholders at Extraordinary General Meeting",,tp
+learned,0001829126-26-007145,S-4,stock_exchange_ratio,1 share of PubCo Class A Ordinary Common Stock per share,"50,000,000 shares of PubCo Common Stock per share of Exascale security",,mismatch
+learned,0001829126-26-007145,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-007145,S-4,shareholder_vote_date,,10/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-007145,S-4,event_status,Pending,Pending,,tp
+learned,0001829126-26-007145,S-4,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001829126-26-007145,S-4,available_options,No holder election,PubCo Class A Ordinary Common Stock | PubCo Class B Super Common Stock,,absence_value
+learned,0001829126-26-007145,S-4,default_option,,PubCo Class A Ordinary Common Stock,,fp_no_gt
+learned,0001829126-26-007145,S-4,closing_conditions,BCAR shareholder approval | Other condition precedent proposals approved | Acquisition Merger can be completed,approval of the Business Combination and related agreements and transactions by the respective shareholders of BCAR and Exascale | effectiveness of the registration statement on Form S-4,,mismatch
+learned,0001829126-26-007145,S-4,event_status_details,"Domestication Merger proposed as part of the January 11, 2026 Business Combination Agreement","Business Combination Agreement dated January 11, 2026; approval of proposals by BCAR shareholders at Extraordinary General Meeting",,mismatch
+learned,0001829126-26-007145,S-4,stock_exchange_ratio,1 share of PubCo Class A Ordinary Common Stock per share,"50,000,000 shares of PubCo Common Stock per share of Exascale security",,mismatch
+learned,0001829126-26-007145,S-4,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-007145,S-4,shareholder_vote_date,,10/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-007145,S-4,event_status,Pending,Pending,,tp
+learned,0001829126-26-007145,S-4,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001829126-26-007145,S-4,available_options,No holder election,PubCo Class A Ordinary Common Stock | PubCo Class B Super Common Stock,,absence_value
+learned,0001829126-26-007145,S-4,default_option,,PubCo Class A Ordinary Common Stock,,fp_no_gt
+learned,0001829126-26-007145,S-4,closing_conditions,BCAR shareholder approval | Other condition precedent proposals approved | Acquisition Merger can be completed,approval of the Business Combination and related agreements and transactions by the respective shareholders of BCAR and Exascale | effectiveness of the registration statement on Form S-4,,mismatch
+learned,0001829126-26-007145,S-4,event_status_details,"Domestication Merger proposed as part of the January 11, 2026 Business Combination Agreement","Business Combination Agreement dated January 11, 2026; approval of proposals by BCAR shareholders at Extraordinary General Meeting",,mismatch
+learned,0001493152-26-032938,8-K,stock_exchange_ratio,GH Power Exchange Ratio Pubco Common Shares per share,0.1 Pubco Common Shares per Matinas Common Stock,,mismatch
+learned,0001493152-26-032938,8-K,event_status,Pending,Pending,,tp
+learned,0001493152-26-032938,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001493152-26-032938,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001493152-26-032938,8-K,default_option,,0.1 Pubco Common Shares,,fp_no_gt
+learned,0001493152-26-032938,8-K,closing_conditions,Matinas stockholder approval | GH Power shareholder approval | No legal restraint | Pubco board appointments | Acceptable Pubco organizational documents | Pubco foreign private issuer status | Form F-4 effectiveness | NYSE listing approval | Ontario court orders | GH Power PIPE financing of at least $15 million | Customary representations and covenant conditions,PIPE Financing of at least $15.0 million | Required Matinas Stockholder Approval | Required GH Power Shareholder Approval | F-4 Registration Statement effectiveness | Interim Order and Final Order on terms consistent with BCA,,mismatch
+learned,0001493152-26-032938,8-K,stock_exchange_ratio_qualifications,Valuations adjusted for capital raised before effectiveness | Fractional shares rounded down | Dissenting shareholders receive fair value,,,fn_no_pred
+learned,0001493152-26-032938,8-K,event_status_details,"Business Combination Agreement signed July 10, 2026; closing subject to conditions","Business Combination Agreement entered on July 10, 2026; requires stockholder approvals and other conditions",,tp
+learned,0001493152-26-032938,8-K,stock_exchange_ratio,GH Power Exchange Ratio Pubco Common Shares per as-converted common share,0.1 Pubco Common Shares per Matinas Common Stock,,mismatch
+learned,0001493152-26-032938,8-K,event_status,Pending,Pending,,tp
+learned,0001493152-26-032938,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001493152-26-032938,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001493152-26-032938,8-K,default_option,,0.1 Pubco Common Shares,,fp_no_gt
+learned,0001493152-26-032938,8-K,closing_conditions,Matinas stockholder approval | GH Power shareholder approval | No legal restraint | Pubco board appointments | Acceptable Pubco organizational documents | Pubco foreign private issuer status | Form F-4 effectiveness | NYSE listing approval | Ontario court orders | GH Power PIPE financing of at least $15 million | Customary representations and covenant conditions,PIPE Financing of at least $15.0 million | Required Matinas Stockholder Approval | Required GH Power Shareholder Approval | F-4 Registration Statement effectiveness | Interim Order and Final Order on terms consistent with BCA,,mismatch
+learned,0001493152-26-032938,8-K,stock_exchange_ratio_qualifications,As-converted to GH Power Common Shares | Valuations adjusted for capital raised before effectiveness | Fractional shares rounded down | Dissenting shareholders receive fair value,,,fn_no_pred
+learned,0001493152-26-032938,8-K,event_status_details,"Business Combination Agreement signed July 10, 2026; closing subject to conditions","Business Combination Agreement entered on July 10, 2026; requires stockholder approvals and other conditions",,tp
+learned,0001493152-26-032938,8-K,stock_exchange_ratio,0.1 Pubco Common Share per share,0.1 Pubco Common Shares per Matinas Common Stock,,tp
+learned,0001493152-26-032938,8-K,event_status,Pending,Pending,,tp
+learned,0001493152-26-032938,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001493152-26-032938,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001493152-26-032938,8-K,default_option,,0.1 Pubco Common Shares,,fp_no_gt
+learned,0001493152-26-032938,8-K,closing_conditions,Matinas stockholder approval | GH Power shareholder approval | No legal restraint | Pubco board appointments | Acceptable Pubco organizational documents | Pubco foreign private issuer status | Form F-4 effectiveness | NYSE listing approval | Ontario court orders | GH Power PIPE financing of at least $15 million | GH Power amalgamation | Customary representations and covenant conditions,PIPE Financing of at least $15.0 million | Required Matinas Stockholder Approval | Required GH Power Shareholder Approval | F-4 Registration Statement effectiveness | Interim Order and Final Order on terms consistent with BCA,,mismatch
+learned,0001493152-26-032938,8-K,stock_exchange_ratio_qualifications,"Pubco may adjust ratio before closing, subject to ownership and listing constraints | Adjustments for stock splits and similar changes | Fractional shares rounded down | Dissenting shares subject to appraisal rights",,,fn_no_pred
+learned,0001493152-26-032938,8-K,event_status_details,"Business Combination Agreement signed July 10, 2026; closing subject to conditions","Business Combination Agreement entered on July 10, 2026; requires stockholder approvals and other conditions",,tp
+learned,0001493152-26-032938,8-K,stock_exchange_ratio,0.1 Pubco Common Share per as-converted common share,0.1 Pubco Common Shares per Matinas Common Stock,,tp
+learned,0001493152-26-032938,8-K,event_status,Pending,Pending,,tp
+learned,0001493152-26-032938,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001493152-26-032938,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001493152-26-032938,8-K,default_option,,0.1 Pubco Common Shares,,fp_no_gt
+learned,0001493152-26-032938,8-K,closing_conditions,Matinas stockholder approval | GH Power shareholder approval | No legal restraint | Pubco board appointments | Acceptable Pubco organizational documents | Pubco foreign private issuer status | Form F-4 effectiveness | NYSE listing approval | Ontario court orders | GH Power PIPE financing of at least $15 million | GH Power amalgamation | Customary representations and covenant conditions,PIPE Financing of at least $15.0 million | Required Matinas Stockholder Approval | Required GH Power Shareholder Approval | F-4 Registration Statement effectiveness | Interim Order and Final Order on terms consistent with BCA,,mismatch
+learned,0001493152-26-032938,8-K,stock_exchange_ratio_qualifications,"As-converted to Common Stock | Pubco may adjust common-share ratio before closing, subject to ownership and listing constraints | Fractional shares rounded down",,,fn_no_pred
+learned,0001493152-26-032938,8-K,event_status_details,"Business Combination Agreement signed July 10, 2026; closing subject to conditions","Business Combination Agreement entered on July 10, 2026; requires stockholder approvals and other conditions",,tp
+learned,0001104659-26-083113,DEFM14A,stock_exchange_ratio,2.793 Equity Residential common shares per share,"2.793 common shares of beneficial interest, par value $0.01 per share, of Equity Residential",,tp
+learned,0001104659-26-083113,DEFM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001104659-26-083113,DEFM14A,shareholder_vote_date,8/12/2026 9:00 AM Eastern Time,8/12/2026,,tp
+learned,0001104659-26-083113,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001104659-26-083113,DEFM14A,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001104659-26-083113,DEFM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-083113,DEFM14A,default_option,,"2.793 common shares of beneficial interest, par value $0.01 per share, of Equity Residential",,fp_no_gt
+learned,0001104659-26-083113,DEFM14A,closing_conditions,AvalonBay stockholder approval | Equity Residential shareholder approval of share issuance | No legal prohibition | Form S-4 effectiveness | NYSE listing approval | Representations and warranties | Performance of covenants | No material adverse effect | Officer certificates | REIT status opinions | Section 368 reorganization opinions,"approval of the AvalonBay merger proposal by AvalonBay stockholders, approval of the Equity Residential share issuance proposal by Equity Residential shareholders, absence of any injunction or order by any court or other governmental entity prohibiting or making illegal the merger",,mismatch
+learned,0001104659-26-083113,DEFM14A,cash_consideration_qualifications,Cash in lieu of fractional shares,cash in lieu of fractional shares,,tp
+learned,0001104659-26-083113,DEFM14A,stock_exchange_ratio_qualifications,Capitalization adjustments | REIT distribution adjustments | No fractional shares issued,no fractional shares,,tp
+learned,0001104659-26-083113,DEFM14A,event_status_details,"Merger agreement signed May 20, 2026; shareholder votes scheduled","Agreement date: May 20, 2026; approvals required: AvalonBay stockholder approval, Equity Residential shareholder approval",,mismatch
+learned,0001193125-26-307826,PREM14A,stock_exchange_ratio,New issuance of DXL common stock divided by outstanding FBB common stock per share,0.400 shares of DXL common stock per share of FBB common stock,,mismatch
+learned,0001193125-26-307826,PREM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001193125-26-307826,PREM14A,shareholder_vote_date,12/11/2025,6/11/2026 10:00 AM Eastern Time,,mismatch
+learned,0001193125-26-307826,PREM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-307826,PREM14A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001193125-26-307826,PREM14A,available_options,No holder election,DXL common stock | Cash,,absence_value
+learned,0001193125-26-307826,PREM14A,default_option,,DXL common stock,,fp_no_gt
+learned,0001193125-26-307826,PREM14A,closing_conditions,FBB stockholder approval | DXL stockholder approval of share issuance | Nasdaq listing authorization | Pre-closing investment | No legal restraint | Required representations and warranties | Required performance of obligations | No material adverse effect | Officer certificates | FBB corporate actions,"approval by DXL stockholders, approval by Nasdaq of DXL’s listing application for DXL common stock to be issued as merger consideration",,mismatch
+learned,0001193125-26-307826,PREM14A,cash_consideration_qualifications,,Nasdaq initial listing standards,,fp_no_gt
+learned,0001193125-26-307826,PREM14A,stock_exchange_ratio_qualifications,Capital-structure adjustments | Fractional shares rounded up to whole shares,No fractional shares; fractional shares rounded up to nearest whole number,,tp
+learned,0001193125-26-307826,PREM14A,event_status_details,"Agreement signed December 11, 2025; DXL Board now recommends against the share issuance","Merger agreement entered on December 11, 2025; subject to stockholder approval and Nasdaq listing",,mismatch
+learned,0001104659-26-086863,425,stock_exchange_ratio,1 ListCo Common Share per share,1 share of ListCo Common Share per CGC Share,,tp
+learned,0001104659-26-086863,425,event_status,Pending,Pending,,tp
+learned,0001104659-26-086863,425,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-086863,425,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-086863,425,default_option,,1 share of ListCo Common Share per CGC Share,,fp_no_gt
+learned,0001104659-26-086863,425,closing_conditions,Antitrust and foreign investment approvals | No legal restraint | Registration statement effectiveness | CGC shareholder approval | Nasdaq listing approval | Required transaction proposal approvals | No continuing Company Material Adverse Effect | InoBat shareholder undertaking,"requisite approvals of CGC’s shareholders, fulfillment of other customary closing conditions",,mismatch
+learned,0001104659-26-086863,425,event_status_details,"Business Combination Agreement signed July 24, 2026","Business Combination Agreement entered on July 24, 2026; unanimously approved by boards of directors",,tp
+learned,0001140361-26-030109,PREM14A,stock_exchange_ratio,No stock consideration,1 contingent value right (CVR) per share,,absence_value
+learned,0001140361-26-030109,PREM14A,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001140361-26-030109,PREM14A,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001140361-26-030109,PREM14A,event_status,Pending,Pending,,tp
+learned,0001140361-26-030109,PREM14A,consideration_type,Other,Elective consideration,,mismatch
+learned,0001140361-26-030109,PREM14A,available_options,No holder election,Cash | Contingent value right (CVR),,absence_value
+learned,0001140361-26-030109,PREM14A,default_option,,Cash,,fp_no_gt
+learned,0001140361-26-030109,PREM14A,closing_conditions,AtaiBeckley stockholder approval | HSR waiting period expiration or termination | Required antitrust approvals and clearances | Expiration or termination of specified governmental delay agreements | No legal restraint | Accuracy of representations and warranties | Performance of covenants | No continuing AtaiBeckley material adverse effect | Closing certificates | No specified governmental proceeding pending,"Regulatory approvals from Australia, Germany, and other jurisdictions",,mismatch
+learned,0001140361-26-030109,PREM14A,cash_consideration_qualifications,Without interest | Less applicable tax withholding | CVR payments contingent on clinical and regulatory milestones | CVR milestone payments subject to offsets,No tax withholdings,,mismatch
+learned,0001140361-26-030109,PREM14A,stock_exchange_ratio_qualifications,,"No collars, caps, adjustments or fractional-share treatment",,fp_no_gt
+learned,0001140361-26-030109,PREM14A,other_consideration,1 CVR per share; up to $2.50 in cash upon specified clinical and regulatory milestones,Contingent value rights (CVRs),,mismatch
+learned,0001140361-26-030109,PREM14A,event_status_details,"Merger agreement signed July 15, 2026; stockholder approval and other closing conditions pending","Merger agreement dated July 15, 2026; pending regulatory approvals",,tp
+learned,0001213900-26-084286,425,stock_exchange_ratio,Aggregate Consideration divided by Company Fully Diluted Stock shares of Domesticated Purchaser Common Stock per share,0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001213900-26-084286,425,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-084286,425,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001213900-26-084286,425,effective_date,,12/31/2026,,fp_no_gt
+learned,0001213900-26-084286,425,event_status,Pending,Completed,,mismatch
+learned,0001213900-26-084286,425,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001213900-26-084286,425,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-26-084286,425,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-084286,425,closing_conditions,Bluerock shareholder approval | Yellow stockholder approval | HSR waiting period expiration | No legal restraint | Registration Statement effectiveness | Nasdaq listing approval | Representation accuracy and covenant performance | No continuing material adverse effect | Domestication | 2026 Milestone Equity Plan adoption | Yellow stockholder lock-up agreements | SAFE amendments | Indian valuation report | Stockholder tax status reports | Specified pre-closing actions,Required shareholder approvals,,mismatch
+learned,0001213900-26-084286,425,cash_consideration_qualifications,Cash instead of fractional shares | Potential Indian tax withholding,,,fn_no_pred
+learned,0001213900-26-084286,425,stock_exchange_ratio_qualifications,$300 million equity value subject to indebtedness and working-capital adjustments | Fractional shares rounded down,,,fn_no_pred
+learned,0001213900-26-084286,425,event_status_details,"Business Combination Agreement signed July 31, 2026; shareholder approvals and other closing conditions remain outstanding","Agreement signed on July 31, 2026",,tp
+learned,0001193125-26-347541,425,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001193125-26-347541,425,event_status,Pending,Pending,,tp
+learned,0001193125-26-347541,425,consideration_type,,Elective consideration,,fp_no_gt
+learned,0001193125-26-347541,425,available_options,,No holder election,,fp_no_gt
+learned,0001193125-26-347541,425,default_option,,No stock consideration,,fp_no_gt
+learned,0001193125-26-347541,425,closing_conditions,SPACSphere shareholder approval | Mobilewalla stockholder approval | S-4 effectiveness | Other customary closing conditions,"approval by SPACSphere and Mobilewalla shareholders, Registration Statement declared effective by SEC",,mismatch
+learned,0001193125-26-347541,425,event_status_details,"Form S-4 filed August 12, 2026; shareholder approvals and SEC effectiveness pending","Business Combination Agreement entered into on June 1, 2026; transaction expected to close in second half of 2026",,mismatch
+learned,0001193125-26-361757,PREM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001193125-26-361757,PREM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-361757,PREM14A,consideration_type,Cash,Cash,,tp
+learned,0001193125-26-361757,PREM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-361757,PREM14A,default_option,,Cash,,fp_no_gt
+learned,0001193125-26-361757,PREM14A,closing_conditions,"Utz stockholder approvals | No legal restraint | HSR waiting period expiration | Ukrainian antitrust clearance | Required representations and warranties | Compliance with covenants | No continuing Company Material Adverse Effect | No Burdensome Condition | Concurrent TRA payment, tax receivable agreement termination and recapitalization | LLC operating agreement closing provisions effective | Continuing Stockholder certificates | Closing certificates",Satisfaction of conditions in Merger Agreement,,mismatch
+learned,0001193125-26-361757,PREM14A,cash_consideration_qualifications,Without interest | Subject to required tax withholding | Equitable adjustment for share changes before effectiveness,Subject to tax withholding,,mismatch
+learned,0001193125-26-361757,PREM14A,event_status_details,"Merger Agreement dated July 20, 2026; preliminary proxy statement dated August 24, 2026","Merger Agreement dated July 20, 2026; pending stockholder approval",,tp
+learned,0001193125-26-361757,PREM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001193125-26-361757,PREM14A,event_status,Pending,Pending,,tp
+learned,0001193125-26-361757,PREM14A,consideration_type,Other,Cash,,mismatch
+learned,0001193125-26-361757,PREM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001193125-26-361757,PREM14A,default_option,,Cash,,fp_no_gt
+learned,0001193125-26-361757,PREM14A,closing_conditions,"Utz stockholder approvals | No legal restraint | HSR waiting period expiration | Ukrainian antitrust clearance | Required representations and warranties | Compliance with covenants | No continuing Company Material Adverse Effect | No Burdensome Condition | Concurrent TRA payment, tax receivable agreement termination and recapitalization | LLC operating agreement closing provisions effective | Continuing Stockholder certificates | Closing certificates",Satisfaction of conditions in Merger Agreement,,mismatch
+learned,0001193125-26-361757,PREM14A,cash_consideration_qualifications,,Subject to tax withholding,,fp_no_gt
+learned,0001193125-26-361757,PREM14A,event_status_details,"Merger Agreement dated July 20, 2026; preliminary proxy statement dated August 24, 2026","Merger Agreement dated July 20, 2026; pending stockholder approval",,tp
+learned,0001213900-26-093229,8-K,stock_exchange_ratio,Exchange Ratio shares of New Ursa Major Common Stock per share,0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001213900-26-093229,8-K,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-093229,8-K,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001213900-26-093229,8-K,effective_date,,8/24/2026,,fp_no_gt
+learned,0001213900-26-093229,8-K,event_status,Pending,Completed,,mismatch
+learned,0001213900-26-093229,8-K,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001213900-26-093229,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-26-093229,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-093229,8-K,closing_conditions,Mach X shareholder approval | Ursa Major stockholder approval | No adverse law or order | Registration Statement effectiveness | Nasdaq listing approval | Representations and warranties accuracy | Covenant performance | HSR waiting period expiration | Domestication completion | $150 million minimum cash,Mach X Shareholder Approval,,mismatch
+learned,0001213900-26-093229,8-K,stock_exchange_ratio_qualifications,Fractional shares rounded down,,,fn_no_pred
+learned,0001213900-26-093229,8-K,event_status_details,"Business Combination Agreement signed August 24, 2026","August 24, 2026",,tp
+learned,0001213900-26-093229,8-K,stock_exchange_ratio,Aggregate accrued value divided by $12.00 shares of New Ursa Major Series A Preferred Stock per share,0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001213900-26-093229,8-K,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-093229,8-K,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001213900-26-093229,8-K,effective_date,,8/24/2026,,fp_no_gt
+learned,0001213900-26-093229,8-K,event_status,Pending,Completed,,mismatch
+learned,0001213900-26-093229,8-K,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001213900-26-093229,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-26-093229,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-093229,8-K,closing_conditions,Mach X shareholder approval | Ursa Major stockholder approval | No adverse law or order | Registration Statement effectiveness | Nasdaq listing approval | Representations and warranties accuracy | Covenant performance | HSR waiting period expiration | Domestication completion | $150 million minimum cash,Mach X Shareholder Approval,,mismatch
+learned,0001213900-26-093229,8-K,stock_exchange_ratio_qualifications,Accrued dividends included | Rounded up to nearest whole share,,,fn_no_pred
+learned,0001213900-26-093229,8-K,event_status_details,"Business Combination Agreement signed August 24, 2026","August 24, 2026",,tp
+learned,0001213900-26-093229,8-K,stock_exchange_ratio,,0.400 shares of Cliffs common stock per share,,fp_no_gt
+learned,0001213900-26-093229,8-K,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-093229,8-K,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001213900-26-093229,8-K,effective_date,,8/24/2026,,fp_no_gt
+learned,0001213900-26-093229,8-K,event_status,Pending,Completed,,mismatch
+learned,0001213900-26-093229,8-K,consideration_type,Other,Mixed cash and stock,,mismatch
+learned,0001213900-26-093229,8-K,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-26-093229,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-093229,8-K,closing_conditions,Mach X shareholder approval | Ursa Major stockholder approval | No adverse law or order | Registration Statement effectiveness | Nasdaq listing approval | Representations and warranties accuracy | Covenant performance | HSR waiting period expiration | Domestication completion | $150 million minimum cash,Mach X Shareholder Approval,,mismatch
+learned,0001213900-26-093229,8-K,other_consideration,Series A warrants to purchase New Ursa Major Common Stock; shares purchasable equal aggregate warrant exercise price divided by $12.00,,,fn_no_pred
+learned,0001213900-26-093229,8-K,event_status_details,"Business Combination Agreement signed August 24, 2026","August 24, 2026",,tp
+learned,0001753926-26-001637,DEFM14A,stock_exchange_ratio,"$27.00 divided by Rocket Lab Stock Price, subject to 0.2400–0.4000 shares of Rocket Lab Common Stock per share",0.400 shares of Rocket Lab Common Stock per share,,mismatch
+learned,0001753926-26-001637,DEFM14A,election_deadline,,"8:15 AM Eastern Time, August 21, 2026",,fp_no_gt
+learned,0001753926-26-001637,DEFM14A,shareholder_vote_date,9/24/2026 8:30 AM Eastern Time,9/24/2026 8:30 AM Eastern Time,,tp
+learned,0001753926-26-001637,DEFM14A,event_status,Pending,Pending,,tp
+learned,0001753926-26-001637,DEFM14A,consideration_type,Mixed cash and stock,Elective consideration,,mismatch
+learned,0001753926-26-001637,DEFM14A,available_options,No holder election,0.400 shares of Rocket Lab Common Stock | 0.400 shares of Rocket Lab Common Stock + $27.00 cash,,absence_value
+learned,0001753926-26-001637,DEFM14A,default_option,,0.400 shares of Rocket Lab Common Stock + $27.00 cash,,fp_no_gt
+learned,0001753926-26-001637,DEFM14A,closing_conditions,Iridium stockholder approval | No legal restraint | HSR waiting period expiration | Other required regulatory approvals | Form S-4 effectiveness | Nasdaq listing approval | Covenant performance | Representation and warranty accuracy | No material adverse effect | Officer certificates,"Regulatory approvals, Iridium stockholder approval, satisfaction of other conditions",,mismatch
+learned,0001753926-26-001637,DEFM14A,cash_consideration_qualifications,Without interest | Applicable withholding | Equitable adjustment for share changes | Cash instead of fractional shares,No qualifications,,mismatch
+learned,0001753926-26-001637,DEFM14A,stock_exchange_ratio_qualifications,0.4000 at or below $67.50 | $27.00 divided by stock price between $67.50 and $112.50 | 0.2400 at or above $112.50 | Four-decimal rounding | Ten-trading-day volume-weighted average price | Equitable adjustment for share changes | Cash instead of fractional shares,Exchange Ratio based on Rocket Lab Stock Price,,mismatch
+learned,0001753926-26-001637,DEFM14A,event_status_details,"Merger agreement signed June 28, 2026; Iridium stockholder vote scheduled for September 24, 2026","Merger Agreement signed June 28, 2026; Iridium stockholder vote scheduled for September 24, 2026",,tp
+learned,0001104659-26-104858,8-K,stock_exchange_ratio,Exchange Ratio shares of Class A common stock per share,0.400 shares of SPAC Class A Common Stock per share of Company Common Stock,,mismatch
+learned,0001104659-26-104858,8-K,election_deadline,,"5:00 PM Eastern Time, two business days prior to Special Meeting",,fp_no_gt
+learned,0001104659-26-104858,8-K,shareholder_vote_date,,9/2/2026,,fp_no_gt
+learned,0001104659-26-104858,8-K,event_status,Pending,Pending,,tp
+learned,0001104659-26-104858,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-104858,8-K,available_options,No holder election,SPAC Class A Common Stock | SPAC Class B Common Stock,,absence_value
+learned,0001104659-26-104858,8-K,default_option,,SPAC Class A Common Stock,,fp_no_gt
+learned,0001104659-26-104858,8-K,closing_conditions,HSR waiting period expiration | No legal restraint | Minimum net tangible assets | Acquirer shareholder approval | Target stockholder approval | Governance arrangements | Board appointments | Stock exchange listing | Registration statement effectiveness | Minimum closing cash | Representations and covenants | No continuing material adverse effect | Domestication | Sponsor support agreement performance,"Shareholder approval, satisfaction of conditions",,mismatch
+learned,0001104659-26-104858,8-K,stock_exchange_ratio_qualifications,Ratio rounded to nearest 0.001 | Fractional merger shares rounded to nearest whole share | Contingent earnout shares,"Exchange Ratio based on $800,000,000 pre-money equity value",,mismatch
+learned,0001104659-26-104858,8-K,other_consideration,"Pro rata share of up to 70,000,000 contingent earnout shares",,,fn_no_pred
+learned,0001104659-26-104858,8-K,event_status_details,"Merger agreement signed September 2, 2026; closing remained subject to conditions.","Agreement dated September 2, 2026; requires shareholder approval and satisfaction of conditions",,mismatch
+learned,0001104659-26-104858,8-K,stock_exchange_ratio,Exchange Ratio shares of Class B common stock per share,0.400 shares of SPAC Class A Common Stock per share of Company Common Stock,,mismatch
+learned,0001104659-26-104858,8-K,election_deadline,,"5:00 PM Eastern Time, two business days prior to Special Meeting",,fp_no_gt
+learned,0001104659-26-104858,8-K,shareholder_vote_date,,9/2/2026,,fp_no_gt
+learned,0001104659-26-104858,8-K,event_status,Pending,Pending,,tp
+learned,0001104659-26-104858,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-104858,8-K,available_options,No holder election,SPAC Class A Common Stock | SPAC Class B Common Stock,,absence_value
+learned,0001104659-26-104858,8-K,default_option,,SPAC Class A Common Stock,,fp_no_gt
+learned,0001104659-26-104858,8-K,closing_conditions,HSR waiting period expiration | No legal restraint | Minimum net tangible assets | Acquirer shareholder approval | Target stockholder approval | Governance arrangements | Board appointments | Stock exchange listing | Registration statement effectiveness | Minimum closing cash | Representations and covenants | No continuing material adverse effect | Domestication | Sponsor support agreement performance,"Shareholder approval, satisfaction of conditions",,mismatch
+learned,0001104659-26-104858,8-K,stock_exchange_ratio_qualifications,Ratio rounded to nearest 0.001 | Fractional merger shares rounded to nearest whole share | Contingent earnout shares,"Exchange Ratio based on $800,000,000 pre-money equity value",,mismatch
+learned,0001104659-26-104858,8-K,other_consideration,"Pro rata share of up to 70,000,000 contingent earnout shares",,,fn_no_pred
+learned,0001104659-26-104858,8-K,event_status_details,"Merger agreement signed September 2, 2026; closing remained subject to conditions.","Agreement dated September 2, 2026; requires shareholder approval and satisfaction of conditions",,mismatch
+learned,0001104659-26-104858,8-K,stock_exchange_ratio,Exchange Ratio shares of Class C common stock per share,0.400 shares of SPAC Class A Common Stock per share of Company Common Stock,,mismatch
+learned,0001104659-26-104858,8-K,election_deadline,,"5:00 PM Eastern Time, two business days prior to Special Meeting",,fp_no_gt
+learned,0001104659-26-104858,8-K,shareholder_vote_date,,9/2/2026,,fp_no_gt
+learned,0001104659-26-104858,8-K,event_status,Pending,Pending,,tp
+learned,0001104659-26-104858,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-104858,8-K,available_options,No holder election,SPAC Class A Common Stock | SPAC Class B Common Stock,,absence_value
+learned,0001104659-26-104858,8-K,default_option,,SPAC Class A Common Stock,,fp_no_gt
+learned,0001104659-26-104858,8-K,closing_conditions,HSR waiting period expiration | No legal restraint | Minimum net tangible assets | Acquirer shareholder approval | Target stockholder approval | Governance arrangements | Board appointments | Stock exchange listing | Registration statement effectiveness | Minimum closing cash | Representations and covenants | No continuing material adverse effect | Domestication | Sponsor support agreement performance,"Shareholder approval, satisfaction of conditions",,mismatch
+learned,0001104659-26-104858,8-K,stock_exchange_ratio_qualifications,Ratio rounded to nearest 0.001 | Fractional merger shares rounded to nearest whole share | Contingent earnout shares,"Exchange Ratio based on $800,000,000 pre-money equity value",,mismatch
+learned,0001104659-26-104858,8-K,other_consideration,"Pro rata share of up to 70,000,000 contingent earnout shares",,,fn_no_pred
+learned,0001104659-26-104858,8-K,event_status_details,"Merger agreement signed September 2, 2026; closing remained subject to conditions.","Agreement dated September 2, 2026; requires shareholder approval and satisfaction of conditions",,mismatch
+learned,0001213900-26-098973,425,stock_exchange_ratio,,"15,000,000 shares of Class A common stock per share",,fp_no_gt
+learned,0001213900-26-098973,425,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001213900-26-098973,425,shareholder_vote_date,,9/11/2026,,fp_no_gt
+learned,0001213900-26-098973,425,effective_date,,1/31/2027,,fp_no_gt
+learned,0001213900-26-098973,425,event_status,Announced,Pending,,mismatch
+learned,0001213900-26-098973,425,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001213900-26-098973,425,available_options,No holder election,No holder election,,absence_matched
+learned,0001213900-26-098973,425,default_option,,"15,000,000 shares of Class A common stock",,fp_no_gt
+learned,0001213900-26-098973,425,closing_conditions,Aperture shareholder approval | Atlantic stockholder approval | Exchange approval | Regulatory approval | Other customary closing conditions,approval by Aperture’s shareholders and Atlantic’s stockholders,,mismatch
+learned,0001213900-26-098973,425,cash_consideration_qualifications,,no redemptions by Aperture’s public shareholders,,fp_no_gt
+learned,0001213900-26-098973,425,stock_exchange_ratio_qualifications,,no fractional shares,,fp_no_gt
+learned,0001213900-26-098973,425,other_consideration,,Earnout Shares,,fp_no_gt
+learned,0001213900-26-098973,425,event_status_details,"Business Combination Agreement dated September 10, 2026; announced September 11, 2026","Business Combination Agreement dated September 10, 2026",,tp
+learned,0001140361-26-036669,PREM14A,stock_exchange_ratio,No stock consideration,No stock consideration,,absence_matched
+learned,0001140361-26-036669,PREM14A,event_status,Pending,Pending,,tp
+learned,0001140361-26-036669,PREM14A,consideration_type,Cash,Cash,,tp
+learned,0001140361-26-036669,PREM14A,available_options,No holder election,No holder election,,absence_matched
+learned,0001140361-26-036669,PREM14A,default_option,,No stock consideration,,fp_no_gt
+learned,0001140361-26-036669,PREM14A,closing_conditions,Company stockholder approval | HSR waiting period expiration | Other required regulatory approvals and waiting periods | No legal restraint | Required representations and warranties accurate | Material covenant compliance | No Company Material Adverse Effect | Required officer certificates | Credit agreement payoff and lien-release documents | Real property holding corporation affidavit,Regulatory approvals required,,mismatch
+learned,0001140361-26-036669,PREM14A,cash_consideration_qualifications,Without interest | Applicable withholding taxes | Equitable adjustment for share changes,,,fn_no_pred
+learned,0001140361-26-036669,PREM14A,event_status_details,"Merger Agreement signed August 18, 2026; stockholder vote and closing pending","Merger Agreement dated August 18, 2026",,tp
+learned,0001829126-26-000261,425,stock_exchange_ratio,Per Share Merger Consideration divided by $10.00 in PubCo Class A shares per share,0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001829126-26-000261,425,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-000261,425,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-000261,425,effective_date,,1/11/2026,,fp_no_gt
+learned,0001829126-26-000261,425,event_status,Announced,Completed,,mismatch
+learned,0001829126-26-000261,425,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001829126-26-000261,425,available_options,No holder election,No holder election,,absence_matched
+learned,0001829126-26-000261,425,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-000261,425,closing_conditions,"BCAR shareholder approval | Exascale shareholder approval | No legal restraint | Nasdaq listing approval | Required governmental approvals | Redemption offer completion | At least $5,000,000 in available funds | Exascale representations and covenants | No Exascale material adverse effect | Exascale closing deliverables | BCAR, PubCo and Merger Sub representations and covenants | No BCAR material adverse effect | BCAR closing deliverables",BCAR complying with all of its obligations under the Merger Agreement in all material respects | the representations and warranties of BCAR being true on and as of the Closing in all material respects | there having been no Material Adverse Effect to BCAR,,mismatch
+learned,0001829126-26-000261,425,stock_exchange_ratio_qualifications,Fractional shares rounded to nearest whole share | Adjustment for share splits and similar changes,,,fn_no_pred
+learned,0001829126-26-000261,425,event_status_details,"Merger agreement signed January 11, 2026; proposed combination announced January 12, 2026","Agreement date: January 11, 2026",,tp
+learned,0001829126-26-000261,425,stock_exchange_ratio,Per Share Merger Consideration divided by $10.00 in PubCo Class B shares per share,0.400 shares of Cliffs common stock per share,,mismatch
+learned,0001829126-26-000261,425,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-000261,425,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-000261,425,effective_date,,1/11/2026,,fp_no_gt
+learned,0001829126-26-000261,425,event_status,Announced,Completed,,mismatch
+learned,0001829126-26-000261,425,consideration_type,Stock,Mixed cash and stock,,mismatch
+learned,0001829126-26-000261,425,available_options,No holder election,No holder election,,absence_matched
+learned,0001829126-26-000261,425,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-000261,425,closing_conditions,"BCAR shareholder approval | Exascale shareholder approval | No legal restraint | Nasdaq listing approval | Required governmental approvals | Redemption offer completion | At least $5,000,000 in available funds | Exascale representations and covenants | No Exascale material adverse effect | Exascale closing deliverables | BCAR, PubCo and Merger Sub representations and covenants | No BCAR material adverse effect | BCAR closing deliverables",BCAR complying with all of its obligations under the Merger Agreement in all material respects | the representations and warranties of BCAR being true on and as of the Closing in all material respects | there having been no Material Adverse Effect to BCAR,,mismatch
+learned,0001829126-26-000261,425,stock_exchange_ratio_qualifications,Fractional shares rounded to nearest whole share | Adjustment for share splits and similar changes,,,fn_no_pred
+learned,0001829126-26-000261,425,event_status_details,"Merger agreement signed January 11, 2026; proposed combination announced January 12, 2026","Agreement date: January 11, 2026",,tp
+learned,0001213900-26-010191,425,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001213900-26-010191,425,event_status,Pending,Announced,,mismatch
+learned,0001213900-26-010191,425,consideration_type,,Stock,,fp_no_gt
+learned,0001213900-26-010191,425,available_options,,No holder election,,fp_no_gt
+learned,0001213900-26-010191,425,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-010191,425,closing_conditions,Athena stockholder approval | Ace Green stockholder approval | Nasdaq listing of surviving company common stock,satisfaction or waiver of certain conditions precedent,,mismatch
+learned,0001213900-26-010191,425,event_status_details,"Business Combination Agreement dated December 4, 2024","Business Combination Agreement dated as of December 4, 2024",,tp
+learned,0001213900-26-010178,8-K,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001213900-26-010178,8-K,event_status,Pending,Pending,,tp
+learned,0001213900-26-010178,8-K,consideration_type,,Elective consideration,,fp_no_gt
+learned,0001213900-26-010178,8-K,available_options,,No holder election,,fp_no_gt
+learned,0001213900-26-010178,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001213900-26-010178,8-K,closing_conditions,Athena stockholder approval | Ace Green stockholder approval,satisfaction or waiver of certain conditions precedent,,mismatch
+learned,0001213900-26-010178,8-K,event_status_details,"Business Combination Agreement dated December 4, 2024","Business Combination Agreement dated December 4, 2024",,tp
+learned,0001829126-26-000900,8-K,stock_exchange_ratio,,0.400 shares of Cliffs common stock per share,,fp_no_gt
+learned,0001829126-26-000900,8-K,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-000900,8-K,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001829126-26-000900,8-K,effective_date,,12/31/2026,,fp_no_gt
+learned,0001829126-26-000900,8-K,event_status,Amended,Completed,,mismatch
+learned,0001829126-26-000900,8-K,consideration_type,,Mixed cash and stock,,fp_no_gt
+learned,0001829126-26-000900,8-K,available_options,,No holder election,,fp_no_gt
+learned,0001829126-26-000900,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-000900,8-K,closing_conditions,,No closing conditions,,fp_no_gt
+learned,0001829126-26-000900,8-K,cash_consideration_qualifications,,No cash qualifications,,fp_no_gt
+learned,0001829126-26-000900,8-K,stock_exchange_ratio_qualifications,,No ratio qualifications,,fp_no_gt
+learned,0001829126-26-000900,8-K,other_consideration,"200,000 PubCo Ordinary Shares and 400,000 PubCo Warrants issued to Company Shareholders in aggregate",No other consideration,,mismatch
+learned,0001829126-26-000900,8-K,event_status_details,"February 2, 2026 amendment increased aggregate merger consideration to $1,350,000,000 and removed indemnification provisions",Completed on 12/31/2026,,mismatch
+learned,0001829126-26-001748,8-K,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001829126-26-001748,8-K,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-001748,8-K,shareholder_vote_date,2/27/2026,2/27/2026,,tp
+learned,0001829126-26-001748,8-K,event_status,Pending,Completed,,mismatch
+learned,0001829126-26-001748,8-K,consideration_type,,Elective consideration,,fp_no_gt
+learned,0001829126-26-001748,8-K,available_options,,No holder election,,fp_no_gt
+learned,0001829126-26-001748,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-001748,8-K,closing_conditions,Voyager shareholder approval,Approval of the Business Combination by Voyager’s shareholders,,mismatch
+learned,0001829126-26-001748,8-K,event_status_details,VERAXA shareholders approved the merger and share issuance,"Shareholders approved the merger and issuance of new shares to Voyager Acquisition Corp. on February 27, 2026",,mismatch
+learned,0001829126-26-001749,425,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001829126-26-001749,425,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001829126-26-001749,425,shareholder_vote_date,2/27/2026,2/27/2026,,tp
+learned,0001829126-26-001749,425,event_status,Pending,Pending,,tp
+learned,0001829126-26-001749,425,consideration_type,,Elective consideration,,fp_no_gt
+learned,0001829126-26-001749,425,available_options,,No holder election,,fp_no_gt
+learned,0001829126-26-001749,425,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-001749,425,closing_conditions,Voyager shareholder approval,Approval of the Business Combination by Voyager’s shareholders,,mismatch
+learned,0001829126-26-001749,425,event_status_details,"VERAXA shareholders approved the merger and share issuance on February 27, 2026",EGM approved on 2/27/2026; subject to Voyager shareholders approval,,mismatch
+learned,0001493152-26-009317,8-K,stock_exchange_ratio,"18,000,000 divided by fully diluted Goodvision shares outstanding in Calisa Acquisition Corp ordinary shares per share","18,000,000 divided by the number of fully diluted Goodvision Shares outstanding",,tp
+learned,0001493152-26-009317,8-K,election_deadline,,"5:00 PM Eastern Time, five business days before closing",,fp_no_gt
+learned,0001493152-26-009317,8-K,shareholder_vote_date,,6/11/2026 10:00 AM Eastern Time,,fp_no_gt
+learned,0001493152-26-009317,8-K,event_status,Pending,Pending,,tp
+learned,0001493152-26-009317,8-K,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001493152-26-009317,8-K,available_options,No holder election,"18,000,000 divided by the number of fully diluted Goodvision Shares outstanding | 3,600,000 SPAC Shares",,absence_value
+learned,0001493152-26-009317,8-K,default_option,,"18,000,000 divided by the number of fully diluted Goodvision Shares outstanding",,fp_no_gt
+learned,0001493152-26-009317,8-K,closing_conditions,"Antitrust waiting periods and approvals | No legal restraint | Registration statement effectiveness | Goodvision shareholder approval | Calisa shareholder approval | $5,000,000 financing | Minimum net tangible assets, if required | Representations and warranties | Covenant compliance | No Goodvision material adverse effect | No specified litigation | Ancillary agreements | Closing deliverables | Stock exchange listing approval",approval of the Transactions and related matters by the respective shareholders of the Company and Goodvision | effectiveness of the Registration Statement | no Material Adverse Effect since the date of the BCA | Financing consummated | listing of the SPAC Shares approved by NASDAQ,,mismatch
+learned,0001493152-26-009317,8-K,stock_exchange_ratio_qualifications,"10% of merger shares held in indemnification escrow | Rounded to nearest whole share | Adjustment for changes to Calisa shares | Up to 3,600,000 contingent earnout shares",,,fn_no_pred
+learned,0001493152-26-009317,8-K,other_consideration,,Earnout Shares,,fp_no_gt
+learned,0001493152-26-009317,8-K,event_status_details,"Business Combination Agreement signed March 6, 2026; closing subject to approvals and other conditions","Execution Date: March 6, 2026; Shareholder approvals required",,mismatch
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio,0.1 to 0.166667 shares of Topco Common Stock per share,between 0.000305 and 0.000508 shares of Topco Common Stock per share,,mismatch
+learned,0001104659-26-027698,S-4/A,event_status,Amended,Pending,,mismatch
+learned,0001104659-26-027698,S-4/A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-027698,S-4/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-027698,S-4/A,default_option,,between 0.1 and 0.166667 shares of Topco Common Stock per share,,fp_no_gt
+learned,0001104659-26-027698,S-4/A,closing_conditions,"S-4 effectiveness | No legal restraint | Barinthus shareholder approval | Court sanction | Clywedog stockholder approval | Nasdaq listing approval | NSIA clearance | Antitrust clearance | Clywedog representations and covenants | No Clywedog material adverse effect | Clywedog lock-up agreements | Investor agreement termination | Self-tender completion, if elected | Clywedog minimum cash | Barinthus representations and covenants | No Barinthus material adverse effect | Barinthus lock-up agreements | Barinthus minimum cash","approval of Barinthus Shareholders, receipt of regulatory approvals, satisfaction of other closing conditions",,mismatch
+learned,0001104659-26-027698,S-4/A,cash_consideration_qualifications,Cash in lieu of fractional shares | Sale proceeds subject to expenses and tax withholding,,,fn_no_pred
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio_qualifications,Final ratio determined by Barinthus Board before Scheme Effective Time | Whole shares rounded down | No fractional shares issued | Adjustment for changes in share capital,rounded down to the nearest whole share,,mismatch
+learned,0001104659-26-027698,S-4/A,event_status_details,"Merger agreement signed September 29, 2025; exchange ratios and minimum cash requirements amended February 22, 2026.","Merger Agreement amended on February 22, 2026; Scheme of Arrangement pending Court sanction",,mismatch
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio,0.000305 to 0.000508 shares of Topco Common Stock per share,between 0.000305 and 0.000508 shares of Topco Common Stock per share,,tp
+learned,0001104659-26-027698,S-4/A,event_status,Amended,Pending,,mismatch
+learned,0001104659-26-027698,S-4/A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-027698,S-4/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-027698,S-4/A,default_option,,between 0.1 and 0.166667 shares of Topco Common Stock per share,,fp_no_gt
+learned,0001104659-26-027698,S-4/A,closing_conditions,"S-4 effectiveness | No legal restraint | Barinthus shareholder approval | Court sanction | Clywedog stockholder approval | Nasdaq listing approval | NSIA clearance | Antitrust clearance | Clywedog representations and covenants | No Clywedog material adverse effect | Clywedog lock-up agreements | Investor agreement termination | Self-tender completion, if elected | Clywedog minimum cash | Barinthus representations and covenants | No Barinthus material adverse effect | Barinthus lock-up agreements | Barinthus minimum cash","approval of Barinthus Shareholders, receipt of regulatory approvals, satisfaction of other closing conditions",,mismatch
+learned,0001104659-26-027698,S-4/A,cash_consideration_qualifications,Cash in lieu of fractional shares | Sale proceeds subject to expenses and tax withholding,,,fn_no_pred
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio_qualifications,"Final ratio determined by Clywedog and Barinthus Bio | Proportionately adjusted for self-tender, if elected | Whole shares rounded down | No fractional shares issued | Adjustment for changes in share capital",rounded down to the nearest whole share,,mismatch
+learned,0001104659-26-027698,S-4/A,event_status_details,"Merger agreement signed September 29, 2025; exchange ratios and minimum cash requirements amended February 22, 2026.","Merger Agreement amended on February 22, 2026; Scheme of Arrangement pending Court sanction",,mismatch
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio,0.000305 to 0.000508 shares of Topco Common Stock per share,between 0.000305 and 0.000508 shares of Topco Common Stock per share,,tp
+learned,0001104659-26-027698,S-4/A,event_status,Amended,Pending,,mismatch
+learned,0001104659-26-027698,S-4/A,consideration_type,Stock,Elective consideration,,mismatch
+learned,0001104659-26-027698,S-4/A,available_options,No holder election,No holder election,,absence_matched
+learned,0001104659-26-027698,S-4/A,default_option,,between 0.1 and 0.166667 shares of Topco Common Stock per share,,fp_no_gt
+learned,0001104659-26-027698,S-4/A,closing_conditions,"S-4 effectiveness | No legal restraint | Barinthus shareholder approval | Court sanction | Clywedog stockholder approval | Nasdaq listing approval | NSIA clearance | Antitrust clearance | Clywedog representations and covenants | No Clywedog material adverse effect | Clywedog lock-up agreements | Investor agreement termination | Self-tender completion, if elected | Clywedog minimum cash | Barinthus representations and covenants | No Barinthus material adverse effect | Barinthus lock-up agreements | Barinthus minimum cash","approval of Barinthus Shareholders, receipt of regulatory approvals, satisfaction of other closing conditions",,mismatch
+learned,0001104659-26-027698,S-4/A,cash_consideration_qualifications,Cash in lieu of fractional shares | Sale proceeds subject to expenses and tax withholding,,,fn_no_pred
+learned,0001104659-26-027698,S-4/A,stock_exchange_ratio_qualifications,"Final ratio determined by Clywedog and Barinthus Bio | Proportionately adjusted for self-tender, if elected | Whole shares rounded down | No fractional shares issued | Adjustment for changes in share capital",rounded down to the nearest whole share,,mismatch
+learned,0001104659-26-027698,S-4/A,event_status_details,"Merger agreement signed September 29, 2025; exchange ratios and minimum cash requirements amended February 22, 2026.","Merger Agreement amended on February 22, 2026; Scheme of Arrangement pending Court sanction",,mismatch
+learned,0001829126-26-002394,8-K,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001829126-26-002394,8-K,shareholder_vote_date,,3/17/2026,,fp_no_gt
+learned,0001829126-26-002394,8-K,event_status,Pending,Completed,,mismatch
+learned,0001829126-26-002394,8-K,consideration_type,,Elective consideration,,fp_no_gt
+learned,0001829126-26-002394,8-K,available_options,,No holder election,,fp_no_gt
+learned,0001829126-26-002394,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-002394,8-K,event_status_details,"DMY shareholders approved the Business Combination Proposal on March 17, 2026",Business Combination Agreement approved on 3/17/2026,,tp
+learned,0001829126-26-002394,8-K,stock_exchange_ratio,,No stock consideration,,fp_no_gt
+learned,0001829126-26-002394,8-K,shareholder_vote_date,3/17/2026,3/17/2026,,tp
+learned,0001829126-26-002394,8-K,event_status,Pending,Completed,,mismatch
+learned,0001829126-26-002394,8-K,consideration_type,,Elective consideration,,fp_no_gt
+learned,0001829126-26-002394,8-K,available_options,,No holder election,,fp_no_gt
+learned,0001829126-26-002394,8-K,default_option,,No stock consideration,,fp_no_gt
+learned,0001829126-26-002394,8-K,event_status_details,"DMY shareholders approved the Business Combination Proposal on March 17, 2026",Business Combination Agreement approved on 3/17/2026,,tp

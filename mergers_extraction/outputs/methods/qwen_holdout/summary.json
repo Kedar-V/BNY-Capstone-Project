@@ -1,0 +1,21 @@
+{
+  "method": "Qwen3 4B",
+  "model": "Qwen3 4B",
+  "split": "holdout",
+  "filings": 103,
+  "records": 179,
+  "reads": "learned",
+  "seconds": 1201,
+  "micro": {
+    "learned": {
+      "tp": 388,
+      "fp": 1164,
+      "fn": 621,
+      "gt_absence_values": 210,
+      "precision": 0.25,
+      "recall": 0.38453914767096137,
+      "f1": 0.3030066380320187
+    }
+  },
+  "note": "Agreement with unverified LLM ground truth. Category fields accept a span containing the label's key word; free-text fields use token F1 >= 0.5. Stated absences ('No ...') are counted apart because a span model cannot produce them."
+}

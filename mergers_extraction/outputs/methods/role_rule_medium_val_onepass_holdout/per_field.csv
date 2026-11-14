@@ -1,0 +1,4 @@
+field,label,compare,tp,fp,fn,gt_absence_values,fulltext_precision,fulltext_recall,fulltext_f1
+acquirer,,name,136,41,14,0,0.768,0.907,0.832
+target,,name,106,73,49,0,0.592,0.684,0.635
+merger_subsidiary,,name,135,37,15,0,0.785,0.9,0.839

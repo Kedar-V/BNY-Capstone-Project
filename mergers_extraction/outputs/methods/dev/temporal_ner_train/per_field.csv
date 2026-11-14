@@ -1,0 +1,5 @@
+field,label,compare,tp,fp,fn,gt_absence_values,learned_precision,learned_recall,learned_f1
+shareholder_vote_date,,date,12,5,9,0,0.706,0.571,0.632
+effective_date,,date,5,0,2,0,1.0,0.714,0.833
+election_deadline,,date_or_text,0,1,5,0,0.0,0.0,0.0
+expected_closing,,text,38,19,38,4,0.667,0.5,0.571

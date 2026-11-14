@@ -1,0 +1,551 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+fulltext,0001437749-26-000391,DEFM14A,acquirer,"SPX Enterprises, LLC","SPX Enterprises, LLC",,tp
+fulltext,0001437749-26-000391,DEFM14A,target,Crawford United Corporation,Crawford United Corporation,,tp
+fulltext,0001437749-26-000391,DEFM14A,merger_subsidiary,"Project King Acquisition, Inc.","Project King Acquisition, Inc.",,tp
+fulltext,0001193125-26-003553,DEFM14A,acquirer,"Sonida Senior Living, Inc.",CNL Healthcare Properties,,mismatch
+fulltext,0001193125-26-003553,DEFM14A,target,"CNL Healthcare Properties, Inc.","CNL Healthcare Properties, Inc.",,tp
+fulltext,0001193125-26-003553,DEFM14A,merger_subsidiary,CHP Merger Corp. | SSL Sparti Property Holdings Inc.,CHP Merger Corp. | SSL Sparti Property Holdings Inc.,,tp
+fulltext,0001193125-26-010471,PREM14A,acquirer,"Sword Purchaser, LLC","Sword Purchaser, LLC",,tp
+fulltext,0001193125-26-010471,PREM14A,target,Sealed Air Corporation,SEALED AIR CORP/DE,,tp
+fulltext,0001193125-26-010471,PREM14A,merger_subsidiary,"Sword Merger Sub, Inc.","Sword Merger Sub, Inc.",,tp
+fulltext,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-002095,S-4,target,Willow Lane Acquisition Corp.,Willow Lane,,tp
+fulltext,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-002095,S-4,target,Willow Lane Acquisition Corp.,Willow Lane,,tp
+fulltext,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-002095,S-4,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-002095,S-4,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-002095,S-4,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001193125-26-012952,DEFM14A,acquirer,Ryerson Holding Corporation,Ryerson Holding Corporation,,tp
+fulltext,0001193125-26-012952,DEFM14A,target,"Olympic Steel, Inc.",OLYMPIC STEEL INC,,tp
+fulltext,0001193125-26-012952,DEFM14A,merger_subsidiary,Crimson MS Corp.,Crimson MS Corp.,,tp
+fulltext,0001185185-26-000166,S-4,acquirer,RYVYL Inc.,RYVYL Inc.,,tp
+fulltext,0001185185-26-000166,S-4,target,"RTB Digital, Inc.","RTB DIGITAL, INC.",,tp
+fulltext,0001185185-26-000166,S-4,merger_subsidiary,RYVYL Merger Sub Inc.,RYVYL Merger Sub Inc.,,tp
+fulltext,0001104659-26-004251,S-4,acquirer,AKOM Inc.,IX Acquisition Corp.,,mismatch
+fulltext,0001104659-26-004251,S-4,target,AERKOMM Inc.,AERKOMM Inc.,,tp
+fulltext,0001104659-26-004251,S-4,merger_subsidiary,"AKOM Merger Sub, Inc.",AKOM Merger Inc.,,tp
+fulltext,0001193125-26-016598,S-4/A,acquirer,GigCapital7 Corp.,GigCapital7 Corp.,,tp
+fulltext,0001193125-26-016598,S-4/A,target,"Hadron Energy, Inc.","Hadron Energy, Inc.",,tp
+fulltext,0001193125-26-016598,S-4/A,merger_subsidiary,"MMR Merger Sub, Inc.","MMR Merger Sub, Inc.",,tp
+fulltext,0001193125-26-016684,SC 13E3/A,acquirer,VICI Properties Inc.,Macquarie Capital (USA) Inc.,,mismatch
+fulltext,0001193125-26-016684,SC 13E3/A,target,,"Golden Entertainment, Inc.",,fp_no_gt
+fulltext,0001193125-26-016684,SC 13E3/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,VICI ROYAL MERGER SUB LLC,,tp
+fulltext,0001140361-26-003049,DEFM14A,acquirer,"Bed Bath & Beyond, Inc.","Bed Bath & Beyond, Inc.",,tp
+fulltext,0001140361-26-003049,DEFM14A,target,"The Brand House Collective, Inc.","BRAND HOUSE COLLECTIVE, INC.",,tp
+fulltext,0001140361-26-003049,DEFM14A,merger_subsidiary,"Knight Merger Sub II, Inc.","Knight Merger Sub II, Inc.",,tp
+fulltext,0001539497-26-000230,PREM14A,target,,"BioAtla, Inc.",,fp_no_gt
+fulltext,0001539497-26-000230,PREM14A,merger_subsidiary,"BA Merger Sub, Inc.","BA Merger Sub, Inc.",,tp
+fulltext,0001437749-26-002544,PREM14A,acquirer,"Laird Superfood, Inc.","Gateway Superfood NSSIII Investment, LLC",,mismatch
+fulltext,0001437749-26-002544,PREM14A,target,Navitas LLC,"Laird Superfood, Inc.",,mismatch
+fulltext,0001437749-26-002544,PREM14A,merger_subsidiary,,"Picky Bars, LLC",,fp_no_gt
+fulltext,0001437749-26-002544,PREM14A,acquirer,"Laird Superfood, Inc.","Gateway Superfood NSSIII Investment, LLC",,mismatch
+fulltext,0001437749-26-002544,PREM14A,target,Global Superfoods Corp.,"Laird Superfood, Inc.",,mismatch
+fulltext,0001437749-26-002544,PREM14A,merger_subsidiary,,"Picky Bars, LLC",,fp_no_gt
+fulltext,0001628280-26-006094,8-K,acquirer,"GigCapital5, Inc.",GigCapital5,,tp
+fulltext,0001628280-26-006094,8-K,target,"QT Imaging, Inc.","QT Imaging Holdings, Inc.",,tp
+fulltext,0001628280-26-006094,8-K,merger_subsidiary,"QTI Merger Sub, Inc.","QTI Merger Sub, Inc.",,tp
+fulltext,0001829126-26-001208,425,acquirer,,Einride AB,,fp_no_gt
+fulltext,0001829126-26-001208,425,target,,Einride,,fp_no_gt
+fulltext,0001829126-26-001208,425,merger_subsidiary,,Legato Merger Corp. III,,fp_no_gt
+fulltext,0001493152-26-007487,DEFM14A,acquirer,"Telomir Pharmaceuticals, Inc.",Telomir,,tp
+fulltext,0001493152-26-007487,DEFM14A,target,"TELI Pharmaceuticals, Inc.","Telomir Pharmaceuticals, Inc.",,mismatch
+fulltext,0001493152-26-007487,DEFM14A,merger_subsidiary,"TELIPHARM Acquisition, Inc.","TELOPHARM Acquisition, Inc. | TELO Pharmaceuticals, Inc.",,mismatch
+fulltext,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,IWAC Holding Company Inc.,,tp
+fulltext,0001104659-26-017281,8-K,target,Integrated Wellness Acquisition Corp,Integrated Wellness Acquisition Corp.,,tp
+fulltext,0001104659-26-017281,8-K,merger_subsidiary,IWAC Purchaser Merger Sub II Inc.,IWAC Purchaser Merger Sub II Inc. | Sub Inc.,,tp
+fulltext,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,IWAC Holding Company Inc.,,tp
+fulltext,0001104659-26-017281,8-K,target,"Btab Ecommerce Group, Inc.",Integrated Wellness Acquisition Corp.,,mismatch
+fulltext,0001104659-26-017281,8-K,merger_subsidiary,"IWAC Company Merger, Sub Inc.",IWAC Purchaser Merger Sub II Inc. | Sub Inc.,,mismatch
+fulltext,0001104659-26-017281,8-K,acquirer,IWAC Holding Company Inc.,IWAC Holding Company Inc.,,tp
+fulltext,0001104659-26-017281,8-K,target,"Btab Ecommerce Group, Inc.",Integrated Wellness Acquisition Corp.,,mismatch
+fulltext,0001104659-26-017281,8-K,merger_subsidiary,"IWAC Company Merger, Sub Inc.",IWAC Purchaser Merger Sub II Inc. | Sub Inc.,,mismatch
+fulltext,0001104659-26-020983,425,acquirer,TL Topco PLC,TL Topco PLC,,tp
+fulltext,0001104659-26-020983,425,target,ThomasLloyd Climate Solutions B.V.,TL Topco PLC,,mismatch
+fulltext,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,ThomasLloyd Climate Solutions Merger Sub,,tp
+fulltext,0001104659-26-020983,425,acquirer,TL Topco PLC,TL Topco PLC,,tp
+fulltext,0001104659-26-020983,425,target,Roman DBDR Acquisition Corp. II,TL Topco PLC,,mismatch
+fulltext,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,ThomasLloyd Climate Solutions Merger Sub,,tp
+fulltext,0001104659-26-020983,425,acquirer,TL Topco PLC,TL Topco PLC,,tp
+fulltext,0001104659-26-020983,425,target,Roman DBDR Acquisition Corp. II,TL Topco PLC,,mismatch
+fulltext,0001104659-26-020983,425,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,ThomasLloyd Climate Solutions Merger Sub,,tp
+fulltext,0001213900-26-022404,8-K,acquirer,Keen Vision Acquisition Corporation,Keen Vision Acquisition Corporation,,tp
+fulltext,0001213900-26-022404,8-K,target,Novoheart Group Limited,Medera Inc.,,mismatch
+fulltext,0001213900-26-022404,8-K,merger_subsidiary,,Novoheart Group Limited,,fp_no_gt
+fulltext,0001213900-26-022404,8-K,acquirer,Keen Vision Acquisition Corporation,Keen Vision Acquisition Corporation,,tp
+fulltext,0001213900-26-022404,8-K,target,Medera Inc.,Medera Inc.,,tp
+fulltext,0001213900-26-022404,8-K,merger_subsidiary,,Novoheart Group Limited,,fp_no_gt
+fulltext,0001104659-26-023474,S-4/A,acquirer,VICI Properties Inc.,VICI PROPERTIES INC.,,tp
+fulltext,0001104659-26-023474,S-4/A,target,"Golden Entertainment, Inc.","Golden Entertainment, Inc.",,tp
+fulltext,0001104659-26-023474,S-4/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,VICI ROYAL MERGER SUB LLC,,tp
+fulltext,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Holdings Inc.,,tp
+fulltext,0001104659-26-024193,DEFM14A,target,Relativity Acquisition Corp.,Relativity Acquisition Corp,,tp
+fulltext,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub II Inc.,Relativity Purchaser Merger Sub II Inc.,,tp
+fulltext,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Holdings Inc.,,tp
+fulltext,0001104659-26-024193,DEFM14A,target,Relativity Acquisition Corp.,Relativity Acquisition Corp,,tp
+fulltext,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub II Inc.,Relativity Purchaser Merger Sub II Inc.,,tp
+fulltext,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Holdings Inc.,,tp
+fulltext,0001104659-26-024193,DEFM14A,target,Instinct Bio Technical Company Inc.,Relativity Acquisition Corp,,mismatch
+fulltext,0001104659-26-024193,DEFM14A,merger_subsidiary,,Relativity Purchaser Merger Sub II Inc.,,fp_no_gt
+fulltext,0001104659-26-024193,DEFM14A,acquirer,Relativity Holdings Inc.,Relativity Holdings Inc.,,tp
+fulltext,0001104659-26-024193,DEFM14A,target,"SVES GO, LLC | SVES LLC | SVES CP LLC | SVES Apparel LLC",Relativity Acquisition Corp,,mismatch
+fulltext,0001104659-26-024193,DEFM14A,merger_subsidiary,Relativity Purchaser Merger Sub Inc.,Relativity Purchaser Merger Sub II Inc.,,tp
+fulltext,0001213900-26-024672,PREM14A,acquirer,Odysseus Holdings Limited,Odysseus Holdings Limited,,tp
+fulltext,0001213900-26-024672,PREM14A,target,Vine Hill Capital Investment Corp.,Vine Hill Capital Investment Corp.,,tp
+fulltext,0001213900-26-024672,PREM14A,merger_subsidiary,Odysseus (Cayman) Limited,Limited,,mismatch
+fulltext,0001213900-26-024672,PREM14A,acquirer,Odysseus Holdings Limited,Odysseus Holdings Limited,,tp
+fulltext,0001213900-26-024672,PREM14A,target,CoinShares International Limited,Vine Hill Capital Investment Corp.,,mismatch
+fulltext,0001213900-26-024672,PREM14A,merger_subsidiary,Odysseus (Cayman) Limited,Limited,,mismatch
+fulltext,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC","Glow Midco, LLC",,tp
+fulltext,0001193125-26-102445,SC 13E3,target,"European Wax Center, Inc.","EWC Ventures, LLC",,mismatch
+fulltext,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 1, Inc.","Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC",,tp
+fulltext,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC","Glow Midco, LLC",,tp
+fulltext,0001193125-26-102445,SC 13E3,target,"European Wax Center, Inc.","EWC Ventures, LLC",,mismatch
+fulltext,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 1, Inc.","Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC",,tp
+fulltext,0001193125-26-102445,SC 13E3,acquirer,"Glow Midco, LLC","Glow Midco, LLC",,tp
+fulltext,0001193125-26-102445,SC 13E3,target,"EWC Ventures, LLC","EWC Ventures, LLC",,tp
+fulltext,0001193125-26-102445,SC 13E3,merger_subsidiary,"Glow Merger Sub 2, LLC","Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC",,tp
+fulltext,0001213900-26-026265,8-K,acquirer,Plum Acquisition Corp. IV,Plum IV,,mismatch
+fulltext,0001213900-26-026265,8-K,target,Controlled Thermal Resources Holdings Inc.,Controlled Thermal Resources Holdings Inc.,,tp
+fulltext,0001213900-26-026265,8-K,merger_subsidiary,Plum IV Merger Sub Inc.,"Plum IV Merger Sub, Inc. | Plum IV Merger Sub Inc.",,tp
+fulltext,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,Smart Kreate Group Limited,,tp
+fulltext,0001493152-26-009785,8-K,target,Quetta Acquisition Corporation,SMART KREATE GROUP LIMITED,,mismatch
+fulltext,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 1 Limited,SKG Merger Sub 1 Limited | SKG Merger Sub 2 Limited,,tp
+fulltext,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,Smart Kreate Group Limited,,tp
+fulltext,0001493152-26-009785,8-K,target,Smart Kreate Group Limited,SMART KREATE GROUP LIMITED,,tp
+fulltext,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 2 Limited,SKG Merger Sub 1 Limited | SKG Merger Sub 2 Limited,,tp
+fulltext,0001493152-26-009785,8-K,acquirer,SMART KREATE GROUP LIMITED,Smart Kreate Group Limited,,tp
+fulltext,0001493152-26-009785,8-K,target,Smart Kreate Group Limited,SMART KREATE GROUP LIMITED,,tp
+fulltext,0001493152-26-009785,8-K,merger_subsidiary,SKG Merger Sub 2 Limited,SKG Merger Sub 1 Limited | SKG Merger Sub 2 Limited,,tp
+fulltext,0001104659-26-029601,PREM14A,acquirer,"Royal Cup, Inc.","Royal Cup, Inc.",,tp
+fulltext,0001104659-26-029601,PREM14A,target,Farmer Bros. Co.,FARMER BROTHERS CO,,mismatch
+fulltext,0001104659-26-029601,PREM14A,merger_subsidiary,BP I Brew Merger Sub Inc.,BP I Brew Merger Sub Inc.,,tp
+fulltext,0001185185-26-000991,8-K,acquirer,,"Blockfusion Data Centers, Inc.",,fp_no_gt
+fulltext,0001185185-26-000991,8-K,target,,"Blockfusion USA, Inc.",,fp_no_gt
+fulltext,0001185185-26-000991,8-K,merger_subsidiary,"Atlas I Merger Sub | Atlas Merger Sub, Inc.","Atlas I Merger Sub | Atlas Merger Sub, Inc.",,tp
+fulltext,0001104659-26-035458,425,acquirer,,The Nasdaq Stock Market LLC,,fp_no_gt
+fulltext,0001104659-26-035458,425,target,,Factorial Inc.,,fp_no_gt
+fulltext,0001104659-26-035458,425,merger_subsidiary,"Fenway MS, Inc.","Fenway MS, Inc.",,tp
+fulltext,0001140361-26-012383,DEFM14A,acquirer,Allegiant Travel Company,Allegiant Travel Company,,tp
+fulltext,0001140361-26-012383,DEFM14A,target,"Sun Country Airlines Holdings, Inc.","Sun Country Airlines Holdings, Inc.",,tp
+fulltext,0001140361-26-012383,DEFM14A,merger_subsidiary,"Mirage Merger Sub, Inc. | Sawdust Merger Sub, LLC","Mirage Merger Sub, Inc.",,tp
+fulltext,0001193125-26-134924,DEFM14A,acquirer,"IonQ, Inc.","IonQ, Inc.",,tp
+fulltext,0001193125-26-134924,DEFM14A,target,"SkyWater Technology, Inc.","SkyWater Technology, Inc",,tp
+fulltext,0001193125-26-134924,DEFM14A,merger_subsidiary,Iris Merger Subsidiary 1 Inc. | Iris Merger Subsidiary 2 LLC,Iris Merger Subsidiary 1 Inc.,,tp
+fulltext,0001493152-26-015164,S-4/A,acquirer,Hennessy Capital Investment Corp. VII,Hennessy Capital Investment Corp. VII,,tp
+fulltext,0001493152-26-015164,S-4/A,target,ONE Nuclear Energy LLC,ONE Nuclear,,tp
+fulltext,0001493152-26-015164,S-4/A,merger_subsidiary,Solis Merger Sub LLC,Solis Merger Sub LLC,,tp
+fulltext,0001213900-26-042083,8-K,acquirer,US Elemental Inc.,US Elemental Inc.,,tp
+fulltext,0001213900-26-042083,8-K,target,Constellation Acquisition Corp I,HiTech Minerals Inc.,,mismatch
+fulltext,0001213900-26-042083,8-K,merger_subsidiary,CAC Merger Sub I LLC,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,,tp
+fulltext,0001213900-26-042083,8-K,acquirer,US Elemental Inc.,US Elemental Inc.,,tp
+fulltext,0001213900-26-042083,8-K,target,Constellation Acquisition Corp I,HiTech Minerals Inc.,,mismatch
+fulltext,0001213900-26-042083,8-K,merger_subsidiary,CAC Merger Sub I LLC,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,,tp
+fulltext,0001213900-26-042083,8-K,acquirer,US Elemental Inc.,US Elemental Inc.,,tp
+fulltext,0001213900-26-042083,8-K,target,HiTech Minerals Inc.,HiTech Minerals Inc.,,tp
+fulltext,0001213900-26-042083,8-K,merger_subsidiary,USE Merger Sub 2 Inc.,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,,tp
+fulltext,0001213900-26-042083,8-K,acquirer,US Elemental Inc.,US Elemental Inc.,,tp
+fulltext,0001213900-26-042083,8-K,target,HiTech Minerals Inc.,HiTech Minerals Inc.,,tp
+fulltext,0001213900-26-042083,8-K,merger_subsidiary,USE Merger Sub 2 Inc.,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,,tp
+fulltext,0001104659-26-043531,SC 13E3,acquirer,Stallion Intermediate Corporation,Stallion Intermediate Corporation,,tp
+fulltext,0001104659-26-043531,SC 13E3,target,Select Medical Holdings Corporation,Select Medical Holdings Corporation,,tp
+fulltext,0001104659-26-043531,SC 13E3,merger_subsidiary,Stallion MergerSub Corporation,Stallion MergerSub Corporation | Stallion Merger Sub Corporation,,tp
+fulltext,0001829126-26-003564,S-4,acquirer,Wintergreen Acquisition Corp.,Wintergreen Acquisition Corp.,,tp
+fulltext,0001829126-26-003564,S-4,target,KIKA Technology INC.,KIKA Technology Inc.,,tp
+fulltext,0001829126-26-003564,S-4,merger_subsidiary,Wintergreen Acquisition Merger Subsidiary Corp.,Wintergreen Acquisition Merger Subsidiary Corp.,,tp
+fulltext,0001213900-26-045154,8-K,acquirer,,Sizzle Acquisition Corp. II,,fp_no_gt
+fulltext,0001213900-26-045154,8-K,target,Sizzle Acquisition Corp. II,Trasteel Holding S.A.,,mismatch
+fulltext,0001213900-26-045154,8-K,merger_subsidiary,,Joinder,,fp_no_gt
+fulltext,0001193125-26-187219,S-4,acquirer,"Xtend AI Robotics, Inc.","Xtend AI Robotics, Inc.",,tp
+fulltext,0001193125-26-187219,S-4,target,Xtend Reality Expansion Ltd.,"JFB
+Construction Holdings",,mismatch
+fulltext,0001193125-26-187219,S-4,merger_subsidiary,XOS Robotics Ltd,"XT Merger Sub 2, Inc.",,mismatch
+fulltext,0001193125-26-187219,S-4,acquirer,"Xtend AI Robotics, Inc.","Xtend AI Robotics, Inc.",,tp
+fulltext,0001193125-26-187219,S-4,target,JFB Construction Holdings,"JFB
+Construction Holdings",,tp
+fulltext,0001193125-26-187219,S-4,merger_subsidiary,"XT Merger Sub 2, Inc.","XT Merger Sub 2, Inc.",,tp
+fulltext,0001193125-26-187219,S-4,acquirer,"Xtend AI Robotics, Inc.","Xtend AI Robotics, Inc.",,tp
+fulltext,0001193125-26-187219,S-4,target,JFB Construction Holdings,"JFB
+Construction Holdings",,tp
+fulltext,0001193125-26-187219,S-4,merger_subsidiary,"XT Merger Sub 2, Inc.","XT Merger Sub 2, Inc.",,tp
+fulltext,0001193125-26-187219,S-4,acquirer,"Xtend AI Robotics, Inc.","Xtend AI Robotics, Inc.",,tp
+fulltext,0001193125-26-187219,S-4,target,JFB Construction Holdings,"JFB
+Construction Holdings",,tp
+fulltext,0001193125-26-187219,S-4,merger_subsidiary,"XT Merger Sub 2, Inc.","XT Merger Sub 2, Inc.",,tp
+fulltext,0001140361-26-018881,PREM14A,acquirer,"Horizon Parent, L.P.","Horizon Parent, L.P.",,tp
+fulltext,0001140361-26-018881,PREM14A,target,The AES Corporation,AES CORP,,mismatch
+fulltext,0001140361-26-018881,PREM14A,merger_subsidiary,"Horizon Merger Sub, Inc.","Horizon Merger Sub, Inc.",,tp
+fulltext,0001213900-26-051571,425,acquirer,Viking Acquisition Corp. I,"NorthStar Earth and Space
+Inc.",,mismatch
+fulltext,0001213900-26-051571,425,target,NorthStar Earth and Space Inc.,NorthStar Earth & Space Inc.,,mismatch
+fulltext,0001213900-26-051571,425,merger_subsidiary,Viking NS Amalgamation Corp.,Viking NS Amalgamation Corp.,,tp
+fulltext,0001185185-26-001691,8-K,acquirer,NeoCryo Inc,Blueport Acquisition Ltd,,mismatch
+fulltext,0001185185-26-001691,8-K,target,Blueport Acquisition Ltd,SINGAUTO Inc.,,mismatch
+fulltext,0001185185-26-001691,8-K,merger_subsidiary,,NeoCryo Merger Sub Ltd,,fp_no_gt
+fulltext,0001185185-26-001691,8-K,acquirer,NeoCryo Inc,Blueport Acquisition Ltd,,mismatch
+fulltext,0001185185-26-001691,8-K,target,Blueport Acquisition Ltd,SINGAUTO Inc.,,mismatch
+fulltext,0001185185-26-001691,8-K,merger_subsidiary,,NeoCryo Merger Sub Ltd,,fp_no_gt
+fulltext,0001185185-26-001691,8-K,acquirer,NeoCryo Inc,Blueport Acquisition Ltd,,mismatch
+fulltext,0001185185-26-001691,8-K,target,SINGAUTO Inc.,SINGAUTO Inc.,,tp
+fulltext,0001185185-26-001691,8-K,merger_subsidiary,NeoCryo Merger Sub Ltd,NeoCryo Merger Sub Ltd,,tp
+fulltext,0001213900-26-054062,S-4/A,acquirer,Aptorum Group Limited,Aptorum Group Ltd,,tp
+fulltext,0001213900-26-054062,S-4/A,target,DiamiR Biosciences Corp.,Aptorum Group Limited,,mismatch
+fulltext,0001213900-26-054062,S-4/A,merger_subsidiary,,"DiamiR, LLC",,fp_no_gt
+fulltext,0001829126-26-005260,425,acquirer,,Eight Directions Global Limited,,fp_no_gt
+fulltext,0001829126-26-005260,425,target,,Eight Directions Technology Limited,,fp_no_gt
+fulltext,0001829126-26-005260,425,merger_subsidiary,,CUPS Sub Limited | Purchaser,,fp_no_gt
+fulltext,0001829126-26-005260,425,acquirer,,Eight Directions Global Limited,,fp_no_gt
+fulltext,0001829126-26-005260,425,target,,Eight Directions Technology Limited,,fp_no_gt
+fulltext,0001829126-26-005260,425,merger_subsidiary,,CUPS Sub Limited | Purchaser,,fp_no_gt
+fulltext,0001829126-26-005260,425,acquirer,,Eight Directions Global Limited,,fp_no_gt
+fulltext,0001829126-26-005260,425,target,,Eight Directions Technology Limited,,fp_no_gt
+fulltext,0001829126-26-005260,425,merger_subsidiary,,CUPS Sub Limited | Purchaser,,fp_no_gt
+fulltext,0001829126-26-005260,425,acquirer,Quartzsea Acquisition Corporation,Eight Directions Global Limited,,mismatch
+fulltext,0001829126-26-005260,425,target,Eight Directions Technology Limited,Eight Directions Technology Limited,,tp
+fulltext,0001829126-26-005260,425,merger_subsidiary,CUPS Sub Limited,CUPS Sub Limited | Purchaser,,tp
+fulltext,0001213900-26-061108,S-4,acquirer,"SeeQC, Inc.","SeeQC, Inc.",,tp
+fulltext,0001213900-26-061108,S-4,target,Allegro Merger Corp.,"SEEQC, INC.",,mismatch
+fulltext,0001213900-26-061108,S-4,merger_subsidiary,"SEEQC Merger Sub, Inc.","SEEQC Merger Sub, Inc.",,tp
+fulltext,0001213900-26-061108,S-4,acquirer,"SeeQC, Inc.","SeeQC, Inc.",,tp
+fulltext,0001213900-26-061108,S-4,target,Allegro Merger Corp.,"SEEQC, INC.",,mismatch
+fulltext,0001213900-26-061108,S-4,merger_subsidiary,"SEEQC Merger Sub, Inc.","SEEQC Merger Sub, Inc.",,tp
+fulltext,0001213900-26-061108,S-4,acquirer,"SeeQC, Inc.","SeeQC, Inc.",,tp
+fulltext,0001213900-26-061108,S-4,target,Allegro Merger Corp.,"SEEQC, INC.",,mismatch
+fulltext,0001213900-26-061108,S-4,merger_subsidiary,"SEEQC Merger Sub, Inc.","SEEQC Merger Sub, Inc.",,tp
+fulltext,0001140361-26-023175,PREM14A,acquirer,"Gaia Purchaser, Inc.","Gaia Purchaser, Inc.",,tp
+fulltext,0001140361-26-023175,PREM14A,target,"Global Business Travel Group, Inc.","Global Business Travel Group, Inc.",,tp
+fulltext,0001140361-26-023175,PREM14A,merger_subsidiary,"Gaia Merger Sub, Inc.","Gaia Merger Sub, Inc. | Merger Sub",,tp
+fulltext,0001140361-26-023178,PREM14A,acquirer,"steute Industrial Controls, Inc.","steute Industrial Controls, Inc.",,tp
+fulltext,0001140361-26-023178,PREM14A,target,"Electro-Sensors, Inc.","Electro-Sensors, Inc.",,tp
+fulltext,0001140361-26-023178,PREM14A,merger_subsidiary,"Steute Burwell, Inc.","Steute Burwell, Inc.",,tp
+fulltext,0001829126-26-005923,8-K,acquirer,OpenPayd Global Holdings Limited,OpenPayd Global Holdings Limited,,tp
+fulltext,0001829126-26-005923,8-K,target,Titan Acquisition Corp,OpenPayd Holdings Limited,,mismatch
+fulltext,0001829126-26-005923,8-K,merger_subsidiary,,Titan Acquisition Sponsor Holdco LLC,,fp_no_gt
+fulltext,0001829126-26-005923,8-K,acquirer,OpenPayd Global Holdings Limited,OpenPayd Global Holdings Limited,,tp
+fulltext,0001829126-26-005923,8-K,target,Titan Acquisition Corp,OpenPayd Holdings Limited,,mismatch
+fulltext,0001829126-26-005923,8-K,merger_subsidiary,,Titan Acquisition Sponsor Holdco LLC,,fp_no_gt
+fulltext,0001213900-26-063737,S-4,acquirer,US Elemental Inc.,US Elemental Inc.,,tp
+fulltext,0001213900-26-063737,S-4,target,Constellation Acquisition Corp. I,HiTech Minerals Inc.,,mismatch
+fulltext,0001213900-26-063737,S-4,merger_subsidiary,CAC Merger Sub I LLC,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,,tp
+fulltext,0001213900-26-063737,S-4,acquirer,US Elemental Inc.,US Elemental Inc.,,tp
+fulltext,0001213900-26-063737,S-4,target,Constellation Acquisition Corp. I,HiTech Minerals Inc.,,mismatch
+fulltext,0001213900-26-063737,S-4,merger_subsidiary,CAC Merger Sub I LLC,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,,tp
+fulltext,0001213900-26-063737,S-4,acquirer,US Elemental Inc.,US Elemental Inc.,,tp
+fulltext,0001213900-26-063737,S-4,target,HiTech Minerals Inc.,HiTech Minerals Inc.,,tp
+fulltext,0001213900-26-063737,S-4,merger_subsidiary,USE Merger Sub 2 Inc.,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,,tp
+fulltext,0001213900-26-063737,S-4,acquirer,US Elemental Inc.,US Elemental Inc.,,tp
+fulltext,0001213900-26-063737,S-4,target,HiTech Minerals Inc.,HiTech Minerals Inc.,,tp
+fulltext,0001213900-26-063737,S-4,merger_subsidiary,USE Merger Sub 2 Inc.,CAC Merger Sub I LLC | USE Merger Sub 2 Inc.,,tp
+fulltext,0001193125-26-269722,PREM14A,acquirer,Berkshire Hathaway Inc.,Berkshire Hathaway Inc.,,tp
+fulltext,0001193125-26-269722,PREM14A,target,Taylor Morrison Home Corporation,Taylor Morrison Home Corp,,tp
+fulltext,0001193125-26-269722,PREM14A,merger_subsidiary,"WXYZ Merger Sub, Inc.","WXYZ Merger Sub, Inc.",,tp
+fulltext,0001104659-26-073581,S-4,acquirer,"Rome Wildlife, Inc.","Rome Wildlife, Inc.",,tp
+fulltext,0001104659-26-073581,S-4,target,"RE/MAX Holdings, Inc.","Rome
+Wildlife, Inc.",,mismatch
+fulltext,0001104659-26-073581,S-4,merger_subsidiary,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,,tp
+fulltext,0001104659-26-073581,S-4,acquirer,"RE/MAX Holdings, Inc.","Rome Wildlife, Inc.",,mismatch
+fulltext,0001104659-26-073581,S-4,target,"RIHI, Inc.","Rome
+Wildlife, Inc.",,mismatch
+fulltext,0001104659-26-073581,S-4,merger_subsidiary,"Rhino Merger Sub I, Inc. | Rhino Merger Sub II, LLC",Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,,mismatch
+fulltext,0001213900-26-069741,425,acquirer,Silicon Valley Acquisition Corp.,Silicon Valley Acquisition Corp.,,tp
+fulltext,0001213900-26-069741,425,target,EigenQ Inc.,EigenQ Inc.,,tp
+fulltext,0001193125-26-279668,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,target,,"Equitable Holdings, Inc.",,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,merger_subsidiary,"Palisade Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279668,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,target,,"Equitable Holdings, Inc.",,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,merger_subsidiary,"Marcy Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279668,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,target,,"Equitable Holdings, Inc.",,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,merger_subsidiary,"Palisade Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279668,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,target,,"Equitable Holdings, Inc.",,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,merger_subsidiary,"Marcy Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279668,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,target,,"Equitable Holdings, Inc.",,fp_no_gt
+fulltext,0001193125-26-279668,DEFM14A,merger_subsidiary,"Marcy Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279656,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,target,,"Corebridge Financial, Inc.",,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,merger_subsidiary,"Palisade Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279656,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,target,,"Corebridge Financial, Inc.",,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,merger_subsidiary,"Marcy Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279656,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,target,,"Corebridge Financial, Inc.",,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,merger_subsidiary,"Palisade Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279656,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,target,,"Corebridge Financial, Inc.",,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,merger_subsidiary,"Marcy Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-279656,DEFM14A,acquirer,,Mountain Holding,,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,target,,"Corebridge Financial, Inc.",,fp_no_gt
+fulltext,0001193125-26-279656,DEFM14A,merger_subsidiary,"Marcy Holding, Inc.","Palisade Holding, Inc. | Marcy Holding, Inc.",,tp
+fulltext,0001193125-26-286936,425,acquirer,Talawar Tx Inc.,Talawar Tx Inc.,,tp
+fulltext,0001193125-26-286936,425,target,JATT II Acquisition Corp.,Talawar Tx Inc.,,mismatch
+fulltext,0001193125-26-286936,425,merger_subsidiary,Talawar Merger Sub,Talawar Merger Sub,,tp
+fulltext,0001213900-26-073218,DEFM14A,acquirer,"USA Rare Earth, Inc.",Inflection Point,,mismatch
+fulltext,0001213900-26-073218,DEFM14A,target,Texas Mineral Resources Corp.,Texas Mineral Resources Corp.,,tp
+fulltext,0001213900-26-073218,DEFM14A,merger_subsidiary,"Hamer Merger Sub, Inc. | Hamer Merger Sub, LLC","Hamer Merger Sub, Inc. | Hamer Merger Sub, LLC",,tp
+fulltext,0001213900-26-074267,DEFM14A,acquirer,"SeeQC, Inc.","SeeQC, Inc.",,tp
+fulltext,0001213900-26-074267,DEFM14A,target,Allegro Merger Corp.,Allegro Merger Corp.,,tp
+fulltext,0001213900-26-074267,DEFM14A,merger_subsidiary,"SEEQC Merger Sub, Inc.","SEEQC Merger Sub, Inc.",,tp
+fulltext,0001213900-26-074267,DEFM14A,acquirer,"SeeQC, Inc.","SeeQC, Inc.",,tp
+fulltext,0001213900-26-074267,DEFM14A,target,Allegro Merger Corp.,Allegro Merger Corp.,,tp
+fulltext,0001213900-26-074267,DEFM14A,merger_subsidiary,"SEEQC Merger Sub, Inc.","SEEQC Merger Sub, Inc.",,tp
+fulltext,0001213900-26-074267,DEFM14A,acquirer,"SeeQC, Inc.","SeeQC, Inc.",,tp
+fulltext,0001213900-26-074267,DEFM14A,target,Allegro Merger Corp.,Allegro Merger Corp.,,tp
+fulltext,0001213900-26-074267,DEFM14A,merger_subsidiary,"SEEQC Merger Sub, Inc.","SEEQC Merger Sub, Inc.",,tp
+fulltext,0001140361-26-027469,PREM14A,acquirer,AbbVie Inc.,Andor LLC,,mismatch
+fulltext,0001140361-26-027469,PREM14A,target,"Apogee Therapeutics, Inc.","Apogee Therapeutics, Inc.",,tp
+fulltext,0001140361-26-027469,PREM14A,merger_subsidiary,Andor Merger Co.,Andor Merger Co.,,tp
+fulltext,0001104659-26-082291,DEFM14A,acquirer,"Rome Wildlife, Inc.","Rome Wildlife, Inc.",,tp
+fulltext,0001104659-26-082291,DEFM14A,target,"RE/MAX Holdings, Inc.","RE/MAX Holdings, Inc.",,tp
+fulltext,0001104659-26-082291,DEFM14A,merger_subsidiary,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,,tp
+fulltext,0001104659-26-082291,DEFM14A,acquirer,"RE/MAX Holdings, Inc.","Rome Wildlife, Inc.",,mismatch
+fulltext,0001104659-26-082291,DEFM14A,target,"RIHI, Inc.","RE/MAX Holdings, Inc.",,mismatch
+fulltext,0001104659-26-082291,DEFM14A,merger_subsidiary,"Rhino Merger Sub I, Inc. | Rhino Merger Sub II, LLC",Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,,mismatch
+fulltext,0001104659-26-082291,DEFM14A,acquirer,1587802 B.C. Unlimited Liability Company,"Rome Wildlife, Inc.",,mismatch
+fulltext,0001104659-26-082291,DEFM14A,target,The Real Brokerage Inc.,"RE/MAX Holdings, Inc.",,mismatch
+fulltext,0001104659-26-082291,DEFM14A,merger_subsidiary,,Wildlife Acquisition I Corp. | Wildlife Acquisition II LLC,,fp_no_gt
+fulltext,0001193125-26-306199,PREM14A,acquirer,"Orion Merger Parent, Inc.","Orion Merger Parent, Inc.",,tp
+fulltext,0001193125-26-306199,PREM14A,target,"AstroNova, Inc.","AstroNova, Inc.",,tp
+fulltext,0001193125-26-306199,PREM14A,merger_subsidiary,"Orion MergerCo X, Inc.","Orion MergerCo X, Inc.",,tp
+fulltext,0001140361-26-029134,PREM14A,acquirer,Vertex Pharmaceuticals Incorporated,Vertex Pharmaceuticals Incorporated,,tp
+fulltext,0001140361-26-029134,PREM14A,target,"Crinetics Pharmaceuticals, Inc.","Crinetics Pharmaceuticals, Inc.",,tp
+fulltext,0001140361-26-029134,PREM14A,merger_subsidiary,"Clark Merger Sub, Inc.","Clark Merger Sub, Inc.",,tp
+fulltext,0001493152-26-034626,S-4,acquirer,IB Acquisition Corp.,IB Acquisition Corp.,,tp
+fulltext,0001493152-26-034626,S-4,target,GNQ Insilico Inc.,"GNQ Insilico, Inc.",,tp
+fulltext,0001493152-26-034626,S-4,merger_subsidiary,GNQ Call Inc. | GNQ Exchange Inc.,ExchangeCo,,mismatch
+fulltext,0001140361-26-029608,PREM14A,acquirer,"CRH Americas, Inc.","CRH Americas, Inc.",,tp
+fulltext,0001140361-26-029608,PREM14A,target,"Arcosa, Inc.","Arcosa, Inc.",,tp
+fulltext,0001140361-26-029608,PREM14A,merger_subsidiary,"Neon Merger Sub, Inc.","Neon Merger Sub, Inc.",,tp
+fulltext,0001213900-26-081847,PREM14A,acquirer,HeartSciences Inc.,HeartSciences Inc.,,tp
+fulltext,0001213900-26-081847,PREM14A,target,"Fortitude Mining HoldCo, LLC",HeartSciences Inc.,,mismatch
+fulltext,0001213900-26-081847,PREM14A,merger_subsidiary,"Cordis Acquisition, LLC","Cordis Acquisition, LLC",,tp
+fulltext,0001213900-26-084686,425,acquirer,Newbridge Acquisition Limited,Newbridge Acquisition Limited,,tp
+fulltext,0001213900-26-084686,425,target,Startech Group Inc.,Startech Group Inc.,,tp
+fulltext,0001213900-26-084686,425,merger_subsidiary,"Newbridge Merger Sub, Inc.","Newbridge Merger Sub, Inc. | Parent",,tp
+fulltext,0001213900-26-084686,425,acquirer,Newbridge Acquisition Limited,Newbridge Acquisition Limited,,tp
+fulltext,0001213900-26-084686,425,target,Startech Group Inc.,Startech Group Inc.,,tp
+fulltext,0001213900-26-084686,425,merger_subsidiary,"Newbridge Merger Sub, Inc.","Newbridge Merger Sub, Inc. | Parent",,tp
+fulltext,0001140361-26-032037,PREM14A,acquirer,"Merck KGaA, Darmstadt, Germany",Germany,,tp
+fulltext,0001140361-26-032037,PREM14A,target,Bio-Techne Corporation,BIO-TECHNE Corp,,tp
+fulltext,0001140361-26-032037,PREM14A,merger_subsidiary,"EMD Holdings NewCo, Inc.","EMD Holdings NewCo, Inc.",,tp
+fulltext,0001104659-26-093784,PREM14A,acquirer,Zymeworks Inc.,Zymeworks Inc.,,tp
+fulltext,0001104659-26-093784,PREM14A,target,"Theravance Biopharma, Inc.","Theravance Biopharma, Inc.",,tp
+fulltext,0001104659-26-093784,PREM14A,merger_subsidiary,Zymeworks Merger Sub 1,Zymeworks Merger Sub 1,,tp
+fulltext,0001213900-26-087935,425,acquirer,,"Inflection Point Acquisition
+Corp. V",,fp_no_gt
+fulltext,0001213900-26-087935,425,target,,GOWell Technology Limited,,fp_no_gt
+fulltext,0001213900-26-087935,425,merger_subsidiary,IPCV Merger Sub Limited,IPCV Merger Sub Limited,,tp
+fulltext,0001213900-26-089404,PREM14A,acquirer,"Langham Project, LLC","Langham Project, LLC",,tp
+fulltext,0001213900-26-089404,PREM14A,target,"LogicMark, Inc.","LogicMark, Inc.",,tp
+fulltext,0001213900-26-089404,PREM14A,merger_subsidiary,"Langham Merger Sub, Inc.","Langham Merger Sub, Inc.",,tp
+fulltext,0001213900-26-089404,PREM14A,acquirer,"Langham Project, LLC","Langham Project, LLC",,tp
+fulltext,0001213900-26-089404,PREM14A,target,"LogicMark, Inc.","LogicMark, Inc.",,tp
+fulltext,0001213900-26-089404,PREM14A,merger_subsidiary,"Langham Merger Sub, Inc.","Langham Merger Sub, Inc.",,tp
+fulltext,0001213900-26-089404,PREM14A,acquirer,"Langham Project, LLC","Langham Project, LLC",,tp
+fulltext,0001213900-26-089404,PREM14A,target,"LogicMark, Inc.","LogicMark, Inc.",,tp
+fulltext,0001213900-26-089404,PREM14A,merger_subsidiary,"Langham Merger Sub, Inc.","Langham Merger Sub, Inc.",,tp
+fulltext,0001193125-26-374324,S-4,acquirer,Talawar Tx Inc.,Talawar Tx Inc.,,tp
+fulltext,0001193125-26-374324,S-4,target,JATT II Acquisition Corp.,Talawar Tx Inc.,,mismatch
+fulltext,0001193125-26-374324,S-4,merger_subsidiary,Talawar Merger Sub,Talawar Merger Sub,,tp
+fulltext,0001140361-26-034858,PREM14A,acquirer,"American Family Mutual Insurance Company, S.I.",American Family Mutual Insurance Company,,tp
+fulltext,0001140361-26-034858,PREM14A,target,Bowhead Specialty Holdings Inc.,Bowhead Specialty Holdings Inc.,,tp
+fulltext,0001140361-26-034858,PREM14A,merger_subsidiary,Trident Superior Inc.,Trident Superior Inc.,,tp
+fulltext,0001193125-26-377066,SC 13E3,acquirer,"Tempus AI, Inc.","Tempus AI, Inc.",,tp
+fulltext,0001193125-26-377066,SC 13E3,target,"Personalis, Inc.","Personalis, Inc.",,tp
+fulltext,0001193125-26-377066,SC 13E3,merger_subsidiary,"Aviary Development, Inc. | Toucan Development, LLC","Aviary Development, Inc. | Toucan Development, LLC",,tp
+fulltext,0001104659-26-104366,S-4,acquirer,"First Hawaiian, Inc.","FIRST HAWAIIAN, INC.",,tp
+fulltext,0001104659-26-104366,S-4,target,TriCo Bancshares,"First Hawaiian, Inc.",,mismatch
+fulltext,0001104659-26-104366,S-4,merger_subsidiary,"Horizon Merger Sub, Inc.","Horizon Merger Sub, Inc.",,tp
+fulltext,0001104659-26-105071,PREM14A,acquirer,"Dream Finders Homes, Inc.","Dream Finders Homes, Inc.",,tp
+fulltext,0001104659-26-105071,PREM14A,target,"Beazer Homes USA, Inc.","Beazer Homes USA, Inc.",,tp
+fulltext,0001104659-26-105071,PREM14A,merger_subsidiary,"Bulldogs Merger Sub, Inc.","Bulldogs Merger Sub, Inc.",,tp
+fulltext,0001193125-26-383837,DEFM14A,acquirer,Repligen Corporation,Repligen Corporation,,tp
+fulltext,0001193125-26-383837,DEFM14A,target,"BioLife Solutions, Inc.","BioLife Solutions, Inc.",,tp
+fulltext,0001193125-26-383837,DEFM14A,merger_subsidiary,"Bravo Merger Sub I, Inc. | Bravo Merger Sub II, LLC","Bravo Merger Sub I, Inc. | Bravo Merger Sub II, LLC",,tp
+fulltext,0001193125-26-383841,PREM14A,acquirer,"Intercontinental Exchange, Inc.","Intercontinental Exchange, Inc.",,tp
+fulltext,0001193125-26-383841,PREM14A,target,MarketAxess Holdings Inc.,MarketAxess Holdings Inc.,,tp
+fulltext,0001193125-26-383841,PREM14A,merger_subsidiary,"Igloo Merger Sub II, Inc.","Igloo Merger Sub II, Inc. | Middle East. Merger Sub Igloo Merger Sub II, Inc.",,tp
+fulltext,0001104659-26-107126,PREM14A,acquirer,Neptune BidCo US Inc.,Neptune BidCo US Inc.,,tp
+fulltext,0001104659-26-107126,PREM14A,target,"DoubleVerify Holdings, Inc.","DoubleVerify Holdings, Inc.",,tp
+fulltext,0001104659-26-107126,PREM14A,merger_subsidiary,Wallace Merger Sub Inc.,Wallace Merger Sub Inc.,,tp
+fulltext,0001213900-26-099017,425,acquirer,,"ChampionsGate
+Acquisition Corporation",,fp_no_gt
+fulltext,0001213900-26-099017,425,target,"Futuremain Co., Ltd.","Futuremain Co., Ltd.",,tp
+fulltext,0001213900-26-099017,425,merger_subsidiary,,"ChampionsGate
+Acquisition Corp",,fp_no_gt
+fulltext,0001829126-26-010118,8-K,acquirer,,Bluechip Holdings Corp.,,fp_no_gt
+fulltext,0001829126-26-010118,8-K,target,Flag Ship Acquisition Corporation,Bluechip & Co. Holdings,,mismatch
+fulltext,0001829126-26-010118,8-K,merger_subsidiary,,Bluechip Merger Sub Inc. | Purchaser,,fp_no_gt
+fulltext,0001829126-26-010118,8-K,acquirer,,Bluechip Holdings Corp.,,fp_no_gt
+fulltext,0001829126-26-010118,8-K,target,Flag Ship Acquisition Corporation,Bluechip & Co. Holdings,,mismatch
+fulltext,0001829126-26-010118,8-K,merger_subsidiary,,Bluechip Merger Sub Inc. | Purchaser,,fp_no_gt
+fulltext,0001829126-26-010118,8-K,acquirer,,Bluechip Holdings Corp.,,fp_no_gt
+fulltext,0001829126-26-010118,8-K,target,Flag Ship Acquisition Corporation,Bluechip & Co. Holdings,,mismatch
+fulltext,0001829126-26-010118,8-K,merger_subsidiary,,Bluechip Merger Sub Inc. | Purchaser,,fp_no_gt
+fulltext,0001829126-26-010118,8-K,acquirer,Bluechip Holdings Corp.,Bluechip Holdings Corp.,,tp
+fulltext,0001829126-26-010118,8-K,target,Bluechip & Co. Holdings,Bluechip & Co. Holdings,,tp
+fulltext,0001829126-26-010118,8-K,merger_subsidiary,Bluechip Merger Sub Inc.,Bluechip Merger Sub Inc. | Purchaser,,tp
+fulltext,0001829126-26-010118,8-K,acquirer,Bluechip Holdings Corp.,Bluechip Holdings Corp.,,tp
+fulltext,0001829126-26-010118,8-K,target,Bluechip & Co. Holdings,Bluechip & Co. Holdings,,tp
+fulltext,0001829126-26-010118,8-K,merger_subsidiary,Bluechip Merger Sub Inc.,Bluechip Merger Sub Inc. | Purchaser,,tp
+fulltext,0001104659-26-108313,DEFM14A,acquirer,"First Hawaiian, Inc.","First Hawaiian, Inc.",,tp
+fulltext,0001104659-26-108313,DEFM14A,target,TriCo Bancshares,TRICO BANCSHARES /,,tp
+fulltext,0001104659-26-108313,DEFM14A,merger_subsidiary,"Horizon Merger Sub, Inc.","Horizon Merger Sub, Inc.",,tp
+fulltext,0001213900-26-100367,8-K,acquirer,ACP Holdings Acquisition Corp.,"ACP Holdings
+Acquisition Corp.",,tp
+fulltext,0001213900-26-100367,8-K,target,"May Mobility, Inc.","May Mobility, Inc.",,tp
+fulltext,0001213900-26-100367,8-K,merger_subsidiary,"Maestro Merger Sub, Inc.","Maestro Merger Sub, Inc.",,tp
+fulltext,0001829126-26-010319,425,acquirer,FortuneX Acquisition Corporation,FortuneX Acquisition Corporation,,tp
+fulltext,0001829126-26-010319,425,target,WT Realty Group Inc.,WT Realty Group Inc.,,tp
+fulltext,0001829126-26-010319,425,merger_subsidiary,FortuneX Merger Sub Inc.,FortuneX Merger Sub Inc.,,tp
+fulltext,0001829126-26-010319,425,acquirer,FortuneX Acquisition Corporation,FortuneX Acquisition Corporation,,tp
+fulltext,0001829126-26-010319,425,target,WT Realty Group Inc.,WT Realty Group Inc.,,tp
+fulltext,0001829126-26-010319,425,merger_subsidiary,FortuneX Merger Sub Inc.,FortuneX Merger Sub Inc.,,tp
+fulltext,0001104659-26-110971,8-K,target,,"NextCure, Inc.",,fp_no_gt
+fulltext,0001493152-26-044341,DEFM14A,acquirer,"Pulmatrix, Inc.","Pulmatrix,
+Inc.",,tp
+fulltext,0001493152-26-044341,DEFM14A,target,Eos SENOLYTIX Inc.,"Pulmatrix, Inc.",,mismatch
+fulltext,0001493152-26-044341,DEFM14A,merger_subsidiary,"PUOS Merger Sub, Inc.","PUOS Merger Sub, Inc.",,tp
+fulltext,0001493152-26-044341,DEFM14A,acquirer,"Pulmatrix, Inc.","Pulmatrix,
+Inc.",,tp
+fulltext,0001493152-26-044341,DEFM14A,target,Eos SENOLYTIX Inc.,"Pulmatrix, Inc.",,mismatch
+fulltext,0001493152-26-044341,DEFM14A,merger_subsidiary,"PUOS Merger Sub, Inc.","PUOS Merger Sub, Inc.",,tp
+fulltext,0001493152-26-044341,DEFM14A,acquirer,"Pulmatrix, Inc.","Pulmatrix,
+Inc.",,tp
+fulltext,0001493152-26-044341,DEFM14A,target,Eos SENOLYTIX Inc.,"Pulmatrix, Inc.",,mismatch
+fulltext,0001493152-26-044341,DEFM14A,merger_subsidiary,"PUOS Merger Sub, Inc.","PUOS Merger Sub, Inc.",,tp
+fulltext,0001493152-26-044341,DEFM14A,acquirer,"Pulmatrix, Inc.","Pulmatrix,
+Inc.",,tp
+fulltext,0001493152-26-044341,DEFM14A,target,Cullgen Inc.,"Pulmatrix, Inc.",,mismatch
+fulltext,0001493152-26-044341,DEFM14A,merger_subsidiary,"PCL Merger Sub, Inc. | PCL Merger Sub II, LLC","PUOS Merger Sub, Inc.",,mismatch
+fulltext,0001493152-26-044341,DEFM14A,acquirer,"Pulmatrix, Inc.","Pulmatrix,
+Inc.",,tp
+fulltext,0001493152-26-044341,DEFM14A,target,Cullgen Inc.,"Pulmatrix, Inc.",,mismatch
+fulltext,0001493152-26-044341,DEFM14A,merger_subsidiary,"PCL Merger Sub, Inc. | PCL Merger Sub II, LLC","PUOS Merger Sub, Inc.",,mismatch
+fulltext,0001213900-26-104691,8-K,acquirer,OAG Pipeline Technologies Inc.,OAG Pipeline Technologies Inc.,,tp
+fulltext,0001213900-26-104691,8-K,target,Harvard Ave Acquisition Corporation,OAG International Ltd,,mismatch
+fulltext,0001213900-26-104691,8-K,merger_subsidiary,OAG Merger Sub I,OAG Merger Sub I | OAG Merger Sub II,,tp
+fulltext,0001213900-26-104691,8-K,acquirer,OAG Pipeline Technologies Inc.,OAG Pipeline Technologies Inc.,,tp
+fulltext,0001213900-26-104691,8-K,target,OAG International Ltd,OAG International Ltd,,tp
+fulltext,0001213900-26-104691,8-K,merger_subsidiary,OAG Merger Sub II,OAG Merger Sub I | OAG Merger Sub II,,tp
+fulltext,0001213900-26-104691,8-K,acquirer,OAG Pipeline Technologies Inc.,OAG Pipeline Technologies Inc.,,tp
+fulltext,0001213900-26-104691,8-K,target,OAG International Ltd,OAG International Ltd,,tp
+fulltext,0001213900-26-104691,8-K,merger_subsidiary,OAG Merger Sub II,OAG Merger Sub I | OAG Merger Sub II,,tp
+fulltext,0001193125-26-021072,DEFM14A,acquirer,"Sword Purchaser, LLC","Sword Purchaser, LLC",,tp
+fulltext,0001193125-26-021072,DEFM14A,target,Sealed Air Corporation,SEALED AIR CORP/DE,,tp
+fulltext,0001193125-26-021072,DEFM14A,merger_subsidiary,"Sword Merger Sub, Inc.","Sword Merger Sub, Inc.",,tp
+fulltext,0001193125-26-028104,SC 13E3/A,acquirer,VICI Properties Inc.,Macquarie Capital (USA) Inc.,,mismatch
+fulltext,0001193125-26-028104,SC 13E3/A,target,"Golden Entertainment, Inc.","Golden Entertainment, Inc.",,tp
+fulltext,0001193125-26-028104,SC 13E3/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,VICI ROYAL MERGER SUB LLC,,tp
+fulltext,0001185185-26-000356,S-4/A,acquirer,RYVYL Inc.,RYVYL Inc.,,tp
+fulltext,0001185185-26-000356,S-4/A,target,"RTB Digital, Inc.","RYVYL,
+INC.",,mismatch
+fulltext,0001185185-26-000356,S-4/A,merger_subsidiary,RYVYL Merger Sub Inc.,RYVYL Merger Sub Inc.,,tp
+fulltext,0001437749-26-003399,DEFM14A,acquirer,"Laird Superfood, Inc.","Gateway Superfood NSSIII Investment, LLC",,mismatch
+fulltext,0001437749-26-003399,DEFM14A,target,Navitas LLC,"Laird Superfood, Inc.",,mismatch
+fulltext,0001437749-26-003399,DEFM14A,merger_subsidiary,,"Picky Bars, LLC",,fp_no_gt
+fulltext,0001437749-26-003399,DEFM14A,acquirer,"Laird Superfood, Inc.","Gateway Superfood NSSIII Investment, LLC",,mismatch
+fulltext,0001437749-26-003399,DEFM14A,target,Global Superfoods Corp.,"Laird Superfood, Inc.",,mismatch
+fulltext,0001437749-26-003399,DEFM14A,merger_subsidiary,,"Picky Bars, LLC",,fp_no_gt
+fulltext,0001539497-26-000331,DEFM14A,target,,"BioAtla, Inc.",,fp_no_gt
+fulltext,0001539497-26-000331,DEFM14A,merger_subsidiary,"BA Merger Sub, Inc.","BA Merger Sub, Inc.",,tp
+fulltext,0001493152-26-006791,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-006791,S-4/A,target,Willow Lane Acquisition Corp.,Willow Lane,,tp
+fulltext,0001493152-26-006791,S-4/A,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-006791,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-006791,S-4/A,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-006791,S-4/A,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-006791,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-006791,S-4/A,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-006791,S-4/A,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-006791,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-006791,S-4/A,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-006791,S-4/A,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001185185-26-000563,DEFM14A,acquirer,RYVYL Inc.,RYVYL Inc.,,tp
+fulltext,0001185185-26-000563,DEFM14A,target,"RTB Digital, Inc.","RTB Digital, Inc.",,tp
+fulltext,0001185185-26-000563,DEFM14A,merger_subsidiary,RYVYL Merger Sub Inc.,RYVYL Merger Sub Inc.,,tp
+fulltext,0001193125-26-051584,SC 13E3/A,acquirer,VICI Properties Inc.,Macquarie Capital (USA) Inc.,,mismatch
+fulltext,0001193125-26-051584,SC 13E3/A,target,"Golden Entertainment, Inc.","Golden Entertainment, Inc.",,tp
+fulltext,0001193125-26-051584,SC 13E3/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,VICI ROYAL MERGER SUB LLC,,tp
+fulltext,0001193125-26-052753,S-4/A,acquirer,GigCapital7 Corp.,GigCapital7 Corp.,,tp
+fulltext,0001193125-26-052753,S-4/A,target,"Hadron Energy, Inc.","Hadron Energy, Inc.",,tp
+fulltext,0001193125-26-052753,S-4/A,merger_subsidiary,"MMR Merger Sub, Inc.","MMR Merger Sub, Inc.",,tp
+fulltext,0001829126-26-001612,425,acquirer,,Navisalma Design,,fp_no_gt
+fulltext,0001829126-26-001612,425,target,Einride AB,Einride,,tp
+fulltext,0001829126-26-001612,425,merger_subsidiary,,Legato Merger Corp. III,,fp_no_gt
+fulltext,0001829126-26-001676,425,acquirer,Einride AB,Einride AB,,tp
+fulltext,0001829126-26-001676,425,target,Legato Merger Corp. III,Einride AB,,mismatch
+fulltext,0001829126-26-001676,425,merger_subsidiary,Einride Cayman Sub Limited,Einride Cayman Sub Limited,,tp
+fulltext,0001829126-26-001674,425,acquirer,,Einride AB,,fp_no_gt
+fulltext,0001829126-26-001674,425,target,,Einride,,fp_no_gt
+fulltext,0001829126-26-001674,425,merger_subsidiary,,Legato Merger Corp. III,,fp_no_gt
+fulltext,0001104659-26-020981,8-K,acquirer,TL Topco PLC,TL Topco PLC,,tp
+fulltext,0001104659-26-020981,8-K,target,Roman DBDR Acquisition Corp. II,TL Topco PLC,,mismatch
+fulltext,0001104659-26-020981,8-K,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,ThomasLloyd Climate Solutions Merger Sub,,tp
+fulltext,0001104659-26-020981,8-K,acquirer,TL Topco PLC,TL Topco PLC,,tp
+fulltext,0001104659-26-020981,8-K,target,Roman DBDR Acquisition Corp. II,TL Topco PLC,,mismatch
+fulltext,0001104659-26-020981,8-K,merger_subsidiary,ThomasLloyd Climate Solutions Merger Sub,ThomasLloyd Climate Solutions Merger Sub,,tp
+fulltext,0001104659-26-020981,8-K,acquirer,TL Topco PLC,TL Topco PLC,,tp
+fulltext,0001104659-26-020981,8-K,target,ThomasLloyd Climate Solutions B.V.,TL Topco PLC,,mismatch
+fulltext,0001104659-26-020981,8-K,merger_subsidiary,,ThomasLloyd Climate Solutions Merger Sub,,fp_no_gt
+fulltext,0001193125-26-096749,SC 13E3/A,acquirer,VICI Properties Inc.,"Macquarie
+Capital (USA) Inc.",,mismatch
+fulltext,0001193125-26-096749,SC 13E3/A,target,"Golden Entertainment, Inc.","Golden Entertainment, Inc.",,tp
+fulltext,0001193125-26-096749,SC 13E3/A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,VICI ROYAL MERGER SUB LLC,,tp
+fulltext,0001193125-26-096620,DEFM14A,acquirer,VICI Properties Inc.,"Golden, Argento, LLC",,mismatch
+fulltext,0001193125-26-096620,DEFM14A,target,"Golden Entertainment, Inc.","Golden Entertainment, Inc.",,tp
+fulltext,0001193125-26-096620,DEFM14A,merger_subsidiary,VICI ROYAL MERGER SUB LLC,VICI ROYAL MERGER SUB LLC,,tp
+fulltext,0001193125-26-102283,S-4/A,acquirer,GigCapital7 Corp.,GigCapital7 Corp.,,tp
+fulltext,0001193125-26-102283,S-4/A,target,"Hadron Energy, Inc.","Hadron Energy, Inc.",,tp
+fulltext,0001193125-26-102283,S-4/A,merger_subsidiary,"MMR Merger Sub, Inc.","MMR Merger Sub, Inc.",,tp
+fulltext,0001493152-26-009657,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-009657,S-4/A,target,Willow Lane Acquisition Corp.,Willow Lane,,tp
+fulltext,0001493152-26-009657,S-4/A,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-009657,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-009657,S-4/A,target,Willow Lane Acquisition Corp.,Willow Lane,,tp
+fulltext,0001493152-26-009657,S-4/A,merger_subsidiary,Benchmark Merger Sub I Inc.,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-009657,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-009657,S-4/A,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-009657,S-4/A,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-009657,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-009657,S-4/A,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-009657,S-4/A,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001493152-26-009657,S-4/A,acquirer,Boost Run Inc.,Boost Run Inc.,,tp
+fulltext,0001493152-26-009657,S-4/A,target,"Boost Run Holdings, LLC",Willow Lane,,mismatch
+fulltext,0001493152-26-009657,S-4/A,merger_subsidiary,Benchmark Merger Sub II LLC,Benchmark Merger Sub I Inc. | Benchmark Merger Sub II LLC,,tp
+fulltext,0001193125-26-102359,PREM14A,acquirer,"Glow Midco, LLC","Glow Midco, LLC",,tp
+fulltext,0001193125-26-102359,PREM14A,target,"European Wax Center, Inc.","European Wax Center, Inc.",,tp
+fulltext,0001193125-26-102359,PREM14A,merger_subsidiary,"Glow Merger Sub 1, Inc.","Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC",,tp
+fulltext,0001193125-26-102359,PREM14A,acquirer,"Glow Midco, LLC","Glow Midco, LLC",,tp
+fulltext,0001193125-26-102359,PREM14A,target,"European Wax Center, Inc.","European Wax Center, Inc.",,tp
+fulltext,0001193125-26-102359,PREM14A,merger_subsidiary,"Glow Merger Sub 1, Inc.","Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC",,tp
+fulltext,0001193125-26-102359,PREM14A,acquirer,"Glow Midco, LLC","Glow Midco, LLC",,tp
+fulltext,0001193125-26-102359,PREM14A,target,"EWC Ventures, LLC","European Wax Center, Inc.",,mismatch
+fulltext,0001193125-26-102359,PREM14A,merger_subsidiary,"Glow Merger Sub 2, LLC","Glow Merger Sub 1, Inc. | Glow Merger Sub 2, LLC",,tp
+fulltext,0001829126-26-002230,425,acquirer,,Legato Merger Corp. III,,fp_no_gt
+fulltext,0001829126-26-002230,425,target,,GE Appliances,,fp_no_gt
+fulltext,0001829126-26-002230,425,merger_subsidiary,,Legato Merger Corp. III,,fp_no_gt
+fulltext,0001213900-26-026268,425,acquirer,Plum Acquisition Corp. IV,Plum IV,,mismatch
+fulltext,0001213900-26-026268,425,target,Controlled Thermal Resources Holdings Inc.,Controlled Thermal Resources Holdings Inc.,,tp
+fulltext,0001213900-26-026268,425,merger_subsidiary,Plum IV Merger Sub Inc.,"Plum IV Merger Sub, Inc. | Plum IV Merger Sub Inc.",,tp
+fulltext,0001213900-26-028308,DEFM14A,acquirer,Odysseus Holdings Limited,Vine Hill Capital Investment Corp.,,mismatch
+fulltext,0001213900-26-028308,DEFM14A,target,Vine Hill Capital Investment Corp.,Vine Hill Capital Investment Corp.,,tp
+fulltext,0001213900-26-028308,DEFM14A,merger_subsidiary,Odysseus (Cayman) Limited,Limited,,mismatch
+fulltext,0001213900-26-028308,DEFM14A,acquirer,Odysseus Holdings Limited,Vine Hill Capital Investment Corp.,,mismatch
+fulltext,0001213900-26-028308,DEFM14A,target,CoinShares International Limited,Vine Hill Capital Investment Corp.,,mismatch
+fulltext,0001213900-26-028308,DEFM14A,merger_subsidiary,Odysseus (Cayman) Limited,Limited,,mismatch
+fulltext,0001213900-26-028308,DEFM14A,acquirer,Odysseus Holdings Limited,Vine Hill Capital Investment Corp.,,mismatch
+fulltext,0001213900-26-028308,DEFM14A,target,CoinShares International Limited,Vine Hill Capital Investment Corp.,,mismatch
+fulltext,0001213900-26-028308,DEFM14A,merger_subsidiary,Odysseus (Cayman) Limited,Limited,,mismatch
+fulltext,0001829126-26-002399,425,acquirer,,Einride AB,,fp_no_gt
+fulltext,0001829126-26-002399,425,target,,SH 130 Concession Company,,fp_no_gt
+fulltext,0001829126-26-002399,425,merger_subsidiary,,Legato Merger Corp. III,,fp_no_gt

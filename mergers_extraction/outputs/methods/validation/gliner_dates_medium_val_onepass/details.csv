@@ -1,0 +1,36 @@
+mode,accession_number,form,field,gt,pred,score,outcome
+learned,0001140361-26-000522,DEFM14A,shareholder_vote_date,2/12/2026 8:00 AM Eastern Standard Time,2/12/2026,,tp
+learned,0001193125-26-009645,S-4/A,shareholder_vote_date,2/3/2026 9:00 AM Eastern Time,2/3/2026,,tp
+learned,0001140361-26-001670,DEFM14A,shareholder_vote_date,3/13/2026 2:30 PM Eastern Time,3/13/2026 2:30 PM Eastern Time,,tp
+learned,0001140361-26-002822,SC 13E3/A,shareholder_vote_date,1/9/2026,,,fn_no_pred
+learned,0001140361-26-002822,SC 13E3/A,effective_date,1/29/2026,1/29/2026,,tp
+learned,0001140361-26-002822,SC 13E3/A,shareholder_vote_date,1/9/2026,,,fn_no_pred
+learned,0001140361-26-002822,SC 13E3/A,effective_date,1/29/2026,1/29/2026,,tp
+learned,0001104659-26-011659,DEFM14A,shareholder_vote_date,3/25/2026 8:00 AM Eastern Time,3/25/2026,,tp
+learned,0001213900-26-017460,DEFM14A,shareholder_vote_date,,3/17/2026,,fp_no_gt
+learned,0001213900-26-017460,DEFM14A,shareholder_vote_date,3/17/2026 10:00 AM Eastern Time,3/17/2026,,tp
+learned,0001104659-26-021584,DEFM14A,shareholder_vote_date,4/17/2026 1:30 PM BST,4/17/2026,,tp
+learned,0001104659-26-021605,DEFM14A,shareholder_vote_date,4/17/2026 1:30 PM BST,4/17/2026 1:40 PM,,tp
+learned,0001552781-26-000078,DEFM14A,shareholder_vote_date,3/31/2026 9:00 AM Central Time,3/31/2026 9:00 AM Central Time,,tp
+learned,0001552781-26-000078,DEFM14A,election_deadline,"5:00 PM New York City time, five business days before the closing date",,,fn_no_pred
+learned,0001140361-26-012785,DEFM14A,shareholder_vote_date,5/6/2026 10:00 AM Pacific Time,5/6/2026 10:00 AM Pacific Time,,tp
+learned,0001140361-26-012785,DEFM14A,election_deadline,"5:00 PM New York City time, five business days before estimated closing",,,fn_no_pred
+learned,0001104659-26-046161,DEFM14A,shareholder_vote_date,6/10/2026 4:00 PM CET,6/10/2026 4:00 PM,,tp
+learned,0001104659-26-046161,DEFM14A,shareholder_vote_date,,6/10/2026 4:00 PM,,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,5/20/2026 2:00 PM London Time,5/20/2026,,tp
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,,5/20/2026,,fp_no_gt
+learned,0001104659-26-051962,DEFM14A,shareholder_vote_date,,5/20/2026,,fp_no_gt
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,7/13/2026 9:00 AM Pacific Time,7/13/2026,,tp
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,7/13/2026,,absence_value
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,7/13/2026,,absence_value
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,7/13/2026 9:00 AM Pacific Time,7/13/2026,,tp
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,7/13/2026,,absence_value
+learned,0001193125-26-266069,DEFM14A,shareholder_vote_date,No shareholder vote required,7/13/2026,,absence_value
+learned,0001193125-26-280277,DEFM14A,shareholder_vote_date,8/5/2026 9:00 AM Eastern Time,8/5/2026,,tp
+learned,0001104659-26-083113,DEFM14A,shareholder_vote_date,8/12/2026 9:00 AM Eastern Time,8/12/2026 8:00 AM Central Time,,tp
+learned,0001193125-26-307826,PREM14A,shareholder_vote_date,12/11/2025,,,fn_no_pred
+learned,0001753926-26-001637,DEFM14A,shareholder_vote_date,9/24/2026 8:30 AM Eastern Time,9/24/2026,,tp
+learned,0001829126-26-001748,8-K,shareholder_vote_date,2/27/2026,2/27/2026,,tp
+learned,0001829126-26-001749,425,shareholder_vote_date,2/27/2026,2/27/2026,,tp
+learned,0001829126-26-002394,8-K,shareholder_vote_date,,3/17/2026,,fp_no_gt
+learned,0001829126-26-002394,8-K,shareholder_vote_date,3/17/2026,3/17/2026,,tp

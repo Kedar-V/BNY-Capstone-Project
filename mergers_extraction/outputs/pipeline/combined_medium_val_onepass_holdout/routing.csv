@@ -1,0 +1,42 @@
+field,method,validation_precision,validation_recall,validation_f1,validation_score (F1),wrong_answers,validation_score (F0.5),chosen
+acquirer,fine-tuned GLiNER,0.692,0.831,0.755,0.755,24,,True
+acquirer,role rule,0.625,0.769,0.69,0.69,30,,False
+acquirer,GLiNER + role checks,0.6,0.738,0.662,0.662,32,,False
+target,fine-tuned GLiNER,0.7,0.7,0.7,0.7,24,,False
+target,role rule,0.838,0.838,0.838,0.838,13,,True
+target,GLiNER + role checks,0.825,0.825,0.825,0.825,14,,False
+merger_subsidiary,fine-tuned GLiNER,0.838,0.886,0.861,0.861,12,,False
+merger_subsidiary,role rule,0.905,0.957,0.931,0.93,7,,True
+merger_subsidiary,GLiNER + role checks,0.905,0.957,0.931,0.93,7,,False
+security_description,fine-tuned GLiNER,0.62,0.69,0.653,0.653,30,,True
+cash_consideration,fine-tuned GLiNER,0.375,0.75,0.5,0.5,20,,False
+cash_consideration,cash filter,0.44,0.688,0.537,0.537,14,,True
+stock_exchange_ratio,fine-tuned GLiNER,0.224,0.333,0.268,0.268,59,,False
+stock_exchange_ratio,Qwen3 4B,0.31,0.431,0.361,0.361,49,,True
+stock_exchange_ratio,ratio rule,0.303,0.392,0.342,0.342,46,,False
+shareholder_vote_date,fine-tuned GLiNER,0.438,0.955,0.6,,27,0.491,False
+shareholder_vote_date,date rules,0.667,0.727,0.696,,8,0.678,False
+shareholder_vote_date,temporal NER,0.667,0.727,0.696,,8,0.678,False
+shareholder_vote_date,Qwen3 4B,0.345,0.909,0.5,,38,0.394,False
+shareholder_vote_date,GLiNER + date checks,0.679,0.864,0.76,,9,0.709,True
+effective_date,fine-tuned GLiNER,0.0,0.0,0.0,,7,0.0,False
+effective_date,date rules,1.0,1.0,1.0,,0,1.0,True
+effective_date,temporal NER,1.0,1.0,1.0,,0,1.0,False
+effective_date,Qwen3 4B,0.118,1.0,0.211,,15,0.143,False
+effective_date,GLiNER + date checks,1.0,1.0,1.0,,0,1.0,False
+election_deadline,fine-tuned GLiNER,,0.0,,,0,0.0,False
+election_deadline,date rules,0.5,0.5,0.5,,1,0.5,True
+election_deadline,temporal NER,,0.0,,,0,0.0,False
+election_deadline,Qwen3 4B,0.039,1.0,0.075,,49,0.048,False
+election_deadline,GLiNER + date checks,,0.0,,,0,0.0,False
+expected_closing,fine-tuned GLiNER,0.731,0.86,0.79,0.79,18,,True
+expected_closing,temporal NER,0.827,0.754,0.789,0.789,9,,False
+event_status,Qwen3 4B,0.588,0.588,0.588,0.588,33,,True
+consideration_type,Qwen3 4B,0.15,0.171,0.16,0.16,68,,True
+available_options,Qwen3 4B,0.0,0.0,0.0,0.0,31,,True
+default_option,Qwen3 4B,0.0,0.0,0.0,0.0,80,,True
+closing_conditions,Qwen3 4B,0.026,0.029,0.027,0.027,74,,True
+cash_consideration_qualifications,Qwen3 4B,0.133,0.125,0.129,0.129,26,,True
+stock_exchange_ratio_qualifications,Qwen3 4B,0.094,0.071,0.081,0.081,29,,True
+other_consideration,Qwen3 4B,0.043,0.1,0.061,0.06,22,,True
+event_status_details,Qwen3 4B,0.625,0.625,0.625,0.625,30,,True

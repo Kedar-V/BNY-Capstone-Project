@@ -1,0 +1,157 @@
+accession_number,field,value,evidence
+0001140361-26-000522,acquirer,Aquarian Holdings VI L.P.,GLiNER span; parent of the merger sub / defined as Parent
+0001140361-26-000522,target,"Brighthouse Financial, Inc.",filer of a DEFM14A
+0001140361-26-000522,merger_subsidiary,Aquarian Beacon Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001193125-26-009645,acquirer,Churchill Capital Corp IX,GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-009645,target,"Plus Automation, Inc.",GLiNER span (no structural check applied)
+0001193125-26-009645,merger_subsidiary,"AL Merger Sub I, Inc. | AL Merger Sub II, LLC",GLiNER span; defined as Merger Sub
+0001829126-26-000260,acquirer,D. Boral ARC Acquisition I Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001829126-26-000260,target,Exascale Labs Inc.,GLiNER span; defined as the Company / Target
+0001829126-26-000260,merger_subsidiary,D. Boral Arc Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001140361-26-001670,acquirer,Horizon Technology Finance Management LLC,GLiNER span (no structural check applied)
+0001140361-26-001670,target,Monroe Capital Corporation,GLiNER span; its shares convert
+0001140361-26-001670,merger_subsidiary,"HMMS, Inc.",GLiNER span; defined as Merger Sub
+0001213900-26-007416,acquirer,Athena Technology Acquisition Corp. II,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-007416,target,"Ace Green Recycling, Inc.",GLiNER span (no structural check applied)
+0001213900-26-007416,merger_subsidiary,Project Atlas Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001104659-26-007023,acquirer,"Beacon Topco, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-007023,target,"Clywedog Therapeutics, Inc.",GLiNER span; its shares convert
+0001104659-26-007023,merger_subsidiary,"Cdog Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-002822,acquirer,EH Parent LLC,GLiNER span; parent of the merger sub / defined as Parent
+0001140361-26-002822,target,Soho House & Co Inc.,GLiNER span; defined as the Company / Target
+0001140361-26-002822,merger_subsidiary,EH MergerSub Inc.,GLiNER span; defined as Merger Sub
+0001829126-26-000901,acquirer,Voyager Acquisition Corp.,GLiNER span (no structural check applied)
+0001829126-26-000901,target,Veraxa Biotech AG,GLiNER span; defined as the Company / Target
+0001829126-26-000901,merger_subsidiary,,
+0001104659-26-011659,acquirer,Burke & Herbert,GLiNER span (no structural check applied)
+0001104659-26-011659,target,"Summit Financial Group, Inc.",GLiNER span; its shares convert
+0001104659-26-011659,merger_subsidiary,LINKBANK,GLiNER span (no structural check applied)
+0001213900-26-017460,acquirer,Rose Acquisition Pte. Ltd.,GLiNER span (no structural check applied)
+0001213900-26-017460,target,Horizon Quantum Computing Pte. Ltd.,GLiNER span; its shares convert
+0001213900-26-017460,merger_subsidiary,"Horizon Merger Sub 2, Inc. | Rose Acquisition Pte. Ltd.",GLiNER span; defined as Merger Sub
+0001104659-26-021584,acquirer,Carnival Corporation,GLiNER span (no structural check applied)
+0001104659-26-021584,target,CARNIVAL CORP,filer of a DEFM14A
+0001104659-26-021584,merger_subsidiary,,
+0001104659-26-021605,acquirer,Carnival plc,GLiNER span (no structural check applied)
+0001104659-26-021605,target,CARNIVAL PLC,filer of a DEFM14A
+0001104659-26-021605,merger_subsidiary,,
+0001552781-26-000078,acquirer,Runway Growth Finance Corp.,GLiNER span (no structural check applied)
+0001552781-26-000078,target,SWK Holdings Corporation,GLiNER span; its shares convert
+0001552781-26-000078,merger_subsidiary,RWAY Portfolio Holding Corp.,GLiNER span (no structural check applied)
+0001493152-26-009318,acquirer,Calisa Acquisition Corp,GLiNER span; parent of the merger sub / defined as Parent
+0001493152-26-009318,target,Goodvision AI Inc.,GLiNER span; defined as the Company / Target
+0001493152-26-009318,merger_subsidiary,Calisa Merger Sub,GLiNER span; defined as Merger Sub
+0001104659-26-035234,acquirer,Spring Valley Acquisition Corp. III,GLiNER span (no structural check applied)
+0001104659-26-035234,target,General Fusion Inc.,GLiNER span; defined as the Company / Target
+0001104659-26-035234,merger_subsidiary,1573562 B.C. Ltd,GLiNER span (no structural check applied)
+0001193125-26-130513,acquirer,"Anchor Parent, LLC",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-130513,target,"Enhabit, Inc.",GLiNER span; defined as the Company / Target
+0001193125-26-130513,merger_subsidiary,"Anchor Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-012785,acquirer,Boston Scientific Corporation,GLiNER span (no structural check applied)
+0001140361-26-012785,target,Penumbra Inc,filer of a DEFM14A
+0001140361-26-012785,merger_subsidiary,"Pinehurst Merger Sub, Inc",GLiNER span; defined as Merger Sub
+0001213900-26-040029,acquirer,Crown Reserve Acquisition Corp. I,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-040029,target,"Carvix, Inc.",GLiNER span; defined as the Company / Target
+0001213900-26-040029,merger_subsidiary,CRAC Merger Sub Inc. | Crown Reserve Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001140361-26-015088,acquirer,"2025 Acquisition Company, LLC",GLiNER span (no structural check applied)
+0001140361-26-015088,target,Forian Inc.,GLiNER span; defined as the Company / Target
+0001140361-26-015088,merger_subsidiary,"Bravo Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001213900-26-044922,acquirer,INCEPTION GROWTH ACQUISITION LIMITED,GLiNER span (no structural check applied)
+0001213900-26-044922,target,AgileAlgo,GLiNER span (no structural check applied)
+0001213900-26-044922,merger_subsidiary,IGTA Merger Sub Limited,GLiNER span; defined as Merger Sub
+0001104659-26-046161,acquirer,Expro Luxembourg S.A,GLiNER span (no structural check applied)
+0001104659-26-046161,target,EXPRO GROUP HOLDINGS N.V.,filer of a DEFM14A
+0001104659-26-046161,merger_subsidiary,Expro Cayman,GLiNER span (no structural check applied)
+0001104659-26-051962,acquirer,"Beacon Topco, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-051962,target,"Clywedog Therapeutics, Inc.",GLiNER span; its shares convert
+0001104659-26-051962,merger_subsidiary,"Cdog Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001193125-26-209019,acquirer,Affinity Bank,GLiNER span (no structural check applied)
+0001193125-26-209019,target,"Affinity Bancshares, Inc.",filer of a PREM14A
+0001193125-26-209019,merger_subsidiary,"TFB Merger Subsidiary, Inc | Merger Subsidiary",GLiNER span; defined as Merger Sub
+0001829126-26-004942,acquirer,Future Vision II Acquisition Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001829126-26-004942,target,MicroTouch Technology Inc.,GLiNER span (no structural check applied)
+0001829126-26-004942,merger_subsidiary,Future Vision II Acquisition Merger Subsidiary Corp.,GLiNER span; defined as Merger Sub
+0001104659-26-068378,acquirer,"A-AV Holdco I, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-068378,target,"Avanos Medical, Inc.",GLiNER span; its shares convert
+0001104659-26-068378,merger_subsidiary,"A-AV MergerSub, Inc.",GLiNER span; defined as Merger Sub
+0001829126-26-005869,acquirer,SPACSphere Acquisition Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001829126-26-005869,target,"Mobilewalla Holdco, Inc.",GLiNER span; defined as the Company / Target
+0001829126-26-005869,merger_subsidiary,SPACSphere Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001193125-26-266069,acquirer,Ligand Pharmaceuticals Incorporated,GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-266069,target,XOMA Royalty Corporation,GLiNER span; its shares convert
+0001193125-26-266069,merger_subsidiary,"Flex Merger Sub, Inc. | XRH Merger Sub, Corp.",GLiNER span; defined as Merger Sub
+0001193125-26-280277,acquirer,AkzoNobel,GLiNER span (no structural check applied)
+0001193125-26-280277,target,Axalta Coating Systems Ltd.,filer of a DEFM14A
+0001193125-26-280277,merger_subsidiary,Merger Sub 2 | HM11 Bermuda Telephone +1 441 295 1422 Merger Sub,GLiNER span; defined as Merger Sub
+0001140361-26-026757,acquirer,EQUITY RESIDENTIAL,filer of a S-4
+0001140361-26-026757,target,AvalonBay,GLiNER span (no structural check applied)
+0001140361-26-026757,merger_subsidiary,Canopy Merger Sub LLC,GLiNER span; defined as Merger Sub
+0001829126-26-007145,acquirer,D. Boral ARC Merger Corporation,GLiNER span; holders receive its shares
+0001829126-26-007145,target,Exascale Labs Inc.,GLiNER span; its shares convert
+0001829126-26-007145,merger_subsidiary,D. Boral Arc Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001493152-26-032938,acquirer,GH Power Inc.,GLiNER span (no structural check applied)
+0001493152-26-032938,target,"Matinas BioPharma Holdings, Inc.",GLiNER span (no structural check applied)
+0001493152-26-032938,merger_subsidiary,"MBH Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001104659-26-083113,acquirer,AvalonBay,GLiNER span (no structural check applied)
+0001104659-26-083113,target,AVALONBAY COMMUNITIES INC,filer of a DEFM14A
+0001104659-26-083113,merger_subsidiary,Canopy Merger Sub LLC,GLiNER span; defined as Merger Sub
+0001193125-26-307826,acquirer,"Destination XL Group, Inc.",GLiNER span; holders receive its shares
+0001193125-26-307826,target,"FBB Holdings I, Inc.",GLiNER span; its shares convert
+0001193125-26-307826,merger_subsidiary,"Divine Merger Sub I, Inc.",GLiNER span; defined as Merger Sub
+0001104659-26-086863,acquirer,ListCo,GLiNER span (no structural check applied)
+0001104659-26-086863,target,Cartesian Growth Corporation II,GLiNER span; its shares convert
+0001104659-26-086863,merger_subsidiary,InoBat Cayman Merger Sub,GLiNER span; defined as Merger Sub
+0001140361-26-030109,acquirer,Eli Lilly and Company,GLiNER span (no structural check applied)
+0001140361-26-030109,target,AtaiBeckley Inc.,GLiNER span; its shares convert
+0001140361-26-030109,merger_subsidiary,Albali Acquisition Corporation,GLiNER span; defined as Merger Sub
+0001213900-26-084286,acquirer,"Bluerock Acquisition Holdings, LLC",GLiNER span (no structural check applied)
+0001213900-26-084286,target,Yellow.ai,GLiNER span; defined as the Company / Target
+0001213900-26-084286,merger_subsidiary,BLRK Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001193125-26-347541,acquirer,SPACSphere Acquisition Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-347541,target,"Mobilewalla Holdco, Inc.",GLiNER span (no structural check applied)
+0001193125-26-347541,merger_subsidiary,SPACSphere Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001193125-26-361757,acquirer,"Idaho USA, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001193125-26-361757,target,"Utz Brands, Inc.",filer of a PREM14A
+0001193125-26-361757,merger_subsidiary,"Idaho Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001213900-26-093229,acquirer,Mach X,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-093229,target,"Ursa Major Technologies, Inc.",GLiNER span; its shares convert
+0001213900-26-093229,merger_subsidiary,"Inflection Point Mach X Bleichroeder Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001753926-26-001637,acquirer,Rocket Lab Corporation,GLiNER span; parent of the merger sub / defined as Parent
+0001753926-26-001637,target,Iridium Communications Inc.,GLiNER span; its shares convert
+0001753926-26-001637,merger_subsidiary,"Ion Merger Sub I, Inc. | Ion Merger Sub II, LLC",GLiNER span; defined as Merger Sub
+0001104659-26-104858,acquirer,Texas Ventures Acquisition III Corp,GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-104858,target,"Plus Automation, Inc.",GLiNER span; defined as the Company / Target
+0001104659-26-104858,merger_subsidiary,"TVAC Merger Sub I, Inc. | TVAC Merger Sub II, LLC",GLiNER span; defined as Merger Sub
+0001213900-26-098973,acquirer,Aperture AC,GLiNER span; parent of the merger sub / defined as Parent
+0001213900-26-098973,target,Atlantic HPC Group Inc,GLiNER span; defined as the Company / Target
+0001213900-26-098973,merger_subsidiary,"AP Ocean Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001140361-26-036669,acquirer,"Willow Parent, LLC",GLiNER span; parent of the merger sub / defined as Parent
+0001140361-26-036669,target,"Weave Communications, Inc.",GLiNER span; its shares convert
+0001140361-26-036669,merger_subsidiary,"Willow Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001829126-26-000261,acquirer,D. Boral ARC Acquisition I Corp.,GLiNER span; parent of the merger sub / defined as Parent
+0001829126-26-000261,target,Exascale Labs Inc.,GLiNER span; defined as the Company / Target
+0001829126-26-000261,merger_subsidiary,D. Boral Arc Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001213900-26-010191,acquirer,Athena Technology Acquisition Corp. II,GLiNER span (no structural check applied)
+0001213900-26-010191,target,"Athena Technology Sponsor II, LLC",GLiNER span (no structural check applied)
+0001213900-26-010191,merger_subsidiary,Project Atlas Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001213900-26-010178,acquirer,Athena Technology Acquisition Corp. II,GLiNER span (no structural check applied)
+0001213900-26-010178,target,"Athena Technology Sponsor II, LLC",GLiNER span (no structural check applied)
+0001213900-26-010178,merger_subsidiary,Project Atlas Merger Sub Inc.,GLiNER span; defined as Merger Sub
+0001829126-26-000900,acquirer,Voyager Acquisition Corp.,GLiNER span (no structural check applied)
+0001829126-26-000900,target,Veraxa Biotech AG,GLiNER span; defined as the Company / Target
+0001829126-26-000900,merger_subsidiary,,
+0001829126-26-001748,acquirer,Voyager Acquisition Corp.,GLiNER span (no structural check applied)
+0001829126-26-001748,target,VERAXA Biotech AG,GLiNER span; defined as the Company / Target
+0001829126-26-001748,merger_subsidiary,,
+0001829126-26-001749,acquirer,Voyager Acquisition Corp.,GLiNER span (no structural check applied)
+0001829126-26-001749,target,VERAXA Biotech AG,GLiNER span; defined as the Company / Target
+0001829126-26-001749,merger_subsidiary,,
+0001493152-26-009317,acquirer,Calisa Acquisition Corp,GLiNER span; parent of the merger sub / defined as Parent
+0001493152-26-009317,target,Goodvision AI Inc.,GLiNER span; defined as the Company / Target
+0001493152-26-009317,merger_subsidiary,Calisa Merger Sub,GLiNER span; defined as Merger Sub
+0001104659-26-027698,acquirer,"Beacon Topco, Inc.",GLiNER span; parent of the merger sub / defined as Parent
+0001104659-26-027698,target,"Clywedog Therapeutics, Inc.",GLiNER span; its shares convert
+0001104659-26-027698,merger_subsidiary,"Cdog Merger Sub, Inc.",GLiNER span; defined as Merger Sub
+0001829126-26-002394,acquirer,Horizon Quantum Computing Pte. Ltd.,GLiNER span (no structural check applied)
+0001829126-26-002394,target,"DMY SQUARED TECHNOLOGY GROUP, INC",GLiNER span (no structural check applied)
+0001829126-26-002394,merger_subsidiary,"Rose Acquisition Pte. Ltd. | Horizon Merger Sub 2, Inc.",GLiNER span; defined as Merger Sub

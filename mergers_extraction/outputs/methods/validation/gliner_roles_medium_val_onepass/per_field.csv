@@ -1,0 +1,4 @@
+field,label,compare,tp,fp,fn,gt_absence_values,learned_precision,learned_recall,learned_f1
+acquirer,,name,48,32,17,0,0.6,0.738,0.662
+target,,name,66,14,14,0,0.825,0.825,0.825
+merger_subsidiary,,name,67,7,3,0,0.905,0.957,0.931

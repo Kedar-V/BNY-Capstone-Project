@@ -1,0 +1,4 @@
+field,label,compare,tp,fp,fn,gt_absence_values,fulltext_precision,fulltext_recall,fulltext_f1
+shareholder_vote_date,,date,143,34,55,11,0.808,0.722,0.763
+effective_date,,date,9,5,8,0,0.643,0.529,0.581
+election_deadline,,date_or_text,7,5,8,0,0.583,0.467,0.519
