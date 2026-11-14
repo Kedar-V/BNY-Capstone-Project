@@ -106,11 +106,28 @@ def comparable(runs: pd.DataFrame, focus: pd.Series) -> pd.DataFrame:
 
 
 def default_focus(runs: pd.DataFrame) -> pd.Series:
-    """Newest fine-tuned run, preferring learned windows."""
+    """Newest fine-tuned run on the held-out filings, preferring learned windows (validation runs are only for
+    choosing checkpoints and methods)."""
     tuned = runs[runs["method"] == "fine-tuned GLiNER"]
-    tuned = tuned.sort_values(["windows", "modified"], key=lambda c: c.eq("learned") if c.name == "windows" else c,
-                              ascending=False)
+    tuned = tuned.assign(_holdout=tuned["split"].eq("holdout"), _learned=tuned["windows"].eq("learned"))
+    tuned = tuned.sort_values(["_holdout", "_learned", "modified"], ascending=False).drop(columns=["_holdout", "_learned"])
     return tuned.iloc[0] if len(tuned) else runs.iloc[0]
+
+
+def combined_for(runs: pd.DataFrame, focus: pd.Series) -> pd.Series | None:
+    """The combined pipeline (best method per field) built on the focus model, on the same held-out filings."""
+    same = comparable(runs, focus)
+    same = same[(same["method"] == "combined pipeline") & (same["model"] == focus["model"])]
+    return same.iloc[0] if len(same) else None
+
+
+def micro_over(run: pd.Series, fields) -> float | None:
+    """Micro-F1 of a run over the given fields only, from its per-field counts; None if a field is missing."""
+    f = per_field(run)
+    if not set(fields) <= set(f.index):
+        return None
+    tp, fp, fn = (f.loc[list(fields), c].sum() for c in ("tp", "fp", "fn"))
+    return 2 * tp / (2 * tp + fp + fn) if tp else 0.0
 
 
 def baseline_for(runs: pd.DataFrame, focus: pd.Series) -> pd.Series | None:
@@ -157,9 +174,11 @@ def field_table(runs: pd.DataFrame, fields=None, metric: str = "f1") -> pd.DataF
 
 # ---------------------------------------------------------------- chart helpers
 def _title(ax, text, sub, legend_above=False):
-    lift = 0.075 if legend_above else 0.0
-    ax.set_title(text, loc="left", fontsize=14, fontweight="bold", color=INK, pad=28 + (26 if lift else 0))
-    ax.text(0, 1.035 + lift, sub, transform=ax.transAxes, fontsize=10.5, color=INK_2, va="bottom")
+    """Title and subtitle above the axes (and above the legend), placed in points so tall charts do not overlap."""
+    lift = 26 if legend_above else 0
+    ax.set_title(text, loc="left", fontsize=14, fontweight="bold", color=INK, pad=30 + lift)
+    ax.annotate(sub, xy=(0, 1), xycoords="axes fraction", xytext=(0, 8 + lift), textcoords="offset points",
+                fontsize=10.5, color=INK_2, va="bottom")
 
 
 def _legend_above(ax, ncol):
@@ -180,12 +199,24 @@ def save(fig, name: str, folder: Path = FIGURES) -> Path:
 
 # ---------------------------------------------------------------- charts
 def overall_chart(runs: pd.DataFrame, focus: pd.Series):
-    """Micro-F1 of several runs on the same held-out set; the focus run is highlighted and its ground-truth-passage
-    score shown as an outlined bar. Only runs scored on the same fields are compared: micro-F1 over 3 date fields
-    and over 10 span fields are not comparable."""
-    runs = runs[runs["fields_scored"] == focus["fields_scored"]].sort_values("micro_f1")
-    rows = [(_cap(f"{r['method']}, {windows_label(r['windows'])}"), r["micro_f1"], CURRENT if r["run"] == focus["run"] else CONTEXT)
-            for _, r in runs.iterrows()]
+    """Micro-F1 over the focus run's fields for: zero-shot GLiNER, the focus model with each window choice, and the
+    combined pipeline built on it, all on the same held-out filings. Runs of other fine-tuned models are left out.
+    The focus run's ground-truth-passage score is shown as an outlined bar."""
+    fields = list(per_field(focus).index)
+    keep = runs[(runs["method"] == "zero-shot GLiNER") |
+                ((runs["model"] == focus["model"]) & runs["method"].isin(["fine-tuned GLiNER", "combined pipeline"]))]
+    rows = []
+    for _, r in keep.iterrows():
+        value = micro_over(r, fields)
+        if value is None:
+            continue
+        name = ("Best method per field (combined pipeline)" if r["method"] == "combined pipeline"
+                else _cap(f"{r['method']}, {windows_label(r['windows'])}"))
+        if any(name == n for n, _, _ in rows):
+            continue  # a second zero-shot run with the same window choice
+        rows.append((name, value, CURRENT if r["run"] == focus["run"] else SECOND if r["method"] == "combined pipeline"
+                     else CONTEXT))
+    rows.sort(key=lambda r: r[1])
     if pd.notna(focus["micro_f1_gt_passages"]):
         rows.append((_cap(f"{focus['method']}, given the ground-truth passages") +
                      "\n(reads only the passages the ground truth quotes)", focus["micro_f1_gt_passages"], None))
@@ -196,14 +227,14 @@ def overall_chart(runs: pd.DataFrame, focus: pd.Series):
         else:
             ax.barh(i, value, height=0.5, color=colour)
         ax.text(value + 0.01, i, f"{value:.2f}", va="center", fontsize=11,
-                fontweight="bold" if colour == CURRENT else "normal", color=INK)
+                fontweight="bold" if colour in (CURRENT, SECOND) else "normal", color=INK)
     ax.set_yticks(range(len(rows)), [r[0] for r in rows])
     ax.invert_yaxis()
     ax.set_xlim(0, max(r[1] for r in rows) * 1.2)
     _clean_y(ax)
-    ax.set_xlabel(f"Micro-F1, {focus['filings']} {focus['split']} filings")
-    low = runs["micro_f1"].min()
-    _title(ax, f"Micro-F1 from {low:.2f} to {focus['micro_f1']:.2f} ({focus['model']})",
+    ax.set_xlabel(f"Micro-F1 over the {len(fields)} span fields, {focus['filings']} {focus['split']} filings")
+    scored = [r[1] for r in rows if r[2] is not None]
+    _title(ax, f"Micro-F1 from {min(scored):.2f} to {max(scored):.2f} ({focus['model']})",
            "Agreement with the unverified LLM ground truth")
     return fig
 
@@ -335,22 +366,36 @@ def training_loss_chart(model: str):
 
 
 def methods_chart(runs: pd.DataFrame, focus: pd.Series):
-    """Per field: the focus GLiNER run's F1 against the best other method scored on the same held-out filings,
-    labelled with that method's name. Fields GLiNER does not answer are shown with the other method alone."""
-    others = runs[runs["method"].str.contains("GLiNER") == False]  # noqa: E712
+    """Per field: fine-tuned GLiNER alone against the method the combined pipeline chose for that field (chosen on
+    the validation filings, scored here on the held-out filings), labelled with that method's name. Without a
+    combined pipeline run, the best other method scored on the same held-out filings is shown instead."""
     base = per_field(focus)["f1"]
+    combined = combined_for(runs, focus)
     rows = []
-    fields = list(dict.fromkeys(list(FIELD_NAMES) + [f for _, r in others.iterrows() for f in per_field(r).index]))
-    for field in fields:
-        best = None
-        for _, r in others.iterrows():
-            f = per_field(r)
-            if field in f.index and pd.notna(f.loc[field, "f1"]) and (best is None or f.loc[field, "f1"] > best[1]):
-                best = (r["method"], f.loc[field, "f1"])
-        g = base.get(field)
-        if best is None and (g is None or pd.isna(g)):
-            continue
-        rows.append((field, g if g is not None and pd.notna(g) else None, best))
+    if combined is not None:
+        c = pd.read_csv(Path(combined["path"]) / "per_field.csv").set_index("field")
+        for field in c.index:
+            g = base.get(field)
+            chosen = c.loc[field, "method_used"]
+            value = c.loc[field, "combined_f1"]
+            value = 0.0 if pd.isna(value) else value
+            rows.append((field, g if g is not None and pd.notna(g) else None,
+                         None if chosen == "fine-tuned GLiNER" else (chosen, value)))
+        sub = "Method chosen per field on the validation filings, scored on the held-out filings"
+    else:
+        others = runs[~runs["method"].isin(["fine-tuned GLiNER", "zero-shot GLiNER", "combined pipeline"])]
+        fields = list(dict.fromkeys(list(FIELD_NAMES) + [f for _, r in others.iterrows() for f in per_field(r).index]))
+        for field in fields:
+            best = None
+            for _, r in others.iterrows():
+                f = per_field(r)
+                if field in f.index and pd.notna(f.loc[field, "f1"]) and (best is None or f.loc[field, "f1"] > best[1]):
+                    best = (r["method"], f.loc[field, "f1"])
+            g = base.get(field)
+            if best is None and (g is None or pd.isna(g)):
+                continue
+            rows.append((field, g if g is not None and pd.notna(g) else None, best))
+        sub = "Fine-tuned GLiNER against the best other method on the same filings"
     rows.sort(key=lambda r: max(r[1] or 0, r[2][1] if r[2] else 0))
     fig, ax = plt.subplots(figsize=(9, 1.6 + 0.42 * len(rows)))
     for i, (field, g, best) in enumerate(rows):
@@ -362,13 +407,13 @@ def methods_chart(runs: pd.DataFrame, focus: pd.Series):
     ax.scatter([r[1] for r in rows if r[1] is not None], [i for i, r in enumerate(rows) if r[1] is not None], s=80,
                color=CURRENT, edgecolor="white", linewidth=2, zorder=3, label=_cap(f"{focus['method']}, {windows_label(focus['windows'])}"))
     ax.scatter([r[2][1] for r in rows if r[2]], [i for i, r in enumerate(rows) if r[2]], s=80, color=SECOND,
-               edgecolor="white", linewidth=2, zorder=4, label="Best other method (named)")
+               edgecolor="white", linewidth=2, zorder=4,
+               label="Method chosen for the field (named)" if combined is not None else "Best other method (named)")
     ax.set_yticks(range(len(rows)), [FIELD_NAMES.get(r[0], r[0].replace("_", " ").capitalize()) for r in rows])
     _clean_y(ax)
     ax.set_xlim(0, 1.25)
     ax.set_xticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
     ax.set_xlabel(f"F1 per field, {focus['filings']} {focus['split']} filings")
     _legend_above(ax, 2)
-    _title(ax, "Best method per field", "Fine-tuned GLiNER against date rules, temporal NER, filters, role rule and Qwen",
-           legend_above=True)
+    _title(ax, "Best method per field", sub, legend_above=True)
     return fig
