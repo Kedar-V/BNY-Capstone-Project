@@ -1,0 +1,191 @@
+{
+  "pack": "tender",
+  "backend": "orin",
+  "model": "gemma4:26b",
+  "mode": "oneshot_v1",
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 394.72,
+  "n_rows": 23,
+  "n_llm_jobs": 322,
+  "fields": [
+    "subject_company",
+    "bidder",
+    "security_description",
+    "cusip",
+    "isin",
+    "ticker",
+    "offer_price",
+    "currency",
+    "expiration_date",
+    "withdrawal_deadline",
+    "settlement_date",
+    "effective_date",
+    "minimum_tender_condition",
+    "proration_terms"
+  ],
+  "micro": {
+    "precision": 0.6487804878048781,
+    "recall": 0.6785714285714286,
+    "f1": 0.6633416458852869
+  },
+  "tp": 133,
+  "fp": 72,
+  "fn": 63,
+  "pass_counts": {
+    "oneshot": 212,
+    "oneshot+C_keep": 72,
+    "oneshot+C_drop": 15,
+    "clause": 4,
+    "clause_miss": 18,
+    "clause_null": 1
+  },
+  "per_field": {
+    "subject_company": {
+      "tp": 22,
+      "fp": 1,
+      "fn": 1,
+      "gt_present": 23,
+      "pred_present": 23,
+      "precision": 0.9565217391304348,
+      "recall": 0.9565217391304348,
+      "f1": 0.9565217391304348
+    },
+    "bidder": {
+      "tp": 23,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 23,
+      "pred_present": 23,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "security_description": {
+      "tp": 9,
+      "fp": 7,
+      "fn": 14,
+      "gt_present": 23,
+      "pred_present": 16,
+      "precision": 0.5625,
+      "recall": 0.391304347826087,
+      "f1": 0.46153846153846156
+    },
+    "cusip": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 0,
+      "gt_present": 13,
+      "pred_present": 14,
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1": 0.962962962962963
+    },
+    "isin": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 13,
+      "pred_present": 13,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "ticker": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 5,
+      "gt_present": 7,
+      "pred_present": 2,
+      "precision": 1.0,
+      "recall": 0.2857142857142857,
+      "f1": 0.4444444444444445
+    },
+    "offer_price": {
+      "tp": 16,
+      "fp": 7,
+      "fn": 7,
+      "gt_present": 23,
+      "pred_present": 23,
+      "precision": 0.6956521739130435,
+      "recall": 0.6956521739130435,
+      "f1": 0.6956521739130435
+    },
+    "currency": {
+      "tp": 2,
+      "fp": 13,
+      "fn": 0,
+      "gt_present": 2,
+      "pred_present": 15,
+      "precision": 0.13333333333333333,
+      "recall": 1.0,
+      "f1": 0.23529411764705882
+    },
+    "expiration_date": {
+      "tp": 11,
+      "fp": 12,
+      "fn": 11,
+      "gt_present": 22,
+      "pred_present": 23,
+      "precision": 0.4782608695652174,
+      "recall": 0.5,
+      "f1": 0.4888888888888889
+    },
+    "withdrawal_deadline": {
+      "tp": 7,
+      "fp": 12,
+      "fn": 3,
+      "gt_present": 10,
+      "pred_present": 19,
+      "precision": 0.3684210526315789,
+      "recall": 0.7,
+      "f1": 0.48275862068965514
+    },
+    "settlement_date": {
+      "tp": 9,
+      "fp": 6,
+      "fn": 6,
+      "gt_present": 15,
+      "pred_present": 15,
+      "precision": 0.6,
+      "recall": 0.6,
+      "f1": 0.6
+    },
+    "effective_date": {
+      "tp": 1,
+      "fp": 12,
+      "fn": 3,
+      "gt_present": 4,
+      "pred_present": 13,
+      "precision": 0.07692307692307693,
+      "recall": 0.25,
+      "f1": 0.11764705882352941
+    },
+    "minimum_tender_condition": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 9,
+      "gt_present": 11,
+      "pred_present": 2,
+      "precision": 1.0,
+      "recall": 0.18181818181818182,
+      "f1": 0.3076923076923077
+    },
+    "proration_terms": {
+      "tp": 3,
+      "fp": 1,
+      "fn": 4,
+      "gt_present": 7,
+      "pred_present": 4,
+      "precision": 0.75,
+      "recall": 0.42857142857142855,
+      "f1": 0.5454545454545454
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  }
+}
