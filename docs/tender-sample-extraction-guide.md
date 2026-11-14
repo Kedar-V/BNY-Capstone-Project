@@ -7,6 +7,7 @@
 | **Scope** | How SEC tender docs relate, how we process one deal, what structure exists in samples, and where GLiNER fits |
 | **Sample root** | `data/samples/` (local; gitignored) |
 | **Related code** | `dataloader/download_samples.py`, `src/preprocess/paths/tender.py`, `scripts/run_preprocess.py` |
+| **Eval harness** | [`docs/action-pack-unified-extract.md`](action-pack-unified-extract.md) — ActionPack unified extract, Orin oneshot, clause retrieve, DTO/LangGraph design |
 
 This document is **self-contained**. It does not require prior chat context.
 

@@ -18,3 +18,5 @@ sentencepiece>=0.2
 torch
 gliner>=0.2.0
 mlflow>=2.14
+langgraph>=0.2
+pydantic>=2.5

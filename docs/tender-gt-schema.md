@@ -4,6 +4,8 @@ CSV used by eval: [`notebooks/evaluation/tender_offers.csv`](../notebooks/evalua
 
 Scored columns and core set are defined in [`src/evaluation/tender.py`](../src/evaluation/tender.py) (`GT_VALUE_FIELDS`, `CORE_GT_FIELDS`).
 
+**Related:** scored extract harness + ActionPacks (Orin oneshot, clause path, DTO/LangGraph design) → [`action-pack-unified-extract.md`](action-pack-unified-extract.md).
+
 ## Row grain and join
 
 | Rule | Detail |

@@ -1,5 +1,7 @@
 # Creating the Evaluation Reference Dataset
 
+> **Current scored harness:** ActionPack unified extract (Orin / OpenRouter, soft-match F1) is documented in [`docs/action-pack-unified-extract.md`](../../docs/action-pack-unified-extract.md). This readme is the earlier StackAI reference-dataset workflow.
+
 ## Goal and responsibilities
 
 Create a reference dataset from approximately **1,000–2,000 SEC filings across five actions**, using **one LLM for now**. Outputs remain unverified until checked against the source. This task covers dataset creation; pipeline evaluation comes later.
