@@ -10,7 +10,7 @@ This page lists what was added to `load_tender_filings.ipynb` and `load_merger_f
 |---|---|
 | New module | `linking_fields.py`: fills the linking columns from SEC metadata and the filing text (no LLM) |
 | New module | `issuer_info.py`: issuer's country of incorporation from the SEC company record (used for ISINs) |
-| Tender prompt | **6 new fields**; field counts changed from 27 to 33 (34 keys with `passage`) |
+| Tender prompt | **6 new linking fields**, plus 3 date-related fields from the GT issue fixes; now 36 fields (37 keys with `passage`) |
 | Merger prompt | **5 new fields**; field counts changed from thirteen to eighteen (nineteen keys with `passages`) |
 | Tender CUSIP/ISIN rules | CUSIP pattern tightened; ISINs derived only where valid; two new columns |
 | Both notebooks | Linking columns are added automatically each time extraction saves its results |
@@ -43,13 +43,13 @@ Notes:
 
 ### Tender prompt (`PROMPT` in `load_tender_filings.ipynb`)
 
-New "LINKING FIELDS" section, keys 28–33 (`passage` moved to 34). Missing values use "N/A", as before.
+New "LINKING FIELDS" section. Missing values use "N/A", as before. (Later, the GT issue fixes added `withdrawal_terms`, `acceptance_date` and `settlement_terms` and made `settlement_date` a single payment date; see `docs/tender-gt-schema.md`.)
 
 | Field | What the model returns |
 |---|---|
 | `agreement_name` | the agreement the offer is made under (for example "Agreement and Plan of Merger"); "N/A" for an issuer tender offer with no such agreement |
 | `agreement_date` | the date that agreement is "dated as of", M/D/YYYY |
-| `offer_commencement_date` | the date the offer commenced, only when stated |
+| `offer_commencement_date` | the date the offer commenced; if none is stated, the date of the Offer to Purchase. The supporting quote must contain the date |
 | `original_filing_date` | for an amendment, the date of the original filing it amends |
 | `related_entities` | entities in a structural relationship, as "Name (relationship)" separated by " \| ": master fund, feeder fund, parent, merger subsidiary, co-registrant, affiliate |
 | `security_identifiers` | per class: "Class: CUSIP; ISIN; ticker", separated by " \| ", copied exactly as printed |
@@ -77,7 +77,7 @@ Added by `linking_fields.py` when those columns are present:
 | Column | Check |
 |---|---|
 | `security_identifiers_unverified` | CUSIPs or ISINs the model returned that are not printed in the filing (JSON list). CUSIPs copied with a space, such as "48255N 100", are compared without it |
-| `original_filing_date_agrees` | whether the model's `original_filing_date` matches the rule's `amends_filing_date` |
+| `original_filing_date_agrees` | whether the model's `original_filing_date` matches the rule's `amends_filing_date`. In the 1,000-filing run they disagreed on 29 filings; wherever the original was in our data (19 cases), the model's date was the right one. The rule sometimes picks up a later amendment's date, so prefer the model's value |
 
 ### Rights issues
 

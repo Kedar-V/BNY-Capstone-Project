@@ -25,7 +25,7 @@ PROMPT_LINKING_COLUMNS = [
     "agreement_name", "agreement_date", "offer_commencement_date", "original_filing_date",
     "related_entities", "security_identifiers",
 ]
-CHECK_COLUMNS = ["security_identifiers_unverified", "original_filing_date_agrees"]
+CHECK_COLUMNS = ["security_identifiers_unverified", "original_filing_date_agrees", "date_fields_unsupported"]
 # Covers often print a CUSIP with a space, e.g. "48255N 100", and the model copies it as printed.
 CUSIP_TOKEN = re.compile(r"\b([0-9A-Z]{6})[\s-]?([0-9A-Z]{2})[\s-]?([0-9])\b")
 ISIN_TOKEN = re.compile(r"\b[A-Z]{2}[0-9A-Z]{9}[0-9]\b")
@@ -173,6 +173,38 @@ def original_date_agrees(model_value, rule_iso):
     return f"{year}-{month:02d}-{day:02d}" == rule_iso
 
 
+DATE_VALUE = re.compile(r"^\s*(\d{1,2})/(\d{1,2})/(\d{4})")
+
+
+def _date_forms(month, day, year):
+    """Ways a filing may write one date, lowercased, to look for in a quote."""
+    name = MONTHS[month - 1]
+    short = {"september": "sept"}.get(name, name[:3])
+    suffix = "th" if 11 <= day % 100 <= 13 else {1: "st", 2: "nd", 3: "rd"}.get(day % 10, "th")
+    days = [str(day), f"{day:02d}", f"{day}{suffix}"]  # "June 19, 2026", "March 04, 2026" and "June 19th, 2026"
+    forms = {f"{month}/{day}/{year}", f"{month:02d}/{day:02d}/{year}"}
+    for d in days:
+        forms |= {f"{name} {d}, {year}", f"{name} {d},{year}", f"{short}. {d}, {year}", f"{short} {d}, {year}", f"{d} {name} {year}"}
+    return forms
+
+
+def date_fields_unsupported(values, evidence):
+    """Date fields whose date does not appear in any of that field's own quotes: a wrong label or a wrong quote."""
+    parsed = _literal(evidence)
+    if not isinstance(parsed, dict):
+        return None
+    bad = []
+    for field, items in parsed.items():
+        match = DATE_VALUE.match(str(values.get(field) or ""))
+        quotes = " ".join(_norm(str((i or {}).get("quote") or "")) for i in items or []).replace(" ,", ",")  # "July 15 , 2026"
+        if not match or not quotes:
+            continue
+        month, day, year = (int(x) for x in match.groups())
+        if not any(form in quotes for form in _date_forms(month, day, year)):
+            bad.append(field)
+    return bad
+
+
 def add_linking_fields(frame, search_metadata, text_by_accession, evidence_column):
     """Add the linking columns to an extraction results table. Existing columns are left as they are."""
     if frame.empty:
@@ -213,6 +245,10 @@ def add_linking_fields(frame, search_metadata, text_by_accession, evidence_colum
         ]
         frame["evidence_verified"] = [None if c is None else not c for c in checks]
         frame["evidence_unverified_fields"] = [None if c is None else json.dumps(c) for c in checks]
+    if evidence_column in frame:
+        records = frame.to_dict("records")
+        checks = [date_fields_unsupported(r, r.get(evidence_column)) for r in records]
+        frame["date_fields_unsupported"] = [None if c is None else json.dumps(c) for c in checks]
     if "security_identifiers" in frame:
         found = [
             identifiers_unverified(value, text_by_accession.get(str(accession)) or "")

@@ -29,8 +29,11 @@ These are the fields scored with `--fields core` and used for span fine-tune anc
 | `offer_price` | if present | Consideration **per share / unit** (or the short formula label if no fixed cash). | `$18.75` or `$18.75 per share`; avoid bare par `$0.001` |
 | `currency` | if present | ISO currency of the offer price. | `USD` |
 | `expiration_date` | if present | Offer expiration date/time (as stated). | `February 19, 2020` or `5:00 p.m., New York City time, on February 19, 2020` |
-| `withdrawal_deadline` | if present | Last time to withdraw tendered shares. | Same date style as expiration |
-| `settlement_date` | if present | Expected settlement / payment date. | Calendar date or short phrase from FAQ |
+| `withdrawal_deadline` | if present | Last time to withdraw tendered shares; date and time only. | Same date style as expiration |
+| `withdrawal_terms` | if present | Other withdrawal rights, e.g. a right to withdraw after a later date if not yet accepted (text). | `If Shares have not been accepted for payment, withdrawal is also permitted after 3/9/2026` |
+| `settlement_date` | if present | Calendar date of payment (first payment if several); `N/A` when only relative timing is stated. | `3/16/2026` |
+| `acceptance_date` | if present | Calendar date tendered securities are accepted for payment. | `3/23/2026` |
+| `settlement_terms` | if present | Acceptance and payment timing in words: relative timing, multiple payments, mechanics (text). | `Acceptance: promptly after expiration \| Payment: within 5 business days after the Valuation Date` |
 | `effective_date` | if present | Effective / commencement date of the offer. | Calendar date |
 | `minimum_tender_condition` | if present | Minimum tender / “Minimum Condition” threshold. | `a majority of the outstanding Shares` or `%` text as in FAQ |
 | `proration_terms` | if present | Proration / acceptance priority rule (short). | Short clause from FAQ, not full prospectus prose |
@@ -80,7 +83,10 @@ Same CSV; scored with `--fields all`. Narrative / agent fields are **not** owned
 |--------|-------------|
 | `expiration_date` | Expiration (see core). |
 | `withdrawal_deadline` | Withdrawal deadline (see core). |
-| `settlement_date` | Settlement date (see core). |
+| `withdrawal_terms` | Other withdrawal rights (see core). |
+| `settlement_date` | Payment date (see core). |
+| `acceptance_date` | Acceptance date (see core). |
+| `settlement_terms` | Acceptance and payment timing in words (see core). |
 | `effective_date` | Effective / start date (see core). |
 | `minimum_tender_condition` | Minimum condition (see core). |
 | `proration_terms` | Proration terms (see core). |
@@ -192,7 +198,7 @@ Optional CSV shape if you stay tabular: keep the wide value columns, plus a para
 Minimal header for new GT **values** (core-capable + full value set):
 
 ```text
-accession_number,subject_company,bidder,parent,acquisition_subsidiary,dealer_manager,depositary,information_agent,other_parties,security_description,ticker,cusip,isin,event_status,event_status_details,mandatory_voluntary_indicator,offer_price_type,offer_price,currency,offer_price_basis,offer_price_qualifications,expiration_date,withdrawal_deadline,settlement_date,effective_date,minimum_tender_condition,proration_terms,tendering_conditions,available_options,default_option,financial_terms,conditions_restrictions
+accession_number,subject_company,bidder,parent,acquisition_subsidiary,dealer_manager,depositary,information_agent,other_parties,security_description,ticker,cusip,isin,event_status,event_status_details,mandatory_voluntary_indicator,offer_price_type,offer_price,currency,offer_price_basis,offer_price_qualifications,expiration_date,withdrawal_deadline,withdrawal_terms,acceptance_date,settlement_date,settlement_terms,effective_date,minimum_tender_condition,proration_terms,tendering_conditions,available_options,default_option,financial_terms,conditions_restrictions
 ```
 
 Plus a **span evidence** file (recommended):
