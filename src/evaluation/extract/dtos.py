@@ -30,7 +30,7 @@ class EvidenceBundle(BaseModel):
     model_config = ConfigDict(frozen=True)
 
     text: str
-    source: Literal["clause", "rules", "gliner", "temporal", "mixed"]
+    source: Literal["clause", "rules", "gliner", "temporal", "hybrid", "mixed"]
     n_chars: int
     empty: bool
 

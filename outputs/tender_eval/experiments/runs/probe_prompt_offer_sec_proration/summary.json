@@ -1,0 +1,21 @@
+{
+  "n_jobs": 25,
+  "delta": {
+    "still_bad": 21,
+    "improved": 4
+  },
+  "by_field": {
+    "offer_price": {
+      "still_bad": 11,
+      "improved": 1
+    },
+    "security_description": {
+      "improved": 2,
+      "still_bad": 5
+    },
+    "proration_terms": {
+      "improved": 1,
+      "still_bad": 5
+    }
+  }
+}

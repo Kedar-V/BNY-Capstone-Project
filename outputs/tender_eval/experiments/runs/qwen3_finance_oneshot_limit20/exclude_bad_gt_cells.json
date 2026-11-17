@@ -1,0 +1,96 @@
+{
+  "source": "outputs/tender_eval/tender_gt_problem_examples.csv",
+  "n_bad_catalog": 376,
+  "bad_in_holdout20": [
+    {
+      "accession": "0000919574-26-000310",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0000930413-26-000298",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0000930413-26-000298",
+      "field": "withdrawal_deadline"
+    },
+    {
+      "accession": "0000930413-26-000299",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0000930413-26-000299",
+      "field": "withdrawal_deadline"
+    },
+    {
+      "accession": "0001104659-26-000598",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0001104659-26-001124",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0001104659-26-002517",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0001104659-26-006950",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0001104659-26-006950",
+      "field": "withdrawal_deadline"
+    },
+    {
+      "accession": "0001104659-26-008028",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0001104659-26-008028",
+      "field": "withdrawal_deadline"
+    },
+    {
+      "accession": "0001104659-26-008976",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0001140361-26-003032",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0001140361-26-003032",
+      "field": "withdrawal_deadline"
+    },
+    {
+      "accession": "0001193125-26-000507",
+      "field": "settlement_date"
+    },
+    {
+      "accession": "0001193125-26-000507",
+      "field": "withdrawal_deadline"
+    },
+    {
+      "accession": "0001193125-26-005515",
+      "field": "settlement_date"
+    }
+  ],
+  "partial_metrics_raw": {
+    "tp": 46,
+    "fp": 36,
+    "fn": 26,
+    "p": 0.5609756097560976,
+    "r": 0.6388888888888888,
+    "f1": 0.5974025974025975,
+    "excluded": 0
+  },
+  "partial_metrics_excl_bad": {
+    "tp": 45,
+    "fp": 34,
+    "fn": 21,
+    "p": 0.569620253164557,
+    "r": 0.6818181818181818,
+    "f1": 0.6206896551724138,
+    "excluded": 6
+  }
+}

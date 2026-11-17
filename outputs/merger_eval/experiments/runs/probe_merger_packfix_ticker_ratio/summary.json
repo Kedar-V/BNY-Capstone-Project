@@ -1,0 +1,34 @@
+{
+  "n_jobs": 33,
+  "delta": {
+    "still_bad": 23,
+    "still_ok": 3,
+    "improved": 5,
+    "worse": 2
+  },
+  "by_field": {
+    "ticker": {
+      "still_bad": 11,
+      "still_ok": 2,
+      "worse": 1,
+      "improved": 2
+    },
+    "stock_exchange_ratio": {
+      "still_bad": 12,
+      "still_ok": 1,
+      "improved": 3,
+      "worse": 1
+    }
+  },
+  "outcome_shift": {
+    "mismatch->fn": 3,
+    "mismatch->mismatch": 6,
+    "fn->mismatch": 9,
+    "tp->tp": 3,
+    "fn->fn": 5,
+    "fn->tp": 4,
+    "tp->fn": 1,
+    "tp->mismatch": 1,
+    "mismatch->tp": 1
+  }
+}

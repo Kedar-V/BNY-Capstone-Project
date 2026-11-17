@@ -1,0 +1,3 @@
+{"ei": 2, "field": "settlement_date", "accession": "0001104659-26-001149", "result": {"pred": null, "pass_used": "oneshot", "n_evidence_chars": 4490, "n_rules": 0, "raw_llm": "oneshot:{\"settlement_date\": null}"}}
+{"ei": 0, "field": "settlement_date", "accession": "0001104659-26-000598", "result": {"pred": "3/31/2025", "pass_used": "oneshot", "n_evidence_chars": 2939, "n_rules": 1, "raw_llm": "oneshot:{\"settlement_date\": \"3/31/2025\"}"}}
+{"ei": 1, "field": "settlement_date", "accession": "0001104659-26-001124", "result": {"pred": "7/25/2025", "pass_used": "oneshot", "n_evidence_chars": 5204, "n_rules": 2, "raw_llm": "oneshot:{\"settlement_date\": \"7/25/2025\"}"}}

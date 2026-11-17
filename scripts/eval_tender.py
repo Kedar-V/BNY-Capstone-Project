@@ -30,6 +30,7 @@ from src.evaluation.experiments import (
     record_experiment,
     snapshot_baseline,
 )
+from src.evaluation.run_tracker import RunTracker, git_commit, sha256_file
 from src.evaluation.tender import (
     CORE_GT_FIELDS,
     GT_VALUE_FIELDS,
@@ -74,6 +75,9 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--run-id", default=None)
     p.add_argument("--experiment-note", default="")
     p.add_argument("--parent-run-id", default=None)
+    p.add_argument("--skip-missing-pred", action="store_true",
+                   help="Exclude GT rows whose accession/event has no prediction (instead of counting them as misses)")
+    p.add_argument("--heartbeat-every", type=int, default=10, help="rows between progress.jsonl heartbeats")
     p.add_argument("--keep", choices=["auto", "true", "false"], default="auto")
     args = p.parse_args(argv)
 
@@ -115,6 +119,27 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     gt_rows = load_gt(args.gt)
+    tracker = RunTracker(
+        args.out,
+        {
+            "gt_path": str(args.gt),
+            "gt_sha256": sha256_file(args.gt),
+            "git_commit": git_commit(ROOT),
+            "fields": args.fields,
+            "gliner_threshold": args.gliner_threshold,
+            "gliner_model": args.gliner_model,
+            "run_preprocess": args.run_preprocess,
+            "force": args.force,
+            "holdout": args.holdout,
+            "limit": args.limit,
+            "run_id": args.run_id,
+        },
+        every=args.heartbeat_every,
+    )
+    tracker.note(
+        n_gt_rows_loaded=len(gt_rows),
+        n_currency_undecided=sum(1 for r in gt_rows if r.get("_currency_undecided")),
+    )
     accessions = sorted(
         {(r.get("accession_number") or "").strip() for r in gt_rows if r.get("accession_number")}
     )
@@ -157,8 +182,6 @@ def main(argv: list[str] | None = None) -> int:
         # Prefer GT accession docs when inventoring each event
         preferred = {eid: acc for acc, eid in acc_to_eid.items()}
         print(f"Running preprocess for {len(event_ids)} events…")
-        from src.preprocess.orchestrator import run_pipeline
-
         extra: dict = {
             "workers": workers,
             "gliner_device": device,
@@ -172,15 +195,26 @@ def main(argv: list[str] | None = None) -> int:
             extra["gliner_model"] = args.gliner_model
         if args.fake_gliner:
             extra["span_backend"] = "fake"
-        results = run_pipeline(
-            path_name="tender",
-            preprocess_root=args.preprocess_root,
-            event_ids=event_ids,
-            force=args.force,
-            skip_db=args.skip_db,
-            show_progress=show_progress,
-            extra=extra,
-        )
+        from src.preprocess.orchestrator import PIPELINE_ORDER, run_stage
+
+        results = []
+        for stage_name in PIPELINE_ORDER:
+            if stage_name == "load_db" and args.skip_db:
+                continue
+            print(f"[stage] {stage_name} ({len(event_ids)} events)", flush=True)
+            with tracker.stage(f"preprocess:{stage_name}", n_events=len(event_ids)) as rec:
+                r = run_stage(
+                    stage_name,
+                    path_name="tender",
+                    preprocess_root=args.preprocess_root,
+                    event_ids=event_ids,
+                    force=args.force,
+                    show_progress=show_progress,
+                    extra={**extra, **({"skip_db": True} if args.skip_db else {})},
+                )
+                rec["status"] = getattr(r, "status", "ok") or "ok"
+                rec["metrics"] = getattr(r, "metrics", None)
+            results.append(r)
         print(json.dumps({r.stage: {"status": r.status, **(r.metrics or {})} for r in results}, indent=2))
 
     if args.reset_eval:
@@ -203,17 +237,39 @@ def main(argv: list[str] | None = None) -> int:
         f"Loaded predictions for {len(preds_acc)} accessions / {len(preds_eid)} events; "
         f"scoring {len(gt_rows)} GT rows / {len(accessions)} accessions ({args.fields})"
     )
-    result = evaluate_tender(
-        gt_rows,
-        preds_acc,
-        accession_to_event_id=acc_to_eid,
-        preds_by_event_id=preds_eid,
-        out_dir=args.out,
-        resume=not args.reset_eval,
-        show_progress=show_progress,
-        score_fields=score_fields,
+    if args.skip_missing_pred:
+        def _has_pred(r: dict) -> bool:
+            a = (r.get("accession_number") or "").strip()
+            return a in preds_acc or acc_to_eid.get(a, "") in preds_eid
+
+        n_before = len(gt_rows)
+        gt_rows = [r for r in gt_rows if _has_pred(r)]
+        accessions = sorted({(r.get("accession_number") or "").strip() for r in gt_rows})
+        print(f"--skip-missing-pred: excluded {n_before - len(gt_rows)} rows without predictions; scoring {len(gt_rows)}")
+        tracker.note(n_rows_excluded_no_prediction=n_before - len(gt_rows))
+    tracker.note(n_pred_accessions=len(preds_acc), n_pred_events=len(preds_eid))
+    with tracker.stage("eval", n_rows=len(gt_rows), n_accessions=len(accessions)) as rec:
+        result = evaluate_tender(
+            gt_rows,
+            preds_acc,
+            accession_to_event_id=acc_to_eid,
+            preds_by_event_id=preds_eid,
+            out_dir=args.out,
+            resume=not args.reset_eval,
+            show_progress=show_progress,
+            score_fields=score_fields,
+            on_row=tracker.on_row,
+            on_resume=tracker.eval_started,
+        )
+        rec["micro"] = result["micro"]
+    with tracker.stage("report"):
+        write_report(result, args.out, gt_rows=gt_rows)
+    tracker.finish(
+        "ok",
+        micro=result["micro"],
+        n_gt_rows=result.get("n_gt_rows"),
+        n_accessions_missing_prediction=result["n_accessions_missing_prediction"],
     )
-    write_report(result, args.out, gt_rows=gt_rows)
 
     keep = None if args.keep == "auto" else args.keep == "true"
     if args.run_id:

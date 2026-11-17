@@ -1,0 +1,128 @@
+status,accession,field,expected_gt,qwen_pred,pass_used,bad_gt
+TP,0000919574-26-000310,bidder,OceanPal Inc.,OceanPal Inc.,oneshot,False
+TP,0000919574-26-000310,currency,USD,USD,oneshot+C_keep,False
+FP,0000919574-26-000310,cusip,,Transaction Code Number,oneshot,False
+FP,0000919574-26-000310,effective_date,,"january 8 th, 2026",oneshot+C_keep,False
+TP,0000919574-26-000310,expiration_date,1/8/2026 5:00 PM Eastern time,"January 8 th , 2026",oneshot+C_keep,False
+TN,0000919574-26-000310,isin,,,oneshot,False
+FP,0000919574-26-000310,minimum_tender_condition,,The Offer is not conditioned on any minimum number of shares being tendered.,clause,False
+MISMATCH,0000919574-26-000310,offer_price,1400,"1,400",oneshot,False
+TN,0000919574-26-000310,proration_terms,,,clause_miss,False
+TP,0000919574-26-000310,security_description,"OceanPal Inc. 7.0% Series D Cumulative Convertible Perpetual Preferred Stock, par value $0.01 per share, with a $1,000 liquidation preference per share",7.0% Series D Cumulative Convertible Perpetual Preferred Stock,clause,False
+BAD_GT,0000919574-26-000310,settlement_date,Payment: promptly after expiration,,B_null,True
+TP,0000919574-26-000310,subject_company,OceanPal Inc.,OceanPal Inc.,oneshot,False
+MISMATCH,0000919574-26-000310,ticker,SVRN,Series D Preferred Shares,oneshot+C_keep,False
+TP,0000919574-26-000310,withdrawal_deadline,1/8/2026 5:00 PM Eastern time,"january 8, 2026",oneshot+C_keep,False
+TP,0001104659-26-000598,bidder,First Trust Private Assets Fund,First Trust Private Assets Fund,oneshot,False
+FP,0001104659-26-000598,currency,,USD,oneshot+C_keep,False
+TN,0001104659-26-000598,cusip,,,oneshot,False
+FP,0001104659-26-000598,effective_date,,"march 31, 2025",oneshot+C_keep,False
+TP,0001104659-26-000598,expiration_date,3/31/2025 11:59 PM Eastern Time,"march 31, 2025",oneshot+C_keep,False
+TN,0001104659-26-000598,isin,,,oneshot,False
+FP,0001104659-26-000598,minimum_tender_condition,,The Offer is being made to all Shareholders of the Fund and is not conditioned on any minimum number of Shares being tendered.,clause,False
+MISMATCH,0001104659-26-000598,offer_price,"Net asset value of the Shares tendered as of March 31, 2025, as it may be adjusted based upon the next annual audit of the Fund’s financial statements","$8,244,011",oneshot,False
+FP,0001104659-26-000598,proration_terms,,If Shares in excess of 5.00% of the net assets of the Fund are duly tendered to the Fund prior to the Notice Due Date and not withdrawn prior to the Notice Due Date the Fund will accept Shares tendered before the Notice Due Date and not withdrawn prior to the Notice Due Date for payment on a pro rata basis based on the aggregate net asset value of tendered Shares.,clause,False
+TP,0001104659-26-000598,security_description,First Trust Private Assets Fund shares of beneficial interest,SHARES OF BENEFICIAL INTEREST,clause,False
+BAD_GT,0001104659-26-000598,settlement_date,Acceptance: after the expiration of the Offer | Initial Payment: 5/29/2025 | Post-Audit Payment: no later than 5 business days following the completion of the Fund’s next annual audit,6/30/2025,A,True
+TP,0001104659-26-000598,subject_company,First Trust Private Assets Fund,FIRST TRUST PRIVATE ASSETS FUND,oneshot,False
+FP,0001104659-26-000598,ticker,,xbrli,oneshot+C_keep,False
+FP,0001104659-26-000598,withdrawal_deadline,,"march 31, 2025",oneshot+C_keep,False
+MISMATCH,0001104659-26-001124,bidder,"Emerald Merger Sub, Inc.",Day One,oneshot,False
+TP,0001104659-26-001124,currency,USD,USD,oneshot+C_keep,False
+TP,0001104659-26-001124,cusip,59045L106,59045L 106,oneshot,False
+MISMATCH,0001104659-26-001124,effective_date,1/6/2026,"November 13, 2025",oneshot+C_keep,False
+TP,0001104659-26-001124,expiration_date,1/5/2026 11:59 PM Eastern Time,"January 5, 2026",oneshot+C_keep,False
+TP,0001104659-26-001124,isin,US59045L1061,US59045L1061,oneshot,False
+MISMATCH,0001104659-26-001124,minimum_tender_condition,"Minimum Condition was satisfied; its required number, percentage, or calculation basis is not stated","the Minimum Condition means that there shall have been validly tendered (not including any Shares tendered pursuant to guaranteed delivery procedures that have not yet been “received,” as such term is defined in Section 251(h) of the DGCL, by the depositary for the Offer pursuant to such procedures) and not properly withdrawn prior to or at the Expiration Date all of the issued and outstanding sha",clause,False
+TP,0001104659-26-001124,offer_price,"$25.00 in cash plus one non-tradeable contingent value right (CVR) per common share, representing the right to receive contingent milestone payments of up to $30.25 per CVR in cash",$25.00,oneshot,False
+TN,0001104659-26-001124,proration_terms,,,clause_miss,False
+TP,0001104659-26-001124,security_description,"Mersana Therapeutics, Inc. common stock, par value $0.0001 per share","Common Stock, $0.0001 par value per share",clause,False
+BAD_GT,0001104659-26-001124,settlement_date,Acceptance: after the expiration of the Offer | Payment: promptly,,B_null,True
+TP,0001104659-26-001124,subject_company,"Mersana Therapeutics, Inc.","Mersana Therapeutics, Inc.",oneshot,False
+TP,0001104659-26-001124,ticker,MRSN,MRSN,oneshot+C_keep,False
+FP,0001104659-26-001124,withdrawal_deadline,,"February 3, 2026",oneshot+C_keep,False
+TP,0001104659-26-001148,bidder,KKR FS Income Trust Select,KKR FS Income Trust Select,oneshot,False
+FN,0001104659-26-001148,currency,USD,,oneshot,False
+TP,0001104659-26-001148,cusip,48256J108,48256J108,oneshot,False
+FP,0001104659-26-001148,effective_date,,"december 29, 2025",oneshot+C_keep,False
+MISMATCH,0001104659-26-001148,expiration_date,12/29/2025 11:59 PM Eastern Time,"September 1, 2026",oneshot+C_keep,False
+TP,0001104659-26-001148,isin,US48256J1088,US48256J1088,oneshot,False
+TN,0001104659-26-001148,minimum_tender_condition,,,oneshot,False
+TP,0001104659-26-001148,offer_price,"net asset value per Share as of December 31, 2025","net asset value per Share as of December 31, 2025",oneshot,False
+TN,0001104659-26-001148,proration_terms,,,clause_miss,False
+TP,0001104659-26-001148,security_description,"KKR FS Income Trust Select Class S common shares of beneficial interest, par value $0.01 per share",Common Shares of Beneficial Interest,clause,False
+TN,0001104659-26-001148,settlement_date,,,B_null,False
+TP,0001104659-26-001148,subject_company,KKR FS Income Trust Select,KKR FS Income Trust,oneshot,False
+FP,0001104659-26-001148,ticker,,Class S common shares of beneficial interest,oneshot+C_keep,False
+TN,0001104659-26-001148,withdrawal_deadline,,,oneshot+C_drop,False
+TP,0001104659-26-001149,bidder,KKR FS Income Trust,KKR FS Income Trust,oneshot,False
+FN,0001104659-26-001149,currency,USD,,oneshot,False
+TP,0001104659-26-001149,cusip,48255N100,48255N100,oneshot,False
+TN,0001104659-26-001149,effective_date,,,oneshot+C_drop,False
+MISMATCH,0001104659-26-001149,expiration_date,12/29/2025 11:59 PM Eastern Time,"September 1, 2026",oneshot+C_keep,False
+TP,0001104659-26-001149,isin,US48255N1000,US48255N1000,oneshot,False
+TN,0001104659-26-001149,minimum_tender_condition,,,oneshot,False
+TP,0001104659-26-001149,offer_price,"net asset value per Share as of December 31, 2025","net asset value per share as of December 31, 2025",oneshot,False
+TN,0001104659-26-001149,proration_terms,,,clause_miss,False
+TP,0001104659-26-001149,security_description,"KKR FS Income Trust Class I common shares of beneficial interest, par value $0.01 per share",Common Shares of Beneficial Interest,clause,False
+TN,0001104659-26-001149,settlement_date,,,B_null,False
+TP,0001104659-26-001149,subject_company,KKR FS Income Trust,KKR FS Income Trust,oneshot,False
+FP,0001104659-26-001149,ticker,,Class I common shares of beneficial interest,oneshot+C_keep,False
+FP,0001104659-26-001149,withdrawal_deadline,,"december 29, 2025",oneshot+C_keep,False
+MISMATCH,0001104659-26-002517,bidder,XRA 7 Corp.,XOMA Royalty Corporation,oneshot,False
+TP,0001104659-26-002517,currency,USD,USD,oneshot+C_keep,False
+TP,0001104659-26-002517,cusip,37148K209,37148K209,oneshot,False
+FP,0001104659-26-002517,effective_date,,Effective Time,oneshot+C_keep,False
+MISMATCH,0001104659-26-002517,expiration_date,2/6/2026 11:59 PM Eastern time,"February 8, 2026",oneshot+C_keep,False
+TP,0001104659-26-002517,isin,US37148K2096,US37148K2096,oneshot,False
+MISMATCH,0001104659-26-002517,minimum_tender_condition,Validly tendered and not properly withdrawn shares must represent at least one share more than 50% of all shares issued and outstanding when the offer expires; shares tendered through guaranteed delivery procedures but not yet received by the depositary are excluded | Waiver is referenced where permitted under the Merger Agreement,"the Minimum Tender Condition (as defined below), Buyer Entities will accept for payment (the date and time of such acceptance, the “Offer Closing Time”) and thereafter pay for all Company Shares validly tendered and not properly withdrawn pursuant to the Offer promptly after the Expiration Date. The following are some question --- een validly tendered (and not properly withdrawn) at least one Comp",clause,False
+TP,0001104659-26-002517,offer_price,4.2913 cash plus one non-tradeable contingent value right per share,$4.2913,oneshot,False
+FP,0001104659-26-002517,proration_terms,,pro rata share of certain contingent cash payments equal to “CVR Proceeds” calculated as without duplication the amount equal to: • if the amount of Closing Net Cash recalculated by Parent pursuant to the procedures set forth in the CVR Agreement no later than 120 days following the Merger Closing Date (the “Final Net Cash”) is greater than $28.97 million (the “Signing Net Cash”) then the amou,clause,False
+TP,0001104659-26-002517,security_description,"Generation Bio Co. common stock, par value $0.0001 per share","Common Stock, Par Value $0.0001 Per Share",clause,False
+BAD_GT,0001104659-26-002517,settlement_date,"Acceptance and consummation: as promptly as practicable after expiration, and no more than three business days after expiration | Payment: promptly after acceptance",,B_null,True
+TP,0001104659-26-002517,subject_company,Generation Bio Co.,Generation Bio Co.,oneshot,False
+TP,0001104659-26-002517,ticker,GBIO,GBIO,oneshot+C_keep,False
+FP,0001104659-26-002517,withdrawal_deadline,,one minute after 11:59 p.m. Eastern Time,oneshot+C_keep,False
+MISMATCH,0001104659-26-006294,bidder,Eagle Point Institutional Income Fund,Eagle Point Credit Management LLC,oneshot,False
+TP,0001104659-26-006294,currency,USD,USD,oneshot+C_keep,False
+TP,0001104659-26-006294,cusip,269819108,269819108,oneshot,False
+TP,0001104659-26-006294,expiration_date,12/29/2025 5:00 PM Eastern Time,"december 29, 2025",oneshot+C_keep,False
+TP,0001104659-26-006294,isin,US2698191085,US2698191085,oneshot,False
+FP,0001104659-26-006294,minimum_tender_condition,,not conditioned on any minimum amount of Shares being tendered,clause,False
+MISMATCH,0001104659-26-006294,offer_price,7.15,"$2,500",oneshot,False
+TP,0001104659-26-006294,security_description,Eagle Point Institutional Income Fund shares of beneficial interest,SHARES OF BENEFICIAL INTEREST,clause,False
+FN,0001104659-26-006294,settlement_date,Acceptance for payment: 1/22/2026,,B_null,False
+TP,0001104659-26-006294,subject_company,Eagle Point Institutional Income Fund,Eagle Point Institutional Income Fund,oneshot,False
+FN,0001104659-26-006294,ticker,EIIA,,oneshot+C_drop,False
+FP,0001104659-26-006294,withdrawal_deadline,,"december 29, 2025",oneshot+C_keep,False
+TP,0001104659-26-006517,bidder,Hartford Schroders Private Opportunities Fund,Hartford Schroders Private Opportunities Fund,oneshot,False
+TN,0001104659-26-006517,cusip,,,oneshot,False
+TP,0001104659-26-006517,subject_company,Hartford Schroders Private Opportunities Fund,Hartford Schroders Private Opportunities Fund,oneshot,False
+TP,0001193125-26-000507,bidder,Jefferies Credit Partners BDC Inc.,JEFFERIES CREDIT PARTNERS BDC INC.,oneshot,False
+FP,0001193125-26-000507,currency,,USD,oneshot+C_keep,False
+TN,0001193125-26-000507,cusip,,,oneshot,False
+FP,0001193125-26-000507,effective_date,,"january 2, 2026",oneshot+C_keep,False
+MISMATCH,0001193125-26-000507,expiration_date,1/30/2026 11:59 PM Eastern Time,"march 2, 2026",oneshot+C_keep,False
+TN,0001193125-26-000507,isin,,,oneshot,False
+FN,0001193125-26-000507,minimum_tender_condition,No minimum tender condition,,oneshot,False
+MISMATCH,0001193125-26-000507,offer_price,"Net asset value per Class I Share as of the Valuation Date, less any applicable Early Repurchase Deduction","$3,170,288.31. 4",oneshot,False
+TP,0001193125-26-000507,proration_terms,"If Shares exceeding 5% of the Company's net asset value as of September 30, 2025 are duly tendered before the Notice Date and not withdrawn before the Tender Withdrawal Date, the Company, in its sole discretion, may accept Shares for payment pro rata based on the aggregate net asset value tendered by each stockholder, with no priority other than the exceptions in Rule 13e-4(f)(3)(i) and Rule 13e-4(f)(3)(ii)",If Shares in excess of 5% of the Company’s net asset value as of the prior calendar quarter end are duly tendered to the Company before the Notice Date and not withdrawn before the Tender Withdrawal Date the Company in its sole discretion may accept Shares tendered before the Notice Date and not withdrawn before the Tender Withdrawal Date for payment on a pro rata basis based on the aggregate n,clause,False
+TP,0001193125-26-000507,security_description,"Jefferies Credit Partners BDC Inc. Class I Shares of common stock, $0.001 par value per share",Common Stock $0.001 Par Value Per Share,clause,False
+BAD_GT,0001193125-26-000507,settlement_date,Acceptance: N/A | Payment: promptly after the Termination Date,2/11/2026,A,True
+TP,0001193125-26-000507,subject_company,Jefferies Credit Partners BDC Inc.,Jefferies Credit Partners BDC Inc.,oneshot,False
+TN,0001193125-26-000507,ticker,,,oneshot,False
+BAD_GT,0001193125-26-000507,withdrawal_deadline,"1/30/2026 11:59 PM Eastern Time | If the Company has not accepted the tender on or before 3/2/2026, withdrawal is also permitted after that date","january 30, 2026",oneshot+C_keep,True
+MISMATCH,0001193125-26-005515,bidder,"Caymus Purchaser, Inc.",Merck Sharp&nbsp;&amp; Dohme LLC,oneshot,False
+TP,0001193125-26-005515,currency,USD,USD,oneshot+C_keep,False
+TP,0001193125-26-005515,cusip,171757206,171757206,oneshot,False
+MISMATCH,0001193125-26-005515,effective_date,1/7/2026,"december 5, 2025",oneshot+C_keep,False
+TP,0001193125-26-005515,expiration_date,1/6/2026 11:59 PM Eastern Time,"january 6, 2026",oneshot+C_keep,False
+TP,0001193125-26-005515,isin,US1717572069,US1717572069,oneshot,False
+MISMATCH,0001193125-26-005515,minimum_tender_condition,"Minimum Condition satisfied by the Shares validly tendered and not validly withdrawn as of the Expiration Time, excluding Shares tendered pursuant to guaranteed delivery procedures that had not yet been received; the required minimum is not stated.",one more than 50% of the total number of Shares entitled to vote and outstanding at the time of expiration of the Offer,clause,False
+MISMATCH,0001193125-26-005515,offer_price,15505.00,221.50,oneshot,False
+TN,0001193125-26-005515,proration_terms,,,clause_miss,False
+TP,0001193125-26-005515,security_description,"Cidara Therapeutics, Inc. Series A Convertible Voting Preferred Stock, $0.0001 par value per share","Common Stock, par value $0.0001 per share Series A Convertible Voting Preferred Stock, par value $0.0001 per share",clause,False
+BAD_GT,0001193125-26-005515,settlement_date,Acceptance: following expiration | Payment: promptly in accordance with the terms of the Offer and the Merger Agreement,,B_null,True
+TP,0001193125-26-005515,subject_company,"Cidara Therapeutics, Inc.","CIDARA THERAPEUTICS, INC.",oneshot,False
+FN,0001193125-26-005515,ticker,CDTX,,oneshot+C_drop,False
+TP,0001193125-26-005515,withdrawal_deadline,1/6/2026 11:59 PM Eastern Time,"JANUARY 6, 2026",oneshot+C_keep,False

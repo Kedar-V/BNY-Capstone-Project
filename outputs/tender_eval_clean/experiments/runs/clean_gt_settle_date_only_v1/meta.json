@@ -1,0 +1,46 @@
+{
+  "run_id": "clean_gt_settle_date_only_v1",
+  "timestamp": "2026-11-14T04:10:28.075424+00:00",
+  "parent_run_id": null,
+  "change_summary": "settlement_date rule date-only (find_settlement_date), rescore on clean GT, rows without preds excluded",
+  "config": {
+    "gliner_threshold": 0.35,
+    "gliner_model": "urchade/gliner_medium-v2.1",
+    "label_set": "core",
+    "max_windows": 8,
+    "fields": "core",
+    "scope": "full",
+    "n_accessions": 287,
+    "n_gt_rows": 366
+  },
+  "keep": false,
+  "git_commit": "e1367f8",
+  "micro": {
+    "tp": 1582,
+    "fp": 1255,
+    "fn": 1405,
+    "scored": 3462,
+    "gt_present": 2987,
+    "precision": 0.5576313006697216,
+    "recall": 0.5296283896886508,
+    "f1": 0.5432692307692308,
+    "accuracy": 0.4569612940496823,
+    "accuracy_when_gt": 0.5296283896886508
+  },
+  "focus_f1": {
+    "offer_price": 0.21978021978021978,
+    "bidder": 0.7160493827160493,
+    "subject_company": 0.8683473389355743,
+    "security_description": 0.5314285714285714,
+    "expiration_date": 0.17531305903398925
+  },
+  "deltas": {
+    "micro_f1": null,
+    "f1_offer_price": null,
+    "f1_bidder": null,
+    "f1_subject_company": null,
+    "f1_security_description": null,
+    "f1_expiration_date": null
+  },
+  "mlflow_run_id": "e0c4156b6c434e15af9a9da4875ecef9"
+}

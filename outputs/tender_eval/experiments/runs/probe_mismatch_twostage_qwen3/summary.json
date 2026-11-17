@@ -1,0 +1,19 @@
+{
+  "n_jobs": 78,
+  "improved": 20,
+  "still_bad": 58,
+  "worse": 0,
+  "still_ok": 0,
+  "wall_seconds": 305.0,
+  "model": "qwen3-finance:latest",
+  "fields": [
+    "bidder",
+    "currency",
+    "effective_date",
+    "expiration_date",
+    "offer_price",
+    "subject_company",
+    "ticker",
+    "withdrawal_deadline"
+  ]
+}

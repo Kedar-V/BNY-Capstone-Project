@@ -2,10 +2,11 @@
 
 from __future__ import annotations
 
+import re
 from typing import TYPE_CHECKING, Any, Mapping
 
 from src.evaluation.action_packs.orgs import norm_org, same_org  # noqa: F401 (same_org re-exported)
-from src.preprocess.rules_ids import find_settlement
+from src.preprocess.rules_ids import find_settlement, prefer_settlement_rules_values
 
 if TYPE_CHECKING:
     from src.evaluation.action_packs.base import ActionPack
@@ -32,12 +33,8 @@ def rules_raw_values(pack: ActionPack, rep: dict, field: str, excerpts: str) -> 
         raw = str(f.get("raw") or f.get("value") or "").strip()[:MAX_RAW]
         if raw:
             vals.append(raw)
-    if field == "settlement_date" and excerpts:
-        for i in range(0, min(len(excerpts), 12_000), 1800):
-            hit = find_settlement(excerpts[i : i + 1800])
-            if hit:
-                vals.append(hit)
-                break
+    if field == "settlement_date":
+        return prefer_settlement_rules_values(vals, excerpts or "")
     return vals
 
 
@@ -67,6 +64,24 @@ def rules_lines(pack: ActionPack, rep: dict, field: str, excerpts: str) -> list[
             if hit:
                 lines.append(f"- hint=settlement_date method=settlement_template value={hit!r}")
                 break
+    # Live re-scan: preprocess candidate_facts often keep the acquirer ticker on
+    # merger DEF14As; prefer subject-scored hits from the filing excerpts.
+    if field == "ticker" and excerpts:
+        from src.preprocess.rules_ids import find_tickers
+
+        existing = {re.search(r"value='([^']*)'", ln) for ln in lines}
+        existing_vals = {
+            m.group(1).upper() for m in existing if m is not None
+        }
+        for hit in find_tickers(excerpts[:80_000], limit=3):
+            if hit.upper() in existing_vals:
+                continue
+            lines.insert(
+                0,
+                f"- hint=ticker method=live_scan value={hit!r}",
+            )
+            existing_vals.add(hit.upper())
+            break
     return lines
 
 

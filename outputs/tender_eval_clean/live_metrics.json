@@ -1,0 +1,148 @@
+{
+  "n_done": 366,
+  "n_total": 366,
+  "n_gt_rows": 366,
+  "n_accessions_scored": 366,
+  "n_accessions_missing_prediction": 0,
+  "n_accessions_joined_via_event_id": 231,
+  "micro": {
+    "tp": 1582,
+    "fp": 1255,
+    "fn": 1405,
+    "scored": 3462,
+    "gt_present": 2987,
+    "precision": 0.5576313006697216,
+    "recall": 0.5296283896886508,
+    "f1": 0.5432692307692308,
+    "accuracy": 0.4569612940496823,
+    "accuracy_when_gt": 0.5296283896886508
+  },
+  "per_field": {
+    "subject_company": {
+      "tp": 310,
+      "fp": 38,
+      "fn": 56,
+      "gt_present": 366,
+      "precision": 0.8908045977011494,
+      "recall": 0.8469945355191257,
+      "f1": 0.8683473389355743
+    },
+    "bidder": {
+      "tp": 261,
+      "fp": 102,
+      "fn": 105,
+      "gt_present": 366,
+      "precision": 0.71900826446281,
+      "recall": 0.7131147540983607,
+      "f1": 0.7160493827160493
+    },
+    "security_description": {
+      "tp": 186,
+      "fp": 148,
+      "fn": 180,
+      "gt_present": 366,
+      "precision": 0.5568862275449101,
+      "recall": 0.5081967213114754,
+      "f1": 0.5314285714285714
+    },
+    "cusip": {
+      "tp": 215,
+      "fp": 12,
+      "fn": 16,
+      "gt_present": 231,
+      "precision": 0.947136563876652,
+      "recall": 0.9307359307359307,
+      "f1": 0.9388646288209607
+    },
+    "isin": {
+      "tp": 215,
+      "fp": 12,
+      "fn": 16,
+      "gt_present": 231,
+      "precision": 0.947136563876652,
+      "recall": 0.9307359307359307,
+      "f1": 0.9388646288209607
+    },
+    "ticker": {
+      "tp": 84,
+      "fp": 0,
+      "fn": 53,
+      "gt_present": 137,
+      "precision": 1.0,
+      "recall": 0.6131386861313869,
+      "f1": 0.7601809954751131
+    },
+    "offer_price": {
+      "tp": 70,
+      "fp": 220,
+      "fn": 277,
+      "gt_present": 347,
+      "precision": 0.2413793103448276,
+      "recall": 0.2017291066282421,
+      "f1": 0.21978021978021978
+    },
+    "currency": {
+      "tp": 152,
+      "fp": 10,
+      "fn": 72,
+      "gt_present": 224,
+      "precision": 0.9382716049382716,
+      "recall": 0.6785714285714286,
+      "f1": 0.7875647668393783
+    },
+    "expiration_date": {
+      "tp": 49,
+      "fp": 192,
+      "fn": 269,
+      "gt_present": 318,
+      "precision": 0.2033195020746888,
+      "recall": 0.1540880503144654,
+      "f1": 0.17531305903398925
+    },
+    "withdrawal_deadline": {
+      "tp": 18,
+      "fp": 120,
+      "fn": 136,
+      "gt_present": 154,
+      "precision": 0.13043478260869565,
+      "recall": 0.11688311688311688,
+      "f1": 0.1232876712328767
+    },
+    "settlement_date": {
+      "tp": 18,
+      "fp": 242,
+      "fn": 77,
+      "gt_present": 95,
+      "precision": 0.06923076923076923,
+      "recall": 0.18947368421052632,
+      "f1": 0.10140845070422536
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 56,
+      "fn": 13,
+      "gt_present": 13,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "minimum_tender_condition": {
+      "tp": 4,
+      "fp": 69,
+      "fn": 28,
+      "gt_present": 32,
+      "precision": 0.0547945205479452,
+      "recall": 0.125,
+      "f1": 0.07619047619047618
+    },
+    "proration_terms": {
+      "tp": 0,
+      "fp": 34,
+      "fn": 107,
+      "gt_present": 107,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    }
+  }
+}

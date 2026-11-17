@@ -33,9 +33,11 @@ GT row (accession)
   → preprocess artifacts (segments, concise rep, GLiNER spans)
   → ActionPack field loop
        ├─ clause_fields[field]?  → retrieve_clause → field extract_prompt → LLM
-       └─ else oneshot / cascade → RULES + GLiNER + TEMPORAL evidence → pick prompt → LLM
+       └─ else oneshot / cascade → RULES + GLiNER + HYBRID + TEMPORAL evidence → pick prompt → LLM
   → soft_match vs gold
 ```
+
+**Hybrid (always-on supplement):** when `pack.hybrid` is set, pick/oneshot/span stages include a `HYBRID EXCERPTS` block fused from BM25 + dense (RRF) over the filing text. It rides **with** GLiNER, not as fallthrough-only. Dense uses OpenAI-compatible `EMBEDDING_BASE_URL` / `EMBEDDING_MODEL` (default `http://kedar-desktop:8200/v1`, `bge-large-en-v1.5`); embed failures fall back to BM25. Implementation: [`src/evaluation/extract/hybrid.py`](../src/evaluation/extract/hybrid.py).
 
 ### 2.1 Core types
 
@@ -43,8 +45,9 @@ Defined in [`src/evaluation/action_packs/base.py`](../src/evaluation/action_pack
 
 | Type | Role |
 |------|------|
-| `ActionPack` | `fields`, `field_defs`, `field_pick`, `hint_allow`, `date_fields`, `temporal_cues`, `validate_fields`, `clause_fields`, `system_prompt`, `normalize` |
+| `ActionPack` | `fields`, `field_defs`, `field_pick`, `hint_allow`, `date_fields`, `temporal_cues`, `validate_fields`, `clause_fields`, `hybrid` (`HybridSpec`), `temporal_scan_chars`, `temporal_max_spans`, `system_prompt`, `normalize` (retrieval knobs: §5.8) |
 | `ClauseFieldSpec` | Pack-tunable long-form field: passage quotes → regex windows → `extract_prompt` |
+| `HybridSpec` | Always-on BM25+dense supplemental excerpts next to GLiNER (`top_k`, `max_chars`, `use_dense`, `query_extra`) |
 | `PackHooks` | Optional pack-specific evidence logic (§5.4) |
 | `policies` | Optional explicit per-field `FieldPolicy` (§5.3); empty = derive from the knobs above |
 
@@ -52,7 +55,7 @@ Defined in [`src/evaluation/action_packs/base.py`](../src/evaluation/action_pack
 
 ### 2.2 Extract paths
 
-**Clause path** (oracle-style; used for tender `proration_terms` today):
+**Clause path** (oracle-style; tender `proration_terms`, and stage 1 of `minimum_tender_condition` / `security_description`, see §5.8):
 
 1. GT passage quotes for `quote_field` (if present and accepted by `quote_accept_re`).
 2. Else regex `patterns` over passage text ∪ segment blob ∪ excerpts (~`max_chars`, default 2200).
@@ -112,10 +115,10 @@ Clause pack path for proration is the same idea: when the sentence is in segment
 
 ## 4. How to run
 
-From repo root (Orin hub via `OLLAMA_HOST` in `.env`):
+From repo root (Orin hub via `OLLAMA_HOST` in `.env`; hybrid dense via `EMBEDDING_BASE_URL` / `EMBEDDING_MODEL`):
 
 ```bash
-.venv/bin/python scripts/eval_unified_field_qwen.py \
+.venv/bin/python scripts/eval_unified_field_graph.py \
   --pack tender \
   --backend orin \
   --model gemma4:26b \
@@ -131,6 +134,31 @@ The graph harness takes the same flags and writes the same outputs: swap in `scr
 The graph harness also writes `inputs.jsonl` in the run dir, so a finished run can be inspected without rebuilding what the model saw. It gets one line per (GT row, field), appended and flushed as each call finishes: `request` (the `FieldExtractRequest`, whose `accession` is the per-row context key), `accession` (the real accession), `ei` (row index), `gold`, `evidence` (the evidence of the stage that produced `pred`; for a null result, the last evidence retrieved), `prompt` (the user prompt of the extract call that produced `pred`, else the last extract prompt sent; `""` when no LLM call was made; never the Pass C validate prompt), `pred`, `pass_used` and `validate_verdict`. `summary.json`, `details.json`, `checkpoint.jsonl` and `per_field.csv` keep their format. On resume, calls restored from `checkpoint.jsonl` are not re-run, so their inputs are never rebuilt: only newly executed calls are appended, and the harness prints how many checkpointed calls have no line in `inputs.jsonl`. The file starts empty only when the run starts with no checkpoint. A call re-run after its checkpoint line was lost appears twice; readers should keep the last line per (`request.accession`, field). `scripts/analyze_input_quality.py --run <run dir>` scores every line with the harness's `_score_one` and puts each wrong call (`fp_no_gt`, `mismatch`, `fn`) in one category: gold blank, model gave a value / evidence empty / answer not in evidence / answer in a listed candidate / answer only in surrounding text. Date fields use a strict month/day/year match to decide whether the gold date is present. It prints totals and a per-field table.
 
 Scoring: `soft_match` in [`src/evaluation/tender.py`](../src/evaluation/tender.py). Holdout membership: `ensure_holdout` under the run's `--out` (`outputs/tender_eval/` for tender, `outputs/merger_eval/` for merger).
+
+### 4.1 Frozen evidence packs (multi-SLM compare)
+
+Freeze retrieval once, then swap only the SLM — no preprocess / hybrid / temporal rebuild between models.
+
+**Routing is core to pack build:** every field gets a multi-leg recipe (shape + legs, including hybrid combos) before bundles are frozen. Laya HTTP (`LAYA_URL`, optional `LAYA_CONFIDENCE_THRESHOLD`) when configured; otherwise a deterministic heuristic seeded by the oracle `best_per_field_*.json`. See [`routing.py`](../src/evaluation/extract/routing.py) / [`laya_client.py`](../src/evaluation/extract/laya_client.py).
+
+```bash
+# 1) Route every field, then freeze evidence
+.venv/bin/python scripts/build_evidence_pack.py \
+  --pack tender --split holdout --router auto \
+  --pack-id tender_holdout_routed_hybrid
+
+# 2) Replay any backend/model against the same pack
+.venv/bin/python scripts/eval_from_evidence_pack.py \
+  --evidence-pack outputs/tender_eval/evidence_packs/tender_holdout_routed_hybrid \
+  --backend ollama --model qwen3-finance:latest --run-name frozen_qwen3_routed
+
+# 3) Side-by-side F1
+.venv/bin/python scripts/compare_evidence_runs.py \
+  outputs/tender_eval/experiments/runs/frozen_qwen3_routed \
+  outputs/tender_eval/experiments/runs/frozen_qwen3_finance_holdout
+```
+
+Pack layout: `outputs/<pack>_eval/evidence_packs/<pack_id>/{manifest.json,evidence.jsonl,routing.json}`. `routing.json` records per-field shape/legs; replay reloads it so `resolve_policy` matches frozen stages.
 
 ---
 
@@ -171,7 +199,7 @@ All frozen Pydantic models; no ad-hoc dicts across node boundaries.
 | DTO | Fields |
 |-----|--------|
 | `FieldExtractRequest` | `pack_name`, `field` (non-blank), `event_id`, `accession`, `model`, `validate_enabled`, `cascade` |
-| `EvidenceBundle` | `text`, `source` (`clause` \| `rules` \| `gliner` \| `temporal` \| `mixed`), `n_chars`, `empty` |
+| `EvidenceBundle` | `text`, `source` (`clause` \| `rules` \| `gliner` \| `temporal` \| `hybrid` \| `mixed`), `n_chars`, `empty` |
 | `FieldExtractResult` | `pred`, `pass_used`, `n_evidence_chars`, `n_rules`, `raw_llm`, `validate_verdict` |
 
 `req.accession` doubles as the provider's context key (§5.5). Any exception in `run_field` becomes `pass_used="error"`.
@@ -242,6 +270,28 @@ When porting any of these, update the graph, regenerate the parity fixtures/snap
 1. Write `src/evaluation/action_packs/<name>.py` defining an `ActionPack`: `fields`, `field_defs`, `field_pick`, `hint_allow`, `gt_to_hint`, `date_fields`, `temporal_cues`, `validate_fields`, `clause_fields` (long-form fields), optionally `policies` (explicit `FieldPolicy` per field) and `hooks` (`PackHooks`).
 2. Register it in `get_pack` in [`src/evaluation/action_packs/__init__.py`](../src/evaluation/action_packs/__init__.py).
 3. Run `scripts/eval_unified_field_graph.py --pack <name> --gt <gt.csv> --out <eval_dir> ...`. Packs without an entry in the script's `HARNESS_CONFIGS` must pass both `--gt` and `--out` (the script exits 2 otherwise) and resolve preprocess event ids from the GT row's `event_id` column; add a `HarnessConfig` entry for default paths, a custom event-id strategy or party-name scoring fields. No graph, DTO or node edits. [`tests/evaluation/extract/test_new_pack.py`](../tests/evaluation/extract/test_new_pack.py) shows a pack added this way.
+
+#### Per-action retrieval config
+
+Where a pack's evidence comes from is tuned in one delimited block of module-level constants in the pack file. The tender block, `# --- tender retrieval config (tune here) ---` … `# --- end tender retrieval config` in [`tender.py`](../src/evaluation/action_packs/tender.py), is the template; copy it into a new pack and replace its contents:
+
+| Constant | What it is |
+|----------|------------|
+| `_<FIELD>_PATTERNS` | Ordered regexes for `ClauseFieldSpec.patterns`. `retrieve_clause` collapses whitespace, tries them in order over GT passages ∪ segment blob ∪ excerpts and keeps the hits of the **first** pattern that matches (order = priority). Use fixed-width windows (`.{0,300}`), not sentence-terminated ones. One comment per regex naming the generic SEC wording it targets. |
+| `_<FIELD>_EXTRACT_PROMPT` | The copy prompt (`{excerpt}` placeholder, `{{`/`}}` for JSON braces): copy the exact phrase from the excerpt, a fixed label for an explicit absence statement if the field has one, null otherwise. Generic: no filer names. |
+| `CLAUSE_FIELDS` | `ClauseFieldSpec` per long-form field (`max_chars` caps the joined hits; `use_passage_quotes=False` keeps gold-derived GT passages out of new fields). |
+| `POLICIES` | Explicit `FieldPolicy` per field that should NOT be clause-only. Tender's `minimum_tender_condition` and `security_description` use two stages: `clause` (`copy`, `on_empty="skip"`), then the oneshot `rules`+`gliner`+`hybrid` pick (`on_empty="ask"`). An empty clause, or a clause the LLM answers with null, falls through to stage 2; a clause answer ends the policy (`stop_at_first_hit`). A plain `clause_fields` entry without a policy is clause-only (null on a miss, no fall-through). Explicit policies apply in both oneshot and cascade runs. |
+| `HYBRID` / `hybrid=` | `HybridSpec` on the pack: BM25+dense RRF excerpts always appended next to GLiNER on pick/span stages (`query_extra` adds field cue phrases). Set `hybrid=None` to disable. |
+| `TEMPORAL_SCAN_CHARS` / `TEMPORAL_MAX_SPANS` | Pack knobs `ActionPack.temporal_scan_chars` (chars of the excerpts the temporal tagger reads, in 1,800-char chunks) and `temporal_max_spans` (TEMPORAL lines kept per date field). Defaults 12,000 / 25 reproduce the original behaviour (merger keeps them); tender uses 24,000 / 40 (excerpts run to 24,000 chars). The graph harness's temporal disk cache adds the scan config to the file name when it differs from the default (`<event>__scan24000_max40.json`), so a 12k-char cache is never reused. |
+
+Tune it with [`scripts/eval_retrieval_recall.py`](../scripts/eval_retrieval_recall.py), which needs no LLM: for each GT row and field it builds the evidence the graph would show (first stage that fires) and reports evidence-empty rate, recall (the reachability logic of `analyze_input_quality.py`; dates strict month/day/year), stricter variants (`recall_ext`: a contiguous run of half of gold's tokens, or a negation of an absence label's noun; `recall_piece`: a copy-shaped piece of a clause excerpt passes the scorer) and average evidence chars. `--pattern-counts` lists the distinct dev filings and preprocess events each clause pattern matches; drop a pattern that matches fewer than 3 dev filings.
+
+Sealed-set protocol (tender: `outputs/tender_eval/experiments/`):
+
+1. `holdout_accessions.txt` is the holdout; `confirm_accessions.txt` (written once by `--write-confirm-set`) is the first 20 non-holdout accessions with preprocess artifacts in sha256(accession) order. `dev` is every other non-holdout accession with artifacts whose preprocess event backs no confirm/holdout accession (amendments of one offer share an event and its text).
+2. Design only on `--split dev`. Never read sealed rows' gold or evidence.
+3. Sealed splits run only as `--split confirm|holdout --sealed --out FILE`: aggregates only, and a `FILE.sealed` marker refuses a second run into the same file. Run each once on the unmodified pack before editing and once after the final change; report the dev-vs-confirm gap per field as the overfit indicator.
+4. Run an extract eval on the confirm set with the graph harness: `--split train --accessions-file outputs/tender_eval/experiments/confirm_accessions.txt`.
 
 Caveats:
 

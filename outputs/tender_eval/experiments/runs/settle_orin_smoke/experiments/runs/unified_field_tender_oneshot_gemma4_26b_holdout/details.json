@@ -1,0 +1,53 @@
+[
+  {
+    "accession": "0001104659-26-000598",
+    "event_id": "005-94462",
+    "n_spans": 8,
+    "n_excerpt_chars": 5297,
+    "fields": {
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "5/29/2025",
+        "pred": "3/31/2025",
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2939,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\"settlement_date\": \"3/31/2025\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-001124",
+    "event_id": "005-90033",
+    "n_spans": 68,
+    "n_excerpt_chars": 24021,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "7/25/2025",
+        "pass_used": "oneshot",
+        "n_evidence_chars": 5204,
+        "n_rules": 2,
+        "raw_llm": "oneshot:{\"settlement_date\": \"7/25/2025\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-001149",
+    "event_id": "005-94079",
+    "n_spans": 10,
+    "n_excerpt_chars": 6346,
+    "fields": {
+      "settlement_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 4490,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"settlement_date\": null}"
+      }
+    }
+  }
+]

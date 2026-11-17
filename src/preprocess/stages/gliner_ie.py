@@ -2,9 +2,11 @@
 
 from __future__ import annotations
 
+import os
+
 from typing import Any
 
-from src.preprocess.backends import FakeSpanBackend, GlinerBackend
+from src.preprocess.backends import ApiGlinerBackend, FakeSpanBackend, GlinerBackend
 from src.preprocess.contracts import (
     GLINER_LABELS_TO,
     GLINER_PASS2_LABELS,
@@ -64,6 +66,8 @@ class GlinerStage:
                 }
             )
         model_id = ctx.extra.get("gliner_model") or "urchade/gliner_medium-v2.1"
+        if ctx.extra.get("gliner_backend") == "api" or os.environ.get("GLINER_BACKEND") == "api":
+            return ApiGlinerBackend(model_id=model_id, url=ctx.extra.get("gliner_api_url"))
         return GlinerBackend(model_id=model_id)
 
     def run(self, ctx: StageContext) -> StageResult:

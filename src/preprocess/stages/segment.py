@@ -201,6 +201,60 @@ def segment_faq(html: str, doc_role: str) -> list[dict[str, Any]]:
     return faqs
 
 
+# Offer-condition language often sits in OTP body prose (or ALL-CAPS lead-ins) that FAQ
+# chunking skips. Without these windows, extract never sees explicit "no minimum…" quotes
+# that GT correctly recorded from the full filing.
+_CONDITION_WINDOW_NEEDLES = (
+    "not conditioned on any minimum",
+    "not conditioned upon any minimum",
+    "not contingent upon any minimum",
+    "not contingent on any minimum",
+    "not be contingent upon",
+    "no minimum number of shares being tendered",
+    "no minimum amount of shares being tendered",
+    "no minimum amount of units being tendered",
+    "minimum tender condition",
+    "minimum condition",
+)
+
+
+def _ensure_condition_windows(
+    segs: list[dict[str, Any]],
+    *,
+    clean_text: str,
+    doc_role: str,
+) -> list[dict[str, Any]]:
+    """Append short clean-text windows for tender min-condition language missing from segs."""
+    if doc_role != "otp" or not (clean_text or "").strip():
+        return segs
+    covered = "\n".join(str(s.get("text") or "") for s in segs).lower()
+    src = clean_text
+    low = src.lower()
+    out = list(segs)
+    for idx, needle in enumerate(_CONDITION_WINDOW_NEEDLES):
+        if needle in covered:
+            continue
+        i = low.find(needle)
+        if i < 0:
+            continue
+        start = max(0, i - 240)
+        chunk = src[start : i + 900].strip()
+        if not chunk:
+            continue
+        out.append(
+            {
+                "segment_id": f"{doc_role}:priority:min_condition:{idx}",
+                "doc_role": doc_role,
+                "kind": "priority_section",
+                "priority": True,
+                "heading": f"minimum/condition:{needle[:40]}",
+                "text": chunk,
+            }
+        )
+        covered += "\n" + chunk.lower()
+    return out
+
+
 def segment_document(html: str, doc_role: str, clean_text: str) -> tuple[list[dict[str, Any]], str]:
     toc = segment_toc(html, doc_role) if doc_role == "otp" else []
     faq = segment_faq(html, doc_role) if doc_role == "otp" else []
@@ -228,9 +282,11 @@ def segment_document(html: str, doc_role: str, clean_text: str) -> tuple[list[di
                     )
                     break
     if toc:
-        return toc + faq, "toc"
+        segs = _ensure_condition_windows(toc + faq, clean_text=clean_text or "", doc_role=doc_role)
+        return segs, "toc"
     if faq:
-        return faq, "faq"
+        segs = _ensure_condition_windows(faq, clean_text=clean_text or "", doc_role=doc_role)
+        return segs, "faq"
     text = clean_text or html_to_text(html)
     return [
         {

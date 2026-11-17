@@ -22,6 +22,16 @@ def should_validate(state: ExtractState) -> bool:
 def make_validate(pack: ActionPack, backend):
     def validate(state: ExtractState) -> dict[str, Any]:
         assert state.pred is not None
+        # Oracle Settlement template is rules-gated already; do not let Pass C drop it.
+        if (
+            state.request.field == "settlement_date"
+            and (state.pred or "").strip() == "Payment: promptly"
+        ):
+            return {
+                "raw_log": [*state.raw_log, "C:settlement_template_keep"],
+                "validate_verdict": True,
+                "pass_used": f"{state.pass_used}+C_keep",
+            }
         user = validate_prompt(pack, state.request.field, state.pred, state.evidence_final)
         raw = backend.chat_json(system=VALIDATE_SYSTEM, user=user, model=state.request.model)
         keep = parse_keep(raw)

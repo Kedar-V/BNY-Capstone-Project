@@ -1,0 +1,43 @@
+{
+  "n_jobs": 50,
+  "delta_vs_base": {
+    "still_bad": 47,
+    "improved": 3
+  },
+  "delta_vs_prior": {
+    "still_bad": 47,
+    "improved": 3
+  },
+  "by_field_vs_prior": {
+    "acquirer": {
+      "still_bad": 6
+    },
+    "cash_consideration": {
+      "still_bad": 4
+    },
+    "consideration_type": {
+      "still_bad": 2
+    },
+    "effective_date": {
+      "still_bad": 1
+    },
+    "security_description": {
+      "still_bad": 7,
+      "improved": 1
+    },
+    "shareholder_vote_date": {
+      "still_bad": 5
+    },
+    "stock_exchange_ratio": {
+      "still_bad": 9,
+      "improved": 1
+    },
+    "target": {
+      "still_bad": 5
+    },
+    "ticker": {
+      "still_bad": 8,
+      "improved": 1
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pack": "tender",
+  "backend": "orin",
+  "model": "gemma4:26b",
+  "mode": "cascade_v2",
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 36.88,
+  "n_rows": 20,
+  "n_llm_jobs": 20,
+  "fields": [
+    "settlement_date"
+  ],
+  "micro": {
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+  },
+  "tp": 0,
+  "fp": 0,
+  "fn": 5,
+  "pass_counts": {
+    "B_null": 17,
+    "empty": 3
+  },
+  "per_field": {
+    "settlement_date": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "gt_present": 5,
+      "pred_present": 0,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  }
+}

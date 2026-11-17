@@ -1,0 +1,38 @@
+---
+description: Every long-running job must show a progress bar and support checkpoint/resume
+alwaysApply: true
+---
+
+# Progress bars + checkpointing
+
+Any multi-item job (eval, probe, pack build, batch LLM/replay, audit) **must** include both:
+
+1. **Progress bar** — `tqdm` (or equivalent) on stderr with total, unit, and live count. Flush prints so status is visible while buffered LLM calls run.
+2. **Checkpoint + resume** — append-only `checkpoint.jsonl` (or equivalent) under the run/out dir; on start, load completed keys and skip them; Ctrl-C / crash must be resumable by re-running the same command.
+
+## Required shape
+
+- One checkpoint record per completed work unit (e.g. `(ei, field)`), written **immediately** after success (not only at end).
+- Resume path: if checkpoint exists, load → skip done → continue; print how many resumed.
+- Do not require `--fresh` to make progress; fresh is opt-in to discard.
+
+## Good reference
+
+Follow `scripts/eval_from_evidence_pack.py` / `scripts/eval_unified_field_graph.py` / `scripts/build_evidence_pack.py` (tqdm + `checkpoint.jsonl` + resume).
+
+## Bad
+
+```python
+# ❌ no bar, no resume — dies mid-run and restarts from zero
+for job in jobs:
+    run(job)
+```
+
+```python
+# ✅ bar + checkpoint after each unit
+for job in tqdm(pending, total=len(pending), desc="...", unit="call"):
+    result = run(job)
+    append_checkpoint(job, result)
+```
+
+One-off debug of a handful of items may skip this; anything expected to take more than ~1 minute or >~10 LLM/IO calls must not.

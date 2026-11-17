@@ -47,6 +47,10 @@ def make_normalize(pack: ActionPack):
     def normalize(state: ExtractState) -> dict[str, Any]:
         if state.pred is None or state.pred_normalized:
             return {}
-        return {"pred": pack.normalize(state.request.field, state.pred), "pred_normalized": True}
+        value = pack.normalize(state.request.field, state.pred)
+        # Pack normalize may clear junk role nouns / exchange names → treat as abstain.
+        if not (value or "").strip():
+            return {"pred": None, "pred_normalized": True}
+        return {"pred": value, "pred_normalized": True}
 
     return normalize

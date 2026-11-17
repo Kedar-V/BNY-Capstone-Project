@@ -1,0 +1,182 @@
+{
+  "router": "heuristic",
+  "router_mode": "heuristic",
+  "noul_threshold": 0.5,
+  "routing_hash": "4a91e83eb965a338",
+  "fields": {
+    "acquirer": {
+      "field": "acquirer",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "default mixed",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "target": {
+      "field": "target",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "default mixed",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "consideration_type": {
+      "field": "consideration_type",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "default mixed",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "cash_consideration": {
+      "field": "cash_consideration",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "default mixed",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "stock_exchange_ratio": {
+      "field": "stock_exchange_ratio",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "default mixed",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "shareholder_vote_date": {
+      "field": "shareholder_vote_date",
+      "shape": "oneshot",
+      "legs": [
+        "hybrid",
+        "temporal"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "date field\u2192temporal+hybrid",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "election_deadline": {
+      "field": "election_deadline",
+      "shape": "oneshot",
+      "legs": [
+        "hybrid",
+        "temporal"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "date field\u2192temporal+hybrid",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "effective_date": {
+      "field": "effective_date",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "temporal"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "oracle temporal\u2192slm",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "security_description": {
+      "field": "security_description",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "default mixed",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "ticker": {
+      "field": "ticker",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "merger ticker\u2192rules+hybrid (rules-only under-recalls)",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "cusip": {
+      "field": "cusip",
+      "shape": "oneshot",
+      "legs": [
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "oracle/rules or id-like",
+      "raw": {
+        "oracle_system": null
+      }
+    },
+    "isin": {
+      "field": "isin",
+      "shape": "oneshot",
+      "legs": [
+        "rules"
+      ],
+      "confidence": 0.5,
+      "source": "heuristic",
+      "rationale": "oracle/rules or id-like",
+      "raw": {
+        "oracle_system": null
+      }
+    }
+  }
+}

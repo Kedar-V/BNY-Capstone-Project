@@ -65,7 +65,12 @@ class InventoryStage:
         docs_path = Path(ctx.extra["docs_path"]) if ctx.extra.get("docs_path") else None
         events, docs = load_catalog(events_path, docs_path)
 
-        preferred = events[events["in_mvp_preferred"].fillna(False)].copy()
+        gt_map = ctx.extra.get("gt_accessions_by_event") or {}
+        # Events named in the GT-accession map are kept even when the MVP tag does not flag them
+        preferred = events[
+            events["in_mvp_preferred"].fillna(False)
+            | events["event_id"].astype(str).isin(set(gt_map))
+        ].copy()
         # Merger path: keep events whose docs carry merger in mvp_event_types
         if cfg.mvp_event_type and cfg.mvp_event_type != "tender_offer":
             if "mvp_event_types" in docs.columns:
@@ -133,6 +138,30 @@ class InventoryStage:
                     continue
                 edocs = docs[docs["event_id"].astype(str) == eid]
                 selected = _select_docs(ctx.path_name, edocs)
+                # GT-accession extension: also select every document of the GT accessions mapped
+                # to this event, so the eval can score the filing it actually labels.
+                gt_accs = set((ctx.extra.get("gt_accessions_by_event") or {}).get(eid) or [])
+                if gt_accs:
+                    selected["docs"] = list(selected.get("docs") or [])
+                    have = {(str(d.get("accession")), str(d.get("filename"))) for d in selected["docs"]}
+                    for _, r in edocs[edocs["accession"].astype(str).isin(gt_accs)].iterrows():
+                        key = (str(r.get("accession")), str(r.get("filename")))
+                        if key in have:
+                            continue
+                        have.add(key)
+                        selected["docs"].append({
+                            "role": "gt_accession",
+                            "hit_id": r.get("hit_id"),
+                            "accession": r.get("accession"),
+                            "filename": r.get("filename"),
+                            "form": r.get("form"),
+                            "file_type": r.get("file_type"),
+                            "file_description": r.get("file_description"),
+                            "file_date": str(r.get("file_date") or ""),
+                            "primary_cik": r.get("primary_cik"),
+                            "otp_method": None,
+                            "is_amendment": bool(r.get("is_amendment")),
+                        })
                 if ctx.cohort and selected["cohort"] != ctx.cohort:
                     n_skipped += 1
                     continue

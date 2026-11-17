@@ -1,0 +1,125 @@
+source,field,accession,outcome,gold,pred
+balanced200,acquirer,0001104659-26-029601,mismatch,"Royal Cup, Inc.",Braemont Capital Management LLC
+balanced200,acquirer,0001140361-26-023178,fn,"steute Industrial Controls, Inc.",
+balanced200,acquirer,0001213900-26-024672,mismatch,Odysseus Holdings Limited,Holdco
+balanced200,acquirer,0001213900-26-061108,fn,"SeeQC, Inc.",
+balanced200,acquirer,0001213900-26-061108,fn,"SeeQC, Inc.",
+balanced200,acquirer,0001213900-26-089404,fn,"Langham Project, LLC",
+balanced200,acquirer,0001437749-26-000391,mismatch,"SPX Enterprises, LLC","Project King Acquisition, Inc."
+balanced200,acquirer,0001493152-26-009657,mismatch,Boost Run Inc.,Willow Lane
+balanced200,acquirer,0001829126-26-010319,mismatch,FortuneX Acquisition Corporation,WT Realty Group Inc.
+balanced300more,acquirer,0001193125-26-102445,fn,"Glow Midco, LLC",
+balanced300more,acquirer,0001437749-26-002544,mismatch,"Laird Superfood, Inc.","Encore Consumer Capital Fund II, LP"
+balanced200,cash_consideration,0001193125-26-012952,mismatch,No cash consideration,$48.42
+balanced200,cash_consideration,0001193125-26-102359,mismatch,$0.00001 per share,$5.80
+balanced200,cash_consideration,0001193125-26-134924,fn,$15.00 per share,
+balanced200,cash_consideration,0001493152-26-015164,fn,No cash consideration,
+balanced200,cash_consideration,0001829126-26-005923,mismatch,Pro rata portion of Titan's trust account per share,$10.52
+balanced300more,cash_consideration,0001185185-26-000166,fn,No cash consideration,
+balanced300more,cash_consideration,0001193125-26-016684,mismatch,$2.75 per share,$0.01
+balanced300more,cash_consideration,0001193125-26-102445,mismatch,$0.00001 per share,$5.80
+balanced200,consideration_type,0001104659-26-104366,mismatch,Stock,Cash
+balanced200,consideration_type,0001213900-26-074267,mismatch,Stock,Cash
+balanced200,consideration_type,0001493152-26-009785,fn,Stock,
+balanced200,consideration_type,0001829126-26-010118,fn,Stock,
+balanced200,consideration_type,0001829126-26-010118,fn,Stock,
+balanced300more,consideration_type,0001104659-26-017281,fn,Stock,
+balanced300more,consideration_type,0001104659-26-024193,mismatch,Stock,Cash
+balanced300more,consideration_type,0001193125-26-016684,fn,Mixed cash and stock,
+balanced200,effective_date,0001104659-26-017281,fp_no_gt,,"august 26, 2024"
+balanced200,effective_date,0001104659-26-110971,fp_no_gt,,November 2026
+balanced200,effective_date,0001185185-26-000563,fp_no_gt,,"march 18, 2026"
+balanced200,effective_date,0001193125-26-102445,fp_no_gt,,"february 9, 2026"
+balanced200,effective_date,0001193125-26-383837,fp_no_gt,,"October 5, 2026"
+balanced200,effective_date,0001213900-26-061108,fp_no_gt,,"may 26, 2026"
+balanced200,effective_date,0001213900-26-100367,fp_no_gt,,"september 15, 2026"
+balanced200,effective_date,0001493152-26-002095,fp_no_gt,,2025-09-30
+balanced200,effective_date,0001493152-26-009785,fp_no_gt,,"March 6, 2026"
+balanced200,effective_date,0001628280-26-006094,fn,3/4/2024,
+balanced200,effective_date,0001829126-26-005923,fp_no_gt,,"june 1, 2026"
+balanced300more,effective_date,0001104659-26-024193,fp,,"february 15, 2026"
+balanced300more,effective_date,0001213900-26-022404,fp,,"April 10, 2026"
+balanced200,election_deadline,0001104659-26-020981,fp_no_gt,,"february 27, 2026"
+balanced200,election_deadline,0001104659-26-073581,mismatch,"5:00 PM Mountain time, as near as practicable to three business days before closing","june 12, 2026"
+balanced200,election_deadline,0001104659-26-082291,mismatch,"5:00 PM Mountain time, as near as practicable to three business days before closing","july 6, 2026"
+balanced200,election_deadline,0001104659-26-093784,fp_no_gt,,"no later than [•] ([•]) on [•], 2026"
+balanced200,election_deadline,0001140361-26-023178,fp_no_gt,,"11:59 p.m., Eastern Time, on [ ], 2026"
+balanced200,election_deadline,0001193125-26-010471,fp_no_gt,,"january 12, 2026"
+balanced200,election_deadline,0001493152-26-034626,mismatch,9:00 AM Toronto time on the date of the GNQ Shareholders Meeting,2026-03-16
+balanced200,election_deadline,0001829126-26-005923,mismatch,Deadline to tender shares for redemption in connection with the shareholder vote,"june 1, 2026"
+balanced300more,election_deadline,0001104659-26-017281,fp,,"august 26, 2024"
+balanced200,security_description,0001104659-26-082291,fn,Class A common stock,
+balanced200,security_description,0001193125-26-096620,mismatch,common stock,Equity Interest
+balanced200,security_description,0001193125-26-102445,mismatch,Class B Common Stock,Class A Common Stock
+balanced200,security_description,0001193125-26-187219,mismatch,ordinary shares,Common Stock
+balanced200,security_description,0001193125-26-279668,mismatch,Series C Fixed Rate Noncumulative Perpetual Preferred Stock,Corebridge Common Stock
+balanced200,security_description,0001213900-26-061108,fn,rights,
+balanced200,security_description,0001213900-26-084686,mismatch,Class A common stock,Parent Ordinary Shares
+balanced200,security_description,0001213900-26-084686,mismatch,Class B common stock,Parent Ordinary Shares
+balanced200,security_description,0001213900-26-104691,mismatch,Class B ordinary shares,PubCo Ordinary Shares
+balanced200,security_description,0001628280-26-006094,mismatch,common stock,Preferred stock
+balanced300more,security_description,0001193125-26-012952,mismatch,"common stock, without par value",Ryerson common stock
+balanced300more,security_description,0001437749-26-002544,mismatch,Class B Units | Class D Units,Preferred Stock
+balanced200,shareholder_vote_date,0001104659-26-024193,fn,3/25/2026 9:30 AM Eastern Time,
+balanced200,shareholder_vote_date,0001193125-26-187219,fn,2/13/2026,
+balanced200,shareholder_vote_date,0001213900-26-024672,mismatch,3/27/2026 10:00 AM Eastern Time,"march 6, 2026"
+balanced200,shareholder_vote_date,0001493152-26-002095,mismatch,3/3/2026,2025-09-30
+balanced200,shareholder_vote_date,0001493152-26-044341,fn,10/16/2026 8:30 AM Eastern Time,
+balanced200,shareholder_vote_date,0001493152-26-044341,fn,10/16/2026 8:30 AM Eastern Time,
+balanced200,shareholder_vote_date,0001493152-26-044341,fn,10/16/2026 8:30 AM Eastern Time,
+balanced200,shareholder_vote_date,0001493152-26-044341,fn,6/16/2025,
+balanced300more,shareholder_vote_date,0001193125-26-012952,fn,2/12/2026 9:30 AM Eastern Time,
+balanced300more,shareholder_vote_date,0001493152-26-002095,mismatch,3/3/2026,2025-09-30
+balanced300more,shareholder_vote_date,0001628280-26-006094,fn,2/20/2024,
+balanced200,stock_exchange_ratio,0001104659-26-020983,fn,Share Exchange Aggregate Consideration divided by Aggregate Company Shares in PubCo Class A and/or Class B ordinary shares per share,
+balanced200,stock_exchange_ratio,0001104659-26-082291,fn,"RMCO Common Units held by RIHI divided by outstanding RIHI Common Stock shares, in shares of REMAX Class A Common Stock per share",
+balanced200,stock_exchange_ratio,0001185185-26-000166,fn,Exchange Ratio = (Fully Diluted Parent Common Stock × Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share,
+balanced200,stock_exchange_ratio,0001185185-26-000356,fn,"Fully diluted RYVYL common stock × valuation ratio ÷ fully diluted RTB common stock, in RYVYL common shares per share",
+balanced200,stock_exchange_ratio,0001193125-26-096749,fn,0.902 shares of VICI Properties Inc. common stock per share,
+balanced200,stock_exchange_ratio,0001193125-26-102445,fn,No stock consideration,
+balanced200,stock_exchange_ratio,0001193125-26-279656,mismatch,1 share of Series 2 New Equitable Preferred Stock per share,1.55516 (the “Equitable Exchange Ratio”)
+balanced200,stock_exchange_ratio,0001193125-26-279656,mismatch,1 share of Series 1-C New Equitable Preferred Stock per share,1.55516 shares of New Equitable Common Stock
+balanced200,stock_exchange_ratio,0001213900-26-026268,fn,Exchange Ratio shares of Domesticated Purchaser Common Stock per share,
+balanced200,stock_exchange_ratio,0001213900-26-061108,fn,1 share of SEEQC Common Stock per share,
+balanced200,stock_exchange_ratio,0001213900-26-061108,fn,0.1 share of SEEQC Common Stock per unit,
+balanced200,stock_exchange_ratio,0001213900-26-089404,fn,No stock consideration,
+balanced200,stock_exchange_ratio,0001493152-26-002095,fn,1 share of Pubco Class A Common Stock per share,
+balanced200,stock_exchange_ratio,0001493152-26-009657,fn,1 share of Boost Run Inc. Class A Common Stock per share,
+balanced200,stock_exchange_ratio,0001493152-26-009657,fn,1 share of Boost Run Inc. Class A Common Stock per share,
+balanced300more,stock_exchange_ratio,0001193125-26-010471,fn,No stock consideration,
+balanced300more,stock_exchange_ratio,0001437749-26-000391,fn,No stock consideration,
+balanced300more,stock_exchange_ratio,0001539497-26-000230,mismatch,0.02 shares of surviving corporation common stock per share,1-for-50
+balanced200,target,0001193125-26-051584,fn,"Golden Entertainment, Inc.",
+balanced200,target,0001193125-26-102445,fn,"European Wax Center, Inc.",
+balanced200,target,0001213900-26-026268,fn,Controlled Thermal Resources Holdings Inc.,
+balanced200,target,0001213900-26-028308,fn,Vine Hill Capital Investment Corp.,
+balanced200,target,0001213900-26-028308,fn,CoinShares International Limited,
+balanced200,target,0001213900-26-042083,mismatch,Constellation Acquisition Corp I,HiTech Minerals Inc.
+balanced200,target,0001213900-26-063737,fn,HiTech Minerals Inc.,
+balanced200,target,0001437749-26-002544,mismatch,Global Superfoods Corp.,Navitas
+balanced200,target,0001493152-26-009785,fn,Quetta Acquisition Corporation,
+balanced200,target,0001493152-26-009785,mismatch,Smart Kreate Group Limited,Company
+balanced200,target,0001493152-26-009785,fn,Smart Kreate Group Limited,
+balanced200,target,0001493152-26-044341,mismatch,Eos SENOLYTIX Inc.,Pulmatrix
+balanced200,target,0001493152-26-044341,mismatch,Eos SENOLYTIX Inc.,Pulmatrix
+balanced200,target,0001829126-26-010319,mismatch,WT Realty Group Inc.,FortuneX Merger Sub Inc.
+balanced300more,target,0001193125-26-010471,fn,Sealed Air Corporation,
+balanced200,ticker,0001104659-26-024193,fn,ACQC,
+balanced200,ticker,0001104659-26-043531,mismatch,SEM,81619Q105
+balanced200,ticker,0001104659-26-082291,mismatch,RMAX,REAX
+balanced200,ticker,0001140361-26-029134,mismatch,CRNX,VRTX
+balanced200,ticker,0001185185-26-000563,fn,RVYL,
+balanced200,ticker,0001185185-26-001691,fn,"BPAC, BPACR, BPACU",
+balanced200,ticker,0001193125-26-003553,mismatch,CHTH,SNDA
+balanced200,ticker,0001213900-26-073218,mismatch,TMRC,USAR
+balanced200,ticker,0001437749-26-000391,mismatch,CRAWA,SPXC
+balanced200,ticker,0001493152-26-044341,mismatch,PULM,MTXL
+balanced200,ticker,0001539497-26-000230,fn,BCAB,
+balanced200,ticker,0001628280-26-006094,fn,"QTI, QTIH, QTIWW",
+balanced200,ticker,0001829126-26-010118,mismatch,"FSHP, FSHPR, FSHPU",Nasdaq
+balanced300more,ticker,0001104659-26-020983,mismatch,"DRDB, DRDBU, DRDBW",CMPO
+balanced300more,ticker,0001104659-26-024193,fn,ACQC,
+balanced300more,ticker,0001213900-26-026265,fn,"PLMK, PLMKU, PLMKW",
+balanced300more,ticker,0001493152-26-002095,mismatch,CRWV,WLA
+balanced300more,ticker,0001493152-26-002095,mismatch,CRWV,WLN
+balanced300more,ticker,0001493152-26-002095,mismatch,CRWV,WLA

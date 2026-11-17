@@ -1,0 +1,214 @@
+{
+  "router": "heuristic",
+  "router_mode": "heuristic",
+  "noul_threshold": 0.5,
+  "routing_hash": "1d6cd71544f31b35",
+  "fields": {
+    "subject_company": {
+      "field": "subject_company",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle qwen direct\u2192mixed",
+      "raw": {
+        "oracle_system": "Qwen direct"
+      }
+    },
+    "bidder": {
+      "field": "bidder",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle qwen direct\u2192mixed",
+      "raw": {
+        "oracle_system": "Qwen direct"
+      }
+    },
+    "security_description": {
+      "field": "security_description",
+      "shape": "clause_then_pick",
+      "legs": [
+        "clause",
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle qwen direct\u2192mixed; clause field\u2192clause_then_pick",
+      "raw": {
+        "oracle_system": "Qwen direct"
+      }
+    },
+    "cusip": {
+      "field": "cusip",
+      "shape": "oneshot",
+      "legs": [
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle/rules or id-like",
+      "raw": {
+        "oracle_system": "Rules"
+      }
+    },
+    "isin": {
+      "field": "isin",
+      "shape": "oneshot",
+      "legs": [
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle/rules or id-like",
+      "raw": {
+        "oracle_system": "Rules"
+      }
+    },
+    "ticker": {
+      "field": "ticker",
+      "shape": "oneshot",
+      "legs": [
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle/rules or id-like",
+      "raw": {
+        "oracle_system": "Rules"
+      }
+    },
+    "offer_price": {
+      "field": "offer_price",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle qwen direct\u2192mixed",
+      "raw": {
+        "oracle_system": "Qwen direct"
+      }
+    },
+    "currency": {
+      "field": "currency",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle currency hybrid",
+      "raw": {
+        "oracle_system": "Currency hybrid"
+      }
+    },
+    "expiration_date": {
+      "field": "expiration_date",
+      "shape": "oneshot",
+      "legs": [
+        "hybrid",
+        "temporal"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle temporal NER",
+      "raw": {
+        "oracle_system": "Temporal NER"
+      }
+    },
+    "withdrawal_deadline": {
+      "field": "withdrawal_deadline",
+      "shape": "oneshot",
+      "legs": [
+        "hybrid",
+        "temporal"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle temporal NER",
+      "raw": {
+        "oracle_system": "Temporal NER"
+      }
+    },
+    "settlement_date": {
+      "field": "settlement_date",
+      "shape": "rules_then_span",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules",
+        "temporal"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle/settlement\u2192rules_then_span",
+      "raw": {
+        "oracle_system": "Settlement template"
+      }
+    },
+    "effective_date": {
+      "field": "effective_date",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "temporal"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle temporal\u2192slm",
+      "raw": {
+        "oracle_system": "Temporal to Qwen"
+      }
+    },
+    "minimum_tender_condition": {
+      "field": "minimum_tender_condition",
+      "shape": "clause_then_pick",
+      "legs": [
+        "clause",
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "oracle/clause",
+      "raw": {
+        "oracle_system": "Qwen clauses"
+      }
+    },
+    "proration_terms": {
+      "field": "proration_terms",
+      "shape": "clause_then_pick",
+      "legs": [
+        "clause",
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.7,
+      "source": "heuristic",
+      "rationale": "proration\u2192clause_then_pick+hybrid (clause-only under-recalls)",
+      "raw": {
+        "oracle_system": "Llama clauses"
+      }
+    }
+  }
+}

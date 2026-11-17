@@ -1,0 +1,196 @@
+{
+  "pack": "tender",
+  "evidence_pack_id": "tender_holdout_oneshot_hybrid",
+  "evidence_pack": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/tender_eval/evidence_packs/tender_holdout_oneshot_hybrid",
+  "backend": "ollama",
+  "model": "qwen3-finance:latest",
+  "mode": "oneshot_v1",
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 713.99,
+  "n_rows": 23,
+  "n_llm_jobs": 322,
+  "fields": [
+    "subject_company",
+    "bidder",
+    "security_description",
+    "cusip",
+    "isin",
+    "ticker",
+    "offer_price",
+    "currency",
+    "expiration_date",
+    "withdrawal_deadline",
+    "settlement_date",
+    "effective_date",
+    "minimum_tender_condition",
+    "proration_terms"
+  ],
+  "micro": {
+    "precision": 0.5887445887445888,
+    "recall": 0.6445497630331753,
+    "f1": 0.6153846153846154
+  },
+  "tp": 136,
+  "fp": 95,
+  "fn": 75,
+  "pass_counts": {
+    "oneshot": 138,
+    "clause": 39,
+    "oneshot+C_keep": 86,
+    "oneshot+C_drop": 20,
+    "A": 4,
+    "B_null": 16,
+    "clause_miss": 16,
+    "B": 3
+  },
+  "per_field": {
+    "subject_company": {
+      "tp": 23,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 23,
+      "pred_present": 23,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "bidder": {
+      "tp": 19,
+      "fp": 4,
+      "fn": 4,
+      "gt_present": 23,
+      "pred_present": 23,
+      "precision": 0.8260869565217391,
+      "recall": 0.8260869565217391,
+      "f1": 0.8260869565217391
+    },
+    "security_description": {
+      "tp": 17,
+      "fp": 6,
+      "fn": 6,
+      "gt_present": 23,
+      "pred_present": 23,
+      "precision": 0.7391304347826086,
+      "recall": 0.7391304347826086,
+      "f1": 0.7391304347826085
+    },
+    "cusip": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 0,
+      "gt_present": 13,
+      "pred_present": 14,
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1": 0.962962962962963
+    },
+    "isin": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 0,
+      "gt_present": 13,
+      "pred_present": 14,
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1": 0.962962962962963
+    },
+    "ticker": {
+      "tp": 3,
+      "fp": 9,
+      "fn": 4,
+      "gt_present": 7,
+      "pred_present": 12,
+      "precision": 0.25,
+      "recall": 0.42857142857142855,
+      "f1": 0.3157894736842105
+    },
+    "offer_price": {
+      "tp": 11,
+      "fp": 12,
+      "fn": 12,
+      "gt_present": 23,
+      "pred_present": 23,
+      "precision": 0.4782608695652174,
+      "recall": 0.4782608695652174,
+      "f1": 0.4782608695652174
+    },
+    "currency": {
+      "tp": 11,
+      "fp": 3,
+      "fn": 6,
+      "gt_present": 17,
+      "pred_present": 14,
+      "precision": 0.7857142857142857,
+      "recall": 0.6470588235294118,
+      "f1": 0.7096774193548386
+    },
+    "expiration_date": {
+      "tp": 15,
+      "fp": 7,
+      "fn": 7,
+      "gt_present": 22,
+      "pred_present": 22,
+      "precision": 0.6818181818181818,
+      "recall": 0.6818181818181818,
+      "f1": 0.6818181818181818
+    },
+    "withdrawal_deadline": {
+      "tp": 7,
+      "fp": 14,
+      "fn": 3,
+      "gt_present": 10,
+      "pred_present": 21,
+      "precision": 0.3333333333333333,
+      "recall": 0.7,
+      "f1": 0.45161290322580644
+    },
+    "settlement_date": {
+      "tp": 1,
+      "fp": 6,
+      "fn": 14,
+      "gt_present": 15,
+      "pred_present": 7,
+      "precision": 0.14285714285714285,
+      "recall": 0.06666666666666667,
+      "f1": 0.09090909090909091
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 18,
+      "fn": 4,
+      "gt_present": 4,
+      "pred_present": 18,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "minimum_tender_condition": {
+      "tp": 0,
+      "fp": 10,
+      "fn": 11,
+      "gt_present": 11,
+      "pred_present": 10,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "proration_terms": {
+      "tp": 3,
+      "fp": 4,
+      "fn": 4,
+      "gt_present": 7,
+      "pred_present": 7,
+      "precision": 0.42857142857142855,
+      "recall": 0.42857142857142855,
+      "f1": 0.42857142857142855
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  },
+  "accession_hash": "ba8ada0edc160eee"
+}

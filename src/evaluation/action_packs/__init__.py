@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from .base import ActionPack, ClauseFieldSpec
+from .base import ActionPack, ClauseFieldSpec, FieldShot, HybridSpec
 from .merger import MERGER_PACK
 from .retrieve import retrieve_clause
 from .tender import TENDER_PACK
@@ -10,6 +10,8 @@ from .tender import TENDER_PACK
 __all__ = [
     "ActionPack",
     "ClauseFieldSpec",
+    "FieldShot",
+    "HybridSpec",
     "TENDER_PACK",
     "MERGER_PACK",
     "get_pack",

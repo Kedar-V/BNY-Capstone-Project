@@ -1,0 +1,31 @@
+{"ei": 1, "field": "withdrawal_deadline", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 1, "field": "effective_date", "pred": "", "pass_used": "oneshot"}
+{"ei": 2, "field": "withdrawal_deadline", "pred": "one minute past 11:59 p.m., eastern time, on January 5, 2026", "pass_used": "oneshot+C_keep"}
+{"ei": 2, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 3, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 4, "field": "withdrawal_deadline", "pred": "December 29, 2025", "pass_used": "oneshot+C_keep"}
+{"ei": 5, "field": "bidder", "pred": "Caymus Purchaser, Inc.", "pass_used": "oneshot"}
+{"ei": 5, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 6, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 7, "field": "bidder", "pred": "XRA 7 Corp.", "pass_used": "oneshot"}
+{"ei": 9, "field": "effective_date", "pred": "january 22, 2026", "pass_used": "oneshot+C_keep"}
+{"ei": 9, "field": "withdrawal_deadline", "pred": "december 29, 2025", "pass_used": "oneshot+C_keep"}
+{"ei": 10, "field": "withdrawal_deadline", "pred": "11:59 P.M., Eastern time", "pass_used": "oneshot+C_keep"}
+{"ei": 11, "field": "effective_date", "pred": "", "pass_used": "oneshot"}
+{"ei": 12, "field": "withdrawal_deadline", "pred": "february 27, 2026", "pass_used": "oneshot+C_keep"}
+{"ei": 13, "field": "bidder", "pred": "Lord Abbett Private Credit Advisor LLC", "pass_used": "oneshot"}
+{"ei": 13, "field": "effective_date", "pred": "", "pass_used": "oneshot"}
+{"ei": 14, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 15, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 15, "field": "withdrawal_deadline", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 16, "field": "bidder", "pred": "Enzon Pharmaceuticals, Inc.", "pass_used": "oneshot"}
+{"ei": 16, "field": "withdrawal_deadline", "pred": "March 9, 2026", "pass_used": "oneshot+C_keep"}
+{"ei": 17, "field": "withdrawal_deadline", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 17, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 18, "field": "withdrawal_deadline", "pred": "December 30, 2025", "pass_used": "oneshot+C_keep"}
+{"ei": 18, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 19, "field": "withdrawal_deadline", "pred": "December 30, 2025", "pass_used": "oneshot+C_keep"}
+{"ei": 19, "field": "effective_date", "pred": "", "pass_used": "oneshot+C_drop"}
+{"ei": 20, "field": "withdrawal_deadline", "pred": "December 30, 2025", "pass_used": "oneshot+C_keep"}
+{"ei": 21, "field": "withdrawal_deadline", "pred": "june 11, 2026", "pass_used": "oneshot+C_keep"}
+{"ei": 22, "field": "effective_date", "pred": "", "pass_used": "oneshot"}

@@ -6,14 +6,16 @@ Do not join on event_id — GT uses tender_offer_{accession}; preprocess uses fi
 
 from __future__ import annotations
 
+import ast
 import csv
 import json
 import re
 from collections import defaultdict
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 from src.preprocess.contracts import LABEL_TO_FIELD_HINT
+from src.preprocess.rules_ids import find_currency
 
 # Full GT schema (coverage / reporting). Narrative fields are not GLiNER-owned.
 GT_VALUE_FIELDS: tuple[str, ...] = (
@@ -103,7 +105,31 @@ GT_TO_HINT: dict[str, str] = {
     "conditions_restrictions": "conditions_restrictions",
 }
 
-_NA = frozenset({"", "n/a", "na", "none", "null", "-", "—"})
+# Explicit-absence sentinels (GT prompt labels + blank markers). Treat as empty for scoring.
+_NA = frozenset(
+    {
+        "",
+        "n/a",
+        "na",
+        "none",
+        "null",
+        "-",
+        "—",
+        "∅",
+        "no minimum tender condition",
+        "no proration",
+        "no proration applies",
+    }
+)
+# Doc paraphrases of the same absences (self-tender OTP wording, etc.).
+_ABSENCE_PHRASE = re.compile(
+    r"(?is)(?:"
+    r"\bnot\s+conditioned\s+(?:on|upon)\s+any\s+minimum\b"
+    r"|\bthere\s+is\s+no\s+minimum\s+(?:number|amount)\b"
+    r"|\bno\s+minimum\s+(?:number|amount)\s+of\s+\w+\s+(?:being\s+)?tendered\b"
+    r"|\bno\s+proration\s+applies\b"
+    r")"
+)
 _WS = re.compile(r"\s+")
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
 _DIGITS = re.compile(r"\d+")
@@ -124,10 +150,13 @@ def field_coverage() -> dict[str, Any]:
 
 
 def normalize(value: str | None) -> str:
+    """Lower/collapse whitespace; blank NA markers and explicit-absence phrasing."""
     if value is None:
         return ""
     s = _WS.sub(" ", str(value).strip().lower())
-    return "" if s in _NA else s
+    if s in _NA or _ABSENCE_PHRASE.search(s):
+        return ""
+    return s
 
 
 def _money_amounts(s: str) -> list[float]:
@@ -145,14 +174,44 @@ def _money_close(a: float, b: float) -> bool:
     return abs(a - b) <= max(0.05, 0.05 * max(abs(a), abs(b)))
 
 
+_BARE_NUMBER = re.compile(r"^\$?\s*[\d,]+(?:\.\d+)?\s*$")
+# Currency-field tokens only (no digits): "$" ≡ "USD", "£" ≡ "GBP", etc.
+_CURRENCY_WORDS = re.compile(
+    r"(?i)^\s*(?:u\.?\s*s\.?\s*dollars?|us\s*dollars?|dollars?)\s*$"
+)
+
+
+def _as_currency_code(text: str | None) -> str | None:
+    """Map a currency-only string to an ISO code; None if it looks like a price/phrase."""
+    raw = (text or "").strip()
+    if not raw or re.search(r"\d", raw):
+        return None
+    if _CURRENCY_WORDS.match(raw):
+        return "USD"
+    return find_currency(raw)
+
+
 def soft_match(pred: str | None, gold: str | None) -> bool:
     """True if normalized strings match, contain each other, or share date/money tokens.
 
     Money: magnitudes must be within 5% (or $0.05) so par value $0.001 ≠ NAV text.
+    Thousands separators are ignored for bare numbers (``1,400`` ≡ ``1400``).
+    Currency tokens: ``$`` ≡ ``USD`` (and other symbol↔ISO pairs) when both sides are
+    currency-only (no digits), so currency-field scoring does not penalize symbol vs code.
     """
     p, g = normalize(pred), normalize(gold)
     if not p or not g:
         return False
+
+    pc, gc = _as_currency_code(pred), _as_currency_code(gold)
+    if pc and gc and pc == gc:
+        return True
+
+    # Bare numeric strings: compare magnitudes only (not substring — "140" ⊄ "1,400").
+    if _BARE_NUMBER.match(p) and _BARE_NUMBER.match(g):
+        pm, gm = _money_amounts(p), _money_amounts(g)
+        return bool(pm and gm and _money_close(pm[0], gm[0]))
+
     pm, gm = _money_amounts(p), _money_amounts(g)
     moneyish = (
         "$" in (pred or "")
@@ -170,7 +229,9 @@ def soft_match(pred: str | None, gold: str | None) -> bool:
     p_tok, g_tok = _NON_ALNUM.sub(" ", p), _NON_ALNUM.sub(" ", g)
     if p_tok in g_tok or g_tok in p_tok:
         return True
-    pd, gd = set(_DIGITS.findall(p)), set(_DIGITS.findall(g))
+    # Digit tokens after dropping thousands commas so "1,400" → "1400"
+    pd = set(_DIGITS.findall(p.replace(",", "")))
+    gd = set(_DIGITS.findall(g.replace(",", "")))
     if pd and gd and (pd <= gd or gd <= pd):
         return True
     return False
@@ -229,9 +290,44 @@ def accessions_from_rep(rep: dict[str, Any]) -> set[str]:
     return accs
 
 
+_CURRENCY_PASSAGE_KEYS = (
+    "offer_price_currency",
+    "offer_price",
+    "offer_price_basis",
+    "offer_price_qualifications",
+)
+
+
+def _backfill_currency(row: dict[str, str]) -> None:
+    """Fill blank gold `currency` from the GT passage quotes.
+
+    The GT prompt returns offer_price as a bare number, so the notebook's regex never saw a
+    symbol and left currency blank (~86% of rows). The passage quotes still carry it.
+    If a price exists but no quote names a currency, mark the row undecided so predictions
+    on it are not scored as false positives (`row["_currency_undecided"]`).
+    """
+    if normalize(row.get("currency")) or not normalize(row.get("offer_price")):
+        return
+    try:
+        passages = ast.literal_eval(row.get("passage") or "{}")
+    except (ValueError, SyntaxError):
+        passages = {}
+    for key in _CURRENCY_PASSAGE_KEYS:
+        quotes = " ".join(str(q.get("quote") or "") for q in (passages.get(key) or []) if isinstance(q, dict))
+        code = find_currency(quotes)
+        if code:
+            row["currency"] = code
+            row["_currency_source"] = f"passage:{key}"
+            return
+    row["_currency_undecided"] = "1"
+
+
 def load_gt(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        rows = list(csv.DictReader(f))
+    for row in rows:
+        _backfill_currency(row)
+    return rows
 
 
 def load_preds(
@@ -318,6 +414,8 @@ def _gold_rows(gt_rows: list[dict[str, str]]) -> list[tuple[str, str, dict[str, 
             v = normalize(row.get(col))
             if v:
                 fields[col] = {row.get(col) or ""}
+        if row.get("_currency_undecided") and "currency" not in fields:
+            fields["_undecided"] = {"currency"}  # not a scored column; see _backfill_currency
         row_id = f"{i}:{acc}"
         out.append((row_id, acc, fields))
     return out
@@ -434,6 +532,8 @@ def score_accession(
         pval = pred.get(hint)
         gvals = fields.get(col) or set()
         stats = per_field[col]
+        if not gvals and col in (fields.get("_undecided") or ()):
+            continue  # gold unknowable (price present, no currency evidence): don't score preds
         if gvals:
             stats["gt_present"] += 1
         if normalize(pval):
@@ -486,8 +586,14 @@ def evaluate_tender(
     resume: bool = True,
     show_progress: bool = True,
     score_fields: tuple[str, ...] | None = None,
+    on_row: Callable[[dict[str, Any]], None] | None = None,
+    on_resume: Callable[[int], None] | None = None,
 ) -> dict[str, Any]:
-    """Per-field micro metrics + per-accession detail. Checkpointable when out_dir set."""
+    """Per-field micro metrics + per-accession detail. Checkpointable when out_dir set.
+
+    ``on_row(live)`` is called after every newly scored row (live has n_done/n_total/micro/per_field);
+    ``on_resume(n_already_done)`` once, just before the scoring loop starts.
+    """
     cols = score_fields or GT_VALUE_FIELDS
     cov = field_coverage()
     # Core scoring only requires core fields to be mapped
@@ -541,6 +647,8 @@ def evaluate_tender(
                             stats = per_field[col]
                             outcome = fd.get("outcome")
                             gvals = fields.get(col) or set()
+                            if not gvals and col in (fields.get("_undecided") or ()):
+                                continue
                             if gvals:
                                 stats["gt_present"] += 1
                             if normalize(fd.get("pred")):
@@ -571,6 +679,8 @@ def evaluate_tender(
                     details.append({k: v for k, v in detail.items() if k != "_counts"})
 
     remaining = [rid for rid, _, _ in gold_rows if rid not in done]
+    if on_resume is not None:
+        on_resume(len(done))
     from src.preprocess.progress import stage_progress
 
     pbar = stage_progress(
@@ -607,7 +717,13 @@ def evaluate_tender(
                 "n_accessions_missing_prediction": accessions_missing_pred,
                 "n_accessions_joined_via_event_id": accessions_joined_via_event,
                 "micro": micro,
+                "per_field": {
+                    f: {k: m[k] for k in ("tp", "fp", "fn", "gt_present", "precision", "recall", "f1")}
+                    for f, m in _finalize_field_metrics(per_field, accessions_scored).items()
+                },
             }
+            if on_row is not None:
+                on_row(live)
             if live_path is not None:
                 live_path.write_text(json.dumps(live, indent=2), encoding="utf-8")
             if hasattr(pbar, "set_postfix"):

@@ -11,6 +11,9 @@ if TYPE_CHECKING:
 
 NormalizeFn = Callable[[str, str], str]
 
+DEFAULT_TEMPORAL_SCAN_CHARS = 12_000
+DEFAULT_TEMPORAL_MAX_SPANS = 25
+
 
 def _default_normalize(field_name: str, value: str) -> str:
     v = value.replace("\xa0", " ").replace("\n", " ")
@@ -35,6 +38,32 @@ class ClauseFieldSpec:
     use_passage_quotes: bool = True
     # If set, passage quotes must match before they are accepted as primary
     quote_accept_re: str | None = None
+
+
+@dataclass(frozen=True)
+class HybridSpec:
+    """Always-on BM25+dense supplemental excerpts (alongside GLiNER, not instead of).
+
+    Pack-owned knobs only — graph/provider stay event-agnostic. Dense embeddings
+    use ``EMBEDDING_BASE_URL`` / ``EMBEDDING_MODEL`` (OpenAI-compatible /v1).
+    """
+
+    top_k: int = 4
+    max_chars: int = 2200
+    chunk_chars: int = 900
+    overlap: int = 120
+    use_dense: bool = True
+    # Extra query tokens merged with field_defs[field] (e.g. cue phrases)
+    query_extra: dict[str, str] = field(default_factory=dict)
+
+
+@dataclass(frozen=True)
+class FieldShot:
+    """One few-shot pick example: mini evidence bag → JSON answer (null allowed)."""
+
+    evidence: str
+    answer: str | None
+    note: str = ""
 
 
 @dataclass(frozen=True)
@@ -92,13 +121,25 @@ class ActionPack:
     # Optional explicit per-field policies; empty = derive from legacy knobs
     policies: dict[str, FieldPolicy] = field(default_factory=dict)
     hooks: PackHooks | None = None
+    # When set, pick/oneshot/span stages include hybrid excerpts next to GLiNER
+    hybrid: HybridSpec | None = None
+    # Optional few-shot pick demos keyed by field (synthetic; not holdout rows).
+    field_shots: dict[str, tuple[FieldShot, ...]] = field(default_factory=dict)
+    # Temporal NER scan window over the event excerpts (chars from the start) and the cap
+    # on TEMPORAL lines per date field. Defaults preserve the original behaviour.
+    temporal_scan_chars: int = DEFAULT_TEMPORAL_SCAN_CHARS
+    temporal_max_spans: int = DEFAULT_TEMPORAL_MAX_SPANS
     system_prompt: str = (
         "You extract one schema field from structured evidence "
-        "(RULES facts, GLiNER spans, temporal DATE spans). "
+        "(RULES facts, GLiNER spans, hybrid excerpts, temporal DATE spans). "
         "PICK the best matching listed value. Return one JSON object only. "
         "Do not invent identifiers, dates, or prices absent from the evidence."
     )
     normalize: NormalizeFn = field(default=_default_normalize, compare=False)
+
+    @property
+    def hybrid_enabled(self) -> bool:
+        return self.hybrid is not None
 
     def __post_init__(self) -> None:
         unknown = self.date_fields - set(self.fields)
@@ -113,6 +154,17 @@ class ActionPack:
         bad_pol = set(self.policies) - set(self.fields)
         if bad_pol:
             raise ValueError(f"{self.name}: policies keys not in fields: {sorted(bad_pol)}")
+
+        if self.temporal_scan_chars <= 0 or self.temporal_max_spans <= 0:
+            raise ValueError(f"{self.name}: temporal_scan_chars / temporal_max_spans must be > 0")
+
+    @property
+    def temporal_scan_is_default(self) -> bool:
+        """True when the temporal scan knobs equal the original 12,000 chars / 25 spans."""
+        return (self.temporal_scan_chars, self.temporal_max_spans) == (
+            DEFAULT_TEMPORAL_SCAN_CHARS,
+            DEFAULT_TEMPORAL_MAX_SPANS,
+        )
 
     def uses_temporal(self, field: str) -> bool:
         return field in self.date_fields

@@ -1,0 +1,2468 @@
+[
+  {
+    "accession": "0001437749-26-000391",
+    "event_id": "merger_0001437749-26-000391",
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "SPX Enterprises, LLC",
+        "pred": "Project King Acquisition, Inc.",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2878,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"acquirer\": \"Project King Acquisition, Inc.\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"Project King Acquisition, Inc.\"\n}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "2/3/2026 10:00 AM Eastern Time",
+        "pred": "February 3, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5033,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"February 3, 2026\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"February 3, 2026\"\n}"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "CRAWA",
+        "pred": "SPXC",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3199,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\n  \"ticker\": \"SPXC\"\n} | C:{\n  \"keep\": true,\n  \"ticker_symbol\": \"SPXC\",\n  \"confidence_score\": 0.76\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-003553",
+    "event_id": "merger_0001193125-26-003553",
+    "fields": {
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "CHTH",
+        "pred": "SNDA",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2882,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\n  \"ticker\": \"SNDA\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"SNDA\",\n  \"label\": \"ticker_symbol\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-010471",
+    "event_id": "merger_0001193125-26-010471",
+    "fields": {
+      "election_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "january 12, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5043,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"january 12, 2026\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'january 12, 2026' is explicitly identified as the date of preliminary proxy materials and corresponds directly with the deadline for voting on the merg"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5043,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"the Effective Time\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'the Effective Time' is a temporal descriptor rather than a specific date value. It refers to an abstract moment in legal process (when ownership transfer"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "common stock",
+        "pred": "Sealed Air common stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2564,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Sealed Air common stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Sealed Air common stock' satisfies the definition of a short class/type of affected security. It is explicitly identified as the equity instrument bein"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-002095",
+    "event_id": "merger_0001493152-26-002095",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "mismatch",
+        "gold": "3/3/2026",
+        "pred": "2025-09-30",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3335,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"2025-09-30\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"2025-09-30\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-002095",
+    "event_id": "merger_0001493152-26-002095",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "1 share of Pubco Class A Common Stock per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"No stock consideration\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"'No stock consideration' is not a valid or supported value for `stock_exchange_ratio`. The definition requires shares of new security per share of old security, with di"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-002095",
+    "event_id": "merger_0001493152-26-002095",
+    "fields": {
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "2025-09-30",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3335,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"2025-09-30\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '2025-09-30' is explicitly identified in multiple temporal spans and hybrid excerpts as the legal closing date for the merger. It is referred to specifi"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-012952",
+    "event_id": "merger_0001193125-26-012952",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Stock",
+        "pred": "Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2543,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"consideration_type\": \"Stock\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Stock' is explicitly supported by the evidence provided. The text states that each share of Olympic Steel common stock will be converted into the right"
+      },
+      "cash_consideration": {
+        "outcome": "mismatch",
+        "gold": "No cash consideration",
+        "pred": "$48.42",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2543,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$48.42\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$48.42' is validated as a cash per share/unit consideration within the context provided. It matches the 'offer_price_amount' value in the GLINER SPANS "
+      }
+    }
+  },
+  {
+    "accession": "0001185185-26-000166",
+    "event_id": "merger_0001185185-26-000166",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "Exchange Ratio = (Fully Diluted Parent Common Stock \u00d7 Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"No stock consideration\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'No stock consideration' does not provide a valid stock exchange ratio or formula as required by the definition. It indicates the absence of equity-based "
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-016598",
+    "event_id": "merger_0001193125-26-016598",
+    "fields": {
+      "target": {
+        "outcome": "tp",
+        "gold": "Hadron Energy, Inc.",
+        "pred": "Hadron Energy",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4977,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": \"Hadron Energy\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Hadron Energy' is explicitly identified as the entity being acquired in the context of a business combination. The evidence shows that Hadron Energy wa"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-016684",
+    "event_id": "merger_0001193125-26-016684",
+    "fields": {
+      "cusip": {
+        "outcome": "tp",
+        "gold": "381013101",
+        "pred": "381013101",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'381013101' | C:{\n  \"keep\": true,\n  \"value\": \"381013101\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US3810131017",
+        "pred": "US3810131017",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US3810131017' | C:{\n  \"keep\": true,\n  \"value\": \"US3810131017\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-003049",
+    "event_id": "merger_0001140361-26-003049",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "tp",
+        "gold": "0.1993 shares of Bed Bath & Beyond, Inc. common stock per share",
+        "pred": "0.1993 shares of BBBY\u2019s common stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"0.1993 shares of BBBY\u2019s common stock\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"0.1993 shares of BBBY\u2019s common stock\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001539497-26-000230",
+    "event_id": "merger_0001539497-26-000230",
+    "fields": {
+      "ticker": {
+        "outcome": "fn",
+        "gold": "BCAB",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2509,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"ticker\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001437749-26-002544",
+    "event_id": "merger_0001437749-26-002544",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Cash",
+        "pred": "Cash",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3459,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Cash\"\n} | C:{\n  \"keep\": true,\n  \"reason\": \"The candidate 'Cash' is explicitly supported by EVIDENCE where offer prices are quoted as monetary amounts ('$3.57', '$38.5 million', etc.), confirming that the consider"
+      }
+    }
+  },
+  {
+    "accession": "0001437749-26-002544",
+    "event_id": "merger_0001437749-26-002544",
+    "fields": {
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Global Superfoods Corp.",
+        "pred": "Navitas",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5723,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"Navitas\"\n} | C:{\n  \"keep\": true,\n  \"score\": 0.63\n}"
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "LSF",
+        "pred": "LSF",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2878,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\"ticker\": \"LSF\"} | C:{\n  \"keep\": true,\n  \"ticker_symbol\": \"LSF\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001628280-26-006094",
+    "event_id": "merger_0001628280-26-006094",
+    "fields": {
+      "effective_date": {
+        "outcome": "fn",
+        "gold": "3/4/2024",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 9147,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"march 4, 2024\"\n} | C:{\n  \"keep\": false,\n  \"reasoning\": \"The candidate 'march 4, 2024' is a valid date but does not satisfy the specific definition of `effective_date` for a merger in this context. While it appears as the "
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "common stock",
+        "pred": "Preferred stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2556,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Preferred stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Preferred stock' is supported by EVIDENCE showing it as a specific class of security within the company's capital structure. The HYBRID EXCERPTS confir"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "QTI, QTIH, QTIWW",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2539,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"ticker\": null\n}"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "746962307",
+        "pred": "746962307",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'746962307' | C:{\n  \"keep\": true,\n  \"value\": \"746962307\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US7469623075",
+        "pred": "US7469623075",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US7469623075' | C:{\n  \"keep\": true,\n  \"value\": \"US7469623075\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-017281",
+    "event_id": "merger_0001104659-26-017281",
+    "fields": {
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "august 26, 2024",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 1847,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"august 26, 2024\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'august 26, 2024' is explicitly identified as the date on which the merger became legally effective. The evidence shows that this was the specific day w"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-020983",
+    "event_id": "merger_0001104659-26-020983",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "Share Exchange Aggregate Consideration divided by Aggregate Company Shares in PubCo Class A and/or Class B ordinary shares per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"a number of PubCo Class A Ordinary Shares and/or PubCo Class B Ordinary Shares, as applicable, equal to the Per Share Exchange Ratio\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate text does not provide a specific numerical ratio or formula. Instead, it refers generically to 'the Per Share Exchange Ratio' without specifying what that"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 6374,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": null\n}"
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 6374,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"August 31, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'August 31, 2026' is identified as a specific deadline ('Outside Closing Date') rather than an explicit legal effectiveness date of the merger. It serves "
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cusip\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-020983",
+    "event_id": "merger_0001104659-26-020983",
+    "fields": {
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 6374,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-022404",
+    "event_id": "merger_0001213900-26-022404",
+    "fields": {
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cusip\": null\n}"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"isin\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-023474",
+    "event_id": "merger_0001104659-26-023474",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "3/31/2026 2:00 PM Pacific Time",
+        "pred": "march 31, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5125,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"shareholder_vote_date\": \"march 31, 2026\"} | C:{\n  \"keep\": true,\n  \"value\": \"march 31, 2026\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-024193",
+    "event_id": "merger_0001104659-26-024193",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "3/25/2026 9:30 AM Eastern Time",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 9295,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"march 25, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'march 25, 2026' is not explicitly stated as the shareholder vote date in the provided text. While a meeting on this date is mentioned ('Stockholder Speci"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "ACQC",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"ticker\": \"RTLL\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'RTLL' is not a valid exchange ticker symbol based on the provided evidence. The document references specific tickers such as 'RSLT,' 'RLTR,' and 'BIOT,' "
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-024193",
+    "event_id": "merger_0001104659-26-024193",
+    "fields": {
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 9295,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"february 15, 2027\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'february 15, 2027' is not supported by explicit evidence in the provided text. While multiple dates related to business combinations and extension period"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-024672",
+    "event_id": "merger_0001213900-26-024672",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "mismatch",
+        "gold": "3/27/2026 10:00 AM Eastern Time",
+        "pred": "march 6, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4477,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"shareholder_vote_date\": \"march 6, 2026\"} | C:{\n  \"keep\": true\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-024672",
+    "event_id": "merger_0001213900-26-024672",
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Odysseus Holdings Limited",
+        "pred": "Holdco",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5594,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"Holdco\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"'Holdco' is identified as the acquiring entity through multiple explicit references. The evidence shows that 'Holdco' becomes the parent company of SPAC Merger Sub, a"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"isin\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-102445",
+    "event_id": "merger_0001193125-26-102445",
+    "fields": {
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "february 9, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3356,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"february 9, 2026\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'february 9, 2026' is explicitly identified as the 'effective date of the merger' in the provided text. It states that on this date, specific entities e"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "29882P106",
+        "pred": "29882P106",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'29882P106' | C:{\n  \"keep\": true,\n  \"value\": \"29882P106\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US29882P1066",
+        "pred": "US29882P1066",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US29882P1066' | C:{\n  \"keep\": true,\n  \"value\": \"US29882P1066\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-102445",
+    "event_id": "merger_0001193125-26-102445",
+    "fields": {
+      "target": {
+        "outcome": "fn",
+        "gold": "European Wax Center, Inc.",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4772,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"European Wax Center, Inc.\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'European Wax Center, Inc.' is not identified as the target entity in the provided text. Instead, it appears within a list of entities involved in a merge"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "No stock consideration",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"No stock consideration\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'No stock consideration' does not satisfy the definition of `stock_exchange_ratio` which requires a specific ratio/formula specifying shares of new securi"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class B Common Stock",
+        "pred": "Class A Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3182,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Class A Common Stock\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"Class A Common Stock\"\n}"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "29882P106",
+        "pred": "29882P106",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'29882P106' | C:{\n  \"keep\": true,\n  \"value\": \"29882P106\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US29882P1066",
+        "pred": "US29882P1066",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US29882P1066' | C:{\n  \"keep\": true,\n  \"value\": \"US29882P1066\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-102445",
+    "event_id": "merger_0001193125-26-102445",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$5.79999 per unit",
+        "pred": "$5.80",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2541,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$5.80\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$5.80' matches the definition of 'cash per share/unit with currency when stated.' It is explicitly referenced in the text as the amount each shareholde"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "29882P106",
+        "pred": "29882P106",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'29882P106' | C:{\n  \"keep\": true,\n  \"value\": \"29882P106\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US29882P1066",
+        "pred": "US29882P1066",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US29882P1066' | C:{\n  \"keep\": true,\n  \"value\": \"US29882P1066\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-009785",
+    "event_id": "merger_0001493152-26-009785",
+    "fields": {
+      "target": {
+        "outcome": "fn",
+        "gold": "Quetta Acquisition Corporation",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4703,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"Company\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'Company' is not a valid entity being acquired in this context. The text describes a SPAC (Quetta Acquisition Corporation) merging with and into Merger Su"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-009785",
+    "event_id": "merger_0001493152-26-009785",
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "SMART KREATE GROUP LIMITED",
+        "pred": "Smart Kreate Group Limited",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 6273,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"acquirer\": \"Smart Kreate Group Limited\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Smart Kreate Group Limited' is explicitly identified as the PubCo (Public Company) in multiple contexts within the provided text. It is described as ac"
+      },
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Smart Kreate Group Limited",
+        "pred": "Company",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4703,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"Company\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Company' satisfies the definition of an entity being acquired. Evidence from hybrid excerpts shows that Merger Sub 2 merges with and into the Company ("
+      },
+      "consideration_type": {
+        "outcome": "fn",
+        "gold": "Stock",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": null\n}"
+      },
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "March 6, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5887,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"March 6, 2026\"\n} | C:{\n  \"keep\": true,\n  \"evidence\": [\n    {\n      \"date\": \"March 6, 2026\",\n      \"label\": \"DATE\",\n      \"field_cues\": 1,\n      \"window\": \"these documents can be obtained free of charge from the sources in"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-009785",
+    "event_id": "merger_0001493152-26-009785",
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "SMART KREATE GROUP LIMITED",
+        "pred": "Smart Kreate Group Limited",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 6273,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"acquirer\": \"Smart Kreate Group Limited\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Smart Kreate Group Limited' is explicitly identified as the PubCo (Public Company) in multiple contexts within the provided text. It is clearly defined"
+      },
+      "target": {
+        "outcome": "fn",
+        "gold": "Smart Kreate Group Limited",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4703,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"Company\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'Company' is not a valid entity being acquired in this context. The text describes a SPAC (Quetta Acquisition Corporation) merging with and into Merger Su"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-029601",
+    "event_id": "merger_0001104659-26-029601",
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Royal Cup, Inc.",
+        "pred": "Braemont Capital Management LLC",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4896,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"Braemont Capital Management LLC\"} | C:{\n  \"keep\": true\n}"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$1.29 per share",
+        "pred": "$1.29 per share",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3167,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": \"$1.29 per share\"} | C:{\n  \"keep\": true,\n  \"value\": \"$1.29 per share\",\n  \"currency\": \"USD\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-012383",
+    "event_id": "merger_0001140361-26-012383",
+    "fields": {
+      "security_description": {
+        "outcome": "tp",
+        "gold": "common stock",
+        "pred": "Allegiant common stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3144,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Allegiant common stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Allegiant common stock' is explicitly identified as the security type in multiple contexts within the provided evidence. It matches the definition of a"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-134924",
+    "event_id": "merger_0001193125-26-134924",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "fn",
+        "gold": "$15.00 per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3473,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": \"$15.00\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate '$15.00' does not match any specific cash consideration per share/unit defined in the provided text. Instead, it appears as a value within a formulaic ran"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 6957,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"election_deadline\": \"may 8, 2026\"} | C:{\n  \"keep\": false,\n  \"reasoning\": \"The candidate 'may 8, 2026' is a specific date. However, based on the provided EVIDENCE and HYBRID EXCERPTS, this date does not correspond to any stated deadline for"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"isin\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-015164",
+    "event_id": "merger_0001493152-26-015164",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "fn",
+        "gold": "No cash consideration",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$1.00 billion\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate '$1.00 billion' is an aggregate deal value or total consideration amount, not a per-share/unit price with currency specified as required by the definition"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"isin\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-042083",
+    "event_id": "merger_0001213900-26-042083",
+    "fields": {
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Constellation Acquisition Corp I",
+        "pred": "HiTech Minerals Inc.",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5915,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"HiTech Minerals Inc.\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'HiTech Minerals Inc.' is explicitly identified as an entity being acquired. The evidence shows that HiTech was a Nevada corporation merging into PubCo,"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-043531",
+    "event_id": "merger_0001104659-26-043531",
+    "fields": {
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "SEM",
+        "pred": "81619Q105",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2495,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"ticker\": \"81619Q105\"\n} | C:{\n  \"keep\": true,\n  \"ticker_symbol\": \"81619Q105\"\n}"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "81619Q105",
+        "pred": "81619Q105",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'81619Q105' | C:{\n  \"keep\": true,\n  \"value\": \"81619Q105\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US81619Q1058",
+        "pred": "US81619Q1058",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US81619Q1058' | C:{\n  \"keep\": true,\n  \"value\": \"US81619Q1058\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-187219",
+    "event_id": "merger_0001193125-26-187219",
+    "fields": {
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "ordinary shares",
+        "pred": "Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3170,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Common Stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Common Stock' is supported by EVIDENCE where it appears in contexts involving specific issuers (JFB Class A and B common stock) and the resulting conve"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-187219",
+    "event_id": "merger_0001193125-26-187219",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Stock",
+        "pred": "Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Stock\"\n} | C:{\n  \"keep\": true\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-187219",
+    "event_id": "merger_0001193125-26-187219",
+    "fields": {
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Class B common stock",
+        "pred": "Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3170,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Common Stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Common Stock' is supported by EVIDENCE where it appears in specific contexts related to corporate restructurings and share conversions (e.g., JFB commo"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-187219",
+    "event_id": "merger_0001193125-26-187219",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "2/13/2026",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 6484,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"february 13, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate date 'february 13, 2026' is present in the evidence but does not explicitly state that it is the shareholder vote date. Instead, it refers to an event whe"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cusip\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001185185-26-001691",
+    "event_id": "merger_0001185185-26-001691",
+    "fields": {
+      "ticker": {
+        "outcome": "fn",
+        "gold": "BPAC, BPACR, BPACU",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"ticker\": \"BPAC\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'BPAC' is not a valid stock ticker symbol based on the provided evidence. The text describes a merger process involving specific share conversions and cor"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-005260",
+    "event_id": "merger_0001829126-26-005260",
+    "fields": {
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4994,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"may 13, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'may 13, 2026' does not satisfy the definition of an election deadline. While it appears as a report date in SEC filings (Form 8-K), there is no evidence "
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "QSEA, QSEAR, QSEAU",
+        "pred": "QSEAU",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3675,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"ticker\": \"QSEAU\"} | C:{\n  \"keep\": true\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-061108",
+    "event_id": "merger_0001213900-26-061108",
+    "fields": {
+      "acquirer": {
+        "outcome": "fn",
+        "gold": "SeeQC, Inc.",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4169,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"SEEQC\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'SEEQC' does not appear in any of the provided text excerpts. While there are references to a company named 'Allegro' merging with or into another entity "
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "1 share of SEEQC Common Stock per share",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-061108",
+    "event_id": "merger_0001213900-26-061108",
+    "fields": {
+      "security_description": {
+        "outcome": "fn",
+        "gold": "rights",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5996,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Preferred Stock\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'Preferred Stock' is a generic term for an equity class and does not specify a unique class/title line with issuer/fund name context. It lacks specific de"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-061108",
+    "event_id": "merger_0001213900-26-061108",
+    "fields": {
+      "acquirer": {
+        "outcome": "fn",
+        "gold": "SeeQC, Inc.",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4169,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"SEEQC\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'SEEQC' does not satisfy the definition of an acquiring entity based on the provided evidence. The text explicitly states that Allegro is the surviving co"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "0.1 share of SEEQC Common Stock per unit",
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": null\n}"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3666,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"may 26, 2026\"\n} | C:{\"keep\": false}"
+      },
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "may 26, 2026",
+        "pass_used": "oneshot",
+        "n_evidence_chars": 3666,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"may 26, 2026\"\n} | C:{\n  \"keep\": true,\n  \"evidence\": [\n    {\n      \"date\": \"may 26, 2026\",\n      \"label\": \"DATE\",\n      \"field_cues\": 0,\n      \"window\": \"g an offer to buy these securities in any jurisdiction where the of"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-023175",
+    "event_id": "merger_0001140361-26-023175",
+    "fields": {
+      "target": {
+        "outcome": "tp",
+        "gold": "Global Business Travel Group, Inc.",
+        "pred": "Global Business Travel Group, Inc.",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4248,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"Global Business Travel Group, Inc.\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Global Business Travel Group, Inc.' is explicitly identified as the primary entity in the provided text. It serves as both the subject of the merger an"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-023178",
+    "event_id": "merger_0001140361-26-023178",
+    "fields": {
+      "acquirer": {
+        "outcome": "fn",
+        "gold": "steute Industrial Controls, Inc.",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4871,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"Battery Ventures\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'Battery Ventures' does not satisfy the definition of an acquiring entity based on the provided evidence and context. While Battery Ventures is identified"
+      },
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Cash",
+        "pred": "Cash",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3450,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Cash\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Cash' is validated by EVIDENCE showing that each share was converted into a right to receive specific monetary amounts in cash. The text explicitly sta"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$7.75 per share",
+        "pred": "$7.75",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3450,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": \"$7.75\"} | C:{\n  \"keep\": true,\n  \"value\": \"$7.75\",\n  \"currency\": \"USD\"\n}"
+      },
+      "election_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "11:59 p.m., Eastern Time, on [ ], 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4197,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"election_deadline\": \"11:59 p.m., Eastern Time, on [ ], 2026\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '11:59 p.m., Eastern Time, on [ ], 2026' is validated as a deadline for voting proxies in connection with an upcoming Special Meeting. The EVIDENCE conf"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "common stock, par value $0.10 per share",
+        "pred": "Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2853,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Common Stock\"\n} | C:{\n  \"keep\": true\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-005923",
+    "event_id": "merger_0001829126-26-005923",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "mismatch",
+        "gold": "Pro rata portion of Titan's trust account per share",
+        "pred": "$10.52",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$10.52\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$10.52' is a specific cash value per share/unit, supported by the evidence where it appears as 'Per Share Merger Consideration Value.' It meets the def"
+      },
+      "election_deadline": {
+        "outcome": "mismatch",
+        "gold": "Deadline to tender shares for redemption in connection with the shareholder vote",
+        "pred": "june 1, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3402,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"election_deadline\": \"june 1, 2026\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'june 1, 2026' is explicitly identified as a specific date within the provided text. It serves as the effective date of the business combination agreeme"
+      },
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "june 1, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3402,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"june 1, 2026\"\n} | C:{\n  \"keep\": true,\n  \"evidence_match_count\": 1,\n  \"confidence_score\": 0.95,\n  \"reasoning\": \"The candidate 'june 1, 2026' is explicitly identified as the date when the business combination agreement was"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cusip\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-005923",
+    "event_id": "merger_0001829126-26-005923",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Stock",
+        "pred": "Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Stock\"\n} | C:{\n  \"keep\": true,\n  \"reason\": \"The candidate 'Stock' satisfies the definition of `consideration_type` as it is one of the explicitly supported values: \\\"Cash\\\", \\\"Stock\\\", \\\"Mixed cash and stock\\\", or"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-063737",
+    "event_id": "merger_0001213900-26-063737",
+    "fields": {
+      "target": {
+        "outcome": "fn",
+        "gold": "HiTech Minerals Inc.",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 6046,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"HiTech Minerals Inc.\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'HiTech Minerals Inc.' is not a valid target for acquisition in this context. The evidence shows that HiTech Minerals Inc. is the offeror or involved part"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-073581",
+    "event_id": "merger_0001104659-26-073581",
+    "fields": {
+      "election_deadline": {
+        "outcome": "mismatch",
+        "gold": "5:00 PM Mountain time, as near as practicable to three business days before closing",
+        "pred": "june 12, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4264,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"june 12, 2026\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'june 12, 2026' is explicitly identified as a DATE field in multiple contexts within the provided text. It serves as the filing date for a registration "
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-069741",
+    "event_id": "merger_0001213900-26-069741",
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "Silicon Valley Acquisition Corp.",
+        "pred": "Silicon Valley Acquisition Corp.",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3134,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"Silicon Valley Acquisition Corp.\"} | C:{\n  \"keep\": true,\n  \"value\": \"Silicon Valley Acquisition Corp.\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-279668",
+    "event_id": "merger_0001193125-26-279668",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "tp",
+        "gold": "1.55516 shares of New Equitable Common Stock per share",
+        "pred": "1.000 shares of common stock ... for New Corebridge Common Stock; 1.55516 shares of common stock ... for New Equitable Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"1.000 shares of common stock ... for New Corebridge Common Stock; 1.55516 shares of common stock ... for New Equitable Common Stock\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"1.000 shares of common stock ... for New Corebridge Common Stock; 1.55516 shares of common stock ... for New Equitable Common Stock\"\n}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "7/30/2026 10:00 AM Eastern Time",
+        "pred": "July 30, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4688,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"July 30, 2026\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"July 30, 2026\",\n  \"type\": \"DATE\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-279668",
+    "event_id": "merger_0001193125-26-279668",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Stock",
+        "pred": "Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2540,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"'Stock' satisfies the definition of a candidate for `consideration_type` as it represents one of the allowed components (Cash, Stock, Mixed cash and stock, Elective c"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Series C Fixed Rate Noncumulative Perpetual Preferred Stock",
+        "pred": "Corebridge Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3981,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Corebridge Common Stock\"\n} | C:{\n  \"keep\": true\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-279656",
+    "event_id": "merger_0001193125-26-279656",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Stock",
+        "pred": "Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2540,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Stock' is explicitly supported by the evidence provided. The text describes a conversion process where shares of Corebridge Common Stock or Equitable C"
+      },
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "7/30/2026 10:00 AM Eastern Time",
+        "pred": "july 30, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4411,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"july 30, 2026\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"july 30, 2026\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-279656",
+    "event_id": "merger_0001193125-26-279656",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "7/30/2026 10:00 AM Eastern Time",
+        "pred": "july 30, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4411,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"july 30, 2026\"\n} | C:{\n  \"keep\": true,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The candidate 'july 30, 2026' matches the definition of a shareholder vote date when explicitly stated. Evidence from the text confirms that the"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-279656",
+    "event_id": "merger_0001193125-26-279656",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "mismatch",
+        "gold": "1 share of Series 2 New Equitable Preferred Stock per share",
+        "pred": "1.55516 (the \u201cEquitable Exchange Ratio\u201d)",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"1.55516 (the \u201cEquitable Exchange Ratio\u201d)\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"1.55516 (the \u201cEquitable Exchange Ratio\u201d)\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-279656",
+    "event_id": "merger_0001193125-26-279656",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "mismatch",
+        "gold": "1 share of Series 1-C New Equitable Preferred Stock per share",
+        "pred": "1.55516 shares of New Equitable Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"1.55516 shares of New Equitable Common Stock\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"1.55516 shares of New Equitable Common Stock\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-073218",
+    "event_id": "merger_0001213900-26-073218",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "7/28/2026 10:00 AM Eastern Time",
+        "pred": "july 28, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 7021,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"july 28, 2026\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"july 28, 2026\",\n  \"type\": \"DATE\"\n}"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "TMRC",
+        "pred": "USAR",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2787,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\n  \"ticker\": \"USAR\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'USAR' is validated as the correct ticker symbol through multiple sources within the provided text. The GLINER SPANS explicitly state that USAR\u2019s common"
+      },
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"isin\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-074267",
+    "event_id": "merger_0001213900-26-074267",
+    "fields": {
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3452,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Cash\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"'Cash' satisfies the definition for `consideration_type` as it represents a direct monetary offer to holders. Evidence from EVIDENCE confirms specific cash amounts ($"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-082291",
+    "event_id": "merger_0001104659-26-082291",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$13.80 per share",
+        "pred": "$13.80",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3173,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$13.80\"\n} | C:{\n  \"keep\": true\n}"
+      },
+      "election_deadline": {
+        "outcome": "mismatch",
+        "gold": "5:00 PM Mountain time, as near as practicable to three business days before closing",
+        "pred": "july 6, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3902,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"july 6, 2026\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'july 6, 2026' is explicitly referenced in the context of shareholder meetings and voting deadlines. Specifically, it states: \\\"Shareholders will be ask"
+      },
+      "security_description": {
+        "outcome": "fn",
+        "gold": "Class A common stock",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3573,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"New Wildlife Common Stock\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'New Wildlife Common Stock' does not match any supported security class or ticker in the provided evidence. The context references REMAX Class A Common St"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "RMAX",
+        "pred": "REAX",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2581,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\"ticker\": \"REAX\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'REAX' is validated as a correct exchange ticker symbol based on explicit evidence from multiple sources within the provided text. The Real Common Share"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-082291",
+    "event_id": "merger_0001104659-26-082291",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "RMCO Common Units held by RIHI divided by outstanding RIHI Common Stock shares, in shares of REMAX Class A Common Stock per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"5.150 prior to the Share Consolidation\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate '5.150 prior to the Share Consolidation' is not a valid stock exchange ratio as defined. It appears to be an intermediate value or multiplier rather than "
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-082291",
+    "event_id": "merger_0001104659-26-082291",
+    "fields": {
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3902,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"july 6, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'july 6, 2026' is associated with legal procedural dates (e.g., court orders) rather than a standard election deadline for shareholders. The evidence show"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-306199",
+    "event_id": "merger_0001193125-26-306199",
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "Orion Merger Parent, Inc.",
+        "pred": "Orion Merger Parent, Inc.",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3076,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"Orion Merger Parent, Inc.\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Orion Merger Parent, Inc.' is validated as the acquirer based on explicit evidence from both GLINER SPANS and HYBRID EXCERPTS. The text confirms that O"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$29.00 per share",
+        "pred": "$29.00",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3581,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": \"$29.00\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$29.00' is explicitly identified as the 'Merger Consideration' in multiple contexts within the provided text excerpts. It is stated that shareholders w"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-029134",
+    "event_id": "merger_0001140361-26-029134",
+    "fields": {
+      "target": {
+        "outcome": "tp",
+        "gold": "Crinetics Pharmaceuticals, Inc.",
+        "pred": "Crinetics Pharmaceuticals, Inc.",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4200,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": \"Crinetics Pharmaceuticals, Inc.\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Crinetics Pharmaceuticals, Inc.' is explicitly identified as the primary entity in the provided text. The context confirms that Crinetics is the target"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$85.00 per share",
+        "pred": "$85.00",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3470,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$85.00\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"$85.00\"\n}"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "CRNX",
+        "pred": "VRTX",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2277,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\n  \"ticker\": \"VRTX\"\n} | C:{\n  \"keep\": true\n}"
+      },
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cusip\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-034626",
+    "event_id": "merger_0001493152-26-034626",
+    "fields": {
+      "election_deadline": {
+        "outcome": "mismatch",
+        "gold": "9:00 AM Toronto time on the date of the GNQ Shareholders Meeting",
+        "pred": "2026-03-16",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5067,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"2026-03-16\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '2026-03-16' is explicitly referenced in the EVIDENCE under a hybrid excerpt that states: \\\"ibac:sideletteragreementmember\\n2026-03-16\\n2026-03-16\\n0001"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-081847",
+    "event_id": "merger_0001213900-26-081847",
+    "fields": {
+      "cusip": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cusip\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-084686",
+    "event_id": "merger_0001213900-26-084686",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Stock",
+        "pred": "Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"consideration_type\": \"Stock\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Stock' satisfies the definition provided for `consideration_type`. According to the EVIDENCE, holders received an aggregate amount of shares equal to a"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class A common stock",
+        "pred": "Parent Ordinary Shares",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3805,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Parent Ordinary Shares\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Parent Ordinary Shares' matches the definition of a short class/type of affected security. Evidence from the text confirms that securities issued and o"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-084686",
+    "event_id": "merger_0001213900-26-084686",
+    "fields": {
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5812,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"the day\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'the day' is an ambiguous temporal reference that lacks specificity to satisfy the definition of a legal closing/merger effectiveness date. While it appea"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class B common stock",
+        "pred": "Parent Ordinary Shares",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3805,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Parent Ordinary Shares\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Parent Ordinary Shares' matches the definition of a short class/type of affected security. Evidence from multiple contexts confirms that these shares a"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-032037",
+    "event_id": "merger_0001140361-26-032037",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$73.00 per share",
+        "pred": "$73.00",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3459,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": \"$73.00\"} | C:{\n  \"keep\": true,\n  \"reason\": \"The candidate '$73.00' is explicitly identified as 'Merger Consideration' and serves as the per-share price for issued and outstanding shares of Company Common Stock in "
+      },
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4493,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"June 25, 2027\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'June 25, 2027' is not explicitly identified as the legal closing/merger effectiveness date in the provided EVIDENCE. Instead, it appears within a conditi"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-093784",
+    "event_id": "merger_0001104659-26-093784",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$17.00 per share",
+        "pred": "$17.00",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4401,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$17.00\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"$17.00\",\n  \"currency\": \"USD\"\n}"
+      },
+      "election_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "no later than [\u2022] ([\u2022]) on [\u2022], 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4280,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"no later than [\u2022] ([\u2022]) on [\u2022], 2026\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'no later than [\u2022] ([\u2022]) on [\u2022], 2026' aligns with the definition of an election deadline for holders to act among consideration options. Evidence from "
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-089404",
+    "event_id": "merger_0001213900-26-089404",
+    "fields": {
+      "acquirer": {
+        "outcome": "fn",
+        "gold": "Langham Project, LLC",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 4117,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"Parent\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'Parent' is a valid entity acquiring the target. However, it cannot be confirmed that 'Parent' is specifically identified as the acquirer in the provided "
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "No stock consideration",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"One validly issued, fully paid and nonassessable share of common stock\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"Candidate does not satisfy definition; lacks numerical ratio or formula specifying shares of new security per old security.\"\n}"
+      },
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "9/25/2026 1:00 PM Eastern Time",
+        "pred": "september 25, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 7759,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"september 25, 2026\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"september 25, 2026\"\n}"
+      },
+      "ticker": {
+        "outcome": "tp",
+        "gold": "LGMK",
+        "pred": "LGMK",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2589,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\"ticker\": \"LGMK\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'LGMK' is explicitly identified as a ticker symbol in the evidence context ('Common Stock', 'OTC under the symbol \u201cLGMK\u201d'). The text confirms this regis"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-089404",
+    "event_id": "merger_0001213900-26-089404",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "9/25/2026 1:00 PM Eastern Time",
+        "pred": "september 25, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 7759,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"september 25, 2026\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"september 25, 2026\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-034858",
+    "event_id": "merger_0001140361-26-034858",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Cash",
+        "pred": "Cash",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2846,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Cash\"\n} | C:{\n  \"keep\": true,\n  \"consideration_type\": \"Cash\"\n}"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "common stock",
+        "pred": "Company Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2867,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Company Common Stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Company Common Stock' is supported by EVIDENCE where it appears in contexts describing specific financial terms and corporate actions. The evidence con"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-377066",
+    "event_id": "merger_0001193125-26-377066",
+    "fields": {
+      "cusip": {
+        "outcome": "tp",
+        "gold": "71535D106",
+        "pred": "71535D106",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'71535D106' | C:{\n  \"keep\": true\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US71535D1063",
+        "pred": "US71535D1063",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US71535D1063' | C:{\n  \"keep\": true,\n  \"value\": \"US71535D1063\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-104366",
+    "event_id": "merger_0001104659-26-104366",
+    "fields": {
+      "consideration_type": {
+        "outcome": "mismatch",
+        "gold": "Stock",
+        "pred": "Cash",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2554,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Cash\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"'Cash' is explicitly identified in the definition as a valid form paid to holders. The EVIDENCE confirms that TriCo shareholders who would receive fractional shares o"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-383837",
+    "event_id": "merger_0001193125-26-383837",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$11.25 per share",
+        "pred": "$11.25",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2543,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": \"$11.25\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$11.25' is explicitly identified as 'Cash Consideration' in both GLINER SPANS and HYBRID EXCERPTS. It represents the per-share cash value received by h"
+      },
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "October 5, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4523,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"October 5, 2026\"\n} | C:{\n  \"keep\": true,\n  \"evidence_match\": [\n    {\n      \"date\": \"october 5, 2026\",\n      \"label\": \"DATE\",\n      \"field_cues\": 0,\n      \"window\": \"of the merger\\nconsideration, as specified in the merger a"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-383841",
+    "event_id": "merger_0001193125-26-383841",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$167.00 per share",
+        "pred": "$167.00",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3164,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": \"$167.00\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$167.00' matches the definition of 'cash per share/unit with currency when stated.' It is explicitly identified in multiple contexts within the provide"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-010118",
+    "event_id": "merger_0001829126-26-010118",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Stock",
+        "pred": "Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2649,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Stock' is explicitly supported by the evidence provided, which states that each Parent Ordinary Share was converted into one Purchaser Ordinary Share a"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-010118",
+    "event_id": "merger_0001829126-26-010118",
+    "fields": {
+      "consideration_type": {
+        "outcome": "fn",
+        "gold": "Stock",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3992,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Each individually separated component shall, at the SPAC Merger Effective Time, be exchanged into one Purchaser Ordinary Share, and one Purchaser Right to receive one-tenth (1/10th) of one Purchaser Ordinary Share\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate describes an exchange involving 'one Purchaser Ordinary Share' and 'one Purchaser Right to receive one-tenth (1/10th) of one Purchaser Ordinary Share.' Th"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-010118",
+    "event_id": "merger_0001829126-26-010118",
+    "fields": {
+      "consideration_type": {
+        "outcome": "fn",
+        "gold": "Stock",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2679,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"At Closing, each Purchaser right will be cancelled in exchange for one-tenth (1/10th) of one Purchaser ordinary share\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate describes a fractional share conversion mechanism ('one-tenth (1/10th) of one Purchaser ordinary share') and explicitly states that 'no fractional Purchas"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "FSHP, FSHPR, FSHPU",
+        "pred": "Nasdaq",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"ticker\": \"Nasdaq\"\n} | C:{\n  \"keep\": true\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-010118",
+    "event_id": "merger_0001829126-26-010118",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Stock",
+        "pred": "Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2680,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Stock' is explicitly supported by the evidence. The text states that each issued and outstanding Class A ordinary share and Class B ordinary share will"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-010118",
+    "event_id": "merger_0001829126-26-010118",
+    "fields": {
+      "isin": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"isin\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-108313",
+    "event_id": "merger_0001104659-26-108313",
+    "fields": {
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 7837,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"the time of\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"'the time of' does not specify a concrete legal closing date; it refers generally to an unspecified future moment relative to market conditions, which lacks the specifi"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-100367",
+    "event_id": "merger_0001213900-26-100367",
+    "fields": {
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "september 15, 2026",
+        "pass_used": "oneshot",
+        "n_evidence_chars": 5872,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"september 15, 2026\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"september 15, 2026\",\n  \"evidence\": [\n    {\n      \"text\": \"'Business Combination' means the transactions contemplated by the Business Combination Agreement.\",\n      \"type\""
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-010319",
+    "event_id": "merger_0001829126-26-010319",
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "FortuneX Acquisition Corporation",
+        "pred": "WT Realty Group Inc.",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5949,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"WT Realty Group Inc.\"} | C:{\n  \"keep\": true\n}"
+      },
+      "target": {
+        "outcome": "mismatch",
+        "gold": "WT Realty Group Inc.",
+        "pred": "FortuneX Merger Sub Inc.",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4562,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": \"FortuneX Merger Sub Inc.\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'FortuneX Merger Sub Inc.' satisfies the definition of an entity being acquired (target) within the context provided. It is explicitly identified as a w"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-110971",
+    "event_id": "merger_0001104659-26-110971",
+    "fields": {
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "November 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3789,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"November 2026\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'November 2026' is explicitly stated as the desired closing month for the business combination transaction. The evidence confirms that NextCure wishes t"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-044341",
+    "event_id": "merger_0001493152-26-044341",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "10/16/2026 8:30 AM Eastern Time",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5023,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"October 16, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'October 16, 2026' is a valid date format and falls within the temporal span of '2025-01-01\\n2025-12-31'. However, it does not explicitly match any specif"
+      },
+      "ticker": {
+        "outcome": "mismatch",
+        "gold": "PULM",
+        "pred": "MTXL",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4114,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\"ticker\": \"MTXL\"} | C:{\n  \"keep\": true,\n  \"ticker_symbol\": \"MTXL\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-044341",
+    "event_id": "merger_0001493152-26-044341",
+    "fields": {
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Eos SENOLYTIX Inc.",
+        "pred": "Pulmatrix",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3386,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": \"Pulmatrix\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Pulmatrix' satisfies the definition of the target entity being acquired. Evidence shows that Pulmatrix received an offer and entered into a merger agre"
+      },
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "10/16/2026 8:30 AM Eastern Time",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5023,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"October 16, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'October 16, 2026' is a valid date format and appears in the evidence as the scheduled date for the Pulmatrix Special Meeting. However, it does not explic"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-044341",
+    "event_id": "merger_0001493152-26-044341",
+    "fields": {
+      "target": {
+        "outcome": "mismatch",
+        "gold": "Eos SENOLYTIX Inc.",
+        "pred": "Pulmatrix",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3386,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": \"Pulmatrix\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Pulmatrix' satisfies the definition of the target entity being acquired. Evidence shows Pulmatrix received an offer and entered into a merger agreement"
+      },
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "10/16/2026 8:30 AM Eastern Time",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5023,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"October 16, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'October 16, 2026' is a valid date format and appears in the evidence as the scheduled date for the Pulmatrix Special Meeting. However, it does not explic"
+      },
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 5023,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-044341",
+    "event_id": "merger_0001493152-26-044341",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "fn",
+        "gold": "6/16/2025",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5023,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"October 16, 2026\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'October 16, 2026' is a valid date format and appears in the provided text as the scheduled date for the Pulmatrix Special Meeting. However, it does not e"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-104691",
+    "event_id": "merger_0001213900-26-104691",
+    "fields": {
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "Class B ordinary shares",
+        "pred": "PubCo Ordinary Shares",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2562,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"PubCo Ordinary Shares\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'PubCo Ordinary Shares' is validated as a short class/type of affected securities. Evidence shows that the term refers to shares issued by Acquiror (reb"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-028104",
+    "event_id": "merger_0001193125-26-028104",
+    "fields": {
+      "effective_date": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3366,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"November 6, 2025\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'November 6, 2025' appears in a context related to the Master Transaction Agreement and restructuring events. However, it does not explicitly confirm bein"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "381013101",
+        "pred": "381013101",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'381013101' | C:{\n  \"keep\": true,\n  \"value\": \"381013101\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US3810131017",
+        "pred": "US3810131017",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US3810131017' | C:{\n  \"keep\": true,\n  \"value\": \"US3810131017\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001185185-26-000356",
+    "event_id": "merger_0001185185-26-000356",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "Fully diluted RYVYL common stock \u00d7 valuation ratio \u00f7 fully diluted RTB common stock, in RYVYL common shares per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"No stock consideration\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"'No stock consideration' is not a valid value for 'stock_exchange_ratio'. The definition requires shares of new security per share of old security with direction and cl"
+      }
+    }
+  },
+  {
+    "accession": "0001185185-26-000563",
+    "event_id": "merger_0001185185-26-000563",
+    "fields": {
+      "shareholder_vote_date": {
+        "outcome": "tp",
+        "gold": "3/18/2026 4:00 PM Eastern Time",
+        "pred": "march 18, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 8210,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"shareholder_vote_date\": \"march 18, 2026\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'march 18, 2026' matches a specific date cited in multiple temporal spans within the provided text. Notably, it is explicitly stated that the special me"
+      },
+      "effective_date": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "march 18, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 8210,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"effective_date\": \"march 18, 2026\"\n} | C:{\n  \"keep\": true,\n  \"evidence\": [\n    {\n      \"date\": \"2026\",\n      \"label\": \"DATE\",\n      \"field_cues\": 1,\n      \"window\": \"the ryvyl special meeting or any adjournment or postponement thereof.\\nryvy"
+      },
+      "ticker": {
+        "outcome": "fn",
+        "gold": "RVYL",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3166,
+        "n_rules": 1,
+        "raw_llm": "oneshot:{\"ticker\": \"RVYL\"} | C:{\"keep\": false}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-051584",
+    "event_id": "merger_0001193125-26-051584",
+    "fields": {
+      "target": {
+        "outcome": "fn",
+        "gold": "Golden Entertainment, Inc.",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5976,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"target\": \"Argento Holdco, LLC\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'Argento Holdco, LLC' is not an entity being acquired (target) but rather a managing member or intermediate holding company within the corporate structure"
+      },
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$2.75 per share",
+        "pred": "$2.75",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3124,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$2.75\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$2.75' matches the definition of 'cash per share/unit with currency when stated.' It appears in the context of a specific transaction where shares are "
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "381013101",
+        "pred": "381013101",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'381013101' | C:{\n  \"keep\": true,\n  \"value\": \"381013101\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US3810131017",
+        "pred": "US3810131017",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US3810131017' | C:{\n  \"keep\": true,\n  \"value\": \"US3810131017\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-052753",
+    "event_id": "merger_0001193125-26-052753",
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "GigCapital7 Corp.",
+        "pred": "GigCapital7",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5882,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"acquirer\": \"GigCapital7\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"GigCapital7\"\n}"
+      },
+      "security_description": {
+        "outcome": "tp",
+        "gold": "Common stock",
+        "pred": "Common Stock",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3169,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Common Stock\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Common Stock' is explicitly identified as the class/type of affected security in multiple contexts within the provided evidence. It appears alongside s"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-001676",
+    "event_id": "merger_0001829126-26-001676",
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "Einride AB",
+        "pred": "Einride AB",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 8173,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"acquirer\": \"Einride AB\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"Einride AB\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001829126-26-001674",
+    "event_id": "merger_0001829126-26-001674",
+    "fields": {
+      "election_deadline": {
+        "outcome": "skip",
+        "gold": null,
+        "pred": null,
+        "pass_used": "oneshot",
+        "n_evidence_chars": 4975,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": null\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-020981",
+    "event_id": "merger_0001104659-26-020981",
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "TL Topco PLC",
+        "pred": "TL Topco PLC",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4375,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"TL Topco PLC\"} | C:{\n  \"keep\": true,\n  \"confidence\": 0.95,\n  \"reasoning\": \"'TL Topco PLC' is identified as an entity acquiring another business in the context of a merger agreement dated February 27, 2026. The evidence "
+      },
+      "election_deadline": {
+        "outcome": "fp_no_gt",
+        "gold": null,
+        "pred": "february 27, 2026",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 5089,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"election_deadline\": \"february 27, 2026\"\n} | C:{\n  \"keep\": true,\n  \"reason\": \"The candidate 'february 27, 2026' is explicitly identified in multiple contexts within the provided text. It serves as the specific date for a business combination agree"
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-020981",
+    "event_id": "merger_0001104659-26-020981",
+    "fields": {
+      "acquirer": {
+        "outcome": "tp",
+        "gold": "TL Topco PLC",
+        "pred": "TL Topco PLC",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4375,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"acquirer\": \"TL Topco PLC\"} | C:{\n  \"keep\": true,\n  \"reasoning\": \"'TL Topco PLC' satisfies the definition of an entity acquiring the target. It is explicitly identified as one of the 'PubCo Parties,' which are described in the conte"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-096749",
+    "event_id": "merger_0001193125-26-096749",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "0.902 shares of VICI Properties Inc. common stock per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"0.902\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate '0.902' is a numeric value that appears to represent an exchange rate or ratio, but it lacks explicit textual context defining it as a 'stock_exchange_rat"
+      },
+      "cusip": {
+        "outcome": "tp",
+        "gold": "381013101",
+        "pred": "381013101",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 57,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'381013101' | C:{\n  \"keep\": true,\n  \"value\": \"381013101\"\n}"
+      },
+      "isin": {
+        "outcome": "tp",
+        "gold": "US3810131017",
+        "pred": "US3810131017",
+        "pass_used": "A_rules+C_keep",
+        "n_evidence_chars": 62,
+        "n_rules": 1,
+        "raw_llm": "A_rules:'US3810131017' | C:{\n  \"keep\": true,\n  \"value\": \"US3810131017\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-096620",
+    "event_id": "merger_0001193125-26-096620",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "tp",
+        "gold": "$2.75 per share",
+        "pred": "$2.75",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2542,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"cash_consideration\": \"$2.75\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate '$2.75' is explicitly identified as 'the amount equal to $2.75 per share to Golden\u2019s shareholders ... pursuant to the Distribution.' This matches the de"
+      },
+      "security_description": {
+        "outcome": "mismatch",
+        "gold": "common stock",
+        "pred": "Equity Interest",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 2227,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"security_description\": \"Equity Interest\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"'Equity Interest' is defined in the evidence as 'any share, capital stock, partnership, limited liability company, member or similar equity interest in any Person.' T"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-009657",
+    "event_id": "merger_0001493152-26-009657",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "1 share of Boost Run Inc. Class A Common Stock per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"No stock consideration\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"Candidate 'No stock consideration' does not satisfy the definition of a valid stock exchange ratio. It indicates no shares were issued in the transaction, which is inco"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-009657",
+    "event_id": "merger_0001493152-26-009657",
+    "fields": {
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "1 share of Boost Run Inc. Class A Common Stock per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"No stock consideration\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"Candidate 'No stock consideration' does not satisfy the definition of a valid stock exchange ratio. It indicates no shares were issued as part of an acquisition or rest"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-009657",
+    "event_id": "merger_0001493152-26-009657",
+    "fields": {
+      "acquirer": {
+        "outcome": "mismatch",
+        "gold": "Boost Run Inc.",
+        "pred": "Willow Lane",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 4533,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"acquirer\": \"Willow Lane\"\n} | C:{\n  \"keep\": true,\n  \"value\": \"Willow Lane\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-102359",
+    "event_id": "merger_0001193125-26-102359",
+    "fields": {
+      "cash_consideration": {
+        "outcome": "mismatch",
+        "gold": "$0.00001 per share",
+        "pred": "$5.80",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3793,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"cash_consideration\": \"$5.80\"} | C:{\n  \"keep\": true,\n  \"value\": \"$5.80\",\n  \"currency\": \"USD\"\n}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-102359",
+    "event_id": "merger_0001193125-26-102359",
+    "fields": {
+      "consideration_type": {
+        "outcome": "tp",
+        "gold": "Cash",
+        "pred": "Cash",
+        "pass_used": "oneshot+C_keep",
+        "n_evidence_chars": 3793,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"consideration_type\": \"Cash\"\n} | C:{\n  \"keep\": true,\n  \"reasoning\": \"The candidate 'Cash' satisfies the definition of `consideration_type` as it is one of the explicitly listed valid values: \\\"Cash\\\", \\\"Stock\\\", etc. The provided EVIDE"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-026268",
+    "event_id": "merger_0001213900-26-026268",
+    "fields": {
+      "target": {
+        "outcome": "fn",
+        "gold": "Controlled Thermal Resources Holdings Inc.",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 5012,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": \"Controlled Thermal Resources Holdings Inc.\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'Controlled Thermal Resources Holdings Inc.' is identified as one of the parties involved in a business combination, but it does not meet the specific def"
+      },
+      "stock_exchange_ratio": {
+        "outcome": "fn",
+        "gold": "Exchange Ratio shares of Domesticated Purchaser Common Stock per share",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 2350,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\n  \"stock_exchange_ratio\": \"No stock consideration\"\n} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'No stock consideration' does not satisfy the definition of `stock_exchange_ratio` which requires a specific ratio or formula specifying shares of new sec"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-028308",
+    "event_id": "merger_0001213900-26-028308",
+    "fields": {
+      "target": {
+        "outcome": "fn",
+        "gold": "Vine Hill Capital Investment Corp.",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3843,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": \"CoinShares\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'CoinShares' is not a valid entity being acquired in this context. The text describes CoinShares as an existing public company limited by shares organized"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-028308",
+    "event_id": "merger_0001213900-26-028308",
+    "fields": {
+      "target": {
+        "outcome": "fn",
+        "gold": "CoinShares International Limited",
+        "pred": null,
+        "pass_used": "oneshot+C_drop",
+        "n_evidence_chars": 3843,
+        "n_rules": 0,
+        "raw_llm": "oneshot:{\"target\": \"CoinShares\"} | C:{\n  \"keep\": false,\n  \"reason\": \"The candidate 'CoinShares' is not a valid entity being acquired in this context. The text describes CoinShares as an existing public company limited by shares organized"
+      }
+    }
+  }
+]

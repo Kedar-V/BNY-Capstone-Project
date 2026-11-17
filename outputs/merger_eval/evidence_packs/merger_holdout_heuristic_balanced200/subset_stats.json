@@ -1,0 +1,93 @@
+{
+  "target_cells": 200,
+  "n_cells": 200,
+  "n_unique_rows": 111,
+  "seed": 42,
+  "per_field": {
+    "acquirer": {
+      "quota": 17,
+      "picked": 17,
+      "with_gold": 17,
+      "pool_gold": 150,
+      "pool_total": 179
+    },
+    "target": {
+      "quota": 17,
+      "picked": 17,
+      "with_gold": 17,
+      "pool_gold": 155,
+      "pool_total": 179
+    },
+    "consideration_type": {
+      "quota": 17,
+      "picked": 17,
+      "with_gold": 17,
+      "pool_gold": 165,
+      "pool_total": 179
+    },
+    "cash_consideration": {
+      "quota": 17,
+      "picked": 17,
+      "with_gold": 17,
+      "pool_gold": 49,
+      "pool_total": 179
+    },
+    "stock_exchange_ratio": {
+      "quota": 17,
+      "picked": 17,
+      "with_gold": 17,
+      "pool_gold": 139,
+      "pool_total": 179
+    },
+    "shareholder_vote_date": {
+      "quota": 17,
+      "picked": 17,
+      "with_gold": 17,
+      "pool_gold": 49,
+      "pool_total": 179
+    },
+    "election_deadline": {
+      "quota": 17,
+      "picked": 17,
+      "with_gold": 4,
+      "pool_gold": 4,
+      "pool_total": 179
+    },
+    "effective_date": {
+      "quota": 17,
+      "picked": 17,
+      "with_gold": 1,
+      "pool_gold": 1,
+      "pool_total": 179
+    },
+    "security_description": {
+      "quota": 16,
+      "picked": 16,
+      "with_gold": 16,
+      "pool_gold": 164,
+      "pool_total": 179
+    },
+    "ticker": {
+      "quota": 16,
+      "picked": 16,
+      "with_gold": 16,
+      "pool_gold": 179,
+      "pool_total": 179
+    },
+    "cusip": {
+      "quota": 16,
+      "picked": 16,
+      "with_gold": 10,
+      "pool_gold": 10,
+      "pool_total": 179
+    },
+    "isin": {
+      "quota": 16,
+      "picked": 16,
+      "with_gold": 10,
+      "pool_gold": 10,
+      "pool_total": 179
+    }
+  },
+  "source_pack": "outputs/merger_eval/evidence_packs/merger_holdout_oracle_heuristic_hybrid"
+}

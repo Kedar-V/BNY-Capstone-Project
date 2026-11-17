@@ -1,0 +1,1165 @@
+{
+  "description": "Dev (event-disjoint from confirm+holdout) evidence recall of the tender pack, no LLM. before = pack at HEAD (12000/25 temporal scan, proration-only clause fields); after = tender retrieval config. Produced by scripts/eval_retrieval_recall.py --split dev --fields core (oneshot policies).",
+  "before": {
+    "pack": "tender",
+    "split": "dev",
+    "mode": "oneshot",
+    "n_accessions": 155,
+    "n_rows": 215,
+    "temporal_scan_chars": 12000,
+    "temporal_max_spans": 25,
+    "temporal_cache": {
+      "hits": 215,
+      "misses": 0
+    },
+    "fields": {
+      "subject_company": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0512,
+        "recall": 0.8651,
+        "recall_strict": 0.7721,
+        "recall_any_stage": 0.8651,
+        "recall_piece": 0.8651,
+        "recall_ext": 0.7953,
+        "recall_ext_any_stage": 0.7953,
+        "avg_evidence_chars": 824.9,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "bidder": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.9814,
+        "recall_strict": 0.9581,
+        "recall_any_stage": 0.9814,
+        "recall_piece": 0.9814,
+        "recall_ext": 0.9721,
+        "recall_ext_any_stage": 0.9721,
+        "avg_evidence_chars": 2529.7,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "security_description": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0605,
+        "recall": 0.8791,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.8791,
+        "recall_piece": 0.8791,
+        "recall_ext": 0.1488,
+        "recall_ext_any_stage": 0.1488,
+        "avg_evidence_chars": 995.9,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "cusip": {
+        "rows_with_gold": 115,
+        "evidence_empty_rate": 0.0261,
+        "recall": 0.9652,
+        "recall_strict": 0.9652,
+        "recall_any_stage": 0.9652,
+        "recall_piece": 0.9652,
+        "recall_ext": 0.9652,
+        "recall_ext_any_stage": 0.9652,
+        "avg_evidence_chars": 570.3,
+        "first_stage": {
+          "oneshot": 115
+        }
+      },
+      "isin": {
+        "rows_with_gold": 115,
+        "evidence_empty_rate": 0.0348,
+        "recall": 0.9652,
+        "recall_strict": 0.9652,
+        "recall_any_stage": 0.9652,
+        "recall_piece": 0.9652,
+        "recall_ext": 0.9652,
+        "recall_ext_any_stage": 0.9652,
+        "avg_evidence_chars": 211.1,
+        "first_stage": {
+          "oneshot": 115
+        }
+      },
+      "ticker": {
+        "rows_with_gold": 64,
+        "evidence_empty_rate": 0.125,
+        "recall": 0.7812,
+        "recall_strict": 0.1875,
+        "recall_any_stage": 0.7812,
+        "recall_piece": 0.7812,
+        "recall_ext": 0.1875,
+        "recall_ext_any_stage": 0.1875,
+        "avg_evidence_chars": 1038.3,
+        "first_stage": {
+          "oneshot": 64
+        }
+      },
+      "offer_price": {
+        "rows_with_gold": 198,
+        "evidence_empty_rate": 0.2828,
+        "recall": 0.4444,
+        "recall_strict": 0.0657,
+        "recall_any_stage": 0.4444,
+        "recall_piece": 0.4444,
+        "recall_ext": 0.1313,
+        "recall_ext_any_stage": 0.1313,
+        "avg_evidence_chars": 959.8,
+        "first_stage": {
+          "oneshot": 198
+        }
+      },
+      "currency": {
+        "rows_with_gold": 10,
+        "evidence_empty_rate": 0.1,
+        "recall": 0.9,
+        "recall_strict": 0.9,
+        "recall_any_stage": 0.9,
+        "recall_piece": 0.9,
+        "recall_ext": 0.9,
+        "recall_ext_any_stage": 0.9,
+        "avg_evidence_chars": 3678.4,
+        "first_stage": {
+          "oneshot": 10
+        }
+      },
+      "expiration_date": {
+        "rows_with_gold": 201,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.3731,
+        "recall_strict": 0.3731,
+        "recall_any_stage": 0.3731,
+        "recall_piece": 0.3731,
+        "recall_ext": 0.3731,
+        "recall_ext_any_stage": 0.3731,
+        "avg_evidence_chars": 5829.2,
+        "first_stage": {
+          "oneshot": 201
+        }
+      },
+      "withdrawal_deadline": {
+        "rows_with_gold": 102,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.4706,
+        "recall_strict": 0.4706,
+        "recall_any_stage": 0.4706,
+        "recall_piece": 0.4706,
+        "recall_ext": 0.4706,
+        "recall_ext_any_stage": 0.4706,
+        "avg_evidence_chars": 4969.6,
+        "first_stage": {
+          "oneshot": 102
+        }
+      },
+      "settlement_date": {
+        "rows_with_gold": 148,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.3446,
+        "recall_strict": 0.1149,
+        "recall_any_stage": 0.3446,
+        "recall_piece": 0.3446,
+        "recall_ext": 0.1554,
+        "recall_ext_any_stage": 0.1554,
+        "avg_evidence_chars": 5040.1,
+        "first_stage": {
+          "oneshot": 148
+        }
+      },
+      "effective_date": {
+        "rows_with_gold": 3,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.0,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.0,
+        "recall_piece": 0.0,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 3010.3,
+        "first_stage": {
+          "oneshot": 3
+        }
+      },
+      "minimum_tender_condition": {
+        "rows_with_gold": 62,
+        "evidence_empty_rate": 0.8387,
+        "recall": 0.0323,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.0323,
+        "recall_piece": 0.0323,
+        "recall_ext": 0.0645,
+        "recall_ext_any_stage": 0.0645,
+        "avg_evidence_chars": 205.4,
+        "first_stage": {
+          "oneshot": 62
+        }
+      },
+      "proration_terms": {
+        "rows_with_gold": 73,
+        "evidence_empty_rate": 0.4247,
+        "recall": 0.3151,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.3151,
+        "recall_piece": 0.411,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 548.9,
+        "first_stage": {
+          "clause": 73
+        }
+      }
+    }
+  },
+  "after": {
+    "pack": "tender",
+    "split": "dev",
+    "mode": "oneshot",
+    "n_accessions": 155,
+    "n_rows": 215,
+    "temporal_scan_chars": 24000,
+    "temporal_max_spans": 40,
+    "temporal_cache": {
+      "hits": 215,
+      "misses": 0
+    },
+    "fields": {
+      "subject_company": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0512,
+        "recall": 0.8651,
+        "recall_strict": 0.7721,
+        "recall_any_stage": 0.8651,
+        "recall_piece": 0.8651,
+        "recall_ext": 0.7953,
+        "recall_ext_any_stage": 0.7953,
+        "avg_evidence_chars": 824.9,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "bidder": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.9814,
+        "recall_strict": 0.9581,
+        "recall_any_stage": 0.9814,
+        "recall_piece": 0.9814,
+        "recall_ext": 0.9721,
+        "recall_ext_any_stage": 0.9721,
+        "avg_evidence_chars": 2529.7,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "security_description": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.293,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.907,
+        "recall_piece": 0.8605,
+        "recall_ext": 0.5023,
+        "recall_ext_any_stage": 0.5023,
+        "avg_evidence_chars": 388.1,
+        "first_stage": {
+          "clause": 213,
+          "oneshot": 2
+        }
+      },
+      "cusip": {
+        "rows_with_gold": 115,
+        "evidence_empty_rate": 0.0261,
+        "recall": 0.9652,
+        "recall_strict": 0.9652,
+        "recall_any_stage": 0.9652,
+        "recall_piece": 0.9652,
+        "recall_ext": 0.9652,
+        "recall_ext_any_stage": 0.9652,
+        "avg_evidence_chars": 570.3,
+        "first_stage": {
+          "oneshot": 115
+        }
+      },
+      "isin": {
+        "rows_with_gold": 115,
+        "evidence_empty_rate": 0.0348,
+        "recall": 0.9652,
+        "recall_strict": 0.9652,
+        "recall_any_stage": 0.9652,
+        "recall_piece": 0.9652,
+        "recall_ext": 0.9652,
+        "recall_ext_any_stage": 0.9652,
+        "avg_evidence_chars": 211.1,
+        "first_stage": {
+          "oneshot": 115
+        }
+      },
+      "ticker": {
+        "rows_with_gold": 64,
+        "evidence_empty_rate": 0.125,
+        "recall": 0.7812,
+        "recall_strict": 0.1875,
+        "recall_any_stage": 0.7812,
+        "recall_piece": 0.7812,
+        "recall_ext": 0.1875,
+        "recall_ext_any_stage": 0.1875,
+        "avg_evidence_chars": 1038.3,
+        "first_stage": {
+          "oneshot": 64
+        }
+      },
+      "offer_price": {
+        "rows_with_gold": 198,
+        "evidence_empty_rate": 0.2828,
+        "recall": 0.4444,
+        "recall_strict": 0.0657,
+        "recall_any_stage": 0.4444,
+        "recall_piece": 0.4444,
+        "recall_ext": 0.1313,
+        "recall_ext_any_stage": 0.1313,
+        "avg_evidence_chars": 959.8,
+        "first_stage": {
+          "oneshot": 198
+        }
+      },
+      "currency": {
+        "rows_with_gold": 10,
+        "evidence_empty_rate": 0.1,
+        "recall": 0.9,
+        "recall_strict": 0.9,
+        "recall_any_stage": 0.9,
+        "recall_piece": 0.9,
+        "recall_ext": 0.9,
+        "recall_ext_any_stage": 0.9,
+        "avg_evidence_chars": 3678.4,
+        "first_stage": {
+          "oneshot": 10
+        }
+      },
+      "expiration_date": {
+        "rows_with_gold": 201,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.4577,
+        "recall_strict": 0.4577,
+        "recall_any_stage": 0.4577,
+        "recall_piece": 0.4577,
+        "recall_ext": 0.4577,
+        "recall_ext_any_stage": 0.4577,
+        "avg_evidence_chars": 8671.1,
+        "first_stage": {
+          "oneshot": 201
+        }
+      },
+      "withdrawal_deadline": {
+        "rows_with_gold": 102,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.5784,
+        "recall_strict": 0.5784,
+        "recall_any_stage": 0.5784,
+        "recall_piece": 0.5784,
+        "recall_ext": 0.5784,
+        "recall_ext_any_stage": 0.5784,
+        "avg_evidence_chars": 8517.9,
+        "first_stage": {
+          "oneshot": 102
+        }
+      },
+      "settlement_date": {
+        "rows_with_gold": 148,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.3919,
+        "recall_strict": 0.1486,
+        "recall_any_stage": 0.3919,
+        "recall_piece": 0.3919,
+        "recall_ext": 0.1892,
+        "recall_ext_any_stage": 0.1892,
+        "avg_evidence_chars": 7987.0,
+        "first_stage": {
+          "oneshot": 148
+        }
+      },
+      "effective_date": {
+        "rows_with_gold": 3,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.0,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.0,
+        "recall_piece": 0.0,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 5329.0,
+        "first_stage": {
+          "oneshot": 3
+        }
+      },
+      "minimum_tender_condition": {
+        "rows_with_gold": 62,
+        "evidence_empty_rate": 0.4839,
+        "recall": 0.0,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.0323,
+        "recall_piece": 0.0323,
+        "recall_ext": 0.4032,
+        "recall_ext_any_stage": 0.4032,
+        "avg_evidence_chars": 375.3,
+        "first_stage": {
+          "clause": 31,
+          "oneshot": 31
+        }
+      },
+      "proration_terms": {
+        "rows_with_gold": 73,
+        "evidence_empty_rate": 0.4247,
+        "recall": 0.3151,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.3151,
+        "recall_piece": 0.411,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 548.9,
+        "first_stage": {
+          "clause": 73
+        }
+      }
+    }
+  },
+  "pattern_counts": {
+    "proration_terms": [
+      {
+        "pattern_index": 0,
+        "distinct_filings": 61,
+        "distinct_events": 27,
+        "pattern": "(?is)((?:if\\s+more\\s+than|if\\s+shares?\\s+in\\s+excess\\s+of|if\\s+shares?\\s+exceeding).{80,650})"
+      },
+      {
+        "pattern_index": 1,
+        "distinct_filings": 89,
+        "distinct_events": 36,
+        "pattern": "(?is)((?:pro[\\s\\-]*rata|proration|oversubscription).{40,500})"
+      }
+    ],
+    "minimum_tender_condition": [
+      {
+        "pattern_index": 0,
+        "distinct_filings": 59,
+        "distinct_events": 26,
+        "pattern": "(?is)(.{0,150}(?:\\bnot\\s+(?:be\\s+)?(?:conditioned|subject|contingent)\\s+(?:up)?on\\s+.{0,80}?|\\bno\\s+)minimum\\s+(?:number|amount|percentage|aggregate\\s+amount)\\s+of\\s+.{0,200})"
+      },
+      {
+        "pattern_index": 1,
+        "distinct_filings": 13,
+        "distinct_events": 2,
+        "pattern": "(?is)(.{0,200}\\bminimum\\s+(?:tender\\s+)?condition\\b.{0,300})"
+      }
+    ],
+    "security_description": [
+      {
+        "pattern_index": 0,
+        "distinct_filings": 153,
+        "distinct_events": 65,
+        "pattern": "(?is)(.{0,300}\\(\\s*title\\s+of\\s+class(?:es)?\\s+of\\s+securities\\s*\\))"
+      },
+      {
+        "pattern_index": 1,
+        "distinct_filings": 24,
+        "distinct_events": 12,
+        "pattern": "(?is)((?:offer(?:s|ing)?\\s+to\\s+(?:purchase|repurchase|exchange|acquire)|tender\\s+offer\\s+for)\\b.{0,300}?\\(\\s*(?:each,?\\s+an?\\s+|collectively,?\\s+)?(?:the\\s+)?[\\\"\u201c](?:shares?|units?|notes|securities|interests?|common\\s+stock|warrants)[\\\"\u201d]\\s*\\))"
+      }
+    ]
+  },
+  "temporal_sweep_dev": {
+    "note": "oneshot first-stage recall per scan_chars/max_spans (n, recall, avg evidence chars)",
+    "results": {
+      "12000/25": {
+        "expiration_date": [
+          201,
+          0.3731,
+          5829
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.4706,
+          4970
+        ],
+        "settlement_date": [
+          148,
+          0.3446,
+          5040
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          3010
+        ]
+      },
+      "12000/40": {
+        "expiration_date": [
+          201,
+          0.3731,
+          6058
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.4706,
+          5162
+        ],
+        "settlement_date": [
+          148,
+          0.3446,
+          5275
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          3010
+        ]
+      },
+      "12000/60": {
+        "expiration_date": [
+          201,
+          0.3731,
+          6058
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.4706,
+          5162
+        ],
+        "settlement_date": [
+          148,
+          0.3446,
+          5275
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          3010
+        ]
+      },
+      "12000/100": {
+        "expiration_date": [
+          201,
+          0.3731,
+          6058
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.4706,
+          5162
+        ],
+        "settlement_date": [
+          148,
+          0.3446,
+          5275
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          3010
+        ]
+      },
+      "18000/25": {
+        "expiration_date": [
+          201,
+          0.4129,
+          6720
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.4902,
+          6072
+        ],
+        "settlement_date": [
+          148,
+          0.3649,
+          5930
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          3845
+        ]
+      },
+      "18000/40": {
+        "expiration_date": [
+          201,
+          0.4478,
+          7803
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.5588,
+          7236
+        ],
+        "settlement_date": [
+          148,
+          0.3851,
+          7152
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          3845
+        ]
+      },
+      "18000/60": {
+        "expiration_date": [
+          201,
+          0.4478,
+          7838
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.5588,
+          7273
+        ],
+        "settlement_date": [
+          148,
+          0.3851,
+          7200
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          3845
+        ]
+      },
+      "18000/100": {
+        "expiration_date": [
+          201,
+          0.4478,
+          7838
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.5588,
+          7273
+        ],
+        "settlement_date": [
+          148,
+          0.3851,
+          7200
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          3845
+        ]
+      },
+      "24000/25": {
+        "expiration_date": [
+          201,
+          0.4179,
+          6868
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.5,
+          6187
+        ],
+        "settlement_date": [
+          148,
+          0.3649,
+          6022
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          5329
+        ]
+      },
+      "24000/40": {
+        "expiration_date": [
+          201,
+          0.4577,
+          8671
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.5784,
+          8518
+        ],
+        "settlement_date": [
+          148,
+          0.3919,
+          7987
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          5329
+        ]
+      },
+      "24000/60": {
+        "expiration_date": [
+          201,
+          0.4577,
+          9208
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.5784,
+          9123
+        ],
+        "settlement_date": [
+          148,
+          0.3986,
+          8614
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          5329
+        ]
+      },
+      "24000/100": {
+        "expiration_date": [
+          201,
+          0.4577,
+          9208
+        ],
+        "withdrawal_deadline": [
+          102,
+          0.5784,
+          9123
+        ],
+        "settlement_date": [
+          148,
+          0.3986,
+          8614
+        ],
+        "effective_date": [
+          3,
+          0.0,
+          5329
+        ]
+      }
+    }
+  },
+  "before_current_gt_loader": {
+    "pack": "tender",
+    "split": "dev",
+    "mode": "oneshot",
+    "n_accessions": 155,
+    "n_rows": 215,
+    "temporal_scan_chars": 12000,
+    "temporal_max_spans": 25,
+    "temporal_cache": {
+      "hits": 215,
+      "misses": 0
+    },
+    "fields": {
+      "subject_company": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0512,
+        "recall": 0.8651,
+        "recall_strict": 0.7721,
+        "recall_any_stage": 0.8651,
+        "recall_piece": 0.8651,
+        "recall_ext": 0.7953,
+        "recall_ext_any_stage": 0.7953,
+        "avg_evidence_chars": 824.9,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "bidder": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.9814,
+        "recall_strict": 0.9581,
+        "recall_any_stage": 0.9814,
+        "recall_piece": 0.9814,
+        "recall_ext": 0.9721,
+        "recall_ext_any_stage": 0.9721,
+        "avg_evidence_chars": 2529.7,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "security_description": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0605,
+        "recall": 0.8791,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.8791,
+        "recall_piece": 0.8791,
+        "recall_ext": 0.1488,
+        "recall_ext_any_stage": 0.1488,
+        "avg_evidence_chars": 995.9,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "cusip": {
+        "rows_with_gold": 115,
+        "evidence_empty_rate": 0.0261,
+        "recall": 0.9652,
+        "recall_strict": 0.9652,
+        "recall_any_stage": 0.9652,
+        "recall_piece": 0.9652,
+        "recall_ext": 0.9652,
+        "recall_ext_any_stage": 0.9652,
+        "avg_evidence_chars": 570.3,
+        "first_stage": {
+          "oneshot": 115
+        }
+      },
+      "isin": {
+        "rows_with_gold": 115,
+        "evidence_empty_rate": 0.0348,
+        "recall": 0.9652,
+        "recall_strict": 0.9652,
+        "recall_any_stage": 0.9652,
+        "recall_piece": 0.9652,
+        "recall_ext": 0.9652,
+        "recall_ext_any_stage": 0.9652,
+        "avg_evidence_chars": 211.1,
+        "first_stage": {
+          "oneshot": 115
+        }
+      },
+      "ticker": {
+        "rows_with_gold": 64,
+        "evidence_empty_rate": 0.125,
+        "recall": 0.7812,
+        "recall_strict": 0.1875,
+        "recall_any_stage": 0.7812,
+        "recall_piece": 0.7812,
+        "recall_ext": 0.1875,
+        "recall_ext_any_stage": 0.1875,
+        "avg_evidence_chars": 1038.3,
+        "first_stage": {
+          "oneshot": 64
+        }
+      },
+      "offer_price": {
+        "rows_with_gold": 198,
+        "evidence_empty_rate": 0.2828,
+        "recall": 0.4444,
+        "recall_strict": 0.0657,
+        "recall_any_stage": 0.4444,
+        "recall_piece": 0.4444,
+        "recall_ext": 0.1313,
+        "recall_ext_any_stage": 0.1313,
+        "avg_evidence_chars": 959.8,
+        "first_stage": {
+          "oneshot": 198
+        }
+      },
+      "currency": {
+        "rows_with_gold": 97,
+        "evidence_empty_rate": 0.1031,
+        "recall": 0.732,
+        "recall_strict": 0.732,
+        "recall_any_stage": 0.732,
+        "recall_piece": 0.732,
+        "recall_ext": 0.732,
+        "recall_ext_any_stage": 0.732,
+        "avg_evidence_chars": 1593.5,
+        "first_stage": {
+          "oneshot": 97
+        }
+      },
+      "expiration_date": {
+        "rows_with_gold": 201,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.3731,
+        "recall_strict": 0.3731,
+        "recall_any_stage": 0.3731,
+        "recall_piece": 0.3731,
+        "recall_ext": 0.3731,
+        "recall_ext_any_stage": 0.3731,
+        "avg_evidence_chars": 5829.2,
+        "first_stage": {
+          "oneshot": 201
+        }
+      },
+      "withdrawal_deadline": {
+        "rows_with_gold": 102,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.4706,
+        "recall_strict": 0.4706,
+        "recall_any_stage": 0.4706,
+        "recall_piece": 0.4706,
+        "recall_ext": 0.4706,
+        "recall_ext_any_stage": 0.4706,
+        "avg_evidence_chars": 4969.6,
+        "first_stage": {
+          "oneshot": 102
+        }
+      },
+      "settlement_date": {
+        "rows_with_gold": 148,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.3446,
+        "recall_strict": 0.1149,
+        "recall_any_stage": 0.3446,
+        "recall_piece": 0.3446,
+        "recall_ext": 0.1554,
+        "recall_ext_any_stage": 0.1554,
+        "avg_evidence_chars": 5040.1,
+        "first_stage": {
+          "oneshot": 148
+        }
+      },
+      "effective_date": {
+        "rows_with_gold": 3,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.0,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.0,
+        "recall_piece": 0.0,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 3010.3,
+        "first_stage": {
+          "oneshot": 3
+        }
+      },
+      "minimum_tender_condition": {
+        "rows_with_gold": 62,
+        "evidence_empty_rate": 0.8387,
+        "recall": 0.0323,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.0323,
+        "recall_piece": 0.0323,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 205.4,
+        "first_stage": {
+          "oneshot": 62
+        }
+      },
+      "proration_terms": {
+        "rows_with_gold": 73,
+        "evidence_empty_rate": 0.4247,
+        "recall": 0.3151,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.3151,
+        "recall_piece": 0.411,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 548.9,
+        "first_stage": {
+          "clause": 73
+        }
+      }
+    }
+  },
+  "after_current_gt_loader": {
+    "pack": "tender",
+    "split": "dev",
+    "mode": "oneshot",
+    "n_accessions": 155,
+    "n_rows": 215,
+    "temporal_scan_chars": 24000,
+    "temporal_max_spans": 40,
+    "temporal_cache": {
+      "hits": 215,
+      "misses": 0
+    },
+    "fields": {
+      "subject_company": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0512,
+        "recall": 0.8651,
+        "recall_strict": 0.7721,
+        "recall_any_stage": 0.8651,
+        "recall_piece": 0.8651,
+        "recall_ext": 0.7953,
+        "recall_ext_any_stage": 0.7953,
+        "avg_evidence_chars": 824.9,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "bidder": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.9814,
+        "recall_strict": 0.9581,
+        "recall_any_stage": 0.9814,
+        "recall_piece": 0.9814,
+        "recall_ext": 0.9721,
+        "recall_ext_any_stage": 0.9721,
+        "avg_evidence_chars": 2529.7,
+        "first_stage": {
+          "oneshot": 215
+        }
+      },
+      "security_description": {
+        "rows_with_gold": 215,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.293,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.907,
+        "recall_piece": 0.8605,
+        "recall_ext": 0.5023,
+        "recall_ext_any_stage": 0.5023,
+        "avg_evidence_chars": 388.1,
+        "first_stage": {
+          "clause": 213,
+          "oneshot": 2
+        }
+      },
+      "cusip": {
+        "rows_with_gold": 115,
+        "evidence_empty_rate": 0.0261,
+        "recall": 0.9652,
+        "recall_strict": 0.9652,
+        "recall_any_stage": 0.9652,
+        "recall_piece": 0.9652,
+        "recall_ext": 0.9652,
+        "recall_ext_any_stage": 0.9652,
+        "avg_evidence_chars": 570.3,
+        "first_stage": {
+          "oneshot": 115
+        }
+      },
+      "isin": {
+        "rows_with_gold": 115,
+        "evidence_empty_rate": 0.0348,
+        "recall": 0.9652,
+        "recall_strict": 0.9652,
+        "recall_any_stage": 0.9652,
+        "recall_piece": 0.9652,
+        "recall_ext": 0.9652,
+        "recall_ext_any_stage": 0.9652,
+        "avg_evidence_chars": 211.1,
+        "first_stage": {
+          "oneshot": 115
+        }
+      },
+      "ticker": {
+        "rows_with_gold": 64,
+        "evidence_empty_rate": 0.125,
+        "recall": 0.7812,
+        "recall_strict": 0.1875,
+        "recall_any_stage": 0.7812,
+        "recall_piece": 0.7812,
+        "recall_ext": 0.1875,
+        "recall_ext_any_stage": 0.1875,
+        "avg_evidence_chars": 1038.3,
+        "first_stage": {
+          "oneshot": 64
+        }
+      },
+      "offer_price": {
+        "rows_with_gold": 198,
+        "evidence_empty_rate": 0.2828,
+        "recall": 0.4444,
+        "recall_strict": 0.0657,
+        "recall_any_stage": 0.4444,
+        "recall_piece": 0.4444,
+        "recall_ext": 0.1313,
+        "recall_ext_any_stage": 0.1313,
+        "avg_evidence_chars": 959.8,
+        "first_stage": {
+          "oneshot": 198
+        }
+      },
+      "currency": {
+        "rows_with_gold": 97,
+        "evidence_empty_rate": 0.1031,
+        "recall": 0.732,
+        "recall_strict": 0.732,
+        "recall_any_stage": 0.732,
+        "recall_piece": 0.732,
+        "recall_ext": 0.732,
+        "recall_ext_any_stage": 0.732,
+        "avg_evidence_chars": 1593.5,
+        "first_stage": {
+          "oneshot": 97
+        }
+      },
+      "expiration_date": {
+        "rows_with_gold": 201,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.4577,
+        "recall_strict": 0.4577,
+        "recall_any_stage": 0.4577,
+        "recall_piece": 0.4577,
+        "recall_ext": 0.4577,
+        "recall_ext_any_stage": 0.4577,
+        "avg_evidence_chars": 8671.1,
+        "first_stage": {
+          "oneshot": 201
+        }
+      },
+      "withdrawal_deadline": {
+        "rows_with_gold": 102,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.5784,
+        "recall_strict": 0.5784,
+        "recall_any_stage": 0.5784,
+        "recall_piece": 0.5784,
+        "recall_ext": 0.5784,
+        "recall_ext_any_stage": 0.5784,
+        "avg_evidence_chars": 8517.9,
+        "first_stage": {
+          "oneshot": 102
+        }
+      },
+      "settlement_date": {
+        "rows_with_gold": 148,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.3919,
+        "recall_strict": 0.1486,
+        "recall_any_stage": 0.3919,
+        "recall_piece": 0.3919,
+        "recall_ext": 0.1892,
+        "recall_ext_any_stage": 0.1892,
+        "avg_evidence_chars": 7987.0,
+        "first_stage": {
+          "oneshot": 148
+        }
+      },
+      "effective_date": {
+        "rows_with_gold": 3,
+        "evidence_empty_rate": 0.0,
+        "recall": 0.0,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.0,
+        "recall_piece": 0.0,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 5329.0,
+        "first_stage": {
+          "oneshot": 3
+        }
+      },
+      "minimum_tender_condition": {
+        "rows_with_gold": 62,
+        "evidence_empty_rate": 0.4839,
+        "recall": 0.0,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.0323,
+        "recall_piece": 0.0323,
+        "recall_ext": 0.3871,
+        "recall_ext_any_stage": 0.3871,
+        "avg_evidence_chars": 375.3,
+        "first_stage": {
+          "clause": 31,
+          "oneshot": 31
+        }
+      },
+      "proration_terms": {
+        "rows_with_gold": 73,
+        "evidence_empty_rate": 0.4247,
+        "recall": 0.3151,
+        "recall_strict": 0.0,
+        "recall_any_stage": 0.3151,
+        "recall_piece": 0.411,
+        "recall_ext": 0.0,
+        "recall_ext_any_stage": 0.0,
+        "avg_evidence_chars": 548.9,
+        "first_stage": {
+          "clause": 73
+        }
+      }
+    }
+  },
+  "note_gt_loader": "before/after were measured with src/evaluation/tender.py at HEAD. A concurrent, unrelated edit (working tree, 21:56) made load_gt back-fill gold currency from passages and made normalize() treat 'No minimum tender condition' as blank; *_current_gt_loader repeat both measurements under that loader (recall reachability guarded against an empty normalized gold). The sealed *_after passes ran under the new loader."
+}

@@ -33,6 +33,27 @@ def make_retrieve(pack: ActionPack, provider: EvidenceProvider):
         upd: dict[str, Any] = {"bundle": bundle}
         if state.pred is None:
             upd["evidence_final"] = "" if bundle.empty and stage.on_empty == "null" else bundle.text
+        # Direct rules hits (e.g. Settlement template) before empty-skip: frozen packs may
+        # recover Payment: promptly from later-stage text while the rules stage itself is empty.
+        if stage.direct_from_rules:
+            values = _direct_values(pack, provider, state)
+            if values and stage.accept is not None and not stage.accept(
+                values[0], bundle.text or ""
+            ):
+                values = []  # precision gate rejected the direct value: fall through
+            if values:
+                pred = pack.normalize(field, values[0])
+                upd.update(
+                    pred=pred,
+                    pred_normalized=True,
+                    pred_stage=state.stage_idx,
+                    pred_prompt=None,
+                    evidence_final=bundle.text or values[0],
+                    pass_used=stage.direct_label,
+                    raw_log=[*state.raw_log, f"{stage.direct_label}:{pred!r}"],
+                    next="advance",
+                )
+                return upd
         if bundle.empty:
             if stage.on_empty == "null":
                 # Ends the whole policy, even when later stages remain
@@ -45,20 +66,6 @@ def make_retrieve(pack: ActionPack, provider: EvidenceProvider):
                 return upd
             # "ask": the LLM still gets the (empty) evidence pack
         upd["next"] = "prompt"
-        if stage.direct_from_rules and not bundle.empty:
-            values = _direct_values(pack, provider, state)
-            if values:
-                pred = pack.normalize(field, values[0])
-                upd.update(
-                    pred=pred,
-                    pred_normalized=True,
-                    pred_stage=state.stage_idx,
-                    pred_prompt=None,
-                    evidence_final=bundle.text,
-                    pass_used=stage.direct_label,
-                    raw_log=[*state.raw_log, f"{stage.direct_label}:{pred!r}"],
-                    next="advance",
-                )
         return upd
 
     return retrieve

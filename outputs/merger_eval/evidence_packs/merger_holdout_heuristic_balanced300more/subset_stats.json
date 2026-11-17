@@ -1,0 +1,93 @@
+{
+  "target_cells": 300,
+  "n_cells": 300,
+  "n_unique_rows": 160,
+  "seed": 43,
+  "per_field": {
+    "acquirer": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 25,
+      "pool_left_gold": 133,
+      "pool_left_total": 162
+    },
+    "target": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 25,
+      "pool_left_gold": 138,
+      "pool_left_total": 162
+    },
+    "consideration_type": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 25,
+      "pool_left_gold": 148,
+      "pool_left_total": 162
+    },
+    "cash_consideration": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 25,
+      "pool_left_gold": 32,
+      "pool_left_total": 162
+    },
+    "stock_exchange_ratio": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 25,
+      "pool_left_gold": 122,
+      "pool_left_total": 162
+    },
+    "shareholder_vote_date": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 25,
+      "pool_left_gold": 32,
+      "pool_left_total": 162
+    },
+    "election_deadline": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 0,
+      "pool_left_gold": 0,
+      "pool_left_total": 162
+    },
+    "effective_date": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 0,
+      "pool_left_gold": 0,
+      "pool_left_total": 162
+    },
+    "security_description": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 25,
+      "pool_left_gold": 148,
+      "pool_left_total": 163
+    },
+    "ticker": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 25,
+      "pool_left_gold": 163,
+      "pool_left_total": 163
+    },
+    "cusip": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 0,
+      "pool_left_gold": 0,
+      "pool_left_total": 163
+    },
+    "isin": {
+      "quota": 25,
+      "picked": 25,
+      "with_gold": 0,
+      "pool_left_gold": 0,
+      "pool_left_total": 163
+    }
+  },
+  "excluded_cells": 200
+}

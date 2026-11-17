@@ -1,0 +1,603 @@
+{
+  "router": "laya",
+  "router_mode": "laya",
+  "noul_threshold": 0.5,
+  "routing_hash": "3676540c1775b498",
+  "fields": {
+    "subject_company": {
+      "field": "subject_company",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='rules_then_span' conf=0.019)",
+      "raw": {
+        "shape": "rules_then_span",
+        "shape_confidence": 0.019,
+        "legs_noul": {
+          "rules": 0.3672,
+          "gliner": 0.5978,
+          "temporal": 0.2042,
+          "hybrid": 0.7852,
+          "clause": 0.3016
+        },
+        "oracle_system": "Qwen direct",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "bidder": {
+      "field": "bidder",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='clause_then_pick' conf=0.021)",
+      "raw": {
+        "shape": "clause_then_pick",
+        "shape_confidence": 0.0209,
+        "legs_noul": {
+          "rules": 0.657,
+          "gliner": 0.6306,
+          "temporal": 0.2829,
+          "hybrid": 0.8278,
+          "clause": 0.2517
+        },
+        "oracle_system": "Qwen direct",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "security_description": {
+      "field": "security_description",
+      "shape": "clause_then_pick",
+      "legs": [
+        "clause",
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='clause_only' conf=0.024); dropped temporal (not date-like)",
+      "raw": {
+        "shape": "clause_only",
+        "shape_confidence": 0.0238,
+        "legs_noul": {
+          "rules": 0.6756,
+          "gliner": 0.6392,
+          "temporal": 0.5166,
+          "hybrid": 0.7871,
+          "clause": 0.5629
+        },
+        "oracle_system": "Qwen direct",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "cusip": {
+      "field": "cusip",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='clause_only' conf=0.043); dropped clause (not in clause_fields)",
+      "raw": {
+        "shape": "clause_only",
+        "shape_confidence": 0.0426,
+        "legs_noul": {
+          "rules": 0.9488,
+          "gliner": 0.8753,
+          "temporal": 0.46,
+          "hybrid": 0.8734,
+          "clause": 0.7703
+        },
+        "oracle_system": "Rules",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "isin": {
+      "field": "isin",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='clause_only' conf=0.043); dropped temporal (not date-like); dropped clause (not in clause_fields)",
+      "raw": {
+        "shape": "clause_only",
+        "shape_confidence": 0.0427,
+        "legs_noul": {
+          "rules": 0.9579,
+          "gliner": 0.9133,
+          "temporal": 0.8305,
+          "hybrid": 0.8911,
+          "clause": 0.8655
+        },
+        "oracle_system": "Rules",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "ticker": {
+      "field": "ticker",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='clause_then_pick' conf=0.034); dropped clause (not in clause_fields)",
+      "raw": {
+        "shape": "clause_then_pick",
+        "shape_confidence": 0.0336,
+        "legs_noul": {
+          "rules": 0.8422,
+          "gliner": 0.8217,
+          "temporal": 0.3811,
+          "hybrid": 0.8425,
+          "clause": 0.6355
+        },
+        "oracle_system": "Rules",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "offer_price": {
+      "field": "offer_price",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "rules"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='clause_only' conf=0.032); dropped clause (not in clause_fields)",
+      "raw": {
+        "shape": "clause_only",
+        "shape_confidence": 0.0322,
+        "legs_noul": {
+          "rules": 0.8277,
+          "gliner": 0.7694,
+          "temporal": 0.2969,
+          "hybrid": 0.1984,
+          "clause": 0.5203
+        },
+        "oracle_system": "Qwen direct",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "currency": {
+      "field": "currency",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='rules_then_span' conf=0.028); dropped clause (not in clause_fields)",
+      "raw": {
+        "shape": "rules_then_span",
+        "shape_confidence": 0.0282,
+        "legs_noul": {
+          "rules": 0.6217,
+          "gliner": 0.624,
+          "temporal": 0.3329,
+          "hybrid": 0.8756,
+          "clause": 0.5609
+        },
+        "oracle_system": "Currency hybrid",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "expiration_date": {
+      "field": "expiration_date",
+      "shape": "oneshot",
+      "legs": [
+        "hybrid",
+        "temporal"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='rules_then_span' conf=0.018)",
+      "raw": {
+        "shape": "rules_then_span",
+        "shape_confidence": 0.0179,
+        "legs_noul": {
+          "rules": 0.3144,
+          "gliner": 0.4972,
+          "temporal": 0.7038,
+          "hybrid": 0.7651,
+          "clause": 0.1397
+        },
+        "oracle_system": "Temporal NER",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "withdrawal_deadline": {
+      "field": "withdrawal_deadline",
+      "shape": "oneshot",
+      "legs": [
+        "gliner",
+        "temporal"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='rules_then_span' conf=0.023); dropped clause (not in clause_fields)",
+      "raw": {
+        "shape": "rules_then_span",
+        "shape_confidence": 0.0232,
+        "legs_noul": {
+          "rules": 0.373,
+          "gliner": 0.654,
+          "temporal": 0.767,
+          "hybrid": 0.0958,
+          "clause": 0.5571
+        },
+        "oracle_system": "Temporal NER",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "settlement_date": {
+      "field": "settlement_date",
+      "shape": "rules_then_span",
+      "legs": [
+        "gliner"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='rules_then_span' conf=0.029)",
+      "raw": {
+        "shape": "rules_then_span",
+        "shape_confidence": 0.0293,
+        "legs_noul": {
+          "rules": 0.17,
+          "gliner": 0.5296,
+          "temporal": 0.223,
+          "hybrid": 0.1763,
+          "clause": 0.2759
+        },
+        "oracle_system": "Settlement template",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "effective_date": {
+      "field": "effective_date",
+      "shape": "oneshot",
+      "legs": [
+        "hybrid",
+        "temporal"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='rules_then_span' conf=0.012)",
+      "raw": {
+        "shape": "rules_then_span",
+        "shape_confidence": 0.0118,
+        "legs_noul": {
+          "rules": 0.1962,
+          "gliner": 0.3899,
+          "temporal": 0.6021,
+          "hybrid": 0.5978,
+          "clause": 0.1427
+        },
+        "oracle_system": "Temporal to Qwen",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "minimum_tender_condition": {
+      "field": "minimum_tender_condition",
+      "shape": "clause_then_pick",
+      "legs": [
+        "clause",
+        "gliner",
+        "hybrid",
+        "rules"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='rules_then_span' conf=0.014); dropped temporal (not date-like)",
+      "raw": {
+        "shape": "rules_then_span",
+        "shape_confidence": 0.0143,
+        "legs_noul": {
+          "rules": 0.6324,
+          "gliner": 0.8288,
+          "temporal": 0.5128,
+          "hybrid": 0.5515,
+          "clause": 0.4956
+        },
+        "oracle_system": "Qwen clauses",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    },
+    "proration_terms": {
+      "field": "proration_terms",
+      "shape": "clause_only",
+      "legs": [
+        "clause"
+      ],
+      "confidence": 0.35,
+      "source": "laya",
+      "rationale": "laya; shape_fallback_heuristic(laya='clause_only' conf=0.034)",
+      "raw": {
+        "shape": "clause_only",
+        "shape_confidence": 0.0343,
+        "legs_noul": {
+          "rules": 0.6295,
+          "gliner": 0.8431,
+          "temporal": 0.6546,
+          "hybrid": 0.6303,
+          "clause": 0.5146
+        },
+        "oracle_system": "Llama clauses",
+        "model": "laya-rl-agent",
+        "routing": {
+          "model": "english",
+          "repo": "convaiinnovations/laya",
+          "reason": "English Latin text",
+          "detection": {
+            "script": "latin",
+            "script_profile": {
+              "latin": 1.0
+            },
+            "language": "en",
+            "is_english": true,
+            "language_undecided": false,
+            "diacritic_rate": 0.0,
+            "non_latin_fraction": 0.0,
+            "mixed_segment": null
+          },
+          "workflow": null
+        }
+      }
+    }
+  }
+}

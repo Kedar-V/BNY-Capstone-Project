@@ -10,6 +10,7 @@ from src.evaluation.action_packs.base import ActionPack
 from src.evaluation.action_packs.retrieve import retrieve_clause
 from src.evaluation.extract import evidence as ev
 from src.evaluation.extract.dtos import EvidenceBundle, FieldExtractRequest
+from src.evaluation.extract.hybrid import field_query, hybrid_retrieve
 from src.evaluation.extract.temporal import TemporalFor, default_temporal_for
 from src.preprocess.store import DEFAULT_PREPROCESS_ROOT, ArtifactStore
 
@@ -31,6 +32,8 @@ class EventContext:
     extras: Mapping[str, str] = field(default_factory=dict)
     event_id: str | None = None
     accession: str = ""
+    # Cached dense chunk matrix for hybrid (filled by ArtifactProvider); not compared
+    hybrid_vectors: Any = field(default=None, compare=False, repr=False)
 
 
 class EvidenceProvider(Protocol):
@@ -104,13 +107,42 @@ def build_bundle(
         temporal = list(ctx.temporal_cache.get(field) or [])
         if temporal:
             blocks.append("TEMPORAL SPANS:\n" + "\n".join(temporal))
+    # Always-on supplemental windows next to GLiNER (pack.hybrid); never scores to the SLM
+    if "hybrid" in sources and pack.hybrid is not None:
+        hybrid_block = _hybrid_block(pack, ctx, field)
+        if hybrid_block:
+            blocks.append(hybrid_block)
 
-    real = [s for s in sources if s in {"rules", "gliner", "temporal"}]
+    real = [s for s in sources if s in {"rules", "gliner", "temporal", "hybrid"}]
     source = real[0] if len(real) == 1 else "mixed"
     if not blocks:
         return EvidenceBundle(text=NO_EVIDENCE, source=source, n_chars=len(NO_EVIDENCE), empty=True)
     text = "\n\n".join(blocks)
     return EvidenceBundle(text=text, source=source, n_chars=len(text), empty=False)
+
+
+def _hybrid_block(pack: ActionPack, ctx: EventContext, field: str) -> str:
+    spec = pack.hybrid
+    if spec is None:
+        return ""
+    blob = (ctx.doc_text or ctx.excerpts or "").strip()
+    if not blob:
+        return ""
+    extra = (spec.query_extra.get(field) or "").strip()
+    query = field_query(pack.field_defs.get(field, ""), field, extra=extra)
+    # Optional per-context vector cache (set by ArtifactProvider.prepare)
+    cache = getattr(ctx, "hybrid_vectors", None)
+    block, _vectors = hybrid_retrieve(
+        query,
+        blob,
+        top_k=spec.top_k,
+        max_chars=spec.max_chars,
+        chunk_chars=spec.chunk_chars,
+        overlap=spec.overlap,
+        chunk_vectors=cache,
+        use_dense=spec.use_dense,
+    )
+    return block
 
 
 def context_rules_direct(pack: ActionPack, ctx: EventContext, field: str) -> list[str]:
@@ -318,12 +350,39 @@ class ArtifactProvider:
                 spans = _spans_from_passages(passages)
             if not excerpts:
                 excerpts = _excerpts_from_passages(passages)
-        doc_text = _segment_blob(store, eid) if eid and self.pack.clause_fields else ""
+        need_doc = bool(self.pack.clause_fields) or self.pack.hybrid_enabled
+        doc_text = _segment_blob(store, eid) if eid and need_doc else ""
         extras = _inventory_extras(self.pack, store, eid)
         temporal_cache: dict[str, list[str]] = {}
         if date_fields:
             key = eid or acc or f"row{idx}"
             temporal_cache = dict(self.temporal_for(key, excerpts, date_fields) or {})
+        hybrid_vectors = None
+        # Prefetch dense chunk vectors once per event when hybrid+dense is on
+        if self.pack.hybrid is not None and self.pack.hybrid.use_dense and (doc_text or excerpts):
+            try:
+                import numpy as np
+
+                from src.evaluation.extract.hybrid import (
+                    chunk_text,
+                    dense_available,
+                    embed_texts,
+                )
+
+                if dense_available():
+                    spec = self.pack.hybrid
+                    chunks = chunk_text(
+                        doc_text or excerpts,
+                        chunk_chars=spec.chunk_chars,
+                        overlap=spec.overlap,
+                    )
+                    if chunks:
+                        emb = embed_texts(chunks)
+                        mat = np.asarray(emb, dtype=np.float32)
+                        norms = np.linalg.norm(mat, axis=1, keepdims=True)
+                        hybrid_vectors = mat / np.maximum(norms, 1e-12)
+            except Exception:  # noqa: BLE001 — BM25-only fallback at retrieve time
+                hybrid_vectors = None
         return EventContext(
             rep=rep,
             spans=spans,
@@ -334,17 +393,26 @@ class ArtifactProvider:
             extras=extras,
             event_id=eid,
             accession=acc,
+            hybrid_vectors=hybrid_vectors,
         )
 
     def prepare(
-        self, rows: Iterable[dict] | None = None, fields: tuple[str, ...] | None = None
+        self,
+        rows: Iterable[dict] | None = None,
+        fields: tuple[str, ...] | None = None,
+        *,
+        progress: bool = False,
     ) -> list[str]:
         """Load every row's event once (+ temporal lines); returns the context keys.
 
         Not thread-safe; call before concurrent runs. A later row with the same key
         replaces an earlier one only if its passages are identical; otherwise raises
         ``ValueError`` (pass ``key_for`` for per-row contexts).
+
+        When ``progress`` is true, show a tqdm bar on stderr (row-level).
         """
+        import sys
+
         rows = list(self.rows_by_accession.values() if rows is None else rows)
         fields = tuple(self.pack.fields if fields is None else fields)
         # Temporal lines are computed for ALL pack date fields whenever any requested field
@@ -353,7 +421,19 @@ class ArtifactProvider:
         if any(self.pack.uses_temporal(f) for f in fields):
             date_fields = tuple(f for f in self.pack.fields if self.pack.uses_temporal(f))
         keys: list[str] = []
-        for idx, row in enumerate(rows):
+        row_iter: Iterable[tuple[int, dict]] = enumerate(rows)
+        if progress:
+            from tqdm import tqdm
+
+            row_iter = tqdm(
+                enumerate(rows),
+                total=len(rows),
+                desc="prepare",
+                unit="row",
+                file=sys.stderr,
+                dynamic_ncols=True,
+            )
+        for idx, row in row_iter:
             key = self.key_for(row)
             prev = self._contexts.get(key)
             if prev is not None and prev.passages != _passages_obj(row.get("passages")):
@@ -363,6 +443,9 @@ class ArtifactProvider:
                 )
             self._contexts[key] = self._load(row, idx, date_fields)
             keys.append(key)
+            if progress and hasattr(row_iter, "set_postfix"):
+                acc = str(row.get("accession_number") or key)[:18]
+                row_iter.set_postfix_str(acc, refresh=False)
         return keys
 
     def context(self, req: FieldExtractRequest) -> EventContext:

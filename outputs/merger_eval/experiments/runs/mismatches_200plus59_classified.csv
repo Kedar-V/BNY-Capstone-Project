@@ -1,0 +1,118 @@
+label,note,source,field,accession,outcome,gold,pred,gold_in_ev,pred_in_ev,ev_chars
+prompt,both parties in evidence — role confusion (prompt/pick),balanced200,acquirer,0001104659-26-029601,mismatch,"Royal Cup, Inc.",Braemont Capital Management LLC,True,True,4896
+prompt,gold in bag but model null/miss,balanced200,acquirer,0001140361-26-023178,fn,"steute Industrial Controls, Inc.",,True,,4871
+prompt,generic Holdco — need prefer named parent,balanced200,acquirer,0001213900-26-024672,mismatch,Odysseus Holdings Limited,Holdco,True,True,5594
+prompt,gold in bag but model null/miss,balanced200,acquirer,0001213900-26-061108,fn,"SeeQC, Inc.",,True,,4169
+prompt,gold in bag but model null/miss,balanced200,acquirer,0001213900-26-089404,fn,"Langham Project, LLC",,True,,4117
+prompt,both parties in evidence — role confusion (prompt/pick),balanced200,acquirer,0001437749-26-000391,mismatch,"SPX Enterprises, LLC","Project King Acquisition, Inc.",True,True,2878
+prompt,both parties in evidence — role confusion (prompt/pick),balanced200,acquirer,0001493152-26-009657,mismatch,Boost Run Inc.,Willow Lane,True,True,4533
+prompt,both parties in evidence — role confusion (prompt/pick),balanced200,acquirer,0001829126-26-010319,mismatch,FortuneX Acquisition Corporation,WT Realty Group Inc.,True,True,5949
+prompt,gold in bag but model null/miss,balanced300more,acquirer,0001193125-26-102445,fn,"Glow Midco, LLC",,True,,6346
+prompt,both parties in evidence — role confusion (prompt/pick),balanced300more,acquirer,0001437749-26-002544,mismatch,"Laird Superfood, Inc.","Encore Consumer Capital Fund II, LP",True,True,8567
+prompt,should abstain/copy No cash — picked a $ amount,balanced200,cash_consideration,0001193125-26-012952,mismatch,No cash consideration,$48.42,True,True,2543
+prompt,wrong $ among candidates in bag,balanced200,cash_consideration,0001193125-26-102359,mismatch,$0.00001 per share,$5.80,True,True,3793
+prompt,gold in bag but model null/miss,balanced200,cash_consideration,0001193125-26-134924,fn,$15.00 per share,,True,,3473
+prompt,gold in bag but model null/miss,balanced200,cash_consideration,0001493152-26-015164,fn,No cash consideration,,True,,2227
+unclear,g_in=True p_in=True empty_ev=False,balanced200,cash_consideration,0001829126-26-005923,mismatch,Pro rata portion of Titan's trust account per share,$10.52,True,True,2227
+prompt,gold in bag but model null/miss,balanced300more,cash_consideration,0001185185-26-000166,fn,No cash consideration,,True,,2772
+prompt,wrong $ among candidates in bag,balanced300more,cash_consideration,0001193125-26-016684,mismatch,$2.75 per share,$0.01,True,True,2818
+prompt,wrong $ among candidates in bag,balanced300more,cash_consideration,0001193125-26-102445,mismatch,$0.00001 per share,$5.80,True,True,2541
+prompt,Stock vs Cash confusion — prompt/evidence cue,balanced200,consideration_type,0001104659-26-104366,mismatch,Stock,Cash,True,True,2554
+prompt,Stock vs Cash confusion — prompt/evidence cue,balanced200,consideration_type,0001213900-26-074267,mismatch,Stock,Cash,True,False,3452
+prompt,gold in bag but model null/miss,balanced200,consideration_type,0001493152-26-009785,fn,Stock,,True,,2227
+prompt,gold in bag but model null/miss,balanced200,consideration_type,0001829126-26-010118,fn,Stock,,True,,2649
+evidence,gold not in evidence,balanced300more,consideration_type,0001104659-26-017281,fn,Stock,,False,,1911
+prompt,Stock vs Cash confusion — prompt/evidence cue,balanced300more,consideration_type,0001104659-26-024193,mismatch,Stock,Cash,True,True,2856
+prompt,gold in bag but model null/miss,balanced300more,consideration_type,0001193125-26-016684,fn,Mixed cash and stock,,True,,2818
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001104659-26-017281,fp_no_gt,,"august 26, 2024",,True,1847
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001104659-26-110971,fp_no_gt,,November 2026,,True,3789
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001185185-26-000563,fp_no_gt,,"march 18, 2026",,True,8210
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001193125-26-102445,fp_no_gt,,"february 9, 2026",,True,3356
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001193125-26-383837,fp_no_gt,,"October 5, 2026",,True,4523
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001213900-26-061108,fp_no_gt,,"may 26, 2026",,True,3666
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001213900-26-100367,fp_no_gt,,"september 15, 2026",,True,5872
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001493152-26-002095,fp_no_gt,,2025-09-30,,True,3335
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001493152-26-009785,fp_no_gt,,"March 6, 2026",,True,5887
+prompt,gold in bag but model null/miss,balanced200,effective_date,0001628280-26-006094,fn,3/4/2024,,True,,9147
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced200,effective_date,0001829126-26-005923,fp_no_gt,,"june 1, 2026",,True,3402
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced300more,effective_date,0001104659-26-024193,fp,,"february 15, 2026",,True,9295
+gt_sparse_or_subset,empty gold in subset (padded quota); FP date hallucination,balanced300more,effective_date,0001213900-26-022404,fp,,"April 10, 2026",,True,4930
+gt_sparse_or_subset,empty gold padded cell; FP deadline,balanced200,election_deadline,0001104659-26-020981,fp_no_gt,,"february 27, 2026",,True,5089
+unclear,g_in=True p_in=True empty_ev=False,balanced200,election_deadline,0001104659-26-073581,mismatch,"5:00 PM Mountain time, as near as practicable to three business days before closing","june 12, 2026",True,True,4264
+unclear,g_in=True p_in=True empty_ev=False,balanced200,election_deadline,0001104659-26-082291,mismatch,"5:00 PM Mountain time, as near as practicable to three business days before closing","july 6, 2026",True,True,3902
+gt_sparse_or_subset,empty gold padded cell; FP deadline,balanced200,election_deadline,0001104659-26-093784,fp_no_gt,,"no later than [•] ([•]) on [•], 2026",,True,4280
+gt_sparse_or_subset,empty gold padded cell; FP deadline,balanced200,election_deadline,0001140361-26-023178,fp_no_gt,,"11:59 p.m., Eastern Time, on [ ], 2026",,True,4197
+gt_sparse_or_subset,empty gold padded cell; FP deadline,balanced200,election_deadline,0001193125-26-010471,fp_no_gt,,"january 12, 2026",,True,5043
+unclear,g_in=True p_in=True empty_ev=False,balanced200,election_deadline,0001493152-26-034626,mismatch,9:00 AM Toronto time on the date of the GNQ Shareholders Meeting,2026-03-16,True,True,5067
+gt,"GT reads like redemption/tender narrative, not election deadline",balanced200,election_deadline,0001829126-26-005923,mismatch,Deadline to tender shares for redemption in connection with the shareholder vote,"june 1, 2026",True,True,3402
+gt_sparse_or_subset,empty gold padded cell; FP deadline,balanced300more,election_deadline,0001104659-26-017281,fp,,"august 26, 2024",,True,1847
+prompt,gold in bag but model null/miss,balanced200,security_description,0001104659-26-082291,fn,Class A common stock,,True,,3573
+prompt,wrong security class among spans,balanced200,security_description,0001193125-26-096620,mismatch,common stock,Equity Interest,True,True,2227
+prompt,wrong security class among spans,balanced200,security_description,0001193125-26-102445,mismatch,Class B Common Stock,Class A Common Stock,True,True,3182
+prompt,wrong security class among spans,balanced200,security_description,0001193125-26-187219,mismatch,ordinary shares,Common Stock,True,True,3170
+prompt,wrong security class among spans,balanced200,security_description,0001193125-26-279668,mismatch,Series C Fixed Rate Noncumulative Perpetual Preferred Stock,Corebridge Common Stock,True,True,3981
+prompt,gold in bag but model null/miss,balanced200,security_description,0001213900-26-061108,fn,rights,,True,,5996
+prompt,wrong security class among spans,balanced200,security_description,0001213900-26-084686,mismatch,Class A common stock,Parent Ordinary Shares,True,True,3805
+prompt,wrong security class among spans,balanced200,security_description,0001213900-26-084686,mismatch,Class B common stock,Parent Ordinary Shares,True,True,3805
+prompt,wrong security class among spans,balanced200,security_description,0001213900-26-104691,mismatch,Class B ordinary shares,PubCo Ordinary Shares,True,True,2562
+prompt,wrong security class among spans,balanced200,security_description,0001628280-26-006094,mismatch,common stock,Preferred stock,True,True,2556
+prompt,wrong security class among spans,balanced300more,security_description,0001193125-26-012952,mismatch,"common stock, without par value",Ryerson common stock,True,True,3201
+prompt,wrong security class among spans,balanced300more,security_description,0001437749-26-002544,mismatch,Class B Units | Class D Units,Preferred Stock,True,True,3822
+prompt,gold in bag but model null/miss,balanced200,shareholder_vote_date,0001104659-26-024193,fn,3/25/2026 9:30 AM Eastern Time,,True,,9295
+prompt,gold in bag but model null/miss,balanced200,shareholder_vote_date,0001193125-26-187219,fn,2/13/2026,,True,,6484
+prompt,wrong date among temporal/hybrid,balanced200,shareholder_vote_date,0001213900-26-024672,mismatch,3/27/2026 10:00 AM Eastern Time,"march 6, 2026",True,True,4477
+prompt,wrong date among temporal/hybrid,balanced200,shareholder_vote_date,0001493152-26-002095,mismatch,3/3/2026,2025-09-30,True,True,3335
+prompt,gold in bag but model null/miss,balanced200,shareholder_vote_date,0001493152-26-044341,fn,10/16/2026 8:30 AM Eastern Time,,True,,5023
+prompt,gold in bag but model null/miss,balanced200,shareholder_vote_date,0001493152-26-044341,fn,6/16/2025,,True,,5023
+prompt,gold in bag but model null/miss,balanced300more,shareholder_vote_date,0001193125-26-012952,fn,2/12/2026 9:30 AM Eastern Time,,True,,6869
+prompt,wrong date among temporal/hybrid,balanced300more,shareholder_vote_date,0001493152-26-002095,mismatch,3/3/2026,2025-09-30,True,True,3335
+prompt,gold in bag but model null/miss,balanced300more,shareholder_vote_date,0001628280-26-006094,fn,2/20/2024,,True,,9147
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001104659-26-020983,fn,Share Exchange Aggregate Consideration divided by Aggregate Company Shares in PubCo Class A and/or Class B ordinary shares per share,,True,,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001104659-26-082291,fn,"RMCO Common Units held by RIHI divided by outstanding RIHI Common Stock shares, in shares of REMAX Class A Common Stock per share",,True,,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001185185-26-000166,fn,Exchange Ratio = (Fully Diluted Parent Common Stock × Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share,,True,,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001185185-26-000356,fn,"Fully diluted RYVYL common stock × valuation ratio ÷ fully diluted RTB common stock, in RYVYL common shares per share",,True,,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001193125-26-096749,fn,0.902 shares of VICI Properties Inc. common stock per share,,True,,2350
+prompt,should return No stock consideration when cash-only,balanced200,stock_exchange_ratio,0001193125-26-102445,fn,No stock consideration,,True,,2350
+prompt,wrong ratio formula picked,balanced200,stock_exchange_ratio,0001193125-26-279656,mismatch,1 share of Series 2 New Equitable Preferred Stock per share,1.55516 (the “Equitable Exchange Ratio”),True,True,2350
+prompt,wrong ratio formula picked,balanced200,stock_exchange_ratio,0001193125-26-279656,mismatch,1 share of Series 1-C New Equitable Preferred Stock per share,1.55516 shares of New Equitable Common Stock,True,True,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001213900-26-026268,fn,Exchange Ratio shares of Domesticated Purchaser Common Stock per share,,True,,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001213900-26-061108,fn,1 share of SEEQC Common Stock per share,,True,,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001213900-26-061108,fn,0.1 share of SEEQC Common Stock per unit,,True,,2350
+prompt,should return No stock consideration when cash-only,balanced200,stock_exchange_ratio,0001213900-26-089404,fn,No stock consideration,,True,,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001493152-26-002095,fn,1 share of Pubco Class A Common Stock per share,,True,,2350
+prompt,gold in bag but model null/miss,balanced200,stock_exchange_ratio,0001493152-26-009657,fn,1 share of Boost Run Inc. Class A Common Stock per share,,True,,2350
+prompt,should return No stock consideration when cash-only,balanced300more,stock_exchange_ratio,0001193125-26-010471,fn,No stock consideration,,True,,2350
+prompt,should return No stock consideration when cash-only,balanced300more,stock_exchange_ratio,0001437749-26-000391,fn,No stock consideration,,True,,2350
+prompt,wrong ratio formula picked,balanced300more,stock_exchange_ratio,0001539497-26-000230,mismatch,0.02 shares of surviving corporation common stock per share,1-for-50,True,True,2227
+prompt,gold in bag but model null/miss,balanced200,target,0001193125-26-051584,fn,"Golden Entertainment, Inc.",,True,,5976
+prompt,gold in bag but model null/miss,balanced200,target,0001193125-26-102445,fn,"European Wax Center, Inc.",,True,,4772
+prompt,gold in bag but model null/miss,balanced200,target,0001213900-26-026268,fn,Controlled Thermal Resources Holdings Inc.,,True,,5012
+prompt,gold in bag but model null/miss,balanced200,target,0001213900-26-028308,fn,Vine Hill Capital Investment Corp.,,True,,3843
+prompt,gold in bag but model null/miss,balanced200,target,0001213900-26-028308,fn,CoinShares International Limited,,True,,3843
+prompt,both parties in evidence — role confusion (prompt/pick),balanced200,target,0001213900-26-042083,mismatch,Constellation Acquisition Corp I,HiTech Minerals Inc.,True,True,5915
+prompt,gold in bag but model null/miss,balanced200,target,0001213900-26-063737,fn,HiTech Minerals Inc.,,True,,6046
+prompt,picked filing shortname / wrong party,balanced200,target,0001437749-26-002544,mismatch,Global Superfoods Corp.,Navitas,True,True,5723
+prompt,gold in bag but model null/miss,balanced200,target,0001493152-26-009785,fn,Quetta Acquisition Corporation,,True,,4703
+prompt,picked filing shortname / wrong party,balanced200,target,0001493152-26-009785,mismatch,Smart Kreate Group Limited,Company,True,True,4703
+prompt,gold in bag but model null/miss,balanced200,target,0001493152-26-009785,fn,Smart Kreate Group Limited,,True,,4703
+prompt,picked filing shortname / wrong party,balanced200,target,0001493152-26-044341,mismatch,Eos SENOLYTIX Inc.,Pulmatrix,True,True,3386
+prompt,both parties in evidence — role confusion (prompt/pick),balanced200,target,0001829126-26-010319,mismatch,WT Realty Group Inc.,FortuneX Merger Sub Inc.,True,True,4562
+prompt,gold in bag but model null/miss,balanced300more,target,0001193125-26-010471,fn,Sealed Air Corporation,,True,,3441
+evidence,gold ticker not in evidence bag,balanced200,ticker,0001104659-26-024193,fn,ACQC,,False,,2227
+prompt,wrong ticker from evidence (likely acquirer/other),balanced200,ticker,0001104659-26-043531,mismatch,SEM,81619Q105,False,True,2495
+prompt,wrong ticker from evidence (likely acquirer/other),balanced200,ticker,0001104659-26-082291,mismatch,RMAX,REAX,True,True,2581
+prompt,wrong ticker from evidence (likely acquirer/other),balanced200,ticker,0001140361-26-029134,mismatch,CRNX,VRTX,True,True,2277
+prompt,gold in bag but model null/miss,balanced200,ticker,0001185185-26-000563,fn,RVYL,,True,,3166
+prompt,gold in bag but model null/miss,balanced200,ticker,0001185185-26-001691,fn,"BPAC, BPACR, BPACU",,True,,2227
+prompt,wrong ticker from evidence (likely acquirer/other),balanced200,ticker,0001193125-26-003553,mismatch,CHTH,SNDA,False,True,2882
+prompt,wrong ticker from evidence (likely acquirer/other),balanced200,ticker,0001213900-26-073218,mismatch,TMRC,USAR,True,True,2787
+prompt,wrong ticker from evidence (likely acquirer/other),balanced200,ticker,0001437749-26-000391,mismatch,CRAWA,SPXC,True,True,3199
+prompt,wrong ticker from evidence (likely acquirer/other),balanced200,ticker,0001493152-26-044341,mismatch,PULM,MTXL,True,True,4114
+evidence,gold ticker not in evidence bag,balanced200,ticker,0001539497-26-000230,fn,BCAB,,False,,2509
+prompt,gold in bag but model null/miss,balanced200,ticker,0001628280-26-006094,fn,"QTI, QTIH, QTIWW",,True,,2539
+prompt,exchange name not ticker,balanced200,ticker,0001829126-26-010118,mismatch,"FSHP, FSHPR, FSHPU",Nasdaq,True,True,2227
+prompt,wrong ticker from evidence (likely acquirer/other),balanced300more,ticker,0001104659-26-020983,mismatch,"DRDB, DRDBU, DRDBW",CMPO,True,True,2277
+evidence,gold ticker not in evidence bag,balanced300more,ticker,0001104659-26-024193,fn,ACQC,,False,,2227
+prompt,gold in bag but model null/miss,balanced300more,ticker,0001213900-26-026265,fn,"PLMK, PLMKU, PLMKW",,True,,2227
+evidence,gold ticker not in evidence bag,balanced300more,ticker,0001493152-26-002095,mismatch,CRWV,WLA,False,False,2824
+evidence,gold ticker not in evidence bag,balanced300more,ticker,0001493152-26-002095,mismatch,CRWV,WLN,False,False,2824

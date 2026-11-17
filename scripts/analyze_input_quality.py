@@ -36,6 +36,7 @@ from src.evaluation.tender import normalize  # noqa: E402
 
 DATE_FIELDS = frozenset({"expiration_date", "withdrawal_deadline", "settlement_date", "effective_date"})
 WRONG = ("fp_no_gt", "mismatch", "fn")
+REACHABLE = ("answer in a listed candidate", "answer only in surrounding text")
 CATEGORIES = (
     "gold blank, model gave a value",
     "evidence empty",
@@ -74,11 +75,23 @@ def categorize(rec: dict, outcome: str, match) -> str:
     field, gold, ev = rec["request"]["field"], (rec["gold"] or "").strip(), rec["evidence"] or ""
     if outcome == "fp_no_gt":
         return CATEGORIES[0]
+    return reachability(field, gold, ev, match)
+
+
+def reachability(field: str, gold: str, ev: str, match, date_fields=DATE_FIELDS) -> str:
+    """Where (if anywhere) a non-blank ``gold`` appears in the evidence ``ev``.
+
+    Returns one of CATEGORIES[1:]: evidence empty / answer not in evidence / answer in a
+    listed candidate / answer only in surrounding text. ``match(candidate, gold)`` is the
+    field's soft matcher; ``date_fields`` use the strict month/day/year check.
+    """
+    gold = (gold or "").strip()
+    ev = ev or ""
     if not ev.strip() or ev == NO_EVIDENCE:
         return CATEGORIES[1]
     clause = ev.startswith(CLAUSE_PREFIX)
     cands = [ev[len(CLAUSE_PREFIX):]] if clause else [v for _, v in _CAND.findall(ev)]
-    gold_dates = strict_dates(gold) if field in DATE_FIELDS else set()
+    gold_dates = strict_dates(gold) if field in date_fields else set()
     if gold_dates:
         if any(gold_dates & strict_dates(c) for c in cands):
             return CATEGORIES[3]
@@ -86,7 +99,8 @@ def categorize(rec: dict, outcome: str, match) -> str:
     if any(match(c, gold) for c in cands):
         return CATEGORIES[3]
     ctxs = [v for _, v in _CTX.findall(ev)]
-    if any(match(c, gold) for c in ctxs) or normalize(gold) in normalize(ev):
+    ng = normalize(gold)  # "" for a gold that normalize() treats as a blank sentinel
+    if any(match(c, gold) for c in ctxs) or (ng and ng in normalize(ev)):
         return CATEGORIES[4]
     return CATEGORIES[2]
 

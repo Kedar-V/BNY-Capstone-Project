@@ -1,0 +1,170 @@
+{
+  "pack": "merger",
+  "evidence_pack_id": "merger_holdout_heuristic_balanced200",
+  "evidence_pack": "/Users/kedarvaidya/Desktop/BNY-Capstone-Project/outputs/merger_eval/evidence_packs/merger_holdout_heuristic_balanced200",
+  "backend": "ollama",
+  "model": "qwen3-finance:latest",
+  "mode": "cascade_v2",
+  "validate": true,
+  "concurrency": 4,
+  "reasoning_effort": "none",
+  "wall_seconds": 0.0,
+  "n_rows": 111,
+  "n_llm_jobs": 200,
+  "fields": [
+    "acquirer",
+    "target",
+    "consideration_type",
+    "cash_consideration",
+    "stock_exchange_ratio",
+    "shareholder_vote_date",
+    "election_deadline",
+    "effective_date",
+    "security_description",
+    "ticker",
+    "cusip",
+    "isin"
+  ],
+  "micro": {
+    "precision": 0.5813953488372093,
+    "recall": 0.4716981132075472,
+    "f1": 0.5208333333333334
+  },
+  "tp": 75,
+  "fp": 54,
+  "fn": 84,
+  "pass_counts": {
+    "oneshot+C_keep": 107,
+    "oneshot+C_drop": 50,
+    "A_rules+C_keep": 20,
+    "oneshot": 23
+  },
+  "per_field": {
+    "acquirer": {
+      "tp": 8,
+      "fp": 5,
+      "fn": 9,
+      "gt_present": 17,
+      "pred_present": 13,
+      "precision": 0.6153846153846154,
+      "recall": 0.47058823529411764,
+      "f1": 0.5333333333333333
+    },
+    "target": {
+      "tp": 3,
+      "fp": 6,
+      "fn": 14,
+      "gt_present": 17,
+      "pred_present": 9,
+      "precision": 0.3333333333333333,
+      "recall": 0.17647058823529413,
+      "f1": 0.23076923076923078
+    },
+    "consideration_type": {
+      "tp": 12,
+      "fp": 2,
+      "fn": 5,
+      "gt_present": 17,
+      "pred_present": 14,
+      "precision": 0.8571428571428571,
+      "recall": 0.7058823529411765,
+      "f1": 0.7741935483870968
+    },
+    "cash_consideration": {
+      "tp": 12,
+      "fp": 3,
+      "fn": 5,
+      "gt_present": 17,
+      "pred_present": 15,
+      "precision": 0.8,
+      "recall": 0.7058823529411765,
+      "f1": 0.7500000000000001
+    },
+    "stock_exchange_ratio": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 15,
+      "gt_present": 17,
+      "pred_present": 4,
+      "precision": 0.5,
+      "recall": 0.11764705882352941,
+      "f1": 0.19047619047619047
+    },
+    "shareholder_vote_date": {
+      "tp": 9,
+      "fp": 2,
+      "fn": 8,
+      "gt_present": 17,
+      "pred_present": 11,
+      "precision": 0.8181818181818182,
+      "recall": 0.5294117647058824,
+      "f1": 0.6428571428571428
+    },
+    "election_deadline": {
+      "tp": 0,
+      "fp": 8,
+      "fn": 4,
+      "gt_present": 4,
+      "pred_present": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "effective_date": {
+      "tp": 0,
+      "fp": 10,
+      "fn": 1,
+      "gt_present": 1,
+      "pred_present": 10,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null
+    },
+    "security_description": {
+      "tp": 6,
+      "fp": 8,
+      "fn": 10,
+      "gt_present": 16,
+      "pred_present": 14,
+      "precision": 0.42857142857142855,
+      "recall": 0.375,
+      "f1": 0.39999999999999997
+    },
+    "ticker": {
+      "tp": 3,
+      "fp": 8,
+      "fn": 13,
+      "gt_present": 16,
+      "pred_present": 11,
+      "precision": 0.2727272727272727,
+      "recall": 0.1875,
+      "f1": 0.2222222222222222
+    },
+    "cusip": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 10,
+      "pred_present": 10,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "isin": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "gt_present": 10,
+      "pred_present": 10,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "baselines": {
+    "hybrid_gliner_qwen_allspans_micro_f1": 0.481,
+    "unified_prompt_v2_micro_f1": 0.468,
+    "oracle_routing_micro_f1": 0.837
+  },
+  "accession_hash": "8c1a128016fe491f"
+}

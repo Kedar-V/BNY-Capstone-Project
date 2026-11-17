@@ -16,6 +16,11 @@ def make_llm(pack: ActionPack, backend):
         raw = backend.chat_json(system=pack.system_prompt, user=state.prompt, model=state.request.model)
         value = parse_field(raw, field)
         raw_log = [*state.raw_log, f"{stage.pass_label}:{raw[:300]}"]
+        if value is not None and stage.accept is not None:
+            assert state.bundle is not None
+            if not stage.accept(value, state.bundle.text):
+                raw_log.append(f"{stage.pass_label}_gate_rejected:{value!r}")
+                value = None
         if value is None and state.pred is not None:
             # stop_at_first_hit=False: a later null never erases an earlier stage's hit
             return {"raw_log": raw_log, "last_prompt": state.prompt, "next": "advance"}

@@ -1,0 +1,767 @@
+[
+  {
+    "accession": "0001213900-26-002756",
+    "event_id": "005-94451",
+    "n_spans": 14,
+    "n_excerpt_chars": 5636,
+    "fields": {
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "11/21/2025",
+        "pred": "11/21/2025",
+        "pass_used": "A",
+        "n_evidence_chars": 145,
+        "n_rules": 2,
+        "raw_llm": "A:{\"settlement_date\": \"11/21/2025\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-012276",
+    "event_id": "005-93603",
+    "n_spans": 78,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "4/1/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 6707,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"2/20/2026\"} | A_gate_rejected:'2/20/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001580642-26-000392",
+    "event_id": "005-95349",
+    "n_spans": 58,
+    "n_excerpt_chars": 24007,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "3/23/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11434,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": \"march 23, 2026\"} | B_gate_rejected:'march 23, 2026'"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-007374",
+    "event_id": "005-94239",
+    "n_spans": 6,
+    "n_excerpt_chars": 3515,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/23/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1840,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": \"january 23, 2026\"} | B_gate_rejected:'january 23, 2026'"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-007374",
+    "event_id": "005-94239",
+    "n_spans": 6,
+    "n_excerpt_chars": 3515,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/23/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1840,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": \"january 23, 2026\"} | B_gate_rejected:'january 23, 2026'"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-007374",
+    "event_id": "005-94239",
+    "n_spans": 6,
+    "n_excerpt_chars": 3515,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/23/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 1840,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": \"january 23, 2026\"} | B_gate_rejected:'january 23, 2026'"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-024425",
+    "event_id": "005-93652",
+    "n_spans": 10,
+    "n_excerpt_chars": 7815,
+    "fields": {
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "1/28/2026",
+        "pred": "january 28, 2026",
+        "pass_used": "B",
+        "n_evidence_chars": 2428,
+        "n_rules": 2,
+        "raw_llm": "A:{\"settlement_date\": \"1/28/2026\"} | A_gate_rejected:'1/28/2026' | B:{\"settlement_date\": \"january 28, 2026\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-032795",
+    "event_id": "005-91801",
+    "n_spans": 59,
+    "n_excerpt_chars": 24014,
+    "fields": {
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "3/31/2026",
+        "pred": "7/1/2024",
+        "pass_used": "A",
+        "n_evidence_chars": 141,
+        "n_rules": 2,
+        "raw_llm": "A:{\"settlement_date\": \"7/1/2024\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001628280-26-004675",
+    "event_id": "005-93859",
+    "n_spans": 17,
+    "n_excerpt_chars": 6661,
+    "fields": {
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "1/30/2026",
+        "pred": "january 30, 2026",
+        "pass_used": "B",
+        "n_evidence_chars": 3981,
+        "n_rules": 2,
+        "raw_llm": "A:{\"settlement_date\": \"1/30/2026\"} | A_gate_rejected:'1/30/2026' | B:{\"settlement_date\": \"january 30, 2026\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-004073",
+    "event_id": "005-85874",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/27/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001169578-26-000006",
+    "event_id": "005-79877",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/30/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001169578-26-000004",
+    "event_id": "005-79876",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/30/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-059472",
+    "event_id": "005-87250",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "3/24/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-060220",
+    "event_id": "005-94828",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "3/31/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-021994",
+    "event_id": "005-93727",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "3/27/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001398344-26-004601",
+    "event_id": "005-89919",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/16/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001398344-26-005458",
+    "event_id": "005-94046",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/7/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-035526",
+    "event_id": "005-91611",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "5/1/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001104659-26-078828",
+    "event_id": "005-95564",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "8/5/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001731122-26-000079",
+    "event_id": "005-84248",
+    "n_spans": 27,
+    "n_excerpt_chars": 14479,
+    "fields": {
+      "settlement_date": {
+        "outcome": "tp",
+        "gold": "1/14/2026",
+        "pred": "1/14/2026",
+        "pass_used": "A",
+        "n_evidence_chars": 143,
+        "n_rules": 2,
+        "raw_llm": "A:{\"settlement_date\": \"1/14/2026\"}"
+      }
+    }
+  },
+  {
+    "accession": "0001623632-26-000061",
+    "event_id": "005-89950",
+    "n_spans": 11,
+    "n_excerpt_chars": 10433,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "3/16/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 3804,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-020593",
+    "event_id": "005-94282",
+    "n_spans": 30,
+    "n_excerpt_chars": 24007,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/21/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11115,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001493152-26-004156",
+    "event_id": "005-92545",
+    "n_spans": 9,
+    "n_excerpt_chars": 14295,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/29/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 4451,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-031413",
+    "event_id": "005-94024",
+    "n_spans": 40,
+    "n_excerpt_chars": 24007,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/29/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 9461,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"7/1/2022\"} | A_gate_rejected:'7/1/2022' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-033112",
+    "event_id": "005-94247",
+    "n_spans": 16,
+    "n_excerpt_chars": 15333,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/30/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 5934,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001989817-26-000009",
+    "event_id": "005-94572",
+    "n_spans": 10,
+    "n_excerpt_chars": 14218,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/30/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 6228,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001838126-26-000008",
+    "event_id": "005-93638",
+    "n_spans": 17,
+    "n_excerpt_chars": 16444,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/30/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 5680,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-011141",
+    "event_id": "005-92444",
+    "n_spans": 12,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "11/18/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11177,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"3/16/2026\"} | A_gate_rejected:'3/16/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-011144",
+    "event_id": "005-92445",
+    "n_spans": 15,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "11/18/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11076,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"3/16/2026\"} | A_gate_rejected:'3/16/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-047655",
+    "event_id": "005-80363",
+    "n_spans": 35,
+    "n_excerpt_chars": 24007,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/28/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 5287,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"6/15/2021\"} | A_gate_rejected:'6/15/2021' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-017996",
+    "event_id": "005-91800",
+    "n_spans": 14,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "7/30/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11128,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"9/30/2026\"} | A_gate_rejected:'9/30/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-017996",
+    "event_id": "005-91800",
+    "n_spans": 14,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "7/30/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11128,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"9/30/2026\"} | A_gate_rejected:'9/30/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-017996",
+    "event_id": "005-91800",
+    "n_spans": 14,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "7/30/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11128,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"9/30/2026\"} | A_gate_rejected:'9/30/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-017996",
+    "event_id": "005-91800",
+    "n_spans": 14,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "7/30/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11128,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"9/30/2026\"} | A_gate_rejected:'9/30/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-020252",
+    "event_id": "005-89250",
+    "n_spans": 10,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "10/23/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 11026,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"3/3/2026\"} | A_gate_rejected:'3/3/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-006949",
+    "event_id": "005-85874",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "6/30/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001140361-26-007460",
+    "event_id": "005-94037",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "1/27/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001213900-26-026030",
+    "event_id": "005-93727",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "3/27/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001398344-26-005194",
+    "event_id": "005-94305",
+    "n_spans": 14,
+    "n_excerpt_chars": 11454,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "10/31/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 7319,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001398344-26-005194",
+    "event_id": "005-94305",
+    "n_spans": 14,
+    "n_excerpt_chars": 11454,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "10/31/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 7319,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001398344-26-005194",
+    "event_id": "005-94305",
+    "n_spans": 14,
+    "n_excerpt_chars": 11454,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "10/31/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 7319,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001398344-26-005194",
+    "event_id": "005-94305",
+    "n_spans": 14,
+    "n_excerpt_chars": 11454,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "10/31/2025",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 7319,
+        "n_rules": 0,
+        "raw_llm": "B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-121685",
+    "event_id": "005-93585",
+    "n_spans": 0,
+    "n_excerpt_chars": 0,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "3/17/2026",
+        "pred": null,
+        "pass_used": "empty",
+        "n_evidence_chars": 50,
+        "n_rules": 0,
+        "raw_llm": ""
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-122188",
+    "event_id": "005-93603",
+    "n_spans": 78,
+    "n_excerpt_chars": 24000,
+    "fields": {
+      "settlement_date": {
+        "outcome": "fn",
+        "gold": "4/1/2026",
+        "pred": null,
+        "pass_used": "B_null",
+        "n_evidence_chars": 6707,
+        "n_rules": 1,
+        "raw_llm": "A:{\"settlement_date\": \"2/20/2026\"} | A_gate_rejected:'2/20/2026' | B:{\"settlement_date\": null}"
+      }
+    }
+  },
+  {
+    "accession": "0001193125-26-123055",
+    "event_id": "005-88968",
+    "n_spans": 42,
+    "n_excerpt_chars": 24147,
+    "fields": {
+      "settlement_date": {
+        "outcome": "mismatch",
+        "gold": "2/11/2026",
+        "pred": "1/13/2026",
+        "pass_used": "A",
+        "n_evidence_chars": 143,
+        "n_rules": 2,
+        "raw_llm": "A:{\"settlement_date\": \"1/13/2026\"}"
+      }
+    }
+  }
+]

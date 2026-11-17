@@ -1,0 +1,61 @@
+{
+  "n_jobs": 65,
+  "delta": {
+    "still_bad": 50,
+    "improved": 12,
+    "still_ok": 3
+  },
+  "by_field": {
+    "acquirer": {
+      "still_bad": 6,
+      "improved": 2
+    },
+    "cash_consideration": {
+      "still_bad": 4,
+      "still_ok": 1
+    },
+    "consideration_type": {
+      "still_bad": 2,
+      "improved": 1,
+      "still_ok": 1
+    },
+    "effective_date": {
+      "still_bad": 1
+    },
+    "security_description": {
+      "still_bad": 8,
+      "still_ok": 1
+    },
+    "shareholder_vote_date": {
+      "still_bad": 5
+    },
+    "stock_exchange_ratio": {
+      "still_bad": 10,
+      "improved": 2
+    },
+    "target": {
+      "still_bad": 5,
+      "improved": 5
+    },
+    "ticker": {
+      "still_bad": 9,
+      "improved": 2
+    }
+  },
+  "micro_baseline": {
+    "tp": 75,
+    "fp": 54,
+    "fn": 84,
+    "p": 0.5813953488372093,
+    "r": 0.4716981132075472,
+    "f1": 0.5208333333333334
+  },
+  "micro_overlay_prompt_fixes": {
+    "tp": 87,
+    "fp": 59,
+    "fn": 72,
+    "p": 0.5958904109589042,
+    "r": 0.5471698113207547,
+    "f1": 0.5704918032786885
+  }
+}

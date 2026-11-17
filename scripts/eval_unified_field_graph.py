@@ -59,12 +59,27 @@ RESULT_KEYS = ("pred", "pass_used", "n_evidence_chars", "n_rules", "raw_llm")
 
 
 def _gt_ok(val: str | None) -> bool:
+    """True when gold is a real value (not blank / NA / explicit-absence sentinel)."""
     v = (val or "").strip()
-    return bool(v) and v.lower() not in _NA
+    if not v or v.lower() in _NA:
+        return False
+    # tender.normalize also blanks "No minimum tender condition", "∅", "No proration",
+    # and OTP paraphrases ("not conditioned on any minimum…") so they are not FN/FP.
+    return bool(normalize(v))
 
 
 def _acc(row: dict) -> str:
     return (row.get("accession_number") or "").strip()
+
+
+def read_accessions_file(path: Path) -> set[str]:
+    """Accessions listed one per line; blank lines and ``#`` comments ignored."""
+    out: set[str] = set()
+    for line in path.read_text(encoding="utf-8").splitlines():
+        s = line.split("#", 1)[0].strip()
+        if s:
+            out.add(s)
+    return out
 
 
 # --- per-pack harness config ---------------------------------------------------------
@@ -145,6 +160,9 @@ HARNESS_CONFIGS: dict[str, HarnessConfig] = {
 class DiskTemporalCache:
     """``temporal_for`` over ``<out>/temporal_cache/<pack>/<event_key>.json``.
 
+    Packs with a non-default temporal scan (``temporal_scan_chars`` / ``temporal_max_spans``)
+    use ``<event_key>__scan<chars>_max<spans>.json`` instead (see ``path_for``).
+
     Shared across run-names so pause/fix/resume never re-NER the same filings. On a
     miss the tagger is loaded lazily (``tagger_loader``); with no tagger (``--no-temporal``)
     a miss returns {} and writes nothing, so it cannot poison later temporal runs.
@@ -159,8 +177,18 @@ class DiskTemporalCache:
         self.hits = 0
         self.misses = 0
 
+    def path_for(self, key: str) -> Path:
+        """``<key>.json`` for the default temporal scan; otherwise the scan config is part of
+        the filename (``<key>__scan<chars>_max<spans>.json``) so a cache written under a
+        different scan window / span cap is never reused."""
+        if self.pack.temporal_scan_is_default:
+            return self.cache_dir / f"{key}.json"
+        return self.cache_dir / (
+            f"{key}__scan{self.pack.temporal_scan_chars}_max{self.pack.temporal_max_spans}.json"
+        )
+
     def __call__(self, key: str, excerpts: str, fields: tuple[str, ...]) -> dict[str, list[str]]:
-        path = self.cache_dir / f"{key}.json"
+        path = self.path_for(key)
         if path.exists():
             self.hits += 1
             return json.loads(path.read_text(encoding="utf-8"))
@@ -296,6 +324,13 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--model", default=None, help="Default: gemma4:26b for orin, else OpenRouter free")
     p.add_argument("--documents-parquet", type=Path, default=ROOT / "data/processed/documents.parquet")
     p.add_argument("--split", choices=("holdout", "train"), default="holdout")
+    p.add_argument(
+        "--accessions-file",
+        type=Path,
+        default=None,
+        help="restrict rows to the accessions listed in this file (one per line; '#' comments); "
+        "applied after --split, before --limit",
+    )
     p.add_argument("--limit", type=int, default=None)
     p.add_argument("--fields", default="core", help="'core' or comma-separated subset")
     p.add_argument("--run-name", default=None)
@@ -394,6 +429,20 @@ def main(argv: list[str] | None = None) -> int:
         rows = [r for r in gt_rows if _acc(r) in holdout]
     else:
         rows = [r for r in gt_rows if _acc(r) not in holdout]
+    if args.accessions_file is not None:
+        try:
+            wanted = read_accessions_file(args.accessions_file)
+        except OSError as e:
+            print(f"cannot read --accessions-file: {e}", file=sys.stderr)
+            return 2
+        rows = [r for r in rows if _acc(r) in wanted]
+        if not rows:
+            print(
+                f"--accessions-file {args.accessions_file}: no GT rows of split "
+                f"{args.split!r} match its {len(wanted)} accessions",
+                file=sys.stderr,
+            )
+            return 2
     if args.limit:
         rows = rows[: args.limit]
 

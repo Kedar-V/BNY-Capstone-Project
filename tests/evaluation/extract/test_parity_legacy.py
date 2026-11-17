@@ -11,11 +11,15 @@ Legs
 - real artifacts (tender + merger): skipped cleanly when GT / preprocess artifacts are
   absent. Sampled to keep runtime low: every ``STRIDE``-th accession of the sorted GT
   accessions (capped at ``MAX_EVENTS``), first GT row per accession, all core fields.
+
+Scope: fields with an explicit ``pack.policies`` entry are not compared (see
+``parity_fields``); the legacy reference has no behaviour for explicit policies.
 """
 
 from __future__ import annotations
 
 import ast
+import dataclasses
 import json
 from pathlib import Path
 
@@ -28,6 +32,30 @@ from src.evaluation.extract.dtos import FieldExtractRequest
 from src.evaluation.extract.graph import build_extract_graph, run_field
 from src.evaluation.extract.providers import ArtifactProvider
 from src.preprocess.store import DEFAULT_PREPROCESS_ROOT, ArtifactStore
+
+# Legacy snapshot has no hybrid leg / hybrid prompt wording — freeze packs hybrid-off.
+TENDER_PACK = dataclasses.replace(
+    TENDER_PACK,
+    hybrid=None,
+    system_prompt=(
+        "You are a tender-offer field extractor. Evidence is already filtered for this field "
+        "(RULES facts, GLiNER spans, temporal DATE spans, or clause excerpts). "
+        "Your job is to PICK or COPY the best matching listed value — not to abstain. "
+        "Return one JSON object only. Copy values from evidence (light cleanup OK). "
+        "Do not invent CUSIP/ISIN/ticker/date/price strings that are not in the evidence."
+    ),
+)
+MERGER_PACK = dataclasses.replace(
+    MERGER_PACK,
+    hybrid=None,
+    system_prompt=(
+        "You are a merger field extractor. Evidence is already filtered for this field "
+        "(RULES facts, GLiNER/passage spans, temporal DATE spans). "
+        "Your job is to PICK the best matching listed value — not to abstain. "
+        "Return one JSON object only. Copy values from evidence (light cleanup OK). "
+        "Do not invent CUSIP/ISIN/ticker/date/price strings that are not in the evidence."
+    ),
+)
 
 ROOT = Path(__file__).resolve().parents[3]
 # Frozen copy of the 2026-11-13 harness (.txt so pytest never collects it)
@@ -58,6 +86,19 @@ def _legacy_kwargs(ctx) -> dict:
     )
 
 
+def parity_fields(pack) -> tuple[str, ...]:
+    """Fields compared against the legacy reference.
+
+    Fields with an explicit ``pack.policies`` entry are excluded: the frozen legacy
+    ``extract_field`` predates explicit policies (it treats every ``clause_fields`` entry as
+    clause-only, null on a miss), so it has no reference behaviour for them. Today that is
+    the tender retrieval config's ``minimum_tender_condition`` and ``security_description``
+    (clause stage that falls through to the oneshot pick); their behaviour is covered by
+    tests/evaluation/extract/test_tender_retrieval.py. Every other field must still match.
+    """
+    return tuple(f for f in pack.fields if f not in pack.policies)
+
+
 def _compare(pack, provider, keys, *, cascade, validate, backend_mode, fields=None):
     """Return (n_cases, mismatches, pass_used histogram)."""
     graph_backend = EchoFirstBackend(backend_mode)
@@ -67,7 +108,7 @@ def _compare(pack, provider, keys, *, cascade, validate, backend_mode, fields=No
     hist: dict[str, int] = {}
     n = 0
     for key in keys:
-        for field in fields or pack.fields:
+        for field in fields or parity_fields(pack):
             req = FieldExtractRequest(
                 pack_name=pack.name, field=field, event_id=None, accession=key,
                 model=MODEL, validate_enabled=validate, cascade=cascade,

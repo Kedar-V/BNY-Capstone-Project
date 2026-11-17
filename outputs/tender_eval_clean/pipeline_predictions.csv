@@ -1,0 +1,546 @@
+gt_row_id,accession_number,event_id,join,status,n_facts,subject_company,bidder,parent,acquisition_subsidiary,dealer_manager,depositary,information_agent,other_parties,security_description,ticker,cusip,isin,event_status,event_status_details,mandatory_voluntary_indicator,offer_price_type,offer_price,currency,offer_price_basis,offer_price_qualifications,expiration_date,withdrawal_deadline,settlement_date,effective_date,minimum_tender_condition,proration_terms,tendering_conditions,available_options,default_option,financial_terms,conditions_restrictions
+0:0001859919-26-000002,0001859919-26-000002,005-92837,accession,scored,22,Barings Private Credit Corporation,Barings Private Credit Corporation,,,,,,,Company,,06763A101,US06763A1016,,,,,net asset value,,,,"September 30, 2025",,1/2/2026,,,,,,,,
+1:0001213900-26-000471,0001213900-26-000471,005-95095,accession,scored,29,"SEG Partners Long/Short Equity
+Fund","SEG Partners Long/Short Equity
+Fund",,,,,,,"SEG Partners
+Long/Short Equity Fund",,815789201; 815789102,US8157892014; US8157891024,,,,,value of the repurchased shares,,,,"March
+31, 2026",,1/30/2026,,,terms of the tender offer,,,,,
+2:0001213900-26-000378,0001213900-26-000378,005-93782,accession,scored,13,"CONSTITUTION CAPITAL ACCESS FUND, LLC","Constitution Capital Access Fund, LLC",,,,,,,Fund,,21039R101; 21039R200; 21039R309,US21039R1014; US21039R2004; US21039R3093,,,,,,,,,,,1/30/2026,,,,,,,,
+3:0001213900-26-000356,0001213900-26-000356,005-92499,accession,scored,31,STEELE CREEK CAPITAL CORPORATION,STEELE CREEK CAPITAL CORPORATION,,,,,,,Steele Creek Capital Corporation,,85817G108,US85817G1085,,,,,"271,994",,,,"June
+30, 2021",,6/30/2021,,,,,,,,
+4:0001193125-26-000507,0001193125-26-000507,005-94255,accession,scored,6,Jefferies Credit Partners BDC Inc.,Paul Hastings LLP,,,,,,,,,,,,,,,net asset value,,,,,,,,,,,,,,
+5:0001661306-26-000002,0001661306-26-000002,005-90723,accession,scored,31,"Hancock Park Corporate Income, Inc.","HANCOCK PARK CORPORATE INCOME, INC.",,,,,,,Company,,,,,,,,$13.05,USD,,,"March 30, 2020",11:59 P.M.,3/27/2020,,,,,,,,
+6:0001398344-26-000104,0001398344-26-000104,005-91545,accession,scored,19,"BBR Partners, LLC","BBR ALO Fund, LLC",,,,,,,"BBR ALO FUND, LLC",,,,,,,,"$75,000,000",USD,,,,,9/30/2021,,,terms of the tender offer,,,,,
+7:0001104659-26-000598,0001104659-26-000598,005-94462,accession,scored,9,FIRST TRUST PRIVATE ASSETS FUND,"UMB Fund Services, Inc.",,,,,,,SHARES OF BENEFICIAL INTEREST,,,,,,,,net asset value,,,,,,3/31/2025,,,,,,,,
+8:0001104659-26-001124,0001104659-26-001124,005-90033,event_id,scored,70,"MERSANA THERAPEUTICS, INC.","Emerald Merger Sub, Inc.",,,,,,,"Mersana Therapeutics, Inc.",MRSN,59045L106,US59045L1061,,,,,"$
+7.54",USD,,,"January 5, 2026","February 3, 2026",7/25/2025,"November 13, 2025",Offer Conditions,,,,,,
+9:0001213900-26-001613,0001213900-26-001613,005-94970,accession,scored,7,HAMILTON LANE PRIVATE INFRASTRUCTURE FUND,Hamilton Lane Private Infrastructure Fund,,,,,,,,,,,,,,,"$4,941,992",USD,,,,,,,,,,,,,
+10:0001104659-26-001149,0001104659-26-001149,005-94079,accession,scored,8,KKR FS Income Trust,KKR FS Income Trust,,,,,,,,,48255N100,US48255N1000,,,,,"net asset value per share as of December 31, 2025",,,,"September 1, 2026",,,,,,,,,,
+11:0001104659-26-001148,0001104659-26-001148,005-94422,accession,scored,9,KKR FS Income Trust Select,KKR FS Income Trust Select,,,,,,,,,48256J108,US48256J1088,,,,,"net asset value per Share
+as of December 31, 2025",,,,"September 1, 2026",,,,,,,,,,
+12:0001193125-26-006518,0001193125-26-006518,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+13:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,scored,28,"ck & Co., Inc.",Merck Sharp & Dohme LLC,,,,,,,Series A Convertible Voting Preferred Stock,,171757206,US1717572069,,,,,"$15,505.00",USD,,,,"JANUARY 6, 2026",12/5/2025,,,,,,,,
+14:0001193125-26-005515,0001193125-26-005515,005-88806,event_id,scored,28,"ck & Co., Inc.",Merck Sharp & Dohme LLC,,,,,,,Series A Convertible Voting Preferred Stock,,171757206,US1717572069,,,,,"$15,505.00",USD,,,,"JANUARY 6, 2026",12/5/2025,,,,,,,,
+15:0001193125-26-005891,0001193125-26-005891,005-94110,accession,scored,15,,Fidelity Private Credit Company LLC,,,,,,,Authorized Signatory,,316129105,US3161291055,,,,,$9.29,USD,,,"September 26,
+2024",,1/5/2026,,,,,,,,
+16:0001493152-26-000805,0001493152-26-000805,005-89078,accession,scored,12,"FUBOTV
+INC.",The Walt Disney Company,,,,,,,Company,,35953DAC8,US35953DAC83,,,,,"$1,000",USD,,,,,,,,,,,,,
+17:0001193125-26-005732,0001193125-26-005732,005-89631,accession,scored,36,"AMG Pantheon Master Fund, LLC","AMG Pantheon Master Fund, LLC",,,,,,,"AMG Pantheon Master Fund, LLC",,001701101,US0017011018,,,,,$13.64,,,,"June 30, 2020",March 31,1/31/2020,effective,,,,,,,
+18:0001193125-26-005730,0001193125-26-005730,005-89632,accession,scored,39,"AMG Pantheon Fund, LLC","AMG Pantheon Fund, LLC",,,,,,,"AMG Pantheon Fund, LLC",,001700137; 001700111; 001700129; 001700103; 001700202,US0017001373; US0017001118; US0017001290; US0017001035; US0017002025,,,,,unaudited net asset value,,,,"June 30, 2020",Valuation Date,7/1/2019,"June 30, 2020",,,,,,,
+19:0001193125-26-007074,0001193125-26-007074,005-95016,accession,scored,6,,HarbourVest Private Investments Fund,,,,,,,,,41166N103; 41166N202; 41166N301,US41166N1037; US41166N2027; US41166N3017,,,,,"$26,625,326.44",USD,,,,,,,,,,,,,
+20:0001213900-26-002386,0001213900-26-002386,005-93831,accession,scored,27,Fund,"Fundrise Growth Tech Fund, LLC",,,,,,,COMMON SHARES OF BENEFICIAL INTEREST,,,,,,,,$16.00,USD,,,"November 26, 2024",Valuation Date,11/25/2024,,,,,,,,
+21:0001104659-26-002517,0001104659-26-002517,005-91530,accession,scored,77,Generation Bio Co.,"Alliance Advisors, LLC",,,,,,,Company Shares,GBIO,37148K209,US37148K2096,,,,,$4.2913,USD,,,"February 8, 2026","February 8, 2026",1/9/2026,Effective Time,Minimum Tender Condition,,,,,,
+22:0001193125-26-008886,0001193125-26-008886,005-93864,accession,scored,13,Onex Direct Lending BDC Fund,"Onex Credit Advisor,
+LLC",,,,,,,ring Shares,,,,,,,,,,,,,,1/21/2026,,,,,,,,
+23:0001213900-26-002892,0001213900-26-002892,005-92409,accession,scored,10,HAMILTON LANE PRIVATE ASSETS FUND,Hamilton Lane Private Assets Fund,,,,,,,r,,407498302; 407498203; 407498104,US4074983028; US4074982038; US4074981048,,,,,"$211,453,274",USD,,,,,,,,,,,,,
+24:0001213900-26-002892,0001213900-26-002892,005-92409,accession,scored,10,HAMILTON LANE PRIVATE ASSETS FUND,Hamilton Lane Private Assets Fund,,,,,,,r,,407498302; 407498203; 407498104,US4074983028; US4074982038; US4074981048,,,,,"$211,453,274",USD,,,,,,,,,,,,,
+25:0001213900-26-002892,0001213900-26-002892,005-92409,accession,scored,10,HAMILTON LANE PRIVATE ASSETS FUND,Hamilton Lane Private Assets Fund,,,,,,,r,,407498302; 407498203; 407498104,US4074983028; US4074982038; US4074981048,,,,,"$211,453,274",USD,,,,,,,,,,,,,
+26:0001213900-26-002756,0001213900-26-002756,005-94451,accession,scored,16,FELICITAS PRIVATE MARKETS FUND,"Felicitas Private Markets
+Fund",,,,,,,Class Y,,31431P108,US31431P1084,,,,,"$5,538,026",,,,,,11/21/2025,,,,,,,,
+27:0001193125-26-009777,0001193125-26-009777,005-80035,accession,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+28:0001580642-26-000224,0001580642-26-000224,005-94632,accession,scored,11,DYNAMIC ALTERNATIVES FUND,Dynamic Alternatives Fund,,,,,,,Fund,,,,,,,,,,,,,,1/1/2019,,,,,,,,
+29:0001193125-26-010350,0001193125-26-010350,005-85619,accession,scored,14,MakeMyTrip Limited,MakeMyTrip Limited,,,,,,,Company,,56087FAB0,US56087FAB04,,,,,,,,,,,2/9/2021,,,,,,,,
+30:0002051820-26-000007,0002051820-26-000007,005-95405,accession,scored,12,Mount Logan Capital Inc.,Mount Logan Capital Inc.,,,,,,,,,62188E103,US62188E1038,,,,,$15 million,USD,,,,,,,,,,,,,
+31:0001193125-26-011820,0001193125-26-011820,005-92816,accession,scored,45,KKR Real Estate Select Trust Inc.,KKR Real Estate Select Trust Inc.,,,,,,,KREST,,49836N502; 49836N304; 49836N106; 49836N403,US49836N5023; US49836N3044; US49836N1063; US49836N4034,,,,,"$1,000",USD,,,"April 20, 2022","May 15, 2022",3/23/2022,,,,,,,,
+32:0001193125-26-011820,0001193125-26-011820,005-92816,accession,scored,45,KKR Real Estate Select Trust Inc.,KKR Real Estate Select Trust Inc.,,,,,,,KREST,,49836N502; 49836N304; 49836N106; 49836N403,US49836N5023; US49836N3044; US49836N1063; US49836N4034,,,,,"$1,000",USD,,,"April 20, 2022","May 15, 2022",3/23/2022,,,,,,,,
+33:0001193125-26-011820,0001193125-26-011820,005-92816,accession,scored,45,KKR Real Estate Select Trust Inc.,KKR Real Estate Select Trust Inc.,,,,,,,KREST,,49836N502; 49836N304; 49836N106; 49836N403,US49836N5023; US49836N3044; US49836N1063; US49836N4034,,,,,"$1,000",USD,,,"April 20, 2022","May 15, 2022",3/23/2022,,,,,,,,
+34:0001193125-26-011820,0001193125-26-011820,005-92816,accession,scored,45,KKR Real Estate Select Trust Inc.,KKR Real Estate Select Trust Inc.,,,,,,,KREST,,49836N502; 49836N304; 49836N106; 49836N403,US49836N5023; US49836N3044; US49836N1063; US49836N4034,,,,,"$1,000",USD,,,"April 20, 2022","May 15, 2022",3/23/2022,,,,,,,,
+35:0000919574-26-000310,0000919574-26-000310,005-93136,accession,scored,15,"OCEANPAL, INC.",OceanPal Inc.,,,,,,,7.0% Series D Cumulative Convertible Perpetual Preferred Stock,,,,,,,,$27.2 million,USD,,,"November 25, 2025",,,,,,,,,,
+36:0001580642-26-000252,0001580642-26-000252,005-89754,accession,scored,43,"PEACHTREE
+ALTERNATIVE STRATEGIES FUND","Peachtree
+    Alternative Strategies Fund",,,,,,,"Institutional
+    Shares",,70469B102,US70469B1026,,,,,"$25,000",,,,"December 31, 2024",Valuation Date,2/13/2026,,,,,,,,
+37:0001193125-26-012276,0001193125-26-012276,005-93603,accession,scored,68,TCW DIRECT LENDING VIII LLC,TCW Direct Lending VIII LLC,,,,,,,DL VIII,,,,,,,,$770 million,,,,"February 1, 2026",5:00 p.m.,2/20/2026,"September 30, 2025",,,,,,,
+38:0001580642-26-000264,0001580642-26-000264,005-93878,accession,scored,18,Fairway Private Equity & Venture Capital Opportunities Fund,"Fairway Private
+Equity & Venture Capital Opportunities Fund",,,,,,,"Fairway Private Equity
+& Venture Capital Opportunities Fund",,30607E103,US30607E1038,,,,,"net asset
+value per Share",,,,"March 26, 2024",,,,,,,,,,
+39:0001193125-26-014573,0001193125-26-014573,005-80363,accession,scored,37,Bank of Montreal,ALPHA CORE STRATEGIES FUND,,,,,,,Sub-Fund,,,,,,,,"$20,000",USD,,,"May 17, 2021",5:00 p.m.,6/15/2021,,,,,,,,
+40:0001731122-26-000069,0001731122-26-000069,005-84248,accession,scored,30,"Broadridge Corporate
+Issuer Solutions, LLC",DATA STORAGE CORPORATION,,,,,,,Company,,23786R201,US23786R2013,,,,,$5.20,USD,,,"December 8, 2025",5:00 p.m.,1/14/2026,,,,,,,,
+41:0001623632-26-000063,0001623632-26-000063,005-89950,accession,scored,14,Federated Hermes Project and Trade Finance Tender Fund,"Federated Hermes Project and Trade Finance Tender
+Fund",,,,,,,FEDERATED HERMES PROJECT AND TRADE FINANCE TENDER FUND,,31424D104; 31424D401,US31424D1046; US31424D4016,,,,,"$47,879,164.97",USD,,,,,,,,,,,,,
+42:0001623632-26-000063,0001623632-26-000063,005-89950,accession,scored,14,Federated Hermes Project and Trade Finance Tender Fund,"Federated Hermes Project and Trade Finance Tender
+Fund",,,,,,,FEDERATED HERMES PROJECT AND TRADE FINANCE TENDER FUND,,31424D104; 31424D401,US31424D1046; US31424D4016,,,,,"$47,879,164.97",USD,,,,,,,,,,,,,
+43:0001999371-26-001383,0001999371-26-001383,005-53317,accession,scored,35,Fund,Total Return Securities Fund,,,,,,,Total Return Securities Fund,,870875101,US8708751016,,,,,$6.97,USD,,,"December 15, 2025","February 20, 2026",12/19/2025,,,"proration
+provisions",,,,,
+44:0001193125-26-017254,0001193125-26-017254,005-91017,accession,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+45:0001193125-26-019027,0001193125-26-019027,005-94282,accession,scored,24,StepStone Private Venture and Growth Fund,StepStone Private Venture and Growth Fund,,,,,,,StepStone Private Venture and Growth Fund,,,,,,,,minimum account balance,,,,"July 28, 2023",Tender Withdrawal Date,,,minimum account balance,,,,,,
+46:0001193125-26-020543,0001193125-26-020543,005-91252,accession,scored,20,"Bank of America, N.A.",Clarion Partners Real Estate Income Fund Inc.,,,,,,,Fund,,180567109; 180567208; 180567307; 180567406,US1805671096; US1805672086; US1805673076; US1805674066,,,,,aggregate net asset value,USD,,,"January 14, 2026",,,,,,,,,,
+47:0001193125-26-020543,0001193125-26-020543,005-91252,accession,scored,20,"Bank of America, N.A.",Clarion Partners Real Estate Income Fund Inc.,,,,,,,Fund,,180567109; 180567208; 180567307; 180567406,US1805671096; US1805672086; US1805673076; US1805674066,,,,,aggregate net asset value,USD,,,"January 14, 2026",,,,,,,,,,
+48:0001193125-26-020543,0001193125-26-020543,005-91252,accession,scored,20,"Bank of America, N.A.",Clarion Partners Real Estate Income Fund Inc.,,,,,,,Fund,,180567109; 180567208; 180567307; 180567406,US1805671096; US1805672086; US1805673076; US1805674066,,,,,aggregate net asset value,USD,,,"January 14, 2026",,,,,,,,,,
+49:0001193125-26-020543,0001193125-26-020543,005-91252,accession,scored,20,"Bank of America, N.A.",Clarion Partners Real Estate Income Fund Inc.,,,,,,,Fund,,180567109; 180567208; 180567307; 180567406,US1805671096; US1805672086; US1805673076; US1805674066,,,,,aggregate net asset value,USD,,,"January 14, 2026",,,,,,,,,,
+50:0001213900-26-007068,0001213900-26-007068,005-92444,accession,scored,13,ASPIRIANT REAL ASSETS FUND,Aspiriant Real Assets Fund,,,,,,,"Aspiriant Risk
+-Managed
+Real Assets Fund",,04539D103,US04539D1037,,,,,NAV,,,,,,3/16/2026,,,,,,,,
+51:0001104659-26-006294,0001104659-26-006294,005-93688,accession,scored,8,EAGLE POINT INSTITUTIONAL INCOME FUND,EAGLE POINT INSTITUTIONAL INCOME FUND,,,,,,,,,269819108,US2698191085,,,,,net asset value,,,,,,,,,,,,,,
+52:0001580642-26-000392,0001580642-26-000392,005-95349,accession,scored,52,"iDirect Multi-Strategy
+Fund, LLC","iDirect Multi-Strategy Fund, LLC",,,,,,,"iDirect Multi-Strategy Fund, LLC",,,,,,,,"$153,654,827",,,,"September 30, 2025",12:00 midnight,,,,,,,,,
+53:0001213900-26-007345,0001213900-26-007345,005-92998,accession,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+54:0001213900-26-007345,0001213900-26-007345,005-92998,accession,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+55:0001213900-26-007345,0001213900-26-007345,005-92998,accession,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+56:0001213900-26-007345,0001213900-26-007345,005-92998,accession,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+57:0001213900-26-007345,0001213900-26-007345,005-92998,accession,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+58:0001213900-26-007345,0001213900-26-007345,005-92998,accession,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+59:0001213900-26-007345,0001213900-26-007345,005-92998,accession,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+60:0001702510-26-000004,0001702510-26-000004,005-90234,accession,scored,77,"Carlyle Credit Solutions, Inc.","Carlyle Credit Solutions, Inc.",,,,,,,"CDL TENDER FUND 2022-1, L.P.",,,,,,,,$100 million,USD,,,"April 5, 2022","April 4, 2022",1/26/2026,"May 31, 2022",terms and conditions of the Offer,,,,,,
+61:0001104659-26-006517,0001104659-26-006517,005-94568,accession,scored,35,"Hartford Schroders
+Private Opportunities Fund","Hartford Funds Management
+    Co, LLC",,,,,,,"Class I
+XHFIX",,,,,,,,net asset value,,,,"December 27, 2021","June 30, 2024",,,,,,,,,
+62:0001213900-26-007374,0001213900-26-007374,005-94239,accession,scored,6,"Oxford Park Income Fund, Inc.","Oxford Park Income Fund, Inc.",,,,,,,Class A Shares,,,,,,,,5%,,,,,,,,,,,,,,
+63:0001213900-26-007374,0001213900-26-007374,005-94239,accession,scored,6,"Oxford Park Income Fund, Inc.","Oxford Park Income Fund, Inc.",,,,,,,Class A Shares,,,,,,,,5%,,,,,,,,,,,,,,
+64:0001213900-26-007374,0001213900-26-007374,005-94239,accession,scored,6,"Oxford Park Income Fund, Inc.","Oxford Park Income Fund, Inc.",,,,,,,Class A Shares,,,,,,,,5%,,,,,,,,,,,,,,
+65:0001104659-26-006950,0001104659-26-006950,005-95189,accession,scored,11,COATUE INNOVATIVE STRATEGIES FUND,Kirkland & Ellis LLP,,,,,,,,,,,,,,,value,,,,"February 24, 2026",,2/24/2026,,,,,,,,
+66:0001193125-26-024587,0001193125-26-024587,005-94202,accession,scored,27,Company,North Haven Private Income Fund A LLC,,,,,,,"North
+Haven Private Income Fund A",,,,,,,,$240 million,USD,,,"July 31, 2026","July 31, 2026",1/28/2026,,,prorated basis,,,,,
+67:0001193125-26-024425,0001193125-26-024425,005-93652,accession,scored,11,North Haven Private Income Fund LLC,North Haven Private Income Fund LLC,,,,,,,North Haven Private Income Fund LLC,,,,,,,,"net asset value per Unit as of December 31, 2025",,,,"June 9, 2022",,1/28/2026,,,,,,,,
+68:0001398344-26-001322,0001398344-26-001322,005-85837,accession,scored,9,"PARTNERS GROUP PRIVATE EQUITY FUND, LLC","Partners Group Private Equity Fund, LLC",,,,,,,Fund,,,,,,,,,,,,,,4/1/2026,,,,,,,,
+69:0001398344-26-001326,0001398344-26-001326,005-94811,accession,scored,10,"PARTNERS GROUP GROWTH, LLC","Partners Group Growth, LLC",,,,,,,Fund,,,,,,,,5.00%,,,,,,4/1/2026,,,,,,,,
+70:0001193125-26-024569,0001193125-26-024569,005-94467,accession,scored,4,,LGAM Private Credit LLC,,,,,,,,,,,,,,,"net asset value per Unit as of December 31, 2025",,,,,,,,,,,,,,
+71:0001398344-26-001324,0001398344-26-001324,005-94810,accession,scored,10,"PARTNERS GROUP NEXT GENERATION INFRASTRUCTURE, LLC","Partners Group Next Generation Infrastructure, LLC",,,,,,,Fund,,,,,,,,net asset value,,,,,,4/1/2026,,,,,,,,
+72:0001493152-26-000914,0001493152-26-000914,005-92545,accession,scored,9,,"Anebulo
+Pharmaceuticals, Inc.",,,,,,,SEC,,034569103,US0345691036,,,,,$3.50 per share,USD,,,,,,,,,,,,,
+73:0001193125-26-011532,0001193125-26-011532,005-88968,accession,scored,44,"AUDAX CREDIT BDC, INC.","Audax Credit BDC, Inc.",,,,,,,Company,,05070P108,US05070P1084,,,,,"$350,000,000.00",USD,,,"December 31, 2025",11:59 P.M.,1/13/2026,,"terms and conditions of the
+Offer",,,,,,
+74:0001213900-26-007069,0001213900-26-007069,005-92445,accession,scored,17,ASPIRIANT CAPITAL APPRECIATION FUND,Shareholder,,,,,,,Aspiriant Capital Appreciation Fund,,04538B108,US04538B1089,,,,,$11.91,USD,,,,,3/16/2026,,,,,,,,
+75:0001193125-26-023662,0001193125-26-023662,005-88054,accession,scored,48,SKYBRIDGE G II FUND,SkyBridge G II Fund,,,,,,,"BNY Mellon Investment
+Servicing",,,,,,,,"$25,000",USD,,,"April 17, 2020","April 17, 2020",3/31/2026,,25% threshold,LLC Agreement,,,,,
+76:0001193125-26-023657,0001193125-26-023657,005-79005,accession,scored,54,SKYBRIDGE OPPORTUNITY FUND,SkyBridge Opportunity Fund,,,,,,,"Multi-Strategy
+Series G",,,,,,,,"$25,000",USD,,,"June 30, 2020","April 17, 2020",3/31/2026,,,,,,,,
+77:0001628280-26-003814,0001628280-26-003814,005-95394,accession,scored,9,"Crestline Lending Solutions, LLC","Crestline Lending Solutions, LLC",,,,,,,Fund Name,,,,,,,,"$17,203,812.45",USD,,,"January 21, 2026",,,,,,,,,,
+78:0001104659-26-008028,0001104659-26-008028,005-90791,accession,scored,28,MONROE CAPITAL INCOME PLUS CORPORATION,Monroe Capital Income Plus Corporation,,,,,,,Common Stock,,,,,,,,net asset value,,,,"February 27, 2026",,2/27/2026,,,,,,,,
+79:0001193125-26-028533,0001193125-26-028533,005-94024,accession,scored,39,Fidelity Private Credit Fund,Fidelity Diversifying Solutions LLC,,,,,,,Class I common shares of beneficial interest,,31634E306; 31634E207; 31634E108,US31634E3062; US31634E2072; US31634E1082,,,,,"$10,000",,,,"May 31, 2023",,7/1/2022,,,,,,,,
+80:0000930413-26-000298,0000930413-26-000298,005-94863,accession,scored,13,Lord Abbett Private Credit Fund,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,,,,,,,,,0.01,,,,"January 29, 2026","January 29, 2026",2/27/2026,,,,,,,,
+81:0001193125-26-028895,0001193125-26-028895,005-94179,accession,scored,15,Vista Credit Strategic Lending Corp.,Vista Credit Strategic Lending Corp.,,,,,,,Company,,92839L107; U9224Y103; 92839L206; U9227Y100; 92839L305; U9227Y118,US92839L1070; USU9224Y1039; US92839L2060; USU9227Y1002; US92839L3050; USU9227Y1184,,,,,"$15,365,349.21",USD,,,"April 21, 2026",,1/29/2026,,,,,,,,
+82:0000930413-26-000299,0000930413-26-000299,005-95186,accession,scored,15,Lord Abbett Private Credit Fund S,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,,,,,,,,,0.01,,,,"January 29, 2026","January 29, 2026",2/27/2026,,,,,,,,
+83:0001193125-26-029532,0001193125-26-029532,005-92613,accession,scored,15,BlackRock Alpha Strategies Fund,"BlackRock Advisors, LLC",,,,,,,Portfolio Funds,,09261A102; 09261A201,US09261A1025; US09261A2015,,,,,,,,,,,1/28/2026,,,,,,,,
+84:0001193125-26-029532,0001193125-26-029532,005-92613,accession,scored,15,BlackRock Alpha Strategies Fund,"BlackRock Advisors, LLC",,,,,,,Portfolio Funds,,09261A102; 09261A201,US09261A1025; US09261A2015,,,,,,,,,,,1/28/2026,,,,,,,,
+85:0001213900-26-009413,0001213900-26-009413,005-94977,accession,scored,12,PRIVACORE PCAAM ALTERNATIVE GROWTH FUND,Privacore PCAAM Alternative Growth Fund,,,,,,,Fund,,74290Y307,US74290Y3071,,,,,,,,,,,2/27/2026,,,,,,,,
+86:0001213900-26-009300,0001213900-26-009300,005-91800,accession,scored,12,"KEYSTONE PRIVATE INCOME
+FUND","Keystone
+                                            Private Income Fund",,,,,,,Class A Shares,,,,,,,,"net
+                                            asset per Share",,,,,,9/30/2026,,,,,,,,
+87:0001628280-26-003928,0001628280-26-003928,005-93743,accession,scored,66,"DST Systems, Inc.",BLUE OWL TECHNOLOGY INCOME CORP.,,,,,,,ered Shares,,69120R100; 69120R209; 69120R308,US69120R1005; US69120R2094; US69120R3084,,,,,$10.17,USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+88:0001628280-26-003928,0001628280-26-003928,005-93743,accession,scored,66,"DST Systems, Inc.",BLUE OWL TECHNOLOGY INCOME CORP.,,,,,,,ered Shares,,69120R100; 69120R209; 69120R308,US69120R1005; US69120R2094; US69120R3084,,,,,$10.17,USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+89:0001628280-26-003928,0001628280-26-003928,005-93743,accession,scored,66,"DST Systems, Inc.",BLUE OWL TECHNOLOGY INCOME CORP.,,,,,,,ered Shares,,69120R100; 69120R209; 69120R308,US69120R1005; US69120R2094; US69120R3084,,,,,$10.17,USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+90:0001628280-26-003929,0001628280-26-003929,005-92431,accession,scored,65,"DST Systems, Inc.",BLUE OWL CREDIT INCOME CORP.,,,,,,,Class S,,69120V101; 69120V200; 69120V309,US69120V1017; US69120V2007; US69120V3096,,,,,"$262,489,538",USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+91:0001628280-26-003929,0001628280-26-003929,005-92431,accession,scored,65,"DST Systems, Inc.",BLUE OWL CREDIT INCOME CORP.,,,,,,,Class S,,69120V101; 69120V200; 69120V309,US69120V1017; US69120V2007; US69120V3096,,,,,"$262,489,538",USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+92:0001628280-26-003929,0001628280-26-003929,005-92431,accession,scored,65,"DST Systems, Inc.",BLUE OWL CREDIT INCOME CORP.,,,,,,,Class S,,69120V101; 69120V200; 69120V309,US69120V1017; US69120V2007; US69120V3096,,,,,"$262,489,538",USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+93:0001398344-26-001575,0001398344-26-001575,005-94305,accession,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+94:0001140361-26-003032,0001140361-26-003032,005-94050,accession,scored,22,BlackRock Private Credit Fund,"BlackRock Capital Investment Advisors, LLC",,,,,,,Class D common shares of beneficial interest,,BRY4333P7; BRY42WTV3; BRY13VCK2,USBRY4333P74; USBRY42WTV34; USBRY13VCK24,,,,,$500,,,,"May 28, 2025",,1/30/2026,,,,,,,,
+95:0001193125-26-031594,0001193125-26-031594,005-94121,accession,scored,14,First Eagle Private Credit Fund,"First Eagle Investment Management, LLC",,,,,,,Class I common shares of beneficial interest,,32008T101; 32010R200,US32008T1016; US32010R2004,,,,,,,,,"February 27, 2026",,,,,,,,,,
+96:0001193125-26-031526,0001193125-26-031526,005-94201,accession,scored,45,StepStone Private Credit Fund LLC,"StepStone Private
+Credit Fund LLC",,,,,,,Company,,,,,,,,$500,USD,,,"December
+31, 2023","January
+1, 2024",1/30/2026,"January 1, 2024",qualifying disability,,,,,,
+97:0001398344-26-001754,0001398344-26-001754,005-95444,accession,scored,8,Lincoln Partners Group Royalty Fund,"Lincoln Partners Group Royalty
+Fund",,,,,,,Fund,,,,,,,,,,,,,,,,,,,,,,
+98:0001193125-26-030801,0001193125-26-030801,005-94250,accession,scored,15,MANULIFE PRIVATE CREDIT PLUS FUND,Manulife Private Credit Plus Fund,,,,,,,Manulife Private Credit Plus Fund,,,,,,,,"$9,900,000",USD,,,,,,,,,,,,,
+99:0001193125-26-030799,0001193125-26-030799,005-93713,accession,scored,15,John Hancock Asset-Based Lending Fund,"John Hancock Asset-Based Lending Fund, SS&C",,,,,,,ABLFX,,,,,,,,"$11,700,000",USD,,,,,,,,,,,,,
+100:0001104659-26-008693,0001104659-26-008693,005-35587,accession,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+101:0001193125-26-032788,0001193125-26-032788,005-91191,accession,scored,85,GSK PLC,"RAPT Therapeutics, Inc.",,,,,,,"Nasdaq Global Select
+Stock Market",RAPT,75382E208,US75382E2081,,,,,$0.0008,USD,,,"January 19, 2026",Offer Acceptance Time,4/30/2026,"April 30, 2026","Offer
+Conditions",,,,,,
+102:0001104659-26-008976,0001104659-26-008976,005-91139,accession,scored,41,"Macquarie Focused Access Fund, LLC","MACQUARIE FOCUSED ACCESS FUND, LLC",,,,,,,"Class A and
+Class I Units of Limited Liability Company Interests",,,,,,,,"net asset
+value",USD,,,"April 17, 2020","April 17, 2020",4/17/2020,,,,,,,,
+103:0001193125-26-033103,0001193125-26-033103,005-94247,accession,scored,16,Bain Capital Private Credit,Bain Capital Private Credit,,,,,,,Class I common shares of beneficial interest,,,,,,,,,,,,"March 3, 2026",,,,,,,,,,
+104:0001193125-26-032795,0001193125-26-032795,005-91801,accession,scored,54,Blackstone Private Credit Fund,Blackstone Private Credit Strategies LLC,,,,,,,Class I common shares of beneficial interest,,09261H305; 09261H107; 09261H206,US09261H3057; US09261H1077; US09261H2067,,,,,$500,,,,"May
+30, 2025","June
+30, 2025",7/1/2024,,,conditions of the Offer,,,,,
+105:0001580642-26-000648,0001580642-26-000648,005-94785,accession,scored,21,Fund,"New Mountain Finance Advisers, L.L.C.",,,,,,,New Mountain Private Credit Fund,,,,,,,,Payment Amount,,,,"March 31, 2026",,2/2/2026,,,,,,,,
+106:0001989817-26-000007,0001989817-26-000007,005-94572,accession,scored,12,Fund,"HPS Advisors, LLC",,,,,,,Class I common shares of beneficial interest,,442931200; 442931101; 442931309,US4429312006; US4429311016; US4429313095,,,,,,,,,,,,,,,,,,,
+107:0001193125-26-033396,0001193125-26-033396,005-94116,accession,scored,32,"PGIM Private Real Estate Fund, Inc.","PGIM Private Real Estate Fund, Inc.",,,,,,,Stockholders,,69419Y105; 69419Y204; 69419Y303; 69419Y402,US69419Y1055; US69419Y2046; US69419Y3036; US69419Y4026,,,,,"$1,000",USD,,,"April 11, 2024",Valuation Date,2/12/2024,,,,,,,,
+108:0001193125-26-033401,0001193125-26-033401,005-94119,accession,scored,44,PGIM Private Credit Fund,"PGIM
+Private
+Credit
+Fund",,,,,,,Class I common shares of beneficial interest,,71710E309; 71710E200; 71710E101,US71710E3099; US71710E2000; US71710E1010,,,,,$500,,,,"December 31,
+2023","March
+31",3/31/2023,,,,,,,,
+109:0001398344-26-001796,0001398344-26-001796,005-93895,accession,scored,15,FS MVP Private Markets Fund,FS MVP Private Markets Fund,,,,,,,Class D,,30331V306; 30331V108; 30331V207,US30331V3069; US30331V1089; US30331V2079,,,,,"$71,583,139",USD,,,,,,,,,,,,,
+110:0001398344-26-001796,0001398344-26-001796,005-93895,accession,scored,15,FS MVP Private Markets Fund,FS MVP Private Markets Fund,,,,,,,Class D,,30331V306; 30331V108; 30331V207,US30331V3069; US30331V1089; US30331V2079,,,,,"$71,583,139",USD,,,,,,,,,,,,,
+111:0001398344-26-001796,0001398344-26-001796,005-93895,accession,scored,15,FS MVP Private Markets Fund,FS MVP Private Markets Fund,,,,,,,Class D,,30331V306; 30331V108; 30331V207,US30331V3069; US30331V1089; US30331V2079,,,,,"$71,583,139",USD,,,,,,,,,,,,,
+112:0001628280-26-004675,0001628280-26-004675,005-93859,accession,scored,19,Fund,TPG Twin Brook Capital Income Fund,,,,,,,shares of beneficial interest,,00840T100; 00792H203; 00792H104,US00840T1007; US00792H2031; US00792H1041,,,,,"$21,149,422",USD,,,"July 26, 2024",,1/30/2026,,,,,,,,
+113:0001838126-26-000007,0001838126-26-000007,005-93638,accession,scored,16,Fund,"HPS Advisors, LLC",,,,,,,Class I common shares of beneficial interest,,40440V303; 40440V204; 40440V105; 40440V402,US40440V3033; US40440V2043; US40440V1052; US40440V4023,,,,,Offer Amount,,,,"March 2, 2023",,,,,,,,,,
+114:0001193125-26-035883,0001193125-26-035883,005-94128,accession,scored,36,Goldman Sachs Private Credit Corp.,Goldman Sachs Private Credit Corp.,,,,,,,Goldman Sachs Private Credit Corp.,,,,,,,,$500,USD,,,"August 31, 2023",,2/2/2026,,,,,,,,
+115:0001580642-26-000664,0001580642-26-000664,005-88210,accession,scored,20,Evanston Alternative Opportunities Fund,Evanston Multi-Alpha Fund,,,,,,,Evanston Multi-Alpha Fund,,299222208; 299222109,US2992222081; US2992221091,,,,,"$5,743,523.51",USD,,,,,1/28/2026,,,,,,,,
+116:0001580642-26-000664,0001580642-26-000664,005-88210,accession,scored,20,Evanston Alternative Opportunities Fund,Evanston Multi-Alpha Fund,,,,,,,Evanston Multi-Alpha Fund,,299222208; 299222109,US2992222081; US2992221091,,,,,"$5,743,523.51",USD,,,,,1/28/2026,,,,,,,,
+117:0001104659-26-010301,0001104659-26-010301,005-93626,accession,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+118:0001104659-26-010301,0001104659-26-010301,005-93626,accession,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+119:0001104659-26-010301,0001104659-26-010301,005-93626,accession,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+120:0001193125-26-038867,0001193125-26-038867,005-94609,accession,scored,15,AB Private Lending Fund,AB Private Lending Fund,,,,,,,AB Private Lending Fund,,00254B306; 00254B207; 00254B108,US00254B3069; US00254B2079; US00254B1089,,,,,"net asset value per Share as of December 31, 2025",,,,"August 1, 2025","June
+26, 2025",,,,,,,,,
+121:0001911066-26-000002,0001911066-26-000002,005-93961,accession,scored,16,,Nuveen Churchill Private Capital Income Fund,,,,,,,Fund,,67114U105; 67114U303; 67114U204,US67114U1051; US67114U3032; US67114U2042,,,,,$24.32,USD,,,"March 28, 2025",,2/2/2026,,,,,,,,
+122:0001911066-26-000002,0001911066-26-000002,005-93961,accession,scored,16,,Nuveen Churchill Private Capital Income Fund,,,,,,,Fund,,67114U105; 67114U303; 67114U204,US67114U1051; US67114U3032; US67114U2042,,,,,$24.32,USD,,,"March 28, 2025",,2/2/2026,,,,,,,,
+123:0001911066-26-000002,0001911066-26-000002,005-93961,accession,scored,16,,Nuveen Churchill Private Capital Income Fund,,,,,,,Fund,,67114U105; 67114U303; 67114U204,US67114U1051; US67114U3032; US67114U2042,,,,,$24.32,,,,"March 28, 2025",,2/2/2026,,,,,,,,
+124:0001104659-26-011592,0001104659-26-011592,005-95034,accession,scored,14,ANTARES STRATEGIC CREDIT FUND,Antares Strategic Credit Fund,,,,,,,Common Shares of Beneficial Interest,,03666N108,US03666N1081,,,,,net asset value,,,,"June 11, 2026","June 11, 2026",2/4/2026,,,,,,,,
+125:0001580642-26-000874,0001580642-26-000874,005-90074,accession,scored,8,iDirect Private Markets Fund,"iDirect
+Private Markets Fund",,,,,,,"Class
+A Shares",,,,,,,,"$53,787,602",USD,,,,,,,,,,,,,
+126:0001580642-26-000874,0001580642-26-000874,005-90074,accession,scored,8,iDirect Private Markets Fund,"iDirect
+Private Markets Fund",,,,,,,"Class
+A Shares",,,,,,,,"$53,787,602",USD,,,,,,,,,,,,,
+127:0001104659-26-011591,0001104659-26-011591,005-94860,accession,scored,11,ANTARES PRIVATE CREDIT FUND,Antares Private Credit Fund,,,,,,,Class I common shares of beneficial interest,,,,,,,,"net asset value
+per Share",,,,"September 17, 2025","September 17, 2025",,,,,,,,,
+128:0001213900-26-013132,0001213900-26-013132,005-95297,accession,scored,12,HAMILTON LANE PRIVATE SECONDARY FUND,Hamilton Lane Private Secondary Fund,,,,,,,Fund,,407496306; 407496207; 407496108,US4074963061; US4074962071; US4074961081,,,,,,,,,,,,,,,,,,,
+129:0001193125-26-031900,0001193125-26-031900,005-94022,accession,scored,26,BlackRock Private Investments Fund,"BlackRock Advisors, LLC",,,,,,,Delaware Statutory Trust,,09260N105; 09260N303; 09260N402; 09260N501,US09260N1054; US09260N3035; US09260N4025; US09260N5014,,,,,Payment Amount,,,,"March 31, 2026",,,,,,,,,,
+130:0001213900-26-010720,0001213900-26-010720,005-89250,accession,scored,12,ABS LONG/SHORT STRATEGIES FUND,ABS Long/Short Strategies Fund,,,,,,,ABS,,00385P109,US00385P1093,,,,,unaudited NAV,,,,,,3/3/2026,,,,,,,,
+131:0001099910-26-000099,0001099910-26-000099,005-39496,accession,scored,35,"SELECTIS
+HEALTH, INC.","Black Pearl Equities, LLC",,,,,,,Selectis,GBCS,816291108,US8162911080,,,,,"$15,500,000",USD,,,"May
+    11, 2026","MAY 11, 2026",5/11/2026,,"Minimum
+    Condition",,,,,,
+132:0000930413-26-000980,0000930413-26-000980,005-84331,event_id,scored,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+133:0000930413-26-001040,0000930413-26-001040,005-84342,event_id,scored,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+134:0001096906-26-001428,0001096906-26-001428,005-34115,event_id,scored,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+135:0001859919-26-000005,0001859919-26-000005,005-92837,event_id,scored,22,Barings Private Credit Corporation,Barings Private Credit Corporation,,,,,,,Company,,06763A101,US06763A1016,,,,,net asset value,,,,"September 30, 2025",,1/2/2026,,,,,,,,
+136:0001104659-26-001116,0001104659-26-001116,005-90033,event_id,scored,70,"MERSANA THERAPEUTICS, INC.","Emerald Merger Sub, Inc.",,,,,,,"Mersana Therapeutics, Inc.",MRSN,59045L106,US59045L1061,,,,,"$
+7.54",USD,,,"January 5, 2026","February 3, 2026",7/25/2025,"November 13, 2025",Offer Conditions,,,,,,
+137:0001193125-26-005426,0001193125-26-005426,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+138:0001104659-26-001654,0001104659-26-001654,005-94462,event_id,scored,9,FIRST TRUST PRIVATE ASSETS FUND,"UMB Fund Services, Inc.",,,,,,,SHARES OF BENEFICIAL INTEREST,,,,,,,,net asset value,,,,,,3/31/2025,,,,,,,,
+139:0001193125-26-005513,0001193125-26-005513,005-88806,event_id,scored,28,"ck & Co., Inc.",Merck Sharp & Dohme LLC,,,,,,,Series A Convertible Voting Preferred Stock,,171757206,US1717572069,,,,,"$15,505.00",USD,,,,"JANUARY 6, 2026",12/5/2025,,,,,,,,
+140:0001193125-26-005513,0001193125-26-005513,005-88806,event_id,scored,28,"ck & Co., Inc.",Merck Sharp & Dohme LLC,,,,,,,Series A Convertible Voting Preferred Stock,,171757206,US1717572069,,,,,"$15,505.00",USD,,,,"JANUARY 6, 2026",12/5/2025,,,,,,,,
+141:0001104659-26-002133,0001104659-26-002133,005-94462,event_id,scored,9,FIRST TRUST PRIVATE ASSETS FUND,"UMB Fund Services, Inc.",,,,,,,SHARES OF BENEFICIAL INTEREST,,,,,,,,net asset value,,,,,,3/31/2025,,,,,,,,
+142:0001104659-26-002174,0001104659-26-002174,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+143:0001193125-26-008905,0001193125-26-008905,005-91530,accession,scored,77,Generation Bio Co.,"Alliance Advisors, LLC",,,,,,,Company Shares,GBIO,37148K209,US37148K2096,,,,,$4.2913,USD,,,"February 8, 2026","February 8, 2026",1/9/2026,Effective Time,Minimum Tender Condition,,,,,,
+144:0001104659-26-002520,0001104659-26-002520,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+145:0001104659-26-002525,0001104659-26-002525,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+146:0001193125-26-009651,0001193125-26-009651,005-80035,accession,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+147:0001193125-26-009808,0001193125-26-009808,005-91530,event_id,scored,77,Generation Bio Co.,"Alliance Advisors, LLC",,,,,,,Company Shares,GBIO,37148K209,US37148K2096,,,,,$4.2913,USD,,,"February 8, 2026","February 8, 2026",1/9/2026,Effective Time,Minimum Tender Condition,,,,,,
+148:0001104659-26-002910,0001104659-26-002910,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+149:0001213900-26-004202,0001213900-26-004202,005-95095,event_id,scored,29,"SEG Partners Long/Short Equity
+Fund","SEG Partners Long/Short Equity
+Fund",,,,,,,"SEG Partners
+Long/Short Equity Fund",,815789201; 815789102,US8157892014; US8157891024,,,,,value of the repurchased shares,,,,"March
+31, 2026",,1/30/2026,,,terms of the tender offer,,,,,
+150:0001213900-26-004202,0001213900-26-004202,005-95095,event_id,scored,29,"SEG Partners Long/Short Equity
+Fund","SEG Partners Long/Short Equity
+Fund",,,,,,,"SEG Partners
+Long/Short Equity Fund",,815789201; 815789102,US8157892014; US8157891024,,,,,value of the repurchased shares,,,,"March
+31, 2026",,1/30/2026,,,terms of the tender offer,,,,,
+151:0001731122-26-000079,0001731122-26-000079,005-84248,event_id,scored,30,"Broadridge Corporate
+Issuer Solutions, LLC",DATA STORAGE CORPORATION,,,,,,,Company,,23786R201,US23786R2013,,,,,$5.20,USD,,,"December 8, 2025",5:00 p.m.,1/14/2026,,,,,,,,
+152:0001623632-26-000061,0001623632-26-000061,005-89950,event_id,scored,14,Federated Hermes Project and Trade Finance Tender Fund,"Federated Hermes Project and Trade Finance Tender
+Fund",,,,,,,FEDERATED HERMES PROJECT AND TRADE FINANCE TENDER FUND,,31424D104; 31424D401,US31424D1046; US31424D4016,,,,,"$47,879,164.97",,,,,,,,,,,,,,
+153:0001193125-26-015985,0001193125-26-015985,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+154:0001104659-26-004738,0001104659-26-004738,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+155:0001104659-26-004709,0001104659-26-004709,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+156:0001193125-26-018181,0001193125-26-018181,005-93864,event_id,scored,13,Onex Direct Lending BDC Fund,"Onex Credit Advisor,
+LLC",,,,,,,ring Shares,,,,,,,,,,,,,,1/21/2026,,,,,,,,
+157:0001999371-26-001460,0001999371-26-001460,005-53317,event_id,scored,35,Fund,Total Return Securities Fund,,,,,,,Total Return Securities Fund,,870875101,US8708751016,,,,,$6.97,USD,,,"December 15, 2025","February 20, 2026",12/19/2025,,,"proration
+provisions",,,,,
+158:0001859919-26-000011,0001859919-26-000011,005-92837,event_id,scored,22,Barings Private Credit Corporation,Barings Private Credit Corporation,,,,,,,Company,,06763A101,US06763A1016,,,,,net asset value,,,,"September 30, 2025",,1/2/2026,,,,,,,,
+159:0001104659-26-005607,0001104659-26-005607,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+160:0001193125-26-020593,0001193125-26-020593,005-94282,event_id,scored,24,StepStone Private Venture and Growth Fund,StepStone Private Venture and Growth Fund,,,,,,,StepStone Private Venture and Growth Fund,,,,,,,,minimum account balance,,,,"July 28, 2023",Tender Withdrawal Date,,,minimum account balance,,,,,,
+161:0001104659-26-006640,0001104659-26-006640,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+162:0001493152-26-003720,0001493152-26-003720,005-92545,event_id,scored,9,,"Anebulo
+Pharmaceuticals, Inc.",,,,,,,SEC,,034569103,US0345691036,,,,,$3.50 per share,USD,,,,,,,,,,,,,
+163:0001213900-26-008038,0001213900-26-008038,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+164:0001213900-26-008038,0001213900-26-008038,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+165:0001213900-26-008038,0001213900-26-008038,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+166:0001213900-26-008038,0001213900-26-008038,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+167:0001213900-26-008038,0001213900-26-008038,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+168:0001213900-26-008038,0001213900-26-008038,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+169:0001213900-26-008038,0001213900-26-008038,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+170:0001193125-26-026180,0001193125-26-026180,005-91017,event_id,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+171:0001193125-26-025615,0001193125-26-025615,005-80035,event_id,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+172:0001104659-26-007289,0001104659-26-007289,005-94422,event_id,scored,9,KKR FS Income Trust Select,KKR FS Income Trust Select,,,,,,,,,48256J108,US48256J1088,,,,,"net asset value per Share
+as of December 31, 2025",,,,"September 1, 2026",,,,,,,,,,
+173:0001104659-26-007287,0001104659-26-007287,005-94079,event_id,scored,8,KKR FS Income Trust,KKR FS Income Trust,,,,,,,,,48255N100,US48255N1000,,,,,"net asset value per share as of December 31, 2025",,,,"September 1, 2026",,,,,,,,,,
+174:0001104659-26-007233,0001104659-26-007233,005-94568,event_id,scored,35,"Hartford Schroders
+Private Opportunities Fund","Hartford Funds Management
+    Co, LLC",,,,,,,"Class I
+XHFIX",,,,,,,,net asset value,,,,"December 27, 2021","June 30, 2024",,,,,,,,,
+175:0001193125-26-026154,0001193125-26-026154,005-91017,event_id,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+176:0001193125-26-025599,0001193125-26-025599,005-80035,event_id,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+177:0001193125-26-028278,0001193125-26-028278,005-91017,event_id,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+178:0001493152-26-004156,0001493152-26-004156,005-92545,event_id,scored,9,,"Anebulo
+Pharmaceuticals, Inc.",,,,,,,SEC,,034569103,US0345691036,,,,,$3.50 per share,USD,,,,,,,,,,,,,
+179:0001193125-26-028272,0001193125-26-028272,005-91017,event_id,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+180:0001193125-26-030526,0001193125-26-030526,005-80035,event_id,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+181:0001193125-26-030570,0001193125-26-030570,005-91017,event_id,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+182:0001104659-26-008720,0001104659-26-008720,005-91530,event_id,scored,77,Generation Bio Co.,"Alliance Advisors, LLC",,,,,,,Company Shares,GBIO,37148K209,US37148K2096,,,,,$4.2913,USD,,,"February 8, 2026","February 8, 2026",1/9/2026,Effective Time,Minimum Tender Condition,,,,,,
+183:0001140361-26-003027,0001140361-26-003027,005-94050,event_id,scored,22,BlackRock Private Credit Fund,"BlackRock Capital Investment Advisors, LLC",,,,,,,Class D common shares of beneficial interest,,BRY4333P7; BRY42WTV3; BRY13VCK2,USBRY4333P74; USBRY42WTV34; USBRY13VCK24,,,,,$500,USD,,,"May 28, 2025",,1/30/2026,,,,,,,,
+184:0001702510-26-000009,0001702510-26-000009,005-90234,event_id,scored,77,"Carlyle Credit Solutions, Inc.","Carlyle Credit Solutions, Inc.",,,,,,,"CDL TENDER FUND 2022-1, L.P.",,,,,,,,$100 million,USD,,,"April 5, 2022","April 4, 2022",1/26/2026,"May 31, 2022",terms and conditions of the Offer,,,,,,
+185:0001193125-26-031413,0001193125-26-031413,005-94024,event_id,scored,39,Fidelity Private Credit Fund,Fidelity Diversifying Solutions LLC,,,,,,,Class I common shares of beneficial interest,,31634E306; 31634E207; 31634E108,US31634E3062; US31634E2072; US31634E1082,,,,,"$10,000",USD,,,"May 31, 2023",,7/1/2022,,,,,,,,
+186:0001580642-26-000597,0001580642-26-000597,005-93878,event_id,scored,18,Fairway Private Equity & Venture Capital Opportunities Fund,"Fairway Private
+Equity & Venture Capital Opportunities Fund",,,,,,,"Fairway Private Equity
+& Venture Capital Opportunities Fund",,30607E103,US30607E1038,,,,,"net asset
+value per Share",,,,"March 26, 2024",,,,,,,,,,
+187:0001213900-26-009976,0001213900-26-009976,005-93831,event_id,scored,27,Fund,"Fundrise Growth Tech Fund, LLC",,,,,,,COMMON SHARES OF BENEFICIAL INTEREST,,,,,,,,$16.00,,,,"November 26, 2024",Valuation Date,11/25/2024,,,,,,,,
+188:0001193125-26-030541,0001193125-26-030541,005-91017,event_id,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+189:0001193125-26-030512,0001193125-26-030512,005-80035,event_id,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+190:0001193125-26-032052,0001193125-26-032052,005-91530,event_id,scored,77,Generation Bio Co.,"Alliance Advisors, LLC",,,,,,,Company Shares,GBIO,37148K209,US37148K2096,,,,,$4.2913,USD,,,"February 8, 2026","February 8, 2026",1/9/2026,Effective Time,Minimum Tender Condition,,,,,,
+191:0001193125-26-032595,0001193125-26-032595,005-80035,event_id,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+192:0001193125-26-033112,0001193125-26-033112,005-94247,event_id,scored,16,Bain Capital Private Credit,Bain Capital Private Credit,,,,,,,Class I common shares of beneficial interest,,,,,,,,,,,,"March 3, 2026",,,,,,,,,,
+193:0001989817-26-000009,0001989817-26-000009,005-94572,event_id,scored,12,Fund,"HPS Advisors, LLC",,,,,,,Class I common shares of beneficial interest,,442931200; 442931101; 442931309,US4429312006; US4429311016; US4429313095,,,,,,,,,,,,,,,,,,,
+194:0001213900-26-010557,0001213900-26-010557,005-91801,event_id,scored,54,Blackstone Private Credit Fund,Blackstone Private Credit Strategies LLC,,,,,,,Class I common shares of beneficial interest,,09261H305; 09261H107; 09261H206,US09261H3057; US09261H1077; US09261H2067,,,,,$500,USD,,,"May
+30, 2025","June
+30, 2025",7/1/2024,,,conditions of the Offer,,,,,
+195:0001398344-26-001859,0001398344-26-001859,005-93895,event_id,scored,15,FS MVP Private Markets Fund,FS MVP Private Markets Fund,,,,,,,Class D,,30331V306; 30331V108; 30331V207,US30331V3069; US30331V1089; US30331V2079,,,,,"$71,583,139",USD,,,,,,,,,,,,,
+196:0001398344-26-001859,0001398344-26-001859,005-93895,event_id,scored,15,FS MVP Private Markets Fund,FS MVP Private Markets Fund,,,,,,,Class D,,30331V306; 30331V108; 30331V207,US30331V3069; US30331V1089; US30331V2079,,,,,"$71,583,139",USD,,,,,,,,,,,,,
+197:0001398344-26-001859,0001398344-26-001859,005-93895,event_id,scored,15,FS MVP Private Markets Fund,FS MVP Private Markets Fund,,,,,,,Class D,,30331V306; 30331V108; 30331V207,US30331V3069; US30331V1089; US30331V2079,,,,,"$71,583,139",USD,,,,,,,,,,,,,
+198:0001580642-26-000647,0001580642-26-000647,005-94785,event_id,scored,21,Fund,"New Mountain Finance Advisers, L.L.C.",,,,,,,New Mountain Private Credit Fund,,,,,,,,Payment Amount,,,,"March 31, 2026",,2/2/2026,,,,,,,,
+199:0001213900-26-010562,0001213900-26-010562,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+200:0001213900-26-010562,0001213900-26-010562,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+201:0001213900-26-010562,0001213900-26-010562,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+202:0001213900-26-010562,0001213900-26-010562,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+203:0001213900-26-010562,0001213900-26-010562,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+204:0001213900-26-010562,0001213900-26-010562,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+205:0001213900-26-010562,0001213900-26-010562,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+206:0001193125-26-032610,0001193125-26-032610,005-91191,accession,scored,85,GSK PLC,"RAPT Therapeutics, Inc.",,,,,,,"Nasdaq Global Select
+Stock Market",RAPT,75382E208,US75382E2081,,,,,$0.0008,USD,,,"January 19, 2026",Offer Acceptance Time,4/30/2026,"April 30, 2026","Offer
+Conditions",,,,,,
+207:0001193125-26-034545,0001193125-26-034545,005-91017,event_id,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+208:0001838126-26-000008,0001838126-26-000008,005-93638,event_id,scored,16,Fund,"HPS Advisors, LLC",,,,,,,Class I common shares of beneficial interest,,40440V303; 40440V204; 40440V105; 40440V402,US40440V3033; US40440V2043; US40440V1052; US40440V4023,,,,,Offer Amount,,,,"March 2, 2023",,,,,,,,,,
+209:0001213900-26-011141,0001213900-26-011141,005-92444,event_id,scored,13,ASPIRIANT REAL ASSETS FUND,Aspiriant Real Assets Fund,,,,,,,"Aspiriant Risk
+-Managed
+Real Assets Fund",,04539D103,US04539D1037,,,,,NAV,,,,,,3/16/2026,,,,,,,,
+210:0001213900-26-011144,0001213900-26-011144,005-92445,event_id,scored,17,ASPIRIANT CAPITAL APPRECIATION FUND,Shareholder,,,,,,,Aspiriant Capital Appreciation Fund,,04538B108,US04538B1089,,,,,$11.91,USD,,,,,3/16/2026,,,,,,,,
+211:0001193125-26-034514,0001193125-26-034514,005-91017,event_id,scored,89,"APPLIED THERAPEUTICS, INC.","AT2B, Inc.",,,,,,,Company,APLT,03828A101,US03828A1016,,,,,"$500,000",USD,,,"December 10, 2025","June 11, 2026",12/11/2025,"February 27, 2026",Minimum,,,,,,
+212:0002051820-26-000019,0002051820-26-000019,005-95405,event_id,scored,12,Mount Logan Capital Inc.,Mount Logan Capital Inc.,,,,,,,,,62188E103,US62188E1038,,,,,$15 million,USD,,,,,,,,,,,,,
+213:0001193125-26-039494,0001193125-26-039494,005-94202,event_id,scored,27,Company,North Haven Private Income Fund A LLC,,,,,,,"North
+Haven Private Income Fund A",,,,,,,,$240 million,,,,"July 31, 2026","July 31, 2026",1/28/2026,,,prorated basis,,,,,
+214:0001193125-26-037918,0001193125-26-037918,005-94201,event_id,scored,45,StepStone Private Credit Fund LLC,"StepStone Private
+Credit Fund LLC",,,,,,,Company,,,,,,,,$500,,,,"December
+31, 2023","January
+1, 2024",1/30/2026,"January 1, 2024",qualifying disability,,,,,,
+215:0001628280-26-005632,0001628280-26-005632,005-93859,event_id,scored,19,Fund,TPG Twin Brook Capital Income Fund,,,,,,,shares of beneficial interest,,00840T100; 00792H203; 00792H104,US00840T1007; US00792H2031; US00792H1041,,,,,"$21,149,422",,,,"July 26, 2024",,1/30/2026,,,,,,,,
+216:0001193125-26-039397,0001193125-26-039397,005-93652,event_id,scored,11,North Haven Private Income Fund LLC,North Haven Private Income Fund LLC,,,,,,,North Haven Private Income Fund LLC,,,,,,,,"net asset value per Unit as of December 31, 2025",,,,"June 9, 2022",,1/28/2026,,,,,,,,
+217:0002051820-26-000024,0002051820-26-000024,005-95405,event_id,scored,12,Mount Logan Capital Inc.,Mount Logan Capital Inc.,,,,,,,,,62188E103,US62188E1038,,,,,$15 million,USD,,,,,,,,,,,,,
+218:0001213900-26-013099,0001213900-26-013099,005-94977,event_id,scored,12,PRIVACORE PCAAM ALTERNATIVE GROWTH FUND,Privacore PCAAM Alternative Growth Fund,,,,,,,Fund,,74290Y307,US74290Y3071,,,,,,,,,,,2/27/2026,,,,,,,,
+219:0001213900-26-013111,0001213900-26-013111,005-94977,event_id,scored,12,PRIVACORE PCAAM ALTERNATIVE GROWTH FUND,Privacore PCAAM Alternative Growth Fund,,,,,,,Fund,,74290Y307,US74290Y3071,,,,,,,,,,,2/27/2026,,,,,,,,
+220:0001213900-26-013125,0001213900-26-013125,005-92409,event_id,scored,10,HAMILTON LANE PRIVATE ASSETS FUND,Hamilton Lane Private Assets Fund,,,,,,,r,,407498302; 407498203; 407498104,US4074983028; US4074982038; US4074981048,,,,,"$211,453,274",USD,,,,,,,,,,,,,
+221:0001213900-26-013123,0001213900-26-013123,005-94970,event_id,scored,7,HAMILTON LANE PRIVATE INFRASTRUCTURE FUND,Hamilton Lane Private Infrastructure Fund,,,,,,,,,,,,,,,"$4,941,992",,,,,,,,,,,,,,
+222:0001104659-26-012119,0001104659-26-012119,005-91530,event_id,scored,77,Generation Bio Co.,"Alliance Advisors, LLC",,,,,,,Company Shares,GBIO,37148K209,US37148K2096,,,,,$4.2913,USD,,,"February 8, 2026","February 8, 2026",1/9/2026,Effective Time,Minimum Tender Condition,,,,,,
+223:0001193125-26-042823,0001193125-26-042823,005-93864,event_id,scored,13,Onex Direct Lending BDC Fund,"Onex Credit Advisor,
+LLC",,,,,,,ring Shares,,,,,,,,,,,,,,1/21/2026,,,,,,,,
+224:0001193125-26-042796,0001193125-26-042796,005-91530,event_id,scored,77,Generation Bio Co.,"Alliance Advisors, LLC",,,,,,,Company Shares,GBIO,37148K209,US37148K2096,,,,,$4.2913,USD,,,"February 8, 2026","February 8, 2026",1/9/2026,Effective Time,Minimum Tender Condition,,,,,,
+225:0001193125-26-044943,0001193125-26-044943,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+226:0001193125-26-043626,0001193125-26-043626,005-80035,event_id,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+227:0001104659-26-012662,0001104659-26-012662,005-93626,event_id,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+228:0001104659-26-012662,0001104659-26-012662,005-93626,event_id,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+229:0001104659-26-012662,0001104659-26-012662,005-93626,event_id,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",USD,,,,,,,,,,,,,
+230:0001193125-26-043594,0001193125-26-043594,005-80035,event_id,scored,87,DYNAVAX TECHNOLOGIES CORPORATION,"Samba Merger Sub, Inc.",,,,,,,Nasdaq Global Select Stock Market,DVAX,09627Y109,US09627Y1091,,,,,$15.50,USD,,,"December 22, 2025",Offer Acceptance Time,3/13/2026,effective date of the Merger,Offer Conditions,prorated basis,,,,,
+231:0001104659-26-012712,0001104659-26-012712,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+232:0001104659-26-012397,0001104659-26-012397,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+233:0001193125-26-045821,0001193125-26-045821,005-94255,event_id,scored,6,Jefferies Credit Partners BDC Inc.,Paul Hastings LLP,,,,,,,,,,,,,,,net asset value,,,,,,,,,,,,,,
+234:0001213900-26-014681,0001213900-26-014681,005-93782,event_id,scored,13,"CONSTITUTION CAPITAL ACCESS FUND, LLC","Constitution Capital Access Fund, LLC",,,,,,,Fund,,21039R101; 21039R200; 21039R309,US21039R1014; US21039R2004; US21039R3093,,,,,,,,,,,1/30/2026,,,,,,,,
+235:0001104659-26-013530,0001104659-26-013530,005-35587,event_id,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+236:0001193125-26-047655,0001193125-26-047655,005-80363,event_id,scored,37,Bank of Montreal,ALPHA CORE STRATEGIES FUND,,,,,,,Sub-Fund,,,,,,,,"$20,000",,,,"May 17, 2021",5:00 p.m.,6/15/2021,,,,,,,,
+237:0001104659-26-014858,0001104659-26-014858,005-94860,event_id,scored,11,ANTARES PRIVATE CREDIT FUND,Antares Private Credit Fund,,,,,,,Class I common shares of beneficial interest,,,,,,,,"net asset value
+per Share",,,,"September 17, 2025","September 17, 2025",,,,,,,,,
+238:0001193125-26-050630,0001193125-26-050630,005-95016,event_id,scored,6,,HarbourVest Private Investments Fund,,,,,,,,,41166N103; 41166N202; 41166N301,US41166N1037; US41166N2027; US41166N3017,,,,,"$26,625,326.44",,,,,,,,,,,,,,
+239:0001193125-26-050630,0001193125-26-050630,005-95016,event_id,scored,6,,HarbourVest Private Investments Fund,,,,,,,,,41166N103; 41166N202; 41166N301,US41166N1037; US41166N2027; US41166N3017,,,,,"$26,625,326.44",,,,,,,,,,,,,,
+240:0001193125-26-050630,0001193125-26-050630,005-95016,event_id,scored,6,,HarbourVest Private Investments Fund,,,,,,,,,41166N103; 41166N202; 41166N301,US41166N1037; US41166N2027; US41166N3017,,,,,"$26,625,326.44",,,,,,,,,,,,,,
+241:0001580642-26-001058,0001580642-26-001058,005-90074,event_id,scored,8,iDirect Private Markets Fund,"iDirect
+Private Markets Fund",,,,,,,"Class
+A Shares",,,,,,,,"$53,787,602",,,,,,,,,,,,,,
+242:0001193125-26-049843,0001193125-26-049843,005-85619,event_id,scored,14,MakeMyTrip Limited,MakeMyTrip Limited,,,,,,,Company,,56087FAB0,US56087FAB04,,,,,,,,,,,2/9/2021,,,,,,,,
+243:0001193125-26-054683,0001193125-26-054683,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+244:0001193125-26-053008,0001193125-26-053008,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+245:0001104659-26-016578,0001104659-26-016578,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+246:0001213900-26-018008,0001213900-26-018008,005-91800,event_id,scored,12,"KEYSTONE PRIVATE INCOME
+FUND","Keystone
+                                            Private Income Fund",,,,,,,Class A Shares,,,,,,,,"net
+                                            asset per Share",,,,,,9/30/2026,,,,,,,,
+247:0001213900-26-018008,0001213900-26-018008,005-91800,event_id,scored,12,"KEYSTONE PRIVATE INCOME
+FUND","Keystone
+                                            Private Income Fund",,,,,,,Class A Shares,,,,,,,,"net
+                                            asset per Share",,,,,,9/30/2026,,,,,,,,
+248:0001213900-26-018008,0001213900-26-018008,005-91800,event_id,scored,12,"KEYSTONE PRIVATE INCOME
+FUND","Keystone
+                                            Private Income Fund",,,,,,,Class A Shares,,,,,,,,"net
+                                            asset per Share",,,,,,9/30/2026,,,,,,,,
+249:0001213900-26-017996,0001213900-26-017996,005-91800,event_id,scored,12,"KEYSTONE PRIVATE INCOME
+FUND","Keystone
+                                            Private Income Fund",,,,,,,Class A Shares,,,,,,,,"net
+                                            asset per Share",,,,,,9/30/2026,,,,,,,,
+250:0001213900-26-017996,0001213900-26-017996,005-91800,event_id,scored,12,"KEYSTONE PRIVATE INCOME
+FUND","Keystone
+                                            Private Income Fund",,,,,,,Class A Shares,,,,,,,,"net
+                                            asset per Share",,,,,,9/30/2026,,,,,,,,
+251:0001213900-26-017996,0001213900-26-017996,005-91800,event_id,scored,12,"KEYSTONE PRIVATE INCOME
+FUND","Keystone
+                                            Private Income Fund",,,,,,,Class A Shares,,,,,,,,"net
+                                            asset per Share",,,,,,9/30/2026,,,,,,,,
+252:0001213900-26-017996,0001213900-26-017996,005-91800,event_id,scored,12,"KEYSTONE PRIVATE INCOME
+FUND","Keystone
+                                            Private Income Fund",,,,,,,Class A Shares,,,,,,,,"net
+                                            asset per Share",,,,,,9/30/2026,,,,,,,,
+253:0001213900-26-018219,0001213900-26-018219,005-94451,event_id,scored,16,FELICITAS PRIVATE MARKETS FUND,"Felicitas Private Markets
+Fund",,,,,,,Class Y,,31431P108,US31431P1084,,,,,"$5,538,026",,,,,,11/21/2025,,,,,,,,
+254:0001104659-26-017610,0001104659-26-017610,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+255:0001580642-26-001143,0001580642-26-001143,005-95349,event_id,scored,52,"iDirect Multi-Strategy
+Fund, LLC","iDirect Multi-Strategy Fund, LLC",,,,,,,"iDirect Multi-Strategy Fund, LLC",,,,,,,,"$153,654,827",USD,,,"September 30, 2025",12:00 midnight,,,,,,,,,
+256:0001580642-26-001143,0001580642-26-001143,005-95349,event_id,scored,52,"iDirect Multi-Strategy
+Fund, LLC","iDirect Multi-Strategy Fund, LLC",,,,,,,"iDirect Multi-Strategy Fund, LLC",,,,,,,,"$153,654,827",USD,,,"September 30, 2025",12:00 midnight,,,,,,,,,
+257:0001193125-26-060811,0001193125-26-060811,005-93603,event_id,scored,68,TCW DIRECT LENDING VIII LLC,TCW Direct Lending VIII LLC,,,,,,,DL VIII,,,,,,,,$770 million,,,,"February 1, 2026",5:00 p.m.,2/20/2026,"September 30, 2025",,,,,,,
+258:0001193125-26-060390,0001193125-26-060390,005-94250,event_id,scored,15,MANULIFE PRIVATE CREDIT PLUS FUND,Manulife Private Credit Plus Fund,,,,,,,Manulife Private Credit Plus Fund,,,,,,,,"$9,900,000",,,,,,,,,,,,,,
+259:0001193125-26-060380,0001193125-26-060380,005-93713,event_id,scored,15,John Hancock Asset-Based Lending Fund,"John Hancock Asset-Based Lending Fund, SS&C",,,,,,,ABLFX,,,,,,,,"$11,700,000",,,,,,,,,,,,,,
+260:0001193125-26-067422,0001193125-26-067422,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+261:0001193125-26-065056,0001193125-26-065056,005-91191,event_id,scored,85,GSK PLC,"RAPT Therapeutics, Inc.",,,,,,,"Nasdaq Global Select
+Stock Market",RAPT,75382E208,US75382E2081,,,,,$0.0008,USD,,,"January 19, 2026",Offer Acceptance Time,4/30/2026,"April 30, 2026","Offer
+Conditions",,,,,,
+262:0001661306-26-000016,0001661306-26-000016,005-90723,event_id,scored,31,"Hancock Park Corporate Income, Inc.","HANCOCK PARK CORPORATE INCOME, INC.",,,,,,,Company,,,,,,,,$13.05,USD,,,"March 30, 2020",11:59 P.M.,3/27/2020,,,,,,,,
+263:0001104659-26-019063,0001104659-26-019063,005-94462,event_id,scored,9,FIRST TRUST PRIVATE ASSETS FUND,"UMB Fund Services, Inc.",,,,,,,SHARES OF BENEFICIAL INTEREST,,,,,,,,net asset value,,,,,,3/31/2025,,,,,,,,
+264:0001398344-26-003551,0001398344-26-003551,005-91545,event_id,scored,19,"BBR Partners, LLC","BBR ALO Fund, LLC",,,,,,,"BBR ALO FUND, LLC",,,,,,,,"$75,000,000",USD,,,,,9/30/2021,,,terms of the tender offer,,,,,
+265:0001193125-26-065083,0001193125-26-065083,005-91191,event_id,scored,85,GSK PLC,"RAPT Therapeutics, Inc.",,,,,,,"Nasdaq Global Select
+Stock Market",RAPT,75382E208,US75382E2081,,,,,$0.0008,USD,,,"January 19, 2026",Offer Acceptance Time,4/30/2026,"April 30, 2026","Offer
+Conditions",,,,,,
+266:0001104659-26-019196,0001104659-26-019196,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+267:0001193125-26-068080,0001193125-26-068080,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+268:0001213900-26-020252,0001213900-26-020252,005-89250,event_id,scored,12,ABS LONG/SHORT STRATEGIES FUND,ABS Long/Short Strategies Fund,,,,,,,ABS,,00385P109,US00385P1093,,,,,unaudited NAV,,,,,,3/3/2026,,,,,,,,
+269:0001213900-26-020258,0001213900-26-020258,005-89250,event_id,scored,12,ABS LONG/SHORT STRATEGIES FUND,ABS Long/Short Strategies Fund,,,,,,,ABS,,00385P109,US00385P1093,,,,,unaudited NAV,,,,,,3/3/2026,,,,,,,,
+270:0001104659-26-019400,0001104659-26-019400,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+271:0001104659-26-019772,0001104659-26-019772,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+272:0001193125-26-077410,0001193125-26-077410,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+273:0001628280-26-012584,0001628280-26-012584,005-92431,event_id,scored,65,"DST Systems, Inc.",BLUE OWL CREDIT INCOME CORP.,,,,,,,Class S,,69120V101; 69120V200; 69120V309,US69120V1017; US69120V2007; US69120V3096,,,,,"$262,489,538",USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+274:0001213900-26-021073,0001213900-26-021073,005-92499,event_id,scored,31,STEELE CREEK CAPITAL CORPORATION,STEELE CREEK CAPITAL CORPORATION,,,,,,,Steele Creek Capital Corporation,,85817G108,US85817G1085,,,,,"271,994",,,,"June
+30, 2021",,6/30/2021,,,,,,,,
+275:0001911066-26-000005,0001911066-26-000005,005-93961,event_id,scored,16,,Nuveen Churchill Private Capital Income Fund,,,,,,,Fund,,67114U105; 67114U303; 67114U204,US67114U1051; US67114U3032; US67114U2042,,,,,$24.32,,,,"March 28, 2025",,2/2/2026,,,,,,,,
+276:0001628280-26-012583,0001628280-26-012583,005-93743,event_id,scored,66,"DST Systems, Inc.",BLUE OWL TECHNOLOGY INCOME CORP.,,,,,,,ered Shares,,69120R100; 69120R209; 69120R308,US69120R1005; US69120R2094; US69120R3084,,,,,$10.17,USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+277:0001104659-26-021340,0001104659-26-021340,005-94462,event_id,scored,9,FIRST TRUST PRIVATE ASSETS FUND,"UMB Fund Services, Inc.",,,,,,,SHARES OF BENEFICIAL INTEREST,,,,,,,,net asset value,,,,,,3/31/2025,,,,,,,,
+278:0001104659-26-021477,0001104659-26-021477,005-93688,event_id,scored,8,EAGLE POINT INSTITUTIONAL INCOME FUND,EAGLE POINT INSTITUTIONAL INCOME FUND,,,,,,,,,269819108,US2698191085,,,,,net asset value,,,,,,,,,,,,,,
+279:0001213900-26-021070,0001213900-26-021070,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+280:0001104659-26-021045,0001104659-26-021045,005-35587,accession,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+281:0001104659-26-021688,0001104659-26-021688,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+282:0001104659-26-020849,0001104659-26-020849,005-84211,event_id,scored,58,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc.",,,,,,,"WARNER BROS. DISCOVERY, INC.",,934423104,US9344231041,,,,,$119.67,USD,,,"January 8, 2026","February 9, 2026",12/4/2025,,conditions of the Offer,,,,,,
+283:0001193125-26-085351,0001193125-26-085351,005-94128,event_id,scored,36,Goldman Sachs Private Credit Corp.,Goldman Sachs Private Credit Corp.,,,,,,,Goldman Sachs Private Credit Corp.,,,,,,,,$500,USD,,,"August 31, 2023",,2/2/2026,,,,,,,,
+284:0001193125-26-085706,0001193125-26-085706,005-91801,event_id,scored,54,Blackstone Private Credit Fund,Blackstone Private Credit Strategies LLC,,,,,,,Class I common shares of beneficial interest,,09261H305; 09261H107; 09261H206,US09261H3057; US09261H1077; US09261H2067,,,,,$500,,,,"May
+30, 2025","June
+30, 2025",7/1/2024,,,conditions of the Offer,,,,,
+285:0001859919-26-000025,0001859919-26-000025,005-92837,event_id,scored,22,Barings Private Credit Corporation,Barings Private Credit Corporation,,,,,,,Company,,06763A101,US06763A1016,,,,,net asset value,,,,"September 30, 2025",,1/2/2026,,,,,,,,
+286:0001104659-26-021812,0001104659-26-021812,005-94422,event_id,scored,9,KKR FS Income Trust Select,KKR FS Income Trust Select,,,,,,,,,48256J108,US48256J1088,,,,,"net asset value per Share
+as of December 31, 2025",,,,"September 1, 2026",,,,,,,,,,
+287:0001104659-26-021839,0001104659-26-021839,005-94079,event_id,scored,8,KKR FS Income Trust,KKR FS Income Trust,,,,,,,,,48255N100,US48255N1000,,,,,"net asset value per share as of December 31, 2025",,,,"September 1, 2026",,,,,,,,,,
+288:0001193125-26-086530,0001193125-26-086530,005-91191,event_id,scored,85,GSK PLC,"RAPT Therapeutics, Inc.",,,,,,,"Nasdaq Global Select
+Stock Market",RAPT,75382E208,US75382E2081,,,,,$0.0008,USD,,,"January 19, 2026",Offer Acceptance Time,4/30/2026,"April 30, 2026","Offer
+Conditions",,,,,,
+289:0001193125-26-088208,0001193125-26-088208,005-94467,event_id,scored,4,,LGAM Private Credit LLC,,,,,,,,,,,,,,,"net asset value per Unit as of December 31, 2025",,,,,,,,,,,,,,
+290:0000930413-26-000655,0000930413-26-000655,005-94863,event_id,scored,13,Lord Abbett Private Credit Fund,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,,,,,,,,,0.01,,,,"January 29, 2026","January 29, 2026",2/27/2026,,,,,,,,
+291:0000930413-26-000656,0000930413-26-000656,005-95186,event_id,scored,15,Lord Abbett Private Credit Fund S,"Lord Abbett
+Private Credit Advisor LLC",,,,,,,,,,,,,,,0.01,,,,"January 29, 2026","January 29, 2026",2/27/2026,,,,,,,,
+292:0001213900-26-022712,0001213900-26-022712,005-94239,event_id,scored,6,"Oxford Park Income Fund, Inc.","Oxford Park Income Fund, Inc.",,,,,,,Class A Shares,,,,,,,,5%,,,,,,,,,,,,,,
+293:0001104659-26-022851,0001104659-26-022851,005-93626,event_id,scored,11,Ares Private Markets Fund,"Ares Private
+Markets Fund",,,,,,,Class D Shares,,04020B202; 04020B301; 04020B103,US04020B2025; US04020B3015; US04020B1035,,,,,"$5,000.00",,,,,,,,,,,,,,
+294:0001213900-26-022485,0001213900-26-022485,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+295:0001213900-26-022485,0001213900-26-022485,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+296:0001213900-26-022485,0001213900-26-022485,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+297:0001213900-26-022485,0001213900-26-022485,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+298:0001213900-26-022485,0001213900-26-022485,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+299:0001213900-26-022485,0001213900-26-022485,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+300:0001213900-26-022485,0001213900-26-022485,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+301:0001104659-26-022899,0001104659-26-022899,005-35587,event_id,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+302:0001193125-26-086527,0001193125-26-086527,005-91191,event_id,scored,85,GSK PLC,"RAPT Therapeutics, Inc.",,,,,,,"Nasdaq Global Select
+Stock Market",RAPT,75382E208,US75382E2081,,,,,$0.0008,USD,,,"January 19, 2026",Offer Acceptance Time,4/30/2026,"April 30, 2026","Offer
+Conditions",,,,,,
+303:0001628280-26-014672,0001628280-26-014672,005-93743,event_id,scored,66,"DST Systems, Inc.",BLUE OWL TECHNOLOGY INCOME CORP.,,,,,,,ered Shares,,69120R100; 69120R209; 69120R308,US69120R1005; US69120R2094; US69120R3084,,,,,$10.17,USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+304:0001628280-26-014671,0001628280-26-014671,005-92431,event_id,scored,65,"DST Systems, Inc.",BLUE OWL CREDIT INCOME CORP.,,,,,,,Class S,,69120V101; 69120V200; 69120V309,US69120V1017; US69120V2007; US69120V3096,,,,,"$262,489,538",USD,,,"February 27, 2023",7:00 P.M.,2/27/2023,"March 31, 2023",,non-transferrable,,,,,
+305:0001104659-26-024783,0001104659-26-024783,005-95189,event_id,scored,11,COATUE INNOVATIVE STRATEGIES FUND,Kirkland & Ellis LLP,,,,,,,,,,,,,,,value,,,,"February 24, 2026",,2/24/2026,,,,,,,,
+306:0001742313-26-000018,0001742313-26-000018,005-90791,event_id,scored,28,MONROE CAPITAL INCOME PLUS CORPORATION,Monroe Capital Income Plus Corporation,,,,,,,Common Stock,,,,,,,,net asset value,,,,"February 27, 2026",,2/27/2026,,,,,,,,
+307:0001193125-26-097962,0001193125-26-097962,005-94024,event_id,scored,39,Fidelity Private Credit Fund,Fidelity Diversifying Solutions LLC,,,,,,,Class I common shares of beneficial interest,,31634E306; 31634E207; 31634E108,US31634E3062; US31634E2072; US31634E1082,,,,,"$10,000",,,,"May 31, 2023",,7/1/2022,,,,,,,,
+308:0001580642-26-001637,0001580642-26-001637,005-90074,event_id,scored,8,iDirect Private Markets Fund,"iDirect
+Private Markets Fund",,,,,,,"Class
+A Shares",,,,,,,,"$53,787,602",USD,,,,,,,,,,,,,
+309:0001213900-26-025076,0001213900-26-025076,005-93831,event_id,scored,27,Fund,"Fundrise Growth Tech Fund, LLC",,,,,,,COMMON SHARES OF BENEFICIAL INTEREST,,,,,,,,$16.00,USD,,,"November 26, 2024",Valuation Date,11/25/2024,,,,,,,,
+310:0001193125-26-097468,0001193125-26-097468,005-93603,event_id,scored,68,TCW DIRECT LENDING VIII LLC,TCW Direct Lending VIII LLC,,,,,,,DL VIII,,,,,,,,$770 million,,,,"February 1, 2026",5:00 p.m.,2/20/2026,"September 30, 2025",,,,,,,
+311:0001104659-26-025204,0001104659-26-025204,005-35587,event_id,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+312:0001398344-26-004977,0001398344-26-004977,005-94811,event_id,scored,10,"PARTNERS GROUP GROWTH, LLC","Partners Group Growth, LLC",,,,,,,Fund,,,,,,,,5.00%,,,,,,4/1/2026,,,,,,,,
+313:0001398344-26-004979,0001398344-26-004979,005-85837,event_id,scored,9,"PARTNERS GROUP PRIVATE EQUITY FUND, LLC","Partners Group Private Equity Fund, LLC",,,,,,,Fund,,,,,,,,,,,,,,4/1/2026,,,,,,,,
+314:0001193125-26-102408,0001193125-26-102408,005-94202,event_id,scored,27,Company,North Haven Private Income Fund A LLC,,,,,,,"North
+Haven Private Income Fund A",,,,,,,,$240 million,,,,"July 31, 2026","July 31, 2026",1/28/2026,,,prorated basis,,,,,
+315:0001193125-26-102402,0001193125-26-102402,005-93652,event_id,scored,11,North Haven Private Income Fund LLC,North Haven Private Income Fund LLC,,,,,,,North Haven Private Income Fund LLC,,,,,,,,"net asset value per Unit as of December 31, 2025",,,,"June 9, 2022",,1/28/2026,,,,,,,,
+316:0001104659-26-026167,0001104659-26-026167,005-35587,event_id,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+317:0001580642-26-001779,0001580642-26-001779,005-94632,event_id,scored,11,DYNAMIC ALTERNATIVES FUND,Dynamic Alternatives Fund,,,,,,,Fund,,,,,,,,,,,,,,1/1/2019,,,,,,,,
+318:0001213900-26-026844,0001213900-26-026844,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+319:0001193125-26-106312,0001193125-26-106312,005-92816,event_id,scored,45,KKR Real Estate Select Trust Inc.,KKR Real Estate Select Trust Inc.,,,,,,,KREST,,49836N502; 49836N304; 49836N106; 49836N403,US49836N5023; US49836N3044; US49836N1063; US49836N4034,,,,,"$1,000",,,,"April 20, 2022","May 15, 2022",3/23/2022,,,,,,,,
+320:0001213900-26-027679,0001213900-26-027679,005-92409,event_id,scored,10,HAMILTON LANE PRIVATE ASSETS FUND,Hamilton Lane Private Assets Fund,,,,,,,r,,407498302; 407498203; 407498104,US4074983028; US4074982038; US4074981048,,,,,"$211,453,274",USD,,,,,,,,,,,,,
+321:0001213900-26-027510,0001213900-26-027510,005-95297,event_id,scored,12,HAMILTON LANE PRIVATE SECONDARY FUND,Hamilton Lane Private Secondary Fund,,,,,,,Fund,,407496306; 407496207; 407496108,US4074963061; US4074962071; US4074961081,,,,,,,,,,,,,,,,,,,
+322:0001213900-26-027504,0001213900-26-027504,005-94970,event_id,scored,7,HAMILTON LANE PRIVATE INFRASTRUCTURE FUND,Hamilton Lane Private Infrastructure Fund,,,,,,,,,,,,,,,"$4,941,992",USD,,,,,,,,,,,,,
+323:0001193125-26-105673,0001193125-26-105673,005-79005,event_id,scored,54,SKYBRIDGE OPPORTUNITY FUND,SkyBridge Opportunity Fund,,,,,,,"Multi-Strategy
+Series G",,,,,,,,"$25,000",,,,"June 30, 2020","April 17, 2020",3/31/2026,,,,,,,,
+324:0001193125-26-105681,0001193125-26-105681,005-88054,event_id,scored,48,SKYBRIDGE G II FUND,SkyBridge G II Fund,,,,,,,"BNY Mellon Investment
+Servicing",,,,,,,,"$25,000",,,,"April 17, 2020","April 17, 2020",3/31/2026,,25% threshold,LLC Agreement,,,,,
+325:0001580642-26-001811,0001580642-26-001811,005-89754,event_id,scored,43,"PEACHTREE
+ALTERNATIVE STRATEGIES FUND","Peachtree
+    Alternative Strategies Fund",,,,,,,"Institutional
+    Shares",,70469B102,US70469B1026,,,,,"$25,000",,,,"December 31, 2024",Valuation Date,2/13/2026,,,,,,,,
+326:0001099910-26-000121,0001099910-26-000121,005-39496,accession,scored,35,"SELECTIS
+HEALTH, INC.","Black Pearl Equities, LLC",,,,,,,Selectis,GBCS,816291108,US8162911080,,,,,"$15,500,000",USD,,,"May
+    11, 2026","MAY 11, 2026",5/11/2026,,"Minimum
+    Condition",,,,,,
+327:0001398344-26-005192,0001398344-26-005192,005-94305,event_id,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+328:0001398344-26-005192,0001398344-26-005192,005-94305,event_id,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+329:0001398344-26-005192,0001398344-26-005192,005-94305,event_id,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+330:0001398344-26-005192,0001398344-26-005192,005-94305,event_id,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+331:0001398344-26-005194,0001398344-26-005194,005-94305,event_id,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+332:0001398344-26-005194,0001398344-26-005194,005-94305,event_id,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+333:0001398344-26-005194,0001398344-26-005194,005-94305,event_id,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+334:0001398344-26-005194,0001398344-26-005194,005-94305,event_id,scored,12,Carlyle AlpInvest Private Markets Fund,Carlyle AlpInvest Private Markets Fund,,,,,,,Class W Shares,,14308H102; 14308H300; 14308H201; 14308H409,US14308H1023; US14308H3003; US14308H2013; US14308H4092,,,,,,,,,,,,,,,,,,,
+335:0001104659-26-028435,0001104659-26-028435,005-35587,event_id,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+336:0001213900-26-030504,0001213900-26-030504,005-92445,event_id,scored,17,ASPIRIANT CAPITAL APPRECIATION FUND,Shareholder,,,,,,,Aspiriant Capital Appreciation Fund,,04538B108,US04538B1089,,,,,$11.91,USD,,,,,3/16/2026,,,,,,,,
+337:0001213900-26-030511,0001213900-26-030511,005-92444,event_id,scored,13,ASPIRIANT REAL ASSETS FUND,Aspiriant Real Assets Fund,,,,,,,"Aspiriant Risk
+-Managed
+Real Assets Fund",,04539D103,US04539D1037,,,,,NAV,,,,,,3/16/2026,,,,,,,,
+338:0001213900-26-029670,0001213900-26-029670,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+339:0001213900-26-029670,0001213900-26-029670,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+340:0001213900-26-029670,0001213900-26-029670,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+341:0001213900-26-029670,0001213900-26-029670,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+342:0001213900-26-029670,0001213900-26-029670,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+343:0001213900-26-029670,0001213900-26-029670,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+344:0001213900-26-029670,0001213900-26-029670,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+345:0001213900-26-029670,0001213900-26-029670,005-92998,event_id,scored,10,"ZOOMCAR HOLDINGS, INC.","Zoomcar Holdings, Inc.",,,,,,,"Zoomcar Holdings, Inc.",ZCAR,,,,,,,,,,,"MARCH 31, 2026",,6/18/2024,,,,,,,,
+346:0001193125-26-114621,0001193125-26-114621,005-94022,event_id,scored,26,BlackRock Private Investments Fund,"BlackRock Advisors, LLC",,,,,,,Delaware Statutory Trust,,09260N105; 09260N303; 09260N402; 09260N501,US09260N1054; US09260N3035; US09260N4025; US09260N5014,,,,,Payment Amount,,,,"March 31, 2026",,,,,,,,,,
+347:0001193125-26-114621,0001193125-26-114621,005-94022,event_id,scored,26,BlackRock Private Investments Fund,"BlackRock Advisors, LLC",,,,,,,Delaware Statutory Trust,,09260N105; 09260N303; 09260N402; 09260N501,US09260N1054; US09260N3035; US09260N4025; US09260N5014,,,,,Payment Amount,,,,"March 31, 2026",,,,,,,,,,
+348:0001193125-26-114621,0001193125-26-114621,005-94022,event_id,scored,26,BlackRock Private Investments Fund,"BlackRock Advisors, LLC",,,,,,,Delaware Statutory Trust,,09260N105; 09260N303; 09260N402; 09260N501,US09260N1054; US09260N3035; US09260N4025; US09260N5014,,,,,Payment Amount,,,,"March 31, 2026",,,,,,,,,,
+349:0001193125-26-114621,0001193125-26-114621,005-94022,event_id,scored,26,BlackRock Private Investments Fund,"BlackRock Advisors, LLC",,,,,,,Delaware Statutory Trust,,09260N105; 09260N303; 09260N402; 09260N501,US09260N1054; US09260N3035; US09260N4025; US09260N5014,,,,,Payment Amount,,,,"March 31, 2026",,,,,,,,,,
+350:0001104659-26-032068,0001104659-26-032068,005-35587,event_id,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+351:0001628280-26-020030,0001628280-26-020030,005-95394,event_id,scored,9,"Crestline Lending Solutions, LLC","Crestline Lending Solutions, LLC",,,,,,,Fund Name,,,,,,,,"$17,203,812.45",USD,,,"January 21, 2026",,,,,,,,,,
+352:0001702510-26-000028,0001702510-26-000028,005-90234,event_id,scored,77,"Carlyle Credit Solutions, Inc.","Carlyle Credit Solutions, Inc.",,,,,,,"CDL TENDER FUND 2022-1, L.P.",,,,,,,,$100 million,USD,,,"April 5, 2022","April 4, 2022",1/26/2026,"May 31, 2022",terms and conditions of the Offer,,,,,,
+353:0001193125-26-118603,0001193125-26-118603,005-89632,event_id,scored,39,"AMG Pantheon Fund, LLC","AMG Pantheon Fund, LLC",,,,,,,"AMG Pantheon Fund, LLC",,001700137; 001700111; 001700129; 001700103; 001700202,US0017001373; US0017001118; US0017001290; US0017001035; US0017002025,,,,,unaudited net asset value,,,,"June 30, 2020",Valuation Date,7/1/2019,"June 30, 2020",,,,,,,
+354:0001193125-26-118609,0001193125-26-118609,005-89631,event_id,scored,36,"AMG Pantheon Master Fund, LLC","AMG Pantheon Master Fund, LLC",,,,,,,"AMG Pantheon Master Fund, LLC",,001701101,US0017011018,,,,,$13.64,,,,"June 30, 2020",March 31,1/31/2020,effective,,,,,,,
+355:0001193125-26-122123,0001193125-26-122123,005-92613,event_id,scored,15,BlackRock Alpha Strategies Fund,"BlackRock Advisors, LLC",,,,,,,Portfolio Funds,,09261A102; 09261A201,US09261A1025; US09261A2015,,,,,,,,,,,1/28/2026,,,,,,,,
+356:0001193125-26-121738,0001193125-26-121738,005-94179,accession,scored,15,Vista Credit Strategic Lending Corp.,Vista Credit Strategic Lending Corp.,,,,,,,Company,,92839L107; U9224Y103; 92839L206; U9227Y100; 92839L305; U9227Y118,US92839L1070; USU9224Y1039; US92839L2060; USU9227Y1002; US92839L3050; USU9227Y1184,,,,,"$15,365,349.21",USD,,,"April 21, 2026",,1/29/2026,,,,,,,,
+357:0001193125-26-121537,0001193125-26-121537,005-95016,event_id,scored,6,,HarbourVest Private Investments Fund,,,,,,,,,41166N103; 41166N202; 41166N301,US41166N1037; US41166N2027; US41166N3017,,,,,"$26,625,326.44",USD,,,,,,,,,,,,,
+358:0001193125-26-122188,0001193125-26-122188,005-93603,event_id,scored,68,TCW DIRECT LENDING VIII LLC,TCW Direct Lending VIII LLC,,,,,,,DL VIII,,,,,,,,$770 million,,,,"February 1, 2026",5:00 p.m.,2/20/2026,"September 30, 2025",,,,,,,
+359:0001104659-26-033627,0001104659-26-033627,005-35587,event_id,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+360:0001493152-26-012450,0001493152-26-012450,005-39496,accession,scored,35,"SELECTIS
+HEALTH, INC.","Black Pearl Equities, LLC",,,,,,,Selectis,GBCS,816291108,US8162911080,,,,,"$15,500,000",USD,,,"May
+    11, 2026","MAY 11, 2026",5/11/2026,,"Minimum
+    Condition",,,,,,
+361:0001213900-26-033937,0001213900-26-033937,005-94977,event_id,scored,12,PRIVACORE PCAAM ALTERNATIVE GROWTH FUND,Privacore PCAAM Alternative Growth Fund,,,,,,,Fund,,74290Y307,US74290Y3071,,,,,,,,,,,2/27/2026,,,,,,,,
+362:0001193125-26-123055,0001193125-26-123055,005-88968,event_id,scored,44,"AUDAX CREDIT BDC, INC.","Audax Credit BDC, Inc.",,,,,,,Company,,05070P108,US05070P1084,,,,,"$350,000,000.00",USD,,,"December 31, 2025",11:59 P.M.,1/13/2026,,"terms and conditions of the
+Offer",,,,,,
+363:0001104659-26-034177,0001104659-26-034177,005-35587,event_id,scored,24,"Enzon Pharmaceuticals, Inc.",Icahn Enterprises Holdings L.P.,,,,,,,"Series C
+Non-Convertible Redeemable Preferred Stock",ENZN,293904702,US2939047021,,,,,7.83,,,,"March
+9, 2026",,1/30/2026,,,,,,,,
+364:0001580642-26-002012,0001580642-26-002012,005-88210,event_id,scored,20,Evanston Alternative Opportunities Fund,Evanston Multi-Alpha Fund,,,,,,,Evanston Multi-Alpha Fund,,299222208; 299222109,US2992222081; US2992221091,,,,,"$5,743,523.51",,,,,,1/28/2026,,,,,,,,
+365:0001875084-26-000002,0001875084-26-000002,005-94116,event_id,scored,32,"PGIM Private Real Estate Fund, Inc.","PGIM Private Real Estate Fund, Inc.",,,,,,,Stockholders,,69419Y105; 69419Y204; 69419Y303; 69419Y402,US69419Y1055; US69419Y2046; US69419Y3036; US69419Y4026,,,,,"$1,000",,,,"April 11, 2024",Valuation Date,2/12/2024,,,,,,,,

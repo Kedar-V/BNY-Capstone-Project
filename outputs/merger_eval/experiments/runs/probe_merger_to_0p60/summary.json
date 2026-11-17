@@ -1,0 +1,36 @@
+{
+  "n_restored_cdrop": 18,
+  "n_probe": 25,
+  "micro_after_restore": {
+    "tp": 88,
+    "fp": 56,
+    "fn": 71,
+    "p": 0.6111111111111112,
+    "r": 0.5534591194968553,
+    "f1": 0.5808580858085809
+  },
+  "micro_after_probe": {
+    "tp": 88,
+    "fp": 62,
+    "fn": 71,
+    "p": 0.5866666666666667,
+    "r": 0.5534591194968553,
+    "f1": 0.5695792880258899
+  },
+  "delta": {
+    "still_bad": 24,
+    "improved": 1
+  },
+  "by_field": {
+    "effective_date": {
+      "still_bad": 10
+    },
+    "election_deadline": {
+      "still_bad": 3,
+      "improved": 1
+    },
+    "stock_exchange_ratio": {
+      "still_bad": 11
+    }
+  }
+}

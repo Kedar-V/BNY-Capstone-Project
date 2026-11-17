@@ -43,11 +43,23 @@ TICKER_PATTERNS = [
 # Prefer subject/issuer venues; demote bidder consideration tickers (e.g. ORCL in a WBD deal).
 _SUBJECT_NEAR = re.compile(
     r"subject\s+company|name of (?:the )?subject|filing person\s*\(\s*issuer\s*\)|"
-    r"names? of filing persons?\s*\(\s*issuer|common stock of|shares of\s+[A-Z]",
+    r"names? of filing persons?\s*\(\s*issuer|common stock of|shares of\s+[A-Z]|"
+    # Merger DEF14A / proxy: registrant is usually the target whose shares are voted.
+    r"\bour\s+common\s+stock\b|\bcompany['’]?s?\s+common\s+stock\b|"
+    r"\btrading\s+symbol\s+of\s+(?:our|the\s+company)\b|"
+    r"\bshares?\s+of\s+(?:the\s+)?(?:company|registrant)\b|"
+    r"\bdefm?14a\b|\bschedule\s+14a\b",
     re.IGNORECASE,
 )
 _BIDDER_NEAR = re.compile(
-    r"\b(?:consideration|purchaser|offeror|bidder|parent|oracle|merger\s+sub)\b",
+    r"\b(?:consideration|purchaser|offeror|bidder|parent|oracle|merger\s+sub|"
+    r"acquiring|acquirer|buyer)\b",
+    re.IGNORECASE,
+)
+# Multi-class SPAC / unit listings: "Trading Symbols: FOO, FOOR, FOOU"
+_MULTI_TICKER_LINE = re.compile(
+    rf"(?:Trading\s+Symbols?|Ticker\s*Symbols?)\s*[:=]\s*"
+    rf"((?:{_TICKER_TOKEN}\s*[,/]\s*){{1,4}}{_TICKER_TOKEN})",
     re.IGNORECASE,
 )
 _TICKER_STOP = frozenset(
@@ -162,52 +174,75 @@ def find_isins(text: str, cusips: list[str]) -> list[str]:
     return [f"US{cusip}{_isin_check_digit('US' + cusip)}" for cusip in cusips]
 
 
-def find_ticker(text: str) -> str | None:
-    """Best exchange-/symbol-labeled ticker; prefers subject-company context."""
+def _score_ticker_match(text: str, match: re.Match[str], raw: str) -> int:
+    # Left-heavy local window: role cues sit before the symbol; avoid bleeding into
+    # the next company's "under the symbol" sentence (Inc./Corp. periods break poorly).
+    ctx = text[max(0, match.start() - 140) : match.end() + 20]
+    score = 0
+    span = match.group(0)
+    is_under_symbol = bool(
+        re.search(r"under the (?:ticker )?symbol", span, re.IGNORECASE)
+    )
+    is_coy = bool(re.search(r"\bCOY:", span, re.IGNORECASE))
+    is_otc = bool(re.search(r"OTC", span, re.IGNORECASE))
+    if _SUBJECT_NEAR.search(ctx):
+        score += 5
+    if is_under_symbol:
+        score += 4  # strong subject-equity phrasing
+    if is_coy:
+        score += 2
+    if is_otc:
+        score += 1
+    # Parent/acquirer / consideration equity just before the hit — demote.
+    if _BIDDER_NEAR.search(ctx):
+        score -= 6 if (is_under_symbol or is_coy or is_otc) else 10
+    if match.start() < 2500:
+        score += 1
+    return score
+
+
+def find_tickers(text: str, *, limit: int = 6) -> list[str]:
+    """Ranked exchange-/symbol-labeled tickers; prefers subject-company context."""
     if not text:
-        return None
+        return []
+    # Prefer an explicit multi-symbol cover line when present.
+    multi = _MULTI_TICKER_LINE.search(text[:8000] if len(text) > 8000 else text)
+    if multi:
+        parts = [
+            p.strip().rstrip(".").upper()
+            for p in re.split(r"[,/]", multi.group(1))
+        ]
+        parts = [p for p in parts if p and p not in _TICKER_STOP and len(p) >= 2]
+        if 2 <= len(parts) <= 5:
+            return [", ".join(parts)]
+
     candidates: list[tuple[int, int, str]] = []  # (score, pos, ticker)
     for pattern in TICKER_PATTERNS:
         for match in pattern.finditer(text):
             raw = (match.group(1) or "").strip().rstrip(".").upper()
             if not raw or raw in _TICKER_STOP or len(raw) < 2:
                 continue
-            left = text[max(0, match.start() - 220) : match.start()]
-            right = text[match.end() : match.end() + 80]
-            ctx = left + " " + right
-            score = 0
-            span = match.group(0)
-            is_under_symbol = bool(
-                re.search(r"under the (?:ticker )?symbol", span, re.IGNORECASE)
-            )
-            is_coy = bool(re.search(r"\bCOY:", span, re.IGNORECASE))
-            is_otc = bool(re.search(r"OTC", span, re.IGNORECASE))
-            if _SUBJECT_NEAR.search(ctx):
-                score += 5
-            if is_under_symbol:
-                score += 4  # strong subject-equity phrasing
-            if is_coy:
-                score += 2
-            if is_otc:
-                score += 1
-            # Bare EXCHANGE:TICKER near bidder/consideration (e.g. NYSE: ORCL
-            # stock as deal consideration) — force below the accept threshold.
-            if (
-                not (is_under_symbol or is_coy or is_otc)
-                and _BIDDER_NEAR.search(ctx)
-            ):
-                score -= 10
-            if match.start() < 2500:
-                score += 1
+            score = _score_ticker_match(text, match, raw)
             candidates.append((score, match.start(), raw))
     if not candidates:
-        return None
+        return []
     candidates.sort(key=lambda x: (-x[0], x[1]))
-    best_score, _, best = candidates[0]
-    # Abstain if the only hits look like bidder consideration tickers.
-    if best_score < 0:
-        return None
-    return best
+    out: list[str] = []
+    seen: set[str] = set()
+    for score, _, raw in candidates:
+        if score < 0 or raw in seen:
+            continue
+        seen.add(raw)
+        out.append(raw)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def find_ticker(text: str) -> str | None:
+    """Best exchange-/symbol-labeled ticker; prefers subject-company context."""
+    hits = find_tickers(text, limit=1)
+    return hits[0] if hits else None
 
 
 def find_currency(offer_price: str | None) -> str | None:
@@ -241,6 +276,118 @@ def find_settlement(text: str) -> str | None:
         if dm:
             return dm.group(0).strip()
     return None
+
+
+_SET_MONTHS = ["january", "february", "march", "april", "may", "june", "july", "august",
+               "september", "october", "november", "december"]
+_SET_DATE = re.compile(
+    r"\b(?:(\d{1,2})/(\d{1,2})/(\d{4})|(" + "|".join(m.title() for m in _SET_MONTHS)
+    + r")\s+(\d{1,2}),?\s+(\d{4}))\b",
+    re.I,
+)
+_SET_PAY = re.compile(
+    r"\b(paid|pay(?:ment)?|wired|wire|settle(?:ment)?|cash\s+payment|accepted\s+for\s+(?:payment|purchase)|"
+    r"purchase\s+price|consideration|disbursed|deposit(?:ed)?|issued)\b",
+    re.I,
+)
+_SET_NOT_PAY = re.compile(
+    r"\b(expir\w*|withdraw\w*|commence\w*|dated|filed|filing|record\s+date|valuation\s+date|"
+    r"notice|announce\w*|termination|effective|tender\w*\s+period)\b",
+    re.I,
+)
+_SET_STRONG_BEFORE = re.compile(
+    r"(?i)(paid|wired|wire|payment\s+(?:will\s+be\s+made|was\s+made|is\s+made)|pay(?:ment)?\s+(?:on|by|no\s+later\s+than)|"
+    r"no\s+later\s+than|on\s+or\s+about|to\s+be\s+paid\s+on)\s*(?:on\s+or\s+about\s+|on\s+|by\s+|no\s+later\s+than\s+)?$"
+)
+_SET_AS_OF = re.compile(
+    r"(?i)(as\s+of|valuation\s+date|net\s+asset\s+value\s+(?:as\s+of|per\s+\w+\s+as\s+of)|fiscal\s+year|year\s+ended)\s*$"
+)
+_SET_WINDOW = 160
+
+
+def find_settlement_date(text: str) -> str | None:
+    """Date-only settlement_date: the calendar date that is the payment/acceptance date.
+
+    Scores every calendar date by nearby payment words, penalises dates that are
+    valuation / NAV / fiscal-year dates or sit near expiration, withdrawal or notice
+    wording. Returns ``M/D/YYYY`` or None. Never returns template text such as
+    ``Payment: promptly`` (relative timing is left blank, not guessed).
+    """
+    if not text or not text.strip():
+        return None
+    best: tuple[float, str] | None = None
+    for m in _SET_DATE.finditer(text):
+        if m.group(1):
+            mo, da, yr = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        else:
+            mo, da, yr = _SET_MONTHS.index(m.group(4).lower()) + 1, int(m.group(5)), int(m.group(6))
+        pos = m.start()
+        lo, hi = max(0, pos - _SET_WINDOW), min(len(text), pos + _SET_WINDOW)
+        pay_hits = len(_SET_PAY.findall(text[lo:hi]))
+        if not pay_hits:
+            continue
+        neg_hits = len(_SET_NOT_PAY.findall(text[max(0, pos - 60): pos + 60]))
+        score = pay_hits - 2 * neg_hits - abs(pos - (lo + hi) / 2) / _SET_WINDOW
+        before = text[max(0, pos - 40): pos]
+        if _SET_STRONG_BEFORE.search(before):
+            score += 2
+        if _SET_AS_OF.search(before):
+            score -= 3
+        if best is None or score > best[0]:
+            best = (score, f"{mo}/{da}/{yr}")
+    return best[1] if best and best[0] > 0 else None
+
+
+def _set_date_tuple(m: re.Match) -> tuple[int, int, int]:
+    if m.group(1):
+        return int(m[3]), int(m[1]), int(m[2])
+    return int(m[6]), _SET_MONTHS.index(m[4].lower()) + 1, int(m[5])
+
+
+_SETTLEMENT_TEMPLATE = "Payment: promptly"
+
+
+def prefer_settlement_rules_values(values: list[str], evidence_text: str = "") -> list[str]:
+    """Oracle Settlement template first: prepend find_settlement hits, prefer promptly."""
+    vals = [v for v in values if (v or "").strip()]
+    if evidence_text:
+        hit = find_settlement(evidence_text)
+        if hit and hit not in vals:
+            vals.append(hit)
+    promptly = [v for v in vals if v.strip() == _SETTLEMENT_TEMPLATE]
+    rest = [v for v in vals if v.strip() != _SETTLEMENT_TEMPLATE]
+    return promptly + rest
+
+
+def settlement_accept(value: str, evidence: str) -> bool:
+    """Precision gate for settlement_date (v2 cascade + oracle Settlement template).
+
+    Keep the oracle template ``Payment: promptly`` (GT-shaped timing language). For calendar
+    dates, accept only when the date appears in the evidence after a payment cue; relative
+    timing other than the template, and dates without a pay cue, are rejected.
+    """
+    v = (value or "").strip()
+    text = evidence or ""
+    if v == _SETTLEMENT_TEMPLATE:
+        # Oracle Settlement template: exact form is already gated by find_settlement.
+        # Frozen rules bundles often omit the filing span, so do not re-require cues here.
+        return True
+    vm = _SET_DATE.search(v)
+    if vm is None or vm.group(0) != v:
+        return False  # value must be exactly one calendar date (or the template above)
+    target = _set_date_tuple(vm)
+    for hit in _SET_DATE.finditer(text):
+        if _set_date_tuple(hit) != target:
+            continue
+        # A payment word within 80 chars, and no valuation/expiration/notice wording right before the date
+        window = text[max(0, hit.start() - 80): hit.end() + 80]
+        before = text[max(0, hit.start() - 40): hit.start()]
+        if not _SET_PAY.search(window):
+            continue
+        if _SET_NOT_PAY.search(before) or _SET_AS_OF.search(before):
+            continue
+        return True
+    return False
 
 
 def load_sec_tickers(path: Path) -> dict[str, str]:
@@ -344,7 +491,7 @@ def extract_id_currency_facts(
                     passage=price[:200],
                 )
             )
-        settlement = find_settlement(text)
+        settlement = find_settlement_date(text)
         if settlement:
             facts.append(
                 _rule_fact(

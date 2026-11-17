@@ -33,6 +33,18 @@ def test_soft_match_and_score():
     # Par value must not match NAV/formula offer text
     assert not soft_match("$0.001", "net asset value per Share as of December 31, 2025")
     assert soft_match("$25.53 per share", "$25.53")
+    # Thousands separators are noise (bare number ≡ comma-formatted)
+    assert soft_match("1,400", "1400")
+    assert soft_match("1400", "1,400.00")
+    assert not soft_match("1,400", "140")
+    # Currency field: symbol ≡ ISO (and not a price amount)
+    assert soft_match("$", "USD")
+    assert soft_match("USD", "$")
+    assert soft_match("US$", "USD")
+    assert soft_match("€", "EUR")
+    assert soft_match("U.S. dollars", "USD")
+    assert not soft_match("$18.75", "USD")
+    assert not soft_match("$", "EUR")
     gt = [
         {
             "accession_number": "A1",
@@ -94,3 +106,53 @@ def test_soft_match_and_score():
     assert res2["n_gt_accessions"] == 1
     assert res2["per_field"]["security_description"]["tp"] == 1
     assert res2["per_field"]["security_description"]["fn"] >= 1
+
+
+def test_no_minimum_tender_condition_is_treated_as_empty():
+    from src.evaluation.tender import normalize, soft_match
+
+    assert normalize("No minimum tender condition") == ""
+    assert normalize("no Minimum Tender Condition ") == ""
+    assert normalize("∅") == ""
+    assert normalize("No proration") == ""
+    assert (
+        normalize(
+            "The Offer is being made to all Shareholders of the Fund and is not "
+            "conditioned on any minimum number of Shares being tendered."
+        )
+        == ""
+    )
+    assert normalize("The Offer is not conditioned upon any minimum number of Shares.") == ""
+    assert not soft_match("No minimum tender condition", "No minimum tender condition")
+    assert normalize("a majority of the outstanding Shares") != ""
+    # Real threshold text must stay present even if it mentions "minimum".
+    assert normalize("at least 50% minimum tender condition") != ""
+
+
+def test_currency_backfilled_from_passage_and_undecided_rows():
+    from src.evaluation.tender import _backfill_currency, _gold_rows
+
+    ok = {"accession_number": "a", "offer_price": "30.00", "currency": "",
+          "passage": str({"offer_price": [{"quote": "purchase price of $30.00 per Share"}]})}
+    _backfill_currency(ok)
+    assert ok["currency"] == "USD"
+
+    unk = {"accession_number": "b", "offer_price": "Net asset value per Share", "currency": "",
+           "passage": str({"offer_price": [{"quote": "net asset value per Share as of the Valuation Date"}]})}
+    _backfill_currency(unk)
+    assert unk["currency"] == "" and unk["_currency_undecided"] == "1"
+    (_, _, fields), = _gold_rows([unk])
+    assert fields["_undecided"] == {"currency"} and "currency" not in fields
+
+    nop = {"accession_number": "c", "offer_price": "", "currency": "", "passage": "{}"}
+    _backfill_currency(nop)
+    assert "_currency_undecided" not in nop
+
+
+def test_bare_number_gold_matches_priced_predictions():
+    from src.evaluation.tender import soft_match
+
+    for pred in ("$30.00", "$30.00 per Share", "30.00 per share", "30.00"):
+        assert soft_match(pred, "30.00"), pred
+    assert not soft_match("$0.001", "30.00")
+    assert not soft_match("$252 billion", "30")

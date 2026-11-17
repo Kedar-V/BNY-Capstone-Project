@@ -377,8 +377,13 @@ def test_real_holdout_limit2(harness, tmp_path, pack):
 
 
 def test_disk_temporal_cache_hit_miss_and_no_tagger(harness, monkeypatch, tmp_path):
+    import dataclasses
+
     mod, _ = harness
-    from src.evaluation.action_packs import TENDER_PACK
+    from src.evaluation.action_packs import TENDER_PACK as _TENDER
+
+    # default temporal scan (12,000 chars / 25 spans): the snapshot's <key>.json layout
+    TENDER_PACK = dataclasses.replace(_TENDER, temporal_scan_chars=12_000, temporal_max_spans=25)
 
     calls: list[tuple] = []
 
@@ -404,6 +409,79 @@ def test_disk_temporal_cache_hit_miss_and_no_tagger(harness, monkeypatch, tmp_pa
     # hit: read from disk, no tagger needed (also under --no-temporal)
     assert no_tagger("evt1", "other", ("expiration_date",)) == got
     assert len(calls) == 1 and no_tagger.hits == 1
+
+
+def test_disk_temporal_cache_key_depends_on_non_default_scan_config(harness, monkeypatch, tmp_path):
+    """A cache written under one temporal scan config is never served to another."""
+    import dataclasses
+
+    mod, _ = harness
+    from src.evaluation.action_packs import MERGER_PACK, TENDER_PACK
+
+    calls: list[tuple] = []
+
+    def fake_precompute(pack, tagger, excerpts, fields):
+        calls.append((pack.temporal_scan_chars, pack.temporal_max_spans))
+        return {"expiration_date": [f"- date='scan{pack.temporal_scan_chars}' label=DATE"]}
+
+    monkeypatch.setattr(mod, "precompute_temporal", fake_precompute)
+    cache_dir = tmp_path / "temporal_cache" / "tender"
+    default = dataclasses.replace(TENDER_PACK, temporal_scan_chars=12_000, temporal_max_spans=25)
+    wide = dataclasses.replace(TENDER_PACK, temporal_scan_chars=24_000, temporal_max_spans=40)
+
+    # a stale default-scan (12k) cache file already on disk
+    old = mod.DiskTemporalCache(default, cache_dir, lambda: "TAGGER")
+    assert old.path_for("evt1") == cache_dir / "evt1.json"
+    stale = old("evt1", "text", ("expiration_date",))
+
+    new = mod.DiskTemporalCache(wide, cache_dir, lambda: "TAGGER")
+    assert new.path_for("evt1") == cache_dir / "evt1__scan24000_max40.json"
+    got = new("evt1", "text", ("expiration_date",))
+    assert (new.hits, new.misses) == (0, 1), "a 12k-char cache was reused for a 24k scan"
+    assert got != stale and calls == [(12_000, 25), (24_000, 40)]
+    assert (cache_dir / "evt1__scan24000_max40.json").exists()
+    # same non-default config again: a hit on its own file; the default file is untouched
+    assert mod.DiskTemporalCache(wide, cache_dir, lambda: None)("evt1", "x", ("expiration_date",)) == got
+    assert json.loads((cache_dir / "evt1.json").read_text(encoding="utf-8")) == stale
+    # only the cap differs -> still a different file
+    capped = dataclasses.replace(wide, temporal_max_spans=25)
+    assert mod.DiskTemporalCache(capped, cache_dir, lambda: None).path_for("evt1").name == (
+        "evt1__scan24000_max25.json"
+    )
+    # merger keeps the defaults, hence the original <key>.json layout
+    assert MERGER_PACK.temporal_scan_is_default
+    assert mod.DiskTemporalCache(MERGER_PACK, cache_dir, lambda: None).path_for("e").name == "e.json"
+    # the tender pack itself runs a non-default scan -> keyed file name
+    assert not TENDER_PACK.temporal_scan_is_default
+    assert "__scan" in mod.DiskTemporalCache(TENDER_PACK, cache_dir, lambda: None).path_for("e").name
+
+
+def test_accessions_file_restricts_rows(synthetic, tmp_path):
+    mod, backends, use_rows, out = synthetic
+    use_rows(TENDER_ROWS)
+    acc_file = tmp_path / "accs.txt"
+    keep = TENDER_ROWS[1]["accession_number"]
+    acc_file.write_text(f"# confirm set\n{keep}\n\n", encoding="utf-8")
+    # without --limit; the 3 synthetic accessions all land in the (n=20) holdout split
+    argv = _synthetic_argv(out, "tender", "graph_cli_accfile")
+    i = argv.index("--limit")
+    del argv[i : i + 2]
+    split = "holdout"
+    assert mod.main([*argv, "--accessions-file", str(acc_file), "--run-name", "graph_cli_accfile2"]) == 0
+    summary, details, _, _ = _read(out, "graph_cli_accfile2")
+    assert summary["n_rows"] == 1 and [d["accession"] for d in details] == [keep]
+    # the train split holds none of them -> no rows -> exit 2
+    assert mod.main([*argv, "--split", "train", "--accessions-file", str(acc_file),
+                     "--run-name", "graph_cli_accfile5"]) == 2
+
+    # no GT row of the split matches -> exit 2
+    bad = tmp_path / "none.txt"
+    bad.write_text("0000000000-00-000000\n", encoding="utf-8")
+    assert mod.main([*argv, "--split", split, "--accessions-file", str(bad),
+                     "--run-name", "graph_cli_accfile3"]) == 2
+    # unreadable file -> exit 2
+    assert mod.main([*argv, "--split", split, "--accessions-file", str(tmp_path / "missing.txt"),
+                     "--run-name", "graph_cli_accfile4"]) == 2
 
 
 def test_subset_run_caches_all_date_fields_for_later_full_run(synthetic, monkeypatch):

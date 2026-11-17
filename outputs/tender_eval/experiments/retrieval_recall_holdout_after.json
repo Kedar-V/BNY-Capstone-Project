@@ -1,0 +1,212 @@
+{
+  "pack": "tender",
+  "split": "holdout",
+  "mode": "oneshot",
+  "n_accessions": 20,
+  "n_rows": 23,
+  "temporal_scan_chars": 24000,
+  "temporal_max_spans": 40,
+  "temporal_cache": {
+    "hits": 5,
+    "misses": 18
+  },
+  "fields": {
+    "subject_company": {
+      "rows_with_gold": 23,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.913,
+      "recall_strict": 0.913,
+      "recall_any_stage": 0.913,
+      "recall_piece": 0.913,
+      "recall_ext": 0.913,
+      "recall_ext_any_stage": 0.913,
+      "avg_evidence_chars": 837.6,
+      "first_stage": {
+        "oneshot": 23
+      }
+    },
+    "bidder": {
+      "rows_with_gold": 23,
+      "evidence_empty_rate": 0.0,
+      "recall": 1.0,
+      "recall_strict": 1.0,
+      "recall_any_stage": 1.0,
+      "recall_piece": 1.0,
+      "recall_ext": 1.0,
+      "recall_ext_any_stage": 1.0,
+      "avg_evidence_chars": 1848.4,
+      "first_stage": {
+        "oneshot": 23
+      }
+    },
+    "security_description": {
+      "rows_with_gold": 23,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.5217,
+      "recall_strict": 0.0,
+      "recall_any_stage": 0.7391,
+      "recall_piece": 1.0,
+      "recall_ext": 0.6957,
+      "recall_ext_any_stage": 0.6957,
+      "avg_evidence_chars": 373.0,
+      "first_stage": {
+        "clause": 23
+      }
+    },
+    "cusip": {
+      "rows_with_gold": 13,
+      "evidence_empty_rate": 0.0,
+      "recall": 1.0,
+      "recall_strict": 1.0,
+      "recall_any_stage": 1.0,
+      "recall_piece": 1.0,
+      "recall_ext": 1.0,
+      "recall_ext_any_stage": 1.0,
+      "avg_evidence_chars": 225.4,
+      "first_stage": {
+        "oneshot": 13
+      }
+    },
+    "isin": {
+      "rows_with_gold": 13,
+      "evidence_empty_rate": 0.0,
+      "recall": 1.0,
+      "recall_strict": 1.0,
+      "recall_any_stage": 1.0,
+      "recall_piece": 1.0,
+      "recall_ext": 1.0,
+      "recall_ext_any_stage": 1.0,
+      "avg_evidence_chars": 111.5,
+      "first_stage": {
+        "oneshot": 13
+      }
+    },
+    "ticker": {
+      "rows_with_gold": 7,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.4286,
+      "recall_strict": 0.4286,
+      "recall_any_stage": 0.4286,
+      "recall_piece": 0.4286,
+      "recall_ext": 0.4286,
+      "recall_ext_any_stage": 0.4286,
+      "avg_evidence_chars": 1201.1,
+      "first_stage": {
+        "oneshot": 7
+      }
+    },
+    "offer_price": {
+      "rows_with_gold": 23,
+      "evidence_empty_rate": 0.0,
+      "recall": 1.0,
+      "recall_strict": 0.1739,
+      "recall_any_stage": 1.0,
+      "recall_piece": 1.0,
+      "recall_ext": 0.4783,
+      "recall_ext_any_stage": 0.4783,
+      "avg_evidence_chars": 1507.6,
+      "first_stage": {
+        "oneshot": 23
+      }
+    },
+    "currency": {
+      "rows_with_gold": 17,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.5294,
+      "recall_strict": 0.5294,
+      "recall_any_stage": 0.5294,
+      "recall_piece": 0.5294,
+      "recall_ext": 0.5294,
+      "recall_ext_any_stage": 0.5294,
+      "avg_evidence_chars": 1812.2,
+      "first_stage": {
+        "oneshot": 17
+      }
+    },
+    "expiration_date": {
+      "rows_with_gold": 22,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.8636,
+      "recall_strict": 0.8636,
+      "recall_any_stage": 0.8636,
+      "recall_piece": 0.8636,
+      "recall_ext": 0.8636,
+      "recall_ext_any_stage": 0.8636,
+      "avg_evidence_chars": 6328.0,
+      "first_stage": {
+        "oneshot": 22
+      }
+    },
+    "withdrawal_deadline": {
+      "rows_with_gold": 10,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.9,
+      "recall_strict": 0.9,
+      "recall_any_stage": 0.9,
+      "recall_piece": 0.9,
+      "recall_ext": 0.9,
+      "recall_ext_any_stage": 0.9,
+      "avg_evidence_chars": 8023.6,
+      "first_stage": {
+        "oneshot": 10
+      }
+    },
+    "settlement_date": {
+      "rows_with_gold": 15,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.6667,
+      "recall_strict": 0.1333,
+      "recall_any_stage": 0.6667,
+      "recall_piece": 0.6667,
+      "recall_ext": 0.1333,
+      "recall_ext_any_stage": 0.1333,
+      "avg_evidence_chars": 6516.9,
+      "first_stage": {
+        "oneshot": 15
+      }
+    },
+    "effective_date": {
+      "rows_with_gold": 4,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.25,
+      "recall_strict": 0.25,
+      "recall_any_stage": 0.25,
+      "recall_piece": 0.25,
+      "recall_ext": 0.25,
+      "recall_ext_any_stage": 0.25,
+      "avg_evidence_chars": 6169.5,
+      "first_stage": {
+        "oneshot": 4
+      }
+    },
+    "minimum_tender_condition": {
+      "rows_with_gold": 11,
+      "evidence_empty_rate": 0.5455,
+      "recall": 0.1818,
+      "recall_strict": 0.0,
+      "recall_any_stage": 0.2727,
+      "recall_piece": 0.1818,
+      "recall_ext": 0.0909,
+      "recall_ext_any_stage": 0.0909,
+      "avg_evidence_chars": 445.8,
+      "first_stage": {
+        "clause": 5,
+        "oneshot": 6
+      }
+    },
+    "proration_terms": {
+      "rows_with_gold": 7,
+      "evidence_empty_rate": 0.5714,
+      "recall": 0.4286,
+      "recall_strict": 0.0,
+      "recall_any_stage": 0.4286,
+      "recall_piece": 0.4286,
+      "recall_ext": 0.0,
+      "recall_ext_any_stage": 0.0,
+      "avg_evidence_chars": 384.3,
+      "first_stage": {
+        "clause": 7
+      }
+    }
+  }
+}

@@ -47,6 +47,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--viz", action="store_true")
     p.add_argument("--viz-only", action="store_true")
     p.add_argument("--inspect-limit", type=int, default=5)
+    p.add_argument("--gt-accessions-json", type=Path, default=None,
+                   help="JSON {event_id: [accession,...]}: also inventory these GT accessions per event")
     p.add_argument("--no-progress", action="store_true")
     p.add_argument("--progress", action="store_true", help="Force tqdm even if not a TTY")
     p.add_argument(
@@ -72,6 +74,9 @@ def main(argv: list[str] | None = None) -> int:
         show_progress = progress_enabled(True)
 
     extra = {}
+    if args.gt_accessions_json:
+        import json as _json
+        extra["gt_accessions_by_event"] = _json.loads(args.gt_accessions_json.read_text())
     if args.fake_gliner:
         extra["span_backend"] = "fake"
     if args.gliner_model:

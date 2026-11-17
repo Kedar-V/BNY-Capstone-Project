@@ -110,6 +110,46 @@ def test_select_prompt_pick():
     assert "- Pick the ticker." in p and p.endswith("EVIDENCE:\n- hint=ticker value='A'\n")
 
 
+def test_select_prompt_election_deadline_abstains():
+    p = select_prompt(
+        _pack(),
+        "election_deadline",
+        "- hint=election_deadline date='2026-01-01'",
+        mode="pick",
+    )
+    assert "If none clearly match the DEFINITION, return null" in p
+    assert "Do NOT return null if at least one listed value" not in p
+
+
+def test_select_prompt_party_rejects_bare_roles():
+    p = select_prompt(_pack(), "acquirer", "- hint=acquirer value='Holdco'", mode="pick")
+    assert "NEVER return bare role nouns" in p
+    assert "Holdco" in p
+
+
+def test_select_prompt_includes_field_shots():
+    from src.evaluation.action_packs.base import FieldShot
+    from dataclasses import replace
+
+    p0 = _pack()
+    pack = replace(
+        p0,
+        field_shots={
+            "ticker": (
+                FieldShot(
+                    evidence="- hint=ticker value='AAAA'\n- hint=ticker value='BBBB'",
+                    answer="AAAA",
+                    note="target not acquirer",
+                ),
+            )
+        },
+    )
+    p = select_prompt(pack, "ticker", "- hint=ticker value='ZZZZ'", mode="pick")
+    assert "EXAMPLES" in p
+    assert '→ {"ticker": "AAAA"}' in p
+    assert "target not acquirer" in p
+
+
 def test_select_prompt_copy():
     assert select_prompt(_pack(), "clause_f", "RAW", mode="copy") == "F=clause_f X=RAW"
 
@@ -117,3 +157,9 @@ def test_select_prompt_copy():
 def test_validate_prompt():
     p = validate_prompt(_pack(), "ticker", "ABC", "ev")
     assert "CANDIDATE: 'ABC'" in p and p.endswith("EVIDENCE:\nev\n")
+    assert "target/subject issuer ticker" in p
+
+
+def test_validate_prompt_consideration_type():
+    p = validate_prompt(_pack(), "consideration_type", "Cash", "ev")
+    assert "conversion/exchange-ratio" in p

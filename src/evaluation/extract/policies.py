@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import TYPE_CHECKING, Literal
+from typing import TYPE_CHECKING, Callable, Literal
 
 if TYPE_CHECKING:
     from src.evaluation.action_packs.base import ActionPack
@@ -11,10 +11,20 @@ if TYPE_CHECKING:
 DIRECT_RULES_FIELDS = frozenset({"ticker", "cusip", "isin"})
 
 
+def _with_hybrid(sources: tuple[str, ...], pack: "ActionPack") -> tuple[str, ...]:
+    """Append hybrid as a supplemental leg whenever the pack enables it."""
+    if pack.hybrid is None or "hybrid" in sources or "clause" in sources:
+        return sources
+    # Keep hybrid next to gliner/temporal (always-on supplement, not rules-only)
+    if "gliner" in sources or "temporal" in sources:
+        return sources + ("hybrid",)
+    return sources
+
+
 @dataclass(frozen=True)
 class Stage:
     name: str
-    # values: clause | rules | gliner | temporal | prior
+    # values: clause | rules | gliner | temporal | prior | hybrid
     sources: tuple[str, ...]
     prompt_mode: Literal["copy", "pick"]
     on_empty: Literal["null", "skip", "ask"]
@@ -30,6 +40,9 @@ class Stage:
     # labelled. NB: on_empty == "null" in a non-final stage ENDS the whole policy (the
     # remaining stages never run) — see nodes/retrieve.py.
     empty_label: str = "empty"
+    # Precision gate (v2 cascade): accept(value, evidence_text) -> bool. A value the gate
+    # rejects is treated as no answer, so the policy moves on to the next stage. None = accept all.
+    accept: Callable[[str, str], bool] | None = None
 
     def __post_init__(self) -> None:
         # Direct hits come from rules values (rules_direct) or the pack prior (direct_prior)
@@ -74,6 +87,7 @@ def resolve_policy(pack: ActionPack, field: str, *, cascade: bool) -> FieldPolic
     uses_temporal = pack.uses_temporal(field)
     if not cascade:
         sources = ("rules", "gliner", "temporal") if uses_temporal else ("rules", "gliner")
+        sources = _with_hybrid(sources, pack)
         return FieldPolicy(
             stages=(
                 Stage(
@@ -106,6 +120,8 @@ def resolve_policy(pack: ActionPack, field: str, *, cascade: bool) -> FieldPolic
                 validate=in_validate,
             )
         )
+    span_sources = ("gliner", "temporal") if uses_temporal else ("gliner",)
+    span_sources = _with_hybrid(span_sources, pack)
     return FieldPolicy(
         stages=tuple(stages)
         + (
@@ -121,7 +137,7 @@ def resolve_policy(pack: ActionPack, field: str, *, cascade: bool) -> FieldPolic
             ),
             Stage(
                 name="span",
-                sources=("gliner", "temporal") if uses_temporal else ("gliner",),
+                sources=span_sources,
                 prompt_mode="pick",
                 on_empty="skip",
                 pass_label="B",

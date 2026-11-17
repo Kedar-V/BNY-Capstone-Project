@@ -1,0 +1,167 @@
+{
+  "pack": "tender",
+  "split": "confirm",
+  "mode": "oneshot",
+  "n_accessions": 20,
+  "n_rows": 25,
+  "temporal_scan_chars": 12000,
+  "temporal_max_spans": 25,
+  "temporal_cache": {
+    "hits": 10,
+    "misses": 15
+  },
+  "fields": {
+    "subject_company": {
+      "rows_with_gold": 25,
+      "evidence_empty_rate": 0.12,
+      "recall": 0.88,
+      "recall_strict": 0.84,
+      "recall_any_stage": 0.88,
+      "avg_evidence_chars": 921.7,
+      "first_stage": {
+        "oneshot": 25
+      }
+    },
+    "bidder": {
+      "rows_with_gold": 25,
+      "evidence_empty_rate": 0.0,
+      "recall": 1.0,
+      "recall_strict": 1.0,
+      "recall_any_stage": 1.0,
+      "avg_evidence_chars": 2829.8,
+      "first_stage": {
+        "oneshot": 25
+      }
+    },
+    "security_description": {
+      "rows_with_gold": 25,
+      "evidence_empty_rate": 0.08,
+      "recall": 0.76,
+      "recall_strict": 0.0,
+      "recall_any_stage": 0.76,
+      "avg_evidence_chars": 860.1,
+      "first_stage": {
+        "oneshot": 25
+      }
+    },
+    "cusip": {
+      "rows_with_gold": 17,
+      "evidence_empty_rate": 0.0,
+      "recall": 1.0,
+      "recall_strict": 1.0,
+      "recall_any_stage": 1.0,
+      "avg_evidence_chars": 489.5,
+      "first_stage": {
+        "oneshot": 17
+      }
+    },
+    "isin": {
+      "rows_with_gold": 17,
+      "evidence_empty_rate": 0.0,
+      "recall": 1.0,
+      "recall_strict": 1.0,
+      "recall_any_stage": 1.0,
+      "avg_evidence_chars": 95.8,
+      "first_stage": {
+        "oneshot": 17
+      }
+    },
+    "ticker": {
+      "rows_with_gold": 7,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.4286,
+      "recall_strict": 0.4286,
+      "recall_any_stage": 0.4286,
+      "avg_evidence_chars": 816.1,
+      "first_stage": {
+        "oneshot": 7
+      }
+    },
+    "offer_price": {
+      "rows_with_gold": 25,
+      "evidence_empty_rate": 0.12,
+      "recall": 0.72,
+      "recall_strict": 0.24,
+      "recall_any_stage": 0.72,
+      "avg_evidence_chars": 1289.5,
+      "first_stage": {
+        "oneshot": 25
+      }
+    },
+    "currency": {
+      "rows_with_gold": 2,
+      "evidence_empty_rate": 0.0,
+      "recall": 1.0,
+      "recall_strict": 1.0,
+      "recall_any_stage": 1.0,
+      "avg_evidence_chars": 718.0,
+      "first_stage": {
+        "oneshot": 2
+      }
+    },
+    "expiration_date": {
+      "rows_with_gold": 21,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.6667,
+      "recall_strict": 0.6667,
+      "recall_any_stage": 0.6667,
+      "avg_evidence_chars": 5144.4,
+      "first_stage": {
+        "oneshot": 21
+      }
+    },
+    "withdrawal_deadline": {
+      "rows_with_gold": 6,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.5,
+      "recall_strict": 0.5,
+      "recall_any_stage": 0.5,
+      "avg_evidence_chars": 5888.3,
+      "first_stage": {
+        "oneshot": 6
+      }
+    },
+    "settlement_date": {
+      "rows_with_gold": 12,
+      "evidence_empty_rate": 0.0,
+      "recall": 0.6667,
+      "recall_strict": 0.3333,
+      "recall_any_stage": 0.6667,
+      "avg_evidence_chars": 5566.1,
+      "first_stage": {
+        "oneshot": 12
+      }
+    },
+    "effective_date": {
+      "rows_with_gold": 0,
+      "evidence_empty_rate": null,
+      "recall": null,
+      "recall_strict": null,
+      "recall_any_stage": null,
+      "avg_evidence_chars": null,
+      "first_stage": {}
+    },
+    "minimum_tender_condition": {
+      "rows_with_gold": 7,
+      "evidence_empty_rate": 0.7143,
+      "recall": 0.1429,
+      "recall_strict": 0.0,
+      "recall_any_stage": 0.1429,
+      "avg_evidence_chars": 125.4,
+      "first_stage": {
+        "oneshot": 7
+      }
+    },
+    "proration_terms": {
+      "rows_with_gold": 8,
+      "evidence_empty_rate": 0.5,
+      "recall": 0.25,
+      "recall_strict": 0.0,
+      "recall_any_stage": 0.25,
+      "avg_evidence_chars": 665.5,
+      "first_stage": {
+        "clause": 8
+      }
+    }
+  }
+}
