@@ -27,7 +27,7 @@ python scripts/build_standalone.py    # --out to write it somewhere else
 Most tweaks only touch the page code and need no API key or data rebuild:
 
 1. Run `npm install`, then `npm run dev`, and open `http://localhost:5173/client/brief`.
-2. Edit `src/pages/client/Brief.tsx`, `src/pages/client/Holdings.tsx` or `src/pages/ops/BriefReview.tsx`.
+2. Edit `src/pages/client/Brief.tsx`, `src/pages/client/Holdings.tsx` or `src/pages/ops/ClientBriefs.tsx`. The client portal and Client Briefs share these pages, so check both.
 3. Run `python scripts/build_standalone.py` and commit the updated HTML with your change.
 
 The text and numbers on the cards come from `src/data/briefs.json`. To change those, edit the agent and rebuild: see [`agents/client_briefing`](../agents/client_briefing/README.md#changing-the-briefs).
@@ -51,6 +51,6 @@ Stack: React 18, TypeScript, Vite, React Router, Tailwind CSS, Lucide icons.
   - *Corporate Actions* — one record per tender offer or merger, with extracted terms, source-passage evidence, version history and source filings.
   - *Vendor Reconciliation* — vendor tender offer feeds compared with filing-extracted terms (offer price, expiration, CUSIP). **Run reconciliation** walks through the agent's steps and opens discrepancy tickets with the supporting filing passage, to confirm or dismiss. Built by [`vendor_reconciliation`](../vendor_reconciliation/README.md) into `src/data/reconciliation.json` (`python3 scripts/build_reconciliation.py`).
   - *Amendment Review* — when a later filing changes a tender offer, merger or rights offering, the amendment impact agent's queue: what changed (old → new) with the filing quote, the tier, checks that hold it for review, affected clients and a draft notice. **Check for amendments** walks through the agent's steps; **Approve and send**, **Edit** and **Reject** mock the operations approval step and write an audit log (nothing is sent). Built by [`agents/amendment_impact`](../agents/amendment_impact/README.md) into `src/data/amendments.json` (`python3 scripts/build_amendments.py`, after running the agent).
-  - *Client Briefs* — pick a client to review the brief they receive and their holdings. The *Needs review* tab lists items the briefing agent held back, with the reason, to approve before a client sees them.
+  - *Client Briefs* — the relationship manager's view. A table of clients shows who has instructions due, the next BNY cut-off and items on hold. Select a client to see the brief exactly as they receive it, with the agent's run log, and their holdings. The *Needs review* tab lists items the briefing agent held back, with the reason, to approve before a client sees them.
 - **Client Portal** — overview, notifications for watched companies, and a watchlist.
-  - *My Brief* and *Holdings* — the client briefing agent's output for a single client, covering rights issues, mergers and tender offers. Built by [`agents/client_briefing`](../agents/client_briefing/README.md) into `src/data/briefs.json`.
+  - *My Brief* and *Holdings* — the client briefing agent's output for a single client, covering rights issues, mergers and tender offers. Holdings shows the corporate actions on each position and links to them in the brief. Built by [`agents/client_briefing`](../agents/client_briefing/README.md) into `src/data/briefs.json`.

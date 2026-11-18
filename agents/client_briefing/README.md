@@ -117,9 +117,12 @@ python corporate-actions-demo/scripts/build_standalone.py
 
 ## Demo walkthrough
 
-1. **My Brief**, Demo Pension Fund, Sep 30: ACV Auctions, Utah Medical, Roku, Rent the Runway and Supernus need action; open **View source** on one to see the quotes. Under **On the horizon**, Somnigroup is an acquirer holding, so its consideration is not calculated.
-2. **Demo University Endowment**, Jan 30: the ArrowMark rights offering, the worked example on the slide.
-3. **Demo Family Office**, Sep 30: BayFirst's BNY cut-off has already passed.
-4. **Demo Family Office**, Jan 30: one item is held. Go to **Operations > Brief Review**, see why AIM ImmunoTech was stopped, clear it and return to the brief.
-5. **Tender offers**: Demo Pension Fund, Mar 27 has Wix, where the price is a range. Demo University Endowment, Sep 30 has Virtus, where the price is a percentage of net asset value, so the card shows shares but no cash.
-6. **How this brief was built** at the bottom of the brief shows the agent's run log.
+The **Client Portal** belongs to Demo Pension Fund. The other clients are reached through **Operations > Client Briefs**, which shows each brief exactly as the client receives it.
+
+1. **Client Portal > My Brief**, Sep 30: ACV Auctions, Utah Medical, Roku, Rent the Runway and Supernus need action; open **View source** on one to see the quotes. Under **On the horizon**, Somnigroup is an acquirer holding, so its consideration is not calculated.
+2. **Client Portal > Holdings**: each position lists the corporate actions on it. Click one to jump to it in the brief.
+3. **Operations > Client Briefs**: the client table shows who has instructions due and the next BNY cut-off. Select **Demo University Endowment** and set **Brief date** to Jan 30: the ArrowMark rights offering, the worked example on the slide.
+4. **Demo Family Office**, Sep 30: BayFirst's BNY cut-off has already passed.
+5. **Demo Family Office**, Jan 30: one item is held. Open **Needs review**, see why AIM ImmunoTech was stopped, **Approve for client**, then **View in the client's brief**.
+6. **Tender offers**: Demo Pension Fund, Mar 27 has Wix, where the price is a range. Demo University Endowment, Sep 30 has Virtus, where the price is a percentage of net asset value, so the card shows shares but no cash.
+7. **How this brief was built**, at the bottom of a brief in Client Briefs, shows the agent's run log. Clients do not see it.

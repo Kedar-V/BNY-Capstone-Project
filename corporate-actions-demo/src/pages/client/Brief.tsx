@@ -1,12 +1,12 @@
-import { AlertTriangle, ArrowRight, CheckCircle2, ChevronDown, ExternalLink, FileText, Info, Mail, ShieldCheck } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { ArrowRight, CheckCircle2, ChevronDown, ExternalLink, Eye, FileText, Info, Mail, ShieldCheck, Workflow } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Badge, Button, Card, Drawer, Empty, Modal, PageHeader, Segmented, type Tone } from '../../components/ui'
-import { briefData, dueLabel, periodLabel, TIER_ORDER, TIER_TITLE, type BriefAction, type BriefItem, type Tier } from '../../data/briefs'
+import { briefData, dueLabel, periodLabel, TIER_ORDER, TIER_TITLE, type Brief, type BriefAction, type BriefItem, type Tier } from '../../data/briefs'
 import { fmtDate } from '../../data/store'
 import { useBrief } from '../../state/BriefState'
 
-const TIER_TONE: Record<Tier, Tone> = { action: 'review', changed: 'amended', new: 'new', completed: 'completed', upcoming: 'neutral' }
+export const TIER_TONE: Record<Tier, Tone> = { action: 'review', changed: 'amended', new: 'new', completed: 'completed', upcoming: 'neutral' }
 const STAT_STYLE: Record<Tier, string> = {
   action: 'text-rose-700',
   changed: 'text-violet-700',
@@ -16,6 +16,9 @@ const STAT_STYLE: Record<Tier, string> = {
 }
 
 type Filter = 'all' | BriefAction
+
+const LATEST = briefData.asOfDates[briefData.asOfDates.length - 1]
+export const DATE_OPTIONS = briefData.asOfDates.map((d) => ({ id: d, label: `${fmtDate(d)}${d === LATEST ? ' (latest)' : ''}` }))
 
 export function Select({ label, value, onChange, options }: { label: string; value: string; onChange: (v: string) => void; options: { id: string; label: string }[] }) {
   return (
@@ -48,6 +51,7 @@ function DeadlinePanel({ item }: { item: BriefItem }) {
         <div className="mt-2 border-t border-slate-200/70 pt-2 text-xs text-slate-600">
           {deadline.label}: <span className="font-medium text-slate-800">{deadline.display}</span>
         </div>
+        {cutoff.passed && <p className="mt-2 text-xs font-medium text-rose-800">Contact your relationship manager about a late instruction.</p>}
       </div>
     )
   }
@@ -61,15 +65,12 @@ function DeadlinePanel({ item }: { item: BriefItem }) {
 }
 
 function ImpactTable({ item }: { item: BriefItem }) {
-  const { perspective } = useBrief()
   const { lines, caveats, reason } = item.impact
   if (!lines.length && !reason) return null
   return (
     <div className="mt-4">
       <h4 className="mb-1.5 text-xs font-semibold uppercase tracking-wide text-slate-500">
-        {perspective === 'rm'
-          ? item.position.watchOnly ? 'Client position' : `Impact on the client's ${item.position.shares.toLocaleString('en-US')} shares`
-          : item.position.watchOnly ? 'Your position' : `What this means for your ${item.position.shares.toLocaleString('en-US')} shares`}
+        {item.position.watchOnly ? 'Your position' : `What this means for your ${item.position.shares.toLocaleString('en-US')} shares`}
       </h4>
       {lines.length > 0 && (
         <div className="overflow-hidden rounded-lg border border-slate-200">
@@ -143,86 +144,86 @@ function SourceDrawer({ item, onClose }: { item: BriefItem | null; onClose: () =
   )
 }
 
-function ItemCard({ item, onSource }: { item: BriefItem; onSource: (i: BriefItem) => void }) {
+/** The section heading already names the tier, so the card itself leads with the event. */
+function ItemCard({ item, onSource, focused = false }: { item: BriefItem; onSource: (i: BriefItem) => void; focused?: boolean }) {
   const [open, setOpen] = useState(false)
-  const { perspective } = useBrief()
+  const ref = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    if (focused) ref.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  }, [focused])
+
   return (
-    <Card>
-      <div className="p-5">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-          <div className="min-w-0 flex-1">
-            <div className="flex flex-wrap items-center gap-1.5">
-              <Badge tone={TIER_TONE[item.tier]}>{item.tierLabel}</Badge>
-              <Badge tone="brand">{item.actionLabel}</Badge>
-              <Badge>{item.ticker}</Badge>
-              <span className="text-xs text-slate-500">{item.status}</span>
-              {item.review.needed && <Badge tone="completed"><ShieldCheck size={11} /> Reviewed by BNY Operations</Badge>}
-            </div>
-            <h3 className="mt-2 text-base font-semibold text-navy-900">{item.title}</h3>
-            <p className="mt-1 text-sm leading-relaxed text-slate-700">{item.summary}</p>
-          </div>
-          <DeadlinePanel item={item} />
-        </div>
-
-        {item.cutoff?.passed && item.tier === 'action' && (
-          <div className="mt-3 flex items-start gap-2 rounded-lg border border-rose-200 bg-rose-50 px-3 py-2 text-sm text-rose-900">
-            <AlertTriangle size={15} className="mt-0.5 shrink-0" />
-            {perspective === 'rm'
-              ? "BNY's cut-off for this event has passed. Check whether the client has already instructed, and whether a late instruction can still be accepted."
-              : "BNY's cut-off for this event has passed. Contact your relationship manager about late instructions."}
-          </div>
-        )}
-
-        {item.changes.length > 0 && (
-          <div className="mt-4 rounded-lg bg-violet-50/60 px-3 py-2.5">
-            <h4 className="text-xs font-semibold uppercase tracking-wide text-violet-800">What changed</h4>
-            <ul className="mt-1 space-y-0.5 text-sm text-slate-800">
-              {item.changes.map((c) => (
-                <li key={c.label + c.filed} className="flex flex-wrap items-center gap-x-1.5">
-                  <ArrowRight size={13} className="text-violet-500" /> {c.text}
-                  <span className="text-xs text-slate-500">({c.form}, {fmtDate(c.filed)})</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        <ImpactTable item={item} />
-
-        {open && (
-          <div className="mt-4 border-t border-slate-100 pt-4">
-            {item.options && (
-              <div className="mb-3">
-                <h4 className="text-xs font-semibold uppercase tracking-wide text-slate-500">Options described in the filing</h4>
-                <p className="mt-1 text-sm text-slate-700">{item.options.split(' | ').join(' · ')}</p>
+    <div ref={ref} id={`item-${item.id}`} className={`scroll-mt-24 rounded-xl ${focused ? 'focus-flash' : ''}`}>
+      <Card>
+        <div className="p-5">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <div className="min-w-0 flex-1">
+              <div className="flex flex-wrap items-center gap-1.5">
+                <Badge tone="brand">{item.actionLabel}</Badge>
+                <Badge>{item.ticker}</Badge>
+                <span className="text-xs text-slate-500">{item.status}</span>
+                {item.review.needed && <Badge tone="completed"><ShieldCheck size={11} /> Reviewed by BNY Operations</Badge>}
               </div>
-            )}
-            <h4 className="text-xs font-semibold uppercase tracking-wide text-slate-500">Terms as stated</h4>
-            <dl className="mt-1 divide-y divide-slate-100">
-              {item.terms.map((t) => (
-                <div key={t.label} className="grid gap-1 py-2 sm:grid-cols-[10rem_1fr] sm:gap-3">
-                  <dt className="text-sm text-slate-500">{t.label}</dt>
-                  <dd className="text-sm text-slate-800">{t.value}</dd>
-                </div>
-              ))}
-            </dl>
+              <h3 className="mt-2 text-base font-semibold text-navy-900">{item.title}</h3>
+              <p className="mt-1 text-sm leading-relaxed text-slate-700">{item.summary}</p>
+            </div>
+            <DeadlinePanel item={item} />
           </div>
-        )}
 
-        <div className="mt-4 flex flex-wrap items-center gap-2">
-          <Button size="sm" onClick={() => onSource(item)}><FileText size={13} /> View source</Button>
-          <Button size="sm" variant="ghost" onClick={() => setOpen(!open)} aria-expanded={open}>
-            <ChevronDown size={13} className={`transition-transform ${open ? 'rotate-180' : ''}`} /> {open ? 'Hide' : 'Show'} all terms
-          </Button>
-          <span className="ml-auto text-xs text-slate-500">Latest filing {item.sources[item.sources.length - 1].form}, {fmtDate(item.latestFiled)}</span>
+          {item.changes.length > 0 && (
+            <div className="mt-4 rounded-lg bg-violet-50/60 px-3 py-2.5">
+              <h4 className="text-xs font-semibold uppercase tracking-wide text-violet-800">What changed</h4>
+              <ul className="mt-1 space-y-0.5 text-sm text-slate-800">
+                {item.changes.map((c) => (
+                  <li key={c.label + c.filed} className="flex flex-wrap items-center gap-x-1.5">
+                    <ArrowRight size={13} className="text-violet-500" /> {c.text}
+                    <span className="text-xs text-slate-500">({c.form}, {fmtDate(c.filed)})</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <ImpactTable item={item} />
+
+          {open && (
+            <div className="mt-4 border-t border-slate-100 pt-4">
+              {item.options && (
+                <div className="mb-3">
+                  <h4 className="text-xs font-semibold uppercase tracking-wide text-slate-500">Options described in the filing</h4>
+                  <p className="mt-1 text-sm text-slate-700">{item.options.split(' | ').join(' · ')}</p>
+                </div>
+              )}
+              <h4 className="text-xs font-semibold uppercase tracking-wide text-slate-500">Terms as stated</h4>
+              <dl className="mt-1 divide-y divide-slate-100">
+                {item.terms.map((t) => (
+                  <div key={t.label} className="grid gap-1 py-2 sm:grid-cols-[10rem_1fr] sm:gap-3">
+                    <dt className="text-sm text-slate-500">{t.label}</dt>
+                    <dd className="text-sm text-slate-800">{t.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
+
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <Button size="sm" onClick={() => onSource(item)}><FileText size={13} /> View source</Button>
+            <Button size="sm" variant="ghost" onClick={() => setOpen(!open)} aria-expanded={open}>
+              <ChevronDown size={13} className={`transition-transform ${open ? 'rotate-180' : ''}`} /> {open ? 'Hide' : 'Show'} all terms
+            </Button>
+            <span className="ml-auto text-xs text-slate-500">Latest filing {item.sources[item.sources.length - 1].form}, {fmtDate(item.latestFiled)}</span>
+          </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+    </div>
   )
 }
 
-function HorizonRow({ item, onSource }: { item: BriefItem; onSource: (i: BriefItem) => void }) {
-  const [open, setOpen] = useState(false)
+function HorizonRow({ item, onSource, focused = false }: { item: BriefItem; onSource: (i: BriefItem) => void; focused?: boolean }) {
+  const [open, setOpen] = useState(focused)
+  useEffect(() => {
+    if (focused) setOpen(true)
+  }, [focused])
   const key = item.impact.lines[0]
   return (
     <li>
@@ -232,10 +233,15 @@ function HorizonRow({ item, onSource }: { item: BriefItem; onSource: (i: BriefIt
           <span className="block truncate text-sm font-medium text-navy-900">{item.title}</span>
           <span className="block text-xs text-slate-500">{item.ticker} · {item.actionLabel} · {item.status}{item.position.watchOnly ? ' · Watchlist' : ''}</span>
         </span>
-        {key && <span className="text-sm font-semibold tabular-nums text-navy-900">{key.value}</span>}
-        <span className="w-48 text-right text-xs text-slate-500">{item.deadline ? `${item.deadline.label} ${item.deadline.display}` : item.stageNote ?? 'No date set yet'}</span>
+        {key && (
+          <span className="text-right">
+            <span className="block text-sm font-semibold tabular-nums text-navy-900">{key.value}</span>
+            <span className="block text-[11px] text-slate-500">{key.label}</span>
+          </span>
+        )}
+        <span className="w-44 text-right text-xs text-slate-500">{item.deadline ? `${item.deadline.label} ${item.deadline.display}` : item.stageNote ?? 'No date set yet'}</span>
       </button>
-      {open && <div className="border-t border-slate-100 bg-slate-50/60 p-3"><ItemCard item={item} onSource={onSource} /></div>}
+      {open && <div className="border-t border-slate-100 bg-slate-50/60 p-3"><ItemCard item={item} onSource={onSource} focused={focused} /></div>}
     </li>
   )
 }
@@ -267,17 +273,55 @@ function EmailPreview({ open, onClose, items }: { open: boolean; onClose: () => 
   )
 }
 
+/** Operations only: the agent's own record of how the brief was produced, for audit. */
+function RunLog({ brief }: { brief: Brief }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <Card className="mt-6">
+      <button onClick={() => setOpen(!open)} aria-expanded={open} className="flex w-full items-center gap-2 px-5 py-3.5 text-left">
+        <Workflow size={16} className="text-brand-700" />
+        <span className="flex-1 text-sm font-semibold text-navy-900">How this brief was built</span>
+        <span className="hidden text-xs text-slate-500 sm:inline">Agent run log · not shown to the client</span>
+        <ChevronDown size={15} className={`text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`} />
+      </button>
+      {open && (
+        <ol className="divide-y divide-slate-100 border-t border-slate-100">
+          {brief.trace.map((t, n) => (
+            <li key={t.step} className="flex gap-3 px-5 py-3">
+              <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-navy-800 text-xs font-semibold text-white">{n + 1}</span>
+              <div>
+                <div className="text-sm font-medium text-navy-900">{t.step}</div>
+                <div className="text-sm text-slate-600">{t.detail}</div>
+              </div>
+            </li>
+          ))}
+        </ol>
+      )}
+    </Card>
+  )
+}
+
 export const ClientBrief = () => <BriefView />
 
 export function BriefView({ embedded = false }: { embedded?: boolean }) {
-  const { client, perspective, asOf, setAsOf, cadence, setCadence, brief, visibleItems, heldCount } = useBrief()
+  const { client, perspective, asOf, setAsOf, cadence, setCadence, brief, visibleItems, heldCount, focusId, focus } = useBrief()
   const rm = perspective === 'rm'
   const [filter, setFilter] = useState<Filter>('all')
   const [source, setSource] = useState<BriefItem | null>(null)
   const [emailOpen, setEmailOpen] = useState(false)
 
+  // A highlighted item stays highlighted long enough to be seen, then the request is cleared.
+  useEffect(() => {
+    if (!focusId) return
+    const t = window.setTimeout(() => focus(null), 2600)
+    return () => window.clearTimeout(t)
+  }, [focusId, focus])
+
   const items = useMemo(() => visibleItems.filter((i) => filter === 'all' || i.action === filter), [visibleItems, filter])
-  const count = (t: Tier) => visibleItems.filter((i) => i.tier === t).length
+  const count = (t: Tier) => items.filter((i) => i.tier === t).length
+  const actions = visibleItems.filter((i) => i.tier === 'action')
+  const passed = actions.filter((i) => i.cutoff?.passed)
+  const jump = (t: Tier) => document.getElementById(`brief-${t}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 
   return (
     <>
@@ -292,10 +336,10 @@ export function BriefView({ embedded = false }: { embedded?: boolean }) {
       )}
 
       <div className="mb-5 flex flex-wrap items-end gap-3">
-        <Select label="Brief date" value={asOf} onChange={setAsOf} options={briefData.asOfDates.map((d) => ({ id: d, label: fmtDate(d) }))} />
+        {!embedded && <Select label="Brief date" value={asOf} onChange={setAsOf} options={DATE_OPTIONS} />}
         <div className="flex flex-col gap-1 text-xs font-medium text-slate-500">
-          Frequency
-          <Segmented value={cadence} onChange={setCadence} options={[{ id: 'weekly', label: 'Weekly' }, { id: 'daily', label: 'Daily' }]} />
+          Covers
+          <Segmented value={cadence} onChange={setCadence} options={[{ id: 'weekly', label: 'Past week' }, { id: 'daily', label: 'Past day' }]} />
         </div>
         <div className="flex flex-col gap-1 text-xs font-medium text-slate-500">
           Event type
@@ -309,22 +353,40 @@ export function BriefView({ embedded = false }: { embedded?: boolean }) {
       </div>
 
       {rm && (
-        <div className="mb-5 flex items-start gap-2 rounded-lg bg-brand-50 px-3 py-2.5 text-sm text-navy-900">
-          <ArrowRight size={15} className="mt-0.5 shrink-0 text-brand-700" />
-          {count('action') > 0
-            ? `${count('action')} item${count('action') > 1 ? 's need' : ' needs'} a client instruction in this period. Each shows the effect on the client's position and the date BNY needs the instruction.`
-            : 'No client instruction is needed in this period. The items below are for information.'}
+        <div className="mb-5 flex items-start gap-2.5 rounded-lg border border-brand-100 bg-brand-50 px-4 py-3 text-sm text-navy-900">
+          <Eye size={16} className="mt-0.5 shrink-0 text-brand-700" />
+          <div>
+            <p>
+              <span className="font-semibold">This is exactly what {client.name} sees.</span>{' '}
+              {actions.length > 0
+                ? `${actions.length} item${actions.length > 1 ? 's need' : ' needs'} the client's instruction in this period.`
+                : 'No client instruction is needed in this period.'}
+            </p>
+            {passed.length > 0 && (
+              <p className="mt-1 text-rose-800">
+                BNY's cut-off has passed for {passed.map((i) => i.ticker).join(', ')}. Check whether the client has already instructed, and whether a late instruction can still be accepted.
+              </p>
+            )}
+          </div>
         </div>
       )}
 
-
       <div className="grid grid-cols-2 gap-3 md:grid-cols-5">
-        {TIER_ORDER.map((t) => (
-          <Card key={t} className="px-4 py-3">
-            <div className="text-xs font-medium text-slate-500">{TIER_TITLE[t]}</div>
-            <div className={`mt-0.5 text-2xl font-semibold tabular-nums ${STAT_STYLE[t]}`}>{count(t)}</div>
-          </Card>
-        ))}
+        {TIER_ORDER.map((t) => {
+          const n = count(t)
+          return (
+            <button
+              key={t}
+              type="button"
+              disabled={!n}
+              onClick={() => jump(t)}
+              className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-left shadow-sm transition hover:border-slate-300 hover:shadow-md disabled:cursor-default disabled:shadow-none disabled:hover:border-slate-200"
+            >
+              <div className="text-xs font-medium text-slate-500">{TIER_TITLE[t]}</div>
+              <div className={`mt-0.5 text-2xl font-semibold tabular-nums ${n ? STAT_STYLE[t] : 'text-slate-300'}`}>{n}</div>
+            </button>
+          )
+        })}
       </div>
 
       {heldCount > 0 && (
@@ -333,7 +395,7 @@ export function BriefView({ embedded = false }: { embedded?: boolean }) {
           {rm ? (
             <span>
               {heldCount} item{heldCount > 1 ? 's are' : ' is'} held for review and not visible to the client.{' '}
-              <Link to="/internal/clients?tab=review" className="font-medium underline underline-offset-2">Review them</Link>
+              <Link to="/internal/clients?tab=review" className="font-medium underline underline-offset-2">Review {heldCount > 1 ? 'them' : 'it'}</Link>
             </span>
           ) : (
             <>{heldCount} item{heldCount > 1 ? 's are' : ' is'} with BNY Operations for review and will appear here once cleared.</>
@@ -347,25 +409,33 @@ export function BriefView({ embedded = false }: { embedded?: boolean }) {
         const rows = items.filter((i) => i.tier === t)
         if (!rows.length) return null
         return (
-          <section key={t} className="mt-6">
+          <section key={t} id={`brief-${t}`} className="mt-6 scroll-mt-20">
             <h2 className="mb-3 text-sm font-semibold text-navy-900">{TIER_TITLE[t]} <span className="font-normal text-slate-500">({rows.length})</span></h2>
             <div className="space-y-3">
-              {rows.map((i) => <ItemCard key={i.id} item={i} onSource={setSource} />)}
+              {rows.map((i) => <ItemCard key={i.id} item={i} onSource={setSource} focused={focusId === i.id} />)}
             </div>
           </section>
         )
       })}
 
       {items.some((i) => i.tier === 'upcoming') && (
-        <section className="mt-6">
+        <section id="brief-upcoming" className="mt-6 scroll-mt-20">
           <h2 className="mb-3 text-sm font-semibold text-navy-900">{TIER_TITLE.upcoming} <span className="font-normal text-slate-500">({items.filter((i) => i.tier === 'upcoming').length})</span></h2>
           <Card>
             <ul className="divide-y divide-slate-100">
-              {items.filter((i) => i.tier === 'upcoming').map((i) => <HorizonRow key={i.id} item={i} onSource={setSource} />)}
+              {items.filter((i) => i.tier === 'upcoming').map((i) => <HorizonRow key={i.id} item={i} onSource={setSource} focused={focusId === i.id} />)}
             </ul>
           </Card>
         </section>
       )}
+
+      {rm && brief && <RunLog brief={brief} />}
+
+      <p className="mt-8 flex items-start gap-1.5 border-t border-slate-200 pt-4 text-xs leading-relaxed text-slate-500">
+        <Info size={13} className="mt-0.5 shrink-0" />
+        Information only, not investment advice. Every term comes from an SEC filing: use View source to check it. BNY cut-off dates are illustrative
+        ({briefData.assumptions.cutoffBusinessDays} business days before the official deadline), and client positions are simulated for this demo.
+      </p>
 
       <SourceDrawer item={source} onClose={() => setSource(null)} />
       <EmailPreview open={emailOpen} onClose={() => setEmailOpen(false)} items={visibleItems} />

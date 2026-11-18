@@ -17,7 +17,7 @@ export const PORTAL_CLIENT_ID = briefData.clients[0].id
 const PerspectiveCtx = createContext<Perspective>('rm')
 export const PerspectiveProvider = PerspectiveCtx.Provider
 
-interface ClientView {
+export interface ClientView {
   client: BriefClient
   brief: Brief | undefined
   /** Items the client can see: cleared by the checks or approved by an operations reviewer. */
@@ -25,21 +25,32 @@ interface ClientView {
   heldCount: number
 }
 
-interface BriefState extends ClientView {
-  perspective: Perspective
-  /** Relationship manager only. The client portal always shows its own client. */
-  setClientId: (id: string) => void
+interface Period {
   asOf: string
   setAsOf: (d: string) => void
   cadence: Cadence
   setCadence: (c: Cadence) => void
+}
+
+interface BriefState extends ClientView, Period {
+  perspective: Perspective
+  /** Relationship manager only. The client portal always shows its own client. */
+  setClientId: (id: string) => void
+  /** The brief a client receives on a date at a cadence, with the review decisions applied. */
+  viewOf: (client: BriefClient, asOf: string, cadence: Cadence) => ClientView
   heldItems: HeldItem[]
   pendingCount: number
   approve: (key: string) => void
   revoke: (key: string) => void
+  /** An item to scroll to and highlight the next time a brief renders, for example after a review. */
+  focusId: string | null
+  focus: (itemId: string | null) => void
 }
 
-type Shared = Omit<BriefState, keyof ClientView | 'perspective'> & { portal: ClientView; rm: ClientView }
+type Shared = Omit<BriefState, keyof ClientView | keyof Period | 'perspective'> & {
+  portal: ClientView & Period
+  rm: ClientView & Period
+}
 
 const Ctx = createContext<Shared | null>(null)
 export function useBrief(): BriefState {
@@ -50,23 +61,35 @@ export function useBrief(): BriefState {
   return { ...shared, ...(perspective === 'client' ? portal : rm), perspective }
 }
 
+const LATEST = briefData.asOfDates[briefData.asOfDates.length - 1]
+
 export function BriefProvider({ children }: { children: ReactNode }) {
   const portalClient = briefData.clients.find((c) => c.id === PORTAL_CLIENT_ID)!
   const [clientId, setClientId] = useState(briefData.clients[0].id)
-  const [asOf, setAsOf] = useState(briefData.asOfDates[briefData.asOfDates.length - 1])
-  const [cadence, setCadence] = useState<Cadence>(portalClient.cadence)
+  // The portal and the relationship manager keep their own date and period, so browsing one never changes the other.
+  const [portalAsOf, setPortalAsOf] = useState(LATEST)
+  const [portalCadence, setPortalCadence] = useState<Cadence>(portalClient.cadence)
+  const [rmAsOf, setRmAsOf] = useState(LATEST)
+  const [rmCadence, setRmCadence] = useState<Cadence>(briefData.clients[0].cadence)
   const [approved, setApproved] = useState<Set<string>>(new Set())
+  const [focusId, focus] = useState<string | null>(null)
 
-  const viewFor = useCallback(
-    (client: BriefClient): ClientView => {
+  const viewOf = useCallback(
+    (client: BriefClient, asOf: string, cadence: Cadence): ClientView => {
       const brief = getBrief(client.id, asOf, cadence)
       const visibleItems = (brief?.items ?? []).filter((i) => !i.review.needed || approved.has(reviewKey(client.id, asOf, i.id)))
       return { client, brief, visibleItems, heldCount: (brief?.items.length ?? 0) - visibleItems.length }
     },
-    [asOf, cadence, approved],
+    [approved],
   )
-  const portal = useMemo(() => viewFor(portalClient), [viewFor, portalClient])
-  const rm = useMemo(() => viewFor(briefData.clients.find((c) => c.id === clientId) ?? briefData.clients[0]), [viewFor, clientId])
+  const portal = useMemo(
+    () => ({ ...viewOf(portalClient, portalAsOf, portalCadence), asOf: portalAsOf, setAsOf: setPortalAsOf, cadence: portalCadence, setCadence: setPortalCadence }),
+    [viewOf, portalClient, portalAsOf, portalCadence],
+  )
+  const rm = useMemo(() => {
+    const client = briefData.clients.find((c) => c.id === clientId) ?? briefData.clients[0]
+    return { ...viewOf(client, rmAsOf, rmCadence), asOf: rmAsOf, setAsOf: setRmAsOf, cadence: rmCadence, setCadence: setRmCadence }
+  }, [viewOf, clientId, rmAsOf, rmCadence])
 
   // The review queue spans every client and date. Daily and weekly briefs share one approval.
   const heldItems = useMemo(() => {
@@ -98,14 +121,13 @@ export function BriefProvider({ children }: { children: ReactNode }) {
     portal,
     rm,
     setClientId,
-    asOf,
-    setAsOf,
-    cadence,
-    setCadence,
+    viewOf,
     heldItems,
     pendingCount: heldItems.filter((h) => !h.approved).length,
     approve,
     revoke,
+    focusId,
+    focus,
   }
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>
 }

@@ -1,29 +1,83 @@
 import { CheckCircle2, ExternalLink, RotateCcw, ShieldAlert } from 'lucide-react'
 import { useSearchParams } from 'react-router-dom'
-import { Badge, Button, Card, Empty, PageHeader, Tabs } from '../../components/ui'
-import { briefData, REASON_LABEL } from '../../data/briefs'
+import { Badge, Button, Card, CardHeader, Empty, PageHeader, Tabs } from '../../components/ui'
+import { briefData, dueLabel, REASON_LABEL, type BriefClient } from '../../data/briefs'
 import { fmtDate } from '../../data/store'
 import { useApp } from '../../state/AppState'
-import { useBrief } from '../../state/BriefState'
-import { BriefView, Select } from '../client/Brief'
+import { useBrief, type ClientView } from '../../state/BriefState'
+import { BriefView, DATE_OPTIONS, Select } from '../client/Brief'
 import { Holdings } from '../client/Holdings'
 
 type TabId = 'brief' | 'holdings' | 'review'
 
-const RELATIONSHIP_MANAGER = 'William'
+/** What a relationship manager needs to triage a client: how many instructions are due, how soon, and what is on hold. */
+function triage(view: ClientView) {
+  const actions = view.visibleItems.filter((i) => i.tier === 'action')
+  const due = actions.filter((i) => i.cutoff && !i.cutoff.passed).sort((a, b) => a.cutoff!.daysAway - b.cutoff!.daysAway)
+  return { actions: actions.length, passed: actions.filter((i) => i.cutoff?.passed).length, next: due[0]?.cutoff, held: view.heldCount }
+}
 
-function Metric({ label, value }: { label: string; value: string | number }) {
+function ClientTable({ selected, onSelect }: { selected: string; onSelect: (c: BriefClient) => void }) {
+  const { asOf, viewOf } = useBrief()
   return (
-    <div className="min-w-[88px]">
-      <dt className="text-xs text-slate-500">{label}</dt>
-      <dd className="mt-0.5 text-sm font-semibold tabular-nums text-navy-900">{value}</dd>
-    </div>
+    <Card className="mb-6">
+      <CardHeader title="Your clients" subtitle={`Briefs as of ${fmtDate(asOf)}. Select a client to see the brief they receive and their holdings.`} />
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="border-b border-slate-100 bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500">
+              <th scope="col" className="px-5 py-2.5 font-medium">Client</th>
+              <th scope="col" className="px-3 py-2.5 font-medium">Brief</th>
+              <th scope="col" className="px-3 py-2.5 font-medium">Action needed</th>
+              <th scope="col" className="px-3 py-2.5 font-medium">Next BNY cut-off</th>
+              <th scope="col" className="px-5 py-2.5 font-medium">On hold</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-slate-100">
+            {briefData.clients.map((c) => {
+              const t = triage(viewOf(c, asOf, c.cadence))
+              const on = c.id === selected
+              return (
+                <tr
+                  key={c.id}
+                  onClick={() => onSelect(c)}
+                  className={`cursor-pointer transition-colors ${on ? 'bg-brand-50 shadow-[inset_3px_0_0_#217f8f]' : 'hover:bg-slate-50'}`}
+                >
+                  <td className="px-5 py-3">
+                    <button type="button" onClick={(e) => { e.stopPropagation(); onSelect(c) }} aria-pressed={on} className="text-left">
+                      <span className="block font-medium text-navy-900">{c.name}</span>
+                      <span className="block text-xs text-slate-500">{c.type}</span>
+                    </button>
+                  </td>
+                  <td className="px-3 py-3 text-slate-600">{c.cadence === 'weekly' ? 'Weekly' : 'Daily'}</td>
+                  <td className="px-3 py-3">
+                    <span className={`text-base font-semibold tabular-nums ${t.actions ? 'text-rose-700' : 'text-slate-300'}`}>{t.actions}</span>
+                    {t.passed > 0 && <span className="ml-2"><Badge tone="review">{t.passed} cut-off passed</Badge></span>}
+                  </td>
+                  <td className="px-3 py-3">
+                    {t.next ? (
+                      <>
+                        <span className="block font-medium text-navy-900">{t.next.display}</span>
+                        <span className={`block text-xs ${t.next.daysAway <= 2 ? 'font-medium text-rose-700' : 'text-slate-500'}`}>{dueLabel(t.next.daysAway)}</span>
+                      </>
+                    ) : (
+                      <span className="text-slate-400">None due</span>
+                    )}
+                  </td>
+                  <td className="px-5 py-3">{t.held ? <Badge tone="pending">{t.held} on hold</Badge> : <span className="text-slate-300">–</span>}</td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
+    </Card>
   )
 }
 
 /** Items the agent's checks held back. A client does not see them until someone approves. */
-function ReviewQueue({ onOpenBrief }: { onOpenBrief: () => void }) {
-  const { heldItems, approve, revoke, setClientId, setAsOf, setCadence } = useBrief()
+function ReviewQueue({ onView }: { onView: (client: BriefClient, asOf: string, itemId: string) => void }) {
+  const { heldItems, approve, revoke } = useBrief()
   const { toast } = useApp()
 
   if (heldItems.length === 0) return <Card><Empty>Nothing is waiting for review.</Empty></Card>
@@ -31,7 +85,7 @@ function ReviewQueue({ onOpenBrief }: { onOpenBrief: () => void }) {
   return (
     <div className="space-y-3">
       <p className="text-sm text-slate-600">
-        These items failed an automatic check, so they are not in the client's brief yet. Check each one against the filing, then approve it or keep it on hold.
+        These items failed an automatic check, so no client sees them yet. Check each one against the filing, then approve it or keep it on hold. The queue covers every client.
       </p>
       {heldItems.map(({ key, client, asOf, item, approved }) => {
         const latest = item.sources[item.sources.length - 1]
@@ -63,18 +117,8 @@ function ReviewQueue({ onOpenBrief }: { onOpenBrief: () => void }) {
               <div className="flex flex-col items-stretch gap-2">
                 {approved ? (
                   <>
+                    <Button variant="primary" onClick={() => onView(client, asOf, item.id)}>View in the client's brief</Button>
                     <Button onClick={() => revoke(key)}><RotateCcw size={14} /> Put back on hold</Button>
-                    <button
-                      onClick={() => {
-                        setClientId(client.id)
-                        setCadence(client.cadence)
-                        setAsOf(asOf)
-                        onOpenBrief()
-                      }}
-                      className="text-center text-xs font-medium text-brand-700 hover:underline"
-                    >
-                      View in the client's brief
-                    </button>
                   </>
                 ) : (
                   <Button variant="primary" onClick={() => { approve(key); toast(`Approved for ${client.name}`) }}>
@@ -90,45 +134,45 @@ function ReviewQueue({ onOpenBrief }: { onOpenBrief: () => void }) {
   )
 }
 
-/** Relationship manager workspace: pick a client, review the brief and holdings they see, and clear held items. */
+/** Relationship manager workspace: see which clients need to act first, check the brief and holdings they see, and clear held items. */
 export function ClientBriefs() {
-  const { client, setClientId, setCadence, heldCount, pendingCount } = useBrief()
+  const { client, setClientId, asOf, setAsOf, setCadence, pendingCount, focus } = useBrief()
   const [params, setParams] = useSearchParams()
   const tab: TabId = params.get('tab') === 'review' ? 'review' : params.get('tab') === 'holdings' ? 'holdings' : 'brief'
   const setTab = (t: TabId) => setParams(t === 'brief' ? {} : { tab: t }, { replace: true })
 
-  const switchClient = (id: string) => {
-    setClientId(id)
-    const next = briefData.clients.find((c) => c.id === id)
-    if (next) setCadence(next.cadence)
+  // A client's brief opens at the frequency that client receives it.
+  const select = (c: BriefClient) => {
+    setClientId(c.id)
+    setCadence(c.cadence)
+  }
+
+  const viewInBrief = (c: BriefClient, day: string, itemId: string) => {
+    select(c)
+    setAsOf(day)
+    focus(itemId)
+    setTab('brief')
   }
 
   return (
     <>
       <PageHeader
         eyebrow="Relationship manager"
-        title={`Hey ${RELATIONSHIP_MANAGER},`}
-        subtitle={`Here are your clients' briefs. ${
+        title="Client Briefs"
+        subtitle={`See what each client receives and who needs to act first. ${
           pendingCount > 0
-            ? `${pendingCount} ${pendingCount > 1 ? 'items need' : 'item needs'} your review before ${pendingCount > 1 ? 'they go' : 'it goes'} to a client.`
-            : 'Nothing is waiting for your review.'
+            ? `${pendingCount} ${pendingCount > 1 ? 'items need' : 'item needs'} your approval before ${pendingCount > 1 ? 'they reach' : 'it reaches'} a client.`
+            : 'Nothing is waiting for your approval.'
         }`}
+        actions={<Select label="Brief date" value={asOf} onChange={setAsOf} options={DATE_OPTIONS} />}
       />
 
-      <Card className="mb-5 px-5 py-4">
-        <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
-          <div className="min-w-[260px] flex-1 basis-72">
-            <Select label="Client" value={client.id} onChange={switchClient} options={briefData.clients.map((c) => ({ id: c.id, label: c.name }))} />
-          </div>
-          <dl className="flex flex-wrap gap-x-8 gap-y-3">
-            <Metric label="Brief frequency" value={client.cadence === 'weekly' ? 'Weekly' : 'Daily'} />
-            <Metric label="Positions" value={client.positions.length} />
-            <Metric label="Watchlist" value={client.watchlist.length} />
-            <Metric label="On hold for this brief" value={heldCount} />
-          </dl>
-        </div>
-        <p className="mt-3 border-t border-slate-100 pt-3 text-xs text-slate-500">{client.type}</p>
-      </Card>
+      <ClientTable selected={client.id} onSelect={select} />
+
+      <div className="mb-2 flex flex-wrap items-baseline gap-x-2">
+        <h2 className="text-lg font-semibold text-navy-900">{client.name}</h2>
+        <span className="text-sm text-slate-500">{client.type}</span>
+      </div>
 
       <Tabs<TabId>
         tabs={[
@@ -149,8 +193,8 @@ export function ClientBriefs() {
       />
       <div className="mt-5">
         {tab === 'brief' && <BriefView embedded />}
-        {tab === 'holdings' && <Holdings embedded />}
-        {tab === 'review' && <ReviewQueue onOpenBrief={() => setTab('brief')} />}
+        {tab === 'holdings' && <Holdings embedded onOpenBrief={() => setTab('brief')} />}
+        {tab === 'review' && <ReviewQueue onView={viewInBrief} />}
       </div>
     </>
   )

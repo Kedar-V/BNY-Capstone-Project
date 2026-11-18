@@ -18,3 +18,7 @@ body { @apply bg-slate-50 text-slate-800 antialiased; font-feature-settings: 'cv
 
 @keyframes highlight { 0% { background-color: #d1f0f5; } 100% { background-color: transparent; } }
 .row-new { animation: highlight 3.5s ease-out; }
+
+/* A brief item someone was sent to, for example from Holdings or the review queue */
+@keyframes focus-flash { 0%, 55% { box-shadow: 0 0 0 3px #43b0c3; } 100% { box-shadow: 0 0 0 3px rgba(67, 176, 195, 0); } }
+.focus-flash { animation: focus-flash 2.4s ease-out; }

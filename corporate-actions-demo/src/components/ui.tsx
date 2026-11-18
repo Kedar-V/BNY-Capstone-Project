@@ -105,12 +105,13 @@ export function Segmented<T extends string>({ options, value, onChange }: { opti
 
 export function Tabs<T extends string>({ tabs, value, onChange }: { tabs: { id: T; label: ReactNode }[]; value: T; onChange: (t: T) => void }) {
   return (
-    <div className="flex gap-1 overflow-x-auto border-b border-slate-200">
+    // The divider is an inset shadow, not a border the active tab overlaps, so the row never overflows and shows a scrollbar.
+    <div className="flex gap-1 overflow-x-auto shadow-[inset_0_-1px_0_0_#e2e8f0]">
       {tabs.map((t) => (
         <button
           key={t.id}
           onClick={() => onChange(t.id)}
-          className={`-mb-px whitespace-nowrap border-b-2 px-4 py-2.5 text-sm font-medium transition-colors ${
+          className={`whitespace-nowrap border-b-2 px-4 py-2.5 text-sm font-medium transition-colors ${
             value === t.id ? 'border-brand-600 text-navy-900' : 'border-transparent text-slate-500 hover:text-slate-800'
           }`}
         >
