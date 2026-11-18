@@ -1,0 +1,707 @@
+<!doctype html><html lang="en"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<style>
+:root{--bm-bg:#ffffff;--bm-fg:#151a24;--bm-muted:#5a6274;--bm-line:#d9dde5;--bm-hover:#eef1f6;--bm-accent:#1f4fd1;--bm-shadow:rgba(20,26,36,.16)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bm-bg:#171c25;--bm-fg:#e8ebf1;--bm-muted:#a9b1c2;--bm-line:#2a3140;--bm-hover:#1f2633;--bm-accent:#7aa2ff;--bm-shadow:rgba(0,0,0,.5)}}
+:root[data-theme="dark"]{--bm-bg:#171c25;--bm-fg:#e8ebf1;--bm-muted:#a9b1c2;--bm-line:#2a3140;--bm-hover:#1f2633;--bm-accent:#7aa2ff;--bm-shadow:rgba(0,0,0,.5)}
+.bm-bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:100;display:flex;align-items:center;gap:12px;height:54px;box-sizing:border-box;background:var(--bm-bg);border-bottom:1px solid var(--bm-line);padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px));font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.bm-btn{flex:none;width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--bm-line);border-radius:8px;background:transparent;color:var(--bm-fg);cursor:pointer;padding:0}
+.bm-btn:hover{background:var(--bm-hover)}
+.bm-btn:focus-visible,.bm-nav a:focus-visible{outline:2px solid var(--bm-accent);outline-offset:2px}
+.bm-btn svg{width:20px;height:20px}
+.bm-btn .x{display:none}.bm-btn[aria-expanded="true"] .x{display:block}.bm-btn[aria-expanded="true"] .b{display:none}
+.bm-txt{min-width:0;display:flex;flex-direction:column;line-height:1.2}
+.bm-site{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--bm-muted)}
+.bm-title{font-size:14px;font-weight:600;color:var(--bm-fg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bm-nav{position:absolute;top:58px;left:max(12px,env(safe-area-inset-left,0px));width:min(340px,calc(100vw - 24px));box-sizing:border-box;background:var(--bm-bg);border:1px solid var(--bm-line);border-radius:10px;box-shadow:0 14px 36px var(--bm-shadow);padding:6px;display:flex;flex-direction:column;gap:2px}
+.bm-nav[hidden]{display:none!important}
+.bm-nav a{display:block;padding:10px 12px;border-radius:7px;color:var(--bm-fg);text-decoration:none;font-size:14px;font-weight:600}
+.bm-nav a small{display:block;color:var(--bm-muted);font-size:12px;font-weight:400;margin-top:2px}
+.bm-nav a:hover{background:var(--bm-hover)}
+.bm-nav a[aria-current="page"]{background:var(--bm-hover);box-shadow:inset 3px 0 0 var(--bm-accent)}
+</style>
+<header class="bm-bar">
+  <button class="bm-btn" id="bm-btn" type="button" aria-expanded="false" aria-controls="bm-nav" aria-label="Open menu">
+    <svg class="b" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <div class="bm-txt"><span class="bm-site">Tender evidence pack</span><span class="bm-title">Evidence Pack Flow</span></div>
+  <nav class="bm-nav" id="bm-nav" aria-label="Pages" hidden><a href="index.html" aria-current="page">Evidence Pack Flow<small>Pipeline, per-field evidence, explorer and prompts</small></a><a href="walkthrough.html">Evidence Pack Walkthrough<small>Interactive step-by-step diagram</small></a></nav>
+</header>
+<script>
+(function(){var b=document.getElementById("bm-btn"),n=document.getElementById("bm-nav");
+function set(o){n.hidden=!o;b.setAttribute("aria-expanded",o);b.setAttribute("aria-label",o?"Close menu":"Open menu");}
+b.addEventListener("click",function(e){e.stopPropagation();set(n.hidden);});
+document.addEventListener("click",function(e){if(!n.hidden&&!n.contains(e.target))set(false);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!n.hidden){set(false);b.focus();}});})();
+</script>
+
+<title>Tender Evidence Pack Flow</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one wide left-to-right swimlane (scrolls sideways inside its own box), then per-field table, then annotated prompt.
+   Evidence legs carry one colour each through every section. */
+:root{
+  --bg:#f5f6f8; --panel:#ffffff; --ink:#151a24; --ink2:#4a5366; --ink3:#7a8396; --line:#d9dde5; --wash:#eceff4;
+  --accent:#1f4fd1;
+  --rules:#b5690a; --rules-bg:#fdf1de;
+  --gliner:#7a3fc4; --gliner-bg:#f1e9fb;
+  --temporal:#0b7f75; --temporal-bg:#dcf3f0;
+  --hybrid:#1f5fd1; --hybrid-bg:#e2ebfb;
+  --clause:#c0335a; --clause-bg:#fbe4eb;
+  --qwen:#151a24; --qwen-fg:#ffffff;
+  --display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f131a; --panel:#171c25; --ink:#e8ebf1; --ink2:#a9b1c2; --ink3:#7d8699; --line:#2a3140; --wash:#1d2330;
+  --accent:#7aa2ff;
+  --rules:#f0a540; --rules-bg:#33260f; --gliner:#b88cf2; --gliner-bg:#2a1f3d;
+  --temporal:#3cc7b8; --temporal-bg:#10302d; --hybrid:#7aa2ff; --hybrid-bg:#172744;
+  --clause:#f07193; --clause-bg:#3a1823; --qwen:#e8ebf1; --qwen-fg:#0f131a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f131a; --panel:#171c25; --ink:#e8ebf1; --ink2:#a9b1c2; --ink3:#7d8699; --line:#2a3140; --wash:#1d2330;
+  --accent:#7aa2ff;
+  --rules:#f0a540; --rules-bg:#33260f; --gliner:#b88cf2; --gliner-bg:#2a1f3d;
+  --temporal:#3cc7b8; --temporal-bg:#10302d; --hybrid:#7aa2ff; --hybrid-bg:#172744;
+  --clause:#f07193; --clause-bg:#3a1823; --qwen:#e8ebf1; --qwen-fg:#0f131a; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.45}
+.wrap{max-width:1680px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:34px;font-weight:700;letter-spacing:-.01em}
+h2{font-size:22px;font-weight:600;margin-bottom:6px}
+h3{font-size:15px;font-weight:600;letter-spacing:.01em}
+.lede{color:var(--ink2);max-width:80ch;margin:8px 0 0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+code,.mono{font-family:var(--mono);font-size:12px}
+section{margin-top:40px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.chip{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:11px;font-weight:500;padding:2px 7px;border-radius:4px;border:1px solid currentColor;white-space:nowrap}
+.c-rules{color:var(--rules);background:var(--rules-bg)}
+.c-gliner{color:var(--gliner);background:var(--gliner-bg)}
+.c-temporal{color:var(--temporal);background:var(--temporal-bg)}
+.c-hybrid{color:var(--hybrid);background:var(--hybrid-bg)}
+.c-clause{color:var(--clause);background:var(--clause-bg)}
+.c-off{color:var(--ink3);background:transparent;border-style:dashed;text-decoration:line-through}
+
+/* ---------- flow ---------- */
+.flowbox{overflow-x:auto;margin-top:16px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.flow{display:grid;grid-template-columns:200px 28px 220px 28px 240px 28px 250px 28px 300px 28px 330px;align-items:stretch;padding:20px;min-width:1540px}
+.col{display:flex;flex-direction:column;gap:10px;min-width:0}
+.colhead{border-bottom:2px solid var(--ink);padding-bottom:6px;margin-bottom:2px}
+.colhead .eyebrow{display:block}
+.arrow{display:flex;align-items:center;justify-content:center;color:var(--ink3)}
+.arrow svg{width:24px;height:24px}
+.box{border:1px solid var(--line);border-radius:6px;padding:9px 10px;background:var(--bg);font-size:12.5px}
+.box b{font-weight:600}
+.box .sub{color:var(--ink2);font-size:12px;margin-top:3px}
+.box.leg{border-left-width:4px}
+.box.leg.rules{border-left-color:var(--rules)} .box.leg.gliner{border-left-color:var(--gliner)}
+.box.leg.temporal{border-left-color:var(--temporal)} .box.leg.hybrid{border-left-color:var(--hybrid)}
+.box.leg.clause{border-left-color:var(--clause)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-size:12px}
+.kv dt{color:var(--ink3);font-family:var(--mono);font-size:11px}
+.kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.route{display:grid;grid-template-columns:1fr auto;gap:3px 6px;font-size:11.5px;align-items:center}
+.route .f{font-family:var(--mono);font-size:11px;overflow-wrap:anywhere}
+.route .legs{display:flex;gap:2px;justify-content:flex-end;flex-wrap:wrap}
+.dot{display:inline-block;width:16px;height:16px;border-radius:3px;font-family:var(--mono);font-size:10px;line-height:16px;text-align:center;font-weight:600}
+.dot.rules{background:var(--rules-bg);color:var(--rules)} .dot.gliner{background:var(--gliner-bg);color:var(--gliner)}
+.dot.temporal{background:var(--temporal-bg);color:var(--temporal)} .dot.hybrid{background:var(--hybrid-bg);color:var(--hybrid)}
+.dot.clause{background:var(--clause-bg);color:var(--clause)}
+.shape{font-family:var(--mono);font-size:10px;color:var(--ink3)}
+.qwen{background:var(--qwen);color:var(--qwen-fg);border-radius:8px;padding:12px}
+.qwen .eyebrow{color:inherit;opacity:.7}
+.stack{display:flex;flex-direction:column;gap:3px;margin-top:8px}
+.stack div{border:1px solid color-mix(in srgb,var(--qwen-fg) 30%,transparent);border-radius:4px;padding:4px 7px;font-size:11.5px}
+.stack div span{font-family:var(--mono);font-size:10.5px;opacity:.75}
+.stack .ev{border-style:dashed}
+.graph{font-family:var(--mono);font-size:11px;line-height:1.7;color:var(--ink2)}
+.graph b{color:var(--ink)}
+.note{font-size:12px;color:var(--ink2)}
+.pill{display:inline-block;font-family:var(--mono);font-size:10.5px;padding:1px 6px;border-radius:999px;background:var(--wash);color:var(--ink2)}
+
+/* ---------- table ---------- */
+.tbox{overflow-x:auto;margin-top:14px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;min-width:1200px;font-size:12.5px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);font-weight:500;background:var(--wash)}
+td.f{font-family:var(--mono);font-size:12px;font-weight:500;white-space:nowrap}
+td.n{font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:12px;text-align:right;white-space:nowrap}
+.stage{display:flex;flex-direction:column;gap:4px}
+.stage + .stage{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+.stage .sn{font-family:var(--mono);font-size:11px;color:var(--ink2)}
+.blocks{display:flex;flex-wrap:wrap;gap:4px}
+.snip{font-family:var(--mono);font-size:11px;color:var(--ink2);background:var(--wash);border-radius:4px;padding:4px 6px;overflow-wrap:anywhere;max-width:520px}
+.gold{font-size:12px;overflow-wrap:anywhere}
+.gold.empty{color:var(--ink3);font-style:italic}
+.calls{font-size:12px}
+
+/* ---------- prompt ---------- */
+.pgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;margin-top:14px}
+@media (max-width:1000px){.pgrid{grid-template-columns:1fr}}
+.prompt{border:1px solid var(--line);border-radius:10px;background:var(--panel);overflow:hidden}
+.prompt header{padding:10px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.seg{display:grid;grid-template-columns:118px minmax(0,1fr);border-bottom:1px solid var(--line)}
+.seg:last-child{border-bottom:0}
+.seg .lab{padding:10px 12px;font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3);background:var(--wash)}
+.seg pre{margin:0;padding:10px 12px;font-family:var(--mono);font-size:11.5px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5}
+.seg.sys pre{color:var(--ink2)}
+.seg.evi{background:linear-gradient(90deg,transparent 0 118px,var(--bg) 118px)}
+.hl-g{color:var(--gliner)} .hl-h{color:var(--hybrid)} .hl-c{color:var(--clause)}
+/* ---------- explorer ---------- */
+.xp{border:1px solid var(--line);border-radius:10px;background:var(--panel);margin-top:14px;overflow:hidden}
+.xp-bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:end;padding:14px 16px;border-bottom:1px solid var(--line);background:var(--wash)}
+.xp-bar label{display:flex;flex-direction:column;gap:4px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);min-width:0}
+.xp-bar select{font:inherit;font-family:var(--body);font-size:13px;text-transform:none;letter-spacing:0;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 8px;max-width:100%}
+.seg-ctl{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--panel)}
+.seg-ctl button{font:inherit;font-size:12.5px;padding:6px 12px;border:0;background:transparent;color:var(--ink2);cursor:pointer}
+.seg-ctl button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.navbtn{font:inherit;font-size:12.5px;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);cursor:pointer}
+.ftabs{display:flex;flex-wrap:wrap;gap:6px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.ftabs button{font-family:var(--mono);font-size:11.5px;padding:5px 9px;border:1px solid var(--line);border-radius:5px;background:var(--bg);color:var(--ink2);cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.ftabs button[aria-selected="true"]{border-color:var(--ink);color:var(--ink);background:var(--panel);box-shadow:inset 0 -2px 0 var(--ink)}
+.ftabs .k{font-size:10px;color:var(--ink3)}
+.xp-body{padding:16px;display:flex;flex-direction:column;gap:16px}
+.xp-meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:12.5px}
+.xp-meta .lbl{font-family:var(--mono);font-size:10.5px;color:var(--ink3);text-transform:uppercase;letter-spacing:.05em;margin-right:6px}
+.stg{border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.stg-h{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding:8px 12px;background:var(--wash);border-bottom:1px solid var(--line);font-size:12.5px}
+.stg-h b{font-family:var(--mono);font-size:12px}
+.stg-h .sp{flex:1}
+.blk{border-left:4px solid var(--line);margin:0}
+.blk + .blk{border-top:1px solid var(--line)}
+.blk.rules{border-left-color:var(--rules)} .blk.gliner{border-left-color:var(--gliner)} .blk.temporal{border-left-color:var(--temporal)} .blk.hybrid{border-left-color:var(--hybrid)} .blk.clause{border-left-color:var(--clause)}
+.blk-h{font-family:var(--mono);font-size:11px;font-weight:600;padding:6px 12px 0;display:flex;gap:8px;align-items:center}
+.blk.rules .blk-h{color:var(--rules)} .blk.gliner .blk-h{color:var(--gliner)} .blk.temporal .blk-h{color:var(--temporal)} .blk.hybrid .blk-h{color:var(--hybrid)} .blk.clause .blk-h{color:var(--clause)}
+.blk-h .cnt{font-weight:400;color:var(--ink3)}
+.blk pre,.ptext{margin:0;padding:6px 12px 10px;font-family:var(--mono);font-size:11.5px;line-height:1.55;white-space:pre-wrap;overflow-wrap:anywhere;max-height:520px;overflow:auto}
+.ln-sep{display:block;border-top:1px dashed var(--line);margin:6px 0}
+.empty-ev{padding:12px;font-family:var(--mono);font-size:12px;color:var(--ink3);font-style:italic}
+.pv{border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.pv-h{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:8px 12px;background:var(--wash);border-bottom:1px solid var(--line);font-family:var(--mono);font-size:11px;color:var(--ink2);flex-wrap:wrap}
+.ptext mark{background:var(--hybrid-bg);color:inherit;border-radius:2px}
+.xp-load{padding:28px 16px;color:var(--ink2);font-size:13px}
+.flowtag{font-family:var(--mono);font-size:11px;color:var(--ink3)}
+
+/* ---------- two-stage ---------- */
+.ts-flow{display:grid;grid-template-columns:190px 28px 190px 28px 1fr;align-items:stretch;padding:20px;min-width:1100px;gap:0}
+.ts-grid{display:grid;grid-template-columns:150px minmax(0,1fr) 34px minmax(0,1fr) 120px;gap:6px 8px;align-items:center;font-size:12px}
+.ts-grid .h{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);padding-bottom:4px;border-bottom:1px solid var(--line)}
+.ts-grid .f{font-family:var(--mono);font-size:11.5px;font-weight:500}
+.ts-grid .st{display:flex;flex-wrap:wrap;gap:3px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--bg)}
+.ts-grid .st.narrow{border-color:var(--ink2)}
+.ts-grid .mid{font-family:var(--mono);font-size:10px;color:var(--ink3);text-align:center;line-height:1.1}
+.ts-grid .out{font-family:var(--mono);font-size:10.5px;color:var(--ink2)}
+.decision{border:1px dashed var(--ink3);border-radius:6px;padding:8px 10px;font-size:12px;background:var(--panel)}
+.bars{display:grid;grid-template-columns:150px minmax(0,1fr) 70px;gap:8px 12px;align-items:center;margin-top:12px;font-size:12px}
+.bars .f{font-family:var(--mono);font-size:11.5px}
+.track{position:relative;height:16px}
+.track .tot{position:absolute;inset:0 auto 0 0;background:var(--wash);border:1px solid var(--line);border-radius:3px}
+.track .fix{position:absolute;inset:0 auto 0 0;background:var(--temporal);border-radius:3px 0 0 3px}
+.bars .n{font-family:var(--mono);font-size:11.5px;font-variant-numeric:tabular-nums;text-align:right}
+.tsres{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:20px;margin-top:16px}
+@media (max-width:1000px){.tsres{grid-template-columns:1fr}}
+.panel{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:16px}
+.big{font-family:var(--display);font-size:30px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.stats{display:flex;gap:24px;flex-wrap:wrap;margin-top:8px}
+.stats .lbl{font-size:11.5px;color:var(--ink2)}
+.foot{margin-top:36px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.foot .box{background:var(--panel)}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Tender offers · pack <code>tender_newgt100_oneshot_hybrid</code> · 100 filings × 14 fields = 1,400 frozen cells</span>
+    <h1>From one SEC filing to 14 Qwen calls</h1>
+    <p class="lede">A walkthrough of a single request: the Barings Private Credit Corporation issuer tender offer (Schedule TO-I/A, accession <code>0001859919-26-000002</code>). Evidence is built once with no LLM, frozen to disk, then replayed field by field into <code>qwen3-finance</code> on Ollama. The coloured tags mark the five evidence sources and keep the same colour on every diagram.</p>
+    <div class="legend" aria-label="Evidence leg legend">
+      <span class="chip c-rules">R · RULES regex facts</span>
+      <span class="chip c-gliner">G · GLINER entity spans</span>
+      <span class="chip c-temporal">T · TEMPORAL date spans</span>
+      <span class="chip c-hybrid">H · HYBRID retrieved chunks</span>
+      <span class="chip c-clause">C · CLAUSE regex excerpt</span>
+    </div>
+  </header>
+
+  <!-- ================= FLOW ================= -->
+  <section aria-labelledby="flow-h">
+    <h2 id="flow-h">The pipeline, left to right</h2>
+    <p class="note">Stages 1 to 5 run in <code>scripts/build_evidence_pack.py</code> with no model calls. Stage 6 is the replay (<code>eval_from_evidence_pack.py</code>), a LangGraph run for each field.</p>
+    <div class="flowbox">
+      <div class="flow">
+
+        <!-- 1 request -->
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">1 · Request</span><h3>GT row</h3></div>
+          <div class="box">
+            <dl class="kv">
+              <dt>accession</dt><dd>0001859919-26-000002</dd>
+              <dt>event_id</dt><dd>005-92837</dd>
+              <dt>filing</dt><dd>SC TO-I/A (Rule 13e-4)</dd>
+              <dt>issuer</dt><dd>Barings Private Credit Corp</dd>
+            </dl>
+          </div>
+          <div class="box"><b>14 target fields</b><div class="sub">subject_company, bidder, security_description, cusip, isin, ticker, offer_price, currency, expiration_date, withdrawal_deadline, settlement_date, effective_date, minimum_tender_condition, proration_terms</div></div>
+          <div class="box"><b>Gold labels</b><div class="sub">Kept beside each cell for scoring only. Never put into evidence or prompts.</div></div>
+        </div>
+        <div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+
+        <!-- 2 artifacts -->
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">2 · Preprocess store</span><h3>Artifacts on disk, per event</h3></div>
+          <div class="box"><b>segments.json</b><div class="sub">Filing split into sections tagged <span class="pill">faq</span> <span class="pill">priority</span> <span class="pill">toc</span> <span class="pill">full_doc</span></div></div>
+          <div class="box leg rules"><b>event_rep.json</b><div class="sub"><code>candidate_facts</code> from regex rules: CUSIP, ISIN, ticker, currency, settlement</div></div>
+          <div class="box leg gliner"><b>spans.json</b><div class="sub">Fine-tuned tender GLiNER spans with label, score and context passage</div></div>
+          <div class="box"><b>inventory.json</b><div class="sub">Pack hook extras (empty for this tender row)</div></div>
+        </div>
+        <div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+
+        <!-- 3 context -->
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">3 · ArtifactProvider.prepare</span><h3>EventContext, built once per filing</h3></div>
+          <div class="box"><b>excerpts</b> <span class="pill">≤ 24k chars</span><div class="sub">Priority and FAQ sections first, then TOC and full-doc</div></div>
+          <div class="box"><b>doc_text</b> <span class="pill">≤ 200k chars</span><div class="sub">All segments joined. Used for clause regex and hybrid chunks.</div></div>
+          <div class="box leg temporal"><b>temporal_cache</b><div class="sub">BERT temporal tagger (<code>satyaalmasian/…tokenclassifier</code>) over excerpts → DATE spans + <code>field_cues</code> score for each date field. Cached on disk.</div></div>
+          <div class="box leg hybrid"><b>hybrid chunks</b><div class="sub">doc_text cut into 900-char windows with 120 overlap. Dense bge-large vectors are <b>off</b> in this pack, so BM25 only.</div></div>
+          <div class="box"><b>rep · spans · extras</b><div class="sub">Loaded as-is from step 2</div></div>
+        </div>
+        <div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+
+        <!-- 4 router -->
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">4 · route_fields (heuristic)</span><h3>Field recipe: shape + legs</h3></div>
+          <div class="box">
+            <div class="route">
+              <span class="f">subject_company</span><span class="legs"><i class="dot rules">R</i><i class="dot gliner">G</i><i class="dot hybrid">H</i></span>
+              <span class="f">bidder</span><span class="legs"><i class="dot rules">R</i><i class="dot gliner">G</i><i class="dot hybrid">H</i></span>
+              <span class="f">security_description <span class="shape">clause→pick</span></span><span class="legs"><i class="dot clause">C</i><i class="dot rules">R</i><i class="dot gliner">G</i><i class="dot hybrid">H</i></span>
+              <span class="f">cusip · isin · ticker</span><span class="legs"><i class="dot rules">R</i></span>
+              <span class="f">offer_price</span><span class="legs"><i class="dot rules">R</i><i class="dot temporal">T</i><i class="dot hybrid">H</i></span>
+              <span class="f">currency</span><span class="legs"><i class="dot rules">R</i><i class="dot gliner">G</i><i class="dot hybrid">H</i></span>
+              <span class="f">expiration · withdrawal</span><span class="legs"><i class="dot temporal">T</i><i class="dot hybrid">H</i></span>
+              <span class="f">settlement_date <span class="shape">rules→span</span></span><span class="legs"><i class="dot rules">R</i><i class="dot gliner">G</i><i class="dot temporal">T</i><i class="dot hybrid">H</i></span>
+              <span class="f">effective_date</span><span class="legs"><i class="dot gliner">G</i><i class="dot temporal">T</i><i class="dot hybrid">H</i></span>
+              <span class="f">min_tender · proration <span class="shape">clause→pick</span></span><span class="legs"><i class="dot clause">C</i><i class="dot rules">R</i><i class="dot gliner">G</i><i class="dot hybrid">H</i></span>
+            </div>
+          </div>
+          <div class="box"><b>Compiled to a FieldPolicy</b><div class="sub"><code>oneshot</code>: one stage, all legs.<br><code>clause→pick</code>: clause copy first, then pick over the rest if null.<br><code>rules→span</code>: rules stage (with precision gate), then span stage.</div></div>
+        </div>
+        <div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+
+        <!-- 5 bundle -->
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">5 · build_bundle, per field × stage</span><h3>Evidence legs → one text block</h3></div>
+          <div class="box leg rules"><b>RULES:</b> <span class="sub">candidate_facts whose <code>field_hint</code> matches the field allow-list → <code>- hint= value= context=</code>. Ticker adds a live rescan.</span></div>
+          <div class="box leg gliner"><b>GLINER SPANS:</b> <span class="sub">Allow-listed labels only, junk role nouns dropped, ≤ 25 lines, with <code>score=</code> and a 220-char context</span></div>
+          <div class="box leg temporal"><b>TEMPORAL SPANS:</b> <span class="sub">Date fields only. <code>date= field_cues= window=</code>. Routed for offer_price but gated off.</span></div>
+          <div class="box leg hybrid"><b>HYBRID EXCERPTS:</b> <span class="sub">Query = field name + definition + cue words → BM25 → RRF → top 4 chunks, ≤ 2,200 chars. No scores shown to the model.</span></div>
+          <div class="box leg clause"><b>EXCERPT:</b> <span class="sub">Field-specific regex patterns over doc_text + excerpts. Used alone, in copy mode.</span></div>
+          <div class="box"><b>→ evidence.jsonl</b><div class="sub">One record per (row, field): <code>stages[]</code> with text, sources, prompt_mode, on_empty, plus <code>rules_direct</code>, gold. Plus manifest.json and routing.json.</div></div>
+        </div>
+        <div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+
+        <!-- 6 qwen -->
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">6 · Replay, one LangGraph run per field</span><h3>What Qwen receives</h3></div>
+          <div class="graph"><b>init</b> → <b>retrieve</b> (frozen stage text) → <b>prompt</b> → <b>llm</b> → advance → <b>normalize</b> → <b>validate</b>? → finish</div>
+          <div class="qwen">
+            <span class="eyebrow">qwen3-finance · Ollama native · think=off · temp 0 · format=json</span>
+            <div class="stack">
+              <div><span>system</span><br>Tender extractor role: pick or copy a listed value, prefer hybrid over conflicting GLiNER, apply role rules, never invent IDs, dates or prices</div>
+              <div><span>user · task</span><br>Extract `field` from the evidence pack below</div>
+              <div><span>user · DEFINITION</span><br>Field definition from the pack</div>
+              <div><span>user · HOW TO CHOOSE</span><br>Field pick rule + field-specific guidance (dates, price, ticker, security…)</div>
+              <div><span>user · EXAMPLES</span><br>Few-shot answers, only for fields that have them</div>
+              <div><span>user · output contract</span><br>{"field": "&lt;string&gt;"} or {"field": null}</div>
+              <div class="ev"><span>user · EVIDENCE</span><br>The frozen stage text from step 5</div>
+            </div>
+          </div>
+          <div class="box"><b>Pass C: validate</b> <span class="pill">2nd call</span><div class="sub">For ticker, currency, expiration, withdrawal, effective: DEFINITION + CANDIDATE + same EVIDENCE → <code>{"keep": true|false}</code>. If false, the prediction is dropped.</div></div>
+          <div class="box"><b>Output</b><div class="sub">pred → <code>pack.normalize</code> · <code>pass_used</code> (e.g. <code>oneshot+C_keep</code>, <code>clause</code>, <code>B_null</code>)</div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PER FIELD ================= -->
+  <section aria-labelledby="pf-h">
+    <h2 id="pf-h">For each field: the evidence Qwen sees for this filing</h2>
+    <p class="note">Real values from <code>evidence.jsonl</code> for row 0. Block counts are lines or chunks in the EVIDENCE section. Chars are the evidence text only. The prompt wrapper adds roughly 1–2k more.</p>
+    <div class="tbox">
+      <table>
+        <thead><tr><th>Field</th><th>Stage → evidence blocks</th><th style="text-align:right">Chars</th><th>First evidence line Qwen reads</th><th>Qwen calls</th><th>Gold</th></tr></thead>
+        <tbody>
+          <tr><td class="f">subject_company</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-gliner">GLINER ×5</span><span class="chip c-hybrid">HYBRID ×3</span><span class="chip c-off">RULES ∅</span></div></div></td>
+            <td class="n">3,460</td>
+            <td><div class="snip">- hint=target label=target_organization score=0.84 value='Barings Private Credit Corporation' …</div></td>
+            <td class="calls">1 pick</td><td class="gold">Barings Private Credit Corporation</td></tr>
+          <tr><td class="f">bidder</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-gliner">GLINER ×17</span><span class="chip c-hybrid">HYBRID ×3</span><span class="chip c-off">RULES ∅</span></div></div></td>
+            <td class="n">5,409</td>
+            <td><div class="snip">- hint=offeror score=0.97 value='Barings Private Credit Corporation' · score=0.94 value='DST Systems Inc.' (transfer agent, a distractor)</div></td>
+            <td class="calls">1 pick</td><td class="gold">Barings Private Credit Corporation</td></tr>
+          <tr><td class="f">security_description</td>
+            <td><div class="stage"><span class="sn">① clause · copy</span><div class="blocks"><span class="chip c-clause">EXCERPT ×2</span></div></div>
+                <div class="stage"><span class="sn">② oneshot · pick (only if ① is null)</span><div class="blocks"><span class="chip c-gliner">GLINER ×5</span><span class="chip c-hybrid">HYBRID ×3</span></div></div></td>
+            <td class="n">674<br><br>3,552</td>
+            <td><div class="snip">…Barings Private Credit Corporation (Name of Subject Company (Issuer)) … Common Stock, Par Value $0.001 Per Share (Title of Class of Securities)</div></td>
+            <td class="calls">1, or 2 if ① null</td><td class="gold">Barings Private Credit Corporation common stock, par value $0.001 per share</td></tr>
+          <tr><td class="f">cusip</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-rules">RULES ×2</span></div></div></td>
+            <td class="n">108</td>
+            <td><div class="snip">- hint=cusip value='06763A101' context='06763A101'</div></td>
+            <td class="calls">1 pick</td><td class="gold">06763A101</td></tr>
+          <tr><td class="f">isin</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-rules">RULES ×2</span></div></div></td>
+            <td class="n">118</td>
+            <td><div class="snip">- hint=isin value='US06763A1016'</div></td>
+            <td class="calls">1 pick</td><td class="gold">US06763A1016</td></tr>
+          <tr><td class="f">ticker</td>
+            <td><div class="stage"><span class="sn">oneshot · pick · on_empty=ask</span><div class="blocks"><span class="chip c-off">RULES ∅</span></div></div></td>
+            <td class="n">50</td>
+            <td><div class="snip">(no rules/GLiNER/temporal evidence for this field) → short "evidence pack is empty → return null" prompt</div></td>
+            <td class="calls">1 pick (+ validate if non-null)</td><td class="gold empty">blank (unlisted BDC)</td></tr>
+          <tr><td class="f">offer_price</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-hybrid">HYBRID ×3</span><span class="chip c-off">RULES ∅</span><span class="chip c-off">TEMPORAL gated</span></div></div></td>
+            <td class="n">2,227</td>
+            <td><div class="snip">…The purchase price of a Share tendered will be its net asset value per Share as of the Valuation Date (less any 2% "early repurchase deduction")…</div></td>
+            <td class="calls">1 pick</td><td class="gold">Net asset value per Share as of December 31, 2025</td></tr>
+          <tr><td class="f">currency</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-rules">RULES ×3</span><span class="chip c-gliner">GLINER ×12</span><span class="chip c-hybrid">HYBRID ×3</span></div></div></td>
+            <td class="n">4,262</td>
+            <td><div class="snip">- hint=currency value='USD' context='$45,953,578.06'</div></td>
+            <td class="calls">1 pick + validate</td><td class="gold empty">blank</td></tr>
+          <tr><td class="f">expiration_date</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-temporal">TEMPORAL ×20</span><span class="chip c-hybrid">HYBRID ×3</span></div></div></td>
+            <td class="n">7,871</td>
+            <td><div class="snip">- date='1934' field_cues=0 · date='2500' (a suite number) · date='december 1, 2025' · date='december 31, 2025' …</div></td>
+            <td class="calls">1 pick + validate</td><td class="gold">12/31/2025 11:59 PM Eastern Time</td></tr>
+          <tr><td class="f">withdrawal_deadline</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-temporal">TEMPORAL ×20</span><span class="chip c-hybrid">HYBRID ×3</span></div></div></td>
+            <td class="n">7,871</td>
+            <td><div class="snip">Same 20 DATE spans, scored with withdrawal cues; hybrid query adds "withdrawal rights withdraw tender"</div></td>
+            <td class="calls">1 pick + validate</td><td class="gold empty">blank</td></tr>
+          <tr><td class="f">settlement_date</td>
+            <td><div class="stage"><span class="sn">① rules · direct value hits accept gate</span><div class="blocks"><span class="chip c-rules">RULES ×1</span></div></div>
+                <div class="stage"><span class="sn">② span · pick (if ① null)</span><div class="blocks"><span class="chip c-temporal">TEMPORAL ×20</span><span class="chip c-hybrid">HYBRID ×3</span></div></div></td>
+            <td class="n">65<br><br>7,871</td>
+            <td><div class="snip">- hint=settlement_date value='4/1/2025'. The precision gate rejects this direct value (no payment cue), so Qwen is asked to pick from it instead.</div></td>
+            <td class="calls">1, or 2 if ① null</td><td class="gold empty">blank</td></tr>
+          <tr><td class="f">effective_date</td>
+            <td><div class="stage"><span class="sn">oneshot · pick</span><div class="blocks"><span class="chip c-temporal">TEMPORAL ×20</span><span class="chip c-hybrid">HYBRID ×3</span><span class="chip c-off">GLINER ∅</span></div></div></td>
+            <td class="n">7,871</td>
+            <td><div class="snip">Same DATE spans; prompt allows null ("many listed dates are the WRONG type")</div></td>
+            <td class="calls">1 pick + validate</td><td class="gold empty">blank</td></tr>
+          <tr><td class="f">minimum_tender_condition</td>
+            <td><div class="stage"><span class="sn">① clause · copy</span><div class="blocks"><span class="chip c-clause">EXCERPT ×3</span></div></div>
+                <div class="stage"><span class="sn">② oneshot · pick</span><div class="blocks"><span class="chip c-hybrid">HYBRID ×3</span></div></div></td>
+            <td class="n">1,191<br><br>2,227</td>
+            <td><div class="snip">…This Offer is being made to all Shareholders of the Company and is not conditioned on any minimum amount of Shares being tendered…</div></td>
+            <td class="calls">1, or 2 if ① null</td><td class="gold empty">blank</td></tr>
+          <tr><td class="f">proration_terms</td>
+            <td><div class="stage"><span class="sn">① clause · copy</span><div class="blocks"><span class="chip c-clause">EXCERPT ×1</span></div></div>
+                <div class="stage"><span class="sn">② oneshot · pick</span><div class="blocks"><span class="chip c-hybrid">HYBRID ×3</span></div></div></td>
+            <td class="n">670<br><br>2,227</td>
+            <td><div class="snip">If more than 6,974,335 Shares are duly tendered … the Company will accept Shares … on a pro rata basis…</div></td>
+            <td class="calls">1, or 2 if ① null</td><td class="gold empty">blank</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= EXPLORER ================= -->
+  <section aria-labelledby="xp-h">
+    <h2 id="xp-h">Evidence pack explorer</h2>
+    <p class="note" style="max-width:95ch">The full frozen evidence for all 100 filings × 14 fields, unedited from <code>evidence.jsonl</code>. "Evidence" shows each stage split into its source blocks. "Qwen prompt" shows the exact system and user message for that stage, rebuilt with the pack's own <code>select_prompt()</code>, with the evidence highlighted. Gold is shown for reference only and never goes into the prompt.</p>
+    <div class="xp" id="xp">
+      <div class="xp-bar">
+        <label for="xp-row">Filing
+          <select id="xp-row" disabled><option>Loading 100 filings…</option></select>
+        </label>
+        <div style="display:flex;gap:6px">
+          <button class="navbtn" id="xp-prev" type="button" aria-label="Previous filing">←</button>
+          <button class="navbtn" id="xp-next" type="button" aria-label="Next filing">→</button>
+        </div>
+        <div class="seg-ctl" role="group" aria-label="View">
+          <button type="button" id="xp-v-ev" aria-pressed="true">Evidence</button>
+          <button type="button" id="xp-v-pr" aria-pressed="false">Qwen prompt</button>
+        </div>
+      </div>
+      <div class="ftabs" id="xp-fields" role="tablist" aria-label="Field"></div>
+      <div class="xp-body" id="xp-body"><div class="xp-load">Loading the evidence pack (6.5 MB). Pick a filing and a field to see what was frozen for it.</div></div>
+    </div>
+  </section>
+
+  <!-- ================= PROMPTS ================= -->
+  <section aria-labelledby="pr-h">
+    <h2 id="pr-h">The two prompt shapes, rendered for this filing</h2>
+    <p class="note">Generated by <code>select_prompt()</code> in <code>src/evaluation/extract/prompts.py</code>. Pick mode wraps a mixed evidence pack. Copy mode drops the wrapper and asks for a verbatim clause.</p>
+    <div class="pgrid">
+      <article class="prompt">
+        <header><h3>Pick mode · <code>bidder</code></h3><span class="pill">7,433 chars total</span></header>
+        <div class="seg sys"><div class="lab">system</div><pre>You are a tender-offer field extractor. Evidence is already filtered for this field (RULES facts, GLiNER spans, HYBRID EXCERPTS, temporal DATE spans, or clause excerpts). Your job is to PICK or COPY the best matching listed value — not to abstain. … Return one JSON object only.</pre></div>
+        <div class="seg"><div class="lab">task</div><pre>Extract `bidder` from the evidence pack below.</pre></div>
+        <div class="seg"><div class="lab">definition</div><pre>DEFINITION: The person making the offer (offeror/purchaser). Use the full legal name when provided. In an issuer tender offer, the issuer is both subject_company and bidder. … A higher GLiNER score does not override that role hierarchy.</pre></div>
+        <div class="seg"><div class="lab">how to choose</div><pre>- Pick the offeror/purchaser legal name only. Discard any span whose context calls it Adviser … Schedule TO 'Filing Person (Offeror and Issuer)' wins when present. … Self-tender: bidder = subject_company.
+- Apply DEFINITION role rules before scores. …
+- If HYBRID EXCERPTS disagree with a GLiNER value=, prefer the hybrid wording …
+- Do NOT return null if at least one listed value … plausibly matches.
+- Never invent identifiers/dates/prices absent from the evidence.</pre></div>
+        <div class="seg"><div class="lab">contract</div><pre>Return JSON {"bidder": "&lt;string&gt;"} or {"bidder": null}.</pre></div>
+        <div class="seg evi"><div class="lab">evidence</div><pre><span class="hl-g">GLINER SPANS:
+- hint=offeror label=offeror_organization score=0.97 value='Barings Private Credit Corporation' context='… SCHEDULE TO (Rule 13e-4) …'
+- hint=offeror label=offeror_organization score=0.94 value='DST Systems Inc.'
+- hint=purchaser label=purchaser_organization score=0.89 value='Barings Private Credit Corporation' …
+  … 14 more spans</span>
+
+<span class="hl-h">HYBRID EXCERPTS:
+&lt;chunk 1&gt;
+---
+&lt;chunk 2&gt;
+---
+&lt;chunk 3&gt;</span></pre></div>
+      </article>
+
+      <article class="prompt">
+        <header><h3>Copy mode · <code>proration_terms</code> stage ①</h3><span class="pill">1,641 chars total</span></header>
+        <div class="seg sys"><div class="lab">system</div><pre>Same tender-offer extractor system prompt.</pre></div>
+        <div class="seg"><div class="lab">task</div><pre>Extract proration_terms from the EXCERPT only.
+Copy the oversubscription / pro-rata sentence(s) into JSON {"proration_terms": "..."}.</pre></div>
+        <div class="seg"><div class="lab">rules</div><pre>- If the excerpt contains such a trigger/pro-rata rule, you MUST copy it.
+- Preserve numbers exactly as written; omit thousands separators.
+- Do not calculate a proration percentage.
+- Do not infer proration from a purchase limit alone.
+- "No proration" only when the text explicitly says so; else null.</pre></div>
+        <div class="seg"><div class="lab">example</div><pre>{"proration_terms": "If more than 5% of Shares are duly tendered and not withdrawn, the Fund will accept Shares pro rata."}</pre></div>
+        <div class="seg evi"><div class="lab">excerpt</div><pre><span class="hl-c">If more than 6,974,335 Shares are duly tendered to the Company before the expiration of the Offer and not properly withdrawn, pursuant to Section 5 "Withdrawal Rights" below, the Company will accept Shares tendered on or before the Expiration Date for payment on a pro rata basis based on the number of tendered Shares; provided that the Company reserves the right … up to 2.0% … Rule 13e-4(f)(1) …</span></pre></div>
+        <div class="seg"><div class="lab">if null</div><pre>Stage ② runs: a pick-mode prompt (like the one on the left) with HYBRID EXCERPTS ×3 as evidence.</pre></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= TWO-STAGE PROBE ================= -->
+  <section aria-labelledby="ts-h">
+    <span class="eyebrow">Experiment · scripts/probe_mismatch_twostage.py · qwen3-finance</span>
+    <h2 id="ts-h">Two-stage retrieval probe: narrow evidence first, broaden only on null</h2>
+    <p class="note" style="max-width:90ch">The single-call setup puts every evidence source into one prompt. This probe tested whether Qwen does better when it first sees only the most targeted source, and gets the full set only if it returns null. It re-ran just the cells the single-call run got wrong.</p>
+    <div class="flowbox">
+      <div class="ts-flow">
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">1 · Baseline</span><h3>Frozen single-call run</h3></div>
+          <div class="box"><b>frozen_qwen3_finance_oracle_heuristic</b><div class="sub">checkpoint.jsonl, scored per cell against gold</div></div>
+          <div class="box"><b>Keep only failures</b><div class="sub">mismatch · fp_no_gt · fn</div></div>
+          <div class="box"><span class="big">78</span><div class="sub">wrong cells across 8 fields</div></div>
+        </div>
+        <div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">2 · Swap the policy</span><h3>Live re-run, same filings</h3></div>
+          <div class="box"><b>Same EventContext</b><div class="sub">Evidence legs rebuilt live with ArtifactProvider, so each stage can pick its own sources</div></div>
+          <div class="box"><b>Two-stage FieldPolicy</b><div class="sub">Stage A = narrow (on_empty=skip). Stage B = broad. stop_at_first_hit.</div></div>
+          <div class="decision"><b>Rule:</b> Stage A answer → done. Stage A null or empty → run Stage B. Validate still runs for ticker, currency and the 3 date fields.</div>
+        </div>
+        <div class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+        <div class="col">
+          <div class="colhead"><span class="eyebrow">3 · Per-field stages</span><h3>What each Qwen call sees</h3></div>
+          <div class="ts-grid">
+            <span class="h">Field</span><span class="h">Stage A · narrow</span><span class="h"></span><span class="h">Stage B · broad</span><span class="h">Then</span>
+            <span class="f">offer_price</span>
+              <span class="st narrow"><span class="chip c-hybrid">HYBRID</span></span><span class="mid">null<br>→</span>
+              <span class="st"><span class="chip c-rules">RULES</span><span class="chip c-hybrid">HYBRID</span></span><span class="out">no GLiNER (par traps)</span>
+            <span class="f">expiration_date<br>withdrawal_deadline</span>
+              <span class="st narrow"><span class="chip c-temporal">TEMPORAL</span></span><span class="mid">null<br>→</span>
+              <span class="st"><span class="chip c-temporal">TEMPORAL</span><span class="chip c-hybrid">HYBRID</span></span><span class="out">+ validate</span>
+            <span class="f">effective_date</span>
+              <span class="st narrow"><span class="chip c-temporal">TEMPORAL</span><span class="chip c-hybrid">HYBRID</span></span><span class="mid">null<br>→</span>
+              <span class="st"><span class="chip c-gliner">GLINER</span><span class="chip c-temporal">TEMPORAL</span><span class="chip c-hybrid">HYBRID</span></span><span class="out">+ validate</span>
+            <span class="f">currency</span>
+              <span class="st narrow"><span class="chip c-hybrid">HYBRID</span></span><span class="mid">null<br>→</span>
+              <span class="st"><span class="chip c-rules">RULES</span><span class="chip c-gliner">GLINER</span><span class="chip c-hybrid">HYBRID</span></span><span class="out">+ validate</span>
+            <span class="f">ticker</span>
+              <span class="st narrow"><span class="chip c-rules">RULES</span></span><span class="mid">null<br>→</span>
+              <span class="st"><span class="chip c-rules">RULES</span><span class="chip c-gliner">GLINER</span><span class="chip c-hybrid">HYBRID</span></span><span class="out">+ validate</span>
+            <span class="f">bidder<br>subject_company</span>
+              <span class="st narrow"><span class="chip c-rules">RULES</span></span><span class="mid">null<br>→</span>
+              <span class="st"><span class="chip c-rules">RULES</span><span class="chip c-gliner">GLINER</span><span class="chip c-hybrid">HYBRID</span></span><span class="out">—</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tsres">
+      <div class="panel">
+        <h3>Wrong cells fixed, by field</h3>
+        <p class="note" style="margin:4px 0 0">Bar length = wrong cells re-run (scale 0–18). Filled part = fixed by the two-stage plan.</p>
+        <div class="bars" role="img" aria-label="Fixed versus re-run cells per field">
+          <span class="f">withdrawal_deadline</span><div class="track"><span class="tot" style="width:100%"></span><span class="fix" style="width:27.8%"></span></div><span class="n">5 / 18</span>
+          <span class="f">effective_date</span><div class="track"><span class="tot" style="width:94.4%"></span><span class="fix" style="width:16.7%"></span></div><span class="n">3 / 17</span>
+          <span class="f">offer_price</span><div class="track"><span class="tot" style="width:77.8%"></span><span class="fix" style="width:11.1%"></span></div><span class="n">2 / 14</span>
+          <span class="f">expiration_date</span><div class="track"><span class="tot" style="width:50%"></span><span class="fix" style="width:22.2%"></span></div><span class="n">4 / 9</span>
+          <span class="f">currency</span><div class="track"><span class="tot" style="width:44.4%"></span><span class="fix" style="width:16.7%"></span></div><span class="n">3 / 8</span>
+          <span class="f">bidder</span><div class="track"><span class="tot" style="width:33.3%"></span><span class="fix" style="width:11.1%"></span></div><span class="n">2 / 6</span>
+          <span class="f">ticker</span><div class="track"><span class="tot" style="width:22.2%"></span><span class="fix" style="width:0%"></span></div><span class="n">0 / 4</span>
+          <span class="f">subject_company</span><div class="track"><span class="tot" style="width:11.1%"></span><span class="fix" style="width:5.6%"></span></div><span class="n">1 / 2</span>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Outcome</h3>
+        <div class="stats">
+          <div><div class="big" style="color:var(--temporal)">20</div><div class="lbl">fixed</div></div>
+          <div><div class="big">58</div><div class="lbl">still wrong</div></div>
+          <div><div class="big">0</div><div class="lbl">made worse</div></div>
+          <div><div class="big">305s</div><div class="lbl">wall time, 78 cells</div></div>
+        </div>
+        <p class="note" style="margin-top:14px"><b>Where the fixes came from.</b> 11 of the 12 date fixes came from Stage A. Seven were the right date found once the hybrid chunks no longer competed. Five were correct blanks, where validate dropped a wrong date or Qwen returned null. Bidder and subject_company were fixed in Stage B, after rules alone returned null. Offer price was fixed by HYBRID alone, the NAV formula wording.</p>
+        <p class="note"><b>Limit.</b> Only cells that were already wrong were re-run, so this does not measure how many correct cells the two-stage plan would break. It was not adopted. Production routing still makes one call per field.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <div class="box"><span class="eyebrow">Why freeze</span><p class="note" style="margin:6px 0 0">Retrieval, GLiNER and the temporal tagger run once. Any model (qwen3-finance, gemma, LangExtract) is then scored on the exact same 1,400 evidence cells, so differences come from the model alone.</p></div>
+    <div class="box"><span class="eyebrow">Noise Qwen has to filter</span><p class="note" style="margin:6px 0 0">Every date field in this filing gets the same 20 temporal spans, including "1934" (the Exchange Act) and "2500" (a suite number), all with <code>field_cues=0</code>. That is why the date prompts allow null and why Pass C validate runs.</p></div>
+    <div class="box"><span class="eyebrow">Config for this pack</span><p class="note" style="margin:6px 0 0">Heuristic router · cascade off · hybrid top_k 4, max 2,200 chars, 900/120 chunking, BM25 only · validate on · split train, 100 rows.</p></div>
+  </div>
+</div>
+<script>
+(function(){
+  const LEG = {"RULES":"rules","GLINER SPANS":"gliner","TEMPORAL SPANS":"temporal","HYBRID EXCERPTS":"hybrid","EXCERPT":"clause"};
+  const SRC = {rules:"R",gliner:"G",temporal:"T",hybrid:"H",clause:"C"};
+  const $ = id => document.getElementById(id);
+  let D=null, ri=0, field="bidder", view="ev";
+  try{ const s=JSON.parse(localStorage.getItem("xp-state")||"{}"); if(Number.isInteger(s.ri)) ri=s.ri; if(s.field) field=s.field; if(s.view) view=s.view; }catch(e){}
+  const save=()=>{ try{ localStorage.setItem("xp-state",JSON.stringify({ri,field,view})); }catch(e){} };
+  const el=(tag,cls,txt)=>{ const e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e; };
+  const chip=(src)=>el("span","chip c-"+src, SRC[src]+" · "+src.toUpperCase());
+
+  function splitBlocks(text){
+    const out=[]; let cur=null;
+    for(const line of text.split("\n")){
+      const h=line.endsWith(":") ? line.slice(0,-1) : null;
+      if(h && LEG[h]){ cur={h, leg:LEG[h], lines:[]}; out.push(cur); continue; }
+      if(!cur){ cur={h:null, leg:"", lines:[]}; out.push(cur); }
+      cur.lines.push(line);
+    }
+    out.forEach(b=>{ while(b.lines.length && b.lines[b.lines.length-1]==="") b.lines.pop(); });
+    return out;
+  }
+  function countOf(b){
+    if(b.leg==="hybrid"||b.leg==="clause") return (b.lines.filter(l=>l==="---").length+1)+" chunk(s)";
+    return b.lines.filter(l=>l.startsWith("- ")).length+" line(s)";
+  }
+  function renderPre(lines){
+    const pre=el("pre");
+    lines.forEach((l,i)=>{
+      if(l==="---"){ pre.appendChild(el("span","ln-sep")); return; }
+      pre.appendChild(document.createTextNode(l+(i<lines.length-1?"\n":"")));
+    });
+    return pre;
+  }
+  function promptFor(f, st){
+    const T=D.templates[f];
+    let ev=st.t, tpl;
+    if(st.m==="copy"){ if(ev.startsWith(D.clause_prefix)) ev=ev.slice(D.clause_prefix.length); tpl=T.copy; }
+    else if(ev.startsWith("(no ")){ return {pre:T.empty, ev:"", post:""}; }
+    else tpl=T.pick;
+    const i=tpl.indexOf(D.sentinel);
+    return {pre:tpl.slice(0,i), ev, post:tpl.slice(i+D.sentinel.length)};
+  }
+
+  function renderFields(){
+    const box=$("xp-fields"); box.textContent="";
+    const row=D.rows[ri];
+    D.fields.forEach(f=>{
+      const b=el("button"); b.type="button"; b.setAttribute("role","tab");
+      b.setAttribute("aria-selected", f===field ? "true":"false");
+      b.appendChild(document.createTextNode(f));
+      const n=row.f[f].s.reduce((a,s)=>a+s.t.length,0);
+      b.appendChild(el("span","k", n>=1000 ? (n/1000).toFixed(1)+"k" : String(n)));
+      b.addEventListener("click",()=>{ field=f; save(); renderFields(); renderBody(); });
+      box.appendChild(b);
+    });
+  }
+
+  function renderBody(){
+    const body=$("xp-body"); body.textContent="";
+    const row=D.rows[ri], rec=row.f[field];
+    const meta=el("div","xp-meta");
+    const m=(lbl,val,cls)=>{ const s=el("span"); s.appendChild(el("span","lbl",lbl)); s.appendChild(el("span",cls||"",val)); meta.appendChild(s); };
+    m("accession", row.acc, "mono"); m("event", row.eid||"—", "mono");
+    m("gold (scoring only)", rec.g || "blank");
+    if(rec.rd && rec.rd.length) m("rules_direct", rec.rd.join(" · "), "mono");
+    m("stages", rec.s.map(s=>s.n).join(" → ") + (rec.s.length>1 ? "  (stage 2 runs only if stage 1 is null)" : ""));
+    if(D.validate_fields.includes(field)) m("then", "validate call (keep true/false) if non-null");
+    body.appendChild(meta);
+
+    rec.s.forEach((st,si)=>{
+      if(view==="ev"){
+        const box=el("div","stg");
+        const h=el("div","stg-h");
+        h.appendChild(el("b",null,(rec.s.length>1?(si+1)+" · ":"")+st.n));
+        h.appendChild(el("span","pill",st.m==="copy"?"copy mode":"pick mode"));
+        st.src.forEach(s=>h.appendChild(chip(s)));
+        h.appendChild(el("span","sp"));
+        h.appendChild(el("span","flowtag",st.t.length.toLocaleString()+" chars"+(st.e?" · empty (on_empty="+st.oe+")":"")));
+        box.appendChild(h);
+        if(st.e){ box.appendChild(el("div","empty-ev",st.t)); }
+        else splitBlocks(st.t).forEach(b=>{
+          const bl=el("div","blk "+b.leg);
+          if(b.h){ const bh=el("div","blk-h",b.h+":"); bh.appendChild(el("span","cnt",countOf(b))); bl.appendChild(bh); }
+          bl.appendChild(renderPre(b.lines)); box.appendChild(bl);
+        });
+        body.appendChild(box);
+      } else {
+        const P=promptFor(field,st);
+        const pv=el("div","pv");
+        const h=el("div","pv-h");
+        h.appendChild(el("span",null,(rec.s.length>1?"Stage "+(si+1)+" · ":"")+st.n+" · "+st.m+" mode · user message "+(P.pre.length+P.ev.length+P.post.length).toLocaleString()+" chars"));
+        const cb=el("button","navbtn","Copy prompt"); cb.type="button";
+        cb.addEventListener("click",()=>{
+          const txt="[system]\n"+D.system+"\n\n[user]\n"+P.pre+P.ev+P.post;
+          navigator.clipboard.writeText(txt).then(()=>{cb.textContent="Copied";setTimeout(()=>cb.textContent="Copy prompt",1500);},()=>{cb.textContent="Copy blocked";});
+        });
+        h.appendChild(cb); pv.appendChild(h);
+        const sys=el("div","seg sys"); sys.appendChild(el("div","lab","system")); sys.appendChild(el("pre",null,D.system)); pv.appendChild(sys);
+        const us=el("div","seg"); us.appendChild(el("div","lab","user"));
+        const pre=el("pre","ptext"); pre.style.padding="10px 12px"; pre.style.maxHeight="640px";
+        pre.appendChild(document.createTextNode(P.pre));
+        if(P.ev){ const mk=el("mark",null,P.ev); pre.appendChild(mk); }
+        pre.appendChild(document.createTextNode(P.post));
+        us.appendChild(pre); pv.appendChild(us);
+        body.appendChild(pv);
+      }
+    });
+  }
+
+  function renderRowSel(){
+    const sel=$("xp-row"); sel.textContent="";
+    D.rows.forEach((r,i)=>{
+      const name=(r.f.subject_company && r.f.subject_company.g) || (r.f.bidder && r.f.bidder.g) || "(no subject gold)";
+      const o=el("option",null,"#"+i+" · "+name.slice(0,60)+" · "+r.acc); o.value=i; sel.appendChild(o);
+    });
+    sel.value=ri; sel.disabled=false;
+  }
+  function go(i){ ri=(i+D.rows.length)%D.rows.length; $("xp-row").value=ri; save(); renderFields(); renderBody(); }
+  function setView(v){ view=v; $("xp-v-ev").setAttribute("aria-pressed",v==="ev"); $("xp-v-pr").setAttribute("aria-pressed",v==="pr"); save(); if(D) renderBody(); }
+
+  $("xp-row").addEventListener("change",e=>go(+e.target.value));
+  $("xp-prev").addEventListener("click",()=>D&&go(ri-1));
+  $("xp-next").addEventListener("click",()=>D&&go(ri+1));
+  $("xp-v-ev").addEventListener("click",()=>setView("ev"));
+  $("xp-v-pr").addEventListener("click",()=>setView("pr"));
+  setView(view);
+
+  fetch("evidence_data.json").then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).then(d=>{
+    D=d; if(ri>=D.rows.length) ri=0; if(!D.fields.includes(field)) field="bidder";
+    renderRowSel(); renderFields(); renderBody();
+  }).catch(err=>{ $("xp-body").textContent="Could not load evidence_data.json ("+err.message+"). Reload the page to try again."; });
+})();
+</script>
+
+</body></html>

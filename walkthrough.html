@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Evidence Pack Walkthrough</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: controls bar, one wide flow diagram (build half on top, replay half below), then a step detail panel beside a field card. */
+  :root {
+    --bg: #f5f6f8; --panel: #ffffff; --fg: #151a24; --muted: #5a6274; --faint: #8a92a3;
+    --box: #ffffff; --line: #3a4150; --wash: #eceff4; --border: #d9dde5;
+    --accent: #1f4fd1; --hot: #c2570c; --llm: #151a24; --llm-fg: #ffffff;
+    --R: #b5690a; --G: #7a3fc4; --T: #0b7f75; --H: #1f5fd1; --C: #c0335a;
+    --build-bg: #f1f4fa; --replay-bg: #f0f7f3; --in-bg: #e6ecfb; --dec-bg: #fff0e3; --ok: #1d7a46; --ok-bg: #e2f3e8;
+    --Rbg: #fdf1de; --Gbg: #f1e9fb; --Tbg: #dcf3f0; --Hbg: #e2ebfb; --Cbg: #fbe4eb;
+    --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f131a; --panel: #171c25; --fg: #e8ebf1; --muted: #a9b1c2; --faint: #7d8699;
+      --box: #1a1f2a; --line: #c9cfdb; --wash: #1d2330; --border: #2a3140;
+      --accent: #7aa2ff; --hot: #f59a3c; --llm: #e8ebf1; --llm-fg: #0f131a;
+      --R: #f0a540; --G: #b88cf2; --T: #3cc7b8; --H: #7aa2ff; --C: #f07193;
+      --build-bg: #131924; --replay-bg: #111b18; --in-bg: #1a2440; --dec-bg: #3a2410; --ok: #5fd08f; --ok-bg: #13301f;
+      --Rbg: #33260f; --Gbg: #2a1f3d; --Tbg: #10302d; --Hbg: #172744; --Cbg: #3a1823;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f131a; --panel: #171c25; --fg: #e8ebf1; --muted: #a9b1c2; --faint: #7d8699;
+    --box: #1a1f2a; --line: #c9cfdb; --wash: #1d2330; --border: #2a3140;
+    --accent: #7aa2ff; --hot: #f59a3c; --llm: #e8ebf1; --llm-fg: #0f131a;
+    --R: #f0a540; --G: #b88cf2; --T: #3cc7b8; --H: #7aa2ff; --C: #f07193;
+    --build-bg: #131924; --replay-bg: #111b18; --in-bg: #1a2440; --dec-bg: #3a2410; --ok: #5fd08f; --ok-bg: #13301f;
+    --Rbg: #33260f; --Gbg: #2a1f3d; --Tbg: #10302d; --Hbg: #172744; --Cbg: #3a1823;
+    color-scheme: dark;
+  }
+  body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; line-height: 1.5; }
+  main { max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; box-sizing: border-box;
+    padding-block: 32px 56px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  h1 { margin: 0; font-size: 1.6rem; line-height: 1.2; font-weight: 600; text-wrap: balance; }
+  h2 { margin: 0; font-size: 1.1rem; font-weight: 600; text-wrap: balance; }
+  .lede { margin: 6px 0 0; max-width: 78ch; color: var(--muted); }
+  code, .mono { font-family: var(--font-mono); font-size: 0.85em; }
+
+  .bar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+  .btn { font: inherit; font-size: 13px; padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--panel); color: var(--fg); cursor: pointer; }
+  .btn:hover { border-color: var(--line); }
+  .btn:disabled { opacity: .4; cursor: default; }
+  .count { font-family: var(--font-mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .bar label { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--muted); }
+  .bar select { font: inherit; font-size: 13px; color: var(--fg); background: var(--panel); border: 1px solid var(--border); border-radius: 6px; padding: 5px 8px; max-width: 100%; }
+  .spacer { flex: 1; }
+
+  .steps { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+  .steps button { font: inherit; font-size: 12px; padding: 4px 9px; border: 1px solid var(--border); border-radius: 999px; background: transparent; color: var(--muted); cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+  .steps button .n { font-family: var(--font-mono); font-size: 11px; color: var(--faint); font-variant-numeric: tabular-nums; }
+  .steps button[aria-current="step"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .steps button[aria-current="step"] .n { color: var(--bg); opacity: .7; }
+
+  .scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; background: var(--panel); }
+  svg { display: block; min-width: 980px; width: 100%; height: auto; }
+
+  /* diagram */
+  .zone { stroke: var(--border); stroke-width: 1.5; }
+  .zone.build { fill: var(--build-bg); }
+  .zone.replay { fill: var(--replay-bg); }
+  .zt { fill: var(--fg); font: 600 13px var(--font-body); letter-spacing: .08em; }
+  .zs { fill: var(--faint); font: 400 11px var(--font-mono); }
+  .ch { fill: var(--muted); font: 600 10.5px var(--font-mono); letter-spacing: .04em; }
+  .chn { fill: var(--fg); }
+  .chc { fill: var(--panel); stroke: var(--border); }
+  .n { cursor: pointer; transition: opacity .2s; }
+  .n .shape { stroke-width: 1.4; transition: stroke .2s, stroke-width .2s; }
+  .n .t { fill: var(--fg); font: 600 13px var(--font-body); text-anchor: middle; }
+  .n .s { fill: var(--muted); font: 400 10px var(--font-mono); text-anchor: middle; }
+  .k-input .shape { fill: var(--in-bg); stroke: var(--accent); }
+  .k-input .t { fill: var(--accent); }
+  .k-file .shape { fill: var(--panel); stroke: var(--line); }
+  .k-file .fold { fill: var(--wash); stroke: var(--line); stroke-width: 1.2; }
+  .k-ctx .shape { fill: var(--wash); stroke: var(--faint); stroke-dasharray: 1 0; }
+  .k-step .shape { fill: var(--panel); stroke: var(--line); }
+  .k-dec .shape { fill: var(--dec-bg); stroke: var(--hot); }
+  .k-dec .t { fill: var(--hot); }
+  .k-out .shape { fill: var(--ok-bg); stroke: var(--ok); }
+  .k-out .t { fill: var(--ok); }
+  .k-gold .shape { fill: var(--ok-bg); stroke: var(--ok); stroke-dasharray: 5 4; }
+  .k-gold .t { fill: var(--ok); }
+  .k-llm .shape { fill: var(--llm); stroke: var(--llm); }
+  .k-llm .t, .k-llm .s { fill: var(--llm-fg); }
+  .k-leg .s { fill: var(--muted); }
+  .n:hover .shape, .n:focus-visible .shape { stroke-width: 2.6; }
+  .n:focus { outline: none; }
+  .e { color: var(--faint); transition: opacity .2s, color .2s; }
+  .e polyline { fill: none; stroke: currentColor; stroke-width: 1.5; }
+  .e polygon { fill: currentColor; stroke: none; }
+  .e.leg polyline { stroke-width: 2; }
+  .e text { fill: var(--muted); font: 500 10.5px var(--font-mono); }
+  .e.hot { color: var(--hot); }
+  .e.hot polyline { stroke-width: 2.2; stroke-dasharray: 6 4; }
+  .e.hot text { fill: var(--hot); }
+
+  .diagram.focus .n:not(.on) { opacity: .2; }
+  .diagram.focus .e:not(.on) { opacity: .12; }
+  .diagram.focus .n.on .shape { stroke-width: 2.6; }
+  .diagram.focus .n.on:is(.k-file, .k-ctx, .k-step) .shape { stroke: var(--accent); }
+  .diagram.focus .e.on:not(.hot):not(.leg) { color: var(--accent); }
+  .diagram.focus .e.on text { fill: var(--fg); }
+  .diagram.focus .e.hot.on text { fill: var(--hot); }
+  .diagram .n.unused { opacity: .25; }
+  .diagram .n.unused .shape { stroke-dasharray: 4 3; }
+  .diagram .e.unused { opacity: .1; }
+
+  /* key */
+  .key { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; font-size: 12.5px; color: var(--muted); }
+  .key span { display: inline-flex; align-items: center; gap: 7px; }
+  .sw { width: 22px; height: 14px; border-radius: 3px; border: 1.5px solid; display: inline-block; flex: none; }
+  .sw.input { background: var(--in-bg); border-color: var(--accent); }
+  .sw.file { background: var(--panel); border-color: var(--line); border-radius: 0 6px 0 0; }
+  .sw.ctx { background: var(--wash); border-color: var(--faint); }
+  .sw.step { background: var(--panel); border-color: var(--line); border-radius: 7px; }
+  .sw.llm { background: var(--llm); border-color: var(--llm); }
+  .sw.dec { background: var(--dec-bg); border-color: var(--hot); transform: rotate(45deg) scale(.7); width: 16px; height: 16px; }
+  .sw.out { background: var(--ok-bg); border-color: var(--ok); }
+  .sw.loop { border: 0; border-top: 2.5px dashed var(--hot); height: 0; border-radius: 0; }
+
+  /* detail */
+  .detail { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 16px; }
+  @media (max-width: 860px) { .detail { grid-template-columns: 1fr; } }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+  .eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+  .card p { margin: 0; max-width: 72ch; }
+  .card ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; max-width: 76ch; }
+  .card li b { font-weight: 600; }
+  .kv { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 14px; margin: 0; font-size: 13px; }
+  .kv dt { font-family: var(--font-mono); font-size: 11.5px; color: var(--faint); padding-top: 1px; }
+  .kv dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+  .chip { display: inline-flex; align-items: center; font-family: var(--font-mono); font-size: 11px; font-weight: 500; padding: 1px 6px; border-radius: 4px; border: 1px solid currentColor; white-space: nowrap; margin: 0 4px 4px 0; }
+  .chip.R { color: var(--R); } .chip.G { color: var(--G); } .chip.T { color: var(--T); } .chip.H { color: var(--H); } .chip.C { color: var(--C); }
+  .chip.off { color: var(--faint); border-style: dashed; text-decoration: line-through; }
+  .stage + .stage { border-top: 1px dashed var(--border); padding-top: 8px; margin-top: 8px; }
+  .stage .sn { font-family: var(--font-mono); font-size: 11.5px; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+  .stage .sn span:last-child { font-variant-numeric: tabular-nums; }
+  .muted { color: var(--muted); }
+  .note { font-size: 12.5px; color: var(--muted); }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 6px; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { .n, .e, .n .shape { transition: none; } }
+</style>
+
+</head><body>
+<style>
+:root{--bm-bg:#ffffff;--bm-fg:#151a24;--bm-muted:#5a6274;--bm-line:#d9dde5;--bm-hover:#eef1f6;--bm-accent:#1f4fd1;--bm-shadow:rgba(20,26,36,.16)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bm-bg:#171c25;--bm-fg:#e8ebf1;--bm-muted:#a9b1c2;--bm-line:#2a3140;--bm-hover:#1f2633;--bm-accent:#7aa2ff;--bm-shadow:rgba(0,0,0,.5)}}
+:root[data-theme="dark"]{--bm-bg:#171c25;--bm-fg:#e8ebf1;--bm-muted:#a9b1c2;--bm-line:#2a3140;--bm-hover:#1f2633;--bm-accent:#7aa2ff;--bm-shadow:rgba(0,0,0,.5)}
+.bm-bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:100;display:flex;align-items:center;gap:12px;height:54px;box-sizing:border-box;background:var(--bm-bg);border-bottom:1px solid var(--bm-line);padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px));font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.bm-btn{flex:none;width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--bm-line);border-radius:8px;background:transparent;color:var(--bm-fg);cursor:pointer;padding:0}
+.bm-btn:hover{background:var(--bm-hover)}
+.bm-btn:focus-visible,.bm-nav a:focus-visible{outline:2px solid var(--bm-accent);outline-offset:2px}
+.bm-btn svg{width:20px;height:20px}
+.bm-btn .x{display:none}.bm-btn[aria-expanded="true"] .x{display:block}.bm-btn[aria-expanded="true"] .b{display:none}
+.bm-txt{min-width:0;display:flex;flex-direction:column;line-height:1.2}
+.bm-site{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--bm-muted)}
+.bm-title{font-size:14px;font-weight:600;color:var(--bm-fg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bm-nav{position:absolute;top:58px;left:max(12px,env(safe-area-inset-left,0px));width:min(340px,calc(100vw - 24px));box-sizing:border-box;background:var(--bm-bg);border:1px solid var(--bm-line);border-radius:10px;box-shadow:0 14px 36px var(--bm-shadow);padding:6px;display:flex;flex-direction:column;gap:2px}
+.bm-nav[hidden]{display:none!important}
+.bm-nav a{display:block;padding:10px 12px;border-radius:7px;color:var(--bm-fg);text-decoration:none;font-size:14px;font-weight:600}
+.bm-nav a small{display:block;color:var(--bm-muted);font-size:12px;font-weight:400;margin-top:2px}
+.bm-nav a:hover{background:var(--bm-hover)}
+.bm-nav a[aria-current="page"]{background:var(--bm-hover);box-shadow:inset 3px 0 0 var(--bm-accent)}
+</style>
+<header class="bm-bar">
+  <button class="bm-btn" id="bm-btn" type="button" aria-expanded="false" aria-controls="bm-nav" aria-label="Open menu">
+    <svg class="b" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    <svg class="x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <div class="bm-txt"><span class="bm-site">Tender evidence pack</span><span class="bm-title">Evidence Pack Walkthrough</span></div>
+  <nav class="bm-nav" id="bm-nav" aria-label="Pages" hidden><a href="index.html">Evidence Pack Flow<small>Pipeline, per-field evidence, explorer and prompts</small></a><a href="walkthrough.html" aria-current="page">Evidence Pack Walkthrough<small>Interactive step-by-step diagram</small></a></nav>
+</header>
+<script>
+(function(){var b=document.getElementById("bm-btn"),n=document.getElementById("bm-nav");
+function set(o){n.hidden=!o;b.setAttribute("aria-expanded",o);b.setAttribute("aria-label",o?"Close menu":"Open menu");}
+b.addEventListener("click",function(e){e.stopPropagation();set(n.hidden);});
+document.addEventListener("click",function(e){if(!n.hidden&&!n.contains(e.target))set(false);});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!n.hidden){set(false);b.focus();}});})();
+</script>
+<main>
+  <header>
+    <h1>Evidence Pack Walkthrough</h1>
+    <p class="lede">How one SEC tender-offer filing becomes 14 frozen evidence cells and then 14 qwen3-finance calls on the Orin. The top half builds the pack once with no model calls. The bottom half replays it one field at a time. Step through with the buttons or the ← → keys, click any block to jump to it, and pick a field to see its own route.</p>
+  </header>
+
+  <div class="bar">
+    <button class="btn" id="prev" type="button">← Back</button>
+    <button class="btn" id="next" type="button">Next →</button>
+    <span class="count" id="count"></span>
+    <span class="spacer"></span>
+    <label for="field">Field
+      <select id="field"></select>
+    </label>
+    <div class="legend" aria-label="Evidence legs">
+      <span class="chip R">R rules</span><span class="chip G">G GLiNER</span><span class="chip T">T temporal</span><span class="chip H">H hybrid</span><span class="chip C">C clause</span>
+    </div>
+  </div>
+
+  <ol class="steps" id="steps"></ol>
+
+  <div class="scroll">
+    <svg id="dia" class="diagram" viewBox="0 0 1240 816" role="group" aria-label="Evidence pack flow. Build half: request, preprocess store, EventContext, route_fields, evidence legs, frozen evidence.jsonl. Replay half: init, retrieve, prompt, qwen3-finance, next-stage loop, normalize, validate, finish and score."></svg>
+  </div>
+
+  <div class="key" aria-label="Block types">
+    <span><i class="sw input"></i>Input</span>
+    <span><i class="sw file"></i>File on disk</span>
+    <span><i class="sw ctx"></i>In-memory data</span>
+    <span><i class="sw step"></i>Code step</span>
+    <span><i class="sw llm"></i>Qwen call</span>
+    <span><i class="sw dec"></i>Decision</span>
+    <span><i class="sw out"></i>Scoring</span>
+    <span><i class="sw loop"></i>Retry or drop path</span>
+  </div>
+
+  <div class="detail">
+    <section class="card" id="stepcard" aria-live="polite"></section>
+    <section class="card" id="fieldcard"></section>
+  </div>
+</main>
+
+<script>
+(function () {
+  const P = 106, R2 = 164, R3 = 222, R4 = 280, R5 = 338, R6 = 396, H = 42;
+  const C1 = [36, 140], C2 = [226, 160], C3 = [436, 170], C4 = [656, 150], C5 = [856, 160], C6 = [1066, 140];
+  const box = (id, c, y, t, s, o = {}) => ({ id, x: c[0], w: c[1], y, h: o.h || H, t, s, ...o });
+
+  const NODES = [
+    box('fields', C1, P, '14 target fields', 'per filing', { k: 'input' }),
+    box('gt', C1, R2, 'GT row', 'accession · event_id', { k: 'input' }),
+    box('gold', C1, R4, 'Gold labels', 'scoring only', { k: 'gold' }),
+    box('rep', C2, R2, 'event_rep.json', 'regex candidate_facts', { leg: 'R', k: 'file' }),
+    box('spans', C2, R3, 'spans.json', 'tender GLiNER spans', { leg: 'G', k: 'file' }),
+    box('inv', C2, R4, 'inventory.json', 'hook extras', { k: 'file' }),
+    box('seg', C2, R5, 'segments.json', 'faq·priority·toc·doc', { k: 'file' }),
+    box('pass', C3, R2, 'rep · spans · extras', 'loaded as-is', { k: 'ctx' }),
+    box('exc', C3, R3, 'excerpts', '≤ 24k chars', { k: 'ctx' }),
+    box('temp', C3, R4, 'temporal_cache', 'BERT DATE spans', { leg: 'T', k: 'ctx' }),
+    box('doc', C3, R5, 'doc_text', '≤ 200k chars', { k: 'ctx' }),
+    box('chunks', C3, R6, 'hybrid chunks', '900 / 120 · BM25', { leg: 'H', k: 'ctx' }),
+    box('route', C4, P, 'route_fields', 'heuristic → FieldPolicy', { k: 'step' }),
+    box('bundle', C5, P, 'build_bundle', 'per field × stage', { k: 'step' }),
+    box('legR', C5, R2, 'RULES', 'field_hint allow-list', { leg: 'R', k: 'leg' }),
+    box('legG', C5, R3, 'GLINER SPANS', '≤ 25 lines + score', { leg: 'G', k: 'leg' }),
+    box('legT', C5, R4, 'TEMPORAL SPANS', 'date fields only', { leg: 'T', k: 'leg' }),
+    box('legC', C5, R5, 'EXCERPT', 'clause regex · copy', { leg: 'C', k: 'leg' }),
+    box('legH', C5, R6, 'HYBRID EXCERPTS', 'BM25 → RRF · top 4', { leg: 'H', k: 'leg' }),
+    box('stage', C6, R4, 'stage text', 'one block per stage', { k: 'ctx' }),
+    box('ev', C6, R5, 'evidence.jsonl', 'row × field record', { h: 100, s2: '+ manifest · routing', k: 'file' }),
+    { id: 'init', x: 36, y: 578, w: 110, h: 44, t: 'init', s: 'row × field', k: 'step' },
+    { id: 'retr', x: 186, y: 578, w: 120, h: 44, t: 'retrieve', s: 'frozen stage text', k: 'step' },
+    { id: 'prompt', x: 346, y: 578, w: 120, h: 44, t: 'prompt', s: 'select_prompt()', k: 'step' },
+    { id: 'llm', x: 506, y: 578, w: 150, h: 44, t: 'qwen3-finance', s: 'Ollama · Orin', k: 'llm' },
+    { id: 'adv', dia: true, cx: 760, cy: 600, hw: 70, hh: 44, lines: ['null and', 'next stage?'], k: 'dec' },
+    { id: 'norm', x: 880, y: 578, w: 120, h: 44, t: 'normalize', s: 'pack.normalize', k: 'step' },
+    { id: 'val', dia: true, cx: 1110, cy: 600, hw: 70, hh: 44, lines: ['validate', 'field?'], k: 'dec' },
+    { id: 'passc', x: 1050, y: 718, w: 120, h: 44, t: 'Pass C validate', s: 'keep: true | false', k: 'llm' },
+    { id: 'finish', x: 880, y: 718, w: 120, h: 44, t: 'finish', s: 'pred · pass_used', k: 'step' },
+    { id: 'score', x: 690, y: 718, w: 140, h: 44, t: 'score vs gold', s: 'per cell', k: 'out' },
+  ];
+
+  // each edge: id, list of polylines [points, arrow?], optional label [x, y, text, anchor], hot
+  const E = (id, lines, label, hot) => ({ id, lines, label, hot, leg: (id.match(/^e-to([RGTCH])$/) || [])[1] });
+  const EDGES = [
+    E('e-fields', [[[[176, 127], [654, 127]], 1]], [415, 119, '14 fields']),
+    E('e-policy', [[[[806, 127], [854, 127]], 1]], [830, 119, 'policy']),
+    E('e-load', [[[[176, 185], [200, 185], [200, 359]], 0], [[[200, 185], [224, 185]], 1], [[[200, 243], [224, 243]], 1], [[[200, 301], [224, 301]], 1], [[[200, 359], [224, 359]], 1]], [190, 238, 'by event_id', 'end']),
+    E('e-pass', [[[[386, 185], [434, 185]], 1], [[[386, 243], [411, 243], [411, 185]], 0], [[[386, 301], [411, 301], [411, 243]], 0]]),
+    E('e-segdoc', [[[[386, 359], [434, 359]], 1]]),
+    E('e-segexc', [[[[422, 359], [422, 250], [434, 250]], 1]]),
+    E('e-exctemp', [[[[521, 264], [521, 278]], 1]]),
+    E('e-docch', [[[[521, 380], [521, 394]], 1]]),
+    E('e-toR', [[[[606, 185], [854, 185]], 1]], [731, 179, 'candidate_facts', 'middle']),
+    E('e-toG', [[[[640, 185], [640, 243], [854, 243]], 1]], [750, 237, 'GLiNER spans', 'middle']),
+    E('e-toT', [[[[606, 301], [854, 301]], 1]], [731, 295, 'DATE spans + field_cues', 'middle']),
+    E('e-toC', [[[[606, 359], [854, 359]], 1]], [731, 353, 'regex over text', 'middle']),
+    E('e-toH', [[[[606, 417], [854, 417]], 1]], [731, 411, 'BM25 search', 'middle']),
+    E('e-sel', [[[[936, 148], [936, 162]], 1]]),
+    E('e-join', [[[[1016, 185], [1040, 185]], 0], [[[1016, 243], [1040, 243]], 0], [[[1016, 301], [1040, 301]], 0], [[[1016, 359], [1040, 359]], 0], [[[1016, 417], [1040, 417]], 0], [[[1040, 185], [1040, 417]], 0], [[[1040, 301], [1064, 301]], 1]]),
+    E('e-stageev', [[[[1136, 322], [1136, 336]], 1]]),
+    E('e-frozen', [[[[1136, 438], [1136, 478], [226, 478], [226, 576]], 1]], [700, 472, 'frozen stage text, replayed per field', 'middle']),
+    E('e-init', [[[[146, 600], [184, 600]], 1]]),
+    E('e-rp', [[[[306, 600], [344, 600]], 1]]),
+    E('e-pl', [[[[466, 600], [504, 600]], 1]]),
+    E('e-la', [[[[656, 600], [688, 600]], 1]]),
+    E('e-loop', [[[[760, 556], [760, 546], [246, 546], [246, 576]], 1]], [500, 540, 'yes: retrieve next stage', 'middle'], true),
+    E('e-an', [[[[830, 600], [878, 600]], 1]], [854, 592, 'no', 'middle']),
+    E('e-nv', [[[[1000, 600], [1038, 600]], 1]]),
+    E('e-vyes', [[[[1180, 600], [1206, 600], [1206, 740], [1172, 740]], 1]], [1193, 592, 'yes', 'middle']),
+    E('e-vno', [[[[1110, 644], [1110, 690], [940, 690], [940, 716]], 1]], [1120, 672, 'no', 'start']),
+    E('e-keep', [[[[1050, 740], [1002, 740]], 1]], [1026, 732, 'keep', 'middle']),
+    E('e-drop', [[[[1110, 762], [1110, 782], [940, 782], [940, 764]], 1]], [1025, 776, 'false → null', 'middle'], true),
+    E('e-fs', [[[[880, 740], [832, 740]], 1]], [856, 732, 'pred', 'middle']),
+  ];
+
+  const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+  function arrowHead(pts) {
+    const [x1, y1] = pts[pts.length - 2], [x2, y2] = pts[pts.length - 1];
+    const L = Math.hypot(x2 - x1, y2 - y1) || 1, dx = (x2 - x1) / L, dy = (y2 - y1) / L;
+    const bx = x2 - dx * 8, by = y2 - dy * 8;
+    return `<polygon points="${x2},${y2} ${bx - dy * 4.2},${by + dx * 4.2} ${bx + dy * 4.2},${by - dx * 4.2}"/>`;
+  }
+
+  function render() {
+    let s = '';
+    s += '<rect class="zone build" x="16" y="40" width="1208" height="416" rx="12"/>';
+    s += '<text class="zt" x="36" y="66">BUILD</text><text class="zs" x="96" y="66">scripts/build_evidence_pack.py · runs once per pack · no model calls</text>';
+    [['1', 'REQUEST', C1], ['2', 'PREPROCESS STORE', C2], ['3', 'EVENTCONTEXT', C3], ['4', 'ROUTE', C4], ['5', 'EVIDENCE LEGS', C5], ['6', 'FROZEN PACK', C6]]
+      .forEach(([n, t, c]) => {
+        s += `<circle class="chc" cx="${c[0] + 7}" cy="90" r="8"/><text class="ch chn" x="${c[0] + 7}" y="94" text-anchor="middle">${n}</text><text class="ch" x="${c[0] + 21}" y="94">${t}</text>`;
+      });
+    s += '<rect class="zone replay" x="16" y="500" width="1208" height="300" rx="12"/>';
+    s += '<text class="zt" x="36" y="526">REPLAY</text><text class="zs" x="106" y="526">eval_from_evidence_pack.py · one LangGraph run per field</text>';
+
+    EDGES.forEach(e => {
+      const style = e.leg ? ` style="color:var(--${e.leg})"` : '';
+      s += `<g class="e${e.hot ? ' hot' : ''}${e.leg ? ' leg' : ''}" data-e="${e.id}"${style}>`;
+      e.lines.forEach(([pts, arrow]) => {
+        s += `<polyline points="${pts.map(p => p.join(',')).join(' ')}"/>`;
+        if (arrow) s += arrowHead(pts);
+      });
+      if (e.label) {
+        const [x, y, t, a] = e.label;
+        s += `<text x="${x}" y="${y}" text-anchor="${a || 'middle'}">${esc(t)}</text>`;
+      }
+      s += '</g>';
+    });
+
+    NODES.forEach(n => {
+      const label = n.dia ? n.lines.join(' ') : `${n.t}: ${n.s}`;
+      s += `<g class="n k-${n.k}" data-n="${n.id}" tabindex="0" role="button" aria-label="${esc(label)}">`;
+      if (n.dia) {
+        const { cx, cy, hw, hh } = n;
+        s += `<path class="shape" d="M${cx} ${cy - hh} L${cx + hw} ${cy} L${cx} ${cy + hh} L${cx - hw} ${cy} Z"/>`;
+        s += `<text class="t" x="${cx}" y="${cy - 3}" style="font-size:12px">${esc(n.lines[0])}</text>`;
+        s += `<text class="t" x="${cx}" y="${cy + 13}" style="font-size:12px">${esc(n.lines[1])}</text>`;
+      } else {
+        const { x, y, w, h } = n, cx = x + w / 2;
+        if (n.k === 'file') {
+          s += `<path class="shape" d="M${x} ${y} H${x + w - 12} L${x + w} ${y + 12} V${y + h} H${x} Z"/>`;
+          s += `<path class="fold" d="M${x + w - 12} ${y} V${y + 12} H${x + w} Z"/>`;
+        } else if (n.k === 'leg') {
+          s += `<rect class="shape" x="${x}" y="${y}" width="${w}" height="${h}" rx="6" style="fill:var(--${n.leg}bg);stroke:var(--${n.leg})"/>`;
+        } else {
+          const rx = n.k === 'step' ? 12 : n.k === 'llm' ? 8 : 5;
+          s += `<rect class="shape" x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}"/>`;
+        }
+        if (n.leg && n.k !== 'leg') s += `<rect x="${x}" y="${y + 6}" width="5" height="${h - 12}" rx="2" style="fill:var(--${n.leg})"/>`;
+        const tStyle = n.k === 'leg' ? ` style="fill:var(--${n.leg})"` : '';
+        if (n.s2) {
+          s += `<text class="t" x="${cx}" y="${y + 40}">${esc(n.t)}</text>`;
+          s += `<text class="s" x="${cx}" y="${y + 58}">${esc(n.s)}</text>`;
+          s += `<text class="s" x="${cx}" y="${y + 74}">${esc(n.s2)}</text>`;
+        } else {
+          s += `<text class="t" x="${cx}" y="${y + h / 2 - 2}"${tStyle}>${esc(n.t)}</text>`;
+          s += `<text class="s" x="${cx}" y="${y + h / 2 + 13}">${esc(n.s)}</text>`;
+        }
+      }
+      s += '</g>';
+    });
+    document.getElementById('dia').innerHTML = s;
+  }
+
+  const LEGS = ['legR', 'legG', 'legT', 'legC', 'legH'];
+  const SRC_EDGES = ['e-toR', 'e-toG', 'e-toT', 'e-toC', 'e-toH'];
+
+  const STEPS = [
+    { t: 'Overview', n: null, e: null, body: `
+      <p>The pack is <code>tender_newgt100_oneshot_hybrid</code>: 100 filings × 14 fields = 1,400 frozen cells. The build half writes <code>evidence.jsonl</code> once, with no model calls. The replay half reads that file and runs one LangGraph per field, calling qwen3-finance on the Orin.</p>
+      <p class="note">The worked example is the Barings Private Credit Corporation issuer tender offer (SC TO-I/A, accession <code>0001859919-26-000002</code>). The two orange paths are the only places the flow goes back or drops a value.</p>` },
+    { t: 'Request', n: ['fields', 'gt', 'gold'], e: [], body: `
+      <dl class="kv">
+        <dt>input</dt><dd>One ground-truth row per filing: accession, event_id, filing type, issuer. Example: event <code>005-92837</code>, SC TO-I/A under Rule 13e-4.</dd>
+        <dt>fields</dt><dd>subject_company, bidder, security_description, cusip, isin, ticker, offer_price, currency, expiration_date, withdrawal_deadline, settlement_date, effective_date, minimum_tender_condition, proration_terms.</dd>
+        <dt>gold</dt><dd>Stored beside each cell for scoring only. It never enters evidence or prompts.</dd>
+      </dl>` },
+    { t: 'Preprocess store', n: ['gt', 'rep', 'spans', 'inv', 'seg'], e: ['e-load'], body: `
+      <p>Artifacts already on disk for each event, loaded by <code>event_id</code>.</p>
+      <dl class="kv">
+        <dt>segments.json</dt><dd>The filing split into sections tagged <code>faq</code>, <code>priority</code>, <code>toc</code>, <code>full_doc</code>.</dd>
+        <dt>event_rep.json</dt><dd><code>candidate_facts</code> from regex rules: CUSIP, ISIN, ticker, currency, settlement.</dd>
+        <dt>spans.json</dt><dd>Fine-tuned tender GLiNER spans, each with label, score and a context passage.</dd>
+        <dt>inventory.json</dt><dd>Pack hook extras. Empty for tender rows.</dd>
+      </dl>` },
+    { t: 'EventContext', n: ['rep', 'spans', 'inv', 'seg', 'pass', 'exc', 'temp', 'doc', 'chunks'], e: ['e-pass', 'e-segdoc', 'e-segexc', 'e-exctemp', 'e-docch'], body: `
+      <p><code>ArtifactProvider.prepare</code> builds this once per filing.</p>
+      <dl class="kv">
+        <dt>excerpts</dt><dd>Up to 24k chars. Priority and FAQ sections first, then TOC and full doc.</dd>
+        <dt>temporal_cache</dt><dd>A BERT temporal tagger (<code>satyaalmasian/…tokenclassifier</code>) runs over the excerpts and yields DATE spans, each with a <code>field_cues</code> score per date field. Cached on disk.</dd>
+        <dt>doc_text</dt><dd>All segments joined, up to 200k chars. Source for the clause regex and the hybrid chunks.</dd>
+        <dt>hybrid chunks</dt><dd>doc_text cut into 900-char windows with 120 overlap. Dense bge-large vectors are off in this pack, so search is BM25 only.</dd>
+        <dt>rep · spans · extras</dt><dd>Loaded as-is from the store.</dd>
+      </dl>` },
+    { t: 'Route each field', n: ['fields', 'route', 'bundle'], e: ['e-fields', 'e-policy'], body: `
+      <p><code>route_fields</code> is a heuristic router. It gives each field a shape and a set of legs, compiled into a <code>FieldPolicy</code> and saved in <code>routing.json</code>. Cascade is off.</p>
+      <dl class="kv">
+        <dt>oneshot</dt><dd>One stage with all routed legs. Most fields.</dd>
+        <dt>clause → pick</dt><dd>Copy a regex clause first. If that returns null, pick over the other legs. Used for security_description, minimum_tender_condition and proration_terms.</dd>
+        <dt>rules → span</dt><dd>A rules stage behind a precision gate, then a span stage. Used for settlement_date.</dd>
+      </dl>` },
+    { t: 'Evidence legs', n: ['pass', 'exc', 'temp', 'doc', 'chunks', 'bundle', ...LEGS], e: [...SRC_EDGES, 'e-sel'], body: `
+      <p><code>build_bundle</code> runs per field and stage, and only the legs the policy routes are filled.</p>
+      <dl class="kv">
+        <dt>RULES</dt><dd><code>candidate_facts</code> whose <code>field_hint</code> is on the field's allow-list, printed as <code>- hint= value= context=</code>. Ticker adds a live rescan.</dd>
+        <dt>GLINER SPANS</dt><dd>Allow-listed labels only, with junk role nouns dropped. At most 25 lines, each with <code>score=</code> and a 220-char context.</dd>
+        <dt>TEMPORAL SPANS</dt><dd>Date fields only: <code>date= field_cues= window=</code>. Routed for offer_price but gated off.</dd>
+        <dt>EXCERPT</dt><dd>Field-specific regex patterns over doc_text and excerpts. Used alone, in copy mode.</dd>
+        <dt>HYBRID EXCERPTS</dt><dd>The query is field name + definition + cue words, then BM25, then RRF, keeping the top 4 chunks and at most 2,200 chars. Scores are not shown to the model.</dd>
+      </dl>` },
+    { t: 'Freeze', n: [...LEGS, 'stage', 'ev'], e: ['e-join', 'e-stageev'], body: `
+      <p>The filled legs are joined into one text block per stage, under headers such as <code>GLINER SPANS:</code> and <code>HYBRID EXCERPTS:</code>.</p>
+      <dl class="kv">
+        <dt>evidence.jsonl</dt><dd>One record per (row, field): <code>stages[]</code> with text, sources, prompt_mode and on_empty, plus <code>rules_direct</code> and gold. About 6.5 MB for 1,400 cells.</dd>
+        <dt>also written</dt><dd><code>manifest.json</code> and <code>routing.json</code>.</dd>
+        <dt>why freeze</dt><dd>Retrieval, GLiNER and the temporal tagger run once. Every model is then scored on the same 1,400 cells, so differences come from the model alone.</dd>
+      </dl>` },
+    { t: 'Retrieve and prompt', n: ['ev', 'init', 'retr', 'prompt'], e: ['e-frozen', 'e-init', 'e-rp'], body: `
+      <p><code>init</code> loads the (row, field) record. <code>retrieve</code> returns the frozen text for the current stage, so nothing is searched live. <code>select_prompt()</code> builds the messages.</p>
+      <dl class="kv">
+        <dt>pick mode</dt><dd>System prompt: tender extractor that picks or copies a listed value, prefers hybrid wording over a conflicting GLiNER value and never invents IDs, dates or prices. The user message then has the task, DEFINITION, HOW TO CHOOSE, EXAMPLES (some fields only), the output contract <code>{"field": "…"}</code> or null, and EVIDENCE.</dd>
+        <dt>copy mode</dt><dd>Clause stages drop the wrapper and ask for the sentence copied verbatim from the EXCERPT, with numbers kept exactly.</dd>
+        <dt>empty</dt><dd>With <code>on_empty=ask</code> and no evidence, a short prompt says the pack is empty and asks for null.</dd>
+      </dl>` },
+    { t: 'Qwen call', n: ['prompt', 'llm'], e: ['e-pl'], body: `
+      <dl class="kv">
+        <dt>model</dt><dd><code>qwen3-finance</code> on Ollama on the Orin, using the native API.</dd>
+        <dt>settings</dt><dd>think off, temperature 0, <code>format=json</code>.</dd>
+        <dt>calls</dt><dd>One per stage. For the Barings row, evidence ranges from 50 chars (ticker) to 7,871 (date fields), plus about 1–2k chars of prompt wrapper.</dd>
+      </dl>` },
+    { t: 'Next stage on null', n: ['llm', 'adv', 'retr'], e: ['e-la', 'e-loop'], body: `
+      <p>If Qwen returns null and the policy has another stage, the graph goes back to <code>retrieve</code> with the next stage's frozen text. It stops at the first non-null answer.</p>
+      <dl class="kv">
+        <dt>applies to</dt><dd>security_description, minimum_tender_condition and proration_terms (clause → pick), and settlement_date (rules → span).</dd>
+        <dt>example</dt><dd>settlement_date: the rules direct value <code>4/1/2025</code> fails the precision gate because there is no payment cue, so the span stage runs with 20 DATE spans and 3 hybrid chunks.</dd>
+      </dl>` },
+    { t: 'Normalize and validate', n: ['adv', 'norm', 'val', 'passc', 'finish'], e: ['e-an', 'e-nv', 'e-vyes', 'e-vno', 'e-keep', 'e-drop'], body: `
+      <dl class="kv">
+        <dt>normalize</dt><dd><code>pack.normalize</code> cleans the value for its field.</dd>
+        <dt>Pass C</dt><dd>Runs for ticker, currency, expiration_date, withdrawal_deadline and effective_date when the prediction is not null. It is a second Qwen call with DEFINITION, CANDIDATE and the same EVIDENCE, returning <code>{"keep": true|false}</code>. If false, the prediction becomes null.</dd>
+        <dt>why</dt><dd>Every date field in this filing gets the same 20 DATE spans, including "1934" (the Exchange Act) and "2500" (a suite number), all with <code>field_cues=0</code>.</dd>
+      </dl>` },
+    { t: 'Finish and score', n: ['finish', 'score', 'gold'], e: ['e-fs'], body: `
+      <dl class="kv">
+        <dt>output</dt><dd>The prediction plus <code>pass_used</code>, for example <code>oneshot+C_keep</code>, <code>clause</code> or <code>B_null</code>.</dd>
+        <dt>scoring</dt><dd>Each cell is compared with the gold label from step 1.</dd>
+        <dt>probe</dt><dd>A two-stage, narrow-evidence-first rerun of the 78 wrong cells fixed 20, made none worse and took 305 s.</dd>
+      </dl>` },
+  ];
+
+  const LEGNAME = { R: 'RULES', G: 'GLINER', T: 'TEMPORAL', H: 'HYBRID', C: 'EXCERPT' };
+  const VALIDATE = new Set(['ticker', 'currency', 'expiration_date', 'withdrawal_deadline', 'effective_date']);
+  const F = (legs, stages, gold) => ({ legs, stages, gold });
+  const S = (n, blocks, chars) => ({ n, blocks, chars });
+  const FIELDS = {
+    subject_company: F('RGH', [S('oneshot · pick', ['G GLINER ×5', 'H HYBRID ×3', 'R- RULES ∅'], 3460)], 'Barings Private Credit Corporation'),
+    bidder: F('RGH', [S('oneshot · pick', ['G GLINER ×17', 'H HYBRID ×3', 'R- RULES ∅'], 5409)], 'Barings Private Credit Corporation'),
+    security_description: F('CRGH', [S('① clause · copy', ['C EXCERPT ×2'], 674), S('② oneshot · pick, if ① null', ['G GLINER ×5', 'H HYBRID ×3'], 3552)], 'Barings Private Credit Corporation common stock, par value $0.001 per share'),
+    cusip: F('R', [S('oneshot · pick', ['R RULES ×2'], 108)], '06763A101'),
+    isin: F('R', [S('oneshot · pick', ['R RULES ×2'], 118)], 'US06763A1016'),
+    ticker: F('R', [S('oneshot · pick · on_empty=ask', ['R- RULES ∅'], 50)], ''),
+    offer_price: F('RTH', [S('oneshot · pick', ['H HYBRID ×3', 'R- RULES ∅', 'T- TEMPORAL gated'], 2227)], 'Net asset value per Share as of December 31, 2025'),
+    currency: F('RGH', [S('oneshot · pick', ['R RULES ×3', 'G GLINER ×12', 'H HYBRID ×3'], 4262)], ''),
+    expiration_date: F('TH', [S('oneshot · pick', ['T TEMPORAL ×20', 'H HYBRID ×3'], 7871)], '12/31/2025 11:59 PM Eastern Time'),
+    withdrawal_deadline: F('TH', [S('oneshot · pick', ['T TEMPORAL ×20', 'H HYBRID ×3'], 7871)], ''),
+    settlement_date: F('RGTH', [S('① rules · direct value, precision gate', ['R RULES ×1'], 65), S('② span · pick, if ① null', ['T TEMPORAL ×20', 'H HYBRID ×3'], 7871)], ''),
+    effective_date: F('GTH', [S('oneshot · pick', ['T TEMPORAL ×20', 'H HYBRID ×3', 'G- GLINER ∅'], 7871)], ''),
+    minimum_tender_condition: F('CRGH', [S('① clause · copy', ['C EXCERPT ×3'], 1191), S('② oneshot · pick, if ① null', ['H HYBRID ×3'], 2227)], ''),
+    proration_terms: F('CRGH', [S('① clause · copy', ['C EXCERPT ×1'], 670), S('② oneshot · pick, if ① null', ['H HYBRID ×3'], 2227)], ''),
+  };
+
+  let step = 0, field = '';
+  const $ = id => document.getElementById(id);
+
+  function chip(b) {
+    const m = b.match(/^([RGTHC])(-?) (.*)$/);
+    return `<span class="chip ${m[1]}${m[2] ? ' off' : ''}">${esc(m[3])}</span>`;
+  }
+
+  function fieldCard() {
+    const el = $('fieldcard');
+    if (!field) {
+      el.innerHTML = `<span class="eyebrow">Field route</span><p class="muted">Pick a field above to see which legs it uses, what each stage holds for the Barings filing, and whether validate runs. Unused legs and paths fade in the diagram.</p>`;
+      return;
+    }
+    const f = FIELDS[field];
+    const v = VALIDATE.has(field);
+    const calls = f.stages.length > 1 ? `1, or 2 if stage ① is null` : '1';
+    el.innerHTML = `<span class="eyebrow">Field route · Barings row</span><h2><code>${field}</code></h2>
+      <div>${[...f.legs].map(l => `<span class="chip ${l}">${l} ${LEGNAME[l]}</span>`).join('')}</div>
+      <div>${f.stages.map(s => `<div class="stage"><div class="sn"><span>${esc(s.n)}</span><span>${s.chars.toLocaleString('en-US')} chars</span></div><div>${s.blocks.map(chip).join('')}</div></div>`).join('')}</div>
+      <dl class="kv"><dt>qwen calls</dt><dd>${calls}${v ? ', plus Pass C validate if the answer is not null' : ''}</dd>
+      <dt>validate</dt><dd>${v ? 'yes' : 'no'}</dd>
+      <dt>gold</dt><dd>${f.gold ? esc(f.gold) : '<span class="muted">blank</span>'}</dd></dl>`;
+  }
+
+  function apply() {
+    const svg = $('dia');
+    const st = STEPS[step];
+    svg.classList.toggle('focus', !!st.n);
+    svg.querySelectorAll('.n').forEach(g => g.classList.toggle('on', !!st.n && st.n.includes(g.dataset.n)));
+    svg.querySelectorAll('.e').forEach(g => g.classList.toggle('on', !!st.e && st.e.includes(g.dataset.e)));
+
+    const f = field && FIELDS[field];
+    const legOn = l => !f || f.legs.includes(l);
+    LEGS.forEach((id, i) => {
+      const l = id.slice(3);
+      svg.querySelector(`[data-n="${id}"]`).classList.toggle('unused', !legOn(l));
+      svg.querySelector(`[data-e="${SRC_EDGES[i]}"]`).classList.toggle('unused', !legOn(l));
+    });
+    const multi = !f || f.stages.length > 1;
+    svg.querySelector('[data-e="e-loop"]').classList.toggle('unused', !multi);
+    const v = !f || VALIDATE.has(field);
+    ['e-vyes', 'e-keep', 'e-drop'].forEach(id => svg.querySelector(`[data-e="${id}"]`).classList.toggle('unused', !v));
+    svg.querySelector('[data-n="passc"]').classList.toggle('unused', !v);
+
+    $('stepcard').innerHTML = `<span class="eyebrow">${step === 0 ? 'Start here' : `Step ${step} of ${STEPS.length - 1}`}</span><h2>${st.t}</h2>${st.body}`;
+    $('count').textContent = step === 0 ? `Overview · ${STEPS.length - 1} steps` : `Step ${step} / ${STEPS.length - 1}`;
+    $('prev').disabled = step === 0;
+    $('next').disabled = step === STEPS.length - 1;
+    $('steps').querySelectorAll('button').forEach((b, i) => { if (i === step) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
+    fieldCard();
+  }
+
+  function go(i) { step = Math.max(0, Math.min(STEPS.length - 1, i)); apply(); }
+
+  render();
+  $('steps').innerHTML = STEPS.map((s, i) => `<li><button type="button" data-i="${i}">${i ? `<span class="n">${i}</span>` : ''}${s.t}</button></li>`).join('');
+  $('steps').addEventListener('click', e => { const b = e.target.closest('button'); if (b) go(+b.dataset.i); });
+  $('prev').addEventListener('click', () => go(step - 1));
+  $('next').addEventListener('click', () => go(step + 1));
+  $('field').innerHTML = '<option value="">All fields</option>' + Object.keys(FIELDS).map(k => `<option value="${k}">${k}</option>`).join('');
+  $('field').addEventListener('change', e => { field = e.target.value; apply(); });
+
+  const jump = id => { const i = STEPS.findIndex((s, k) => k > 0 && s.n && s.n.includes(id)); if (i > 0) go(i); };
+  $('dia').addEventListener('click', e => { const g = e.target.closest('.n'); if (g) jump(g.dataset.n); });
+  $('dia').addEventListener('keydown', e => { const g = e.target.closest('.n'); if (g && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); jump(g.dataset.n); } });
+  document.addEventListener('keydown', e => {
+    if (e.target.closest('select, input, textarea')) return;
+    if (e.key === 'ArrowRight') go(step + 1);
+    if (e.key === 'ArrowLeft') go(step - 1);
+  });
+  apply();
+})();
+</script>
+
+</body></html>
