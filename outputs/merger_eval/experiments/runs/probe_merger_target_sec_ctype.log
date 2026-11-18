@@ -1,0 +1,44 @@
+jobs: 50 {'security_description': 16, 'consideration_type': 17, 'target': 17}
+probe:   0%|          | 0/50 [00:00<?, ?call/s]probe:   2%|▏         | 1/50 [00:19<15:31, 19.01s/call]probe:   4%|▍         | 2/50 [00:21<07:23,  9.25s/call]probe:   6%|▌         | 3/50 [00:23<04:47,  6.12s/call]probe:   8%|▊         | 4/50 [00:27<03:57,  5.16s/call]probe:  10%|█         | 5/50 [00:29<02:53,  3.85s/call]probe:  12%|█▏        | 6/50 [00:30<02:08,  2.92s/call]probe:  14%|█▍        | 7/50 [00:34<02:27,  3.43s/call]probe:  16%|█▌        | 8/50 [00:36<01:59,  2.84s/call]probe:  18%|█▊        | 9/50 [00:37<01:39,  2.43s/call]probe:  20%|██        | 10/50 [00:38<01:18,  1.96s/call]probe:  22%|██▏       | 11/50 [00:39<00:58,  1.50s/call]probe:  24%|██▍       | 12/50 [00:39<00:44,  1.18s/call]probe:  26%|██▌       | 13/50 [00:43<01:10,  1.89s/call]probe:  28%|██▊       | 14/50 [00:44<01:06,  1.84s/call]probe:  30%|███       | 15/50 [00:48<01:27,  2.49s/call]probe:  32%|███▏      | 16/50 [00:49<01:08,  2.01s/call]probe:  34%|███▍      | 17/50 [00:52<01:12,  2.20s/call]probe:  36%|███▌      | 18/50 [00:53<01:04,  2.02s/call]probe:  38%|███▊      | 19/50 [00:55<00:56,  1.82s/call]probe:  40%|████      | 20/50 [01:01<01:30,  3.00s/call]probe:  42%|████▏     | 21/50 [01:04<01:34,  3.27s/call]probe:  44%|████▍     | 22/50 [01:07<01:26,  3.08s/call]probe:  46%|████▌     | 23/50 [01:09<01:14,  2.77s/call]probe:  48%|████▊     | 24/50 [01:13<01:18,  3.01s/call]probe:  50%|█████     | 25/50 [01:16<01:13,  2.95s/call]probe:  52%|█████▏    | 26/50 [01:19<01:17,  3.25s/call]probe:  54%|█████▍    | 27/50 [01:20<00:59,  2.58s/call]probe:  56%|█████▌    | 28/50 [01:25<01:07,  3.06s/call]probe:  58%|█████▊    | 29/50 [01:26<00:53,  2.54s/call]probe:  60%|██████    | 30/50 [01:30<01:00,  3.01s/call]probe:  62%|██████▏   | 31/50 [01:34<01:04,  3.41s/call]probe:  64%|██████▍   | 32/50 [01:37<00:56,  3.12s/call]probe:  66%|██████▌   | 33/50 [01:40<00:55,  3.25s/call]probe:  68%|██████▊   | 34/50 [01:45<00:56,  3.55s/call]probe:  70%|███████   | 35/50 [01:46<00:41,  2.76s/call]probe:  72%|███████▏  | 36/50 [01:51<00:50,  3.61s/call]probe:  74%|███████▍  | 37/50 [01:56<00:50,  3.87s/call]probe:  76%|███████▌  | 38/50 [02:01<00:52,  4.37s/call]probe:  78%|███████▊  | 39/50 [02:05<00:45,  4.15s/call]probe:  80%|████████  | 40/50 [02:06<00:33,  3.30s/call]probe:  82%|████████▏ | 41/50 [02:07<00:23,  2.66s/call]probe:  84%|████████▍ | 42/50 [02:08<00:15,  1.98s/call]probe:  86%|████████▌ | 43/50 [02:12<00:18,  2.62s/call]probe:  88%|████████▊ | 44/50 [02:14<00:14,  2.39s/call]probe:  90%|█████████ | 45/50 [02:18<00:15,  3.08s/call]probe:  92%|█████████▏| 46/50 [02:19<00:09,  2.41s/call]probe:  94%|█████████▍| 47/50 [02:23<00:08,  2.81s/call]probe:  96%|█████████▌| 48/50 [02:25<00:04,  2.44s/call]probe:  98%|█████████▊| 49/50 [02:26<00:02,  2.06s/call]probe: 100%|██████████| 50/50 [02:26<00:00,  1.54s/call]probe: 100%|██████████| 50/50 [02:26<00:00,  2.93s/call]
+{
+  "n_jobs": 50,
+  "delta": {
+    "still_ok": 20,
+    "worse": 8,
+    "still_bad": 19,
+    "improved": 3
+  },
+  "by_field": {
+    "target": {
+      "still_ok": 8,
+      "still_bad": 7,
+      "improved": 2
+    },
+    "security_description": {
+      "still_ok": 6,
+      "still_bad": 9,
+      "worse": 1
+    },
+    "consideration_type": {
+      "still_ok": 6,
+      "worse": 7,
+      "still_bad": 3,
+      "improved": 1
+    }
+  }
+}
+
+improved:
+  target                 ei=40   mismatch→tp  pred='Smart Kreate Group Limited'  gold='Smart Kreate Group Limited'
+  target                 ei=41   mismatch→tp  pred='Smart Kreate Group Limited'  gold='Smart Kreate Group Limited'
+  consideration_type     ei=126  fn→tp  pred='Stock'  gold='Stock'
+
+worse:
+  consideration_type     ei=15   tp→mismatch  pred='Stock'  gold='Cash'
+  consideration_type     ei=40   tp→fn  pred=''  gold='Stock'
+  consideration_type     ei=56   tp→fn  pred=''  gold='Stock'
+  security_description   ei=57   tp→mismatch  pred='JFB Class A common stock'  gold='Class B common stock'
+  consideration_type     ei=73   tp→fn  pred=''  gold='Cash'
+  consideration_type     ei=117  tp→fn  pred=''  gold='Cash'
+  consideration_type     ei=125  tp→fn  pred=''  gold='Stock'
+  consideration_type     ei=172  tp→fn  pred=''  gold='Cash'

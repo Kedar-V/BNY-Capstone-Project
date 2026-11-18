@@ -1,0 +1,48 @@
+{
+  "ladder": {
+    "Frozen oneshot": 0.5208,
+    "+ C_drop replay": 0.5392,
+    "+ keep soft-match": 0.5809,
+    "+ date FP abstain": 0.609,
+    "+ prompt / few-shot": 0.6855,
+    "+ packfix ticker/ratio": 0.6926,
+    "+ target prompt": 0.7067,
+    "+ cross-field rules": 0.7361
+  },
+  "micro": {
+    "tp": 106,
+    "fp": 23,
+    "fn": 53,
+    "p": 0.8217054263565892,
+    "r": 0.6666666666666666,
+    "f1": 0.7361111111111112
+  },
+  "per_field_before": {
+    "acquirer": 0.8276,
+    "shareholder_vote_date": 0.8,
+    "ticker": 0.5,
+    "election_deadline": 0.0,
+    "effective_date": 1.0,
+    "security_description": 0.5,
+    "stock_exchange_ratio": 0.4167,
+    "consideration_type": 0.8125,
+    "cash_consideration": 0.7879,
+    "target": 0.5517,
+    "cusip": 1.0,
+    "isin": 1.0
+  },
+  "per_field_now": {
+    "acquirer": 0.8276,
+    "shareholder_vote_date": 0.9091,
+    "ticker": 0.5,
+    "election_deadline": 0.0,
+    "effective_date": 1.0,
+    "security_description": 0.5,
+    "stock_exchange_ratio": 0.4167,
+    "consideration_type": 0.8824,
+    "cash_consideration": 0.8485,
+    "target": 0.6897,
+    "cusip": 1.0,
+    "isin": 1.0
+  }
+}

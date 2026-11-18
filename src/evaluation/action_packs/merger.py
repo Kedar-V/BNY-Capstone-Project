@@ -124,12 +124,19 @@ FIELD_PICK: dict[str, str] = {
         "selling stockholder Redwood Capital vs Maple Beverage Co. (buyer) → Maple Beverage Co."
     ),
     "target": (
-        "Prefer primary_entity / filing company being acquired (full legal name). "
-        "Not the purchaser/parent buyer, merger sub, Holdco alone, bare 'Company', "
-        "counsel, or agents. "
+        "Return the full legal name of the company whose holders give up their shares. "
+        "primary_entity is a candidate, not the answer: in a reverse merger the filer "
+        "issues its own shares to another company's holders, so that other company is "
+        "the target. "
+        "Not the purchaser/parent buyer, merger sub, Holdco / intermediate LLC, bare "
+        "'Company', counsel, or agents — if the first name you consider is one of these, "
+        "pick the next listed company that fits instead of returning it. "
         "Conflict examples (return the second name): "
         "Company vs Aurora Acquisition Corp. (primary_entity) → Aurora Acquisition Corp.; "
-        "LeafCo (brand) vs Greenfield Organics Corp. (legal) → Greenfield Organics Corp."
+        "Ridgeback Bio (filer issuing shares) vs Kestrel Therapeutics Inc. → "
+        "Kestrel Therapeutics Inc.; "
+        "Argon Holdco, LLC (buyer intermediate) vs Bluewater Resorts, Inc. → "
+        "Bluewater Resorts, Inc."
     ),
     "stock_exchange_ratio": (
         "Copy an explicit X-for-Y / shares-per-share / exchange-ratio sentence from EVIDENCE "
@@ -291,6 +298,49 @@ def _merger_normalize(field: str, value: str) -> str:
     return v
 
 
+# One value per filing for these; target/security/ticker/ratio can differ per event.
+DEAL_LEVEL_FIELDS = frozenset(
+    {"acquirer", "consideration_type", "cash_consideration", "shareholder_vote_date", "effective_date"}
+)
+
+
+def apply_cross_field_rules(
+    preds: Mapping[tuple[int, str], str], accession_of: Mapping[int, str]
+) -> dict[tuple[int, str], str]:
+    """Post-pass over per-cell preds (no gold): sibling fill, then Stock ⇒ no cash."""
+    out = dict(preds)
+    by_acc: dict[tuple[str, str], list[int]] = {}
+    for ei, field in out:
+        acc = accession_of.get(ei)
+        if acc:
+            by_acc.setdefault((acc, field), []).append(ei)
+
+    def unanimous(acc: str, field: str) -> str:
+        vals = {(out.get((e, field)) or "").strip() for e in by_acc.get((acc, field), [])}
+        vals.discard("")
+        return vals.pop() if len(vals) == 1 else ""
+
+    for (acc, field), eis in by_acc.items():
+        if field not in DEAL_LEVEL_FIELDS or len(eis) < 2:
+            continue
+        fill = unanimous(acc, field)
+        if not fill:
+            continue
+        for ei in eis:
+            if not (out.get((ei, field)) or "").strip():
+                out[(ei, field)] = fill
+
+    for ei, field in list(out):
+        if field != "cash_consideration":
+            continue
+        ctype = (out.get((ei, "consideration_type")) or "").strip()
+        if not ctype and accession_of.get(ei):
+            ctype = unanimous(accession_of[ei], "consideration_type")
+        if ctype.lower() == "stock":
+            out[(ei, field)] = "No cash consideration"
+    return out
+
+
 def _extras_from_inventory(inv: Mapping[str, Any]) -> dict[str, str]:
     primary_entity = ""
     forms: list[str] = []
@@ -443,6 +493,32 @@ FIELD_SHOTS: dict[str, tuple[FieldShot, ...]] = {
             ),
             answer="Greenfield Organics Corp.",
             note="legal subject name over short brand",
+        ),
+        FieldShot(
+            evidence=(
+                "RULES:\n"
+                "- hint=primary_entity method=inventory value='Ridgeback Bio, Inc.'\n"
+                "GLiNER SPANS:\n"
+                "- hint=offeror value='Ridgeback Bio, Inc.'\n"
+                "- hint=offeror value='Kestrel'\n"
+                "HYBRID EXCERPTS:\n"
+                "- Ridgeback will issue shares of Ridgeback common stock to Kestrel "
+                "Therapeutics Inc. ('Kestrel') stockholders in the merger."
+            ),
+            answer="Kestrel Therapeutics Inc.",
+            note="reverse merger: filer issues shares, so the other company is the target",
+        ),
+        FieldShot(
+            evidence=(
+                "GLiNER SPANS:\n"
+                "- hint=offeror value='Argon Holdco, LLC'\n"
+                "- hint=offeror value='Bluewater Resorts, Inc.'\n"
+                "HYBRID EXCERPTS:\n"
+                "- Merger agreement by and among Bluewater Resorts, Inc., Argon Holdco, LLC "
+                "and Argon Merger Sub LLC; Bluewater shares will no longer be outstanding."
+            ),
+            answer="Bluewater Resorts, Inc.",
+            note="company whose shares are cancelled, not the buyer's holdco",
         ),
     ),
     "ticker": (

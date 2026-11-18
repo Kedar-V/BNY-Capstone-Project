@@ -332,6 +332,64 @@ def test_synthetic_merger_duplicate_accessions(synthetic):
     assert [r["accession"] for r in ckpt] == [acc] * len(ckpt)
 
 
+def test_merger_cross_field_post_pass_rewrites_scored_preds(synthetic, monkeypatch):
+    mod, _, use_rows, out = synthetic
+    use_rows(MERGER_ROWS)
+    # both rows share one accession (deal); row 1 left blanks for the post-pass to fill
+    raw = {
+        (0, "acquirer"): "Parent Co", (1, "acquirer"): None,
+        (0, "consideration_type"): "Stock", (1, "consideration_type"): None,
+        (0, "cash_consideration"): "$5.00", (1, "cash_consideration"): None,
+    }
+
+    def fake_run_field(_graph, req):
+        ei = int(req.accession.rsplit("#", 1)[1])
+        return mod.FieldExtractResult(
+            pred=raw[(ei, req.field)], pass_used="B", n_evidence_chars=0, n_rules=0, raw_llm=""
+        )
+
+    monkeypatch.setattr(mod, "run_field", fake_run_field)
+    fields = "acquirer,consideration_type,cash_consideration"
+
+    assert mod.main(_synthetic_argv(out, "merger", "post_off", "--fields", fields, "--no-post-pass")) == 0
+    _, raw_details, raw_ckpt, _ = _read(out, "post_off")
+    assert raw_details[1]["fields"]["acquirer"]["pred"] is None
+    assert not (_run_dir(out, "post_off") / "post_pass.json").exists()
+
+    assert mod.main(_synthetic_argv(out, "merger", "post_on", "--fields", fields)) == 0
+    summary, details, ckpt, pf = _read(out, "post_on")
+    _assert_shape(summary, details, ckpt, pf, n_rows=2)
+    got = {(ei, f): d["fields"][f]["pred"] for ei, d in enumerate(details) for f in d["fields"]}
+    assert got == {
+        (0, "acquirer"): "Parent Co", (1, "acquirer"): "Parent Co",
+        (0, "consideration_type"): "Stock", (1, "consideration_type"): "Stock",
+        (0, "cash_consideration"): "No cash consideration",
+        (1, "cash_consideration"): "No cash consideration",
+    }
+    # scoring sees the rewritten pred: row 1 acquirer was blank (fn), now a mismatch
+    assert raw_details[1]["fields"]["acquirer"]["outcome"] == "fn"
+    assert details[1]["fields"]["acquirer"]["outcome"] == "mismatch"
+    # checkpoint keeps the raw model output so resume re-applies the post-pass
+    assert {(r["ei"], r["field"]): r["result"]["pred"] for r in ckpt} == {
+        (r["ei"], r["field"]): r["result"]["pred"] for r in raw_ckpt
+    }
+    log = json.loads((_run_dir(out, "post_on") / "post_pass.json").read_text(encoding="utf-8"))
+    assert log["post_pass"] == "apply_cross_field_rules"
+    assert {(c["ei"], c["field"]) for c in log["changes"]} == {
+        (1, "acquirer"), (1, "consideration_type"), (0, "cash_consideration"), (1, "cash_consideration")
+    }
+
+    # full resume: same scored output
+    assert mod.main(_synthetic_argv(out, "merger", "post_on", "--fields", fields)) == 0
+    assert _read(out, "post_on")[1] == details
+
+
+def test_tender_has_no_post_pass(harness):
+    mod, _ = harness
+    assert mod.HARNESS_CONFIGS["tender"].post_pass is None
+    assert mod.HARNESS_CONFIGS["merger"].post_pass is not None
+
+
 def test_unknown_field_is_rejected(synthetic):
     mod, _, use_rows, out = synthetic
     use_rows(TENDER_ROWS)

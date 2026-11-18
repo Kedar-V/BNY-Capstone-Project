@@ -38,6 +38,7 @@ if str(ROOT) not in sys.path:
 
 from src.evaluation.action_packs import get_pack
 from src.evaluation.action_packs.base import ActionPack
+from src.evaluation.action_packs.merger import apply_cross_field_rules
 from src.evaluation.experiments import ensure_holdout
 from src.evaluation.extract.dtos import FieldExtractRequest, FieldExtractResult
 from src.evaluation.extract.graph import build_extract_graph, run_field
@@ -87,6 +88,8 @@ def read_accessions_file(path: Path) -> set[str]:
 EventIdFor = Callable[[dict], str | None]
 # (eval rows, --documents-parquet) -> GT row -> preprocess event id
 EventIdStrategy = Callable[[list[dict], Path], EventIdFor]
+# (preds by (ei, field), accession by ei) -> rewritten preds
+PostPass = Callable[[dict[tuple[int, str], str], dict[int, str]], dict[tuple[int, str], str]]
 # Org-name fields scored with the party-tolerant matcher (CORP vs Corporation, ...)
 PARTY_FIELDS = frozenset({"acquirer", "target", "security_description"})
 
@@ -136,6 +139,8 @@ class HarnessConfig(NamedTuple):
     out: str
     event_ids: EventIdStrategy = generic_event_ids
     party_fields: frozenset[str] = frozenset()
+    # Gold-free rewrite of all (ei, field) preds after extraction; checkpoints keep raw preds
+    post_pass: PostPass | None = None
 
 
 HARNESS_CONFIGS: dict[str, HarnessConfig] = {
@@ -150,6 +155,7 @@ HARNESS_CONFIGS: dict[str, HarnessConfig] = {
         out="outputs/merger_eval",
         event_ids=merger_event_ids,
         party_fields=PARTY_FIELDS,
+        post_pass=apply_cross_field_rules,
     ),
 }
 
@@ -339,6 +345,11 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--no-cascade", action="store_true", help="v1 one-shot mixed evidence")
     p.add_argument("--validate", action="store_true", default=True)
     p.add_argument("--no-validate", action="store_true")
+    p.add_argument(
+        "--no-post-pass",
+        action="store_true",
+        help="score raw per-cell preds, skipping the pack's cross-field post-pass",
+    )
     p.add_argument(
         "--concurrency",
         type=int,
@@ -621,6 +632,28 @@ def main(argv: list[str] | None = None) -> int:
             finally:
                 pbar.close()
     wall_s = time.perf_counter() - t0
+
+    # details/summary keep the snapshot shape; rewritten cells are listed in post_pass.json
+    post_pass = None if args.no_post_pass else cfg.post_pass
+    post_path = out_dir / "post_pass.json"
+    if post_pass is not None:
+        raw = {k: str(v.get("pred") or "") for k, v in results_by_job.items()}
+        rewritten = post_pass(raw, {ei: _acc(row) for ei, row in enumerate(rows)})
+        changes = []
+        for (ei, field), pred in sorted(rewritten.items()):
+            if (ei, field) in results_by_job and pred != raw[(ei, field)]:
+                results_by_job[(ei, field)] = {**results_by_job[(ei, field)], "pred": pred}
+                changes.append(
+                    {"ei": ei, "field": field, "accession": _acc(rows[ei]),
+                     "before": raw[(ei, field)], "after": pred}
+                )
+        post_path.write_text(
+            json.dumps({"post_pass": post_pass.__name__, "changes": changes}, indent=2),
+            encoding="utf-8",
+        )
+        print(f"post_pass {post_pass.__name__}: rewrote {len(changes)} cells", flush=True)
+    elif post_path.exists():
+        post_path.unlink()
 
     details: list[dict[str, Any]] = []
     for ei, row in enumerate(rows):

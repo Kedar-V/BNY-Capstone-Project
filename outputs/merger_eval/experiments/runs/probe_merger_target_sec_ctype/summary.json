@@ -1,0 +1,27 @@
+{
+  "n_jobs": 50,
+  "delta": {
+    "still_ok": 20,
+    "worse": 8,
+    "still_bad": 19,
+    "improved": 3
+  },
+  "by_field": {
+    "target": {
+      "still_ok": 8,
+      "still_bad": 7,
+      "improved": 2
+    },
+    "security_description": {
+      "still_ok": 6,
+      "still_bad": 9,
+      "worse": 1
+    },
+    "consideration_type": {
+      "still_ok": 6,
+      "worse": 7,
+      "still_bad": 3,
+      "improved": 1
+    }
+  }
+}

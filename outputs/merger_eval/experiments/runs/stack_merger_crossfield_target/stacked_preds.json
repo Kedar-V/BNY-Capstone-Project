@@ -1,0 +1,1202 @@
+[
+  {
+    "ei": 0,
+    "field": "acquirer",
+    "pred": "SPX Enterprises, LLC",
+    "gold": "SPX Enterprises, LLC"
+  },
+  {
+    "ei": 0,
+    "field": "shareholder_vote_date",
+    "pred": "February 3, 2026",
+    "gold": "2/3/2026 10:00 AM Eastern Time"
+  },
+  {
+    "ei": 0,
+    "field": "ticker",
+    "pred": "SPXC",
+    "gold": "CRAWA"
+  },
+  {
+    "ei": 1,
+    "field": "ticker",
+    "pred": "SNDA",
+    "gold": "CHTH"
+  },
+  {
+    "ei": 2,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 2,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 2,
+    "field": "security_description",
+    "pred": "Sealed Air common stock",
+    "gold": "common stock"
+  },
+  {
+    "ei": 3,
+    "field": "shareholder_vote_date",
+    "pred": "",
+    "gold": "3/3/2026"
+  },
+  {
+    "ei": 4,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "1 share of Pubco Class A Common Stock per share"
+  },
+  {
+    "ei": 6,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 8,
+    "field": "cash_consideration",
+    "pred": "No cash consideration",
+    "gold": "No cash consideration"
+  },
+  {
+    "ei": 8,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 9,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "Exchange Ratio = (Fully Diluted Parent Common Stock × Valuation Ratio) / Fully Diluted Company Common Stock shares of RYVYL common stock per share"
+  },
+  {
+    "ei": 11,
+    "field": "target",
+    "pred": "Hadron Energy",
+    "gold": "Hadron Energy, Inc."
+  },
+  {
+    "ei": 12,
+    "field": "cusip",
+    "pred": "381013101",
+    "gold": "381013101"
+  },
+  {
+    "ei": 12,
+    "field": "isin",
+    "pred": "US3810131017",
+    "gold": "US3810131017"
+  },
+  {
+    "ei": 13,
+    "field": "stock_exchange_ratio",
+    "pred": "0.1993 shares of BBBY’s common stock",
+    "gold": "0.1993 shares of Bed Bath & Beyond, Inc. common stock per share"
+  },
+  {
+    "ei": 14,
+    "field": "ticker",
+    "pred": "",
+    "gold": "BCAB"
+  },
+  {
+    "ei": 15,
+    "field": "consideration_type",
+    "pred": "Cash",
+    "gold": "Cash"
+  },
+  {
+    "ei": 16,
+    "field": "target",
+    "pred": "",
+    "gold": "Global Superfoods Corp."
+  },
+  {
+    "ei": 16,
+    "field": "ticker",
+    "pred": "LSF",
+    "gold": "LSF"
+  },
+  {
+    "ei": 17,
+    "field": "cusip",
+    "pred": "746962307",
+    "gold": "746962307"
+  },
+  {
+    "ei": 17,
+    "field": "effective_date",
+    "pred": "march 4, 2024",
+    "gold": "3/4/2024"
+  },
+  {
+    "ei": 17,
+    "field": "isin",
+    "pred": "US7469623075",
+    "gold": "US7469623075"
+  },
+  {
+    "ei": 17,
+    "field": "security_description",
+    "pred": "",
+    "gold": "common stock"
+  },
+  {
+    "ei": 17,
+    "field": "ticker",
+    "pred": "",
+    "gold": "QTI, QTIH, QTIWW"
+  },
+  {
+    "ei": 21,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 23,
+    "field": "cusip",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 23,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 23,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 23,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "Share Exchange Aggregate Consideration divided by Aggregate Company Shares in PubCo Class A and/or Class B ordinary shares per share"
+  },
+  {
+    "ei": 25,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 26,
+    "field": "cusip",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 26,
+    "field": "isin",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 28,
+    "field": "shareholder_vote_date",
+    "pred": "march 31, 2026",
+    "gold": "3/31/2026 2:00 PM Pacific Time"
+  },
+  {
+    "ei": 30,
+    "field": "shareholder_vote_date",
+    "pred": "march 25, 2026",
+    "gold": "3/25/2026 9:30 AM Eastern Time"
+  },
+  {
+    "ei": 30,
+    "field": "ticker",
+    "pred": "",
+    "gold": "ACQC"
+  },
+  {
+    "ei": 32,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 33,
+    "field": "shareholder_vote_date",
+    "pred": "March 3, 2026",
+    "gold": "3/27/2026 10:00 AM Eastern Time"
+  },
+  {
+    "ei": 34,
+    "field": "acquirer",
+    "pred": "",
+    "gold": "Odysseus Holdings Limited"
+  },
+  {
+    "ei": 34,
+    "field": "isin",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 35,
+    "field": "cusip",
+    "pred": "29882P106",
+    "gold": "29882P106"
+  },
+  {
+    "ei": 35,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 35,
+    "field": "isin",
+    "pred": "US29882P1066",
+    "gold": "US29882P1066"
+  },
+  {
+    "ei": 36,
+    "field": "cusip",
+    "pred": "29882P106",
+    "gold": "29882P106"
+  },
+  {
+    "ei": 36,
+    "field": "isin",
+    "pred": "US29882P1066",
+    "gold": "US29882P1066"
+  },
+  {
+    "ei": 36,
+    "field": "security_description",
+    "pred": "Class A Common Stock",
+    "gold": "Class B Common Stock"
+  },
+  {
+    "ei": 36,
+    "field": "stock_exchange_ratio",
+    "pred": "No stock consideration",
+    "gold": "No stock consideration"
+  },
+  {
+    "ei": 36,
+    "field": "target",
+    "pred": "European Wax Center, Inc.",
+    "gold": "European Wax Center, Inc."
+  },
+  {
+    "ei": 37,
+    "field": "cash_consideration",
+    "pred": "$5.80",
+    "gold": "$5.79999 per unit"
+  },
+  {
+    "ei": 37,
+    "field": "cusip",
+    "pred": "29882P106",
+    "gold": "29882P106"
+  },
+  {
+    "ei": 37,
+    "field": "isin",
+    "pred": "US29882P1066",
+    "gold": "US29882P1066"
+  },
+  {
+    "ei": 39,
+    "field": "target",
+    "pred": "",
+    "gold": "Quetta Acquisition Corporation"
+  },
+  {
+    "ei": 40,
+    "field": "acquirer",
+    "pred": "Smart Kreate Group Limited",
+    "gold": "SMART KREATE GROUP LIMITED"
+  },
+  {
+    "ei": 40,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 40,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 40,
+    "field": "target",
+    "pred": "Smart Kreate Group Limited",
+    "gold": "Smart Kreate Group Limited"
+  },
+  {
+    "ei": 41,
+    "field": "acquirer",
+    "pred": "Smart Kreate Group Limited",
+    "gold": "SMART KREATE GROUP LIMITED"
+  },
+  {
+    "ei": 41,
+    "field": "target",
+    "pred": "Smart Kreate Group Limited",
+    "gold": "Smart Kreate Group Limited"
+  },
+  {
+    "ei": 42,
+    "field": "acquirer",
+    "pred": "Royal Cup, Inc.",
+    "gold": "Royal Cup, Inc."
+  },
+  {
+    "ei": 42,
+    "field": "cash_consideration",
+    "pred": "$1.29 per share",
+    "gold": "$1.29 per share"
+  },
+  {
+    "ei": 45,
+    "field": "security_description",
+    "pred": "Allegiant common stock",
+    "gold": "common stock"
+  },
+  {
+    "ei": 46,
+    "field": "cash_consideration",
+    "pred": "$15.00",
+    "gold": "$15.00 per share"
+  },
+  {
+    "ei": 46,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 46,
+    "field": "isin",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 47,
+    "field": "cash_consideration",
+    "pred": "",
+    "gold": "No cash consideration"
+  },
+  {
+    "ei": 47,
+    "field": "isin",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 49,
+    "field": "target",
+    "pred": "HiTech Minerals Inc.",
+    "gold": "Constellation Acquisition Corp I"
+  },
+  {
+    "ei": 52,
+    "field": "cusip",
+    "pred": "81619Q105",
+    "gold": "81619Q105"
+  },
+  {
+    "ei": 52,
+    "field": "isin",
+    "pred": "US81619Q1058",
+    "gold": "US81619Q1058"
+  },
+  {
+    "ei": 52,
+    "field": "ticker",
+    "pred": "",
+    "gold": "SEM"
+  },
+  {
+    "ei": 55,
+    "field": "security_description",
+    "pred": "Common Stock",
+    "gold": "ordinary shares"
+  },
+  {
+    "ei": 56,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 57,
+    "field": "security_description",
+    "pred": "Common Stock",
+    "gold": "Class B common stock"
+  },
+  {
+    "ei": 58,
+    "field": "cusip",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 58,
+    "field": "shareholder_vote_date",
+    "pred": "february 13, 2026",
+    "gold": "2/13/2026"
+  },
+  {
+    "ei": 61,
+    "field": "ticker",
+    "pred": "BPAC",
+    "gold": "BPAC, BPACR, BPACU"
+  },
+  {
+    "ei": 65,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 65,
+    "field": "ticker",
+    "pred": "QSEAU",
+    "gold": "QSEA, QSEAR, QSEAU"
+  },
+  {
+    "ei": 69,
+    "field": "acquirer",
+    "pred": "SEEQC",
+    "gold": "SeeQC, Inc."
+  },
+  {
+    "ei": 69,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "1 share of SEEQC Common Stock per share"
+  },
+  {
+    "ei": 70,
+    "field": "security_description",
+    "pred": "",
+    "gold": "rights"
+  },
+  {
+    "ei": 71,
+    "field": "acquirer",
+    "pred": "SEEQC",
+    "gold": "SeeQC, Inc."
+  },
+  {
+    "ei": 71,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 71,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 71,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "0.1 share of SEEQC Common Stock per unit"
+  },
+  {
+    "ei": 72,
+    "field": "target",
+    "pred": "Global Business Travel Group, Inc.",
+    "gold": "Global Business Travel Group, Inc."
+  },
+  {
+    "ei": 73,
+    "field": "acquirer",
+    "pred": "",
+    "gold": "steute Industrial Controls, Inc."
+  },
+  {
+    "ei": 73,
+    "field": "cash_consideration",
+    "pred": "$7.75",
+    "gold": "$7.75 per share"
+  },
+  {
+    "ei": 73,
+    "field": "consideration_type",
+    "pred": "Cash",
+    "gold": "Cash"
+  },
+  {
+    "ei": 73,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 73,
+    "field": "security_description",
+    "pred": "Common Stock",
+    "gold": "common stock, par value $0.10 per share"
+  },
+  {
+    "ei": 74,
+    "field": "cash_consideration",
+    "pred": "No cash consideration",
+    "gold": "Pro rata portion of Titan's trust account per share"
+  },
+  {
+    "ei": 74,
+    "field": "cusip",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 74,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 74,
+    "field": "election_deadline",
+    "pred": "june 1, 2026",
+    "gold": "Deadline to tender shares for redemption in connection with the shareholder vote"
+  },
+  {
+    "ei": 75,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 79,
+    "field": "target",
+    "pred": "HiTech Minerals Inc.",
+    "gold": "HiTech Minerals Inc."
+  },
+  {
+    "ei": 81,
+    "field": "election_deadline",
+    "pred": "june 12, 2026",
+    "gold": "5:00 PM Mountain time, as near as practicable to three business days before closing"
+  },
+  {
+    "ei": 83,
+    "field": "acquirer",
+    "pred": "Silicon Valley Acquisition Corp.",
+    "gold": "Silicon Valley Acquisition Corp."
+  },
+  {
+    "ei": 85,
+    "field": "shareholder_vote_date",
+    "pred": "July 30, 2026",
+    "gold": "7/30/2026 10:00 AM Eastern Time"
+  },
+  {
+    "ei": 85,
+    "field": "stock_exchange_ratio",
+    "pred": "1.000 shares of common stock ... for New Corebridge Common Stock; 1.55516 shares of common stock ... for New Equitable Common Stock",
+    "gold": "1.55516 shares of New Equitable Common Stock per share"
+  },
+  {
+    "ei": 88,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 88,
+    "field": "security_description",
+    "pred": "Corebridge Common Stock",
+    "gold": "Series C Fixed Rate Noncumulative Perpetual Preferred Stock"
+  },
+  {
+    "ei": 89,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 89,
+    "field": "shareholder_vote_date",
+    "pred": "july 30, 2026",
+    "gold": "7/30/2026 10:00 AM Eastern Time"
+  },
+  {
+    "ei": 90,
+    "field": "shareholder_vote_date",
+    "pred": "july 30, 2026",
+    "gold": "7/30/2026 10:00 AM Eastern Time"
+  },
+  {
+    "ei": 91,
+    "field": "stock_exchange_ratio",
+    "pred": "1.55516 (the “Equitable Exchange Ratio”)",
+    "gold": "1 share of Series 2 New Equitable Preferred Stock per share"
+  },
+  {
+    "ei": 93,
+    "field": "stock_exchange_ratio",
+    "pred": "1.55516 shares of New Equitable Common Stock",
+    "gold": "1 share of Series 1-C New Equitable Preferred Stock per share"
+  },
+  {
+    "ei": 95,
+    "field": "isin",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 95,
+    "field": "shareholder_vote_date",
+    "pred": "july 28, 2026",
+    "gold": "7/28/2026 10:00 AM Eastern Time"
+  },
+  {
+    "ei": 95,
+    "field": "ticker",
+    "pred": "USAR",
+    "gold": "TMRC"
+  },
+  {
+    "ei": 97,
+    "field": "consideration_type",
+    "pred": "Cash",
+    "gold": "Stock"
+  },
+  {
+    "ei": 100,
+    "field": "cash_consideration",
+    "pred": "$13.80",
+    "gold": "$13.80 per share"
+  },
+  {
+    "ei": 100,
+    "field": "election_deadline",
+    "pred": "july 6, 2026",
+    "gold": "5:00 PM Mountain time, as near as practicable to three business days before closing"
+  },
+  {
+    "ei": 100,
+    "field": "security_description",
+    "pred": "REMAX Class A Common Stock",
+    "gold": "Class A common stock"
+  },
+  {
+    "ei": 100,
+    "field": "ticker",
+    "pred": "REAX",
+    "gold": "RMAX"
+  },
+  {
+    "ei": 101,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "RMCO Common Units held by RIHI divided by outstanding RIHI Common Stock shares, in shares of REMAX Class A Common Stock per share"
+  },
+  {
+    "ei": 102,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 103,
+    "field": "acquirer",
+    "pred": "Orion Merger Parent, Inc.",
+    "gold": "Orion Merger Parent, Inc."
+  },
+  {
+    "ei": 103,
+    "field": "cash_consideration",
+    "pred": "$29.00",
+    "gold": "$29.00 per share"
+  },
+  {
+    "ei": 104,
+    "field": "cash_consideration",
+    "pred": "$85.00",
+    "gold": "$85.00 per share"
+  },
+  {
+    "ei": 104,
+    "field": "cusip",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 104,
+    "field": "target",
+    "pred": "Crinetics Pharmaceuticals, Inc.",
+    "gold": "Crinetics Pharmaceuticals, Inc."
+  },
+  {
+    "ei": 104,
+    "field": "ticker",
+    "pred": "CRNX",
+    "gold": "CRNX"
+  },
+  {
+    "ei": 105,
+    "field": "election_deadline",
+    "pred": "2026-03-16",
+    "gold": "9:00 AM Toronto time on the date of the GNQ Shareholders Meeting"
+  },
+  {
+    "ei": 107,
+    "field": "cusip",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 108,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 108,
+    "field": "security_description",
+    "pred": "Parent Ordinary Shares",
+    "gold": "Class A common stock"
+  },
+  {
+    "ei": 109,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 109,
+    "field": "security_description",
+    "pred": "",
+    "gold": "Class B common stock"
+  },
+  {
+    "ei": 110,
+    "field": "cash_consideration",
+    "pred": "$73.00",
+    "gold": "$73.00 per share"
+  },
+  {
+    "ei": 110,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 111,
+    "field": "cash_consideration",
+    "pred": "$17.00",
+    "gold": "$17.00 per share"
+  },
+  {
+    "ei": 111,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 114,
+    "field": "acquirer",
+    "pred": "",
+    "gold": "Langham Project, LLC"
+  },
+  {
+    "ei": 114,
+    "field": "shareholder_vote_date",
+    "pred": "september 25, 2026",
+    "gold": "9/25/2026 1:00 PM Eastern Time"
+  },
+  {
+    "ei": 114,
+    "field": "stock_exchange_ratio",
+    "pred": "No stock consideration",
+    "gold": "No stock consideration"
+  },
+  {
+    "ei": 114,
+    "field": "ticker",
+    "pred": "LGMK",
+    "gold": "LGMK"
+  },
+  {
+    "ei": 115,
+    "field": "shareholder_vote_date",
+    "pred": "september 25, 2026",
+    "gold": "9/25/2026 1:00 PM Eastern Time"
+  },
+  {
+    "ei": 117,
+    "field": "consideration_type",
+    "pred": "Cash",
+    "gold": "Cash"
+  },
+  {
+    "ei": 117,
+    "field": "security_description",
+    "pred": "Company Common Stock",
+    "gold": "common stock"
+  },
+  {
+    "ei": 118,
+    "field": "cusip",
+    "pred": "71535D106",
+    "gold": "71535D106"
+  },
+  {
+    "ei": 118,
+    "field": "isin",
+    "pred": "US71535D1063",
+    "gold": "US71535D1063"
+  },
+  {
+    "ei": 119,
+    "field": "consideration_type",
+    "pred": "Cash",
+    "gold": "Stock"
+  },
+  {
+    "ei": 121,
+    "field": "cash_consideration",
+    "pred": "$11.25",
+    "gold": "$11.25 per share"
+  },
+  {
+    "ei": 121,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 122,
+    "field": "cash_consideration",
+    "pred": "$167.00",
+    "gold": "$167.00 per share"
+  },
+  {
+    "ei": 125,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 126,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 127,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 127,
+    "field": "ticker",
+    "pred": "Nasdaq",
+    "gold": "FSHP, FSHPR, FSHPU"
+  },
+  {
+    "ei": 128,
+    "field": "consideration_type",
+    "pred": "Stock",
+    "gold": "Stock"
+  },
+  {
+    "ei": 129,
+    "field": "isin",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 130,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 131,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 132,
+    "field": "acquirer",
+    "pred": "",
+    "gold": "FortuneX Acquisition Corporation"
+  },
+  {
+    "ei": 132,
+    "field": "target",
+    "pred": "WT REALTY GROUP INC.",
+    "gold": "WT Realty Group Inc."
+  },
+  {
+    "ei": 134,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 135,
+    "field": "shareholder_vote_date",
+    "pred": "October 16, 2026",
+    "gold": "10/16/2026 8:30 AM Eastern Time"
+  },
+  {
+    "ei": 135,
+    "field": "ticker",
+    "pred": "PULM",
+    "gold": "PULM"
+  },
+  {
+    "ei": 136,
+    "field": "shareholder_vote_date",
+    "pred": "October 16, 2026",
+    "gold": "10/16/2026 8:30 AM Eastern Time"
+  },
+  {
+    "ei": 136,
+    "field": "target",
+    "pred": "Pulmatrix",
+    "gold": "Eos SENOLYTIX Inc."
+  },
+  {
+    "ei": 137,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 137,
+    "field": "shareholder_vote_date",
+    "pred": "October 16, 2026",
+    "gold": "10/16/2026 8:30 AM Eastern Time"
+  },
+  {
+    "ei": 137,
+    "field": "target",
+    "pred": "",
+    "gold": "Eos SENOLYTIX Inc."
+  },
+  {
+    "ei": 138,
+    "field": "shareholder_vote_date",
+    "pred": "October 16, 2026",
+    "gold": "6/16/2025"
+  },
+  {
+    "ei": 142,
+    "field": "security_description",
+    "pred": "PubCo Ordinary Shares",
+    "gold": "Class B ordinary shares"
+  },
+  {
+    "ei": 144,
+    "field": "cusip",
+    "pred": "381013101",
+    "gold": "381013101"
+  },
+  {
+    "ei": 144,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 144,
+    "field": "isin",
+    "pred": "US3810131017",
+    "gold": "US3810131017"
+  },
+  {
+    "ei": 145,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "Fully diluted RYVYL common stock × valuation ratio ÷ fully diluted RTB common stock, in RYVYL common shares per share"
+  },
+  {
+    "ei": 153,
+    "field": "effective_date",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 153,
+    "field": "shareholder_vote_date",
+    "pred": "march 18, 2026",
+    "gold": "3/18/2026 4:00 PM Eastern Time"
+  },
+  {
+    "ei": 153,
+    "field": "ticker",
+    "pred": "RVYL",
+    "gold": "RVYL"
+  },
+  {
+    "ei": 154,
+    "field": "cash_consideration",
+    "pred": "$2.75",
+    "gold": "$2.75 per share"
+  },
+  {
+    "ei": 154,
+    "field": "cusip",
+    "pred": "381013101",
+    "gold": "381013101"
+  },
+  {
+    "ei": 154,
+    "field": "isin",
+    "pred": "US3810131017",
+    "gold": "US3810131017"
+  },
+  {
+    "ei": 154,
+    "field": "target",
+    "pred": "",
+    "gold": "Golden Entertainment, Inc."
+  },
+  {
+    "ei": 155,
+    "field": "acquirer",
+    "pred": "GigCapital7",
+    "gold": "GigCapital7 Corp."
+  },
+  {
+    "ei": 155,
+    "field": "security_description",
+    "pred": "Common Stock",
+    "gold": "Common stock"
+  },
+  {
+    "ei": 157,
+    "field": "acquirer",
+    "pred": "Einride AB",
+    "gold": "Einride AB"
+  },
+  {
+    "ei": 158,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 160,
+    "field": "acquirer",
+    "pred": "TL Topco PLC",
+    "gold": "TL Topco PLC"
+  },
+  {
+    "ei": 160,
+    "field": "election_deadline",
+    "pred": "",
+    "gold": ""
+  },
+  {
+    "ei": 161,
+    "field": "acquirer",
+    "pred": "TL Topco PLC",
+    "gold": "TL Topco PLC"
+  },
+  {
+    "ei": 162,
+    "field": "cusip",
+    "pred": "381013101",
+    "gold": "381013101"
+  },
+  {
+    "ei": 162,
+    "field": "isin",
+    "pred": "US3810131017",
+    "gold": "US3810131017"
+  },
+  {
+    "ei": 162,
+    "field": "stock_exchange_ratio",
+    "pred": "0.902 fully paid and nonassessable PropCo Buyer Shares (such merger, the “ Merger ”)",
+    "gold": "0.902 shares of VICI Properties Inc. common stock per share"
+  },
+  {
+    "ei": 163,
+    "field": "cash_consideration",
+    "pred": "$2.75",
+    "gold": "$2.75 per share"
+  },
+  {
+    "ei": 163,
+    "field": "security_description",
+    "pred": "",
+    "gold": "common stock"
+  },
+  {
+    "ei": 165,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "1 share of Boost Run Inc. Class A Common Stock per share"
+  },
+  {
+    "ei": 166,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "1 share of Boost Run Inc. Class A Common Stock per share"
+  },
+  {
+    "ei": 168,
+    "field": "acquirer",
+    "pred": "",
+    "gold": "Boost Run Inc."
+  },
+  {
+    "ei": 171,
+    "field": "cash_consideration",
+    "pred": "$5.80",
+    "gold": "$0.00001 per share"
+  },
+  {
+    "ei": 172,
+    "field": "consideration_type",
+    "pred": "Cash",
+    "gold": "Cash"
+  },
+  {
+    "ei": 174,
+    "field": "stock_exchange_ratio",
+    "pred": "",
+    "gold": "Exchange Ratio shares of Domesticated Purchaser Common Stock per share"
+  },
+  {
+    "ei": 174,
+    "field": "target",
+    "pred": "Controlled Thermal Resources Holdings Inc.",
+    "gold": "Controlled Thermal Resources Holdings Inc."
+  },
+  {
+    "ei": 175,
+    "field": "target",
+    "pred": "",
+    "gold": "Vine Hill Capital Investment Corp."
+  },
+  {
+    "ei": 177,
+    "field": "target",
+    "pred": "CoinShares",
+    "gold": "CoinShares International Limited"
+  }
+]
